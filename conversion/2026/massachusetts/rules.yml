@@ -1,0 +1,10 @@
+# How Massachusetts's printed labels convert into ballot lines.
+#
+# Democratic and Republican are the recognized parties; every other label, including Unenrolled and
+# Independent, is a political designation. "Demo" is the candidate list's own abbreviation for Democratic.
+# Source: Secretary of the Commonwealth, Candidates Guide 2026
+# (https://www.sec.state.ma.us/divisions/elections/download/getting-on-the-ballot/Candidates-Guide-2026.pdf).
+parties:
+  - {code: DEMOCRATIC, name: Democratic, labels: [Democratic, Demo]}
+  - {code: REPUBLICAN, name: Republican, labels: [Republican]}
+other_labels: designation

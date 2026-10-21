@@ -1,0 +1,22 @@
+# How Florida's printed labels convert into ballot lines, and which contests are special elections.
+#
+# Every party label in the data is a party registered with the Division of Elections. "No Party
+# Affiliation (Partisan)" prints as NPA and converts as a political designation; nonpartisan offices
+# print no affiliation, so that label creates no line. Qualified write-ins keep a write-in line.
+# Source: Florida Division of Elections, Political Parties (https://dos.fl.gov/elections/candidates-committees/political-parties/).
+parties:
+  - {code: REPUBLICAN, name: Republican Party of Florida, labels: [Republican Party of Florida]}
+  - {code: DEMOCRATIC, name: Florida Democratic Party, labels: [Florida Democratic Party]}
+  - {code: LIBERTARIAN, name: Libertarian Party of Florida, labels: [Libertarian Party of Florida]}
+  - {code: INDEPENDENT, name: Independent Party of Florida, labels: [Independent Party of Florida]}
+  - {code: CONSTITUTION, name: Constitution Party of Florida, labels: [Constitution Party of Florida]}
+  - {code: AMERICAN_SOLIDARITY, name: American Solidarity Party of Florida, labels: [American Solidarity Party of Florida]}
+  - {code: FORWARD, name: Florida Forward Party, labels: [Florida Forward Party]}
+  - {code: ECOLOGY, name: Ecology Party of Florida, labels: [Ecology Party of Florida]}
+label_kinds:
+  No Party Affiliation (Partisan): designation
+other_labels: unclassified
+unprinted_labels: ['No Party Affiliation (nonpartisan offices)']
+# The SD 21 special is its own DOS election; the U.S. Senate seat is listed under the general election.
+special_elections:
+  - 'election 20261103-S01'

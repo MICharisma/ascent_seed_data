@@ -1,0 +1,12 @@
+# How New York's printed labels convert into ballot lines, and which contests are special elections.
+#
+# Qualified parties receive the greater of 130,000 votes or 2% of the vote in the previous gubernatorial
+# or presidential election. Any other label printed on a New York line belongs to an independent body
+# nominated by petition and converts as a political designation.
+# Source (secondary; confirm with the State Board of Elections): https://en.wikipedia.org/wiki/Qualified_New_York_political_parties
+parties:
+  - {code: DEMOCRATIC, name: Democratic, labels: [Democratic]}
+  - {code: REPUBLICAN, name: Republican, labels: [Republican]}
+  - {code: CONSERVATIVE, name: Conservative, labels: [Conservative]}
+  - {code: WORKING_FAMILIES, name: Working Families, labels: [Working Families]}
+other_labels: designation

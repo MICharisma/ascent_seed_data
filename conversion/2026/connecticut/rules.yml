@@ -1,0 +1,16 @@
+# How Connecticut's printed labels convert into ballot lines.
+#
+# Party names are the CTEMS party table's names for major and minor parties; a minor party nominates
+# only for offices where it has qualified. "Petitioning Candidate" is a petition line, and Berlin's
+# "Non Partisan" label converts as a political designation.
+# Source: the CTEMS election 108 data cited on every row (https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json).
+parties:
+  - {code: DEMOCRATIC, name: Democratic Party, labels: [Democratic Party]}
+  - {code: REPUBLICAN, name: Republican Party, labels: [Republican Party]}
+  - {code: INDEPENDENT, name: Independent Party, labels: [Independent Party]}
+  - {code: WORKING_FAMILIES, name: Working Families Party, labels: [Working Families Party]}
+  - {code: GREEN, name: Green Party, labels: [Green Party]}
+label_kinds:
+  Petitioning Candidate: petition
+  Non Partisan: designation
+other_labels: unclassified

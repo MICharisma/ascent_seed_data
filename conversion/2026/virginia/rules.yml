@@ -1,0 +1,19 @@
+# How Virginia's printed labels convert into ballot lines, and which contests are special elections.
+#
+# Party identification is printed only for federal, statewide, and General Assembly offices
+# (Va. Code § 24.2-613(B)), so local rows get no ballot line even though the candidate list carries a party.
+# The Department of Elections' ballot-label sign lists D, R, G (Green), L (Libertarian), and I (Independent).
+# Whether the Green and Libertarian parties meet the recognized-party test for 2026 is not confirmed here.
+# Source: ELECT-613 Explanation of Political Party Abbreviations
+# (https://elections.virginia.gov/media/formswarehouse/posters-and-publications/election-day-signs/ELECT-613-Explanation-of-Political-Party-Abbreviations-Sign-(general)-rev-9-24.docx).
+parties:
+  - {code: DEMOCRATIC, name: Democratic, labels: [Democratic]}
+  - {code: REPUBLICAN, name: Republican, labels: [Republican]}
+  - {code: LIBERTARIAN, name: Libertarian, labels: [Libertarian]}
+  - {code: GREEN, name: Green, labels: [Green]}
+other_labels: designation
+unprinted_levels: [local]
+# Matched against each row's office title and notes.
+special_elections:
+  - '- Special\z'
+  - 'special election for unexpired term'
