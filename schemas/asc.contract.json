@@ -1,0 +1,820 @@
+{
+  "namespace": "MIC",
+  "catalog": "ASC",
+  "entities": {
+    "Approach": {
+      "attributes": {
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": [
+        "issue"
+      ]
+    },
+    "Candidacy": {
+      "attributes": {
+        "announcement_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "ballot_lines": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "label"
+            ],
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "party",
+                  "designation",
+                  "petition",
+                  "write_in",
+                  "unclassified"
+                ]
+              },
+              "party": {
+                "type": "string",
+                "pattern": "^[A-Z0-9]+(?:[-_][A-Z0-9]+)*$"
+              }
+            }
+          }
+        },
+        "participation": {
+          "type": "string",
+          "enum": [
+            "active",
+            "inactive",
+            "off_ballot"
+          ]
+        },
+        "platform_summary": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "status": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "announced",
+                "active",
+                "withdrawn",
+                "disqualified"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": [
+        "person",
+        "race"
+      ]
+    },
+    "Channel": {
+      "attributes": {
+        "handle": {
+          "type": "string"
+        },
+        "official": {
+          "type": "boolean"
+        },
+        "platform": {
+          "type": "string",
+          "enum": [
+            "website",
+            "youtube",
+            "instagram",
+            "tiktok",
+            "x",
+            "bluesky",
+            "facebook",
+            "threads",
+            "other"
+          ]
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": [
+        "owner"
+      ]
+    },
+    "Communication": {
+      "attributes": {
+        "archived_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "availability": {
+          "type": "string",
+          "enum": [
+            "available",
+            "edited",
+            "removed"
+          ]
+        },
+        "duration_seconds": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "featured_candidacies": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Z0-9]+(?:[-_][A-Z0-9]+)*$"
+          },
+          "uniqueItems": true
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "video",
+            "post",
+            "ad",
+            "speech",
+            "debate",
+            "interview",
+            "platform",
+            "press_release",
+            "mailer",
+            "other"
+          ]
+        },
+        "language": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "published_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "summary": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "url": {
+          "type": "string"
+        }
+      },
+      "references": [
+        "channel"
+      ]
+    },
+    "Country": {
+      "attributes": {
+        "code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": []
+    },
+    "County": {
+      "attributes": {
+        "code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "references": [
+        "state"
+      ]
+    },
+    "District": {
+      "attributes": {
+        "kind": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "references": []
+    },
+    "Election": {
+      "attributes": {
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "early_voting_ends_on": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "early_voting_starts_on": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "election_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "is_historical": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "is_mock": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "kind": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "status": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "upcoming",
+                "active",
+                "completed",
+                "cancelled"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": [
+        "jurisdiction",
+        "year"
+      ]
+    },
+    "Issue": {
+      "attributes": {
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": [
+        "topic"
+      ]
+    },
+    "Municipality": {
+      "attributes": {
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": [
+        "county",
+        "state"
+      ]
+    },
+    "Office": {
+      "attributes": {
+        "is_active": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "seat_code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": [
+        "chamber",
+        "governing_body",
+        "jurisdiction",
+        "position"
+      ]
+    },
+    "Party": {
+      "attributes": {
+        "abbreviation": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "references": [
+        "state"
+      ]
+    },
+    "Person": {
+      "attributes": {
+        "bio": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "birth_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "email": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "first_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "last_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "middle_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "username": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "username_status": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "provisional",
+                "verified"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": []
+    },
+    "Position": {
+      "attributes": {
+        "branch": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "legislative",
+                "executive",
+                "judicial"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "term_length_years": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": []
+    },
+    "Race": {
+      "attributes": {
+        "certification_status": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "certified",
+                "tentative",
+                "unofficial"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "upcoming",
+            "active",
+            "completed",
+            "cancelled"
+          ]
+        }
+      },
+      "references": [
+        "election",
+        "office"
+      ]
+    },
+    "Stance": {
+      "attributes": {
+        "evidence_links": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "explanation": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "priority_level": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": [
+        "approach",
+        "candidacy"
+      ]
+    },
+    "StanceEvidence": {
+      "attributes": {
+        "offset_seconds": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "quote": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "relation": {
+          "type": "string",
+          "enum": [
+            "states",
+            "clarifies",
+            "contradicts"
+          ]
+        }
+      },
+      "references": [
+        "communication",
+        "stance"
+      ]
+    },
+    "State": {
+      "attributes": {
+        "code": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": [
+        "country"
+      ]
+    },
+    "Topic": {
+      "attributes": {
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": []
+    }
+  }
+}

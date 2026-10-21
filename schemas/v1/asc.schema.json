@@ -1,0 +1,1446 @@
+{
+  "type": "object",
+  "properties": {
+    "format": {
+      "const": "micharisma-seeds/v1"
+    },
+    "namespace": {
+      "const": "MIC"
+    },
+    "catalog": {
+      "const": "ASC"
+    },
+    "scope": {
+      "$ref": "#/$defs/scope"
+    },
+    "source": {
+      "$ref": "#/$defs/source"
+    },
+    "entity_sequence": {
+      "$ref": "#/$defs/sequence"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/record"
+      }
+    },
+    "groups": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/group"
+      }
+    }
+  },
+  "required": [
+    "format",
+    "namespace",
+    "catalog"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/MICharisma/ascent_seed_data/main/schemas/v1/asc.schema.json",
+  "$defs": {
+    "code": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_]+(?:-[A-Za-z0-9_]+)*$(?![\\s\\S])"
+    },
+    "token": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_]+$(?![\\s\\S])"
+    },
+    "scope": {
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^[A-Za-z][A-Za-z0-9_]*$(?![\\s\\S])"
+      },
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "type": "string",
+            "pattern": "\\S"
+          },
+          {
+            "type": "integer"
+          }
+        ]
+      }
+    },
+    "source": {
+      "type": "object",
+      "description": "Optional source metadata; URLs and timestamps are not required."
+    },
+    "sequence": {
+      "description": "Numeric or named selection; staged family/member choices are interpreted by the reader.",
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 99
+        },
+        {
+          "type": "string",
+          "pattern": "^(?:[0-9]{1,2}_[0-9]{1,2}|[A-Za-z][A-Za-z0-9_]*)$(?![\\s\\S])"
+        },
+        {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 2,
+          "items": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 99
+              },
+              {
+                "type": "string",
+                "pattern": "^(?:[0-9]{1,2}|[A-Za-z][A-Za-z0-9_]*)$(?![\\s\\S])"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "reference": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/code"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "code": {
+              "$ref": "#/$defs/code"
+            },
+            "entity_sequence": {
+              "$ref": "#/$defs/sequence"
+            },
+            "scope": {
+              "$ref": "#/$defs/scope"
+            },
+            "namespace": {
+              "$ref": "#/$defs/token"
+            },
+            "catalog": {
+              "$ref": "#/$defs/token"
+            }
+          },
+          "required": [
+            "code"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
+    "record": {
+      "type": "object",
+      "properties": {
+        "type": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_]*$(?![\\s\\S])"
+        },
+        "code": {
+          "$ref": "#/$defs/localCode"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/localCode"
+          },
+          "uniqueItems": true
+        },
+        "attributes": {
+          "type": "object"
+        },
+        "references": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/reference"
+          }
+        },
+        "scope": {
+          "$ref": "#/$defs/scope"
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        },
+        "entity_sequence": {
+          "$ref": "#/$defs/sequence"
+        }
+      },
+      "required": [
+        "type",
+        "code"
+      ],
+      "additionalProperties": false,
+      "oneOf": [
+        {
+          "properties": {
+            "type": {
+              "const": "Approach"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "title": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "issue": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Candidacy"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "announcement_date": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "ballot_lines": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "label"
+                    ],
+                    "properties": {
+                      "label": {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      "kind": {
+                        "type": "string",
+                        "enum": [
+                          "party",
+                          "designation",
+                          "petition",
+                          "write_in",
+                          "unclassified"
+                        ]
+                      },
+                      "party": {
+                        "type": "string",
+                        "pattern": "^[A-Z0-9]+(?:[-_][A-Z0-9]+)*$"
+                      }
+                    }
+                  }
+                },
+                "participation": {
+                  "type": "string",
+                  "enum": [
+                    "active",
+                    "inactive",
+                    "off_ballot"
+                  ]
+                },
+                "platform_summary": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "status": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "announced",
+                        "active",
+                        "withdrawn",
+                        "disqualified"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "person": {
+                  "$ref": "#/$defs/reference"
+                },
+                "race": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Channel"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "handle": {
+                  "type": "string"
+                },
+                "official": {
+                  "type": "boolean"
+                },
+                "platform": {
+                  "type": "string",
+                  "enum": [
+                    "website",
+                    "youtube",
+                    "instagram",
+                    "tiktok",
+                    "x",
+                    "bluesky",
+                    "facebook",
+                    "threads",
+                    "other"
+                  ]
+                },
+                "url": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "owner": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Communication"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "archived_url": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "availability": {
+                  "type": "string",
+                  "enum": [
+                    "available",
+                    "edited",
+                    "removed"
+                  ]
+                },
+                "duration_seconds": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "featured_candidacies": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[A-Z0-9]+(?:[-_][A-Z0-9]+)*$"
+                  },
+                  "uniqueItems": true
+                },
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "video",
+                    "post",
+                    "ad",
+                    "speech",
+                    "debate",
+                    "interview",
+                    "platform",
+                    "press_release",
+                    "mailer",
+                    "other"
+                  ]
+                },
+                "language": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "published_on": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "summary": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "title": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "url": {
+                  "type": "string"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "channel": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Country"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "description": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "name": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "County"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "District"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Election"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "early_voting_ends_on": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "early_voting_starts_on": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "election_date": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "is_historical": {
+                  "anyOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "is_mock": {
+                  "anyOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "kind": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                },
+                "status": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "upcoming",
+                        "active",
+                        "completed",
+                        "cancelled"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "jurisdiction": {
+                  "$ref": "#/$defs/reference"
+                },
+                "year": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Issue"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "title": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "topic": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Municipality"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "county": {
+                  "$ref": "#/$defs/reference"
+                },
+                "state": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Office"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "is_active": {
+                  "anyOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "notes": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "seat_code": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "chamber": {
+                  "$ref": "#/$defs/reference"
+                },
+                "governing_body": {
+                  "$ref": "#/$defs/reference"
+                },
+                "jurisdiction": {
+                  "$ref": "#/$defs/reference"
+                },
+                "position": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Party"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "abbreviation": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Person"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "bio": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "birth_date": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "email": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "first_name": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "last_name": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "middle_name": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "username": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "username_status": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "provisional",
+                        "verified"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Position"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "branch": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "legislative",
+                        "executive",
+                        "judicial"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "description": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "term_length_years": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "title": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Race"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "certification_status": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "certified",
+                        "tentative",
+                        "unofficial"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "description": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "status": {
+                  "type": "string",
+                  "enum": [
+                    "upcoming",
+                    "active",
+                    "completed",
+                    "cancelled"
+                  ]
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "election": {
+                  "$ref": "#/$defs/reference"
+                },
+                "office": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Stance"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "evidence_links": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "explanation": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "priority_level": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "approach": {
+                  "$ref": "#/$defs/reference"
+                },
+                "candidacy": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "StanceEvidence"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "offset_seconds": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "quote": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "relation": {
+                  "type": "string",
+                  "enum": [
+                    "states",
+                    "clarifies",
+                    "contradicts"
+                  ]
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "communication": {
+                  "$ref": "#/$defs/reference"
+                },
+                "stance": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "State"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "name": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "country": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Topic"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "title": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      ]
+    },
+    "localCode": {
+      "type": "string",
+      "pattern": "^[A-Z0-9]+(?:[-_][A-Z0-9]+)*$(?![\\s\\S])",
+      "not": {
+        "pattern": "^MIC-ASC-"
+      }
+    },
+    "group": {
+      "type": "object",
+      "properties": {
+        "scope": {
+          "$ref": "#/$defs/scope"
+        },
+        "source": {
+          "$ref": "#/$defs/source"
+        },
+        "entity_sequence": {
+          "$ref": "#/$defs/sequence"
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/record"
+          }
+        },
+        "groups": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/group"
+          }
+        }
+      },
+      "required": [
+
+      ],
+      "additionalProperties": false
+    }
+  },
+  "title": "ASC seed manifest v1",
+  "description": "YAML and JSON input contract. Scope may be inherited; relationships and replay policy require application validation."
+}
