@@ -36,15 +36,15 @@ groups:
       election: ELECTION-USA-VA-2026_GENERAL
       office: OFFICE-USA-VA-SENATOR
   - type: Person
-    code: PERSON-WARNER_MARK_VA_SENATOR
+    code: PERSON-WARNER_MR_8P
     attributes:
-      username: warner_mark_va_senator
+      username: warner_mr_8p
       username_status: provisional
       first_name: Mark
       middle_name: R.
       last_name: Warner
   - type: Candidacy
-    code: CANDIDACY-USA-VA-SENATOR-2026_GENERAL-WARNER_MARK_VA_SENATOR
+    code: CANDIDACY-USA-VA-SENATOR-2026_GENERAL-WARNER_MR_8P
     attributes:
       status: active
       participation: active
@@ -54,16 +54,16 @@ groups:
         party: PARTY-USA-VA-DEMOCRATIC
     references:
       race: RACE-USA-VA-SENATOR-2026_GENERAL
-      person: PERSON-WARNER_MARK_VA_SENATOR
+      person: PERSON-WARNER_MR_8P
   - type: Person
-    code: PERSON-MIZUSAWA_BERT_VA_SENATOR
+    code: PERSON-MIZUSAWA_BR_6F
     attributes:
-      username: mizusawa_bert_va_senator
+      username: mizusawa_br_6f
       username_status: provisional
       first_name: Bert
       last_name: Mizusawa
   - type: Candidacy
-    code: CANDIDACY-USA-VA-SENATOR-2026_GENERAL-MIZUSAWA_BERT_VA_SENATOR
+    code: CANDIDACY-USA-VA-SENATOR-2026_GENERAL-MIZUSAWA_BR_6F
     attributes:
       status: active
       participation: active
@@ -73,4 +73,4 @@ groups:
         party: PARTY-USA-VA-REPUBLICAN
     references:
       race: RACE-USA-VA-SENATOR-2026_GENERAL
-      person: PERSON-MIZUSAWA_BERT_VA_SENATOR
+      person: PERSON-MIZUSAWA_BR_6F
