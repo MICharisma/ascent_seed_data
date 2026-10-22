@@ -470,6 +470,16 @@
             }
           ]
         },
+        "nominee_count": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
         "notes": {
           "anyOf": [
             {
@@ -495,7 +505,48 @@
         "chamber",
         "governing_body",
         "jurisdiction",
+        "nominating_organization",
+        "nominee_for",
         "position"
+      ]
+    },
+    "Organization": {
+      "attributes": {
+        "abbreviation": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "kind": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "union",
+                "advocacy",
+                "business",
+                "media",
+                "civic",
+                "nonpartisan_primary",
+                "other"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "references": [
+        "state"
       ]
     },
     "Party": {

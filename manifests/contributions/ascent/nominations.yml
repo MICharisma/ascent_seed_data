@@ -1,0 +1,29 @@
+# What a primary needs before its races can be added: the Nominee position every nomination office
+# holds, and the placeholder Organizations that nominate in nonpartisan primaries, where the top two
+# (or four) finishers advance to the general election whatever their party.
+# A partisan primary's nomination comes from the state's Party record instead.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent maintainers
+  url: https://www.ncsl.org/elections-and-campaigns/primary-election-types
+  captured_on: "2026-10-22"
+records:
+  - type: Position
+    code: POSITION-NOMINEE
+    attributes:
+      title: Nominee
+      description: A place on a general-election ballot that a primary decides, held for a party or a nonpartisan primary and an office.
+  - type: Organization
+    code: ORGANIZATION-USA-CA-TOP_TWO_PRIMARY
+    attributes: {name: California Top-Two Primary, kind: nonpartisan_primary}
+    references: {state: STATE-USA-CA}
+  - type: Organization
+    code: ORGANIZATION-USA-WA-TOP_TWO_PRIMARY
+    attributes: {name: Washington Top-Two Primary, kind: nonpartisan_primary}
+    references: {state: STATE-USA-WA}
+  - type: Organization
+    code: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+    attributes: {name: Alaska Top-Four Primary, kind: nonpartisan_primary}
+    references: {state: STATE-USA-AK}
