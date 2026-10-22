@@ -1,7 +1,8 @@
 # 2026 U.S. House and U.S. Senate seats for the 45 states + DC not yet converted in races/ (FL, CT, MA, NY, VA already exist in manifests/2026).
 # House: 356 seats + DC Delegate. Senate: 32 races (Class 2 regular + OH Class 3 special). Codes follow manifests/2026/*/congress.yml and statewide.yml.
 # No Candidacy/Person records: candidates must come from official state certified lists (not yet gathered). Party, incumbency and winners intentionally absent.
-# Louisiana House races link to ELECTION-USA-LA-CONGRESS-2026_PRIMARY (Nov 3 open primary) from PR #2.
+# Louisiana House races each belong to their district's Nov 3 open primary (ELECTION-USA-LA-CONGRESS-CD_N-2026_PRIMARY),
+# since a race's office must share its election's jurisdiction; the statewide LA congressional primary in elections_2026.yml stays as the calendar entry.
 format: micharisma-seeds/v1
 namespace: MIC
 catalog: ASC
@@ -2427,6 +2428,84 @@ records:
   attributes:
     name: Louisiana Congressional District 6
     kind: congressional district
+- type: Election
+  code: ELECTION-USA-LA-CONGRESS-CD_1-2026_PRIMARY
+  attributes:
+    name: Louisiana Congressional District 1 Primary Election 2026
+    kind: primary
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+    description: 'U.S. House open primary on the general-election date (HB 842 of 2026), with a Dec 12 runoff. Source: https://www.sos.la.gov/media/dcvl5ojl/051426-fall-house-races.pdf'
+  references:
+    jurisdiction: DISTRICT-USA-LA-CONGRESS-CD_1
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-LA-CONGRESS-CD_2-2026_PRIMARY
+  attributes:
+    name: Louisiana Congressional District 2 Primary Election 2026
+    kind: primary
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+    description: 'U.S. House open primary on the general-election date (HB 842 of 2026), with a Dec 12 runoff. Source: https://www.sos.la.gov/media/dcvl5ojl/051426-fall-house-races.pdf'
+  references:
+    jurisdiction: DISTRICT-USA-LA-CONGRESS-CD_2
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-LA-CONGRESS-CD_3-2026_PRIMARY
+  attributes:
+    name: Louisiana Congressional District 3 Primary Election 2026
+    kind: primary
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+    description: 'U.S. House open primary on the general-election date (HB 842 of 2026), with a Dec 12 runoff. Source: https://www.sos.la.gov/media/dcvl5ojl/051426-fall-house-races.pdf'
+  references:
+    jurisdiction: DISTRICT-USA-LA-CONGRESS-CD_3
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-LA-CONGRESS-CD_4-2026_PRIMARY
+  attributes:
+    name: Louisiana Congressional District 4 Primary Election 2026
+    kind: primary
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+    description: 'U.S. House open primary on the general-election date (HB 842 of 2026), with a Dec 12 runoff. Source: https://www.sos.la.gov/media/dcvl5ojl/051426-fall-house-races.pdf'
+  references:
+    jurisdiction: DISTRICT-USA-LA-CONGRESS-CD_4
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-LA-CONGRESS-CD_5-2026_PRIMARY
+  attributes:
+    name: Louisiana Congressional District 5 Primary Election 2026
+    kind: primary
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+    description: 'U.S. House open primary on the general-election date (HB 842 of 2026), with a Dec 12 runoff. Source: https://www.sos.la.gov/media/dcvl5ojl/051426-fall-house-races.pdf'
+  references:
+    jurisdiction: DISTRICT-USA-LA-CONGRESS-CD_5
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-LA-CONGRESS-CD_6-2026_PRIMARY
+  attributes:
+    name: Louisiana Congressional District 6 Primary Election 2026
+    kind: primary
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+    description: 'U.S. House open primary on the general-election date (HB 842 of 2026), with a Dec 12 runoff. Source: https://www.sos.la.gov/media/dcvl5ojl/051426-fall-house-races.pdf'
+  references:
+    jurisdiction: DISTRICT-USA-LA-CONGRESS-CD_6
+    year: YEAR-2026
 - type: District
   code: DISTRICT-USA-ME-CONGRESS-CD_1
   attributes:
@@ -8410,7 +8489,7 @@ groups:
       status: upcoming
       description: 'Nov 3, 2026 open primary for U.S. House (HB 842 of 2026); Dec 12 runoff/general race not created pending ASC decision. Seats: Census 2020 apportionment https://www.census.gov/data/tables/2020/dec/2020-apportionment-data.html ; cross-check https://www.thegreenpapers.com/G26/House.phtml ; FEC https://www.fec.gov/files/bulk-downloads/2026/cn26.zip ; dates https://www.fec.gov/resources/cms-content/documents/2026pdates.pdf'
     references:
-      election: ELECTION-USA-LA-CONGRESS-2026_PRIMARY
+      election: ELECTION-USA-LA-CONGRESS-CD_1-2026_PRIMARY
       office: OFFICE-USA-LA-CONGRESS-CD_1
 - records:
   - type: Office
@@ -8427,7 +8506,7 @@ groups:
       status: upcoming
       description: 'Nov 3, 2026 open primary for U.S. House (HB 842 of 2026); Dec 12 runoff/general race not created pending ASC decision. Seats: Census 2020 apportionment https://www.census.gov/data/tables/2020/dec/2020-apportionment-data.html ; cross-check https://www.thegreenpapers.com/G26/House.phtml ; FEC https://www.fec.gov/files/bulk-downloads/2026/cn26.zip ; dates https://www.fec.gov/resources/cms-content/documents/2026pdates.pdf'
     references:
-      election: ELECTION-USA-LA-CONGRESS-2026_PRIMARY
+      election: ELECTION-USA-LA-CONGRESS-CD_2-2026_PRIMARY
       office: OFFICE-USA-LA-CONGRESS-CD_2
 - records:
   - type: Office
@@ -8444,7 +8523,7 @@ groups:
       status: upcoming
       description: 'Nov 3, 2026 open primary for U.S. House (HB 842 of 2026); Dec 12 runoff/general race not created pending ASC decision. Seats: Census 2020 apportionment https://www.census.gov/data/tables/2020/dec/2020-apportionment-data.html ; cross-check https://www.thegreenpapers.com/G26/House.phtml ; FEC https://www.fec.gov/files/bulk-downloads/2026/cn26.zip ; dates https://www.fec.gov/resources/cms-content/documents/2026pdates.pdf'
     references:
-      election: ELECTION-USA-LA-CONGRESS-2026_PRIMARY
+      election: ELECTION-USA-LA-CONGRESS-CD_3-2026_PRIMARY
       office: OFFICE-USA-LA-CONGRESS-CD_3
 - records:
   - type: Office
@@ -8461,7 +8540,7 @@ groups:
       status: upcoming
       description: 'Nov 3, 2026 open primary for U.S. House (HB 842 of 2026); Dec 12 runoff/general race not created pending ASC decision. Seats: Census 2020 apportionment https://www.census.gov/data/tables/2020/dec/2020-apportionment-data.html ; cross-check https://www.thegreenpapers.com/G26/House.phtml ; FEC https://www.fec.gov/files/bulk-downloads/2026/cn26.zip ; dates https://www.fec.gov/resources/cms-content/documents/2026pdates.pdf'
     references:
-      election: ELECTION-USA-LA-CONGRESS-2026_PRIMARY
+      election: ELECTION-USA-LA-CONGRESS-CD_4-2026_PRIMARY
       office: OFFICE-USA-LA-CONGRESS-CD_4
 - records:
   - type: Office
@@ -8478,7 +8557,7 @@ groups:
       status: upcoming
       description: 'Nov 3, 2026 open primary for U.S. House (HB 842 of 2026); Dec 12 runoff/general race not created pending ASC decision. Seats: Census 2020 apportionment https://www.census.gov/data/tables/2020/dec/2020-apportionment-data.html ; cross-check https://www.thegreenpapers.com/G26/House.phtml ; FEC https://www.fec.gov/files/bulk-downloads/2026/cn26.zip ; dates https://www.fec.gov/resources/cms-content/documents/2026pdates.pdf'
     references:
-      election: ELECTION-USA-LA-CONGRESS-2026_PRIMARY
+      election: ELECTION-USA-LA-CONGRESS-CD_5-2026_PRIMARY
       office: OFFICE-USA-LA-CONGRESS-CD_5
 - records:
   - type: Office
@@ -8495,7 +8574,7 @@ groups:
       status: upcoming
       description: 'Nov 3, 2026 open primary for U.S. House (HB 842 of 2026); Dec 12 runoff/general race not created pending ASC decision. Seats: Census 2020 apportionment https://www.census.gov/data/tables/2020/dec/2020-apportionment-data.html ; cross-check https://www.thegreenpapers.com/G26/House.phtml ; FEC https://www.fec.gov/files/bulk-downloads/2026/cn26.zip ; dates https://www.fec.gov/resources/cms-content/documents/2026pdates.pdf'
     references:
-      election: ELECTION-USA-LA-CONGRESS-2026_PRIMARY
+      election: ELECTION-USA-LA-CONGRESS-CD_6-2026_PRIMARY
       office: OFFICE-USA-LA-CONGRESS-CD_6
 - records:
   - type: Office
