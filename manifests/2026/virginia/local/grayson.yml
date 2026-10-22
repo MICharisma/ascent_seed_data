@@ -7,16 +7,16 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-GALAX_CITY-2026_SPECIAL
+  code: ELECTION-USA-VA-GALAX-2026_SPECIAL
   attributes:
-    name: Galax City Special Election 2026
+    name: Galax Special Election 2026
     kind: special
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: MUNICIPALITY-USA-VA-GALAX_CITY
+    jurisdiction: MUNICIPALITY-USA-VA-GALAX
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-VA-COUNTY_GRAYSON-2026_GENERAL
@@ -45,21 +45,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-GALAX_CITY-SHERIFF-GALAX_CITY_GRAYSON_COUNTY
+    code: OFFICE-USA-VA-GALAX-SHERIFF-GALAX_CITY_GRAYSON_COUNTY
     attributes:
       seat_code: GALAX_CITY_GRAYSON_COUNTY
       is_active: true
     references:
       position: POSITION-SHERIFF
-      jurisdiction: MUNICIPALITY-USA-VA-GALAX_CITY
+      jurisdiction: MUNICIPALITY-USA-VA-GALAX
   - type: Race
-    code: RACE-USA-VA-GALAX_CITY-SHERIFF-GALAX_CITY_GRAYSON_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-GALAX-SHERIFF-GALAX_CITY_GRAYSON_COUNTY-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-GALAX_CITY-2026_SPECIAL
-      office: OFFICE-USA-VA-GALAX_CITY-SHERIFF-GALAX_CITY_GRAYSON_COUNTY
+      election: ELECTION-USA-VA-GALAX-2026_SPECIAL
+      office: OFFICE-USA-VA-GALAX-SHERIFF-GALAX_CITY_GRAYSON_COUNTY
   - type: Person
     code: PERSON-HASH_GR_2R
     attributes:
@@ -69,12 +69,12 @@ groups:
       middle_name: C.
       last_name: Hash
   - type: Candidacy
-    code: CANDIDACY-USA-VA-GALAX_CITY-SHERIFF-GALAX_CITY_GRAYSON_COUNTY-2026_SPECIAL-HASH_GR_2R
+    code: CANDIDACY-USA-VA-GALAX-SHERIFF-GALAX_CITY_GRAYSON_COUNTY-2026_SPECIAL-HASH_GR_2R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-GALAX_CITY-SHERIFF-GALAX_CITY_GRAYSON_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-GALAX-SHERIFF-GALAX_CITY_GRAYSON_COUNTY-2026_SPECIAL
       person: PERSON-HASH_GR_2R
 - records:
   - type: Office

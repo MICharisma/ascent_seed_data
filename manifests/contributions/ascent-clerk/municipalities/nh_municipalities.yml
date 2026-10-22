@@ -1,0 +1,1650 @@
+# NH: 13 incorporated places (Census 2024 Gazetteer, FUNCSTAT A/B, plus consolidated-government balances) + 221 active-government county subdivisions (FUNCSTAT A: towns/townships/plantations). CDPs excluded.
+# County reference only when the place lies in exactly one county (2020 place-by-county file) or from the subdivision's GEOID.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html
+  captured_on: '2026-10-21'
+scope:
+  state: STATE-USA-NH
+records:
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ACWORTH
+  attributes:
+    name: Acworth
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-SULLIVAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ALBANY
+  attributes:
+    name: Albany
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ALEXANDRIA
+  attributes:
+    name: Alexandria
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ALLENSTOWN
+  attributes:
+    name: Allenstown
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ALSTEAD
+  attributes:
+    name: Alstead
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ALTON
+  attributes:
+    name: Alton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-BELKNAP
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-AMHERST
+  attributes:
+    name: Amherst
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ANDOVER
+  attributes:
+    name: Andover
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ANTRIM
+  attributes:
+    name: Antrim
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ASHLAND
+  attributes:
+    name: Ashland
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ATKINSON
+  attributes:
+    name: Atkinson
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-AUBURN
+  attributes:
+    name: Auburn
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BARNSTEAD
+  attributes:
+    name: Barnstead
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-BELKNAP
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BARRINGTON
+  attributes:
+    name: Barrington
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-STRAFFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BARTLETT
+  attributes:
+    name: Bartlett
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BATH
+  attributes:
+    name: Bath
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BEDFORD
+  attributes:
+    name: Bedford
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BELMONT
+  attributes:
+    name: Belmont
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-BELKNAP
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BENNINGTON
+  attributes:
+    name: Bennington
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BENTON
+  attributes:
+    name: Benton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BERLIN
+  attributes:
+    name: Berlin
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BETHLEHEM
+  attributes:
+    name: Bethlehem
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BOSCAWEN
+  attributes:
+    name: Boscawen
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BOW
+  attributes:
+    name: Bow
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BRADFORD
+  attributes:
+    name: Bradford
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BRENTWOOD
+  attributes:
+    name: Brentwood
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BRIDGEWATER
+  attributes:
+    name: Bridgewater
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BRISTOL
+  attributes:
+    name: Bristol
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BROOKFIELD
+  attributes:
+    name: Brookfield
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-BROOKLINE
+  attributes:
+    name: Brookline
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CAMPTON
+  attributes:
+    name: Campton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CANAAN
+  attributes:
+    name: Canaan
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CANDIA
+  attributes:
+    name: Candia
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CANTERBURY
+  attributes:
+    name: Canterbury
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CARROLL
+  attributes:
+    name: Carroll
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CENTER_HARBOR
+  attributes:
+    name: Center Harbor
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-BELKNAP
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CHARLESTOWN
+  attributes:
+    name: Charlestown
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-SULLIVAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CHATHAM
+  attributes:
+    name: Chatham
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CHESTER
+  attributes:
+    name: Chester
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CHESTERFIELD
+  attributes:
+    name: Chesterfield
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CHICHESTER
+  attributes:
+    name: Chichester
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CLAREMONT
+  attributes:
+    name: Claremont
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-SULLIVAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CLARKSVILLE
+  attributes:
+    name: Clarksville
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-COLEBROOK
+  attributes:
+    name: Colebrook
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-COLUMBIA
+  attributes:
+    name: Columbia
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CONCORD
+  attributes:
+    name: Concord
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CONWAY
+  attributes:
+    name: Conway
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CORNISH
+  attributes:
+    name: Cornish
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-SULLIVAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-CROYDON
+  attributes:
+    name: Croydon
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-SULLIVAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-DALTON
+  attributes:
+    name: Dalton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-DANBURY
+  attributes:
+    name: Danbury
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-DANVILLE
+  attributes:
+    name: Danville
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-DEERFIELD
+  attributes:
+    name: Deerfield
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-DEERING
+  attributes:
+    name: Deering
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-DERRY
+  attributes:
+    name: Derry
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-DORCHESTER
+  attributes:
+    name: Dorchester
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-DOVER
+  attributes:
+    name: Dover
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-STRAFFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-DUBLIN
+  attributes:
+    name: Dublin
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-DUMMER
+  attributes:
+    name: Dummer
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-DUNBARTON
+  attributes:
+    name: Dunbarton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-DURHAM
+  attributes:
+    name: Durham
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-STRAFFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-EASTON
+  attributes:
+    name: Easton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-EAST_KINGSTON
+  attributes:
+    name: East Kingston
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-EATON
+  attributes:
+    name: Eaton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-EFFINGHAM
+  attributes:
+    name: Effingham
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ELLSWORTH
+  attributes:
+    name: Ellsworth
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ENFIELD
+  attributes:
+    name: Enfield
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-EPPING
+  attributes:
+    name: Epping
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-EPSOM
+  attributes:
+    name: Epsom
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ERROL
+  attributes:
+    name: Errol
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-EXETER
+  attributes:
+    name: Exeter
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-FARMINGTON
+  attributes:
+    name: Farmington
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-STRAFFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-FITZWILLIAM
+  attributes:
+    name: Fitzwilliam
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-FRANCESTOWN
+  attributes:
+    name: Francestown
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-FRANCONIA
+  attributes:
+    name: Franconia
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-FRANKLIN
+  attributes:
+    name: Franklin
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-FREEDOM
+  attributes:
+    name: Freedom
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-FREMONT
+  attributes:
+    name: Fremont
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-GILFORD
+  attributes:
+    name: Gilford
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-BELKNAP
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-GILMANTON
+  attributes:
+    name: Gilmanton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-BELKNAP
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-GILSUM
+  attributes:
+    name: Gilsum
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-GOFFSTOWN
+  attributes:
+    name: Goffstown
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-GORHAM
+  attributes:
+    name: Gorham
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-GOSHEN
+  attributes:
+    name: Goshen
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-SULLIVAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-GRAFTON
+  attributes:
+    name: Grafton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-GRANTHAM
+  attributes:
+    name: Grantham
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-SULLIVAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-GREENFIELD
+  attributes:
+    name: Greenfield
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-GREENLAND
+  attributes:
+    name: Greenland
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-GREENVILLE
+  attributes:
+    name: Greenville
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-GROTON
+  attributes:
+    name: Groton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HAMPSTEAD
+  attributes:
+    name: Hampstead
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HAMPTON
+  attributes:
+    name: Hampton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HAMPTON_FALLS
+  attributes:
+    name: Hampton Falls
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HANCOCK
+  attributes:
+    name: Hancock
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HANOVER
+  attributes:
+    name: Hanover
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HARRISVILLE
+  attributes:
+    name: Harrisville
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HART_S_LOCATION
+  attributes:
+    name: Hart's Location
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HAVERHILL
+  attributes:
+    name: Haverhill
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HEBRON
+  attributes:
+    name: Hebron
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HENNIKER
+  attributes:
+    name: Henniker
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HILL
+  attributes:
+    name: Hill
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HILLSBOROUGH
+  attributes:
+    name: Hillsborough
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HINSDALE
+  attributes:
+    name: Hinsdale
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HOLDERNESS
+  attributes:
+    name: Holderness
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HOLLIS
+  attributes:
+    name: Hollis
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HOOKSETT
+  attributes:
+    name: Hooksett
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HOPKINTON
+  attributes:
+    name: Hopkinton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-HUDSON
+  attributes:
+    name: Hudson
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-JACKSON
+  attributes:
+    name: Jackson
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-JAFFREY
+  attributes:
+    name: Jaffrey
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-JEFFERSON
+  attributes:
+    name: Jefferson
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-KEENE
+  attributes:
+    name: Keene
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-KENSINGTON
+  attributes:
+    name: Kensington
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-KINGSTON
+  attributes:
+    name: Kingston
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-LACONIA
+  attributes:
+    name: Laconia
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-BELKNAP
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-LANCASTER
+  attributes:
+    name: Lancaster
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-LANDAFF
+  attributes:
+    name: Landaff
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-LANGDON
+  attributes:
+    name: Langdon
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-SULLIVAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-LEBANON
+  attributes:
+    name: Lebanon
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-LEE
+  attributes:
+    name: Lee
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-STRAFFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-LEMPSTER
+  attributes:
+    name: Lempster
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-SULLIVAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-LINCOLN
+  attributes:
+    name: Lincoln
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-LISBON
+  attributes:
+    name: Lisbon
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-LITCHFIELD
+  attributes:
+    name: Litchfield
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-LITTLETON
+  attributes:
+    name: Littleton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-LONDONDERRY
+  attributes:
+    name: Londonderry
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-LOUDON
+  attributes:
+    name: Loudon
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-LYMAN
+  attributes:
+    name: Lyman
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-LYME
+  attributes:
+    name: Lyme
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-LYNDEBOROUGH
+  attributes:
+    name: Lyndeborough
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-MADBURY
+  attributes:
+    name: Madbury
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-STRAFFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-MADISON
+  attributes:
+    name: Madison
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-MANCHESTER
+  attributes:
+    name: Manchester
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-MARLBOROUGH
+  attributes:
+    name: Marlborough
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-MARLOW
+  attributes:
+    name: Marlow
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-MASON
+  attributes:
+    name: Mason
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-MEREDITH
+  attributes:
+    name: Meredith
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-BELKNAP
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-MERRIMACK
+  attributes:
+    name: Merrimack
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-MIDDLETON
+  attributes:
+    name: Middleton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-STRAFFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-MILAN
+  attributes:
+    name: Milan
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-MILFORD
+  attributes:
+    name: Milford
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-MILTON
+  attributes:
+    name: Milton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-STRAFFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-MONROE
+  attributes:
+    name: Monroe
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-MONT_VERNON
+  attributes:
+    name: Mont Vernon
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-MOULTONBOROUGH
+  attributes:
+    name: Moultonborough
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NASHUA
+  attributes:
+    name: Nashua
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NELSON
+  attributes:
+    name: Nelson
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NEWBURY
+  attributes:
+    name: Newbury
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NEWFIELDS
+  attributes:
+    name: Newfields
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NEWINGTON
+  attributes:
+    name: Newington
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NEWMARKET
+  attributes:
+    name: Newmarket
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NEWPORT
+  attributes:
+    name: Newport
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-SULLIVAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NEWTON
+  attributes:
+    name: Newton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NEW_BOSTON
+  attributes:
+    name: New Boston
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NEW_CASTLE
+  attributes:
+    name: New Castle
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NEW_DURHAM
+  attributes:
+    name: New Durham
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-STRAFFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NEW_HAMPTON
+  attributes:
+    name: New Hampton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-BELKNAP
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NEW_IPSWICH
+  attributes:
+    name: New Ipswich
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NEW_LONDON
+  attributes:
+    name: New London
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NORTHFIELD
+  attributes:
+    name: Northfield
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NORTHUMBERLAND
+  attributes:
+    name: Northumberland
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NORTHWOOD
+  attributes:
+    name: Northwood
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NORTH_HAMPTON
+  attributes:
+    name: North Hampton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-NOTTINGHAM
+  attributes:
+    name: Nottingham
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ORANGE
+  attributes:
+    name: Orange
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ORFORD
+  attributes:
+    name: Orford
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-OSSIPEE
+  attributes:
+    name: Ossipee
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-PELHAM
+  attributes:
+    name: Pelham
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-PEMBROKE
+  attributes:
+    name: Pembroke
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-PETERBOROUGH
+  attributes:
+    name: Peterborough
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-PIERMONT
+  attributes:
+    name: Piermont
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-PITTSBURG
+  attributes:
+    name: Pittsburg
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-PITTSFIELD
+  attributes:
+    name: Pittsfield
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-PLAINFIELD
+  attributes:
+    name: Plainfield
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-SULLIVAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-PLAISTOW
+  attributes:
+    name: Plaistow
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-PLYMOUTH
+  attributes:
+    name: Plymouth
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-PORTSMOUTH
+  attributes:
+    name: Portsmouth
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-RANDOLPH
+  attributes:
+    name: Randolph
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-RAYMOND
+  attributes:
+    name: Raymond
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-RICHMOND
+  attributes:
+    name: Richmond
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-RINDGE
+  attributes:
+    name: Rindge
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ROCHESTER
+  attributes:
+    name: Rochester
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-STRAFFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ROLLINSFORD
+  attributes:
+    name: Rollinsford
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-STRAFFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-ROXBURY
+  attributes:
+    name: Roxbury
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-RUMNEY
+  attributes:
+    name: Rumney
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-RYE
+  attributes:
+    name: Rye
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SALEM
+  attributes:
+    name: Salem
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SALISBURY
+  attributes:
+    name: Salisbury
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SANBORNTON
+  attributes:
+    name: Sanbornton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-BELKNAP
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SANDOWN
+  attributes:
+    name: Sandown
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SANDWICH
+  attributes:
+    name: Sandwich
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SEABROOK
+  attributes:
+    name: Seabrook
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SHARON
+  attributes:
+    name: Sharon
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SHELBURNE
+  attributes:
+    name: Shelburne
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SOMERSWORTH
+  attributes:
+    name: Somersworth
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-STRAFFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SOUTH_HAMPTON
+  attributes:
+    name: South Hampton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SPRINGFIELD
+  attributes:
+    name: Springfield
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-SULLIVAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-STARK
+  attributes:
+    name: Stark
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-STEWARTSTOWN
+  attributes:
+    name: Stewartstown
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-STODDARD
+  attributes:
+    name: Stoddard
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-STRAFFORD
+  attributes:
+    name: Strafford
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-STRAFFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-STRATFORD
+  attributes:
+    name: Stratford
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-STRATHAM
+  attributes:
+    name: Stratham
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SUGAR_HILL
+  attributes:
+    name: Sugar Hill
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SULLIVAN
+  attributes:
+    name: Sullivan
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SUNAPEE
+  attributes:
+    name: Sunapee
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-SULLIVAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SURRY
+  attributes:
+    name: Surry
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SUTTON
+  attributes:
+    name: Sutton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-SWANZEY
+  attributes:
+    name: Swanzey
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-TAMWORTH
+  attributes:
+    name: Tamworth
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-TEMPLE
+  attributes:
+    name: Temple
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-THORNTON
+  attributes:
+    name: Thornton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-TILTON
+  attributes:
+    name: Tilton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-BELKNAP
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-TROY
+  attributes:
+    name: Troy
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-TUFTONBORO
+  attributes:
+    name: Tuftonboro
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-UNITY
+  attributes:
+    name: Unity
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-SULLIVAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WAKEFIELD
+  attributes:
+    name: Wakefield
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WALPOLE
+  attributes:
+    name: Walpole
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WARNER
+  attributes:
+    name: Warner
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WARREN
+  attributes:
+    name: Warren
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WASHINGTON
+  attributes:
+    name: Washington
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-SULLIVAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WATERVILLE_VALLEY
+  attributes:
+    name: Waterville Valley
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WEARE
+  attributes:
+    name: Weare
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WEBSTER
+  attributes:
+    name: Webster
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WENTWORTH
+  attributes:
+    name: Wentworth
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WESTMORELAND
+  attributes:
+    name: Westmoreland
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WHITEFIELD
+  attributes:
+    name: Whitefield
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-COOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WILMOT
+  attributes:
+    name: Wilmot
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-MERRIMACK
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WILTON
+  attributes:
+    name: Wilton
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WINCHESTER
+  attributes:
+    name: Winchester
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CHESHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WINDHAM
+  attributes:
+    name: Windham
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-ROCKINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WINDSOR
+  attributes:
+    name: Windsor
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WOLFEBORO
+  attributes:
+    name: Wolfeboro
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-CARROLL
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-WOODSTOCK
+  attributes:
+    name: Woodstock
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-GRAFTON

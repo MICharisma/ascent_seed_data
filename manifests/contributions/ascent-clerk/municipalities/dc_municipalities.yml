@@ -1,0 +1,19 @@
+# DC: 1 incorporated places (Census 2024 Gazetteer, FUNCSTAT A/B, plus consolidated-government balances) + 0 active-government county subdivisions (FUNCSTAT A: towns/townships/plantations). CDPs excluded.
+# County reference only when the place lies in exactly one county (2020 place-by-county file) or from the subdivision's GEOID.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html
+  captured_on: '2026-10-21'
+scope:
+  state: STATE-USA-DC
+records:
+- type: Municipality
+  code: MUNICIPALITY-USA-DC-WASHINGTON
+  attributes:
+    name: Washington
+  references:
+    state: STATE-USA-DC
+    county: COUNTY-USA-DC-DISTRICT_OF_COLUMBIA

@@ -163,7 +163,7 @@ records:
     jurisdiction: MUNICIPALITY-USA-CT-SPRAGUE
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-CT-STONINGTON-2026_GENERAL
+  code: ELECTION-USA-CT-STONINGTON_TOWN-2026_GENERAL
   attributes:
     name: Stonington General Election 2026
     kind: general
@@ -172,7 +172,7 @@ records:
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: MUNICIPALITY-USA-CT-STONINGTON
+    jurisdiction: MUNICIPALITY-USA-CT-STONINGTON_TOWN
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-CT-WATERFORD-2026_GENERAL
@@ -861,20 +861,20 @@ groups:
       person: PERSON-CROUCH_BR_7V
 - records:
   - type: Office
-    code: OFFICE-USA-CT-STONINGTON-REGISTRAR_OF_VOTERS
+    code: OFFICE-USA-CT-STONINGTON_TOWN-REGISTRAR_OF_VOTERS
     attributes:
       is_active: true
     references:
       position: POSITION-REGISTRAR_OF_VOTERS
-      jurisdiction: MUNICIPALITY-USA-CT-STONINGTON
+      jurisdiction: MUNICIPALITY-USA-CT-STONINGTON_TOWN
   - type: Race
-    code: RACE-USA-CT-STONINGTON-REGISTRAR_OF_VOTERS-2026_GENERAL
+    code: RACE-USA-CT-STONINGTON_TOWN-REGISTRAR_OF_VOTERS-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
     references:
-      election: ELECTION-USA-CT-STONINGTON-2026_GENERAL
-      office: OFFICE-USA-CT-STONINGTON-REGISTRAR_OF_VOTERS
+      election: ELECTION-USA-CT-STONINGTON_TOWN-2026_GENERAL
+      office: OFFICE-USA-CT-STONINGTON_TOWN-REGISTRAR_OF_VOTERS
   - type: Person
     code: PERSON-OKEEFE_KR_2V
     attributes:
@@ -883,7 +883,7 @@ groups:
       first_name: Karen
       last_name: O'Keefe
   - type: Candidacy
-    code: CANDIDACY-USA-CT-STONINGTON-REGISTRAR_OF_VOTERS-2026_GENERAL-OKEEFE_KR_2V
+    code: CANDIDACY-USA-CT-STONINGTON_TOWN-REGISTRAR_OF_VOTERS-2026_GENERAL-OKEEFE_KR_2V
     attributes:
       status: active
       participation: active
@@ -892,7 +892,7 @@ groups:
         kind: party
         party: PARTY-USA-CT-DEMOCRATIC
     references:
-      race: RACE-USA-CT-STONINGTON-REGISTRAR_OF_VOTERS-2026_GENERAL
+      race: RACE-USA-CT-STONINGTON_TOWN-REGISTRAR_OF_VOTERS-2026_GENERAL
       person: PERSON-OKEEFE_KR_2V
   - type: Person
     code: PERSON-ROBERTS_PG_5U
@@ -902,7 +902,7 @@ groups:
       first_name: Peggy
       last_name: Roberts
   - type: Candidacy
-    code: CANDIDACY-USA-CT-STONINGTON-REGISTRAR_OF_VOTERS-2026_GENERAL-ROBERTS_PG_5U
+    code: CANDIDACY-USA-CT-STONINGTON_TOWN-REGISTRAR_OF_VOTERS-2026_GENERAL-ROBERTS_PG_5U
     attributes:
       status: active
       participation: active
@@ -911,7 +911,7 @@ groups:
         kind: party
         party: PARTY-USA-CT-REPUBLICAN
     references:
-      race: RACE-USA-CT-STONINGTON-REGISTRAR_OF_VOTERS-2026_GENERAL
+      race: RACE-USA-CT-STONINGTON_TOWN-REGISTRAR_OF_VOTERS-2026_GENERAL
       person: PERSON-ROBERTS_PG_5U
 - records:
   - type: Office

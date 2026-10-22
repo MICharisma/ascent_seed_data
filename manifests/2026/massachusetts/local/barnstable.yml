@@ -19,16 +19,16 @@ records:
     jurisdiction: COUNTY-USA-MA-BARNSTABLE
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-MA-BARNSTABLE-2026_GENERAL
+  code: ELECTION-USA-MA-BARNSTABLE_TOWN-2026_GENERAL
   attributes:
-    name: Barnstable General Election 2026
+    name: Barnstable Town General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: MUNICIPALITY-USA-MA-BARNSTABLE
+    jurisdiction: MUNICIPALITY-USA-MA-BARNSTABLE_TOWN
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-MA-BOURNE-2026_GENERAL
@@ -283,21 +283,21 @@ groups:
       person: PERSON-HOGUE_AD_4V
 - records:
   - type: Office
-    code: OFFICE-USA-MA-BARNSTABLE-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE
+    code: OFFICE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE
     attributes:
       seat_code: BARNSTABLE
       is_active: true
     references:
       position: POSITION-BARNSTABLE_ASSEMBLY_DELEGATE
-      jurisdiction: MUNICIPALITY-USA-MA-BARNSTABLE
+      jurisdiction: MUNICIPALITY-USA-MA-BARNSTABLE_TOWN
   - type: Race
-    code: RACE-USA-MA-BARNSTABLE-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE-2026_GENERAL
+    code: RACE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
-      election: ELECTION-USA-MA-BARNSTABLE-2026_GENERAL
-      office: OFFICE-USA-MA-BARNSTABLE-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE
+      election: ELECTION-USA-MA-BARNSTABLE_TOWN-2026_GENERAL
+      office: OFFICE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE
   - type: Person
     code: PERSON-FREDERICKSON_FR_7S
     attributes:
@@ -307,12 +307,12 @@ groups:
       middle_name: George
       last_name: Frederickson
   - type: Candidacy
-    code: CANDIDACY-USA-MA-BARNSTABLE-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE-2026_GENERAL-FREDERICKSON_FR_7S
+    code: CANDIDACY-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE-2026_GENERAL-FREDERICKSON_FR_7S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-BARNSTABLE-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE-2026_GENERAL
+      race: RACE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE-2026_GENERAL
       person: PERSON-FREDERICKSON_FR_7S
   - type: Person
     code: PERSON-CAPLAN_IS_5F
@@ -323,12 +323,12 @@ groups:
       middle_name: Kerxhalli
       last_name: Caplan
   - type: Candidacy
-    code: CANDIDACY-USA-MA-BARNSTABLE-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE-2026_GENERAL-CAPLAN_IS_5F
+    code: CANDIDACY-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE-2026_GENERAL-CAPLAN_IS_5F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-BARNSTABLE-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE-2026_GENERAL
+      race: RACE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE-2026_GENERAL
       person: PERSON-CAPLAN_IS_5F
 - records:
   - type: Office
@@ -726,21 +726,21 @@ groups:
       person: PERSON-WARNER_SS_8X
 - records:
   - type: Office
-    code: OFFICE-USA-MA-BARNSTABLE-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BARNSTABLE
+    code: OFFICE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BARNSTABLE
     attributes:
       seat_code: BARNSTABLE
       is_active: true
     references:
       position: POSITION-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER
-      jurisdiction: MUNICIPALITY-USA-MA-BARNSTABLE
+      jurisdiction: MUNICIPALITY-USA-MA-BARNSTABLE_TOWN
   - type: Race
-    code: RACE-USA-MA-BARNSTABLE-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BARNSTABLE-2026_GENERAL
+    code: RACE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BARNSTABLE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
-      election: ELECTION-USA-MA-BARNSTABLE-2026_GENERAL
-      office: OFFICE-USA-MA-BARNSTABLE-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BARNSTABLE
+      election: ELECTION-USA-MA-BARNSTABLE_TOWN-2026_GENERAL
+      office: OFFICE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BARNSTABLE
   - type: Person
     code: PERSON-PRINCI_PT_3U
     attributes:
@@ -750,12 +750,12 @@ groups:
       middle_name: M.
       last_name: Princi
   - type: Candidacy
-    code: CANDIDACY-USA-MA-BARNSTABLE-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BARNSTABLE-2026_GENERAL-PRINCI_PT_3U
+    code: CANDIDACY-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BARNSTABLE-2026_GENERAL-PRINCI_PT_3U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-BARNSTABLE-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BARNSTABLE-2026_GENERAL
+      race: RACE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BARNSTABLE-2026_GENERAL
       person: PERSON-PRINCI_PT_3U
 - records:
   - type: Office

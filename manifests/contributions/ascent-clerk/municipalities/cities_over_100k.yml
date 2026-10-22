@@ -1,0 +1,2335 @@
+# 341 incorporated places with July 1, 2024 population estimate >= 100,000 (Census Vintage 2024 SUB-EST2024, SUMLEV 162), sorted by population.
+# Excludes Urban Honolulu CDP (not a government; City & County of Honolulu is a county) and towns/townships over 100k (e.g. NY towns) - see README/Linear.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www2.census.gov/programs-surveys/popest/datasets/2020-2024/cities/totals/sub-est2024.csv
+  captured_on: '2026-10-21'
+records:
+- type: Municipality
+  code: MUNICIPALITY-USA-NY-NEW_YORK
+  attributes:
+    name: New York
+  references:
+    state: STATE-USA-NY
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-LOS_ANGELES
+  attributes:
+    name: Los Angeles
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-LOS_ANGELES
+- type: Municipality
+  code: MUNICIPALITY-USA-IL-CHICAGO
+  attributes:
+    name: Chicago
+  references:
+    state: STATE-USA-IL
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-HOUSTON
+  attributes:
+    name: Houston
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-PHOENIX
+  attributes:
+    name: Phoenix
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-PA-PHILADELPHIA
+  attributes:
+    name: Philadelphia
+  references:
+    state: STATE-USA-PA
+    county: COUNTY-USA-PA-PHILADELPHIA
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-SAN_ANTONIO
+  attributes:
+    name: San Antonio
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-SAN_DIEGO
+  attributes:
+    name: San Diego
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_DIEGO
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-DALLAS
+  attributes:
+    name: Dallas
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-JACKSONVILLE
+  attributes:
+    name: Jacksonville
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-DUVAL
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-FORT_WORTH
+  attributes:
+    name: Fort Worth
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-SAN_JOSE
+  attributes:
+    name: San Jose
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SANTA_CLARA
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-AUSTIN
+  attributes:
+    name: Austin
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-NC-CHARLOTTE
+  attributes:
+    name: Charlotte
+  references:
+    state: STATE-USA-NC
+    county: COUNTY-USA-NC-MECKLENBURG
+- type: Municipality
+  code: MUNICIPALITY-USA-OH-COLUMBUS
+  attributes:
+    name: Columbus
+  references:
+    state: STATE-USA-OH
+- type: Municipality
+  code: MUNICIPALITY-USA-IN-INDIANAPOLIS
+  attributes:
+    name: Indianapolis
+  references:
+    state: STATE-USA-IN
+    county: COUNTY-USA-IN-MARION
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-SAN_FRANCISCO
+  attributes:
+    name: San Francisco
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_FRANCISCO
+- type: Municipality
+  code: MUNICIPALITY-USA-WA-SEATTLE
+  attributes:
+    name: Seattle
+  references:
+    state: STATE-USA-WA
+    county: COUNTY-USA-WA-KING
+- type: Municipality
+  code: MUNICIPALITY-USA-CO-DENVER
+  attributes:
+    name: Denver
+  references:
+    state: STATE-USA-CO
+    county: COUNTY-USA-CO-DENVER
+- type: Municipality
+  code: MUNICIPALITY-USA-OK-OKLAHOMA_CITY
+  attributes:
+    name: Oklahoma City
+  references:
+    state: STATE-USA-OK
+- type: Municipality
+  code: MUNICIPALITY-USA-TN-NASHVILLE_DAVIDSON
+  attributes:
+    name: Nashville-Davidson
+  references:
+    state: STATE-USA-TN
+    county: COUNTY-USA-TN-DAVIDSON
+- type: Municipality
+  code: MUNICIPALITY-USA-DC-WASHINGTON
+  attributes:
+    name: Washington
+  references:
+    state: STATE-USA-DC
+    county: COUNTY-USA-DC-DISTRICT_OF_COLUMBIA
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-EL_PASO
+  attributes:
+    name: El Paso
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-EL_PASO
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-LAS_VEGAS
+  attributes:
+    name: Las Vegas
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-CLARK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BOSTON
+  attributes:
+    name: Boston
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-SUFFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MI-DETROIT
+  attributes:
+    name: Detroit
+  references:
+    state: STATE-USA-MI
+    county: COUNTY-USA-MI-WAYNE
+- type: Municipality
+  code: MUNICIPALITY-USA-KY-LOUISVILLE_JEFFERSON_COUNTY
+  attributes:
+    name: Louisville/Jefferson County
+  references:
+    state: STATE-USA-KY
+    county: COUNTY-USA-KY-JEFFERSON
+- type: Municipality
+  code: MUNICIPALITY-USA-OR-PORTLAND
+  attributes:
+    name: Portland
+  references:
+    state: STATE-USA-OR
+- type: Municipality
+  code: MUNICIPALITY-USA-TN-MEMPHIS
+  attributes:
+    name: Memphis
+  references:
+    state: STATE-USA-TN
+    county: COUNTY-USA-TN-SHELBY
+- type: Municipality
+  code: MUNICIPALITY-USA-MD-BALTIMORE
+  attributes:
+    name: Baltimore
+  references:
+    state: STATE-USA-MD
+    county: COUNTY-USA-MD-BALTIMORE_CITY
+- type: Municipality
+  code: MUNICIPALITY-USA-WI-MILWAUKEE
+  attributes:
+    name: Milwaukee
+  references:
+    state: STATE-USA-WI
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-ALBUQUERQUE
+  attributes:
+    name: Albuquerque
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-BERNALILLO
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-TUCSON
+  attributes:
+    name: Tucson
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-PIMA
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-FRESNO
+  attributes:
+    name: Fresno
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-FRESNO
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-SACRAMENTO
+  attributes:
+    name: Sacramento
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SACRAMENTO
+- type: Municipality
+  code: MUNICIPALITY-USA-GA-ATLANTA
+  attributes:
+    name: Atlanta
+  references:
+    state: STATE-USA-GA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-MESA
+  attributes:
+    name: Mesa
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-MO-KANSAS_CITY
+  attributes:
+    name: Kansas City
+  references:
+    state: STATE-USA-MO
+- type: Municipality
+  code: MUNICIPALITY-USA-NC-RALEIGH
+  attributes:
+    name: Raleigh
+  references:
+    state: STATE-USA-NC
+- type: Municipality
+  code: MUNICIPALITY-USA-CO-COLORADO_SPRINGS
+  attributes:
+    name: Colorado Springs
+  references:
+    state: STATE-USA-CO
+    county: COUNTY-USA-CO-EL_PASO
+- type: Municipality
+  code: MUNICIPALITY-USA-NE-OMAHA_CITY
+  attributes:
+    name: Omaha
+  references:
+    state: STATE-USA-NE
+    county: COUNTY-USA-NE-DOUGLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MIAMI
+  attributes:
+    name: Miami
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-VA-VIRGINIA_BEACH
+  attributes:
+    name: Virginia Beach
+  references:
+    state: STATE-USA-VA
+    county: COUNTY-USA-VA-VIRGINIA_BEACH_CITY
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-LONG_BEACH
+  attributes:
+    name: Long Beach
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-LOS_ANGELES
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-OAKLAND
+  attributes:
+    name: Oakland
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-ALAMEDA
+- type: Municipality
+  code: MUNICIPALITY-USA-MN-MINNEAPOLIS
+  attributes:
+    name: Minneapolis
+  references:
+    state: STATE-USA-MN
+    county: COUNTY-USA-MN-HENNEPIN
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-BAKERSFIELD
+  attributes:
+    name: Bakersfield
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-KERN
+- type: Municipality
+  code: MUNICIPALITY-USA-OK-TULSA
+  attributes:
+    name: Tulsa
+  references:
+    state: STATE-USA-OK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-TAMPA
+  attributes:
+    name: Tampa
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-ARLINGTON
+  attributes:
+    name: Arlington
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-TARRANT
+- type: Municipality
+  code: MUNICIPALITY-USA-CO-AURORA
+  attributes:
+    name: Aurora
+  references:
+    state: STATE-USA-CO
+- type: Municipality
+  code: MUNICIPALITY-USA-KS-WICHITA
+  attributes:
+    name: Wichita
+  references:
+    state: STATE-USA-KS
+    county: COUNTY-USA-KS-SEDGWICK
+- type: Municipality
+  code: MUNICIPALITY-USA-OH-CLEVELAND
+  attributes:
+    name: Cleveland
+  references:
+    state: STATE-USA-OH
+    county: COUNTY-USA-OH-CUYAHOGA
+- type: Municipality
+  code: MUNICIPALITY-USA-LA-NEW_ORLEANS
+  attributes:
+    name: New Orleans
+  references:
+    state: STATE-USA-LA
+    county: COUNTY-USA-LA-ORLEANS
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-HENDERSON
+  attributes:
+    name: Henderson
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-CLARK
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-ANAHEIM
+  attributes:
+    name: Anaheim
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ORLANDO
+  attributes:
+    name: Orlando
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-KY-LEXINGTON_FAYETTE
+  attributes:
+    name: Lexington-Fayette
+  references:
+    state: STATE-USA-KY
+    county: COUNTY-USA-KY-FAYETTE
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-STOCKTON
+  attributes:
+    name: Stockton
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_JOAQUIN
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-RIVERSIDE
+  attributes:
+    name: Riverside
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-RIVERSIDE
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-IRVINE
+  attributes:
+    name: Irvine
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-CORPUS_CHRISTI
+  attributes:
+    name: Corpus Christi
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NEWARK
+  attributes:
+    name: Newark
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-SANTA_ANA
+  attributes:
+    name: Santa Ana
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-OH-CINCINNATI
+  attributes:
+    name: Cincinnati
+  references:
+    state: STATE-USA-OH
+    county: COUNTY-USA-OH-HAMILTON
+- type: Municipality
+  code: MUNICIPALITY-USA-PA-PITTSBURGH
+  attributes:
+    name: Pittsburgh
+  references:
+    state: STATE-USA-PA
+    county: COUNTY-USA-PA-ALLEGHENY
+- type: Municipality
+  code: MUNICIPALITY-USA-MN-ST_PAUL
+  attributes:
+    name: St. Paul
+  references:
+    state: STATE-USA-MN
+    county: COUNTY-USA-MN-RAMSEY
+- type: Municipality
+  code: MUNICIPALITY-USA-NC-GREENSBORO
+  attributes:
+    name: Greensboro
+  references:
+    state: STATE-USA-NC
+    county: COUNTY-USA-NC-GUILFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-JERSEY_CITY
+  attributes:
+    name: Jersey City
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUDSON
+- type: Municipality
+  code: MUNICIPALITY-USA-NC-DURHAM
+  attributes:
+    name: Durham
+  references:
+    state: STATE-USA-NC
+- type: Municipality
+  code: MUNICIPALITY-USA-NE-LINCOLN_CITY
+  attributes:
+    name: Lincoln
+  references:
+    state: STATE-USA-NE
+    county: COUNTY-USA-NE-LANCASTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-NORTH_LAS_VEGAS
+  attributes:
+    name: North Las Vegas
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-CLARK
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-PLANO
+  attributes:
+    name: Plano
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ANCHORAGE
+  attributes:
+    name: Anchorage
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-ANCHORAGE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-GILBERT
+  attributes:
+    name: Gilbert
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-WI-MADISON
+  attributes:
+    name: Madison
+  references:
+    state: STATE-USA-WI
+    county: COUNTY-USA-WI-DANE
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-RENO
+  attributes:
+    name: Reno
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-WASHOE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-CHANDLER
+  attributes:
+    name: Chandler
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-MO-ST_LOUIS
+  attributes:
+    name: St. Louis
+  references:
+    state: STATE-USA-MO
+    county: COUNTY-USA-MO-ST_LOUIS_CITY
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-CHULA_VISTA
+  attributes:
+    name: Chula Vista
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_DIEGO
+- type: Municipality
+  code: MUNICIPALITY-USA-NY-BUFFALO
+  attributes:
+    name: Buffalo
+  references:
+    state: STATE-USA-NY
+    county: COUNTY-USA-NY-ERIE
+- type: Municipality
+  code: MUNICIPALITY-USA-IN-FORT_WAYNE
+  attributes:
+    name: Fort Wayne
+  references:
+    state: STATE-USA-IN
+    county: COUNTY-USA-IN-ALLEN
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-LUBBOCK
+  attributes:
+    name: Lubbock
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-LUBBOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ST_PETERSBURG
+  attributes:
+    name: St. Petersburg
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-OH-TOLEDO
+  attributes:
+    name: Toledo
+  references:
+    state: STATE-USA-OH
+    county: COUNTY-USA-OH-LUCAS
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-LAREDO
+  attributes:
+    name: Laredo
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-WEBB
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PORT_ST_LUCIE
+  attributes:
+    name: Port St. Lucie
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ST_LUCIE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-GLENDALE
+  attributes:
+    name: Glendale
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-IRVING
+  attributes:
+    name: Irving
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-DALLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-NC-WINSTON_SALEM
+  attributes:
+    name: Winston-Salem
+  references:
+    state: STATE-USA-NC
+    county: COUNTY-USA-NC-FORSYTH
+- type: Municipality
+  code: MUNICIPALITY-USA-VA-CHESAPEAKE
+  attributes:
+    name: Chesapeake
+  references:
+    state: STATE-USA-VA
+    county: COUNTY-USA-VA-CHESAPEAKE_CITY
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-GARLAND
+  attributes:
+    name: Garland
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-SCOTTSDALE
+  attributes:
+    name: Scottsdale
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-BOISE_CITY
+  attributes:
+    name: Boise City
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-ADA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HIALEAH
+  attributes:
+    name: Hialeah
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-FRISCO
+  attributes:
+    name: Frisco
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-VA-RICHMOND
+  attributes:
+    name: Richmond
+  references:
+    state: STATE-USA-VA
+    county: COUNTY-USA-VA-RICHMOND_CITY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CAPE_CORAL
+  attributes:
+    name: Cape Coral
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LEE
+- type: Municipality
+  code: MUNICIPALITY-USA-VA-NORFOLK
+  attributes:
+    name: Norfolk
+  references:
+    state: STATE-USA-VA
+    county: COUNTY-USA-VA-NORFOLK_CITY
+- type: Municipality
+  code: MUNICIPALITY-USA-WA-SPOKANE
+  attributes:
+    name: Spokane
+  references:
+    state: STATE-USA-WA
+    county: COUNTY-USA-WA-SPOKANE
+- type: Municipality
+  code: MUNICIPALITY-USA-AL-HUNTSVILLE
+  attributes:
+    name: Huntsville
+  references:
+    state: STATE-USA-AL
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-SANTA_CLARITA
+  attributes:
+    name: Santa Clarita
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-LOS_ANGELES
+- type: Municipality
+  code: MUNICIPALITY-USA-WA-TACOMA
+  attributes:
+    name: Tacoma
+  references:
+    state: STATE-USA-WA
+    county: COUNTY-USA-WA-PIERCE
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-FREMONT
+  attributes:
+    name: Fremont
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-ALAMEDA
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-MCKINNEY
+  attributes:
+    name: McKinney
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-COLLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-SAN_BERNARDINO
+  attributes:
+    name: San Bernardino
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_BERNARDINO
+- type: Municipality
+  code: MUNICIPALITY-USA-LA-BATON_ROUGE
+  attributes:
+    name: Baton Rouge
+  references:
+    state: STATE-USA-LA
+    county: COUNTY-USA-LA-EAST_BATON_ROUGE
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-MODESTO
+  attributes:
+    name: Modesto
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-STANISLAUS
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-FONTANA
+  attributes:
+    name: Fontana
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_BERNARDINO
+- type: Municipality
+  code: MUNICIPALITY-USA-UT-SALT_LAKE_CITY
+  attributes:
+    name: Salt Lake City
+  references:
+    state: STATE-USA-UT
+    county: COUNTY-USA-UT-SALT_LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-MORENO_VALLEY
+  attributes:
+    name: Moreno Valley
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-RIVERSIDE
+- type: Municipality
+  code: MUNICIPALITY-USA-IA-DES_MOINES
+  attributes:
+    name: Des Moines
+  references:
+    state: STATE-USA-IA
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WORCESTER
+  attributes:
+    name: Worcester
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NY-YONKERS
+  attributes:
+    name: Yonkers
+  references:
+    state: STATE-USA-NY
+    county: COUNTY-USA-NY-WESTCHESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NC-FAYETTEVILLE
+  attributes:
+    name: Fayetteville
+  references:
+    state: STATE-USA-NC
+    county: COUNTY-USA-NC-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-SD-SIOUX_FALLS
+  attributes:
+    name: Sioux Falls
+  references:
+    state: STATE-USA-SD
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-GRAND_PRAIRIE
+  attributes:
+    name: Grand Prairie
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-NY-ROCHESTER_CITY
+  attributes:
+    name: Rochester
+  references:
+    state: STATE-USA-NY
+    county: COUNTY-USA-NY-MONROE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-TALLAHASSEE
+  attributes:
+    name: Tallahassee
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LEON
+- type: Municipality
+  code: MUNICIPALITY-USA-AR-LITTLE_ROCK
+  attributes:
+    name: Little Rock
+  references:
+    state: STATE-USA-AR
+    county: COUNTY-USA-AR-PULASKI
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-AMARILLO
+  attributes:
+    name: Amarillo
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-KS-OVERLAND_PARK
+  attributes:
+    name: Overland Park
+  references:
+    state: STATE-USA-KS
+    county: COUNTY-USA-KS-JOHNSON
+- type: Municipality
+  code: MUNICIPALITY-USA-GA-COLUMBUS
+  attributes:
+    name: Columbus
+  references:
+    state: STATE-USA-GA
+    county: COUNTY-USA-GA-MUSCOGEE
+- type: Municipality
+  code: MUNICIPALITY-USA-GA-AUGUSTA_RICHMOND_COUNTY
+  attributes:
+    name: Augusta-Richmond County
+  references:
+    state: STATE-USA-GA
+    county: COUNTY-USA-GA-RICHMOND
+- type: Municipality
+  code: MUNICIPALITY-USA-AL-MOBILE
+  attributes:
+    name: Mobile
+  references:
+    state: STATE-USA-AL
+    county: COUNTY-USA-AL-MOBILE
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-OXNARD
+  attributes:
+    name: Oxnard
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-VENTURA
+- type: Municipality
+  code: MUNICIPALITY-USA-MI-GRAND_RAPIDS_CITY
+  attributes:
+    name: Grand Rapids
+  references:
+    state: STATE-USA-MI
+    county: COUNTY-USA-MI-KENT
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-PEORIA
+  attributes:
+    name: Peoria
+  references:
+    state: STATE-USA-AZ
+- type: Municipality
+  code: MUNICIPALITY-USA-WA-VANCOUVER
+  attributes:
+    name: Vancouver
+  references:
+    state: STATE-USA-WA
+    county: COUNTY-USA-WA-CLARK
+- type: Municipality
+  code: MUNICIPALITY-USA-TN-KNOXVILLE
+  attributes:
+    name: Knoxville
+  references:
+    state: STATE-USA-TN
+    county: COUNTY-USA-TN-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-AL-BIRMINGHAM
+  attributes:
+    name: Birmingham
+  references:
+    state: STATE-USA-AL
+- type: Municipality
+  code: MUNICIPALITY-USA-AL-MONTGOMERY
+  attributes:
+    name: Montgomery
+  references:
+    state: STATE-USA-AL
+    county: COUNTY-USA-AL-MONTGOMERY
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-PROVIDENCE
+  attributes:
+    name: Providence
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-HUNTINGTON_BEACH
+  attributes:
+    name: Huntington Beach
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-BROWNSVILLE
+  attributes:
+    name: Brownsville
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-CAMERON
+- type: Municipality
+  code: MUNICIPALITY-USA-TN-CHATTANOOGA
+  attributes:
+    name: Chattanooga
+  references:
+    state: STATE-USA-TN
+    county: COUNTY-USA-TN-HAMILTON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-FORT_LAUDERDALE
+  attributes:
+    name: Fort Lauderdale
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-TEMPE
+  attributes:
+    name: Tempe
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-OH-AKRON
+  attributes:
+    name: Akron
+  references:
+    state: STATE-USA-OH
+    county: COUNTY-USA-OH-SUMMIT
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-GLENDALE
+  attributes:
+    name: Glendale
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-LOS_ANGELES
+- type: Municipality
+  code: MUNICIPALITY-USA-TN-CLARKSVILLE
+  attributes:
+    name: Clarksville
+  references:
+    state: STATE-USA-TN
+    county: COUNTY-USA-TN-MONTGOMERY
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-ONTARIO
+  attributes:
+    name: Ontario
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_BERNARDINO
+- type: Municipality
+  code: MUNICIPALITY-USA-VA-NEWPORT_NEWS
+  attributes:
+    name: Newport News
+  references:
+    state: STATE-USA-VA
+    county: COUNTY-USA-VA-NEWPORT_NEWS_CITY
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-ELK_GROVE
+  attributes:
+    name: Elk Grove
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SACRAMENTO
+- type: Municipality
+  code: MUNICIPALITY-USA-NC-CARY
+  attributes:
+    name: Cary
+  references:
+    state: STATE-USA-NC
+- type: Municipality
+  code: MUNICIPALITY-USA-IL-AURORA_CITY
+  attributes:
+    name: Aurora
+  references:
+    state: STATE-USA-IL
+- type: Municipality
+  code: MUNICIPALITY-USA-OR-SALEM
+  attributes:
+    name: Salem
+  references:
+    state: STATE-USA-OR
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PEMBROKE_PINES
+  attributes:
+    name: Pembroke Pines
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-OR-EUGENE
+  attributes:
+    name: Eugene
+  references:
+    state: STATE-USA-OR
+    county: COUNTY-USA-OR-LANE
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-SANTA_ROSA
+  attributes:
+    name: Santa Rosa
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SONOMA
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-RANCHO_CUCAMONGA
+  attributes:
+    name: Rancho Cucamonga
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_BERNARDINO
+- type: Municipality
+  code: MUNICIPALITY-USA-LA-SHREVEPORT
+  attributes:
+    name: Shreveport
+  references:
+    state: STATE-USA-LA
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-GARDEN_GROVE
+  attributes:
+    name: Garden Grove
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-OCEANSIDE
+  attributes:
+    name: Oceanside
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_DIEGO
+- type: Municipality
+  code: MUNICIPALITY-USA-CO-FORT_COLLINS
+  attributes:
+    name: Fort Collins
+  references:
+    state: STATE-USA-CO
+    county: COUNTY-USA-CO-LARIMER
+- type: Municipality
+  code: MUNICIPALITY-USA-MO-SPRINGFIELD_CITY
+  attributes:
+    name: Springfield
+  references:
+    state: STATE-USA-MO
+- type: Municipality
+  code: MUNICIPALITY-USA-TN-MURFREESBORO
+  attributes:
+    name: Murfreesboro
+  references:
+    state: STATE-USA-TN
+    county: COUNTY-USA-TN-RUTHERFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-SURPRISE
+  attributes:
+    name: Surprise
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-LANCASTER
+  attributes:
+    name: Lancaster
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-LOS_ANGELES
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-DENTON
+  attributes:
+    name: Denton
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-DENTON
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-ROSEVILLE
+  attributes:
+    name: Roseville
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-PLACER
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-PALMDALE
+  attributes:
+    name: Palmdale
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-LOS_ANGELES
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-CORONA
+  attributes:
+    name: Corona
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-RIVERSIDE
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-SALINAS
+  attributes:
+    name: Salinas
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-MONTEREY
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-KILLEEN
+  attributes:
+    name: Killeen
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-BELL
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PATERSON
+  attributes:
+    name: Paterson
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-VA-ALEXANDRIA
+  attributes:
+    name: Alexandria
+  references:
+    state: STATE-USA-VA
+    county: COUNTY-USA-VA-ALEXANDRIA_CITY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HOLLYWOOD
+  attributes:
+    name: Hollywood
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-HAYWARD
+  attributes:
+    name: Hayward
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-ALAMEDA
+- type: Municipality
+  code: MUNICIPALITY-USA-SC-CHARLESTON
+  attributes:
+    name: Charleston
+  references:
+    state: STATE-USA-SC
+- type: Municipality
+  code: MUNICIPALITY-USA-GA-MACON_BIBB_COUNTY
+  attributes:
+    name: Macon-Bibb County
+  references:
+    state: STATE-USA-GA
+    county: COUNTY-USA-GA-BIBB
+- type: Municipality
+  code: MUNICIPALITY-USA-CO-LAKEWOOD
+  attributes:
+    name: Lakewood
+  references:
+    state: STATE-USA-CO
+    county: COUNTY-USA-CO-JEFFERSON
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-SUNNYVALE
+  attributes:
+    name: Sunnyvale
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SANTA_CLARA
+- type: Municipality
+  code: MUNICIPALITY-USA-KS-KANSAS_CITY
+  attributes:
+    name: Kansas City
+  references:
+    state: STATE-USA-KS
+    county: COUNTY-USA-KS-WYANDOTTE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SPRINGFIELD
+  attributes:
+    name: Springfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-WA-BELLEVUE
+  attributes:
+    name: Bellevue
+  references:
+    state: STATE-USA-WA
+    county: COUNTY-USA-WA-KING
+- type: Municipality
+  code: MUNICIPALITY-USA-IL-NAPERVILLE_CITY
+  attributes:
+    name: Naperville
+  references:
+    state: STATE-USA-IL
+- type: Municipality
+  code: MUNICIPALITY-USA-IL-JOLIET_CITY
+  attributes:
+    name: Joliet
+  references:
+    state: STATE-USA-IL
+- type: Municipality
+  code: MUNICIPALITY-USA-CT-BRIDGEPORT
+  attributes:
+    name: Bridgeport
+  references:
+    state: STATE-USA-CT
+    county: COUNTY-USA-CT-GREATER_BRIDGEPORT
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-MESQUITE
+  attributes:
+    name: Mesquite
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-PASADENA
+  attributes:
+    name: Pasadena
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-HARRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-KS-OLATHE
+  attributes:
+    name: Olathe
+  references:
+    state: STATE-USA-KS
+    county: COUNTY-USA-KS-JOHNSON
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-ESCONDIDO
+  attributes:
+    name: Escondido
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_DIEGO
+- type: Municipality
+  code: MUNICIPALITY-USA-GA-SAVANNAH
+  attributes:
+    name: Savannah
+  references:
+    state: STATE-USA-GA
+    county: COUNTY-USA-GA-CHATHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-MCALLEN
+  attributes:
+    name: McAllen
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-HIDALGO
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GAINESVILLE
+  attributes:
+    name: Gainesville
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ALACHUA
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-POMONA
+  attributes:
+    name: Pomona
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-LOS_ANGELES
+- type: Municipality
+  code: MUNICIPALITY-USA-IL-ROCKFORD_CITY
+  attributes:
+    name: Rockford
+  references:
+    state: STATE-USA-IL
+- type: Municipality
+  code: MUNICIPALITY-USA-CO-THORNTON
+  attributes:
+    name: Thornton
+  references:
+    state: STATE-USA-CO
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-WACO
+  attributes:
+    name: Waco
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-MCLENNAN
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-VISALIA
+  attributes:
+    name: Visalia
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-TULARE
+- type: Municipality
+  code: MUNICIPALITY-USA-NY-SYRACUSE
+  attributes:
+    name: Syracuse
+  references:
+    state: STATE-USA-NY
+    county: COUNTY-USA-NY-ONONDAGA
+- type: Municipality
+  code: MUNICIPALITY-USA-SC-COLUMBIA
+  attributes:
+    name: Columbia
+  references:
+    state: STATE-USA-SC
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-MIDLAND
+  attributes:
+    name: Midland
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MIRAMAR
+  attributes:
+    name: Miramar
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PALM_BAY
+  attributes:
+    name: Palm Bay
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-MS-JACKSON
+  attributes:
+    name: Jackson
+  references:
+    state: STATE-USA-MS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CORAL_SPRINGS
+  attributes:
+    name: Coral Springs
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-VICTORVILLE
+  attributes:
+    name: Victorville
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_BERNARDINO
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ELIZABETH
+  attributes:
+    name: Elizabeth
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-FULLERTON
+  attributes:
+    name: Fullerton
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MERIDIAN
+  attributes:
+    name: Meridian
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-ADA
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-TORRANCE
+  attributes:
+    name: Torrance
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-LOS_ANGELES
+- type: Municipality
+  code: MUNICIPALITY-USA-CT-STAMFORD
+  attributes:
+    name: Stamford
+  references:
+    state: STATE-USA-CT
+    county: COUNTY-USA-CT-WESTERN_CONNECTICUT
+- type: Municipality
+  code: MUNICIPALITY-USA-UT-WEST_VALLEY_CITY
+  attributes:
+    name: West Valley City
+  references:
+    state: STATE-USA-UT
+    county: COUNTY-USA-UT-SALT_LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-ORANGE
+  attributes:
+    name: Orange
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-IA-CEDAR_RAPIDS
+  attributes:
+    name: Cedar Rapids
+  references:
+    state: STATE-USA-IA
+    county: COUNTY-USA-IA-LINN
+- type: Municipality
+  code: MUNICIPALITY-USA-MI-WARREN_CITY
+  attributes:
+    name: Warren
+  references:
+    state: STATE-USA-MI
+    county: COUNTY-USA-MI-MACOMB
+- type: Municipality
+  code: MUNICIPALITY-USA-VA-HAMPTON
+  attributes:
+    name: Hampton
+  references:
+    state: STATE-USA-VA
+    county: COUNTY-USA-VA-HAMPTON_CITY
+- type: Municipality
+  code: MUNICIPALITY-USA-CT-NEW_HAVEN
+  attributes:
+    name: New Haven
+  references:
+    state: STATE-USA-CT
+    county: COUNTY-USA-CT-SOUTH_CENTRAL_CONNECTICUT
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-PASADENA
+  attributes:
+    name: Pasadena
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-LOS_ANGELES
+- type: Municipality
+  code: MUNICIPALITY-USA-WA-KENT
+  attributes:
+    name: Kent
+  references:
+    state: STATE-USA-WA
+    county: COUNTY-USA-WA-KING
+- type: Municipality
+  code: MUNICIPALITY-USA-OH-DAYTON
+  attributes:
+    name: Dayton
+  references:
+    state: STATE-USA-OH
+- type: Municipality
+  code: MUNICIPALITY-USA-ND-FARGO
+  attributes:
+    name: Fargo
+  references:
+    state: STATE-USA-ND
+    county: COUNTY-USA-ND-CASS
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-LEWISVILLE
+  attributes:
+    name: Lewisville
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-CARROLLTON
+  attributes:
+    name: Carrollton
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-ROUND_ROCK
+  attributes:
+    name: Round Rock
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-MI-STERLING_HEIGHTS
+  attributes:
+    name: Sterling Heights
+  references:
+    state: STATE-USA-MI
+    county: COUNTY-USA-MI-MACOMB
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-SANTA_CLARA
+  attributes:
+    name: Santa Clara
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SANTA_CLARA
+- type: Municipality
+  code: MUNICIPALITY-USA-OK-NORMAN
+  attributes:
+    name: Norman
+  references:
+    state: STATE-USA-OK
+    county: COUNTY-USA-OK-CLEVELAND
+- type: Municipality
+  code: MUNICIPALITY-USA-MO-COLUMBIA
+  attributes:
+    name: Columbia
+  references:
+    state: STATE-USA-MO
+    county: COUNTY-USA-MO-BOONE
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-ABILENE
+  attributes:
+    name: Abilene
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-PEARLAND
+  attributes:
+    name: Pearland
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-GA-ATHENS_CLARKE_COUNTY
+  attributes:
+    name: Athens-Clarke County
+  references:
+    state: STATE-USA-GA
+    county: COUNTY-USA-GA-CLARKE
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-COLLEGE_STATION
+  attributes:
+    name: College Station
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-BRAZOS
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-CLOVIS
+  attributes:
+    name: Clovis
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-FRESNO
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WEST_PALM_BEACH
+  attributes:
+    name: West Palm Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-PA-ALLENTOWN
+  attributes:
+    name: Allentown
+  references:
+    state: STATE-USA-PA
+    county: COUNTY-USA-PA-LEHIGH
+- type: Municipality
+  code: MUNICIPALITY-USA-SC-NORTH_CHARLESTON
+  attributes:
+    name: North Charleston
+  references:
+    state: STATE-USA-SC
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-SIMI_VALLEY
+  attributes:
+    name: Simi Valley
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-VENTURA
+- type: Municipality
+  code: MUNICIPALITY-USA-KS-TOPEKA_CITY
+  attributes:
+    name: Topeka
+  references:
+    state: STATE-USA-KS
+    county: COUNTY-USA-KS-SHAWNEE
+- type: Municipality
+  code: MUNICIPALITY-USA-NC-WILMINGTON
+  attributes:
+    name: Wilmington
+  references:
+    state: STATE-USA-NC
+    county: COUNTY-USA-NC-NEW_HANOVER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAKELAND
+  attributes:
+    name: Lakeland
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-THOUSAND_OAKS
+  attributes:
+    name: Thousand Oaks
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-VENTURA
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-CONCORD
+  attributes:
+    name: Concord
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-CONTRA_COSTA
+- type: Municipality
+  code: MUNICIPALITY-USA-MN-ROCHESTER_CITY
+  attributes:
+    name: Rochester
+  references:
+    state: STATE-USA-MN
+    county: COUNTY-USA-MN-OLMSTED
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-VALLEJO
+  attributes:
+    name: Vallejo
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SOLANO
+- type: Municipality
+  code: MUNICIPALITY-USA-MI-ANN_ARBOR_CITY
+  attributes:
+    name: Ann Arbor
+  references:
+    state: STATE-USA-MI
+    county: COUNTY-USA-MI-WASHTENAW
+- type: Municipality
+  code: MUNICIPALITY-USA-OK-BROKEN_ARROW
+  attributes:
+    name: Broken Arrow
+  references:
+    state: STATE-USA-OK
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-FAIRFIELD
+  attributes:
+    name: Fairfield
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SOLANO
+- type: Municipality
+  code: MUNICIPALITY-USA-LA-LAFAYETTE
+  attributes:
+    name: Lafayette
+  references:
+    state: STATE-USA-LA
+    county: COUNTY-USA-LA-LAFAYETTE
+- type: Municipality
+  code: MUNICIPALITY-USA-CT-HARTFORD
+  attributes:
+    name: Hartford
+  references:
+    state: STATE-USA-CT
+    county: COUNTY-USA-CT-CAPITOL
+- type: Municipality
+  code: MUNICIPALITY-USA-CO-ARVADA
+  attributes:
+    name: Arvada
+  references:
+    state: STATE-USA-CO
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-BERKELEY
+  attributes:
+    name: Berkeley
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-ALAMEDA
+- type: Municipality
+  code: MUNICIPALITY-USA-MO-INDEPENDENCE_CITY
+  attributes:
+    name: Independence
+  references:
+    state: STATE-USA-MO
+- type: Municipality
+  code: MUNICIPALITY-USA-MT-BILLINGS
+  attributes:
+    name: Billings
+  references:
+    state: STATE-USA-MT
+    county: COUNTY-USA-MT-YELLOWSTONE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CAMBRIDGE
+  attributes:
+    name: Cambridge
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LOWELL
+  attributes:
+    name: Lowell
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-ODESSA
+  attributes:
+    name: Odessa
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-NC-HIGH_POINT
+  attributes:
+    name: High Point
+  references:
+    state: STATE-USA-NC
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-LEAGUE_CITY
+  attributes:
+    name: League City
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-ANTIOCH
+  attributes:
+    name: Antioch
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-CONTRA_COSTA
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-RICHARDSON
+  attributes:
+    name: Richardson
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-GOODYEAR
+  attributes:
+    name: Goodyear
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-POMPANO_BEACH
+  attributes:
+    name: Pompano Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-NAMPA
+  attributes:
+    name: Nampa
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CANYON
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-MENIFEE
+  attributes:
+    name: Menifee
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-RIVERSIDE
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-LAS_CRUCES
+  attributes:
+    name: Las Cruces
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-DO_A_ANA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CLEARWATER
+  attributes:
+    name: Clearwater
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-UT-WEST_JORDAN
+  attributes:
+    name: West Jordan
+  references:
+    state: STATE-USA-UT
+    county: COUNTY-USA-UT-SALT_LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-NEW_BRAUNFELS
+  attributes:
+    name: New Braunfels
+  references:
+    state: STATE-USA-TX
+- type: Municipality
+  code: MUNICIPALITY-USA-NH-MANCHESTER
+  attributes:
+    name: Manchester
+  references:
+    state: STATE-USA-NH
+    county: COUNTY-USA-NH-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MIAMI_GARDENS
+  attributes:
+    name: Miami Gardens
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-CT-WATERBURY
+  attributes:
+    name: Waterbury
+  references:
+    state: STATE-USA-CT
+    county: COUNTY-USA-CT-NAUGATUCK_VALLEY
+- type: Municipality
+  code: MUNICIPALITY-USA-UT-PROVO
+  attributes:
+    name: Provo
+  references:
+    state: STATE-USA-UT
+    county: COUNTY-USA-UT-UTAH
+- type: Municipality
+  code: MUNICIPALITY-USA-IN-EVANSVILLE
+  attributes:
+    name: Evansville
+  references:
+    state: STATE-USA-IN
+    county: COUNTY-USA-IN-VANDERBURGH
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-RICHMOND
+  attributes:
+    name: Richmond
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-CONTRA_COSTA
+- type: Municipality
+  code: MUNICIPALITY-USA-CO-WESTMINSTER
+  attributes:
+    name: Westminster
+  references:
+    state: STATE-USA-CO
+- type: Municipality
+  code: MUNICIPALITY-USA-IL-ELGIN_CITY
+  attributes:
+    name: Elgin
+  references:
+    state: STATE-USA-IL
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-CONROE
+  attributes:
+    name: Conroe
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-MONTGOMERY
+- type: Municipality
+  code: MUNICIPALITY-USA-CO-GREELEY
+  attributes:
+    name: Greeley
+  references:
+    state: STATE-USA-CO
+    county: COUNTY-USA-CO-WELD
+- type: Municipality
+  code: MUNICIPALITY-USA-MI-LANSING_CITY
+  attributes:
+    name: Lansing
+  references:
+    state: STATE-USA-MI
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-BUCKEYE
+  attributes:
+    name: Buckeye
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AL-TUSCALOOSA
+  attributes:
+    name: Tuscaloosa
+  references:
+    state: STATE-USA-AL
+    county: COUNTY-USA-AL-TUSCALOOSA
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-ALLEN
+  attributes:
+    name: Allen
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-COLLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-CARLSBAD
+  attributes:
+    name: Carlsbad
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_DIEGO
+- type: Municipality
+  code: MUNICIPALITY-USA-WA-EVERETT
+  attributes:
+    name: Everett
+  references:
+    state: STATE-USA-WA
+    county: COUNTY-USA-WA-SNOHOMISH
+- type: Municipality
+  code: MUNICIPALITY-USA-IL-SPRINGFIELD_CITY
+  attributes:
+    name: Springfield
+  references:
+    state: STATE-USA-IL
+    county: COUNTY-USA-IL-SANGAMON
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-BEAUMONT
+  attributes:
+    name: Beaumont
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-JEFFERSON
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-MURRIETA
+  attributes:
+    name: Murrieta
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-RIVERSIDE
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-RIO_RANCHO
+  attributes:
+    name: Rio Rancho
+  references:
+    state: STATE-USA-NM
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-TEMECULA
+  attributes:
+    name: Temecula
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-RIVERSIDE
+- type: Municipality
+  code: MUNICIPALITY-USA-NC-CONCORD
+  attributes:
+    name: Concord
+  references:
+    state: STATE-USA-NC
+    county: COUNTY-USA-NC-CABARRUS
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-TYLER
+  attributes:
+    name: Tyler
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-SMITH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DAVIE
+  attributes:
+    name: Davie
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-GA-SOUTH_FULTON
+  attributes:
+    name: South Fulton
+  references:
+    state: STATE-USA-GA
+    county: COUNTY-USA-GA-FULTON
+- type: Municipality
+  code: MUNICIPALITY-USA-IL-PEORIA
+  attributes:
+    name: Peoria
+  references:
+    state: STATE-USA-IL
+    county: COUNTY-USA-IL-PEORIA
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-SPARKS
+  attributes:
+    name: Sparks
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-WASHOE
+- type: Municipality
+  code: MUNICIPALITY-USA-OR-GRESHAM
+  attributes:
+    name: Gresham
+  references:
+    state: STATE-USA-OR
+    county: COUNTY-USA-OR-MULTNOMAH
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-SANTA_MARIA
+  attributes:
+    name: Santa Maria
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SANTA_BARBARA
+- type: Municipality
+  code: MUNICIPALITY-USA-CO-PUEBLO
+  attributes:
+    name: Pueblo
+  references:
+    state: STATE-USA-CO
+    county: COUNTY-USA-CO-PUEBLO
+- type: Municipality
+  code: MUNICIPALITY-USA-OR-HILLSBORO
+  attributes:
+    name: Hillsboro
+  references:
+    state: STATE-USA-OR
+    county: COUNTY-USA-OR-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-SUGAR_LAND
+  attributes:
+    name: Sugar Land
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-FORT_BEND
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-SAN_BUENAVENTURA
+  attributes:
+    name: San Buenaventura
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-VENTURA
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-DOWNEY
+  attributes:
+    name: Downey
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-LOS_ANGELES
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-COSTA_MESA
+  attributes:
+    name: Costa Mesa
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-CO-CENTENNIAL
+  attributes:
+    name: Centennial
+  references:
+    state: STATE-USA-CO
+    county: COUNTY-USA-CO-ARAPAHOE
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-EDINBURG
+  attributes:
+    name: Edinburg
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-HIDALGO
+- type: Municipality
+  code: MUNICIPALITY-USA-WA-SPOKANE_VALLEY
+  attributes:
+    name: Spokane Valley
+  references:
+    state: STATE-USA-WA
+    county: COUNTY-USA-WA-SPOKANE
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-JURUPA_VALLEY
+  attributes:
+    name: Jurupa Valley
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-RIVERSIDE
+- type: Municipality
+  code: MUNICIPALITY-USA-OR-BEND
+  attributes:
+    name: Bend
+  references:
+    state: STATE-USA-OR
+    county: COUNTY-USA-OR-DESCHUTES
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-WEST_COVINA
+  attributes:
+    name: West Covina
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-LOS_ANGELES
+- type: Municipality
+  code: MUNICIPALITY-USA-CO-BOULDER
+  attributes:
+    name: Boulder
+  references:
+    state: STATE-USA-CO
+    county: COUNTY-USA-CO-BOULDER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PALM_COAST
+  attributes:
+    name: Palm Coast
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-FLAGLER
+- type: Municipality
+  code: MUNICIPALITY-USA-MO-LEE_S_SUMMIT
+  attributes:
+    name: Lee's Summit
+  references:
+    state: STATE-USA-MO
+- type: Municipality
+  code: MUNICIPALITY-USA-MI-DEARBORN
+  attributes:
+    name: Dearborn
+  references:
+    state: STATE-USA-MI
+    county: COUNTY-USA-MI-WAYNE
+- type: Municipality
+  code: MUNICIPALITY-USA-WI-GREEN_BAY_CITY
+  attributes:
+    name: Green Bay
+  references:
+    state: STATE-USA-WI
+    county: COUNTY-USA-WI-BROWN
+- type: Municipality
+  code: MUNICIPALITY-USA-UT-ST_GEORGE
+  attributes:
+    name: St. George
+  references:
+    state: STATE-USA-UT
+    county: COUNTY-USA-UT-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BROCKTON
+  attributes:
+    name: Brockton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-WA-RENTON
+  attributes:
+    name: Renton
+  references:
+    state: STATE-USA-WA
+    county: COUNTY-USA-WA-KING
+- type: Municipality
+  code: MUNICIPALITY-USA-GA-SANDY_SPRINGS
+  attributes:
+    name: Sandy Springs
+  references:
+    state: STATE-USA-GA
+    county: COUNTY-USA-GA-FULTON
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-RIALTO
+  attributes:
+    name: Rialto
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_BERNARDINO
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-EL_MONTE
+  attributes:
+    name: El Monte
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-LOS_ANGELES
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-VACAVILLE
+  attributes:
+    name: Vacaville
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SOLANO
+- type: Municipality
+  code: MUNICIPALITY-USA-IN-FISHERS
+  attributes:
+    name: Fishers
+  references:
+    state: STATE-USA-IN
+    county: COUNTY-USA-IN-HAMILTON
+- type: Municipality
+  code: MUNICIPALITY-USA-IN-SOUTH_BEND
+  attributes:
+    name: South Bend
+  references:
+    state: STATE-USA-IN
+    county: COUNTY-USA-IN-ST_JOSEPH
+- type: Municipality
+  code: MUNICIPALITY-USA-IN-CARMEL
+  attributes:
+    name: Carmel
+  references:
+    state: STATE-USA-IN
+    county: COUNTY-USA-IN-HAMILTON
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-YUMA
+  attributes:
+    name: Yuma
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-YUMA
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-BURBANK
+  attributes:
+    name: Burbank
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-LOS_ANGELES
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LYNN
+  attributes:
+    name: Lynn
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-QUINCY
+  attributes:
+    name: Quincy
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-EL_CAJON
+  attributes:
+    name: El Cajon
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_DIEGO
+- type: Municipality
+  code: MUNICIPALITY-USA-AR-FAYETTEVILLE
+  attributes:
+    name: Fayetteville
+  references:
+    state: STATE-USA-AR
+    county: COUNTY-USA-AR-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-VA-SUFFOLK
+  attributes:
+    name: Suffolk
+  references:
+    state: STATE-USA-VA
+    county: COUNTY-USA-VA-SUFFOLK_CITY
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-SAN_MATEO
+  attributes:
+    name: San Mateo
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_MATEO
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-CHICO
+  attributes:
+    name: Chico
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-BUTTE
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-INGLEWOOD
+  attributes:
+    name: Inglewood
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-LOS_ANGELES
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-WICHITA_FALLS
+  attributes:
+    name: Wichita Falls
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-WICHITA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BOCA_RATON
+  attributes:
+    name: Boca Raton
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-HESPERIA
+  attributes:
+    name: Hesperia
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_BERNARDINO
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-DALY_CITY
+  attributes:
+    name: Daly City
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_MATEO
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-GEORGETOWN
+  attributes:
+    name: Georgetown
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-WILLIAMSON
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NEW_BEDFORD
+  attributes:
+    name: New Bedford
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-NY-ALBANY
+  attributes:
+    name: Albany
+  references:
+    state: STATE-USA-NY
+    county: COUNTY-USA-NY-ALBANY
+- type: Municipality
+  code: MUNICIPALITY-USA-IA-DAVENPORT
+  attributes:
+    name: Davenport
+  references:
+    state: STATE-USA-IA
+    county: COUNTY-USA-IA-SCOTT
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PLANTATION
+  attributes:
+    name: Plantation
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DELTONA
+  attributes:
+    name: Deltona
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-WA-FEDERAL_WAY
+  attributes:
+    name: Federal Way
+  references:
+    state: STATE-USA-WA
+    county: COUNTY-USA-WA-KING
+- type: Municipality
+  code: MUNICIPALITY-USA-TX-SAN_ANGELO
+  attributes:
+    name: San Angelo
+  references:
+    state: STATE-USA-TX
+    county: COUNTY-USA-TX-TOM_GREEN
+- type: Municipality
+  code: MUNICIPALITY-USA-CA-TRACY
+  attributes:
+    name: Tracy
+  references:
+    state: STATE-USA-CA
+    county: COUNTY-USA-CA-SAN_JOAQUIN
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SUNRISE
+  attributes:
+    name: Sunrise
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD

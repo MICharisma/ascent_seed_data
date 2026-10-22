@@ -1,0 +1,1055 @@
+# AK: 149 incorporated places (Census 2024 Gazetteer, FUNCSTAT A/B, plus consolidated-government balances) + 0 active-government county subdivisions (FUNCSTAT A: towns/townships/plantations). CDPs excluded.
+# County reference only when the place lies in exactly one county (2020 place-by-county file) or from the subdivision's GEOID.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html
+  captured_on: '2026-10-21'
+scope:
+  state: STATE-USA-AK
+records:
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ADAK
+  attributes:
+    name: Adak
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-ALEUTIANS_WEST
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-AKHIOK
+  attributes:
+    name: Akhiok
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KODIAK_ISLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-AKIAK
+  attributes:
+    name: Akiak
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-AKUTAN
+  attributes:
+    name: Akutan
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-ALEUTIANS_EAST
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ALAKANUK
+  attributes:
+    name: Alakanuk
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KUSILVAK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ALEKNAGIK
+  attributes:
+    name: Aleknagik
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-DILLINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ALLAKAKET
+  attributes:
+    name: Allakaket
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-AMBLER
+  attributes:
+    name: Ambler
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTHWEST_ARCTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ANAKTUVUK_PASS
+  attributes:
+    name: Anaktuvuk Pass
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTH_SLOPE
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ANCHORAGE
+  attributes:
+    name: Anchorage
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-ANCHORAGE
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ANDERSON
+  attributes:
+    name: Anderson
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-DENALI
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ANGOON
+  attributes:
+    name: Angoon
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-HOONAH_ANGOON
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ANIAK
+  attributes:
+    name: Aniak
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ANVIK
+  attributes:
+    name: Anvik
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ATKA
+  attributes:
+    name: Atka
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-ALEUTIANS_WEST
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ATQASUK
+  attributes:
+    name: Atqasuk
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTH_SLOPE
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-BETHEL
+  attributes:
+    name: Bethel
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-BETTLES
+  attributes:
+    name: Bettles
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-BREVIG_MISSION
+  attributes:
+    name: Brevig Mission
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NOME
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-BUCKLAND
+  attributes:
+    name: Buckland
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTHWEST_ARCTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-CHEFORNAK
+  attributes:
+    name: Chefornak
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-CHEVAK
+  attributes:
+    name: Chevak
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KUSILVAK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-CHIGNIK
+  attributes:
+    name: Chignik
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-LAKE_AND_PENINSULA
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-CHUATHBALUK
+  attributes:
+    name: Chuathbaluk
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-CLARK_S_POINT
+  attributes:
+    name: Clark's Point
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-DILLINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-COFFMAN_COVE
+  attributes:
+    name: Coffman Cove
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-PRINCE_OF_WALES_HYDER
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-COLD_BAY
+  attributes:
+    name: Cold Bay
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-ALEUTIANS_EAST
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-CORDOVA
+  attributes:
+    name: Cordova
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-CHUGACH
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-CRAIG
+  attributes:
+    name: Craig
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-PRINCE_OF_WALES_HYDER
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-DEERING
+  attributes:
+    name: Deering
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTHWEST_ARCTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-DELTA_JUNCTION
+  attributes:
+    name: Delta Junction
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-SOUTHEAST_FAIRBANKS
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-DILLINGHAM
+  attributes:
+    name: Dillingham
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-DILLINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-DIOMEDE
+  attributes:
+    name: Diomede
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NOME
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-EAGLE
+  attributes:
+    name: Eagle
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-SOUTHEAST_FAIRBANKS
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-EDNA_BAY
+  attributes:
+    name: Edna Bay
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-PRINCE_OF_WALES_HYDER
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-EEK
+  attributes:
+    name: Eek
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-EGEGIK
+  attributes:
+    name: Egegik
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-LAKE_AND_PENINSULA
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-EKWOK
+  attributes:
+    name: Ekwok
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-DILLINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ELIM
+  attributes:
+    name: Elim
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NOME
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-EMMONAK
+  attributes:
+    name: Emmonak
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KUSILVAK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-FAIRBANKS
+  attributes:
+    name: Fairbanks
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-FAIRBANKS_NORTH_STAR
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-FALSE_PASS
+  attributes:
+    name: False Pass
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-ALEUTIANS_EAST
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-FORT_YUKON
+  attributes:
+    name: Fort Yukon
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-GALENA
+  attributes:
+    name: Galena
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-GAMBELL
+  attributes:
+    name: Gambell
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NOME
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-GOLOVIN
+  attributes:
+    name: Golovin
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NOME
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-GOODNEWS_BAY
+  attributes:
+    name: Goodnews Bay
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-GRAYLING
+  attributes:
+    name: Grayling
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-GUSTAVUS
+  attributes:
+    name: Gustavus
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-HOONAH_ANGOON
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-HOLY_CROSS
+  attributes:
+    name: Holy Cross
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-HOMER
+  attributes:
+    name: Homer
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KENAI_PENINSULA
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-HOONAH
+  attributes:
+    name: Hoonah
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-HOONAH_ANGOON
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-HOOPER_BAY
+  attributes:
+    name: Hooper Bay
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KUSILVAK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-HOUSTON
+  attributes:
+    name: Houston
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-MATANUSKA_SUSITNA
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-HUGHES
+  attributes:
+    name: Hughes
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-HUSLIA
+  attributes:
+    name: Huslia
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-HYDABURG
+  attributes:
+    name: Hydaburg
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-PRINCE_OF_WALES_HYDER
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-JUNEAU
+  attributes:
+    name: Juneau
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-JUNEAU
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KACHEMAK
+  attributes:
+    name: Kachemak
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KENAI_PENINSULA
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KAKE
+  attributes:
+    name: Kake
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-PRINCE_OF_WALES_HYDER
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KAKTOVIK
+  attributes:
+    name: Kaktovik
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTH_SLOPE
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KALTAG
+  attributes:
+    name: Kaltag
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KASAAN
+  attributes:
+    name: Kasaan
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-PRINCE_OF_WALES_HYDER
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KENAI
+  attributes:
+    name: Kenai
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KENAI_PENINSULA
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KETCHIKAN
+  attributes:
+    name: Ketchikan
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KETCHIKAN_GATEWAY
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KIANA
+  attributes:
+    name: Kiana
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTHWEST_ARCTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KING_COVE
+  attributes:
+    name: King Cove
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-ALEUTIANS_EAST
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KIVALINA
+  attributes:
+    name: Kivalina
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTHWEST_ARCTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KLAWOCK
+  attributes:
+    name: Klawock
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-PRINCE_OF_WALES_HYDER
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KOBUK
+  attributes:
+    name: Kobuk
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTHWEST_ARCTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KODIAK
+  attributes:
+    name: Kodiak
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KODIAK_ISLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KOTLIK
+  attributes:
+    name: Kotlik
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KUSILVAK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KOTZEBUE
+  attributes:
+    name: Kotzebue
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTHWEST_ARCTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KOYUK
+  attributes:
+    name: Koyuk
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NOME
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KOYUKUK
+  attributes:
+    name: Koyukuk
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KUPREANOF
+  attributes:
+    name: Kupreanof
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-PETERSBURG
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-KWETHLUK
+  attributes:
+    name: Kwethluk
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-LARSEN_BAY
+  attributes:
+    name: Larsen Bay
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KODIAK_ISLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-LOWER_KALSKAG
+  attributes:
+    name: Lower Kalskag
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-MANOKOTAK
+  attributes:
+    name: Manokotak
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-DILLINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-MARSHALL
+  attributes:
+    name: Marshall
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KUSILVAK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-MCGRATH
+  attributes:
+    name: McGrath
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-MEKORYUK
+  attributes:
+    name: Mekoryuk
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-MOUNTAIN_VILLAGE
+  attributes:
+    name: Mountain Village
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KUSILVAK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-NAPAKIAK
+  attributes:
+    name: Napakiak
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-NAPASKIAK
+  attributes:
+    name: Napaskiak
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-NENANA
+  attributes:
+    name: Nenana
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-NEWHALEN
+  attributes:
+    name: Newhalen
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-LAKE_AND_PENINSULA
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-NEW_STUYAHOK
+  attributes:
+    name: New Stuyahok
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-DILLINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-NIGHTMUTE
+  attributes:
+    name: Nightmute
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-NIKOLAI
+  attributes:
+    name: Nikolai
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-NOME
+  attributes:
+    name: Nome
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NOME
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-NONDALTON
+  attributes:
+    name: Nondalton
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-LAKE_AND_PENINSULA
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-NOORVIK
+  attributes:
+    name: Noorvik
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTHWEST_ARCTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-NORTH_POLE
+  attributes:
+    name: North Pole
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-FAIRBANKS_NORTH_STAR
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-NUIQSUT
+  attributes:
+    name: Nuiqsut
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTH_SLOPE
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-NULATO
+  attributes:
+    name: Nulato
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-NUNAM_IQUA
+  attributes:
+    name: Nunam Iqua
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KUSILVAK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-NUNAPITCHUK
+  attributes:
+    name: Nunapitchuk
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-OLD_HARBOR
+  attributes:
+    name: Old Harbor
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KODIAK_ISLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-OUZINKIE
+  attributes:
+    name: Ouzinkie
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KODIAK_ISLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-PALMER
+  attributes:
+    name: Palmer
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-MATANUSKA_SUSITNA
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-PELICAN
+  attributes:
+    name: Pelican
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-HOONAH_ANGOON
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-PILOT_POINT
+  attributes:
+    name: Pilot Point
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-LAKE_AND_PENINSULA
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-PILOT_STATION
+  attributes:
+    name: Pilot Station
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KUSILVAK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-PLATINUM
+  attributes:
+    name: Platinum
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-POINT_HOPE
+  attributes:
+    name: Point Hope
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTH_SLOPE
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-PORT_ALEXANDER
+  attributes:
+    name: Port Alexander
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-PRINCE_OF_WALES_HYDER
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-PORT_HEIDEN
+  attributes:
+    name: Port Heiden
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-LAKE_AND_PENINSULA
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-PORT_LIONS
+  attributes:
+    name: Port Lions
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KODIAK_ISLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-QUINHAGAK
+  attributes:
+    name: Quinhagak
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-RUBY
+  attributes:
+    name: Ruby
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-RUSSIAN_MISSION
+  attributes:
+    name: Russian Mission
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KUSILVAK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-SAND_POINT
+  attributes:
+    name: Sand Point
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-ALEUTIANS_EAST
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-SAVOONGA
+  attributes:
+    name: Savoonga
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NOME
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-SAXMAN
+  attributes:
+    name: Saxman
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KETCHIKAN_GATEWAY
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-SCAMMON_BAY
+  attributes:
+    name: Scammon Bay
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KUSILVAK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-SELAWIK
+  attributes:
+    name: Selawik
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTHWEST_ARCTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-SELDOVIA
+  attributes:
+    name: Seldovia
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KENAI_PENINSULA
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-SEWARD
+  attributes:
+    name: Seward
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KENAI_PENINSULA
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-SHAGELUK
+  attributes:
+    name: Shageluk
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-SHAKTOOLIK
+  attributes:
+    name: Shaktoolik
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NOME
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-SHISHMAREF
+  attributes:
+    name: Shishmaref
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NOME
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-SHUNGNAK
+  attributes:
+    name: Shungnak
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTHWEST_ARCTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-SITKA
+  attributes:
+    name: Sitka
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-SITKA
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-SOLDOTNA
+  attributes:
+    name: Soldotna
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KENAI_PENINSULA
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-STEBBINS
+  attributes:
+    name: Stebbins
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NOME
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ST_GEORGE
+  attributes:
+    name: St. George
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-ALEUTIANS_WEST
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ST_MARY_S
+  attributes:
+    name: St. Mary's
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-KUSILVAK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ST_MICHAEL
+  attributes:
+    name: St. Michael
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NOME
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-ST_PAUL
+  attributes:
+    name: St. Paul
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-ALEUTIANS_WEST
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-TANANA
+  attributes:
+    name: Tanana
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-YUKON_KOYUKUK
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-TELLER
+  attributes:
+    name: Teller
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NOME
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-TENAKEE_SPRINGS
+  attributes:
+    name: Tenakee Springs
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-HOONAH_ANGOON
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-THORNE_BAY
+  attributes:
+    name: Thorne Bay
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-PRINCE_OF_WALES_HYDER
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-TOGIAK
+  attributes:
+    name: Togiak
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-DILLINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-TOKSOOK_BAY
+  attributes:
+    name: Toksook Bay
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-UNALAKLEET
+  attributes:
+    name: Unalakleet
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NOME
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-UNALASKA
+  attributes:
+    name: Unalaska
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-ALEUTIANS_WEST
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-UPPER_KALSKAG
+  attributes:
+    name: Upper Kalskag
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-BETHEL
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-UTQIAGIVIK
+  attributes:
+    name: "UtqiagÌ\x87vik"
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTH_SLOPE
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-VALDEZ
+  attributes:
+    name: Valdez
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-CHUGACH
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-WAINWRIGHT
+  attributes:
+    name: Wainwright
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NORTH_SLOPE
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-WALES
+  attributes:
+    name: Wales
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NOME
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-WASILLA
+  attributes:
+    name: Wasilla
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-MATANUSKA_SUSITNA
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-WHALE_PASS
+  attributes:
+    name: Whale Pass
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-PRINCE_OF_WALES_HYDER
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-WHITE_MOUNTAIN
+  attributes:
+    name: White Mountain
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-NOME
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-WHITTIER
+  attributes:
+    name: Whittier
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-CHUGACH
+- type: Municipality
+  code: MUNICIPALITY-USA-AK-WRANGELL
+  attributes:
+    name: Wrangell
+  references:
+    state: STATE-USA-AK
+    county: COUNTY-USA-AK-WRANGELL

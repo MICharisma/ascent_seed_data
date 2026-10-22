@@ -1,0 +1,2465 @@
+# MA: 58 incorporated places (Census 2024 Gazetteer, FUNCSTAT A/B, plus consolidated-government balances) + 293 active-government county subdivisions (FUNCSTAT A: towns/townships/plantations). CDPs excluded.
+# County reference only when the place lies in exactly one county (2020 place-by-county file) or from the subdivision's GEOID.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html
+  captured_on: '2026-10-21'
+scope:
+  state: STATE-USA-MA
+records:
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ABINGTON
+  attributes:
+    name: Abington
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ACTON
+  attributes:
+    name: Acton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ACUSHNET
+  attributes:
+    name: Acushnet
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ADAMS
+  attributes:
+    name: Adams
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-AGAWAM_TOWN
+  attributes:
+    name: Agawam Town
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ALFORD
+  attributes:
+    name: Alford
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-AMESBURY
+  attributes:
+    name: Amesbury
+  references:
+    state: STATE-USA-MA
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-AMHERST_TOWN
+  attributes:
+    name: Amherst Town
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ANDOVER
+  attributes:
+    name: Andover
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-AQUINNAH
+  attributes:
+    name: Aquinnah
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-DUKES
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ARLINGTON
+  attributes:
+    name: Arlington
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ASHBURNHAM
+  attributes:
+    name: Ashburnham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ASHBY
+  attributes:
+    name: Ashby
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ASHFIELD
+  attributes:
+    name: Ashfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ASHLAND
+  attributes:
+    name: Ashland
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ATHOL
+  attributes:
+    name: Athol
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ATTLEBORO
+  attributes:
+    name: Attleboro
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-AUBURN
+  attributes:
+    name: Auburn
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-AVON
+  attributes:
+    name: Avon
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-AYER
+  attributes:
+    name: Ayer
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BARNSTABLE_TOWN
+  attributes:
+    name: Barnstable Town
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BARNSTABLE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BARRE
+  attributes:
+    name: Barre
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BECKET
+  attributes:
+    name: Becket
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BEDFORD
+  attributes:
+    name: Bedford
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BELCHERTOWN
+  attributes:
+    name: Belchertown
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BELLINGHAM
+  attributes:
+    name: Bellingham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BELMONT
+  attributes:
+    name: Belmont
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BERKLEY
+  attributes:
+    name: Berkley
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BERLIN
+  attributes:
+    name: Berlin
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BERNARDSTON
+  attributes:
+    name: Bernardston
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BEVERLY
+  attributes:
+    name: Beverly
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BILLERICA
+  attributes:
+    name: Billerica
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BLACKSTONE
+  attributes:
+    name: Blackstone
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BLANDFORD
+  attributes:
+    name: Blandford
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BOLTON
+  attributes:
+    name: Bolton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BOSTON
+  attributes:
+    name: Boston
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-SUFFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BOURNE
+  attributes:
+    name: Bourne
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BARNSTABLE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BOXBOROUGH
+  attributes:
+    name: Boxborough
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BOXFORD
+  attributes:
+    name: Boxford
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BOYLSTON
+  attributes:
+    name: Boylston
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BRAINTREE_TOWN
+  attributes:
+    name: Braintree Town
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BREWSTER
+  attributes:
+    name: Brewster
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BARNSTABLE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BRIDGEWATER_TOWN
+  attributes:
+    name: Bridgewater Town
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BRIMFIELD
+  attributes:
+    name: Brimfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BROCKTON
+  attributes:
+    name: Brockton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BROOKFIELD
+  attributes:
+    name: Brookfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BROOKLINE
+  attributes:
+    name: Brookline
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BUCKLAND
+  attributes:
+    name: Buckland
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-BURLINGTON
+  attributes:
+    name: Burlington
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CAMBRIDGE
+  attributes:
+    name: Cambridge
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CANTON
+  attributes:
+    name: Canton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CARLISLE
+  attributes:
+    name: Carlisle
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CARVER
+  attributes:
+    name: Carver
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CHARLEMONT
+  attributes:
+    name: Charlemont
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CHARLTON
+  attributes:
+    name: Charlton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CHATHAM
+  attributes:
+    name: Chatham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BARNSTABLE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CHELMSFORD
+  attributes:
+    name: Chelmsford
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CHELSEA
+  attributes:
+    name: Chelsea
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-SUFFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CHESHIRE
+  attributes:
+    name: Cheshire
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CHESTER
+  attributes:
+    name: Chester
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CHESTERFIELD
+  attributes:
+    name: Chesterfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CHICOPEE
+  attributes:
+    name: Chicopee
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CHILMARK
+  attributes:
+    name: Chilmark
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-DUKES
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CLARKSBURG
+  attributes:
+    name: Clarksburg
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CLINTON
+  attributes:
+    name: Clinton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-COHASSET
+  attributes:
+    name: Cohasset
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-COLRAIN
+  attributes:
+    name: Colrain
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CONCORD
+  attributes:
+    name: Concord
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CONWAY
+  attributes:
+    name: Conway
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-CUMMINGTON
+  attributes:
+    name: Cummington
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-DALTON
+  attributes:
+    name: Dalton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-DANVERS
+  attributes:
+    name: Danvers
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-DARTMOUTH
+  attributes:
+    name: Dartmouth
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-DEDHAM
+  attributes:
+    name: Dedham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-DEERFIELD
+  attributes:
+    name: Deerfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-DENNIS
+  attributes:
+    name: Dennis
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BARNSTABLE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-DIGHTON
+  attributes:
+    name: Dighton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-DOUGLAS
+  attributes:
+    name: Douglas
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-DOVER
+  attributes:
+    name: Dover
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-DRACUT
+  attributes:
+    name: Dracut
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-DUDLEY
+  attributes:
+    name: Dudley
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-DUNSTABLE
+  attributes:
+    name: Dunstable
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-DUXBURY
+  attributes:
+    name: Duxbury
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-EASTHAM
+  attributes:
+    name: Eastham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BARNSTABLE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-EASTHAMPTON
+  attributes:
+    name: Easthampton
+  references:
+    state: STATE-USA-MA
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-EASTON
+  attributes:
+    name: Easton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-EAST_BRIDGEWATER
+  attributes:
+    name: East Bridgewater
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-EAST_BROOKFIELD
+  attributes:
+    name: East Brookfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-EAST_LONGMEADOW
+  attributes:
+    name: East Longmeadow
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-EDGARTOWN
+  attributes:
+    name: Edgartown
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-DUKES
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-EGREMONT
+  attributes:
+    name: Egremont
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ERVING
+  attributes:
+    name: Erving
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ESSEX
+  attributes:
+    name: Essex
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-EVERETT
+  attributes:
+    name: Everett
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-FAIRHAVEN
+  attributes:
+    name: Fairhaven
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-FALL_RIVER
+  attributes:
+    name: Fall River
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-FALMOUTH
+  attributes:
+    name: Falmouth
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BARNSTABLE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-FITCHBURG
+  attributes:
+    name: Fitchburg
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-FLORIDA
+  attributes:
+    name: Florida
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-FOXBOROUGH
+  attributes:
+    name: Foxborough
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-FRAMINGHAM
+  attributes:
+    name: Framingham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-FRANKLIN_TOWN
+  attributes:
+    name: Franklin Town
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-FREETOWN
+  attributes:
+    name: Freetown
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-GARDNER
+  attributes:
+    name: Gardner
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-GEORGETOWN
+  attributes:
+    name: Georgetown
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-GILL
+  attributes:
+    name: Gill
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-GLOUCESTER
+  attributes:
+    name: Gloucester
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-GOSHEN
+  attributes:
+    name: Goshen
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-GOSNOLD
+  attributes:
+    name: Gosnold
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-DUKES
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-GRAFTON
+  attributes:
+    name: Grafton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-GRANBY
+  attributes:
+    name: Granby
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-GRANVILLE
+  attributes:
+    name: Granville
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-GREAT_BARRINGTON
+  attributes:
+    name: Great Barrington
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-GREENFIELD
+  attributes:
+    name: Greenfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-GROTON
+  attributes:
+    name: Groton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-GROVELAND
+  attributes:
+    name: Groveland
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HADLEY
+  attributes:
+    name: Hadley
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HALIFAX
+  attributes:
+    name: Halifax
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HAMILTON
+  attributes:
+    name: Hamilton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HAMPDEN
+  attributes:
+    name: Hampden
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HANCOCK
+  attributes:
+    name: Hancock
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HANOVER
+  attributes:
+    name: Hanover
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HANSON
+  attributes:
+    name: Hanson
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HARDWICK
+  attributes:
+    name: Hardwick
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HARVARD
+  attributes:
+    name: Harvard
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HARWICH
+  attributes:
+    name: Harwich
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BARNSTABLE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HATFIELD
+  attributes:
+    name: Hatfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HAVERHILL
+  attributes:
+    name: Haverhill
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HAWLEY
+  attributes:
+    name: Hawley
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HEATH
+  attributes:
+    name: Heath
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HINGHAM
+  attributes:
+    name: Hingham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HINSDALE
+  attributes:
+    name: Hinsdale
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HOLBROOK
+  attributes:
+    name: Holbrook
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HOLDEN
+  attributes:
+    name: Holden
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HOLLAND
+  attributes:
+    name: Holland
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HOLLISTON
+  attributes:
+    name: Holliston
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HOLYOKE
+  attributes:
+    name: Holyoke
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HOPEDALE
+  attributes:
+    name: Hopedale
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HOPKINTON
+  attributes:
+    name: Hopkinton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HUBBARDSTON
+  attributes:
+    name: Hubbardston
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HUDSON
+  attributes:
+    name: Hudson
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HULL
+  attributes:
+    name: Hull
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-HUNTINGTON
+  attributes:
+    name: Huntington
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-IPSWICH
+  attributes:
+    name: Ipswich
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-KINGSTON
+  attributes:
+    name: Kingston
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LAKEVILLE
+  attributes:
+    name: Lakeville
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LANCASTER
+  attributes:
+    name: Lancaster
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LANESBOROUGH
+  attributes:
+    name: Lanesborough
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LAWRENCE
+  attributes:
+    name: Lawrence
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LEE
+  attributes:
+    name: Lee
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LEICESTER
+  attributes:
+    name: Leicester
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LENOX
+  attributes:
+    name: Lenox
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LEOMINSTER
+  attributes:
+    name: Leominster
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LEVERETT
+  attributes:
+    name: Leverett
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LEXINGTON
+  attributes:
+    name: Lexington
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LEYDEN
+  attributes:
+    name: Leyden
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LINCOLN
+  attributes:
+    name: Lincoln
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LITTLETON
+  attributes:
+    name: Littleton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LONGMEADOW
+  attributes:
+    name: Longmeadow
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LOWELL
+  attributes:
+    name: Lowell
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LUDLOW
+  attributes:
+    name: Ludlow
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LUNENBURG
+  attributes:
+    name: Lunenburg
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LYNN
+  attributes:
+    name: Lynn
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-LYNNFIELD
+  attributes:
+    name: Lynnfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MALDEN
+  attributes:
+    name: Malden
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MANCHESTER_BY_THE_SEA
+  attributes:
+    name: Manchester-by-the-Sea
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MANSFIELD
+  attributes:
+    name: Mansfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MARBLEHEAD
+  attributes:
+    name: Marblehead
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MARION
+  attributes:
+    name: Marion
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MARLBOROUGH
+  attributes:
+    name: Marlborough
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MARSHFIELD
+  attributes:
+    name: Marshfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MASHPEE
+  attributes:
+    name: Mashpee
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BARNSTABLE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MATTAPOISETT
+  attributes:
+    name: Mattapoisett
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MAYNARD
+  attributes:
+    name: Maynard
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MEDFIELD
+  attributes:
+    name: Medfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MEDFORD
+  attributes:
+    name: Medford
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MEDWAY
+  attributes:
+    name: Medway
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MELROSE
+  attributes:
+    name: Melrose
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MENDON
+  attributes:
+    name: Mendon
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MERRIMAC
+  attributes:
+    name: Merrimac
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-METHUEN
+  attributes:
+    name: Methuen
+  references:
+    state: STATE-USA-MA
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MIDDLEBOROUGH
+  attributes:
+    name: Middleborough
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MIDDLEFIELD
+  attributes:
+    name: Middlefield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MIDDLETON
+  attributes:
+    name: Middleton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MILFORD
+  attributes:
+    name: Milford
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MILLBURY
+  attributes:
+    name: Millbury
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MILLIS
+  attributes:
+    name: Millis
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MILLVILLE
+  attributes:
+    name: Millville
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MILTON
+  attributes:
+    name: Milton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MONROE
+  attributes:
+    name: Monroe
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MONSON
+  attributes:
+    name: Monson
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MONTAGUE
+  attributes:
+    name: Montague
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MONTEREY
+  attributes:
+    name: Monterey
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MONTGOMERY
+  attributes:
+    name: Montgomery
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-MOUNT_WASHINGTON
+  attributes:
+    name: Mount Washington
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NAHANT
+  attributes:
+    name: Nahant
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NANTUCKET
+  attributes:
+    name: Nantucket
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NANTUCKET
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NATICK
+  attributes:
+    name: Natick
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NEEDHAM
+  attributes:
+    name: Needham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NEWBURY
+  attributes:
+    name: Newbury
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NEWBURYPORT
+  attributes:
+    name: Newburyport
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NEWTON
+  attributes:
+    name: Newton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NEW_ASHFORD
+  attributes:
+    name: New Ashford
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NEW_BEDFORD
+  attributes:
+    name: New Bedford
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NEW_BRAINTREE
+  attributes:
+    name: New Braintree
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NEW_MARLBOROUGH
+  attributes:
+    name: New Marlborough
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NEW_SALEM
+  attributes:
+    name: New Salem
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NORFOLK
+  attributes:
+    name: Norfolk
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NORTHAMPTON
+  attributes:
+    name: Northampton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NORTHBOROUGH
+  attributes:
+    name: Northborough
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NORTHBRIDGE
+  attributes:
+    name: Northbridge
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NORTHFIELD
+  attributes:
+    name: Northfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NORTH_ADAMS
+  attributes:
+    name: North Adams
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NORTH_ANDOVER
+  attributes:
+    name: North Andover
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NORTH_ATTLEBOROUGH_TOWN
+  attributes:
+    name: North Attleborough Town
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NORTH_BROOKFIELD
+  attributes:
+    name: North Brookfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NORTH_READING
+  attributes:
+    name: North Reading
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NORTON
+  attributes:
+    name: Norton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NORWELL
+  attributes:
+    name: Norwell
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-NORWOOD
+  attributes:
+    name: Norwood
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-OAKHAM
+  attributes:
+    name: Oakham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-OAK_BLUFFS
+  attributes:
+    name: Oak Bluffs
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-DUKES
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ORANGE
+  attributes:
+    name: Orange
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ORLEANS
+  attributes:
+    name: Orleans
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BARNSTABLE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-OTIS
+  attributes:
+    name: Otis
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-OXFORD
+  attributes:
+    name: Oxford
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-PALMER_TOWN
+  attributes:
+    name: Palmer Town
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-PAXTON
+  attributes:
+    name: Paxton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-PEABODY
+  attributes:
+    name: Peabody
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-PELHAM
+  attributes:
+    name: Pelham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-PEMBROKE
+  attributes:
+    name: Pembroke
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-PEPPERELL
+  attributes:
+    name: Pepperell
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-PERU
+  attributes:
+    name: Peru
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-PETERSHAM
+  attributes:
+    name: Petersham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-PHILLIPSTON
+  attributes:
+    name: Phillipston
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-PITTSFIELD
+  attributes:
+    name: Pittsfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-PLAINFIELD
+  attributes:
+    name: Plainfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-PLAINVILLE
+  attributes:
+    name: Plainville
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-PLYMOUTH
+  attributes:
+    name: Plymouth
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-PLYMPTON
+  attributes:
+    name: Plympton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-PRINCETON
+  attributes:
+    name: Princeton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-PROVINCETOWN
+  attributes:
+    name: Provincetown
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BARNSTABLE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-QUINCY
+  attributes:
+    name: Quincy
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-RANDOLPH_TOWN
+  attributes:
+    name: Randolph Town
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-RAYNHAM
+  attributes:
+    name: Raynham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-READING
+  attributes:
+    name: Reading
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-REHOBOTH
+  attributes:
+    name: Rehoboth
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-REVERE
+  attributes:
+    name: Revere
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-SUFFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-RICHMOND
+  attributes:
+    name: Richmond
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ROCHESTER
+  attributes:
+    name: Rochester
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ROCKLAND
+  attributes:
+    name: Rockland
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ROCKPORT
+  attributes:
+    name: Rockport
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ROWE
+  attributes:
+    name: Rowe
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ROWLEY
+  attributes:
+    name: Rowley
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-ROYALSTON
+  attributes:
+    name: Royalston
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-RUSSELL
+  attributes:
+    name: Russell
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-RUTLAND
+  attributes:
+    name: Rutland
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SALEM
+  attributes:
+    name: Salem
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SALISBURY
+  attributes:
+    name: Salisbury
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SANDISFIELD
+  attributes:
+    name: Sandisfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SANDWICH
+  attributes:
+    name: Sandwich
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BARNSTABLE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SAUGUS
+  attributes:
+    name: Saugus
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SAVOY
+  attributes:
+    name: Savoy
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SCITUATE
+  attributes:
+    name: Scituate
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SEEKONK
+  attributes:
+    name: Seekonk
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SHARON
+  attributes:
+    name: Sharon
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SHEFFIELD
+  attributes:
+    name: Sheffield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SHELBURNE
+  attributes:
+    name: Shelburne
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SHERBORN
+  attributes:
+    name: Sherborn
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SHIRLEY
+  attributes:
+    name: Shirley
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SHREWSBURY
+  attributes:
+    name: Shrewsbury
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SHUTESBURY
+  attributes:
+    name: Shutesbury
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SOMERSET
+  attributes:
+    name: Somerset
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SOMERVILLE
+  attributes:
+    name: Somerville
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SOUTHAMPTON
+  attributes:
+    name: Southampton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SOUTHBOROUGH
+  attributes:
+    name: Southborough
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SOUTHBRIDGE_TOWN
+  attributes:
+    name: Southbridge Town
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SOUTHWICK
+  attributes:
+    name: Southwick
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SOUTH_HADLEY
+  attributes:
+    name: South Hadley
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SPENCER
+  attributes:
+    name: Spencer
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SPRINGFIELD
+  attributes:
+    name: Springfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-STERLING
+  attributes:
+    name: Sterling
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-STOCKBRIDGE
+  attributes:
+    name: Stockbridge
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-STONEHAM
+  attributes:
+    name: Stoneham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-STOUGHTON
+  attributes:
+    name: Stoughton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-STOW
+  attributes:
+    name: Stow
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-STURBRIDGE
+  attributes:
+    name: Sturbridge
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SUDBURY
+  attributes:
+    name: Sudbury
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SUNDERLAND
+  attributes:
+    name: Sunderland
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SUTTON
+  attributes:
+    name: Sutton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SWAMPSCOTT
+  attributes:
+    name: Swampscott
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-SWANSEA
+  attributes:
+    name: Swansea
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-TAUNTON
+  attributes:
+    name: Taunton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-TEMPLETON
+  attributes:
+    name: Templeton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-TEWKSBURY
+  attributes:
+    name: Tewksbury
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-TISBURY
+  attributes:
+    name: Tisbury
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-DUKES
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-TOLLAND
+  attributes:
+    name: Tolland
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-TOPSFIELD
+  attributes:
+    name: Topsfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-TOWNSEND
+  attributes:
+    name: Townsend
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-TRURO
+  attributes:
+    name: Truro
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BARNSTABLE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-TYNGSBOROUGH
+  attributes:
+    name: Tyngsborough
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-TYRINGHAM
+  attributes:
+    name: Tyringham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-UPTON
+  attributes:
+    name: Upton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-UXBRIDGE
+  attributes:
+    name: Uxbridge
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WAKEFIELD
+  attributes:
+    name: Wakefield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WALES
+  attributes:
+    name: Wales
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WALPOLE
+  attributes:
+    name: Walpole
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WALTHAM
+  attributes:
+    name: Waltham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WARE
+  attributes:
+    name: Ware
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WAREHAM
+  attributes:
+    name: Wareham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WARREN
+  attributes:
+    name: Warren
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WARWICK
+  attributes:
+    name: Warwick
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WASHINGTON
+  attributes:
+    name: Washington
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WATERTOWN
+  attributes:
+    name: Watertown
+  references:
+    state: STATE-USA-MA
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WAYLAND
+  attributes:
+    name: Wayland
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WEBSTER
+  attributes:
+    name: Webster
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WELLESLEY
+  attributes:
+    name: Wellesley
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WELLFLEET
+  attributes:
+    name: Wellfleet
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BARNSTABLE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WENDELL
+  attributes:
+    name: Wendell
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WENHAM
+  attributes:
+    name: Wenham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WESTBOROUGH
+  attributes:
+    name: Westborough
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WESTFIELD
+  attributes:
+    name: Westfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WESTFORD
+  attributes:
+    name: Westford
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WESTHAMPTON
+  attributes:
+    name: Westhampton
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WESTMINSTER
+  attributes:
+    name: Westminster
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WESTON
+  attributes:
+    name: Weston
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WESTPORT
+  attributes:
+    name: Westport
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WESTWOOD
+  attributes:
+    name: Westwood
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WEST_BOYLSTON
+  attributes:
+    name: West Boylston
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WEST_BRIDGEWATER
+  attributes:
+    name: West Bridgewater
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WEST_BROOKFIELD
+  attributes:
+    name: West Brookfield
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WEST_NEWBURY
+  attributes:
+    name: West Newbury
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WEST_SPRINGFIELD_TOWN
+  attributes:
+    name: West Springfield Town
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WEST_STOCKBRIDGE
+  attributes:
+    name: West Stockbridge
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WEST_TISBURY
+  attributes:
+    name: West Tisbury
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-DUKES
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WEYMOUTH_TOWN
+  attributes:
+    name: Weymouth Town
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WHATELY
+  attributes:
+    name: Whately
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WHITMAN
+  attributes:
+    name: Whitman
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-PLYMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WILBRAHAM
+  attributes:
+    name: Wilbraham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WILLIAMSBURG
+  attributes:
+    name: Williamsburg
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WILLIAMSTOWN
+  attributes:
+    name: Williamstown
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WILMINGTON
+  attributes:
+    name: Wilmington
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WINCHENDON
+  attributes:
+    name: Winchendon
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WINCHESTER
+  attributes:
+    name: Winchester
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WINDSOR
+  attributes:
+    name: Windsor
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BERKSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WINTHROP_TOWN
+  attributes:
+    name: Winthrop Town
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-SUFFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WOBURN
+  attributes:
+    name: Woburn
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WORCESTER
+  attributes:
+    name: Worcester
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-WORCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WORTHINGTON
+  attributes:
+    name: Worthington
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-HAMPSHIRE
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-WRENTHAM
+  attributes:
+    name: Wrentham
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-NORFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-MA-YARMOUTH
+  attributes:
+    name: Yarmouth
+  references:
+    state: STATE-USA-MA
+    county: COUNTY-USA-MA-BARNSTABLE

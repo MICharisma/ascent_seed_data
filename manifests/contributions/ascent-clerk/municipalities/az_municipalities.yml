@@ -1,0 +1,641 @@
+# AZ: 91 incorporated places (Census 2024 Gazetteer, FUNCSTAT A/B, plus consolidated-government balances) + 0 active-government county subdivisions (FUNCSTAT A: towns/townships/plantations). CDPs excluded.
+# County reference only when the place lies in exactly one county (2020 place-by-county file) or from the subdivision's GEOID.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html
+  captured_on: '2026-10-21'
+scope:
+  state: STATE-USA-AZ
+records:
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-APACHE_JUNCTION
+  attributes:
+    name: Apache Junction
+  references:
+    state: STATE-USA-AZ
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-AVONDALE
+  attributes:
+    name: Avondale
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-BENSON
+  attributes:
+    name: Benson
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-COCHISE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-BISBEE
+  attributes:
+    name: Bisbee
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-COCHISE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-BUCKEYE
+  attributes:
+    name: Buckeye
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-BULLHEAD_CITY
+  attributes:
+    name: Bullhead City
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MOHAVE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-CAMP_VERDE
+  attributes:
+    name: Camp Verde
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-YAVAPAI
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-CAREFREE
+  attributes:
+    name: Carefree
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-CASA_GRANDE
+  attributes:
+    name: Casa Grande
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-PINAL
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-CAVE_CREEK
+  attributes:
+    name: Cave Creek
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-CHANDLER
+  attributes:
+    name: Chandler
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-CHINO_VALLEY
+  attributes:
+    name: Chino Valley
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-YAVAPAI
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-CLARKDALE
+  attributes:
+    name: Clarkdale
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-YAVAPAI
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-CLIFTON
+  attributes:
+    name: Clifton
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-GREENLEE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-COLORADO_CITY
+  attributes:
+    name: Colorado City
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MOHAVE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-COOLIDGE
+  attributes:
+    name: Coolidge
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-PINAL
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-COTTONWOOD
+  attributes:
+    name: Cottonwood
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-YAVAPAI
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-DEWEY_HUMBOLDT
+  attributes:
+    name: Dewey-Humboldt
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-YAVAPAI
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-DOUGLAS
+  attributes:
+    name: Douglas
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-COCHISE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-DUNCAN
+  attributes:
+    name: Duncan
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-GREENLEE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-EAGAR
+  attributes:
+    name: Eagar
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-APACHE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-ELOY
+  attributes:
+    name: Eloy
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-PINAL
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-EL_MIRAGE
+  attributes:
+    name: El Mirage
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-FLAGSTAFF
+  attributes:
+    name: Flagstaff
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-COCONINO
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-FLORENCE
+  attributes:
+    name: Florence
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-PINAL
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-FOUNTAIN_HILLS
+  attributes:
+    name: Fountain Hills
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-FREDONIA
+  attributes:
+    name: Fredonia
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-COCONINO
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-GILA_BEND
+  attributes:
+    name: Gila Bend
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-GILBERT
+  attributes:
+    name: Gilbert
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-GLENDALE
+  attributes:
+    name: Glendale
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-GLOBE
+  attributes:
+    name: Globe
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-GILA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-GOODYEAR
+  attributes:
+    name: Goodyear
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-GUADALUPE
+  attributes:
+    name: Guadalupe
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-HAYDEN
+  attributes:
+    name: Hayden
+  references:
+    state: STATE-USA-AZ
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-HOLBROOK
+  attributes:
+    name: Holbrook
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-NAVAJO
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-HUACHUCA_CITY
+  attributes:
+    name: Huachuca City
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-COCHISE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-JEROME
+  attributes:
+    name: Jerome
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-YAVAPAI
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-KEARNY
+  attributes:
+    name: Kearny
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-PINAL
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-KINGMAN
+  attributes:
+    name: Kingman
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MOHAVE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-LAKE_HAVASU_CITY
+  attributes:
+    name: Lake Havasu City
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MOHAVE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-LITCHFIELD_PARK
+  attributes:
+    name: Litchfield Park
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-MAMMOTH
+  attributes:
+    name: Mammoth
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-PINAL
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-MARANA
+  attributes:
+    name: Marana
+  references:
+    state: STATE-USA-AZ
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-MARICOPA
+  attributes:
+    name: Maricopa
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-PINAL
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-MESA
+  attributes:
+    name: Mesa
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-MIAMI
+  attributes:
+    name: Miami
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-GILA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-NOGALES
+  attributes:
+    name: Nogales
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-SANTA_CRUZ
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-ORO_VALLEY
+  attributes:
+    name: Oro Valley
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-PIMA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-PAGE
+  attributes:
+    name: Page
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-COCONINO
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-PARADISE_VALLEY
+  attributes:
+    name: Paradise Valley
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-PARKER
+  attributes:
+    name: Parker
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-LA_PAZ
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-PATAGONIA
+  attributes:
+    name: Patagonia
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-SANTA_CRUZ
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-PAYSON
+  attributes:
+    name: Payson
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-GILA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-PEORIA
+  attributes:
+    name: Peoria
+  references:
+    state: STATE-USA-AZ
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-PHOENIX
+  attributes:
+    name: Phoenix
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-PIMA
+  attributes:
+    name: Pima
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-GRAHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-PINETOP_LAKESIDE
+  attributes:
+    name: Pinetop-Lakeside
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-NAVAJO
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-PRESCOTT
+  attributes:
+    name: Prescott
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-YAVAPAI
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-PRESCOTT_VALLEY
+  attributes:
+    name: Prescott Valley
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-YAVAPAI
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-QUARTZSITE
+  attributes:
+    name: Quartzsite
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-LA_PAZ
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-QUEEN_CREEK
+  attributes:
+    name: Queen Creek
+  references:
+    state: STATE-USA-AZ
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-SAFFORD
+  attributes:
+    name: Safford
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-GRAHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-SAHUARITA
+  attributes:
+    name: Sahuarita
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-PIMA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-SAN_LUIS
+  attributes:
+    name: San Luis
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-YUMA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-SCOTTSDALE
+  attributes:
+    name: Scottsdale
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-SEDONA
+  attributes:
+    name: Sedona
+  references:
+    state: STATE-USA-AZ
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-SHOW_LOW
+  attributes:
+    name: Show Low
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-NAVAJO
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-SIERRA_VISTA
+  attributes:
+    name: Sierra Vista
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-COCHISE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-SNOWFLAKE
+  attributes:
+    name: Snowflake
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-NAVAJO
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-SOMERTON
+  attributes:
+    name: Somerton
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-YUMA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-SOUTH_TUCSON
+  attributes:
+    name: South Tucson
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-PIMA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-SPRINGERVILLE
+  attributes:
+    name: Springerville
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-APACHE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-STAR_VALLEY
+  attributes:
+    name: Star Valley
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-GILA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-ST_JOHNS
+  attributes:
+    name: St. Johns
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-APACHE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-SUPERIOR
+  attributes:
+    name: Superior
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-PINAL
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-SURPRISE
+  attributes:
+    name: Surprise
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-TAYLOR
+  attributes:
+    name: Taylor
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-NAVAJO
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-TEMPE
+  attributes:
+    name: Tempe
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-THATCHER
+  attributes:
+    name: Thatcher
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-GRAHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-TOLLESON
+  attributes:
+    name: Tolleson
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-TOMBSTONE
+  attributes:
+    name: Tombstone
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-COCHISE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-TUCSON
+  attributes:
+    name: Tucson
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-PIMA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-TUSAYAN
+  attributes:
+    name: Tusayan
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-COCONINO
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-WELLTON
+  attributes:
+    name: Wellton
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-YUMA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-WICKENBURG
+  attributes:
+    name: Wickenburg
+  references:
+    state: STATE-USA-AZ
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-WILLCOX
+  attributes:
+    name: Willcox
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-COCHISE
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-WILLIAMS
+  attributes:
+    name: Williams
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-COCONINO
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-WINKELMAN
+  attributes:
+    name: Winkelman
+  references:
+    state: STATE-USA-AZ
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-WINSLOW
+  attributes:
+    name: Winslow
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-NAVAJO
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-YOUNGTOWN
+  attributes:
+    name: Youngtown
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-MARICOPA
+- type: Municipality
+  code: MUNICIPALITY-USA-AZ-YUMA
+  attributes:
+    name: Yuma
+  references:
+    state: STATE-USA-AZ
+    county: COUNTY-USA-AZ-YUMA
