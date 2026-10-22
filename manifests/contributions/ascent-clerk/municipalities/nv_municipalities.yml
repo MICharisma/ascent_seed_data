@@ -1,0 +1,145 @@
+# NV: 19 incorporated places (Census 2024 Gazetteer, FUNCSTAT A/B, plus consolidated-government balances) + 0 active-government county subdivisions (FUNCSTAT A: towns/townships/plantations). CDPs excluded.
+# County reference only when the place lies in exactly one county (2020 place-by-county file) or from the subdivision's GEOID.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html
+  captured_on: '2026-10-21'
+scope:
+  state: STATE-USA-NV
+records:
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-BOULDER_CITY
+  attributes:
+    name: Boulder City
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-CLARK
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-CALIENTE
+  attributes:
+    name: Caliente
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-CARLIN
+  attributes:
+    name: Carlin
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-ELKO
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-CARSON_CITY
+  attributes:
+    name: Carson City
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-CARSON_CITY
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-ELKO
+  attributes:
+    name: Elko
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-ELKO
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-ELY
+  attributes:
+    name: Ely
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-WHITE_PINE
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-FALLON
+  attributes:
+    name: Fallon
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-CHURCHILL
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-FERNLEY
+  attributes:
+    name: Fernley
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-LYON
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-HENDERSON
+  attributes:
+    name: Henderson
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-CLARK
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-LAS_VEGAS
+  attributes:
+    name: Las Vegas
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-CLARK
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-LOVELOCK
+  attributes:
+    name: Lovelock
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-PERSHING
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-MESQUITE
+  attributes:
+    name: Mesquite
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-CLARK
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-NORTH_LAS_VEGAS
+  attributes:
+    name: North Las Vegas
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-CLARK
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-RENO
+  attributes:
+    name: Reno
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-WASHOE
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-SPARKS
+  attributes:
+    name: Sparks
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-WASHOE
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-WELLS
+  attributes:
+    name: Wells
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-ELKO
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-WEST_WENDOVER
+  attributes:
+    name: West Wendover
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-ELKO
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-WINNEMUCCA
+  attributes:
+    name: Winnemucca
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-HUMBOLDT
+- type: Municipality
+  code: MUNICIPALITY-USA-NV-YERINGTON
+  attributes:
+    name: Yerington
+  references:
+    state: STATE-USA-NV
+    county: COUNTY-USA-NV-LYON

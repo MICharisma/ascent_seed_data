@@ -1,0 +1,1393 @@
+# ID: 198 incorporated places (Census 2024 Gazetteer, FUNCSTAT A/B, plus consolidated-government balances) + 0 active-government county subdivisions (FUNCSTAT A: towns/townships/plantations). CDPs excluded.
+# County reference only when the place lies in exactly one county (2020 place-by-county file) or from the subdivision's GEOID.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html
+  captured_on: '2026-10-21'
+scope:
+  state: STATE-USA-ID
+records:
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-ABERDEEN
+  attributes:
+    name: Aberdeen
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-ACEQUIA
+  attributes:
+    name: Acequia
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-MINIDOKA
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-ALBION
+  attributes:
+    name: Albion
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CASSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-AMERICAN_FALLS
+  attributes:
+    name: American Falls
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-POWER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-AMMON
+  attributes:
+    name: Ammon
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BONNEVILLE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-ARCO
+  attributes:
+    name: Arco
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BUTTE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-ARIMO
+  attributes:
+    name: Arimo
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BANNOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-ASHTON
+  attributes:
+    name: Ashton
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-FREMONT
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-ATHOL
+  attributes:
+    name: Athol
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-KOOTENAI
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-BANCROFT
+  attributes:
+    name: Bancroft
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CARIBOU
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-BASALT
+  attributes:
+    name: Basalt
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-BELLEVUE
+  attributes:
+    name: Bellevue
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BLAINE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-BLACKFOOT
+  attributes:
+    name: Blackfoot
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-BLISS
+  attributes:
+    name: Bliss
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-GOODING
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-BLOOMINGTON
+  attributes:
+    name: Bloomington
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BEAR_LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-BOISE_CITY
+  attributes:
+    name: Boise City
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-ADA
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-BONNERS_FERRY
+  attributes:
+    name: Bonners Ferry
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BOUNDARY
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-BOVILL
+  attributes:
+    name: Bovill
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LATAH
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-BUHL
+  attributes:
+    name: Buhl
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-TWIN_FALLS
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-BURLEY
+  attributes:
+    name: Burley
+  references:
+    state: STATE-USA-ID
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-BUTTE_CITY
+  attributes:
+    name: Butte City
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BUTTE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-CALDWELL
+  attributes:
+    name: Caldwell
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CANYON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-CAMBRIDGE
+  attributes:
+    name: Cambridge
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-CAREY
+  attributes:
+    name: Carey
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BLAINE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-CASCADE
+  attributes:
+    name: Cascade
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-VALLEY
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-CASTLEFORD
+  attributes:
+    name: Castleford
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-TWIN_FALLS
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-CHALLIS
+  attributes:
+    name: Challis
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CUSTER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-CHUBBUCK
+  attributes:
+    name: Chubbuck
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BANNOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-CLARK_FORK
+  attributes:
+    name: Clark Fork
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BONNER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-CLAYTON
+  attributes:
+    name: Clayton
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CUSTER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-CLIFTON
+  attributes:
+    name: Clifton
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-COEUR
+  attributes:
+    name: Coeur
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-KOOTENAI
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-COTTONWOOD
+  attributes:
+    name: Cottonwood
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-IDAHO
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-COUNCIL
+  attributes:
+    name: Council
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-ADAMS
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-CRAIGMONT
+  attributes:
+    name: Craigmont
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LEWIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-CROUCH
+  attributes:
+    name: Crouch
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BOISE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-CULDESAC
+  attributes:
+    name: Culdesac
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-NEZ_PERCE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-DALTON_GARDENS
+  attributes:
+    name: Dalton Gardens
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-KOOTENAI
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-DAYTON
+  attributes:
+    name: Dayton
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-DEARY
+  attributes:
+    name: Deary
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LATAH
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-DECLO
+  attributes:
+    name: Declo
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CASSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-DIETRICH
+  attributes:
+    name: Dietrich
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-DONNELLY
+  attributes:
+    name: Donnelly
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-VALLEY
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-DOVER
+  attributes:
+    name: Dover
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BONNER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-DOWNEY
+  attributes:
+    name: Downey
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BANNOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-DRIGGS
+  attributes:
+    name: Driggs
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-TETON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-DRUMMOND
+  attributes:
+    name: Drummond
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-FREMONT
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-DUBOIS
+  attributes:
+    name: Dubois
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CLARK
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-EAGLE
+  attributes:
+    name: Eagle
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-ADA
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-EAST_HOPE
+  attributes:
+    name: East Hope
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BONNER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-EDEN
+  attributes:
+    name: Eden
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-JEROME
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-ELK_RIVER
+  attributes:
+    name: Elk River
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CLEARWATER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-EMMETT
+  attributes:
+    name: Emmett
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-GEM
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-FAIRFIELD
+  attributes:
+    name: Fairfield
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CAMAS
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-FERDINAND
+  attributes:
+    name: Ferdinand
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-IDAHO
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-FERNAN_LAKE_VILLAGE
+  attributes:
+    name: Fernan Lake Village
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-KOOTENAI
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-FILER
+  attributes:
+    name: Filer
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-TWIN_FALLS
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-FIRTH
+  attributes:
+    name: Firth
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-FRANKLIN
+  attributes:
+    name: Franklin
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-FRUITLAND
+  attributes:
+    name: Fruitland
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-PAYETTE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-GARDEN_CITY
+  attributes:
+    name: Garden City
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-ADA
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-GENESEE
+  attributes:
+    name: Genesee
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LATAH
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-GEORGETOWN
+  attributes:
+    name: Georgetown
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BEAR_LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-GLENNS_FERRY
+  attributes:
+    name: Glenns Ferry
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-ELMORE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-GOODING
+  attributes:
+    name: Gooding
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-GOODING
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-GRACE
+  attributes:
+    name: Grace
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CARIBOU
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-GRAND_VIEW
+  attributes:
+    name: Grand View
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-OWYHEE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-GRANGEVILLE
+  attributes:
+    name: Grangeville
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-IDAHO
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-GREENLEAF
+  attributes:
+    name: Greenleaf
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CANYON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-HAGERMAN
+  attributes:
+    name: Hagerman
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-GOODING
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-HAILEY
+  attributes:
+    name: Hailey
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BLAINE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-HANSEN
+  attributes:
+    name: Hansen
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-TWIN_FALLS
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-HARRISON
+  attributes:
+    name: Harrison
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-KOOTENAI
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-HAUSER
+  attributes:
+    name: Hauser
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-KOOTENAI
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-HAYDEN
+  attributes:
+    name: Hayden
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-KOOTENAI
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-HAYDEN_LAKE
+  attributes:
+    name: Hayden Lake
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-KOOTENAI
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-HAZELTON
+  attributes:
+    name: Hazelton
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-JEROME
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-HEYBURN
+  attributes:
+    name: Heyburn
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-MINIDOKA
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-HOLLISTER
+  attributes:
+    name: Hollister
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-TWIN_FALLS
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-HOMEDALE
+  attributes:
+    name: Homedale
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-OWYHEE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-HOPE
+  attributes:
+    name: Hope
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BONNER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-HORSESHOE_BEND
+  attributes:
+    name: Horseshoe Bend
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BOISE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-HUETTER
+  attributes:
+    name: Huetter
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-KOOTENAI
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-IDAHO_CITY
+  attributes:
+    name: Idaho City
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BOISE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-IDAHO_FALLS
+  attributes:
+    name: Idaho Falls
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BONNEVILLE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-INKOM
+  attributes:
+    name: Inkom
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BANNOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-IONA
+  attributes:
+    name: Iona
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BONNEVILLE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-IRWIN
+  attributes:
+    name: Irwin
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BONNEVILLE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-ISLAND_PARK
+  attributes:
+    name: Island Park
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-FREMONT
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-JEROME
+  attributes:
+    name: Jerome
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-JEROME
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-JULIAETTA
+  attributes:
+    name: Juliaetta
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LATAH
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-KAMIAH
+  attributes:
+    name: Kamiah
+  references:
+    state: STATE-USA-ID
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-KELLOGG
+  attributes:
+    name: Kellogg
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-SHOSHONE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-KENDRICK
+  attributes:
+    name: Kendrick
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LATAH
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-KETCHUM
+  attributes:
+    name: Ketchum
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BLAINE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-KIMBERLY
+  attributes:
+    name: Kimberly
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-TWIN_FALLS
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-KOOSKIA
+  attributes:
+    name: Kooskia
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-IDAHO
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-KOOTENAI
+  attributes:
+    name: Kootenai
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BONNER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-KUNA
+  attributes:
+    name: Kuna
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-ADA
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-LAPWAI
+  attributes:
+    name: Lapwai
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-NEZ_PERCE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-LAVA_HOT_SPRINGS
+  attributes:
+    name: Lava Hot Springs
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BANNOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-LEADORE
+  attributes:
+    name: Leadore
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LEMHI
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-LEWISTON
+  attributes:
+    name: Lewiston
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-NEZ_PERCE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-LEWISVILLE
+  attributes:
+    name: Lewisville
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-JEFFERSON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MACKAY
+  attributes:
+    name: Mackay
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CUSTER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MALAD_CITY
+  attributes:
+    name: Malad City
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-ONEIDA
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MALTA
+  attributes:
+    name: Malta
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CASSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MARSING
+  attributes:
+    name: Marsing
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-OWYHEE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MCCALL
+  attributes:
+    name: McCall
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-VALLEY
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MCCAMMON
+  attributes:
+    name: McCammon
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BANNOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MELBA
+  attributes:
+    name: Melba
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CANYON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MENAN
+  attributes:
+    name: Menan
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-JEFFERSON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MERIDIAN
+  attributes:
+    name: Meridian
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-ADA
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MIDDLETON
+  attributes:
+    name: Middleton
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CANYON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MIDVALE
+  attributes:
+    name: Midvale
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MINIDOKA
+  attributes:
+    name: Minidoka
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-MINIDOKA
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MONTPELIER
+  attributes:
+    name: Montpelier
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BEAR_LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MOORE
+  attributes:
+    name: Moore
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BUTTE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MOSCOW
+  attributes:
+    name: Moscow
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LATAH
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MOUNTAIN_HOME
+  attributes:
+    name: Mountain Home
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-ELMORE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MOYIE_SPRINGS
+  attributes:
+    name: Moyie Springs
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BOUNDARY
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MUD_LAKE
+  attributes:
+    name: Mud Lake
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-JEFFERSON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MULLAN
+  attributes:
+    name: Mullan
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-SHOSHONE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-MURTAUGH
+  attributes:
+    name: Murtaugh
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-TWIN_FALLS
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-NAMPA
+  attributes:
+    name: Nampa
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CANYON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-NEWDALE
+  attributes:
+    name: Newdale
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-FREMONT
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-NEW_MEADOWS
+  attributes:
+    name: New Meadows
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-ADAMS
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-NEW_PLYMOUTH
+  attributes:
+    name: New Plymouth
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-PAYETTE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-NEZPERCE
+  attributes:
+    name: Nezperce
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LEWIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-NOTUS
+  attributes:
+    name: Notus
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CANYON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-OAKLEY
+  attributes:
+    name: Oakley
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CASSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-OLDTOWN
+  attributes:
+    name: Oldtown
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BONNER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-ONAWAY
+  attributes:
+    name: Onaway
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LATAH
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-OROFINO
+  attributes:
+    name: Orofino
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CLEARWATER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-OSBURN
+  attributes:
+    name: Osburn
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-SHOSHONE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-OXFORD
+  attributes:
+    name: Oxford
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-PARIS
+  attributes:
+    name: Paris
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BEAR_LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-PARKER
+  attributes:
+    name: Parker
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-FREMONT
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-PARMA
+  attributes:
+    name: Parma
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CANYON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-PAUL
+  attributes:
+    name: Paul
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-MINIDOKA
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-PAYETTE
+  attributes:
+    name: Payette
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-PAYETTE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-PECK
+  attributes:
+    name: Peck
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-NEZ_PERCE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-PIERCE
+  attributes:
+    name: Pierce
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CLEARWATER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-PINEHURST
+  attributes:
+    name: Pinehurst
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-SHOSHONE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-PLACERVILLE
+  attributes:
+    name: Placerville
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BOISE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-PLUMMER
+  attributes:
+    name: Plummer
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BENEWAH
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-POCATELLO
+  attributes:
+    name: Pocatello
+  references:
+    state: STATE-USA-ID
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-PONDERAY
+  attributes:
+    name: Ponderay
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BONNER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-POST_FALLS
+  attributes:
+    name: Post Falls
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-KOOTENAI
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-POTLATCH
+  attributes:
+    name: Potlatch
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LATAH
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-PRESTON
+  attributes:
+    name: Preston
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-PRIEST_RIVER
+  attributes:
+    name: Priest River
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BONNER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-RATHDRUM
+  attributes:
+    name: Rathdrum
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-KOOTENAI
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-REUBENS
+  attributes:
+    name: Reubens
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LEWIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-REXBURG
+  attributes:
+    name: Rexburg
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-MADISON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-RICHFIELD
+  attributes:
+    name: Richfield
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-RIGBY
+  attributes:
+    name: Rigby
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-JEFFERSON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-RIGGINS
+  attributes:
+    name: Riggins
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-IDAHO
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-RIRIE
+  attributes:
+    name: Ririe
+  references:
+    state: STATE-USA-ID
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-ROBERTS
+  attributes:
+    name: Roberts
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-JEFFERSON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-ROCKLAND
+  attributes:
+    name: Rockland
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-POWER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-RUPERT
+  attributes:
+    name: Rupert
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-MINIDOKA
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-SALMON
+  attributes:
+    name: Salmon
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LEMHI
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-SANDPOINT
+  attributes:
+    name: Sandpoint
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BONNER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-SHELLEY
+  attributes:
+    name: Shelley
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BINGHAM
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-SHOSHONE
+  attributes:
+    name: Shoshone
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-SMELTERVILLE
+  attributes:
+    name: Smelterville
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-SHOSHONE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-SODA_SPRINGS
+  attributes:
+    name: Soda Springs
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CARIBOU
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-SPENCER
+  attributes:
+    name: Spencer
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CLARK
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-SPIRIT_LAKE
+  attributes:
+    name: Spirit Lake
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-KOOTENAI
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-STANLEY
+  attributes:
+    name: Stanley
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CUSTER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-STAR
+  attributes:
+    name: Star
+  references:
+    state: STATE-USA-ID
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-STATE_LINE
+  attributes:
+    name: State Line
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-KOOTENAI
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-STITES
+  attributes:
+    name: Stites
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-IDAHO
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-ST_ANTHONY
+  attributes:
+    name: St. Anthony
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-FREMONT
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-ST_CHARLES
+  attributes:
+    name: St. Charles
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BEAR_LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-ST_MARIES
+  attributes:
+    name: St. Maries
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BENEWAH
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-SUGAR_CITY
+  attributes:
+    name: Sugar City
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-MADISON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-SUN_VALLEY
+  attributes:
+    name: Sun Valley
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BLAINE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-SWAN_VALLEY
+  attributes:
+    name: Swan Valley
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BONNEVILLE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-TENSED
+  attributes:
+    name: Tensed
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BENEWAH
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-TETON
+  attributes:
+    name: Teton
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-FREMONT
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-TETONIA
+  attributes:
+    name: Tetonia
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-TETON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-TROY
+  attributes:
+    name: Troy
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LATAH
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-TWIN_FALLS
+  attributes:
+    name: Twin Falls
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-TWIN_FALLS
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-UCON
+  attributes:
+    name: Ucon
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-BONNEVILLE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-VICTOR
+  attributes:
+    name: Victor
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-TETON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-WALLACE
+  attributes:
+    name: Wallace
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-SHOSHONE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-WARDNER
+  attributes:
+    name: Wardner
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-SHOSHONE
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-WARM_RIVER
+  attributes:
+    name: Warm River
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-FREMONT
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-WEIPPE
+  attributes:
+    name: Weippe
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CLEARWATER
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-WEISER
+  attributes:
+    name: Weiser
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-WENDELL
+  attributes:
+    name: Wendell
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-GOODING
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-WESTON
+  attributes:
+    name: Weston
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-WHITE_BIRD
+  attributes:
+    name: White Bird
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-IDAHO
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-WILDER
+  attributes:
+    name: Wilder
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-CANYON
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-WINCHESTER
+  attributes:
+    name: Winchester
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-LEWIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ID-WORLEY
+  attributes:
+    name: Worley
+  references:
+    state: STATE-USA-ID
+    county: COUNTY-USA-ID-KOOTENAI

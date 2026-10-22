@@ -1,0 +1,2885 @@
+# FL: 411 incorporated places (Census 2024 Gazetteer, FUNCSTAT A/B, plus consolidated-government balances) + 0 active-government county subdivisions (FUNCSTAT A: towns/townships/plantations). CDPs excluded.
+# County reference only when the place lies in exactly one county (2020 place-by-county file) or from the subdivision's GEOID.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html
+  captured_on: '2026-10-21'
+scope:
+  state: STATE-USA-FL
+records:
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ALACHUA
+  attributes:
+    name: Alachua
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ALACHUA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ALFORD
+  attributes:
+    name: Alford
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-JACKSON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ALTAMONTE_SPRINGS
+  attributes:
+    name: Altamonte Springs
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SEMINOLE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ALTHA
+  attributes:
+    name: Altha
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-CALHOUN
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ANNA_MARIA
+  attributes:
+    name: Anna Maria
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MANATEE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-APALACHICOLA
+  attributes:
+    name: Apalachicola
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-APOPKA
+  attributes:
+    name: Apopka
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ARCADIA
+  attributes:
+    name: Arcadia
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-DESOTO
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ARCHER
+  attributes:
+    name: Archer
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ALACHUA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ASTATULA
+  attributes:
+    name: Astatula
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ATLANTIC_BEACH
+  attributes:
+    name: Atlantic Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-DUVAL
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ATLANTIS
+  attributes:
+    name: Atlantis
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-AUBURNDALE
+  attributes:
+    name: Auburndale
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-AVENTURA
+  attributes:
+    name: Aventura
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-AVON_PARK
+  attributes:
+    name: Avon Park
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HIGHLANDS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BALDWIN
+  attributes:
+    name: Baldwin
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-DUVAL
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BAL_HARBOUR
+  attributes:
+    name: Bal Harbour
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BARTOW
+  attributes:
+    name: Bartow
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BASCOM
+  attributes:
+    name: Bascom
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-JACKSON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BAY_HARBOR_ISLANDS
+  attributes:
+    name: Bay Harbor Islands
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BAY_LAKE
+  attributes:
+    name: Bay Lake
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BELL
+  attributes:
+    name: Bell
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-GILCHRIST
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BELLEAIR
+  attributes:
+    name: Belleair
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BELLEAIR_BEACH
+  attributes:
+    name: Belleair Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BELLEAIR_BLUFFS
+  attributes:
+    name: Belleair Bluffs
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BELLEAIR_SHORE
+  attributes:
+    name: Belleair Shore
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BELLEVIEW
+  attributes:
+    name: Belleview
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MARION
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BELLE_GLADE
+  attributes:
+    name: Belle Glade
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BELLE_ISLE
+  attributes:
+    name: Belle Isle
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BEVERLY_BEACH
+  attributes:
+    name: Beverly Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-FLAGLER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BISCAYNE_PARK
+  attributes:
+    name: Biscayne Park
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BLOUNTSTOWN
+  attributes:
+    name: Blountstown
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-CALHOUN
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BOCA_RATON
+  attributes:
+    name: Boca Raton
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BONIFAY
+  attributes:
+    name: Bonifay
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HOLMES
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BONITA_SPRINGS
+  attributes:
+    name: Bonita Springs
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LEE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BOWLING_GREEN
+  attributes:
+    name: Bowling Green
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HARDEE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BOYNTON_BEACH
+  attributes:
+    name: Boynton Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BRADENTON
+  attributes:
+    name: Bradenton
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MANATEE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BRADENTON_BEACH
+  attributes:
+    name: Bradenton Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MANATEE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BRANFORD
+  attributes:
+    name: Branford
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SUWANNEE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BRINY_BREEZES
+  attributes:
+    name: Briny Breezes
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BRISTOL
+  attributes:
+    name: Bristol
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LIBERTY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BRONSON
+  attributes:
+    name: Bronson
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LEVY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BROOKER
+  attributes:
+    name: Brooker
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BRADFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BROOKSVILLE
+  attributes:
+    name: Brooksville
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HERNANDO
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BUNNELL
+  attributes:
+    name: Bunnell
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-FLAGLER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-BUSHNELL
+  attributes:
+    name: Bushnell
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SUMTER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CALLAHAN
+  attributes:
+    name: Callahan
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-NASSAU
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CALLAWAY
+  attributes:
+    name: Callaway
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BAY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CAMPBELLTON
+  attributes:
+    name: Campbellton
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-JACKSON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CAPE_CANAVERAL
+  attributes:
+    name: Cape Canaveral
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CAPE_CORAL
+  attributes:
+    name: Cape Coral
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LEE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CARRABELLE
+  attributes:
+    name: Carrabelle
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CARYVILLE
+  attributes:
+    name: Caryville
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CASSELBERRY
+  attributes:
+    name: Casselberry
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SEMINOLE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CEDAR_KEY
+  attributes:
+    name: Cedar Key
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LEVY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CENTER_HILL
+  attributes:
+    name: Center Hill
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SUMTER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CENTURY
+  attributes:
+    name: Century
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ESCAMBIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CHATTAHOOCHEE
+  attributes:
+    name: Chattahoochee
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-GADSDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CHIEFLAND
+  attributes:
+    name: Chiefland
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LEVY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CHIPLEY
+  attributes:
+    name: Chipley
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CINCO_BAYOU
+  attributes:
+    name: Cinco Bayou
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-OKALOOSA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CLEARWATER
+  attributes:
+    name: Clearwater
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CLERMONT
+  attributes:
+    name: Clermont
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CLEWISTON
+  attributes:
+    name: Clewiston
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HENDRY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CLOUD_LAKE
+  attributes:
+    name: Cloud Lake
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-COCOA
+  attributes:
+    name: Cocoa
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-COCOA_BEACH
+  attributes:
+    name: Cocoa Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-COCONUT_CREEK
+  attributes:
+    name: Coconut Creek
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-COLEMAN
+  attributes:
+    name: Coleman
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SUMTER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-COOPER_CITY
+  attributes:
+    name: Cooper City
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CORAL_GABLES
+  attributes:
+    name: Coral Gables
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CORAL_SPRINGS
+  attributes:
+    name: Coral Springs
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-COTTONDALE
+  attributes:
+    name: Cottondale
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-JACKSON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CRESCENT_CITY
+  attributes:
+    name: Crescent City
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PUTNAM
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CRESTVIEW
+  attributes:
+    name: Crestview
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-OKALOOSA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CROSS_CITY
+  attributes:
+    name: Cross City
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-DIXIE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CRYSTAL_RIVER
+  attributes:
+    name: Crystal River
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-CITRUS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-CUTLER_BAY
+  attributes:
+    name: Cutler Bay
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DADE_CITY
+  attributes:
+    name: Dade City
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PASCO
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DANIA_BEACH
+  attributes:
+    name: Dania Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DAVENPORT
+  attributes:
+    name: Davenport
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DAVIE
+  attributes:
+    name: Davie
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DAYTONA_BEACH
+  attributes:
+    name: Daytona Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DAYTONA_BEACH_SHORES
+  attributes:
+    name: Daytona Beach Shores
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DEBARY
+  attributes:
+    name: DeBary
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DEERFIELD_BEACH
+  attributes:
+    name: Deerfield Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DEFUNIAK_SPRINGS
+  attributes:
+    name: DeFuniak Springs
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-WALTON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DELAND
+  attributes:
+    name: DeLand
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DELRAY_BEACH
+  attributes:
+    name: Delray Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DELTONA
+  attributes:
+    name: Deltona
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DESTIN
+  attributes:
+    name: Destin
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-OKALOOSA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DORAL
+  attributes:
+    name: Doral
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DUNDEE
+  attributes:
+    name: Dundee
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DUNEDIN
+  attributes:
+    name: Dunedin
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-DUNNELLON
+  attributes:
+    name: Dunnellon
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MARION
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-EAGLE_LAKE
+  attributes:
+    name: Eagle Lake
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-EATONVILLE
+  attributes:
+    name: Eatonville
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-EBRO
+  attributes:
+    name: Ebro
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-EDGEWATER
+  attributes:
+    name: Edgewater
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-EDGEWOOD
+  attributes:
+    name: Edgewood
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-EL_PORTAL
+  attributes:
+    name: El Portal
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ESTERO
+  attributes:
+    name: Estero
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LEE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ESTO
+  attributes:
+    name: Esto
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HOLMES
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-EUSTIS
+  attributes:
+    name: Eustis
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-EVERGLADES
+  attributes:
+    name: Everglades
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-COLLIER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-FANNING_SPRINGS
+  attributes:
+    name: Fanning Springs
+  references:
+    state: STATE-USA-FL
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-FELLSMERE
+  attributes:
+    name: Fellsmere
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-INDIAN_RIVER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-FERNANDINA_BEACH
+  attributes:
+    name: Fernandina Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-NASSAU
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-FLAGLER_BEACH
+  attributes:
+    name: Flagler Beach
+  references:
+    state: STATE-USA-FL
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-FLORIDA_CITY
+  attributes:
+    name: Florida City
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-FORT_LAUDERDALE
+  attributes:
+    name: Fort Lauderdale
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-FORT_MEADE
+  attributes:
+    name: Fort Meade
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-FORT_MYERS
+  attributes:
+    name: Fort Myers
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LEE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-FORT_MYERS_BEACH
+  attributes:
+    name: Fort Myers Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LEE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-FORT_PIERCE
+  attributes:
+    name: Fort Pierce
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ST_LUCIE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-FORT_WALTON_BEACH
+  attributes:
+    name: Fort Walton Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-OKALOOSA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-FORT_WHITE
+  attributes:
+    name: Fort White
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-COLUMBIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-FREEPORT
+  attributes:
+    name: Freeport
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-WALTON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-FROSTPROOF
+  attributes:
+    name: Frostproof
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-FRUITLAND_PARK
+  attributes:
+    name: Fruitland Park
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GAINESVILLE
+  attributes:
+    name: Gainesville
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ALACHUA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GLEN_RIDGE
+  attributes:
+    name: Glen Ridge
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GLEN_ST_MARY
+  attributes:
+    name: Glen St. Mary
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BAKER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GOLDEN_BEACH
+  attributes:
+    name: Golden Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GOLF
+  attributes:
+    name: Golf
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GRACEVILLE
+  attributes:
+    name: Graceville
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-JACKSON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GRAND_RIDGE
+  attributes:
+    name: Grand Ridge
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-JACKSON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GRANT_VALKARIA
+  attributes:
+    name: Grant-Valkaria
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GREENACRES
+  attributes:
+    name: Greenacres
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GREENSBORO
+  attributes:
+    name: Greensboro
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-GADSDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GREENVILLE
+  attributes:
+    name: Greenville
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MADISON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GREENWOOD
+  attributes:
+    name: Greenwood
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-JACKSON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GREEN_COVE_SPRINGS
+  attributes:
+    name: Green Cove Springs
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-CLAY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GRETNA
+  attributes:
+    name: Gretna
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-GADSDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GROVELAND
+  attributes:
+    name: Groveland
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GULFPORT
+  attributes:
+    name: Gulfport
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GULF_BREEZE
+  attributes:
+    name: Gulf Breeze
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SANTA_ROSA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-GULF_STREAM
+  attributes:
+    name: Gulf Stream
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HAINES_CITY
+  attributes:
+    name: Haines City
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HALLANDALE_BEACH
+  attributes:
+    name: Hallandale Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HAMPTON
+  attributes:
+    name: Hampton
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BRADFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HAVANA
+  attributes:
+    name: Havana
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-GADSDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HAVERHILL
+  attributes:
+    name: Haverhill
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HAWTHORNE
+  attributes:
+    name: Hawthorne
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ALACHUA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HIALEAH
+  attributes:
+    name: Hialeah
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HIALEAH_GARDENS
+  attributes:
+    name: Hialeah Gardens
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HIGHLAND_BEACH
+  attributes:
+    name: Highland Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HIGHLAND_PARK
+  attributes:
+    name: Highland Park
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HIGH_SPRINGS
+  attributes:
+    name: High Springs
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ALACHUA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HILLCREST_HEIGHTS
+  attributes:
+    name: Hillcrest Heights
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HILLIARD
+  attributes:
+    name: Hilliard
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-NASSAU
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HILLSBORO_BEACH
+  attributes:
+    name: Hillsboro Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HOLLYWOOD
+  attributes:
+    name: Hollywood
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HOLLY_HILL
+  attributes:
+    name: Holly Hill
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HOLMES_BEACH
+  attributes:
+    name: Holmes Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MANATEE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HOMESTEAD
+  attributes:
+    name: Homestead
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HORSESHOE_BEACH
+  attributes:
+    name: Horseshoe Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-DIXIE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HOWEY_IN_THE_HILLS
+  attributes:
+    name: Howey-in-the-Hills
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-HYPOLUXO
+  attributes:
+    name: Hypoluxo
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-INDIALANTIC
+  attributes:
+    name: Indialantic
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-INDIANTOWN
+  attributes:
+    name: Indiantown
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MARTIN
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-INDIAN_CREEK
+  attributes:
+    name: Indian Creek
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-INDIAN_HARBOUR_BEACH
+  attributes:
+    name: Indian Harbour Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-INDIAN_RIVER_SHORES
+  attributes:
+    name: Indian River Shores
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-INDIAN_RIVER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-INDIAN_ROCKS_BEACH
+  attributes:
+    name: Indian Rocks Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-INDIAN_SHORES
+  attributes:
+    name: Indian Shores
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-INGLIS
+  attributes:
+    name: Inglis
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LEVY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-INTERLACHEN
+  attributes:
+    name: Interlachen
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PUTNAM
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-INVERNESS
+  attributes:
+    name: Inverness
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-CITRUS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ISLAMORADA_VILLAGE_OF_ISLANDS
+  attributes:
+    name: Islamorada, Village of Islands
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MONROE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-JACKSONVILLE
+  attributes:
+    name: Jacksonville
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-DUVAL
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-JACKSONVILLE_BEACH
+  attributes:
+    name: Jacksonville Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-DUVAL
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-JACOB_CITY
+  attributes:
+    name: Jacob City
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-JACKSON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-JASPER
+  attributes:
+    name: Jasper
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HAMILTON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-JAY
+  attributes:
+    name: Jay
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SANTA_ROSA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-JENNINGS
+  attributes:
+    name: Jennings
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HAMILTON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-JUNO_BEACH
+  attributes:
+    name: Juno Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-JUPITER
+  attributes:
+    name: Jupiter
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-JUPITER_INLET_COLONY
+  attributes:
+    name: Jupiter Inlet Colony
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-JUPITER_ISLAND
+  attributes:
+    name: Jupiter Island
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MARTIN
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-KENNETH_CITY
+  attributes:
+    name: Kenneth City
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-KEYSTONE_HEIGHTS
+  attributes:
+    name: Keystone Heights
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-CLAY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-KEY_BISCAYNE
+  attributes:
+    name: Key Biscayne
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-KEY_COLONY_BEACH
+  attributes:
+    name: Key Colony Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MONROE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-KEY_WEST
+  attributes:
+    name: Key West
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MONROE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-KISSIMMEE
+  attributes:
+    name: Kissimmee
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-OSCEOLA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LABELLE
+  attributes:
+    name: LaBelle
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HENDRY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LADY_LAKE
+  attributes:
+    name: Lady Lake
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAKELAND
+  attributes:
+    name: Lakeland
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAKE_ALFRED
+  attributes:
+    name: Lake Alfred
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAKE_BUENA_VISTA
+  attributes:
+    name: Lake Buena Vista
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAKE_BUTLER
+  attributes:
+    name: Lake Butler
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAKE_CITY
+  attributes:
+    name: Lake City
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-COLUMBIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAKE_CLARKE_SHORES
+  attributes:
+    name: Lake Clarke Shores
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAKE_HAMILTON
+  attributes:
+    name: Lake Hamilton
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAKE_HELEN
+  attributes:
+    name: Lake Helen
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAKE_MARY
+  attributes:
+    name: Lake Mary
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SEMINOLE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAKE_PARK
+  attributes:
+    name: Lake Park
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAKE_PLACID
+  attributes:
+    name: Lake Placid
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HIGHLANDS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAKE_WALES
+  attributes:
+    name: Lake Wales
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAKE_WORTH_BEACH
+  attributes:
+    name: Lake Worth Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LANTANA
+  attributes:
+    name: Lantana
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LARGO
+  attributes:
+    name: Largo
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAUDERDALE_BY_THE_SEA
+  attributes:
+    name: Lauderdale-by-the-Sea
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAUDERDALE_LAKES
+  attributes:
+    name: Lauderdale Lakes
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAUDERHILL
+  attributes:
+    name: Lauderhill
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAUREL_HILL
+  attributes:
+    name: Laurel Hill
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-OKALOOSA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAWTEY
+  attributes:
+    name: Lawtey
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BRADFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAYTON
+  attributes:
+    name: Layton
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MONROE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LAZY_LAKE
+  attributes:
+    name: Lazy Lake
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LA_CROSSE
+  attributes:
+    name: La Crosse
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ALACHUA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LEE
+  attributes:
+    name: Lee
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MADISON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LEESBURG
+  attributes:
+    name: Leesburg
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LIGHTHOUSE_POINT
+  attributes:
+    name: Lighthouse Point
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LIVE_OAK
+  attributes:
+    name: Live Oak
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SUWANNEE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LONGBOAT_KEY
+  attributes:
+    name: Longboat Key
+  references:
+    state: STATE-USA-FL
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LONGWOOD
+  attributes:
+    name: Longwood
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SEMINOLE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LOXAHATCHEE_GROVES
+  attributes:
+    name: Loxahatchee Groves
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-LYNN_HAVEN
+  attributes:
+    name: Lynn Haven
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BAY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MACCLENNY
+  attributes:
+    name: Macclenny
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BAKER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MADEIRA_BEACH
+  attributes:
+    name: Madeira Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MADISON
+  attributes:
+    name: Madison
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MADISON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MAITLAND
+  attributes:
+    name: Maitland
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MALABAR
+  attributes:
+    name: Malabar
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MALONE
+  attributes:
+    name: Malone
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-JACKSON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MANALAPAN
+  attributes:
+    name: Manalapan
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MANGONIA_PARK
+  attributes:
+    name: Mangonia Park
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MARATHON
+  attributes:
+    name: Marathon
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MONROE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MARCO_ISLAND
+  attributes:
+    name: Marco Island
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-COLLIER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MARGATE
+  attributes:
+    name: Margate
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MARIANNA
+  attributes:
+    name: Marianna
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-JACKSON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MARINELAND
+  attributes:
+    name: Marineland
+  references:
+    state: STATE-USA-FL
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MARY_ESTHER
+  attributes:
+    name: Mary Esther
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-OKALOOSA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MASCOTTE
+  attributes:
+    name: Mascotte
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MAYO
+  attributes:
+    name: Mayo
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LAFAYETTE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MCINTOSH
+  attributes:
+    name: McIntosh
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MARION
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MEDLEY
+  attributes:
+    name: Medley
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MELBOURNE
+  attributes:
+    name: Melbourne
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MELBOURNE_BEACH
+  attributes:
+    name: Melbourne Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MELBOURNE_VILLAGE
+  attributes:
+    name: Melbourne Village
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MEXICO_BEACH
+  attributes:
+    name: Mexico Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BAY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MIAMI
+  attributes:
+    name: Miami
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MIAMI_BEACH
+  attributes:
+    name: Miami Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MIAMI_GARDENS
+  attributes:
+    name: Miami Gardens
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MIAMI_LAKES
+  attributes:
+    name: Miami Lakes
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MIAMI_SHORES
+  attributes:
+    name: Miami Shores
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MIAMI_SPRINGS
+  attributes:
+    name: Miami Springs
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MICANOPY
+  attributes:
+    name: Micanopy
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ALACHUA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MIDWAY
+  attributes:
+    name: Midway
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-GADSDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MILTON
+  attributes:
+    name: Milton
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SANTA_ROSA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MINNEOLA
+  attributes:
+    name: Minneola
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MIRAMAR
+  attributes:
+    name: Miramar
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MONTICELLO
+  attributes:
+    name: Monticello
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-JEFFERSON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MONTVERDE
+  attributes:
+    name: Montverde
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MOORE_HAVEN
+  attributes:
+    name: Moore Haven
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-GLADES
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MOUNT_DORA
+  attributes:
+    name: Mount Dora
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-MULBERRY
+  attributes:
+    name: Mulberry
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-NAPLES
+  attributes:
+    name: Naples
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-COLLIER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-NEPTUNE_BEACH
+  attributes:
+    name: Neptune Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-DUVAL
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-NEWBERRY
+  attributes:
+    name: Newberry
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ALACHUA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-NEW_PORT_RICHEY
+  attributes:
+    name: New Port Richey
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PASCO
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-NEW_SMYRNA_BEACH
+  attributes:
+    name: New Smyrna Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-NICEVILLE
+  attributes:
+    name: Niceville
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-OKALOOSA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-NOMA
+  attributes:
+    name: Noma
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HOLMES
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-NORTH_BAY_VILLAGE
+  attributes:
+    name: North Bay Village
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-NORTH_LAUDERDALE
+  attributes:
+    name: North Lauderdale
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-NORTH_MIAMI
+  attributes:
+    name: North Miami
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-NORTH_MIAMI_BEACH
+  attributes:
+    name: North Miami Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-NORTH_PALM_BEACH
+  attributes:
+    name: North Palm Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-NORTH_PORT
+  attributes:
+    name: North Port
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SARASOTA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-NORTH_REDINGTON_BEACH
+  attributes:
+    name: North Redington Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-OAKLAND
+  attributes:
+    name: Oakland
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-OAKLAND_PARK
+  attributes:
+    name: Oakland Park
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-OAK_HILL
+  attributes:
+    name: Oak Hill
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-OCALA
+  attributes:
+    name: Ocala
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MARION
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-OCEAN_BREEZE
+  attributes:
+    name: Ocean Breeze
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MARTIN
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-OCEAN_RIDGE
+  attributes:
+    name: Ocean Ridge
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-OCOEE
+  attributes:
+    name: Ocoee
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-OKEECHOBEE
+  attributes:
+    name: Okeechobee
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-OKEECHOBEE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-OLDSMAR
+  attributes:
+    name: Oldsmar
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-OPA_LOCKA
+  attributes:
+    name: Opa-locka
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ORANGE_CITY
+  attributes:
+    name: Orange City
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ORANGE_PARK
+  attributes:
+    name: Orange Park
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-CLAY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ORCHID
+  attributes:
+    name: Orchid
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-INDIAN_RIVER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ORLANDO
+  attributes:
+    name: Orlando
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ORMOND_BEACH
+  attributes:
+    name: Ormond Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-OTTER_CREEK
+  attributes:
+    name: Otter Creek
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LEVY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-OVIEDO
+  attributes:
+    name: Oviedo
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SEMINOLE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PAHOKEE
+  attributes:
+    name: Pahokee
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PALATKA
+  attributes:
+    name: Palatka
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PUTNAM
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PALMETTO
+  attributes:
+    name: Palmetto
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MANATEE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PALMETTO_BAY
+  attributes:
+    name: Palmetto Bay
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PALM_BAY
+  attributes:
+    name: Palm Bay
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PALM_BEACH
+  attributes:
+    name: Palm Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PALM_BEACH_GARDENS
+  attributes:
+    name: Palm Beach Gardens
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PALM_BEACH_SHORES
+  attributes:
+    name: Palm Beach Shores
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PALM_COAST
+  attributes:
+    name: Palm Coast
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-FLAGLER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PALM_SHORES
+  attributes:
+    name: Palm Shores
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PALM_SPRINGS
+  attributes:
+    name: Palm Springs
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PANAMA_CITY
+  attributes:
+    name: Panama City
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BAY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PANAMA_CITY_BEACH
+  attributes:
+    name: Panama City Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BAY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PARKER
+  attributes:
+    name: Parker
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BAY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PARKLAND
+  attributes:
+    name: Parkland
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PAXTON
+  attributes:
+    name: Paxton
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-WALTON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PEMBROKE_PARK
+  attributes:
+    name: Pembroke Park
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PEMBROKE_PINES
+  attributes:
+    name: Pembroke Pines
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PENNEY_FARMS
+  attributes:
+    name: Penney Farms
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-CLAY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PENSACOLA
+  attributes:
+    name: Pensacola
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ESCAMBIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PERRY
+  attributes:
+    name: Perry
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-TAYLOR
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PIERSON
+  attributes:
+    name: Pierson
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PINECREST
+  attributes:
+    name: Pinecrest
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PINELLAS_PARK
+  attributes:
+    name: Pinellas Park
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PLANTATION
+  attributes:
+    name: Plantation
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PLANT_CITY
+  attributes:
+    name: Plant City
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-POLK_CITY
+  attributes:
+    name: Polk City
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-POMONA_PARK
+  attributes:
+    name: Pomona Park
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PUTNAM
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-POMPANO_BEACH
+  attributes:
+    name: Pompano Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PONCE_DE_LEON
+  attributes:
+    name: Ponce de Leon
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HOLMES
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PONCE_INLET
+  attributes:
+    name: Ponce Inlet
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PORT_ORANGE
+  attributes:
+    name: Port Orange
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PORT_RICHEY
+  attributes:
+    name: Port Richey
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PASCO
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PORT_ST_JOE
+  attributes:
+    name: Port St. Joe
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-GULF
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PORT_ST_LUCIE
+  attributes:
+    name: Port St. Lucie
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ST_LUCIE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-PUNTA_GORDA
+  attributes:
+    name: Punta Gorda
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-CHARLOTTE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-QUINCY
+  attributes:
+    name: Quincy
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-GADSDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-RAIFORD
+  attributes:
+    name: Raiford
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-REDDICK
+  attributes:
+    name: Reddick
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MARION
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-REDINGTON_BEACH
+  attributes:
+    name: Redington Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-REDINGTON_SHORES
+  attributes:
+    name: Redington Shores
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-RIVIERA_BEACH
+  attributes:
+    name: Riviera Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ROCKLEDGE
+  attributes:
+    name: Rockledge
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ROYAL_PALM_BEACH
+  attributes:
+    name: Royal Palm Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SAFETY_HARBOR
+  attributes:
+    name: Safety Harbor
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SANFORD
+  attributes:
+    name: Sanford
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SEMINOLE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SANIBEL
+  attributes:
+    name: Sanibel
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LEE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SAN_ANTONIO
+  attributes:
+    name: San Antonio
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PASCO
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SARASOTA
+  attributes:
+    name: Sarasota
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SARASOTA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SATELLITE_BEACH
+  attributes:
+    name: Satellite Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SEA_RANCH_LAKES
+  attributes:
+    name: Sea Ranch Lakes
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SEBASTIAN
+  attributes:
+    name: Sebastian
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-INDIAN_RIVER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SEBRING
+  attributes:
+    name: Sebring
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HIGHLANDS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SEMINOLE
+  attributes:
+    name: Seminole
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SEWALL_S_POINT
+  attributes:
+    name: Sewall's Point
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MARTIN
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SHALIMAR
+  attributes:
+    name: Shalimar
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-OKALOOSA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SNEADS
+  attributes:
+    name: Sneads
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-JACKSON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SOPCHOPPY
+  attributes:
+    name: Sopchoppy
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-WAKULLA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SOUTHWEST_RANCHES
+  attributes:
+    name: Southwest Ranches
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SOUTH_BAY
+  attributes:
+    name: South Bay
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SOUTH_DAYTONA
+  attributes:
+    name: South Daytona
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-VOLUSIA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SOUTH_MIAMI
+  attributes:
+    name: South Miami
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SOUTH_PALM_BEACH
+  attributes:
+    name: South Palm Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SOUTH_PASADENA
+  attributes:
+    name: South Pasadena
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SPRINGFIELD
+  attributes:
+    name: Springfield
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BAY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-STARKE
+  attributes:
+    name: Starke
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BRADFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-STUART
+  attributes:
+    name: Stuart
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MARTIN
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ST_AUGUSTINE
+  attributes:
+    name: St. Augustine
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ST_JOHNS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ST_AUGUSTINE_BEACH
+  attributes:
+    name: St. Augustine Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ST_JOHNS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ST_CLOUD
+  attributes:
+    name: St. Cloud
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-OSCEOLA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ST_LEO
+  attributes:
+    name: St. Leo
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PASCO
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ST_LUCIE_VILLAGE
+  attributes:
+    name: St. Lucie Village
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ST_LUCIE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ST_MARKS
+  attributes:
+    name: St. Marks
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-WAKULLA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ST_PETERSBURG
+  attributes:
+    name: St. Petersburg
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ST_PETE_BEACH
+  attributes:
+    name: St. Pete Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SUNNY_ISLES_BEACH
+  attributes:
+    name: Sunny Isles Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SUNRISE
+  attributes:
+    name: Sunrise
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SURFSIDE
+  attributes:
+    name: Surfside
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-SWEETWATER
+  attributes:
+    name: Sweetwater
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-TALLAHASSEE
+  attributes:
+    name: Tallahassee
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LEON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-TAMARAC
+  attributes:
+    name: Tamarac
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-TAMPA
+  attributes:
+    name: Tampa
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-TARPON_SPRINGS
+  attributes:
+    name: Tarpon Springs
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-TAVARES
+  attributes:
+    name: Tavares
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-TEMPLE_TERRACE
+  attributes:
+    name: Temple Terrace
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HILLSBOROUGH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-TEQUESTA
+  attributes:
+    name: Tequesta
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-TITUSVILLE
+  attributes:
+    name: Titusville
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-TREASURE_ISLAND
+  attributes:
+    name: Treasure Island
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PINELLAS
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-TRENTON
+  attributes:
+    name: Trenton
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-GILCHRIST
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-UMATILLA
+  attributes:
+    name: Umatilla
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LAKE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-VALPARAISO
+  attributes:
+    name: Valparaiso
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-OKALOOSA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-VENICE
+  attributes:
+    name: Venice
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SARASOTA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-VERNON
+  attributes:
+    name: Vernon
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-VERO_BEACH
+  attributes:
+    name: Vero Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-INDIAN_RIVER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-VIRGINIA_GARDENS
+  attributes:
+    name: Virginia Gardens
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WALDO
+  attributes:
+    name: Waldo
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ALACHUA
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WAUCHULA
+  attributes:
+    name: Wauchula
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HARDEE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WAUSAU
+  attributes:
+    name: Wausau
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WEBSTER
+  attributes:
+    name: Webster
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SUMTER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WELAKA
+  attributes:
+    name: Welaka
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PUTNAM
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WELLINGTON
+  attributes:
+    name: Wellington
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WESTLAKE
+  attributes:
+    name: Westlake
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WESTON
+  attributes:
+    name: Weston
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WESTVILLE
+  attributes:
+    name: Westville
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HOLMES
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WEST_MELBOURNE
+  attributes:
+    name: West Melbourne
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BREVARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WEST_MIAMI
+  attributes:
+    name: West Miami
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-MIAMI_DADE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WEST_PALM_BEACH
+  attributes:
+    name: West Palm Beach
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PALM_BEACH
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WEST_PARK
+  attributes:
+    name: West Park
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WEWAHITCHKA
+  attributes:
+    name: Wewahitchka
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-GULF
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WHITE_SPRINGS
+  attributes:
+    name: White Springs
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HAMILTON
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WILDWOOD
+  attributes:
+    name: Wildwood
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SUMTER
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WILLISTON
+  attributes:
+    name: Williston
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LEVY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WILTON_MANORS
+  attributes:
+    name: Wilton Manors
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-BROWARD
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WINDERMERE
+  attributes:
+    name: Windermere
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WINTER_GARDEN
+  attributes:
+    name: Winter Garden
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WINTER_HAVEN
+  attributes:
+    name: Winter Haven
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-POLK
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WINTER_PARK
+  attributes:
+    name: Winter Park
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-ORANGE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WINTER_SPRINGS
+  attributes:
+    name: Winter Springs
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-SEMINOLE
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-WORTHINGTON_SPRINGS
+  attributes:
+    name: Worthington Springs
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-YANKEETOWN
+  attributes:
+    name: Yankeetown
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-LEVY
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ZEPHYRHILLS
+  attributes:
+    name: Zephyrhills
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-PASCO
+- type: Municipality
+  code: MUNICIPALITY-USA-FL-ZOLFO_SPRINGS
+  attributes:
+    name: Zolfo Springs
+  references:
+    state: STATE-USA-FL
+    county: COUNTY-USA-FL-HARDEE

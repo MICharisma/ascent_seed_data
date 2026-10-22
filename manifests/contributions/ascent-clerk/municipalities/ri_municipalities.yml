@@ -1,0 +1,285 @@
+# RI: 8 incorporated places (Census 2024 Gazetteer, FUNCSTAT A/B, plus consolidated-government balances) + 31 active-government county subdivisions (FUNCSTAT A: towns/townships/plantations). CDPs excluded.
+# County reference only when the place lies in exactly one county (2020 place-by-county file) or from the subdivision's GEOID.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html
+  captured_on: '2026-10-21'
+scope:
+  state: STATE-USA-RI
+records:
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-BARRINGTON
+  attributes:
+    name: Barrington
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-BRISTOL
+  attributes:
+    name: Bristol
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-BURRILLVILLE
+  attributes:
+    name: Burrillville
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-CENTRAL_FALLS
+  attributes:
+    name: Central Falls
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-CHARLESTOWN
+  attributes:
+    name: Charlestown
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-COVENTRY
+  attributes:
+    name: Coventry
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-KENT
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-CRANSTON
+  attributes:
+    name: Cranston
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-CUMBERLAND
+  attributes:
+    name: Cumberland
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-EAST_GREENWICH
+  attributes:
+    name: East Greenwich
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-KENT
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-EAST_PROVIDENCE
+  attributes:
+    name: East Providence
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-EXETER
+  attributes:
+    name: Exeter
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-FOSTER
+  attributes:
+    name: Foster
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-GLOCESTER
+  attributes:
+    name: Glocester
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-HOPKINTON
+  attributes:
+    name: Hopkinton
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-JAMESTOWN
+  attributes:
+    name: Jamestown
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-NEWPORT
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-JOHNSTON
+  attributes:
+    name: Johnston
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-LINCOLN
+  attributes:
+    name: Lincoln
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-LITTLE_COMPTON
+  attributes:
+    name: Little Compton
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-NEWPORT
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-MIDDLETOWN
+  attributes:
+    name: Middletown
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-NEWPORT
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-NARRAGANSETT
+  attributes:
+    name: Narragansett
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-NEWPORT
+  attributes:
+    name: Newport
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-NEWPORT
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-NEW_SHOREHAM
+  attributes:
+    name: New Shoreham
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-NORTH_KINGSTOWN
+  attributes:
+    name: North Kingstown
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-NORTH_PROVIDENCE
+  attributes:
+    name: North Providence
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-NORTH_SMITHFIELD
+  attributes:
+    name: North Smithfield
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-PAWTUCKET
+  attributes:
+    name: Pawtucket
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-PORTSMOUTH
+  attributes:
+    name: Portsmouth
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-NEWPORT
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-PROVIDENCE
+  attributes:
+    name: Providence
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-RICHMOND
+  attributes:
+    name: Richmond
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-SCITUATE
+  attributes:
+    name: Scituate
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-SMITHFIELD
+  attributes:
+    name: Smithfield
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-SOUTH_KINGSTOWN
+  attributes:
+    name: South Kingstown
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-TIVERTON
+  attributes:
+    name: Tiverton
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-NEWPORT
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-WARREN
+  attributes:
+    name: Warren
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-BRISTOL
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-WARWICK
+  attributes:
+    name: Warwick
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-KENT
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-WESTERLY
+  attributes:
+    name: Westerly
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-WEST_GREENWICH
+  attributes:
+    name: West Greenwich
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-KENT
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-WEST_WARWICK
+  attributes:
+    name: West Warwick
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-KENT
+- type: Municipality
+  code: MUNICIPALITY-USA-RI-WOONSOCKET
+  attributes:
+    name: Woonsocket
+  references:
+    state: STATE-USA-RI
+    county: COUNTY-USA-RI-PROVIDENCE

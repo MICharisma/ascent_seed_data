@@ -1,0 +1,3960 @@
+# NJ: 323 incorporated places (Census 2024 Gazetteer, FUNCSTAT A/B, plus consolidated-government balances) + 241 active-government county subdivisions (FUNCSTAT A: towns/townships/plantations). CDPs excluded.
+# County reference only when the place lies in exactly one county (2020 place-by-county file) or from the subdivision's GEOID.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html
+  captured_on: '2026-10-21'
+scope:
+  state: STATE-USA-NJ
+records:
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ABERDEEN
+  attributes:
+    name: Aberdeen
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ABSECON
+  attributes:
+    name: Absecon
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ALEXANDRIA
+  attributes:
+    name: Alexandria
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ALLAMUCHY
+  attributes:
+    name: Allamuchy
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ALLENDALE
+  attributes:
+    name: Allendale
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ALLENHURST
+  attributes:
+    name: Allenhurst
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ALLENTOWN
+  attributes:
+    name: Allentown
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ALLOWAY
+  attributes:
+    name: Alloway
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SALEM
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ALPHA
+  attributes:
+    name: Alpha
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ALPINE
+  attributes:
+    name: Alpine
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ANDOVER_BOROUGH
+  attributes:
+    name: Andover
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ANDOVER_TOWNSHIP
+  attributes:
+    name: Andover
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ASBURY_PARK
+  attributes:
+    name: Asbury Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ATLANTIC_CITY
+  attributes:
+    name: Atlantic City
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ATLANTIC_HIGHLANDS
+  attributes:
+    name: Atlantic Highlands
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-AUDUBON
+  attributes:
+    name: Audubon
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-AUDUBON_PARK
+  attributes:
+    name: Audubon Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-AVALON
+  attributes:
+    name: Avalon
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAPE_MAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-AVON_BY_THE_SEA
+  attributes:
+    name: Avon-by-the-Sea
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BARNEGAT
+  attributes:
+    name: Barnegat
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BARNEGAT_LIGHT
+  attributes:
+    name: Barnegat Light
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BARRINGTON
+  attributes:
+    name: Barrington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BASS_RIVER
+  attributes:
+    name: Bass River
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BAYONNE
+  attributes:
+    name: Bayonne
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUDSON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BAY_HEAD
+  attributes:
+    name: Bay Head
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BEACHWOOD
+  attributes:
+    name: Beachwood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BEACH_HAVEN
+  attributes:
+    name: Beach Haven
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BEDMINSTER
+  attributes:
+    name: Bedminster
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BELLEVILLE
+  attributes:
+    name: Belleville
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BELLMAWR
+  attributes:
+    name: Bellmawr
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BELMAR
+  attributes:
+    name: Belmar
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BELVIDERE
+  attributes:
+    name: Belvidere
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BERGENFIELD
+  attributes:
+    name: Bergenfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BERKELEY
+  attributes:
+    name: Berkeley
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BERKELEY_HEIGHTS
+  attributes:
+    name: Berkeley Heights
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BERLIN_BOROUGH
+  attributes:
+    name: Berlin
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BERLIN_TOWNSHIP
+  attributes:
+    name: Berlin
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BERNARDS
+  attributes:
+    name: Bernards
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BERNARDSVILLE
+  attributes:
+    name: Bernardsville
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BETHLEHEM
+  attributes:
+    name: Bethlehem
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BEVERLY
+  attributes:
+    name: Beverly
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BLAIRSTOWN
+  attributes:
+    name: Blairstown
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BLOOMFIELD
+  attributes:
+    name: Bloomfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BLOOMINGDALE
+  attributes:
+    name: Bloomingdale
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BLOOMSBURY
+  attributes:
+    name: Bloomsbury
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BOGOTA
+  attributes:
+    name: Bogota
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BOONTON_TOWN
+  attributes:
+    name: Boonton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BOONTON_TOWNSHIP
+  attributes:
+    name: Boonton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BORDENTOWN_CITY
+  attributes:
+    name: Bordentown
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BORDENTOWN_TOWNSHIP
+  attributes:
+    name: Bordentown
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BOUND_BROOK
+  attributes:
+    name: Bound Brook
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BRADLEY_BEACH
+  attributes:
+    name: Bradley Beach
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BRANCHBURG
+  attributes:
+    name: Branchburg
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BRANCHVILLE
+  attributes:
+    name: Branchville
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BRICK
+  attributes:
+    name: Brick
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BRIDGETON
+  attributes:
+    name: Bridgeton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BRIDGEWATER
+  attributes:
+    name: Bridgewater
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BRIELLE
+  attributes:
+    name: Brielle
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BRIGANTINE
+  attributes:
+    name: Brigantine
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BROOKLAWN
+  attributes:
+    name: Brooklawn
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BUENA
+  attributes:
+    name: Buena
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BUENA_VISTA
+  attributes:
+    name: Buena Vista
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BURLINGTON_CITY
+  attributes:
+    name: Burlington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BURLINGTON_TOWNSHIP
+  attributes:
+    name: Burlington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BUTLER
+  attributes:
+    name: Butler
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-BYRAM
+  attributes:
+    name: Byram
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CALDWELL
+  attributes:
+    name: Caldwell
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CALIFON
+  attributes:
+    name: Califon
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CAMDEN
+  attributes:
+    name: Camden
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CAPE_MAY
+  attributes:
+    name: Cape May
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAPE_MAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CAPE_MAY_POINT
+  attributes:
+    name: Cape May Point
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAPE_MAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CARLSTADT
+  attributes:
+    name: Carlstadt
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CARNEYS_POINT
+  attributes:
+    name: Carneys Point
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SALEM
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CARTERET
+  attributes:
+    name: Carteret
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CEDAR_GROVE
+  attributes:
+    name: Cedar Grove
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CHATHAM_BOROUGH
+  attributes:
+    name: Chatham
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CHATHAM_TOWNSHIP
+  attributes:
+    name: Chatham
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CHERRY_HILL
+  attributes:
+    name: Cherry Hill
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CHESILHURST
+  attributes:
+    name: Chesilhurst
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CHESTERFIELD
+  attributes:
+    name: Chesterfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CHESTER_BOROUGH
+  attributes:
+    name: Chester
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CHESTER_TOWNSHIP
+  attributes:
+    name: Chester
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CINNAMINSON
+  attributes:
+    name: Cinnaminson
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CITY_OF_ORANGE
+  attributes:
+    name: City of Orange
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CLARK
+  attributes:
+    name: Clark
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CLAYTON
+  attributes:
+    name: Clayton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CLEMENTON
+  attributes:
+    name: Clementon
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CLIFFSIDE_PARK
+  attributes:
+    name: Cliffside Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CLIFTON
+  attributes:
+    name: Clifton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CLINTON_TOWN
+  attributes:
+    name: Clinton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CLINTON_TOWNSHIP
+  attributes:
+    name: Clinton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CLOSTER
+  attributes:
+    name: Closter
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-COLLINGSWOOD
+  attributes:
+    name: Collingswood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-COLTS_NECK
+  attributes:
+    name: Colts Neck
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-COMMERCIAL
+  attributes:
+    name: Commercial
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CORBIN_CITY
+  attributes:
+    name: Corbin City
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CRANBURY
+  attributes:
+    name: Cranbury
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CRANFORD
+  attributes:
+    name: Cranford
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-CRESSKILL
+  attributes:
+    name: Cresskill
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-DEAL
+  attributes:
+    name: Deal
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-DEERFIELD
+  attributes:
+    name: Deerfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-DELANCO
+  attributes:
+    name: Delanco
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-DELAWARE
+  attributes:
+    name: Delaware
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-DELRAN
+  attributes:
+    name: Delran
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-DEMAREST
+  attributes:
+    name: Demarest
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-DENNIS
+  attributes:
+    name: Dennis
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAPE_MAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-DENVILLE
+  attributes:
+    name: Denville
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-DEPTFORD
+  attributes:
+    name: Deptford
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-DOVER
+  attributes:
+    name: Dover
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-DOWNE
+  attributes:
+    name: Downe
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-DUMONT
+  attributes:
+    name: Dumont
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-DUNELLEN
+  attributes:
+    name: Dunellen
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EAGLESWOOD
+  attributes:
+    name: Eagleswood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EASTAMPTON
+  attributes:
+    name: Eastampton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EAST_AMWELL
+  attributes:
+    name: East Amwell
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EAST_BRUNSWICK
+  attributes:
+    name: East Brunswick
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EAST_GREENWICH
+  attributes:
+    name: East Greenwich
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EAST_HANOVER
+  attributes:
+    name: East Hanover
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EAST_NEWARK
+  attributes:
+    name: East Newark
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUDSON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EAST_ORANGE
+  attributes:
+    name: East Orange
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EAST_RUTHERFORD
+  attributes:
+    name: East Rutherford
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EAST_WINDSOR
+  attributes:
+    name: East Windsor
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MERCER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EATONTOWN
+  attributes:
+    name: Eatontown
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EDGEWATER
+  attributes:
+    name: Edgewater
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EDGEWATER_PARK
+  attributes:
+    name: Edgewater Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EDISON
+  attributes:
+    name: Edison
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EGG_HARBOR
+  attributes:
+    name: Egg Harbor
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EGG_HARBOR_CITY
+  attributes:
+    name: Egg Harbor City
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ELIZABETH
+  attributes:
+    name: Elizabeth
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ELK
+  attributes:
+    name: Elk
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ELMER
+  attributes:
+    name: Elmer
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SALEM
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ELMWOOD_PARK
+  attributes:
+    name: Elmwood Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ELSINBORO
+  attributes:
+    name: Elsinboro
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SALEM
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EMERSON
+  attributes:
+    name: Emerson
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ENGLEWOOD
+  attributes:
+    name: Englewood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ENGLEWOOD_CLIFFS
+  attributes:
+    name: Englewood Cliffs
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ENGLISHTOWN
+  attributes:
+    name: Englishtown
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ESSEX_FELLS
+  attributes:
+    name: Essex Fells
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ESTELL_MANOR
+  attributes:
+    name: Estell Manor
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EVESHAM
+  attributes:
+    name: Evesham
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-EWING
+  attributes:
+    name: Ewing
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MERCER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FAIRFIELD_TOWNSHIP_CUMBERLAND
+  attributes:
+    name: Fairfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FAIRFIELD_TOWNSHIP_ESSEX
+  attributes:
+    name: Fairfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FAIRVIEW
+  attributes:
+    name: Fairview
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FAIR_HAVEN
+  attributes:
+    name: Fair Haven
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FAIR_LAWN
+  attributes:
+    name: Fair Lawn
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FANWOOD
+  attributes:
+    name: Fanwood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FARMINGDALE
+  attributes:
+    name: Farmingdale
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FAR_HILLS
+  attributes:
+    name: Far Hills
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FIELDSBORO
+  attributes:
+    name: Fieldsboro
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FLEMINGTON
+  attributes:
+    name: Flemington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FLORENCE
+  attributes:
+    name: Florence
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FLORHAM_PARK
+  attributes:
+    name: Florham Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FOLSOM
+  attributes:
+    name: Folsom
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FORT_LEE
+  attributes:
+    name: Fort Lee
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FRANKFORD
+  attributes:
+    name: Frankford
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FRANKLIN_BOROUGH
+  attributes:
+    name: Franklin
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FRANKLIN_LAKES
+  attributes:
+    name: Franklin Lakes
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FRANKLIN_TOWNSHIP_GLOUCESTER
+  attributes:
+    name: Franklin
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FRANKLIN_TOWNSHIP_HUNTERDON
+  attributes:
+    name: Franklin
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FRANKLIN_TOWNSHIP_SOMERSET
+  attributes:
+    name: Franklin
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FRANKLIN_TOWNSHIP_WARREN
+  attributes:
+    name: Franklin
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FREDON
+  attributes:
+    name: Fredon
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FREEHOLD_BOROUGH
+  attributes:
+    name: Freehold
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FREEHOLD_TOWNSHIP
+  attributes:
+    name: Freehold
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FRELINGHUYSEN
+  attributes:
+    name: Frelinghuysen
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-FRENCHTOWN
+  attributes:
+    name: Frenchtown
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-GALLOWAY
+  attributes:
+    name: Galloway
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-GARFIELD
+  attributes:
+    name: Garfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-GARWOOD
+  attributes:
+    name: Garwood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-GIBBSBORO
+  attributes:
+    name: Gibbsboro
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-GLASSBORO
+  attributes:
+    name: Glassboro
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-GLEN_GARDNER
+  attributes:
+    name: Glen Gardner
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-GLEN_RIDGE
+  attributes:
+    name: Glen Ridge
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-GLEN_ROCK
+  attributes:
+    name: Glen Rock
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-GLOUCESTER
+  attributes:
+    name: Gloucester
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-GLOUCESTER_CITY
+  attributes:
+    name: Gloucester City
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-GREEN
+  attributes:
+    name: Green
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-GREENWICH_TOWNSHIP_CUMBERLAND
+  attributes:
+    name: Greenwich
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-GREENWICH_TOWNSHIP_GLOUCESTER
+  attributes:
+    name: Greenwich
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-GREENWICH_TOWNSHIP_WARREN
+  attributes:
+    name: Greenwich
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-GREEN_BROOK
+  attributes:
+    name: Green Brook
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-GUTTENBERG
+  attributes:
+    name: Guttenberg
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUDSON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HACKENSACK
+  attributes:
+    name: Hackensack
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HACKETTSTOWN
+  attributes:
+    name: Hackettstown
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HADDON
+  attributes:
+    name: Haddon
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HADDONFIELD
+  attributes:
+    name: Haddonfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HADDON_HEIGHTS
+  attributes:
+    name: Haddon Heights
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HAINESPORT
+  attributes:
+    name: Hainesport
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HALEDON
+  attributes:
+    name: Haledon
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HAMBURG
+  attributes:
+    name: Hamburg
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HAMILTON_TOWNSHIP_ATLANTIC
+  attributes:
+    name: Hamilton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HAMILTON_TOWNSHIP_MERCER
+  attributes:
+    name: Hamilton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MERCER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HAMMONTON
+  attributes:
+    name: Hammonton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HAMPTON_BOROUGH
+  attributes:
+    name: Hampton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HAMPTON_TOWNSHIP
+  attributes:
+    name: Hampton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HANOVER
+  attributes:
+    name: Hanover
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HARDING
+  attributes:
+    name: Harding
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HARDWICK
+  attributes:
+    name: Hardwick
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HARDYSTON
+  attributes:
+    name: Hardyston
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HARMONY
+  attributes:
+    name: Harmony
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HARRINGTON_PARK
+  attributes:
+    name: Harrington Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HARRISON_TOWN
+  attributes:
+    name: Harrison
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUDSON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HARRISON_TOWNSHIP
+  attributes:
+    name: Harrison
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HARVEY_CEDARS
+  attributes:
+    name: Harvey Cedars
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HASBROUCK_HEIGHTS
+  attributes:
+    name: Hasbrouck Heights
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HAWORTH
+  attributes:
+    name: Haworth
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HAWTHORNE
+  attributes:
+    name: Hawthorne
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HAZLET
+  attributes:
+    name: Hazlet
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HELMETTA
+  attributes:
+    name: Helmetta
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HIGHLANDS
+  attributes:
+    name: Highlands
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HIGHLAND_PARK
+  attributes:
+    name: Highland Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HIGHTSTOWN
+  attributes:
+    name: Hightstown
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MERCER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HIGH_BRIDGE
+  attributes:
+    name: High Bridge
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HILLSBOROUGH
+  attributes:
+    name: Hillsborough
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HILLSDALE
+  attributes:
+    name: Hillsdale
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HILLSIDE
+  attributes:
+    name: Hillside
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HI_NELLA
+  attributes:
+    name: Hi-Nella
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HOBOKEN
+  attributes:
+    name: Hoboken
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUDSON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HOLLAND
+  attributes:
+    name: Holland
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HOLMDEL
+  attributes:
+    name: Holmdel
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HOPATCONG
+  attributes:
+    name: Hopatcong
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HOPE
+  attributes:
+    name: Hope
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HOPEWELL_BOROUGH
+  attributes:
+    name: Hopewell
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MERCER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HOPEWELL_TOWNSHIP_CUMBERLAND
+  attributes:
+    name: Hopewell
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HOPEWELL_TOWNSHIP_MERCER
+  attributes:
+    name: Hopewell
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MERCER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HOWELL
+  attributes:
+    name: Howell
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-HO_HO_KUS
+  attributes:
+    name: Ho-Ho-Kus
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-INDEPENDENCE
+  attributes:
+    name: Independence
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-INTERLAKEN
+  attributes:
+    name: Interlaken
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-IRVINGTON
+  attributes:
+    name: Irvington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ISLAND_HEIGHTS
+  attributes:
+    name: Island Heights
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-JACKSON
+  attributes:
+    name: Jackson
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-JAMESBURG
+  attributes:
+    name: Jamesburg
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-JEFFERSON
+  attributes:
+    name: Jefferson
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-JERSEY_CITY
+  attributes:
+    name: Jersey City
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUDSON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-KEANSBURG
+  attributes:
+    name: Keansburg
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-KEARNY
+  attributes:
+    name: Kearny
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUDSON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-KENILWORTH
+  attributes:
+    name: Kenilworth
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-KEYPORT
+  attributes:
+    name: Keyport
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-KINGWOOD
+  attributes:
+    name: Kingwood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-KINNELON
+  attributes:
+    name: Kinnelon
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-KNOWLTON
+  attributes:
+    name: Knowlton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LACEY
+  attributes:
+    name: Lacey
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LAFAYETTE
+  attributes:
+    name: Lafayette
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LAKEHURST
+  attributes:
+    name: Lakehurst
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LAKEWOOD
+  attributes:
+    name: Lakewood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LAKE_COMO
+  attributes:
+    name: Lake Como
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LAMBERTVILLE
+  attributes:
+    name: Lambertville
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LAUREL_SPRINGS
+  attributes:
+    name: Laurel Springs
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LAVALLETTE
+  attributes:
+    name: Lavallette
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LAWNSIDE
+  attributes:
+    name: Lawnside
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LAWRENCE_TOWNSHIP_CUMBERLAND
+  attributes:
+    name: Lawrence
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LAWRENCE_TOWNSHIP_MERCER
+  attributes:
+    name: Lawrence
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MERCER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LEBANON_BOROUGH
+  attributes:
+    name: Lebanon
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LEBANON_TOWNSHIP
+  attributes:
+    name: Lebanon
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LEONIA
+  attributes:
+    name: Leonia
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LIBERTY
+  attributes:
+    name: Liberty
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LINCOLN_PARK
+  attributes:
+    name: Lincoln Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LINDEN
+  attributes:
+    name: Linden
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LINDENWOLD
+  attributes:
+    name: Lindenwold
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LINWOOD
+  attributes:
+    name: Linwood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LITTLE_EGG_HARBOR
+  attributes:
+    name: Little Egg Harbor
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LITTLE_FALLS
+  attributes:
+    name: Little Falls
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LITTLE_FERRY
+  attributes:
+    name: Little Ferry
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LITTLE_SILVER
+  attributes:
+    name: Little Silver
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LIVINGSTON
+  attributes:
+    name: Livingston
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LOCH_ARBOUR
+  attributes:
+    name: Loch Arbour
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LODI
+  attributes:
+    name: Lodi
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LOGAN
+  attributes:
+    name: Logan
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LONGPORT
+  attributes:
+    name: Longport
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LONG_BEACH
+  attributes:
+    name: Long Beach
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LONG_BRANCH
+  attributes:
+    name: Long Branch
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LONG_HILL
+  attributes:
+    name: Long Hill
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LOPATCONG
+  attributes:
+    name: Lopatcong
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LOWER
+  attributes:
+    name: Lower
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAPE_MAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LOWER_ALLOWAYS_CREEK
+  attributes:
+    name: Lower Alloways Creek
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SALEM
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LUMBERTON
+  attributes:
+    name: Lumberton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-LYNDHURST
+  attributes:
+    name: Lyndhurst
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MADISON
+  attributes:
+    name: Madison
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MAGNOLIA
+  attributes:
+    name: Magnolia
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MAHWAH
+  attributes:
+    name: Mahwah
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MANALAPAN
+  attributes:
+    name: Manalapan
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MANASQUAN
+  attributes:
+    name: Manasquan
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MANCHESTER
+  attributes:
+    name: Manchester
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MANNINGTON
+  attributes:
+    name: Mannington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SALEM
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MANSFIELD_TOWNSHIP_BURLINGTON
+  attributes:
+    name: Mansfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MANSFIELD_TOWNSHIP_WARREN
+  attributes:
+    name: Mansfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MANTOLOKING
+  attributes:
+    name: Mantoloking
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MANTUA
+  attributes:
+    name: Mantua
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MANVILLE
+  attributes:
+    name: Manville
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MAPLEWOOD
+  attributes:
+    name: Maplewood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MAPLE_SHADE
+  attributes:
+    name: Maple Shade
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MARGATE_CITY
+  attributes:
+    name: Margate City
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MARLBORO
+  attributes:
+    name: Marlboro
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MATAWAN
+  attributes:
+    name: Matawan
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MAURICE_RIVER
+  attributes:
+    name: Maurice River
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MAYWOOD
+  attributes:
+    name: Maywood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MEDFORD
+  attributes:
+    name: Medford
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MEDFORD_LAKES
+  attributes:
+    name: Medford Lakes
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MENDHAM_BOROUGH
+  attributes:
+    name: Mendham
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MENDHAM_TOWNSHIP
+  attributes:
+    name: Mendham
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MERCHANTVILLE
+  attributes:
+    name: Merchantville
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-METUCHEN
+  attributes:
+    name: Metuchen
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MIDDLE
+  attributes:
+    name: Middle
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAPE_MAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MIDDLESEX
+  attributes:
+    name: Middlesex
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MIDDLETOWN
+  attributes:
+    name: Middletown
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MIDLAND_PARK
+  attributes:
+    name: Midland Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MILFORD
+  attributes:
+    name: Milford
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MILLBURN
+  attributes:
+    name: Millburn
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MILLSTONE_BOROUGH
+  attributes:
+    name: Millstone
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MILLSTONE_TOWNSHIP
+  attributes:
+    name: Millstone
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MILLTOWN
+  attributes:
+    name: Milltown
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MILLVILLE
+  attributes:
+    name: Millville
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MINE_HILL
+  attributes:
+    name: Mine Hill
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MONMOUTH_BEACH
+  attributes:
+    name: Monmouth Beach
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MONROE_TOWNSHIP_GLOUCESTER
+  attributes:
+    name: Monroe
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MONROE_TOWNSHIP_MIDDLESEX
+  attributes:
+    name: Monroe
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MONTAGUE
+  attributes:
+    name: Montague
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MONTCLAIR
+  attributes:
+    name: Montclair
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MONTGOMERY
+  attributes:
+    name: Montgomery
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MONTVALE
+  attributes:
+    name: Montvale
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MONTVILLE
+  attributes:
+    name: Montville
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MOONACHIE
+  attributes:
+    name: Moonachie
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MOORESTOWN
+  attributes:
+    name: Moorestown
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MORRIS
+  attributes:
+    name: Morris
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MORRISTOWN
+  attributes:
+    name: Morristown
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MORRIS_PLAINS
+  attributes:
+    name: Morris Plains
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MOUNTAINSIDE
+  attributes:
+    name: Mountainside
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MOUNTAIN_LAKES
+  attributes:
+    name: Mountain Lakes
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MOUNT_ARLINGTON
+  attributes:
+    name: Mount Arlington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MOUNT_EPHRAIM
+  attributes:
+    name: Mount Ephraim
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MOUNT_HOLLY
+  attributes:
+    name: Mount Holly
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MOUNT_LAUREL
+  attributes:
+    name: Mount Laurel
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MOUNT_OLIVE
+  attributes:
+    name: Mount Olive
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-MULLICA
+  attributes:
+    name: Mullica
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NATIONAL_PARK
+  attributes:
+    name: National Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NEPTUNE
+  attributes:
+    name: Neptune
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NEPTUNE_CITY
+  attributes:
+    name: Neptune City
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NETCONG
+  attributes:
+    name: Netcong
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NEWARK
+  attributes:
+    name: Newark
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NEWFIELD
+  attributes:
+    name: Newfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NEWTON
+  attributes:
+    name: Newton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NEW_BRUNSWICK
+  attributes:
+    name: New Brunswick
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NEW_HANOVER
+  attributes:
+    name: New Hanover
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NEW_MILFORD
+  attributes:
+    name: New Milford
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NEW_PROVIDENCE
+  attributes:
+    name: New Providence
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NORTHFIELD
+  attributes:
+    name: Northfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NORTHVALE
+  attributes:
+    name: Northvale
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NORTH_ARLINGTON
+  attributes:
+    name: North Arlington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NORTH_BERGEN
+  attributes:
+    name: North Bergen
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUDSON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NORTH_BRUNSWICK
+  attributes:
+    name: North Brunswick
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NORTH_CALDWELL
+  attributes:
+    name: North Caldwell
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NORTH_HALEDON
+  attributes:
+    name: North Haledon
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NORTH_HANOVER
+  attributes:
+    name: North Hanover
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NORTH_PLAINFIELD
+  attributes:
+    name: North Plainfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NORTH_WILDWOOD
+  attributes:
+    name: North Wildwood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAPE_MAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NORWOOD
+  attributes:
+    name: Norwood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-NUTLEY
+  attributes:
+    name: Nutley
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-OAKLAND
+  attributes:
+    name: Oakland
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-OAKLYN
+  attributes:
+    name: Oaklyn
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-OCEANPORT
+  attributes:
+    name: Oceanport
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-OCEAN_CITY
+  attributes:
+    name: Ocean City
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAPE_MAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-OCEAN_GATE
+  attributes:
+    name: Ocean Gate
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-OCEAN_TOWNSHIP_MONMOUTH
+  attributes:
+    name: Ocean
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-OCEAN_TOWNSHIP_OCEAN
+  attributes:
+    name: Ocean
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-OGDENSBURG
+  attributes:
+    name: Ogdensburg
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-OLDMANS
+  attributes:
+    name: Oldmans
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SALEM
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-OLD_BRIDGE
+  attributes:
+    name: Old Bridge
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-OLD_TAPPAN
+  attributes:
+    name: Old Tappan
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ORADELL
+  attributes:
+    name: Oradell
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-OXFORD
+  attributes:
+    name: Oxford
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PALISADES_PARK
+  attributes:
+    name: Palisades Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PALMYRA
+  attributes:
+    name: Palmyra
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PARAMUS
+  attributes:
+    name: Paramus
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PARK_RIDGE
+  attributes:
+    name: Park Ridge
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PARSIPPANY_TROY_HILLS
+  attributes:
+    name: Parsippany-Troy Hills
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PASSAIC
+  attributes:
+    name: Passaic
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PATERSON
+  attributes:
+    name: Paterson
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PAULSBORO
+  attributes:
+    name: Paulsboro
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PEAPACK_AND_GLADSTONE
+  attributes:
+    name: Peapack and Gladstone
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PEMBERTON_BOROUGH
+  attributes:
+    name: Pemberton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PEMBERTON_TOWNSHIP
+  attributes:
+    name: Pemberton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PENNINGTON
+  attributes:
+    name: Pennington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MERCER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PENNSAUKEN
+  attributes:
+    name: Pennsauken
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PENNSVILLE
+  attributes:
+    name: Pennsville
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SALEM
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PENNS_GROVE
+  attributes:
+    name: Penns Grove
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SALEM
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PEQUANNOCK
+  attributes:
+    name: Pequannock
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PERTH_AMBOY
+  attributes:
+    name: Perth Amboy
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PHILLIPSBURG
+  attributes:
+    name: Phillipsburg
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PILESGROVE
+  attributes:
+    name: Pilesgrove
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SALEM
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PINE_BEACH
+  attributes:
+    name: Pine Beach
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PINE_HILL
+  attributes:
+    name: Pine Hill
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PISCATAWAY
+  attributes:
+    name: Piscataway
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PITMAN
+  attributes:
+    name: Pitman
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PITTSGROVE
+  attributes:
+    name: Pittsgrove
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SALEM
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PLAINFIELD
+  attributes:
+    name: Plainfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PLAINSBORO
+  attributes:
+    name: Plainsboro
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PLEASANTVILLE
+  attributes:
+    name: Pleasantville
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PLUMSTED
+  attributes:
+    name: Plumsted
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-POHATCONG
+  attributes:
+    name: Pohatcong
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-POINT_PLEASANT
+  attributes:
+    name: Point Pleasant
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-POINT_PLEASANT_BEACH
+  attributes:
+    name: Point Pleasant Beach
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-POMPTON_LAKES
+  attributes:
+    name: Pompton Lakes
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PORT_REPUBLIC
+  attributes:
+    name: Port Republic
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PRINCETON
+  attributes:
+    name: Princeton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MERCER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-PROSPECT_PARK
+  attributes:
+    name: Prospect Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-QUINTON
+  attributes:
+    name: Quinton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SALEM
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RAHWAY
+  attributes:
+    name: Rahway
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RAMSEY
+  attributes:
+    name: Ramsey
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RANDOLPH
+  attributes:
+    name: Randolph
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RARITAN_BOROUGH
+  attributes:
+    name: Raritan
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RARITAN_TOWNSHIP
+  attributes:
+    name: Raritan
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-READINGTON
+  attributes:
+    name: Readington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RED_BANK
+  attributes:
+    name: Red Bank
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RIDGEFIELD
+  attributes:
+    name: Ridgefield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RIDGEFIELD_PARK
+  attributes:
+    name: Ridgefield Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RIDGEWOOD
+  attributes:
+    name: Ridgewood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RINGWOOD
+  attributes:
+    name: Ringwood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RIVERDALE
+  attributes:
+    name: Riverdale
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RIVERSIDE
+  attributes:
+    name: Riverside
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RIVERTON
+  attributes:
+    name: Riverton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RIVER_EDGE
+  attributes:
+    name: River Edge
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RIVER_VALE
+  attributes:
+    name: River Vale
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ROBBINSVILLE
+  attributes:
+    name: Robbinsville
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MERCER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ROCHELLE_PARK
+  attributes:
+    name: Rochelle Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ROCKAWAY_BOROUGH
+  attributes:
+    name: Rockaway
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ROCKAWAY_TOWNSHIP
+  attributes:
+    name: Rockaway
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ROCKLEIGH
+  attributes:
+    name: Rockleigh
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ROCKY_HILL
+  attributes:
+    name: Rocky Hill
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ROOSEVELT
+  attributes:
+    name: Roosevelt
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ROSELAND
+  attributes:
+    name: Roseland
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ROSELLE
+  attributes:
+    name: Roselle
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ROSELLE_PARK
+  attributes:
+    name: Roselle Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-ROXBURY
+  attributes:
+    name: Roxbury
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RUMSON
+  attributes:
+    name: Rumson
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RUNNEMEDE
+  attributes:
+    name: Runnemede
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-RUTHERFORD
+  attributes:
+    name: Rutherford
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SADDLE_BROOK
+  attributes:
+    name: Saddle Brook
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SADDLE_RIVER
+  attributes:
+    name: Saddle River
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SALEM
+  attributes:
+    name: Salem
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SALEM
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SANDYSTON
+  attributes:
+    name: Sandyston
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SAYREVILLE
+  attributes:
+    name: Sayreville
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SCOTCH_PLAINS
+  attributes:
+    name: Scotch Plains
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SEASIDE_HEIGHTS
+  attributes:
+    name: Seaside Heights
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SEASIDE_PARK
+  attributes:
+    name: Seaside Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SEA_BRIGHT
+  attributes:
+    name: Sea Bright
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SEA_GIRT
+  attributes:
+    name: Sea Girt
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SEA_ISLE_CITY
+  attributes:
+    name: Sea Isle City
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAPE_MAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SECAUCUS
+  attributes:
+    name: Secaucus
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUDSON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SHAMONG
+  attributes:
+    name: Shamong
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SHILOH
+  attributes:
+    name: Shiloh
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SHIP_BOTTOM
+  attributes:
+    name: Ship Bottom
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SHREWSBURY_BOROUGH
+  attributes:
+    name: Shrewsbury
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SHREWSBURY_TOWNSHIP
+  attributes:
+    name: Shrewsbury
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SOMERDALE
+  attributes:
+    name: Somerdale
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SOMERS_POINT
+  attributes:
+    name: Somers Point
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SOMERVILLE
+  attributes:
+    name: Somerville
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SOUTHAMPTON
+  attributes:
+    name: Southampton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SOUTH_AMBOY
+  attributes:
+    name: South Amboy
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SOUTH_BOUND_BROOK
+  attributes:
+    name: South Bound Brook
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SOUTH_BRUNSWICK
+  attributes:
+    name: South Brunswick
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SOUTH_HACKENSACK
+  attributes:
+    name: South Hackensack
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SOUTH_HARRISON
+  attributes:
+    name: South Harrison
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SOUTH_ORANGE_VILLAGE
+  attributes:
+    name: South Orange Village
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SOUTH_PLAINFIELD
+  attributes:
+    name: South Plainfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SOUTH_RIVER
+  attributes:
+    name: South River
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SOUTH_TOMS_RIVER
+  attributes:
+    name: South Toms River
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SPARTA
+  attributes:
+    name: Sparta
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SPOTSWOOD
+  attributes:
+    name: Spotswood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SPRINGFIELD_TOWNSHIP_BURLINGTON
+  attributes:
+    name: Springfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SPRINGFIELD_TOWNSHIP_UNION
+  attributes:
+    name: Springfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SPRING_LAKE
+  attributes:
+    name: Spring Lake
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SPRING_LAKE_HEIGHTS
+  attributes:
+    name: Spring Lake Heights
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-STAFFORD
+  attributes:
+    name: Stafford
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-STANHOPE
+  attributes:
+    name: Stanhope
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-STILLWATER
+  attributes:
+    name: Stillwater
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-STOCKTON
+  attributes:
+    name: Stockton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-STONE_HARBOR
+  attributes:
+    name: Stone Harbor
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAPE_MAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-STOW_CREEK
+  attributes:
+    name: Stow Creek
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-STRATFORD
+  attributes:
+    name: Stratford
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SUMMIT
+  attributes:
+    name: Summit
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SURF_CITY
+  attributes:
+    name: Surf City
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SUSSEX
+  attributes:
+    name: Sussex
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-SWEDESBORO
+  attributes:
+    name: Swedesboro
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-TABERNACLE
+  attributes:
+    name: Tabernacle
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-TAVISTOCK
+  attributes:
+    name: Tavistock
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-TEANECK
+  attributes:
+    name: Teaneck
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-TENAFLY
+  attributes:
+    name: Tenafly
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-TETERBORO
+  attributes:
+    name: Teterboro
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-TEWKSBURY
+  attributes:
+    name: Tewksbury
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-TINTON_FALLS
+  attributes:
+    name: Tinton Falls
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-TOMS_RIVER
+  attributes:
+    name: Toms River
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-TOTOWA
+  attributes:
+    name: Totowa
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-TRENTON
+  attributes:
+    name: Trenton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MERCER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-TUCKERTON
+  attributes:
+    name: Tuckerton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-OCEAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-UNION_BEACH
+  attributes:
+    name: Union Beach
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-UNION_CITY
+  attributes:
+    name: Union City
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUDSON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-UNION_TOWNSHIP_HUNTERDON
+  attributes:
+    name: Union
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-UNION_TOWNSHIP_UNION
+  attributes:
+    name: Union
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-UPPER
+  attributes:
+    name: Upper
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAPE_MAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-UPPER_DEERFIELD
+  attributes:
+    name: Upper Deerfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-UPPER_FREEHOLD
+  attributes:
+    name: Upper Freehold
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-UPPER_PITTSGROVE
+  attributes:
+    name: Upper Pittsgrove
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SALEM
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-UPPER_SADDLE_RIVER
+  attributes:
+    name: Upper Saddle River
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-VENTNOR_CITY
+  attributes:
+    name: Ventnor City
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-VERNON
+  attributes:
+    name: Vernon
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-VERONA
+  attributes:
+    name: Verona
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-VICTORY_GARDENS
+  attributes:
+    name: Victory Gardens
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-VINELAND
+  attributes:
+    name: Vineland
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-VOORHEES
+  attributes:
+    name: Voorhees
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WALDWICK
+  attributes:
+    name: Waldwick
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WALL
+  attributes:
+    name: Wall
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WALLINGTON
+  attributes:
+    name: Wallington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WALPACK
+  attributes:
+    name: Walpack
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WANAQUE
+  attributes:
+    name: Wanaque
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WANTAGE
+  attributes:
+    name: Wantage
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SUSSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WARREN
+  attributes:
+    name: Warren
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WASHINGTON_BOROUGH
+  attributes:
+    name: Washington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WASHINGTON_TOWNSHIP_BERGEN
+  attributes:
+    name: Washington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WASHINGTON_TOWNSHIP_BURLINGTON
+  attributes:
+    name: Washington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WASHINGTON_TOWNSHIP_GLOUCESTER
+  attributes:
+    name: Washington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WASHINGTON_TOWNSHIP_MORRIS
+  attributes:
+    name: Washington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WASHINGTON_TOWNSHIP_WARREN
+  attributes:
+    name: Washington
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WATCHUNG
+  attributes:
+    name: Watchung
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WATERFORD
+  attributes:
+    name: Waterford
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WAYNE
+  attributes:
+    name: Wayne
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WEEHAWKEN
+  attributes:
+    name: Weehawken
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUDSON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WENONAH
+  attributes:
+    name: Wenonah
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WESTAMPTON
+  attributes:
+    name: Westampton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WESTFIELD
+  attributes:
+    name: Westfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WESTVILLE
+  attributes:
+    name: Westville
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WESTWOOD
+  attributes:
+    name: Westwood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WEST_AMWELL
+  attributes:
+    name: West Amwell
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUNTERDON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WEST_CALDWELL
+  attributes:
+    name: West Caldwell
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WEST_CAPE_MAY
+  attributes:
+    name: West Cape May
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAPE_MAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WEST_DEPTFORD
+  attributes:
+    name: West Deptford
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WEST_LONG_BRANCH
+  attributes:
+    name: West Long Branch
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MONMOUTH
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WEST_MILFORD
+  attributes:
+    name: West Milford
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WEST_NEW_YORK
+  attributes:
+    name: West New York
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-HUDSON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WEST_ORANGE
+  attributes:
+    name: West Orange
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ESSEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WEST_WILDWOOD
+  attributes:
+    name: West Wildwood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAPE_MAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WEST_WINDSOR
+  attributes:
+    name: West Windsor
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MERCER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WEYMOUTH
+  attributes:
+    name: Weymouth
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-ATLANTIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WHARTON
+  attributes:
+    name: Wharton
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MORRIS
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WHITE
+  attributes:
+    name: White
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-WARREN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WILDWOOD
+  attributes:
+    name: Wildwood
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAPE_MAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WILDWOOD_CREST
+  attributes:
+    name: Wildwood Crest
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAPE_MAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WILLINGBORO
+  attributes:
+    name: Willingboro
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WINFIELD
+  attributes:
+    name: Winfield
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WINSLOW
+  attributes:
+    name: Winslow
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WOODBINE
+  attributes:
+    name: Woodbine
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAPE_MAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WOODBRIDGE
+  attributes:
+    name: Woodbridge
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-MIDDLESEX
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WOODBURY
+  attributes:
+    name: Woodbury
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WOODBURY_HEIGHTS
+  attributes:
+    name: Woodbury Heights
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WOODCLIFF_LAKE
+  attributes:
+    name: Woodcliff Lake
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WOODLAND
+  attributes:
+    name: Woodland
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WOODLAND_PARK
+  attributes:
+    name: Woodland Park
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-PASSAIC
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WOODLYNNE
+  attributes:
+    name: Woodlynne
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-CAMDEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WOODSTOWN
+  attributes:
+    name: Woodstown
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-SALEM
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WOOD_RIDGE
+  attributes:
+    name: Wood-Ridge
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WOOLWICH
+  attributes:
+    name: Woolwich
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-GLOUCESTER
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WRIGHTSTOWN
+  attributes:
+    name: Wrightstown
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BURLINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-NJ-WYCKOFF
+  attributes:
+    name: Wyckoff
+  references:
+    state: STATE-USA-NJ
+    county: COUNTY-USA-NJ-BERGEN

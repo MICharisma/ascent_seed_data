@@ -1,0 +1,3386 @@
+# ME: 23 incorporated places (Census 2024 Gazetteer, FUNCSTAT A/B, plus consolidated-government balances) + 459 active-government county subdivisions (FUNCSTAT A: towns/townships/plantations). CDPs excluded.
+# County reference only when the place lies in exactly one county (2020 place-by-county file) or from the subdivision's GEOID.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html
+  captured_on: '2026-10-21'
+scope:
+  state: STATE-USA-ME
+records:
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ABBOT
+  attributes:
+    name: Abbot
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ACTON
+  attributes:
+    name: Acton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ADDISON
+  attributes:
+    name: Addison
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ALBION
+  attributes:
+    name: Albion
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ALEXANDER
+  attributes:
+    name: Alexander
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ALFRED
+  attributes:
+    name: Alfred
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ALLAGASH
+  attributes:
+    name: Allagash
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ALNA
+  attributes:
+    name: Alna
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ALTON
+  attributes:
+    name: Alton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-AMHERST
+  attributes:
+    name: Amherst
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-AMITY
+  attributes:
+    name: Amity
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ANDOVER
+  attributes:
+    name: Andover
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ANSON
+  attributes:
+    name: Anson
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-APPLETON
+  attributes:
+    name: Appleton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ARROWSIC
+  attributes:
+    name: Arrowsic
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SAGADAHOC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ARUNDEL
+  attributes:
+    name: Arundel
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ASHLAND
+  attributes:
+    name: Ashland
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ATHENS
+  attributes:
+    name: Athens
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-AUBURN
+  attributes:
+    name: Auburn
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-ANDROSCOGGIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-AUGUSTA
+  attributes:
+    name: Augusta
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-AURORA
+  attributes:
+    name: Aurora
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-AVON
+  attributes:
+    name: Avon
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BAILEYVILLE
+  attributes:
+    name: Baileyville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BALDWIN
+  attributes:
+    name: Baldwin
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BANGOR
+  attributes:
+    name: Bangor
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BARING
+  attributes:
+    name: Baring
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BAR_HARBOR
+  attributes:
+    name: Bar Harbor
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BATH
+  attributes:
+    name: Bath
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SAGADAHOC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BEALS
+  attributes:
+    name: Beals
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BEAVER_COVE
+  attributes:
+    name: Beaver Cove
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BEDDINGTON
+  attributes:
+    name: Beddington
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BELFAST
+  attributes:
+    name: Belfast
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BELGRADE
+  attributes:
+    name: Belgrade
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BELMONT
+  attributes:
+    name: Belmont
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BENTON
+  attributes:
+    name: Benton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BERWICK
+  attributes:
+    name: Berwick
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BETHEL
+  attributes:
+    name: Bethel
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BIDDEFORD
+  attributes:
+    name: Biddeford
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BINGHAM
+  attributes:
+    name: Bingham
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BLAINE
+  attributes:
+    name: Blaine
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BLUE_HILL
+  attributes:
+    name: Blue Hill
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BOOTHBAY
+  attributes:
+    name: Boothbay
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BOOTHBAY_HARBOR
+  attributes:
+    name: Boothbay Harbor
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BOWDOIN
+  attributes:
+    name: Bowdoin
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SAGADAHOC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BOWDOINHAM
+  attributes:
+    name: Bowdoinham
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SAGADAHOC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BOWERBANK
+  attributes:
+    name: Bowerbank
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BRADFORD
+  attributes:
+    name: Bradford
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BRADLEY
+  attributes:
+    name: Bradley
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BREMEN
+  attributes:
+    name: Bremen
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BREWER
+  attributes:
+    name: Brewer
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BRIDGEWATER
+  attributes:
+    name: Bridgewater
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BRIDGTON
+  attributes:
+    name: Bridgton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BRIGHTON
+  attributes:
+    name: Brighton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BRISTOL
+  attributes:
+    name: Bristol
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BROOKLIN
+  attributes:
+    name: Brooklin
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BROOKS
+  attributes:
+    name: Brooks
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BROOKSVILLE
+  attributes:
+    name: Brooksville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BROWNFIELD
+  attributes:
+    name: Brownfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BROWNVILLE
+  attributes:
+    name: Brownville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BRUNSWICK
+  attributes:
+    name: Brunswick
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BUCKFIELD
+  attributes:
+    name: Buckfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BUCKSPORT
+  attributes:
+    name: Bucksport
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BURLINGTON
+  attributes:
+    name: Burlington
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BURNHAM
+  attributes:
+    name: Burnham
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BUXTON
+  attributes:
+    name: Buxton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-BYRON
+  attributes:
+    name: Byron
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CALAIS
+  attributes:
+    name: Calais
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CAMBRIDGE
+  attributes:
+    name: Cambridge
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CAMDEN
+  attributes:
+    name: Camden
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CANAAN
+  attributes:
+    name: Canaan
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CANTON
+  attributes:
+    name: Canton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CAPE_ELIZABETH
+  attributes:
+    name: Cape Elizabeth
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CARATUNK
+  attributes:
+    name: Caratunk
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CARIBOU
+  attributes:
+    name: Caribou
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CARMEL
+  attributes:
+    name: Carmel
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CARRABASSETT_VALLEY
+  attributes:
+    name: Carrabassett Valley
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CARROLL
+  attributes:
+    name: Carroll
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CARTHAGE
+  attributes:
+    name: Carthage
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CASCO
+  attributes:
+    name: Casco
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CASTINE
+  attributes:
+    name: Castine
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CASTLE_HILL
+  attributes:
+    name: Castle Hill
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CASWELL
+  attributes:
+    name: Caswell
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CHAPMAN
+  attributes:
+    name: Chapman
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CHARLESTON
+  attributes:
+    name: Charleston
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CHARLOTTE
+  attributes:
+    name: Charlotte
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CHEBEAGUE_ISLAND
+  attributes:
+    name: Chebeague Island
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CHELSEA
+  attributes:
+    name: Chelsea
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CHERRYFIELD
+  attributes:
+    name: Cherryfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CHESTER
+  attributes:
+    name: Chester
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CHESTERVILLE
+  attributes:
+    name: Chesterville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CHINA
+  attributes:
+    name: China
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CLIFTON
+  attributes:
+    name: Clifton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CLINTON
+  attributes:
+    name: Clinton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-COLUMBIA
+  attributes:
+    name: Columbia
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-COLUMBIA_FALLS
+  attributes:
+    name: Columbia Falls
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-COOPER
+  attributes:
+    name: Cooper
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-COPLIN
+  attributes:
+    name: Coplin
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CORINNA
+  attributes:
+    name: Corinna
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CORINTH
+  attributes:
+    name: Corinth
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CORNISH
+  attributes:
+    name: Cornish
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CORNVILLE
+  attributes:
+    name: Cornville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CRANBERRY_ISLES
+  attributes:
+    name: Cranberry Isles
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CRAWFORD
+  attributes:
+    name: Crawford
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CRYSTAL
+  attributes:
+    name: Crystal
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CUMBERLAND
+  attributes:
+    name: Cumberland
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CUSHING
+  attributes:
+    name: Cushing
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CUTLER
+  attributes:
+    name: Cutler
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-CYR
+  attributes:
+    name: Cyr
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DALLAS
+  attributes:
+    name: Dallas
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DAMARISCOTTA
+  attributes:
+    name: Damariscotta
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DANFORTH
+  attributes:
+    name: Danforth
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DAYTON
+  attributes:
+    name: Dayton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DEBLOIS
+  attributes:
+    name: Deblois
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DEDHAM
+  attributes:
+    name: Dedham
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DEER_ISLE
+  attributes:
+    name: Deer Isle
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DENMARK
+  attributes:
+    name: Denmark
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DENNISTOWN
+  attributes:
+    name: Dennistown
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DENNYSVILLE
+  attributes:
+    name: Dennysville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DETROIT
+  attributes:
+    name: Detroit
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DEXTER
+  attributes:
+    name: Dexter
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DIXFIELD
+  attributes:
+    name: Dixfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DIXMONT
+  attributes:
+    name: Dixmont
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DOVER_FOXCROFT
+  attributes:
+    name: Dover-Foxcroft
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DRESDEN
+  attributes:
+    name: Dresden
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DURHAM
+  attributes:
+    name: Durham
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-ANDROSCOGGIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-DYER_BROOK
+  attributes:
+    name: Dyer Brook
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-EAGLE_LAKE
+  attributes:
+    name: Eagle Lake
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-EASTBROOK
+  attributes:
+    name: Eastbrook
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-EASTON
+  attributes:
+    name: Easton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-EASTPORT
+  attributes:
+    name: Eastport
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-EAST_MACHIAS
+  attributes:
+    name: East Machias
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-EAST_MILLINOCKET
+  attributes:
+    name: East Millinocket
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-EDDINGTON
+  attributes:
+    name: Eddington
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-EDGECOMB
+  attributes:
+    name: Edgecomb
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-EDINBURG
+  attributes:
+    name: Edinburg
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ELIOT
+  attributes:
+    name: Eliot
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ELLSWORTH
+  attributes:
+    name: Ellsworth
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-EMBDEN
+  attributes:
+    name: Embden
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ENFIELD
+  attributes:
+    name: Enfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ETNA
+  attributes:
+    name: Etna
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-EUSTIS
+  attributes:
+    name: Eustis
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-EXETER
+  attributes:
+    name: Exeter
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-FAIRFIELD
+  attributes:
+    name: Fairfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-FALMOUTH
+  attributes:
+    name: Falmouth
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-FARMINGDALE
+  attributes:
+    name: Farmingdale
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-FARMINGTON
+  attributes:
+    name: Farmington
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-FAYETTE
+  attributes:
+    name: Fayette
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-FORT_FAIRFIELD
+  attributes:
+    name: Fort Fairfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-FORT_KENT
+  attributes:
+    name: Fort Kent
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-FRANKFORT
+  attributes:
+    name: Frankfort
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-FRANKLIN
+  attributes:
+    name: Franklin
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-FREEDOM
+  attributes:
+    name: Freedom
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-FREEPORT
+  attributes:
+    name: Freeport
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-FRENCHBORO
+  attributes:
+    name: Frenchboro
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-FRENCHVILLE
+  attributes:
+    name: Frenchville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-FRIENDSHIP
+  attributes:
+    name: Friendship
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-FRYEBURG
+  attributes:
+    name: Fryeburg
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-FRYE_ISLAND
+  attributes:
+    name: Frye Island
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GARDINER
+  attributes:
+    name: Gardiner
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GARFIELD
+  attributes:
+    name: Garfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GARLAND
+  attributes:
+    name: Garland
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GEORGETOWN
+  attributes:
+    name: Georgetown
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SAGADAHOC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GILEAD
+  attributes:
+    name: Gilead
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GLENBURN
+  attributes:
+    name: Glenburn
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GLENWOOD
+  attributes:
+    name: Glenwood
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GORHAM
+  attributes:
+    name: Gorham
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GOULDSBORO
+  attributes:
+    name: Gouldsboro
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GRAND_ISLE
+  attributes:
+    name: Grand Isle
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GRAND_LAKE_STREAM
+  attributes:
+    name: Grand Lake Stream
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GRAY
+  attributes:
+    name: Gray
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GREAT_POND
+  attributes:
+    name: Great Pond
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GREENBUSH
+  attributes:
+    name: Greenbush
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GREENE
+  attributes:
+    name: Greene
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-ANDROSCOGGIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GREENVILLE
+  attributes:
+    name: Greenville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GREENWOOD
+  attributes:
+    name: Greenwood
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-GUILFORD
+  attributes:
+    name: Guilford
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HALLOWELL
+  attributes:
+    name: Hallowell
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HAMLIN
+  attributes:
+    name: Hamlin
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HAMMOND
+  attributes:
+    name: Hammond
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HAMPDEN
+  attributes:
+    name: Hampden
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HANCOCK
+  attributes:
+    name: Hancock
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HANOVER
+  attributes:
+    name: Hanover
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HARMONY
+  attributes:
+    name: Harmony
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HARPSWELL
+  attributes:
+    name: Harpswell
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HARRINGTON
+  attributes:
+    name: Harrington
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HARRISON
+  attributes:
+    name: Harrison
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HARTFORD
+  attributes:
+    name: Hartford
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HARTLAND
+  attributes:
+    name: Hartland
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HAYNESVILLE
+  attributes:
+    name: Haynesville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HEBRON
+  attributes:
+    name: Hebron
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HERMON
+  attributes:
+    name: Hermon
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HERSEY
+  attributes:
+    name: Hersey
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HIGHLAND
+  attributes:
+    name: Highland
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HIRAM
+  attributes:
+    name: Hiram
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HODGDON
+  attributes:
+    name: Hodgdon
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HOLDEN
+  attributes:
+    name: Holden
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HOLLIS
+  attributes:
+    name: Hollis
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HOPE
+  attributes:
+    name: Hope
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HOULTON
+  attributes:
+    name: Houlton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HOWLAND
+  attributes:
+    name: Howland
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-HUDSON
+  attributes:
+    name: Hudson
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-INDUSTRY
+  attributes:
+    name: Industry
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ISLAND_FALLS
+  attributes:
+    name: Island Falls
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ISLESBORO
+  attributes:
+    name: Islesboro
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ISLE_AU_HAUT
+  attributes:
+    name: Isle au Haut
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-JACKMAN
+  attributes:
+    name: Jackman
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-JACKSON
+  attributes:
+    name: Jackson
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-JAY
+  attributes:
+    name: Jay
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-JEFFERSON
+  attributes:
+    name: Jefferson
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-JONESBORO
+  attributes:
+    name: Jonesboro
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-JONESPORT
+  attributes:
+    name: Jonesport
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-KENDUSKEAG
+  attributes:
+    name: Kenduskeag
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-KENNEBUNK
+  attributes:
+    name: Kennebunk
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-KENNEBUNKPORT
+  attributes:
+    name: Kennebunkport
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-KINGFIELD
+  attributes:
+    name: Kingfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-KINGSBURY
+  attributes:
+    name: Kingsbury
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-KITTERY
+  attributes:
+    name: Kittery
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-KNOX
+  attributes:
+    name: Knox
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LAGRANGE
+  attributes:
+    name: Lagrange
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LAKEVILLE
+  attributes:
+    name: Lakeville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LAKE_VIEW
+  attributes:
+    name: Lake View
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LAMOINE
+  attributes:
+    name: Lamoine
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LEBANON
+  attributes:
+    name: Lebanon
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LEE
+  attributes:
+    name: Lee
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LEEDS
+  attributes:
+    name: Leeds
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-ANDROSCOGGIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LEVANT
+  attributes:
+    name: Levant
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LEWISTON
+  attributes:
+    name: Lewiston
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-ANDROSCOGGIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LIBERTY
+  attributes:
+    name: Liberty
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LIMERICK
+  attributes:
+    name: Limerick
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LIMESTONE
+  attributes:
+    name: Limestone
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LIMINGTON
+  attributes:
+    name: Limington
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LINCOLNVILLE
+  attributes:
+    name: Lincolnville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LINCOLN_PLANTATION
+  attributes:
+    name: Lincoln
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LINCOLN_TOWN
+  attributes:
+    name: Lincoln
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LINNEUS
+  attributes:
+    name: Linneus
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LISBON
+  attributes:
+    name: Lisbon
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-ANDROSCOGGIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LITCHFIELD
+  attributes:
+    name: Litchfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LITTLETON
+  attributes:
+    name: Littleton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LIVERMORE
+  attributes:
+    name: Livermore
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-ANDROSCOGGIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LIVERMORE_FALLS
+  attributes:
+    name: Livermore Falls
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-ANDROSCOGGIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LONG_ISLAND
+  attributes:
+    name: Long Island
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LOVELL
+  attributes:
+    name: Lovell
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LOWELL
+  attributes:
+    name: Lowell
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LUBEC
+  attributes:
+    name: Lubec
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LUDLOW
+  attributes:
+    name: Ludlow
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-LYMAN
+  attributes:
+    name: Lyman
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MACHIAS
+  attributes:
+    name: Machias
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MACHIASPORT
+  attributes:
+    name: Machiasport
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MACWAHOC
+  attributes:
+    name: Macwahoc
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MADAWASKA
+  attributes:
+    name: Madawaska
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MADISON
+  attributes:
+    name: Madison
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MANCHESTER
+  attributes:
+    name: Manchester
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MAPLETON
+  attributes:
+    name: Mapleton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MARIAVILLE
+  attributes:
+    name: Mariaville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MARSHFIELD
+  attributes:
+    name: Marshfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MARS_HILL
+  attributes:
+    name: Mars Hill
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MASARDIS
+  attributes:
+    name: Masardis
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MATINICUS_ISLE
+  attributes:
+    name: Matinicus Isle
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MATTAWAMKEAG
+  attributes:
+    name: Mattawamkeag
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MAXFIELD
+  attributes:
+    name: Maxfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MECHANIC_FALLS
+  attributes:
+    name: Mechanic Falls
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-ANDROSCOGGIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MEDDYBEMPS
+  attributes:
+    name: Meddybemps
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MEDFORD
+  attributes:
+    name: Medford
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MEDWAY
+  attributes:
+    name: Medway
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MERCER
+  attributes:
+    name: Mercer
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MERRILL
+  attributes:
+    name: Merrill
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MEXICO
+  attributes:
+    name: Mexico
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MILBRIDGE
+  attributes:
+    name: Milbridge
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MILFORD
+  attributes:
+    name: Milford
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MILLINOCKET
+  attributes:
+    name: Millinocket
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MILO
+  attributes:
+    name: Milo
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MINOT
+  attributes:
+    name: Minot
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-ANDROSCOGGIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MONHEGAN
+  attributes:
+    name: Monhegan
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MONMOUTH
+  attributes:
+    name: Monmouth
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MONROE
+  attributes:
+    name: Monroe
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MONSON
+  attributes:
+    name: Monson
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MONTICELLO
+  attributes:
+    name: Monticello
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MONTVILLE
+  attributes:
+    name: Montville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MOOSE_RIVER
+  attributes:
+    name: Moose River
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MORO
+  attributes:
+    name: Moro
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MORRILL
+  attributes:
+    name: Morrill
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MOSCOW
+  attributes:
+    name: Moscow
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MOUNT_CHASE
+  attributes:
+    name: Mount Chase
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MOUNT_DESERT
+  attributes:
+    name: Mount Desert
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-MOUNT_VERNON
+  attributes:
+    name: Mount Vernon
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NAPLES
+  attributes:
+    name: Naples
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NASHVILLE
+  attributes:
+    name: Nashville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NEWBURGH
+  attributes:
+    name: Newburgh
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NEWCASTLE
+  attributes:
+    name: Newcastle
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NEWFIELD
+  attributes:
+    name: Newfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NEWPORT
+  attributes:
+    name: Newport
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NEWRY
+  attributes:
+    name: Newry
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NEW_CANADA
+  attributes:
+    name: New Canada
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NEW_GLOUCESTER
+  attributes:
+    name: New Gloucester
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NEW_LIMERICK
+  attributes:
+    name: New Limerick
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NEW_PORTLAND
+  attributes:
+    name: New Portland
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NEW_SHARON
+  attributes:
+    name: New Sharon
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NEW_SWEDEN
+  attributes:
+    name: New Sweden
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NEW_VINEYARD
+  attributes:
+    name: New Vineyard
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NOBLEBORO
+  attributes:
+    name: Nobleboro
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NORRIDGEWOCK
+  attributes:
+    name: Norridgewock
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NORTHFIELD
+  attributes:
+    name: Northfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NORTHPORT
+  attributes:
+    name: Northport
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NORTH_BERWICK
+  attributes:
+    name: North Berwick
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NORTH_HAVEN
+  attributes:
+    name: North Haven
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NORTH_YARMOUTH
+  attributes:
+    name: North Yarmouth
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-NORWAY
+  attributes:
+    name: Norway
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-OAKFIELD
+  attributes:
+    name: Oakfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-OAKLAND
+  attributes:
+    name: Oakland
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-OGUNQUIT
+  attributes:
+    name: Ogunquit
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-OLD_ORCHARD_BEACH
+  attributes:
+    name: Old Orchard Beach
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-OLD_TOWN
+  attributes:
+    name: Old Town
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ORIENT
+  attributes:
+    name: Orient
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ORLAND
+  attributes:
+    name: Orland
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ORONO
+  attributes:
+    name: Orono
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ORRINGTON
+  attributes:
+    name: Orrington
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-OSBORN
+  attributes:
+    name: Osborn
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-OTIS
+  attributes:
+    name: Otis
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-OTISFIELD
+  attributes:
+    name: Otisfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-OWLS_HEAD
+  attributes:
+    name: Owls Head
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-OXFORD
+  attributes:
+    name: Oxford
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PALERMO
+  attributes:
+    name: Palermo
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PALMYRA
+  attributes:
+    name: Palmyra
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PARIS
+  attributes:
+    name: Paris
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PARKMAN
+  attributes:
+    name: Parkman
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PARSONSFIELD
+  attributes:
+    name: Parsonsfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PASSADUMKEAG
+  attributes:
+    name: Passadumkeag
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PATTEN
+  attributes:
+    name: Patten
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PEMBROKE
+  attributes:
+    name: Pembroke
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PENOBSCOT
+  attributes:
+    name: Penobscot
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PERHAM
+  attributes:
+    name: Perham
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PERRY
+  attributes:
+    name: Perry
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PERU
+  attributes:
+    name: Peru
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PHILLIPS
+  attributes:
+    name: Phillips
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PHIPPSBURG
+  attributes:
+    name: Phippsburg
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SAGADAHOC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PITTSFIELD
+  attributes:
+    name: Pittsfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PITTSTON
+  attributes:
+    name: Pittston
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PLEASANT_RIDGE
+  attributes:
+    name: Pleasant Ridge
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PLYMOUTH
+  attributes:
+    name: Plymouth
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-POLAND
+  attributes:
+    name: Poland
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-ANDROSCOGGIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PORTAGE_LAKE
+  attributes:
+    name: Portage Lake
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PORTER
+  attributes:
+    name: Porter
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PORTLAND
+  attributes:
+    name: Portland
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-POWNAL
+  attributes:
+    name: Pownal
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PRESQUE_ISLE
+  attributes:
+    name: Presque Isle
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PRINCETON
+  attributes:
+    name: Princeton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-PROSPECT
+  attributes:
+    name: Prospect
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-RANDOLPH
+  attributes:
+    name: Randolph
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-RANGELEY_PLANTATION
+  attributes:
+    name: Rangeley
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-RANGELEY_TOWN
+  attributes:
+    name: Rangeley
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-RAYMOND
+  attributes:
+    name: Raymond
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-READFIELD
+  attributes:
+    name: Readfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-REED
+  attributes:
+    name: Reed
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-RICHMOND
+  attributes:
+    name: Richmond
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SAGADAHOC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-RIPLEY
+  attributes:
+    name: Ripley
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ROBBINSTON
+  attributes:
+    name: Robbinston
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ROCKLAND
+  attributes:
+    name: Rockland
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ROCKPORT
+  attributes:
+    name: Rockport
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ROME
+  attributes:
+    name: Rome
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ROQUE_BLUFFS
+  attributes:
+    name: Roque Bluffs
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ROXBURY
+  attributes:
+    name: Roxbury
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-RUMFORD
+  attributes:
+    name: Rumford
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SABATTUS
+  attributes:
+    name: Sabattus
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-ANDROSCOGGIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SACO
+  attributes:
+    name: Saco
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SANDY_RIVER
+  attributes:
+    name: Sandy River
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SANFORD
+  attributes:
+    name: Sanford
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SANGERVILLE
+  attributes:
+    name: Sangerville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SCARBOROUGH
+  attributes:
+    name: Scarborough
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SEARSMONT
+  attributes:
+    name: Searsmont
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SEARSPORT
+  attributes:
+    name: Searsport
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SEBAGO
+  attributes:
+    name: Sebago
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SEBEC
+  attributes:
+    name: Sebec
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SEBOEIS
+  attributes:
+    name: Seboeis
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SEDGWICK
+  attributes:
+    name: Sedgwick
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SHAPLEIGH
+  attributes:
+    name: Shapleigh
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SHERMAN
+  attributes:
+    name: Sherman
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SHIRLEY
+  attributes:
+    name: Shirley
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SIDNEY
+  attributes:
+    name: Sidney
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SKOWHEGAN
+  attributes:
+    name: Skowhegan
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SMITHFIELD
+  attributes:
+    name: Smithfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SMYRNA
+  attributes:
+    name: Smyrna
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SOLON
+  attributes:
+    name: Solon
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SOMERVILLE
+  attributes:
+    name: Somerville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SORRENTO
+  attributes:
+    name: Sorrento
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SOUTHPORT
+  attributes:
+    name: Southport
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SOUTHWEST_HARBOR
+  attributes:
+    name: Southwest Harbor
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SOUTH_BERWICK
+  attributes:
+    name: South Berwick
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SOUTH_BRISTOL
+  attributes:
+    name: South Bristol
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SOUTH_PORTLAND
+  attributes:
+    name: South Portland
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SOUTH_THOMASTON
+  attributes:
+    name: South Thomaston
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SPRINGFIELD
+  attributes:
+    name: Springfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-STACYVILLE
+  attributes:
+    name: Stacyville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-STANDISH
+  attributes:
+    name: Standish
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-STARKS
+  attributes:
+    name: Starks
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-STETSON
+  attributes:
+    name: Stetson
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-STEUBEN
+  attributes:
+    name: Steuben
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-STOCKHOLM
+  attributes:
+    name: Stockholm
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-STOCKTON_SPRINGS
+  attributes:
+    name: Stockton Springs
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-STONEHAM
+  attributes:
+    name: Stoneham
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-STONINGTON
+  attributes:
+    name: Stonington
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-STOW
+  attributes:
+    name: Stow
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-STRONG
+  attributes:
+    name: Strong
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ST_AGATHA
+  attributes:
+    name: St. Agatha
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ST_ALBANS
+  attributes:
+    name: St. Albans
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ST_FRANCIS
+  attributes:
+    name: St. Francis
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ST_GEORGE
+  attributes:
+    name: St. George
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-ST_JOHN
+  attributes:
+    name: St. John
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SULLIVAN
+  attributes:
+    name: Sullivan
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SUMNER
+  attributes:
+    name: Sumner
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SURRY
+  attributes:
+    name: Surry
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SWANS_ISLAND
+  attributes:
+    name: Swans Island
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SWANVILLE
+  attributes:
+    name: Swanville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-SWEDEN
+  attributes:
+    name: Sweden
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-TALMADGE
+  attributes:
+    name: Talmadge
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-TEMPLE
+  attributes:
+    name: Temple
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-THE_FORKS
+  attributes:
+    name: The Forks
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-THOMASTON
+  attributes:
+    name: Thomaston
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-THORNDIKE
+  attributes:
+    name: Thorndike
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-TOPSFIELD
+  attributes:
+    name: Topsfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-TOPSHAM
+  attributes:
+    name: Topsham
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SAGADAHOC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-TREMONT
+  attributes:
+    name: Tremont
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-TRENTON
+  attributes:
+    name: Trenton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-TROY
+  attributes:
+    name: Troy
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-TURNER
+  attributes:
+    name: Turner
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-ANDROSCOGGIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-UNION
+  attributes:
+    name: Union
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-UNITY
+  attributes:
+    name: Unity
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-UPTON
+  attributes:
+    name: Upton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-VANCEBORO
+  attributes:
+    name: Vanceboro
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-VAN_BUREN
+  attributes:
+    name: Van Buren
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-VASSALBORO
+  attributes:
+    name: Vassalboro
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-VEAZIE
+  attributes:
+    name: Veazie
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-VERONA_ISLAND
+  attributes:
+    name: Verona Island
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-VIENNA
+  attributes:
+    name: Vienna
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-VINALHAVEN
+  attributes:
+    name: Vinalhaven
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WADE
+  attributes:
+    name: Wade
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WAITE
+  attributes:
+    name: Waite
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WALDO
+  attributes:
+    name: Waldo
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WALDOBORO
+  attributes:
+    name: Waldoboro
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WALES
+  attributes:
+    name: Wales
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-ANDROSCOGGIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WALLAGRASS
+  attributes:
+    name: Wallagrass
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WALTHAM
+  attributes:
+    name: Waltham
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WARREN
+  attributes:
+    name: Warren
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WASHBURN
+  attributes:
+    name: Washburn
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WASHINGTON
+  attributes:
+    name: Washington
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KNOX
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WATERBORO
+  attributes:
+    name: Waterboro
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WATERFORD
+  attributes:
+    name: Waterford
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WATERVILLE
+  attributes:
+    name: Waterville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WAYNE
+  attributes:
+    name: Wayne
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WEBSTER
+  attributes:
+    name: Webster
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WELD
+  attributes:
+    name: Weld
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WELLINGTON
+  attributes:
+    name: Wellington
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WELLS
+  attributes:
+    name: Wells
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WESLEY
+  attributes:
+    name: Wesley
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WESTBROOK
+  attributes:
+    name: Westbrook
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WESTFIELD
+  attributes:
+    name: Westfield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WESTMANLAND
+  attributes:
+    name: Westmanland
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WESTON
+  attributes:
+    name: Weston
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WESTPORT_ISLAND
+  attributes:
+    name: Westport Island
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WEST_BATH
+  attributes:
+    name: West Bath
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SAGADAHOC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WEST_FORKS
+  attributes:
+    name: West Forks
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SOMERSET
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WEST_GARDINER
+  attributes:
+    name: West Gardiner
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WEST_PARIS
+  attributes:
+    name: West Paris
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WHITEFIELD
+  attributes:
+    name: Whitefield
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WHITING
+  attributes:
+    name: Whiting
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WHITNEYVILLE
+  attributes:
+    name: Whitneyville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WASHINGTON
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WILLIMANTIC
+  attributes:
+    name: Willimantic
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PISCATAQUIS
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WILTON
+  attributes:
+    name: Wilton
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-FRANKLIN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WINDHAM
+  attributes:
+    name: Windham
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WINDSOR
+  attributes:
+    name: Windsor
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WINN
+  attributes:
+    name: Winn
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WINSLOW
+  attributes:
+    name: Winslow
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WINTERPORT
+  attributes:
+    name: Winterport
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-WALDO
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WINTERVILLE
+  attributes:
+    name: Winterville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WINTER_HARBOR
+  attributes:
+    name: Winter Harbor
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-HANCOCK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WINTHROP
+  attributes:
+    name: Winthrop
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-KENNEBEC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WISCASSET
+  attributes:
+    name: Wiscasset
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WOODLAND
+  attributes:
+    name: Woodland
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-AROOSTOOK
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WOODSTOCK
+  attributes:
+    name: Woodstock
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-OXFORD
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WOODVILLE
+  attributes:
+    name: Woodville
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-PENOBSCOT
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-WOOLWICH
+  attributes:
+    name: Woolwich
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-SAGADAHOC
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-YARMOUTH
+  attributes:
+    name: Yarmouth
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-CUMBERLAND
+- type: Municipality
+  code: MUNICIPALITY-USA-ME-YORK
+  attributes:
+    name: York
+  references:
+    state: STATE-USA-ME
+    county: COUNTY-USA-ME-YORK

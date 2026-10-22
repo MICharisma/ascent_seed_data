@@ -1,0 +1,743 @@
+# NM: 105 incorporated places (Census 2024 Gazetteer, FUNCSTAT A/B, plus consolidated-government balances) + 0 active-government county subdivisions (FUNCSTAT A: towns/townships/plantations). CDPs excluded.
+# County reference only when the place lies in exactly one county (2020 place-by-county file) or from the subdivision's GEOID.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.census.gov/geographies/reference-files/time-series/geo/gazetteer-files.html
+  captured_on: '2026-10-21'
+scope:
+  state: STATE-USA-NM
+records:
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-ALAMOGORDO
+  attributes:
+    name: Alamogordo
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-OTERO
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-ALBUQUERQUE
+  attributes:
+    name: Albuquerque
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-BERNALILLO
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-ANGEL_FIRE
+  attributes:
+    name: Angel Fire
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-COLFAX
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-ANTHONY
+  attributes:
+    name: Anthony
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-DO_A_ANA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-ARTESIA
+  attributes:
+    name: Artesia
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-EDDY
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-AZTEC
+  attributes:
+    name: Aztec
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SAN_JUAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-BAYARD
+  attributes:
+    name: Bayard
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-GRANT
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-BELEN
+  attributes:
+    name: Belen
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-VALENCIA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-BERNALILLO
+  attributes:
+    name: Bernalillo
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SANDOVAL
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-BLOOMFIELD
+  attributes:
+    name: Bloomfield
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SAN_JUAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-BOSQUE_FARMS
+  attributes:
+    name: Bosque Farms
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-VALENCIA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-CAPITAN
+  attributes:
+    name: Capitan
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-CARLSBAD
+  attributes:
+    name: Carlsbad
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-EDDY
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-CARRIZOZO
+  attributes:
+    name: Carrizozo
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-CAUSEY
+  attributes:
+    name: Causey
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-ROOSEVELT
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-CHAMA
+  attributes:
+    name: Chama
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-RIO_ARRIBA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-CIMARRON
+  attributes:
+    name: Cimarron
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-COLFAX
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-CLAYTON
+  attributes:
+    name: Clayton
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-CLOUDCROFT
+  attributes:
+    name: Cloudcroft
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-OTERO
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-CLOVIS
+  attributes:
+    name: Clovis
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-CURRY
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-COLUMBUS
+  attributes:
+    name: Columbus
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-LUNA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-CORONA
+  attributes:
+    name: Corona
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-CORRALES
+  attributes:
+    name: Corrales
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SANDOVAL
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-CUBA
+  attributes:
+    name: Cuba
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SANDOVAL
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-DEMING
+  attributes:
+    name: Deming
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-LUNA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-DES_MOINES
+  attributes:
+    name: Des Moines
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-DEXTER
+  attributes:
+    name: Dexter
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-CHAVES
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-DORA
+  attributes:
+    name: Dora
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-ROOSEVELT
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-EAGLE_NEST
+  attributes:
+    name: Eagle Nest
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-COLFAX
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-EDGEWOOD
+  attributes:
+    name: Edgewood
+  references:
+    state: STATE-USA-NM
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-ELEPHANT_BUTTE
+  attributes:
+    name: Elephant Butte
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SIERRA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-ELIDA
+  attributes:
+    name: Elida
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-ROOSEVELT
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-ENCINO
+  attributes:
+    name: Encino
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-TORRANCE
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-ESPAAOLA
+  attributes:
+    name: EspaÃ±ola
+  references:
+    state: STATE-USA-NM
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-ESTANCIA
+  attributes:
+    name: Estancia
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-TORRANCE
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-EUNICE
+  attributes:
+    name: Eunice
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-LEA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-FARMINGTON
+  attributes:
+    name: Farmington
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SAN_JUAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-FLOYD
+  attributes:
+    name: Floyd
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-ROOSEVELT
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-FOLSOM
+  attributes:
+    name: Folsom
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-FORT_SUMNER
+  attributes:
+    name: Fort Sumner
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-DE_BACA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-GALLUP
+  attributes:
+    name: Gallup
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-MCKINLEY
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-GRADY
+  attributes:
+    name: Grady
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-CURRY
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-GRANTS
+  attributes:
+    name: Grants
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-CIBOLA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-GRENVILLE
+  attributes:
+    name: Grenville
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-UNION
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-HAGERMAN
+  attributes:
+    name: Hagerman
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-CHAVES
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-HATCH
+  attributes:
+    name: Hatch
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-DO_A_ANA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-HOBBS
+  attributes:
+    name: Hobbs
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-LEA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-HOPE
+  attributes:
+    name: Hope
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-EDDY
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-HOUSE
+  attributes:
+    name: House
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-QUAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-HURLEY
+  attributes:
+    name: Hurley
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-GRANT
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-JAL
+  attributes:
+    name: Jal
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-LEA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-JEMEZ_SPRINGS
+  attributes:
+    name: Jemez Springs
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SANDOVAL
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-KIRTLAND
+  attributes:
+    name: Kirtland
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SAN_JUAN
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-LAKE_ARTHUR
+  attributes:
+    name: Lake Arthur
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-CHAVES
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-LAS_CRUCES
+  attributes:
+    name: Las Cruces
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-DO_A_ANA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-LAS_VEGAS
+  attributes:
+    name: Las Vegas
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SAN_MIGUEL
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-LOGAN
+  attributes:
+    name: Logan
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-QUAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-LORDSBURG
+  attributes:
+    name: Lordsburg
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-HIDALGO
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-LOS_LUNAS
+  attributes:
+    name: Los Lunas
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-VALENCIA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-LOS_RANCHOS_DE_ALBUQUERQUE
+  attributes:
+    name: Los Ranchos de Albuquerque
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-BERNALILLO
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-LOVING
+  attributes:
+    name: Loving
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-EDDY
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-LOVINGTON
+  attributes:
+    name: Lovington
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-LEA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-MAGDALENA
+  attributes:
+    name: Magdalena
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SOCORRO
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-MAXWELL
+  attributes:
+    name: Maxwell
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-COLFAX
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-MELROSE
+  attributes:
+    name: Melrose
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-CURRY
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-MESILLA
+  attributes:
+    name: Mesilla
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-DO_A_ANA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-MILAN
+  attributes:
+    name: Milan
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-CIBOLA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-MORIARTY
+  attributes:
+    name: Moriarty
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-TORRANCE
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-MOSQUERO
+  attributes:
+    name: Mosquero
+  references:
+    state: STATE-USA-NM
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-MOUNTAINAIR
+  attributes:
+    name: Mountainair
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-TORRANCE
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-PECOS
+  attributes:
+    name: Pecos
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SAN_MIGUEL
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-PERALTA
+  attributes:
+    name: Peralta
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-VALENCIA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-PORTALES
+  attributes:
+    name: Portales
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-ROOSEVELT
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-QUESTA
+  attributes:
+    name: Questa
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-TAOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-RATON
+  attributes:
+    name: Raton
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-COLFAX
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-RED_RIVER
+  attributes:
+    name: Red River
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-TAOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-RESERVE
+  attributes:
+    name: Reserve
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-CATRON
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-RIO_COMMUNITIES
+  attributes:
+    name: Rio Communities
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-VALENCIA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-RIO_RANCHO
+  attributes:
+    name: Rio Rancho
+  references:
+    state: STATE-USA-NM
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-ROSWELL
+  attributes:
+    name: Roswell
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-CHAVES
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-ROY
+  attributes:
+    name: Roy
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-HARDING
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-RUIDOSO
+  attributes:
+    name: Ruidoso
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-RUIDOSO_DOWNS
+  attributes:
+    name: Ruidoso Downs
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-LINCOLN
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-SANTA_CLARA
+  attributes:
+    name: Santa Clara
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-GRANT
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-SANTA_FE
+  attributes:
+    name: Santa Fe
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SANTA_FE
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-SANTA_ROSA
+  attributes:
+    name: Santa Rosa
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-GUADALUPE
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-SAN_JON
+  attributes:
+    name: San Jon
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-QUAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-SAN_YSIDRO
+  attributes:
+    name: San Ysidro
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SANDOVAL
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-SILVER_CITY
+  attributes:
+    name: Silver City
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-GRANT
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-SOCORRO
+  attributes:
+    name: Socorro
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SOCORRO
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-SPRINGER
+  attributes:
+    name: Springer
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-COLFAX
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-SUNLAND_PARK
+  attributes:
+    name: Sunland Park
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-DO_A_ANA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-TAOS
+  attributes:
+    name: Taos
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-TAOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-TAOS_SKI_VALLEY
+  attributes:
+    name: Taos Ski Valley
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-TAOS
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-TATUM
+  attributes:
+    name: Tatum
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-LEA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-TEXICO
+  attributes:
+    name: Texico
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-CURRY
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-TIJERAS
+  attributes:
+    name: Tijeras
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-BERNALILLO
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-TRUTH_OR_CONSEQUENCES
+  attributes:
+    name: Truth or Consequences
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SIERRA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-TUCUMCARI
+  attributes:
+    name: Tucumcari
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-QUAY
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-TULAROSA
+  attributes:
+    name: Tularosa
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-OTERO
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-VAUGHN
+  attributes:
+    name: Vaughn
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-GUADALUPE
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-VIRDEN
+  attributes:
+    name: Virden
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-HIDALGO
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-WAGON_MOUND
+  attributes:
+    name: Wagon Mound
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-MORA
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-WILLARD
+  attributes:
+    name: Willard
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-TORRANCE
+- type: Municipality
+  code: MUNICIPALITY-USA-NM-WILLIAMSBURG
+  attributes:
+    name: Williamsburg
+  references:
+    state: STATE-USA-NM
+    county: COUNTY-USA-NM-SIERRA
