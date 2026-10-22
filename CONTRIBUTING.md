@@ -29,9 +29,47 @@ records:
 ```
 
 - **Refer to existing records by their codes.** Candidacies, races, people, and approaches already have codes in this repository; never use database IDs.
-- **Codes** are uppercase letters, digits, dashes, and underscores. The recipes are in `doc/entity_code_plan.md` and `doc/communications_plan.md` in the Ascent repository: for example `STANCE-{candidacy path}-{approach path}` and `COMMUNICATION-{channel path}-{date}-{slug}`.
+- **Codes** are uppercase letters, digits, dashes, and underscores. The recipes are in `doc/entity_code_plan.md` in the Ascent repository, for example `STANCE-{candidacy path}-{approach path}`; social media codes are below.
+- **A code is the record's identity.** Its entity URI is the code qualified by namespace and catalog, `MIC-ASC-{code}`. Two records with different codes are two records, however alike their names; if you need a second code for an existing record, list it under that record's `aliases`.
 - **Each piece of evidence is its own record**, so you can add evidence to an existing stance without redefining it.
 - **Allowed types, fields, and values** are listed in `schemas/asc.contract.json` and enforced by `schemas/v1/asc.schema.json`.
+
+## Candidates' social media accounts and posts
+
+Two types record what candidates, campaigns, and parties publish online: a **Channel** is one account on one platform, and a **Communication** is one thing published there. Ascent keeps links, platform IDs, dates, short summaries, and quotes, never the posts, images, or video themselves. `examples/candidate_social_media.yml` shows a complete fictional example; that folder is not imported.
+
+### Channel: one account
+
+| Field | Required | Meaning |
+|---|---|---|
+| `code` | yes | `CHANNEL-{PLATFORM}-{HANDLE}`, the handle in code form: `avery.example.com` on Bluesky is `CHANNEL-BLUESKY-AVERY_EXAMPLE_COM` |
+| `platform` | yes | `website`, `youtube`, `instagram`, `tiktok`, `x`, `bluesky`, `facebook`, `threads`, or `other` |
+| `handle` | yes | The handle as the platform shows it, without `@`; for a website, its host and any path |
+| `url` | no | The account's profile or home page |
+| `official` | no | `true` when the person, campaign, or party runs the account; `false`, the default, for supporters' and unofficial accounts |
+| `owner` | no | A reference to a `PERSON-…`, a `CANDIDACY-…` for one campaign's account, or a `PARTY-…` |
+
+A platform and handle name exactly one account. The importer refuses a second code for an account it already has; use the existing code or list yours under its `aliases`.
+
+### Communication: one post, video, or other publication
+
+| Field | Required | Meaning |
+|---|---|---|
+| `code` | yes | `COMMUNICATION-{channel path}-{YYYY_MM_DD}-{SLUG}`, where the channel path is the channel's code without `CHANNEL-`: `COMMUNICATION-BLUESKY-AVERY_EXAMPLE_COM-2026_10_02-TRANSIT_FUNDING` |
+| `kind` | yes | `post` for a social media post; also `video`, `ad`, `speech`, `debate`, `interview`, `platform`, `press_release`, `mailer`, or `other` |
+| `published_on` | yes | The date it was published, `YYYY-MM-DD` |
+| `url` | yes | Its permanent link. One URL is one communication |
+| `platform_id` | no | The platform's own ID for it, such as a YouTube video ID, an X post ID, an Instagram shortcode, or a Bluesky record key |
+| `archived_url` | no | An archived copy, such as a Wayback Machine link; expected whenever `availability` is `edited` or `removed` |
+| `availability` | no | `available` (the default), `edited`, or `removed` |
+| `title` | no | Its title, when it has one |
+| `summary` | no | A sentence or two in your own words |
+| `duration_seconds` | no | Length of a video or audio recording |
+| `language` | no | A language tag such as `en` or `es` |
+| `featured_candidacies` | no | Codes of the candidacies it features or promotes; later contributions can add more |
+| `channel` | no | A reference to the `CHANNEL-…` that published it |
+
+A quote from a communication belongs in a `StanceEvidence` record that links it to a stance, at most 300 characters.
 
 ## Sources and content
 
@@ -45,4 +83,4 @@ Validate each manifest against `schemas/v1/asc.schema.json` with any JSON Schema
 
 ## What happens on merge
 
-The importer creates records that don't exist yet, never overwrites a reviewed value, and reports any disagreement for a maintainer to resolve.
+The importer creates records that don't exist yet, never overwrites a reviewed value, and reports any disagreement for a maintainer to resolve. It recognizes an existing record by its code or a listed alias, never by its name.

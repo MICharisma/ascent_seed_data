@@ -212,6 +212,16 @@
             }
           ]
         },
+        "platform_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
         "published_on": {
           "type": "string",
           "format": "date"

@@ -1,0 +1,42 @@
+# A fictional candidate's accounts and one post, showing the social media contract in CONTRIBUTING.md.
+# This folder is outside manifests/, so nothing here is imported. example.com names no real person.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent maintainers
+  url: https://example.com/avery-example
+  captured_on: "2026-10-22"
+records:
+  - type: Person
+    code: PERSON-EXAMPLE_AVERY
+    attributes: {first_name: Avery, last_name: Example, username: example_avery}
+  - type: Channel
+    code: CHANNEL-BLUESKY-AVERY_EXAMPLE_COM
+    attributes:
+      platform: bluesky
+      handle: avery.example.com
+      url: https://bsky.app/profile/avery.example.com
+      official: true
+    references: {owner: PERSON-EXAMPLE_AVERY}
+  - type: Channel
+    code: CHANNEL-WEBSITE-AVERY_EXAMPLE_COM
+    attributes:
+      platform: website
+      handle: avery.example.com
+      url: https://avery.example.com
+      official: true
+    references: {owner: PERSON-EXAMPLE_AVERY}
+  - type: Communication
+    code: COMMUNICATION-BLUESKY-AVERY_EXAMPLE_COM-2026_10_02-TRANSIT_FUNDING
+    attributes:
+      kind: post
+      title: null
+      published_on: "2026-10-02"
+      url: https://bsky.app/profile/avery.example.com/post/3lexampletransit
+      platform_id: 3lexampletransit
+      archived_url: https://web.archive.org/web/20261002000000/https://bsky.app/profile/avery.example.com/post/3lexampletransit
+      availability: available
+      summary: Says the county should restore weekend bus service before widening roads.
+      language: en
+    references: {channel: CHANNEL-BLUESKY-AVERY_EXAMPLE_COM}
