@@ -1,0 +1,36 @@
+# Connecticut's towns by planning region, the county-equivalents the Census Bureau has used since 2022.
+# Connecticut has had no county government since 1960, and neither its eight historical counties nor these
+# regions hold elections; the regions are where its nine councils of governments work. When a state has this
+# file, the converter takes each town's county from it instead of the county a ballot row prints.
+# Codes match manifests/contributions/ascent-clerk/us_counties.yml.
+# Source: US Census Bureau, 2024 Gazetteer Files for Connecticut, retrieved 2026-10-21:
+#   https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_gaz_counties_09.txt
+#   https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2024_Gazetteer/2024_gaz_cousubs_09.txt
+counties:
+  - code: COUNTY-USA-CT-CAPITOL
+    name: Capitol Planning Region
+    towns: [Andover, Avon, Berlin, Bloomfield, Bolton, Canton, Columbia, Coventry, East Granby, East Hartford, East Windsor, Ellington, Enfield, Farmington, Glastonbury, Granby, Hartford, Hebron, Manchester, Mansfield, Marlborough, New Britain, Newington, Plainville, Rocky Hill, Simsbury, Somers, South Windsor, Southington, Stafford, Suffield, Tolland, Vernon, West Hartford, Wethersfield, Willington, Windsor, Windsor Locks]
+  - code: COUNTY-USA-CT-GREATER_BRIDGEPORT
+    name: Greater Bridgeport Planning Region
+    towns: [Bridgeport, Easton, Fairfield, Monroe, Stratford, Trumbull]
+  - code: COUNTY-USA-CT-LOWER_CONNECTICUT_RIVER_VALLEY
+    name: Lower Connecticut River Valley Planning Region
+    towns: [Chester, Clinton, Cromwell, Deep River, Durham, East Haddam, East Hampton, Essex, Haddam, Killingworth, Lyme, Middlefield, Middletown, Old Lyme, Old Saybrook, Portland, Westbrook]
+  - code: COUNTY-USA-CT-NAUGATUCK_VALLEY
+    name: Naugatuck Valley Planning Region
+    towns: [Ansonia, Beacon Falls, Bethlehem, Bristol, Cheshire, Derby, Middlebury, Naugatuck, Oxford, Plymouth, Prospect, Seymour, Shelton, Southbury, Thomaston, Waterbury, Watertown, Wolcott, Woodbury]
+  - code: COUNTY-USA-CT-NORTHEASTERN_CONNECTICUT
+    name: Northeastern Connecticut Planning Region
+    towns: [Ashford, Brooklyn, Canterbury, Chaplin, Eastford, Hampton, Killingly, Plainfield, Pomfret, Putnam, Scotland, Sterling, Thompson, Union, Voluntown, Woodstock]
+  - code: COUNTY-USA-CT-NORTHWEST_HILLS
+    name: Northwest Hills Planning Region
+    towns: [Barkhamsted, Burlington, Canaan, Colebrook, Cornwall, Goshen, Hartland, Harwinton, Kent, Litchfield, Morris, New Hartford, Norfolk, North Canaan, Roxbury, Salisbury, Sharon, Torrington, Warren, Washington, Winchester]
+  - code: COUNTY-USA-CT-SOUTH_CENTRAL_CONNECTICUT
+    name: South Central Connecticut Planning Region
+    towns: [Bethany, Branford, East Haven, Guilford, Hamden, Madison, Meriden, Milford, New Haven, North Branford, North Haven, Orange, Wallingford, West Haven, Woodbridge]
+  - code: COUNTY-USA-CT-SOUTHEASTERN_CONNECTICUT
+    name: Southeastern Connecticut Planning Region
+    towns: [Bozrah, Colchester, East Lyme, Franklin, Griswold, Groton, Lebanon, Ledyard, Lisbon, Montville, New London, North Stonington, Norwich, Preston, Salem, Sprague, Stonington, Waterford, Windham]
+  - code: COUNTY-USA-CT-WESTERN_CONNECTICUT
+    name: Western Connecticut Planning Region
+    towns: [Bethel, Bridgewater, Brookfield, Danbury, Darien, Greenwich, New Canaan, New Fairfield, New Milford, Newtown, Norwalk, Redding, Ridgefield, Sherman, Stamford, Weston, Westport, Wilton]

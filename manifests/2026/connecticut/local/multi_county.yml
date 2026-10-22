@@ -7,16 +7,28 @@ scope:
   state: STATE-USA-CT
 records:
 - type: Election
-  code: ELECTION-USA-CT-JUDGE_OF_PROBATE-GLASTONBURY_HEBRON-2026_GENERAL
+  code: ELECTION-USA-CT-JUDGE_OF_PROBATE-BURLINGTON_FARMINGTON_PLAINVILLE-2026_GENERAL
   attributes:
-    name: Connecticut Judge of Probate (Glastonbury, Hebron) General Election 2026
+    name: Connecticut Judge of Probate (Burlington, Farmington, Plainville) General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-GLASTONBURY_HEBRON
+    jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-BURLINGTON_FARMINGTON_PLAINVILLE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-CT-JUDGE_OF_PROBATE-CANAAN_CORNWALL_HARWINTON_KENT_LITCHFIELD_MORRIS_NORFOLK_NORTH_CANAAN_SALISBURY_SHARON_THOMASTON_WARREN-2026_GENERAL
+  attributes:
+    name: Connecticut Judge of Probate (Canaan, Cornwall, Harwinton, Kent, Litchfield, Morris, Norfolk, North Canaan, Salisbury, Sharon, Thomaston, Warren) General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-CANAAN_CORNWALL_HARWINTON_KENT_LITCHFIELD_MORRIS_NORFOLK_NORTH_CANAAN_SALISBURY_SHARON_THOMASTON_WARREN
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-CT-JUDGE_OF_PROBATE-ENFIELD_SOMERS_STAFFORD_UNION-2026_GENERAL
@@ -29,18 +41,6 @@ records:
     is_historical: false
   references:
     jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-ENFIELD_SOMERS_STAFFORD_UNION
-    year: YEAR-2026
-- type: Election
-  code: ELECTION-USA-CT-JUDGE_OF_PROBATE-ANDOVER_BOLTON_COLUMBIA_MANCHESTER-2026_GENERAL
-  attributes:
-    name: Connecticut Judge of Probate (Andover, Bolton, Columbia, Manchester) General Election 2026
-    kind: general
-    election_date: '2026-11-03'
-    status: upcoming
-    is_mock: false
-    is_historical: false
-  references:
-    jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-ANDOVER_BOLTON_COLUMBIA_MANCHESTER
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-CT-JUDGE_OF_PROBATE-EAST_HADDAM_EAST_HAMPTON_MARLBOROUGH_PORTLAND-2026_GENERAL
@@ -67,18 +67,6 @@ records:
     jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-CHESHIRE_SOUTHINGTON
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-CT-JUDGE_OF_PROBATE-BRISTOL_PLYMOUTH-2026_GENERAL
-  attributes:
-    name: Connecticut Judge of Probate (Bristol, Plymouth) General Election 2026
-    kind: general
-    election_date: '2026-11-03'
-    status: upcoming
-    is_mock: false
-    is_historical: false
-  references:
-    jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-BRISTOL_PLYMOUTH
-    year: YEAR-2026
-- type: Election
   code: ELECTION-USA-CT-JUDGE_OF_PROBATE-BETHLEHEM_OXFORD_ROXBURY_SOUTHBURY_WASHINGTON_WATERTOWN_WOODBURY-2026_GENERAL
   attributes:
     name: Connecticut Judge of Probate (Bethlehem, Oxford, Roxbury, Southbury, Washington, Watertown, Woodbury) General Election 2026
@@ -89,18 +77,6 @@ records:
     is_historical: false
   references:
     jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-BETHLEHEM_OXFORD_ROXBURY_SOUTHBURY_WASHINGTON_WATERTOWN_WOODBURY
-    year: YEAR-2026
-- type: Election
-  code: ELECTION-USA-CT-JUDGE_OF_PROBATE-BARKHAMSTED_COLEBROOK_GOSHEN_HARTLAND_NEW_HARTFORD_TORRINGTON_WINCHESTER-2026_GENERAL
-  attributes:
-    name: Connecticut Judge of Probate (Barkhamsted, Colebrook, Goshen, Hartland, New Hartford, Torrington, Winchester) General Election 2026
-    kind: general
-    election_date: '2026-11-03'
-    status: upcoming
-    is_mock: false
-    is_historical: false
-  references:
-    jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-BARKHAMSTED_COLEBROOK_GOSHEN_HARTLAND_NEW_HARTFORD_TORRINGTON_WINCHESTER
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-CT-JUDGE_OF_PROBATE-CHAPLIN_COLCHESTER_HAMPTON_LEBANON_SCOTLAND_WINDHAM-2026_GENERAL
@@ -115,57 +91,69 @@ records:
     jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-CHAPLIN_COLCHESTER_HAMPTON_LEBANON_SCOTLAND_WINDHAM
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-CT-JUDGE_OF_PROBATE-CHESTER_CLINTON_DEEP_RIVER_ESSEX_HADDAM_KILLINGWORTH_LYME_OLD_SAYBROOK_WESTBROOK-2026_GENERAL
+  code: ELECTION-USA-CT-JUDGE_OF_PROBATE-ANSONIA_DERBY_SEYMOUR_WOODBRIDGE-2026_GENERAL
   attributes:
-    name: Connecticut Judge of Probate (Chester, Clinton, Deep River, Essex, Haddam, Killingworth, Lyme, Old Saybrook, Westbrook) General Election 2026
+    name: Connecticut Judge of Probate (Ansonia, Derby, Seymour, Woodbridge) General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-CHESTER_CLINTON_DEEP_RIVER_ESSEX_HADDAM_KILLINGWORTH_LYME_OLD_SAYBROOK_WESTBROOK
+    jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-ANSONIA_DERBY_SEYMOUR_WOODBRIDGE
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-CT-JUDGE_OF_PROBATE-BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN-2026_GENERAL
+  code: ELECTION-USA-CT-JUDGE_OF_PROBATE-BOZRAH_FRANKLIN_GRISWOLD_LISBON_NORWICH_PRESTON_SPRAGUE_VOLUNTOWN-2026_GENERAL
   attributes:
-    name: Connecticut Judge of Probate (Bridgewater, Brookfield, New Fairfield, New Milford, Sherman) General Election 2026
+    name: Connecticut Judge of Probate (Bozrah, Franklin, Griswold, Lisbon, Norwich, Preston, Sprague, Voluntown) General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN
+    jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-BOZRAH_FRANKLIN_GRISWOLD_LISBON_NORWICH_PRESTON_SPRAGUE_VOLUNTOWN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-CT-JUDGE_OF_PROBATE-EAST_LYME_MONTVILLE_OLD_LYME_SALEM-2026_GENERAL
+  attributes:
+    name: Connecticut Judge of Probate (East Lyme, Montville, Old Lyme, Salem) General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-EAST_LYME_MONTVILLE_OLD_LYME_SALEM
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-CT-JUDGE_OF_PROBATE-GLASTONBURY_HEBRON-6
+    code: OFFICE-USA-CT-JUDGE_OF_PROBATE-BURLINGTON_FARMINGTON_PLAINVILLE-10
     attributes:
-      seat_code: '6'
+      seat_code: '10'
       is_active: true
     references:
       position: POSITION-JUDGE_OF_PROBATE
-      jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-GLASTONBURY_HEBRON
+      jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-BURLINGTON_FARMINGTON_PLAINVILLE
   - type: Race
-    code: RACE-USA-CT-JUDGE_OF_PROBATE-GLASTONBURY_HEBRON-6-2026_GENERAL
+    code: RACE-USA-CT-JUDGE_OF_PROBATE-BURLINGTON_FARMINGTON_PLAINVILLE-10-2026_GENERAL
     attributes:
       status: upcoming
-      description: 'Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
+      description: 'Vote for: 1. Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
     references:
-      election: ELECTION-USA-CT-JUDGE_OF_PROBATE-GLASTONBURY_HEBRON-2026_GENERAL
-      office: OFFICE-USA-CT-JUDGE_OF_PROBATE-GLASTONBURY_HEBRON-6
+      election: ELECTION-USA-CT-JUDGE_OF_PROBATE-BURLINGTON_FARMINGTON_PLAINVILLE-2026_GENERAL
+      office: OFFICE-USA-CT-JUDGE_OF_PROBATE-BURLINGTON_FARMINGTON_PLAINVILLE-10
   - type: Person
-    code: PERSON-PEOPLES_SEAN_CT_JUDGE_OF_PROBATE_GLASTONBURY_HEBRON_6
+    code: PERSON-BEDARD_PAUL_CT_JUDGE_OF_PROBATE_BURLINGTON_FARMINGTON_PLAINVILLE_10
     attributes:
-      username: peoples_sean_ct_judge_of_probate_glastonbury_hebron_6
+      username: bedard_paul_ct_judge_of_probate_burlington_farmington_plainville_10
       username_status: provisional
-      first_name: Sean
-      middle_name: Michael
-      last_name: Peoples
+      first_name: Paul
+      middle_name: R.
+      last_name: Bedard
   - type: Candidacy
-    code: CANDIDACY-USA-CT-JUDGE_OF_PROBATE-GLASTONBURY_HEBRON-6-2026_GENERAL-PEOPLES_SEAN_CT_JUDGE_OF_PROBATE_GLASTONBURY_HEBRON_6
+    code: CANDIDACY-USA-CT-JUDGE_OF_PROBATE-BURLINGTON_FARMINGTON_PLAINVILLE-10-2026_GENERAL-BEDARD_PAUL_CT_JUDGE_OF_PROBATE_BURLINGTON_FARMINGTON_PLAINVILLE_10
     attributes:
       status: active
       participation: active
@@ -174,8 +162,45 @@ groups:
         kind: party
         party: PARTY-USA-CT-DEMOCRATIC
     references:
-      race: RACE-USA-CT-JUDGE_OF_PROBATE-GLASTONBURY_HEBRON-6-2026_GENERAL
-      person: PERSON-PEOPLES_SEAN_CT_JUDGE_OF_PROBATE_GLASTONBURY_HEBRON_6
+      race: RACE-USA-CT-JUDGE_OF_PROBATE-BURLINGTON_FARMINGTON_PLAINVILLE-10-2026_GENERAL
+      person: PERSON-BEDARD_PAUL_CT_JUDGE_OF_PROBATE_BURLINGTON_FARMINGTON_PLAINVILLE_10
+- records:
+  - type: Office
+    code: OFFICE-USA-CT-JUDGE_OF_PROBATE-CANAAN_CORNWALL_HARWINTON_KENT_LITCHFIELD_MORRIS_NORFOLK_NORTH_CANAAN_SALISBURY_SHARON_THOMASTON_WARREN-24
+    attributes:
+      seat_code: '24'
+      is_active: true
+    references:
+      position: POSITION-JUDGE_OF_PROBATE
+      jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-CANAAN_CORNWALL_HARWINTON_KENT_LITCHFIELD_MORRIS_NORFOLK_NORTH_CANAAN_SALISBURY_SHARON_THOMASTON_WARREN
+  - type: Race
+    code: RACE-USA-CT-JUDGE_OF_PROBATE-CANAAN_CORNWALL_HARWINTON_KENT_LITCHFIELD_MORRIS_NORFOLK_NORTH_CANAAN_SALISBURY_SHARON_THOMASTON_WARREN-24-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
+    references:
+      election: ELECTION-USA-CT-JUDGE_OF_PROBATE-CANAAN_CORNWALL_HARWINTON_KENT_LITCHFIELD_MORRIS_NORFOLK_NORTH_CANAAN_SALISBURY_SHARON_THOMASTON_WARREN-2026_GENERAL
+      office: OFFICE-USA-CT-JUDGE_OF_PROBATE-CANAAN_CORNWALL_HARWINTON_KENT_LITCHFIELD_MORRIS_NORFOLK_NORTH_CANAAN_SALISBURY_SHARON_THOMASTON_WARREN-24
+  - type: Person
+    code: PERSON-RICHARDS_JORDAN_CT_JUDGE_OF_PROBATE_CANAAN_CORNWALL_HARWINTON_KENT_LITCHFIELD_MORRIS_NORFOLK_NORTH_CANAAN_SALISBURY_SHARON_THOMASTON_WARREN_24
+    attributes:
+      username: richards_jordan_ct_judge_of_probate_canaan_cornwall_harwinton_kent_litchfield_morris_norfolk_north_canaan_salisbury_sharon_thomaston_warren_24
+      username_status: provisional
+      first_name: Jordan
+      middle_name: M.
+      last_name: Richards
+  - type: Candidacy
+    code: CANDIDACY-USA-CT-JUDGE_OF_PROBATE-CANAAN_CORNWALL_HARWINTON_KENT_LITCHFIELD_MORRIS_NORFOLK_NORTH_CANAAN_SALISBURY_SHARON_THOMASTON_WARREN-24-2026_GENERAL-RICHARDS_JORDAN_CT_JUDGE_OF_PROBATE_CANAAN_CORNWALL_HARWINTON_KENT_LITCHFIELD_MORRIS_NORFOLK_NORTH_CANAAN_SALISBURY_SHARON_THOMASTON_WARREN_24
+    attributes:
+      status: active
+      participation: active
+      ballot_lines:
+      - label: Republican Party
+        kind: party
+        party: PARTY-USA-CT-REPUBLICAN
+    references:
+      race: RACE-USA-CT-JUDGE_OF_PROBATE-CANAAN_CORNWALL_HARWINTON_KENT_LITCHFIELD_MORRIS_NORFOLK_NORTH_CANAAN_SALISBURY_SHARON_THOMASTON_WARREN-24-2026_GENERAL
+      person: PERSON-RICHARDS_JORDAN_CT_JUDGE_OF_PROBATE_CANAAN_CORNWALL_HARWINTON_KENT_LITCHFIELD_MORRIS_NORFOLK_NORTH_CANAAN_SALISBURY_SHARON_THOMASTON_WARREN_24
 - records:
   - type: Office
     code: OFFICE-USA-CT-JUDGE_OF_PROBATE-ENFIELD_SOMERS_STAFFORD_UNION-11
@@ -212,43 +237,6 @@ groups:
     references:
       race: RACE-USA-CT-JUDGE_OF_PROBATE-ENFIELD_SOMERS_STAFFORD_UNION-11-2026_GENERAL
       person: PERSON-MCCAFFREY_CAROLYN_CT_JUDGE_OF_PROBATE_ENFIELD_SOMERS_STAFFORD_UNION_11
-- records:
-  - type: Office
-    code: OFFICE-USA-CT-JUDGE_OF_PROBATE-ANDOVER_BOLTON_COLUMBIA_MANCHESTER-13
-    attributes:
-      seat_code: '13'
-      is_active: true
-    references:
-      position: POSITION-JUDGE_OF_PROBATE
-      jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-ANDOVER_BOLTON_COLUMBIA_MANCHESTER
-  - type: Race
-    code: RACE-USA-CT-JUDGE_OF_PROBATE-ANDOVER_BOLTON_COLUMBIA_MANCHESTER-13-2026_GENERAL
-    attributes:
-      status: upcoming
-      description: 'Vote for: 1. Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
-    references:
-      election: ELECTION-USA-CT-JUDGE_OF_PROBATE-ANDOVER_BOLTON_COLUMBIA_MANCHESTER-2026_GENERAL
-      office: OFFICE-USA-CT-JUDGE_OF_PROBATE-ANDOVER_BOLTON_COLUMBIA_MANCHESTER-13
-  - type: Person
-    code: PERSON-ROBINSON_THOMAS_CT_JUDGE_OF_PROBATE_ANDOVER_BOLTON_COLUMBIA_MANCHESTER_13
-    attributes:
-      username: robinson_thomas_ct_judge_of_probate_andover_bolton_columbia_manchester_13
-      username_status: provisional
-      first_name: Thomas
-      middle_name: A.
-      last_name: Robinson
-  - type: Candidacy
-    code: CANDIDACY-USA-CT-JUDGE_OF_PROBATE-ANDOVER_BOLTON_COLUMBIA_MANCHESTER-13-2026_GENERAL-ROBINSON_THOMAS_CT_JUDGE_OF_PROBATE_ANDOVER_BOLTON_COLUMBIA_MANCHESTER_13
-    attributes:
-      status: active
-      participation: active
-      ballot_lines:
-      - label: Democratic Party
-        kind: party
-        party: PARTY-USA-CT-DEMOCRATIC
-    references:
-      race: RACE-USA-CT-JUDGE_OF_PROBATE-ANDOVER_BOLTON_COLUMBIA_MANCHESTER-13-2026_GENERAL
-      person: PERSON-ROBINSON_THOMAS_CT_JUDGE_OF_PROBATE_ANDOVER_BOLTON_COLUMBIA_MANCHESTER_13
 - records:
   - type: Office
     code: OFFICE-USA-CT-JUDGE_OF_PROBATE-EAST_HADDAM_EAST_HAMPTON_MARLBOROUGH_PORTLAND-14
@@ -327,42 +315,6 @@ groups:
       person: PERSON-JALOWIEC_MATT_CT_JUDGE_OF_PROBATE_CHESHIRE_SOUTHINGTON_18
 - records:
   - type: Office
-    code: OFFICE-USA-CT-JUDGE_OF_PROBATE-BRISTOL_PLYMOUTH-19
-    attributes:
-      seat_code: '19'
-      is_active: true
-    references:
-      position: POSITION-JUDGE_OF_PROBATE
-      jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-BRISTOL_PLYMOUTH
-  - type: Race
-    code: RACE-USA-CT-JUDGE_OF_PROBATE-BRISTOL_PLYMOUTH-19-2026_GENERAL
-    attributes:
-      status: upcoming
-      description: 'Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
-    references:
-      election: ELECTION-USA-CT-JUDGE_OF_PROBATE-BRISTOL_PLYMOUTH-2026_GENERAL
-      office: OFFICE-USA-CT-JUDGE_OF_PROBATE-BRISTOL_PLYMOUTH-19
-  - type: Person
-    code: PERSON-HAMZY_WILLIAM_CT_JUDGE_OF_PROBATE_BRISTOL_PLYMOUTH_19
-    attributes:
-      username: hamzy_william_ct_judge_of_probate_bristol_plymouth_19
-      username_status: provisional
-      first_name: William
-      last_name: Hamzy
-  - type: Candidacy
-    code: CANDIDACY-USA-CT-JUDGE_OF_PROBATE-BRISTOL_PLYMOUTH-19-2026_GENERAL-HAMZY_WILLIAM_CT_JUDGE_OF_PROBATE_BRISTOL_PLYMOUTH_19
-    attributes:
-      status: active
-      participation: active
-      ballot_lines:
-      - label: Republican Party
-        kind: party
-        party: PARTY-USA-CT-REPUBLICAN
-    references:
-      race: RACE-USA-CT-JUDGE_OF_PROBATE-BRISTOL_PLYMOUTH-19-2026_GENERAL
-      person: PERSON-HAMZY_WILLIAM_CT_JUDGE_OF_PROBATE_BRISTOL_PLYMOUTH_19
-- records:
-  - type: Office
     code: OFFICE-USA-CT-JUDGE_OF_PROBATE-BETHLEHEM_OXFORD_ROXBURY_SOUTHBURY_WASHINGTON_WATERTOWN_WOODBURY-22
     attributes:
       seat_code: '22'
@@ -397,42 +349,6 @@ groups:
     references:
       race: RACE-USA-CT-JUDGE_OF_PROBATE-BETHLEHEM_OXFORD_ROXBURY_SOUTHBURY_WASHINGTON_WATERTOWN_WOODBURY-22-2026_GENERAL
       person: PERSON-LABRIOLA_DAVID_CT_JUDGE_OF_PROBATE_BETHLEHEM_OXFORD_ROXBURY_SOUTHBURY_WASHINGTON_WATERTOWN_WOODBURY_22
-- records:
-  - type: Office
-    code: OFFICE-USA-CT-JUDGE_OF_PROBATE-BARKHAMSTED_COLEBROOK_GOSHEN_HARTLAND_NEW_HARTFORD_TORRINGTON_WINCHESTER-23
-    attributes:
-      seat_code: '23'
-      is_active: true
-    references:
-      position: POSITION-JUDGE_OF_PROBATE
-      jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-BARKHAMSTED_COLEBROOK_GOSHEN_HARTLAND_NEW_HARTFORD_TORRINGTON_WINCHESTER
-  - type: Race
-    code: RACE-USA-CT-JUDGE_OF_PROBATE-BARKHAMSTED_COLEBROOK_GOSHEN_HARTLAND_NEW_HARTFORD_TORRINGTON_WINCHESTER-23-2026_GENERAL
-    attributes:
-      status: upcoming
-      description: 'Vote for: 1. Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
-    references:
-      election: ELECTION-USA-CT-JUDGE_OF_PROBATE-BARKHAMSTED_COLEBROOK_GOSHEN_HARTLAND_NEW_HARTFORD_TORRINGTON_WINCHESTER-2026_GENERAL
-      office: OFFICE-USA-CT-JUDGE_OF_PROBATE-BARKHAMSTED_COLEBROOK_GOSHEN_HARTLAND_NEW_HARTFORD_TORRINGTON_WINCHESTER-23
-  - type: Person
-    code: PERSON-STECK_JAMES_CT_JUDGE_OF_PROBATE_BARKHAMSTED_COLEBROOK_GOSHEN_HARTLAND_NEW_HARTFORD_TORRINGTON_WINCHESTER_23
-    attributes:
-      username: steck_james_ct_judge_of_probate_barkhamsted_colebrook_goshen_hartland_new_hartford_torrington_winchester_23
-      username_status: provisional
-      first_name: James
-      last_name: Steck
-  - type: Candidacy
-    code: CANDIDACY-USA-CT-JUDGE_OF_PROBATE-BARKHAMSTED_COLEBROOK_GOSHEN_HARTLAND_NEW_HARTFORD_TORRINGTON_WINCHESTER-23-2026_GENERAL-STECK_JAMES_CT_JUDGE_OF_PROBATE_BARKHAMSTED_COLEBROOK_GOSHEN_HARTLAND_NEW_HARTFORD_TORRINGTON_WINCHESTER_23
-    attributes:
-      status: active
-      participation: active
-      ballot_lines:
-      - label: Republican Party
-        kind: party
-        party: PARTY-USA-CT-REPUBLICAN
-    references:
-      race: RACE-USA-CT-JUDGE_OF_PROBATE-BARKHAMSTED_COLEBROOK_GOSHEN_HARTLAND_NEW_HARTFORD_TORRINGTON_WINCHESTER-23-2026_GENERAL
-      person: PERSON-STECK_JAMES_CT_JUDGE_OF_PROBATE_BARKHAMSTED_COLEBROOK_GOSHEN_HARTLAND_NEW_HARTFORD_TORRINGTON_WINCHESTER_23
 - records:
   - type: Office
     code: OFFICE-USA-CT-JUDGE_OF_PROBATE-CHAPLIN_COLCHESTER_HAMPTON_LEBANON_SCOTLAND_WINDHAM-28
@@ -472,31 +388,31 @@ groups:
       person: PERSON-BAKER_GEORGE_CT_JUDGE_OF_PROBATE_CHAPLIN_COLCHESTER_HAMPTON_LEBANON_SCOTLAND_WINDHAM_28
 - records:
   - type: Office
-    code: OFFICE-USA-CT-JUDGE_OF_PROBATE-CHESTER_CLINTON_DEEP_RIVER_ESSEX_HADDAM_KILLINGWORTH_LYME_OLD_SAYBROOK_WESTBROOK-33
+    code: OFFICE-USA-CT-JUDGE_OF_PROBATE-ANSONIA_DERBY_SEYMOUR_WOODBRIDGE-41
     attributes:
-      seat_code: '33'
+      seat_code: '41'
       is_active: true
     references:
       position: POSITION-JUDGE_OF_PROBATE
-      jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-CHESTER_CLINTON_DEEP_RIVER_ESSEX_HADDAM_KILLINGWORTH_LYME_OLD_SAYBROOK_WESTBROOK
+      jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-ANSONIA_DERBY_SEYMOUR_WOODBRIDGE
   - type: Race
-    code: RACE-USA-CT-JUDGE_OF_PROBATE-CHESTER_CLINTON_DEEP_RIVER_ESSEX_HADDAM_KILLINGWORTH_LYME_OLD_SAYBROOK_WESTBROOK-33-2026_GENERAL
+    code: RACE-USA-CT-JUDGE_OF_PROBATE-ANSONIA_DERBY_SEYMOUR_WOODBRIDGE-41-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
     references:
-      election: ELECTION-USA-CT-JUDGE_OF_PROBATE-CHESTER_CLINTON_DEEP_RIVER_ESSEX_HADDAM_KILLINGWORTH_LYME_OLD_SAYBROOK_WESTBROOK-2026_GENERAL
-      office: OFFICE-USA-CT-JUDGE_OF_PROBATE-CHESTER_CLINTON_DEEP_RIVER_ESSEX_HADDAM_KILLINGWORTH_LYME_OLD_SAYBROOK_WESTBROOK-33
+      election: ELECTION-USA-CT-JUDGE_OF_PROBATE-ANSONIA_DERBY_SEYMOUR_WOODBRIDGE-2026_GENERAL
+      office: OFFICE-USA-CT-JUDGE_OF_PROBATE-ANSONIA_DERBY_SEYMOUR_WOODBRIDGE-41
   - type: Person
-    code: PERSON-LEWIS_JEANNINE_CT_JUDGE_OF_PROBATE_CHESTER_CLINTON_DEEP_RIVER_ESSEX_HADDAM_KILLINGWORTH_LYME_OLD_SAYBROOK_WESTBROOK_33
+    code: PERSON-HOYLE_CLIFFORD_CT_JUDGE_OF_PROBATE_ANSONIA_DERBY_SEYMOUR_WOODBRIDGE_41
     attributes:
-      username: lewis_jeannine_ct_judge_of_probate_chester_clinton_deep_river_essex_haddam_killingworth_lyme_old_saybrook_westbrook_33
+      username: hoyle_clifford_ct_judge_of_probate_ansonia_derby_seymour_woodbridge_41
       username_status: provisional
-      first_name: Jeannine
-      middle_name: M.
-      last_name: Lewis
+      first_name: Clifford
+      middle_name: P.
+      last_name: Hoyle
   - type: Candidacy
-    code: CANDIDACY-USA-CT-JUDGE_OF_PROBATE-CHESTER_CLINTON_DEEP_RIVER_ESSEX_HADDAM_KILLINGWORTH_LYME_OLD_SAYBROOK_WESTBROOK-33-2026_GENERAL-LEWIS_JEANNINE_CT_JUDGE_OF_PROBATE_CHESTER_CLINTON_DEEP_RIVER_ESSEX_HADDAM_KILLINGWORTH_LYME_OLD_SAYBROOK_WESTBROOK_33
+    code: CANDIDACY-USA-CT-JUDGE_OF_PROBATE-ANSONIA_DERBY_SEYMOUR_WOODBRIDGE-41-2026_GENERAL-HOYLE_CLIFFORD_CT_JUDGE_OF_PROBATE_ANSONIA_DERBY_SEYMOUR_WOODBRIDGE_41
     attributes:
       status: active
       participation: active
@@ -505,34 +421,34 @@ groups:
         kind: party
         party: PARTY-USA-CT-DEMOCRATIC
     references:
-      race: RACE-USA-CT-JUDGE_OF_PROBATE-CHESTER_CLINTON_DEEP_RIVER_ESSEX_HADDAM_KILLINGWORTH_LYME_OLD_SAYBROOK_WESTBROOK-33-2026_GENERAL
-      person: PERSON-LEWIS_JEANNINE_CT_JUDGE_OF_PROBATE_CHESTER_CLINTON_DEEP_RIVER_ESSEX_HADDAM_KILLINGWORTH_LYME_OLD_SAYBROOK_WESTBROOK_33
+      race: RACE-USA-CT-JUDGE_OF_PROBATE-ANSONIA_DERBY_SEYMOUR_WOODBRIDGE-41-2026_GENERAL
+      person: PERSON-HOYLE_CLIFFORD_CT_JUDGE_OF_PROBATE_ANSONIA_DERBY_SEYMOUR_WOODBRIDGE_41
 - records:
   - type: Office
-    code: OFFICE-USA-CT-JUDGE_OF_PROBATE-BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN-44
+    code: OFFICE-USA-CT-JUDGE_OF_PROBATE-BOZRAH_FRANKLIN_GRISWOLD_LISBON_NORWICH_PRESTON_SPRAGUE_VOLUNTOWN-29
     attributes:
-      seat_code: '44'
+      seat_code: '29'
       is_active: true
     references:
       position: POSITION-JUDGE_OF_PROBATE
-      jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN
+      jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-BOZRAH_FRANKLIN_GRISWOLD_LISBON_NORWICH_PRESTON_SPRAGUE_VOLUNTOWN
   - type: Race
-    code: RACE-USA-CT-JUDGE_OF_PROBATE-BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN-44-2026_GENERAL
+    code: RACE-USA-CT-JUDGE_OF_PROBATE-BOZRAH_FRANKLIN_GRISWOLD_LISBON_NORWICH_PRESTON_SPRAGUE_VOLUNTOWN-29-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
     references:
-      election: ELECTION-USA-CT-JUDGE_OF_PROBATE-BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN-2026_GENERAL
-      office: OFFICE-USA-CT-JUDGE_OF_PROBATE-BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN-44
+      election: ELECTION-USA-CT-JUDGE_OF_PROBATE-BOZRAH_FRANKLIN_GRISWOLD_LISBON_NORWICH_PRESTON_SPRAGUE_VOLUNTOWN-2026_GENERAL
+      office: OFFICE-USA-CT-JUDGE_OF_PROBATE-BOZRAH_FRANKLIN_GRISWOLD_LISBON_NORWICH_PRESTON_SPRAGUE_VOLUNTOWN-29
   - type: Person
-    code: PERSON-MANN_ROBIN_CT_JUDGE_OF_PROBATE_BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN_44
+    code: PERSON-NORRIS_CHUCK_CT_JUDGE_OF_PROBATE_BOZRAH_FRANKLIN_GRISWOLD_LISBON_NORWICH_PRESTON_SPRAGUE_VOLUNTOWN_29
     attributes:
-      username: mann_robin_ct_judge_of_probate_bridgewater_brookfield_new_fairfield_new_milford_sherman_44
+      username: norris_chuck_ct_judge_of_probate_bozrah_franklin_griswold_lisbon_norwich_preston_sprague_voluntown_29
       username_status: provisional
-      first_name: Robin
-      last_name: Mann
+      first_name: Chuck
+      last_name: Norris
   - type: Candidacy
-    code: CANDIDACY-USA-CT-JUDGE_OF_PROBATE-BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN-44-2026_GENERAL-MANN_ROBIN_CT_JUDGE_OF_PROBATE_BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN_44
+    code: CANDIDACY-USA-CT-JUDGE_OF_PROBATE-BOZRAH_FRANKLIN_GRISWOLD_LISBON_NORWICH_PRESTON_SPRAGUE_VOLUNTOWN-29-2026_GENERAL-NORRIS_CHUCK_CT_JUDGE_OF_PROBATE_BOZRAH_FRANKLIN_GRISWOLD_LISBON_NORWICH_PRESTON_SPRAGUE_VOLUNTOWN_29
     attributes:
       status: active
       participation: active
@@ -540,25 +456,49 @@ groups:
       - label: Democratic Party
         kind: party
         party: PARTY-USA-CT-DEMOCRATIC
-    references:
-      race: RACE-USA-CT-JUDGE_OF_PROBATE-BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN-44-2026_GENERAL
-      person: PERSON-MANN_ROBIN_CT_JUDGE_OF_PROBATE_BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN_44
-  - type: Person
-    code: PERSON-LANDGREBE_MARTY_CT_JUDGE_OF_PROBATE_BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN_44
-    attributes:
-      username: landgrebe_marty_ct_judge_of_probate_bridgewater_brookfield_new_fairfield_new_milford_sherman_44
-      username_status: provisional
-      first_name: Marty
-      last_name: Landgrebe
-  - type: Candidacy
-    code: CANDIDACY-USA-CT-JUDGE_OF_PROBATE-BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN-44-2026_GENERAL-LANDGREBE_MARTY_CT_JUDGE_OF_PROBATE_BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN_44
-    attributes:
-      status: active
-      participation: active
-      ballot_lines:
       - label: Republican Party
         kind: party
         party: PARTY-USA-CT-REPUBLICAN
     references:
-      race: RACE-USA-CT-JUDGE_OF_PROBATE-BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN-44-2026_GENERAL
-      person: PERSON-LANDGREBE_MARTY_CT_JUDGE_OF_PROBATE_BRIDGEWATER_BROOKFIELD_NEW_FAIRFIELD_NEW_MILFORD_SHERMAN_44
+      race: RACE-USA-CT-JUDGE_OF_PROBATE-BOZRAH_FRANKLIN_GRISWOLD_LISBON_NORWICH_PRESTON_SPRAGUE_VOLUNTOWN-29-2026_GENERAL
+      person: PERSON-NORRIS_CHUCK_CT_JUDGE_OF_PROBATE_BOZRAH_FRANKLIN_GRISWOLD_LISBON_NORWICH_PRESTON_SPRAGUE_VOLUNTOWN_29
+- records:
+  - type: Office
+    code: OFFICE-USA-CT-JUDGE_OF_PROBATE-EAST_LYME_MONTVILLE_OLD_LYME_SALEM-32
+    attributes:
+      seat_code: '32'
+      is_active: true
+    references:
+      position: POSITION-JUDGE_OF_PROBATE
+      jurisdiction: DISTRICT-USA-CT-JUDGE_OF_PROBATE-EAST_LYME_MONTVILLE_OLD_LYME_SALEM
+  - type: Race
+    code: RACE-USA-CT-JUDGE_OF_PROBATE-EAST_LYME_MONTVILLE_OLD_LYME_SALEM-32-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
+    references:
+      election: ELECTION-USA-CT-JUDGE_OF_PROBATE-EAST_LYME_MONTVILLE_OLD_LYME_SALEM-2026_GENERAL
+      office: OFFICE-USA-CT-JUDGE_OF_PROBATE-EAST_LYME_MONTVILLE_OLD_LYME_SALEM-32
+  - type: Person
+    code: PERSON-MCNAMARA_LAUREN_CT_JUDGE_OF_PROBATE_EAST_LYME_MONTVILLE_OLD_LYME_SALEM_32
+    attributes:
+      username: mcnamara_lauren_ct_judge_of_probate_east_lyme_montville_old_lyme_salem_32
+      username_status: provisional
+      first_name: Lauren
+      middle_name: M.
+      last_name: McNamara
+  - type: Candidacy
+    code: CANDIDACY-USA-CT-JUDGE_OF_PROBATE-EAST_LYME_MONTVILLE_OLD_LYME_SALEM-32-2026_GENERAL-MCNAMARA_LAUREN_CT_JUDGE_OF_PROBATE_EAST_LYME_MONTVILLE_OLD_LYME_SALEM_32
+    attributes:
+      status: active
+      participation: active
+      ballot_lines:
+      - label: Democratic Party
+        kind: party
+        party: PARTY-USA-CT-DEMOCRATIC
+      - label: Republican Party
+        kind: party
+        party: PARTY-USA-CT-REPUBLICAN
+    references:
+      race: RACE-USA-CT-JUDGE_OF_PROBATE-EAST_LYME_MONTVILLE_OLD_LYME_SALEM-32-2026_GENERAL
+      person: PERSON-MCNAMARA_LAUREN_CT_JUDGE_OF_PROBATE_EAST_LYME_MONTVILLE_OLD_LYME_SALEM_32
