@@ -1,0 +1,2556 @@
+# 2026 statewide (non-federal, non-gubernatorial) executive offices up in 2026 for the 45 states not converted in races/ (FL, CT, MA, NY, VA excluded).
+# Governor races excluded: covered by races/2026/governor/*.yml. Judicial seats, PSC/PUC seats not on Green Papers pages, and DC Mayor are not included (see Linear).
+# No candidates, party, incumbency or winners.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.thegreenpapers.com/G26/
+  captured_on: '2026-10-21'
+records:
+- type: Position
+  code: POSITION-AUDITOR_AND_INSPECTOR
+  attributes:
+    title: Auditor and Inspector
+    branch: executive
+- type: Position
+  code: POSITION-AUDITOR_OF_ACCOUNTS
+  attributes:
+    title: Auditor of Accounts
+    branch: executive
+- type: Position
+  code: POSITION-AUDITOR_OF_PUBLIC_ACCOUNTS
+  attributes:
+    title: Auditor of Public Accounts
+    branch: executive
+- type: Position
+  code: POSITION-COMMISSIONER_OF_AGRICULTURE_AND_INDUSTRIES
+  attributes:
+    title: Commissioner of Agriculture and Industries
+    branch: executive
+- type: Position
+  code: POSITION-COMMISSIONER_OF_GENERAL_LAND_OFFICE
+  attributes:
+    title: Commissioner of General Land Office
+    branch: executive
+- type: Position
+  code: POSITION-COMMISSIONER_OF_INSURANCE
+  attributes:
+    title: Commissioner of Insurance
+    branch: executive
+- type: Position
+  code: POSITION-COMMISSIONER_OF_LABOR
+  attributes:
+    title: Commissioner of Labor
+    branch: executive
+- type: Position
+  code: POSITION-COMMISSIONER_OF_LABOR_AND_INDUSTRIES
+  attributes:
+    title: Commissioner of Labor and Industries
+    branch: executive
+- type: Position
+  code: POSITION-COMMISSIONER_OF_PUBLIC_LANDS
+  attributes:
+    title: Commissioner of Public Lands
+    branch: executive
+- type: Position
+  code: POSITION-COMMISSIONER_OF_SCHOOL_AND_PUBLIC_LANDS
+  attributes:
+    title: Commissioner of School and Public Lands
+    branch: executive
+- type: Position
+  code: POSITION-COMMISSIONER_OF_STATE_LANDS
+  attributes:
+    title: Commissioner of State Lands
+    branch: executive
+- type: Position
+  code: POSITION-COMPTROLLER_GENERAL
+  attributes:
+    title: Comptroller General
+    branch: executive
+- type: Position
+  code: POSITION-COMPTROLLER_OF_PUBLIC_ACCOUNTS
+  attributes:
+    title: Comptroller of Public Accounts
+    branch: executive
+- type: Position
+  code: POSITION-CONTROLLER
+  attributes:
+    title: Controller
+    branch: executive
+- type: Position
+  code: POSITION-CORPORATION_COMMISSIONER
+  attributes:
+    title: Corporation Commissioner
+    branch: executive
+- type: Position
+  code: POSITION-GENERAL_TREASURER
+  attributes:
+    title: General Treasurer
+    branch: executive
+- type: Position
+  code: POSITION-INSURANCE_COMMISSIONER
+  attributes:
+    title: Insurance Commissioner
+    branch: executive
+- type: Position
+  code: POSITION-MINE_INSPECTOR
+  attributes:
+    title: Mine Inspector
+    branch: executive
+- type: Position
+  code: POSITION-PUBLIC_SERVICE_COMMISSIONER
+  attributes:
+    title: Public Service Commissioner
+    branch: executive
+- type: Position
+  code: POSITION-RAILROAD_COMMISSIONER
+  attributes:
+    title: Railroad Commissioner
+    branch: executive
+- type: Position
+  code: POSITION-SECRETARY_OF_AGRICULTURE_AND_LAND_STEWARDSHIP
+  attributes:
+    title: Secretary of Agriculture and Land Stewardship
+    branch: executive
+- type: Position
+  code: POSITION-SUPERINTENDENT_OF_EDUCATION
+  attributes:
+    title: Superintendent of Education
+    branch: executive
+- type: Position
+  code: POSITION-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+  attributes:
+    title: Superintendent of Public Instruction
+    branch: executive
+- type: Position
+  code: POSITION-TAX_COMMISSIONER
+  attributes:
+    title: Tax Commissioner
+    branch: executive
+groups:
+- records:
+  - type: Office
+    code: OFFICE-USA-AK-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-AK
+  - type: Race
+    code: RACE-USA-AK-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AK ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AK-2026_GENERAL
+      office: OFFICE-USA-AK-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-AL-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-AL
+  - type: Race
+    code: RACE-USA-AL-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AL ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AL-2026_GENERAL
+      office: OFFICE-USA-AL-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-AL-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-AL
+  - type: Race
+    code: RACE-USA-AL-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AL ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AL-2026_GENERAL
+      office: OFFICE-USA-AL-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-AL-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-AL
+  - type: Race
+    code: RACE-USA-AL-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AL ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AL-2026_GENERAL
+      office: OFFICE-USA-AL-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-AL-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-AL
+  - type: Race
+    code: RACE-USA-AL-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AL ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AL-2026_GENERAL
+      office: OFFICE-USA-AL-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-AL-AUDITOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-AUDITOR
+      jurisdiction: STATE-USA-AL
+  - type: Race
+    code: RACE-USA-AL-AUDITOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AL ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AL-2026_GENERAL
+      office: OFFICE-USA-AL-AUDITOR
+- records:
+  - type: Office
+    code: OFFICE-USA-AL-COMMISSIONER_OF_AGRICULTURE_AND_INDUSTRIES
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMMISSIONER_OF_AGRICULTURE_AND_INDUSTRIES
+      jurisdiction: STATE-USA-AL
+  - type: Race
+    code: RACE-USA-AL-COMMISSIONER_OF_AGRICULTURE_AND_INDUSTRIES-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AL ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AL-2026_GENERAL
+      office: OFFICE-USA-AL-COMMISSIONER_OF_AGRICULTURE_AND_INDUSTRIES
+- records:
+  - type: Office
+    code: OFFICE-USA-AR-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-AR
+  - type: Race
+    code: RACE-USA-AR-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AR ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AR-2026_GENERAL
+      office: OFFICE-USA-AR-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-AR-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-AR
+  - type: Race
+    code: RACE-USA-AR-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AR ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AR-2026_GENERAL
+      office: OFFICE-USA-AR-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-AR-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-AR
+  - type: Race
+    code: RACE-USA-AR-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AR ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AR-2026_GENERAL
+      office: OFFICE-USA-AR-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-AR-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-AR
+  - type: Race
+    code: RACE-USA-AR-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AR ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AR-2026_GENERAL
+      office: OFFICE-USA-AR-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-AR-AUDITOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-AUDITOR
+      jurisdiction: STATE-USA-AR
+  - type: Race
+    code: RACE-USA-AR-AUDITOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AR ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AR-2026_GENERAL
+      office: OFFICE-USA-AR-AUDITOR
+- records:
+  - type: Office
+    code: OFFICE-USA-AR-COMMISSIONER_OF_STATE_LANDS
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMMISSIONER_OF_STATE_LANDS
+      jurisdiction: STATE-USA-AR
+  - type: Race
+    code: RACE-USA-AR-COMMISSIONER_OF_STATE_LANDS-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AR ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AR-2026_GENERAL
+      office: OFFICE-USA-AR-COMMISSIONER_OF_STATE_LANDS
+- records:
+  - type: Office
+    code: OFFICE-USA-AZ-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-AZ
+  - type: Race
+    code: RACE-USA-AZ-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AZ ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AZ-2026_GENERAL
+      office: OFFICE-USA-AZ-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-AZ-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-AZ
+  - type: Race
+    code: RACE-USA-AZ-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AZ ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AZ-2026_GENERAL
+      office: OFFICE-USA-AZ-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-AZ-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-AZ
+  - type: Race
+    code: RACE-USA-AZ-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AZ ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AZ-2026_GENERAL
+      office: OFFICE-USA-AZ-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-AZ-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-AZ
+  - type: Race
+    code: RACE-USA-AZ-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AZ ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AZ-2026_GENERAL
+      office: OFFICE-USA-AZ-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-AZ-MINE_INSPECTOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-MINE_INSPECTOR
+      jurisdiction: STATE-USA-AZ
+  - type: Race
+    code: RACE-USA-AZ-MINE_INSPECTOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AZ ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AZ-2026_GENERAL
+      office: OFFICE-USA-AZ-MINE_INSPECTOR
+- records:
+  - type: Office
+    code: OFFICE-USA-AZ-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+      jurisdiction: STATE-USA-AZ
+  - type: Race
+    code: RACE-USA-AZ-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/AZ ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-AZ-2026_GENERAL
+      office: OFFICE-USA-AZ-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+- records:
+  - type: Office
+    code: OFFICE-USA-CA-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-CA
+  - type: Race
+    code: RACE-USA-CA-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/CA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-CA-2026_GENERAL
+      office: OFFICE-USA-CA-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-CA-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-CA
+  - type: Race
+    code: RACE-USA-CA-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/CA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-CA-2026_GENERAL
+      office: OFFICE-USA-CA-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-CA-CONTROLLER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-CONTROLLER
+      jurisdiction: STATE-USA-CA
+  - type: Race
+    code: RACE-USA-CA-CONTROLLER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/CA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-CA-2026_GENERAL
+      office: OFFICE-USA-CA-CONTROLLER
+- records:
+  - type: Office
+    code: OFFICE-USA-CA-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-CA
+  - type: Race
+    code: RACE-USA-CA-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/CA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-CA-2026_GENERAL
+      office: OFFICE-USA-CA-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-CA-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-CA
+  - type: Race
+    code: RACE-USA-CA-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/CA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-CA-2026_GENERAL
+      office: OFFICE-USA-CA-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-CA-INSURANCE_COMMISSIONER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-INSURANCE_COMMISSIONER
+      jurisdiction: STATE-USA-CA
+  - type: Race
+    code: RACE-USA-CA-INSURANCE_COMMISSIONER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/CA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-CA-2026_GENERAL
+      office: OFFICE-USA-CA-INSURANCE_COMMISSIONER
+- records:
+  - type: Office
+    code: OFFICE-USA-CA-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+      jurisdiction: STATE-USA-CA
+  - type: Race
+    code: RACE-USA-CA-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/CA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-CA-2026_GENERAL
+      office: OFFICE-USA-CA-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+- records:
+  - type: Office
+    code: OFFICE-USA-CO-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-CO
+  - type: Race
+    code: RACE-USA-CO-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/CO ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-CO-2026_GENERAL
+      office: OFFICE-USA-CO-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-CO-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-CO
+  - type: Race
+    code: RACE-USA-CO-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/CO ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-CO-2026_GENERAL
+      office: OFFICE-USA-CO-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-CO-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-CO
+  - type: Race
+    code: RACE-USA-CO-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/CO ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-CO-2026_GENERAL
+      office: OFFICE-USA-CO-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-CO-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-CO
+  - type: Race
+    code: RACE-USA-CO-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/CO ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-CO-2026_GENERAL
+      office: OFFICE-USA-CO-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-DE-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-DE
+  - type: Race
+    code: RACE-USA-DE-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/DE ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-DE-2026_GENERAL
+      office: OFFICE-USA-DE-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-DE-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-DE
+  - type: Race
+    code: RACE-USA-DE-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/DE ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-DE-2026_GENERAL
+      office: OFFICE-USA-DE-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-DE-AUDITOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-AUDITOR
+      jurisdiction: STATE-USA-DE
+  - type: Race
+    code: RACE-USA-DE-AUDITOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/DE ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-DE-2026_GENERAL
+      office: OFFICE-USA-DE-AUDITOR
+- records:
+  - type: Office
+    code: OFFICE-USA-GA-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-GA
+  - type: Race
+    code: RACE-USA-GA-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/GA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-GA-2026_GENERAL
+      office: OFFICE-USA-GA-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-GA-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-GA
+  - type: Race
+    code: RACE-USA-GA-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/GA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-GA-2026_GENERAL
+      office: OFFICE-USA-GA-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-GA-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-GA
+  - type: Race
+    code: RACE-USA-GA-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/GA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-GA-2026_GENERAL
+      office: OFFICE-USA-GA-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-GA-COMMISSIONER_OF_INSURANCE
+    attributes:
+      is_active: true
+      notes: Green Papers lists as "Comptroller General/Commissioner of Insurance".
+    references:
+      position: POSITION-COMMISSIONER_OF_INSURANCE
+      jurisdiction: STATE-USA-GA
+  - type: Race
+    code: RACE-USA-GA-COMMISSIONER_OF_INSURANCE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Green Papers lists as "Comptroller General/Commissioner of Insurance". Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/GA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-GA-2026_GENERAL
+      office: OFFICE-USA-GA-COMMISSIONER_OF_INSURANCE
+- records:
+  - type: Office
+    code: OFFICE-USA-GA-COMMISSIONER_OF_AGRICULTURE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMMISSIONER_OF_AGRICULTURE
+      jurisdiction: STATE-USA-GA
+  - type: Race
+    code: RACE-USA-GA-COMMISSIONER_OF_AGRICULTURE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/GA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-GA-2026_GENERAL
+      office: OFFICE-USA-GA-COMMISSIONER_OF_AGRICULTURE
+- records:
+  - type: Office
+    code: OFFICE-USA-GA-SUPERINTENDENT_OF_EDUCATION
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SUPERINTENDENT_OF_EDUCATION
+      jurisdiction: STATE-USA-GA
+  - type: Race
+    code: RACE-USA-GA-SUPERINTENDENT_OF_EDUCATION-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/GA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-GA-2026_GENERAL
+      office: OFFICE-USA-GA-SUPERINTENDENT_OF_EDUCATION
+- records:
+  - type: Office
+    code: OFFICE-USA-GA-COMMISSIONER_OF_LABOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMMISSIONER_OF_LABOR
+      jurisdiction: STATE-USA-GA
+  - type: Race
+    code: RACE-USA-GA-COMMISSIONER_OF_LABOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/GA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-GA-2026_GENERAL
+      office: OFFICE-USA-GA-COMMISSIONER_OF_LABOR
+- records:
+  - type: Office
+    code: OFFICE-USA-HI-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-HI
+  - type: Race
+    code: RACE-USA-HI-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/HI ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-HI-2026_GENERAL
+      office: OFFICE-USA-HI-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-IA-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-IA
+  - type: Race
+    code: RACE-USA-IA-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/IA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-IA-2026_GENERAL
+      office: OFFICE-USA-IA-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-IA-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-IA
+  - type: Race
+    code: RACE-USA-IA-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/IA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-IA-2026_GENERAL
+      office: OFFICE-USA-IA-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-IA-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-IA
+  - type: Race
+    code: RACE-USA-IA-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/IA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-IA-2026_GENERAL
+      office: OFFICE-USA-IA-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-IA-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-IA
+  - type: Race
+    code: RACE-USA-IA-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/IA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-IA-2026_GENERAL
+      office: OFFICE-USA-IA-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-IA-AUDITOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-AUDITOR
+      jurisdiction: STATE-USA-IA
+  - type: Race
+    code: RACE-USA-IA-AUDITOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/IA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-IA-2026_GENERAL
+      office: OFFICE-USA-IA-AUDITOR
+- records:
+  - type: Office
+    code: OFFICE-USA-IA-SECRETARY_OF_AGRICULTURE_AND_LAND_STEWARDSHIP
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_AGRICULTURE_AND_LAND_STEWARDSHIP
+      jurisdiction: STATE-USA-IA
+  - type: Race
+    code: RACE-USA-IA-SECRETARY_OF_AGRICULTURE_AND_LAND_STEWARDSHIP-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/IA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-IA-2026_GENERAL
+      office: OFFICE-USA-IA-SECRETARY_OF_AGRICULTURE_AND_LAND_STEWARDSHIP
+- records:
+  - type: Office
+    code: OFFICE-USA-ID-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-ID
+  - type: Race
+    code: RACE-USA-ID-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/ID ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-ID-2026_GENERAL
+      office: OFFICE-USA-ID-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-ID-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-ID
+  - type: Race
+    code: RACE-USA-ID-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/ID ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-ID-2026_GENERAL
+      office: OFFICE-USA-ID-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-ID-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-ID
+  - type: Race
+    code: RACE-USA-ID-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/ID ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-ID-2026_GENERAL
+      office: OFFICE-USA-ID-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-ID-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-ID
+  - type: Race
+    code: RACE-USA-ID-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/ID ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-ID-2026_GENERAL
+      office: OFFICE-USA-ID-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-ID-CONTROLLER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-CONTROLLER
+      jurisdiction: STATE-USA-ID
+  - type: Race
+    code: RACE-USA-ID-CONTROLLER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/ID ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-ID-2026_GENERAL
+      office: OFFICE-USA-ID-CONTROLLER
+- records:
+  - type: Office
+    code: OFFICE-USA-ID-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+      jurisdiction: STATE-USA-ID
+  - type: Race
+    code: RACE-USA-ID-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/ID ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-ID-2026_GENERAL
+      office: OFFICE-USA-ID-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+- records:
+  - type: Office
+    code: OFFICE-USA-IL-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-IL
+  - type: Race
+    code: RACE-USA-IL-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/IL ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-IL-2026_GENERAL
+      office: OFFICE-USA-IL-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-IL-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-IL
+  - type: Race
+    code: RACE-USA-IL-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/IL ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-IL-2026_GENERAL
+      office: OFFICE-USA-IL-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-IL-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-IL
+  - type: Race
+    code: RACE-USA-IL-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/IL ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-IL-2026_GENERAL
+      office: OFFICE-USA-IL-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-IL-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-IL
+  - type: Race
+    code: RACE-USA-IL-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/IL ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-IL-2026_GENERAL
+      office: OFFICE-USA-IL-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-IL-COMPTROLLER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMPTROLLER
+      jurisdiction: STATE-USA-IL
+  - type: Race
+    code: RACE-USA-IL-COMPTROLLER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/IL ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-IL-2026_GENERAL
+      office: OFFICE-USA-IL-COMPTROLLER
+- records:
+  - type: Office
+    code: OFFICE-USA-IN-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-IN
+  - type: Race
+    code: RACE-USA-IN-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/IN ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-IN-2026_GENERAL
+      office: OFFICE-USA-IN-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-IN-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-IN
+  - type: Race
+    code: RACE-USA-IN-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/IN ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-IN-2026_GENERAL
+      office: OFFICE-USA-IN-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-IN-COMPTROLLER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMPTROLLER
+      jurisdiction: STATE-USA-IN
+  - type: Race
+    code: RACE-USA-IN-COMPTROLLER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/IN ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-IN-2026_GENERAL
+      office: OFFICE-USA-IN-COMPTROLLER
+- records:
+  - type: Office
+    code: OFFICE-USA-KS-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-KS
+  - type: Race
+    code: RACE-USA-KS-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/KS ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-KS-2026_GENERAL
+      office: OFFICE-USA-KS-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-KS-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-KS
+  - type: Race
+    code: RACE-USA-KS-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/KS ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-KS-2026_GENERAL
+      office: OFFICE-USA-KS-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-KS-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-KS
+  - type: Race
+    code: RACE-USA-KS-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/KS ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-KS-2026_GENERAL
+      office: OFFICE-USA-KS-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-KS-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-KS
+  - type: Race
+    code: RACE-USA-KS-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/KS ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-KS-2026_GENERAL
+      office: OFFICE-USA-KS-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-KS-COMMISSIONER_OF_INSURANCE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMMISSIONER_OF_INSURANCE
+      jurisdiction: STATE-USA-KS
+  - type: Race
+    code: RACE-USA-KS-COMMISSIONER_OF_INSURANCE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/KS ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-KS-2026_GENERAL
+      office: OFFICE-USA-KS-COMMISSIONER_OF_INSURANCE
+- records:
+  - type: Office
+    code: OFFICE-USA-MD-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-MD
+  - type: Race
+    code: RACE-USA-MD-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/MD ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-MD-2026_GENERAL
+      office: OFFICE-USA-MD-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-MD-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-MD
+  - type: Race
+    code: RACE-USA-MD-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/MD ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-MD-2026_GENERAL
+      office: OFFICE-USA-MD-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-MD-COMPTROLLER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMPTROLLER
+      jurisdiction: STATE-USA-MD
+  - type: Race
+    code: RACE-USA-MD-COMPTROLLER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/MD ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-MD-2026_GENERAL
+      office: OFFICE-USA-MD-COMPTROLLER
+- records:
+  - type: Office
+    code: OFFICE-USA-MI-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-MI
+  - type: Race
+    code: RACE-USA-MI-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/MI ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-MI-2026_GENERAL
+      office: OFFICE-USA-MI-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-MI-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-MI
+  - type: Race
+    code: RACE-USA-MI-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/MI ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-MI-2026_GENERAL
+      office: OFFICE-USA-MI-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-MI-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-MI
+  - type: Race
+    code: RACE-USA-MI-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/MI ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-MI-2026_GENERAL
+      office: OFFICE-USA-MI-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-MN-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-MN
+  - type: Race
+    code: RACE-USA-MN-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/MN ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-MN-2026_GENERAL
+      office: OFFICE-USA-MN-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-MN-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-MN
+  - type: Race
+    code: RACE-USA-MN-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/MN ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-MN-2026_GENERAL
+      office: OFFICE-USA-MN-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-MN-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-MN
+  - type: Race
+    code: RACE-USA-MN-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/MN ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-MN-2026_GENERAL
+      office: OFFICE-USA-MN-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-MN-AUDITOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-AUDITOR
+      jurisdiction: STATE-USA-MN
+  - type: Race
+    code: RACE-USA-MN-AUDITOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/MN ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-MN-2026_GENERAL
+      office: OFFICE-USA-MN-AUDITOR
+- records:
+  - type: Office
+    code: OFFICE-USA-MO-AUDITOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-AUDITOR
+      jurisdiction: STATE-USA-MO
+  - type: Race
+    code: RACE-USA-MO-AUDITOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/MO ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-MO-2026_GENERAL
+      office: OFFICE-USA-MO-AUDITOR
+- records:
+  - type: Office
+    code: OFFICE-USA-ND-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-ND
+  - type: Race
+    code: RACE-USA-ND-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/ND ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-ND-2026_GENERAL
+      office: OFFICE-USA-ND-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-ND-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-ND
+  - type: Race
+    code: RACE-USA-ND-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/ND ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-ND-2026_GENERAL
+      office: OFFICE-USA-ND-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-ND-COMMISSIONER_OF_AGRICULTURE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMMISSIONER_OF_AGRICULTURE
+      jurisdiction: STATE-USA-ND
+  - type: Race
+    code: RACE-USA-ND-COMMISSIONER_OF_AGRICULTURE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/ND ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-ND-2026_GENERAL
+      office: OFFICE-USA-ND-COMMISSIONER_OF_AGRICULTURE
+- records:
+  - type: Office
+    code: OFFICE-USA-ND-TAX_COMMISSIONER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TAX_COMMISSIONER
+      jurisdiction: STATE-USA-ND
+  - type: Race
+    code: RACE-USA-ND-TAX_COMMISSIONER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/ND ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-ND-2026_GENERAL
+      office: OFFICE-USA-ND-TAX_COMMISSIONER
+- records:
+  - type: Office
+    code: OFFICE-USA-ND-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+    attributes:
+      is_active: true
+      notes: Special election for an unexpired term (per Green Papers).
+    references:
+      position: POSITION-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+      jurisdiction: STATE-USA-ND
+  - type: Race
+    code: RACE-USA-ND-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Special election for an unexpired term (per Green Papers). Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/ND ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-ND-2026_GENERAL
+      office: OFFICE-USA-ND-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+- records:
+  - type: Office
+    code: OFFICE-USA-ND-PUBLIC_SERVICE_COMMISSIONER-SEAT_1
+    attributes:
+      is_active: true
+      seat_code: SEAT_1
+      notes: Green Papers seat number 1 (not an official designation). Special election for an unexpired term (per Green Papers).
+    references:
+      position: POSITION-PUBLIC_SERVICE_COMMISSIONER
+      jurisdiction: STATE-USA-ND
+  - type: Race
+    code: RACE-USA-ND-PUBLIC_SERVICE_COMMISSIONER-SEAT_1-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Green Papers seat number 1 (not an official designation). Special election for an unexpired term (per Green Papers). Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/ND ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-ND-2026_GENERAL
+      office: OFFICE-USA-ND-PUBLIC_SERVICE_COMMISSIONER-SEAT_1
+- records:
+  - type: Office
+    code: OFFICE-USA-ND-PUBLIC_SERVICE_COMMISSIONER-SEAT_3
+    attributes:
+      is_active: true
+      seat_code: SEAT_3
+      notes: Green Papers seat number 3 (not an official designation).
+    references:
+      position: POSITION-PUBLIC_SERVICE_COMMISSIONER
+      jurisdiction: STATE-USA-ND
+  - type: Race
+    code: RACE-USA-ND-PUBLIC_SERVICE_COMMISSIONER-SEAT_3-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Green Papers seat number 3 (not an official designation). Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/ND ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-ND-2026_GENERAL
+      office: OFFICE-USA-ND-PUBLIC_SERVICE_COMMISSIONER-SEAT_3
+- records:
+  - type: Office
+    code: OFFICE-USA-NE-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-NE
+  - type: Race
+    code: RACE-USA-NE-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/NE ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-NE-2026_GENERAL
+      office: OFFICE-USA-NE-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-NE-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-NE
+  - type: Race
+    code: RACE-USA-NE-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/NE ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-NE-2026_GENERAL
+      office: OFFICE-USA-NE-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-NE-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-NE
+  - type: Race
+    code: RACE-USA-NE-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/NE ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-NE-2026_GENERAL
+      office: OFFICE-USA-NE-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-NE-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-NE
+  - type: Race
+    code: RACE-USA-NE-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/NE ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-NE-2026_GENERAL
+      office: OFFICE-USA-NE-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-NE-AUDITOR_OF_PUBLIC_ACCOUNTS
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-AUDITOR_OF_PUBLIC_ACCOUNTS
+      jurisdiction: STATE-USA-NE
+  - type: Race
+    code: RACE-USA-NE-AUDITOR_OF_PUBLIC_ACCOUNTS-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/NE ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-NE-2026_GENERAL
+      office: OFFICE-USA-NE-AUDITOR_OF_PUBLIC_ACCOUNTS
+- records:
+  - type: Office
+    code: OFFICE-USA-NM-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-NM
+  - type: Race
+    code: RACE-USA-NM-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/NM ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-NM-2026_GENERAL
+      office: OFFICE-USA-NM-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-NM-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-NM
+  - type: Race
+    code: RACE-USA-NM-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/NM ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-NM-2026_GENERAL
+      office: OFFICE-USA-NM-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-NM-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-NM
+  - type: Race
+    code: RACE-USA-NM-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/NM ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-NM-2026_GENERAL
+      office: OFFICE-USA-NM-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-NM-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-NM
+  - type: Race
+    code: RACE-USA-NM-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/NM ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-NM-2026_GENERAL
+      office: OFFICE-USA-NM-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-NM-AUDITOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-AUDITOR
+      jurisdiction: STATE-USA-NM
+  - type: Race
+    code: RACE-USA-NM-AUDITOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/NM ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-NM-2026_GENERAL
+      office: OFFICE-USA-NM-AUDITOR
+- records:
+  - type: Office
+    code: OFFICE-USA-NM-COMMISSIONER_OF_PUBLIC_LANDS
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMMISSIONER_OF_PUBLIC_LANDS
+      jurisdiction: STATE-USA-NM
+  - type: Race
+    code: RACE-USA-NM-COMMISSIONER_OF_PUBLIC_LANDS-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/NM ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-NM-2026_GENERAL
+      office: OFFICE-USA-NM-COMMISSIONER_OF_PUBLIC_LANDS
+- records:
+  - type: Office
+    code: OFFICE-USA-NV-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-NV
+  - type: Race
+    code: RACE-USA-NV-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/NV ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-NV-2026_GENERAL
+      office: OFFICE-USA-NV-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-NV-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-NV
+  - type: Race
+    code: RACE-USA-NV-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/NV ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-NV-2026_GENERAL
+      office: OFFICE-USA-NV-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-NV-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-NV
+  - type: Race
+    code: RACE-USA-NV-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/NV ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-NV-2026_GENERAL
+      office: OFFICE-USA-NV-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-NV-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-NV
+  - type: Race
+    code: RACE-USA-NV-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/NV ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-NV-2026_GENERAL
+      office: OFFICE-USA-NV-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-NV-CONTROLLER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-CONTROLLER
+      jurisdiction: STATE-USA-NV
+  - type: Race
+    code: RACE-USA-NV-CONTROLLER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/NV ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-NV-2026_GENERAL
+      office: OFFICE-USA-NV-CONTROLLER
+- records:
+  - type: Office
+    code: OFFICE-USA-OH-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-OH
+  - type: Race
+    code: RACE-USA-OH-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/OH ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-OH-2026_GENERAL
+      office: OFFICE-USA-OH-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-OH-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-OH
+  - type: Race
+    code: RACE-USA-OH-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/OH ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-OH-2026_GENERAL
+      office: OFFICE-USA-OH-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-OH-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-OH
+  - type: Race
+    code: RACE-USA-OH-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/OH ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-OH-2026_GENERAL
+      office: OFFICE-USA-OH-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-OH-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-OH
+  - type: Race
+    code: RACE-USA-OH-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/OH ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-OH-2026_GENERAL
+      office: OFFICE-USA-OH-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-OH-AUDITOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-AUDITOR
+      jurisdiction: STATE-USA-OH
+  - type: Race
+    code: RACE-USA-OH-AUDITOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/OH ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-OH-2026_GENERAL
+      office: OFFICE-USA-OH-AUDITOR
+- records:
+  - type: Office
+    code: OFFICE-USA-OK-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-OK
+  - type: Race
+    code: RACE-USA-OK-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/OK ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-OK-2026_GENERAL
+      office: OFFICE-USA-OK-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-OK-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-OK
+  - type: Race
+    code: RACE-USA-OK-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/OK ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-OK-2026_GENERAL
+      office: OFFICE-USA-OK-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-OK-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-OK
+  - type: Race
+    code: RACE-USA-OK-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/OK ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-OK-2026_GENERAL
+      office: OFFICE-USA-OK-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-OK-AUDITOR_AND_INSPECTOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-AUDITOR_AND_INSPECTOR
+      jurisdiction: STATE-USA-OK
+  - type: Race
+    code: RACE-USA-OK-AUDITOR_AND_INSPECTOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/OK ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-OK-2026_GENERAL
+      office: OFFICE-USA-OK-AUDITOR_AND_INSPECTOR
+- records:
+  - type: Office
+    code: OFFICE-USA-OK-COMMISSIONER_OF_LABOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMMISSIONER_OF_LABOR
+      jurisdiction: STATE-USA-OK
+  - type: Race
+    code: RACE-USA-OK-COMMISSIONER_OF_LABOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/OK ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-OK-2026_GENERAL
+      office: OFFICE-USA-OK-COMMISSIONER_OF_LABOR
+- records:
+  - type: Office
+    code: OFFICE-USA-OK-INSURANCE_COMMISSIONER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-INSURANCE_COMMISSIONER
+      jurisdiction: STATE-USA-OK
+  - type: Race
+    code: RACE-USA-OK-INSURANCE_COMMISSIONER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/OK ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-OK-2026_GENERAL
+      office: OFFICE-USA-OK-INSURANCE_COMMISSIONER
+- records:
+  - type: Office
+    code: OFFICE-USA-OK-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+      jurisdiction: STATE-USA-OK
+  - type: Race
+    code: RACE-USA-OK-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/OK ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-OK-2026_GENERAL
+      office: OFFICE-USA-OK-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+- records:
+  - type: Office
+    code: OFFICE-USA-OK-CORPORATION_COMMISSIONER
+    attributes:
+      is_active: true
+      notes: Green Papers seat number 3 (not an official designation).
+    references:
+      position: POSITION-CORPORATION_COMMISSIONER
+      jurisdiction: STATE-USA-OK
+  - type: Race
+    code: RACE-USA-OK-CORPORATION_COMMISSIONER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Green Papers seat number 3 (not an official designation). Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/OK ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-OK-2026_GENERAL
+      office: OFFICE-USA-OK-CORPORATION_COMMISSIONER
+- records:
+  - type: Office
+    code: OFFICE-USA-OR-COMMISSIONER_OF_LABOR_AND_INDUSTRIES
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMMISSIONER_OF_LABOR_AND_INDUSTRIES
+      jurisdiction: STATE-USA-OR
+  - type: Race
+    code: RACE-USA-OR-COMMISSIONER_OF_LABOR_AND_INDUSTRIES-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/OR ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-OR-2026_GENERAL
+      office: OFFICE-USA-OR-COMMISSIONER_OF_LABOR_AND_INDUSTRIES
+- records:
+  - type: Office
+    code: OFFICE-USA-PA-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-PA
+  - type: Race
+    code: RACE-USA-PA-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/PA ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-PA-2026_GENERAL
+      office: OFFICE-USA-PA-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-RI-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-RI
+  - type: Race
+    code: RACE-USA-RI-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/RI ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-RI-2026_GENERAL
+      office: OFFICE-USA-RI-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-RI-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-RI
+  - type: Race
+    code: RACE-USA-RI-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/RI ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-RI-2026_GENERAL
+      office: OFFICE-USA-RI-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-RI-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-RI
+  - type: Race
+    code: RACE-USA-RI-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/RI ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-RI-2026_GENERAL
+      office: OFFICE-USA-RI-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-RI-GENERAL_TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-GENERAL_TREASURER
+      jurisdiction: STATE-USA-RI
+  - type: Race
+    code: RACE-USA-RI-GENERAL_TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/RI ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-RI-2026_GENERAL
+      office: OFFICE-USA-RI-GENERAL_TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-SC-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-SC
+  - type: Race
+    code: RACE-USA-SC-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/SC ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-SC-2026_GENERAL
+      office: OFFICE-USA-SC-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-SC-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-SC
+  - type: Race
+    code: RACE-USA-SC-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/SC ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-SC-2026_GENERAL
+      office: OFFICE-USA-SC-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-SC-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-SC
+  - type: Race
+    code: RACE-USA-SC-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/SC ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-SC-2026_GENERAL
+      office: OFFICE-USA-SC-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-SC-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-SC
+  - type: Race
+    code: RACE-USA-SC-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/SC ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-SC-2026_GENERAL
+      office: OFFICE-USA-SC-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-SC-COMPTROLLER_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMPTROLLER_GENERAL
+      jurisdiction: STATE-USA-SC
+  - type: Race
+    code: RACE-USA-SC-COMPTROLLER_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/SC ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-SC-2026_GENERAL
+      office: OFFICE-USA-SC-COMPTROLLER_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-SC-COMMISSIONER_OF_AGRICULTURE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMMISSIONER_OF_AGRICULTURE
+      jurisdiction: STATE-USA-SC
+  - type: Race
+    code: RACE-USA-SC-COMMISSIONER_OF_AGRICULTURE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/SC ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-SC-2026_GENERAL
+      office: OFFICE-USA-SC-COMMISSIONER_OF_AGRICULTURE
+- records:
+  - type: Office
+    code: OFFICE-USA-SC-SUPERINTENDENT_OF_EDUCATION
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SUPERINTENDENT_OF_EDUCATION
+      jurisdiction: STATE-USA-SC
+  - type: Race
+    code: RACE-USA-SC-SUPERINTENDENT_OF_EDUCATION-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/SC ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-SC-2026_GENERAL
+      office: OFFICE-USA-SC-SUPERINTENDENT_OF_EDUCATION
+- records:
+  - type: Office
+    code: OFFICE-USA-SD-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-SD
+  - type: Race
+    code: RACE-USA-SD-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/SD ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-SD-2026_GENERAL
+      office: OFFICE-USA-SD-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-SD-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-SD
+  - type: Race
+    code: RACE-USA-SD-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/SD ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-SD-2026_GENERAL
+      office: OFFICE-USA-SD-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-SD-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-SD
+  - type: Race
+    code: RACE-USA-SD-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/SD ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-SD-2026_GENERAL
+      office: OFFICE-USA-SD-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-SD-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-SD
+  - type: Race
+    code: RACE-USA-SD-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/SD ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-SD-2026_GENERAL
+      office: OFFICE-USA-SD-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-SD-AUDITOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-AUDITOR
+      jurisdiction: STATE-USA-SD
+  - type: Race
+    code: RACE-USA-SD-AUDITOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/SD ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-SD-2026_GENERAL
+      office: OFFICE-USA-SD-AUDITOR
+- records:
+  - type: Office
+    code: OFFICE-USA-SD-COMMISSIONER_OF_SCHOOL_AND_PUBLIC_LANDS
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMMISSIONER_OF_SCHOOL_AND_PUBLIC_LANDS
+      jurisdiction: STATE-USA-SD
+  - type: Race
+    code: RACE-USA-SD-COMMISSIONER_OF_SCHOOL_AND_PUBLIC_LANDS-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/SD ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-SD-2026_GENERAL
+      office: OFFICE-USA-SD-COMMISSIONER_OF_SCHOOL_AND_PUBLIC_LANDS
+- records:
+  - type: Office
+    code: OFFICE-USA-TX-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-TX
+  - type: Race
+    code: RACE-USA-TX-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/TX ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-TX-2026_GENERAL
+      office: OFFICE-USA-TX-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-TX-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-TX
+  - type: Race
+    code: RACE-USA-TX-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/TX ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-TX-2026_GENERAL
+      office: OFFICE-USA-TX-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-TX-COMPTROLLER_OF_PUBLIC_ACCOUNTS
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMPTROLLER_OF_PUBLIC_ACCOUNTS
+      jurisdiction: STATE-USA-TX
+  - type: Race
+    code: RACE-USA-TX-COMPTROLLER_OF_PUBLIC_ACCOUNTS-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/TX ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-TX-2026_GENERAL
+      office: OFFICE-USA-TX-COMPTROLLER_OF_PUBLIC_ACCOUNTS
+- records:
+  - type: Office
+    code: OFFICE-USA-TX-COMMISSIONER_OF_AGRICULTURE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMMISSIONER_OF_AGRICULTURE
+      jurisdiction: STATE-USA-TX
+  - type: Race
+    code: RACE-USA-TX-COMMISSIONER_OF_AGRICULTURE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/TX ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-TX-2026_GENERAL
+      office: OFFICE-USA-TX-COMMISSIONER_OF_AGRICULTURE
+- records:
+  - type: Office
+    code: OFFICE-USA-TX-COMMISSIONER_OF_GENERAL_LAND_OFFICE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COMMISSIONER_OF_GENERAL_LAND_OFFICE
+      jurisdiction: STATE-USA-TX
+  - type: Race
+    code: RACE-USA-TX-COMMISSIONER_OF_GENERAL_LAND_OFFICE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/TX ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-TX-2026_GENERAL
+      office: OFFICE-USA-TX-COMMISSIONER_OF_GENERAL_LAND_OFFICE
+- records:
+  - type: Office
+    code: OFFICE-USA-TX-RAILROAD_COMMISSIONER
+    attributes:
+      is_active: true
+      notes: Green Papers seat number 3 (not an official designation).
+    references:
+      position: POSITION-RAILROAD_COMMISSIONER
+      jurisdiction: STATE-USA-TX
+  - type: Race
+    code: RACE-USA-TX-RAILROAD_COMMISSIONER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Green Papers seat number 3 (not an official designation). Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/TX ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-TX-2026_GENERAL
+      office: OFFICE-USA-TX-RAILROAD_COMMISSIONER
+- records:
+  - type: Office
+    code: OFFICE-USA-VT-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-VT
+  - type: Race
+    code: RACE-USA-VT-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/VT ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-VT-2026_GENERAL
+      office: OFFICE-USA-VT-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-VT-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-VT
+  - type: Race
+    code: RACE-USA-VT-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/VT ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-VT-2026_GENERAL
+      office: OFFICE-USA-VT-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-VT-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-VT
+  - type: Race
+    code: RACE-USA-VT-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/VT ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-VT-2026_GENERAL
+      office: OFFICE-USA-VT-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-VT-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-VT
+  - type: Race
+    code: RACE-USA-VT-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/VT ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-VT-2026_GENERAL
+      office: OFFICE-USA-VT-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-VT-AUDITOR_OF_ACCOUNTS
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-AUDITOR_OF_ACCOUNTS
+      jurisdiction: STATE-USA-VT
+  - type: Race
+    code: RACE-USA-VT-AUDITOR_OF_ACCOUNTS-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/VT ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-VT-2026_GENERAL
+      office: OFFICE-USA-VT-AUDITOR_OF_ACCOUNTS
+- records:
+  - type: Office
+    code: OFFICE-USA-WI-LIEUTENANT_GOVERNOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-LIEUTENANT_GOVERNOR
+      jurisdiction: STATE-USA-WI
+  - type: Race
+    code: RACE-USA-WI-LIEUTENANT_GOVERNOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/WI ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-WI-2026_GENERAL
+      office: OFFICE-USA-WI-LIEUTENANT_GOVERNOR
+- records:
+  - type: Office
+    code: OFFICE-USA-WI-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-WI
+  - type: Race
+    code: RACE-USA-WI-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/WI ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-WI-2026_GENERAL
+      office: OFFICE-USA-WI-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-WI-ATTORNEY_GENERAL
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-ATTORNEY_GENERAL
+      jurisdiction: STATE-USA-WI
+  - type: Race
+    code: RACE-USA-WI-ATTORNEY_GENERAL-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/WI ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-WI-2026_GENERAL
+      office: OFFICE-USA-WI-ATTORNEY_GENERAL
+- records:
+  - type: Office
+    code: OFFICE-USA-WI-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-WI
+  - type: Race
+    code: RACE-USA-WI-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/WI ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-WI-2026_GENERAL
+      office: OFFICE-USA-WI-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-WY-SECRETARY_OF_STATE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SECRETARY_OF_STATE
+      jurisdiction: STATE-USA-WY
+  - type: Race
+    code: RACE-USA-WY-SECRETARY_OF_STATE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/WY ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-WY-2026_GENERAL
+      office: OFFICE-USA-WY-SECRETARY_OF_STATE
+- records:
+  - type: Office
+    code: OFFICE-USA-WY-TREASURER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TREASURER
+      jurisdiction: STATE-USA-WY
+  - type: Race
+    code: RACE-USA-WY-TREASURER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/WY ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-WY-2026_GENERAL
+      office: OFFICE-USA-WY-TREASURER
+- records:
+  - type: Office
+    code: OFFICE-USA-WY-AUDITOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-AUDITOR
+      jurisdiction: STATE-USA-WY
+  - type: Race
+    code: RACE-USA-WY-AUDITOR-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/WY ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-WY-2026_GENERAL
+      office: OFFICE-USA-WY-AUDITOR
+- records:
+  - type: Office
+    code: OFFICE-USA-WY-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
+      jurisdiction: STATE-USA-WY
+  - type: Race
+    code: RACE-USA-WY-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: 1. Seat up in 2026 per The Green Papers https://www.thegreenpapers.com/G26/WY ; official state confirmation pending (ASC Linear).'
+    references:
+      election: ELECTION-USA-WY-2026_GENERAL
+      office: OFFICE-USA-WY-SUPERINTENDENT_OF_PUBLIC_INSTRUCTION
