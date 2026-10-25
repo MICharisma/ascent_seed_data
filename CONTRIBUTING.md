@@ -43,6 +43,31 @@ A person's code is a version of their name and a disambiguator Ascent issues to 
 - **In a submission you may use the name code alone**, such as `PERSON-JAMES_LT`, when you don't know the disambiguator. The importer resolves it to the one person with that name code; if two people share it, the import stops and lists both full codes.
 - A code names no state or office, because a person may later run somewhere else. Social media handles go in the person's Channel records, not their code.
 
+## Organizations
+
+An Organization is an institution that endorses or nominates candidacies: a union, an advocacy group, a business, a newspaper, a civic group. Its code is `ORGANIZATION-{jurisdiction path}-{NAME}`, such as `ORGANIZATION-USA-GA-AFL_CIO`, with a `name`, an optional `abbreviation`, a `kind` (`union`, `advocacy`, `business`, `media`, `civic`, `nonpartisan_primary`, or `other`), and a `state` reference when it works within one state.
+
+A party is an Organization too, recorded as a `Party` with its own codes (`PARTY-USA-GA-DEMOCRATIC`) and no kind. A `Party` must belong to a state. Anywhere an organization can be named, such as a channel's owner or a nomination's organization, a party's code works.
+
+## Primaries and nominations
+
+A primary is a race for a nomination: a place on the general-election ballot for one office. Each nomination is an Office of its own.
+
+| Field | Required | Meaning |
+|---|---|---|
+| `code` | yes | `OFFICE-{office path}-NOMINEE_{ORGANIZATION}`: the Georgia Democratic nomination for the 5th district is `OFFICE-USA-GA-CONGRESS-CD_5-NOMINEE_DEMOCRATIC` |
+| `position` | yes | `POSITION-NOMINEE` |
+| `jurisdiction` | yes | The nominated office's jurisdiction |
+| `nominee_for` | yes | The nominated office, such as `OFFICE-USA-GA-CONGRESS-CD_5` |
+| `nominating_organization` | yes | The party, or the placeholder Organization for a nonpartisan primary |
+| `nominee_count` | yes | How many the primary sends to the general: 1 for a party primary, 2 for a top-two primary, 4 for Alaska's top-four |
+
+The race for it sits in the state's primary election from `elections_2026.yml`, even when the nomination is for a district: `RACE-USA-GA-CONGRESS-CD_5-NOMINEE_DEMOCRATIC-2026_PRIMARY` in `ELECTION-USA-GA-2026_PRIMARY`. A primary runoff is a race for the same nomination in the `..._2026_PRIMARY_RUNOFF` election. Primary candidates are ordinary Candidacy records in that race, with the people's codes as described above.
+
+Nonpartisan primaries nominate through placeholder Organizations in `manifests/contributions/ascent/nominations.yml`: `ORGANIZATION-USA-CA-TOP_TWO_PRIMARY`, `ORGANIZATION-USA-WA-TOP_TWO_PRIMARY`, and `ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY`. Their nomination codes end in `NOMINEE_TOP_TWO` or `NOMINEE_TOP_FOUR`.
+
+Record every candidate who ran, including those who lost: Ascent can put a whole primary field on one simulated general-election ballot, where approval voting may favor a candidate the primary eliminated.
+
 ## Candidates' social media accounts and posts
 
 Two types record what candidates, campaigns, and parties publish online: a **Channel** is one account on one platform, and a **Communication** is one thing published there. Ascent keeps links, platform IDs, dates, short summaries, and quotes, never the posts, images, or video themselves. `examples/candidate_social_media.yml` shows a complete fictional example; that folder is not imported.

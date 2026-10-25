@@ -863,6 +863,16 @@
                     }
                   ]
                 },
+                "nominee_count": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
                 "notes": {
                   "anyOf": [
                     {
@@ -901,7 +911,73 @@
                 "jurisdiction": {
                   "$ref": "#/$defs/reference"
                 },
+                "nominating_organization": {
+                  "$ref": "#/$defs/reference"
+                },
+                "nominee_for": {
+                  "$ref": "#/$defs/reference"
+                },
                 "position": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Organization"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "abbreviation": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "kind": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "enum": [
+                        "union",
+                        "advocacy",
+                        "business",
+                        "media",
+                        "civic",
+                        "nonpartisan_primary",
+                        "other"
+                      ]
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+
+              ],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "state": {
                   "$ref": "#/$defs/reference"
                 }
               },
