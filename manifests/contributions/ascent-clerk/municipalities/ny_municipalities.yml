@@ -1,4 +1,4 @@
-# NY: 595 incorporated places (Census 2024 Gazetteer, FUNCSTAT A/B, plus consolidated-government balances) + 928 active-government county subdivisions (FUNCSTAT A: towns/townships/plantations). CDPs excluded.
+# NY: 595 incorporated places (Census 2024 Gazetteer, FUNCSTAT A/B, plus consolidated-government balances) + 928 active-government county subdivisions (FUNCSTAT A: towns/townships/plantations) + New York City's 5 boroughs (FUNCSTAT G), each inside New York and coextensive with its county. CDPs excluded.
 # County reference only when the place lies in exactly one county (2020 place-by-county file) or from the subdivision's GEOID.
 format: micharisma-seeds/v1
 namespace: MIC
@@ -1094,6 +1094,14 @@ records:
     state: STATE-USA-NY
     county: COUNTY-USA-NY-CHAUTAUQUA
 - type: Municipality
+  code: MUNICIPALITY-USA-NY-BRONX
+  attributes:
+    name: Bronx
+  references:
+    state: STATE-USA-NY
+    county: COUNTY-USA-NY-BRONX
+    parent_municipality: MUNICIPALITY-USA-NY-NEW_YORK
+- type: Municipality
   code: MUNICIPALITY-USA-NY-BRONXVILLE
   attributes:
     name: Bronxville
@@ -1114,6 +1122,14 @@ records:
   references:
     state: STATE-USA-NY
     county: COUNTY-USA-NY-SUFFOLK
+- type: Municipality
+  code: MUNICIPALITY-USA-NY-BROOKLYN
+  attributes:
+    name: Brooklyn
+  references:
+    state: STATE-USA-NY
+    county: COUNTY-USA-NY-KINGS
+    parent_municipality: MUNICIPALITY-USA-NY-NEW_YORK
 - type: Municipality
   code: MUNICIPALITY-USA-NY-BROOKVILLE
   attributes:
@@ -5639,6 +5655,14 @@ records:
     state: STATE-USA-NY
     county: COUNTY-USA-NY-ONTARIO
 - type: Municipality
+  code: MUNICIPALITY-USA-NY-MANHATTAN
+  attributes:
+    name: Manhattan
+  references:
+    state: STATE-USA-NY
+    county: COUNTY-USA-NY-NEW_YORK
+    parent_municipality: MUNICIPALITY-USA-NY-NEW_YORK
+- type: Municipality
   code: MUNICIPALITY-USA-NY-MANHEIM
   attributes:
     name: Manheim
@@ -7934,6 +7958,14 @@ records:
     state: STATE-USA-NY
     county: COUNTY-USA-NY-PUTNAM
 - type: Municipality
+  code: MUNICIPALITY-USA-NY-QUEENS
+  attributes:
+    name: Queens
+  references:
+    state: STATE-USA-NY
+    county: COUNTY-USA-NY-QUEENS
+    parent_municipality: MUNICIPALITY-USA-NY-NEW_YORK
+- type: Municipality
   code: MUNICIPALITY-USA-NY-QUEENSBURY
   attributes:
     name: Queensbury
@@ -9184,6 +9216,14 @@ records:
   references:
     state: STATE-USA-NY
     county: COUNTY-USA-NY-YATES
+- type: Municipality
+  code: MUNICIPALITY-USA-NY-STATEN_ISLAND
+  attributes:
+    name: Staten Island
+  references:
+    state: STATE-USA-NY
+    county: COUNTY-USA-NY-RICHMOND
+    parent_municipality: MUNICIPALITY-USA-NY-NEW_YORK
 - type: Municipality
   code: MUNICIPALITY-USA-NY-STEPHENTOWN
   attributes:

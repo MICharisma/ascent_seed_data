@@ -8,13 +8,14 @@ Sources (official Census):
 Rules:
 - Included places are incorporated places with FUNCSTAT A or B, plus the 8 consolidated-government "(balance)" places (FUNCSTAT F) and Washington, DC.
 - Included county subdivisions are those with FUNCSTAT A (an active government): New England towns, plus towns and townships in the NJ, PA, NY and Midwest states. Coextensive (FUNCSTAT C) and statistical subdivisions are excluded.
+- New York City's five boroughs (county subdivisions with FUNCSTAT G) are included in `ny_municipalities.yml` and counted with its towns. Each references `parent_municipality: MUNICIPALITY-USA-NY-NEW_YORK`, so it nests inside the city, and the county it shares its borders with.
 - **CDPs are excluded**: they are statistical areas, not governments. This includes Urban Honolulu. Hawaii has no incorporated places, so there is no `hi_municipalities.yml`.
 - A county reference is given only when unambiguous. 1Places spanning several counties have no county.
 - Codes follow `MUNICIPALITY-USA-{ST}-{NAME}`. On a name collision within a state, the legal type is appended (`_CITY`, `_TOWN`, `_VILLAGE`, `_TOWNSHIP`...), then the county.
 - Independent cities (VA, plus Baltimore, St. Louis and Carson City) also exist as County records in PR #1; see ASC-36.
 - `cities_over_100k.yml` lists 341 incorporated places with population ≥ 100,000. It reuses the same codes as the state files. 43 active towns and townships are over 100k but are not "cities", so they are not in that file.
 
-Total 35633 records.
+Total 35638 records.
 
 | State | Places | Towns/townships | Total |
 |---|---|---|---|
@@ -51,7 +52,7 @@ Total 35633 records.
 | NJ | 323 | 241 | 564 |
 | NM | 105 | 0 | 105 |
 | NV | 19 | 0 | 19 |
-| NY | 595 | 928 | 1523 |
+| NY | 595 | 933 | 1528 |
 | OH | 923 | 1308 | 2231 |
 | OK | 591 | 0 | 591 |
 | OR | 240 | 0 | 240 |
