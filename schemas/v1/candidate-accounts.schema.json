@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/MICharisma/ascent_seed_data/main/schemas/v1/candidate-accounts.schema.json",
+  "title": "Verified accounts for existing Ascent candidates",
+  "description": "Worker submission subset of the MIC/ASC seed manifest. Owner existence and account collisions require tools/seed_contract.py accounts.",
+  "allOf": [
+    {
+      "$ref": "asc.schema.json"
+    }
+  ],
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format",
+    "namespace",
+    "catalog",
+    "records"
+  ],
+  "properties": {
+    "format": {
+      "const": "micharisma-seeds/v1"
+    },
+    "namespace": {
+      "const": "MIC"
+    },
+    "catalog": {
+      "const": "ASC"
+    },
+    "records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "type",
+          "code",
+          "attributes",
+          "references",
+          "source"
+        ],
+        "properties": {
+          "type": {
+            "const": "Channel"
+          },
+          "code": {
+            "type": "string",
+            "pattern": "^CHANNEL-[A-Z0-9]+(?:[-_][A-Z0-9]+)*$(?![\\s\\S])"
+          },
+          "attributes": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "platform",
+              "handle",
+              "url",
+              "official"
+            ],
+            "properties": {
+              "platform": {
+                "type": "string"
+              },
+              "handle": {
+                "type": "string",
+                "pattern": "^[^@\\s]+$(?![\\s\\S])"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https?://[^/\\s?#]+(?:[^\\s]*)$(?![\\s\\S])"
+              },
+              "official": {
+                "const": true
+              }
+            }
+          },
+          "references": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "owner"
+            ],
+            "properties": {
+              "owner": {
+                "type": "string",
+                "pattern": "^(?:PERSON|CANDIDACY)-[A-Z0-9]+(?:[-_][A-Z0-9]+)*$(?![\\s\\S])"
+              }
+            }
+          },
+          "source": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "contributor",
+              "url",
+              "captured_on",
+              "verification_note"
+            ],
+            "properties": {
+              "contributor": {
+                "type": "string",
+                "pattern": "\\S"
+              },
+              "url": {
+                "type": "string",
+                "format": "uri",
+                "pattern": "^https?://[^/\\s?#]+(?:[^\\s]*)$(?![\\s\\S])"
+              },
+              "captured_on": {
+                "type": "string",
+                "format": "date"
+              },
+              "verification_note": {
+                "type": "string",
+                "pattern": "\\S"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

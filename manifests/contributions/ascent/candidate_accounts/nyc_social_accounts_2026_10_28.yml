@@ -1,0 +1,165 @@
+# Five NYC congressional candidates already present in the catalog.
+# Five Instagram, two YouTube, and three X accounts; source metadata is per account.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+records:
+- type: Channel
+  code: CHANNEL-IG-REPAOC
+  attributes:
+    platform: instagram
+    handle: repaoc
+    url: https://www.instagram.com/repaoc/
+    official: true
+  references:
+    owner: PERSON-OCASIO_CORTEZ_AL_4E
+  source:
+    contributor: Ascent
+    url: https://ocasio-cortez.house.gov/
+    captured_on: '2026-10-28'
+    verification_note: The official congressional homepage configures Instagram as
+      https://instagram.com/repaoc in its enabled social navigation. This is the continuing
+      official public account, owned by the Person.
+- type: Channel
+  code: CHANNEL-IG-REPJEFFRIES
+  attributes:
+    platform: instagram
+    handle: repjeffries
+    url: https://www.instagram.com/repjeffries/
+    official: true
+  references:
+    owner: PERSON-JEFFRIES_HK_6T
+  source:
+    contributor: Ascent
+    url: https://jeffries.house.gov/
+    captured_on: '2026-10-28'
+    verification_note: The official congressional homepage links its Instagram navigation
+      directly to this profile. Reuses the Channel code and Person owner already in
+      federal_candidates_2026.yml.
+- type: Channel
+  code: CHANNEL-IG-REPRITCHIE
+  attributes:
+    platform: instagram
+    handle: repritchie
+    url: https://www.instagram.com/repritchie/
+    official: true
+  references:
+    owner: PERSON-TORRES_RT_4S
+  source:
+    contributor: Ascent
+    url: https://ritchietorres.house.gov/
+    captured_on: '2026-10-28'
+    verification_note: The official congressional homepage links directly to this
+      Instagram profile. Reuses the Channel code and Person owner already in federal_candidates_2026.yml.
+- type: Channel
+  code: CHANNEL-IG-NMALLIOTAKIS
+  attributes:
+    platform: instagram
+    handle: nmalliotakis
+    url: https://www.instagram.com/nmalliotakis/
+    official: true
+  references:
+    owner: PERSON-MALLIOTAKIS_NC_9L
+  source:
+    contributor: Ascent
+    url: https://nicolemalliotakis.com/
+    captured_on: '2026-10-28'
+    verification_note: The candidate's campaign homepage links its Stay Connected
+      Instagram item directly to instagram.com/nmalliotakis. Reuses the existing continuing
+      named account's Channel code and Person owner in federal_candidates_2026.yml.
+- type: Channel
+  code: CHANNEL-IG-REPGRACEMENG
+  attributes:
+    platform: instagram
+    handle: repgracemeng
+    url: https://www.instagram.com/repgracemeng/
+    official: true
+  references:
+    owner: PERSON-MENG_GR_5T
+  source:
+    contributor: Ascent
+    url: https://meng.house.gov/
+    captured_on: '2026-10-28'
+    verification_note: The official congressional homepage configures this Instagram
+      profile in its enabled social navigation. This is the continuing official public
+      account, owned by the Person.
+- type: Channel
+  code: CHANNEL-YT-REPRITCHIE
+  attributes:
+    platform: youtube
+    handle: RepRitchie
+    url: https://www.youtube.com/@RepRitchie
+    official: true
+  references:
+    owner: PERSON-TORRES_RT_4S
+  source:
+    contributor: Ascent
+    url: https://ritchietorres.house.gov/
+    captured_on: '2026-10-28'
+    verification_note: The official congressional homepage links directly to the RepRitchie
+      YouTube account in its social navigation. This is the continuing official public
+      account, owned by the Person.
+- type: Channel
+  code: CHANNEL-YT-REPNICOLE
+  attributes:
+    platform: youtube
+    handle: RepNicole
+    url: https://www.youtube.com/@RepNicole
+    official: true
+  references:
+    owner: PERSON-MALLIOTAKIS_NC_9L
+  source:
+    contributor: Ascent
+    url: https://malliotakis.house.gov/
+    captured_on: '2026-10-28'
+    verification_note: The official congressional homepage configures https://www.youtube.com/@RepNicole
+      in its enabled social navigation. This is the continuing official public account,
+      owned by the Person.
+- type: Channel
+  code: CHANNEL-X-REPJEFFRIES
+  attributes:
+    platform: x
+    handle: RepJeffries
+    url: https://x.com/RepJeffries
+    official: true
+  references:
+    owner: PERSON-JEFFRIES_HK_6T
+  source:
+    contributor: Ascent
+    url: https://jeffries.house.gov/
+    captured_on: '2026-10-28'
+    verification_note: The official congressional homepage links its Twitter navigation
+      to twitter.com/RepJeffries. The stored URL uses the same handle on X. This is
+      the continuing official public account, owned by the Person.
+- type: Channel
+  code: CHANNEL-X-REPRITCHIE
+  attributes:
+    platform: x
+    handle: repritchie
+    url: https://x.com/repritchie
+    official: true
+  references:
+    owner: PERSON-TORRES_RT_4S
+  source:
+    contributor: Ascent
+    url: https://ritchietorres.house.gov/
+    captured_on: '2026-10-28'
+    verification_note: The official congressional homepage links to twitter.com/repritchie.
+      The stored URL uses the same handle on X. This is the continuing official public
+      account, owned by the Person.
+- type: Channel
+  code: CHANNEL-X-REPGRACEMENG
+  attributes:
+    platform: x
+    handle: RepGraceMeng
+    url: https://x.com/RepGraceMeng
+    official: true
+  references:
+    owner: PERSON-MENG_GR_5T
+  source:
+    contributor: Ascent
+    url: https://meng.house.gov/
+    captured_on: '2026-10-28'
+    verification_note: The official congressional homepage configures https://x.com/RepGraceMeng
+      in its enabled social navigation and also embeds Tweets by RepGraceMeng. This
+      is the continuing official public account, owned by the Person.

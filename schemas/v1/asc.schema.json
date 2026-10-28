@@ -204,9 +204,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -216,9 +214,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -307,9 +303,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -322,9 +316,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -368,9 +360,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -380,9 +370,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -494,9 +482,7 @@
                   "type": "string"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -506,9 +492,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -552,18 +536,13 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
               "type": "object",
-              "properties": {
-              },
-              "required": [
-
-              ],
+              "properties": {},
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -590,9 +569,7 @@
                   "type": "string"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -602,9 +579,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -624,18 +599,13 @@
                   "type": "string"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
               "type": "object",
-              "properties": {
-              },
-              "required": [
-
-              ],
+              "properties": {},
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -734,9 +704,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -749,9 +717,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -785,9 +751,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -797,9 +761,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -823,9 +785,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -841,9 +801,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -897,9 +855,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -924,9 +880,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -972,9 +926,7 @@
                   "type": "string"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -984,9 +936,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1013,9 +963,7 @@
                   "type": "string"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -1025,9 +973,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1101,6 +1047,36 @@
                     }
                   ]
                 },
+                "portrait_credit": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "portrait_source_url": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "portrait_url": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
                 "username": {
                   "anyOf": [
                     {
@@ -1126,18 +1102,13 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
               "type": "object",
-              "properties": {
-              },
-              "required": [
-
-              ],
+              "properties": {},
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1196,18 +1167,13 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
               "type": "object",
-              "properties": {
-              },
-              "required": [
-
-              ],
+              "properties": {},
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1255,9 +1221,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -1270,9 +1234,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1316,9 +1278,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -1331,9 +1291,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1375,9 +1333,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -1390,9 +1346,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1426,9 +1380,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -1438,9 +1390,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1474,18 +1424,13 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
               "type": "object",
-              "properties": {
-              },
-              "required": [
-
-              ],
+              "properties": {},
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1524,9 +1469,7 @@
           }
         }
       },
-      "required": [
-
-      ],
+      "required": [],
       "additionalProperties": false
     }
   },

@@ -36,7 +36,7 @@ records:
 
 ## People
 
-A person's code is a version of their name and a disambiguator Ascent issues to everyone in advance: Letitia James is `PERSON-JAMES_LT_6J`.
+A person's code is a version of their name and a disambiguator Ascent issues to everyone in advance: Letitia James is `PERSON-JAMES_LT_5Y` in the current manifests. Use the owner export in [WORKERS.md](WORKERS.md#find-the-owner-codes) to find current full codes.
 
 - **The name code** is the surname, then the given name's first letter and its next consonant: Letitia → `LT`, Clyde → `CL`, Ann → `AN`. A person printed with only a surname has the surname alone.
 - **The disambiguator** is a digit and a letter, such as `6J`. Ascent assigns it once and never changes it.
@@ -69,6 +69,8 @@ Nonpartisan primaries nominate through placeholder Organizations in `manifests/c
 Record every candidate who ran, including those who lost: Ascent can put a whole primary field on one simulated general-election ballot, where approval voting may favor a candidate the primary eliminated.
 
 ## Candidates' social media accounts and posts
+
+For workers adding accounts to existing candidates, start with [WORKERS.md](WORKERS.md). It provides equivalent JSON and YAML templates, an export of existing owner codes, and offline validation. Put those submissions in `manifests/contributions/<your-worker>/candidate_accounts/` to apply the stricter account contract.
 
 Two types record what candidates, campaigns, and parties publish online: a **Channel** is one account on one platform, and a **Communication** is one thing published there. Ascent keeps links, platform IDs, dates, short summaries, and quotes, never the posts, images, or video themselves. `examples/candidate_social_media.yml` shows a complete fictional example; that folder is not imported.
 
@@ -113,7 +115,7 @@ A quote from a communication belongs in a `StanceEvidence` record that links it 
 
 ## Checking your files
 
-Validate each manifest against `schemas/v1/asc.schema.json` with any JSON Schema (Draft 2020-12) validator; YAML files can be converted to JSON first. Maintainers also run Ascent's `bin/rails seed_library:validate`, which additionally checks references and contradictory definitions.
+Use the offline validator described in [WORKERS.md](WORKERS.md#validate-before-submission), or validate each manifest against `schemas/v1/asc.schema.json` with any JSON Schema (Draft 2020-12) validator. YAML files can be converted to JSON first. Maintainers also run Ascent's `bin/rails seed_library:validate` for catalog definitions and contradictions. The import step resolves dependencies and checks model validations, identity collisions, and conflicts with database values.
 
 ## What happens on merge
 
