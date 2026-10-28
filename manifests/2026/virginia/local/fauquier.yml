@@ -7,35 +7,58 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_FAUQUIER-2026_GENERAL
+  code: ELECTION-USA-VA-REMINGTON-2026_GENERAL
   attributes:
-    name: Fauquier County General Election 2026
+    name: Remington General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-FAUQUIER
+    jurisdiction: MUNICIPALITY-USA-VA-REMINGTON
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-WARRENTON-2026_GENERAL
+  attributes:
+    name: Warrenton General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-WARRENTON
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-THE_PLAINS-2026_GENERAL
+  attributes:
+    name: The Plains General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-THE_PLAINS
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FAUQUIER-MAYOR-TOWN_OF_REMINGTON
+    code: OFFICE-USA-VA-REMINGTON-MAYOR
     attributes:
-      seat_code: TOWN_OF_REMINGTON
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-FAUQUIER
+      jurisdiction: MUNICIPALITY-USA-VA-REMINGTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_FAUQUIER-MAYOR-TOWN_OF_REMINGTON-2026_GENERAL
+    code: RACE-USA-VA-REMINGTON-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_FAUQUIER-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_FAUQUIER-MAYOR-TOWN_OF_REMINGTON
+      election: ELECTION-USA-VA-REMINGTON-2026_GENERAL
+      office: OFFICE-USA-VA-REMINGTON-MAYOR
   - type: Person
     code: PERSON-ALLISON_DV_4E
     attributes:
@@ -45,30 +68,29 @@ groups:
       middle_name: R.
       last_name: Allison Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAUQUIER-MAYOR-TOWN_OF_REMINGTON-2026_GENERAL-ALLISON_DV_4E
+    code: CANDIDACY-USA-VA-REMINGTON-MAYOR-2026_GENERAL-ALLISON_DV_4E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAUQUIER-MAYOR-TOWN_OF_REMINGTON-2026_GENERAL
+      race: RACE-USA-VA-REMINGTON-MAYOR-2026_GENERAL
       person: PERSON-ALLISON_DV_4E
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FAUQUIER-MAYOR-TOWN_OF_WARRENTON
+    code: OFFICE-USA-VA-WARRENTON-MAYOR
     attributes:
-      seat_code: TOWN_OF_WARRENTON
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-FAUQUIER
+      jurisdiction: MUNICIPALITY-USA-VA-WARRENTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_FAUQUIER-MAYOR-TOWN_OF_WARRENTON-2026_GENERAL
+    code: RACE-USA-VA-WARRENTON-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_FAUQUIER-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_FAUQUIER-MAYOR-TOWN_OF_WARRENTON
+      election: ELECTION-USA-VA-WARRENTON-2026_GENERAL
+      office: OFFICE-USA-VA-WARRENTON-MAYOR
   - type: Person
     code: PERSON-BARBOUR_DR_7X
     attributes:
@@ -78,12 +100,12 @@ groups:
       middle_name: P.
       last_name: Barbour
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAUQUIER-MAYOR-TOWN_OF_WARRENTON-2026_GENERAL-BARBOUR_DR_7X
+    code: CANDIDACY-USA-VA-WARRENTON-MAYOR-2026_GENERAL-BARBOUR_DR_7X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAUQUIER-MAYOR-TOWN_OF_WARRENTON-2026_GENERAL
+      race: RACE-USA-VA-WARRENTON-MAYOR-2026_GENERAL
       person: PERSON-BARBOUR_DR_7X
   - type: Person
     code: PERSON-MCGUIRE_DV_7Y
@@ -94,12 +116,12 @@ groups:
       middle_name: A.
       last_name: McGuire
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAUQUIER-MAYOR-TOWN_OF_WARRENTON-2026_GENERAL-MCGUIRE_DV_7Y
+    code: CANDIDACY-USA-VA-WARRENTON-MAYOR-2026_GENERAL-MCGUIRE_DV_7Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAUQUIER-MAYOR-TOWN_OF_WARRENTON-2026_GENERAL
+      race: RACE-USA-VA-WARRENTON-MAYOR-2026_GENERAL
       person: PERSON-MCGUIRE_DV_7Y
   - type: Person
     code: PERSON-CARLOS_RN_5L
@@ -110,30 +132,29 @@ groups:
       middle_name: J.
       last_name: Carlos
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAUQUIER-MAYOR-TOWN_OF_WARRENTON-2026_GENERAL-CARLOS_RN_5L
+    code: CANDIDACY-USA-VA-WARRENTON-MAYOR-2026_GENERAL-CARLOS_RN_5L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAUQUIER-MAYOR-TOWN_OF_WARRENTON-2026_GENERAL
+      race: RACE-USA-VA-WARRENTON-MAYOR-2026_GENERAL
       person: PERSON-CARLOS_RN_5L
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_REMINGTON
+    code: OFFICE-USA-VA-REMINGTON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_REMINGTON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-FAUQUIER
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-REMINGTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_REMINGTON-2026_GENERAL
+    code: RACE-USA-VA-REMINGTON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_FAUQUIER-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_REMINGTON
+      election: ELECTION-USA-VA-REMINGTON-2026_GENERAL
+      office: OFFICE-USA-VA-REMINGTON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-SCHULZ_LS_7X
     attributes:
@@ -143,12 +164,12 @@ groups:
       middle_name: M.
       last_name: Schulz
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_REMINGTON-2026_GENERAL-SCHULZ_LS_7X
+    code: CANDIDACY-USA-VA-REMINGTON-COUNCIL_MEMBER-2026_GENERAL-SCHULZ_LS_7X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_REMINGTON-2026_GENERAL
+      race: RACE-USA-VA-REMINGTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SCHULZ_LS_7X
   - type: Person
     code: PERSON-MOXLEY_RC_2A
@@ -159,12 +180,12 @@ groups:
       middle_name: Kent
       last_name: Moxley
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_REMINGTON-2026_GENERAL-MOXLEY_RC_2A
+    code: CANDIDACY-USA-VA-REMINGTON-COUNCIL_MEMBER-2026_GENERAL-MOXLEY_RC_2A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_REMINGTON-2026_GENERAL
+      race: RACE-USA-VA-REMINGTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MOXLEY_RC_2A
   - type: Person
     code: PERSON-HEFLIN_RC_9S
@@ -175,12 +196,12 @@ groups:
       middle_name: L.
       last_name: Heflin Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_REMINGTON-2026_GENERAL-HEFLIN_RC_9S
+    code: CANDIDACY-USA-VA-REMINGTON-COUNCIL_MEMBER-2026_GENERAL-HEFLIN_RC_9S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_REMINGTON-2026_GENERAL
+      race: RACE-USA-VA-REMINGTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HEFLIN_RC_9S
   - type: Person
     code: PERSON-TIFFANY_SS_4K
@@ -191,12 +212,12 @@ groups:
       middle_name: L.
       last_name: Tiffany
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_REMINGTON-2026_GENERAL-TIFFANY_SS_4K
+    code: CANDIDACY-USA-VA-REMINGTON-COUNCIL_MEMBER-2026_GENERAL-TIFFANY_SS_4K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_REMINGTON-2026_GENERAL
+      race: RACE-USA-VA-REMINGTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TIFFANY_SS_4K
   - type: Person
     code: PERSON-LOVING_VN_5Y
@@ -207,12 +228,12 @@ groups:
       middle_name: M.
       last_name: Loving
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_REMINGTON-2026_GENERAL-LOVING_VN_5Y
+    code: CANDIDACY-USA-VA-REMINGTON-COUNCIL_MEMBER-2026_GENERAL-LOVING_VN_5Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_REMINGTON-2026_GENERAL
+      race: RACE-USA-VA-REMINGTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LOVING_VN_5Y
   - type: Person
     code: PERSON-TIEMENS_ZC_7K
@@ -223,30 +244,29 @@ groups:
       middle_name: J.
       last_name: Tiemens
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_REMINGTON-2026_GENERAL-TIEMENS_ZC_7K
+    code: CANDIDACY-USA-VA-REMINGTON-COUNCIL_MEMBER-2026_GENERAL-TIEMENS_ZC_7K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_REMINGTON-2026_GENERAL
+      race: RACE-USA-VA-REMINGTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TIEMENS_ZC_7K
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_THE_PLAINS
+    code: OFFICE-USA-VA-THE_PLAINS-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_THE_PLAINS
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-FAUQUIER
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-THE_PLAINS
   - type: Race
-    code: RACE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_THE_PLAINS-2026_GENERAL
+    code: RACE-USA-VA-THE_PLAINS-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_FAUQUIER-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_THE_PLAINS
+      election: ELECTION-USA-VA-THE_PLAINS-2026_GENERAL
+      office: OFFICE-USA-VA-THE_PLAINS-COUNCIL_MEMBER
   - type: Person
     code: PERSON-VOORHIS_HD_8K
     attributes:
@@ -256,12 +276,12 @@ groups:
       middle_name: H. Van
       last_name: Voorhis
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_THE_PLAINS-2026_GENERAL-VOORHIS_HD_8K
+    code: CANDIDACY-USA-VA-THE_PLAINS-COUNCIL_MEMBER-2026_GENERAL-VOORHIS_HD_8K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_THE_PLAINS-2026_GENERAL
+      race: RACE-USA-VA-THE_PLAINS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-VOORHIS_HD_8K
   - type: Person
     code: PERSON-HEFLIN_JY_3N
@@ -272,12 +292,12 @@ groups:
       middle_name: W.
       last_name: Heflin
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_THE_PLAINS-2026_GENERAL-HEFLIN_JY_3N
+    code: CANDIDACY-USA-VA-THE_PLAINS-COUNCIL_MEMBER-2026_GENERAL-HEFLIN_JY_3N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_THE_PLAINS-2026_GENERAL
+      race: RACE-USA-VA-THE_PLAINS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HEFLIN_JY_3N
   - type: Person
     code: PERSON-PORTUGAL_NH_7C
@@ -288,30 +308,30 @@ groups:
       middle_name: J.
       last_name: Portugal
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_THE_PLAINS-2026_GENERAL-PORTUGAL_NH_7C
+    code: CANDIDACY-USA-VA-THE_PLAINS-COUNCIL_MEMBER-2026_GENERAL-PORTUGAL_NH_7C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL-TOWN_OF_THE_PLAINS-2026_GENERAL
+      race: RACE-USA-VA-THE_PLAINS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PORTUGAL_NH_7C
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL_AT_LARGE-TOWN_OF_WARRENTON
+    code: OFFICE-USA-VA-WARRENTON-COUNCIL_MEMBER-AT_LARGE
     attributes:
-      seat_code: TOWN_OF_WARRENTON
+      seat_code: AT_LARGE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_AT_LARGE
-      jurisdiction: COUNTY-USA-VA-FAUQUIER
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-WARRENTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL_AT_LARGE-TOWN_OF_WARRENTON-2026_GENERAL
+    code: RACE-USA-VA-WARRENTON-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_FAUQUIER-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL_AT_LARGE-TOWN_OF_WARRENTON
+      election: ELECTION-USA-VA-WARRENTON-2026_GENERAL
+      office: OFFICE-USA-VA-WARRENTON-COUNCIL_MEMBER-AT_LARGE
   - type: Person
     code: PERSON-PRATT_PT_3C
     attributes:
@@ -321,12 +341,12 @@ groups:
       middle_name: D.
       last_name: Pratt
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL_AT_LARGE-TOWN_OF_WARRENTON-2026_GENERAL-PRATT_PT_3C
+    code: CANDIDACY-USA-VA-WARRENTON-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL-PRATT_PT_3C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL_AT_LARGE-TOWN_OF_WARRENTON-2026_GENERAL
+      race: RACE-USA-VA-WARRENTON-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
       person: PERSON-PRATT_PT_3C
   - type: Person
     code: PERSON-MALOTT_R_7X
@@ -337,12 +357,12 @@ groups:
       middle_name: Christian
       last_name: Malott
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL_AT_LARGE-TOWN_OF_WARRENTON-2026_GENERAL-MALOTT_R_7X
+    code: CANDIDACY-USA-VA-WARRENTON-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL-MALOTT_R_7X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL_AT_LARGE-TOWN_OF_WARRENTON-2026_GENERAL
+      race: RACE-USA-VA-WARRENTON-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
       person: PERSON-MALOTT_R_7X
   - type: Person
     code: PERSON-LAKE_TM_5E
@@ -353,10 +373,10 @@ groups:
       middle_name: L.
       last_name: Lake
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL_AT_LARGE-TOWN_OF_WARRENTON-2026_GENERAL-LAKE_TM_5E
+    code: CANDIDACY-USA-VA-WARRENTON-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL-LAKE_TM_5E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAUQUIER-MEMBER_TOWN_COUNCIL_AT_LARGE-TOWN_OF_WARRENTON-2026_GENERAL
+      race: RACE-USA-VA-WARRENTON-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
       person: PERSON-LAKE_TM_5E

@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CITRUS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_CITRUS-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-CITRUS
   - type: Race
-    code: RACE-USA-FL-COUNTY_CITRUS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CITRUS-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CITRUS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CITRUS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_CITRUS-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-WORTHINGTON_ST_3U
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Stacey
       last_name: Worthington
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CITRUS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-WORTHINGTON_ST_3U
+    code: CANDIDACY-USA-FL-COUNTY_CITRUS-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-WORTHINGTON_ST_3U
     attributes:
       status: active
       participation: active
@@ -53,25 +53,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_CITRUS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CITRUS-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-WORTHINGTON_ST_3U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CITRUS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_CITRUS-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-CITRUS
   - type: Race
-    code: RACE-USA-FL-COUNTY_CITRUS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CITRUS-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CITRUS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CITRUS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_CITRUS-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-HERNDON_HL_5N
     attributes:
@@ -80,7 +80,7 @@ groups:
       first_name: Holli
       last_name: Herndon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CITRUS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-HERNDON_HL_5N
+    code: CANDIDACY-USA-FL-COUNTY_CITRUS-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-HERNDON_HL_5N
     attributes:
       status: active
       participation: active
@@ -89,25 +89,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_CITRUS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CITRUS-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-HERNDON_HL_5N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CITRUS-CITRUS_CO_COMMUNITY_CHARITABLE_FOUNDATION-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_CITRUS-HOSPITAL_BOARD_MEMBER-CITRUS_CO_COMMUNITY_CHARITABLE_FOUNDATION_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: CITRUS_CO_COMMUNITY_CHARITABLE_FOUNDATION_SEAT_2
       is_active: true
     references:
-      position: POSITION-CITRUS_CO_COMMUNITY_CHARITABLE_FOUNDATION
+      position: POSITION-HOSPITAL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CITRUS
   - type: Race
-    code: RACE-USA-FL-COUNTY_CITRUS-CITRUS_CO_COMMUNITY_CHARITABLE_FOUNDATION-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CITRUS-HOSPITAL_BOARD_MEMBER-CITRUS_CO_COMMUNITY_CHARITABLE_FOUNDATION_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CITRUS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CITRUS-CITRUS_CO_COMMUNITY_CHARITABLE_FOUNDATION-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_CITRUS-HOSPITAL_BOARD_MEMBER-CITRUS_CO_COMMUNITY_CHARITABLE_FOUNDATION_SEAT_2
   - type: Person
     code: PERSON-DIXON_PH_8H
     attributes:
@@ -116,12 +116,12 @@ groups:
       first_name: Phyllis
       last_name: Dixon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CITRUS-CITRUS_CO_COMMUNITY_CHARITABLE_FOUNDATION-SEAT_2-2026_GENERAL-DIXON_PH_8H
+    code: CANDIDACY-USA-FL-COUNTY_CITRUS-HOSPITAL_BOARD_MEMBER-CITRUS_CO_COMMUNITY_CHARITABLE_FOUNDATION_SEAT_2-2026_GENERAL-DIXON_PH_8H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CITRUS-CITRUS_CO_COMMUNITY_CHARITABLE_FOUNDATION-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CITRUS-HOSPITAL_BOARD_MEMBER-CITRUS_CO_COMMUNITY_CHARITABLE_FOUNDATION_SEAT_2-2026_GENERAL
       person: PERSON-DIXON_PH_8H
   - type: Person
     code: PERSON-HAENDIGES_HT_7G
@@ -131,30 +131,30 @@ groups:
       first_name: Heather
       last_name: Haendiges
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CITRUS-CITRUS_CO_COMMUNITY_CHARITABLE_FOUNDATION-SEAT_2-2026_GENERAL-HAENDIGES_HT_7G
+    code: CANDIDACY-USA-FL-COUNTY_CITRUS-HOSPITAL_BOARD_MEMBER-CITRUS_CO_COMMUNITY_CHARITABLE_FOUNDATION_SEAT_2-2026_GENERAL-HAENDIGES_HT_7G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CITRUS-CITRUS_CO_COMMUNITY_CHARITABLE_FOUNDATION-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CITRUS-HOSPITAL_BOARD_MEMBER-CITRUS_CO_COMMUNITY_CHARITABLE_FOUNDATION_SEAT_2-2026_GENERAL
       person: PERSON-HAENDIGES_HT_7G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CITRUS-HOMOSASSA_WATER_BOARD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_CITRUS-SPECIAL_DISTRICT_BOARD_MEMBER-HOMOSASSA_WATER_BOARD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: HOMOSASSA_WATER_BOARD_SEAT_2
       is_active: true
     references:
-      position: POSITION-HOMOSASSA_WATER_BOARD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CITRUS
   - type: Race
-    code: RACE-USA-FL-COUNTY_CITRUS-HOMOSASSA_WATER_BOARD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CITRUS-SPECIAL_DISTRICT_BOARD_MEMBER-HOMOSASSA_WATER_BOARD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CITRUS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CITRUS-HOMOSASSA_WATER_BOARD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_CITRUS-SPECIAL_DISTRICT_BOARD_MEMBER-HOMOSASSA_WATER_BOARD_SEAT_2
   - type: Person
     code: PERSON-WILCOX_DR_6Z
     attributes:
@@ -164,30 +164,30 @@ groups:
       middle_name: '"DeeDee" Pierce'
       last_name: Wilcox
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CITRUS-HOMOSASSA_WATER_BOARD-SEAT_2-2026_GENERAL-WILCOX_DR_6Z
+    code: CANDIDACY-USA-FL-COUNTY_CITRUS-SPECIAL_DISTRICT_BOARD_MEMBER-HOMOSASSA_WATER_BOARD_SEAT_2-2026_GENERAL-WILCOX_DR_6Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CITRUS-HOMOSASSA_WATER_BOARD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CITRUS-SPECIAL_DISTRICT_BOARD_MEMBER-HOMOSASSA_WATER_BOARD_SEAT_2-2026_GENERAL
       person: PERSON-WILCOX_DR_6Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CITRUS-HOMOSASSA_WATER_BOARD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_CITRUS-SPECIAL_DISTRICT_BOARD_MEMBER-HOMOSASSA_WATER_BOARD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: HOMOSASSA_WATER_BOARD_SEAT_4
       is_active: true
     references:
-      position: POSITION-HOMOSASSA_WATER_BOARD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CITRUS
   - type: Race
-    code: RACE-USA-FL-COUNTY_CITRUS-HOMOSASSA_WATER_BOARD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CITRUS-SPECIAL_DISTRICT_BOARD_MEMBER-HOMOSASSA_WATER_BOARD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CITRUS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CITRUS-HOMOSASSA_WATER_BOARD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_CITRUS-SPECIAL_DISTRICT_BOARD_MEMBER-HOMOSASSA_WATER_BOARD_SEAT_4
   - type: Person
     code: PERSON-MACRAE_JS_3X
     attributes:
@@ -197,30 +197,30 @@ groups:
       middle_name: Ann
       last_name: MacRae
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CITRUS-HOMOSASSA_WATER_BOARD-SEAT_4-2026_GENERAL-MACRAE_JS_3X
+    code: CANDIDACY-USA-FL-COUNTY_CITRUS-SPECIAL_DISTRICT_BOARD_MEMBER-HOMOSASSA_WATER_BOARD_SEAT_4-2026_GENERAL-MACRAE_JS_3X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CITRUS-HOMOSASSA_WATER_BOARD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CITRUS-SPECIAL_DISTRICT_BOARD_MEMBER-HOMOSASSA_WATER_BOARD_SEAT_4-2026_GENERAL
       person: PERSON-MACRAE_JS_3X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_BOARD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_COMMISSIONER-SEAT_1
     attributes:
       seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-MOSQUITO_CONTROL_BOARD
+      position: POSITION-MOSQUITO_CONTROL_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-CITRUS
   - type: Race
-    code: RACE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_BOARD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_COMMISSIONER-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CITRUS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_BOARD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_COMMISSIONER-SEAT_1
   - type: Person
     code: PERSON-BROOKS_JM_6Y
     attributes:
@@ -229,12 +229,12 @@ groups:
       first_name: James
       last_name: Brooks
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_BOARD-SEAT_1-2026_GENERAL-BROOKS_JM_6Y
+    code: CANDIDACY-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_COMMISSIONER-SEAT_1-2026_GENERAL-BROOKS_JM_6Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_BOARD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_COMMISSIONER-SEAT_1-2026_GENERAL
       person: PERSON-BROOKS_JM_6Y
   - type: Person
     code: PERSON-GREEN_AR_3S
@@ -245,12 +245,12 @@ groups:
       middle_name: '"AJ"'
       last_name: Green
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_BOARD-SEAT_1-2026_GENERAL-GREEN_AR_3S
+    code: CANDIDACY-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_COMMISSIONER-SEAT_1-2026_GENERAL-GREEN_AR_3S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_BOARD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_COMMISSIONER-SEAT_1-2026_GENERAL
       person: PERSON-GREEN_AR_3S
   - type: Person
     code: PERSON-THOMPSON_TY_5G
@@ -260,30 +260,30 @@ groups:
       first_name: Tyler
       last_name: Thompson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_BOARD-SEAT_1-2026_GENERAL-THOMPSON_TY_5G
+    code: CANDIDACY-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_COMMISSIONER-SEAT_1-2026_GENERAL-THOMPSON_TY_5G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_BOARD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_COMMISSIONER-SEAT_1-2026_GENERAL
       person: PERSON-THOMPSON_TY_5G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_BOARD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_COMMISSIONER-SEAT_3
     attributes:
       seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-MOSQUITO_CONTROL_BOARD
+      position: POSITION-MOSQUITO_CONTROL_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-CITRUS
   - type: Race
-    code: RACE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_BOARD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_COMMISSIONER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CITRUS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_BOARD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_COMMISSIONER-SEAT_3
   - type: Person
     code: PERSON-ADAMS_JO_7R
     attributes:
@@ -292,12 +292,12 @@ groups:
       first_name: Joe
       last_name: Adams
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_BOARD-SEAT_3-2026_GENERAL-ADAMS_JO_7R
+    code: CANDIDACY-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_COMMISSIONER-SEAT_3-2026_GENERAL-ADAMS_JO_7R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_BOARD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_COMMISSIONER-SEAT_3-2026_GENERAL
       person: PERSON-ADAMS_JO_7R
   - type: Person
     code: PERSON-FOUNTAIN_GR_4U
@@ -307,30 +307,30 @@ groups:
       first_name: Greg
       last_name: Fountain
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_BOARD-SEAT_3-2026_GENERAL-FOUNTAIN_GR_4U
+    code: CANDIDACY-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_COMMISSIONER-SEAT_3-2026_GENERAL-FOUNTAIN_GR_4U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_BOARD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CITRUS-MOSQUITO_CONTROL_COMMISSIONER-SEAT_3-2026_GENERAL
       person: PERSON-FOUNTAIN_GR_4U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CITRUS
   - type: Race
-    code: RACE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CITRUS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-KENNEDY_TH_6D
     attributes:
@@ -339,30 +339,30 @@ groups:
       first_name: Thomas
       last_name: Kennedy
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-KENNEDY_TH_6D
+    code: CANDIDACY-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-KENNEDY_TH_6D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-KENNEDY_TH_6D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CITRUS
   - type: Race
-    code: RACE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CITRUS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-MULLEN_MK_9X
     attributes:
@@ -371,30 +371,30 @@ groups:
       first_name: Mike
       last_name: Mullen
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-MULLEN_MK_9X
+    code: CANDIDACY-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-MULLEN_MK_9X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-MULLEN_MK_9X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CITRUS
   - type: Race
-    code: RACE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CITRUS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-FAHERTY_JS_5T
     attributes:
@@ -404,10 +404,10 @@ groups:
       middle_name: '"Joe"'
       last_name: Faherty
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-FAHERTY_JS_5T
+    code: CANDIDACY-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-FAHERTY_JS_5T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CITRUS-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-FAHERTY_JS_5T

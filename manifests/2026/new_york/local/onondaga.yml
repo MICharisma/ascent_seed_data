@@ -321,20 +321,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-NY-SYRACUSE-COMMISSIONER_OF_EDUCATION_TO_FILL_VACANCY
+    code: OFFICE-USA-NY-SYRACUSE-SCHOOL_BOARD_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-COMMISSIONER_OF_EDUCATION_TO_FILL_VACANCY
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-SYRACUSE
   - type: Race
-    code: RACE-USA-NY-SYRACUSE-COMMISSIONER_OF_EDUCATION_TO_FILL_VACANCY-2026_GENERAL
+    code: RACE-USA-NY-SYRACUSE-SCHOOL_BOARD_MEMBER-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-SYRACUSE-2026_GENERAL
-      office: OFFICE-USA-NY-SYRACUSE-COMMISSIONER_OF_EDUCATION_TO_FILL_VACANCY
+      office: OFFICE-USA-NY-SYRACUSE-SCHOOL_BOARD_MEMBER
   - type: Person
     code: PERSON-NDAGIJIMANA_DS_8N
     attributes:
@@ -343,7 +343,7 @@ groups:
       first_name: Desire
       last_name: Ndagijimana
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SYRACUSE-COMMISSIONER_OF_EDUCATION_TO_FILL_VACANCY-2026_GENERAL-NDAGIJIMANA_DS_8N
+    code: CANDIDACY-USA-NY-SYRACUSE-SCHOOL_BOARD_MEMBER-UNEXPIRED_TERM-2026_GENERAL-NDAGIJIMANA_DS_8N
     attributes:
       status: active
       participation: active
@@ -351,24 +351,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-SYRACUSE-COMMISSIONER_OF_EDUCATION_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-SYRACUSE-SCHOOL_BOARD_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-NDAGIJIMANA_DS_8N
 - records:
   - type: Office
-    code: OFFICE-USA-NY-SYRACUSE-COUNCILOR_AT_LARGE_TO_FILL_VACANCY
+    code: OFFICE-USA-NY-SYRACUSE-COUNCIL_MEMBER-AT_LARGE
     attributes:
+      seat_code: AT_LARGE
       is_active: true
     references:
-      position: POSITION-COUNCILOR_AT_LARGE_TO_FILL_VACANCY
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-SYRACUSE
   - type: Race
-    code: RACE-USA-NY-SYRACUSE-COUNCILOR_AT_LARGE_TO_FILL_VACANCY-2026_GENERAL
+    code: RACE-USA-NY-SYRACUSE-COUNCIL_MEMBER-AT_LARGE-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-SYRACUSE-2026_GENERAL
-      office: OFFICE-USA-NY-SYRACUSE-COUNCILOR_AT_LARGE_TO_FILL_VACANCY
+      office: OFFICE-USA-NY-SYRACUSE-COUNCIL_MEMBER-AT_LARGE
   - type: Person
     code: PERSON-HUDSON_HL_7E
     attributes:
@@ -377,7 +378,7 @@ groups:
       first_name: Helen
       last_name: Hudson
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SYRACUSE-COUNCILOR_AT_LARGE_TO_FILL_VACANCY-2026_GENERAL-HUDSON_HL_7E
+    code: CANDIDACY-USA-NY-SYRACUSE-COUNCIL_MEMBER-AT_LARGE-UNEXPIRED_TERM-2026_GENERAL-HUDSON_HL_7E
     attributes:
       status: active
       participation: active
@@ -385,7 +386,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-SYRACUSE-COUNCILOR_AT_LARGE_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-SYRACUSE-COUNCIL_MEMBER-AT_LARGE-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-HUDSON_HL_7E
   - type: Person
     code: PERSON-DAGUE_RY_2F
@@ -396,7 +397,7 @@ groups:
       middle_name: J.
       last_name: Dague
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SYRACUSE-COUNCILOR_AT_LARGE_TO_FILL_VACANCY-2026_GENERAL-DAGUE_RY_2F
+    code: CANDIDACY-USA-NY-SYRACUSE-COUNCIL_MEMBER-AT_LARGE-UNEXPIRED_TERM-2026_GENERAL-DAGUE_RY_2F
     attributes:
       status: active
       participation: active
@@ -404,24 +405,24 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-SYRACUSE-COUNCILOR_AT_LARGE_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-SYRACUSE-COUNCIL_MEMBER-AT_LARGE-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-DAGUE_RY_2F
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_COURT_JUDGE
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_JUDGE
     attributes:
       is_active: true
     references:
-      position: POSITION-COUNTY_COURT_JUDGE
+      position: POSITION-COUNTY_JUDGE
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_COURT_JUDGE-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_JUDGE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_COURT_JUDGE
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_JUDGE
   - type: Person
     code: PERSON-LEIBO_JF_7J
     attributes:
@@ -431,7 +432,7 @@ groups:
       middle_name: G.
       last_name: Leibo
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_COURT_JUDGE-2026_GENERAL-LEIBO_JF_7J
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_JUDGE-2026_GENERAL-LEIBO_JF_7J
     attributes:
       status: active
       participation: active
@@ -441,7 +442,7 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_COURT_JUDGE-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_JUDGE-2026_GENERAL
       person: PERSON-LEIBO_JF_7J
   - type: Person
     code: PERSON-DORAN_MT_7U
@@ -452,7 +453,7 @@ groups:
       middle_name: J.
       last_name: Doran
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_COURT_JUDGE-2026_GENERAL-DORAN_MT_7U
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_JUDGE-2026_GENERAL-DORAN_MT_7U
     attributes:
       status: active
       participation: active
@@ -462,7 +463,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_COURT_JUDGE-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_JUDGE-2026_GENERAL
       person: PERSON-DORAN_MT_7U
 - records:
   - type: Office
@@ -630,20 +631,20 @@ groups:
       person: PERSON-FISHER_JD_9M
 - records:
   - type: Office
-    code: OFFICE-USA-NY-GEDDES-HIGHWAY_SUPERINTENDENT_TO_FILL_VACANCY
+    code: OFFICE-USA-NY-GEDDES-HIGHWAY_SUPERINTENDENT
     attributes:
       is_active: true
     references:
-      position: POSITION-HIGHWAY_SUPERINTENDENT_TO_FILL_VACANCY
+      position: POSITION-HIGHWAY_SUPERINTENDENT
       jurisdiction: MUNICIPALITY-USA-NY-GEDDES
   - type: Race
-    code: RACE-USA-NY-GEDDES-HIGHWAY_SUPERINTENDENT_TO_FILL_VACANCY-2026_GENERAL
+    code: RACE-USA-NY-GEDDES-HIGHWAY_SUPERINTENDENT-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-GEDDES-2026_GENERAL
-      office: OFFICE-USA-NY-GEDDES-HIGHWAY_SUPERINTENDENT_TO_FILL_VACANCY
+      office: OFFICE-USA-NY-GEDDES-HIGHWAY_SUPERINTENDENT
   - type: Person
     code: PERSON-KRUPA_RB_5N
     attributes:
@@ -652,7 +653,7 @@ groups:
       first_name: Robert
       last_name: Krupa
   - type: Candidacy
-    code: CANDIDACY-USA-NY-GEDDES-HIGHWAY_SUPERINTENDENT_TO_FILL_VACANCY-2026_GENERAL-KRUPA_RB_5N
+    code: CANDIDACY-USA-NY-GEDDES-HIGHWAY_SUPERINTENDENT-UNEXPIRED_TERM-2026_GENERAL-KRUPA_RB_5N
     attributes:
       status: active
       participation: active
@@ -660,24 +661,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-GEDDES-HIGHWAY_SUPERINTENDENT_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-GEDDES-HIGHWAY_SUPERINTENDENT-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-KRUPA_RB_5N
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_10TH_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_10
     attributes:
+      seat_code: DISTRICT_10
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_10TH_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_10TH_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_10-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_10TH_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_10
   - type: Person
     code: PERSON-THEOBALD_ED_2X
     attributes:
@@ -687,7 +689,7 @@ groups:
       middle_name: J.
       last_name: Theobald
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_10TH_DISTRICT-2026_GENERAL-THEOBALD_ED_2X
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_10-2026_GENERAL-THEOBALD_ED_2X
     attributes:
       status: active
       participation: active
@@ -697,7 +699,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_10TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_10-2026_GENERAL
       person: PERSON-THEOBALD_ED_2X
   - type: Person
     code: PERSON-DENTON_EL_2Q
@@ -707,7 +709,7 @@ groups:
       first_name: Elaine
       last_name: Denton
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_10TH_DISTRICT-2026_GENERAL-DENTON_EL_2Q
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_10-2026_GENERAL-DENTON_EL_2Q
     attributes:
       status: active
       participation: active
@@ -717,24 +719,25 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_10TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_10-2026_GENERAL
       person: PERSON-DENTON_EL_2Q
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_11TH_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_11
     attributes:
+      seat_code: DISTRICT_11
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_11TH_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_11TH_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_11-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_11TH_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_11
   - type: Person
     code: PERSON-KEEGAN_SMITH_GN_3G
     attributes:
@@ -743,7 +746,7 @@ groups:
       first_name: Geneanne
       last_name: Keegan-Smith
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_11TH_DISTRICT-2026_GENERAL-KEEGAN_SMITH_GN_3G
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_11-2026_GENERAL-KEEGAN_SMITH_GN_3G
     attributes:
       status: active
       participation: active
@@ -753,7 +756,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_11TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_11-2026_GENERAL
       person: PERSON-KEEGAN_SMITH_GN_3G
   - type: Person
     code: PERSON-HACKETT_JS_9X
@@ -763,7 +766,7 @@ groups:
       first_name: Jessica
       last_name: Hackett
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_11TH_DISTRICT-2026_GENERAL-HACKETT_JS_9X
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_11-2026_GENERAL-HACKETT_JS_9X
     attributes:
       status: active
       participation: active
@@ -771,24 +774,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_11TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_11-2026_GENERAL
       person: PERSON-HACKETT_JS_9X
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_12TH_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_12
     attributes:
+      seat_code: DISTRICT_12
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_12TH_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_12TH_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_12-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_12TH_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_12
   - type: Person
     code: PERSON-KNAPP_DV_8X
     attributes:
@@ -798,7 +802,7 @@ groups:
       middle_name: H.
       last_name: Knapp
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_12TH_DISTRICT-2026_GENERAL-KNAPP_DV_8X
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_12-2026_GENERAL-KNAPP_DV_8X
     attributes:
       status: active
       participation: active
@@ -808,7 +812,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_12TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_12-2026_GENERAL
       person: PERSON-KNAPP_DV_8X
   - type: Person
     code: PERSON-SMITH_NL_6W
@@ -819,7 +823,7 @@ groups:
       middle_name: J.
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_12TH_DISTRICT-2026_GENERAL-SMITH_NL_6W
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_12-2026_GENERAL-SMITH_NL_6W
     attributes:
       status: active
       participation: active
@@ -827,24 +831,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_12TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_12-2026_GENERAL
       person: PERSON-SMITH_NL_6W
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_13TH_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_13
     attributes:
+      seat_code: DISTRICT_13
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_13TH_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_13TH_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_13-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_13TH_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_13
   - type: Person
     code: PERSON-CARTER_BL_7J
     attributes:
@@ -853,7 +858,7 @@ groups:
       first_name: Blake
       last_name: Carter
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_13TH_DISTRICT-2026_GENERAL-CARTER_BL_7J
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_13-2026_GENERAL-CARTER_BL_7J
     attributes:
       status: active
       participation: active
@@ -863,7 +868,7 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_13TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_13-2026_GENERAL
       person: PERSON-CARTER_BL_7J
   - type: Person
     code: PERSON-BUSH_KN_5J
@@ -874,7 +879,7 @@ groups:
       middle_name: L.
       last_name: Bush Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_13TH_DISTRICT-2026_GENERAL-BUSH_KN_5J
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_13-2026_GENERAL-BUSH_KN_5J
     attributes:
       status: active
       participation: active
@@ -884,24 +889,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_13TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_13-2026_GENERAL
       person: PERSON-BUSH_KN_5J
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_14TH_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_14
     attributes:
+      seat_code: DISTRICT_14
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_14TH_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_14TH_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_14-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_14TH_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_14
   - type: Person
     code: PERSON-KELLY_CD_9Q
     attributes:
@@ -911,7 +917,7 @@ groups:
       middle_name: M.
       last_name: Kelly
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_14TH_DISTRICT-2026_GENERAL-KELLY_CD_9Q
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_14-2026_GENERAL-KELLY_CD_9Q
     attributes:
       status: active
       participation: active
@@ -921,7 +927,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_14TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_14-2026_GENERAL
       person: PERSON-KELLY_CD_9Q
   - type: Person
     code: PERSON-DAPSON_JS_4P
@@ -931,7 +937,7 @@ groups:
       first_name: Jessica
       last_name: Dapson
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_14TH_DISTRICT-2026_GENERAL-DAPSON_JS_4P
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_14-2026_GENERAL-DAPSON_JS_4P
     attributes:
       status: active
       participation: active
@@ -941,24 +947,25 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_14TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_14-2026_GENERAL
       person: PERSON-DAPSON_JS_4P
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_15TH_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_15
     attributes:
+      seat_code: DISTRICT_15
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_15TH_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_15TH_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_15-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_15TH_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_15
   - type: Person
     code: PERSON-BENNETT_JO_5T
     attributes:
@@ -967,7 +974,7 @@ groups:
       first_name: Jo
       last_name: Bennett
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_15TH_DISTRICT-2026_GENERAL-BENNETT_JO_5T
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_15-2026_GENERAL-BENNETT_JO_5T
     attributes:
       status: active
       participation: active
@@ -977,7 +984,7 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_15TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_15-2026_GENERAL
       person: PERSON-BENNETT_JO_5T
   - type: Person
     code: PERSON-CARROLL_WD_6C
@@ -988,7 +995,7 @@ groups:
       middle_name: L.
       last_name: Carroll
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_15TH_DISTRICT-2026_GENERAL-CARROLL_WD_6C
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_15-2026_GENERAL-CARROLL_WD_6C
     attributes:
       status: active
       participation: active
@@ -998,24 +1005,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_15TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_15-2026_GENERAL
       person: PERSON-CARROLL_WD_6C
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_16TH_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_16
     attributes:
+      seat_code: DISTRICT_16
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_16TH_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_16TH_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_16-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_16TH_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_16
   - type: Person
     code: PERSON-TARVER_CH_8J
     attributes:
@@ -1024,7 +1032,7 @@ groups:
       first_name: Charlene
       last_name: Tarver
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_16TH_DISTRICT-2026_GENERAL-TARVER_CH_8J
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_16-2026_GENERAL-TARVER_CH_8J
     attributes:
       status: active
       participation: active
@@ -1032,7 +1040,7 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_16TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_16-2026_GENERAL
       person: PERSON-TARVER_CH_8J
   - type: Person
     code: PERSON-BULLOCK_NY_7C
@@ -1042,7 +1050,7 @@ groups:
       first_name: Nyatwa
       last_name: Bullock
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_16TH_DISTRICT-2026_GENERAL-BULLOCK_NY_7C
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_16-2026_GENERAL-BULLOCK_NY_7C
     attributes:
       status: active
       participation: active
@@ -1050,24 +1058,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_16TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_16-2026_GENERAL
       person: PERSON-BULLOCK_NY_7C
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_17TH_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_17
     attributes:
+      seat_code: DISTRICT_17
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_17TH_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_17TH_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_17-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_17TH_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_17
   - type: Person
     code: PERSON-LAVINE_LR_4H
     attributes:
@@ -1077,7 +1086,7 @@ groups:
       middle_name: B.
       last_name: Lavine
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_17TH_DISTRICT-2026_GENERAL-LAVINE_LR_4H
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_17-2026_GENERAL-LAVINE_LR_4H
     attributes:
       status: active
       participation: active
@@ -1085,7 +1094,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_17TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_17-2026_GENERAL
       person: PERSON-LAVINE_LR_4H
   - type: Person
     code: PERSON-HERNANDEZ_ND_3M
@@ -1096,7 +1105,7 @@ groups:
       middle_name: R.
       last_name: Hernandez
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_17TH_DISTRICT-2026_GENERAL-HERNANDEZ_ND_3M
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_17-2026_GENERAL-HERNANDEZ_ND_3M
     attributes:
       status: active
       participation: active
@@ -1106,24 +1115,25 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_17TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_17-2026_GENERAL
       person: PERSON-HERNANDEZ_ND_3M
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_1ST_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_1
     attributes:
+      seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_1ST_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_1ST_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_1ST_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_1
   - type: Person
     code: PERSON-MAY_BR_4M
     attributes:
@@ -1133,7 +1143,7 @@ groups:
       middle_name: F.
       last_name: May
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_1ST_DISTRICT-2026_GENERAL-MAY_BR_4M
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_1-2026_GENERAL-MAY_BR_4M
     attributes:
       status: active
       participation: active
@@ -1143,7 +1153,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_1ST_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_1-2026_GENERAL
       person: PERSON-MAY_BR_4M
   - type: Person
     code: PERSON-NEAL_JS_3B
@@ -1154,7 +1164,7 @@ groups:
       middle_name: K.
       last_name: Neal
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_1ST_DISTRICT-2026_GENERAL-NEAL_JS_3B
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_1-2026_GENERAL-NEAL_JS_3B
     attributes:
       status: active
       participation: active
@@ -1164,24 +1174,25 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_1ST_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_1-2026_GENERAL
       person: PERSON-NEAL_JS_3B
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_2ND_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_2
     attributes:
+      seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_2ND_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_2ND_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_2ND_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_2
   - type: Person
     code: PERSON-MEAKER_KV_9D
     attributes:
@@ -1191,7 +1202,7 @@ groups:
       middle_name: J.
       last_name: Meaker
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_2ND_DISTRICT-2026_GENERAL-MEAKER_KV_9D
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_2-2026_GENERAL-MEAKER_KV_9D
     attributes:
       status: active
       participation: active
@@ -1201,7 +1212,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_2ND_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_2-2026_GENERAL
       person: PERSON-MEAKER_KV_9D
   - type: Person
     code: PERSON-JONES_MT_6D
@@ -1211,7 +1222,7 @@ groups:
       first_name: Matt
       last_name: Jones
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_2ND_DISTRICT-2026_GENERAL-JONES_MT_6D
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_2-2026_GENERAL-JONES_MT_6D
     attributes:
       status: active
       participation: active
@@ -1219,24 +1230,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_2ND_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_2-2026_GENERAL
       person: PERSON-JONES_MT_6D
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_3RD_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_3
     attributes:
+      seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_3RD_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_3RD_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_3RD_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_3
   - type: Person
     code: PERSON-SPICER_GR_9K
     attributes:
@@ -1245,7 +1257,7 @@ groups:
       first_name: Graeme
       last_name: Spicer
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_3RD_DISTRICT-2026_GENERAL-SPICER_GR_9K
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_3-2026_GENERAL-SPICER_GR_9K
     attributes:
       status: active
       participation: active
@@ -1253,7 +1265,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_3RD_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_3-2026_GENERAL
       person: PERSON-SPICER_GR_9K
   - type: Person
     code: PERSON-BURTIS_TM_7D
@@ -1264,7 +1276,7 @@ groups:
       middle_name: T.
       last_name: Burtis
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_3RD_DISTRICT-2026_GENERAL-BURTIS_TM_7D
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_3-2026_GENERAL-BURTIS_TM_7D
     attributes:
       status: active
       participation: active
@@ -1274,24 +1286,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_3RD_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_3-2026_GENERAL
       person: PERSON-BURTIS_TM_7D
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_4TH_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_4
     attributes:
+      seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_4TH_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_4TH_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_4TH_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_4
   - type: Person
     code: PERSON-THOMPSON_JR_9K
     attributes:
@@ -1301,7 +1314,7 @@ groups:
       middle_name: W.
       last_name: Thompson
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_4TH_DISTRICT-2026_GENERAL-THOMPSON_JR_9K
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_4-2026_GENERAL-THOMPSON_JR_9K
     attributes:
       status: active
       participation: active
@@ -1311,7 +1324,7 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_4TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_4-2026_GENERAL
       person: PERSON-THOMPSON_JR_9K
   - type: Person
     code: PERSON-ENGLISH_LS_6Z
@@ -1322,7 +1335,7 @@ groups:
       middle_name: J.
       last_name: English
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_4TH_DISTRICT-2026_GENERAL-ENGLISH_LS_6Z
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_4-2026_GENERAL-ENGLISH_LS_6Z
     attributes:
       status: active
       participation: active
@@ -1332,24 +1345,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_4TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_4-2026_GENERAL
       person: PERSON-ENGLISH_LS_6Z
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_5TH_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_5
     attributes:
+      seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_5TH_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_5TH_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_5TH_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_5
   - type: Person
     code: PERSON-CICIARELLI_DN_9C
     attributes:
@@ -1359,7 +1373,7 @@ groups:
       middle_name: A.
       last_name: Ciciarelli
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_5TH_DISTRICT-2026_GENERAL-CICIARELLI_DN_9C
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_5-2026_GENERAL-CICIARELLI_DN_9C
     attributes:
       status: active
       participation: active
@@ -1369,7 +1383,7 @@ groups:
       - label: UJ
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_5TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_5-2026_GENERAL
       person: PERSON-CICIARELLI_DN_9C
   - type: Person
     code: PERSON-BLOCK_EL_8H
@@ -1379,7 +1393,7 @@ groups:
       first_name: Ellen
       last_name: Block
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_5TH_DISTRICT-2026_GENERAL-BLOCK_EL_8H
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_5-2026_GENERAL-BLOCK_EL_8H
     attributes:
       status: active
       participation: active
@@ -1389,24 +1403,25 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_5TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_5-2026_GENERAL
       person: PERSON-BLOCK_EL_8H
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_6TH_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_6
     attributes:
+      seat_code: DISTRICT_6
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_6TH_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_6TH_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_6-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_6TH_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_6
   - type: Person
     code: PERSON-CLARK_CH_8A
     attributes:
@@ -1416,7 +1431,7 @@ groups:
       middle_name: A.
       last_name: Clark
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_6TH_DISTRICT-2026_GENERAL-CLARK_CH_8A
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_6-2026_GENERAL-CLARK_CH_8A
     attributes:
       status: active
       participation: active
@@ -1426,7 +1441,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_6TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_6-2026_GENERAL
       person: PERSON-CLARK_CH_8A
   - type: Person
     code: PERSON-ERIKSEN_GR_3X
@@ -1436,7 +1451,7 @@ groups:
       first_name: Gregg
       last_name: Eriksen
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_6TH_DISTRICT-2026_GENERAL-ERIKSEN_GR_3X
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_6-2026_GENERAL-ERIKSEN_GR_3X
     attributes:
       status: active
       participation: active
@@ -1446,24 +1461,25 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_6TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_6-2026_GENERAL
       person: PERSON-ERIKSEN_GR_3X
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_7TH_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_7
     attributes:
+      seat_code: DISTRICT_7
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_7TH_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_7TH_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_7-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_7TH_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_7
   - type: Person
     code: PERSON-ROMEO_DN_8E
     attributes:
@@ -1472,7 +1488,7 @@ groups:
       first_name: Dan
       last_name: Romeo
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_7TH_DISTRICT-2026_GENERAL-ROMEO_DN_8E
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_7-2026_GENERAL-ROMEO_DN_8E
     attributes:
       status: active
       participation: active
@@ -1480,7 +1496,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_7TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_7-2026_GENERAL
       person: PERSON-ROMEO_DN_8E
   - type: Person
     code: PERSON-BAILEY_DN_5D
@@ -1491,7 +1507,7 @@ groups:
       middle_name: J.
       last_name: Bailey
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_7TH_DISTRICT-2026_GENERAL-BAILEY_DN_5D
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_7-2026_GENERAL-BAILEY_DN_5D
     attributes:
       status: active
       participation: active
@@ -1499,24 +1515,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_7TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_7-2026_GENERAL
       person: PERSON-BAILEY_DN_5D
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_8TH_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_8
     attributes:
+      seat_code: DISTRICT_8
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_8TH_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_8TH_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_8-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_8TH_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_8
   - type: Person
     code: PERSON-CAMPERLINO_BR_8G
     attributes:
@@ -1525,7 +1542,7 @@ groups:
       first_name: Brandon
       last_name: Camperlino
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_8TH_DISTRICT-2026_GENERAL-CAMPERLINO_BR_8G
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_8-2026_GENERAL-CAMPERLINO_BR_8G
     attributes:
       status: active
       participation: active
@@ -1535,7 +1552,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_8TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_8-2026_GENERAL
       person: PERSON-CAMPERLINO_BR_8G
   - type: Person
     code: PERSON-RYAN_CH_8M
@@ -1545,7 +1562,7 @@ groups:
       first_name: Chad
       last_name: Ryan
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_8TH_DISTRICT-2026_GENERAL-RYAN_CH_8M
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_8-2026_GENERAL-RYAN_CH_8M
     attributes:
       status: active
       participation: active
@@ -1555,24 +1572,25 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_8TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_8-2026_GENERAL
       person: PERSON-RYAN_CH_8M
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_9TH_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_9
     attributes:
+      seat_code: DISTRICT_9
       is_active: true
     references:
-      position: POSITION-LEGISLATOR_9TH_DISTRICT
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_9TH_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_9-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_9TH_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_9
   - type: Person
     code: PERSON-WATTS_NC_5T
     attributes:
@@ -1581,7 +1599,7 @@ groups:
       first_name: Nicole
       last_name: Watts
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_9TH_DISTRICT-2026_GENERAL-WATTS_NC_5T
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_9-2026_GENERAL-WATTS_NC_5T
     attributes:
       status: active
       participation: active
@@ -1591,7 +1609,7 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_9TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_9-2026_GENERAL
       person: PERSON-WATTS_NC_5T
   - type: Person
     code: PERSON-VARGA_RB_2Z
@@ -1602,7 +1620,7 @@ groups:
       middle_name: C.S.
       last_name: Varga
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_9TH_DISTRICT-2026_GENERAL-VARGA_RB_2Z
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_9-2026_GENERAL-VARGA_RB_2Z
     attributes:
       status: active
       participation: active
@@ -1612,24 +1630,24 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-LEGISLATOR_9TH_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-COUNTY_LEGISLATOR-DISTRICT_9-2026_GENERAL
       person: PERSON-VARGA_RB_2Z
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ONONDAGA-ONONDAGA_COUNTY_SHERIFF
+    code: OFFICE-USA-NY-COUNTY_ONONDAGA-SHERIFF
     attributes:
       is_active: true
     references:
-      position: POSITION-ONONDAGA_COUNTY_SHERIFF
+      position: POSITION-SHERIFF
       jurisdiction: COUNTY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_ONONDAGA-ONONDAGA_COUNTY_SHERIFF-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ONONDAGA-SHERIFF-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ONONDAGA-ONONDAGA_COUNTY_SHERIFF
+      office: OFFICE-USA-NY-COUNTY_ONONDAGA-SHERIFF
   - type: Person
     code: PERSON-LENHART_RJ_3B
     attributes:
@@ -1638,7 +1656,7 @@ groups:
       first_name: RJ
       last_name: Lenhart
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-ONONDAGA_COUNTY_SHERIFF-2026_GENERAL-LENHART_RJ_3B
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-SHERIFF-2026_GENERAL-LENHART_RJ_3B
     attributes:
       status: active
       participation: active
@@ -1648,7 +1666,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-ONONDAGA_COUNTY_SHERIFF-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-SHERIFF-2026_GENERAL
       person: PERSON-LENHART_RJ_3B
   - type: Person
     code: PERSON-SHELLEY_TB_3X
@@ -1658,7 +1676,7 @@ groups:
       first_name: Toby
       last_name: Shelley
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-ONONDAGA_COUNTY_SHERIFF-2026_GENERAL-SHELLEY_TB_3X
+    code: CANDIDACY-USA-NY-COUNTY_ONONDAGA-SHERIFF-2026_GENERAL-SHELLEY_TB_3X
     attributes:
       status: active
       participation: active
@@ -1668,24 +1686,24 @@ groups:
       - label: WTP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ONONDAGA-ONONDAGA_COUNTY_SHERIFF-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ONONDAGA-SHERIFF-2026_GENERAL
       person: PERSON-SHELLEY_TB_3X
 - records:
   - type: Office
-    code: OFFICE-USA-NY-CICERO-RECIEVER_OF_TAXES_TO_FILL_VACANCY
+    code: OFFICE-USA-NY-CICERO-RECEIVER_OF_TAXES
     attributes:
       is_active: true
     references:
-      position: POSITION-RECIEVER_OF_TAXES_TO_FILL_VACANCY
+      position: POSITION-RECEIVER_OF_TAXES
       jurisdiction: MUNICIPALITY-USA-NY-CICERO
   - type: Race
-    code: RACE-USA-NY-CICERO-RECIEVER_OF_TAXES_TO_FILL_VACANCY-2026_GENERAL
+    code: RACE-USA-NY-CICERO-RECEIVER_OF_TAXES-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-CICERO-2026_GENERAL
-      office: OFFICE-USA-NY-CICERO-RECIEVER_OF_TAXES_TO_FILL_VACANCY
+      office: OFFICE-USA-NY-CICERO-RECEIVER_OF_TAXES
   - type: Person
     code: PERSON-GAVIN_TR_3G
     attributes:
@@ -1695,7 +1713,7 @@ groups:
       middle_name: L.
       last_name: Gavin
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CICERO-RECIEVER_OF_TAXES_TO_FILL_VACANCY-2026_GENERAL-GAVIN_TR_3G
+    code: CANDIDACY-USA-NY-CICERO-RECEIVER_OF_TAXES-UNEXPIRED_TERM-2026_GENERAL-GAVIN_TR_3G
     attributes:
       status: active
       participation: active
@@ -1705,24 +1723,24 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-CICERO-RECIEVER_OF_TAXES_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-CICERO-RECEIVER_OF_TAXES-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-GAVIN_TR_3G
 - records:
   - type: Office
-    code: OFFICE-USA-NY-SKANEATELES_TOWN-SUPERVISOR
+    code: OFFICE-USA-NY-SKANEATELES_TOWN-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-SKANEATELES_TOWN
   - type: Race
-    code: RACE-USA-NY-SKANEATELES_TOWN-SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-SKANEATELES_TOWN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-SKANEATELES_TOWN-2026_GENERAL
-      office: OFFICE-USA-NY-SKANEATELES_TOWN-SUPERVISOR
+      office: OFFICE-USA-NY-SKANEATELES_TOWN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-LEGG_CH_4F
     attributes:
@@ -1731,7 +1749,7 @@ groups:
       first_name: Chris
       last_name: Legg
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SKANEATELES_TOWN-SUPERVISOR-2026_GENERAL-LEGG_CH_4F
+    code: CANDIDACY-USA-NY-SKANEATELES_TOWN-TOWN_SUPERVISOR-2026_GENERAL-LEGG_CH_4F
     attributes:
       status: active
       participation: active
@@ -1741,7 +1759,7 @@ groups:
       - label: WTP
         kind: designation
     references:
-      race: RACE-USA-NY-SKANEATELES_TOWN-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-SKANEATELES_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-LEGG_CH_4F
   - type: Person
     code: PERSON-COFFEY_LR_4B
@@ -1752,7 +1770,7 @@ groups:
       middle_name: N.
       last_name: Coffey
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SKANEATELES_TOWN-SUPERVISOR-2026_GENERAL-COFFEY_LR_4B
+    code: CANDIDACY-USA-NY-SKANEATELES_TOWN-TOWN_SUPERVISOR-2026_GENERAL-COFFEY_LR_4B
     attributes:
       status: active
       participation: active
@@ -1762,24 +1780,24 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-SKANEATELES_TOWN-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-SKANEATELES_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-COFFEY_LR_4B
 - records:
   - type: Office
-    code: OFFICE-USA-NY-SPAFFORD-SUPERVISOR
+    code: OFFICE-USA-NY-SPAFFORD-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-SPAFFORD
   - type: Race
-    code: RACE-USA-NY-SPAFFORD-SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-SPAFFORD-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-SPAFFORD-2026_GENERAL
-      office: OFFICE-USA-NY-SPAFFORD-SUPERVISOR
+      office: OFFICE-USA-NY-SPAFFORD-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-KOZUB_CH_6E
     attributes:
@@ -1788,7 +1806,7 @@ groups:
       first_name: Christopher
       last_name: Kozub
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SPAFFORD-SUPERVISOR-2026_GENERAL-KOZUB_CH_6E
+    code: CANDIDACY-USA-NY-SPAFFORD-TOWN_SUPERVISOR-2026_GENERAL-KOZUB_CH_6E
     attributes:
       status: active
       participation: active
@@ -1798,7 +1816,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-SPAFFORD-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-SPAFFORD-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-KOZUB_CH_6E
   - type: Person
     code: PERSON-MORAN_LR_5N
@@ -1809,7 +1827,7 @@ groups:
       middle_name: J.
       last_name: Moran
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SPAFFORD-SUPERVISOR-2026_GENERAL-MORAN_LR_5N
+    code: CANDIDACY-USA-NY-SPAFFORD-TOWN_SUPERVISOR-2026_GENERAL-MORAN_LR_5N
     attributes:
       status: active
       participation: active
@@ -1819,24 +1837,24 @@ groups:
       - label: WTP
         kind: designation
     references:
-      race: RACE-USA-NY-SPAFFORD-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-SPAFFORD-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-MORAN_LR_5N
 - records:
   - type: Office
-    code: OFFICE-USA-NY-VAN_BUREN-SUPERVISOR
+    code: OFFICE-USA-NY-VAN_BUREN-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-VAN_BUREN
   - type: Race
-    code: RACE-USA-NY-VAN_BUREN-SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-VAN_BUREN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-VAN_BUREN-2026_GENERAL
-      office: OFFICE-USA-NY-VAN_BUREN-SUPERVISOR
+      office: OFFICE-USA-NY-VAN_BUREN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-SYKES_CL_9H
     attributes:
@@ -1846,7 +1864,7 @@ groups:
       middle_name: E.
       last_name: Sykes
   - type: Candidacy
-    code: CANDIDACY-USA-NY-VAN_BUREN-SUPERVISOR-2026_GENERAL-SYKES_CL_9H
+    code: CANDIDACY-USA-NY-VAN_BUREN-TOWN_SUPERVISOR-2026_GENERAL-SYKES_CL_9H
     attributes:
       status: active
       participation: active
@@ -1856,24 +1874,24 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-VAN_BUREN-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-VAN_BUREN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-SYKES_CL_9H
 - records:
   - type: Office
-    code: OFFICE-USA-NY-CLAY-SUPERVISOR
+    code: OFFICE-USA-NY-CLAY-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-CLAY
   - type: Race
-    code: RACE-USA-NY-CLAY-SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-CLAY-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-CLAY-2026_GENERAL
-      office: OFFICE-USA-NY-CLAY-SUPERVISOR
+      office: OFFICE-USA-NY-CLAY-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-CAPRIA_DV_9N
     attributes:
@@ -1882,7 +1900,7 @@ groups:
       first_name: Dave
       last_name: Capria
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CLAY-SUPERVISOR-2026_GENERAL-CAPRIA_DV_9N
+    code: CANDIDACY-USA-NY-CLAY-TOWN_SUPERVISOR-2026_GENERAL-CAPRIA_DV_9N
     attributes:
       status: active
       participation: active
@@ -1890,7 +1908,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-CLAY-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-CLAY-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-CAPRIA_DV_9N
   - type: Person
     code: PERSON-BICK_JS_6T
@@ -1901,7 +1919,7 @@ groups:
       middle_name: A.
       last_name: Bick
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CLAY-SUPERVISOR-2026_GENERAL-BICK_JS_6T
+    code: CANDIDACY-USA-NY-CLAY-TOWN_SUPERVISOR-2026_GENERAL-BICK_JS_6T
     attributes:
       status: active
       participation: active
@@ -1911,24 +1929,24 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-CLAY-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-CLAY-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-BICK_JS_6T
 - records:
   - type: Office
-    code: OFFICE-USA-NY-POMPEY-SUPERVISOR
+    code: OFFICE-USA-NY-POMPEY-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-POMPEY
   - type: Race
-    code: RACE-USA-NY-POMPEY-SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-POMPEY-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-POMPEY-2026_GENERAL
-      office: OFFICE-USA-NY-POMPEY-SUPERVISOR
+      office: OFFICE-USA-NY-POMPEY-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-ANGELLO_DV_4A
     attributes:
@@ -1938,7 +1956,7 @@ groups:
       middle_name: F.
       last_name: Angello
   - type: Candidacy
-    code: CANDIDACY-USA-NY-POMPEY-SUPERVISOR-2026_GENERAL-ANGELLO_DV_4A
+    code: CANDIDACY-USA-NY-POMPEY-TOWN_SUPERVISOR-2026_GENERAL-ANGELLO_DV_4A
     attributes:
       status: active
       participation: active
@@ -1948,7 +1966,7 @@ groups:
       - label: VA
         kind: designation
     references:
-      race: RACE-USA-NY-POMPEY-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-POMPEY-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-ANGELLO_DV_4A
   - type: Person
     code: PERSON-CARPENTER_DN_8S
@@ -1958,7 +1976,7 @@ groups:
       first_name: Diana
       last_name: Carpenter
   - type: Candidacy
-    code: CANDIDACY-USA-NY-POMPEY-SUPERVISOR-2026_GENERAL-CARPENTER_DN_8S
+    code: CANDIDACY-USA-NY-POMPEY-TOWN_SUPERVISOR-2026_GENERAL-CARPENTER_DN_8S
     attributes:
       status: active
       participation: active
@@ -1966,24 +1984,24 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-POMPEY-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-POMPEY-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-CARPENTER_DN_8S
 - records:
   - type: Office
-    code: OFFICE-USA-NY-SALINA-SUPERVISOR
+    code: OFFICE-USA-NY-SALINA-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-SALINA
   - type: Race
-    code: RACE-USA-NY-SALINA-SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-SALINA-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-SALINA-2026_GENERAL
-      office: OFFICE-USA-NY-SALINA-SUPERVISOR
+      office: OFFICE-USA-NY-SALINA-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-STOTT_DV_9H
     attributes:
@@ -1993,7 +2011,7 @@ groups:
       middle_name: M.
       last_name: Stott
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SALINA-SUPERVISOR-2026_GENERAL-STOTT_DV_9H
+    code: CANDIDACY-USA-NY-SALINA-TOWN_SUPERVISOR-2026_GENERAL-STOTT_DV_9H
     attributes:
       status: active
       participation: active
@@ -2003,7 +2021,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-SALINA-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-SALINA-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-STOTT_DV_9H
   - type: Person
     code: PERSON-PAUL_LS_5L
@@ -2013,7 +2031,7 @@ groups:
       first_name: Leesa
       last_name: Paul
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SALINA-SUPERVISOR-2026_GENERAL-PAUL_LS_5L
+    code: CANDIDACY-USA-NY-SALINA-TOWN_SUPERVISOR-2026_GENERAL-PAUL_LS_5L
     attributes:
       status: active
       participation: active
@@ -2021,24 +2039,24 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-SALINA-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-SALINA-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-PAUL_LS_5L
 - records:
   - type: Office
-    code: OFFICE-USA-NY-OTISCO-SUPERVISOR
+    code: OFFICE-USA-NY-OTISCO-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-OTISCO
   - type: Race
-    code: RACE-USA-NY-OTISCO-SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-OTISCO-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-OTISCO-2026_GENERAL
-      office: OFFICE-USA-NY-OTISCO-SUPERVISOR
+      office: OFFICE-USA-NY-OTISCO-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-HALL_GL_4T
     attributes:
@@ -2047,7 +2065,7 @@ groups:
       first_name: Glenn
       last_name: Hall
   - type: Candidacy
-    code: CANDIDACY-USA-NY-OTISCO-SUPERVISOR-2026_GENERAL-HALL_GL_4T
+    code: CANDIDACY-USA-NY-OTISCO-TOWN_SUPERVISOR-2026_GENERAL-HALL_GL_4T
     attributes:
       status: active
       participation: active
@@ -2057,24 +2075,24 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-OTISCO-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-OTISCO-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-HALL_GL_4T
 - records:
   - type: Office
-    code: OFFICE-USA-NY-MARCELLUS_TOWN-SUPERVISOR
+    code: OFFICE-USA-NY-MARCELLUS_TOWN-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-MARCELLUS_TOWN
   - type: Race
-    code: RACE-USA-NY-MARCELLUS_TOWN-SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-MARCELLUS_TOWN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-MARCELLUS_TOWN-2026_GENERAL
-      office: OFFICE-USA-NY-MARCELLUS_TOWN-SUPERVISOR
+      office: OFFICE-USA-NY-MARCELLUS_TOWN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-ATTLEY_JN_2N
     attributes:
@@ -2084,7 +2102,7 @@ groups:
       middle_name: Carmody
       last_name: Attley
   - type: Candidacy
-    code: CANDIDACY-USA-NY-MARCELLUS_TOWN-SUPERVISOR-2026_GENERAL-ATTLEY_JN_2N
+    code: CANDIDACY-USA-NY-MARCELLUS_TOWN-TOWN_SUPERVISOR-2026_GENERAL-ATTLEY_JN_2N
     attributes:
       status: active
       participation: active
@@ -2092,7 +2110,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-MARCELLUS_TOWN-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-MARCELLUS_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-ATTLEY_JN_2N
   - type: Person
     code: PERSON-HOEY_TR_7N
@@ -2103,7 +2121,7 @@ groups:
       middle_name: D.
       last_name: Hoey
   - type: Candidacy
-    code: CANDIDACY-USA-NY-MARCELLUS_TOWN-SUPERVISOR-2026_GENERAL-HOEY_TR_7N
+    code: CANDIDACY-USA-NY-MARCELLUS_TOWN-TOWN_SUPERVISOR-2026_GENERAL-HOEY_TR_7N
     attributes:
       status: active
       participation: active
@@ -2113,24 +2131,24 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-MARCELLUS_TOWN-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-MARCELLUS_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-HOEY_TR_7N
 - records:
   - type: Office
-    code: OFFICE-USA-NY-CAMILLUS_TOWN-SUPERVISOR
+    code: OFFICE-USA-NY-CAMILLUS_TOWN-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-CAMILLUS_TOWN
   - type: Race
-    code: RACE-USA-NY-CAMILLUS_TOWN-SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-CAMILLUS_TOWN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-CAMILLUS_TOWN-2026_GENERAL
-      office: OFFICE-USA-NY-CAMILLUS_TOWN-SUPERVISOR
+      office: OFFICE-USA-NY-CAMILLUS_TOWN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-FATCHERIC_JH_5K
     attributes:
@@ -2140,7 +2158,7 @@ groups:
       middle_name: A.
       last_name: Fatcheric II
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-SUPERVISOR-2026_GENERAL-FATCHERIC_JH_5K
+    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-TOWN_SUPERVISOR-2026_GENERAL-FATCHERIC_JH_5K
     attributes:
       status: active
       participation: active
@@ -2152,24 +2170,24 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-CAMILLUS_TOWN-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-CAMILLUS_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-FATCHERIC_JH_5K
 - records:
   - type: Office
-    code: OFFICE-USA-NY-ONONDAGA-SUPERVISOR
+    code: OFFICE-USA-NY-ONONDAGA-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-ONONDAGA
   - type: Race
-    code: RACE-USA-NY-ONONDAGA-SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-ONONDAGA-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-ONONDAGA-2026_GENERAL
-      office: OFFICE-USA-NY-ONONDAGA-SUPERVISOR
+      office: OFFICE-USA-NY-ONONDAGA-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-MAHAR_JH_7A
     attributes:
@@ -2179,7 +2197,7 @@ groups:
       middle_name: P.
       last_name: Mahar
   - type: Candidacy
-    code: CANDIDACY-USA-NY-ONONDAGA-SUPERVISOR-2026_GENERAL-MAHAR_JH_7A
+    code: CANDIDACY-USA-NY-ONONDAGA-TOWN_SUPERVISOR-2026_GENERAL-MAHAR_JH_7A
     attributes:
       status: active
       participation: active
@@ -2189,7 +2207,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-ONONDAGA-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-ONONDAGA-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-MAHAR_JH_7A
   - type: Person
     code: PERSON-BEY_KH_5H
@@ -2199,7 +2217,7 @@ groups:
       first_name: Khalid
       last_name: Bey
   - type: Candidacy
-    code: CANDIDACY-USA-NY-ONONDAGA-SUPERVISOR-2026_GENERAL-BEY_KH_5H
+    code: CANDIDACY-USA-NY-ONONDAGA-TOWN_SUPERVISOR-2026_GENERAL-BEY_KH_5H
     attributes:
       status: active
       participation: active
@@ -2207,24 +2225,24 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-ONONDAGA-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-ONONDAGA-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-BEY_KH_5H
 - records:
   - type: Office
-    code: OFFICE-USA-NY-MANLIUS_TOWN-SUPERVISOR
+    code: OFFICE-USA-NY-MANLIUS_TOWN-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-MANLIUS_TOWN
   - type: Race
-    code: RACE-USA-NY-MANLIUS_TOWN-SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-MANLIUS_TOWN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-MANLIUS_TOWN-2026_GENERAL
-      office: OFFICE-USA-NY-MANLIUS_TOWN-SUPERVISOR
+      office: OFFICE-USA-NY-MANLIUS_TOWN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-KOCH_LW_5L
     attributes:
@@ -2234,7 +2252,7 @@ groups:
       middle_name: S.
       last_name: Koch
   - type: Candidacy
-    code: CANDIDACY-USA-NY-MANLIUS_TOWN-SUPERVISOR-2026_GENERAL-KOCH_LW_5L
+    code: CANDIDACY-USA-NY-MANLIUS_TOWN-TOWN_SUPERVISOR-2026_GENERAL-KOCH_LW_5L
     attributes:
       status: active
       participation: active
@@ -2242,7 +2260,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-MANLIUS_TOWN-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-MANLIUS_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-KOCH_LW_5L
   - type: Person
     code: PERSON-BOLLINGER_SR_6C
@@ -2252,7 +2270,7 @@ groups:
       first_name: Sara
       last_name: Bollinger
   - type: Candidacy
-    code: CANDIDACY-USA-NY-MANLIUS_TOWN-SUPERVISOR-2026_GENERAL-BOLLINGER_SR_6C
+    code: CANDIDACY-USA-NY-MANLIUS_TOWN-TOWN_SUPERVISOR-2026_GENERAL-BOLLINGER_SR_6C
     attributes:
       status: active
       participation: active
@@ -2262,24 +2280,24 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-MANLIUS_TOWN-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-MANLIUS_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-BOLLINGER_SR_6C
 - records:
   - type: Office
-    code: OFFICE-USA-NY-DE_WITT-SUPERVISOR
+    code: OFFICE-USA-NY-DE_WITT-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-DE_WITT
   - type: Race
-    code: RACE-USA-NY-DE_WITT-SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-DE_WITT-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-DE_WITT-2026_GENERAL
-      office: OFFICE-USA-NY-DE_WITT-SUPERVISOR
+      office: OFFICE-USA-NY-DE_WITT-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-RUCKDESCHEL_MX_5T
     attributes:
@@ -2288,7 +2306,7 @@ groups:
       first_name: Max
       last_name: Ruckdeschel
   - type: Candidacy
-    code: CANDIDACY-USA-NY-DE_WITT-SUPERVISOR-2026_GENERAL-RUCKDESCHEL_MX_5T
+    code: CANDIDACY-USA-NY-DE_WITT-TOWN_SUPERVISOR-2026_GENERAL-RUCKDESCHEL_MX_5T
     attributes:
       status: active
       participation: active
@@ -2296,7 +2314,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-DE_WITT-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-DE_WITT-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-RUCKDESCHEL_MX_5T
   - type: Person
     code: PERSON-KUNZ_RC_3Z
@@ -2307,7 +2325,7 @@ groups:
       middle_name: G.
       last_name: Kunz
   - type: Candidacy
-    code: CANDIDACY-USA-NY-DE_WITT-SUPERVISOR-2026_GENERAL-KUNZ_RC_3Z
+    code: CANDIDACY-USA-NY-DE_WITT-TOWN_SUPERVISOR-2026_GENERAL-KUNZ_RC_3Z
     attributes:
       status: active
       participation: active
@@ -2315,24 +2333,24 @@ groups:
       - label: CON
         kind: designation
     references:
-      race: RACE-USA-NY-DE_WITT-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-DE_WITT-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-KUNZ_RC_3Z
 - records:
   - type: Office
-    code: OFFICE-USA-NY-CICERO-SUPERVISOR
+    code: OFFICE-USA-NY-CICERO-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-CICERO
   - type: Race
-    code: RACE-USA-NY-CICERO-SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-CICERO-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-CICERO-2026_GENERAL
-      office: OFFICE-USA-NY-CICERO-SUPERVISOR
+      office: OFFICE-USA-NY-CICERO-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-AREGANO_MC_9A
     attributes:
@@ -2342,7 +2360,7 @@ groups:
       middle_name: A.
       last_name: Aregano
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CICERO-SUPERVISOR-2026_GENERAL-AREGANO_MC_9A
+    code: CANDIDACY-USA-NY-CICERO-TOWN_SUPERVISOR-2026_GENERAL-AREGANO_MC_9A
     attributes:
       status: active
       participation: active
@@ -2354,7 +2372,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-CICERO-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-CICERO-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-AREGANO_MC_9A
   - type: Person
     code: PERSON-SANTUCCI_RB_6C
@@ -2364,7 +2382,7 @@ groups:
       first_name: Rob
       last_name: Santucci
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CICERO-SUPERVISOR-2026_GENERAL-SANTUCCI_RB_6C
+    code: CANDIDACY-USA-NY-CICERO-TOWN_SUPERVISOR-2026_GENERAL-SANTUCCI_RB_6C
     attributes:
       status: active
       participation: active
@@ -2374,24 +2392,24 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-CICERO-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-CICERO-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-SANTUCCI_RB_6C
 - records:
   - type: Office
-    code: OFFICE-USA-NY-FABIUS_TOWN-SUPERVISOR
+    code: OFFICE-USA-NY-FABIUS_TOWN-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-FABIUS_TOWN
   - type: Race
-    code: RACE-USA-NY-FABIUS_TOWN-SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-FABIUS_TOWN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-FABIUS_TOWN-2026_GENERAL
-      office: OFFICE-USA-NY-FABIUS_TOWN-SUPERVISOR
+      office: OFFICE-USA-NY-FABIUS_TOWN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-VILARDI_MC_2F
     attributes:
@@ -2401,7 +2419,7 @@ groups:
       middle_name: L.
       last_name: Vilardi
   - type: Candidacy
-    code: CANDIDACY-USA-NY-FABIUS_TOWN-SUPERVISOR-2026_GENERAL-VILARDI_MC_2F
+    code: CANDIDACY-USA-NY-FABIUS_TOWN-TOWN_SUPERVISOR-2026_GENERAL-VILARDI_MC_2F
     attributes:
       status: active
       participation: active
@@ -2411,24 +2429,24 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-FABIUS_TOWN-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-FABIUS_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-VILARDI_MC_2F
 - records:
   - type: Office
-    code: OFFICE-USA-NY-LAFAYETTE-SUPERVISOR
+    code: OFFICE-USA-NY-LAFAYETTE-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-LAFAYETTE
   - type: Race
-    code: RACE-USA-NY-LAFAYETTE-SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-LAFAYETTE-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-LAFAYETTE-2026_GENERAL
-      office: OFFICE-USA-NY-LAFAYETTE-SUPERVISOR
+      office: OFFICE-USA-NY-LAFAYETTE-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-MCCONNELL_WL_8T
     attributes:
@@ -2438,7 +2456,7 @@ groups:
       middle_name: D.
       last_name: McConnell
   - type: Candidacy
-    code: CANDIDACY-USA-NY-LAFAYETTE-SUPERVISOR-2026_GENERAL-MCCONNELL_WL_8T
+    code: CANDIDACY-USA-NY-LAFAYETTE-TOWN_SUPERVISOR-2026_GENERAL-MCCONNELL_WL_8T
     attributes:
       status: active
       participation: active
@@ -2448,7 +2466,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-LAFAYETTE-SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-LAFAYETTE-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-MCCONNELL_WL_8T
 - records:
   - type: Office
@@ -2529,7 +2547,7 @@ groups:
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_CLERK_2
+      position: POSITION-TOWN_CLERK
       jurisdiction: MUNICIPALITY-USA-NY-CLAY
   - type: Race
     code: RACE-USA-NY-CLAY-TOWN_CLERK-2026_GENERAL
@@ -2587,7 +2605,7 @@ groups:
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_CLERK_2
+      position: POSITION-TOWN_CLERK
       jurisdiction: MUNICIPALITY-USA-NY-FABIUS_TOWN
   - type: Race
     code: RACE-USA-NY-FABIUS_TOWN-TOWN_CLERK-2026_GENERAL
@@ -2624,7 +2642,7 @@ groups:
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_CLERK_2
+      position: POSITION-TOWN_CLERK
       jurisdiction: MUNICIPALITY-USA-NY-CICERO
   - type: Race
     code: RACE-USA-NY-CICERO-TOWN_CLERK-2026_GENERAL
@@ -2659,20 +2677,20 @@ groups:
       person: PERSON-COSILMON_TR_8R
 - records:
   - type: Office
-    code: OFFICE-USA-NY-POMPEY-TOWN_CLERK_TO_FILL_VACANCY
+    code: OFFICE-USA-NY-POMPEY-TOWN_CLERK
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_CLERK_TO_FILL_VACANCY
+      position: POSITION-TOWN_CLERK
       jurisdiction: MUNICIPALITY-USA-NY-POMPEY
   - type: Race
-    code: RACE-USA-NY-POMPEY-TOWN_CLERK_TO_FILL_VACANCY-2026_GENERAL
+    code: RACE-USA-NY-POMPEY-TOWN_CLERK-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-POMPEY-2026_GENERAL
-      office: OFFICE-USA-NY-POMPEY-TOWN_CLERK_TO_FILL_VACANCY
+      office: OFFICE-USA-NY-POMPEY-TOWN_CLERK
   - type: Person
     code: PERSON-HARTNETT_AL_3Z
     attributes:
@@ -2682,7 +2700,7 @@ groups:
       middle_name: M.
       last_name: Hartnett
   - type: Candidacy
-    code: CANDIDACY-USA-NY-POMPEY-TOWN_CLERK_TO_FILL_VACANCY-2026_GENERAL-HARTNETT_AL_3Z
+    code: CANDIDACY-USA-NY-POMPEY-TOWN_CLERK-UNEXPIRED_TERM-2026_GENERAL-HARTNETT_AL_3Z
     attributes:
       status: active
       participation: active
@@ -2690,7 +2708,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-POMPEY-TOWN_CLERK_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-POMPEY-TOWN_CLERK-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-HARTNETT_AL_3Z
   - type: Person
     code: PERSON-DENNIS_KR_5V
@@ -2700,7 +2718,7 @@ groups:
       first_name: Karen
       last_name: Dennis
   - type: Candidacy
-    code: CANDIDACY-USA-NY-POMPEY-TOWN_CLERK_TO_FILL_VACANCY-2026_GENERAL-DENNIS_KR_5V
+    code: CANDIDACY-USA-NY-POMPEY-TOWN_CLERK-UNEXPIRED_TERM-2026_GENERAL-DENNIS_KR_5V
     attributes:
       status: active
       participation: active
@@ -2710,24 +2728,24 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-POMPEY-TOWN_CLERK_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-POMPEY-TOWN_CLERK-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-DENNIS_KR_5V
 - records:
   - type: Office
-    code: OFFICE-USA-NY-SPAFFORD-TOWN_CLERK_TO_FILL_VACANCY
+    code: OFFICE-USA-NY-SPAFFORD-TOWN_CLERK
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_CLERK_TO_FILL_VACANCY
+      position: POSITION-TOWN_CLERK
       jurisdiction: MUNICIPALITY-USA-NY-SPAFFORD
   - type: Race
-    code: RACE-USA-NY-SPAFFORD-TOWN_CLERK_TO_FILL_VACANCY-2026_GENERAL
+    code: RACE-USA-NY-SPAFFORD-TOWN_CLERK-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-SPAFFORD-2026_GENERAL
-      office: OFFICE-USA-NY-SPAFFORD-TOWN_CLERK_TO_FILL_VACANCY
+      office: OFFICE-USA-NY-SPAFFORD-TOWN_CLERK
   - type: Person
     code: PERSON-RAMSDEN_KY_5X
     attributes:
@@ -2736,7 +2754,7 @@ groups:
       first_name: Kayla
       last_name: Ramsden
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SPAFFORD-TOWN_CLERK_TO_FILL_VACANCY-2026_GENERAL-RAMSDEN_KY_5X
+    code: CANDIDACY-USA-NY-SPAFFORD-TOWN_CLERK-UNEXPIRED_TERM-2026_GENERAL-RAMSDEN_KY_5X
     attributes:
       status: active
       participation: active
@@ -2748,25 +2766,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-SPAFFORD-TOWN_CLERK_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-SPAFFORD-TOWN_CLERK-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-RAMSDEN_KY_5X
 - records:
   - type: Office
-    code: OFFICE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-1ST_WARD
+    code: OFFICE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-1ST_WARD
     attributes:
       seat_code: 1ST_WARD
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILOR
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-CAMILLUS_TOWN
   - type: Race
-    code: RACE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-1ST_WARD-2026_GENERAL
+    code: RACE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-1ST_WARD-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-CAMILLUS_TOWN-2026_GENERAL
-      office: OFFICE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-1ST_WARD
+      office: OFFICE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-1ST_WARD
   - type: Person
     code: PERSON-KING_AD_2V
     attributes:
@@ -2775,7 +2793,7 @@ groups:
       first_name: Adam
       last_name: King
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-1ST_WARD-2026_GENERAL-KING_AD_2V
+    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-1ST_WARD-2026_GENERAL-KING_AD_2V
     attributes:
       status: active
       participation: active
@@ -2783,7 +2801,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-1ST_WARD-2026_GENERAL
+      race: RACE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-1ST_WARD-2026_GENERAL
       person: PERSON-KING_AD_2V
   - type: Person
     code: PERSON-LUBER_MR_7V
@@ -2794,7 +2812,7 @@ groups:
       middle_name: H.
       last_name: Luber
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-1ST_WARD-2026_GENERAL-LUBER_MR_7V
+    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-1ST_WARD-2026_GENERAL-LUBER_MR_7V
     attributes:
       status: active
       participation: active
@@ -2802,25 +2820,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-1ST_WARD-2026_GENERAL
+      race: RACE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-1ST_WARD-2026_GENERAL
       person: PERSON-LUBER_MR_7V
 - records:
   - type: Office
-    code: OFFICE-USA-NY-SALINA-TOWN_COUNCILOR-1ST_WARD
+    code: OFFICE-USA-NY-SALINA-COUNCIL_MEMBER-1ST_WARD
     attributes:
       seat_code: 1ST_WARD
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILOR
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-SALINA
   - type: Race
-    code: RACE-USA-NY-SALINA-TOWN_COUNCILOR-1ST_WARD-2026_GENERAL
+    code: RACE-USA-NY-SALINA-COUNCIL_MEMBER-1ST_WARD-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-SALINA-2026_GENERAL
-      office: OFFICE-USA-NY-SALINA-TOWN_COUNCILOR-1ST_WARD
+      office: OFFICE-USA-NY-SALINA-COUNCIL_MEMBER-1ST_WARD
   - type: Person
     code: PERSON-FADDEN_CH_3A
     attributes:
@@ -2830,7 +2848,7 @@ groups:
       middle_name: M.
       last_name: Fadden
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SALINA-TOWN_COUNCILOR-1ST_WARD-2026_GENERAL-FADDEN_CH_3A
+    code: CANDIDACY-USA-NY-SALINA-COUNCIL_MEMBER-1ST_WARD-2026_GENERAL-FADDEN_CH_3A
     attributes:
       status: active
       participation: active
@@ -2840,7 +2858,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-SALINA-TOWN_COUNCILOR-1ST_WARD-2026_GENERAL
+      race: RACE-USA-NY-SALINA-COUNCIL_MEMBER-1ST_WARD-2026_GENERAL
       person: PERSON-FADDEN_CH_3A
   - type: Person
     code: PERSON-MCELWEE_HD_4S
@@ -2850,7 +2868,7 @@ groups:
       first_name: Heidi
       last_name: McElwee
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SALINA-TOWN_COUNCILOR-1ST_WARD-2026_GENERAL-MCELWEE_HD_4S
+    code: CANDIDACY-USA-NY-SALINA-COUNCIL_MEMBER-1ST_WARD-2026_GENERAL-MCELWEE_HD_4S
     attributes:
       status: active
       participation: active
@@ -2860,25 +2878,25 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-SALINA-TOWN_COUNCILOR-1ST_WARD-2026_GENERAL
+      race: RACE-USA-NY-SALINA-COUNCIL_MEMBER-1ST_WARD-2026_GENERAL
       person: PERSON-MCELWEE_HD_4S
 - records:
   - type: Office
-    code: OFFICE-USA-NY-SALINA-TOWN_COUNCILOR-2ND_WARD
+    code: OFFICE-USA-NY-SALINA-COUNCIL_MEMBER-2ND_WARD
     attributes:
       seat_code: 2ND_WARD
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILOR
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-SALINA
   - type: Race
-    code: RACE-USA-NY-SALINA-TOWN_COUNCILOR-2ND_WARD-2026_GENERAL
+    code: RACE-USA-NY-SALINA-COUNCIL_MEMBER-2ND_WARD-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-SALINA-2026_GENERAL
-      office: OFFICE-USA-NY-SALINA-TOWN_COUNCILOR-2ND_WARD
+      office: OFFICE-USA-NY-SALINA-COUNCIL_MEMBER-2ND_WARD
   - type: Person
     code: PERSON-BUTLER_DV_8D
     attributes:
@@ -2888,7 +2906,7 @@ groups:
       middle_name: J.
       last_name: Butler Sr.
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SALINA-TOWN_COUNCILOR-2ND_WARD-2026_GENERAL-BUTLER_DV_8D
+    code: CANDIDACY-USA-NY-SALINA-COUNCIL_MEMBER-2ND_WARD-2026_GENERAL-BUTLER_DV_8D
     attributes:
       status: active
       participation: active
@@ -2898,7 +2916,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-SALINA-TOWN_COUNCILOR-2ND_WARD-2026_GENERAL
+      race: RACE-USA-NY-SALINA-COUNCIL_MEMBER-2ND_WARD-2026_GENERAL
       person: PERSON-BUTLER_DV_8D
   - type: Person
     code: PERSON-SZCZESNIAK_SY_8C
@@ -2908,7 +2926,7 @@ groups:
       first_name: Sydney
       last_name: Szczesniak
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SALINA-TOWN_COUNCILOR-2ND_WARD-2026_GENERAL-SZCZESNIAK_SY_8C
+    code: CANDIDACY-USA-NY-SALINA-COUNCIL_MEMBER-2ND_WARD-2026_GENERAL-SZCZESNIAK_SY_8C
     attributes:
       status: active
       participation: active
@@ -2918,25 +2936,25 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-SALINA-TOWN_COUNCILOR-2ND_WARD-2026_GENERAL
+      race: RACE-USA-NY-SALINA-COUNCIL_MEMBER-2ND_WARD-2026_GENERAL
       person: PERSON-SZCZESNIAK_SY_8C
 - records:
   - type: Office
-    code: OFFICE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-2ND_WARD
+    code: OFFICE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-2ND_WARD
     attributes:
       seat_code: 2ND_WARD
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILOR
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-CAMILLUS_TOWN
   - type: Race
-    code: RACE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-2ND_WARD-2026_GENERAL
+    code: RACE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-2ND_WARD-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-CAMILLUS_TOWN-2026_GENERAL
-      office: OFFICE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-2ND_WARD
+      office: OFFICE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-2ND_WARD
   - type: Person
     code: PERSON-LAFLAIR_MC_7Y
     attributes:
@@ -2946,7 +2964,7 @@ groups:
       middle_name: W.
       last_name: LaFlair
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-2ND_WARD-2026_GENERAL-LAFLAIR_MC_7Y
+    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-2ND_WARD-2026_GENERAL-LAFLAIR_MC_7Y
     attributes:
       status: active
       participation: active
@@ -2956,25 +2974,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-2ND_WARD-2026_GENERAL
+      race: RACE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-2ND_WARD-2026_GENERAL
       person: PERSON-LAFLAIR_MC_7Y
 - records:
   - type: Office
-    code: OFFICE-USA-NY-SALINA-TOWN_COUNCILOR-3RD_WARD
+    code: OFFICE-USA-NY-SALINA-COUNCIL_MEMBER-3RD_WARD
     attributes:
       seat_code: 3RD_WARD
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILOR
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-SALINA
   - type: Race
-    code: RACE-USA-NY-SALINA-TOWN_COUNCILOR-3RD_WARD-2026_GENERAL
+    code: RACE-USA-NY-SALINA-COUNCIL_MEMBER-3RD_WARD-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-SALINA-2026_GENERAL
-      office: OFFICE-USA-NY-SALINA-TOWN_COUNCILOR-3RD_WARD
+      office: OFFICE-USA-NY-SALINA-COUNCIL_MEMBER-3RD_WARD
   - type: Person
     code: PERSON-VINCH_DN_6Y
     attributes:
@@ -2984,7 +3002,7 @@ groups:
       middle_name: Lewis
       last_name: Vinch
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SALINA-TOWN_COUNCILOR-3RD_WARD-2026_GENERAL-VINCH_DN_6Y
+    code: CANDIDACY-USA-NY-SALINA-COUNCIL_MEMBER-3RD_WARD-2026_GENERAL-VINCH_DN_6Y
     attributes:
       status: active
       participation: active
@@ -2994,7 +3012,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-SALINA-TOWN_COUNCILOR-3RD_WARD-2026_GENERAL
+      race: RACE-USA-NY-SALINA-COUNCIL_MEMBER-3RD_WARD-2026_GENERAL
       person: PERSON-VINCH_DN_6Y
   - type: Person
     code: PERSON-STEINHARDT_PG_5R
@@ -3004,7 +3022,7 @@ groups:
       first_name: Page
       last_name: Steinhardt
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SALINA-TOWN_COUNCILOR-3RD_WARD-2026_GENERAL-STEINHARDT_PG_5R
+    code: CANDIDACY-USA-NY-SALINA-COUNCIL_MEMBER-3RD_WARD-2026_GENERAL-STEINHARDT_PG_5R
     attributes:
       status: active
       participation: active
@@ -3014,25 +3032,25 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-SALINA-TOWN_COUNCILOR-3RD_WARD-2026_GENERAL
+      race: RACE-USA-NY-SALINA-COUNCIL_MEMBER-3RD_WARD-2026_GENERAL
       person: PERSON-STEINHARDT_PG_5R
 - records:
   - type: Office
-    code: OFFICE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-3RD_WARD
+    code: OFFICE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-3RD_WARD
     attributes:
       seat_code: 3RD_WARD
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILOR
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-CAMILLUS_TOWN
   - type: Race
-    code: RACE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-3RD_WARD-2026_GENERAL
+    code: RACE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-3RD_WARD-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-CAMILLUS_TOWN-2026_GENERAL
-      office: OFFICE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-3RD_WARD
+      office: OFFICE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-3RD_WARD
   - type: Person
     code: PERSON-COVERT_FR_8D
     attributes:
@@ -3041,7 +3059,7 @@ groups:
       first_name: Fred
       last_name: Covert
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-3RD_WARD-2026_GENERAL-COVERT_FR_8D
+    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-3RD_WARD-2026_GENERAL-COVERT_FR_8D
     attributes:
       status: active
       participation: active
@@ -3051,7 +3069,7 @@ groups:
       - label: WTP
         kind: designation
     references:
-      race: RACE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-3RD_WARD-2026_GENERAL
+      race: RACE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-3RD_WARD-2026_GENERAL
       person: PERSON-COVERT_FR_8D
   - type: Person
     code: PERSON-HART_TH_6Z
@@ -3062,7 +3080,7 @@ groups:
       middle_name: J.
       last_name: Hart
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-3RD_WARD-2026_GENERAL-HART_TH_6Z
+    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-3RD_WARD-2026_GENERAL-HART_TH_6Z
     attributes:
       status: active
       participation: active
@@ -3072,25 +3090,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-3RD_WARD-2026_GENERAL
+      race: RACE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-3RD_WARD-2026_GENERAL
       person: PERSON-HART_TH_6Z
 - records:
   - type: Office
-    code: OFFICE-USA-NY-SALINA-TOWN_COUNCILOR-4TH_WARD
+    code: OFFICE-USA-NY-SALINA-COUNCIL_MEMBER-4TH_WARD
     attributes:
       seat_code: 4TH_WARD
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILOR
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-SALINA
   - type: Race
-    code: RACE-USA-NY-SALINA-TOWN_COUNCILOR-4TH_WARD-2026_GENERAL
+    code: RACE-USA-NY-SALINA-COUNCIL_MEMBER-4TH_WARD-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-SALINA-2026_GENERAL
-      office: OFFICE-USA-NY-SALINA-TOWN_COUNCILOR-4TH_WARD
+      office: OFFICE-USA-NY-SALINA-COUNCIL_MEMBER-4TH_WARD
   - type: Person
     code: PERSON-DECARLO_BR_6G
     attributes:
@@ -3100,7 +3118,7 @@ groups:
       middle_name: J.
       last_name: DeCarlo
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SALINA-TOWN_COUNCILOR-4TH_WARD-2026_GENERAL-DECARLO_BR_6G
+    code: CANDIDACY-USA-NY-SALINA-COUNCIL_MEMBER-4TH_WARD-2026_GENERAL-DECARLO_BR_6G
     attributes:
       status: active
       participation: active
@@ -3108,7 +3126,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-SALINA-TOWN_COUNCILOR-4TH_WARD-2026_GENERAL
+      race: RACE-USA-NY-SALINA-COUNCIL_MEMBER-4TH_WARD-2026_GENERAL
       person: PERSON-DECARLO_BR_6G
   - type: Person
     code: PERSON-YOUNG_ZT_7E
@@ -3119,7 +3137,7 @@ groups:
       middle_name: A.
       last_name: Young
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SALINA-TOWN_COUNCILOR-4TH_WARD-2026_GENERAL-YOUNG_ZT_7E
+    code: CANDIDACY-USA-NY-SALINA-COUNCIL_MEMBER-4TH_WARD-2026_GENERAL-YOUNG_ZT_7E
     attributes:
       status: active
       participation: active
@@ -3127,25 +3145,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-SALINA-TOWN_COUNCILOR-4TH_WARD-2026_GENERAL
+      race: RACE-USA-NY-SALINA-COUNCIL_MEMBER-4TH_WARD-2026_GENERAL
       person: PERSON-YOUNG_ZT_7E
 - records:
   - type: Office
-    code: OFFICE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-4TH_WARD
+    code: OFFICE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-4TH_WARD
     attributes:
       seat_code: 4TH_WARD
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILOR
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-CAMILLUS_TOWN
   - type: Race
-    code: RACE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-4TH_WARD-2026_GENERAL
+    code: RACE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-4TH_WARD-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-CAMILLUS_TOWN-2026_GENERAL
-      office: OFFICE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-4TH_WARD
+      office: OFFICE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-4TH_WARD
   - type: Person
     code: PERSON-SACCO_KM_2R
     attributes:
@@ -3155,7 +3173,7 @@ groups:
       middle_name: A.
       last_name: Sacco
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-4TH_WARD-2026_GENERAL-SACCO_KM_2R
+    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-4TH_WARD-2026_GENERAL-SACCO_KM_2R
     attributes:
       status: active
       participation: active
@@ -3163,7 +3181,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-4TH_WARD-2026_GENERAL
+      race: RACE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-4TH_WARD-2026_GENERAL
       person: PERSON-SACCO_KM_2R
   - type: Person
     code: PERSON-TEUFEL_LR_9F
@@ -3173,7 +3191,7 @@ groups:
       first_name: Laura
       last_name: Teufel
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-4TH_WARD-2026_GENERAL-TEUFEL_LR_9F
+    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-4TH_WARD-2026_GENERAL-TEUFEL_LR_9F
     attributes:
       status: active
       participation: active
@@ -3181,25 +3199,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-4TH_WARD-2026_GENERAL
+      race: RACE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-4TH_WARD-2026_GENERAL
       person: PERSON-TEUFEL_LR_9F
 - records:
   - type: Office
-    code: OFFICE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-5TH_WARD
+    code: OFFICE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-5TH_WARD
     attributes:
       seat_code: 5TH_WARD
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILOR
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-CAMILLUS_TOWN
   - type: Race
-    code: RACE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-5TH_WARD-2026_GENERAL
+    code: RACE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-5TH_WARD-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-CAMILLUS_TOWN-2026_GENERAL
-      office: OFFICE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-5TH_WARD
+      office: OFFICE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-5TH_WARD
   - type: Person
     code: PERSON-CESTA_CH_7E
     attributes:
@@ -3209,7 +3227,7 @@ groups:
       middle_name: S.
       last_name: Cesta
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-5TH_WARD-2026_GENERAL-CESTA_CH_7E
+    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-5TH_WARD-2026_GENERAL-CESTA_CH_7E
     attributes:
       status: active
       participation: active
@@ -3219,25 +3237,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-5TH_WARD-2026_GENERAL
+      race: RACE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-5TH_WARD-2026_GENERAL
       person: PERSON-CESTA_CH_7E
 - records:
   - type: Office
-    code: OFFICE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-6TH_WARD
+    code: OFFICE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-6TH_WARD
     attributes:
       seat_code: 6TH_WARD
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILOR
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-CAMILLUS_TOWN
   - type: Race
-    code: RACE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-6TH_WARD-2026_GENERAL
+    code: RACE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-6TH_WARD-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-CAMILLUS_TOWN-2026_GENERAL
-      office: OFFICE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-6TH_WARD
+      office: OFFICE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-6TH_WARD
   - type: Person
     code: PERSON-SHANNON_DG_7K
     attributes:
@@ -3247,7 +3265,7 @@ groups:
       middle_name: M.
       last_name: Shannon
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-6TH_WARD-2026_GENERAL-SHANNON_DG_7K
+    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-6TH_WARD-2026_GENERAL-SHANNON_DG_7K
     attributes:
       status: active
       participation: active
@@ -3257,7 +3275,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-6TH_WARD-2026_GENERAL
+      race: RACE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-6TH_WARD-2026_GENERAL
       person: PERSON-SHANNON_DG_7K
   - type: Person
     code: PERSON-O_HARA_JH_4D
@@ -3267,7 +3285,7 @@ groups:
       first_name: John
       last_name: O’Hara
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-6TH_WARD-2026_GENERAL-O_HARA_JH_4D
+    code: CANDIDACY-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-6TH_WARD-2026_GENERAL-O_HARA_JH_4D
     attributes:
       status: active
       participation: active
@@ -3277,24 +3295,24 @@ groups:
       - label: WTP
         kind: designation
     references:
-      race: RACE-USA-NY-CAMILLUS_TOWN-TOWN_COUNCILOR-6TH_WARD-2026_GENERAL
+      race: RACE-USA-NY-CAMILLUS_TOWN-COUNCIL_MEMBER-6TH_WARD-2026_GENERAL
       person: PERSON-O_HARA_JH_4D
 - records:
   - type: Office
-    code: OFFICE-USA-NY-MANLIUS_TOWN-TOWN_COUNCILOR_TO_FILL_VACANCY
+    code: OFFICE-USA-NY-MANLIUS_TOWN-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILOR_TO_FILL_VACANCY
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-MANLIUS_TOWN
   - type: Race
-    code: RACE-USA-NY-MANLIUS_TOWN-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL
+    code: RACE-USA-NY-MANLIUS_TOWN-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-MANLIUS_TOWN-2026_GENERAL
-      office: OFFICE-USA-NY-MANLIUS_TOWN-TOWN_COUNCILOR_TO_FILL_VACANCY
+      office: OFFICE-USA-NY-MANLIUS_TOWN-COUNCIL_MEMBER
   - type: Person
     code: PERSON-EDKINS_BR_8G
     attributes:
@@ -3303,7 +3321,7 @@ groups:
       first_name: Brett
       last_name: Edkins
   - type: Candidacy
-    code: CANDIDACY-USA-NY-MANLIUS_TOWN-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL-EDKINS_BR_8G
+    code: CANDIDACY-USA-NY-MANLIUS_TOWN-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-EDKINS_BR_8G
     attributes:
       status: active
       participation: active
@@ -3311,7 +3329,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-MANLIUS_TOWN-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-MANLIUS_TOWN-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-EDKINS_BR_8G
   - type: Person
     code: PERSON-MAHAR_MR_5G
@@ -3321,7 +3339,7 @@ groups:
       first_name: Maria
       last_name: Mahar
   - type: Candidacy
-    code: CANDIDACY-USA-NY-MANLIUS_TOWN-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL-MAHAR_MR_5G
+    code: CANDIDACY-USA-NY-MANLIUS_TOWN-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-MAHAR_MR_5G
     attributes:
       status: active
       participation: active
@@ -3331,24 +3349,24 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-MANLIUS_TOWN-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-MANLIUS_TOWN-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-MAHAR_MR_5G
 - records:
   - type: Office
-    code: OFFICE-USA-NY-POMPEY-TOWN_COUNCILOR_TO_FILL_VACANCY
+    code: OFFICE-USA-NY-POMPEY-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILOR_TO_FILL_VACANCY
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-POMPEY
   - type: Race
-    code: RACE-USA-NY-POMPEY-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL
+    code: RACE-USA-NY-POMPEY-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-POMPEY-2026_GENERAL
-      office: OFFICE-USA-NY-POMPEY-TOWN_COUNCILOR_TO_FILL_VACANCY
+      office: OFFICE-USA-NY-POMPEY-COUNCIL_MEMBER
   - type: Person
     code: PERSON-NICHOLAS_BR_3J
     attributes:
@@ -3357,7 +3375,7 @@ groups:
       first_name: Brian
       last_name: Nicholas
   - type: Candidacy
-    code: CANDIDACY-USA-NY-POMPEY-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL-NICHOLAS_BR_3J
+    code: CANDIDACY-USA-NY-POMPEY-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-NICHOLAS_BR_3J
     attributes:
       status: active
       participation: active
@@ -3365,7 +3383,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-POMPEY-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-POMPEY-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-NICHOLAS_BR_3J
   - type: Person
     code: PERSON-SKEVAL_NC_9N
@@ -3376,7 +3394,7 @@ groups:
       middle_name: D.
       last_name: Skeval
   - type: Candidacy
-    code: CANDIDACY-USA-NY-POMPEY-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL-SKEVAL_NC_9N
+    code: CANDIDACY-USA-NY-POMPEY-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-SKEVAL_NC_9N
     attributes:
       status: active
       participation: active
@@ -3388,24 +3406,24 @@ groups:
       - label: VA
         kind: designation
     references:
-      race: RACE-USA-NY-POMPEY-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-POMPEY-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-SKEVAL_NC_9N
 - records:
   - type: Office
-    code: OFFICE-USA-NY-MARCELLUS_TOWN-TOWN_COUNCILOR_TO_FILL_VACANCY
+    code: OFFICE-USA-NY-MARCELLUS_TOWN-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILOR_TO_FILL_VACANCY
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-MARCELLUS_TOWN
   - type: Race
-    code: RACE-USA-NY-MARCELLUS_TOWN-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL
+    code: RACE-USA-NY-MARCELLUS_TOWN-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-MARCELLUS_TOWN-2026_GENERAL
-      office: OFFICE-USA-NY-MARCELLUS_TOWN-TOWN_COUNCILOR_TO_FILL_VACANCY
+      office: OFFICE-USA-NY-MARCELLUS_TOWN-COUNCIL_MEMBER
   - type: Person
     code: PERSON-DONOVAN_DN_4S
     attributes:
@@ -3414,7 +3432,7 @@ groups:
       first_name: Denis
       last_name: Donovan IV
   - type: Candidacy
-    code: CANDIDACY-USA-NY-MARCELLUS_TOWN-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL-DONOVAN_DN_4S
+    code: CANDIDACY-USA-NY-MARCELLUS_TOWN-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-DONOVAN_DN_4S
     attributes:
       status: active
       participation: active
@@ -3424,7 +3442,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-MARCELLUS_TOWN-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-MARCELLUS_TOWN-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-DONOVAN_DN_4S
   - type: Person
     code: PERSON-SPENCER_MR_8H
@@ -3434,7 +3452,7 @@ groups:
       first_name: Marlene
       last_name: Spencer
   - type: Candidacy
-    code: CANDIDACY-USA-NY-MARCELLUS_TOWN-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL-SPENCER_MR_8H
+    code: CANDIDACY-USA-NY-MARCELLUS_TOWN-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-SPENCER_MR_8H
     attributes:
       status: active
       participation: active
@@ -3442,24 +3460,24 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-MARCELLUS_TOWN-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-MARCELLUS_TOWN-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-SPENCER_MR_8H
 - records:
   - type: Office
-    code: OFFICE-USA-NY-LAFAYETTE-TOWN_COUNCILOR_TO_FILL_VACANCY
+    code: OFFICE-USA-NY-LAFAYETTE-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILOR_TO_FILL_VACANCY
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-LAFAYETTE
   - type: Race
-    code: RACE-USA-NY-LAFAYETTE-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL
+    code: RACE-USA-NY-LAFAYETTE-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-LAFAYETTE-2026_GENERAL
-      office: OFFICE-USA-NY-LAFAYETTE-TOWN_COUNCILOR_TO_FILL_VACANCY
+      office: OFFICE-USA-NY-LAFAYETTE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BAILEY_MC_9T
     attributes:
@@ -3469,7 +3487,7 @@ groups:
       middle_name: Pirro
       last_name: Bailey
   - type: Candidacy
-    code: CANDIDACY-USA-NY-LAFAYETTE-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL-BAILEY_MC_9T
+    code: CANDIDACY-USA-NY-LAFAYETTE-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-BAILEY_MC_9T
     attributes:
       status: active
       participation: active
@@ -3479,24 +3497,24 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-LAFAYETTE-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-LAFAYETTE-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-BAILEY_MC_9T
 - records:
   - type: Office
-    code: OFFICE-USA-NY-LYSANDER-TOWN_COUNCILOR_TO_FILL_VACANCY
+    code: OFFICE-USA-NY-LYSANDER-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILOR_TO_FILL_VACANCY
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-LYSANDER
   - type: Race
-    code: RACE-USA-NY-LYSANDER-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL
+    code: RACE-USA-NY-LYSANDER-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-LYSANDER-2026_GENERAL
-      office: OFFICE-USA-NY-LYSANDER-TOWN_COUNCILOR_TO_FILL_VACANCY
+      office: OFFICE-USA-NY-LYSANDER-COUNCIL_MEMBER
   - type: Person
     code: PERSON-OSIER_TM_6V
     attributes:
@@ -3506,7 +3524,7 @@ groups:
       middle_name: R.
       last_name: Osier
   - type: Candidacy
-    code: CANDIDACY-USA-NY-LYSANDER-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL-OSIER_TM_6V
+    code: CANDIDACY-USA-NY-LYSANDER-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-OSIER_TM_6V
     attributes:
       status: active
       participation: active
@@ -3514,7 +3532,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-LYSANDER-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-LYSANDER-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-OSIER_TM_6V
   - type: Person
     code: PERSON-MCINTYRE_TN_2K
@@ -3524,7 +3542,7 @@ groups:
       first_name: Tony
       last_name: McIntyre
   - type: Candidacy
-    code: CANDIDACY-USA-NY-LYSANDER-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL-MCINTYRE_TN_2K
+    code: CANDIDACY-USA-NY-LYSANDER-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-MCINTYRE_TN_2K
     attributes:
       status: active
       participation: active
@@ -3532,7 +3550,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-LYSANDER-TOWN_COUNCILOR_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-LYSANDER-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-MCINTYRE_TN_2K
 - records:
   - type: Office
@@ -3540,7 +3558,7 @@ groups:
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: MUNICIPALITY-USA-NY-CICERO
   - type: Race
     code: RACE-USA-NY-CICERO-TOWN_JUSTICE-2026_GENERAL
@@ -3597,7 +3615,7 @@ groups:
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: MUNICIPALITY-USA-NY-ELBRIDGE_TOWN
   - type: Race
     code: RACE-USA-NY-ELBRIDGE_TOWN-TOWN_JUSTICE-2026_GENERAL
@@ -3634,7 +3652,7 @@ groups:
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: MUNICIPALITY-USA-NY-SALINA
   - type: Race
     code: RACE-USA-NY-SALINA-TOWN_JUSTICE-2026_GENERAL
@@ -3689,7 +3707,7 @@ groups:
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: MUNICIPALITY-USA-NY-POMPEY
   - type: Race
     code: RACE-USA-NY-POMPEY-TOWN_JUSTICE-2026_GENERAL
@@ -3721,20 +3739,20 @@ groups:
       person: PERSON-AMOND_TR_2N
 - records:
   - type: Office
-    code: OFFICE-USA-NY-BALDWINSVILLE-VILLAGE_MAYOR
+    code: OFFICE-USA-NY-BALDWINSVILLE-MAYOR
     attributes:
       is_active: true
     references:
-      position: POSITION-VILLAGE_MAYOR_2
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-NY-BALDWINSVILLE
   - type: Race
-    code: RACE-USA-NY-BALDWINSVILLE-VILLAGE_MAYOR-2026_GENERAL
+    code: RACE-USA-NY-BALDWINSVILLE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-BALDWINSVILLE-2026_GENERAL
-      office: OFFICE-USA-NY-BALDWINSVILLE-VILLAGE_MAYOR
+      office: OFFICE-USA-NY-BALDWINSVILLE-MAYOR
   - type: Person
     code: PERSON-STEBBINS_BR_8E
     attributes:
@@ -3743,7 +3761,7 @@ groups:
       first_name: Bruce
       last_name: Stebbins
   - type: Candidacy
-    code: CANDIDACY-USA-NY-BALDWINSVILLE-VILLAGE_MAYOR-2026_GENERAL-STEBBINS_BR_8E
+    code: CANDIDACY-USA-NY-BALDWINSVILLE-MAYOR-2026_GENERAL-STEBBINS_BR_8E
     attributes:
       status: active
       participation: active
@@ -3751,7 +3769,7 @@ groups:
       - label: VP
         kind: designation
     references:
-      race: RACE-USA-NY-BALDWINSVILLE-VILLAGE_MAYOR-2026_GENERAL
+      race: RACE-USA-NY-BALDWINSVILLE-MAYOR-2026_GENERAL
       person: PERSON-STEBBINS_BR_8E
   - type: Person
     code: PERSON-DALE_JM_5Y
@@ -3761,7 +3779,7 @@ groups:
       first_name: Jim
       last_name: Dale
   - type: Candidacy
-    code: CANDIDACY-USA-NY-BALDWINSVILLE-VILLAGE_MAYOR-2026_GENERAL-DALE_JM_5Y
+    code: CANDIDACY-USA-NY-BALDWINSVILLE-MAYOR-2026_GENERAL-DALE_JM_5Y
     attributes:
       status: active
       participation: active
@@ -3771,7 +3789,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-BALDWINSVILLE-VILLAGE_MAYOR-2026_GENERAL
+      race: RACE-USA-NY-BALDWINSVILLE-MAYOR-2026_GENERAL
       person: PERSON-DALE_JM_5Y
 - records:
   - type: Office
@@ -3779,7 +3797,7 @@ groups:
     attributes:
       is_active: true
     references:
-      position: POSITION-VILLAGE_TRUSTEE_2
+      position: POSITION-VILLAGE_TRUSTEE
       jurisdiction: MUNICIPALITY-USA-NY-LIVERPOOL
   - type: Race
     code: RACE-USA-NY-LIVERPOOL-VILLAGE_TRUSTEE-2026_GENERAL
@@ -3855,7 +3873,7 @@ groups:
     attributes:
       is_active: true
     references:
-      position: POSITION-VILLAGE_TRUSTEE_2
+      position: POSITION-VILLAGE_TRUSTEE
       jurisdiction: MUNICIPALITY-USA-NY-BALDWINSVILLE
   - type: Race
     code: RACE-USA-NY-BALDWINSVILLE-VILLAGE_TRUSTEE-2026_GENERAL
@@ -3967,7 +3985,7 @@ groups:
     attributes:
       is_active: true
     references:
-      position: POSITION-VILLAGE_TRUSTEE_2
+      position: POSITION-VILLAGE_TRUSTEE
       jurisdiction: MUNICIPALITY-USA-NY-FAYETTEVILLE
   - type: Race
     code: RACE-USA-NY-FAYETTEVILLE-VILLAGE_TRUSTEE-2026_GENERAL
@@ -4019,7 +4037,7 @@ groups:
     attributes:
       is_active: true
     references:
-      position: POSITION-VILLAGE_TRUSTEE_2
+      position: POSITION-VILLAGE_TRUSTEE
       jurisdiction: MUNICIPALITY-USA-NY-TULLY_VILLAGE
   - type: Race
     code: RACE-USA-NY-TULLY_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL
@@ -4073,7 +4091,7 @@ groups:
     attributes:
       is_active: true
     references:
-      position: POSITION-VILLAGE_TRUSTEE_2
+      position: POSITION-VILLAGE_TRUSTEE
       jurisdiction: MUNICIPALITY-USA-NY-ELBRIDGE_VILLAGE
   - type: Race
     code: RACE-USA-NY-ELBRIDGE_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL
@@ -4122,20 +4140,20 @@ groups:
       person: PERSON-HARRIS_ST_3N
 - records:
   - type: Office
-    code: OFFICE-USA-NY-EAST_SYRACUSE-VILLAGE_TRUSTEE_TO_FILL_VACANCY
+    code: OFFICE-USA-NY-EAST_SYRACUSE-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-VILLAGE_TRUSTEE_TO_FILL_VACANCY
+      position: POSITION-VILLAGE_TRUSTEE
       jurisdiction: MUNICIPALITY-USA-NY-EAST_SYRACUSE
   - type: Race
-    code: RACE-USA-NY-EAST_SYRACUSE-VILLAGE_TRUSTEE_TO_FILL_VACANCY-2026_GENERAL
+    code: RACE-USA-NY-EAST_SYRACUSE-VILLAGE_TRUSTEE-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: official (revised 9/18/2026). Retrieved: 2026-10-01. Sources: https://onondaga.gov/elections/wp-content/uploads/sites/191/2026/09/GE26-Candidates-List-NO-ADDRESSES-4.pdf.'
     references:
       election: ELECTION-USA-NY-EAST_SYRACUSE-2026_GENERAL
-      office: OFFICE-USA-NY-EAST_SYRACUSE-VILLAGE_TRUSTEE_TO_FILL_VACANCY
+      office: OFFICE-USA-NY-EAST_SYRACUSE-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-TACKMAN_RB_9G
     attributes:
@@ -4144,7 +4162,7 @@ groups:
       first_name: Robert
       last_name: Tackman
   - type: Candidacy
-    code: CANDIDACY-USA-NY-EAST_SYRACUSE-VILLAGE_TRUSTEE_TO_FILL_VACANCY-2026_GENERAL-TACKMAN_RB_9G
+    code: CANDIDACY-USA-NY-EAST_SYRACUSE-VILLAGE_TRUSTEE-UNEXPIRED_TERM-2026_GENERAL-TACKMAN_RB_9G
     attributes:
       status: active
       participation: active
@@ -4152,5 +4170,5 @@ groups:
       - label: CON
         kind: designation
     references:
-      race: RACE-USA-NY-EAST_SYRACUSE-VILLAGE_TRUSTEE_TO_FILL_VACANCY-2026_GENERAL
+      race: RACE-USA-NY-EAST_SYRACUSE-VILLAGE_TRUSTEE-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-TACKMAN_RB_9G

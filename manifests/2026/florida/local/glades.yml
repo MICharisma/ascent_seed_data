@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GLADES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_GLADES-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-GLADES
   - type: Race
-    code: RACE-USA-FL-COUNTY_GLADES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GLADES-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GLADES-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GLADES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_GLADES-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-BARNES_JF_3A
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Jeff
       last_name: Barnes
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GLADES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-BARNES_JF_3A
+    code: CANDIDACY-USA-FL-COUNTY_GLADES-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-BARNES_JF_3A
     attributes:
       status: active
       participation: active
@@ -53,25 +53,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_GLADES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GLADES-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-BARNES_JF_3A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GLADES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_GLADES-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-GLADES
   - type: Race
-    code: RACE-USA-FL-COUNTY_GLADES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GLADES-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GLADES-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GLADES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_GLADES-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-TAYLOR_HT_6U
     attributes:
@@ -80,7 +80,7 @@ groups:
       first_name: Hattie
       last_name: Taylor
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GLADES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-TAYLOR_HT_6U
+    code: CANDIDACY-USA-FL-COUNTY_GLADES-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-TAYLOR_HT_6U
     attributes:
       status: active
       participation: active
@@ -89,25 +89,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_GLADES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GLADES-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-TAYLOR_HT_6U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-GLADES
   - type: Race
-    code: RACE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GLADES-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-HOUGH_AN_5K
     attributes:
@@ -117,30 +117,30 @@ groups:
       middle_name: Woodward
       last_name: Hough
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GLADES-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-HOUGH_AN_5K
+    code: CANDIDACY-USA-FL-COUNTY_GLADES-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-HOUGH_AN_5K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-HOUGH_AN_5K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-GLADES
   - type: Race
-    code: RACE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GLADES-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-CLEMENT_KM_7W
     attributes:
@@ -149,30 +149,30 @@ groups:
       first_name: Kimberly
       last_name: Clement
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GLADES-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-CLEMENT_KM_7W
+    code: CANDIDACY-USA-FL-COUNTY_GLADES-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-CLEMENT_KM_7W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-CLEMENT_KM_7W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-GLADES
   - type: Race
-    code: RACE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GLADES-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-THOMPSON_LR_4F
     attributes:
@@ -182,10 +182,10 @@ groups:
       middle_name: V
       last_name: Thompson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GLADES-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-THOMPSON_LR_4F
+    code: CANDIDACY-USA-FL-COUNTY_GLADES-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-THOMPSON_LR_4F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GLADES-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-THOMPSON_LR_4F

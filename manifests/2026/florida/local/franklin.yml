@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FRANKLIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_FRANKLIN-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-FRANKLIN
   - type: Race
-    code: RACE-USA-FL-COUNTY_FRANKLIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FRANKLIN-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FRANKLIN-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FRANKLIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_FRANKLIN-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-SANDERS_CH_3E
     attributes:
@@ -45,7 +45,7 @@ groups:
       middle_name: K.
       last_name: Sanders
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FRANKLIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-SANDERS_CH_3E
+    code: CANDIDACY-USA-FL-COUNTY_FRANKLIN-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-SANDERS_CH_3E
     attributes:
       status: active
       participation: active
@@ -54,25 +54,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_FRANKLIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FRANKLIN-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-SANDERS_CH_3E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FRANKLIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_FRANKLIN-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-FRANKLIN
   - type: Race
-    code: RACE-USA-FL-COUNTY_FRANKLIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FRANKLIN-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FRANKLIN-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FRANKLIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_FRANKLIN-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-AMISON_OT_9Z
     attributes:
@@ -82,7 +82,7 @@ groups:
       middle_name: D.
       last_name: Amison
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FRANKLIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-AMISON_OT_9Z
+    code: CANDIDACY-USA-FL-COUNTY_FRANKLIN-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-AMISON_OT_9Z
     attributes:
       status: active
       participation: active
@@ -91,25 +91,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_FRANKLIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FRANKLIN-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-AMISON_OT_9Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-FRANKLIN
   - type: Race
-    code: RACE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FRANKLIN-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-PEDRICK_VN_4B
     attributes:
@@ -119,30 +119,30 @@ groups:
       middle_name: B.
       last_name: Pedrick
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-PEDRICK_VN_4B
+    code: CANDIDACY-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-PEDRICK_VN_4B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-PEDRICK_VN_4B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-FRANKLIN
   - type: Race
-    code: RACE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FRANKLIN-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-WARD_KR_8D
     attributes:
@@ -152,10 +152,10 @@ groups:
       middle_name: Day
       last_name: Ward
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-WARD_KR_8D
+    code: CANDIDACY-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-WARD_KR_8D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-WARD_KR_8D

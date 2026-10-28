@@ -7,16 +7,28 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_GILES-2026_GENERAL
+  code: ELECTION-USA-VA-NARROWS-2026_GENERAL
   attributes:
-    name: Giles County General Election 2026
+    name: Narrows General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-GILES
+    jurisdiction: MUNICIPALITY-USA-VA-NARROWS
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-RICH_CREEK-2026_SPECIAL
+  attributes:
+    name: Rich Creek Special Election 2026
+    kind: special
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-RICH_CREEK
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-VA-COUNTY_GILES-2026_SPECIAL
@@ -33,21 +45,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_GILES-MAYOR-TOWN_OF_NARROWS
+    code: OFFICE-USA-VA-NARROWS-MAYOR
     attributes:
-      seat_code: TOWN_OF_NARROWS
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-GILES
+      jurisdiction: MUNICIPALITY-USA-VA-NARROWS
   - type: Race
-    code: RACE-USA-VA-COUNTY_GILES-MAYOR-TOWN_OF_NARROWS-2026_GENERAL
+    code: RACE-USA-VA-NARROWS-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_GILES-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_GILES-MAYOR-TOWN_OF_NARROWS
+      election: ELECTION-USA-VA-NARROWS-2026_GENERAL
+      office: OFFICE-USA-VA-NARROWS-MAYOR
   - type: Person
     code: PERSON-SPANGLER_CL_4J
     attributes:
@@ -57,30 +68,29 @@ groups:
       middle_name: D. "Tom"
       last_name: Spangler, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GILES-MAYOR-TOWN_OF_NARROWS-2026_GENERAL-SPANGLER_CL_4J
+    code: CANDIDACY-USA-VA-NARROWS-MAYOR-2026_GENERAL-SPANGLER_CL_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GILES-MAYOR-TOWN_OF_NARROWS-2026_GENERAL
+      race: RACE-USA-VA-NARROWS-MAYOR-2026_GENERAL
       person: PERSON-SPANGLER_CL_4J
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL-TOWN_OF_NARROWS
+    code: OFFICE-USA-VA-NARROWS-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_NARROWS
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-GILES
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-NARROWS
   - type: Race
-    code: RACE-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL-TOWN_OF_NARROWS-2026_GENERAL
+    code: RACE-USA-VA-NARROWS-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_GILES-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL-TOWN_OF_NARROWS
+      election: ELECTION-USA-VA-NARROWS-2026_GENERAL
+      office: OFFICE-USA-VA-NARROWS-COUNCIL_MEMBER
   - type: Person
     code: PERSON-LANE_AL_9T
     attributes:
@@ -90,12 +100,12 @@ groups:
       middle_name: D.
       last_name: Lane
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL-TOWN_OF_NARROWS-2026_GENERAL-LANE_AL_9T
+    code: CANDIDACY-USA-VA-NARROWS-COUNCIL_MEMBER-2026_GENERAL-LANE_AL_9T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL-TOWN_OF_NARROWS-2026_GENERAL
+      race: RACE-USA-VA-NARROWS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LANE_AL_9T
   - type: Person
     code: PERSON-HALE_JH_5U
@@ -106,12 +116,12 @@ groups:
       middle_name: K.
       last_name: Hale, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL-TOWN_OF_NARROWS-2026_GENERAL-HALE_JH_5U
+    code: CANDIDACY-USA-VA-NARROWS-COUNCIL_MEMBER-2026_GENERAL-HALE_JH_5U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL-TOWN_OF_NARROWS-2026_GENERAL
+      race: RACE-USA-VA-NARROWS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HALE_JH_5U
   - type: Person
     code: PERSON-DUNCAN_RC_7M
@@ -122,30 +132,29 @@ groups:
       middle_name: W.
       last_name: Duncan
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL-TOWN_OF_NARROWS-2026_GENERAL-DUNCAN_RC_7M
+    code: CANDIDACY-USA-VA-NARROWS-COUNCIL_MEMBER-2026_GENERAL-DUNCAN_RC_7M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL-TOWN_OF_NARROWS-2026_GENERAL
+      race: RACE-USA-VA-NARROWS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DUNCAN_RC_7M
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL_RICH_CREEK_SPECIAL-TOWN_OF_RICH_CREEK
+    code: OFFICE-USA-VA-RICH_CREEK-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_RICH_CREEK
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_RICH_CREEK_SPECIAL
-      jurisdiction: COUNTY-USA-VA-GILES
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-RICH_CREEK
   - type: Race
-    code: RACE-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL_RICH_CREEK_SPECIAL-TOWN_OF_RICH_CREEK-2026_SPECIAL
+    code: RACE-USA-VA-RICH_CREEK-COUNCIL_MEMBER-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_GILES-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL_RICH_CREEK_SPECIAL-TOWN_OF_RICH_CREEK
+      election: ELECTION-USA-VA-RICH_CREEK-2026_SPECIAL
+      office: OFFICE-USA-VA-RICH_CREEK-COUNCIL_MEMBER
   - type: Person
     code: PERSON-THORNTON_CH_2Z
     attributes:
@@ -155,29 +164,29 @@ groups:
       middle_name: S.
       last_name: Thornton
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL_RICH_CREEK_SPECIAL-TOWN_OF_RICH_CREEK-2026_SPECIAL-THORNTON_CH_2Z
+    code: CANDIDACY-USA-VA-RICH_CREEK-COUNCIL_MEMBER-2026_SPECIAL-THORNTON_CH_2Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL_RICH_CREEK_SPECIAL-TOWN_OF_RICH_CREEK-2026_SPECIAL
+      race: RACE-USA-VA-RICH_CREEK-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-THORNTON_CH_2Z
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL_SPECIAL
+    code: OFFICE-USA-VA-COUNTY_GILES-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_SPECIAL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-GILES
   - type: Race
-    code: RACE-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL_SPECIAL-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_GILES-COUNCIL_MEMBER-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_GILES-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL_SPECIAL
+      office: OFFICE-USA-VA-COUNTY_GILES-COUNCIL_MEMBER
   - type: Person
     code: PERSON-SHARP_CH_2G
     attributes:
@@ -187,12 +196,12 @@ groups:
       middle_name: Eric
       last_name: Sharp
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL_SPECIAL-2026_SPECIAL-SHARP_CH_2G
+    code: CANDIDACY-USA-VA-COUNTY_GILES-COUNCIL_MEMBER-2026_SPECIAL-SHARP_CH_2G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL_SPECIAL-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_GILES-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-SHARP_CH_2G
   - type: Person
     code: PERSON-WEIDMAN_KN_5L
@@ -203,10 +212,10 @@ groups:
       middle_name: M.
       last_name: Weidman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL_SPECIAL-2026_SPECIAL-WEIDMAN_KN_5L
+    code: CANDIDACY-USA-VA-COUNTY_GILES-COUNCIL_MEMBER-2026_SPECIAL-WEIDMAN_KN_5L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GILES-MEMBER_TOWN_COUNCIL_SPECIAL-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_GILES-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-WEIDMAN_KN_5L

@@ -45,21 +45,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_BAY-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-BAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_BAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BAY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_BAY-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-CARROLL_RB_3M
     attributes:
@@ -69,7 +69,7 @@ groups:
       middle_name: Lee
       last_name: Carroll
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-CARROLL_RB_3M
+    code: CANDIDACY-USA-FL-COUNTY_BAY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-CARROLL_RB_3M
     attributes:
       status: active
       participation: active
@@ -78,25 +78,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_BAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BAY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-CARROLL_RB_3M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_BAY-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-BAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_BAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BAY-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_BAY-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-DUVALL_SC_6K
     attributes:
@@ -106,7 +106,7 @@ groups:
       middle_name: Randolph
       last_name: Duvall
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-DUVALL_SC_6K
+    code: CANDIDACY-USA-FL-COUNTY_BAY-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-DUVALL_SC_6K
     attributes:
       status: active
       participation: active
@@ -115,24 +115,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_BAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BAY-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-DUVALL_SC_6K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-CALLAWAY-CALLAWAY_COMMISSIONER_WARD_1
+    code: OFFICE-USA-FL-CALLAWAY-COMMISSIONER-WARD_1
     attributes:
+      seat_code: WARD_1
       is_active: true
     references:
-      position: POSITION-CALLAWAY_COMMISSIONER_WARD_1
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-CALLAWAY
   - type: Race
-    code: RACE-USA-FL-CALLAWAY-CALLAWAY_COMMISSIONER_WARD_1-2026_GENERAL
+    code: RACE-USA-FL-CALLAWAY-COMMISSIONER-WARD_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=bay&el=35.'
     references:
       election: ELECTION-USA-FL-CALLAWAY-2026_GENERAL
-      office: OFFICE-USA-FL-CALLAWAY-CALLAWAY_COMMISSIONER_WARD_1
+      office: OFFICE-USA-FL-CALLAWAY-COMMISSIONER-WARD_1
   - type: Person
     code: PERSON-BIRDSELL_BB_4R
     attributes:
@@ -142,12 +143,12 @@ groups:
       middle_name: J.
       last_name: Birdsell
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CALLAWAY-CALLAWAY_COMMISSIONER_WARD_1-2026_GENERAL-BIRDSELL_BB_4R
+    code: CANDIDACY-USA-FL-CALLAWAY-COMMISSIONER-WARD_1-2026_GENERAL-BIRDSELL_BB_4R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CALLAWAY-CALLAWAY_COMMISSIONER_WARD_1-2026_GENERAL
+      race: RACE-USA-FL-CALLAWAY-COMMISSIONER-WARD_1-2026_GENERAL
       person: PERSON-BIRDSELL_BB_4R
   - type: Person
     code: PERSON-CUSTER_KR_4C
@@ -157,29 +158,30 @@ groups:
       first_name: Karen
       last_name: Custer
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CALLAWAY-CALLAWAY_COMMISSIONER_WARD_1-2026_GENERAL-CUSTER_KR_4C
+    code: CANDIDACY-USA-FL-CALLAWAY-COMMISSIONER-WARD_1-2026_GENERAL-CUSTER_KR_4C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CALLAWAY-CALLAWAY_COMMISSIONER_WARD_1-2026_GENERAL
+      race: RACE-USA-FL-CALLAWAY-COMMISSIONER-WARD_1-2026_GENERAL
       person: PERSON-CUSTER_KR_4C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-CALLAWAY-CALLAWAY_COMMISSIONER_WARD_2
+    code: OFFICE-USA-FL-CALLAWAY-COMMISSIONER-WARD_2
     attributes:
+      seat_code: WARD_2
       is_active: true
     references:
-      position: POSITION-CALLAWAY_COMMISSIONER_WARD_2
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-CALLAWAY
   - type: Race
-    code: RACE-USA-FL-CALLAWAY-CALLAWAY_COMMISSIONER_WARD_2-2026_GENERAL
+    code: RACE-USA-FL-CALLAWAY-COMMISSIONER-WARD_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=bay&el=35.'
     references:
       election: ELECTION-USA-FL-CALLAWAY-2026_GENERAL
-      office: OFFICE-USA-FL-CALLAWAY-CALLAWAY_COMMISSIONER_WARD_2
+      office: OFFICE-USA-FL-CALLAWAY-COMMISSIONER-WARD_2
   - type: Person
     code: PERSON-KIRKLAND_JM_7J
     attributes:
@@ -188,12 +190,12 @@ groups:
       first_name: Jamie
       last_name: Kirkland
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CALLAWAY-CALLAWAY_COMMISSIONER_WARD_2-2026_GENERAL-KIRKLAND_JM_7J
+    code: CANDIDACY-USA-FL-CALLAWAY-COMMISSIONER-WARD_2-2026_GENERAL-KIRKLAND_JM_7J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CALLAWAY-CALLAWAY_COMMISSIONER_WARD_2-2026_GENERAL
+      race: RACE-USA-FL-CALLAWAY-COMMISSIONER-WARD_2-2026_GENERAL
       person: PERSON-KIRKLAND_JM_7J
   - type: Person
     code: PERSON-OVERWAY_SP_5G
@@ -203,12 +205,12 @@ groups:
       first_name: Spring
       last_name: Overway
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CALLAWAY-CALLAWAY_COMMISSIONER_WARD_2-2026_GENERAL-OVERWAY_SP_5G
+    code: CANDIDACY-USA-FL-CALLAWAY-COMMISSIONER-WARD_2-2026_GENERAL-OVERWAY_SP_5G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CALLAWAY-CALLAWAY_COMMISSIONER_WARD_2-2026_GENERAL
+      race: RACE-USA-FL-CALLAWAY-COMMISSIONER-WARD_2-2026_GENERAL
       person: PERSON-OVERWAY_SP_5G
 - records:
   - type: Office
@@ -277,21 +279,21 @@ groups:
       person: PERSON-SMITH_TR_2R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BAY-LAKE_POWELL_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_BAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_POWELL_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: LAKE_POWELL_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-LAKE_POWELL_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_BAY-LAKE_POWELL_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_POWELL_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BAY-LAKE_POWELL_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_BAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_POWELL_CDD_SEAT_2
   - type: Person
     code: PERSON-FINNEYFROCK_AL_7N
     attributes:
@@ -300,12 +302,12 @@ groups:
       first_name: Alyssa
       last_name: Finneyfrock
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BAY-LAKE_POWELL_CDD-SEAT_2-2026_GENERAL-FINNEYFROCK_AL_7N
+    code: CANDIDACY-USA-FL-COUNTY_BAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_POWELL_CDD_SEAT_2-2026_GENERAL-FINNEYFROCK_AL_7N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BAY-LAKE_POWELL_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_POWELL_CDD_SEAT_2-2026_GENERAL
       person: PERSON-FINNEYFROCK_AL_7N
   - type: Person
     code: PERSON-PORTA_GR_4B
@@ -315,30 +317,30 @@ groups:
       first_name: Greg
       last_name: Porta
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BAY-LAKE_POWELL_CDD-SEAT_2-2026_GENERAL-PORTA_GR_4B
+    code: CANDIDACY-USA-FL-COUNTY_BAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_POWELL_CDD_SEAT_2-2026_GENERAL-PORTA_GR_4B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BAY-LAKE_POWELL_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_POWELL_CDD_SEAT_2-2026_GENERAL
       person: PERSON-PORTA_GR_4B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BAY-LAKE_POWELL_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_BAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_POWELL_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: LAKE_POWELL_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-LAKE_POWELL_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_BAY-LAKE_POWELL_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_POWELL_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BAY-LAKE_POWELL_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_BAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_POWELL_CDD_SEAT_5
   - type: Person
     code: PERSON-BLACK_KN_8W
     attributes:
@@ -347,12 +349,12 @@ groups:
       first_name: Kenneth
       last_name: Black
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BAY-LAKE_POWELL_CDD-SEAT_5-2026_GENERAL-BLACK_KN_8W
+    code: CANDIDACY-USA-FL-COUNTY_BAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_POWELL_CDD_SEAT_5-2026_GENERAL-BLACK_KN_8W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BAY-LAKE_POWELL_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_POWELL_CDD_SEAT_5-2026_GENERAL
       person: PERSON-BLACK_KN_8W
   - type: Person
     code: PERSON-ROSSON_TM_9B
@@ -362,29 +364,30 @@ groups:
       first_name: Tim
       last_name: Rosson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BAY-LAKE_POWELL_CDD-SEAT_5-2026_GENERAL-ROSSON_TM_9B
+    code: CANDIDACY-USA-FL-COUNTY_BAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_POWELL_CDD_SEAT_5-2026_GENERAL-ROSSON_TM_9B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BAY-LAKE_POWELL_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_POWELL_CDD_SEAT_5-2026_GENERAL
       person: PERSON-ROSSON_TM_9B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-PANAMA_CITY_BEACH-PANAMA_CITY_BEACH_COUNCIL_WARD_1
+    code: OFFICE-USA-FL-PANAMA_CITY_BEACH-COUNCIL_MEMBER-WARD_1
     attributes:
+      seat_code: WARD_1
       is_active: true
     references:
-      position: POSITION-PANAMA_CITY_BEACH_COUNCIL_WARD_1
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-PANAMA_CITY_BEACH
   - type: Race
-    code: RACE-USA-FL-PANAMA_CITY_BEACH-PANAMA_CITY_BEACH_COUNCIL_WARD_1-2026_GENERAL
+    code: RACE-USA-FL-PANAMA_CITY_BEACH-COUNCIL_MEMBER-WARD_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=bay&el=35.'
     references:
       election: ELECTION-USA-FL-PANAMA_CITY_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-PANAMA_CITY_BEACH-PANAMA_CITY_BEACH_COUNCIL_WARD_1
+      office: OFFICE-USA-FL-PANAMA_CITY_BEACH-COUNCIL_MEMBER-WARD_1
   - type: Person
     code: PERSON-SANCHEZ_CR_3N
     attributes:
@@ -393,12 +396,12 @@ groups:
       first_name: Carlos
       last_name: Sanchez
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PANAMA_CITY_BEACH-PANAMA_CITY_BEACH_COUNCIL_WARD_1-2026_GENERAL-SANCHEZ_CR_3N
+    code: CANDIDACY-USA-FL-PANAMA_CITY_BEACH-COUNCIL_MEMBER-WARD_1-2026_GENERAL-SANCHEZ_CR_3N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PANAMA_CITY_BEACH-PANAMA_CITY_BEACH_COUNCIL_WARD_1-2026_GENERAL
+      race: RACE-USA-FL-PANAMA_CITY_BEACH-COUNCIL_MEMBER-WARD_1-2026_GENERAL
       person: PERSON-SANCHEZ_CR_3N
   - type: Person
     code: PERSON-WITTSTRUCK_GR_6J
@@ -408,29 +411,30 @@ groups:
       first_name: Grant
       last_name: Wittstruck
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PANAMA_CITY_BEACH-PANAMA_CITY_BEACH_COUNCIL_WARD_1-2026_GENERAL-WITTSTRUCK_GR_6J
+    code: CANDIDACY-USA-FL-PANAMA_CITY_BEACH-COUNCIL_MEMBER-WARD_1-2026_GENERAL-WITTSTRUCK_GR_6J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PANAMA_CITY_BEACH-PANAMA_CITY_BEACH_COUNCIL_WARD_1-2026_GENERAL
+      race: RACE-USA-FL-PANAMA_CITY_BEACH-COUNCIL_MEMBER-WARD_1-2026_GENERAL
       person: PERSON-WITTSTRUCK_GR_6J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-PANAMA_CITY_BEACH-PANAMA_CITY_BEACH_COUNCIL_WARD_3
+    code: OFFICE-USA-FL-PANAMA_CITY_BEACH-COUNCIL_MEMBER-WARD_3
     attributes:
+      seat_code: WARD_3
       is_active: true
     references:
-      position: POSITION-PANAMA_CITY_BEACH_COUNCIL_WARD_3
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-PANAMA_CITY_BEACH
   - type: Race
-    code: RACE-USA-FL-PANAMA_CITY_BEACH-PANAMA_CITY_BEACH_COUNCIL_WARD_3-2026_GENERAL
+    code: RACE-USA-FL-PANAMA_CITY_BEACH-COUNCIL_MEMBER-WARD_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=bay&el=35.'
     references:
       election: ELECTION-USA-FL-PANAMA_CITY_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-PANAMA_CITY_BEACH-PANAMA_CITY_BEACH_COUNCIL_WARD_3
+      office: OFFICE-USA-FL-PANAMA_CITY_BEACH-COUNCIL_MEMBER-WARD_3
   - type: Person
     code: PERSON-ATKINSON_NC_7H
     attributes:
@@ -439,12 +443,12 @@ groups:
       first_name: Nick
       last_name: Atkinson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PANAMA_CITY_BEACH-PANAMA_CITY_BEACH_COUNCIL_WARD_3-2026_GENERAL-ATKINSON_NC_7H
+    code: CANDIDACY-USA-FL-PANAMA_CITY_BEACH-COUNCIL_MEMBER-WARD_3-2026_GENERAL-ATKINSON_NC_7H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PANAMA_CITY_BEACH-PANAMA_CITY_BEACH_COUNCIL_WARD_3-2026_GENERAL
+      race: RACE-USA-FL-PANAMA_CITY_BEACH-COUNCIL_MEMBER-WARD_3-2026_GENERAL
       person: PERSON-ATKINSON_NC_7H
   - type: Person
     code: PERSON-COBURN_MR_7Y
@@ -454,30 +458,30 @@ groups:
       first_name: Mary
       last_name: Coburn
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PANAMA_CITY_BEACH-PANAMA_CITY_BEACH_COUNCIL_WARD_3-2026_GENERAL-COBURN_MR_7Y
+    code: CANDIDACY-USA-FL-PANAMA_CITY_BEACH-COUNCIL_MEMBER-WARD_3-2026_GENERAL-COBURN_MR_7Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PANAMA_CITY_BEACH-PANAMA_CITY_BEACH_COUNCIL_WARD_3-2026_GENERAL
+      race: RACE-USA-FL-PANAMA_CITY_BEACH-COUNCIL_MEMBER-WARD_3-2026_GENERAL
       person: PERSON-COBURN_MR_7Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-LITTLETON_GN_7W
     attributes:
@@ -486,30 +490,30 @@ groups:
       first_name: Ginger
       last_name: Littleton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-LITTLETON_GN_7W
+    code: CANDIDACY-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-LITTLETON_GN_7W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-LITTLETON_GN_7W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-HALEY_JH_6Y
     attributes:
@@ -518,12 +522,12 @@ groups:
       first_name: John
       last_name: Haley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-HALEY_JH_6Y
+    code: CANDIDACY-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-HALEY_JH_6Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-HALEY_JH_6Y
   - type: Person
     code: PERSON-MOORE_CH_5Y
@@ -533,30 +537,30 @@ groups:
       first_name: Chris
       last_name: Moore
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-MOORE_CH_5Y
+    code: CANDIDACY-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-MOORE_CH_5Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-MOORE_CH_5Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-MOSS_ST_4S
     attributes:
@@ -565,10 +569,10 @@ groups:
       first_name: Steve
       last_name: Moss
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-MOSS_ST_4S
+    code: CANDIDACY-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-MOSS_ST_4S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BAY-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BAY-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-MOSS_ST_4S

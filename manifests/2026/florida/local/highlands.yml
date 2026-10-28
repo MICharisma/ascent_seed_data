@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-HIGHLANDS
   - type: Race
-    code: RACE-USA-FL-COUNTY_HIGHLANDS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HIGHLANDS-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HIGHLANDS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-ELWELL_DN_7G
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Don
       last_name: Elwell
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-ELWELL_DN_7G
+    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-ELWELL_DN_7G
     attributes:
       status: active
       participation: active
@@ -53,25 +53,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_HIGHLANDS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HIGHLANDS-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-ELWELL_DN_7G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-HIGHLANDS
   - type: Race
-    code: RACE-USA-FL-COUNTY_HIGHLANDS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HIGHLANDS-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HIGHLANDS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-YOUNGMAN_FR_6S
     attributes:
@@ -80,7 +80,7 @@ groups:
       first_name: Frank
       last_name: Youngman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-YOUNGMAN_FR_6S
+    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-YOUNGMAN_FR_6S
     attributes:
       status: active
       participation: active
@@ -89,25 +89,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_HIGHLANDS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HIGHLANDS-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-YOUNGMAN_FR_6S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-HIGHLANDS_SOIL_AND_WATER_CONSERV_DIST-GROUP_1
+    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1
     attributes:
       seat_code: GROUP_1
       is_active: true
     references:
-      position: POSITION-HIGHLANDS_SOIL_AND_WATER_CONSERV_DIST
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-HIGHLANDS
   - type: Race
-    code: RACE-USA-FL-COUNTY_HIGHLANDS-HIGHLANDS_SOIL_AND_WATER_CONSERV_DIST-GROUP_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HIGHLANDS-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HIGHLANDS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-HIGHLANDS_SOIL_AND_WATER_CONSERV_DIST-GROUP_1
+      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1
   - type: Person
     code: PERSON-DEEN_DG_2L
     attributes:
@@ -116,30 +116,30 @@ groups:
       first_name: Doug
       last_name: Deen
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-HIGHLANDS_SOIL_AND_WATER_CONSERV_DIST-GROUP_1-2026_GENERAL-DEEN_DG_2L
+    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1-2026_GENERAL-DEEN_DG_2L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HIGHLANDS-HIGHLANDS_SOIL_AND_WATER_CONSERV_DIST-GROUP_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HIGHLANDS-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1-2026_GENERAL
       person: PERSON-DEEN_DG_2L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-HIGHLANDS_SOIL_AND_WATER_CONSERV_DIST-GROUP_5
+    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5
     attributes:
       seat_code: GROUP_5
       is_active: true
     references:
-      position: POSITION-HIGHLANDS_SOIL_AND_WATER_CONSERV_DIST
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-HIGHLANDS
   - type: Race
-    code: RACE-USA-FL-COUNTY_HIGHLANDS-HIGHLANDS_SOIL_AND_WATER_CONSERV_DIST-GROUP_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HIGHLANDS-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HIGHLANDS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-HIGHLANDS_SOIL_AND_WATER_CONSERV_DIST-GROUP_5
+      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5
   - type: Person
     code: PERSON-SEBRING_SR_4N
     attributes:
@@ -149,30 +149,30 @@ groups:
       middle_name: L
       last_name: Sebring
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-HIGHLANDS_SOIL_AND_WATER_CONSERV_DIST-GROUP_5-2026_GENERAL-SEBRING_SR_4N
+    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5-2026_GENERAL-SEBRING_SR_4N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HIGHLANDS-HIGHLANDS_SOIL_AND_WATER_CONSERV_DIST-GROUP_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HIGHLANDS-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5-2026_GENERAL
       person: PERSON-SEBRING_SR_4N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HIGHLANDS
   - type: Race
-    code: RACE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HIGHLANDS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-JONSTEN_JM_8B
     attributes:
@@ -181,12 +181,12 @@ groups:
       first_name: James
       last_name: Jonsten
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-JONSTEN_JM_8B
+    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-JONSTEN_JM_8B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-JONSTEN_JM_8B
   - type: Person
     code: PERSON-PRITCHETT_KR_2S
@@ -197,30 +197,30 @@ groups:
       middle_name: Gurganus
       last_name: Pritchett
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-PRITCHETT_KR_2S
+    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-PRITCHETT_KR_2S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-PRITCHETT_KR_2S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HIGHLANDS
   - type: Race
-    code: RACE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HIGHLANDS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-HATHAWAY_HL_2C
     attributes:
@@ -229,30 +229,30 @@ groups:
       first_name: Hilary
       last_name: Hathaway
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-HATHAWAY_HL_2C
+    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-HATHAWAY_HL_2C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-HATHAWAY_HL_2C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HIGHLANDS
   - type: Race
-    code: RACE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HIGHLANDS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-BROWN_GR_9E
     attributes:
@@ -261,12 +261,12 @@ groups:
       first_name: Gary
       last_name: Brown
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-BROWN_GR_9E
+    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-BROWN_GR_9E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-BROWN_GR_9E
   - type: Person
     code: PERSON-TUCK_AN_9X
@@ -276,30 +276,30 @@ groups:
       first_name: Andy
       last_name: Tuck
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-TUCK_AN_9X
+    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-TUCK_AN_9X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HIGHLANDS-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-TUCK_AN_9X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-SPRING_LAKE_IMPROVEMENT_DIST-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-SPECIAL_DISTRICT_BOARD_MEMBER-SPRING_LAKE_IMPROVEMENT_DIST_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: SPRING_LAKE_IMPROVEMENT_DIST_SEAT_4
       is_active: true
     references:
-      position: POSITION-SPRING_LAKE_IMPROVEMENT_DIST
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HIGHLANDS
   - type: Race
-    code: RACE-USA-FL-COUNTY_HIGHLANDS-SPRING_LAKE_IMPROVEMENT_DIST-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HIGHLANDS-SPECIAL_DISTRICT_BOARD_MEMBER-SPRING_LAKE_IMPROVEMENT_DIST_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HIGHLANDS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-SPRING_LAKE_IMPROVEMENT_DIST-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-SPECIAL_DISTRICT_BOARD_MEMBER-SPRING_LAKE_IMPROVEMENT_DIST_SEAT_4
   - type: Person
     code: PERSON-MARSH_TR_4U
     attributes:
@@ -308,30 +308,30 @@ groups:
       first_name: Troy
       last_name: Marsh
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-SPRING_LAKE_IMPROVEMENT_DIST-SEAT_4-2026_GENERAL-MARSH_TR_4U
+    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-SPECIAL_DISTRICT_BOARD_MEMBER-SPRING_LAKE_IMPROVEMENT_DIST_SEAT_4-2026_GENERAL-MARSH_TR_4U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HIGHLANDS-SPRING_LAKE_IMPROVEMENT_DIST-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HIGHLANDS-SPECIAL_DISTRICT_BOARD_MEMBER-SPRING_LAKE_IMPROVEMENT_DIST_SEAT_4-2026_GENERAL
       person: PERSON-MARSH_TR_4U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-SPRING_LAKE_IMPROVEMENT_DIST-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_HIGHLANDS-SPECIAL_DISTRICT_BOARD_MEMBER-SPRING_LAKE_IMPROVEMENT_DIST_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: SPRING_LAKE_IMPROVEMENT_DIST_SEAT_5
       is_active: true
     references:
-      position: POSITION-SPRING_LAKE_IMPROVEMENT_DIST
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HIGHLANDS
   - type: Race
-    code: RACE-USA-FL-COUNTY_HIGHLANDS-SPRING_LAKE_IMPROVEMENT_DIST-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HIGHLANDS-SPECIAL_DISTRICT_BOARD_MEMBER-SPRING_LAKE_IMPROVEMENT_DIST_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HIGHLANDS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-SPRING_LAKE_IMPROVEMENT_DIST-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_HIGHLANDS-SPECIAL_DISTRICT_BOARD_MEMBER-SPRING_LAKE_IMPROVEMENT_DIST_SEAT_5
   - type: Person
     code: PERSON-GENTRY_PH_5N
     attributes:
@@ -340,10 +340,10 @@ groups:
       first_name: Phil
       last_name: Gentry
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-SPRING_LAKE_IMPROVEMENT_DIST-SEAT_5-2026_GENERAL-GENTRY_PH_5N
+    code: CANDIDACY-USA-FL-COUNTY_HIGHLANDS-SPECIAL_DISTRICT_BOARD_MEMBER-SPRING_LAKE_IMPROVEMENT_DIST_SEAT_5-2026_GENERAL-GENTRY_PH_5N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HIGHLANDS-SPRING_LAKE_IMPROVEMENT_DIST-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HIGHLANDS-SPECIAL_DISTRICT_BOARD_MEMBER-SPRING_LAKE_IMPROVEMENT_DIST_SEAT_5-2026_GENERAL
       person: PERSON-GENTRY_PH_5N

@@ -7,47 +7,82 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_WISE-2026_GENERAL
+  code: ELECTION-USA-VA-POUND-2026_GENERAL
   attributes:
-    name: Wise County General Election 2026
+    name: Pound General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-WISE
+    jurisdiction: MUNICIPALITY-USA-VA-POUND
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_WISE-2026_SPECIAL
+  code: ELECTION-USA-VA-APPALACHIA-2026_GENERAL
   attributes:
-    name: Wise County Special Election 2026
+    name: Appalachia General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-APPALACHIA
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-COEBURN-2026_GENERAL
+  attributes:
+    name: Coeburn General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-COEBURN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-COEBURN-2026_SPECIAL
+  attributes:
+    name: Coeburn Special Election 2026
     kind: special
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-WISE
+    jurisdiction: MUNICIPALITY-USA-VA-COEBURN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-WISE-2026_GENERAL
+  attributes:
+    name: Wise General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-WISE
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WISE-MAYOR_POUND-TOWN_OF_POUND
+    code: OFFICE-USA-VA-POUND-MAYOR
     attributes:
-      seat_code: TOWN_OF_POUND
       is_active: true
     references:
-      position: POSITION-MAYOR_POUND
-      jurisdiction: COUNTY-USA-VA-WISE
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-POUND
   - type: Race
-    code: RACE-USA-VA-COUNTY_WISE-MAYOR_POUND-TOWN_OF_POUND-2026_GENERAL
+    code: RACE-USA-VA-POUND-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_WISE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_WISE-MAYOR_POUND-TOWN_OF_POUND
+      election: ELECTION-USA-VA-POUND-2026_GENERAL
+      office: OFFICE-USA-VA-POUND-MAYOR
   - type: Person
     code: PERSON-CAUTHORNE_EL_5T
     attributes:
@@ -57,12 +92,12 @@ groups:
       middle_name: R.
       last_name: Cauthorne
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WISE-MAYOR_POUND-TOWN_OF_POUND-2026_GENERAL-CAUTHORNE_EL_5T
+    code: CANDIDACY-USA-VA-POUND-MAYOR-2026_GENERAL-CAUTHORNE_EL_5T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WISE-MAYOR_POUND-TOWN_OF_POUND-2026_GENERAL
+      race: RACE-USA-VA-POUND-MAYOR-2026_GENERAL
       person: PERSON-CAUTHORNE_EL_5T
   - type: Person
     code: PERSON-BELL_ML_6F
@@ -73,30 +108,29 @@ groups:
       middle_name: Renee
       last_name: Bell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WISE-MAYOR_POUND-TOWN_OF_POUND-2026_GENERAL-BELL_ML_6F
+    code: CANDIDACY-USA-VA-POUND-MAYOR-2026_GENERAL-BELL_ML_6F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WISE-MAYOR_POUND-TOWN_OF_POUND-2026_GENERAL
+      race: RACE-USA-VA-POUND-MAYOR-2026_GENERAL
       person: PERSON-BELL_ML_6F
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_APPALACHIA-TOWN_OF_APPALACHIA
+    code: OFFICE-USA-VA-APPALACHIA-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_APPALACHIA
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_APPALACHIA
-      jurisdiction: COUNTY-USA-VA-WISE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-APPALACHIA
   - type: Race
-    code: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_APPALACHIA-TOWN_OF_APPALACHIA-2026_GENERAL
+    code: RACE-USA-VA-APPALACHIA-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_WISE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_APPALACHIA-TOWN_OF_APPALACHIA
+      election: ELECTION-USA-VA-APPALACHIA-2026_GENERAL
+      office: OFFICE-USA-VA-APPALACHIA-COUNCIL_MEMBER
   - type: Person
     code: PERSON-JOHNSON_JC_7K
     attributes:
@@ -106,12 +140,12 @@ groups:
       middle_name: L.
       last_name: Johnson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_APPALACHIA-TOWN_OF_APPALACHIA-2026_GENERAL-JOHNSON_JC_7K
+    code: CANDIDACY-USA-VA-APPALACHIA-COUNCIL_MEMBER-2026_GENERAL-JOHNSON_JC_7K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_APPALACHIA-TOWN_OF_APPALACHIA-2026_GENERAL
+      race: RACE-USA-VA-APPALACHIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-JOHNSON_JC_7K
   - type: Person
     code: PERSON-TROSPER_RN_5E
@@ -122,30 +156,29 @@ groups:
       middle_name: Jo
       last_name: Trosper
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_APPALACHIA-TOWN_OF_APPALACHIA-2026_GENERAL-TROSPER_RN_5E
+    code: CANDIDACY-USA-VA-APPALACHIA-COUNCIL_MEMBER-2026_GENERAL-TROSPER_RN_5E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_APPALACHIA-TOWN_OF_APPALACHIA-2026_GENERAL
+      race: RACE-USA-VA-APPALACHIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TROSPER_RN_5E
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_COEBURN-TOWN_OF_COEBURN
+    code: OFFICE-USA-VA-COEBURN-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_COEBURN
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_COEBURN
-      jurisdiction: COUNTY-USA-VA-WISE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-COEBURN
   - type: Race
-    code: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_COEBURN-TOWN_OF_COEBURN-2026_GENERAL
+    code: RACE-USA-VA-COEBURN-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_WISE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_COEBURN-TOWN_OF_COEBURN
+      election: ELECTION-USA-VA-COEBURN-2026_GENERAL
+      office: OFFICE-USA-VA-COEBURN-COUNCIL_MEMBER
   - type: Person
     code: PERSON-MOONEY_DV_3J
     attributes:
@@ -155,12 +188,12 @@ groups:
       middle_name: T.
       last_name: Mooney
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_COEBURN-TOWN_OF_COEBURN-2026_GENERAL-MOONEY_DV_3J
+    code: CANDIDACY-USA-VA-COEBURN-COUNCIL_MEMBER-2026_GENERAL-MOONEY_DV_3J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_COEBURN-TOWN_OF_COEBURN-2026_GENERAL
+      race: RACE-USA-VA-COEBURN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MOONEY_DV_3J
   - type: Person
     code: PERSON-STILL_SH_3F
@@ -171,30 +204,29 @@ groups:
       middle_name: P.
       last_name: Still
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_COEBURN-TOWN_OF_COEBURN-2026_GENERAL-STILL_SH_3F
+    code: CANDIDACY-USA-VA-COEBURN-COUNCIL_MEMBER-2026_GENERAL-STILL_SH_3F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_COEBURN-TOWN_OF_COEBURN-2026_GENERAL
+      race: RACE-USA-VA-COEBURN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-STILL_SH_3F
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_COEBURN_SPECIAL-TOWN_OF_COEBURN
+    code: OFFICE-USA-VA-COEBURN-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_COEBURN
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_COEBURN_SPECIAL
-      jurisdiction: COUNTY-USA-VA-WISE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-COEBURN
   - type: Race
-    code: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_COEBURN_SPECIAL-TOWN_OF_COEBURN-2026_SPECIAL
+    code: RACE-USA-VA-COEBURN-COUNCIL_MEMBER-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_WISE-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_COEBURN_SPECIAL-TOWN_OF_COEBURN
+      election: ELECTION-USA-VA-COEBURN-2026_SPECIAL
+      office: OFFICE-USA-VA-COEBURN-COUNCIL_MEMBER
   - type: Person
     code: PERSON-PROULEX_JF_2Z
     attributes:
@@ -204,12 +236,12 @@ groups:
       middle_name: R.
       last_name: Proulex
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_COEBURN_SPECIAL-TOWN_OF_COEBURN-2026_SPECIAL-PROULEX_JF_2Z
+    code: CANDIDACY-USA-VA-COEBURN-COUNCIL_MEMBER-2026_SPECIAL-PROULEX_JF_2Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_COEBURN_SPECIAL-TOWN_OF_COEBURN-2026_SPECIAL
+      race: RACE-USA-VA-COEBURN-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-PROULEX_JF_2Z
   - type: Person
     code: PERSON-WILLIAMS_JM_3N
@@ -220,30 +252,29 @@ groups:
       middle_name: F.
       last_name: Williams, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_COEBURN_SPECIAL-TOWN_OF_COEBURN-2026_SPECIAL-WILLIAMS_JM_3N
+    code: CANDIDACY-USA-VA-COEBURN-COUNCIL_MEMBER-2026_SPECIAL-WILLIAMS_JM_3N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_COEBURN_SPECIAL-TOWN_OF_COEBURN-2026_SPECIAL
+      race: RACE-USA-VA-COEBURN-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-WILLIAMS_JM_3N
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_POUND-TOWN_OF_POUND
+    code: OFFICE-USA-VA-POUND-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_POUND
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_POUND
-      jurisdiction: COUNTY-USA-VA-WISE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-POUND
   - type: Race
-    code: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_POUND-TOWN_OF_POUND-2026_GENERAL
+    code: RACE-USA-VA-POUND-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_WISE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_POUND-TOWN_OF_POUND
+      election: ELECTION-USA-VA-POUND-2026_GENERAL
+      office: OFFICE-USA-VA-POUND-COUNCIL_MEMBER
   - type: Person
     code: PERSON-LARGE_BL_4S
     attributes:
@@ -253,12 +284,12 @@ groups:
       middle_name: R.
       last_name: Large
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_POUND-TOWN_OF_POUND-2026_GENERAL-LARGE_BL_4S
+    code: CANDIDACY-USA-VA-POUND-COUNCIL_MEMBER-2026_GENERAL-LARGE_BL_4S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_POUND-TOWN_OF_POUND-2026_GENERAL
+      race: RACE-USA-VA-POUND-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LARGE_BL_4S
   - type: Person
     code: PERSON-MULLINS_DR_5J
@@ -269,12 +300,12 @@ groups:
       middle_name: J.
       last_name: Mullins
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_POUND-TOWN_OF_POUND-2026_GENERAL-MULLINS_DR_5J
+    code: CANDIDACY-USA-VA-POUND-COUNCIL_MEMBER-2026_GENERAL-MULLINS_DR_5J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_POUND-TOWN_OF_POUND-2026_GENERAL
+      race: RACE-USA-VA-POUND-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MULLINS_DR_5J
   - type: Person
     code: PERSON-KENNEDY_LB_9L
@@ -285,12 +316,12 @@ groups:
       middle_name: D.
       last_name: Kennedy
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_POUND-TOWN_OF_POUND-2026_GENERAL-KENNEDY_LB_9L
+    code: CANDIDACY-USA-VA-POUND-COUNCIL_MEMBER-2026_GENERAL-KENNEDY_LB_9L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_POUND-TOWN_OF_POUND-2026_GENERAL
+      race: RACE-USA-VA-POUND-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-KENNEDY_LB_9L
   - type: Person
     code: PERSON-BROCK_RN_9F
@@ -301,30 +332,29 @@ groups:
       middle_name: A.
       last_name: Brock
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_POUND-TOWN_OF_POUND-2026_GENERAL-BROCK_RN_9F
+    code: CANDIDACY-USA-VA-POUND-COUNCIL_MEMBER-2026_GENERAL-BROCK_RN_9F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_POUND-TOWN_OF_POUND-2026_GENERAL
+      race: RACE-USA-VA-POUND-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BROCK_RN_9F
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_WISE-TOWN_OF_WISE
+    code: OFFICE-USA-VA-WISE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_WISE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_WISE
-      jurisdiction: COUNTY-USA-VA-WISE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-WISE
   - type: Race
-    code: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_WISE-TOWN_OF_WISE-2026_GENERAL
+    code: RACE-USA-VA-WISE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_WISE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_WISE-TOWN_OF_WISE
+      election: ELECTION-USA-VA-WISE-2026_GENERAL
+      office: OFFICE-USA-VA-WISE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-DOTSON_RB_9V
     attributes:
@@ -334,12 +364,12 @@ groups:
       middle_name: D.
       last_name: Dotson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_WISE-TOWN_OF_WISE-2026_GENERAL-DOTSON_RB_9V
+    code: CANDIDACY-USA-VA-WISE-COUNCIL_MEMBER-2026_GENERAL-DOTSON_RB_9V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_WISE-TOWN_OF_WISE-2026_GENERAL
+      race: RACE-USA-VA-WISE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DOTSON_RB_9V
   - type: Person
     code: PERSON-ADKINS_TR_4L
@@ -350,12 +380,12 @@ groups:
       middle_name: Ann
       last_name: Adkins
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_WISE-TOWN_OF_WISE-2026_GENERAL-ADKINS_TR_4L
+    code: CANDIDACY-USA-VA-WISE-COUNCIL_MEMBER-2026_GENERAL-ADKINS_TR_4L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_WISE-TOWN_OF_WISE-2026_GENERAL
+      race: RACE-USA-VA-WISE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ADKINS_TR_4L
   - type: Person
     code: PERSON-ROBERTS_VR_3H
@@ -366,10 +396,10 @@ groups:
       middle_name: L.
       last_name: Roberts
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_WISE-TOWN_OF_WISE-2026_GENERAL-ROBERTS_VR_3H
+    code: CANDIDACY-USA-VA-WISE-COUNCIL_MEMBER-2026_GENERAL-ROBERTS_VR_3H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WISE-MEMBER_TOWN_COUNCIL_WISE-TOWN_OF_WISE-2026_GENERAL
+      race: RACE-USA-VA-WISE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ROBERTS_VR_3H

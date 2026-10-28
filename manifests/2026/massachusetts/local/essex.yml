@@ -21,21 +21,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_ESSEX-REGISTER_OF_PROBATE-ESSEX_COUNTY
+    code: OFFICE-USA-MA-COUNTY_ESSEX-REGISTER_OF_PROBATE
     attributes:
-      seat_code: ESSEX_COUNTY
       is_active: true
     references:
       position: POSITION-REGISTER_OF_PROBATE
       jurisdiction: COUNTY-USA-MA-ESSEX
   - type: Race
-    code: RACE-USA-MA-COUNTY_ESSEX-REGISTER_OF_PROBATE-ESSEX_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_ESSEX-REGISTER_OF_PROBATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_ESSEX-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_ESSEX-REGISTER_OF_PROBATE-ESSEX_COUNTY
+      office: OFFICE-USA-MA-COUNTY_ESSEX-REGISTER_OF_PROBATE
   - type: Person
     code: PERSON-OBRIEN_PM_4T
     attributes:
@@ -45,7 +44,7 @@ groups:
       middle_name: Casey
       last_name: O'Brien
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_ESSEX-REGISTER_OF_PROBATE-ESSEX_COUNTY-2026_GENERAL-OBRIEN_PM_4T
+    code: CANDIDACY-USA-MA-COUNTY_ESSEX-REGISTER_OF_PROBATE-2026_GENERAL-OBRIEN_PM_4T
     attributes:
       status: active
       participation: active
@@ -54,5 +53,5 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_ESSEX-REGISTER_OF_PROBATE-ESSEX_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_ESSEX-REGISTER_OF_PROBATE-2026_GENERAL
       person: PERSON-OBRIEN_PM_4T

@@ -18,6 +18,66 @@ records:
   references:
     jurisdiction: COUNTY-USA-NY-SUFFOLK
     year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-SMITHTOWN-2026_GENERAL
+  attributes:
+    name: Smithtown General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-SMITHTOWN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-EAST_HAMPTON_TOWN-2026_GENERAL
+  attributes:
+    name: East Hampton General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-EAST_HAMPTON_TOWN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-SHELTER_ISLAND-2026_GENERAL
+  attributes:
+    name: Shelter Island General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-SHELTER_ISLAND
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-RIVERHEAD-2026_GENERAL
+  attributes:
+    name: Riverhead General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-RIVERHEAD
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-SOUTHAMPTON_TOWN-2026_GENERAL
+  attributes:
+    name: Southampton General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-SOUTHAMPTON_TOWN
+    year: YEAR-2026
 groups:
 - records:
   - type: Office
@@ -25,7 +85,7 @@ groups:
     attributes:
       is_active: true
     references:
-      position: POSITION-COUNTY_CLERK_2
+      position: POSITION-COUNTY_CLERK
       jurisdiction: COUNTY-USA-NY-SUFFOLK
   - type: Race
     code: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_CLERK-2026_GENERAL
@@ -60,20 +120,20 @@ groups:
       person: PERSON-PULEO_VN_2L
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_SUFFOLK-COUNTY_COMPTROLLER
+    code: OFFICE-USA-NY-COUNTY_SUFFOLK-COMPTROLLER
     attributes:
       is_active: true
     references:
-      position: POSITION-COUNTY_COMPTROLLER
+      position: POSITION-COMPTROLLER
       jurisdiction: COUNTY-USA-NY-SUFFOLK
   - type: Race
-    code: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_COMPTROLLER-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_SUFFOLK-COMPTROLLER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-01. Sources: https://suffolkcountyny.gov/Departments/BOE/2026-General-Election-Candidate-List.'
     references:
       election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_SUFFOLK-COUNTY_COMPTROLLER
+      office: OFFICE-USA-NY-COUNTY_SUFFOLK-COMPTROLLER
   - type: Person
     code: PERSON-LOSQUADRO_DN_3C
     attributes:
@@ -83,7 +143,7 @@ groups:
       middle_name: P
       last_name: Losquadro
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-COUNTY_COMPTROLLER-2026_GENERAL-LOSQUADRO_DN_3C
+    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-COMPTROLLER-2026_GENERAL-LOSQUADRO_DN_3C
     attributes:
       status: active
       participation: active
@@ -95,7 +155,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_COMPTROLLER-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_SUFFOLK-COMPTROLLER-2026_GENERAL
       person: PERSON-LOSQUADRO_DN_3C
   - type: Person
     code: PERSON-ESTREICH_JN_6K
@@ -105,7 +165,7 @@ groups:
       first_name: Jon
       last_name: Estreich
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-COUNTY_COMPTROLLER-2026_GENERAL-ESTREICH_JN_6K
+    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-COMPTROLLER-2026_GENERAL-ESTREICH_JN_6K
     attributes:
       status: active
       participation: active
@@ -114,24 +174,24 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_COMPTROLLER-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_SUFFOLK-COMPTROLLER-2026_GENERAL
       person: PERSON-ESTREICH_JN_6K
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_SUFFOLK-COUNTY_COURT_JUDGE
+    code: OFFICE-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE
     attributes:
       is_active: true
     references:
-      position: POSITION-COUNTY_COURT_JUDGE_2
+      position: POSITION-COUNTY_JUDGE
       jurisdiction: COUNTY-USA-NY-SUFFOLK
   - type: Race
-    code: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_COURT_JUDGE-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 4. Retrieved: 2026-10-01. Sources: https://suffolkcountyny.gov/Departments/BOE/2026-General-Election-Candidate-List.'
     references:
       election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_SUFFOLK-COUNTY_COURT_JUDGE
+      office: OFFICE-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE
   - type: Person
     code: PERSON-ACQUAFREDDA_AN_4P
     attributes:
@@ -140,7 +200,7 @@ groups:
       first_name: Anna
       last_name: Acquafredda
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-COUNTY_COURT_JUDGE-2026_GENERAL-ACQUAFREDDA_AN_4P
+    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE-2026_GENERAL-ACQUAFREDDA_AN_4P
     attributes:
       status: active
       participation: active
@@ -152,7 +212,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_COURT_JUDGE-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE-2026_GENERAL
       person: PERSON-ACQUAFREDDA_AN_4P
   - type: Person
     code: PERSON-SENFT_AN_3K
@@ -163,7 +223,7 @@ groups:
       middle_name: S
       last_name: Senft Jr
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-COUNTY_COURT_JUDGE-2026_GENERAL-SENFT_AN_3K
+    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE-2026_GENERAL-SENFT_AN_3K
     attributes:
       status: active
       participation: active
@@ -175,7 +235,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_COURT_JUDGE-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE-2026_GENERAL
       person: PERSON-SENFT_AN_3K
   - type: Person
     code: PERSON-DRISCOLL_DN_7K
@@ -186,7 +246,7 @@ groups:
       middle_name: T
       last_name: Driscoll
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-COUNTY_COURT_JUDGE-2026_GENERAL-DRISCOLL_DN_7K
+    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE-2026_GENERAL-DRISCOLL_DN_7K
     attributes:
       status: active
       participation: active
@@ -198,7 +258,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_COURT_JUDGE-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE-2026_GENERAL
       person: PERSON-DRISCOLL_DN_7K
   - type: Person
     code: PERSON-CHALIFOUX_JM_8M
@@ -209,7 +269,7 @@ groups:
       middle_name: G
       last_name: Chalifoux
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-COUNTY_COURT_JUDGE-2026_GENERAL-CHALIFOUX_JM_8M
+    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE-2026_GENERAL-CHALIFOUX_JM_8M
     attributes:
       status: active
       participation: active
@@ -221,7 +281,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_COURT_JUDGE-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE-2026_GENERAL
       person: PERSON-CHALIFOUX_JM_8M
 - records:
   - type: Office
@@ -482,21 +542,20 @@ groups:
       person: PERSON-GARBARINO_WL_6T
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_SUFFOLK-RECEIVER_OF_TAXES-TOWN_OF_SMITHTOWN
+    code: OFFICE-USA-NY-SMITHTOWN-RECEIVER_OF_TAXES
     attributes:
-      seat_code: TOWN_OF_SMITHTOWN
       is_active: true
     references:
       position: POSITION-RECEIVER_OF_TAXES
-      jurisdiction: COUNTY-USA-NY-SUFFOLK
+      jurisdiction: MUNICIPALITY-USA-NY-SMITHTOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_SUFFOLK-RECEIVER_OF_TAXES-TOWN_OF_SMITHTOWN-2026_GENERAL
+    code: RACE-USA-NY-SMITHTOWN-RECEIVER_OF_TAXES-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-01. Sources: https://suffolkcountyny.gov/Departments/BOE/2026-General-Election-Candidate-List.'
     references:
-      election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_SUFFOLK-RECEIVER_OF_TAXES-TOWN_OF_SMITHTOWN
+      election: ELECTION-USA-NY-SMITHTOWN-2026_GENERAL
+      office: OFFICE-USA-NY-SMITHTOWN-RECEIVER_OF_TAXES
   - type: Person
     code: PERSON-BAKER_STINES_BR_9C
     attributes:
@@ -505,7 +564,7 @@ groups:
       first_name: Brianna
       last_name: Baker-Stines
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-RECEIVER_OF_TAXES-TOWN_OF_SMITHTOWN-2026_GENERAL-BAKER_STINES_BR_9C
+    code: CANDIDACY-USA-NY-SMITHTOWN-RECEIVER_OF_TAXES-2026_GENERAL-BAKER_STINES_BR_9C
     attributes:
       status: active
       participation: active
@@ -514,7 +573,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-RECEIVER_OF_TAXES-TOWN_OF_SMITHTOWN-2026_GENERAL
+      race: RACE-USA-NY-SMITHTOWN-RECEIVER_OF_TAXES-2026_GENERAL
       person: PERSON-BAKER_STINES_BR_9C
   - type: Person
     code: PERSON-CARROS_KM_6N
@@ -525,7 +584,7 @@ groups:
       middle_name: A
       last_name: Carros
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-RECEIVER_OF_TAXES-TOWN_OF_SMITHTOWN-2026_GENERAL-CARROS_KM_6N
+    code: CANDIDACY-USA-NY-SMITHTOWN-RECEIVER_OF_TAXES-2026_GENERAL-CARROS_KM_6N
     attributes:
       status: active
       participation: active
@@ -537,25 +596,24 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-RECEIVER_OF_TAXES-TOWN_OF_SMITHTOWN-2026_GENERAL
+      race: RACE-USA-NY-SMITHTOWN-RECEIVER_OF_TAXES-2026_GENERAL
       person: PERSON-CARROS_KM_6N
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_SUFFOLK-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_EAST_HAMPTON
+    code: OFFICE-USA-NY-EAST_HAMPTON_TOWN-HIGHWAY_SUPERINTENDENT
     attributes:
-      seat_code: TOWN_OF_EAST_HAMPTON
       is_active: true
     references:
-      position: POSITION-SUPERINTENDENT_OF_HIGHWAYS
-      jurisdiction: COUNTY-USA-NY-SUFFOLK
+      position: POSITION-HIGHWAY_SUPERINTENDENT
+      jurisdiction: MUNICIPALITY-USA-NY-EAST_HAMPTON_TOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_SUFFOLK-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_EAST_HAMPTON-2026_GENERAL
+    code: RACE-USA-NY-EAST_HAMPTON_TOWN-HIGHWAY_SUPERINTENDENT-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-01. Sources: https://suffolkcountyny.gov/Departments/BOE/2026-General-Election-Candidate-List.'
     references:
-      election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_SUFFOLK-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_EAST_HAMPTON
+      election: ELECTION-USA-NY-EAST_HAMPTON_TOWN-2026_GENERAL
+      office: OFFICE-USA-NY-EAST_HAMPTON_TOWN-HIGHWAY_SUPERINTENDENT
   - type: Person
     code: PERSON-LYNCH_ST_5K
     attributes:
@@ -565,7 +623,7 @@ groups:
       middle_name: K
       last_name: Lynch
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_EAST_HAMPTON-2026_GENERAL-LYNCH_ST_5K
+    code: CANDIDACY-USA-NY-EAST_HAMPTON_TOWN-HIGHWAY_SUPERINTENDENT-2026_GENERAL-LYNCH_ST_5K
     attributes:
       status: active
       participation: active
@@ -577,25 +635,24 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_EAST_HAMPTON-2026_GENERAL
+      race: RACE-USA-NY-EAST_HAMPTON_TOWN-HIGHWAY_SUPERINTENDENT-2026_GENERAL
       person: PERSON-LYNCH_ST_5K
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_SUFFOLK-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_SHELTER_ISLAND
+    code: OFFICE-USA-NY-SHELTER_ISLAND-HIGHWAY_SUPERINTENDENT
     attributes:
-      seat_code: TOWN_OF_SHELTER_ISLAND
       is_active: true
     references:
-      position: POSITION-SUPERINTENDENT_OF_HIGHWAYS
-      jurisdiction: COUNTY-USA-NY-SUFFOLK
+      position: POSITION-HIGHWAY_SUPERINTENDENT
+      jurisdiction: MUNICIPALITY-USA-NY-SHELTER_ISLAND
   - type: Race
-    code: RACE-USA-NY-COUNTY_SUFFOLK-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_SHELTER_ISLAND-2026_GENERAL
+    code: RACE-USA-NY-SHELTER_ISLAND-HIGHWAY_SUPERINTENDENT-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-01. Sources: https://suffolkcountyny.gov/Departments/BOE/2026-General-Election-Candidate-List.'
     references:
-      election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_SUFFOLK-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_SHELTER_ISLAND
+      election: ELECTION-USA-NY-SHELTER_ISLAND-2026_GENERAL
+      office: OFFICE-USA-NY-SHELTER_ISLAND-HIGHWAY_SUPERINTENDENT
   - type: Person
     code: PERSON-LEWIS_KN_8R
     attributes:
@@ -605,7 +662,7 @@ groups:
       middle_name: L
       last_name: Lewis Jr
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_SHELTER_ISLAND-2026_GENERAL-LEWIS_KN_8R
+    code: CANDIDACY-USA-NY-SHELTER_ISLAND-HIGHWAY_SUPERINTENDENT-2026_GENERAL-LEWIS_KN_8R
     attributes:
       status: active
       participation: active
@@ -617,25 +674,24 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_SHELTER_ISLAND-2026_GENERAL
+      race: RACE-USA-NY-SHELTER_ISLAND-HIGHWAY_SUPERINTENDENT-2026_GENERAL
       person: PERSON-LEWIS_KN_8R
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_EAST_HAMPTON
+    code: OFFICE-USA-NY-EAST_HAMPTON_TOWN-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_EAST_HAMPTON
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_2
-      jurisdiction: COUNTY-USA-NY-SUFFOLK
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-EAST_HAMPTON_TOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_EAST_HAMPTON-2026_GENERAL
+    code: RACE-USA-NY-EAST_HAMPTON_TOWN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-01. Sources: https://suffolkcountyny.gov/Departments/BOE/2026-General-Election-Candidate-List.'
     references:
-      election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_EAST_HAMPTON
+      election: ELECTION-USA-NY-EAST_HAMPTON_TOWN-2026_GENERAL
+      office: OFFICE-USA-NY-EAST_HAMPTON_TOWN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-BURKE_GONZALEZ_KT_4F
     attributes:
@@ -644,7 +700,7 @@ groups:
       first_name: Kathee
       last_name: Burke-Gonzalez
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_EAST_HAMPTON-2026_GENERAL-BURKE_GONZALEZ_KT_4F
+    code: CANDIDACY-USA-NY-EAST_HAMPTON_TOWN-TOWN_SUPERVISOR-2026_GENERAL-BURKE_GONZALEZ_KT_4F
     attributes:
       status: active
       participation: active
@@ -656,25 +712,24 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_EAST_HAMPTON-2026_GENERAL
+      race: RACE-USA-NY-EAST_HAMPTON_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-BURKE_GONZALEZ_KT_4F
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_RIVERHEAD
+    code: OFFICE-USA-NY-RIVERHEAD-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_RIVERHEAD
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_2
-      jurisdiction: COUNTY-USA-NY-SUFFOLK
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-RIVERHEAD
   - type: Race
-    code: RACE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_RIVERHEAD-2026_GENERAL
+    code: RACE-USA-NY-RIVERHEAD-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-01. Sources: https://suffolkcountyny.gov/Departments/BOE/2026-General-Election-Candidate-List.'
     references:
-      election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_RIVERHEAD
+      election: ELECTION-USA-NY-RIVERHEAD-2026_GENERAL
+      office: OFFICE-USA-NY-RIVERHEAD-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-HALPIN_JR_9E
     attributes:
@@ -683,7 +738,7 @@ groups:
       first_name: Jerome
       last_name: Halpin
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_RIVERHEAD-2026_GENERAL-HALPIN_JR_9E
+    code: CANDIDACY-USA-NY-RIVERHEAD-TOWN_SUPERVISOR-2026_GENERAL-HALPIN_JR_9E
     attributes:
       status: active
       participation: active
@@ -694,7 +749,7 @@ groups:
       - label: Taxpayers First
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_RIVERHEAD-2026_GENERAL
+      race: RACE-USA-NY-RIVERHEAD-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-HALPIN_JR_9E
   - type: Person
     code: PERSON-ROTHWELL_KN_2D
@@ -705,7 +760,7 @@ groups:
       middle_name: T
       last_name: Rothwell
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_RIVERHEAD-2026_GENERAL-ROTHWELL_KN_2D
+    code: CANDIDACY-USA-NY-RIVERHEAD-TOWN_SUPERVISOR-2026_GENERAL-ROTHWELL_KN_2D
     attributes:
       status: active
       participation: active
@@ -717,25 +772,24 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_RIVERHEAD-2026_GENERAL
+      race: RACE-USA-NY-RIVERHEAD-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-ROTHWELL_KN_2D
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_SHELTER_ISLAND
+    code: OFFICE-USA-NY-SHELTER_ISLAND-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_SHELTER_ISLAND
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_2
-      jurisdiction: COUNTY-USA-NY-SUFFOLK
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-SHELTER_ISLAND
   - type: Race
-    code: RACE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_SHELTER_ISLAND-2026_GENERAL
+    code: RACE-USA-NY-SHELTER_ISLAND-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-01. Sources: https://suffolkcountyny.gov/Departments/BOE/2026-General-Election-Candidate-List.'
     references:
-      election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_SHELTER_ISLAND
+      election: ELECTION-USA-NY-SHELTER_ISLAND-2026_GENERAL
+      office: OFFICE-USA-NY-SHELTER_ISLAND-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-BRACH_WILLIAMS_AM_4F
     attributes:
@@ -745,7 +799,7 @@ groups:
       middle_name: F
       last_name: Brach-Williams
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_SHELTER_ISLAND-2026_GENERAL-BRACH_WILLIAMS_AM_4F
+    code: CANDIDACY-USA-NY-SHELTER_ISLAND-TOWN_SUPERVISOR-2026_GENERAL-BRACH_WILLIAMS_AM_4F
     attributes:
       status: active
       participation: active
@@ -757,25 +811,24 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_SHELTER_ISLAND-2026_GENERAL
+      race: RACE-USA-NY-SHELTER_ISLAND-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-BRACH_WILLIAMS_AM_4F
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_SOUTHAMPTON
+    code: OFFICE-USA-NY-SOUTHAMPTON_TOWN-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_SOUTHAMPTON
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_2
-      jurisdiction: COUNTY-USA-NY-SUFFOLK
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-SOUTHAMPTON_TOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_SOUTHAMPTON-2026_GENERAL
+    code: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-01. Sources: https://suffolkcountyny.gov/Departments/BOE/2026-General-Election-Candidate-List.'
     references:
-      election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_SOUTHAMPTON
+      election: ELECTION-USA-NY-SOUTHAMPTON_TOWN-2026_GENERAL
+      office: OFFICE-USA-NY-SOUTHAMPTON_TOWN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-MOORE_MR_5Z
     attributes:
@@ -785,7 +838,7 @@ groups:
       middle_name: Z
       last_name: Moore
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_SOUTHAMPTON-2026_GENERAL-MOORE_MR_5Z
+    code: CANDIDACY-USA-NY-SOUTHAMPTON_TOWN-TOWN_SUPERVISOR-2026_GENERAL-MOORE_MR_5Z
     attributes:
       status: active
       participation: active
@@ -797,7 +850,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_SOUTHAMPTON-2026_GENERAL
+      race: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-MOORE_MR_5Z
   - type: Person
     code: PERSON-CAROZZA_RC_6F
@@ -808,7 +861,7 @@ groups:
       middle_name: A
       last_name: Carozza
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_SOUTHAMPTON-2026_GENERAL-CAROZZA_RC_6F
+    code: CANDIDACY-USA-NY-SOUTHAMPTON_TOWN-TOWN_SUPERVISOR-2026_GENERAL-CAROZZA_RC_6F
     attributes:
       status: active
       participation: active
@@ -817,25 +870,24 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-SUPERVISOR-TOWN_OF_SOUTHAMPTON-2026_GENERAL
+      race: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-CAROZZA_RC_6F
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_SUFFOLK-TOWN_JUSTICE-TOWN_OF_SHELTER_ISLAND
+    code: OFFICE-USA-NY-SHELTER_ISLAND-TOWN_JUSTICE
     attributes:
-      seat_code: TOWN_OF_SHELTER_ISLAND
       is_active: true
     references:
       position: POSITION-TOWN_JUSTICE
-      jurisdiction: COUNTY-USA-NY-SUFFOLK
+      jurisdiction: MUNICIPALITY-USA-NY-SHELTER_ISLAND
   - type: Race
-    code: RACE-USA-NY-COUNTY_SUFFOLK-TOWN_JUSTICE-TOWN_OF_SHELTER_ISLAND-2026_GENERAL
+    code: RACE-USA-NY-SHELTER_ISLAND-TOWN_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-01. Sources: https://suffolkcountyny.gov/Departments/BOE/2026-General-Election-Candidate-List.'
     references:
-      election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_SUFFOLK-TOWN_JUSTICE-TOWN_OF_SHELTER_ISLAND
+      election: ELECTION-USA-NY-SHELTER_ISLAND-2026_GENERAL
+      office: OFFICE-USA-NY-SHELTER_ISLAND-TOWN_JUSTICE
   - type: Person
     code: PERSON-WESTERVELT_MR_9Q
     attributes:
@@ -844,7 +896,7 @@ groups:
       first_name: Mary-Faith
       last_name: Westervelt
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-TOWN_JUSTICE-TOWN_OF_SHELTER_ISLAND-2026_GENERAL-WESTERVELT_MR_9Q
+    code: CANDIDACY-USA-NY-SHELTER_ISLAND-TOWN_JUSTICE-2026_GENERAL-WESTERVELT_MR_9Q
     attributes:
       status: active
       participation: active
@@ -859,25 +911,24 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-TOWN_JUSTICE-TOWN_OF_SHELTER_ISLAND-2026_GENERAL
+      race: RACE-USA-NY-SHELTER_ISLAND-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-WESTERVELT_MR_9Q
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_SUFFOLK-TRUSTEE-TOWN_OF_SOUTHAMPTON
+    code: OFFICE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE
     attributes:
-      seat_code: TOWN_OF_SOUTHAMPTON
       is_active: true
     references:
-      position: POSITION-TRUSTEE
-      jurisdiction: COUNTY-USA-NY-SUFFOLK
+      position: POSITION-TOWN_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-SOUTHAMPTON_TOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_SUFFOLK-TRUSTEE-TOWN_OF_SOUTHAMPTON-2026_GENERAL
+    code: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 5. Retrieved: 2026-10-01. Sources: https://suffolkcountyny.gov/Departments/BOE/2026-General-Election-Candidate-List.'
     references:
-      election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_SUFFOLK-TRUSTEE-TOWN_OF_SOUTHAMPTON
+      election: ELECTION-USA-NY-SOUTHAMPTON_TOWN-2026_GENERAL
+      office: OFFICE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE
   - type: Person
     code: PERSON-PELL_OFARRELL_HN_4W
     attributes:
@@ -886,7 +937,7 @@ groups:
       first_name: Hannah
       last_name: Pell-O'Farrell
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-TRUSTEE-TOWN_OF_SOUTHAMPTON-2026_GENERAL-PELL_OFARRELL_HN_4W
+    code: CANDIDACY-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL-PELL_OFARRELL_HN_4W
     attributes:
       status: active
       participation: active
@@ -898,7 +949,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-TRUSTEE-TOWN_OF_SOUTHAMPTON-2026_GENERAL
+      race: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL
       person: PERSON-PELL_OFARRELL_HN_4W
   - type: Person
     code: PERSON-MACK_JM_9L
@@ -909,7 +960,7 @@ groups:
       middle_name: W
       last_name: Mack
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-TRUSTEE-TOWN_OF_SOUTHAMPTON-2026_GENERAL-MACK_JM_9L
+    code: CANDIDACY-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL-MACK_JM_9L
     attributes:
       status: active
       participation: active
@@ -924,7 +975,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-TRUSTEE-TOWN_OF_SOUTHAMPTON-2026_GENERAL
+      race: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL
       person: PERSON-MACK_JM_9L
   - type: Person
     code: PERSON-CARSON_JH_9Z
@@ -935,7 +986,7 @@ groups:
       middle_name: B
       last_name: Carson
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-TRUSTEE-TOWN_OF_SOUTHAMPTON-2026_GENERAL-CARSON_JH_9Z
+    code: CANDIDACY-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL-CARSON_JH_9Z
     attributes:
       status: active
       participation: active
@@ -947,7 +998,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-TRUSTEE-TOWN_OF_SOUTHAMPTON-2026_GENERAL
+      race: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL
       person: PERSON-CARSON_JH_9Z
   - type: Person
     code: PERSON-MCLOUGHLIN_JS_5J
@@ -958,7 +1009,7 @@ groups:
       middle_name: R
       last_name: McLoughlin
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-TRUSTEE-TOWN_OF_SOUTHAMPTON-2026_GENERAL-MCLOUGHLIN_JS_5J
+    code: CANDIDACY-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL-MCLOUGHLIN_JS_5J
     attributes:
       status: active
       participation: active
@@ -970,7 +1021,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-TRUSTEE-TOWN_OF_SOUTHAMPTON-2026_GENERAL
+      race: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL
       person: PERSON-MCLOUGHLIN_JS_5J
   - type: Person
     code: PERSON-PARSONS_MT_7T
@@ -981,7 +1032,7 @@ groups:
       middle_name: L
       last_name: Parsons
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-TRUSTEE-TOWN_OF_SOUTHAMPTON-2026_GENERAL-PARSONS_MT_7T
+    code: CANDIDACY-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL-PARSONS_MT_7T
     attributes:
       status: active
       participation: active
@@ -993,7 +1044,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-TRUSTEE-TOWN_OF_SOUTHAMPTON-2026_GENERAL
+      race: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL
       person: PERSON-PARSONS_MT_7T
   - type: Person
     code: PERSON-TOPPING_SR_6X
@@ -1004,7 +1055,7 @@ groups:
       middle_name: J
       last_name: Topping
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_SUFFOLK-TRUSTEE-TOWN_OF_SOUTHAMPTON-2026_GENERAL-TOPPING_SR_6X
+    code: CANDIDACY-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL-TOPPING_SR_6X
     attributes:
       status: active
       participation: active
@@ -1016,5 +1067,5 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_SUFFOLK-TRUSTEE-TOWN_OF_SOUTHAMPTON-2026_GENERAL
+      race: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL
       person: PERSON-TOPPING_SR_6X

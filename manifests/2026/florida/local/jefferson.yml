@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_JEFFERSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-JEFFERSON
   - type: Race
-    code: RACE-USA-FL-COUNTY_JEFFERSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_JEFFERSON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_JEFFERSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-HALL_GN_5X
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Gene
       last_name: Hall
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-HALL_GN_5X
+    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-HALL_GN_5X
     attributes:
       status: active
       participation: active
@@ -53,25 +53,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_JEFFERSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-HALL_GN_5X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_JEFFERSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-JEFFERSON
   - type: Race
-    code: RACE-USA-FL-COUNTY_JEFFERSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_JEFFERSON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_JEFFERSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-HOSFORD_AS_4Q
     attributes:
@@ -80,7 +80,7 @@ groups:
       first_name: Austin
       last_name: Hosford
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-HOSFORD_AS_4Q
+    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-HOSFORD_AS_4Q
     attributes:
       status: active
       participation: active
@@ -89,7 +89,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_JEFFERSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-HOSFORD_AS_4Q
   - type: Person
     code: PERSON-HUNTER_LS_9U
@@ -100,7 +100,7 @@ groups:
       middle_name: Howell -
       last_name: Hunter
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-HUNTER_LS_9U
+    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-HUNTER_LS_9U
     attributes:
       status: active
       participation: active
@@ -109,24 +109,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_JEFFERSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-HUNTER_LS_9U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_JEFFERSON-CITY_COUNCIL_GRP_1
+    code: OFFICE-USA-FL-COUNTY_JEFFERSON-COUNCIL_MEMBER-GROUP_1
     attributes:
+      seat_code: GROUP_1
       is_active: true
     references:
-      position: POSITION-CITY_COUNCIL_GRP_1
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-FL-JEFFERSON
   - type: Race
-    code: RACE-USA-FL-COUNTY_JEFFERSON-CITY_COUNCIL_GRP_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_JEFFERSON-COUNCIL_MEMBER-GROUP_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=jefferson&el=8.'
     references:
       election: ELECTION-USA-FL-COUNTY_JEFFERSON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_JEFFERSON-CITY_COUNCIL_GRP_1
+      office: OFFICE-USA-FL-COUNTY_JEFFERSON-COUNCIL_MEMBER-GROUP_1
   - type: Person
     code: PERSON-EVANS_GR_7L
     attributes:
@@ -135,29 +136,30 @@ groups:
       first_name: George
       last_name: Evans
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-CITY_COUNCIL_GRP_1-2026_GENERAL-EVANS_GR_7L
+    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-COUNCIL_MEMBER-GROUP_1-2026_GENERAL-EVANS_GR_7L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_JEFFERSON-CITY_COUNCIL_GRP_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_JEFFERSON-COUNCIL_MEMBER-GROUP_1-2026_GENERAL
       person: PERSON-EVANS_GR_7L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_JEFFERSON-CITY_COUNCIL_GRP_2
+    code: OFFICE-USA-FL-COUNTY_JEFFERSON-COUNCIL_MEMBER-GROUP_2
     attributes:
+      seat_code: GROUP_2
       is_active: true
     references:
-      position: POSITION-CITY_COUNCIL_GRP_2
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-FL-JEFFERSON
   - type: Race
-    code: RACE-USA-FL-COUNTY_JEFFERSON-CITY_COUNCIL_GRP_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_JEFFERSON-COUNCIL_MEMBER-GROUP_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=jefferson&el=8.'
     references:
       election: ELECTION-USA-FL-COUNTY_JEFFERSON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_JEFFERSON-CITY_COUNCIL_GRP_2
+      office: OFFICE-USA-FL-COUNTY_JEFFERSON-COUNCIL_MEMBER-GROUP_2
   - type: Person
     code: PERSON-COX_GL_5K
     attributes:
@@ -166,30 +168,30 @@ groups:
       first_name: Gloria
       last_name: Cox
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-CITY_COUNCIL_GRP_2-2026_GENERAL-COX_GL_5K
+    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-COUNCIL_MEMBER-GROUP_2-2026_GENERAL-COX_GL_5K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_JEFFERSON-CITY_COUNCIL_GRP_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_JEFFERSON-COUNCIL_MEMBER-GROUP_2-2026_GENERAL
       person: PERSON-COX_GL_5K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-JEFFERSON
   - type: Race
-    code: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_JEFFERSON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-BRADLEY_JM_6C
     attributes:
@@ -198,12 +200,12 @@ groups:
       first_name: Jamia
       last_name: Bradley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-BRADLEY_JM_6C
+    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-BRADLEY_JM_6C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-BRADLEY_JM_6C
   - type: Person
     code: PERSON-BURDICK_DN_5Q
@@ -213,30 +215,30 @@ groups:
       first_name: Donnie
       last_name: Burdick
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-BURDICK_DN_5Q
+    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-BURDICK_DN_5Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-BURDICK_DN_5Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-JEFFERSON
   - type: Race
-    code: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_JEFFERSON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-WIRICK_BR_9Y
     attributes:
@@ -246,30 +248,30 @@ groups:
       middle_name: Bentley
       last_name: Wirick
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-WIRICK_BR_9Y
+    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-WIRICK_BR_9Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-WIRICK_BR_9Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-JEFFERSON
   - type: Race
-    code: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_JEFFERSON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-FLYNT_MG_9B
     attributes:
@@ -279,10 +281,10 @@ groups:
       middle_name: '"Mags"'
       last_name: Flynt
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-FLYNT_MG_9B
+    code: CANDIDACY-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-FLYNT_MG_9B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-FLYNT_MG_9B

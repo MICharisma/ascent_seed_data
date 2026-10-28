@@ -7,35 +7,46 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_LUNENBURG-2026_GENERAL
+  code: ELECTION-USA-VA-KENBRIDGE-2026_GENERAL
   attributes:
-    name: Lunenburg County General Election 2026
+    name: Kenbridge General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-LUNENBURG
+    jurisdiction: MUNICIPALITY-USA-VA-KENBRIDGE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-VICTORIA-2026_GENERAL
+  attributes:
+    name: Victoria General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-VICTORIA
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LUNENBURG-MAYOR_KENBRIDGE-TOWN_OF_KENBRIDGE
+    code: OFFICE-USA-VA-KENBRIDGE-MAYOR
     attributes:
-      seat_code: TOWN_OF_KENBRIDGE
       is_active: true
     references:
-      position: POSITION-MAYOR_KENBRIDGE
-      jurisdiction: COUNTY-USA-VA-LUNENBURG
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-KENBRIDGE
   - type: Race
-    code: RACE-USA-VA-COUNTY_LUNENBURG-MAYOR_KENBRIDGE-TOWN_OF_KENBRIDGE-2026_GENERAL
+    code: RACE-USA-VA-KENBRIDGE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LUNENBURG-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LUNENBURG-MAYOR_KENBRIDGE-TOWN_OF_KENBRIDGE
+      election: ELECTION-USA-VA-KENBRIDGE-2026_GENERAL
+      office: OFFICE-USA-VA-KENBRIDGE-MAYOR
   - type: Person
     code: PERSON-MORRISON_WN_3E
     attributes:
@@ -45,30 +56,29 @@ groups:
       middle_name: G.
       last_name: Morrison
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LUNENBURG-MAYOR_KENBRIDGE-TOWN_OF_KENBRIDGE-2026_GENERAL-MORRISON_WN_3E
+    code: CANDIDACY-USA-VA-KENBRIDGE-MAYOR-2026_GENERAL-MORRISON_WN_3E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LUNENBURG-MAYOR_KENBRIDGE-TOWN_OF_KENBRIDGE-2026_GENERAL
+      race: RACE-USA-VA-KENBRIDGE-MAYOR-2026_GENERAL
       person: PERSON-MORRISON_WN_3E
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LUNENBURG-MAYOR_VICTORIA-TOWN_OF_VICTORIA
+    code: OFFICE-USA-VA-VICTORIA-MAYOR
     attributes:
-      seat_code: TOWN_OF_VICTORIA
       is_active: true
     references:
-      position: POSITION-MAYOR_VICTORIA
-      jurisdiction: COUNTY-USA-VA-LUNENBURG
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-VICTORIA
   - type: Race
-    code: RACE-USA-VA-COUNTY_LUNENBURG-MAYOR_VICTORIA-TOWN_OF_VICTORIA-2026_GENERAL
+    code: RACE-USA-VA-VICTORIA-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LUNENBURG-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LUNENBURG-MAYOR_VICTORIA-TOWN_OF_VICTORIA
+      election: ELECTION-USA-VA-VICTORIA-2026_GENERAL
+      office: OFFICE-USA-VA-VICTORIA-MAYOR
   - type: Person
     code: PERSON-SMITH_AL_6J
     attributes:
@@ -78,30 +88,29 @@ groups:
       middle_name: D.
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LUNENBURG-MAYOR_VICTORIA-TOWN_OF_VICTORIA-2026_GENERAL-SMITH_AL_6J
+    code: CANDIDACY-USA-VA-VICTORIA-MAYOR-2026_GENERAL-SMITH_AL_6J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LUNENBURG-MAYOR_VICTORIA-TOWN_OF_VICTORIA-2026_GENERAL
+      race: RACE-USA-VA-VICTORIA-MAYOR-2026_GENERAL
       person: PERSON-SMITH_AL_6J
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_KENBRIDGE
+    code: OFFICE-USA-VA-KENBRIDGE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_KENBRIDGE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-LUNENBURG
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-KENBRIDGE
   - type: Race
-    code: RACE-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_KENBRIDGE-2026_GENERAL
+    code: RACE-USA-VA-KENBRIDGE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LUNENBURG-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_KENBRIDGE
+      election: ELECTION-USA-VA-KENBRIDGE-2026_GENERAL
+      office: OFFICE-USA-VA-KENBRIDGE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-HAYWOOD_DV_4P
     attributes:
@@ -111,12 +120,12 @@ groups:
       middle_name: L.
       last_name: Haywood Sr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_KENBRIDGE-2026_GENERAL-HAYWOOD_DV_4P
+    code: CANDIDACY-USA-VA-KENBRIDGE-COUNCIL_MEMBER-2026_GENERAL-HAYWOOD_DV_4P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_KENBRIDGE-2026_GENERAL
+      race: RACE-USA-VA-KENBRIDGE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HAYWOOD_DV_4P
   - type: Person
     code: PERSON-POWERS_BERNHARDT_JD_6V
@@ -127,12 +136,12 @@ groups:
       middle_name: Lynn
       last_name: Powers-Bernhardt
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_KENBRIDGE-2026_GENERAL-POWERS_BERNHARDT_JD_6V
+    code: CANDIDACY-USA-VA-KENBRIDGE-COUNCIL_MEMBER-2026_GENERAL-POWERS_BERNHARDT_JD_6V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_KENBRIDGE-2026_GENERAL
+      race: RACE-USA-VA-KENBRIDGE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-POWERS_BERNHARDT_JD_6V
   - type: Person
     code: PERSON-BENDER_MC_2L
@@ -143,30 +152,29 @@ groups:
       middle_name: R.
       last_name: Bender
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_KENBRIDGE-2026_GENERAL-BENDER_MC_2L
+    code: CANDIDACY-USA-VA-KENBRIDGE-COUNCIL_MEMBER-2026_GENERAL-BENDER_MC_2L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_KENBRIDGE-2026_GENERAL
+      race: RACE-USA-VA-KENBRIDGE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BENDER_MC_2L
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL_VICTORIA-TOWN_OF_VICTORIA
+    code: OFFICE-USA-VA-VICTORIA-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_VICTORIA
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_VICTORIA
-      jurisdiction: COUNTY-USA-VA-LUNENBURG
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-VICTORIA
   - type: Race
-    code: RACE-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL_VICTORIA-TOWN_OF_VICTORIA-2026_GENERAL
+    code: RACE-USA-VA-VICTORIA-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LUNENBURG-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL_VICTORIA-TOWN_OF_VICTORIA
+      election: ELECTION-USA-VA-VICTORIA-2026_GENERAL
+      office: OFFICE-USA-VA-VICTORIA-COUNCIL_MEMBER
   - type: Person
     code: PERSON-ELAM_JM_8U
     attributes:
@@ -176,12 +184,12 @@ groups:
       middle_name: G. "Greg"
       last_name: Elam Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL_VICTORIA-TOWN_OF_VICTORIA-2026_GENERAL-ELAM_JM_8U
+    code: CANDIDACY-USA-VA-VICTORIA-COUNCIL_MEMBER-2026_GENERAL-ELAM_JM_8U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL_VICTORIA-TOWN_OF_VICTORIA-2026_GENERAL
+      race: RACE-USA-VA-VICTORIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ELAM_JM_8U
   - type: Person
     code: PERSON-BRAME_JH_6K
@@ -192,12 +200,12 @@ groups:
       middle_name: W.
       last_name: Brame
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL_VICTORIA-TOWN_OF_VICTORIA-2026_GENERAL-BRAME_JH_6K
+    code: CANDIDACY-USA-VA-VICTORIA-COUNCIL_MEMBER-2026_GENERAL-BRAME_JH_6K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL_VICTORIA-TOWN_OF_VICTORIA-2026_GENERAL
+      race: RACE-USA-VA-VICTORIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BRAME_JH_6K
   - type: Person
     code: PERSON-GARRETT_CH_3J
@@ -208,10 +216,10 @@ groups:
       middle_name: T.
       last_name: Garrett
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL_VICTORIA-TOWN_OF_VICTORIA-2026_GENERAL-GARRETT_CH_3J
+    code: CANDIDACY-USA-VA-VICTORIA-COUNCIL_MEMBER-2026_GENERAL-GARRETT_CH_3J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LUNENBURG-MEMBER_TOWN_COUNCIL_VICTORIA-TOWN_OF_VICTORIA-2026_GENERAL
+      race: RACE-USA-VA-VICTORIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GARRETT_CH_3J

@@ -7,16 +7,40 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_MECKLENBURG-2026_GENERAL
+  code: ELECTION-USA-VA-BOYDTON-2026_GENERAL
   attributes:
-    name: Mecklenburg County General Election 2026
+    name: Boydton General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-MECKLENBURG
+    jurisdiction: MUNICIPALITY-USA-VA-BOYDTON
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-CHASE_CITY-2026_GENERAL
+  attributes:
+    name: Chase City General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-CHASE_CITY
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-CLARKSVILLE-2026_GENERAL
+  attributes:
+    name: Clarksville General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-CLARKSVILLE
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-VA-COUNTY_MECKLENBURG-2026_SPECIAL
@@ -30,24 +54,47 @@ records:
   references:
     jurisdiction: COUNTY-USA-VA-MECKLENBURG
     year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-COUNTY_MECKLENBURG-2026_GENERAL
+  attributes:
+    name: Mecklenburg County General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: COUNTY-USA-VA-MECKLENBURG
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-LA_CROSSE-2026_GENERAL
+  attributes:
+    name: La Crosse General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-LA_CROSSE
+    year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_MECKLENBURG-MAYOR-TOWN_OF_BOYDTON
+    code: OFFICE-USA-VA-BOYDTON-MAYOR
     attributes:
-      seat_code: TOWN_OF_BOYDTON
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-MECKLENBURG
+      jurisdiction: MUNICIPALITY-USA-VA-BOYDTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_MECKLENBURG-MAYOR-TOWN_OF_BOYDTON-2026_GENERAL
+    code: RACE-USA-VA-BOYDTON-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_MECKLENBURG-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_MECKLENBURG-MAYOR-TOWN_OF_BOYDTON
+      election: ELECTION-USA-VA-BOYDTON-2026_GENERAL
+      office: OFFICE-USA-VA-BOYDTON-MAYOR
   - type: Person
     code: PERSON-SCIAMACCO_RN_8C
     attributes:
@@ -57,30 +104,29 @@ groups:
       middle_name: R.
       last_name: Sciamacco
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MAYOR-TOWN_OF_BOYDTON-2026_GENERAL-SCIAMACCO_RN_8C
+    code: CANDIDACY-USA-VA-BOYDTON-MAYOR-2026_GENERAL-SCIAMACCO_RN_8C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MAYOR-TOWN_OF_BOYDTON-2026_GENERAL
+      race: RACE-USA-VA-BOYDTON-MAYOR-2026_GENERAL
       person: PERSON-SCIAMACCO_RN_8C
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_MECKLENBURG-MAYOR-TOWN_OF_CHASE_CITY
+    code: OFFICE-USA-VA-CHASE_CITY-MAYOR
     attributes:
-      seat_code: TOWN_OF_CHASE_CITY
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-MECKLENBURG
+      jurisdiction: MUNICIPALITY-USA-VA-CHASE_CITY
   - type: Race
-    code: RACE-USA-VA-COUNTY_MECKLENBURG-MAYOR-TOWN_OF_CHASE_CITY-2026_GENERAL
+    code: RACE-USA-VA-CHASE_CITY-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_MECKLENBURG-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_MECKLENBURG-MAYOR-TOWN_OF_CHASE_CITY
+      election: ELECTION-USA-VA-CHASE_CITY-2026_GENERAL
+      office: OFFICE-USA-VA-CHASE_CITY-MAYOR
   - type: Person
     code: PERSON-FAHRINGER_AL_3U
     attributes:
@@ -90,30 +136,29 @@ groups:
       middle_name: D.
       last_name: Fahringer
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MAYOR-TOWN_OF_CHASE_CITY-2026_GENERAL-FAHRINGER_AL_3U
+    code: CANDIDACY-USA-VA-CHASE_CITY-MAYOR-2026_GENERAL-FAHRINGER_AL_3U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MAYOR-TOWN_OF_CHASE_CITY-2026_GENERAL
+      race: RACE-USA-VA-CHASE_CITY-MAYOR-2026_GENERAL
       person: PERSON-FAHRINGER_AL_3U
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_MECKLENBURG-MAYOR-TOWN_OF_CLARKSVILLE
+    code: OFFICE-USA-VA-CLARKSVILLE-MAYOR
     attributes:
-      seat_code: TOWN_OF_CLARKSVILLE
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-MECKLENBURG
+      jurisdiction: MUNICIPALITY-USA-VA-CLARKSVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_MECKLENBURG-MAYOR-TOWN_OF_CLARKSVILLE-2026_GENERAL
+    code: RACE-USA-VA-CLARKSVILLE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_MECKLENBURG-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_MECKLENBURG-MAYOR-TOWN_OF_CLARKSVILLE
+      election: ELECTION-USA-VA-CLARKSVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-CLARKSVILLE-MAYOR
   - type: Person
     code: PERSON-WOERNER_BR_9C
     attributes:
@@ -123,30 +168,30 @@ groups:
       middle_name: F.
       last_name: Woerner
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MAYOR-TOWN_OF_CLARKSVILLE-2026_GENERAL-WOERNER_BR_9C
+    code: CANDIDACY-USA-VA-CLARKSVILLE-MAYOR-2026_GENERAL-WOERNER_BR_9C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MAYOR-TOWN_OF_CLARKSVILLE-2026_GENERAL
+      race: RACE-USA-VA-CLARKSVILLE-MAYOR-2026_GENERAL
       person: PERSON-WOERNER_BR_9C
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_MECKLENBURG-MEMBER_SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-VA-COUNTY_MECKLENBURG-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-MECKLENBURG
   - type: Race
-    code: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_SCHOOL_BOARD-DISTRICT_4-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_MECKLENBURG-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_MECKLENBURG-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_MECKLENBURG-MEMBER_SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-VA-COUNTY_MECKLENBURG-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-ROSE_T_7N
     attributes:
@@ -156,30 +201,30 @@ groups:
       middle_name: Justin
       last_name: Rose
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MEMBER_SCHOOL_BOARD-DISTRICT_4-2026_SPECIAL-ROSE_T_7N
+    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_SPECIAL-ROSE_T_7N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_SCHOOL_BOARD-DISTRICT_4-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_MECKLENBURG-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_SPECIAL
       person: PERSON-ROSE_T_7N
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-SOUTH_HILL_WARD_1
+    code: OFFICE-USA-VA-COUNTY_MECKLENBURG-COUNCIL_MEMBER-SOUTH_HILL_WARD_1
     attributes:
       seat_code: SOUTH_HILL_WARD_1
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-MECKLENBURG
   - type: Race
-    code: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-SOUTH_HILL_WARD_1-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_MECKLENBURG-COUNCIL_MEMBER-SOUTH_HILL_WARD_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_MECKLENBURG-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-SOUTH_HILL_WARD_1
+      office: OFFICE-USA-VA-COUNTY_MECKLENBURG-COUNCIL_MEMBER-SOUTH_HILL_WARD_1
   - type: Person
     code: PERSON-FEGGINS_BOONE_LL_9M
     attributes:
@@ -188,30 +233,30 @@ groups:
       first_name: Lillie
       last_name: Feggins-Boone
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-SOUTH_HILL_WARD_1-2026_GENERAL-FEGGINS_BOONE_LL_9M
+    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-COUNCIL_MEMBER-SOUTH_HILL_WARD_1-2026_GENERAL-FEGGINS_BOONE_LL_9M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-SOUTH_HILL_WARD_1-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_MECKLENBURG-COUNCIL_MEMBER-SOUTH_HILL_WARD_1-2026_GENERAL
       person: PERSON-FEGGINS_BOONE_LL_9M
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-SOUTH_HILL_WARD_2
+    code: OFFICE-USA-VA-COUNTY_MECKLENBURG-COUNCIL_MEMBER-SOUTH_HILL_WARD_2
     attributes:
       seat_code: SOUTH_HILL_WARD_2
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-MECKLENBURG
   - type: Race
-    code: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-SOUTH_HILL_WARD_2-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_MECKLENBURG-COUNCIL_MEMBER-SOUTH_HILL_WARD_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_MECKLENBURG-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-SOUTH_HILL_WARD_2
+      office: OFFICE-USA-VA-COUNTY_MECKLENBURG-COUNCIL_MEMBER-SOUTH_HILL_WARD_2
   - type: Person
     code: PERSON-HARDEE_AS_6U
     attributes:
@@ -221,12 +266,12 @@ groups:
       middle_name: Cox
       last_name: Hardee
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-SOUTH_HILL_WARD_2-2026_GENERAL-HARDEE_AS_6U
+    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-COUNCIL_MEMBER-SOUTH_HILL_WARD_2-2026_GENERAL-HARDEE_AS_6U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-SOUTH_HILL_WARD_2-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_MECKLENBURG-COUNCIL_MEMBER-SOUTH_HILL_WARD_2-2026_GENERAL
       person: PERSON-HARDEE_AS_6U
   - type: Person
     code: PERSON-CROCKER_G_4Y
@@ -237,30 +282,29 @@ groups:
       middle_name: Randy
       last_name: Crocker, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-SOUTH_HILL_WARD_2-2026_GENERAL-CROCKER_G_4Y
+    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-COUNCIL_MEMBER-SOUTH_HILL_WARD_2-2026_GENERAL-CROCKER_G_4Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-SOUTH_HILL_WARD_2-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_MECKLENBURG-COUNCIL_MEMBER-SOUTH_HILL_WARD_2-2026_GENERAL
       person: PERSON-CROCKER_G_4Y
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_BOYDTON
+    code: OFFICE-USA-VA-BOYDTON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_BOYDTON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-MECKLENBURG
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-BOYDTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_BOYDTON-2026_GENERAL
+    code: RACE-USA-VA-BOYDTON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_MECKLENBURG-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_BOYDTON
+      election: ELECTION-USA-VA-BOYDTON-2026_GENERAL
+      office: OFFICE-USA-VA-BOYDTON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-CHERRY_PL_3Q
     attributes:
@@ -270,12 +314,12 @@ groups:
       middle_name: Ray
       last_name: Cherry
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_BOYDTON-2026_GENERAL-CHERRY_PL_3Q
+    code: CANDIDACY-USA-VA-BOYDTON-COUNCIL_MEMBER-2026_GENERAL-CHERRY_PL_3Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_BOYDTON-2026_GENERAL
+      race: RACE-USA-VA-BOYDTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CHERRY_PL_3Q
   - type: Person
     code: PERSON-WORLEY_RN_6E
@@ -286,12 +330,12 @@ groups:
       middle_name: C.
       last_name: Worley
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_BOYDTON-2026_GENERAL-WORLEY_RN_6E
+    code: CANDIDACY-USA-VA-BOYDTON-COUNCIL_MEMBER-2026_GENERAL-WORLEY_RN_6E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_BOYDTON-2026_GENERAL
+      race: RACE-USA-VA-BOYDTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WORLEY_RN_6E
   - type: Person
     code: PERSON-COLEMAN_WL_6X
@@ -302,30 +346,29 @@ groups:
       middle_name: H. "Bill"
       last_name: Coleman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_BOYDTON-2026_GENERAL-COLEMAN_WL_6X
+    code: CANDIDACY-USA-VA-BOYDTON-COUNCIL_MEMBER-2026_GENERAL-COLEMAN_WL_6X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_BOYDTON-2026_GENERAL
+      race: RACE-USA-VA-BOYDTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-COLEMAN_WL_6X
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CHASE_CITY
+    code: OFFICE-USA-VA-CHASE_CITY-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_CHASE_CITY
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-MECKLENBURG
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-CHASE_CITY
   - type: Race
-    code: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CHASE_CITY-2026_GENERAL
+    code: RACE-USA-VA-CHASE_CITY-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_MECKLENBURG-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CHASE_CITY
+      election: ELECTION-USA-VA-CHASE_CITY-2026_GENERAL
+      office: OFFICE-USA-VA-CHASE_CITY-COUNCIL_MEMBER
   - type: Person
     code: PERSON-HATCHER_BR_2J
     attributes:
@@ -335,12 +378,12 @@ groups:
       middle_name: A.
       last_name: Hatcher
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CHASE_CITY-2026_GENERAL-HATCHER_BR_2J
+    code: CANDIDACY-USA-VA-CHASE_CITY-COUNCIL_MEMBER-2026_GENERAL-HATCHER_BR_2J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CHASE_CITY-2026_GENERAL
+      race: RACE-USA-VA-CHASE_CITY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HATCHER_BR_2J
   - type: Person
     code: PERSON-GARNER_DR_7U
@@ -351,12 +394,12 @@ groups:
       middle_name: W.
       last_name: Garner
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CHASE_CITY-2026_GENERAL-GARNER_DR_7U
+    code: CANDIDACY-USA-VA-CHASE_CITY-COUNCIL_MEMBER-2026_GENERAL-GARNER_DR_7U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CHASE_CITY-2026_GENERAL
+      race: RACE-USA-VA-CHASE_CITY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GARNER_DR_7U
   - type: Person
     code: PERSON-BOHANNON_JM_9M
@@ -367,12 +410,12 @@ groups:
       middle_name: E.
       last_name: Bohannon
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CHASE_CITY-2026_GENERAL-BOHANNON_JM_9M
+    code: CANDIDACY-USA-VA-CHASE_CITY-COUNCIL_MEMBER-2026_GENERAL-BOHANNON_JM_9M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CHASE_CITY-2026_GENERAL
+      race: RACE-USA-VA-CHASE_CITY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BOHANNON_JM_9M
   - type: Person
     code: PERSON-MCCARGO_LT_2Y
@@ -383,30 +426,29 @@ groups:
       middle_name: M.
       last_name: McCargo
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CHASE_CITY-2026_GENERAL-MCCARGO_LT_2Y
+    code: CANDIDACY-USA-VA-CHASE_CITY-COUNCIL_MEMBER-2026_GENERAL-MCCARGO_LT_2Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CHASE_CITY-2026_GENERAL
+      race: RACE-USA-VA-CHASE_CITY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MCCARGO_LT_2Y
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CLARKSVILLE
+    code: OFFICE-USA-VA-CLARKSVILLE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_CLARKSVILLE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-MECKLENBURG
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-CLARKSVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CLARKSVILLE-2026_GENERAL
+    code: RACE-USA-VA-CLARKSVILLE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_MECKLENBURG-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CLARKSVILLE
+      election: ELECTION-USA-VA-CLARKSVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-CLARKSVILLE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-PITTARD_GR_6R
     attributes:
@@ -416,12 +458,12 @@ groups:
       middle_name: D.
       last_name: Pittard
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CLARKSVILLE-2026_GENERAL-PITTARD_GR_6R
+    code: CANDIDACY-USA-VA-CLARKSVILLE-COUNCIL_MEMBER-2026_GENERAL-PITTARD_GR_6R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CLARKSVILLE-2026_GENERAL
+      race: RACE-USA-VA-CLARKSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PITTARD_GR_6R
   - type: Person
     code: PERSON-HEKTOR_MC_6T
@@ -432,12 +474,12 @@ groups:
       middle_name: D.
       last_name: Hektor
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CLARKSVILLE-2026_GENERAL-HEKTOR_MC_6T
+    code: CANDIDACY-USA-VA-CLARKSVILLE-COUNCIL_MEMBER-2026_GENERAL-HEKTOR_MC_6T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CLARKSVILLE-2026_GENERAL
+      race: RACE-USA-VA-CLARKSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HEKTOR_MC_6T
   - type: Person
     code: PERSON-BUCHANAN_RC_6E
@@ -448,12 +490,12 @@ groups:
       middle_name: B. "Rick"
       last_name: Buchanan
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CLARKSVILLE-2026_GENERAL-BUCHANAN_RC_6E
+    code: CANDIDACY-USA-VA-CLARKSVILLE-COUNCIL_MEMBER-2026_GENERAL-BUCHANAN_RC_6E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CLARKSVILLE-2026_GENERAL
+      race: RACE-USA-VA-CLARKSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BUCHANAN_RC_6E
   - type: Person
     code: PERSON-HEATH_SC_7X
@@ -464,30 +506,29 @@ groups:
       middle_name: A.
       last_name: Heath
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CLARKSVILLE-2026_GENERAL-HEATH_SC_7X
+    code: CANDIDACY-USA-VA-CLARKSVILLE-COUNCIL_MEMBER-2026_GENERAL-HEATH_SC_7X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_CLARKSVILLE-2026_GENERAL
+      race: RACE-USA-VA-CLARKSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HEATH_SC_7X
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_LACROSSE
+    code: OFFICE-USA-VA-LA_CROSSE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_LACROSSE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-MECKLENBURG
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-LA_CROSSE
   - type: Race
-    code: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_LACROSSE-2026_GENERAL
+    code: RACE-USA-VA-LA_CROSSE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_MECKLENBURG-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_LACROSSE
+      election: ELECTION-USA-VA-LA_CROSSE-2026_GENERAL
+      office: OFFICE-USA-VA-LA_CROSSE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-THOMAS_G_5S
     attributes:
@@ -497,10 +538,10 @@ groups:
       middle_name: Bryant
       last_name: Thomas
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_LACROSSE-2026_GENERAL-THOMAS_G_5S
+    code: CANDIDACY-USA-VA-LA_CROSSE-COUNCIL_MEMBER-2026_GENERAL-THOMAS_G_5S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MECKLENBURG-MEMBER_TOWN_COUNCIL-TOWN_OF_LACROSSE-2026_GENERAL
+      race: RACE-USA-VA-LA_CROSSE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-THOMAS_G_5S

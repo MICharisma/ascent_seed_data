@@ -19,35 +19,35 @@ records:
     jurisdiction: COUNTY-USA-VA-PATRICK
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_PATRICK-2026_GENERAL
+  code: ELECTION-USA-VA-STUART-2026_GENERAL
   attributes:
-    name: Patrick County General Election 2026
+    name: Stuart General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-PATRICK
+    jurisdiction: MUNICIPALITY-USA-VA-STUART
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PATRICK-MEMBER_BOARD_OF_SUPERVISORS-SMITH_RIVER_DISTRICT
+    code: OFFICE-USA-VA-COUNTY_PATRICK-COUNTY_SUPERVISOR-SMITH_RIVER_DISTRICT
     attributes:
       seat_code: SMITH_RIVER_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_BOARD_OF_SUPERVISORS
+      position: POSITION-COUNTY_SUPERVISOR
       jurisdiction: COUNTY-USA-VA-PATRICK
   - type: Race
-    code: RACE-USA-VA-COUNTY_PATRICK-MEMBER_BOARD_OF_SUPERVISORS-SMITH_RIVER_DISTRICT-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_PATRICK-COUNTY_SUPERVISOR-SMITH_RIVER_DISTRICT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_PATRICK-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_PATRICK-MEMBER_BOARD_OF_SUPERVISORS-SMITH_RIVER_DISTRICT
+      office: OFFICE-USA-VA-COUNTY_PATRICK-COUNTY_SUPERVISOR-SMITH_RIVER_DISTRICT
   - type: Person
     code: PERSON-HARRIS_CR_9M
     attributes:
@@ -57,12 +57,12 @@ groups:
       middle_name: P.
       last_name: Harris
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PATRICK-MEMBER_BOARD_OF_SUPERVISORS-SMITH_RIVER_DISTRICT-2026_SPECIAL-HARRIS_CR_9M
+    code: CANDIDACY-USA-VA-COUNTY_PATRICK-COUNTY_SUPERVISOR-SMITH_RIVER_DISTRICT-2026_SPECIAL-HARRIS_CR_9M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PATRICK-MEMBER_BOARD_OF_SUPERVISORS-SMITH_RIVER_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_PATRICK-COUNTY_SUPERVISOR-SMITH_RIVER_DISTRICT-2026_SPECIAL
       person: PERSON-HARRIS_CR_9M
   - type: Person
     code: PERSON-COX_RC_5H
@@ -73,30 +73,30 @@ groups:
       middle_name: D.
       last_name: Cox
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PATRICK-MEMBER_BOARD_OF_SUPERVISORS-SMITH_RIVER_DISTRICT-2026_SPECIAL-COX_RC_5H
+    code: CANDIDACY-USA-VA-COUNTY_PATRICK-COUNTY_SUPERVISOR-SMITH_RIVER_DISTRICT-2026_SPECIAL-COX_RC_5H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PATRICK-MEMBER_BOARD_OF_SUPERVISORS-SMITH_RIVER_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_PATRICK-COUNTY_SUPERVISOR-SMITH_RIVER_DISTRICT-2026_SPECIAL
       person: PERSON-COX_RC_5H
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PATRICK-MEMBER_SCHOOL_BOARD-PETERS_CREEK_DISTRICT
+    code: OFFICE-USA-VA-COUNTY_PATRICK-SCHOOL_BOARD_MEMBER-PETERS_CREEK_DISTRICT
     attributes:
       seat_code: PETERS_CREEK_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-PATRICK
   - type: Race
-    code: RACE-USA-VA-COUNTY_PATRICK-MEMBER_SCHOOL_BOARD-PETERS_CREEK_DISTRICT-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_PATRICK-SCHOOL_BOARD_MEMBER-PETERS_CREEK_DISTRICT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_PATRICK-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_PATRICK-MEMBER_SCHOOL_BOARD-PETERS_CREEK_DISTRICT
+      office: OFFICE-USA-VA-COUNTY_PATRICK-SCHOOL_BOARD_MEMBER-PETERS_CREEK_DISTRICT
   - type: Person
     code: PERSON-WOODS_JR_4E
     attributes:
@@ -106,30 +106,29 @@ groups:
       middle_name: W.
       last_name: Woods
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PATRICK-MEMBER_SCHOOL_BOARD-PETERS_CREEK_DISTRICT-2026_SPECIAL-WOODS_JR_4E
+    code: CANDIDACY-USA-VA-COUNTY_PATRICK-SCHOOL_BOARD_MEMBER-PETERS_CREEK_DISTRICT-2026_SPECIAL-WOODS_JR_4E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PATRICK-MEMBER_SCHOOL_BOARD-PETERS_CREEK_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_PATRICK-SCHOOL_BOARD_MEMBER-PETERS_CREEK_DISTRICT-2026_SPECIAL
       person: PERSON-WOODS_JR_4E
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PATRICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STUART
+    code: OFFICE-USA-VA-STUART-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_STUART
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-PATRICK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-STUART
   - type: Race
-    code: RACE-USA-VA-COUNTY_PATRICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STUART-2026_GENERAL
+    code: RACE-USA-VA-STUART-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_PATRICK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_PATRICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STUART
+      election: ELECTION-USA-VA-STUART-2026_GENERAL
+      office: OFFICE-USA-VA-STUART-COUNCIL_MEMBER
   - type: Person
     code: PERSON-HOUCHINS_JF_7W
     attributes:
@@ -139,12 +138,12 @@ groups:
       middle_name: D.
       last_name: Houchins
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PATRICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STUART-2026_GENERAL-HOUCHINS_JF_7W
+    code: CANDIDACY-USA-VA-STUART-COUNCIL_MEMBER-2026_GENERAL-HOUCHINS_JF_7W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PATRICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STUART-2026_GENERAL
+      race: RACE-USA-VA-STUART-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HOUCHINS_JF_7W
   - type: Person
     code: PERSON-ADCOCK_RB_3X
@@ -155,12 +154,12 @@ groups:
       middle_name: J.
       last_name: Adcock
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PATRICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STUART-2026_GENERAL-ADCOCK_RB_3X
+    code: CANDIDACY-USA-VA-STUART-COUNCIL_MEMBER-2026_GENERAL-ADCOCK_RB_3X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PATRICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STUART-2026_GENERAL
+      race: RACE-USA-VA-STUART-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ADCOCK_RB_3X
   - type: Person
     code: PERSON-PITTIS_RB_2T
@@ -171,10 +170,10 @@ groups:
       middle_name: D.
       last_name: Pittis
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PATRICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STUART-2026_GENERAL-PITTIS_RB_2T
+    code: CANDIDACY-USA-VA-STUART-COUNCIL_MEMBER-2026_GENERAL-PITTIS_RB_2T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PATRICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STUART-2026_GENERAL
+      race: RACE-USA-VA-STUART-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PITTIS_RB_2T

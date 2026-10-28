@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_MARION-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-MARION
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARION-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_MARION-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-CRIMI_MK_7Y
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Mike
       last_name: Crimi
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-CRIMI_MK_7Y
+    code: CANDIDACY-USA-FL-COUNTY_MARION-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-CRIMI_MK_7Y
     attributes:
       status: active
       participation: active
@@ -53,25 +53,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_MARION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-CRIMI_MK_7Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_MARION-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-MARION
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARION-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_MARION-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-BAIRSTOW_JF_4E
     attributes:
@@ -80,7 +80,7 @@ groups:
       first_name: Jeff
       last_name: Bairstow
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-BAIRSTOW_JF_4E
+    code: CANDIDACY-USA-FL-COUNTY_MARION-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-BAIRSTOW_JF_4E
     attributes:
       status: active
       participation: active
@@ -89,7 +89,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_MARION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-BAIRSTOW_JF_4E
   - type: Person
     code: PERSON-RACIOPPI_LN_7Y
@@ -100,7 +100,7 @@ groups:
       middle_name: Michael
       last_name: Racioppi
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-RACIOPPI_LN_7Y
+    code: CANDIDACY-USA-FL-COUNTY_MARION-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-RACIOPPI_LN_7Y
     attributes:
       status: active
       participation: active
@@ -108,25 +108,25 @@ groups:
       - label: Write-In
         kind: write_in
     references:
-      race: RACE-USA-FL-COUNTY_MARION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-RACIOPPI_LN_7Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANDLER_HILLS_EAST_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: CANDLER_HILLS_EAST_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-MARION
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANDLER_HILLS_EAST_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANDLER_HILLS_EAST_CDD_SEAT_1
   - type: Person
     code: PERSON-SCHERFF_RB_4F
     attributes:
@@ -136,30 +136,30 @@ groups:
       middle_name: H.
       last_name: Scherff
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST-SEAT_1-2026_GENERAL-SCHERFF_RB_4F
+    code: CANDIDACY-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANDLER_HILLS_EAST_CDD_SEAT_1-2026_GENERAL-SCHERFF_RB_4F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANDLER_HILLS_EAST_CDD_SEAT_1-2026_GENERAL
       person: PERSON-SCHERFF_RB_4F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANDLER_HILLS_EAST_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: CANDLER_HILLS_EAST_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-MARION
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANDLER_HILLS_EAST_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANDLER_HILLS_EAST_CDD_SEAT_4
   - type: Person
     code: PERSON-HILL_GR_6E
     attributes:
@@ -169,30 +169,30 @@ groups:
       middle_name: C.
       last_name: Hill Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST-SEAT_4-2026_GENERAL-HILL_GR_6E
+    code: CANDIDACY-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANDLER_HILLS_EAST_CDD_SEAT_4-2026_GENERAL-HILL_GR_6E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANDLER_HILLS_EAST_CDD_SEAT_4-2026_GENERAL
       person: PERSON-HILL_GR_6E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANDLER_HILLS_EAST_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: CANDLER_HILLS_EAST_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-MARION
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANDLER_HILLS_EAST_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANDLER_HILLS_EAST_CDD_SEAT_5
   - type: Person
     code: PERSON-BAIN_JH_7B
     attributes:
@@ -202,30 +202,30 @@ groups:
       middle_name: D.
       last_name: Bain
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST-SEAT_5-2026_GENERAL-BAIN_JH_7B
+    code: CANDIDACY-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANDLER_HILLS_EAST_CDD_SEAT_5-2026_GENERAL-BAIN_JH_7B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-CANDLER_HILLS_EAST_COMM_DEVEL_DIST-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANDLER_HILLS_EAST_CDD_SEAT_5-2026_GENERAL
       person: PERSON-BAIN_JH_7B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARION-INDIGO_EAST_COMMUNITY_DEVELOPMENT_DIST-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_EAST_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: INDIGO_EAST_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-INDIGO_EAST_COMMUNITY_DEVELOPMENT_DIST
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-MARION
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARION-INDIGO_EAST_COMMUNITY_DEVELOPMENT_DIST-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_EAST_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARION-INDIGO_EAST_COMMUNITY_DEVELOPMENT_DIST-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_EAST_CDD_SEAT_3
   - type: Person
     code: PERSON-SOLAN_TR_7J
     attributes:
@@ -235,30 +235,30 @@ groups:
       middle_name: P.
       last_name: Solan
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-INDIGO_EAST_COMMUNITY_DEVELOPMENT_DIST-SEAT_3-2026_GENERAL-SOLAN_TR_7J
+    code: CANDIDACY-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_EAST_CDD_SEAT_3-2026_GENERAL-SOLAN_TR_7J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-INDIGO_EAST_COMMUNITY_DEVELOPMENT_DIST-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_EAST_CDD_SEAT_3-2026_GENERAL
       person: PERSON-SOLAN_TR_7J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
     attributes:
       seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-SOIL_WATER_CONSERVATION_DISTRICT
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-MARION
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
   - type: Person
     code: PERSON-ALBRIGHT_JS_6N
     attributes:
@@ -267,30 +267,30 @@ groups:
       first_name: Justin
       last_name: Albright
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_1-2026_GENERAL-ALBRIGHT_JS_6N
+    code: CANDIDACY-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL-ALBRIGHT_JS_6N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
       person: PERSON-ALBRIGHT_JS_6N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2
     attributes:
       seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-SOIL_WATER_CONSERVATION_DISTRICT
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-MARION
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2
   - type: Person
     code: PERSON-THORNTON_FRASER_CN_4W
     attributes:
@@ -299,30 +299,30 @@ groups:
       first_name: Conor
       last_name: Thornton-Fraser
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_2-2026_GENERAL-THORNTON_FRASER_CN_4W
+    code: CANDIDACY-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2-2026_GENERAL-THORNTON_FRASER_CN_4W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2-2026_GENERAL
       person: PERSON-THORNTON_FRASER_CN_4W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_4
     attributes:
       seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-SOIL_WATER_CONSERVATION_DISTRICT
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-MARION
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_4
   - type: Person
     code: PERSON-DAVIS_AM_9H
     attributes:
@@ -331,30 +331,30 @@ groups:
       first_name: Amy
       last_name: Davis
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_4-2026_GENERAL-DAVIS_AM_9H
+    code: CANDIDACY-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_4-2026_GENERAL-DAVIS_AM_9H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_4-2026_GENERAL
       person: PERSON-DAVIS_AM_9H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
     attributes:
       seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-SOIL_WATER_CONSERVATION_DISTRICT
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-MARION
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
   - type: Person
     code: PERSON-EDWARDS_DB_6B
     attributes:
@@ -364,12 +364,12 @@ groups:
       middle_name: A.
       last_name: Edwards
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_5-2026_GENERAL-EDWARDS_DB_6B
+    code: CANDIDACY-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL-EDWARDS_DB_6B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
       person: PERSON-EDWARDS_DB_6B
   - type: Person
     code: PERSON-SERENA_VV_6J
@@ -379,30 +379,30 @@ groups:
       first_name: Vivi
       last_name: Serena
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_5-2026_GENERAL-SERENA_VV_6J
+    code: CANDIDACY-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL-SERENA_VV_6J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
       person: PERSON-SERENA_VV_6J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-MARION
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-CUMMINGS_ER_7X
     attributes:
@@ -412,30 +412,30 @@ groups:
       middle_name: R.
       last_name: Cummings
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-CUMMINGS_ER_7X
+    code: CANDIDACY-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-CUMMINGS_ER_7X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-CUMMINGS_ER_7X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-MARION
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-MILLS_MK_3Z
     attributes:
@@ -444,12 +444,12 @@ groups:
       first_name: Mike
       last_name: Mills
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-MILLS_MK_3Z
+    code: CANDIDACY-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-MILLS_MK_3Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-MILLS_MK_3Z
   - type: Person
     code: PERSON-SMITH_BR_7V
@@ -459,30 +459,30 @@ groups:
       first_name: Brigitte
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-SMITH_BR_7V
+    code: CANDIDACY-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-SMITH_BR_7V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-SMITH_BR_7V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-MARION
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-BARBER_DN_3T
     attributes:
@@ -492,12 +492,12 @@ groups:
       middle_name: '"Donny"'
       last_name: Barber
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-BARBER_DN_3T
+    code: CANDIDACY-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-BARBER_DN_3T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-BARBER_DN_3T
   - type: Person
     code: PERSON-JAMES_SR_3C
@@ -507,30 +507,30 @@ groups:
       first_name: Sarah
       last_name: James
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-JAMES_SR_3C
+    code: CANDIDACY-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-JAMES_SR_3C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-JAMES_SR_3C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARION-VILLAGES_CDD_4-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_CDD_4_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: VILLAGES_CDD_4_SEAT_3
       is_active: true
     references:
-      position: POSITION-VILLAGES_CDD_4
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-MARION
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARION-VILLAGES_CDD_4-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_CDD_4_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARION-VILLAGES_CDD_4-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_CDD_4_SEAT_3
   - type: Person
     code: PERSON-MURPHY_JM_4E
     attributes:
@@ -540,30 +540,30 @@ groups:
       middle_name: "(Jim)"
       last_name: Murphy
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-VILLAGES_CDD_4-SEAT_3-2026_GENERAL-MURPHY_JM_4E
+    code: CANDIDACY-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_CDD_4_SEAT_3-2026_GENERAL-MURPHY_JM_4E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-VILLAGES_CDD_4-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_CDD_4_SEAT_3-2026_GENERAL
       person: PERSON-MURPHY_JM_4E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARION-VILLAGES_CDD_4-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_CDD_4_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: VILLAGES_CDD_4_SEAT_4
       is_active: true
     references:
-      position: POSITION-VILLAGES_CDD_4
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-MARION
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARION-VILLAGES_CDD_4-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_CDD_4_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARION-VILLAGES_CDD_4-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_CDD_4_SEAT_4
   - type: Person
     code: PERSON-HAYES_MR_5F
     attributes:
@@ -573,30 +573,30 @@ groups:
       middle_name: F.
       last_name: Hayes
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-VILLAGES_CDD_4-SEAT_4-2026_GENERAL-HAYES_MR_5F
+    code: CANDIDACY-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_CDD_4_SEAT_4-2026_GENERAL-HAYES_MR_5F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-VILLAGES_CDD_4-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_CDD_4_SEAT_4-2026_GENERAL
       person: PERSON-HAYES_MR_5F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARION-VILLAGES_CDD_4-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_CDD_4_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: VILLAGES_CDD_4_SEAT_5
       is_active: true
     references:
-      position: POSITION-VILLAGES_CDD_4
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-MARION
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARION-VILLAGES_CDD_4-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_CDD_4_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARION-VILLAGES_CDD_4-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_CDD_4_SEAT_5
   - type: Person
     code: PERSON-DEAKIN_DN_8X
     attributes:
@@ -605,10 +605,10 @@ groups:
       first_name: Don
       last_name: Deakin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARION-VILLAGES_CDD_4-SEAT_5-2026_GENERAL-DEAKIN_DN_8X
+    code: CANDIDACY-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_CDD_4_SEAT_5-2026_GENERAL-DEAKIN_DN_8X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARION-VILLAGES_CDD_4-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_CDD_4_SEAT_5-2026_GENERAL
       person: PERSON-DEAKIN_DN_8X

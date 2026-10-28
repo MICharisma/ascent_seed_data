@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HARDEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_HARDEE-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-HARDEE
   - type: Race
-    code: RACE-USA-FL-COUNTY_HARDEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HARDEE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HARDEE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HARDEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_HARDEE-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-FLORES_NY_7K
     attributes:
@@ -45,7 +45,7 @@ groups:
       middle_name: Adam
       last_name: Flores
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HARDEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-FLORES_NY_7K
+    code: CANDIDACY-USA-FL-COUNTY_HARDEE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-FLORES_NY_7K
     attributes:
       status: active
       participation: active
@@ -54,25 +54,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_HARDEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HARDEE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-FLORES_NY_7K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HARDEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_HARDEE-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-HARDEE
   - type: Race
-    code: RACE-USA-FL-COUNTY_HARDEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HARDEE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HARDEE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HARDEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_HARDEE-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-MELENDY_RS_8A
     attributes:
@@ -82,7 +82,7 @@ groups:
       middle_name: A.
       last_name: Melendy
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HARDEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-MELENDY_RS_8A
+    code: CANDIDACY-USA-FL-COUNTY_HARDEE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-MELENDY_RS_8A
     attributes:
       status: active
       participation: active
@@ -91,25 +91,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_HARDEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HARDEE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-MELENDY_RS_8A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HARDEE
   - type: Race
-    code: RACE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HARDEE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-SHARP_ST_6Y
     attributes:
@@ -118,30 +118,30 @@ groups:
       first_name: Stacy
       last_name: Sharp
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-SHARP_ST_6Y
+    code: CANDIDACY-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-SHARP_ST_6Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-SHARP_ST_6Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HARDEE
   - type: Race
-    code: RACE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HARDEE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-DASHER_MR_3D
     attributes:
@@ -151,30 +151,30 @@ groups:
       middle_name: Albritton
       last_name: Dasher
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-DASHER_MR_3D
+    code: CANDIDACY-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-DASHER_MR_3D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-DASHER_MR_3D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HARDEE
   - type: Race
-    code: RACE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HARDEE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-GILLIARD_MR_7R
     attributes:
@@ -184,30 +184,30 @@ groups:
       middle_name: E
       last_name: Gilliard
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-GILLIARD_MR_7R
+    code: CANDIDACY-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-GILLIARD_MR_7R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HARDEE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-GILLIARD_MR_7R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HARDEE-SOIL_WATER_CONSERVATION_DIST_3-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_HARDEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3
     attributes:
       seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-SOIL_WATER_CONSERVATION_DIST_3
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-HARDEE
   - type: Race
-    code: RACE-USA-FL-COUNTY_HARDEE-SOIL_WATER_CONSERVATION_DIST_3-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HARDEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HARDEE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HARDEE-SOIL_WATER_CONSERVATION_DIST_3-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_HARDEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3
   - type: Person
     code: PERSON-GOUGH_JH_6Q
     attributes:
@@ -217,30 +217,30 @@ groups:
       middle_name: Roy
       last_name: Gough Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HARDEE-SOIL_WATER_CONSERVATION_DIST_3-SEAT_3-2026_GENERAL-GOUGH_JH_6Q
+    code: CANDIDACY-USA-FL-COUNTY_HARDEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL-GOUGH_JH_6Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HARDEE-SOIL_WATER_CONSERVATION_DIST_3-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HARDEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL
       person: PERSON-GOUGH_JH_6Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HARDEE-SOIL_WATER_CONSERVATION_DIST_5-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_HARDEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
     attributes:
       seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-SOIL_WATER_CONSERVATION_DIST_5
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-HARDEE
   - type: Race
-    code: RACE-USA-FL-COUNTY_HARDEE-SOIL_WATER_CONSERVATION_DIST_5-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HARDEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HARDEE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HARDEE-SOIL_WATER_CONSERVATION_DIST_5-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_HARDEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
   - type: Person
     code: PERSON-PETTEWAY_RM_9G
     attributes:
@@ -250,10 +250,10 @@ groups:
       middle_name: Roy
       last_name: Petteway
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HARDEE-SOIL_WATER_CONSERVATION_DIST_5-SEAT_5-2026_GENERAL-PETTEWAY_RM_9G
+    code: CANDIDACY-USA-FL-COUNTY_HARDEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL-PETTEWAY_RM_9G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HARDEE-SOIL_WATER_CONSERVATION_DIST_5-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HARDEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
       person: PERSON-PETTEWAY_RM_9G

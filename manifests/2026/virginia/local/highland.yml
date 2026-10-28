@@ -54,21 +54,21 @@ groups:
       person: PERSON-GARBER_WR_8U
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_HIGHLAND-MEMBER_TOWN_COUNCIL-MONTEREY
+    code: OFFICE-USA-VA-COUNTY_HIGHLAND-COUNCIL_MEMBER-MONTEREY
     attributes:
       seat_code: MONTEREY
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-HIGHLAND
   - type: Race
-    code: RACE-USA-VA-COUNTY_HIGHLAND-MEMBER_TOWN_COUNCIL-MONTEREY-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_HIGHLAND-COUNCIL_MEMBER-MONTEREY-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_HIGHLAND-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_HIGHLAND-MEMBER_TOWN_COUNCIL-MONTEREY
+      office: OFFICE-USA-VA-COUNTY_HIGHLAND-COUNCIL_MEMBER-MONTEREY
   - type: Person
     code: PERSON-BOTKIN_DN_2V
     attributes:
@@ -78,12 +78,12 @@ groups:
       middle_name: S.
       last_name: Botkin
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HIGHLAND-MEMBER_TOWN_COUNCIL-MONTEREY-2026_GENERAL-BOTKIN_DN_2V
+    code: CANDIDACY-USA-VA-COUNTY_HIGHLAND-COUNCIL_MEMBER-MONTEREY-2026_GENERAL-BOTKIN_DN_2V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HIGHLAND-MEMBER_TOWN_COUNCIL-MONTEREY-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_HIGHLAND-COUNCIL_MEMBER-MONTEREY-2026_GENERAL
       person: PERSON-BOTKIN_DN_2V
   - type: Person
     code: PERSON-WEISS_RB_2G
@@ -94,10 +94,10 @@ groups:
       middle_name: A. "Rob"
       last_name: Weiss
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HIGHLAND-MEMBER_TOWN_COUNCIL-MONTEREY-2026_GENERAL-WEISS_RB_2G
+    code: CANDIDACY-USA-VA-COUNTY_HIGHLAND-COUNCIL_MEMBER-MONTEREY-2026_GENERAL-WEISS_RB_2G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HIGHLAND-MEMBER_TOWN_COUNCIL-MONTEREY-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_HIGHLAND-COUNCIL_MEMBER-MONTEREY-2026_GENERAL
       person: PERSON-WEISS_RB_2G

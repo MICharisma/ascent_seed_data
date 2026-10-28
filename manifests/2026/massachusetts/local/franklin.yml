@@ -21,21 +21,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_FRANKLIN-REGISTER_OF_PROBATE-FRANKLIN_COUNTY
+    code: OFFICE-USA-MA-COUNTY_FRANKLIN-REGISTER_OF_PROBATE
     attributes:
-      seat_code: FRANKLIN_COUNTY
       is_active: true
     references:
       position: POSITION-REGISTER_OF_PROBATE
       jurisdiction: COUNTY-USA-MA-FRANKLIN
   - type: Race
-    code: RACE-USA-MA-COUNTY_FRANKLIN-REGISTER_OF_PROBATE-FRANKLIN_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_FRANKLIN-REGISTER_OF_PROBATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_FRANKLIN-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_FRANKLIN-REGISTER_OF_PROBATE-FRANKLIN_COUNTY
+      office: OFFICE-USA-MA-COUNTY_FRANKLIN-REGISTER_OF_PROBATE
   - type: Person
     code: PERSON-GRAVES_DN_9M
     attributes:
@@ -45,7 +44,7 @@ groups:
       middle_name: Francis
       last_name: Graves
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_FRANKLIN-REGISTER_OF_PROBATE-FRANKLIN_COUNTY-2026_GENERAL-GRAVES_DN_9M
+    code: CANDIDACY-USA-MA-COUNTY_FRANKLIN-REGISTER_OF_PROBATE-2026_GENERAL-GRAVES_DN_9M
     attributes:
       status: active
       participation: active
@@ -54,25 +53,24 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_FRANKLIN-REGISTER_OF_PROBATE-FRANKLIN_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_FRANKLIN-REGISTER_OF_PROBATE-2026_GENERAL
       person: PERSON-GRAVES_DN_9M
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_FRANKLIN-SHERIFF_TO_FILL_A_VACANCY-FRANKLIN_COUNTY
+    code: OFFICE-USA-MA-COUNTY_FRANKLIN-SHERIFF
     attributes:
-      seat_code: FRANKLIN_COUNTY
       is_active: true
     references:
-      position: POSITION-SHERIFF_TO_FILL_A_VACANCY
+      position: POSITION-SHERIFF
       jurisdiction: COUNTY-USA-MA-FRANKLIN
   - type: Race
-    code: RACE-USA-MA-COUNTY_FRANKLIN-SHERIFF_TO_FILL_A_VACANCY-FRANKLIN_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_FRANKLIN-SHERIFF-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_FRANKLIN-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_FRANKLIN-SHERIFF_TO_FILL_A_VACANCY-FRANKLIN_COUNTY
+      office: OFFICE-USA-MA-COUNTY_FRANKLIN-SHERIFF
   - type: Person
     code: PERSON-STREETER_LR_5C
     attributes:
@@ -82,7 +80,7 @@ groups:
       middle_name: M.
       last_name: Streeter
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_FRANKLIN-SHERIFF_TO_FILL_A_VACANCY-FRANKLIN_COUNTY-2026_GENERAL-STREETER_LR_5C
+    code: CANDIDACY-USA-MA-COUNTY_FRANKLIN-SHERIFF-UNEXPIRED_TERM-2026_GENERAL-STREETER_LR_5C
     attributes:
       status: active
       participation: active
@@ -91,7 +89,7 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_FRANKLIN-SHERIFF_TO_FILL_A_VACANCY-FRANKLIN_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_FRANKLIN-SHERIFF-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-STREETER_LR_5C
   - type: Person
     code: PERSON-GAGNON_GR_6P
@@ -102,7 +100,7 @@ groups:
       middle_name: Edward
       last_name: Gagnon
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_FRANKLIN-SHERIFF_TO_FILL_A_VACANCY-FRANKLIN_COUNTY-2026_GENERAL-GAGNON_GR_6P
+    code: CANDIDACY-USA-MA-COUNTY_FRANKLIN-SHERIFF-UNEXPIRED_TERM-2026_GENERAL-GAGNON_GR_6P
     attributes:
       status: active
       participation: active
@@ -110,7 +108,7 @@ groups:
       - label: Independent
         kind: designation
     references:
-      race: RACE-USA-MA-COUNTY_FRANKLIN-SHERIFF_TO_FILL_A_VACANCY-FRANKLIN_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_FRANKLIN-SHERIFF-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-GAGNON_GR_6P
   - type: Person
     code: PERSON-HALL_JN_7H
@@ -121,7 +119,7 @@ groups:
       middle_name: J.
       last_name: Hall
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_FRANKLIN-SHERIFF_TO_FILL_A_VACANCY-FRANKLIN_COUNTY-2026_GENERAL-HALL_JN_7H
+    code: CANDIDACY-USA-MA-COUNTY_FRANKLIN-SHERIFF-UNEXPIRED_TERM-2026_GENERAL-HALL_JN_7H
     attributes:
       status: active
       participation: active
@@ -129,25 +127,24 @@ groups:
       - label: Unenrolled
         kind: designation
     references:
-      race: RACE-USA-MA-COUNTY_FRANKLIN-SHERIFF_TO_FILL_A_VACANCY-FRANKLIN_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_FRANKLIN-SHERIFF-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-HALL_JN_7H
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_FRANKLIN-COUNCIL_OF_GOVERNMENTS_EXECUTIVE_COMMITTEE-FRANKLIN_COUNTY
+    code: OFFICE-USA-MA-COUNTY_FRANKLIN-COUNCIL_OF_GOVERNMENTS_EXECUTIVE_COMMITTEE_MEMBER
     attributes:
-      seat_code: FRANKLIN_COUNTY
       is_active: true
     references:
-      position: POSITION-COUNCIL_OF_GOVERNMENTS_EXECUTIVE_COMMITTEE
+      position: POSITION-COUNCIL_OF_GOVERNMENTS_EXECUTIVE_COMMITTEE_MEMBER
       jurisdiction: COUNTY-USA-MA-FRANKLIN
   - type: Race
-    code: RACE-USA-MA-COUNTY_FRANKLIN-COUNCIL_OF_GOVERNMENTS_EXECUTIVE_COMMITTEE-FRANKLIN_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_FRANKLIN-COUNCIL_OF_GOVERNMENTS_EXECUTIVE_COMMITTEE_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_FRANKLIN-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_FRANKLIN-COUNCIL_OF_GOVERNMENTS_EXECUTIVE_COMMITTEE-FRANKLIN_COUNTY
+      office: OFFICE-USA-MA-COUNTY_FRANKLIN-COUNCIL_OF_GOVERNMENTS_EXECUTIVE_COMMITTEE_MEMBER
   - type: Person
     code: PERSON-PEIRCE_JN_5J
     attributes:
@@ -157,10 +154,10 @@ groups:
       middle_name: M.
       last_name: Peirce
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_FRANKLIN-COUNCIL_OF_GOVERNMENTS_EXECUTIVE_COMMITTEE-FRANKLIN_COUNTY-2026_GENERAL-PEIRCE_JN_5J
+    code: CANDIDACY-USA-MA-COUNTY_FRANKLIN-COUNCIL_OF_GOVERNMENTS_EXECUTIVE_COMMITTEE_MEMBER-2026_GENERAL-PEIRCE_JN_5J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-COUNTY_FRANKLIN-COUNCIL_OF_GOVERNMENTS_EXECUTIVE_COMMITTEE-FRANKLIN_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_FRANKLIN-COUNCIL_OF_GOVERNMENTS_EXECUTIVE_COMMITTEE_MEMBER-2026_GENERAL
       person: PERSON-PEIRCE_JN_5J

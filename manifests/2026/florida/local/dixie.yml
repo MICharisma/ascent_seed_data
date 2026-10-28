@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DIXIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_DIXIE-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-DIXIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_DIXIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DIXIE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DIXIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DIXIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_DIXIE-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-TUTEN_KT_6N
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Keith
       last_name: Tuten
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DIXIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-TUTEN_KT_6N
+    code: CANDIDACY-USA-FL-COUNTY_DIXIE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-TUTEN_KT_6N
     attributes:
       status: active
       participation: active
@@ -53,25 +53,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_DIXIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DIXIE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-TUTEN_KT_6N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DIXIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_DIXIE-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-DIXIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_DIXIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DIXIE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DIXIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DIXIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_DIXIE-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-STOREY_JM_6A
     attributes:
@@ -80,7 +80,7 @@ groups:
       first_name: Jamie
       last_name: Storey
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DIXIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-STOREY_JM_6A
+    code: CANDIDACY-USA-FL-COUNTY_DIXIE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-STOREY_JM_6A
     attributes:
       status: active
       participation: active
@@ -89,7 +89,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_DIXIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DIXIE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-STOREY_JM_6A
 - records:
   - type: Office
@@ -125,21 +125,21 @@ groups:
       person: PERSON-JOHNSON_JN_7G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DIXIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DIXIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-NESSMITH_AM_3C
     attributes:
@@ -149,30 +149,30 @@ groups:
       middle_name: Mills
       last_name: NesSmith
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-NESSMITH_AM_3C
+    code: CANDIDACY-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-NESSMITH_AM_3C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-NESSMITH_AM_3C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DIXIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DIXIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-DRIGGERS_JH_5T
     attributes:
@@ -182,30 +182,30 @@ groups:
       middle_name: Duane
       last_name: Driggers Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-DRIGGERS_JH_5T
+    code: CANDIDACY-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-DRIGGERS_JH_5T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-DRIGGERS_JH_5T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DIXIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DIXIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-ROLLISON_LC_5E
     attributes:
@@ -214,30 +214,30 @@ groups:
       first_name: Lucas
       last_name: Rollison
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-ROLLISON_LC_5E
+    code: CANDIDACY-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-ROLLISON_LC_5E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DIXIE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-ROLLISON_LC_5E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DIXIE-SUWANNEE_WATER_SEWER_DISTRICT-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_DIXIE-SPECIAL_DISTRICT_BOARD_MEMBER-SUWANNEE_WATER_SEWER_DISTRICT_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: SUWANNEE_WATER_SEWER_DISTRICT_SEAT_1
       is_active: true
     references:
-      position: POSITION-SUWANNEE_WATER_SEWER_DISTRICT
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DIXIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_DIXIE-SUWANNEE_WATER_SEWER_DISTRICT-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DIXIE-SPECIAL_DISTRICT_BOARD_MEMBER-SUWANNEE_WATER_SEWER_DISTRICT_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DIXIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DIXIE-SUWANNEE_WATER_SEWER_DISTRICT-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_DIXIE-SPECIAL_DISTRICT_BOARD_MEMBER-SUWANNEE_WATER_SEWER_DISTRICT_SEAT_1
   - type: Person
     code: PERSON-DUGGER_ED_8J
     attributes:
@@ -246,30 +246,30 @@ groups:
       first_name: Eddie
       last_name: Dugger
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DIXIE-SUWANNEE_WATER_SEWER_DISTRICT-SEAT_1-2026_GENERAL-DUGGER_ED_8J
+    code: CANDIDACY-USA-FL-COUNTY_DIXIE-SPECIAL_DISTRICT_BOARD_MEMBER-SUWANNEE_WATER_SEWER_DISTRICT_SEAT_1-2026_GENERAL-DUGGER_ED_8J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DIXIE-SUWANNEE_WATER_SEWER_DISTRICT-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DIXIE-SPECIAL_DISTRICT_BOARD_MEMBER-SUWANNEE_WATER_SEWER_DISTRICT_SEAT_1-2026_GENERAL
       person: PERSON-DUGGER_ED_8J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DIXIE-SUWANNEE_WATER_SEWER_DISTRICT-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_DIXIE-SPECIAL_DISTRICT_BOARD_MEMBER-SUWANNEE_WATER_SEWER_DISTRICT_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: SUWANNEE_WATER_SEWER_DISTRICT_SEAT_2
       is_active: true
     references:
-      position: POSITION-SUWANNEE_WATER_SEWER_DISTRICT
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DIXIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_DIXIE-SUWANNEE_WATER_SEWER_DISTRICT-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DIXIE-SPECIAL_DISTRICT_BOARD_MEMBER-SUWANNEE_WATER_SEWER_DISTRICT_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DIXIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DIXIE-SUWANNEE_WATER_SEWER_DISTRICT-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_DIXIE-SPECIAL_DISTRICT_BOARD_MEMBER-SUWANNEE_WATER_SEWER_DISTRICT_SEAT_2
   - type: Person
     code: PERSON-MILES_PT_7B
     attributes:
@@ -278,30 +278,30 @@ groups:
       first_name: Patrick
       last_name: Miles
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DIXIE-SUWANNEE_WATER_SEWER_DISTRICT-SEAT_2-2026_GENERAL-MILES_PT_7B
+    code: CANDIDACY-USA-FL-COUNTY_DIXIE-SPECIAL_DISTRICT_BOARD_MEMBER-SUWANNEE_WATER_SEWER_DISTRICT_SEAT_2-2026_GENERAL-MILES_PT_7B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DIXIE-SUWANNEE_WATER_SEWER_DISTRICT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DIXIE-SPECIAL_DISTRICT_BOARD_MEMBER-SUWANNEE_WATER_SEWER_DISTRICT_SEAT_2-2026_GENERAL
       person: PERSON-MILES_PT_7B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DIXIE-SUWANNEE_WATER_SEWER_DISTRICT-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_DIXIE-SPECIAL_DISTRICT_BOARD_MEMBER-SUWANNEE_WATER_SEWER_DISTRICT_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: SUWANNEE_WATER_SEWER_DISTRICT_SEAT_3
       is_active: true
     references:
-      position: POSITION-SUWANNEE_WATER_SEWER_DISTRICT
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DIXIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_DIXIE-SUWANNEE_WATER_SEWER_DISTRICT-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DIXIE-SPECIAL_DISTRICT_BOARD_MEMBER-SUWANNEE_WATER_SEWER_DISTRICT_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DIXIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DIXIE-SUWANNEE_WATER_SEWER_DISTRICT-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_DIXIE-SPECIAL_DISTRICT_BOARD_MEMBER-SUWANNEE_WATER_SEWER_DISTRICT_SEAT_3
   - type: Person
     code: PERSON-ROSS_KR_7T
     attributes:
@@ -310,10 +310,10 @@ groups:
       first_name: Karen
       last_name: Ross
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DIXIE-SUWANNEE_WATER_SEWER_DISTRICT-SEAT_3-2026_GENERAL-ROSS_KR_7T
+    code: CANDIDACY-USA-FL-COUNTY_DIXIE-SPECIAL_DISTRICT_BOARD_MEMBER-SUWANNEE_WATER_SEWER_DISTRICT_SEAT_3-2026_GENERAL-ROSS_KR_7T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DIXIE-SUWANNEE_WATER_SEWER_DISTRICT-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DIXIE-SPECIAL_DISTRICT_BOARD_MEMBER-SUWANNEE_WATER_SEWER_DISTRICT_SEAT_3-2026_GENERAL
       person: PERSON-ROSS_KR_7T

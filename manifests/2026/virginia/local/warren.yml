@@ -7,35 +7,34 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_WARREN-2026_GENERAL
+  code: ELECTION-USA-VA-FRONT_ROYAL-2026_GENERAL
   attributes:
-    name: Warren County General Election 2026
+    name: Front Royal General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-WARREN
+    jurisdiction: MUNICIPALITY-USA-VA-FRONT_ROYAL
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WARREN-MAYOR-TOWN_OF_FRONT_ROYAL
+    code: OFFICE-USA-VA-FRONT_ROYAL-MAYOR
     attributes:
-      seat_code: TOWN_OF_FRONT_ROYAL
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-WARREN
+      jurisdiction: MUNICIPALITY-USA-VA-FRONT_ROYAL
   - type: Race
-    code: RACE-USA-VA-COUNTY_WARREN-MAYOR-TOWN_OF_FRONT_ROYAL-2026_GENERAL
+    code: RACE-USA-VA-FRONT_ROYAL-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_WARREN-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_WARREN-MAYOR-TOWN_OF_FRONT_ROYAL
+      election: ELECTION-USA-VA-FRONT_ROYAL-2026_GENERAL
+      office: OFFICE-USA-VA-FRONT_ROYAL-MAYOR
   - type: Person
     code: PERSON-COCKRELL_LR_8A
     attributes:
@@ -45,30 +44,29 @@ groups:
       middle_name: Athey
       last_name: Cockrell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WARREN-MAYOR-TOWN_OF_FRONT_ROYAL-2026_GENERAL-COCKRELL_LR_8A
+    code: CANDIDACY-USA-VA-FRONT_ROYAL-MAYOR-2026_GENERAL-COCKRELL_LR_8A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WARREN-MAYOR-TOWN_OF_FRONT_ROYAL-2026_GENERAL
+      race: RACE-USA-VA-FRONT_ROYAL-MAYOR-2026_GENERAL
       person: PERSON-COCKRELL_LR_8A
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WARREN-MEMBER_TOWN_COUNCIL-TOWN_OF_FRONT_ROYAL
+    code: OFFICE-USA-VA-FRONT_ROYAL-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_FRONT_ROYAL
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-WARREN
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-FRONT_ROYAL
   - type: Race
-    code: RACE-USA-VA-COUNTY_WARREN-MEMBER_TOWN_COUNCIL-TOWN_OF_FRONT_ROYAL-2026_GENERAL
+    code: RACE-USA-VA-FRONT_ROYAL-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_WARREN-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_WARREN-MEMBER_TOWN_COUNCIL-TOWN_OF_FRONT_ROYAL
+      election: ELECTION-USA-VA-FRONT_ROYAL-2026_GENERAL
+      office: OFFICE-USA-VA-FRONT_ROYAL-COUNCIL_MEMBER
   - type: Person
     code: PERSON-VEITENTHAL_AM_4P
     attributes:
@@ -78,12 +76,12 @@ groups:
       middle_name: Faith
       last_name: Veitenthal
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WARREN-MEMBER_TOWN_COUNCIL-TOWN_OF_FRONT_ROYAL-2026_GENERAL-VEITENTHAL_AM_4P
+    code: CANDIDACY-USA-VA-FRONT_ROYAL-COUNCIL_MEMBER-2026_GENERAL-VEITENTHAL_AM_4P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WARREN-MEMBER_TOWN_COUNCIL-TOWN_OF_FRONT_ROYAL-2026_GENERAL
+      race: RACE-USA-VA-FRONT_ROYAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-VEITENTHAL_AM_4P
   - type: Person
     code: PERSON-STALLINGS_DN_6V
@@ -94,12 +92,12 @@ groups:
       middle_name: R. E.
       last_name: Stallings
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WARREN-MEMBER_TOWN_COUNCIL-TOWN_OF_FRONT_ROYAL-2026_GENERAL-STALLINGS_DN_6V
+    code: CANDIDACY-USA-VA-FRONT_ROYAL-COUNCIL_MEMBER-2026_GENERAL-STALLINGS_DN_6V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WARREN-MEMBER_TOWN_COUNCIL-TOWN_OF_FRONT_ROYAL-2026_GENERAL
+      race: RACE-USA-VA-FRONT_ROYAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-STALLINGS_DN_6V
   - type: Person
     code: PERSON-RAPPAPORT_H_7L
@@ -110,12 +108,12 @@ groups:
       middle_name: Bruce
       last_name: Rappaport
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WARREN-MEMBER_TOWN_COUNCIL-TOWN_OF_FRONT_ROYAL-2026_GENERAL-RAPPAPORT_H_7L
+    code: CANDIDACY-USA-VA-FRONT_ROYAL-COUNCIL_MEMBER-2026_GENERAL-RAPPAPORT_H_7L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WARREN-MEMBER_TOWN_COUNCIL-TOWN_OF_FRONT_ROYAL-2026_GENERAL
+      race: RACE-USA-VA-FRONT_ROYAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-RAPPAPORT_H_7L
   - type: Person
     code: PERSON-INGRAM_JS_9R
@@ -126,12 +124,12 @@ groups:
       middle_name: L.
       last_name: Ingram
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WARREN-MEMBER_TOWN_COUNCIL-TOWN_OF_FRONT_ROYAL-2026_GENERAL-INGRAM_JS_9R
+    code: CANDIDACY-USA-VA-FRONT_ROYAL-COUNCIL_MEMBER-2026_GENERAL-INGRAM_JS_9R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WARREN-MEMBER_TOWN_COUNCIL-TOWN_OF_FRONT_ROYAL-2026_GENERAL
+      race: RACE-USA-VA-FRONT_ROYAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-INGRAM_JS_9R
   - type: Person
     code: PERSON-NEEL_L_7W
@@ -142,10 +140,10 @@ groups:
       middle_name: Allen R.
       last_name: Neel
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WARREN-MEMBER_TOWN_COUNCIL-TOWN_OF_FRONT_ROYAL-2026_GENERAL-NEEL_L_7W
+    code: CANDIDACY-USA-VA-FRONT_ROYAL-COUNCIL_MEMBER-2026_GENERAL-NEEL_L_7W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WARREN-MEMBER_TOWN_COUNCIL-TOWN_OF_FRONT_ROYAL-2026_GENERAL
+      race: RACE-USA-VA-FRONT_ROYAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-NEEL_L_7W

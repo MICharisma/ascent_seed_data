@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARTIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_MARTIN-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-MARTIN
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARTIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARTIN-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARTIN-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARTIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_MARTIN-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-COLLINS_CH_5Y
     attributes:
@@ -45,7 +45,7 @@ groups:
       middle_name: '"Doc"'
       last_name: Collins
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARTIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-COLLINS_CH_5Y
+    code: CANDIDACY-USA-FL-COUNTY_MARTIN-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-COLLINS_CH_5Y
     attributes:
       status: active
       participation: active
@@ -54,25 +54,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_MARTIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARTIN-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-COLLINS_CH_5Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARTIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_MARTIN-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-MARTIN
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARTIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARTIN-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARTIN-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARTIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_MARTIN-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-HEARD_SR_7T
     attributes:
@@ -81,7 +81,7 @@ groups:
       first_name: Sarah
       last_name: Heard
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARTIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-HEARD_SR_7T
+    code: CANDIDACY-USA-FL-COUNTY_MARTIN-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-HEARD_SR_7T
     attributes:
       status: active
       participation: active
@@ -90,7 +90,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_MARTIN-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARTIN-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-HEARD_SR_7T
 - records:
   - type: Office
@@ -127,21 +127,21 @@ groups:
       person: PERSON-WATERS_JN_2F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-MARTIN
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARTIN-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-ROBERTS_CH_8Y
     attributes:
@@ -151,12 +151,12 @@ groups:
       middle_name: Li
       last_name: Roberts
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-ROBERTS_CH_8Y
+    code: CANDIDACY-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-ROBERTS_CH_8Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-ROBERTS_CH_8Y
   - type: Person
     code: PERSON-WHITE_CH_4G
@@ -166,30 +166,30 @@ groups:
       first_name: Cherie
       last_name: White
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-WHITE_CH_4G
+    code: CANDIDACY-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-WHITE_CH_4G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-WHITE_CH_4G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-MARTIN
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARTIN-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-RUSSELL_JN_3K
     attributes:
@@ -198,30 +198,30 @@ groups:
       first_name: Jen
       last_name: Russell
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-RUSSELL_JN_3K
+    code: CANDIDACY-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-RUSSELL_JN_3K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-RUSSELL_JN_3K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-MARTIN
   - type: Race
-    code: RACE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MARTIN-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-ANDERSON_AN_8R
     attributes:
@@ -231,12 +231,12 @@ groups:
       middle_name: '"Tony"'
       last_name: Anderson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-ANDERSON_AN_8R
+    code: CANDIDACY-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-ANDERSON_AN_8R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-ANDERSON_AN_8R
   - type: Person
     code: PERSON-PRITCHETT_AM_6K
@@ -247,10 +247,10 @@ groups:
       middle_name: B
       last_name: Pritchett
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-PRITCHETT_AM_6K
+    code: CANDIDACY-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-PRITCHETT_AM_6K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MARTIN-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-PRITCHETT_AM_6K

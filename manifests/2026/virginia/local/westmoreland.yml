@@ -7,16 +7,16 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_WESTMORELAND-2026_GENERAL
+  code: ELECTION-USA-VA-COLONIAL_BEACH-2026_GENERAL
   attributes:
-    name: Westmoreland County General Election 2026
+    name: Colonial Beach General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-WESTMORELAND
+    jurisdiction: MUNICIPALITY-USA-VA-COLONIAL_BEACH
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-VA-COUNTY_WESTMORELAND-2026_SPECIAL
@@ -30,24 +30,35 @@ records:
   references:
     jurisdiction: COUNTY-USA-VA-WESTMORELAND
     year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-MONTROSS-2026_GENERAL
+  attributes:
+    name: Montross General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-MONTROSS
+    year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WESTMORELAND-MEMBER_SCHOOL_BOARD_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH
+    code: OFFICE-USA-VA-COLONIAL_BEACH-SCHOOL_BOARD_MEMBER
     attributes:
-      seat_code: TOWN_OF_COLONIAL_BEACH
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD_COLONIAL_BEACH
-      jurisdiction: COUNTY-USA-VA-WESTMORELAND
+      position: POSITION-SCHOOL_BOARD_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-COLONIAL_BEACH
   - type: Race
-    code: RACE-USA-VA-COUNTY_WESTMORELAND-MEMBER_SCHOOL_BOARD_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH-2026_GENERAL
+    code: RACE-USA-VA-COLONIAL_BEACH-SCHOOL_BOARD_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_WESTMORELAND-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_WESTMORELAND-MEMBER_SCHOOL_BOARD_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH
+      election: ELECTION-USA-VA-COLONIAL_BEACH-2026_GENERAL
+      office: OFFICE-USA-VA-COLONIAL_BEACH-SCHOOL_BOARD_MEMBER
   - type: Person
     code: PERSON-ALLISON_LR_9K
     attributes:
@@ -57,12 +68,12 @@ groups:
       middle_name: Tabler
       last_name: Allison
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WESTMORELAND-MEMBER_SCHOOL_BOARD_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH-2026_GENERAL-ALLISON_LR_9K
+    code: CANDIDACY-USA-VA-COLONIAL_BEACH-SCHOOL_BOARD_MEMBER-2026_GENERAL-ALLISON_LR_9K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WESTMORELAND-MEMBER_SCHOOL_BOARD_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH-2026_GENERAL
+      race: RACE-USA-VA-COLONIAL_BEACH-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-ALLISON_LR_9K
   - type: Person
     code: PERSON-LYBURN_PT_6N
@@ -73,30 +84,30 @@ groups:
       middle_name: A.
       last_name: Lyburn
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WESTMORELAND-MEMBER_SCHOOL_BOARD_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH-2026_GENERAL-LYBURN_PT_6N
+    code: CANDIDACY-USA-VA-COLONIAL_BEACH-SCHOOL_BOARD_MEMBER-2026_GENERAL-LYBURN_PT_6N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WESTMORELAND-MEMBER_SCHOOL_BOARD_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH-2026_GENERAL
+      race: RACE-USA-VA-COLONIAL_BEACH-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-LYBURN_PT_6N
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WESTMORELAND-MEMBER_SCHOOL_BOARD_SPECIAL-COLONIAL_BEACH
+    code: OFFICE-USA-VA-COUNTY_WESTMORELAND-SCHOOL_BOARD_MEMBER-COLONIAL_BEACH
     attributes:
       seat_code: COLONIAL_BEACH
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD_SPECIAL
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-WESTMORELAND
   - type: Race
-    code: RACE-USA-VA-COUNTY_WESTMORELAND-MEMBER_SCHOOL_BOARD_SPECIAL-COLONIAL_BEACH-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_WESTMORELAND-SCHOOL_BOARD_MEMBER-COLONIAL_BEACH-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_WESTMORELAND-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_WESTMORELAND-MEMBER_SCHOOL_BOARD_SPECIAL-COLONIAL_BEACH
+      office: OFFICE-USA-VA-COUNTY_WESTMORELAND-SCHOOL_BOARD_MEMBER-COLONIAL_BEACH
   - type: Person
     code: PERSON-WASHINGTON_KS_6Z
     attributes:
@@ -106,30 +117,29 @@ groups:
       middle_name: M.
       last_name: Washington
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WESTMORELAND-MEMBER_SCHOOL_BOARD_SPECIAL-COLONIAL_BEACH-2026_SPECIAL-WASHINGTON_KS_6Z
+    code: CANDIDACY-USA-VA-COUNTY_WESTMORELAND-SCHOOL_BOARD_MEMBER-COLONIAL_BEACH-2026_SPECIAL-WASHINGTON_KS_6Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WESTMORELAND-MEMBER_SCHOOL_BOARD_SPECIAL-COLONIAL_BEACH-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_WESTMORELAND-SCHOOL_BOARD_MEMBER-COLONIAL_BEACH-2026_SPECIAL
       person: PERSON-WASHINGTON_KS_6Z
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH
+    code: OFFICE-USA-VA-COLONIAL_BEACH-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_COLONIAL_BEACH
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_COLONIAL_BEACH
-      jurisdiction: COUNTY-USA-VA-WESTMORELAND
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-COLONIAL_BEACH
   - type: Race
-    code: RACE-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH-2026_GENERAL
+    code: RACE-USA-VA-COLONIAL_BEACH-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_WESTMORELAND-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH
+      election: ELECTION-USA-VA-COLONIAL_BEACH-2026_GENERAL
+      office: OFFICE-USA-VA-COLONIAL_BEACH-COUNCIL_MEMBER
   - type: Person
     code: PERSON-EISENSMITH_JF_4U
     attributes:
@@ -139,12 +149,12 @@ groups:
       middle_name: L.
       last_name: Eisensmith
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH-2026_GENERAL-EISENSMITH_JF_4U
+    code: CANDIDACY-USA-VA-COLONIAL_BEACH-COUNCIL_MEMBER-2026_GENERAL-EISENSMITH_JF_4U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH-2026_GENERAL
+      race: RACE-USA-VA-COLONIAL_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-EISENSMITH_JF_4U
   - type: Person
     code: PERSON-STUART_RB_5V
@@ -155,12 +165,12 @@ groups:
       middle_name: J. "Becky"
       last_name: Stuart
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH-2026_GENERAL-STUART_RB_5V
+    code: CANDIDACY-USA-VA-COLONIAL_BEACH-COUNCIL_MEMBER-2026_GENERAL-STUART_RB_5V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH-2026_GENERAL
+      race: RACE-USA-VA-COLONIAL_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-STUART_RB_5V
   - type: Person
     code: PERSON-DUKE_RB_4H
@@ -171,12 +181,12 @@ groups:
       middle_name: C. "Bobby"
       last_name: Duke, Jr
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH-2026_GENERAL-DUKE_RB_4H
+    code: CANDIDACY-USA-VA-COLONIAL_BEACH-COUNCIL_MEMBER-2026_GENERAL-DUKE_RB_4H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH-2026_GENERAL
+      race: RACE-USA-VA-COLONIAL_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DUKE_RB_4H
   - type: Person
     code: PERSON-NUCKOLS_WL_9T
@@ -187,30 +197,29 @@ groups:
       middle_name: Henry "Will"
       last_name: Nuckols III
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH-2026_GENERAL-NUCKOLS_WL_9T
+    code: CANDIDACY-USA-VA-COLONIAL_BEACH-COUNCIL_MEMBER-2026_GENERAL-NUCKOLS_WL_9T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_COLONIAL_BEACH-TOWN_OF_COLONIAL_BEACH-2026_GENERAL
+      race: RACE-USA-VA-COLONIAL_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-NUCKOLS_WL_9T
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_MONTROSS-TOWN_OF_MONTROSS
+    code: OFFICE-USA-VA-MONTROSS-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_MONTROSS
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_MONTROSS
-      jurisdiction: COUNTY-USA-VA-WESTMORELAND
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-MONTROSS
   - type: Race
-    code: RACE-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_MONTROSS-TOWN_OF_MONTROSS-2026_GENERAL
+    code: RACE-USA-VA-MONTROSS-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_WESTMORELAND-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_MONTROSS-TOWN_OF_MONTROSS
+      election: ELECTION-USA-VA-MONTROSS-2026_GENERAL
+      office: OFFICE-USA-VA-MONTROSS-COUNCIL_MEMBER
   - type: Person
     code: PERSON-GARRETT_CH_8Q
     attributes:
@@ -220,12 +229,12 @@ groups:
       middle_name: L.
       last_name: Garrett
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_MONTROSS-TOWN_OF_MONTROSS-2026_GENERAL-GARRETT_CH_8Q
+    code: CANDIDACY-USA-VA-MONTROSS-COUNCIL_MEMBER-2026_GENERAL-GARRETT_CH_8Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_MONTROSS-TOWN_OF_MONTROSS-2026_GENERAL
+      race: RACE-USA-VA-MONTROSS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GARRETT_CH_8Q
   - type: Person
     code: PERSON-WATSON_CL_9D
@@ -236,12 +245,12 @@ groups:
       middle_name: A.
       last_name: Watson Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_MONTROSS-TOWN_OF_MONTROSS-2026_GENERAL-WATSON_CL_9D
+    code: CANDIDACY-USA-VA-MONTROSS-COUNCIL_MEMBER-2026_GENERAL-WATSON_CL_9D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_MONTROSS-TOWN_OF_MONTROSS-2026_GENERAL
+      race: RACE-USA-VA-MONTROSS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WATSON_CL_9D
   - type: Person
     code: PERSON-MESSENGER_ST_3M
@@ -252,10 +261,10 @@ groups:
       middle_name: P.
       last_name: Messenger
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_MONTROSS-TOWN_OF_MONTROSS-2026_GENERAL-MESSENGER_ST_3M
+    code: CANDIDACY-USA-VA-MONTROSS-COUNCIL_MEMBER-2026_GENERAL-MESSENGER_ST_3M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WESTMORELAND-MEMBER_TOWN_COUNCIL_MONTROSS-TOWN_OF_MONTROSS-2026_GENERAL
+      race: RACE-USA-VA-MONTROSS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MESSENGER_ST_3M

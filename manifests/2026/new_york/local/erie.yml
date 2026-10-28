@@ -57,21 +57,21 @@ groups:
       person: PERSON-PACIFICO_MC_5F
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-AURA
+    code: OFFICE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-AURA
     attributes:
       seat_code: AURA
       is_active: true
     references:
-      position: POSITION-COUNCILMEMBER
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
-    code: RACE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-AURA-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-AURA-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: Vote for One. Retrieved: 2026-10-01. Sources: https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ERIE-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-AURA
+      office: OFFICE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-AURA
   - type: Person
     code: PERSON-FLYNN_ML_6Y
     attributes:
@@ -80,7 +80,7 @@ groups:
       first_name: Molly
       last_name: Flynn
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNCILMEMBER-AURA-2026_GENERAL-FLYNN_ML_6Y
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-AURA-2026_GENERAL-FLYNN_ML_6Y
     attributes:
       status: active
       participation: active
@@ -90,7 +90,7 @@ groups:
       - label: W
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-AURA-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-AURA-2026_GENERAL
       person: PERSON-FLYNN_ML_6Y
   - type: Person
     code: PERSON-KRIEGER_SH_6Q
@@ -101,7 +101,7 @@ groups:
       middle_name: M.
       last_name: Krieger
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNCILMEMBER-AURA-2026_GENERAL-KRIEGER_SH_6Q
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-AURA-2026_GENERAL-KRIEGER_SH_6Q
     attributes:
       status: active
       participation: active
@@ -111,25 +111,25 @@ groups:
       - label: R
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-AURA-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-AURA-2026_GENERAL
       person: PERSON-KRIEGER_SH_6Q
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-BRNT
+    code: OFFICE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-BRNT
     attributes:
       seat_code: BRNT
       is_active: true
     references:
-      position: POSITION-COUNCILMEMBER
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
-    code: RACE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-BRNT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-BRNT-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: Vote for One. Retrieved: 2026-10-01. Sources: https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ERIE-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-BRNT
+      office: OFFICE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-BRNT
   - type: Person
     code: PERSON-BUSHNELL_DB_6J
     attributes:
@@ -139,7 +139,7 @@ groups:
       middle_name: L.
       last_name: Bushnell
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNCILMEMBER-BRNT-2026_GENERAL-BUSHNELL_DB_6J
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-BRNT-2026_GENERAL-BUSHNELL_DB_6J
     attributes:
       status: active
       participation: active
@@ -147,7 +147,7 @@ groups:
       - label: D
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-BRNT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-BRNT-2026_GENERAL
       person: PERSON-BUSHNELL_DB_6J
   - type: Person
     code: PERSON-MARIEN_DN_2X
@@ -158,7 +158,7 @@ groups:
       middle_name: M.
       last_name: Marien
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNCILMEMBER-BRNT-2026_GENERAL-MARIEN_DN_2X
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-BRNT-2026_GENERAL-MARIEN_DN_2X
     attributes:
       status: active
       participation: active
@@ -168,25 +168,25 @@ groups:
       - label: R
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-BRNT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-BRNT-2026_GENERAL
       person: PERSON-MARIEN_DN_2X
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-CKTW
+    code: OFFICE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-CKTW
     attributes:
       seat_code: CKTW
       is_active: true
     references:
-      position: POSITION-COUNCILMEMBER
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
-    code: RACE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-CKTW-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-CKTW-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: Vote for One. Retrieved: 2026-10-01. Sources: https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ERIE-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-CKTW
+      office: OFFICE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-CKTW
   - type: Person
     code: PERSON-DEFIELDS_DV_7D
     attributes:
@@ -196,7 +196,7 @@ groups:
       middle_name: J.
       last_name: DeFields Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNCILMEMBER-CKTW-2026_GENERAL-DEFIELDS_DV_7D
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-CKTW-2026_GENERAL-DEFIELDS_DV_7D
     attributes:
       status: active
       participation: active
@@ -206,7 +206,7 @@ groups:
       - label: R
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-CKTW-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-CKTW-2026_GENERAL
       person: PERSON-DEFIELDS_DV_7D
   - type: Person
     code: PERSON-MARTINEZ_RC_5W
@@ -217,7 +217,7 @@ groups:
       middle_name: L.
       last_name: Martinez
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNCILMEMBER-CKTW-2026_GENERAL-MARTINEZ_RC_5W
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-CKTW-2026_GENERAL-MARTINEZ_RC_5W
     attributes:
       status: active
       participation: active
@@ -225,25 +225,25 @@ groups:
       - label: D
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-CKTW-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-CKTW-2026_GENERAL
       person: PERSON-MARTINEZ_RC_5W
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-WSEN
+    code: OFFICE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-WSEN
     attributes:
       seat_code: WSEN
       is_active: true
     references:
-      position: POSITION-COUNCILMEMBER
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
-    code: RACE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-WSEN-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-WSEN-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: Vote for One. Retrieved: 2026-10-01. Sources: https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ERIE-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-WSEN
+      office: OFFICE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-WSEN
   - type: Person
     code: PERSON-QUAIN_JF_3W
     attributes:
@@ -253,7 +253,7 @@ groups:
       middle_name: M.
       last_name: Quain
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNCILMEMBER-WSEN-2026_GENERAL-QUAIN_JF_3W
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-WSEN-2026_GENERAL-QUAIN_JF_3W
     attributes:
       status: active
       participation: active
@@ -261,7 +261,7 @@ groups:
       - label: D
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-WSEN-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-WSEN-2026_GENERAL
       person: PERSON-QUAIN_JF_3W
   - type: Person
     code: PERSON-RUSINSKI_JH_5L
@@ -272,7 +272,7 @@ groups:
       middle_name: M.
       last_name: Rusinski
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNCILMEMBER-WSEN-2026_GENERAL-RUSINSKI_JH_5L
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-WSEN-2026_GENERAL-RUSINSKI_JH_5L
     attributes:
       status: active
       participation: active
@@ -282,25 +282,24 @@ groups:
       - label: R
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-COUNCILMEMBER-WSEN-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-COUNCIL_MEMBER-WSEN-2026_GENERAL
       person: PERSON-RUSINSKI_JH_5L
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ERIE-COUNTY_CLERK-ERIE
+    code: OFFICE-USA-NY-COUNTY_ERIE-COUNTY_CLERK
     attributes:
-      seat_code: ERIE
       is_active: true
     references:
       position: POSITION-COUNTY_CLERK
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
-    code: RACE-USA-NY-COUNTY_ERIE-COUNTY_CLERK-ERIE-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ERIE-COUNTY_CLERK-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: Vote for One. Retrieved: 2026-10-01. Sources: https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ERIE-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ERIE-COUNTY_CLERK-ERIE
+      office: OFFICE-USA-NY-COUNTY_ERIE-COUNTY_CLERK
   - type: Person
     code: PERSON-KEARNS_MC_9K
     attributes:
@@ -310,7 +309,7 @@ groups:
       middle_name: P.
       last_name: Kearns
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNTY_CLERK-ERIE-2026_GENERAL-KEARNS_MC_9K
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNTY_CLERK-2026_GENERAL-KEARNS_MC_9K
     attributes:
       status: active
       participation: active
@@ -320,7 +319,7 @@ groups:
       - label: R
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-COUNTY_CLERK-ERIE-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-COUNTY_CLERK-2026_GENERAL
       person: PERSON-KEARNS_MC_9K
   - type: Person
     code: PERSON-MEYER_ST_4G
@@ -331,7 +330,7 @@ groups:
       middle_name: G.
       last_name: Meyer
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNTY_CLERK-ERIE-2026_GENERAL-MEYER_ST_4G
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-COUNTY_CLERK-2026_GENERAL-MEYER_ST_4G
     attributes:
       status: active
       participation: active
@@ -341,7 +340,7 @@ groups:
       - label: W
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-COUNTY_CLERK-ERIE-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-COUNTY_CLERK-2026_GENERAL
       person: PERSON-MEYER_ST_4G
 - records:
   - type: Office
@@ -862,21 +861,21 @@ groups:
       person: PERSON-BEAUDOIN_ZC_2H
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ERIE-SUPERVISOR-ALDN
+    code: OFFICE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-ALDN
     attributes:
       seat_code: ALDN
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
-    code: RACE-USA-NY-COUNTY_ERIE-SUPERVISOR-ALDN-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-ALDN-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: Vote for One. Retrieved: 2026-10-01. Sources: https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ERIE-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ERIE-SUPERVISOR-ALDN
+      office: OFFICE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-ALDN
   - type: Person
     code: PERSON-BORK_GW_2V
     attributes:
@@ -886,7 +885,7 @@ groups:
       middle_name: A.
       last_name: Bork
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-SUPERVISOR-ALDN-2026_GENERAL-BORK_GW_2V
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-ALDN-2026_GENERAL-BORK_GW_2V
     attributes:
       status: active
       participation: active
@@ -896,25 +895,25 @@ groups:
       - label: R
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-SUPERVISOR-ALDN-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-ALDN-2026_GENERAL
       person: PERSON-BORK_GW_2V
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ERIE-SUPERVISOR-AURA
+    code: OFFICE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-AURA
     attributes:
       seat_code: AURA
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
-    code: RACE-USA-NY-COUNTY_ERIE-SUPERVISOR-AURA-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-AURA-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: Vote for One. Retrieved: 2026-10-01. Sources: https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ERIE-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ERIE-SUPERVISOR-AURA
+      office: OFFICE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-AURA
   - type: Person
     code: PERSON-SNYDER_CH_9L
     attributes:
@@ -924,7 +923,7 @@ groups:
       middle_name: D.
       last_name: Snyder
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-SUPERVISOR-AURA-2026_GENERAL-SNYDER_CH_9L
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-AURA-2026_GENERAL-SNYDER_CH_9L
     attributes:
       status: active
       participation: active
@@ -932,7 +931,7 @@ groups:
       - label: R
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-SUPERVISOR-AURA-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-AURA-2026_GENERAL
       person: PERSON-SNYDER_CH_9L
   - type: Person
     code: PERSON-WRAZEN_RY_3E
@@ -943,7 +942,7 @@ groups:
       middle_name: M.
       last_name: Wrazen
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-SUPERVISOR-AURA-2026_GENERAL-WRAZEN_RY_3E
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-AURA-2026_GENERAL-WRAZEN_RY_3E
     attributes:
       status: active
       participation: active
@@ -953,25 +952,25 @@ groups:
       - label: W
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-SUPERVISOR-AURA-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-AURA-2026_GENERAL
       person: PERSON-WRAZEN_RY_3E
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ERIE-SUPERVISOR-COLL
+    code: OFFICE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-COLL
     attributes:
       seat_code: COLL
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
-    code: RACE-USA-NY-COUNTY_ERIE-SUPERVISOR-COLL-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-COLL-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: Vote for One. Retrieved: 2026-10-01. Sources: https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ERIE-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ERIE-SUPERVISOR-COLL
+      office: OFFICE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-COLL
   - type: Person
     code: PERSON-MARTIN_KN_4R
     attributes:
@@ -981,7 +980,7 @@ groups:
       middle_name: E.
       last_name: Martin
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-SUPERVISOR-COLL-2026_GENERAL-MARTIN_KN_4R
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-COLL-2026_GENERAL-MARTIN_KN_4R
     attributes:
       status: active
       participation: active
@@ -991,25 +990,25 @@ groups:
       - label: R
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-SUPERVISOR-COLL-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-COLL-2026_GENERAL
       person: PERSON-MARTIN_KN_4R
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ERIE-SUPERVISOR-ELMA
+    code: OFFICE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-ELMA
     attributes:
       seat_code: ELMA
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
-    code: RACE-USA-NY-COUNTY_ERIE-SUPERVISOR-ELMA-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-ELMA-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: Vote for One. Retrieved: 2026-10-01. Sources: https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ERIE-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ERIE-SUPERVISOR-ELMA
+      office: OFFICE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-ELMA
   - type: Person
     code: PERSON-CLARK_WY_6P
     attributes:
@@ -1019,7 +1018,7 @@ groups:
       middle_name: A.
       last_name: Clark
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-SUPERVISOR-ELMA-2026_GENERAL-CLARK_WY_6P
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-ELMA-2026_GENERAL-CLARK_WY_6P
     attributes:
       status: active
       participation: active
@@ -1029,25 +1028,25 @@ groups:
       - label: R
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-SUPERVISOR-ELMA-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-ELMA-2026_GENERAL
       person: PERSON-CLARK_WY_6P
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ERIE-SUPERVISOR-MARL
+    code: OFFICE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-MARL
     attributes:
       seat_code: MARL
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
-    code: RACE-USA-NY-COUNTY_ERIE-SUPERVISOR-MARL-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-MARL-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: Vote for One. Retrieved: 2026-10-01. Sources: https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ERIE-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ERIE-SUPERVISOR-MARL
+      office: OFFICE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-MARL
   - type: Person
     code: PERSON-NOLAN_BR_8P
     attributes:
@@ -1057,7 +1056,7 @@ groups:
       middle_name: W.
       last_name: Nolan Sr.
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-SUPERVISOR-MARL-2026_GENERAL-NOLAN_BR_8P
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-MARL-2026_GENERAL-NOLAN_BR_8P
     attributes:
       status: active
       participation: active
@@ -1065,25 +1064,25 @@ groups:
       - label: R
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-SUPERVISOR-MARL-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-MARL-2026_GENERAL
       person: PERSON-NOLAN_BR_8P
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ERIE-SUPERVISOR-TTON
+    code: OFFICE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-TTON
     attributes:
       seat_code: TTON
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
-    code: RACE-USA-NY-COUNTY_ERIE-SUPERVISOR-TTON-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-TTON-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: Vote for One. Retrieved: 2026-10-01. Sources: https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ERIE-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ERIE-SUPERVISOR-TTON
+      office: OFFICE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-TTON
   - type: Person
     code: PERSON-FLYNN_JH_7Z
     attributes:
@@ -1093,7 +1092,7 @@ groups:
       middle_name: J.
       last_name: Flynn
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-SUPERVISOR-TTON-2026_GENERAL-FLYNN_JH_7Z
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-TTON-2026_GENERAL-FLYNN_JH_7Z
     attributes:
       status: active
       participation: active
@@ -1103,25 +1102,25 @@ groups:
       - label: D
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-SUPERVISOR-TTON-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-TTON-2026_GENERAL
       person: PERSON-FLYNN_JH_7Z
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ERIE-SUPERVISOR-WALS
+    code: OFFICE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-WALS
     attributes:
       seat_code: WALS
       is_active: true
     references:
-      position: POSITION-SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
-    code: RACE-USA-NY-COUNTY_ERIE-SUPERVISOR-WALS-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-WALS-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: Vote for One. Retrieved: 2026-10-01. Sources: https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ERIE-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ERIE-SUPERVISOR-WALS
+      office: OFFICE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-WALS
   - type: Person
     code: PERSON-HOWARD_TM_4K
     attributes:
@@ -1131,7 +1130,7 @@ groups:
       middle_name: B.
       last_name: Howard
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-SUPERVISOR-WALS-2026_GENERAL-HOWARD_TM_4K
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-WALS-2026_GENERAL-HOWARD_TM_4K
     attributes:
       status: active
       participation: active
@@ -1141,7 +1140,7 @@ groups:
       - label: R
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-SUPERVISOR-WALS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPERVISOR-WALS-2026_GENERAL
       person: PERSON-HOWARD_TM_4K
 - records:
   - type: Office
@@ -1150,7 +1149,7 @@ groups:
       seat_code: ALDN
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
     code: RACE-USA-NY-COUNTY_ERIE-TOWN_JUSTICE-ALDN-2026_GENERAL
@@ -1188,7 +1187,7 @@ groups:
       seat_code: BOST
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
     code: RACE-USA-NY-COUNTY_ERIE-TOWN_JUSTICE-BOST-2026_GENERAL
@@ -1226,7 +1225,7 @@ groups:
       seat_code: BRNT
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
     code: RACE-USA-NY-COUNTY_ERIE-TOWN_JUSTICE-BRNT-2026_GENERAL
@@ -1264,7 +1263,7 @@ groups:
       seat_code: CKTW
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
     code: RACE-USA-NY-COUNTY_ERIE-TOWN_JUSTICE-CKTW-2026_GENERAL
@@ -1304,7 +1303,7 @@ groups:
       seat_code: CLDN
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
     code: RACE-USA-NY-COUNTY_ERIE-TOWN_JUSTICE-CLDN-2026_GENERAL
@@ -1342,7 +1341,7 @@ groups:
       seat_code: COLL
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
     code: RACE-USA-NY-COUNTY_ERIE-TOWN_JUSTICE-COLL-2026_GENERAL
@@ -1416,7 +1415,7 @@ groups:
       seat_code: ELMA
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
     code: RACE-USA-NY-COUNTY_ERIE-TOWN_JUSTICE-ELMA-2026_GENERAL
@@ -1454,7 +1453,7 @@ groups:
       seat_code: EVNS
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
     code: RACE-USA-NY-COUNTY_ERIE-TOWN_JUSTICE-EVNS-2026_GENERAL
@@ -1494,7 +1493,7 @@ groups:
       seat_code: HOLL
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
     code: RACE-USA-NY-COUNTY_ERIE-TOWN_JUSTICE-HOLL-2026_GENERAL
@@ -1532,7 +1531,7 @@ groups:
       seat_code: LANC
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
     code: RACE-USA-NY-COUNTY_ERIE-TOWN_JUSTICE-LANC-2026_GENERAL
@@ -1570,7 +1569,7 @@ groups:
       seat_code: MARL
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
     code: RACE-USA-NY-COUNTY_ERIE-TOWN_JUSTICE-MARL-2026_GENERAL
@@ -1608,7 +1607,7 @@ groups:
       seat_code: ORPK
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
     code: RACE-USA-NY-COUNTY_ERIE-TOWN_JUSTICE-ORPK-2026_GENERAL
@@ -1671,7 +1670,7 @@ groups:
       seat_code: SARD
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
     code: RACE-USA-NY-COUNTY_ERIE-TOWN_JUSTICE-SARD-2026_GENERAL
@@ -1709,7 +1708,7 @@ groups:
       seat_code: WALS
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_2
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
     code: RACE-USA-NY-COUNTY_ERIE-TOWN_JUSTICE-WALS-2026_GENERAL
@@ -1742,21 +1741,21 @@ groups:
       person: PERSON-SIMON_MC_8Y
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_ERIE-TOWN_SUPT_OF_HIGHWAYS-EDEN
+    code: OFFICE-USA-NY-COUNTY_ERIE-HIGHWAY_SUPERINTENDENT-EDEN
     attributes:
       seat_code: EDEN
       is_active: true
     references:
-      position: POSITION-TOWN_SUPT_OF_HIGHWAYS
+      position: POSITION-HIGHWAY_SUPERINTENDENT
       jurisdiction: COUNTY-USA-NY-ERIE
   - type: Race
-    code: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPT_OF_HIGHWAYS-EDEN-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_ERIE-HIGHWAY_SUPERINTENDENT-EDEN-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: Vote for One. Retrieved: 2026-10-01. Sources: https://elections.erie.gov/pdfs/2026%20General%20Candidates%20List%20For%20Web.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_ERIE-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_ERIE-TOWN_SUPT_OF_HIGHWAYS-EDEN
+      office: OFFICE-USA-NY-COUNTY_ERIE-HIGHWAY_SUPERINTENDENT-EDEN
   - type: Person
     code: PERSON-BLASZ_NC_2U
     attributes:
@@ -1766,7 +1765,7 @@ groups:
       middle_name: G.
       last_name: Blasz
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_ERIE-TOWN_SUPT_OF_HIGHWAYS-EDEN-2026_GENERAL-BLASZ_NC_2U
+    code: CANDIDACY-USA-NY-COUNTY_ERIE-HIGHWAY_SUPERINTENDENT-EDEN-2026_GENERAL-BLASZ_NC_2U
     attributes:
       status: active
       participation: active
@@ -1776,5 +1775,5 @@ groups:
       - label: R
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_ERIE-TOWN_SUPT_OF_HIGHWAYS-EDEN-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_ERIE-HIGHWAY_SUPERINTENDENT-EDEN-2026_GENERAL
       person: PERSON-BLASZ_NC_2U

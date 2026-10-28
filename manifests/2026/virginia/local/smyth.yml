@@ -7,35 +7,46 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_SMYTH-2026_GENERAL
+  code: ELECTION-USA-VA-CHILHOWIE-2026_GENERAL
   attributes:
-    name: Smyth County General Election 2026
+    name: Chilhowie General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-SMYTH
+    jurisdiction: MUNICIPALITY-USA-VA-CHILHOWIE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-MARION-2026_GENERAL
+  attributes:
+    name: Marion General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-MARION
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SMYTH-MAYOR_CHILHOWIE-TOWN_OF_CHILHOWIE
+    code: OFFICE-USA-VA-CHILHOWIE-MAYOR
     attributes:
-      seat_code: TOWN_OF_CHILHOWIE
       is_active: true
     references:
-      position: POSITION-MAYOR_CHILHOWIE
-      jurisdiction: COUNTY-USA-VA-SMYTH
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-CHILHOWIE
   - type: Race
-    code: RACE-USA-VA-COUNTY_SMYTH-MAYOR_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL
+    code: RACE-USA-VA-CHILHOWIE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SMYTH-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SMYTH-MAYOR_CHILHOWIE-TOWN_OF_CHILHOWIE
+      election: ELECTION-USA-VA-CHILHOWIE-2026_GENERAL
+      office: OFFICE-USA-VA-CHILHOWIE-MAYOR
   - type: Person
     code: PERSON-HENINGER_GR_4E
     attributes:
@@ -45,12 +56,12 @@ groups:
       middle_name: L.
       last_name: Heninger
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SMYTH-MAYOR_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL-HENINGER_GR_4E
+    code: CANDIDACY-USA-VA-CHILHOWIE-MAYOR-2026_GENERAL-HENINGER_GR_4E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SMYTH-MAYOR_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL
+      race: RACE-USA-VA-CHILHOWIE-MAYOR-2026_GENERAL
       person: PERSON-HENINGER_GR_4E
   - type: Person
     code: PERSON-WRIGHT_J_9H
@@ -61,30 +72,29 @@ groups:
       middle_name: Paige
       last_name: Wright
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SMYTH-MAYOR_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL-WRIGHT_J_9H
+    code: CANDIDACY-USA-VA-CHILHOWIE-MAYOR-2026_GENERAL-WRIGHT_J_9H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SMYTH-MAYOR_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL
+      race: RACE-USA-VA-CHILHOWIE-MAYOR-2026_GENERAL
       person: PERSON-WRIGHT_J_9H
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_CHILHOWIE-TOWN_OF_CHILHOWIE
+    code: OFFICE-USA-VA-CHILHOWIE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_CHILHOWIE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_CHILHOWIE
-      jurisdiction: COUNTY-USA-VA-SMYTH
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-CHILHOWIE
   - type: Race
-    code: RACE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL
+    code: RACE-USA-VA-CHILHOWIE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SMYTH-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_CHILHOWIE-TOWN_OF_CHILHOWIE
+      election: ELECTION-USA-VA-CHILHOWIE-2026_GENERAL
+      office: OFFICE-USA-VA-CHILHOWIE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-FOSTER_J_2G
     attributes:
@@ -94,12 +104,12 @@ groups:
       middle_name: Brent
       last_name: Foster
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL-FOSTER_J_2G
+    code: CANDIDACY-USA-VA-CHILHOWIE-COUNCIL_MEMBER-2026_GENERAL-FOSTER_J_2G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL
+      race: RACE-USA-VA-CHILHOWIE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FOSTER_J_2G
   - type: Person
     code: PERSON-GARY_J_9E
@@ -110,12 +120,12 @@ groups:
       middle_name: David
       last_name: Gary
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL-GARY_J_9E
+    code: CANDIDACY-USA-VA-CHILHOWIE-COUNCIL_MEMBER-2026_GENERAL-GARY_J_9E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL
+      race: RACE-USA-VA-CHILHOWIE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GARY_J_9E
   - type: Person
     code: PERSON-WILKINSON_SMITH_L_4H
@@ -126,12 +136,12 @@ groups:
       middle_name: Becca
       last_name: Wilkinson-Smith
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL-WILKINSON_SMITH_L_4H
+    code: CANDIDACY-USA-VA-CHILHOWIE-COUNCIL_MEMBER-2026_GENERAL-WILKINSON_SMITH_L_4H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL
+      race: RACE-USA-VA-CHILHOWIE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WILKINSON_SMITH_L_4H
   - type: Person
     code: PERSON-SHORTT_LW_3X
@@ -142,12 +152,12 @@ groups:
       middle_name: W.
       last_name: Shortt Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL-SHORTT_LW_3X
+    code: CANDIDACY-USA-VA-CHILHOWIE-COUNCIL_MEMBER-2026_GENERAL-SHORTT_LW_3X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL
+      race: RACE-USA-VA-CHILHOWIE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SHORTT_LW_3X
   - type: Person
     code: PERSON-JETER_RB_7M
@@ -158,12 +168,12 @@ groups:
       middle_name: L.
       last_name: Jeter
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL-JETER_RB_7M
+    code: CANDIDACY-USA-VA-CHILHOWIE-COUNCIL_MEMBER-2026_GENERAL-JETER_RB_7M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL
+      race: RACE-USA-VA-CHILHOWIE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-JETER_RB_7M
   - type: Person
     code: PERSON-JONES_W_7N
@@ -174,30 +184,29 @@ groups:
       middle_name: Jeff
       last_name: Jones
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL-JONES_W_7N
+    code: CANDIDACY-USA-VA-CHILHOWIE-COUNCIL_MEMBER-2026_GENERAL-JONES_W_7N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_CHILHOWIE-TOWN_OF_CHILHOWIE-2026_GENERAL
+      race: RACE-USA-VA-CHILHOWIE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-JONES_W_7N
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION
+    code: OFFICE-USA-VA-MARION-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_MARION
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_MARION
-      jurisdiction: COUNTY-USA-VA-SMYTH
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-MARION
   - type: Race
-    code: RACE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION-2026_GENERAL
+    code: RACE-USA-VA-MARION-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SMYTH-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION
+      election: ELECTION-USA-VA-MARION-2026_GENERAL
+      office: OFFICE-USA-VA-MARION-COUNCIL_MEMBER
   - type: Person
     code: PERSON-HAYES_DB_5C
     attributes:
@@ -207,12 +216,12 @@ groups:
       middle_name: A.
       last_name: Hayes
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION-2026_GENERAL-HAYES_DB_5C
+    code: CANDIDACY-USA-VA-MARION-COUNCIL_MEMBER-2026_GENERAL-HAYES_DB_5C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION-2026_GENERAL
+      race: RACE-USA-VA-MARION-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HAYES_DB_5C
   - type: Person
     code: PERSON-TAYLOR_GR_9D
@@ -223,12 +232,12 @@ groups:
       middle_name: Allen
       last_name: Taylor
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION-2026_GENERAL-TAYLOR_GR_9D
+    code: CANDIDACY-USA-VA-MARION-COUNCIL_MEMBER-2026_GENERAL-TAYLOR_GR_9D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION-2026_GENERAL
+      race: RACE-USA-VA-MARION-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TAYLOR_GR_9D
   - type: Person
     code: PERSON-BARKER_JM_5N
@@ -239,12 +248,12 @@ groups:
       middle_name: R. "Jim"
       last_name: Barker
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION-2026_GENERAL-BARKER_JM_5N
+    code: CANDIDACY-USA-VA-MARION-COUNCIL_MEMBER-2026_GENERAL-BARKER_JM_5N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION-2026_GENERAL
+      race: RACE-USA-VA-MARION-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BARKER_JM_5N
   - type: Person
     code: PERSON-CARTER_LR_3E
@@ -255,12 +264,12 @@ groups:
       middle_name: W.
       last_name: Carter
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION-2026_GENERAL-CARTER_LR_3E
+    code: CANDIDACY-USA-VA-MARION-COUNCIL_MEMBER-2026_GENERAL-CARTER_LR_3E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION-2026_GENERAL
+      race: RACE-USA-VA-MARION-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CARTER_LR_3E
   - type: Person
     code: PERSON-WILLIAMS_MV_4Z
@@ -271,12 +280,12 @@ groups:
       middle_name: S.
       last_name: Williams
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION-2026_GENERAL-WILLIAMS_MV_4Z
+    code: CANDIDACY-USA-VA-MARION-COUNCIL_MEMBER-2026_GENERAL-WILLIAMS_MV_4Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION-2026_GENERAL
+      race: RACE-USA-VA-MARION-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WILLIAMS_MV_4Z
   - type: Person
     code: PERSON-JENNINGS_SZ_2K
@@ -287,12 +296,12 @@ groups:
       middle_name: B.
       last_name: Jennings
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION-2026_GENERAL-JENNINGS_SZ_2K
+    code: CANDIDACY-USA-VA-MARION-COUNCIL_MEMBER-2026_GENERAL-JENNINGS_SZ_2K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION-2026_GENERAL
+      race: RACE-USA-VA-MARION-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-JENNINGS_SZ_2K
   - type: Person
     code: PERSON-SPENCER_TR_2D
@@ -303,10 +312,10 @@ groups:
       middle_name: L.
       last_name: Spencer
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION-2026_GENERAL-SPENCER_TR_2D
+    code: CANDIDACY-USA-VA-MARION-COUNCIL_MEMBER-2026_GENERAL-SPENCER_TR_2D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SMYTH-MEMBER_TOWN_COUNCIL_MARION-TOWN_OF_MARION-2026_GENERAL
+      race: RACE-USA-VA-MARION-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SPENCER_TR_2D

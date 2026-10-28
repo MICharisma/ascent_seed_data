@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_JACKSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_JACKSON-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-JACKSON
   - type: Race
-    code: RACE-USA-FL-COUNTY_JACKSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_JACKSON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_JACKSON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_JACKSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_JACKSON-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-FORTUNATO_PT_7R
     attributes:
@@ -45,7 +45,7 @@ groups:
       middle_name: '"Sonny"'
       last_name: Fortunato, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_JACKSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-FORTUNATO_PT_7R
+    code: CANDIDACY-USA-FL-COUNTY_JACKSON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-FORTUNATO_PT_7R
     attributes:
       status: active
       participation: active
@@ -54,25 +54,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_JACKSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_JACKSON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-FORTUNATO_PT_7R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_JACKSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_JACKSON-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-JACKSON
   - type: Race
-    code: RACE-USA-FL-COUNTY_JACKSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_JACKSON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_JACKSON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_JACKSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_JACKSON-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-BRANCH_DN_2Z
     attributes:
@@ -81,7 +81,7 @@ groups:
       first_name: Donnie
       last_name: Branch
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_JACKSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-BRANCH_DN_2Z
+    code: CANDIDACY-USA-FL-COUNTY_JACKSON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-BRANCH_DN_2Z
     attributes:
       status: active
       participation: active
@@ -90,25 +90,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_JACKSON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_JACKSON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-BRANCH_DN_2Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-JACKSON
   - type: Race
-    code: RACE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_JACKSON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-GRANBERRY_CH_7F
     attributes:
@@ -118,30 +118,30 @@ groups:
       middle_name: D.
       last_name: Granberry
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-GRANBERRY_CH_7F
+    code: CANDIDACY-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-GRANBERRY_CH_7F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-GRANBERRY_CH_7F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-JACKSON
   - type: Race
-    code: RACE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_JACKSON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-JOHNSON_CH_5X
     attributes:
@@ -150,30 +150,30 @@ groups:
       first_name: Chris
       last_name: Johnson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-JOHNSON_CH_5X
+    code: CANDIDACY-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-JOHNSON_CH_5X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-JOHNSON_CH_5X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-JACKSON
   - type: Race
-    code: RACE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_JACKSON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-DANIELS_PH_3T
     attributes:
@@ -183,12 +183,12 @@ groups:
       middle_name: T.
       last_name: Daniels
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-DANIELS_PH_3T
+    code: CANDIDACY-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-DANIELS_PH_3T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-DANIELS_PH_3T
   - type: Person
     code: PERSON-JACKSON_MC_3S
@@ -199,10 +199,10 @@ groups:
       middle_name: MJ
       last_name: Jackson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-JACKSON_MC_3S
+    code: CANDIDACY-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-JACKSON_MC_3S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-JACKSON_MC_3S

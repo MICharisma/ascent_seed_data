@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HOLMES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_HOLMES-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-HOLMES
   - type: Race
-    code: RACE-USA-FL-COUNTY_HOLMES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HOLMES-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HOLMES-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HOLMES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_HOLMES-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-BOWERS_RD_5K
     attributes:
@@ -45,7 +45,7 @@ groups:
       middle_name: K.
       last_name: Bowers
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HOLMES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-BOWERS_RD_5K
+    code: CANDIDACY-USA-FL-COUNTY_HOLMES-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-BOWERS_RD_5K
     attributes:
       status: active
       participation: active
@@ -54,25 +54,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_HOLMES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HOLMES-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-BOWERS_RD_5K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HOLMES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_HOLMES-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-HOLMES
   - type: Race
-    code: RACE-USA-FL-COUNTY_HOLMES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HOLMES-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HOLMES-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HOLMES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_HOLMES-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-TATE_RN_2P
     attributes:
@@ -82,7 +82,7 @@ groups:
       middle_name: K
       last_name: Tate
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HOLMES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-TATE_RN_2P
+    code: CANDIDACY-USA-FL-COUNTY_HOLMES-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-TATE_RN_2P
     attributes:
       status: active
       participation: active
@@ -91,25 +91,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_HOLMES-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HOLMES-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-TATE_RN_2P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HOLMES
   - type: Race
-    code: RACE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HOLMES-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-WILSON_ML_5C
     attributes:
@@ -119,30 +119,30 @@ groups:
       middle_name: E.
       last_name: Wilson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-WILSON_ML_5C
+    code: CANDIDACY-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-WILSON_ML_5C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-WILSON_ML_5C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HOLMES
   - type: Race
-    code: RACE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HOLMES-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-MILLER_NT_2U
     attributes:
@@ -152,30 +152,30 @@ groups:
       middle_name: M
       last_name: Miller
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-MILLER_NT_2U
+    code: CANDIDACY-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-MILLER_NT_2U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-MILLER_NT_2U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HOLMES
   - type: Race
-    code: RACE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HOLMES-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-LEE_LS_9Z
     attributes:
@@ -185,10 +185,10 @@ groups:
       middle_name: Manning
       last_name: Lee
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-LEE_LS_9Z
+    code: CANDIDACY-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-LEE_LS_9Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HOLMES-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-LEE_LS_9Z

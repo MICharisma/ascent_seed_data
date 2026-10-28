@@ -355,6 +355,18 @@ groups:
     code: COUNTY-USA-VA-WYTHE
     attributes:
       name: Wythe County
+  - type: Municipality
+    code: MUNICIPALITY-USA-VA-TOWN_OF_MT_CRAWFORD
+    attributes:
+      name: Town of Mt Crawford
+    references:
+      county: COUNTY-USA-VA-ROCKINGHAM
+  - type: Municipality
+    code: MUNICIPALITY-USA-VA-TOWN_OF_MT_JACKSON
+    attributes:
+      name: Town of Mt Jackson
+    references:
+      county: COUNTY-USA-VA-SHENANDOAH
   - type: District
     code: DISTRICT-USA-VA-CONGRESS-CD_1
     attributes:
@@ -411,6 +423,11 @@ groups:
       name: Virginia Congressional District 9
       kind: congressional district
   - type: District
+    code: DISTRICT-USA-VA-COUNCIL_MEMBER-APPOMATTOX_COUNTY_PRINCE_EDWARD_COUNTY
+    attributes:
+      name: Virginia Council Member (Appomattox County, Prince Edward County)
+      kind: council member district
+  - type: District
     code: DISTRICT-USA-VA-HOUSE-HD_20
     attributes:
       name: Virginia House of Delegates District 20
@@ -420,73 +437,3 @@ groups:
     attributes:
       name: Virginia Mayor (Cumberland County, Prince Edward County)
       kind: mayor district
-  - type: District
-    code: DISTRICT-USA-VA-MAYOR-GREENSVILLE_COUNTY_SUSSEX_COUNTY
-    attributes:
-      name: Virginia Mayor (Greensville County, Sussex County)
-      kind: mayor district
-  - type: District
-    code: DISTRICT-USA-VA-MAYOR_BELLE_HAVEN-ACCOMACK_COUNTY_NORTHAMPTON_COUNTY
-    attributes:
-      name: Virginia Mayor - Belle Haven (Accomack County, Northampton County)
-      kind: mayor - belle haven district
-  - type: District
-    code: DISTRICT-USA-VA-MAYOR_KILMARNOCK-LANCASTER_COUNTY_NORTHUMBERLAND_COUNTY
-    attributes:
-      name: Virginia Mayor - Kilmarnock (Lancaster County, Northumberland County)
-      kind: mayor - kilmarnock district
-  - type: District
-    code: DISTRICT-USA-VA-MAYOR_PAMPLIN_CITY-APPOMATTOX_COUNTY_PRINCE_EDWARD_COUNTY
-    attributes:
-      name: Virginia Mayor - Pamplin City (Appomattox County, Prince Edward County)
-      kind: mayor - pamplin city district
-  - type: District
-    code: DISTRICT-USA-VA-MAYOR_SALTVILLE-SMYTH_COUNTY_WASHINGTON_COUNTY
-    attributes:
-      name: Virginia Mayor - Saltville (Smyth County, Washington County)
-      kind: mayor - saltville district
-  - type: District
-    code: DISTRICT-USA-VA-MEMBER_TOWN_COUNCIL-ALBEMARLE_COUNTY_FLUVANNA_COUNTY
-    attributes:
-      name: Virginia Member Town Council (Albemarle County, Fluvanna County)
-      kind: member town council district
-  - type: District
-    code: DISTRICT-USA-VA-MEMBER_TOWN_COUNCIL-GREENSVILLE_COUNTY_SUSSEX_COUNTY
-    attributes:
-      name: Virginia Member Town Council (Greensville County, Sussex County)
-      kind: member town council district
-  - type: District
-    code: DISTRICT-USA-VA-MEMBER_TOWN_COUNCIL_AT_LARGE-CUMBERLAND_COUNTY_PRINCE_EDWARD_COUNTY
-    attributes:
-      name: Virginia Member Town Council - At Large (Cumberland County, Prince Edward County)
-      kind: member town council - at large district
-  - type: District
-    code: DISTRICT-USA-VA-MEMBER_TOWN_COUNCIL_BELLE_HAVEN-ACCOMACK_COUNTY_NORTHAMPTON_COUNTY
-    attributes:
-      name: Virginia Member Town Council - Belle Haven (Accomack County, Northampton County)
-      kind: member town council - belle haven district
-  - type: District
-    code: DISTRICT-USA-VA-MEMBER_TOWN_COUNCIL_GROTTOES-AUGUSTA_COUNTY_ROCKINGHAM_COUNTY
-    attributes:
-      name: Virginia Member Town Council - Grottoes (Augusta County, Rockingham County)
-      kind: member town council - grottoes district
-  - type: District
-    code: DISTRICT-USA-VA-MEMBER_TOWN_COUNCIL_KILMARNOCK-LANCASTER_COUNTY_NORTHUMBERLAND_COUNTY
-    attributes:
-      name: Virginia Member Town Council - Kilmarnock (Lancaster County, Northumberland County)
-      kind: member town council - kilmarnock district
-  - type: District
-    code: DISTRICT-USA-VA-MEMBER_TOWN_COUNCIL_PAMPLIN_CITY-APPOMATTOX_COUNTY_PRINCE_EDWARD_COUNTY
-    attributes:
-      name: Virginia Member Town Council - Pamplin City (Appomattox County, Prince Edward County)
-      kind: member town council - pamplin city district
-  - type: District
-    code: DISTRICT-USA-VA-MEMBER_TOWN_COUNCIL_PAMPLIN_CITY_SPECIAL-APPOMATTOX_COUNTY_PRINCE_EDWARD_COUNTY
-    attributes:
-      name: Virginia Member Town Council - Pamplin City - Special (Appomattox County, Prince Edward County)
-      kind: member town council - pamplin city - special district
-  - type: District
-    code: DISTRICT-USA-VA-MEMBER_TOWN_COUNCIL_SALTVILLE-SMYTH_COUNTY_WASHINGTON_COUNTY
-    attributes:
-      name: Virginia Member Town Council - Saltville (Smyth County, Washington County)
-      kind: member town council - saltville district

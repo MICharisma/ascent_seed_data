@@ -18,23 +18,35 @@ records:
   references:
     jurisdiction: COUNTY-USA-VA-ALLEGHANY
     year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-CLIFTON_FORGE-2026_GENERAL
+  attributes:
+    name: Clifton Forge General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-CLIFTON_FORGE
+    year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ALLEGHANY-MEMBER_SCHOOL_BOARD
+    code: OFFICE-USA-VA-COUNTY_ALLEGHANY-SCHOOL_BOARD_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-ALLEGHANY
   - type: Race
-    code: RACE-USA-VA-COUNTY_ALLEGHANY-MEMBER_SCHOOL_BOARD-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_ALLEGHANY-SCHOOL_BOARD_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_ALLEGHANY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ALLEGHANY-MEMBER_SCHOOL_BOARD
+      office: OFFICE-USA-VA-COUNTY_ALLEGHANY-SCHOOL_BOARD_MEMBER
   - type: Person
     code: PERSON-TUCKER_RN_7E
     attributes:
@@ -44,30 +56,29 @@ groups:
       middle_name: '"Randy"'
       last_name: Tucker
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ALLEGHANY-MEMBER_SCHOOL_BOARD-2026_GENERAL-TUCKER_RN_7E
+    code: CANDIDACY-USA-VA-COUNTY_ALLEGHANY-SCHOOL_BOARD_MEMBER-2026_GENERAL-TUCKER_RN_7E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ALLEGHANY-MEMBER_SCHOOL_BOARD-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_ALLEGHANY-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-TUCKER_RN_7E
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ALLEGHANY-MEMBER_TOWN_COUNCIL_CLIFTON_FORGE-TOWN_OF_CLIFTON_FORGE
+    code: OFFICE-USA-VA-CLIFTON_FORGE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_CLIFTON_FORGE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_CLIFTON_FORGE
-      jurisdiction: COUNTY-USA-VA-ALLEGHANY
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-CLIFTON_FORGE
   - type: Race
-    code: RACE-USA-VA-COUNTY_ALLEGHANY-MEMBER_TOWN_COUNCIL_CLIFTON_FORGE-TOWN_OF_CLIFTON_FORGE-2026_GENERAL
+    code: RACE-USA-VA-CLIFTON_FORGE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ALLEGHANY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ALLEGHANY-MEMBER_TOWN_COUNCIL_CLIFTON_FORGE-TOWN_OF_CLIFTON_FORGE
+      election: ELECTION-USA-VA-CLIFTON_FORGE-2026_GENERAL
+      office: OFFICE-USA-VA-CLIFTON_FORGE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BURDETTE_DL_4S
     attributes:
@@ -77,12 +88,12 @@ groups:
       middle_name: E.
       last_name: Burdette
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ALLEGHANY-MEMBER_TOWN_COUNCIL_CLIFTON_FORGE-TOWN_OF_CLIFTON_FORGE-2026_GENERAL-BURDETTE_DL_4S
+    code: CANDIDACY-USA-VA-CLIFTON_FORGE-COUNCIL_MEMBER-2026_GENERAL-BURDETTE_DL_4S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ALLEGHANY-MEMBER_TOWN_COUNCIL_CLIFTON_FORGE-TOWN_OF_CLIFTON_FORGE-2026_GENERAL
+      race: RACE-USA-VA-CLIFTON_FORGE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BURDETTE_DL_4S
   - type: Person
     code: PERSON-LAUDERMILK_DB_2H
@@ -93,12 +104,12 @@ groups:
       middle_name: A.
       last_name: Laudermilk
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ALLEGHANY-MEMBER_TOWN_COUNCIL_CLIFTON_FORGE-TOWN_OF_CLIFTON_FORGE-2026_GENERAL-LAUDERMILK_DB_2H
+    code: CANDIDACY-USA-VA-CLIFTON_FORGE-COUNCIL_MEMBER-2026_GENERAL-LAUDERMILK_DB_2H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ALLEGHANY-MEMBER_TOWN_COUNCIL_CLIFTON_FORGE-TOWN_OF_CLIFTON_FORGE-2026_GENERAL
+      race: RACE-USA-VA-CLIFTON_FORGE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LAUDERMILK_DB_2H
   - type: Person
     code: PERSON-FOSTER_MC_8P
@@ -109,12 +120,12 @@ groups:
       middle_name: L.
       last_name: Foster
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ALLEGHANY-MEMBER_TOWN_COUNCIL_CLIFTON_FORGE-TOWN_OF_CLIFTON_FORGE-2026_GENERAL-FOSTER_MC_8P
+    code: CANDIDACY-USA-VA-CLIFTON_FORGE-COUNCIL_MEMBER-2026_GENERAL-FOSTER_MC_8P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ALLEGHANY-MEMBER_TOWN_COUNCIL_CLIFTON_FORGE-TOWN_OF_CLIFTON_FORGE-2026_GENERAL
+      race: RACE-USA-VA-CLIFTON_FORGE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FOSTER_MC_8P
   - type: Person
     code: PERSON-LIGHTFOOT_PM_8W
@@ -125,10 +136,10 @@ groups:
       middle_name: E.
       last_name: Lightfoot
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ALLEGHANY-MEMBER_TOWN_COUNCIL_CLIFTON_FORGE-TOWN_OF_CLIFTON_FORGE-2026_GENERAL-LIGHTFOOT_PM_8W
+    code: CANDIDACY-USA-VA-CLIFTON_FORGE-COUNCIL_MEMBER-2026_GENERAL-LIGHTFOOT_PM_8W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ALLEGHANY-MEMBER_TOWN_COUNCIL_CLIFTON_FORGE-TOWN_OF_CLIFTON_FORGE-2026_GENERAL
+      race: RACE-USA-VA-CLIFTON_FORGE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LIGHTFOOT_PM_8W

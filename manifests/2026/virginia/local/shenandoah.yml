@@ -7,47 +7,94 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_SHENANDOAH-2026_GENERAL
+  code: ELECTION-USA-VA-EDINBURG-2026_GENERAL
   attributes:
-    name: Shenandoah County General Election 2026
+    name: Edinburg General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-SHENANDOAH
+    jurisdiction: MUNICIPALITY-USA-VA-EDINBURG
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_SHENANDOAH-2026_SPECIAL
+  code: ELECTION-USA-VA-TOWN_OF_MT_JACKSON-2026_GENERAL
   attributes:
-    name: Shenandoah County Special Election 2026
+    name: Town of Mt Jackson General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-TOWN_OF_MT_JACKSON
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-WOODSTOCK-2026_GENERAL
+  attributes:
+    name: Woodstock General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-WOODSTOCK
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-NEW_MARKET-2026_GENERAL
+  attributes:
+    name: New Market General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-NEW_MARKET
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-EDINBURG-2026_SPECIAL
+  attributes:
+    name: Edinburg Special Election 2026
     kind: special
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-SHENANDOAH
+    jurisdiction: MUNICIPALITY-USA-VA-EDINBURG
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-STRASBURG-2026_GENERAL
+  attributes:
+    name: Strasburg General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-STRASBURG
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SHENANDOAH-MAYOR-TOWN_OF_EDINBURG
+    code: OFFICE-USA-VA-EDINBURG-MAYOR
     attributes:
-      seat_code: TOWN_OF_EDINBURG
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-SHENANDOAH
+      jurisdiction: MUNICIPALITY-USA-VA-EDINBURG
   - type: Race
-    code: RACE-USA-VA-COUNTY_SHENANDOAH-MAYOR-TOWN_OF_EDINBURG-2026_GENERAL
+    code: RACE-USA-VA-EDINBURG-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SHENANDOAH-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SHENANDOAH-MAYOR-TOWN_OF_EDINBURG
+      election: ELECTION-USA-VA-EDINBURG-2026_GENERAL
+      office: OFFICE-USA-VA-EDINBURG-MAYOR
   - type: Person
     code: PERSON-HARSHMAN_DN_2G
     attributes:
@@ -57,30 +104,29 @@ groups:
       middle_name: J.
       last_name: Harshman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MAYOR-TOWN_OF_EDINBURG-2026_GENERAL-HARSHMAN_DN_2G
+    code: CANDIDACY-USA-VA-EDINBURG-MAYOR-2026_GENERAL-HARSHMAN_DN_2G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MAYOR-TOWN_OF_EDINBURG-2026_GENERAL
+      race: RACE-USA-VA-EDINBURG-MAYOR-2026_GENERAL
       person: PERSON-HARSHMAN_DN_2G
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SHENANDOAH-MAYOR-TOWN_OF_MT_JACKSON
+    code: OFFICE-USA-VA-TOWN_OF_MT_JACKSON-MAYOR
     attributes:
-      seat_code: TOWN_OF_MT_JACKSON
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-SHENANDOAH
+      jurisdiction: MUNICIPALITY-USA-VA-TOWN_OF_MT_JACKSON
   - type: Race
-    code: RACE-USA-VA-COUNTY_SHENANDOAH-MAYOR-TOWN_OF_MT_JACKSON-2026_GENERAL
+    code: RACE-USA-VA-TOWN_OF_MT_JACKSON-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SHENANDOAH-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SHENANDOAH-MAYOR-TOWN_OF_MT_JACKSON
+      election: ELECTION-USA-VA-TOWN_OF_MT_JACKSON-2026_GENERAL
+      office: OFFICE-USA-VA-TOWN_OF_MT_JACKSON-MAYOR
   - type: Person
     code: PERSON-PIFER_DN_4X
     attributes:
@@ -90,30 +136,29 @@ groups:
       middle_name: I. "Donnie"
       last_name: Pifer
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MAYOR-TOWN_OF_MT_JACKSON-2026_GENERAL-PIFER_DN_4X
+    code: CANDIDACY-USA-VA-TOWN_OF_MT_JACKSON-MAYOR-2026_GENERAL-PIFER_DN_4X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MAYOR-TOWN_OF_MT_JACKSON-2026_GENERAL
+      race: RACE-USA-VA-TOWN_OF_MT_JACKSON-MAYOR-2026_GENERAL
       person: PERSON-PIFER_DN_4X
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SHENANDOAH-MAYOR-TOWN_OF_WOODSTOCK
+    code: OFFICE-USA-VA-WOODSTOCK-MAYOR
     attributes:
-      seat_code: TOWN_OF_WOODSTOCK
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-SHENANDOAH
+      jurisdiction: MUNICIPALITY-USA-VA-WOODSTOCK
   - type: Race
-    code: RACE-USA-VA-COUNTY_SHENANDOAH-MAYOR-TOWN_OF_WOODSTOCK-2026_GENERAL
+    code: RACE-USA-VA-WOODSTOCK-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SHENANDOAH-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SHENANDOAH-MAYOR-TOWN_OF_WOODSTOCK
+      election: ELECTION-USA-VA-WOODSTOCK-2026_GENERAL
+      office: OFFICE-USA-VA-WOODSTOCK-MAYOR
   - type: Person
     code: PERSON-MCCLEARY_JR_4K
     attributes:
@@ -123,30 +168,29 @@ groups:
       middle_name: D.
       last_name: McCleary
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MAYOR-TOWN_OF_WOODSTOCK-2026_GENERAL-MCCLEARY_JR_4K
+    code: CANDIDACY-USA-VA-WOODSTOCK-MAYOR-2026_GENERAL-MCCLEARY_JR_4K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MAYOR-TOWN_OF_WOODSTOCK-2026_GENERAL
+      race: RACE-USA-VA-WOODSTOCK-MAYOR-2026_GENERAL
       person: PERSON-MCCLEARY_JR_4K
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_EDINBURG
+    code: OFFICE-USA-VA-EDINBURG-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_EDINBURG
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-SHENANDOAH
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-EDINBURG
   - type: Race
-    code: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_EDINBURG-2026_GENERAL
+    code: RACE-USA-VA-EDINBURG-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SHENANDOAH-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_EDINBURG
+      election: ELECTION-USA-VA-EDINBURG-2026_GENERAL
+      office: OFFICE-USA-VA-EDINBURG-COUNCIL_MEMBER
   - type: Person
     code: PERSON-DELLINGER_BR_8L
     attributes:
@@ -156,12 +200,12 @@ groups:
       middle_name: M.
       last_name: Dellinger
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_EDINBURG-2026_GENERAL-DELLINGER_BR_8L
+    code: CANDIDACY-USA-VA-EDINBURG-COUNCIL_MEMBER-2026_GENERAL-DELLINGER_BR_8L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_EDINBURG-2026_GENERAL
+      race: RACE-USA-VA-EDINBURG-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DELLINGER_BR_8L
   - type: Person
     code: PERSON-WYMER_HOLLAR_FY_7F
@@ -172,12 +216,12 @@ groups:
       middle_name: M.
       last_name: Wymer-Hollar
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_EDINBURG-2026_GENERAL-WYMER_HOLLAR_FY_7F
+    code: CANDIDACY-USA-VA-EDINBURG-COUNCIL_MEMBER-2026_GENERAL-WYMER_HOLLAR_FY_7F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_EDINBURG-2026_GENERAL
+      race: RACE-USA-VA-EDINBURG-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WYMER_HOLLAR_FY_7F
   - type: Person
     code: PERSON-WOOD_ST_7D
@@ -188,30 +232,29 @@ groups:
       middle_name: D.
       last_name: Wood
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_EDINBURG-2026_GENERAL-WOOD_ST_7D
+    code: CANDIDACY-USA-VA-EDINBURG-COUNCIL_MEMBER-2026_GENERAL-WOOD_ST_7D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_EDINBURG-2026_GENERAL
+      race: RACE-USA-VA-EDINBURG-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WOOD_ST_7D
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_MT_JACKSON
+    code: OFFICE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_MT_JACKSON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-SHENANDOAH
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-TOWN_OF_MT_JACKSON
   - type: Race
-    code: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_MT_JACKSON-2026_GENERAL
+    code: RACE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SHENANDOAH-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_MT_JACKSON
+      election: ELECTION-USA-VA-TOWN_OF_MT_JACKSON-2026_GENERAL
+      office: OFFICE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-ROSS_DV_7E
     attributes:
@@ -221,12 +264,12 @@ groups:
       middle_name: M.
       last_name: Ross
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_MT_JACKSON-2026_GENERAL-ROSS_DV_7E
+    code: CANDIDACY-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL-ROSS_DV_7E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_MT_JACKSON-2026_GENERAL
+      race: RACE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ROSS_DV_7E
   - type: Person
     code: PERSON-KENNEDY_KY_7W
@@ -237,12 +280,12 @@ groups:
       middle_name: B.
       last_name: Kennedy
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_MT_JACKSON-2026_GENERAL-KENNEDY_KY_7W
+    code: CANDIDACY-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL-KENNEDY_KY_7W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_MT_JACKSON-2026_GENERAL
+      race: RACE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-KENNEDY_KY_7W
   - type: Person
     code: PERSON-WHETZEL_M_4T
@@ -253,12 +296,12 @@ groups:
       middle_name: Kay Pool
       last_name: Whetzel
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_MT_JACKSON-2026_GENERAL-WHETZEL_M_4T
+    code: CANDIDACY-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL-WHETZEL_M_4T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_MT_JACKSON-2026_GENERAL
+      race: RACE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WHETZEL_M_4T
   - type: Person
     code: PERSON-CAIN_MC_8V
@@ -269,12 +312,12 @@ groups:
       middle_name: E.
       last_name: Cain
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_MT_JACKSON-2026_GENERAL-CAIN_MC_8V
+    code: CANDIDACY-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL-CAIN_MC_8V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_MT_JACKSON-2026_GENERAL
+      race: RACE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CAIN_MC_8V
   - type: Person
     code: PERSON-FRYE_RB_9M
@@ -285,12 +328,12 @@ groups:
       middle_name: A.
       last_name: Frye
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_MT_JACKSON-2026_GENERAL-FRYE_RB_9M
+    code: CANDIDACY-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL-FRYE_RB_9M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_MT_JACKSON-2026_GENERAL
+      race: RACE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FRYE_RB_9M
   - type: Person
     code: PERSON-HOLTZMAN_W_8U
@@ -301,30 +344,29 @@ groups:
       middle_name: Todd
       last_name: Holtzman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_MT_JACKSON-2026_GENERAL-HOLTZMAN_W_8U
+    code: CANDIDACY-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL-HOLTZMAN_W_8U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_MT_JACKSON-2026_GENERAL
+      race: RACE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HOLTZMAN_W_8U
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_MARKET
+    code: OFFICE-USA-VA-NEW_MARKET-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_NEW_MARKET
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-SHENANDOAH
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-NEW_MARKET
   - type: Race
-    code: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_MARKET-2026_GENERAL
+    code: RACE-USA-VA-NEW_MARKET-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SHENANDOAH-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_MARKET
+      election: ELECTION-USA-VA-NEW_MARKET-2026_GENERAL
+      office: OFFICE-USA-VA-NEW_MARKET-COUNCIL_MEMBER
   - type: Person
     code: PERSON-MENHARDT_BR_5Y
     attributes:
@@ -334,12 +376,12 @@ groups:
       middle_name: A. P. "Buz"
       last_name: Menhardt
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_MARKET-2026_GENERAL-MENHARDT_BR_5Y
+    code: CANDIDACY-USA-VA-NEW_MARKET-COUNCIL_MEMBER-2026_GENERAL-MENHARDT_BR_5Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_MARKET-2026_GENERAL
+      race: RACE-USA-VA-NEW_MARKET-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MENHARDT_BR_5Y
   - type: Person
     code: PERSON-WINE_HR_9L
@@ -350,12 +392,12 @@ groups:
       middle_name: E.
       last_name: Wine, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_MARKET-2026_GENERAL-WINE_HR_9L
+    code: CANDIDACY-USA-VA-NEW_MARKET-COUNCIL_MEMBER-2026_GENERAL-WINE_HR_9L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_MARKET-2026_GENERAL
+      race: RACE-USA-VA-NEW_MARKET-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WINE_HR_9L
   - type: Person
     code: PERSON-WELCH_TH_3G
@@ -366,30 +408,29 @@ groups:
       middle_name: E.
       last_name: Welch, IV
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_MARKET-2026_GENERAL-WELCH_TH_3G
+    code: CANDIDACY-USA-VA-NEW_MARKET-COUNCIL_MEMBER-2026_GENERAL-WELCH_TH_3G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_MARKET-2026_GENERAL
+      race: RACE-USA-VA-NEW_MARKET-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WELCH_TH_3G
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_SPECIAL_EDINBURG-TOWN_OF_EDINBURG
+    code: OFFICE-USA-VA-EDINBURG-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_EDINBURG
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_SPECIAL_EDINBURG
-      jurisdiction: COUNTY-USA-VA-SHENANDOAH
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-EDINBURG
   - type: Race
-    code: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_SPECIAL_EDINBURG-TOWN_OF_EDINBURG-2026_SPECIAL
+    code: RACE-USA-VA-EDINBURG-COUNCIL_MEMBER-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SHENANDOAH-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_SPECIAL_EDINBURG-TOWN_OF_EDINBURG
+      election: ELECTION-USA-VA-EDINBURG-2026_SPECIAL
+      office: OFFICE-USA-VA-EDINBURG-COUNCIL_MEMBER
   - type: Person
     code: PERSON-KRUG_LS_7E
     attributes:
@@ -399,30 +440,29 @@ groups:
       middle_name: O.
       last_name: Krug
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_SPECIAL_EDINBURG-TOWN_OF_EDINBURG-2026_SPECIAL-KRUG_LS_7E
+    code: CANDIDACY-USA-VA-EDINBURG-COUNCIL_MEMBER-2026_SPECIAL-KRUG_LS_7E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_SPECIAL_EDINBURG-TOWN_OF_EDINBURG-2026_SPECIAL
+      race: RACE-USA-VA-EDINBURG-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-KRUG_LS_7E
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG
+    code: OFFICE-USA-VA-STRASBURG-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_STRASBURG
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_STRASBURG
-      jurisdiction: COUNTY-USA-VA-SHENANDOAH
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-STRASBURG
   - type: Race
-    code: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG-2026_GENERAL
+    code: RACE-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SHENANDOAH-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG
+      election: ELECTION-USA-VA-STRASBURG-2026_GENERAL
+      office: OFFICE-USA-VA-STRASBURG-COUNCIL_MEMBER
   - type: Person
     code: PERSON-CARTER_A_7V
     attributes:
@@ -432,12 +472,12 @@ groups:
       middle_name: D.
       last_name: Carter, IV
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG-2026_GENERAL-CARTER_A_7V
+    code: CANDIDACY-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL-CARTER_A_7V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG-2026_GENERAL
+      race: RACE-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CARTER_A_7V
   - type: Person
     code: PERSON-LOWDER_AN_6Y
@@ -448,12 +488,12 @@ groups:
       middle_name: C.
       last_name: Lowder
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG-2026_GENERAL-LOWDER_AN_6Y
+    code: CANDIDACY-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL-LOWDER_AN_6Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG-2026_GENERAL
+      race: RACE-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LOWDER_AN_6Y
   - type: Person
     code: PERSON-WELTON_EL_7U
@@ -464,12 +504,12 @@ groups:
       middle_name: Van
       last_name: Welton, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG-2026_GENERAL-WELTON_EL_7U
+    code: CANDIDACY-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL-WELTON_EL_7U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG-2026_GENERAL
+      race: RACE-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WELTON_EL_7U
   - type: Person
     code: PERSON-PYWTORAK_GB_7P
@@ -480,12 +520,12 @@ groups:
       middle_name: M.
       last_name: Pywtorak
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG-2026_GENERAL-PYWTORAK_GB_7P
+    code: CANDIDACY-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL-PYWTORAK_GB_7P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG-2026_GENERAL
+      race: RACE-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PYWTORAK_GB_7P
   - type: Person
     code: PERSON-STOVER_H_2L
@@ -496,12 +536,12 @@ groups:
       middle_name: Brad
       last_name: Stover
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG-2026_GENERAL-STOVER_H_2L
+    code: CANDIDACY-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL-STOVER_H_2L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG-2026_GENERAL
+      race: RACE-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-STOVER_H_2L
   - type: Person
     code: PERSON-TANNER_KY_8D
@@ -512,12 +552,12 @@ groups:
       middle_name: Lynn
       last_name: Tanner
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG-2026_GENERAL-TANNER_KY_8D
+    code: CANDIDACY-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL-TANNER_KY_8D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG-2026_GENERAL
+      race: RACE-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TANNER_KY_8D
   - type: Person
     code: PERSON-NEWMAN_ST_6F
@@ -528,30 +568,29 @@ groups:
       middle_name: J.
       last_name: Newman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG-2026_GENERAL-NEWMAN_ST_6F
+    code: CANDIDACY-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL-NEWMAN_ST_6F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_STRASBURG-TOWN_OF_STRASBURG-2026_GENERAL
+      race: RACE-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-NEWMAN_ST_6F
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_WOODSTOCK-TOWN_OF_WOODSTOCK
+    code: OFFICE-USA-VA-WOODSTOCK-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_WOODSTOCK
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_WOODSTOCK
-      jurisdiction: COUNTY-USA-VA-SHENANDOAH
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-WOODSTOCK
   - type: Race
-    code: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_WOODSTOCK-TOWN_OF_WOODSTOCK-2026_GENERAL
+    code: RACE-USA-VA-WOODSTOCK-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SHENANDOAH-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_WOODSTOCK-TOWN_OF_WOODSTOCK
+      election: ELECTION-USA-VA-WOODSTOCK-2026_GENERAL
+      office: OFFICE-USA-VA-WOODSTOCK-COUNCIL_MEMBER
   - type: Person
     code: PERSON-CROSS_A_3B
     attributes:
@@ -561,12 +600,12 @@ groups:
       middle_name: Paje
       last_name: Cross
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_WOODSTOCK-TOWN_OF_WOODSTOCK-2026_GENERAL-CROSS_A_3B
+    code: CANDIDACY-USA-VA-WOODSTOCK-COUNCIL_MEMBER-2026_GENERAL-CROSS_A_3B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_WOODSTOCK-TOWN_OF_WOODSTOCK-2026_GENERAL
+      race: RACE-USA-VA-WOODSTOCK-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CROSS_A_3B
   - type: Person
     code: PERSON-HAUN_FR_6S
@@ -577,12 +616,12 @@ groups:
       middle_name: H.
       last_name: Haun
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_WOODSTOCK-TOWN_OF_WOODSTOCK-2026_GENERAL-HAUN_FR_6S
+    code: CANDIDACY-USA-VA-WOODSTOCK-COUNCIL_MEMBER-2026_GENERAL-HAUN_FR_6S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_WOODSTOCK-TOWN_OF_WOODSTOCK-2026_GENERAL
+      race: RACE-USA-VA-WOODSTOCK-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HAUN_FR_6S
   - type: Person
     code: PERSON-HEISHMAN_ST_6S
@@ -593,10 +632,10 @@ groups:
       middle_name: D.
       last_name: Heishman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_WOODSTOCK-TOWN_OF_WOODSTOCK-2026_GENERAL-HEISHMAN_ST_6S
+    code: CANDIDACY-USA-VA-WOODSTOCK-COUNCIL_MEMBER-2026_GENERAL-HEISHMAN_ST_6S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SHENANDOAH-MEMBER_TOWN_COUNCIL_WOODSTOCK-TOWN_OF_WOODSTOCK-2026_GENERAL
+      race: RACE-USA-VA-WOODSTOCK-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HEISHMAN_ST_6S

@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NEW_KENT-MEMBER_SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-VA-COUNTY_NEW_KENT-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-NEW_KENT
   - type: Race
-    code: RACE-USA-VA-COUNTY_NEW_KENT-MEMBER_SCHOOL_BOARD-DISTRICT_1-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_NEW_KENT-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_NEW_KENT-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_NEW_KENT-MEMBER_SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-VA-COUNTY_NEW_KENT-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-STEWART_JS_5P
     attributes:
@@ -45,10 +45,10 @@ groups:
       middle_name: L.
       last_name: Stewart
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NEW_KENT-MEMBER_SCHOOL_BOARD-DISTRICT_1-2026_SPECIAL-STEWART_JS_5P
+    code: CANDIDACY-USA-VA-COUNTY_NEW_KENT-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_SPECIAL-STEWART_JS_5P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NEW_KENT-MEMBER_SCHOOL_BOARD-DISTRICT_1-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_NEW_KENT-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_SPECIAL
       person: PERSON-STEWART_JS_5P

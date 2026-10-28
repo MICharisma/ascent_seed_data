@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_TAYLOR-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_TAYLOR-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-TAYLOR
   - type: Race
-    code: RACE-USA-FL-COUNTY_TAYLOR-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_TAYLOR-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_TAYLOR-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_TAYLOR-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_TAYLOR-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-MOODY_JM_7X
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Jim
       last_name: Moody
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_TAYLOR-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-MOODY_JM_7X
+    code: CANDIDACY-USA-FL-COUNTY_TAYLOR-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-MOODY_JM_7X
     attributes:
       status: active
       participation: active
@@ -53,25 +53,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_TAYLOR-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_TAYLOR-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-MOODY_JM_7X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_TAYLOR-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_TAYLOR-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-TAYLOR
   - type: Race
-    code: RACE-USA-FL-COUNTY_TAYLOR-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_TAYLOR-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_TAYLOR-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_TAYLOR-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_TAYLOR-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-SLAUGHTER_WN_2A
     attributes:
@@ -81,7 +81,7 @@ groups:
       middle_name: M.
       last_name: Slaughter
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_TAYLOR-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-SLAUGHTER_WN_2A
+    code: CANDIDACY-USA-FL-COUNTY_TAYLOR-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-SLAUGHTER_WN_2A
     attributes:
       status: active
       participation: active
@@ -90,24 +90,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_TAYLOR-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_TAYLOR-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-SLAUGHTER_WN_2A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_TAYLOR-CITY_COUNCIL_DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_TAYLOR-COUNCIL_MEMBER-DISTRICT_4
     attributes:
+      seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-CITY_COUNCIL_DISTRICT_4_2
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-FL-TAYLOR
   - type: Race
-    code: RACE-USA-FL-COUNTY_TAYLOR-CITY_COUNCIL_DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_TAYLOR-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=taylor&el=16.'
     references:
       election: ELECTION-USA-FL-COUNTY_TAYLOR-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_TAYLOR-CITY_COUNCIL_DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_TAYLOR-COUNCIL_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-HALL_AL_3G
     attributes:
@@ -117,29 +118,30 @@ groups:
       middle_name: C
       last_name: Hall
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_TAYLOR-CITY_COUNCIL_DISTRICT_4-2026_GENERAL-HALL_AL_3G
+    code: CANDIDACY-USA-FL-COUNTY_TAYLOR-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL-HALL_AL_3G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_TAYLOR-CITY_COUNCIL_DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_TAYLOR-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-HALL_AL_3G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_TAYLOR-CITY_COUNCIL_DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_TAYLOR-COUNCIL_MEMBER-DISTRICT_5
     attributes:
+      seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-CITY_COUNCIL_DISTRICT_5
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-FL-TAYLOR
   - type: Race
-    code: RACE-USA-FL-COUNTY_TAYLOR-CITY_COUNCIL_DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_TAYLOR-COUNCIL_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=taylor&el=16.'
     references:
       election: ELECTION-USA-FL-COUNTY_TAYLOR-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_TAYLOR-CITY_COUNCIL_DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_TAYLOR-COUNCIL_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-KETRING_WR_9K
     attributes:
@@ -148,30 +150,30 @@ groups:
       first_name: Ward
       last_name: Ketring
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_TAYLOR-CITY_COUNCIL_DISTRICT_5-2026_GENERAL-KETRING_WR_9K
+    code: CANDIDACY-USA-FL-COUNTY_TAYLOR-COUNCIL_MEMBER-DISTRICT_5-2026_GENERAL-KETRING_WR_9K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_TAYLOR-CITY_COUNCIL_DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_TAYLOR-COUNCIL_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-KETRING_WR_9K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-TAYLOR
   - type: Race
-    code: RACE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_TAYLOR-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-AGNER_BN_9Q
     attributes:
@@ -181,30 +183,30 @@ groups:
       middle_name: Sue
       last_name: Agner
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-AGNER_BN_9Q
+    code: CANDIDACY-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-AGNER_BN_9Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-AGNER_BN_9Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-TAYLOR
   - type: Race
-    code: RACE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_TAYLOR-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-CARLTON_BR_7Q
     attributes:
@@ -213,30 +215,30 @@ groups:
       first_name: Brenda
       last_name: Carlton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-CARLTON_BR_7Q
+    code: CANDIDACY-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-CARLTON_BR_7Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-CARLTON_BR_7Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-TAYLOR
   - type: Race
-    code: RACE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_TAYLOR-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-STEPHENS_DV_6Z
     attributes:
@@ -245,10 +247,10 @@ groups:
       first_name: David
       last_name: Stephens
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-STEPHENS_DV_6Z
+    code: CANDIDACY-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-STEPHENS_DV_6Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_TAYLOR-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-STEPHENS_DV_6Z
