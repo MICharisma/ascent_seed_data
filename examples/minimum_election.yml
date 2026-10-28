@@ -1,0 +1,82 @@
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent examples
+  url: https://example.org/minimum-election
+  captured_on: '2026-10-28'
+  note: Fictional contest, person, and account. Requires the existing Year 2026 foundation
+    record; see examples/README.md.
+records:
+- type: Country
+  code: COUNTRY-USA
+  attributes:
+    code: US
+    name: United States
+- type: State
+  code: STATE-USA-NY
+  attributes:
+    code: NY
+    name: New York
+  references:
+    country: COUNTRY-USA
+- type: District
+  code: DISTRICT-USA-NY-ASSEMBLY-AD_1
+  attributes:
+    name: New York Assembly District 1
+    kind: assembly district
+  scope:
+    state: STATE-USA-NY
+- type: Position
+  code: POSITION-STATE_REPRESENTATIVE
+  attributes:
+    title: State Representative
+    branch: legislative
+- type: Office
+  code: OFFICE-USA-NY-ASSEMBLY-AD_1
+  attributes:
+    is_active: true
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NY-ASSEMBLY-AD_1
+- type: Election
+  code: ELECTION-USA-NY-2026_CIVIC_EXAMPLE
+  attributes:
+    name: New York Civic Example 2026
+    election_date: '2026-11-03'
+    kind: general
+    status: upcoming
+    is_mock: true
+    is_historical: false
+  references:
+    jurisdiction: STATE-USA-NY
+    year: YEAR-2026
+- type: Race
+  code: RACE-USA-NY-ASSEMBLY-AD_1-2026_CIVIC_EXAMPLE
+  attributes:
+    status: upcoming
+  references:
+    election: ELECTION-USA-NY-2026_CIVIC_EXAMPLE
+    office: OFFICE-USA-NY-ASSEMBLY-AD_1
+- type: Person
+  code: PERSON-VEGA_MR_7K
+  attributes:
+    first_name: Marisol
+    last_name: Vega
+- type: Candidacy
+  code: CANDIDACY-USA-NY-ASSEMBLY-AD_1-2026_CIVIC_EXAMPLE-VEGA_MR_7K
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-NY-ASSEMBLY-AD_1-2026_CIVIC_EXAMPLE
+    person: PERSON-VEGA_MR_7K
+- type: Channel
+  code: CHANNEL-WEB-MARISOLVEGA_EXAMPLE_ORG
+  attributes:
+    platform: website
+    handle: marisolvega.example.org
+    url: https://marisolvega.example.org
+    official: true
+  references:
+    owner: PERSON-VEGA_MR_7K

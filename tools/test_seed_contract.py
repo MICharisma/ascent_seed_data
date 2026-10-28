@@ -33,6 +33,14 @@ class CandidateAccountsTest(unittest.TestCase):
             schema.validate(yaml_document)
         contract.check_accounts([("example", self.document)], self.index)
 
+    def test_general_example_pairs_are_equivalent_and_match_the_catalog_schema(self):
+        schema = contract.validator("asc.schema.json")
+        for name in ("minimum_election", "government_branches", "profile_images"):
+            with self.subTest(example=name):
+                yaml_document = contract.validate_file(contract.ROOT / f"examples/{name}.yml", schema)
+                json_document = contract.validate_file(contract.ROOT / f"examples/{name}.json", schema)
+                self.assertEqual(yaml_document, json_document)
+
     def test_worker_schema_rejects_incomplete_or_unsupported_records(self):
         for mutation in ("empty", "id", "owner_id", "owner_type", "new_person", "unknown_platform", "missing_source",
                          "missing_owner", "source_date", "source_url", "blank_note", "profile_url", "unofficial",
