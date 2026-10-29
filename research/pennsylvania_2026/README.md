@@ -34,44 +34,46 @@ Contributor: Ascent Clerk. Captured 2026-10-29 (America/New_York). Files: `manif
 7. **Names.** The Department of State prints "LAST SUFFIX, FIRST MIDDLE" in capitals. Names were converted mechanically: suffixes were dropped, single-letter middles became initials, and Mc and O' were handled. The exact ballot text is in the CSV.
 8. **Joint ticket.** See above. If Ascent adds a ticket or running-mate record, the Governor and Lieutenant Governor general candidacies should be linked by party.
 
-## Name-code collisions: 28 candidates NOT in the YAML
+## Person codes and the 28 shared name codes
 
-These people's name codes are already used in this repository (on main, including Texas, or on the California PR #11 branch), or are shared by two different Pennsylvania candidates. Ascent issues the disambiguators, so these people and all their candidacies are left out. That is 55 CSV rows with `in_pr = N`, 27 of them Nov 3 nominees.
+Every new Person has a full code minted with `tools/seed_contract.py mint` (in-process, same function), facts `PA | <first appearance date> | <DoS printed name, LAST, FIRST> | <DoS office - district>`; the first appearance is the May 19 primary for anyone who ran in it, otherwise Nov 3. Because the DoS prints `LAST SUFFIX, FIRST MIDDLE`, the name-code base was passed explicitly (`--name-code`) from the parsed surname and given name rather than letting `mint` split the printed text by word order; multi-word surnames keep the whole surname (e.g. `DEAN_CUNNANE` would apply, but she is the existing `PERSON-DEAN_MD_8E`). Each Person carries `username` = lowercased code and `username_status: provisional`. The full list with facts is in `minted.json` beside the build scripts (not in the repo); the CSV has `person_code` and `mint_resolution`.
 
-| Race | Candidate (ballot) | Candidacies | Name code | Existing codes |
+PR #15's first version left out 28 people whose name codes were shared. All 28 are now included. Each was compared with every existing person sharing the name code (name, state, race); none is the same person, so each was minted with `--new`:
+
+| Race | Candidate (ballot) | New code | Shares name code with | Why distinct |
 |---|---|---|---|---|
-| State Senate District 20 | BAKER, ELISABETH J | Rep primary; general (Republican) | PERSON-BAKER_EL | PERSON-BAKER_EL_6G |
-| State Senate District 20 | BAKER, JACLYN ESTELLE | Dem primary; general (Democratic) | PERSON-BAKER_JC | PERSON-BAKER_JC_2Z |
-| State Senate District 36 | JONES, THOMAS MATTHEW | Rep primary; general (Republican) | PERSON-JONES_TH | PERSON-JONES_TH_6F |
-| State House District 6 | WALKER, MICHAEL C | Dem primary; general (Democratic) | PERSON-WALKER_MC | PERSON-WALKER_MC_4H, PERSON-WALKER_MC_8R |
-| State House District 9 | BROWN, MARLA ANN | Rep primary; general (Republican) | PERSON-BROWN_MR | PERSON-BROWN_MR_3Y, PERSON-BROWN_MR_9F |
-| State House District 10 | BROWN, AMEN | Dem primary; general (Democratic) | PERSON-BROWN_AM | PERSON-BROWN_AM_7R |
-| State House District 22 | SMITH JR, ROBERT E | Rep primary; general (Republican) | PERSON-SMITH_RB | PERSON-SMITH_RB_3D |
-| State House District 24 | ANDERSON , WILLIAM | Dem primary | PERSON-ANDERSON_WL | PERSON-ANDERSON_WL_5B |
-| State House District 41 | MILLER, BRETT R | Rep primary; general (Republican) | PERSON-MILLER_BR | PERSON-MILLER_BR_2L, PERSON-MILLER_BR_3U, PERSON-MILLER_BR_8Z |
-| State House District 54 | SCOTT, GREGORY | Dem primary; general (Democratic) | PERSON-SCOTT_GR | PERSON-SCOTT_GR_8S |
-| State House District 58 | ROGERS, CHERRI | Dem primary; general (Democratic) | PERSON-ROGERS_CH | PERSON-ROGERS_CH_8J |
-| State House District 62 | JONES, TRAJAN WILLIAM | Dem primary; general (Democratic) | PERSON-JONES_TR | PERSON-JONES_TR_2C |
-| State House District 66 | SMITH, BRIAN A | Rep primary; general (Republican) | PERSON-SMITH_BR | PERSON-SMITH_BR_4M, PERSON-SMITH_BR_7M, PERSON-SMITH_BR_7V, PERSON-SMITH_BR_8H, PERSON-SMITH_BR_9H, PERSON-SMITH_BR_9R |
-| State House District 74 | WILLIAMS, DAN K | Dem primary; general (Democratic) | PERSON-WILLIAMS_DN | PERSON-WILLIAMS_DN_7W |
-| State House District 90 | REICHARD, CHAD G | Rep primary; general (Republican) | PERSON-REICHARD_CH | PERSON-REICHARD_CH_6J |
-| State House District 92 | ANDERSON, KRISTA JEAN | Dem primary; general (Democratic) | PERSON-ANDERSON_KR | PERSON-ANDERSON_KR_5N, PERSON-ANDERSON_KR_6D |
-| State House District 92 | ANDERSON, MARC S | Rep primary; general (Republican) | PERSON-ANDERSON_MR | PERSON-ANDERSON_MR_5G |
-| State House District 93 | JONES, PAUL MICHAEL | Rep primary; general (Republican) | PERSON-JONES_PL | PERSON-JONES_PL_8K, PERSON-JONES_PL_9Y |
-| State House District 95 | RIVERA, JASMINE | Rep primary; general (Republican) | PERSON-RIVERA_JS | PERSON-RIVERA_JS_9N |
-| State House District 128 | WAGNER, ANDREW | Dem primary; general (Democratic) | PERSON-WAGNER_AN | PERSON-WAGNER_AN_3A |
-| State House District 135 | SAMUELSON, STEPHEN P | Dem primary; general (Democratic) | PERSON-SAMUELSON_ST | PERSON-SAMUELSON_ST |
-| State House District 136 | FREEMAN, ROBERT | Dem primary; general (Democratic) | PERSON-FREEMAN_RB | PERSON-FREEMAN_RB_8Q |
-| State House District 144 | MURPHY, MICHAEL J | Rep primary; general (Republican) | PERSON-MURPHY_MC | other PA candidate: MURPHY, MICHAEL E |
-| State House District 162 | MURPHY, MICHAEL E | Rep primary; general (Republican) | PERSON-MURPHY_MC | other PA candidate: MURPHY, MICHAEL J |
-| State House District 167 | LEWIS, JOSEPH M | Rep primary; general (Republican) | PERSON-LEWIS_JS | PERSON-LEWIS_JS_2U |
-| State House District 172 | DOUGHERTY, SEAN MICHAEL | Dem primary; general (Democratic) | PERSON-DOUGHERTY_SN | PERSON-DOUGHERTY_SN_5X |
-| State House District 186 | HARRIS, JORDAN ALEXANDER | Dem primary; general (Democratic) | PERSON-HARRIS_JR | PERSON-HARRIS_JR_7L |
-| State House District 200 | JOHNSON, CHRISTOPHER | Dem primary; general (Democratic) | PERSON-JOHNSON_CH | PERSON-JOHNSON_CH_5X, PERSON-JOHNSON_CH_8L |
+| State Senate District 20 | BAKER, ELISABETH J | PERSON-BAKER_EL_4V | PERSON-BAKER_EL_6G Elizabeth Baker (RACE-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_1-2026_GENERAL) | different given name |
+| State Senate District 20 | BAKER, JACLYN ESTELLE | PERSON-BAKER_JC_3X | PERSON-BAKER_JC_2Z Jack Baker Jr. (RACE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL) | different given name |
+| State Senate District 36 | JONES, THOMAS MATTHEW | PERSON-JONES_TH_9T | PERSON-JONES_TH_6F Thomas H. Jones, Jr. (RACE-USA-VA-WAVERLY-COUNCIL_MEMBER-2026_GENERAL) | same given name but a different state and office; no source links them |
+| State House District 6 | WALKER, MICHAEL C | PERSON-WALKER_MC_7H | PERSON-WALKER_MC_4H Michelle Walker (RACE-USA-FL-COUNTY_LEE-LIBRARY_TRUSTEE-SANIBEL_PUBLIC_LIBRARY_SEAT_3-2026_GENERAL); PERSON-WALKER_MC_8R Michael Emke Walker (RACE-USA-NY-VILLENOVA-HIGHWAY_SUPERINTENDENT-UNEXPIRED_TERM-2026_GENERAL) | same given name but a different state and office; no source links them |
+| State House District 9 | BROWN, MARLA ANN | PERSON-BROWN_MR_7A | PERSON-BROWN_MR_3Y Maurice Mo Brown (RACE-USA-NY-ASSEMBLY-AD_129-2026_GENERAL); PERSON-BROWN_MR_9F Marcus A. Brown (RACE-USA-CT-HOUSE-HD_127-2026_GENERAL) | different given name |
+| State House District 10 | BROWN, AMEN | PERSON-BROWN_AM_6C | PERSON-BROWN_AM_7R Amy Brown (RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-OAKS_AT_SHADY_CREEK_CDD_SEAT_3-2026_GENERAL) | different given name |
+| State House District 22 | SMITH JR, ROBERT E | PERSON-SMITH_RB_8L | PERSON-SMITH_RB_3D Robert Smith (RACE-USA-NY-POLAND_TOWN-TOWN_SUPERVISOR-2026_GENERAL) | same given name but a different state and office; no source links them |
+| State House District 24 | ANDERSON , WILLIAM | PERSON-ANDERSON_WL_5U | PERSON-ANDERSON_WL_5B William P. "Bill" Anderson (RACE-USA-VA-ABINGDON-COUNCIL_MEMBER-2026_GENERAL) | same given name but a different state and office; no source links them |
+| State House District 41 | MILLER, BRETT R | PERSON-MILLER_BR_4B | PERSON-MILLER_BR_2L Bronwyn Catherine Miller (RACE-USA-FL-APPEAL-DCA_3-APPELLATE_JUDGE-RETENTION_OF_BRONWYN_CATHERINE_MILLER-2026_GENERAL); PERSON-MILLER_BR_3U Brian J. Miller (RACE-USA-MT-CONGRESS-CD_2-2026_GENERAL); PERSON-MILLER_BR_8Z Brian D. Miller (RACE-USA-NY-ASSEMBLY-AD_122-2026_GENERAL) | different given name |
+| State House District 54 | SCOTT, GREGORY | PERSON-SCOTT_GR_4Q | PERSON-SCOTT_GR_8S Gordon D. Scott (RACE-USA-VA-NORTON-SCHOOL_BOARD_MEMBER-NORTON_CITY-2026_GENERAL) | different given name |
+| State House District 58 | ROGERS, CHERRI | PERSON-ROGERS_CH_5G | PERSON-ROGERS_CH_8J Chris Rogers (RACE-USA-CA-ASSEMBLY-AD_2-2026_GENERAL) | different given name |
+| State House District 62 | JONES, TRAJAN WILLIAM | PERSON-JONES_TR_7H | PERSON-JONES_TR_2C Travis W. Jones (RACE-USA-VA-FRIES-COUNCIL_MEMBER-2026_GENERAL) | different given name |
+| State House District 66 | SMITH, BRIAN A | PERSON-SMITH_BR_8T | PERSON-SMITH_BR_4M Brandon Smith (RACE-USA-FL-WEST_PARK-COMMISSIONER-SEAT_2-2026_GENERAL); PERSON-SMITH_BR_7M Brendalee A. Smith (RACE-USA-MA-HOUSE-TENTH_BRISTOL-2026_GENERAL); PERSON-SMITH_BR_7V Brigitte Smith (RACE-USA-FL-COUNTY_MARION-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL); PERSON-SMITH_BR_8H Brent Smith (RACE-USA-FL-COUNTY_COLLIER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PELICAN_MARSH_CDD_SEAT_3-2026_GENERAL); PERSON-SMITH_BR_9H Brad Smith (RACE-USA-WI-CONGRESS-CD_6-2026_GENERAL); PERSON-SMITH_BR_9R Brian Conway Smith (RACE-USA-MA-COUNTY_DUKES-REGIONAL_COMMISSION_MEMBER-2026_GENERAL) | same given name but a different state and office; no source links them |
+| State House District 74 | WILLIAMS, DAN K | PERSON-WILLIAMS_DN_2R | PERSON-WILLIAMS_DN_7W Danny R. Williams (RACE-USA-VA-COURTLAND-MAYOR-2026_GENERAL) | different given name |
+| State House District 90 | REICHARD, CHAD G | PERSON-REICHARD_CH_4K | PERSON-REICHARD_CH_6J Chris Reichard (RACE-USA-MO-CONGRESS-CD_8-2026_GENERAL) | different given name |
+| State House District 92 | ANDERSON, KRISTA JEAN | PERSON-ANDERSON_KR_4Q | PERSON-ANDERSON_KR_5N Kristof Von Anderson (RACE-USA-FL-DANIA_BEACH-COMMISSIONER-2026_GENERAL); PERSON-ANDERSON_KR_6D Kristen Anderson (RACE-USA-FL-COUNTY_POLK-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIGHLAND_MEADOWS_II_CDD_SEAT_2-2026_GENERAL) | different given name |
+| State House District 92 | ANDERSON, MARC S | PERSON-ANDERSON_MR_5B | PERSON-ANDERSON_MR_5G Mark W. Anderson (RACE-USA-CT-HOUSE-HD_62-2026_GENERAL) | different given name |
+| State House District 93 | JONES, PAUL MICHAEL | PERSON-JONES_PL_5K | PERSON-JONES_PL_8K Paul J. "PJ" Jones (RACE-USA-VA-KILMARNOCK-COUNCIL_MEMBER-2026_GENERAL); PERSON-JONES_PL_9Y Paul Irving Jones (RACE-USA-CA-ASSEMBLY-AD_62-2026_GENERAL) | same given name but a different state and office; no source links them |
+| State House District 95 | RIVERA, JASMINE | PERSON-RIVERA_JS_5Q | PERSON-RIVERA_JS_9N Jasmine Rivera (RACE-USA-FL-NORTH_MIAMI_BEACH-COMMISSIONER-GROUP_2-2026_GENERAL) | same given name but a different state and office; no source links them |
+| State House District 128 | WAGNER, ANDREW | PERSON-WAGNER_AN_9K | PERSON-WAGNER_AN_3A Ann Wagner (RACE-USA-MO-CONGRESS-CD_2-2026_GENERAL) | different given name |
+| State House District 135 | SAMUELSON, STEPHEN P | PERSON-SAMUELSON_ST_8J | PERSON-SAMUELSON_ST_3M Stephen Samuelson (RACE-USA-TX-GOVERNOR-NOMINEE_REPUBLICAN-2026_PRIMARY) | same given name but a different state and office; no source links them |
+| State House District 136 | FREEMAN, ROBERT | PERSON-FREEMAN_RB_5Y | PERSON-FREEMAN_RB_8Q Robert Teron Freeman (RACE-USA-VA-QUANTICO-COUNCIL_MEMBER-2026_GENERAL) | same given name but a different state and office; no source links them |
+| State House District 144 | MURPHY, MICHAEL J | PERSON-MURPHY_MC_7D | other PA candidate MURPHY, MICHAEL E (State House District 162) | different middle initial, county and district |
+| State House District 162 | MURPHY, MICHAEL E | PERSON-MURPHY_MC_4V | other PA candidate MURPHY, MICHAEL J (State House District 144) | different middle initial, county and district |
+| State House District 167 | LEWIS, JOSEPH M | PERSON-LEWIS_JS_3X | PERSON-LEWIS_JS_2U Joseph Lewis Jr. (RACE-USA-FL-APPEAL-DCA_1-APPELLATE_JUDGE-RETENTION_OF_JOSEPH_LEWIS_JR-2026_GENERAL) | same given name but a different state and office; no source links them |
+| State House District 172 | DOUGHERTY, SEAN MICHAEL | PERSON-DOUGHERTY_SN_6H | PERSON-DOUGHERTY_SN_5X Sean Dougherty (RACE-USA-CA-CONGRESS-CD_19-NOMINEE_TOP_TWO-2026_PRIMARY) | same given name but a different state and office; no source links them |
+| State House District 186 | HARRIS, JORDAN ALEXANDER | PERSON-HARRIS_JR_8X | PERSON-HARRIS_JR_7L Jerry L. Harris (RACE-USA-VA-JONESVILLE-MAYOR-2026_GENERAL) | different given name |
+| State House District 200 | JOHNSON, CHRISTOPHER | PERSON-JOHNSON_CH_4V | PERSON-JOHNSON_CH_5X Chris Johnson (RACE-USA-FL-COUNTY_JACKSON-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL); PERSON-JOHNSON_CH_8L Chad Johnson (RACE-USA-FL-HOUSE-HD_22-2026_GENERAL) | different given name |
 
 ## Candidate websites
 
-The Department of State list has no website field, and no website was guessed or found by search. For the 34 US House nominees, the website on each principal campaign committee's FEC record was fetched on 2026-10-29. A site was kept only when it returned HTTP 200 and its page named the candidate. That gave 26 website Channels, each owned by the existing PR #7 general Candidacy with `official: true` and its own `source`. State-office candidates have no official website source, so they have none. Omitted:
+The Department of State list has no website field, and no website was guessed or found by search. For the 34 US House nominees, the website on each principal campaign committee's FEC record was fetched on 2026-10-29. A site was kept only when it returned HTTP 200 and its page named the candidate. That gave {len(CH)} website Channels, each owned by the existing PR #7 general Candidacy with `official: true` and its own `source`. State-office candidates have no official website source, so they have none. Omitted:
 
 | Candidate | FEC website | Reason |
 |---|---|---|
