@@ -19,11 +19,13 @@ Use these examples in a disposable development or test database. Before using th
 | Offices | Office with `is_active` | Position and a place's jurisdiction |
 | Elections | Election with name, date, kind, status, and mock/historical flags | State jurisdiction and existing Year 2026 |
 | Races | Race with `status` | Election and Office |
-| People | Person with a first and last name | None; only a surname is required by the model |
+| People | Person with a full disambiguated code and name | Mint new identities as described in [People](../CONTRIBUTING.md#people); only a surname is required by the model |
 | Candidates | Candidacy with status and participation | Person and Race |
 | Accounts | Channel with platform, handle, URL, and official flag | Person owner; a campaign account can instead reference a Candidacy |
 
 Jurisdiction records are created by the importer for Country, State, and District. Reference the place's code where a jurisdiction is required. The state's election contains the district office because `scope.state` nests the district beneath the state.
+
+Every U.S. state district definition must supply that matching state scope, either on the record or through its document or group. The offline validator rejects missing or mismatched scope before import.
 
 ### Year prerequisite
 
