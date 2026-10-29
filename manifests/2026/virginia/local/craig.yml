@@ -7,16 +7,16 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_CRAIG-2026_GENERAL
+  code: ELECTION-USA-VA-NEW_CASTLE-2026_GENERAL
   attributes:
-    name: Craig County General Election 2026
+    name: New Castle General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-CRAIG
+    jurisdiction: MUNICIPALITY-USA-VA-NEW_CASTLE
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-VA-COUNTY_CRAIG-2026_SPECIAL
@@ -33,21 +33,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CRAIG-MAYOR-TOWN_OF_NEW_CASTLE
+    code: OFFICE-USA-VA-NEW_CASTLE-MAYOR
     attributes:
-      seat_code: TOWN_OF_NEW_CASTLE
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-CRAIG
+      jurisdiction: MUNICIPALITY-USA-VA-NEW_CASTLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_CRAIG-MAYOR-TOWN_OF_NEW_CASTLE-2026_GENERAL
+    code: RACE-USA-VA-NEW_CASTLE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_CRAIG-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_CRAIG-MAYOR-TOWN_OF_NEW_CASTLE
+      election: ELECTION-USA-VA-NEW_CASTLE-2026_GENERAL
+      office: OFFICE-USA-VA-NEW_CASTLE-MAYOR
   - type: Person
     code: PERSON-MACDONALD_JM_9E
     attributes:
@@ -57,30 +56,30 @@ groups:
       middle_name: '"Lenny"'
       last_name: Macdonald
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CRAIG-MAYOR-TOWN_OF_NEW_CASTLE-2026_GENERAL-MACDONALD_JM_9E
+    code: CANDIDACY-USA-VA-NEW_CASTLE-MAYOR-2026_GENERAL-MACDONALD_JM_9E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CRAIG-MAYOR-TOWN_OF_NEW_CASTLE-2026_GENERAL
+      race: RACE-USA-VA-NEW_CASTLE-MAYOR-2026_GENERAL
       person: PERSON-MACDONALD_JM_9E
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CRAIG-MEMBER_BOARD_OF_SUPERVISORS-CRAIG_CREEK_DISTRICT
+    code: OFFICE-USA-VA-COUNTY_CRAIG-COUNTY_SUPERVISOR-CRAIG_CREEK_DISTRICT
     attributes:
       seat_code: CRAIG_CREEK_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_BOARD_OF_SUPERVISORS
+      position: POSITION-COUNTY_SUPERVISOR
       jurisdiction: COUNTY-USA-VA-CRAIG
   - type: Race
-    code: RACE-USA-VA-COUNTY_CRAIG-MEMBER_BOARD_OF_SUPERVISORS-CRAIG_CREEK_DISTRICT-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_CRAIG-COUNTY_SUPERVISOR-CRAIG_CREEK_DISTRICT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_CRAIG-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_CRAIG-MEMBER_BOARD_OF_SUPERVISORS-CRAIG_CREEK_DISTRICT
+      office: OFFICE-USA-VA-COUNTY_CRAIG-COUNTY_SUPERVISOR-CRAIG_CREEK_DISTRICT
   - type: Person
     code: PERSON-CHRISTIAN_RY_7G
     attributes:
@@ -90,30 +89,29 @@ groups:
       middle_name: L.
       last_name: Christian
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CRAIG-MEMBER_BOARD_OF_SUPERVISORS-CRAIG_CREEK_DISTRICT-2026_SPECIAL-CHRISTIAN_RY_7G
+    code: CANDIDACY-USA-VA-COUNTY_CRAIG-COUNTY_SUPERVISOR-CRAIG_CREEK_DISTRICT-2026_SPECIAL-CHRISTIAN_RY_7G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CRAIG-MEMBER_BOARD_OF_SUPERVISORS-CRAIG_CREEK_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_CRAIG-COUNTY_SUPERVISOR-CRAIG_CREEK_DISTRICT-2026_SPECIAL
       person: PERSON-CHRISTIAN_RY_7G
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CRAIG-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_CASTLE
+    code: OFFICE-USA-VA-NEW_CASTLE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_NEW_CASTLE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-CRAIG
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-NEW_CASTLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_CRAIG-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_CASTLE-2026_GENERAL
+    code: RACE-USA-VA-NEW_CASTLE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_CRAIG-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_CRAIG-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_CASTLE
+      election: ELECTION-USA-VA-NEW_CASTLE-2026_GENERAL
+      office: OFFICE-USA-VA-NEW_CASTLE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-CRUSH_KR_8Z
     attributes:
@@ -123,12 +121,12 @@ groups:
       middle_name: S.
       last_name: Crush
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CRAIG-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_CASTLE-2026_GENERAL-CRUSH_KR_8Z
+    code: CANDIDACY-USA-VA-NEW_CASTLE-COUNCIL_MEMBER-2026_GENERAL-CRUSH_KR_8Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CRAIG-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_CASTLE-2026_GENERAL
+      race: RACE-USA-VA-NEW_CASTLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CRUSH_KR_8Z
   - type: Person
     code: PERSON-LEE_RB_4A
@@ -139,12 +137,12 @@ groups:
       middle_name: E.
       last_name: Lee
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CRAIG-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_CASTLE-2026_GENERAL-LEE_RB_4A
+    code: CANDIDACY-USA-VA-NEW_CASTLE-COUNCIL_MEMBER-2026_GENERAL-LEE_RB_4A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CRAIG-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_CASTLE-2026_GENERAL
+      race: RACE-USA-VA-NEW_CASTLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LEE_RB_4A
   - type: Person
     code: PERSON-FOSTER_RB_5S
@@ -155,10 +153,10 @@ groups:
       middle_name: Leigh
       last_name: Foster
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CRAIG-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_CASTLE-2026_GENERAL-FOSTER_RB_5S
+    code: CANDIDACY-USA-VA-NEW_CASTLE-COUNCIL_MEMBER-2026_GENERAL-FOSTER_RB_5S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CRAIG-MEMBER_TOWN_COUNCIL-TOWN_OF_NEW_CASTLE-2026_GENERAL
+      race: RACE-USA-VA-NEW_CASTLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FOSTER_RB_5S

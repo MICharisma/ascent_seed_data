@@ -1,0 +1,19 @@
+# How each printed local office title converts. The key is the title exactly as the source prints it.
+# A bare code names the Position the office fills; a mapping adds what the title prints beyond the role:
+#   position  the Position's code in manifests/foundation.yml
+#   seat      the seat the title names, used instead of the row's district
+#   part      a seat within the row's district that the title names, like Seat B; the office's seat ends with it
+#   body      the special district the title names; the office's seat starts with it
+#   town      the town the title names, used when the row's jurisdiction names none
+#   term      a race for part of a term, such as an unexpired term; the office stays the same
+# Every local title needs an entry: the conversion stops at one it cannot find.
+"Barnstable Assembly Delegate": POSITION-COUNTY_ASSEMBLY_DELEGATE
+"Barnstable County Charter Commissioner": POSITION-COUNTY_CHARTER_COMMISSIONER
+"Council of Governments Executive Committee": POSITION-COUNCIL_OF_GOVERNMENTS_EXECUTIVE_COMMITTEE_MEMBER
+"County Commissioner": POSITION-COUNTY_COMMISSIONER
+"County Treasurer": POSITION-TREASURER
+"District Attorney": POSITION-DISTRICT_ATTORNEY
+"Martha's Vineyard Commission": POSITION-REGIONAL_COMMISSION_MEMBER
+"Regional School Committee (to fill vacancy)": { position: POSITION-SCHOOL_BOARD_MEMBER, term: Unexpired Term }
+"Register of Probate": POSITION-REGISTER_OF_PROBATE
+"Sheriff (to fill a vacancy)": { position: POSITION-SHERIFF, term: Unexpired Term }

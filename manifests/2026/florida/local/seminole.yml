@@ -105,20 +105,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ALTAMONTE_SPRINGS-ALTAMONTE_SPRINGS_COMMISSIONER_DISTRICT_4
+    code: OFFICE-USA-FL-ALTAMONTE_SPRINGS-COMMISSIONER-DISTRICT_4
     attributes:
+      seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-ALTAMONTE_SPRINGS_COMMISSIONER_DISTRICT_4
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-ALTAMONTE_SPRINGS
   - type: Race
-    code: RACE-USA-FL-ALTAMONTE_SPRINGS-ALTAMONTE_SPRINGS_COMMISSIONER_DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-ALTAMONTE_SPRINGS-COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=126.'
     references:
       election: ELECTION-USA-FL-ALTAMONTE_SPRINGS-2026_GENERAL
-      office: OFFICE-USA-FL-ALTAMONTE_SPRINGS-ALTAMONTE_SPRINGS_COMMISSIONER_DISTRICT_4
+      office: OFFICE-USA-FL-ALTAMONTE_SPRINGS-COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-BOEBINGER_JF_7L
     attributes:
@@ -127,12 +128,12 @@ groups:
       first_name: Jeffrey
       last_name: Boebinger
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ALTAMONTE_SPRINGS-ALTAMONTE_SPRINGS_COMMISSIONER_DISTRICT_4-2026_GENERAL-BOEBINGER_JF_7L
+    code: CANDIDACY-USA-FL-ALTAMONTE_SPRINGS-COMMISSIONER-DISTRICT_4-2026_GENERAL-BOEBINGER_JF_7L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ALTAMONTE_SPRINGS-ALTAMONTE_SPRINGS_COMMISSIONER_DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-ALTAMONTE_SPRINGS-COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-BOEBINGER_JF_7L
   - type: Person
     code: PERSON-SOTO_ER_5Y
@@ -142,29 +143,29 @@ groups:
       first_name: Eric
       last_name: Soto
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ALTAMONTE_SPRINGS-ALTAMONTE_SPRINGS_COMMISSIONER_DISTRICT_4-2026_GENERAL-SOTO_ER_5Y
+    code: CANDIDACY-USA-FL-ALTAMONTE_SPRINGS-COMMISSIONER-DISTRICT_4-2026_GENERAL-SOTO_ER_5Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ALTAMONTE_SPRINGS-ALTAMONTE_SPRINGS_COMMISSIONER_DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-ALTAMONTE_SPRINGS-COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-SOTO_ER_5Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ALTAMONTE_SPRINGS-ALTAMONTE_SPRINGS_MAYOR
+    code: OFFICE-USA-FL-ALTAMONTE_SPRINGS-MAYOR
     attributes:
       is_active: true
     references:
-      position: POSITION-ALTAMONTE_SPRINGS_MAYOR
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-ALTAMONTE_SPRINGS
   - type: Race
-    code: RACE-USA-FL-ALTAMONTE_SPRINGS-ALTAMONTE_SPRINGS_MAYOR-2026_GENERAL
+    code: RACE-USA-FL-ALTAMONTE_SPRINGS-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=126.'
     references:
       election: ELECTION-USA-FL-ALTAMONTE_SPRINGS-2026_GENERAL
-      office: OFFICE-USA-FL-ALTAMONTE_SPRINGS-ALTAMONTE_SPRINGS_MAYOR
+      office: OFFICE-USA-FL-ALTAMONTE_SPRINGS-MAYOR
   - type: Person
     code: PERSON-BRUNCHEEN_MC_5V
     attributes:
@@ -173,12 +174,12 @@ groups:
       first_name: Michael
       last_name: Bruncheen
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ALTAMONTE_SPRINGS-ALTAMONTE_SPRINGS_MAYOR-2026_GENERAL-BRUNCHEEN_MC_5V
+    code: CANDIDACY-USA-FL-ALTAMONTE_SPRINGS-MAYOR-2026_GENERAL-BRUNCHEEN_MC_5V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ALTAMONTE_SPRINGS-ALTAMONTE_SPRINGS_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-ALTAMONTE_SPRINGS-MAYOR-2026_GENERAL
       person: PERSON-BRUNCHEEN_MC_5V
   - type: Person
     code: PERSON-DOUGLAS_DM_9X
@@ -188,30 +189,30 @@ groups:
       first_name: Dominique
       last_name: Douglas
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ALTAMONTE_SPRINGS-ALTAMONTE_SPRINGS_MAYOR-2026_GENERAL-DOUGLAS_DM_9X
+    code: CANDIDACY-USA-FL-ALTAMONTE_SPRINGS-MAYOR-2026_GENERAL-DOUGLAS_DM_9X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ALTAMONTE_SPRINGS-ALTAMONTE_SPRINGS_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-ALTAMONTE_SPRINGS-MAYOR-2026_GENERAL
       person: PERSON-DOUGLAS_DM_9X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SEMINOLE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_SEMINOLE-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-SEMINOLE
   - type: Race
-    code: RACE-USA-FL-COUNTY_SEMINOLE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SEMINOLE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SEMINOLE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SEMINOLE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_SEMINOLE-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-ZEMBOWER_JY_4P
     attributes:
@@ -220,7 +221,7 @@ groups:
       first_name: Jay
       last_name: Zembower
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SEMINOLE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-ZEMBOWER_JY_4P
+    code: CANDIDACY-USA-FL-COUNTY_SEMINOLE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-ZEMBOWER_JY_4P
     attributes:
       status: active
       participation: active
@@ -229,25 +230,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SEMINOLE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SEMINOLE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-ZEMBOWER_JY_4P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SEMINOLE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_SEMINOLE-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-SEMINOLE
   - type: Race
-    code: RACE-USA-FL-COUNTY_SEMINOLE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SEMINOLE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SEMINOLE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SEMINOLE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_SEMINOLE-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-LOCKHART_AM_2P
     attributes:
@@ -256,7 +257,7 @@ groups:
       first_name: AMY
       last_name: LOCKHART
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SEMINOLE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-LOCKHART_AM_2P
+    code: CANDIDACY-USA-FL-COUNTY_SEMINOLE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-LOCKHART_AM_2P
     attributes:
       status: active
       participation: active
@@ -265,7 +266,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SEMINOLE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SEMINOLE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-LOCKHART_AM_2P
   - type: Person
     code: PERSON-SANTOS_CH_8F
@@ -276,7 +277,7 @@ groups:
       middle_name: LORRAINE
       last_name: SANTOS
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SEMINOLE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-SANTOS_CH_8F
+    code: CANDIDACY-USA-FL-COUNTY_SEMINOLE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-SANTOS_CH_8F
     attributes:
       status: active
       participation: active
@@ -285,24 +286,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_SEMINOLE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SEMINOLE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-SANTOS_CH_8F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-SANFORD-CITY_COMMISSIONER_DISTRICT_1
+    code: OFFICE-USA-FL-SANFORD-COMMISSIONER-DISTRICT_1
     attributes:
+      seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-CITY_COMMISSIONER_DISTRICT_1
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-SANFORD
   - type: Race
-    code: RACE-USA-FL-SANFORD-CITY_COMMISSIONER_DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-SANFORD-COMMISSIONER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=127.'
     references:
       election: ELECTION-USA-FL-SANFORD-2026_GENERAL
-      office: OFFICE-USA-FL-SANFORD-CITY_COMMISSIONER_DISTRICT_1
+      office: OFFICE-USA-FL-SANFORD-COMMISSIONER-DISTRICT_1
   - type: Person
     code: PERSON-BRITTON_SH_6X
     attributes:
@@ -311,29 +313,30 @@ groups:
       first_name: Sheena
       last_name: Britton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-SANFORD-CITY_COMMISSIONER_DISTRICT_1-2026_GENERAL-BRITTON_SH_6X
+    code: CANDIDACY-USA-FL-SANFORD-COMMISSIONER-DISTRICT_1-2026_GENERAL-BRITTON_SH_6X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-SANFORD-CITY_COMMISSIONER_DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-SANFORD-COMMISSIONER-DISTRICT_1-2026_GENERAL
       person: PERSON-BRITTON_SH_6X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-WINTER_SPRINGS-CITY_COMMISSIONER_DISTRICT_2
+    code: OFFICE-USA-FL-WINTER_SPRINGS-COMMISSIONER-DISTRICT_2
     attributes:
+      seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-CITY_COMMISSIONER_DISTRICT_2
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-WINTER_SPRINGS
   - type: Race
-    code: RACE-USA-FL-WINTER_SPRINGS-CITY_COMMISSIONER_DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-WINTER_SPRINGS-COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=125.'
     references:
       election: ELECTION-USA-FL-WINTER_SPRINGS-2026_GENERAL
-      office: OFFICE-USA-FL-WINTER_SPRINGS-CITY_COMMISSIONER_DISTRICT_2
+      office: OFFICE-USA-FL-WINTER_SPRINGS-COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-BRUCE_VC_2W
     attributes:
@@ -342,12 +345,12 @@ groups:
       first_name: Victoria
       last_name: Bruce
   - type: Candidacy
-    code: CANDIDACY-USA-FL-WINTER_SPRINGS-CITY_COMMISSIONER_DISTRICT_2-2026_GENERAL-BRUCE_VC_2W
+    code: CANDIDACY-USA-FL-WINTER_SPRINGS-COMMISSIONER-DISTRICT_2-2026_GENERAL-BRUCE_VC_2W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-WINTER_SPRINGS-CITY_COMMISSIONER_DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-WINTER_SPRINGS-COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-BRUCE_VC_2W
   - type: Person
     code: PERSON-SPALTHOFF_KN_3P
@@ -357,29 +360,30 @@ groups:
       first_name: Ken
       last_name: Spalthoff
   - type: Candidacy
-    code: CANDIDACY-USA-FL-WINTER_SPRINGS-CITY_COMMISSIONER_DISTRICT_2-2026_GENERAL-SPALTHOFF_KN_3P
+    code: CANDIDACY-USA-FL-WINTER_SPRINGS-COMMISSIONER-DISTRICT_2-2026_GENERAL-SPALTHOFF_KN_3P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-WINTER_SPRINGS-CITY_COMMISSIONER_DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-WINTER_SPRINGS-COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-SPALTHOFF_KN_3P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-SANFORD-CITY_COMMISSIONER_DISTRICT_2
+    code: OFFICE-USA-FL-SANFORD-COMMISSIONER-DISTRICT_2
     attributes:
+      seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-CITY_COMMISSIONER_DISTRICT_2
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-SANFORD
   - type: Race
-    code: RACE-USA-FL-SANFORD-CITY_COMMISSIONER_DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-SANFORD-COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=127.'
     references:
       election: ELECTION-USA-FL-SANFORD-2026_GENERAL
-      office: OFFICE-USA-FL-SANFORD-CITY_COMMISSIONER_DISTRICT_2
+      office: OFFICE-USA-FL-SANFORD-COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-WIGGINS_KR_7C
     attributes:
@@ -388,29 +392,30 @@ groups:
       first_name: Kerry
       last_name: Wiggins Sr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-SANFORD-CITY_COMMISSIONER_DISTRICT_2-2026_GENERAL-WIGGINS_KR_7C
+    code: CANDIDACY-USA-FL-SANFORD-COMMISSIONER-DISTRICT_2-2026_GENERAL-WIGGINS_KR_7C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-SANFORD-CITY_COMMISSIONER_DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-SANFORD-COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-WIGGINS_KR_7C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-LONGWOOD-CITY_COMMISSIONER_DISTRICT_3
+    code: OFFICE-USA-FL-LONGWOOD-COMMISSIONER-DISTRICT_3
     attributes:
+      seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-CITY_COMMISSIONER_DISTRICT_3
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-LONGWOOD
   - type: Race
-    code: RACE-USA-FL-LONGWOOD-CITY_COMMISSIONER_DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-LONGWOOD-COMMISSIONER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=122.'
     references:
       election: ELECTION-USA-FL-LONGWOOD-2026_GENERAL
-      office: OFFICE-USA-FL-LONGWOOD-CITY_COMMISSIONER_DISTRICT_3
+      office: OFFICE-USA-FL-LONGWOOD-COMMISSIONER-DISTRICT_3
   - type: Person
     code: PERSON-KNOWLES_CR_6C
     attributes:
@@ -419,12 +424,12 @@ groups:
       first_name: Coury
       last_name: Knowles
   - type: Candidacy
-    code: CANDIDACY-USA-FL-LONGWOOD-CITY_COMMISSIONER_DISTRICT_3-2026_GENERAL-KNOWLES_CR_6C
+    code: CANDIDACY-USA-FL-LONGWOOD-COMMISSIONER-DISTRICT_3-2026_GENERAL-KNOWLES_CR_6C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-LONGWOOD-CITY_COMMISSIONER_DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-LONGWOOD-COMMISSIONER-DISTRICT_3-2026_GENERAL
       person: PERSON-KNOWLES_CR_6C
   - type: Person
     code: PERSON-MCMILLAN_MT_3W
@@ -434,12 +439,12 @@ groups:
       first_name: Matthew
       last_name: McMillan
   - type: Candidacy
-    code: CANDIDACY-USA-FL-LONGWOOD-CITY_COMMISSIONER_DISTRICT_3-2026_GENERAL-MCMILLAN_MT_3W
+    code: CANDIDACY-USA-FL-LONGWOOD-COMMISSIONER-DISTRICT_3-2026_GENERAL-MCMILLAN_MT_3W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-LONGWOOD-CITY_COMMISSIONER_DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-LONGWOOD-COMMISSIONER-DISTRICT_3-2026_GENERAL
       person: PERSON-MCMILLAN_MT_3W
   - type: Person
     code: PERSON-PFENNING_MC_8Z
@@ -449,29 +454,30 @@ groups:
       first_name: Michael
       last_name: Pfenning
   - type: Candidacy
-    code: CANDIDACY-USA-FL-LONGWOOD-CITY_COMMISSIONER_DISTRICT_3-2026_GENERAL-PFENNING_MC_8Z
+    code: CANDIDACY-USA-FL-LONGWOOD-COMMISSIONER-DISTRICT_3-2026_GENERAL-PFENNING_MC_8Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-LONGWOOD-CITY_COMMISSIONER_DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-LONGWOOD-COMMISSIONER-DISTRICT_3-2026_GENERAL
       person: PERSON-PFENNING_MC_8Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-WINTER_SPRINGS-CITY_COMMISSIONER_DISTRICT_4
+    code: OFFICE-USA-FL-WINTER_SPRINGS-COMMISSIONER-DISTRICT_4
     attributes:
+      seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-CITY_COMMISSIONER_DISTRICT_4
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-WINTER_SPRINGS
   - type: Race
-    code: RACE-USA-FL-WINTER_SPRINGS-CITY_COMMISSIONER_DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-WINTER_SPRINGS-COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=125.'
     references:
       election: ELECTION-USA-FL-WINTER_SPRINGS-2026_GENERAL
-      office: OFFICE-USA-FL-WINTER_SPRINGS-CITY_COMMISSIONER_DISTRICT_4
+      office: OFFICE-USA-FL-WINTER_SPRINGS-COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-RESNICK_CD_3D
     attributes:
@@ -480,12 +486,12 @@ groups:
       first_name: Cade
       last_name: Resnick
   - type: Candidacy
-    code: CANDIDACY-USA-FL-WINTER_SPRINGS-CITY_COMMISSIONER_DISTRICT_4-2026_GENERAL-RESNICK_CD_3D
+    code: CANDIDACY-USA-FL-WINTER_SPRINGS-COMMISSIONER-DISTRICT_4-2026_GENERAL-RESNICK_CD_3D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-WINTER_SPRINGS-CITY_COMMISSIONER_DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-WINTER_SPRINGS-COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-RESNICK_CD_3D
   - type: Person
     code: PERSON-STEWART_KY_7G
@@ -495,29 +501,30 @@ groups:
       first_name: Kyle
       last_name: Stewart
   - type: Candidacy
-    code: CANDIDACY-USA-FL-WINTER_SPRINGS-CITY_COMMISSIONER_DISTRICT_4-2026_GENERAL-STEWART_KY_7G
+    code: CANDIDACY-USA-FL-WINTER_SPRINGS-COMMISSIONER-DISTRICT_4-2026_GENERAL-STEWART_KY_7G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-WINTER_SPRINGS-CITY_COMMISSIONER_DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-WINTER_SPRINGS-COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-STEWART_KY_7G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-LONGWOOD-CITY_COMMISSIONER_DISTRICT_5
+    code: OFFICE-USA-FL-LONGWOOD-COMMISSIONER-DISTRICT_5
     attributes:
+      seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-CITY_COMMISSIONER_DISTRICT_5
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-LONGWOOD
   - type: Race
-    code: RACE-USA-FL-LONGWOOD-CITY_COMMISSIONER_DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-LONGWOOD-COMMISSIONER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=122.'
     references:
       election: ELECTION-USA-FL-LONGWOOD-2026_GENERAL
-      office: OFFICE-USA-FL-LONGWOOD-CITY_COMMISSIONER_DISTRICT_5
+      office: OFFICE-USA-FL-LONGWOOD-COMMISSIONER-DISTRICT_5
   - type: Person
     code: PERSON-TAYLOR_JF_7F
     attributes:
@@ -526,29 +533,30 @@ groups:
       first_name: Jeffrey
       last_name: Taylor
   - type: Candidacy
-    code: CANDIDACY-USA-FL-LONGWOOD-CITY_COMMISSIONER_DISTRICT_5-2026_GENERAL-TAYLOR_JF_7F
+    code: CANDIDACY-USA-FL-LONGWOOD-COMMISSIONER-DISTRICT_5-2026_GENERAL-TAYLOR_JF_7F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-LONGWOOD-CITY_COMMISSIONER_DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-LONGWOOD-COMMISSIONER-DISTRICT_5-2026_GENERAL
       person: PERSON-TAYLOR_JF_7F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_1
+    code: OFFICE-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_1
     attributes:
+      seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-CITY_COMMISSIONER_SEAT_1
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-CASSELBERRY
   - type: Race
-    code: RACE-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=124.'
     references:
       election: ELECTION-USA-FL-CASSELBERRY-2026_GENERAL
-      office: OFFICE-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_1
+      office: OFFICE-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_1
   - type: Person
     code: PERSON-KNIGHT_TY_4W
     attributes:
@@ -557,12 +565,12 @@ groups:
       first_name: Tyler
       last_name: Knight
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_1-2026_GENERAL-KNIGHT_TY_4W
+    code: CANDIDACY-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_1-2026_GENERAL-KNIGHT_TY_4W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_1-2026_GENERAL
       person: PERSON-KNIGHT_TY_4W
   - type: Person
     code: PERSON-VEIGLE_TM_5L
@@ -572,29 +580,30 @@ groups:
       first_name: Tim
       last_name: Veigle
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_1-2026_GENERAL-VEIGLE_TM_5L
+    code: CANDIDACY-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_1-2026_GENERAL-VEIGLE_TM_5L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_1-2026_GENERAL
       person: PERSON-VEIGLE_TM_5L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-LAKE_MARY-CITY_COMMISSIONER_SEAT_1
+    code: OFFICE-USA-FL-LAKE_MARY-COMMISSIONER-SEAT_1
     attributes:
+      seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-CITY_COMMISSIONER_SEAT_1
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-LAKE_MARY
   - type: Race
-    code: RACE-USA-FL-LAKE_MARY-CITY_COMMISSIONER_SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-LAKE_MARY-COMMISSIONER-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=129.'
     references:
       election: ELECTION-USA-FL-LAKE_MARY-2026_GENERAL
-      office: OFFICE-USA-FL-LAKE_MARY-CITY_COMMISSIONER_SEAT_1
+      office: OFFICE-USA-FL-LAKE_MARY-COMMISSIONER-SEAT_1
   - type: Person
     code: PERSON-SMITH_JR_8E
     attributes:
@@ -603,29 +612,30 @@ groups:
       first_name: Jordan
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-FL-LAKE_MARY-CITY_COMMISSIONER_SEAT_1-2026_GENERAL-SMITH_JR_8E
+    code: CANDIDACY-USA-FL-LAKE_MARY-COMMISSIONER-SEAT_1-2026_GENERAL-SMITH_JR_8E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-LAKE_MARY-CITY_COMMISSIONER_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-LAKE_MARY-COMMISSIONER-SEAT_1-2026_GENERAL
       person: PERSON-SMITH_JR_8E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_2
+    code: OFFICE-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_2
     attributes:
+      seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-CITY_COMMISSIONER_SEAT_2
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-CASSELBERRY
   - type: Race
-    code: RACE-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=124.'
     references:
       election: ELECTION-USA-FL-CASSELBERRY-2026_GENERAL
-      office: OFFICE-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_2
+      office: OFFICE-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_2
   - type: Person
     code: PERSON-FEIST_LN_2F
     attributes:
@@ -634,12 +644,12 @@ groups:
       first_name: Lindsay
       last_name: Feist
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_2-2026_GENERAL-FEIST_LN_2F
+    code: CANDIDACY-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_2-2026_GENERAL-FEIST_LN_2F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_2-2026_GENERAL
       person: PERSON-FEIST_LN_2F
   - type: Person
     code: PERSON-GARCIA_LR_9A
@@ -650,12 +660,12 @@ groups:
       middle_name: Crosby
       last_name: Garcia
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_2-2026_GENERAL-GARCIA_LR_9A
+    code: CANDIDACY-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_2-2026_GENERAL-GARCIA_LR_9A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_2-2026_GENERAL
       person: PERSON-GARCIA_LR_9A
   - type: Person
     code: PERSON-KELLEY_TR_7D
@@ -665,29 +675,30 @@ groups:
       first_name: Travis
       last_name: Kelley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_2-2026_GENERAL-KELLEY_TR_7D
+    code: CANDIDACY-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_2-2026_GENERAL-KELLEY_TR_7D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_2-2026_GENERAL
       person: PERSON-KELLEY_TR_7D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_3
+    code: OFFICE-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_3
     attributes:
+      seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-CITY_COMMISSIONER_SEAT_3
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-CASSELBERRY
   - type: Race
-    code: RACE-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=124.'
     references:
       election: ELECTION-USA-FL-CASSELBERRY-2026_GENERAL
-      office: OFFICE-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_3
+      office: OFFICE-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_3
   - type: Person
     code: PERSON-BUSCH_MR_3H
     attributes:
@@ -696,12 +707,12 @@ groups:
       first_name: Mark
       last_name: Busch
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_3-2026_GENERAL-BUSCH_MR_3H
+    code: CANDIDACY-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_3-2026_GENERAL-BUSCH_MR_3H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_3-2026_GENERAL
       person: PERSON-BUSCH_MR_3H
   - type: Person
     code: PERSON-HART_AM_5Y
@@ -711,29 +722,30 @@ groups:
       first_name: Amanda
       last_name: Hart
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_3-2026_GENERAL-HART_AM_5Y
+    code: CANDIDACY-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_3-2026_GENERAL-HART_AM_5Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CASSELBERRY-CITY_COMMISSIONER_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-CASSELBERRY-COMMISSIONER-SEAT_3-2026_GENERAL
       person: PERSON-HART_AM_5Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-LAKE_MARY-CITY_COMMISSIONER_SEAT_3
+    code: OFFICE-USA-FL-LAKE_MARY-COMMISSIONER-SEAT_3
     attributes:
+      seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-CITY_COMMISSIONER_SEAT_3
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-LAKE_MARY
   - type: Race
-    code: RACE-USA-FL-LAKE_MARY-CITY_COMMISSIONER_SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-LAKE_MARY-COMMISSIONER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=129.'
     references:
       election: ELECTION-USA-FL-LAKE_MARY-2026_GENERAL
-      office: OFFICE-USA-FL-LAKE_MARY-CITY_COMMISSIONER_SEAT_3
+      office: OFFICE-USA-FL-LAKE_MARY-COMMISSIONER-SEAT_3
   - type: Person
     code: PERSON-TAYLOR_CL_3Q
     attributes:
@@ -742,29 +754,30 @@ groups:
       first_name: Colleen
       last_name: Taylor
   - type: Candidacy
-    code: CANDIDACY-USA-FL-LAKE_MARY-CITY_COMMISSIONER_SEAT_3-2026_GENERAL-TAYLOR_CL_3Q
+    code: CANDIDACY-USA-FL-LAKE_MARY-COMMISSIONER-SEAT_3-2026_GENERAL-TAYLOR_CL_3Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-LAKE_MARY-CITY_COMMISSIONER_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-LAKE_MARY-COMMISSIONER-SEAT_3-2026_GENERAL
       person: PERSON-TAYLOR_CL_3Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-OVIEDO-COUNCIL_MEMBER_GROUP_II
+    code: OFFICE-USA-FL-OVIEDO-COUNCIL_MEMBER-GROUP_2
     attributes:
+      seat_code: GROUP_2
       is_active: true
     references:
-      position: POSITION-COUNCIL_MEMBER_GROUP_II
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-OVIEDO
   - type: Race
-    code: RACE-USA-FL-OVIEDO-COUNCIL_MEMBER_GROUP_II-2026_GENERAL
+    code: RACE-USA-FL-OVIEDO-COUNCIL_MEMBER-GROUP_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=128.'
     references:
       election: ELECTION-USA-FL-OVIEDO-2026_GENERAL
-      office: OFFICE-USA-FL-OVIEDO-COUNCIL_MEMBER_GROUP_II
+      office: OFFICE-USA-FL-OVIEDO-COUNCIL_MEMBER-GROUP_2
   - type: Person
     code: PERSON-BRITTON_KT_2G
     attributes:
@@ -773,29 +786,30 @@ groups:
       first_name: Keith
       last_name: Britton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-OVIEDO-COUNCIL_MEMBER_GROUP_II-2026_GENERAL-BRITTON_KT_2G
+    code: CANDIDACY-USA-FL-OVIEDO-COUNCIL_MEMBER-GROUP_2-2026_GENERAL-BRITTON_KT_2G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-OVIEDO-COUNCIL_MEMBER_GROUP_II-2026_GENERAL
+      race: RACE-USA-FL-OVIEDO-COUNCIL_MEMBER-GROUP_2-2026_GENERAL
       person: PERSON-BRITTON_KT_2G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-OVIEDO-COUNCIL_MEMBER_GROUP_III
+    code: OFFICE-USA-FL-OVIEDO-COUNCIL_MEMBER-GROUP_3
     attributes:
+      seat_code: GROUP_3
       is_active: true
     references:
-      position: POSITION-COUNCIL_MEMBER_GROUP_III
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-OVIEDO
   - type: Race
-    code: RACE-USA-FL-OVIEDO-COUNCIL_MEMBER_GROUP_III-2026_GENERAL
+    code: RACE-USA-FL-OVIEDO-COUNCIL_MEMBER-GROUP_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=128.'
     references:
       election: ELECTION-USA-FL-OVIEDO-2026_GENERAL
-      office: OFFICE-USA-FL-OVIEDO-COUNCIL_MEMBER_GROUP_III
+      office: OFFICE-USA-FL-OVIEDO-COUNCIL_MEMBER-GROUP_3
   - type: Person
     code: PERSON-OTT_AL_7C
     attributes:
@@ -804,29 +818,30 @@ groups:
       first_name: Alan
       last_name: Ott
   - type: Candidacy
-    code: CANDIDACY-USA-FL-OVIEDO-COUNCIL_MEMBER_GROUP_III-2026_GENERAL-OTT_AL_7C
+    code: CANDIDACY-USA-FL-OVIEDO-COUNCIL_MEMBER-GROUP_3-2026_GENERAL-OTT_AL_7C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-OVIEDO-COUNCIL_MEMBER_GROUP_III-2026_GENERAL
+      race: RACE-USA-FL-OVIEDO-COUNCIL_MEMBER-GROUP_3-2026_GENERAL
       person: PERSON-OTT_AL_7C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-OVIEDO-COUNCIL_MEMBER_GROUP_IV
+    code: OFFICE-USA-FL-OVIEDO-COUNCIL_MEMBER-GROUP_4
     attributes:
+      seat_code: GROUP_4
       is_active: true
     references:
-      position: POSITION-COUNCIL_MEMBER_GROUP_IV
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-OVIEDO
   - type: Race
-    code: RACE-USA-FL-OVIEDO-COUNCIL_MEMBER_GROUP_IV-2026_GENERAL
+    code: RACE-USA-FL-OVIEDO-COUNCIL_MEMBER-GROUP_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=128.'
     references:
       election: ELECTION-USA-FL-OVIEDO-2026_GENERAL
-      office: OFFICE-USA-FL-OVIEDO-COUNCIL_MEMBER_GROUP_IV
+      office: OFFICE-USA-FL-OVIEDO-COUNCIL_MEMBER-GROUP_4
   - type: Person
     code: PERSON-BODDIFORD_JF_5F
     attributes:
@@ -835,12 +850,12 @@ groups:
       first_name: Jeff
       last_name: Boddiford
   - type: Candidacy
-    code: CANDIDACY-USA-FL-OVIEDO-COUNCIL_MEMBER_GROUP_IV-2026_GENERAL-BODDIFORD_JF_5F
+    code: CANDIDACY-USA-FL-OVIEDO-COUNCIL_MEMBER-GROUP_4-2026_GENERAL-BODDIFORD_JF_5F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-OVIEDO-COUNCIL_MEMBER_GROUP_IV-2026_GENERAL
+      race: RACE-USA-FL-OVIEDO-COUNCIL_MEMBER-GROUP_4-2026_GENERAL
       person: PERSON-BODDIFORD_JF_5F
 - records:
   - type: Office
@@ -924,20 +939,21 @@ groups:
       person: PERSON-CULVER_WY_7H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-LAKE_MARY-LAKE_MARY_CITY_COMMISSIONER_SEAT_4
+    code: OFFICE-USA-FL-LAKE_MARY-COMMISSIONER-SEAT_4
     attributes:
+      seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-LAKE_MARY_CITY_COMMISSIONER_SEAT_4
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-LAKE_MARY
   - type: Race
-    code: RACE-USA-FL-LAKE_MARY-LAKE_MARY_CITY_COMMISSIONER_SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-LAKE_MARY-COMMISSIONER-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=seminole&el=129.'
     references:
       election: ELECTION-USA-FL-LAKE_MARY-2026_GENERAL
-      office: OFFICE-USA-FL-LAKE_MARY-LAKE_MARY_CITY_COMMISSIONER_SEAT_4
+      office: OFFICE-USA-FL-LAKE_MARY-COMMISSIONER-SEAT_4
   - type: Person
     code: PERSON-LOPEZ_DN_7W
     attributes:
@@ -946,12 +962,12 @@ groups:
       first_name: Dan
       last_name: Lopez
   - type: Candidacy
-    code: CANDIDACY-USA-FL-LAKE_MARY-LAKE_MARY_CITY_COMMISSIONER_SEAT_4-2026_GENERAL-LOPEZ_DN_7W
+    code: CANDIDACY-USA-FL-LAKE_MARY-COMMISSIONER-SEAT_4-2026_GENERAL-LOPEZ_DN_7W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-LAKE_MARY-LAKE_MARY_CITY_COMMISSIONER_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-LAKE_MARY-COMMISSIONER-SEAT_4-2026_GENERAL
       person: PERSON-LOPEZ_DN_7W
 - records:
   - type: Office
@@ -1079,21 +1095,21 @@ groups:
       person: PERSON-YORK_JS_5H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SEMINOLE
   - type: Race
-    code: RACE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SEMINOLE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-KRAUS_KR_3D
     attributes:
@@ -1102,30 +1118,30 @@ groups:
       first_name: KRISTINE
       last_name: KRAUS
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-KRAUS_KR_3D
+    code: CANDIDACY-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-KRAUS_KR_3D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-KRAUS_KR_3D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SEMINOLE
   - type: Race
-    code: RACE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SEMINOLE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-MILLS_HL_4K
     attributes:
@@ -1134,30 +1150,30 @@ groups:
       first_name: HOLTON
       last_name: MILLS
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-MILLS_HL_4K
+    code: CANDIDACY-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-MILLS_HL_4K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-MILLS_HL_4K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SEMINOLE
   - type: Race
-    code: RACE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SEMINOLE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-GARICK_AT_7S
     attributes:
@@ -1166,10 +1182,10 @@ groups:
       first_name: AUTUMN
       last_name: GARICK
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-GARICK_AT_7S
+    code: CANDIDACY-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-GARICK_AT_7S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SEMINOLE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-GARICK_AT_7S

@@ -33,20 +33,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ARCADIA-ARCADIA_CITY_COUNCIL
+    code: OFFICE-USA-FL-ARCADIA-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-ARCADIA_CITY_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-ARCADIA
   - type: Race
-    code: RACE-USA-FL-ARCADIA-ARCADIA_CITY_COUNCIL-2026_GENERAL
+    code: RACE-USA-FL-ARCADIA-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=desoto&el=6.'
     references:
       election: ELECTION-USA-FL-ARCADIA-2026_GENERAL
-      office: OFFICE-USA-FL-ARCADIA-ARCADIA_CITY_COUNCIL
+      office: OFFICE-USA-FL-ARCADIA-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BROWN_AS_6D
     attributes:
@@ -56,12 +56,12 @@ groups:
       middle_name: R.
       last_name: Brown
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ARCADIA-ARCADIA_CITY_COUNCIL-2026_GENERAL-BROWN_AS_6D
+    code: CANDIDACY-USA-FL-ARCADIA-COUNCIL_MEMBER-2026_GENERAL-BROWN_AS_6D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ARCADIA-ARCADIA_CITY_COUNCIL-2026_GENERAL
+      race: RACE-USA-FL-ARCADIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BROWN_AS_6D
   - type: Person
     code: PERSON-REAVES_JR_7L
@@ -72,12 +72,12 @@ groups:
       middle_name: C
       last_name: Reaves
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ARCADIA-ARCADIA_CITY_COUNCIL-2026_GENERAL-REAVES_JR_7L
+    code: CANDIDACY-USA-FL-ARCADIA-COUNCIL_MEMBER-2026_GENERAL-REAVES_JR_7L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ARCADIA-ARCADIA_CITY_COUNCIL-2026_GENERAL
+      race: RACE-USA-FL-ARCADIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-REAVES_JR_7L
   - type: Person
     code: PERSON-REESOR_AD_2C
@@ -87,12 +87,12 @@ groups:
       first_name: Addison
       last_name: Reesor
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ARCADIA-ARCADIA_CITY_COUNCIL-2026_GENERAL-REESOR_AD_2C
+    code: CANDIDACY-USA-FL-ARCADIA-COUNCIL_MEMBER-2026_GENERAL-REESOR_AD_2C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ARCADIA-ARCADIA_CITY_COUNCIL-2026_GENERAL
+      race: RACE-USA-FL-ARCADIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-REESOR_AD_2C
   - type: Person
     code: PERSON-STRICKLAND_JD_7T
@@ -103,12 +103,12 @@ groups:
       middle_name: Wertz
       last_name: Strickland
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ARCADIA-ARCADIA_CITY_COUNCIL-2026_GENERAL-STRICKLAND_JD_7T
+    code: CANDIDACY-USA-FL-ARCADIA-COUNCIL_MEMBER-2026_GENERAL-STRICKLAND_JD_7T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ARCADIA-ARCADIA_CITY_COUNCIL-2026_GENERAL
+      race: RACE-USA-FL-ARCADIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-STRICKLAND_JD_7T
   - type: Person
     code: PERSON-WASHINGTON_DE_5F
@@ -118,29 +118,29 @@ groups:
       first_name: Dee
       last_name: Washington
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ARCADIA-ARCADIA_CITY_COUNCIL-2026_GENERAL-WASHINGTON_DE_5F
+    code: CANDIDACY-USA-FL-ARCADIA-COUNCIL_MEMBER-2026_GENERAL-WASHINGTON_DE_5F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ARCADIA-ARCADIA_CITY_COUNCIL-2026_GENERAL
+      race: RACE-USA-FL-ARCADIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WASHINGTON_DE_5F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ARCADIA-ARCADIA_CITY_MARSHAL
+    code: OFFICE-USA-FL-ARCADIA-CITY_MARSHAL
     attributes:
       is_active: true
     references:
-      position: POSITION-ARCADIA_CITY_MARSHAL
+      position: POSITION-CITY_MARSHAL
       jurisdiction: MUNICIPALITY-USA-FL-ARCADIA
   - type: Race
-    code: RACE-USA-FL-ARCADIA-ARCADIA_CITY_MARSHAL-2026_GENERAL
+    code: RACE-USA-FL-ARCADIA-CITY_MARSHAL-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=desoto&el=6.'
     references:
       election: ELECTION-USA-FL-ARCADIA-2026_GENERAL
-      office: OFFICE-USA-FL-ARCADIA-ARCADIA_CITY_MARSHAL
+      office: OFFICE-USA-FL-ARCADIA-CITY_MARSHAL
   - type: Person
     code: PERSON-JONES_QN_8N
     attributes:
@@ -149,30 +149,30 @@ groups:
       first_name: Quinn
       last_name: Jones
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ARCADIA-ARCADIA_CITY_MARSHAL-2026_GENERAL-JONES_QN_8N
+    code: CANDIDACY-USA-FL-ARCADIA-CITY_MARSHAL-2026_GENERAL-JONES_QN_8N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ARCADIA-ARCADIA_CITY_MARSHAL-2026_GENERAL
+      race: RACE-USA-FL-ARCADIA-CITY_MARSHAL-2026_GENERAL
       person: PERSON-JONES_QN_8N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DESOTO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-DESOTO
   - type: Race
-    code: RACE-USA-FL-COUNTY_DESOTO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DESOTO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DESOTO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-DIXON_LR_9B
     attributes:
@@ -181,7 +181,7 @@ groups:
       first_name: Lorenzo
       last_name: Dixon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DESOTO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-DIXON_LR_9B
+    code: CANDIDACY-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-DIXON_LR_9B
     attributes:
       status: active
       participation: active
@@ -190,7 +190,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-INDEPENDENT
     references:
-      race: RACE-USA-FL-COUNTY_DESOTO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-DIXON_LR_9B
   - type: Person
     code: PERSON-JOHNSON_BD_5J
@@ -200,7 +200,7 @@ groups:
       first_name: Buddy
       last_name: Johnson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DESOTO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-JOHNSON_BD_5J
+    code: CANDIDACY-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-JOHNSON_BD_5J
     attributes:
       status: active
       participation: active
@@ -209,7 +209,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_DESOTO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-JOHNSON_BD_5J
   - type: Person
     code: PERSON-MARTIN_MC_7X
@@ -219,7 +219,7 @@ groups:
       first_name: Michael
       last_name: Martin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DESOTO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-MARTIN_MC_7X
+    code: CANDIDACY-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-MARTIN_MC_7X
     attributes:
       status: active
       participation: active
@@ -228,25 +228,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_DESOTO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-MARTIN_MC_7X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DESOTO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-DESOTO
   - type: Race
-    code: RACE-USA-FL-COUNTY_DESOTO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DESOTO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DESOTO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-LANGFORD_EL_9W
     attributes:
@@ -256,7 +256,7 @@ groups:
       middle_name: A.
       last_name: Langford
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DESOTO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-LANGFORD_EL_9W
+    code: CANDIDACY-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-LANGFORD_EL_9W
     attributes:
       status: active
       participation: active
@@ -265,25 +265,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_DESOTO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-LANGFORD_EL_9W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DESOTO
   - type: Race
-    code: RACE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DESOTO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-SCHUENEMAN_JM_6R
     attributes:
@@ -292,30 +292,30 @@ groups:
       first_name: Jami
       last_name: Schueneman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-SCHUENEMAN_JM_6R
+    code: CANDIDACY-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-SCHUENEMAN_JM_6R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-SCHUENEMAN_JM_6R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DESOTO
   - type: Race
-    code: RACE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DESOTO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-MOTT_AS_2B
     attributes:
@@ -324,30 +324,30 @@ groups:
       first_name: Asena
       last_name: Mott
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-MOTT_AS_2B
+    code: CANDIDACY-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-MOTT_AS_2B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-MOTT_AS_2B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DESOTO
   - type: Race
-    code: RACE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DESOTO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-MERCER_KL_7B
     attributes:
@@ -356,10 +356,10 @@ groups:
       first_name: Kelly
       last_name: Mercer
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-MERCER_KL_7B
+    code: CANDIDACY-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-MERCER_KL_7B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-MERCER_KL_7B

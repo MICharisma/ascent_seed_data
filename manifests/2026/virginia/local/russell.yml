@@ -7,35 +7,58 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_RUSSELL-2026_GENERAL
+  code: ELECTION-USA-VA-CLEVELAND-2026_GENERAL
   attributes:
-    name: Russell County General Election 2026
+    name: Cleveland General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-RUSSELL
+    jurisdiction: MUNICIPALITY-USA-VA-CLEVELAND
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-HONAKER-2026_GENERAL
+  attributes:
+    name: Honaker General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-HONAKER
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-LEBANON-2026_GENERAL
+  attributes:
+    name: Lebanon General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-LEBANON
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_RUSSELL-MAYOR-TOWN_OF_CLEVELAND
+    code: OFFICE-USA-VA-CLEVELAND-MAYOR
     attributes:
-      seat_code: TOWN_OF_CLEVELAND
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-RUSSELL
+      jurisdiction: MUNICIPALITY-USA-VA-CLEVELAND
   - type: Race
-    code: RACE-USA-VA-COUNTY_RUSSELL-MAYOR-TOWN_OF_CLEVELAND-2026_GENERAL
+    code: RACE-USA-VA-CLEVELAND-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_RUSSELL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_RUSSELL-MAYOR-TOWN_OF_CLEVELAND
+      election: ELECTION-USA-VA-CLEVELAND-2026_GENERAL
+      office: OFFICE-USA-VA-CLEVELAND-MAYOR
   - type: Person
     code: PERSON-COUCH_LN_7W
     attributes:
@@ -45,30 +68,29 @@ groups:
       middle_name: I.
       last_name: Couch
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MAYOR-TOWN_OF_CLEVELAND-2026_GENERAL-COUCH_LN_7W
+    code: CANDIDACY-USA-VA-CLEVELAND-MAYOR-2026_GENERAL-COUCH_LN_7W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MAYOR-TOWN_OF_CLEVELAND-2026_GENERAL
+      race: RACE-USA-VA-CLEVELAND-MAYOR-2026_GENERAL
       person: PERSON-COUCH_LN_7W
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_RUSSELL-MAYOR-TOWN_OF_HONAKER
+    code: OFFICE-USA-VA-HONAKER-MAYOR
     attributes:
-      seat_code: TOWN_OF_HONAKER
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-RUSSELL
+      jurisdiction: MUNICIPALITY-USA-VA-HONAKER
   - type: Race
-    code: RACE-USA-VA-COUNTY_RUSSELL-MAYOR-TOWN_OF_HONAKER-2026_GENERAL
+    code: RACE-USA-VA-HONAKER-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_RUSSELL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_RUSSELL-MAYOR-TOWN_OF_HONAKER
+      election: ELECTION-USA-VA-HONAKER-2026_GENERAL
+      office: OFFICE-USA-VA-HONAKER-MAYOR
   - type: Person
     code: PERSON-SHORT_ER_3X
     attributes:
@@ -78,12 +100,12 @@ groups:
       middle_name: M. "Bubby"
       last_name: Short
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MAYOR-TOWN_OF_HONAKER-2026_GENERAL-SHORT_ER_3X
+    code: CANDIDACY-USA-VA-HONAKER-MAYOR-2026_GENERAL-SHORT_ER_3X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MAYOR-TOWN_OF_HONAKER-2026_GENERAL
+      race: RACE-USA-VA-HONAKER-MAYOR-2026_GENERAL
       person: PERSON-SHORT_ER_3X
   - type: Person
     code: PERSON-EATON_JD_9M
@@ -94,12 +116,12 @@ groups:
       middle_name: L.
       last_name: Eaton
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MAYOR-TOWN_OF_HONAKER-2026_GENERAL-EATON_JD_9M
+    code: CANDIDACY-USA-VA-HONAKER-MAYOR-2026_GENERAL-EATON_JD_9M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MAYOR-TOWN_OF_HONAKER-2026_GENERAL
+      race: RACE-USA-VA-HONAKER-MAYOR-2026_GENERAL
       person: PERSON-EATON_JD_9M
   - type: Person
     code: PERSON-TESTERMAN_TM_7Q
@@ -110,30 +132,29 @@ groups:
       middle_name: W.
       last_name: Testerman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MAYOR-TOWN_OF_HONAKER-2026_GENERAL-TESTERMAN_TM_7Q
+    code: CANDIDACY-USA-VA-HONAKER-MAYOR-2026_GENERAL-TESTERMAN_TM_7Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MAYOR-TOWN_OF_HONAKER-2026_GENERAL
+      race: RACE-USA-VA-HONAKER-MAYOR-2026_GENERAL
       person: PERSON-TESTERMAN_TM_7Q
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_CLEVELAND
+    code: OFFICE-USA-VA-CLEVELAND-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_CLEVELAND
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-RUSSELL
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-CLEVELAND
   - type: Race
-    code: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_CLEVELAND-2026_GENERAL
+    code: RACE-USA-VA-CLEVELAND-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_RUSSELL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_CLEVELAND
+      election: ELECTION-USA-VA-CLEVELAND-2026_GENERAL
+      office: OFFICE-USA-VA-CLEVELAND-COUNCIL_MEMBER
   - type: Person
     code: PERSON-NEAL_JR_4U
     attributes:
@@ -143,12 +164,12 @@ groups:
       middle_name: W. "Tiny"
       last_name: Neal
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_CLEVELAND-2026_GENERAL-NEAL_JR_4U
+    code: CANDIDACY-USA-VA-CLEVELAND-COUNCIL_MEMBER-2026_GENERAL-NEAL_JR_4U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_CLEVELAND-2026_GENERAL
+      race: RACE-USA-VA-CLEVELAND-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-NEAL_JR_4U
   - type: Person
     code: PERSON-CHUMBLEY_MG_4U
@@ -159,12 +180,12 @@ groups:
       middle_name: Guinn
       last_name: Chumbley
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_CLEVELAND-2026_GENERAL-CHUMBLEY_MG_4U
+    code: CANDIDACY-USA-VA-CLEVELAND-COUNCIL_MEMBER-2026_GENERAL-CHUMBLEY_MG_4U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_CLEVELAND-2026_GENERAL
+      race: RACE-USA-VA-CLEVELAND-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CHUMBLEY_MG_4U
   - type: Person
     code: PERSON-VANCE_TH_3W
@@ -175,12 +196,12 @@ groups:
       middle_name: A.
       last_name: Vance
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_CLEVELAND-2026_GENERAL-VANCE_TH_3W
+    code: CANDIDACY-USA-VA-CLEVELAND-COUNCIL_MEMBER-2026_GENERAL-VANCE_TH_3W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_CLEVELAND-2026_GENERAL
+      race: RACE-USA-VA-CLEVELAND-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-VANCE_TH_3W
   - type: Person
     code: PERSON-HARRIS_TY_3G
@@ -191,30 +212,29 @@ groups:
       middle_name: Logan
       last_name: Harris
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_CLEVELAND-2026_GENERAL-HARRIS_TY_3G
+    code: CANDIDACY-USA-VA-CLEVELAND-COUNCIL_MEMBER-2026_GENERAL-HARRIS_TY_3G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_CLEVELAND-2026_GENERAL
+      race: RACE-USA-VA-CLEVELAND-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HARRIS_TY_3G
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_HONAKER
+    code: OFFICE-USA-VA-HONAKER-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_HONAKER
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-RUSSELL
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-HONAKER
   - type: Race
-    code: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_HONAKER-2026_GENERAL
+    code: RACE-USA-VA-HONAKER-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_RUSSELL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_HONAKER
+      election: ELECTION-USA-VA-HONAKER-2026_GENERAL
+      office: OFFICE-USA-VA-HONAKER-COUNCIL_MEMBER
   - type: Person
     code: PERSON-RAY_CT_4M
     attributes:
@@ -224,12 +244,12 @@ groups:
       middle_name: L.
       last_name: Ray
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_HONAKER-2026_GENERAL-RAY_CT_4M
+    code: CANDIDACY-USA-VA-HONAKER-COUNCIL_MEMBER-2026_GENERAL-RAY_CT_4M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_HONAKER-2026_GENERAL
+      race: RACE-USA-VA-HONAKER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-RAY_CT_4M
   - type: Person
     code: PERSON-CHAFIN_DW_9U
@@ -240,12 +260,12 @@ groups:
       middle_name: Benton
       last_name: Chafin
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_HONAKER-2026_GENERAL-CHAFIN_DW_9U
+    code: CANDIDACY-USA-VA-HONAKER-COUNCIL_MEMBER-2026_GENERAL-CHAFIN_DW_9U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_HONAKER-2026_GENERAL
+      race: RACE-USA-VA-HONAKER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CHAFIN_DW_9U
   - type: Person
     code: PERSON-SHORT_JN_2W
@@ -256,12 +276,12 @@ groups:
       middle_name: Ann
       last_name: Short
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_HONAKER-2026_GENERAL-SHORT_JN_2W
+    code: CANDIDACY-USA-VA-HONAKER-COUNCIL_MEMBER-2026_GENERAL-SHORT_JN_2W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_HONAKER-2026_GENERAL
+      race: RACE-USA-VA-HONAKER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SHORT_JN_2W
   - type: Person
     code: PERSON-TAYLOR_NN_7Z
@@ -272,12 +292,12 @@ groups:
       middle_name: C.
       last_name: Taylor
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_HONAKER-2026_GENERAL-TAYLOR_NN_7Z
+    code: CANDIDACY-USA-VA-HONAKER-COUNCIL_MEMBER-2026_GENERAL-TAYLOR_NN_7Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_HONAKER-2026_GENERAL
+      race: RACE-USA-VA-HONAKER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TAYLOR_NN_7Z
   - type: Person
     code: PERSON-MCGLOTHLIN_SC_3L
@@ -288,30 +308,29 @@ groups:
       middle_name: D.
       last_name: McGlothlin
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_HONAKER-2026_GENERAL-MCGLOTHLIN_SC_3L
+    code: CANDIDACY-USA-VA-HONAKER-COUNCIL_MEMBER-2026_GENERAL-MCGLOTHLIN_SC_3L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_HONAKER-2026_GENERAL
+      race: RACE-USA-VA-HONAKER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MCGLOTHLIN_SC_3L
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_LEBANON
+    code: OFFICE-USA-VA-LEBANON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_LEBANON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-RUSSELL
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-LEBANON
   - type: Race
-    code: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_LEBANON-2026_GENERAL
+    code: RACE-USA-VA-LEBANON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_RUSSELL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_LEBANON
+      election: ELECTION-USA-VA-LEBANON-2026_GENERAL
+      office: OFFICE-USA-VA-LEBANON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-MAYS_AN_2X
     attributes:
@@ -321,12 +340,12 @@ groups:
       middle_name: D.
       last_name: Mays
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_LEBANON-2026_GENERAL-MAYS_AN_2X
+    code: CANDIDACY-USA-VA-LEBANON-COUNCIL_MEMBER-2026_GENERAL-MAYS_AN_2X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_LEBANON-2026_GENERAL
+      race: RACE-USA-VA-LEBANON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MAYS_AN_2X
   - type: Person
     code: PERSON-BRADSHAW_CR_2S
@@ -337,12 +356,12 @@ groups:
       middle_name: Lynn
       last_name: Bradshaw
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_LEBANON-2026_GENERAL-BRADSHAW_CR_2S
+    code: CANDIDACY-USA-VA-LEBANON-COUNCIL_MEMBER-2026_GENERAL-BRADSHAW_CR_2S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_LEBANON-2026_GENERAL
+      race: RACE-USA-VA-LEBANON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BRADSHAW_CR_2S
   - type: Person
     code: PERSON-BOYD_DV_3L
@@ -353,12 +372,12 @@ groups:
       middle_name: W.
       last_name: Boyd
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_LEBANON-2026_GENERAL-BOYD_DV_3L
+    code: CANDIDACY-USA-VA-LEBANON-COUNCIL_MEMBER-2026_GENERAL-BOYD_DV_3L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_LEBANON-2026_GENERAL
+      race: RACE-USA-VA-LEBANON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BOYD_DV_3L
   - type: Person
     code: PERSON-KEGLEY_J_2Q
@@ -369,12 +388,12 @@ groups:
       middle_name: Leonard
       last_name: Kegley
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_LEBANON-2026_GENERAL-KEGLEY_J_2Q
+    code: CANDIDACY-USA-VA-LEBANON-COUNCIL_MEMBER-2026_GENERAL-KEGLEY_J_2Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_LEBANON-2026_GENERAL
+      race: RACE-USA-VA-LEBANON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-KEGLEY_J_2Q
   - type: Person
     code: PERSON-FIELDS_NN_8P
@@ -385,10 +404,10 @@ groups:
       middle_name: J.
       last_name: Fields
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_LEBANON-2026_GENERAL-FIELDS_NN_8P
+    code: CANDIDACY-USA-VA-LEBANON-COUNCIL_MEMBER-2026_GENERAL-FIELDS_NN_8P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RUSSELL-MEMBER_TOWN_COUNCIL-TOWN_OF_LEBANON-2026_GENERAL
+      race: RACE-USA-VA-LEBANON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FIELDS_NN_8P

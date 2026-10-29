@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_WAKULLA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_WAKULLA-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-WAKULLA
   - type: Race
-    code: RACE-USA-FL-COUNTY_WAKULLA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_WAKULLA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_WAKULLA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_WAKULLA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_WAKULLA-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-NICHOLS_FR_8R
     attributes:
@@ -45,7 +45,7 @@ groups:
       middle_name: M
       last_name: Nichols II
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-NICHOLS_FR_8R
+    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-NICHOLS_FR_8R
     attributes:
       status: active
       participation: active
@@ -54,25 +54,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_WAKULLA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_WAKULLA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-NICHOLS_FR_8R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_WAKULLA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_WAKULLA-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-WAKULLA
   - type: Race
-    code: RACE-USA-FL-COUNTY_WAKULLA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_WAKULLA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_WAKULLA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_WAKULLA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_WAKULLA-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-DYSZER_PT_3G
     attributes:
@@ -82,7 +82,7 @@ groups:
       middle_name: Sue
       last_name: Dyszer
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-DYSZER_PT_3G
+    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-DYSZER_PT_3G
     attributes:
       status: active
       participation: active
@@ -90,7 +90,7 @@ groups:
       - label: No Party Affiliation (Partisan)
         kind: designation
     references:
-      race: RACE-USA-FL-COUNTY_WAKULLA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_WAKULLA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-DYSZER_PT_3G
   - type: Person
     code: PERSON-HUGHES_CR_6Y
@@ -100,7 +100,7 @@ groups:
       first_name: Carrie
       last_name: Hughes
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-HUGHES_CR_6Y
+    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-HUGHES_CR_6Y
     attributes:
       status: active
       participation: active
@@ -109,7 +109,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_WAKULLA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_WAKULLA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-HUGHES_CR_6Y
   - type: Person
     code: PERSON-KEISTER_BV_7B
@@ -119,7 +119,7 @@ groups:
       first_name: Beverly
       last_name: Keister
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-KEISTER_BV_7B
+    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-KEISTER_BV_7B
     attributes:
       status: active
       participation: active
@@ -128,25 +128,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_WAKULLA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_WAKULLA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-KEISTER_BV_7B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-WAKULLA
   - type: Race
-    code: RACE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_WAKULLA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-HAND_ED_5N
     attributes:
@@ -155,30 +155,30 @@ groups:
       first_name: Eddie
       last_name: Hand
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-HAND_ED_5N
+    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-HAND_ED_5N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-HAND_ED_5N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-WAKULLA
   - type: Race
-    code: RACE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_WAKULLA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-LANGSTON_CL_9V
     attributes:
@@ -187,30 +187,30 @@ groups:
       first_name: Cale
       last_name: Langston
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-LANGSTON_CL_9V
+    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-LANGSTON_CL_9V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-LANGSTON_CL_9V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-WAKULLA
   - type: Race
-    code: RACE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_WAKULLA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-LAWHON_LR_3G
     attributes:
@@ -219,30 +219,30 @@ groups:
       first_name: Laura
       last_name: Lawhon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-LAWHON_LR_3G
+    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-LAWHON_LR_3G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_WAKULLA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-LAWHON_LR_3G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
     attributes:
       seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-WAKULLA_SOIL_WATER
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-WAKULLA
   - type: Race
-    code: RACE-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_WAKULLA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
   - type: Person
     code: PERSON-HALL_CL_9Q
     attributes:
@@ -252,30 +252,30 @@ groups:
       middle_name: Robert
       last_name: Hall
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_1-2026_GENERAL-HALL_CL_9Q
+    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL-HALL_CL_9Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
       person: PERSON-HALL_CL_9Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2
     attributes:
       seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-WAKULLA_SOIL_WATER
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-WAKULLA
   - type: Race
-    code: RACE-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_WAKULLA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2
   - type: Person
     code: PERSON-JOHNSON_EM_2H
     attributes:
@@ -285,30 +285,30 @@ groups:
       middle_name: Tanner
       last_name: Johnson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_2-2026_GENERAL-JOHNSON_EM_2H
+    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2-2026_GENERAL-JOHNSON_EM_2H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2-2026_GENERAL
       person: PERSON-JOHNSON_EM_2H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3
     attributes:
       seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-WAKULLA_SOIL_WATER
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-WAKULLA
   - type: Race
-    code: RACE-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_WAKULLA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3
   - type: Person
     code: PERSON-KEYS_KL_5S
     attributes:
@@ -317,30 +317,30 @@ groups:
       first_name: Kellie
       last_name: Keys
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_3-2026_GENERAL-KEYS_KL_5S
+    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL-KEYS_KL_5S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL
       person: PERSON-KEYS_KL_5S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
     attributes:
       seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-WAKULLA_SOIL_WATER
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-WAKULLA
   - type: Race
-    code: RACE-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_WAKULLA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
   - type: Person
     code: PERSON-SHEPARD_DV_2V
     attributes:
@@ -350,10 +350,10 @@ groups:
       middle_name: Ray
       last_name: Shepard
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_5-2026_GENERAL-SHEPARD_DV_2V
+    code: CANDIDACY-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL-SHEPARD_DV_2V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_WAKULLA-WAKULLA_SOIL_WATER-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_WAKULLA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
       person: PERSON-SHEPARD_DV_2V

@@ -21,20 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CHARLES_CITY-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE
+    code: OFFICE-USA-VA-COUNTY_CHARLES_CITY-COUNTY_SUPERVISOR-AT_LARGE
     attributes:
+      seat_code: AT_LARGE
       is_active: true
     references:
-      position: POSITION-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE
+      position: POSITION-COUNTY_SUPERVISOR
       jurisdiction: COUNTY-USA-VA-CHARLES_CITY
   - type: Race
-    code: RACE-USA-VA-COUNTY_CHARLES_CITY-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_CHARLES_CITY-COUNTY_SUPERVISOR-AT_LARGE-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_CHARLES_CITY-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_CHARLES_CITY-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE
+      office: OFFICE-USA-VA-COUNTY_CHARLES_CITY-COUNTY_SUPERVISOR-AT_LARGE
   - type: Person
     code: PERSON-STEWART_JC_3J
     attributes:
@@ -44,12 +45,12 @@ groups:
       middle_name: S.
       last_name: Stewart
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CHARLES_CITY-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE-2026_SPECIAL-STEWART_JC_3J
+    code: CANDIDACY-USA-VA-COUNTY_CHARLES_CITY-COUNTY_SUPERVISOR-AT_LARGE-2026_SPECIAL-STEWART_JC_3J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CHARLES_CITY-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_CHARLES_CITY-COUNTY_SUPERVISOR-AT_LARGE-2026_SPECIAL
       person: PERSON-STEWART_JC_3J
   - type: Person
     code: PERSON-TYLER_RB_9B
@@ -60,10 +61,10 @@ groups:
       middle_name: H.
       last_name: Tyler
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CHARLES_CITY-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE-2026_SPECIAL-TYLER_RB_9B
+    code: CANDIDACY-USA-VA-COUNTY_CHARLES_CITY-COUNTY_SUPERVISOR-AT_LARGE-2026_SPECIAL-TYLER_RB_9B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CHARLES_CITY-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_CHARLES_CITY-COUNTY_SUPERVISOR-AT_LARGE-2026_SPECIAL
       person: PERSON-TYLER_RB_9B

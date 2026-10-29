@@ -7,35 +7,34 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_BUCHANAN-2026_GENERAL
+  code: ELECTION-USA-VA-GRUNDY-2026_GENERAL
   attributes:
-    name: Buchanan County General Election 2026
+    name: Grundy General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-BUCHANAN
+    jurisdiction: MUNICIPALITY-USA-VA-GRUNDY
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BUCHANAN-MAYOR-TOWN_OF_GRUNDY
+    code: OFFICE-USA-VA-GRUNDY-MAYOR
     attributes:
-      seat_code: TOWN_OF_GRUNDY
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-BUCHANAN
+      jurisdiction: MUNICIPALITY-USA-VA-GRUNDY
   - type: Race
-    code: RACE-USA-VA-COUNTY_BUCHANAN-MAYOR-TOWN_OF_GRUNDY-2026_GENERAL
+    code: RACE-USA-VA-GRUNDY-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_BUCHANAN-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_BUCHANAN-MAYOR-TOWN_OF_GRUNDY
+      election: ELECTION-USA-VA-GRUNDY-2026_GENERAL
+      office: OFFICE-USA-VA-GRUNDY-MAYOR
   - type: Person
     code: PERSON-MITCHELL_CH_6C
     attributes:
@@ -45,30 +44,29 @@ groups:
       middle_name: A.
       last_name: Mitchell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BUCHANAN-MAYOR-TOWN_OF_GRUNDY-2026_GENERAL-MITCHELL_CH_6C
+    code: CANDIDACY-USA-VA-GRUNDY-MAYOR-2026_GENERAL-MITCHELL_CH_6C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BUCHANAN-MAYOR-TOWN_OF_GRUNDY-2026_GENERAL
+      race: RACE-USA-VA-GRUNDY-MAYOR-2026_GENERAL
       person: PERSON-MITCHELL_CH_6C
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BUCHANAN-MEMBER_TOWN_COUNCIL-TOWN_OF_GRUNDY
+    code: OFFICE-USA-VA-GRUNDY-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_GRUNDY
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-BUCHANAN
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-GRUNDY
   - type: Race
-    code: RACE-USA-VA-COUNTY_BUCHANAN-MEMBER_TOWN_COUNCIL-TOWN_OF_GRUNDY-2026_GENERAL
+    code: RACE-USA-VA-GRUNDY-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_BUCHANAN-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_BUCHANAN-MEMBER_TOWN_COUNCIL-TOWN_OF_GRUNDY
+      election: ELECTION-USA-VA-GRUNDY-2026_GENERAL
+      office: OFFICE-USA-VA-GRUNDY-COUNCIL_MEMBER
   - type: Person
     code: PERSON-MCGEORGE_M_7A
     attributes:
@@ -78,12 +76,12 @@ groups:
       middle_name: Wade
       last_name: McGeorge
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BUCHANAN-MEMBER_TOWN_COUNCIL-TOWN_OF_GRUNDY-2026_GENERAL-MCGEORGE_M_7A
+    code: CANDIDACY-USA-VA-GRUNDY-COUNCIL_MEMBER-2026_GENERAL-MCGEORGE_M_7A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BUCHANAN-MEMBER_TOWN_COUNCIL-TOWN_OF_GRUNDY-2026_GENERAL
+      race: RACE-USA-VA-GRUNDY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MCGEORGE_M_7A
   - type: Person
     code: PERSON-STREET_PT_4E
@@ -94,12 +92,12 @@ groups:
       middle_name: Marie
       last_name: Street
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BUCHANAN-MEMBER_TOWN_COUNCIL-TOWN_OF_GRUNDY-2026_GENERAL-STREET_PT_4E
+    code: CANDIDACY-USA-VA-GRUNDY-COUNCIL_MEMBER-2026_GENERAL-STREET_PT_4E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BUCHANAN-MEMBER_TOWN_COUNCIL-TOWN_OF_GRUNDY-2026_GENERAL
+      race: RACE-USA-VA-GRUNDY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-STREET_PT_4E
   - type: Person
     code: PERSON-SHORTRIDGE_ELKINS_RB_5T
@@ -110,10 +108,10 @@ groups:
       middle_name: L.
       last_name: Shortridge-Elkins
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BUCHANAN-MEMBER_TOWN_COUNCIL-TOWN_OF_GRUNDY-2026_GENERAL-SHORTRIDGE_ELKINS_RB_5T
+    code: CANDIDACY-USA-VA-GRUNDY-COUNCIL_MEMBER-2026_GENERAL-SHORTRIDGE_ELKINS_RB_5T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BUCHANAN-MEMBER_TOWN_COUNCIL-TOWN_OF_GRUNDY-2026_GENERAL
+      race: RACE-USA-VA-GRUNDY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SHORTRIDGE_ELKINS_RB_5T

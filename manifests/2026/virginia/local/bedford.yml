@@ -19,35 +19,34 @@ records:
     jurisdiction: COUNTY-USA-VA-BEDFORD
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_BEDFORD-2026_GENERAL
+  code: ELECTION-USA-VA-BEDFORD-2026_GENERAL
   attributes:
-    name: Bedford County General Election 2026
+    name: Bedford General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-BEDFORD
+    jurisdiction: MUNICIPALITY-USA-VA-BEDFORD
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BEDFORD-COMMONWEALTHS_ATTORNEY-BEDFORD_COUNTY
+    code: OFFICE-USA-VA-COUNTY_BEDFORD-COMMONWEALTHS_ATTORNEY
     attributes:
-      seat_code: BEDFORD_COUNTY
       is_active: true
     references:
       position: POSITION-COMMONWEALTHS_ATTORNEY
       jurisdiction: COUNTY-USA-VA-BEDFORD
   - type: Race
-    code: RACE-USA-VA-COUNTY_BEDFORD-COMMONWEALTHS_ATTORNEY-BEDFORD_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_BEDFORD-COMMONWEALTHS_ATTORNEY-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_BEDFORD-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_BEDFORD-COMMONWEALTHS_ATTORNEY-BEDFORD_COUNTY
+      office: OFFICE-USA-VA-COUNTY_BEDFORD-COMMONWEALTHS_ATTORNEY
   - type: Person
     code: PERSON-DOLEN_CH_7R
     attributes:
@@ -57,30 +56,29 @@ groups:
       middle_name: M.
       last_name: Dolen
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BEDFORD-COMMONWEALTHS_ATTORNEY-BEDFORD_COUNTY-2026_SPECIAL-DOLEN_CH_7R
+    code: CANDIDACY-USA-VA-COUNTY_BEDFORD-COMMONWEALTHS_ATTORNEY-2026_SPECIAL-DOLEN_CH_7R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BEDFORD-COMMONWEALTHS_ATTORNEY-BEDFORD_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_BEDFORD-COMMONWEALTHS_ATTORNEY-2026_SPECIAL
       person: PERSON-DOLEN_CH_7R
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BEDFORD-MEMBER_TOWN_COUNCIL-TOWN_OF_BEDFORD
+    code: OFFICE-USA-VA-BEDFORD-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_BEDFORD
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-BEDFORD
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-BEDFORD
   - type: Race
-    code: RACE-USA-VA-COUNTY_BEDFORD-MEMBER_TOWN_COUNCIL-TOWN_OF_BEDFORD-2026_GENERAL
+    code: RACE-USA-VA-BEDFORD-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_BEDFORD-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_BEDFORD-MEMBER_TOWN_COUNCIL-TOWN_OF_BEDFORD
+      election: ELECTION-USA-VA-BEDFORD-2026_GENERAL
+      office: OFFICE-USA-VA-BEDFORD-COUNCIL_MEMBER
   - type: Person
     code: PERSON-DELONG_AN_4S
     attributes:
@@ -90,12 +88,12 @@ groups:
       middle_name: E.
       last_name: DeLong
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BEDFORD-MEMBER_TOWN_COUNCIL-TOWN_OF_BEDFORD-2026_GENERAL-DELONG_AN_4S
+    code: CANDIDACY-USA-VA-BEDFORD-COUNCIL_MEMBER-2026_GENERAL-DELONG_AN_4S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BEDFORD-MEMBER_TOWN_COUNCIL-TOWN_OF_BEDFORD-2026_GENERAL
+      race: RACE-USA-VA-BEDFORD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DELONG_AN_4S
   - type: Person
     code: PERSON-KIRBY_DN_8Z
@@ -106,12 +104,12 @@ groups:
       middle_name: L.
       last_name: Kirby
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BEDFORD-MEMBER_TOWN_COUNCIL-TOWN_OF_BEDFORD-2026_GENERAL-KIRBY_DN_8Z
+    code: CANDIDACY-USA-VA-BEDFORD-COUNCIL_MEMBER-2026_GENERAL-KIRBY_DN_8Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BEDFORD-MEMBER_TOWN_COUNCIL-TOWN_OF_BEDFORD-2026_GENERAL
+      race: RACE-USA-VA-BEDFORD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-KIRBY_DN_8Z
   - type: Person
     code: PERSON-HAILEY_ST_2M
@@ -122,12 +120,12 @@ groups:
       middle_name: L.
       last_name: Hailey
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BEDFORD-MEMBER_TOWN_COUNCIL-TOWN_OF_BEDFORD-2026_GENERAL-HAILEY_ST_2M
+    code: CANDIDACY-USA-VA-BEDFORD-COUNCIL_MEMBER-2026_GENERAL-HAILEY_ST_2M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BEDFORD-MEMBER_TOWN_COUNCIL-TOWN_OF_BEDFORD-2026_GENERAL
+      race: RACE-USA-VA-BEDFORD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HAILEY_ST_2M
   - type: Person
     code: PERSON-BROOKE_TM_9U
@@ -138,10 +136,10 @@ groups:
       middle_name: R.
       last_name: Brooke
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BEDFORD-MEMBER_TOWN_COUNCIL-TOWN_OF_BEDFORD-2026_GENERAL-BROOKE_TM_9U
+    code: CANDIDACY-USA-VA-BEDFORD-COUNCIL_MEMBER-2026_GENERAL-BROOKE_TM_9U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BEDFORD-MEMBER_TOWN_COUNCIL-TOWN_OF_BEDFORD-2026_GENERAL
+      race: RACE-USA-VA-BEDFORD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BROOKE_TM_9U

@@ -7,47 +7,94 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_TAZEWELL-2026_GENERAL
+  code: ELECTION-USA-VA-POCAHONTAS-2026_GENERAL
   attributes:
-    name: Tazewell County General Election 2026
+    name: Pocahontas General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-TAZEWELL
+    jurisdiction: MUNICIPALITY-USA-VA-POCAHONTAS
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_TAZEWELL-2026_SPECIAL
+  code: ELECTION-USA-VA-RICHLANDS-2026_GENERAL
   attributes:
-    name: Tazewell County Special Election 2026
+    name: Richlands General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-RICHLANDS
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-TAZEWELL-2026_GENERAL
+  attributes:
+    name: Tazewell General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-TAZEWELL
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-BLUEFIELD-2026_GENERAL
+  attributes:
+    name: Bluefield General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-BLUEFIELD
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-CEDAR_BLUFF-2026_GENERAL
+  attributes:
+    name: Cedar Bluff General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-CEDAR_BLUFF
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-TAZEWELL-2026_SPECIAL
+  attributes:
+    name: Tazewell Special Election 2026
     kind: special
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-TAZEWELL
+    jurisdiction: MUNICIPALITY-USA-VA-TAZEWELL
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_TAZEWELL-MAYOR_POCAHONTAS-TOWN_OF_POCAHONTAS
+    code: OFFICE-USA-VA-POCAHONTAS-MAYOR
     attributes:
-      seat_code: TOWN_OF_POCAHONTAS
       is_active: true
     references:
-      position: POSITION-MAYOR_POCAHONTAS
-      jurisdiction: COUNTY-USA-VA-TAZEWELL
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-POCAHONTAS
   - type: Race
-    code: RACE-USA-VA-COUNTY_TAZEWELL-MAYOR_POCAHONTAS-TOWN_OF_POCAHONTAS-2026_GENERAL
+    code: RACE-USA-VA-POCAHONTAS-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_TAZEWELL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_TAZEWELL-MAYOR_POCAHONTAS-TOWN_OF_POCAHONTAS
+      election: ELECTION-USA-VA-POCAHONTAS-2026_GENERAL
+      office: OFFICE-USA-VA-POCAHONTAS-MAYOR
   - type: Person
     code: PERSON-GIBSON_BN_7T
     attributes:
@@ -57,30 +104,29 @@ groups:
       middle_name: A.
       last_name: Gibson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MAYOR_POCAHONTAS-TOWN_OF_POCAHONTAS-2026_GENERAL-GIBSON_BN_7T
+    code: CANDIDACY-USA-VA-POCAHONTAS-MAYOR-2026_GENERAL-GIBSON_BN_7T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MAYOR_POCAHONTAS-TOWN_OF_POCAHONTAS-2026_GENERAL
+      race: RACE-USA-VA-POCAHONTAS-MAYOR-2026_GENERAL
       person: PERSON-GIBSON_BN_7T
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_TAZEWELL-MAYOR_RICHLANDS-TOWN_OF_RICHLANDS
+    code: OFFICE-USA-VA-RICHLANDS-MAYOR
     attributes:
-      seat_code: TOWN_OF_RICHLANDS
       is_active: true
     references:
-      position: POSITION-MAYOR_RICHLANDS
-      jurisdiction: COUNTY-USA-VA-TAZEWELL
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-RICHLANDS
   - type: Race
-    code: RACE-USA-VA-COUNTY_TAZEWELL-MAYOR_RICHLANDS-TOWN_OF_RICHLANDS-2026_GENERAL
+    code: RACE-USA-VA-RICHLANDS-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_TAZEWELL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_TAZEWELL-MAYOR_RICHLANDS-TOWN_OF_RICHLANDS
+      election: ELECTION-USA-VA-RICHLANDS-2026_GENERAL
+      office: OFFICE-USA-VA-RICHLANDS-MAYOR
   - type: Person
     code: PERSON-CURY_RD_8T
     attributes:
@@ -90,30 +136,29 @@ groups:
       middle_name: David
       last_name: Cury
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MAYOR_RICHLANDS-TOWN_OF_RICHLANDS-2026_GENERAL-CURY_RD_8T
+    code: CANDIDACY-USA-VA-RICHLANDS-MAYOR-2026_GENERAL-CURY_RD_8T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MAYOR_RICHLANDS-TOWN_OF_RICHLANDS-2026_GENERAL
+      race: RACE-USA-VA-RICHLANDS-MAYOR-2026_GENERAL
       person: PERSON-CURY_RD_8T
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_TAZEWELL-MAYOR_TAZEWELL-TOWN_OF_TAZEWELL
+    code: OFFICE-USA-VA-TAZEWELL-MAYOR
     attributes:
-      seat_code: TOWN_OF_TAZEWELL
       is_active: true
     references:
-      position: POSITION-MAYOR_TAZEWELL
-      jurisdiction: COUNTY-USA-VA-TAZEWELL
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-TAZEWELL
   - type: Race
-    code: RACE-USA-VA-COUNTY_TAZEWELL-MAYOR_TAZEWELL-TOWN_OF_TAZEWELL-2026_GENERAL
+    code: RACE-USA-VA-TAZEWELL-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_TAZEWELL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_TAZEWELL-MAYOR_TAZEWELL-TOWN_OF_TAZEWELL
+      election: ELECTION-USA-VA-TAZEWELL-2026_GENERAL
+      office: OFFICE-USA-VA-TAZEWELL-MAYOR
   - type: Person
     code: PERSON-BEASLEY_JO_2M
     attributes:
@@ -123,30 +168,29 @@ groups:
       middle_name: R.
       last_name: Beasley
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MAYOR_TAZEWELL-TOWN_OF_TAZEWELL-2026_GENERAL-BEASLEY_JO_2M
+    code: CANDIDACY-USA-VA-TAZEWELL-MAYOR-2026_GENERAL-BEASLEY_JO_2M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MAYOR_TAZEWELL-TOWN_OF_TAZEWELL-2026_GENERAL
+      race: RACE-USA-VA-TAZEWELL-MAYOR-2026_GENERAL
       person: PERSON-BEASLEY_JO_2M
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_BLUEFIELD-TOWN_OF_BLUEFIELD
+    code: OFFICE-USA-VA-BLUEFIELD-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_BLUEFIELD
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_BLUEFIELD
-      jurisdiction: COUNTY-USA-VA-TAZEWELL
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-BLUEFIELD
   - type: Race
-    code: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_BLUEFIELD-TOWN_OF_BLUEFIELD-2026_GENERAL
+    code: RACE-USA-VA-BLUEFIELD-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_TAZEWELL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_BLUEFIELD-TOWN_OF_BLUEFIELD
+      election: ELECTION-USA-VA-BLUEFIELD-2026_GENERAL
+      office: OFFICE-USA-VA-BLUEFIELD-COUNCIL_MEMBER
   - type: Person
     code: PERSON-TRIGG_AN_3R
     attributes:
@@ -155,12 +199,12 @@ groups:
       first_name: Anglis
       last_name: Trigg, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_BLUEFIELD-TOWN_OF_BLUEFIELD-2026_GENERAL-TRIGG_AN_3R
+    code: CANDIDACY-USA-VA-BLUEFIELD-COUNCIL_MEMBER-2026_GENERAL-TRIGG_AN_3R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_BLUEFIELD-TOWN_OF_BLUEFIELD-2026_GENERAL
+      race: RACE-USA-VA-BLUEFIELD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TRIGG_AN_3R
   - type: Person
     code: PERSON-PAYNE_CT_8L
@@ -171,12 +215,12 @@ groups:
       middle_name: C.
       last_name: Payne
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_BLUEFIELD-TOWN_OF_BLUEFIELD-2026_GENERAL-PAYNE_CT_8L
+    code: CANDIDACY-USA-VA-BLUEFIELD-COUNCIL_MEMBER-2026_GENERAL-PAYNE_CT_8L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_BLUEFIELD-TOWN_OF_BLUEFIELD-2026_GENERAL
+      race: RACE-USA-VA-BLUEFIELD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PAYNE_CT_8L
   - type: Person
     code: PERSON-RICH_KR_2L
@@ -187,30 +231,29 @@ groups:
       middle_name: L.
       last_name: Rich
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_BLUEFIELD-TOWN_OF_BLUEFIELD-2026_GENERAL-RICH_KR_2L
+    code: CANDIDACY-USA-VA-BLUEFIELD-COUNCIL_MEMBER-2026_GENERAL-RICH_KR_2L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_BLUEFIELD-TOWN_OF_BLUEFIELD-2026_GENERAL
+      race: RACE-USA-VA-BLUEFIELD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-RICH_KR_2L
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_CEDAR_BLUFF-TOWN_OF_CEDAR_BLUFF
+    code: OFFICE-USA-VA-CEDAR_BLUFF-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_CEDAR_BLUFF
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_CEDAR_BLUFF
-      jurisdiction: COUNTY-USA-VA-TAZEWELL
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-CEDAR_BLUFF
   - type: Race
-    code: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_CEDAR_BLUFF-TOWN_OF_CEDAR_BLUFF-2026_GENERAL
+    code: RACE-USA-VA-CEDAR_BLUFF-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_TAZEWELL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_CEDAR_BLUFF-TOWN_OF_CEDAR_BLUFF
+      election: ELECTION-USA-VA-CEDAR_BLUFF-2026_GENERAL
+      office: OFFICE-USA-VA-CEDAR_BLUFF-COUNCIL_MEMBER
   - type: Person
     code: PERSON-MCGLOTHLIN_JO_6K
     attributes:
@@ -220,12 +263,12 @@ groups:
       middle_name: Blair
       last_name: McGlothlin
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_CEDAR_BLUFF-TOWN_OF_CEDAR_BLUFF-2026_GENERAL-MCGLOTHLIN_JO_6K
+    code: CANDIDACY-USA-VA-CEDAR_BLUFF-COUNCIL_MEMBER-2026_GENERAL-MCGLOTHLIN_JO_6K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_CEDAR_BLUFF-TOWN_OF_CEDAR_BLUFF-2026_GENERAL
+      race: RACE-USA-VA-CEDAR_BLUFF-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MCGLOTHLIN_JO_6K
   - type: Person
     code: PERSON-SHEPARD_KN_5S
@@ -236,12 +279,12 @@ groups:
       middle_name: M.
       last_name: Shepard
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_CEDAR_BLUFF-TOWN_OF_CEDAR_BLUFF-2026_GENERAL-SHEPARD_KN_5S
+    code: CANDIDACY-USA-VA-CEDAR_BLUFF-COUNCIL_MEMBER-2026_GENERAL-SHEPARD_KN_5S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_CEDAR_BLUFF-TOWN_OF_CEDAR_BLUFF-2026_GENERAL
+      race: RACE-USA-VA-CEDAR_BLUFF-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SHEPARD_KN_5S
   - type: Person
     code: PERSON-BENDER_TR_4Z
@@ -252,30 +295,29 @@ groups:
       middle_name: M.
       last_name: Bender
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_CEDAR_BLUFF-TOWN_OF_CEDAR_BLUFF-2026_GENERAL-BENDER_TR_4Z
+    code: CANDIDACY-USA-VA-CEDAR_BLUFF-COUNCIL_MEMBER-2026_GENERAL-BENDER_TR_4Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_CEDAR_BLUFF-TOWN_OF_CEDAR_BLUFF-2026_GENERAL
+      race: RACE-USA-VA-CEDAR_BLUFF-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BENDER_TR_4Z
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_POCAHONTAS-TOWN_OF_POCAHONTAS
+    code: OFFICE-USA-VA-POCAHONTAS-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_POCAHONTAS
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_POCAHONTAS
-      jurisdiction: COUNTY-USA-VA-TAZEWELL
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-POCAHONTAS
   - type: Race
-    code: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_POCAHONTAS-TOWN_OF_POCAHONTAS-2026_GENERAL
+    code: RACE-USA-VA-POCAHONTAS-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_TAZEWELL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_POCAHONTAS-TOWN_OF_POCAHONTAS
+      election: ELECTION-USA-VA-POCAHONTAS-2026_GENERAL
+      office: OFFICE-USA-VA-POCAHONTAS-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BELCHER_A_7R
     attributes:
@@ -285,12 +327,12 @@ groups:
       middle_name: Brad
       last_name: Belcher
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_POCAHONTAS-TOWN_OF_POCAHONTAS-2026_GENERAL-BELCHER_A_7R
+    code: CANDIDACY-USA-VA-POCAHONTAS-COUNCIL_MEMBER-2026_GENERAL-BELCHER_A_7R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_POCAHONTAS-TOWN_OF_POCAHONTAS-2026_GENERAL
+      race: RACE-USA-VA-POCAHONTAS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BELCHER_A_7R
   - type: Person
     code: PERSON-LAFON_KR_4N
@@ -301,12 +343,12 @@ groups:
       middle_name: M.
       last_name: LaFon
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_POCAHONTAS-TOWN_OF_POCAHONTAS-2026_GENERAL-LAFON_KR_4N
+    code: CANDIDACY-USA-VA-POCAHONTAS-COUNCIL_MEMBER-2026_GENERAL-LAFON_KR_4N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_POCAHONTAS-TOWN_OF_POCAHONTAS-2026_GENERAL
+      race: RACE-USA-VA-POCAHONTAS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LAFON_KR_4N
   - type: Person
     code: PERSON-BRODESSER_ND_8Q
@@ -317,12 +359,12 @@ groups:
       middle_name: Ann
       last_name: Brodesser
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_POCAHONTAS-TOWN_OF_POCAHONTAS-2026_GENERAL-BRODESSER_ND_8Q
+    code: CANDIDACY-USA-VA-POCAHONTAS-COUNCIL_MEMBER-2026_GENERAL-BRODESSER_ND_8Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_POCAHONTAS-TOWN_OF_POCAHONTAS-2026_GENERAL
+      race: RACE-USA-VA-POCAHONTAS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BRODESSER_ND_8Q
   - type: Person
     code: PERSON-SLUSS_TD_7N
@@ -333,30 +375,29 @@ groups:
       middle_name: Michael
       last_name: Sluss
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_POCAHONTAS-TOWN_OF_POCAHONTAS-2026_GENERAL-SLUSS_TD_7N
+    code: CANDIDACY-USA-VA-POCAHONTAS-COUNCIL_MEMBER-2026_GENERAL-SLUSS_TD_7N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_POCAHONTAS-TOWN_OF_POCAHONTAS-2026_GENERAL
+      race: RACE-USA-VA-POCAHONTAS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SLUSS_TD_7N
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_RICHLANDS-TOWN_OF_RICHLANDS
+    code: OFFICE-USA-VA-RICHLANDS-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_RICHLANDS
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_RICHLANDS
-      jurisdiction: COUNTY-USA-VA-TAZEWELL
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-RICHLANDS
   - type: Race
-    code: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_RICHLANDS-TOWN_OF_RICHLANDS-2026_GENERAL
+    code: RACE-USA-VA-RICHLANDS-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_TAZEWELL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_RICHLANDS-TOWN_OF_RICHLANDS
+      election: ELECTION-USA-VA-RICHLANDS-2026_GENERAL
+      office: OFFICE-USA-VA-RICHLANDS-COUNCIL_MEMBER
   - type: Person
     code: PERSON-LANKFORD_DN_6M
     attributes:
@@ -366,12 +407,12 @@ groups:
       middle_name: L. "DJ"
       last_name: Lankford
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_RICHLANDS-TOWN_OF_RICHLANDS-2026_GENERAL-LANKFORD_DN_6M
+    code: CANDIDACY-USA-VA-RICHLANDS-COUNCIL_MEMBER-2026_GENERAL-LANKFORD_DN_6M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_RICHLANDS-TOWN_OF_RICHLANDS-2026_GENERAL
+      race: RACE-USA-VA-RICHLANDS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LANKFORD_DN_6M
   - type: Person
     code: PERSON-MEADOWS_FR_2F
@@ -382,12 +423,12 @@ groups:
       middle_name: D.
       last_name: Meadows
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_RICHLANDS-TOWN_OF_RICHLANDS-2026_GENERAL-MEADOWS_FR_2F
+    code: CANDIDACY-USA-VA-RICHLANDS-COUNCIL_MEMBER-2026_GENERAL-MEADOWS_FR_2F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_RICHLANDS-TOWN_OF_RICHLANDS-2026_GENERAL
+      race: RACE-USA-VA-RICHLANDS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MEADOWS_FR_2F
   - type: Person
     code: PERSON-MOLLO_LR_2G
@@ -398,12 +439,12 @@ groups:
       middle_name: A.
       last_name: Mollo
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_RICHLANDS-TOWN_OF_RICHLANDS-2026_GENERAL-MOLLO_LR_2G
+    code: CANDIDACY-USA-VA-RICHLANDS-COUNCIL_MEMBER-2026_GENERAL-MOLLO_LR_2G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_RICHLANDS-TOWN_OF_RICHLANDS-2026_GENERAL
+      race: RACE-USA-VA-RICHLANDS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MOLLO_LR_2G
   - type: Person
     code: PERSON-MITCHELL_LY_9W
@@ -414,12 +455,12 @@ groups:
       middle_name: M.
       last_name: Mitchell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_RICHLANDS-TOWN_OF_RICHLANDS-2026_GENERAL-MITCHELL_LY_9W
+    code: CANDIDACY-USA-VA-RICHLANDS-COUNCIL_MEMBER-2026_GENERAL-MITCHELL_LY_9W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_RICHLANDS-TOWN_OF_RICHLANDS-2026_GENERAL
+      race: RACE-USA-VA-RICHLANDS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MITCHELL_LY_9W
   - type: Person
     code: PERSON-WOOD_RC_6N
@@ -430,30 +471,29 @@ groups:
       middle_name: L.
       last_name: Wood II
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_RICHLANDS-TOWN_OF_RICHLANDS-2026_GENERAL-WOOD_RC_6N
+    code: CANDIDACY-USA-VA-RICHLANDS-COUNCIL_MEMBER-2026_GENERAL-WOOD_RC_6N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_RICHLANDS-TOWN_OF_RICHLANDS-2026_GENERAL
+      race: RACE-USA-VA-RICHLANDS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WOOD_RC_6N
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_TAZEWELL
+    code: OFFICE-USA-VA-TAZEWELL-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_TAZEWELL
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_SPECIAL
-      jurisdiction: COUNTY-USA-VA-TAZEWELL
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-TAZEWELL
   - type: Race
-    code: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_TAZEWELL-2026_SPECIAL
+    code: RACE-USA-VA-TAZEWELL-COUNCIL_MEMBER-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_TAZEWELL-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_TAZEWELL
+      election: ELECTION-USA-VA-TAZEWELL-2026_SPECIAL
+      office: OFFICE-USA-VA-TAZEWELL-COUNCIL_MEMBER
   - type: Person
     code: PERSON-TAKACH_BT_5N
     attributes:
@@ -463,30 +503,29 @@ groups:
       middle_name: Davidson
       last_name: Takach
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_TAZEWELL-2026_SPECIAL-TAKACH_BT_5N
+    code: CANDIDACY-USA-VA-TAZEWELL-COUNCIL_MEMBER-2026_SPECIAL-TAKACH_BT_5N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_TAZEWELL-2026_SPECIAL
+      race: RACE-USA-VA-TAZEWELL-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-TAKACH_BT_5N
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_TAZEWELL-TOWN_OF_TAZEWELL
+    code: OFFICE-USA-VA-TAZEWELL-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_TAZEWELL
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_TAZEWELL
-      jurisdiction: COUNTY-USA-VA-TAZEWELL
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-TAZEWELL
   - type: Race
-    code: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_TAZEWELL-TOWN_OF_TAZEWELL-2026_GENERAL
+    code: RACE-USA-VA-TAZEWELL-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_TAZEWELL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_TAZEWELL-TOWN_OF_TAZEWELL
+      election: ELECTION-USA-VA-TAZEWELL-2026_GENERAL
+      office: OFFICE-USA-VA-TAZEWELL-COUNCIL_MEMBER
   - type: Person
     code: PERSON-JEFFERS_BL_8Q
     attributes:
@@ -496,12 +535,12 @@ groups:
       middle_name: Ray
       last_name: Jeffers
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_TAZEWELL-TOWN_OF_TAZEWELL-2026_GENERAL-JEFFERS_BL_8Q
+    code: CANDIDACY-USA-VA-TAZEWELL-COUNCIL_MEMBER-2026_GENERAL-JEFFERS_BL_8Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_TAZEWELL-TOWN_OF_TAZEWELL-2026_GENERAL
+      race: RACE-USA-VA-TAZEWELL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-JEFFERS_BL_8Q
   - type: Person
     code: PERSON-MOORE_CR_6G
@@ -512,12 +551,12 @@ groups:
       middle_name: S. "Carrie"
       last_name: Moore
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_TAZEWELL-TOWN_OF_TAZEWELL-2026_GENERAL-MOORE_CR_6G
+    code: CANDIDACY-USA-VA-TAZEWELL-COUNCIL_MEMBER-2026_GENERAL-MOORE_CR_6G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_TAZEWELL-TOWN_OF_TAZEWELL-2026_GENERAL
+      race: RACE-USA-VA-TAZEWELL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MOORE_CR_6G
   - type: Person
     code: PERSON-KEEN_GL_2L
@@ -528,12 +567,12 @@ groups:
       middle_name: A.
       last_name: Keen Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_TAZEWELL-TOWN_OF_TAZEWELL-2026_GENERAL-KEEN_GL_2L
+    code: CANDIDACY-USA-VA-TAZEWELL-COUNCIL_MEMBER-2026_GENERAL-KEEN_GL_2L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_TAZEWELL-TOWN_OF_TAZEWELL-2026_GENERAL
+      race: RACE-USA-VA-TAZEWELL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-KEEN_GL_2L
   - type: Person
     code: PERSON-ADAIR_RN_2U
@@ -544,10 +583,10 @@ groups:
       middle_name: Dawn
       last_name: Adair
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_TAZEWELL-TOWN_OF_TAZEWELL-2026_GENERAL-ADAIR_RN_2U
+    code: CANDIDACY-USA-VA-TAZEWELL-COUNCIL_MEMBER-2026_GENERAL-ADAIR_RN_2U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_TAZEWELL-MEMBER_TOWN_COUNCIL_TAZEWELL-TOWN_OF_TAZEWELL-2026_GENERAL
+      race: RACE-USA-VA-TAZEWELL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ADAIR_RN_2U

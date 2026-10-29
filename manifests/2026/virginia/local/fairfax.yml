@@ -7,35 +7,34 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_FAIRFAX-2026_GENERAL
+  code: ELECTION-USA-VA-HERNDON-2026_GENERAL
   attributes:
-    name: Fairfax County General Election 2026
+    name: Herndon General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-FAIRFAX
+    jurisdiction: MUNICIPALITY-USA-VA-HERNDON
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FAIRFAX-MAYOR-TOWN_OF_HERNDON
+    code: OFFICE-USA-VA-HERNDON-MAYOR
     attributes:
-      seat_code: TOWN_OF_HERNDON
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-FAIRFAX
+      jurisdiction: MUNICIPALITY-USA-VA-HERNDON
   - type: Race
-    code: RACE-USA-VA-COUNTY_FAIRFAX-MAYOR-TOWN_OF_HERNDON-2026_GENERAL
+    code: RACE-USA-VA-HERNDON-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_FAIRFAX-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_FAIRFAX-MAYOR-TOWN_OF_HERNDON
+      election: ELECTION-USA-VA-HERNDON-2026_GENERAL
+      office: OFFICE-USA-VA-HERNDON-MAYOR
   - type: Person
     code: PERSON-LEBLANC_KV_6G
     attributes:
@@ -45,30 +44,29 @@ groups:
       middle_name: J
       last_name: LeBlanc, Jr
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAIRFAX-MAYOR-TOWN_OF_HERNDON-2026_GENERAL-LEBLANC_KV_6G
+    code: CANDIDACY-USA-VA-HERNDON-MAYOR-2026_GENERAL-LEBLANC_KV_6G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAIRFAX-MAYOR-TOWN_OF_HERNDON-2026_GENERAL
+      race: RACE-USA-VA-HERNDON-MAYOR-2026_GENERAL
       person: PERSON-LEBLANC_KV_6G
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON
+    code: OFFICE-USA-VA-HERNDON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_HERNDON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-FAIRFAX
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-HERNDON
   - type: Race
-    code: RACE-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL
+    code: RACE-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 6. Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_FAIRFAX-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON
+      election: ELECTION-USA-VA-HERNDON-2026_GENERAL
+      office: OFFICE-USA-VA-HERNDON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-REYES_AL_6S
     attributes:
@@ -78,12 +76,12 @@ groups:
       middle_name: '"Alex"'
       last_name: Reyes
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL-REYES_AL_6S
+    code: CANDIDACY-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL-REYES_AL_6S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL
+      race: RACE-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-REYES_AL_6S
   - type: Person
     code: PERSON-AGUILA_CS_4J
@@ -94,12 +92,12 @@ groups:
       middle_name: A. Del
       last_name: Aguila
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL-AGUILA_CS_4J
+    code: CANDIDACY-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL-AGUILA_CS_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL
+      race: RACE-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-AGUILA_CS_4J
   - type: Person
     code: PERSON-HEDRICK_CL_5Z
@@ -110,12 +108,12 @@ groups:
       middle_name: A.
       last_name: Hedrick
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL-HEDRICK_CL_5Z
+    code: CANDIDACY-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL-HEDRICK_CL_5Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL
+      race: RACE-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HEDRICK_CL_5Z
   - type: Person
     code: PERSON-MEJIA_DG_7L
@@ -126,12 +124,12 @@ groups:
       middle_name: Isaac "Doug"
       last_name: Mejia
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL-MEJIA_DG_7L
+    code: CANDIDACY-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL-MEJIA_DG_7L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL
+      race: RACE-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MEJIA_DG_7L
   - type: Person
     code: PERSON-EZEKILOV_JS_7A
@@ -142,12 +140,12 @@ groups:
       middle_name: N.
       last_name: Ezekilov
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL-EZEKILOV_JS_7A
+    code: CANDIDACY-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL-EZEKILOV_JS_7A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL
+      race: RACE-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-EZEKILOV_JS_7A
   - type: Person
     code: PERSON-BRITT_JS_3C
@@ -158,12 +156,12 @@ groups:
       middle_name: K.
       last_name: Britt
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL-BRITT_JS_3C
+    code: CANDIDACY-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL-BRITT_JS_3C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL
+      race: RACE-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BRITT_JS_3C
   - type: Person
     code: PERSON-GARCIA_KL_9U
@@ -173,12 +171,12 @@ groups:
       first_name: Kelvin
       last_name: Garcia
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL-GARCIA_KL_9U
+    code: CANDIDACY-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL-GARCIA_KL_9U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL
+      race: RACE-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GARCIA_KL_9U
   - type: Person
     code: PERSON-YOHANNES_MR_2L
@@ -189,12 +187,12 @@ groups:
       middle_name: T.
       last_name: Yohannes
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL-YOHANNES_MR_2L
+    code: CANDIDACY-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL-YOHANNES_MR_2L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL
+      race: RACE-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-YOHANNES_MR_2L
   - type: Person
     code: PERSON-LLOYD_MC_5L
@@ -205,12 +203,12 @@ groups:
       middle_name: T.
       last_name: Lloyd
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL-LLOYD_MC_5L
+    code: CANDIDACY-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL-LLOYD_MC_5L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL
+      race: RACE-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LLOYD_MC_5L
   - type: Person
     code: PERSON-BRUCE_SB_7U
@@ -221,12 +219,12 @@ groups:
       middle_name: A.
       last_name: Bruce
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL-BRUCE_SB_7U
+    code: CANDIDACY-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL-BRUCE_SB_7U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL
+      race: RACE-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BRUCE_SB_7U
   - type: Person
     code: PERSON-PORTER_ST_4A
@@ -237,12 +235,12 @@ groups:
       middle_name: Michael
       last_name: Porter
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL-PORTER_ST_4A
+    code: CANDIDACY-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL-PORTER_ST_4A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL
+      race: RACE-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PORTER_ST_4A
   - type: Person
     code: PERSON-SHAFIQ_YS_7T
@@ -253,10 +251,10 @@ groups:
       middle_name: '"Soniya"'
       last_name: Shafiq
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL-SHAFIQ_YS_7T
+    code: CANDIDACY-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL-SHAFIQ_YS_7T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FAIRFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_HERNDON-2026_GENERAL
+      race: RACE-USA-VA-HERNDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SHAFIQ_YS_7T

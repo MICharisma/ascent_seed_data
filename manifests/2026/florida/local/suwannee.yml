@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUWANNEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-SUWANNEE
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUWANNEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUWANNEE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUWANNEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-BLUE_ST_6W
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Stefan
       last_name: Blue
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-BLUE_ST_6W
+    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-BLUE_ST_6W
     attributes:
       status: active
       participation: active
@@ -53,7 +53,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_SUWANNEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-BLUE_ST_6W
   - type: Person
     code: PERSON-DELOACH_WL_8V
@@ -64,7 +64,7 @@ groups:
       middle_name: Shea
       last_name: Deloach
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-DELOACH_WL_8V
+    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-DELOACH_WL_8V
     attributes:
       status: active
       participation: active
@@ -73,25 +73,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SUWANNEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-DELOACH_WL_8V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUWANNEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-SUWANNEE
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUWANNEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUWANNEE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUWANNEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-MOBLEY_LE_4Y
     attributes:
@@ -100,7 +100,7 @@ groups:
       first_name: Leo
       last_name: Mobley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-MOBLEY_LE_4Y
+    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-MOBLEY_LE_4Y
     attributes:
       status: active
       participation: active
@@ -109,25 +109,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SUWANNEE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-MOBLEY_LE_4Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SUWANNEE
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUWANNEE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-HINES_ML_3G
     attributes:
@@ -136,30 +136,30 @@ groups:
       first_name: Malcolm
       last_name: Hines
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-HINES_ML_3G
+    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-HINES_ML_3G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-HINES_ML_3G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SUWANNEE
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUWANNEE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-DASILVA_ED_6F
     attributes:
@@ -168,30 +168,30 @@ groups:
       first_name: Ed
       last_name: daSilva
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-DASILVA_ED_6F
+    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-DASILVA_ED_6F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-DASILVA_ED_6F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SUWANNEE
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUWANNEE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-BASS_AR_6C
     attributes:
@@ -200,30 +200,30 @@ groups:
       first_name: Aaron
       last_name: Bass
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-BASS_AR_6C
+    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-BASS_AR_6C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-BASS_AR_6C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION-GROUP_1
+    code: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1
     attributes:
       seat_code: GROUP_1
       is_active: true
     references:
-      position: POSITION-SOIL_AND_WATER_CONSERVATION
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUWANNEE
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION-GROUP_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUWANNEE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION-GROUP_1
+      office: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1
   - type: Person
     code: PERSON-JACKSON_AN_7Z
     attributes:
@@ -232,30 +232,30 @@ groups:
       first_name: Andy
       last_name: Jackson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION-GROUP_1-2026_GENERAL-JACKSON_AN_7Z
+    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1-2026_GENERAL-JACKSON_AN_7Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION-GROUP_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1-2026_GENERAL
       person: PERSON-JACKSON_AN_7Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION-GROUP_3
+    code: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3
     attributes:
       seat_code: GROUP_3
       is_active: true
     references:
-      position: POSITION-SOIL_AND_WATER_CONSERVATION
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUWANNEE
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION-GROUP_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUWANNEE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION-GROUP_3
+      office: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3
   - type: Person
     code: PERSON-WAINWRIGHT_WS_3B
     attributes:
@@ -264,30 +264,30 @@ groups:
       first_name: Wesley
       last_name: Wainwright
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION-GROUP_3-2026_GENERAL-WAINWRIGHT_WS_3B
+    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3-2026_GENERAL-WAINWRIGHT_WS_3B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION-GROUP_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3-2026_GENERAL
       person: PERSON-WAINWRIGHT_WS_3B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION-GROUP_5
+    code: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5
     attributes:
       seat_code: GROUP_5
       is_active: true
     references:
-      position: POSITION-SOIL_AND_WATER_CONSERVATION
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUWANNEE
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION-GROUP_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUWANNEE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION-GROUP_5
+      office: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5
   - type: Person
     code: PERSON-WILLIAMS_JM_8S
     attributes:
@@ -296,10 +296,10 @@ groups:
       first_name: James
       last_name: Williams Jr
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION-GROUP_5-2026_GENERAL-WILLIAMS_JM_8S
+    code: CANDIDACY-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5-2026_GENERAL-WILLIAMS_JM_8S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION-GROUP_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5-2026_GENERAL
       person: PERSON-WILLIAMS_JM_8S

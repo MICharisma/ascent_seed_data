@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEVY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-LEVY
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEVY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEVY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEVY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-CANNON_LN_4U
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Lincoln
       last_name: Cannon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEVY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-CANNON_LN_4U
+    code: CANDIDACY-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-CANNON_LN_4U
     attributes:
       status: active
       participation: active
@@ -53,7 +53,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_LEVY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-CANNON_LN_4U
   - type: Person
     code: PERSON-CASEY_EM_5T
@@ -64,7 +64,7 @@ groups:
       middle_name: Ann
       last_name: Casey
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEVY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-CASEY_EM_5T
+    code: CANDIDACY-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-CASEY_EM_5T
     attributes:
       status: active
       participation: active
@@ -73,7 +73,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-ECOLOGY
     references:
-      race: RACE-USA-FL-COUNTY_LEVY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-CASEY_EM_5T
   - type: Person
     code: PERSON-LEMERY_MT_2C
@@ -83,7 +83,7 @@ groups:
       first_name: Matt
       last_name: Lemery
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEVY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-LEMERY_MT_2C
+    code: CANDIDACY-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-LEMERY_MT_2C
     attributes:
       status: active
       participation: active
@@ -92,25 +92,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_LEVY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-LEMERY_MT_2C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEVY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-LEVY
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEVY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEVY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEVY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-HODGE_TM_7F
     attributes:
@@ -119,7 +119,7 @@ groups:
       first_name: Tim
       last_name: Hodge
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEVY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-HODGE_TM_7F
+    code: CANDIDACY-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-HODGE_TM_7F
     attributes:
       status: active
       participation: active
@@ -128,7 +128,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_LEVY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-HODGE_TM_7F
 - records:
   - type: Office
@@ -164,21 +164,21 @@ groups:
       person: PERSON-BUSTAMANTE_LS_5J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-LEVY
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEVY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-ASBELL_CM_6R
     attributes:
@@ -187,30 +187,30 @@ groups:
       first_name: Cameron
       last_name: Asbell
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEVY-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-ASBELL_CM_6R
+    code: CANDIDACY-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-ASBELL_CM_6R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-ASBELL_CM_6R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-LEVY
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEVY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-HANDLIN_JM_2D
     attributes:
@@ -219,30 +219,30 @@ groups:
       first_name: Jaime
       last_name: Handlin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEVY-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-HANDLIN_JM_2D
+    code: CANDIDACY-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-HANDLIN_JM_2D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-HANDLIN_JM_2D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-LEVY
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEVY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-WHITEHURST_DV_6R
     attributes:
@@ -251,10 +251,10 @@ groups:
       first_name: Devin
       last_name: Whitehurst
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEVY-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-WHITEHURST_DV_6R
+    code: CANDIDACY-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-WHITEHURST_DV_6R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-WHITEHURST_DV_6R

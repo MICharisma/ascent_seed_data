@@ -21,21 +21,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SPOTSYLVANIA-COMMISSIONER_OF_REVENUE-SPOTSYLVANIA_COUNTY
+    code: OFFICE-USA-VA-COUNTY_SPOTSYLVANIA-COMMISSIONER_OF_REVENUE
     attributes:
-      seat_code: SPOTSYLVANIA_COUNTY
       is_active: true
     references:
       position: POSITION-COMMISSIONER_OF_REVENUE
       jurisdiction: COUNTY-USA-VA-SPOTSYLVANIA
   - type: Race
-    code: RACE-USA-VA-COUNTY_SPOTSYLVANIA-COMMISSIONER_OF_REVENUE-SPOTSYLVANIA_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_SPOTSYLVANIA-COMMISSIONER_OF_REVENUE-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_SPOTSYLVANIA-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_SPOTSYLVANIA-COMMISSIONER_OF_REVENUE-SPOTSYLVANIA_COUNTY
+      office: OFFICE-USA-VA-COUNTY_SPOTSYLVANIA-COMMISSIONER_OF_REVENUE
   - type: Person
     code: PERSON-YAKABOUSKI_CH_9W
     attributes:
@@ -45,12 +44,12 @@ groups:
       middle_name: J. "Yak"
       last_name: Yakabouski
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SPOTSYLVANIA-COMMISSIONER_OF_REVENUE-SPOTSYLVANIA_COUNTY-2026_SPECIAL-YAKABOUSKI_CH_9W
+    code: CANDIDACY-USA-VA-COUNTY_SPOTSYLVANIA-COMMISSIONER_OF_REVENUE-2026_SPECIAL-YAKABOUSKI_CH_9W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SPOTSYLVANIA-COMMISSIONER_OF_REVENUE-SPOTSYLVANIA_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_SPOTSYLVANIA-COMMISSIONER_OF_REVENUE-2026_SPECIAL
       person: PERSON-YAKABOUSKI_CH_9W
   - type: Person
     code: PERSON-BOWMAN_SH_2T
@@ -61,10 +60,10 @@ groups:
       middle_name: Marcellous
       last_name: Bowman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SPOTSYLVANIA-COMMISSIONER_OF_REVENUE-SPOTSYLVANIA_COUNTY-2026_SPECIAL-BOWMAN_SH_2T
+    code: CANDIDACY-USA-VA-COUNTY_SPOTSYLVANIA-COMMISSIONER_OF_REVENUE-2026_SPECIAL-BOWMAN_SH_2T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SPOTSYLVANIA-COMMISSIONER_OF_REVENUE-SPOTSYLVANIA_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_SPOTSYLVANIA-COMMISSIONER_OF_REVENUE-2026_SPECIAL
       person: PERSON-BOWMAN_SH_2T

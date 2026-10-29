@@ -1,0 +1,26 @@
+name: Validate seed contributions
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: tools/requirements.txt
+      - run: python -m pip install -r tools/requirements.txt
+      # A nonzero exit or a FAILED test summary fails the job. Discovery must run the validator tests.
+      - run: python -m unittest discover -s tools -p 'test_*.py' -v
+      # A nonzero exit or nonzero failed count rejects the contribution. Empty selection also fails.
+      - run: python tools/seed_contract.py validate manifests examples
+      - run: python tools/seed_contract.py export-catalog --check

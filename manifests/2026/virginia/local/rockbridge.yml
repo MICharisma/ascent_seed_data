@@ -7,16 +7,16 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_ROCKBRIDGE-2026_GENERAL
+  code: ELECTION-USA-VA-GOSHEN-2026_GENERAL
   attributes:
-    name: Rockbridge County General Election 2026
+    name: Goshen General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-ROCKBRIDGE
+    jurisdiction: MUNICIPALITY-USA-VA-GOSHEN
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-VA-COUNTY_ROCKBRIDGE-2026_SPECIAL
@@ -30,24 +30,35 @@ records:
   references:
     jurisdiction: COUNTY-USA-VA-ROCKBRIDGE
     year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-GLASGOW-2026_GENERAL
+  attributes:
+    name: Glasgow General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-GLASGOW
+    year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKBRIDGE-MAYOR_GOSHEN-TOWN_OF_GOSHEN
+    code: OFFICE-USA-VA-GOSHEN-MAYOR
     attributes:
-      seat_code: TOWN_OF_GOSHEN
       is_active: true
     references:
-      position: POSITION-MAYOR_GOSHEN
-      jurisdiction: COUNTY-USA-VA-ROCKBRIDGE
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-GOSHEN
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKBRIDGE-MAYOR_GOSHEN-TOWN_OF_GOSHEN-2026_GENERAL
+    code: RACE-USA-VA-GOSHEN-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ROCKBRIDGE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ROCKBRIDGE-MAYOR_GOSHEN-TOWN_OF_GOSHEN
+      election: ELECTION-USA-VA-GOSHEN-2026_GENERAL
+      office: OFFICE-USA-VA-GOSHEN-MAYOR
   - type: Person
     code: PERSON-MCCRAW_TH_9W
     attributes:
@@ -57,30 +68,30 @@ groups:
       middle_name: O.
       last_name: McCraw
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKBRIDGE-MAYOR_GOSHEN-TOWN_OF_GOSHEN-2026_GENERAL-MCCRAW_TH_9W
+    code: CANDIDACY-USA-VA-GOSHEN-MAYOR-2026_GENERAL-MCCRAW_TH_9W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKBRIDGE-MAYOR_GOSHEN-TOWN_OF_GOSHEN-2026_GENERAL
+      race: RACE-USA-VA-GOSHEN-MAYOR-2026_GENERAL
       person: PERSON-MCCRAW_TH_9W
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_BOARD_OF_SUPERVISORS-WALKERS_CREEK_DISTRICT
+    code: OFFICE-USA-VA-COUNTY_ROCKBRIDGE-COUNTY_SUPERVISOR-WALKERS_CREEK_DISTRICT
     attributes:
       seat_code: WALKERS_CREEK_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_BOARD_OF_SUPERVISORS
+      position: POSITION-COUNTY_SUPERVISOR
       jurisdiction: COUNTY-USA-VA-ROCKBRIDGE
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_BOARD_OF_SUPERVISORS-WALKERS_CREEK_DISTRICT-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_ROCKBRIDGE-COUNTY_SUPERVISOR-WALKERS_CREEK_DISTRICT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_ROCKBRIDGE-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_BOARD_OF_SUPERVISORS-WALKERS_CREEK_DISTRICT
+      office: OFFICE-USA-VA-COUNTY_ROCKBRIDGE-COUNTY_SUPERVISOR-WALKERS_CREEK_DISTRICT
   - type: Person
     code: PERSON-BROWN_J_9H
     attributes:
@@ -90,30 +101,29 @@ groups:
       middle_name: Toria
       last_name: Brown
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_BOARD_OF_SUPERVISORS-WALKERS_CREEK_DISTRICT-2026_SPECIAL-BROWN_J_9H
+    code: CANDIDACY-USA-VA-COUNTY_ROCKBRIDGE-COUNTY_SUPERVISOR-WALKERS_CREEK_DISTRICT-2026_SPECIAL-BROWN_J_9H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_BOARD_OF_SUPERVISORS-WALKERS_CREEK_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_ROCKBRIDGE-COUNTY_SUPERVISOR-WALKERS_CREEK_DISTRICT-2026_SPECIAL
       person: PERSON-BROWN_J_9H
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GLASGOW-TOWN_OF_GLASGOW
+    code: OFFICE-USA-VA-GLASGOW-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_GLASGOW
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_GLASGOW
-      jurisdiction: COUNTY-USA-VA-ROCKBRIDGE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-GLASGOW
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GLASGOW-TOWN_OF_GLASGOW-2026_GENERAL
+    code: RACE-USA-VA-GLASGOW-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ROCKBRIDGE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GLASGOW-TOWN_OF_GLASGOW
+      election: ELECTION-USA-VA-GLASGOW-2026_GENERAL
+      office: OFFICE-USA-VA-GLASGOW-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BRANCH_BR_9Q
     attributes:
@@ -123,12 +133,12 @@ groups:
       middle_name: B.
       last_name: Branch
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GLASGOW-TOWN_OF_GLASGOW-2026_GENERAL-BRANCH_BR_9Q
+    code: CANDIDACY-USA-VA-GLASGOW-COUNCIL_MEMBER-2026_GENERAL-BRANCH_BR_9Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GLASGOW-TOWN_OF_GLASGOW-2026_GENERAL
+      race: RACE-USA-VA-GLASGOW-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BRANCH_BR_9Q
   - type: Person
     code: PERSON-HARRIS_NT_2V
@@ -139,12 +149,12 @@ groups:
       middle_name: H.
       last_name: Harris
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GLASGOW-TOWN_OF_GLASGOW-2026_GENERAL-HARRIS_NT_2V
+    code: CANDIDACY-USA-VA-GLASGOW-COUNCIL_MEMBER-2026_GENERAL-HARRIS_NT_2V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GLASGOW-TOWN_OF_GLASGOW-2026_GENERAL
+      race: RACE-USA-VA-GLASGOW-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HARRIS_NT_2V
   - type: Person
     code: PERSON-SPRINGER_KR_7P
@@ -155,12 +165,12 @@ groups:
       middle_name: K.
       last_name: Springer
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GLASGOW-TOWN_OF_GLASGOW-2026_GENERAL-SPRINGER_KR_7P
+    code: CANDIDACY-USA-VA-GLASGOW-COUNCIL_MEMBER-2026_GENERAL-SPRINGER_KR_7P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GLASGOW-TOWN_OF_GLASGOW-2026_GENERAL
+      race: RACE-USA-VA-GLASGOW-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SPRINGER_KR_7P
   - type: Person
     code: PERSON-HILL_MR_6E
@@ -171,30 +181,29 @@ groups:
       middle_name: Knick
       last_name: Hill
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GLASGOW-TOWN_OF_GLASGOW-2026_GENERAL-HILL_MR_6E
+    code: CANDIDACY-USA-VA-GLASGOW-COUNCIL_MEMBER-2026_GENERAL-HILL_MR_6E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GLASGOW-TOWN_OF_GLASGOW-2026_GENERAL
+      race: RACE-USA-VA-GLASGOW-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HILL_MR_6E
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GOSHEN-TOWN_OF_GOSHEN
+    code: OFFICE-USA-VA-GOSHEN-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_GOSHEN
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_GOSHEN
-      jurisdiction: COUNTY-USA-VA-ROCKBRIDGE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-GOSHEN
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GOSHEN-TOWN_OF_GOSHEN-2026_GENERAL
+    code: RACE-USA-VA-GOSHEN-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ROCKBRIDGE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GOSHEN-TOWN_OF_GOSHEN
+      election: ELECTION-USA-VA-GOSHEN-2026_GENERAL
+      office: OFFICE-USA-VA-GOSHEN-COUNCIL_MEMBER
   - type: Person
     code: PERSON-SHAFFER_JF_7L
     attributes:
@@ -204,12 +213,12 @@ groups:
       middle_name: H.
       last_name: Shaffer
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GOSHEN-TOWN_OF_GOSHEN-2026_GENERAL-SHAFFER_JF_7L
+    code: CANDIDACY-USA-VA-GOSHEN-COUNCIL_MEMBER-2026_GENERAL-SHAFFER_JF_7L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GOSHEN-TOWN_OF_GOSHEN-2026_GENERAL
+      race: RACE-USA-VA-GOSHEN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SHAFFER_JF_7L
   - type: Person
     code: PERSON-ROBERTSON_DV_9W
@@ -220,12 +229,12 @@ groups:
       middle_name: '"Chris"'
       last_name: Robertson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GOSHEN-TOWN_OF_GOSHEN-2026_GENERAL-ROBERTSON_DV_9W
+    code: CANDIDACY-USA-VA-GOSHEN-COUNCIL_MEMBER-2026_GENERAL-ROBERTSON_DV_9W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GOSHEN-TOWN_OF_GOSHEN-2026_GENERAL
+      race: RACE-USA-VA-GOSHEN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ROBERTSON_DV_9W
   - type: Person
     code: PERSON-OGDEN_DR_4B
@@ -236,12 +245,12 @@ groups:
       middle_name: G.
       last_name: Ogden
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GOSHEN-TOWN_OF_GOSHEN-2026_GENERAL-OGDEN_DR_4B
+    code: CANDIDACY-USA-VA-GOSHEN-COUNCIL_MEMBER-2026_GENERAL-OGDEN_DR_4B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GOSHEN-TOWN_OF_GOSHEN-2026_GENERAL
+      race: RACE-USA-VA-GOSHEN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-OGDEN_DR_4B
   - type: Person
     code: PERSON-HICKS_MC_6G
@@ -252,10 +261,10 @@ groups:
       middle_name: E.
       last_name: Hicks
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GOSHEN-TOWN_OF_GOSHEN-2026_GENERAL-HICKS_MC_6G
+    code: CANDIDACY-USA-VA-GOSHEN-COUNCIL_MEMBER-2026_GENERAL-HICKS_MC_6G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKBRIDGE-MEMBER_TOWN_COUNCIL_GOSHEN-TOWN_OF_GOSHEN-2026_GENERAL
+      race: RACE-USA-VA-GOSHEN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HICKS_MC_6G

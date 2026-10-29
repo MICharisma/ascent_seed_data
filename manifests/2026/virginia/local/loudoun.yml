@@ -7,35 +7,70 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_LOUDOUN-2026_GENERAL
+  code: ELECTION-USA-VA-LEESBURG-2026_GENERAL
   attributes:
-    name: Loudoun County General Election 2026
+    name: Leesburg General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-LOUDOUN
+    jurisdiction: MUNICIPALITY-USA-VA-LEESBURG
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-LOVETTSVILLE-2026_GENERAL
+  attributes:
+    name: Lovettsville General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-LOVETTSVILLE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-PURCELLVILLE-2026_GENERAL
+  attributes:
+    name: Purcellville General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-PURCELLVILLE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-HAMILTON-2026_GENERAL
+  attributes:
+    name: Hamilton General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-HAMILTON
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LOUDOUN-MAYOR_LEESBURG-TOWN_OF_LEESBURG
+    code: OFFICE-USA-VA-LEESBURG-MAYOR
     attributes:
-      seat_code: TOWN_OF_LEESBURG
       is_active: true
     references:
-      position: POSITION-MAYOR_LEESBURG
-      jurisdiction: COUNTY-USA-VA-LOUDOUN
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-LEESBURG
   - type: Race
-    code: RACE-USA-VA-COUNTY_LOUDOUN-MAYOR_LEESBURG-TOWN_OF_LEESBURG-2026_GENERAL
+    code: RACE-USA-VA-LEESBURG-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LOUDOUN-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LOUDOUN-MAYOR_LEESBURG-TOWN_OF_LEESBURG
+      election: ELECTION-USA-VA-LEESBURG-2026_GENERAL
+      office: OFFICE-USA-VA-LEESBURG-MAYOR
   - type: Person
     code: PERSON-BURK_C_4H
     attributes:
@@ -45,30 +80,29 @@ groups:
       middle_name: B. "Kelly"
       last_name: Burk
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MAYOR_LEESBURG-TOWN_OF_LEESBURG-2026_GENERAL-BURK_C_4H
+    code: CANDIDACY-USA-VA-LEESBURG-MAYOR-2026_GENERAL-BURK_C_4H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MAYOR_LEESBURG-TOWN_OF_LEESBURG-2026_GENERAL
+      race: RACE-USA-VA-LEESBURG-MAYOR-2026_GENERAL
       person: PERSON-BURK_C_4H
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LOUDOUN-MAYOR_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE
+    code: OFFICE-USA-VA-LOVETTSVILLE-MAYOR
     attributes:
-      seat_code: TOWN_OF_LOVETTSVILLE
       is_active: true
     references:
-      position: POSITION-MAYOR_LOVETTSVILLE
-      jurisdiction: COUNTY-USA-VA-LOUDOUN
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-LOVETTSVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_LOUDOUN-MAYOR_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE-2026_GENERAL
+    code: RACE-USA-VA-LOVETTSVILLE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LOUDOUN-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LOUDOUN-MAYOR_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE
+      election: ELECTION-USA-VA-LOVETTSVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-LOVETTSVILLE-MAYOR
   - type: Person
     code: PERSON-GRACE_CH_3L
     attributes:
@@ -78,12 +112,12 @@ groups:
       middle_name: M.
       last_name: Grace
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MAYOR_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE-2026_GENERAL-GRACE_CH_3L
+    code: CANDIDACY-USA-VA-LOVETTSVILLE-MAYOR-2026_GENERAL-GRACE_CH_3L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MAYOR_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE-2026_GENERAL
+      race: RACE-USA-VA-LOVETTSVILLE-MAYOR-2026_GENERAL
       person: PERSON-GRACE_CH_3L
   - type: Person
     code: PERSON-HORNBAKER_CH_8X
@@ -94,30 +128,29 @@ groups:
       middle_name: M.
       last_name: Hornbaker
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MAYOR_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE-2026_GENERAL-HORNBAKER_CH_8X
+    code: CANDIDACY-USA-VA-LOVETTSVILLE-MAYOR-2026_GENERAL-HORNBAKER_CH_8X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MAYOR_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE-2026_GENERAL
+      race: RACE-USA-VA-LOVETTSVILLE-MAYOR-2026_GENERAL
       person: PERSON-HORNBAKER_CH_8X
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LOUDOUN-MAYOR_PURCELLVILLE-TOWN_OF_PURCELLVILLE
+    code: OFFICE-USA-VA-PURCELLVILLE-MAYOR
     attributes:
-      seat_code: TOWN_OF_PURCELLVILLE
       is_active: true
     references:
-      position: POSITION-MAYOR_PURCELLVILLE
-      jurisdiction: COUNTY-USA-VA-LOUDOUN
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-PURCELLVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_LOUDOUN-MAYOR_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL
+    code: RACE-USA-VA-PURCELLVILLE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LOUDOUN-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LOUDOUN-MAYOR_PURCELLVILLE-TOWN_OF_PURCELLVILLE
+      election: ELECTION-USA-VA-PURCELLVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-PURCELLVILLE-MAYOR
   - type: Person
     code: PERSON-BERTAUT_CH_9X
     attributes:
@@ -127,12 +160,12 @@ groups:
       middle_name: M.
       last_name: Bertaut
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MAYOR_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL-BERTAUT_CH_9X
+    code: CANDIDACY-USA-VA-PURCELLVILLE-MAYOR-2026_GENERAL-BERTAUT_CH_9X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MAYOR_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL
+      race: RACE-USA-VA-PURCELLVILLE-MAYOR-2026_GENERAL
       person: PERSON-BERTAUT_CH_9X
   - type: Person
     code: PERSON-RAYNER_ER_3K
@@ -143,30 +176,29 @@ groups:
       middle_name: K.
       last_name: Rayner
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MAYOR_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL-RAYNER_ER_3K
+    code: CANDIDACY-USA-VA-PURCELLVILLE-MAYOR-2026_GENERAL-RAYNER_ER_3K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MAYOR_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL
+      race: RACE-USA-VA-PURCELLVILLE-MAYOR-2026_GENERAL
       person: PERSON-RAYNER_ER_3K
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_HAMILTON-TOWN_OF_HAMILTON
+    code: OFFICE-USA-VA-HAMILTON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_HAMILTON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_HAMILTON
-      jurisdiction: COUNTY-USA-VA-LOUDOUN
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-HAMILTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_HAMILTON-TOWN_OF_HAMILTON-2026_GENERAL
+    code: RACE-USA-VA-HAMILTON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LOUDOUN-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_HAMILTON-TOWN_OF_HAMILTON
+      election: ELECTION-USA-VA-HAMILTON-2026_GENERAL
+      office: OFFICE-USA-VA-HAMILTON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-SALTER_CT_3K
     attributes:
@@ -176,12 +208,12 @@ groups:
       middle_name: E.
       last_name: Salter
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_HAMILTON-TOWN_OF_HAMILTON-2026_GENERAL-SALTER_CT_3K
+    code: CANDIDACY-USA-VA-HAMILTON-COUNCIL_MEMBER-2026_GENERAL-SALTER_CT_3K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_HAMILTON-TOWN_OF_HAMILTON-2026_GENERAL
+      race: RACE-USA-VA-HAMILTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SALTER_CT_3K
   - type: Person
     code: PERSON-GREEN_CR_3T
@@ -192,12 +224,12 @@ groups:
       middle_name: M.
       last_name: Green
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_HAMILTON-TOWN_OF_HAMILTON-2026_GENERAL-GREEN_CR_3T
+    code: CANDIDACY-USA-VA-HAMILTON-COUNCIL_MEMBER-2026_GENERAL-GREEN_CR_3T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_HAMILTON-TOWN_OF_HAMILTON-2026_GENERAL
+      race: RACE-USA-VA-HAMILTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GREEN_CR_3T
   - type: Person
     code: PERSON-JONES_RB_8Y
@@ -208,30 +240,29 @@ groups:
       middle_name: A.
       last_name: Jones
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_HAMILTON-TOWN_OF_HAMILTON-2026_GENERAL-JONES_RB_8Y
+    code: CANDIDACY-USA-VA-HAMILTON-COUNCIL_MEMBER-2026_GENERAL-JONES_RB_8Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_HAMILTON-TOWN_OF_HAMILTON-2026_GENERAL
+      race: RACE-USA-VA-HAMILTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-JONES_RB_8Y
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LEESBURG-TOWN_OF_LEESBURG
+    code: OFFICE-USA-VA-LEESBURG-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_LEESBURG
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_LEESBURG
-      jurisdiction: COUNTY-USA-VA-LOUDOUN
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-LEESBURG
   - type: Race
-    code: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LEESBURG-TOWN_OF_LEESBURG-2026_GENERAL
+    code: RACE-USA-VA-LEESBURG-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LOUDOUN-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LEESBURG-TOWN_OF_LEESBURG
+      election: ELECTION-USA-VA-LEESBURG-2026_GENERAL
+      office: OFFICE-USA-VA-LEESBURG-COUNCIL_MEMBER
   - type: Person
     code: PERSON-MURPHY_BR_3S
     attributes:
@@ -241,12 +272,12 @@ groups:
       middle_name: W.
       last_name: Murphy
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LEESBURG-TOWN_OF_LEESBURG-2026_GENERAL-MURPHY_BR_3S
+    code: CANDIDACY-USA-VA-LEESBURG-COUNCIL_MEMBER-2026_GENERAL-MURPHY_BR_3S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LEESBURG-TOWN_OF_LEESBURG-2026_GENERAL
+      race: RACE-USA-VA-LEESBURG-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MURPHY_BR_3S
   - type: Person
     code: PERSON-STEINBERG_NL_8N
@@ -257,12 +288,12 @@ groups:
       middle_name: R.
       last_name: Steinberg
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LEESBURG-TOWN_OF_LEESBURG-2026_GENERAL-STEINBERG_NL_8N
+    code: CANDIDACY-USA-VA-LEESBURG-COUNCIL_MEMBER-2026_GENERAL-STEINBERG_NL_8N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LEESBURG-TOWN_OF_LEESBURG-2026_GENERAL
+      race: RACE-USA-VA-LEESBURG-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-STEINBERG_NL_8N
   - type: Person
     code: PERSON-CIMINO_JOHNSON_TD_9S
@@ -273,30 +304,29 @@ groups:
       middle_name: A.
       last_name: Cimino-Johnson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LEESBURG-TOWN_OF_LEESBURG-2026_GENERAL-CIMINO_JOHNSON_TD_9S
+    code: CANDIDACY-USA-VA-LEESBURG-COUNCIL_MEMBER-2026_GENERAL-CIMINO_JOHNSON_TD_9S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LEESBURG-TOWN_OF_LEESBURG-2026_GENERAL
+      race: RACE-USA-VA-LEESBURG-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CIMINO_JOHNSON_TD_9S
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE
+    code: OFFICE-USA-VA-LOVETTSVILLE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_LOVETTSVILLE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_LOVETTSVILLE
-      jurisdiction: COUNTY-USA-VA-LOUDOUN
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-LOVETTSVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE-2026_GENERAL
+    code: RACE-USA-VA-LOVETTSVILLE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LOUDOUN-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE
+      election: ELECTION-USA-VA-LOVETTSVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-LOVETTSVILLE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-MCCRORY_JR_9X
     attributes:
@@ -306,12 +336,12 @@ groups:
       middle_name: T.
       last_name: McCrory
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE-2026_GENERAL-MCCRORY_JR_9X
+    code: CANDIDACY-USA-VA-LOVETTSVILLE-COUNCIL_MEMBER-2026_GENERAL-MCCRORY_JR_9X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE-2026_GENERAL
+      race: RACE-USA-VA-LOVETTSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MCCRORY_JR_9X
   - type: Person
     code: PERSON-COX_MG_9Q
@@ -322,12 +352,12 @@ groups:
       middle_name: E.
       last_name: Cox
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE-2026_GENERAL-COX_MG_9Q
+    code: CANDIDACY-USA-VA-LOVETTSVILLE-COUNCIL_MEMBER-2026_GENERAL-COX_MG_9Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE-2026_GENERAL
+      race: RACE-USA-VA-LOVETTSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-COX_MG_9Q
   - type: Person
     code: PERSON-PICO_PL_7A
@@ -338,12 +368,12 @@ groups:
       middle_name: Richard
       last_name: Pico
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE-2026_GENERAL-PICO_PL_7A
+    code: CANDIDACY-USA-VA-LOVETTSVILLE-COUNCIL_MEMBER-2026_GENERAL-PICO_PL_7A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE-2026_GENERAL
+      race: RACE-USA-VA-LOVETTSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PICO_PL_7A
   - type: Person
     code: PERSON-HILL_RB_7Z
@@ -354,30 +384,29 @@ groups:
       middle_name: R. "Rob"
       last_name: Hill, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE-2026_GENERAL-HILL_RB_7Z
+    code: CANDIDACY-USA-VA-LOVETTSVILLE-COUNCIL_MEMBER-2026_GENERAL-HILL_RB_7Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_LOVETTSVILLE-TOWN_OF_LOVETTSVILLE-2026_GENERAL
+      race: RACE-USA-VA-LOVETTSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HILL_RB_7Z
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_PURCELLVILLE-TOWN_OF_PURCELLVILLE
+    code: OFFICE-USA-VA-PURCELLVILLE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_PURCELLVILLE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_PURCELLVILLE
-      jurisdiction: COUNTY-USA-VA-LOUDOUN
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-PURCELLVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL
+    code: RACE-USA-VA-PURCELLVILLE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LOUDOUN-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_PURCELLVILLE-TOWN_OF_PURCELLVILLE
+      election: ELECTION-USA-VA-PURCELLVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-PURCELLVILLE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-PARIS_GR_5A
     attributes:
@@ -387,12 +416,12 @@ groups:
       middle_name: F.
       last_name: Paris
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL-PARIS_GR_5A
+    code: CANDIDACY-USA-VA-PURCELLVILLE-COUNCIL_MEMBER-2026_GENERAL-PARIS_GR_5A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL
+      race: RACE-USA-VA-PURCELLVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PARIS_GR_5A
   - type: Person
     code: PERSON-BROWN_H_4X
@@ -403,12 +432,12 @@ groups:
       middle_name: Sam
       last_name: Brown, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL-BROWN_H_4X
+    code: CANDIDACY-USA-VA-PURCELLVILLE-COUNCIL_MEMBER-2026_GENERAL-BROWN_H_4X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL
+      race: RACE-USA-VA-PURCELLVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BROWN_H_4X
   - type: Person
     code: PERSON-SPECKHARDT_HN_4D
@@ -419,12 +448,12 @@ groups:
       middle_name: J.
       last_name: Speckhardt
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL-SPECKHARDT_HN_4D
+    code: CANDIDACY-USA-VA-PURCELLVILLE-COUNCIL_MEMBER-2026_GENERAL-SPECKHARDT_HN_4D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL
+      race: RACE-USA-VA-PURCELLVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SPECKHARDT_HN_4D
   - type: Person
     code: PERSON-WRIGHT_KV_9T
@@ -435,12 +464,12 @@ groups:
       middle_name: B.
       last_name: Wright
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL-WRIGHT_KV_9T
+    code: CANDIDACY-USA-VA-PURCELLVILLE-COUNCIL_MEMBER-2026_GENERAL-WRIGHT_KV_9T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL
+      race: RACE-USA-VA-PURCELLVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WRIGHT_KV_9T
   - type: Person
     code: PERSON-SEIPT_MT_7Z
@@ -451,12 +480,12 @@ groups:
       middle_name: S.
       last_name: Seipt
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL-SEIPT_MT_7Z
+    code: CANDIDACY-USA-VA-PURCELLVILLE-COUNCIL_MEMBER-2026_GENERAL-SEIPT_MT_7Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL
+      race: RACE-USA-VA-PURCELLVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SEIPT_MT_7Z
   - type: Person
     code: PERSON-MCCRAY_PL_2M
@@ -467,10 +496,10 @@ groups:
       middle_name: E.
       last_name: McCray
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL-MCCRAY_PL_2M
+    code: CANDIDACY-USA-VA-PURCELLVILLE-COUNCIL_MEMBER-2026_GENERAL-MCCRAY_PL_2M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUDOUN-MEMBER_TOWN_COUNCIL_PURCELLVILLE-TOWN_OF_PURCELLVILLE-2026_GENERAL
+      race: RACE-USA-VA-PURCELLVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MCCRAY_PL_2M

@@ -141,22 +141,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-NY-GLENS_FALLS-CITY_COURT_JUDGE-CITY_OF_GLENS_FALLS
+    code: OFFICE-USA-NY-GLENS_FALLS-CITY_COURT_JUDGE
     attributes:
-      seat_code: CITY_OF_GLENS_FALLS
       is_active: true
     references:
-      position: POSITION-CITY_COURT_JUDGE_2
+      position: POSITION-CITY_COURT_JUDGE
       jurisdiction: MUNICIPALITY-USA-NY-GLENS_FALLS
   - type: Race
-    code: RACE-USA-NY-GLENS_FALLS-CITY_COURT_JUDGE-CITY_OF_GLENS_FALLS-2026_GENERAL
+    code: RACE-USA-NY-GLENS_FALLS-CITY_COURT_JUDGE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—10-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-GLENS_FALLS-2026_GENERAL
-      office: OFFICE-USA-NY-GLENS_FALLS-CITY_COURT_JUDGE-CITY_OF_GLENS_FALLS
+      office: OFFICE-USA-NY-GLENS_FALLS-CITY_COURT_JUDGE
   - type: Person
     code: PERSON-PILATZKE_BR_3L
     attributes:
@@ -165,7 +164,7 @@ groups:
       first_name: Brian
       last_name: Pilatzke
   - type: Candidacy
-    code: CANDIDACY-USA-NY-GLENS_FALLS-CITY_COURT_JUDGE-CITY_OF_GLENS_FALLS-2026_GENERAL-PILATZKE_BR_3L
+    code: CANDIDACY-USA-NY-GLENS_FALLS-CITY_COURT_JUDGE-2026_GENERAL-PILATZKE_BR_3L
     attributes:
       status: active
       participation: active
@@ -173,7 +172,7 @@ groups:
       - label: Democrat
         kind: designation
     references:
-      race: RACE-USA-NY-GLENS_FALLS-CITY_COURT_JUDGE-CITY_OF_GLENS_FALLS-2026_GENERAL
+      race: RACE-USA-NY-GLENS_FALLS-CITY_COURT_JUDGE-2026_GENERAL
       person: PERSON-PILATZKE_BR_3L
   - type: Person
     code: PERSON-ELMEN_LR_6P
@@ -183,7 +182,7 @@ groups:
       first_name: Larry
       last_name: Elmen
   - type: Candidacy
-    code: CANDIDACY-USA-NY-GLENS_FALLS-CITY_COURT_JUDGE-CITY_OF_GLENS_FALLS-2026_GENERAL-ELMEN_LR_6P
+    code: CANDIDACY-USA-NY-GLENS_FALLS-CITY_COURT_JUDGE-2026_GENERAL-ELMEN_LR_6P
     attributes:
       status: active
       participation: active
@@ -195,26 +194,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-GLENS_FALLS-CITY_COURT_JUDGE-CITY_OF_GLENS_FALLS-2026_GENERAL
+      race: RACE-USA-NY-GLENS_FALLS-CITY_COURT_JUDGE-2026_GENERAL
       person: PERSON-ELMEN_LR_6P
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WARREN-COUNTY_CORONER-WARREN_COUNTY
+    code: OFFICE-USA-NY-COUNTY_WARREN-CORONER
     attributes:
-      seat_code: WARREN_COUNTY
       is_active: true
     references:
-      position: POSITION-COUNTY_CORONER
+      position: POSITION-CORONER
       jurisdiction: COUNTY-USA-NY-WARREN
   - type: Race
-    code: RACE-USA-NY-COUNTY_WARREN-COUNTY_CORONER-WARREN_COUNTY-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_WARREN-CORONER-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for up to 2—3-year term(s). Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_WARREN-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WARREN-COUNTY_CORONER-WARREN_COUNTY
+      office: OFFICE-USA-NY-COUNTY_WARREN-CORONER
   - type: Person
     code: PERSON-GOEDERT_CN_4A
     attributes:
@@ -223,7 +221,7 @@ groups:
       first_name: Connie
       last_name: Goedert
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WARREN-COUNTY_CORONER-WARREN_COUNTY-2026_GENERAL-GOEDERT_CN_4A
+    code: CANDIDACY-USA-NY-COUNTY_WARREN-CORONER-2026_GENERAL-GOEDERT_CN_4A
     attributes:
       status: active
       participation: active
@@ -232,7 +230,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_WARREN-COUNTY_CORONER-WARREN_COUNTY-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_WARREN-CORONER-2026_GENERAL
       person: PERSON-GOEDERT_CN_4A
   - type: Person
     code: PERSON-KEIL_LY_3U
@@ -242,7 +240,7 @@ groups:
       first_name: Lynn
       last_name: Keil
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WARREN-COUNTY_CORONER-WARREN_COUNTY-2026_GENERAL-KEIL_LY_3U
+    code: CANDIDACY-USA-NY-COUNTY_WARREN-CORONER-2026_GENERAL-KEIL_LY_3U
     attributes:
       status: active
       participation: active
@@ -251,26 +249,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_WARREN-COUNTY_CORONER-WARREN_COUNTY-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_WARREN-CORONER-2026_GENERAL
       person: PERSON-KEIL_LY_3U
 - records:
   - type: Office
-    code: OFFICE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR_AT_LARGE-TOWN_OF_QUEENSBURY
+    code: OFFICE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR-AT_LARGE
     attributes:
-      seat_code: TOWN_OF_QUEENSBURY
+      seat_code: AT_LARGE
       is_active: true
     references:
-      position: POSITION-COUNTY_SUPERVISOR_AT_LARGE
+      position: POSITION-COUNTY_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-QUEENSBURY
   - type: Race
-    code: RACE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR_AT_LARGE-TOWN_OF_QUEENSBURY-2026_GENERAL
+    code: RACE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR-AT_LARGE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for up to 4—2-year term(s). Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-QUEENSBURY-2026_GENERAL
-      office: OFFICE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR_AT_LARGE-TOWN_OF_QUEENSBURY
+      office: OFFICE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR-AT_LARGE
   - type: Person
     code: PERSON-STARK_BR_7N
     attributes:
@@ -279,7 +277,7 @@ groups:
       first_name: Brady
       last_name: Stark
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR_AT_LARGE-TOWN_OF_QUEENSBURY-2026_GENERAL-STARK_BR_7N
+    code: CANDIDACY-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR-AT_LARGE-2026_GENERAL-STARK_BR_7N
     attributes:
       status: active
       participation: active
@@ -291,7 +289,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR_AT_LARGE-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR-AT_LARGE-2026_GENERAL
       person: PERSON-STARK_BR_7N
   - type: Person
     code: PERSON-STRAINER_DV_5C
@@ -301,7 +299,7 @@ groups:
       first_name: David
       last_name: Strainer
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR_AT_LARGE-TOWN_OF_QUEENSBURY-2026_GENERAL-STRAINER_DV_5C
+    code: CANDIDACY-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR-AT_LARGE-2026_GENERAL-STRAINER_DV_5C
     attributes:
       status: active
       participation: active
@@ -311,7 +309,7 @@ groups:
       - label: QBY Work Together
         kind: designation
     references:
-      race: RACE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR_AT_LARGE-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR-AT_LARGE-2026_GENERAL
       person: PERSON-STRAINER_DV_5C
   - type: Person
     code: PERSON-BEATY_DG_8M
@@ -321,7 +319,7 @@ groups:
       first_name: Doug
       last_name: Beaty
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR_AT_LARGE-TOWN_OF_QUEENSBURY-2026_GENERAL-BEATY_DG_8M
+    code: CANDIDACY-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR-AT_LARGE-2026_GENERAL-BEATY_DG_8M
     attributes:
       status: active
       participation: active
@@ -333,7 +331,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR_AT_LARGE-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR-AT_LARGE-2026_GENERAL
       person: PERSON-BEATY_DG_8M
   - type: Person
     code: PERSON-CLARK_LN_7Q
@@ -343,7 +341,7 @@ groups:
       first_name: Linda
       last_name: Clark
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR_AT_LARGE-TOWN_OF_QUEENSBURY-2026_GENERAL-CLARK_LN_7Q
+    code: CANDIDACY-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR-AT_LARGE-2026_GENERAL-CLARK_LN_7Q
     attributes:
       status: active
       participation: active
@@ -354,7 +352,7 @@ groups:
       - label: Vote Affordable
         kind: designation
     references:
-      race: RACE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR_AT_LARGE-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR-AT_LARGE-2026_GENERAL
       person: PERSON-CLARK_LN_7Q
   - type: Person
     code: PERSON-PARWANA_MK_9W
@@ -364,7 +362,7 @@ groups:
       first_name: Mike
       last_name: Parwana
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR_AT_LARGE-TOWN_OF_QUEENSBURY-2026_GENERAL-PARWANA_MK_9W
+    code: CANDIDACY-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR-AT_LARGE-2026_GENERAL-PARWANA_MK_9W
     attributes:
       status: active
       participation: active
@@ -374,7 +372,7 @@ groups:
       - label: QBY Work Together
         kind: designation
     references:
-      race: RACE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR_AT_LARGE-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR-AT_LARGE-2026_GENERAL
       person: PERSON-PARWANA_MK_9W
   - type: Person
     code: PERSON-ETU_NT_8K
@@ -384,7 +382,7 @@ groups:
       first_name: Nate
       last_name: Etu
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR_AT_LARGE-TOWN_OF_QUEENSBURY-2026_GENERAL-ETU_NT_8K
+    code: CANDIDACY-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR-AT_LARGE-2026_GENERAL-ETU_NT_8K
     attributes:
       status: active
       participation: active
@@ -393,26 +391,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR_AT_LARGE-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-COUNTY_SUPERVISOR-AT_LARGE-2026_GENERAL
       person: PERSON-ETU_NT_8K
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WARREN-FAMILY_COURT_JUDGE-WARREN_COUNTY
+    code: OFFICE-USA-NY-COUNTY_WARREN-FAMILY_COURT_JUDGE
     attributes:
-      seat_code: WARREN_COUNTY
       is_active: true
     references:
       position: POSITION-FAMILY_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-WARREN
   - type: Race
-    code: RACE-USA-NY-COUNTY_WARREN-FAMILY_COURT_JUDGE-WARREN_COUNTY-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_WARREN-FAMILY_COURT_JUDGE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1–10-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_WARREN-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WARREN-FAMILY_COURT_JUDGE-WARREN_COUNTY
+      office: OFFICE-USA-NY-COUNTY_WARREN-FAMILY_COURT_JUDGE
   - type: Person
     code: PERSON-WILSON_TD_6M
     attributes:
@@ -421,7 +418,7 @@ groups:
       first_name: Ted
       last_name: Wilson
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WARREN-FAMILY_COURT_JUDGE-WARREN_COUNTY-2026_GENERAL-WILSON_TD_6M
+    code: CANDIDACY-USA-NY-COUNTY_WARREN-FAMILY_COURT_JUDGE-2026_GENERAL-WILSON_TD_6M
     attributes:
       status: active
       participation: active
@@ -433,26 +430,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_WARREN-FAMILY_COURT_JUDGE-WARREN_COUNTY-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_WARREN-FAMILY_COURT_JUDGE-2026_GENERAL
       person: PERSON-WILSON_TD_6M
 - records:
   - type: Office
-    code: OFFICE-USA-NY-QUEENSBURY-LIBRARY_TRUSTEE-TOWN_OF_QUEENSBURY
+    code: OFFICE-USA-NY-QUEENSBURY-LIBRARY_TRUSTEE
     attributes:
-      seat_code: TOWN_OF_QUEENSBURY
       is_active: true
     references:
       position: POSITION-LIBRARY_TRUSTEE
       jurisdiction: MUNICIPALITY-USA-NY-QUEENSBURY
   - type: Race
-    code: RACE-USA-NY-QUEENSBURY-LIBRARY_TRUSTEE-TOWN_OF_QUEENSBURY-2026_GENERAL
+    code: RACE-USA-NY-QUEENSBURY-LIBRARY_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-QUEENSBURY-2026_GENERAL
-      office: OFFICE-USA-NY-QUEENSBURY-LIBRARY_TRUSTEE-TOWN_OF_QUEENSBURY
+      office: OFFICE-USA-NY-QUEENSBURY-LIBRARY_TRUSTEE
   - type: Person
     code: PERSON-BURCH_KR_4U
     attributes:
@@ -462,7 +458,7 @@ groups:
       middle_name: L.
       last_name: Burch
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-LIBRARY_TRUSTEE-TOWN_OF_QUEENSBURY-2026_GENERAL-BURCH_KR_4U
+    code: CANDIDACY-USA-NY-QUEENSBURY-LIBRARY_TRUSTEE-2026_GENERAL-BURCH_KR_4U
     attributes:
       status: active
       participation: active
@@ -470,26 +466,25 @@ groups:
       - label: Nonpartisan
         kind: designation
     references:
-      race: RACE-USA-NY-QUEENSBURY-LIBRARY_TRUSTEE-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-LIBRARY_TRUSTEE-2026_GENERAL
       person: PERSON-BURCH_KR_4U
 - records:
   - type: Office
-    code: OFFICE-USA-NY-JOHNSBURG-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_JOHNSBURG
+    code: OFFICE-USA-NY-JOHNSBURG-HIGHWAY_SUPERINTENDENT
     attributes:
-      seat_code: TOWN_OF_JOHNSBURG
       is_active: true
     references:
-      position: POSITION-SUPERINTENDENT_OF_HIGHWAYS
+      position: POSITION-HIGHWAY_SUPERINTENDENT
       jurisdiction: MUNICIPALITY-USA-NY-JOHNSBURG
   - type: Race
-    code: RACE-USA-NY-JOHNSBURG-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_JOHNSBURG-2026_GENERAL
+    code: RACE-USA-NY-JOHNSBURG-HIGHWAY_SUPERINTENDENT-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-JOHNSBURG-2026_GENERAL
-      office: OFFICE-USA-NY-JOHNSBURG-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_JOHNSBURG
+      office: OFFICE-USA-NY-JOHNSBURG-HIGHWAY_SUPERINTENDENT
   - type: Person
     code: PERSON-COMSTOCK_FR_8K
     attributes:
@@ -499,7 +494,7 @@ groups:
       middle_name: T
       last_name: Comstock
   - type: Candidacy
-    code: CANDIDACY-USA-NY-JOHNSBURG-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_JOHNSBURG-2026_GENERAL-COMSTOCK_FR_8K
+    code: CANDIDACY-USA-NY-JOHNSBURG-HIGHWAY_SUPERINTENDENT-2026_GENERAL-COMSTOCK_FR_8K
     attributes:
       status: active
       participation: active
@@ -510,26 +505,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-JOHNSBURG-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_JOHNSBURG-2026_GENERAL
+      race: RACE-USA-NY-JOHNSBURG-HIGHWAY_SUPERINTENDENT-2026_GENERAL
       person: PERSON-COMSTOCK_FR_8K
 - records:
   - type: Office
-    code: OFFICE-USA-NY-STONY_CREEK-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_STONY_CREEK
+    code: OFFICE-USA-NY-STONY_CREEK-HIGHWAY_SUPERINTENDENT
     attributes:
-      seat_code: TOWN_OF_STONY_CREEK
       is_active: true
     references:
-      position: POSITION-SUPERINTENDENT_OF_HIGHWAYS
+      position: POSITION-HIGHWAY_SUPERINTENDENT
       jurisdiction: MUNICIPALITY-USA-NY-STONY_CREEK
   - type: Race
-    code: RACE-USA-NY-STONY_CREEK-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_STONY_CREEK-2026_GENERAL
+    code: RACE-USA-NY-STONY_CREEK-HIGHWAY_SUPERINTENDENT-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-STONY_CREEK-2026_GENERAL
-      office: OFFICE-USA-NY-STONY_CREEK-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_STONY_CREEK
+      office: OFFICE-USA-NY-STONY_CREEK-HIGHWAY_SUPERINTENDENT
   - type: Person
     code: PERSON-BRADLEY_NL_5U
     attributes:
@@ -538,7 +532,7 @@ groups:
       first_name: Neil
       last_name: Bradley
   - type: Candidacy
-    code: CANDIDACY-USA-NY-STONY_CREEK-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_STONY_CREEK-2026_GENERAL-BRADLEY_NL_5U
+    code: CANDIDACY-USA-NY-STONY_CREEK-HIGHWAY_SUPERINTENDENT-2026_GENERAL-BRADLEY_NL_5U
     attributes:
       status: active
       participation: active
@@ -547,26 +541,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-STONY_CREEK-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_STONY_CREEK-2026_GENERAL
+      race: RACE-USA-NY-STONY_CREEK-HIGHWAY_SUPERINTENDENT-2026_GENERAL
       person: PERSON-BRADLEY_NL_5U
 - records:
   - type: Office
-    code: OFFICE-USA-NY-THURMAN-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_THURMAN
+    code: OFFICE-USA-NY-THURMAN-HIGHWAY_SUPERINTENDENT
     attributes:
-      seat_code: TOWN_OF_THURMAN
       is_active: true
     references:
-      position: POSITION-SUPERINTENDENT_OF_HIGHWAYS
+      position: POSITION-HIGHWAY_SUPERINTENDENT
       jurisdiction: MUNICIPALITY-USA-NY-THURMAN
   - type: Race
-    code: RACE-USA-NY-THURMAN-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_THURMAN-2026_GENERAL
+    code: RACE-USA-NY-THURMAN-HIGHWAY_SUPERINTENDENT-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-THURMAN-2026_GENERAL
-      office: OFFICE-USA-NY-THURMAN-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_THURMAN
+      office: OFFICE-USA-NY-THURMAN-HIGHWAY_SUPERINTENDENT
   - type: Person
     code: PERSON-WOOD_PT_8C
     attributes:
@@ -576,7 +569,7 @@ groups:
       middle_name: S
       last_name: Wood
   - type: Candidacy
-    code: CANDIDACY-USA-NY-THURMAN-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_THURMAN-2026_GENERAL-WOOD_PT_8C
+    code: CANDIDACY-USA-NY-THURMAN-HIGHWAY_SUPERINTENDENT-2026_GENERAL-WOOD_PT_8C
     attributes:
       status: active
       participation: active
@@ -585,26 +578,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-THURMAN-SUPERINTENDENT_OF_HIGHWAYS-TOWN_OF_THURMAN-2026_GENERAL
+      race: RACE-USA-NY-THURMAN-HIGHWAY_SUPERINTENDENT-2026_GENERAL
       person: PERSON-WOOD_PT_8C
 - records:
   - type: Office
-    code: OFFICE-USA-NY-THURMAN-TOWN_CLERK-TOWN_OF_THURMAN
+    code: OFFICE-USA-NY-THURMAN-TOWN_CLERK
     attributes:
-      seat_code: TOWN_OF_THURMAN
       is_active: true
     references:
       position: POSITION-TOWN_CLERK
       jurisdiction: MUNICIPALITY-USA-NY-THURMAN
   - type: Race
-    code: RACE-USA-NY-THURMAN-TOWN_CLERK-TOWN_OF_THURMAN-2026_GENERAL
+    code: RACE-USA-NY-THURMAN-TOWN_CLERK-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-THURMAN-2026_GENERAL
-      office: OFFICE-USA-NY-THURMAN-TOWN_CLERK-TOWN_OF_THURMAN
+      office: OFFICE-USA-NY-THURMAN-TOWN_CLERK
   - type: Person
     code: PERSON-HYDE_CY_3T
     attributes:
@@ -613,7 +605,7 @@ groups:
       first_name: Cynthia
       last_name: Hyde
   - type: Candidacy
-    code: CANDIDACY-USA-NY-THURMAN-TOWN_CLERK-TOWN_OF_THURMAN-2026_GENERAL-HYDE_CY_3T
+    code: CANDIDACY-USA-NY-THURMAN-TOWN_CLERK-2026_GENERAL-HYDE_CY_3T
     attributes:
       status: active
       participation: active
@@ -623,26 +615,25 @@ groups:
       - label: Sunrise
         kind: designation
     references:
-      race: RACE-USA-NY-THURMAN-TOWN_CLERK-TOWN_OF_THURMAN-2026_GENERAL
+      race: RACE-USA-NY-THURMAN-TOWN_CLERK-2026_GENERAL
       person: PERSON-HYDE_CY_3T
 - records:
   - type: Office
-    code: OFFICE-USA-NY-BOLTON-TOWN_JUSTICE-TOWN_OF_BOLTON
+    code: OFFICE-USA-NY-BOLTON-TOWN_JUSTICE
     attributes:
-      seat_code: TOWN_OF_BOLTON
       is_active: true
     references:
       position: POSITION-TOWN_JUSTICE
       jurisdiction: MUNICIPALITY-USA-NY-BOLTON
   - type: Race
-    code: RACE-USA-NY-BOLTON-TOWN_JUSTICE-TOWN_OF_BOLTON-2026_GENERAL
+    code: RACE-USA-NY-BOLTON-TOWN_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—4-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-BOLTON-2026_GENERAL
-      office: OFFICE-USA-NY-BOLTON-TOWN_JUSTICE-TOWN_OF_BOLTON
+      office: OFFICE-USA-NY-BOLTON-TOWN_JUSTICE
   - type: Person
     code: PERSON-ANDERSEN_SC_5J
     attributes:
@@ -651,7 +642,7 @@ groups:
       first_name: Scott
       last_name: Andersen
   - type: Candidacy
-    code: CANDIDACY-USA-NY-BOLTON-TOWN_JUSTICE-TOWN_OF_BOLTON-2026_GENERAL-ANDERSEN_SC_5J
+    code: CANDIDACY-USA-NY-BOLTON-TOWN_JUSTICE-2026_GENERAL-ANDERSEN_SC_5J
     attributes:
       status: active
       participation: active
@@ -660,26 +651,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-BOLTON-TOWN_JUSTICE-TOWN_OF_BOLTON-2026_GENERAL
+      race: RACE-USA-NY-BOLTON-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-ANDERSEN_SC_5J
 - records:
   - type: Office
-    code: OFFICE-USA-NY-HORICON-TOWN_JUSTICE-TOWN_OF_HORICON
+    code: OFFICE-USA-NY-HORICON-TOWN_JUSTICE
     attributes:
-      seat_code: TOWN_OF_HORICON
       is_active: true
     references:
       position: POSITION-TOWN_JUSTICE
       jurisdiction: MUNICIPALITY-USA-NY-HORICON
   - type: Race
-    code: RACE-USA-NY-HORICON-TOWN_JUSTICE-TOWN_OF_HORICON-2026_GENERAL
+    code: RACE-USA-NY-HORICON-TOWN_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—4-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-HORICON-2026_GENERAL
-      office: OFFICE-USA-NY-HORICON-TOWN_JUSTICE-TOWN_OF_HORICON
+      office: OFFICE-USA-NY-HORICON-TOWN_JUSTICE
   - type: Person
     code: PERSON-MAHON_JH_7C
     attributes:
@@ -689,7 +679,7 @@ groups:
       middle_name: T
       last_name: Mahon
   - type: Candidacy
-    code: CANDIDACY-USA-NY-HORICON-TOWN_JUSTICE-TOWN_OF_HORICON-2026_GENERAL-MAHON_JH_7C
+    code: CANDIDACY-USA-NY-HORICON-TOWN_JUSTICE-2026_GENERAL-MAHON_JH_7C
     attributes:
       status: active
       participation: active
@@ -698,26 +688,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-HORICON-TOWN_JUSTICE-TOWN_OF_HORICON-2026_GENERAL
+      race: RACE-USA-NY-HORICON-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-MAHON_JH_7C
 - records:
   - type: Office
-    code: OFFICE-USA-NY-JOHNSBURG-TOWN_JUSTICE-TOWN_OF_JOHNSBURG
+    code: OFFICE-USA-NY-JOHNSBURG-TOWN_JUSTICE
     attributes:
-      seat_code: TOWN_OF_JOHNSBURG
       is_active: true
     references:
       position: POSITION-TOWN_JUSTICE
       jurisdiction: MUNICIPALITY-USA-NY-JOHNSBURG
   - type: Race
-    code: RACE-USA-NY-JOHNSBURG-TOWN_JUSTICE-TOWN_OF_JOHNSBURG-2026_GENERAL
+    code: RACE-USA-NY-JOHNSBURG-TOWN_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—4-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-JOHNSBURG-2026_GENERAL
-      office: OFFICE-USA-NY-JOHNSBURG-TOWN_JUSTICE-TOWN_OF_JOHNSBURG
+      office: OFFICE-USA-NY-JOHNSBURG-TOWN_JUSTICE
   - type: Person
     code: PERSON-CAVANAUGH_DV_2R
     attributes:
@@ -727,7 +716,7 @@ groups:
       middle_name: M
       last_name: Cavanaugh
   - type: Candidacy
-    code: CANDIDACY-USA-NY-JOHNSBURG-TOWN_JUSTICE-TOWN_OF_JOHNSBURG-2026_GENERAL-CAVANAUGH_DV_2R
+    code: CANDIDACY-USA-NY-JOHNSBURG-TOWN_JUSTICE-2026_GENERAL-CAVANAUGH_DV_2R
     attributes:
       status: active
       participation: active
@@ -736,26 +725,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-JOHNSBURG-TOWN_JUSTICE-TOWN_OF_JOHNSBURG-2026_GENERAL
+      race: RACE-USA-NY-JOHNSBURG-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-CAVANAUGH_DV_2R
 - records:
   - type: Office
-    code: OFFICE-USA-NY-QUEENSBURY-TOWN_JUSTICE-TOWN_OF_QUEENSBURY
+    code: OFFICE-USA-NY-QUEENSBURY-TOWN_JUSTICE
     attributes:
-      seat_code: TOWN_OF_QUEENSBURY
       is_active: true
     references:
       position: POSITION-TOWN_JUSTICE
       jurisdiction: MUNICIPALITY-USA-NY-QUEENSBURY
   - type: Race
-    code: RACE-USA-NY-QUEENSBURY-TOWN_JUSTICE-TOWN_OF_QUEENSBURY-2026_GENERAL
+    code: RACE-USA-NY-QUEENSBURY-TOWN_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-QUEENSBURY-2026_GENERAL
-      office: OFFICE-USA-NY-QUEENSBURY-TOWN_JUSTICE-TOWN_OF_QUEENSBURY
+      office: OFFICE-USA-NY-QUEENSBURY-TOWN_JUSTICE
   - type: Person
     code: PERSON-TERESI_GR_6C
     attributes:
@@ -764,7 +752,7 @@ groups:
       first_name: Gregory
       last_name: Teresi
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-TOWN_JUSTICE-TOWN_OF_QUEENSBURY-2026_GENERAL-TERESI_GR_6C
+    code: CANDIDACY-USA-NY-QUEENSBURY-TOWN_JUSTICE-2026_GENERAL-TERESI_GR_6C
     attributes:
       status: active
       participation: active
@@ -776,26 +764,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-QUEENSBURY-TOWN_JUSTICE-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-TERESI_GR_6C
 - records:
   - type: Office
-    code: OFFICE-USA-NY-STONY_CREEK-TOWN_JUSTICE-TOWN_OF_STONY_CREEK
+    code: OFFICE-USA-NY-STONY_CREEK-TOWN_JUSTICE
     attributes:
-      seat_code: TOWN_OF_STONY_CREEK
       is_active: true
     references:
       position: POSITION-TOWN_JUSTICE
       jurisdiction: MUNICIPALITY-USA-NY-STONY_CREEK
   - type: Race
-    code: RACE-USA-NY-STONY_CREEK-TOWN_JUSTICE-TOWN_OF_STONY_CREEK-2026_GENERAL
+    code: RACE-USA-NY-STONY_CREEK-TOWN_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—4-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-STONY_CREEK-2026_GENERAL
-      office: OFFICE-USA-NY-STONY_CREEK-TOWN_JUSTICE-TOWN_OF_STONY_CREEK
+      office: OFFICE-USA-NY-STONY_CREEK-TOWN_JUSTICE
   - type: Person
     code: PERSON-PAYNE_SN_9A
     attributes:
@@ -804,7 +791,7 @@ groups:
       first_name: Sandra
       last_name: Payne
   - type: Candidacy
-    code: CANDIDACY-USA-NY-STONY_CREEK-TOWN_JUSTICE-TOWN_OF_STONY_CREEK-2026_GENERAL-PAYNE_SN_9A
+    code: CANDIDACY-USA-NY-STONY_CREEK-TOWN_JUSTICE-2026_GENERAL-PAYNE_SN_9A
     attributes:
       status: active
       participation: active
@@ -812,26 +799,25 @@ groups:
       - label: Democrat
         kind: designation
     references:
-      race: RACE-USA-NY-STONY_CREEK-TOWN_JUSTICE-TOWN_OF_STONY_CREEK-2026_GENERAL
+      race: RACE-USA-NY-STONY_CREEK-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-PAYNE_SN_9A
 - records:
   - type: Office
-    code: OFFICE-USA-NY-BOLTON-TOWN_SUPERVISOR-TOWN_OF_BOLTON
+    code: OFFICE-USA-NY-BOLTON-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_BOLTON
       is_active: true
     references:
       position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-BOLTON
   - type: Race
-    code: RACE-USA-NY-BOLTON-TOWN_SUPERVISOR-TOWN_OF_BOLTON-2026_GENERAL
+    code: RACE-USA-NY-BOLTON-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-BOLTON-2026_GENERAL
-      office: OFFICE-USA-NY-BOLTON-TOWN_SUPERVISOR-TOWN_OF_BOLTON
+      office: OFFICE-USA-NY-BOLTON-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-CONOVER_RN_9P
     attributes:
@@ -840,7 +826,7 @@ groups:
       first_name: Ron
       last_name: Conover
   - type: Candidacy
-    code: CANDIDACY-USA-NY-BOLTON-TOWN_SUPERVISOR-TOWN_OF_BOLTON-2026_GENERAL-CONOVER_RN_9P
+    code: CANDIDACY-USA-NY-BOLTON-TOWN_SUPERVISOR-2026_GENERAL-CONOVER_RN_9P
     attributes:
       status: active
       participation: active
@@ -849,26 +835,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-BOLTON-TOWN_SUPERVISOR-TOWN_OF_BOLTON-2026_GENERAL
+      race: RACE-USA-NY-BOLTON-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-CONOVER_RN_9P
 - records:
   - type: Office
-    code: OFFICE-USA-NY-HAGUE-TOWN_SUPERVISOR-TOWN_OF_HAGUE
+    code: OFFICE-USA-NY-HAGUE-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_HAGUE
       is_active: true
     references:
       position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-HAGUE
   - type: Race
-    code: RACE-USA-NY-HAGUE-TOWN_SUPERVISOR-TOWN_OF_HAGUE-2026_GENERAL
+    code: RACE-USA-NY-HAGUE-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-HAGUE-2026_GENERAL
-      office: OFFICE-USA-NY-HAGUE-TOWN_SUPERVISOR-TOWN_OF_HAGUE
+      office: OFFICE-USA-NY-HAGUE-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-PATCHETT_JS_6D
     attributes:
@@ -877,7 +862,7 @@ groups:
       first_name: Joshua
       last_name: Patchett
   - type: Candidacy
-    code: CANDIDACY-USA-NY-HAGUE-TOWN_SUPERVISOR-TOWN_OF_HAGUE-2026_GENERAL-PATCHETT_JS_6D
+    code: CANDIDACY-USA-NY-HAGUE-TOWN_SUPERVISOR-2026_GENERAL-PATCHETT_JS_6D
     attributes:
       status: active
       participation: active
@@ -887,7 +872,7 @@ groups:
       - label: Zero Town Tax
         kind: designation
     references:
-      race: RACE-USA-NY-HAGUE-TOWN_SUPERVISOR-TOWN_OF_HAGUE-2026_GENERAL
+      race: RACE-USA-NY-HAGUE-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-PATCHETT_JS_6D
   - type: Person
     code: PERSON-SMITH_LN_9P
@@ -897,7 +882,7 @@ groups:
       first_name: Lindsey
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-NY-HAGUE-TOWN_SUPERVISOR-TOWN_OF_HAGUE-2026_GENERAL-SMITH_LN_9P
+    code: CANDIDACY-USA-NY-HAGUE-TOWN_SUPERVISOR-2026_GENERAL-SMITH_LN_9P
     attributes:
       status: active
       participation: active
@@ -906,26 +891,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-HAGUE-TOWN_SUPERVISOR-TOWN_OF_HAGUE-2026_GENERAL
+      race: RACE-USA-NY-HAGUE-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-SMITH_LN_9P
 - records:
   - type: Office
-    code: OFFICE-USA-NY-HORICON-TOWN_SUPERVISOR-TOWN_OF_HORICON
+    code: OFFICE-USA-NY-HORICON-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_HORICON
       is_active: true
     references:
       position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-HORICON
   - type: Race
-    code: RACE-USA-NY-HORICON-TOWN_SUPERVISOR-TOWN_OF_HORICON-2026_GENERAL
+    code: RACE-USA-NY-HORICON-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-HORICON-2026_GENERAL
-      office: OFFICE-USA-NY-HORICON-TOWN_SUPERVISOR-TOWN_OF_HORICON
+      office: OFFICE-USA-NY-HORICON-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-BUTLER_WY_3W
     attributes:
@@ -934,7 +918,7 @@ groups:
       first_name: Wayne
       last_name: Butler
   - type: Candidacy
-    code: CANDIDACY-USA-NY-HORICON-TOWN_SUPERVISOR-TOWN_OF_HORICON-2026_GENERAL-BUTLER_WY_3W
+    code: CANDIDACY-USA-NY-HORICON-TOWN_SUPERVISOR-2026_GENERAL-BUTLER_WY_3W
     attributes:
       status: active
       participation: active
@@ -942,26 +926,25 @@ groups:
       - label: Horicon
         kind: designation
     references:
-      race: RACE-USA-NY-HORICON-TOWN_SUPERVISOR-TOWN_OF_HORICON-2026_GENERAL
+      race: RACE-USA-NY-HORICON-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-BUTLER_WY_3W
 - records:
   - type: Office
-    code: OFFICE-USA-NY-JOHNSBURG-TOWN_SUPERVISOR-TOWN_OF_JOHNSBURG
+    code: OFFICE-USA-NY-JOHNSBURG-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_JOHNSBURG
       is_active: true
     references:
       position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-JOHNSBURG
   - type: Race
-    code: RACE-USA-NY-JOHNSBURG-TOWN_SUPERVISOR-TOWN_OF_JOHNSBURG-2026_GENERAL
+    code: RACE-USA-NY-JOHNSBURG-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-JOHNSBURG-2026_GENERAL
-      office: OFFICE-USA-NY-JOHNSBURG-TOWN_SUPERVISOR-TOWN_OF_JOHNSBURG
+      office: OFFICE-USA-NY-JOHNSBURG-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-PREUNINGER_MN_5K
     attributes:
@@ -970,7 +953,7 @@ groups:
       first_name: Mindy
       last_name: Preuninger
   - type: Candidacy
-    code: CANDIDACY-USA-NY-JOHNSBURG-TOWN_SUPERVISOR-TOWN_OF_JOHNSBURG-2026_GENERAL-PREUNINGER_MN_5K
+    code: CANDIDACY-USA-NY-JOHNSBURG-TOWN_SUPERVISOR-2026_GENERAL-PREUNINGER_MN_5K
     attributes:
       status: active
       participation: active
@@ -978,26 +961,25 @@ groups:
       - label: Community Now
         kind: designation
     references:
-      race: RACE-USA-NY-JOHNSBURG-TOWN_SUPERVISOR-TOWN_OF_JOHNSBURG-2026_GENERAL
+      race: RACE-USA-NY-JOHNSBURG-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-PREUNINGER_MN_5K
 - records:
   - type: Office
-    code: OFFICE-USA-NY-LAKE_GEORGE_TOWN-TOWN_SUPERVISOR-TOWN_OF_LAKE_GEORGE
+    code: OFFICE-USA-NY-LAKE_GEORGE_TOWN-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_LAKE_GEORGE
       is_active: true
     references:
       position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-LAKE_GEORGE_TOWN
   - type: Race
-    code: RACE-USA-NY-LAKE_GEORGE_TOWN-TOWN_SUPERVISOR-TOWN_OF_LAKE_GEORGE-2026_GENERAL
+    code: RACE-USA-NY-LAKE_GEORGE_TOWN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-LAKE_GEORGE_TOWN-2026_GENERAL
-      office: OFFICE-USA-NY-LAKE_GEORGE_TOWN-TOWN_SUPERVISOR-TOWN_OF_LAKE_GEORGE
+      office: OFFICE-USA-NY-LAKE_GEORGE_TOWN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-CROCITTO_VN_6Z
     attributes:
@@ -1006,7 +988,7 @@ groups:
       first_name: Vinnie
       last_name: Crocitto Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-NY-LAKE_GEORGE_TOWN-TOWN_SUPERVISOR-TOWN_OF_LAKE_GEORGE-2026_GENERAL-CROCITTO_VN_6Z
+    code: CANDIDACY-USA-NY-LAKE_GEORGE_TOWN-TOWN_SUPERVISOR-2026_GENERAL-CROCITTO_VN_6Z
     attributes:
       status: active
       participation: active
@@ -1015,26 +997,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-LAKE_GEORGE_TOWN-TOWN_SUPERVISOR-TOWN_OF_LAKE_GEORGE-2026_GENERAL
+      race: RACE-USA-NY-LAKE_GEORGE_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-CROCITTO_VN_6Z
 - records:
   - type: Office
-    code: OFFICE-USA-NY-LAKE_LUZERNE-TOWN_SUPERVISOR-TOWN_OF_LAKE_LUZERNE
+    code: OFFICE-USA-NY-LAKE_LUZERNE-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_LAKE_LUZERNE
       is_active: true
     references:
       position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-LAKE_LUZERNE
   - type: Race
-    code: RACE-USA-NY-LAKE_LUZERNE-TOWN_SUPERVISOR-TOWN_OF_LAKE_LUZERNE-2026_GENERAL
+    code: RACE-USA-NY-LAKE_LUZERNE-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-LAKE_LUZERNE-2026_GENERAL
-      office: OFFICE-USA-NY-LAKE_LUZERNE-TOWN_SUPERVISOR-TOWN_OF_LAKE_LUZERNE
+      office: OFFICE-USA-NY-LAKE_LUZERNE-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-NILES_JM_6N
     attributes:
@@ -1043,7 +1024,7 @@ groups:
       first_name: James
       last_name: Niles
   - type: Candidacy
-    code: CANDIDACY-USA-NY-LAKE_LUZERNE-TOWN_SUPERVISOR-TOWN_OF_LAKE_LUZERNE-2026_GENERAL-NILES_JM_6N
+    code: CANDIDACY-USA-NY-LAKE_LUZERNE-TOWN_SUPERVISOR-2026_GENERAL-NILES_JM_6N
     attributes:
       status: active
       participation: active
@@ -1052,26 +1033,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-LAKE_LUZERNE-TOWN_SUPERVISOR-TOWN_OF_LAKE_LUZERNE-2026_GENERAL
+      race: RACE-USA-NY-LAKE_LUZERNE-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-NILES_JM_6N
 - records:
   - type: Office
-    code: OFFICE-USA-NY-QUEENSBURY-TOWN_SUPERVISOR-TOWN_OF_QUEENSBURY
+    code: OFFICE-USA-NY-QUEENSBURY-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_QUEENSBURY
       is_active: true
     references:
       position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-QUEENSBURY
   - type: Race
-    code: RACE-USA-NY-QUEENSBURY-TOWN_SUPERVISOR-TOWN_OF_QUEENSBURY-2026_GENERAL
+    code: RACE-USA-NY-QUEENSBURY-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-QUEENSBURY-2026_GENERAL
-      office: OFFICE-USA-NY-QUEENSBURY-TOWN_SUPERVISOR-TOWN_OF_QUEENSBURY
+      office: OFFICE-USA-NY-QUEENSBURY-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-VANNESS_BL_7D
     attributes:
@@ -1080,7 +1060,7 @@ groups:
       first_name: Bill
       last_name: VanNess
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-TOWN_SUPERVISOR-TOWN_OF_QUEENSBURY-2026_GENERAL-VANNESS_BL_7D
+    code: CANDIDACY-USA-NY-QUEENSBURY-TOWN_SUPERVISOR-2026_GENERAL-VANNESS_BL_7D
     attributes:
       status: active
       participation: active
@@ -1092,7 +1072,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-QUEENSBURY-TOWN_SUPERVISOR-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-VANNESS_BL_7D
   - type: Person
     code: PERSON-LAPPER_JN_7N
@@ -1102,7 +1082,7 @@ groups:
       first_name: Jean
       last_name: Lapper
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-TOWN_SUPERVISOR-TOWN_OF_QUEENSBURY-2026_GENERAL-LAPPER_JN_7N
+    code: CANDIDACY-USA-NY-QUEENSBURY-TOWN_SUPERVISOR-2026_GENERAL-LAPPER_JN_7N
     attributes:
       status: active
       participation: active
@@ -1112,26 +1092,25 @@ groups:
       - label: QBY Work Together
         kind: designation
     references:
-      race: RACE-USA-NY-QUEENSBURY-TOWN_SUPERVISOR-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-LAPPER_JN_7N
 - records:
   - type: Office
-    code: OFFICE-USA-NY-STONY_CREEK-TOWN_SUPERVISOR-TOWN_OF_STONY_CREEK
+    code: OFFICE-USA-NY-STONY_CREEK-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_STONY_CREEK
       is_active: true
     references:
       position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-STONY_CREEK
   - type: Race
-    code: RACE-USA-NY-STONY_CREEK-TOWN_SUPERVISOR-TOWN_OF_STONY_CREEK-2026_GENERAL
+    code: RACE-USA-NY-STONY_CREEK-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-STONY_CREEK-2026_GENERAL
-      office: OFFICE-USA-NY-STONY_CREEK-TOWN_SUPERVISOR-TOWN_OF_STONY_CREEK
+      office: OFFICE-USA-NY-STONY_CREEK-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-O_NEILL_JH_9C
     attributes:
@@ -1140,7 +1119,7 @@ groups:
       first_name: John
       last_name: O’Neill
   - type: Candidacy
-    code: CANDIDACY-USA-NY-STONY_CREEK-TOWN_SUPERVISOR-TOWN_OF_STONY_CREEK-2026_GENERAL-O_NEILL_JH_9C
+    code: CANDIDACY-USA-NY-STONY_CREEK-TOWN_SUPERVISOR-2026_GENERAL-O_NEILL_JH_9C
     attributes:
       status: active
       participation: active
@@ -1149,26 +1128,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-STONY_CREEK-TOWN_SUPERVISOR-TOWN_OF_STONY_CREEK-2026_GENERAL
+      race: RACE-USA-NY-STONY_CREEK-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-O_NEILL_JH_9C
 - records:
   - type: Office
-    code: OFFICE-USA-NY-THURMAN-TOWN_SUPERVISOR-TOWN_OF_THURMAN
+    code: OFFICE-USA-NY-THURMAN-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_THURMAN
       is_active: true
     references:
       position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-THURMAN
   - type: Race
-    code: RACE-USA-NY-THURMAN-TOWN_SUPERVISOR-TOWN_OF_THURMAN-2026_GENERAL
+    code: RACE-USA-NY-THURMAN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-THURMAN-2026_GENERAL
-      office: OFFICE-USA-NY-THURMAN-TOWN_SUPERVISOR-TOWN_OF_THURMAN
+      office: OFFICE-USA-NY-THURMAN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-RUNYON_DB_4R
     attributes:
@@ -1177,7 +1155,7 @@ groups:
       first_name: Debra
       last_name: Runyon
   - type: Candidacy
-    code: CANDIDACY-USA-NY-THURMAN-TOWN_SUPERVISOR-TOWN_OF_THURMAN-2026_GENERAL-RUNYON_DB_4R
+    code: CANDIDACY-USA-NY-THURMAN-TOWN_SUPERVISOR-2026_GENERAL-RUNYON_DB_4R
     attributes:
       status: active
       participation: active
@@ -1186,26 +1164,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-THURMAN-TOWN_SUPERVISOR-TOWN_OF_THURMAN-2026_GENERAL
+      race: RACE-USA-NY-THURMAN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-RUNYON_DB_4R
 - records:
   - type: Office
-    code: OFFICE-USA-NY-QUEENSBURY-WARD_1_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY
+    code: OFFICE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_1
     attributes:
-      seat_code: TOWN_OF_QUEENSBURY
+      seat_code: WARD_1
       is_active: true
     references:
-      position: POSITION-WARD_1_COUNCIL_MEMBER
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-QUEENSBURY
   - type: Race
-    code: RACE-USA-NY-QUEENSBURY-WARD_1_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL
+    code: RACE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_1-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-QUEENSBURY-2026_GENERAL
-      office: OFFICE-USA-NY-QUEENSBURY-WARD_1_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY
+      office: OFFICE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_1
   - type: Person
     code: PERSON-METIVIER_AN_8X
     attributes:
@@ -1214,7 +1192,7 @@ groups:
       first_name: Anthony
       last_name: Metivier
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-WARD_1_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL-METIVIER_AN_8X
+    code: CANDIDACY-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_1-2026_GENERAL-METIVIER_AN_8X
     attributes:
       status: active
       participation: active
@@ -1223,7 +1201,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-QUEENSBURY-WARD_1_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_1-2026_GENERAL
       person: PERSON-METIVIER_AN_8X
   - type: Person
     code: PERSON-DERBY_PL_9T
@@ -1233,7 +1211,7 @@ groups:
       first_name: Paul
       last_name: Derby
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-WARD_1_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL-DERBY_PL_9T
+    code: CANDIDACY-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_1-2026_GENERAL-DERBY_PL_9T
     attributes:
       status: active
       participation: active
@@ -1243,26 +1221,26 @@ groups:
       - label: QBY Work Together
         kind: designation
     references:
-      race: RACE-USA-NY-QUEENSBURY-WARD_1_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_1-2026_GENERAL
       person: PERSON-DERBY_PL_9T
 - records:
   - type: Office
-    code: OFFICE-USA-NY-QUEENSBURY-WARD_2_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY
+    code: OFFICE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_2
     attributes:
-      seat_code: TOWN_OF_QUEENSBURY
+      seat_code: WARD_2
       is_active: true
     references:
-      position: POSITION-WARD_2_COUNCIL_MEMBER
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-QUEENSBURY
   - type: Race
-    code: RACE-USA-NY-QUEENSBURY-WARD_2_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL
+    code: RACE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_2-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-QUEENSBURY-2026_GENERAL
-      office: OFFICE-USA-NY-QUEENSBURY-WARD_2_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY
+      office: OFFICE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_2
   - type: Person
     code: PERSON-TONEY_MC_4K
     attributes:
@@ -1271,7 +1249,7 @@ groups:
       first_name: Michael
       last_name: Toney
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-WARD_2_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL-TONEY_MC_4K
+    code: CANDIDACY-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_2-2026_GENERAL-TONEY_MC_4K
     attributes:
       status: active
       participation: active
@@ -1281,7 +1259,7 @@ groups:
       - label: QBY Work Together
         kind: designation
     references:
-      race: RACE-USA-NY-QUEENSBURY-WARD_2_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_2-2026_GENERAL
       person: PERSON-TONEY_MC_4K
   - type: Person
     code: PERSON-GUSHLAW_SC_4A
@@ -1291,7 +1269,7 @@ groups:
       first_name: Scott
       last_name: Gushlaw
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-WARD_2_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL-GUSHLAW_SC_4A
+    code: CANDIDACY-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_2-2026_GENERAL-GUSHLAW_SC_4A
     attributes:
       status: active
       participation: active
@@ -1303,26 +1281,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-QUEENSBURY-WARD_2_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_2-2026_GENERAL
       person: PERSON-GUSHLAW_SC_4A
 - records:
   - type: Office
-    code: OFFICE-USA-NY-QUEENSBURY-WARD_3_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY
+    code: OFFICE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_3
     attributes:
-      seat_code: TOWN_OF_QUEENSBURY
+      seat_code: WARD_3
       is_active: true
     references:
-      position: POSITION-WARD_3_COUNCIL_MEMBER
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-QUEENSBURY
   - type: Race
-    code: RACE-USA-NY-QUEENSBURY-WARD_3_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL
+    code: RACE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_3-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-QUEENSBURY-2026_GENERAL
-      office: OFFICE-USA-NY-QUEENSBURY-WARD_3_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY
+      office: OFFICE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_3
   - type: Person
     code: PERSON-SWEETSER_KR_8J
     attributes:
@@ -1331,7 +1309,7 @@ groups:
       first_name: Krystle
       last_name: Sweetser
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-WARD_3_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL-SWEETSER_KR_8J
+    code: CANDIDACY-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_3-2026_GENERAL-SWEETSER_KR_8J
     attributes:
       status: active
       participation: active
@@ -1341,7 +1319,7 @@ groups:
       - label: QBY Work Together
         kind: designation
     references:
-      race: RACE-USA-NY-QUEENSBURY-WARD_3_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_3-2026_GENERAL
       person: PERSON-SWEETSER_KR_8J
   - type: Person
     code: PERSON-HAJOS_RC_7T
@@ -1351,7 +1329,7 @@ groups:
       first_name: Rachel
       last_name: Hajos
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-WARD_3_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL-HAJOS_RC_7T
+    code: CANDIDACY-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_3-2026_GENERAL-HAJOS_RC_7T
     attributes:
       status: active
       participation: active
@@ -1363,26 +1341,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-QUEENSBURY-WARD_3_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_3-2026_GENERAL
       person: PERSON-HAJOS_RC_7T
 - records:
   - type: Office
-    code: OFFICE-USA-NY-QUEENSBURY-WARD_4_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY
+    code: OFFICE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_4
     attributes:
-      seat_code: TOWN_OF_QUEENSBURY
+      seat_code: WARD_4
       is_active: true
     references:
-      position: POSITION-WARD_4_COUNCIL_MEMBER
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-NY-QUEENSBURY
   - type: Race
-    code: RACE-USA-NY-QUEENSBURY-WARD_4_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL
+    code: RACE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_4-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: Vote for 1—2-year term. Source status: certified (last updated 08/18/2026). Retrieved: 2026-10-01. Sources: https://www.warrencountyny.gov/sites/default/files/boe/election/2026/2026%20Certification%20of%20Candidates%20and%20propositions%20-%20General(2).pdf.'
     references:
       election: ELECTION-USA-NY-QUEENSBURY-2026_GENERAL
-      office: OFFICE-USA-NY-QUEENSBURY-WARD_4_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY
+      office: OFFICE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_4
   - type: Person
     code: PERSON-BLYENBURGH_DW_9R
     attributes:
@@ -1391,7 +1369,7 @@ groups:
       first_name: Dawn
       last_name: Blyenburgh
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-WARD_4_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL-BLYENBURGH_DW_9R
+    code: CANDIDACY-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_4-2026_GENERAL-BLYENBURGH_DW_9R
     attributes:
       status: active
       participation: active
@@ -1401,7 +1379,7 @@ groups:
       - label: QBY Work Together
         kind: designation
     references:
-      race: RACE-USA-NY-QUEENSBURY-WARD_4_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_4-2026_GENERAL
       person: PERSON-BLYENBURGH_DW_9R
   - type: Person
     code: PERSON-WHITEHEAD_G_5E
@@ -1412,7 +1390,7 @@ groups:
       middle_name: Travis
       last_name: Whitehead
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-WARD_4_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL-WHITEHEAD_G_5E
+    code: CANDIDACY-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_4-2026_GENERAL-WHITEHEAD_G_5E
     attributes:
       status: active
       participation: active
@@ -1421,7 +1399,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-CONSERVATIVE
     references:
-      race: RACE-USA-NY-QUEENSBURY-WARD_4_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_4-2026_GENERAL
       person: PERSON-WHITEHEAD_G_5E
   - type: Person
     code: PERSON-MCNULTY_TM_7B
@@ -1431,7 +1409,7 @@ groups:
       first_name: Tim
       last_name: McNulty
   - type: Candidacy
-    code: CANDIDACY-USA-NY-QUEENSBURY-WARD_4_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL-MCNULTY_TM_7B
+    code: CANDIDACY-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_4-2026_GENERAL-MCNULTY_TM_7B
     attributes:
       status: active
       participation: active
@@ -1442,5 +1420,5 @@ groups:
       - label: Vote Affordable
         kind: designation
     references:
-      race: RACE-USA-NY-QUEENSBURY-WARD_4_COUNCIL_MEMBER-TOWN_OF_QUEENSBURY-2026_GENERAL
+      race: RACE-USA-NY-QUEENSBURY-COUNCIL_MEMBER-WARD_4-2026_GENERAL
       person: PERSON-MCNULTY_TM_7B

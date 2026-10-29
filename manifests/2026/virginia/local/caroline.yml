@@ -7,35 +7,46 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_CAROLINE-2026_GENERAL
+  code: ELECTION-USA-VA-BOWLING_GREEN-2026_GENERAL
   attributes:
-    name: Caroline County General Election 2026
+    name: Bowling Green General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-CAROLINE
+    jurisdiction: MUNICIPALITY-USA-VA-BOWLING_GREEN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-PORT_ROYAL-2026_GENERAL
+  attributes:
+    name: Port Royal General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-PORT_ROYAL
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_BOWLING_GREEN
+    code: OFFICE-USA-VA-BOWLING_GREEN-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_BOWLING_GREEN
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-CAROLINE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-BOWLING_GREEN
   - type: Race
-    code: RACE-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_BOWLING_GREEN-2026_GENERAL
+    code: RACE-USA-VA-BOWLING_GREEN-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_CAROLINE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_BOWLING_GREEN
+      election: ELECTION-USA-VA-BOWLING_GREEN-2026_GENERAL
+      office: OFFICE-USA-VA-BOWLING_GREEN-COUNCIL_MEMBER
   - type: Person
     code: PERSON-WEBB_DN_4S
     attributes:
@@ -45,12 +56,12 @@ groups:
       middle_name: C.
       last_name: Webb
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_BOWLING_GREEN-2026_GENERAL-WEBB_DN_4S
+    code: CANDIDACY-USA-VA-BOWLING_GREEN-COUNCIL_MEMBER-2026_GENERAL-WEBB_DN_4S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_BOWLING_GREEN-2026_GENERAL
+      race: RACE-USA-VA-BOWLING_GREEN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WEBB_DN_4S
   - type: Person
     code: PERSON-EDWARDS_PH_6L
@@ -61,12 +72,12 @@ groups:
       middle_name: K.
       last_name: Edwards IV
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_BOWLING_GREEN-2026_GENERAL-EDWARDS_PH_6L
+    code: CANDIDACY-USA-VA-BOWLING_GREEN-COUNCIL_MEMBER-2026_GENERAL-EDWARDS_PH_6L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_BOWLING_GREEN-2026_GENERAL
+      race: RACE-USA-VA-BOWLING_GREEN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-EDWARDS_PH_6L
   - type: Person
     code: PERSON-HAGEMAN_RN_7Z
@@ -77,30 +88,29 @@ groups:
       middle_name: S.
       last_name: Hageman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_BOWLING_GREEN-2026_GENERAL-HAGEMAN_RN_7Z
+    code: CANDIDACY-USA-VA-BOWLING_GREEN-COUNCIL_MEMBER-2026_GENERAL-HAGEMAN_RN_7Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_BOWLING_GREEN-2026_GENERAL
+      race: RACE-USA-VA-BOWLING_GREEN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HAGEMAN_RN_7Z
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_PORT_ROYAL
+    code: OFFICE-USA-VA-PORT_ROYAL-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_PORT_ROYAL
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-CAROLINE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-PORT_ROYAL
   - type: Race
-    code: RACE-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_PORT_ROYAL-2026_GENERAL
+    code: RACE-USA-VA-PORT_ROYAL-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_CAROLINE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_PORT_ROYAL
+      election: ELECTION-USA-VA-PORT_ROYAL-2026_GENERAL
+      office: OFFICE-USA-VA-PORT_ROYAL-COUNCIL_MEMBER
   - type: Person
     code: PERSON-LONG_AL_2L
     attributes:
@@ -109,12 +119,12 @@ groups:
       first_name: Alexander
       last_name: Long IV
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_PORT_ROYAL-2026_GENERAL-LONG_AL_2L
+    code: CANDIDACY-USA-VA-PORT_ROYAL-COUNCIL_MEMBER-2026_GENERAL-LONG_AL_2L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_PORT_ROYAL-2026_GENERAL
+      race: RACE-USA-VA-PORT_ROYAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LONG_AL_2L
   - type: Person
     code: PERSON-GOLDEN_AN_7Q
@@ -125,12 +135,12 @@ groups:
       middle_name: F.
       last_name: Golden
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_PORT_ROYAL-2026_GENERAL-GOLDEN_AN_7Q
+    code: CANDIDACY-USA-VA-PORT_ROYAL-COUNCIL_MEMBER-2026_GENERAL-GOLDEN_AN_7Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_PORT_ROYAL-2026_GENERAL
+      race: RACE-USA-VA-PORT_ROYAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GOLDEN_AN_7Q
   - type: Person
     code: PERSON-CHENAULT_MN_7B
@@ -141,12 +151,12 @@ groups:
       middle_name: G.
       last_name: Chenault
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_PORT_ROYAL-2026_GENERAL-CHENAULT_MN_7B
+    code: CANDIDACY-USA-VA-PORT_ROYAL-COUNCIL_MEMBER-2026_GENERAL-CHENAULT_MN_7B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_PORT_ROYAL-2026_GENERAL
+      race: RACE-USA-VA-PORT_ROYAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CHENAULT_MN_7B
   - type: Person
     code: PERSON-ULFERS_NT_8W
@@ -157,12 +167,12 @@ groups:
       middle_name: E.
       last_name: Ulfers
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_PORT_ROYAL-2026_GENERAL-ULFERS_NT_8W
+    code: CANDIDACY-USA-VA-PORT_ROYAL-COUNCIL_MEMBER-2026_GENERAL-ULFERS_NT_8W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_PORT_ROYAL-2026_GENERAL
+      race: RACE-USA-VA-PORT_ROYAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ULFERS_NT_8W
   - type: Person
     code: PERSON-GILES_RB_5N
@@ -173,10 +183,10 @@ groups:
       middle_name: B.
       last_name: Giles Sr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_PORT_ROYAL-2026_GENERAL-GILES_RB_5N
+    code: CANDIDACY-USA-VA-PORT_ROYAL-COUNCIL_MEMBER-2026_GENERAL-GILES_RB_5N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CAROLINE-MEMBER_TOWN_COUNCIL-TOWN_OF_PORT_ROYAL-2026_GENERAL
+      race: RACE-USA-VA-PORT_ROYAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GILES_RB_5N

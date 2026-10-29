@@ -18,6 +18,42 @@ records:
   references:
     jurisdiction: COUNTY-USA-NY-NASSAU
     year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-HEMPSTEAD_TOWN-2026_GENERAL
+  attributes:
+    name: Hempstead General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-HEMPSTEAD_TOWN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-NORTH_HEMPSTEAD-2026_GENERAL
+  attributes:
+    name: North Hempstead General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-NORTH_HEMPSTEAD
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-OYSTER_BAY-2026_GENERAL
+  attributes:
+    name: Oyster Bay General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-OYSTER_BAY
+    year: YEAR-2026
 groups:
 - records:
   - type: Office
@@ -26,7 +62,7 @@ groups:
       seat_code: 10TH_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-10TH_DISTRICT-2026_GENERAL
@@ -84,7 +120,7 @@ groups:
       seat_code: 11TH_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-11TH_DISTRICT-2026_GENERAL
@@ -141,7 +177,7 @@ groups:
       seat_code: 12TH_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-12TH_DISTRICT-2026_GENERAL
@@ -198,7 +234,7 @@ groups:
       seat_code: 13TH_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-13TH_DISTRICT-2026_GENERAL
@@ -255,7 +291,7 @@ groups:
       seat_code: 14TH_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-14TH_DISTRICT-2026_GENERAL
@@ -312,7 +348,7 @@ groups:
       seat_code: 15TH_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-15TH_DISTRICT-2026_GENERAL
@@ -370,7 +406,7 @@ groups:
       seat_code: 16TH_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-16TH_DISTRICT-2026_GENERAL
@@ -427,7 +463,7 @@ groups:
       seat_code: 17TH_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-17TH_DISTRICT-2026_GENERAL
@@ -485,7 +521,7 @@ groups:
       seat_code: 18TH_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-18TH_DISTRICT-2026_GENERAL
@@ -542,7 +578,7 @@ groups:
       seat_code: 19TH_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-19TH_DISTRICT-2026_GENERAL
@@ -599,7 +635,7 @@ groups:
       seat_code: 1ST_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-1ST_DISTRICT-2026_GENERAL
@@ -657,7 +693,7 @@ groups:
       seat_code: 2ND_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-2ND_DISTRICT-2026_GENERAL
@@ -715,7 +751,7 @@ groups:
       seat_code: 3RD_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-3RD_DISTRICT-2026_GENERAL
@@ -774,7 +810,7 @@ groups:
       seat_code: 4TH_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-4TH_DISTRICT-2026_GENERAL
@@ -831,7 +867,7 @@ groups:
       seat_code: 5TH_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-5TH_DISTRICT-2026_GENERAL
@@ -888,7 +924,7 @@ groups:
       seat_code: 6TH_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-6TH_DISTRICT-2026_GENERAL
@@ -945,7 +981,7 @@ groups:
       seat_code: 7TH_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-7TH_DISTRICT-2026_GENERAL
@@ -1003,7 +1039,7 @@ groups:
       seat_code: 8TH_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-8TH_DISTRICT-2026_GENERAL
@@ -1060,7 +1096,7 @@ groups:
       seat_code: 9TH_DISTRICT
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-NASSAU
   - type: Race
     code: RACE-USA-NY-COUNTY_NASSAU-COUNTY_LEGISLATOR-9TH_DISTRICT-2026_GENERAL
@@ -1367,22 +1403,21 @@ groups:
       person: PERSON-GREENBERG_EL_6T
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_HEMPSTEAD
+    code: OFFICE-USA-NY-HEMPSTEAD_TOWN-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_HEMPSTEAD
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_2
-      jurisdiction: COUNTY-USA-NY-NASSAU
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-HEMPSTEAD_TOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_HEMPSTEAD-2026_GENERAL
+    code: RACE-USA-NY-HEMPSTEAD_TOWN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: Vote for One (1). Source status: subject to change. Retrieved: 2026-10-01. Sources: https://www.nassaucountyny.gov/DocumentCenter/View/54522/Candidate-List-as-of-09182026.'
     references:
-      election: ELECTION-USA-NY-COUNTY_NASSAU-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_HEMPSTEAD
+      election: ELECTION-USA-NY-HEMPSTEAD_TOWN-2026_GENERAL
+      office: OFFICE-USA-NY-HEMPSTEAD_TOWN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-SCIANABLO_JO_7K
     attributes:
@@ -1391,7 +1426,7 @@ groups:
       first_name: Joe
       last_name: Scianablo
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_HEMPSTEAD-2026_GENERAL-SCIANABLO_JO_7K
+    code: CANDIDACY-USA-NY-HEMPSTEAD_TOWN-TOWN_SUPERVISOR-2026_GENERAL-SCIANABLO_JO_7K
     attributes:
       status: active
       participation: active
@@ -1399,7 +1434,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_HEMPSTEAD-2026_GENERAL
+      race: RACE-USA-NY-HEMPSTEAD_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-SCIANABLO_JO_7K
   - type: Person
     code: PERSON-FERRETTI_JH_7R
@@ -1410,7 +1445,7 @@ groups:
       middle_name: R.
       last_name: Ferretti
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_HEMPSTEAD-2026_GENERAL-FERRETTI_JH_7R
+    code: CANDIDACY-USA-NY-HEMPSTEAD_TOWN-TOWN_SUPERVISOR-2026_GENERAL-FERRETTI_JH_7R
     attributes:
       status: active
       participation: active
@@ -1420,7 +1455,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_HEMPSTEAD-2026_GENERAL
+      race: RACE-USA-NY-HEMPSTEAD_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-FERRETTI_JH_7R
   - type: Person
     code: PERSON-OLINER_MR_4R
@@ -1430,7 +1465,7 @@ groups:
       first_name: Martin
       last_name: Oliner
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_HEMPSTEAD-2026_GENERAL-OLINER_MR_4R
+    code: CANDIDACY-USA-NY-HEMPSTEAD_TOWN-TOWN_SUPERVISOR-2026_GENERAL-OLINER_MR_4R
     attributes:
       status: active
       participation: active
@@ -1438,26 +1473,25 @@ groups:
       - label: CITIZENS NOT DEVELOPERS
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_HEMPSTEAD-2026_GENERAL
+      race: RACE-USA-NY-HEMPSTEAD_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-OLINER_MR_4R
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_NORTH_HEMPSTEAD
+    code: OFFICE-USA-NY-NORTH_HEMPSTEAD-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_NORTH_HEMPSTEAD
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_2
-      jurisdiction: COUNTY-USA-NY-NASSAU
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-NORTH_HEMPSTEAD
   - type: Race
-    code: RACE-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_NORTH_HEMPSTEAD-2026_GENERAL
+    code: RACE-USA-NY-NORTH_HEMPSTEAD-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: Vote for One (1). Source status: subject to change. Retrieved: 2026-10-01. Sources: https://www.nassaucountyny.gov/DocumentCenter/View/54522/Candidate-List-as-of-09182026.'
     references:
-      election: ELECTION-USA-NY-COUNTY_NASSAU-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_NORTH_HEMPSTEAD
+      election: ELECTION-USA-NY-NORTH_HEMPSTEAD-2026_GENERAL
+      office: OFFICE-USA-NY-NORTH_HEMPSTEAD-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-DESENA_JN_5H
     attributes:
@@ -1467,7 +1501,7 @@ groups:
       middle_name: S.
       last_name: DeSena
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_NORTH_HEMPSTEAD-2026_GENERAL-DESENA_JN_5H
+    code: CANDIDACY-USA-NY-NORTH_HEMPSTEAD-TOWN_SUPERVISOR-2026_GENERAL-DESENA_JN_5H
     attributes:
       status: active
       participation: active
@@ -1477,7 +1511,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_NORTH_HEMPSTEAD-2026_GENERAL
+      race: RACE-USA-NY-NORTH_HEMPSTEAD-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-DESENA_JN_5H
   - type: Person
     code: PERSON-MCCARTHY_SN_3R
@@ -1488,7 +1522,7 @@ groups:
       middle_name: Michael
       last_name: McCarthy
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_NORTH_HEMPSTEAD-2026_GENERAL-MCCARTHY_SN_3R
+    code: CANDIDACY-USA-NY-NORTH_HEMPSTEAD-TOWN_SUPERVISOR-2026_GENERAL-MCCARTHY_SN_3R
     attributes:
       status: active
       participation: active
@@ -1496,26 +1530,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_NORTH_HEMPSTEAD-2026_GENERAL
+      race: RACE-USA-NY-NORTH_HEMPSTEAD-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-MCCARTHY_SN_3R
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_OYSTER_BAY
+    code: OFFICE-USA-NY-OYSTER_BAY-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_OYSTER_BAY
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_2
-      jurisdiction: COUNTY-USA-NY-NASSAU
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-OYSTER_BAY
   - type: Race
-    code: RACE-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_OYSTER_BAY-2026_GENERAL
+    code: RACE-USA-NY-OYSTER_BAY-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: Vote for One (1). Source status: subject to change. Retrieved: 2026-10-01. Sources: https://www.nassaucountyny.gov/DocumentCenter/View/54522/Candidate-List-as-of-09182026.'
     references:
-      election: ELECTION-USA-NY-COUNTY_NASSAU-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_OYSTER_BAY
+      election: ELECTION-USA-NY-OYSTER_BAY-2026_GENERAL
+      office: OFFICE-USA-NY-OYSTER_BAY-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-HOYLE_JM_9M
     attributes:
@@ -1525,7 +1558,7 @@ groups:
       middle_name: T.
       last_name: Hoyle
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_OYSTER_BAY-2026_GENERAL-HOYLE_JM_9M
+    code: CANDIDACY-USA-NY-OYSTER_BAY-TOWN_SUPERVISOR-2026_GENERAL-HOYLE_JM_9M
     attributes:
       status: active
       participation: active
@@ -1533,7 +1566,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_OYSTER_BAY-2026_GENERAL
+      race: RACE-USA-NY-OYSTER_BAY-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-HOYLE_JM_9M
   - type: Person
     code: PERSON-SALADINO_JS_2V
@@ -1544,7 +1577,7 @@ groups:
       middle_name: S.
       last_name: Saladino
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_OYSTER_BAY-2026_GENERAL-SALADINO_JS_2V
+    code: CANDIDACY-USA-NY-OYSTER_BAY-TOWN_SUPERVISOR-2026_GENERAL-SALADINO_JS_2V
     attributes:
       status: active
       participation: active
@@ -1554,26 +1587,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_NASSAU-SUPERVISOR-TOWN_OF_OYSTER_BAY-2026_GENERAL
+      race: RACE-USA-NY-OYSTER_BAY-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-SALADINO_JS_2V
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_NASSAU-TOWN_CLERK-TOWN_OF_HEMPSTEAD
+    code: OFFICE-USA-NY-HEMPSTEAD_TOWN-TOWN_CLERK
     attributes:
-      seat_code: TOWN_OF_HEMPSTEAD
       is_active: true
     references:
       position: POSITION-TOWN_CLERK
-      jurisdiction: COUNTY-USA-NY-NASSAU
+      jurisdiction: MUNICIPALITY-USA-NY-HEMPSTEAD_TOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_NASSAU-TOWN_CLERK-TOWN_OF_HEMPSTEAD-2026_GENERAL
+    code: RACE-USA-NY-HEMPSTEAD_TOWN-TOWN_CLERK-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: Vote for One (1). Source status: subject to change. Retrieved: 2026-10-01. Sources: https://www.nassaucountyny.gov/DocumentCenter/View/54522/Candidate-List-as-of-09182026.'
     references:
-      election: ELECTION-USA-NY-COUNTY_NASSAU-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_NASSAU-TOWN_CLERK-TOWN_OF_HEMPSTEAD
+      election: ELECTION-USA-NY-HEMPSTEAD_TOWN-2026_GENERAL
+      office: OFFICE-USA-NY-HEMPSTEAD_TOWN-TOWN_CLERK
   - type: Person
     code: PERSON-WILLIAMS_JY_7N
     attributes:
@@ -1583,7 +1615,7 @@ groups:
       middle_name: E.
       last_name: Williams
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NASSAU-TOWN_CLERK-TOWN_OF_HEMPSTEAD-2026_GENERAL-WILLIAMS_JY_7N
+    code: CANDIDACY-USA-NY-HEMPSTEAD_TOWN-TOWN_CLERK-2026_GENERAL-WILLIAMS_JY_7N
     attributes:
       status: active
       participation: active
@@ -1591,7 +1623,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_NASSAU-TOWN_CLERK-TOWN_OF_HEMPSTEAD-2026_GENERAL
+      race: RACE-USA-NY-HEMPSTEAD_TOWN-TOWN_CLERK-2026_GENERAL
       person: PERSON-WILLIAMS_JY_7N
   - type: Person
     code: PERSON-MURRAY_KT_2K
@@ -1601,7 +1633,7 @@ groups:
       first_name: Kate
       last_name: Murray
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NASSAU-TOWN_CLERK-TOWN_OF_HEMPSTEAD-2026_GENERAL-MURRAY_KT_2K
+    code: CANDIDACY-USA-NY-HEMPSTEAD_TOWN-TOWN_CLERK-2026_GENERAL-MURRAY_KT_2K
     attributes:
       status: active
       participation: active
@@ -1611,26 +1643,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_NASSAU-TOWN_CLERK-TOWN_OF_HEMPSTEAD-2026_GENERAL
+      race: RACE-USA-NY-HEMPSTEAD_TOWN-TOWN_CLERK-2026_GENERAL
       person: PERSON-MURRAY_KT_2K
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_NASSAU-TOWN_CLERK-TOWN_OF_OYSTER_BAY
+    code: OFFICE-USA-NY-OYSTER_BAY-TOWN_CLERK
     attributes:
-      seat_code: TOWN_OF_OYSTER_BAY
       is_active: true
     references:
       position: POSITION-TOWN_CLERK
-      jurisdiction: COUNTY-USA-NY-NASSAU
+      jurisdiction: MUNICIPALITY-USA-NY-OYSTER_BAY
   - type: Race
-    code: RACE-USA-NY-COUNTY_NASSAU-TOWN_CLERK-TOWN_OF_OYSTER_BAY-2026_GENERAL
+    code: RACE-USA-NY-OYSTER_BAY-TOWN_CLERK-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: Vote for One (1). Source status: subject to change. Retrieved: 2026-10-01. Sources: https://www.nassaucountyny.gov/DocumentCenter/View/54522/Candidate-List-as-of-09182026.'
     references:
-      election: ELECTION-USA-NY-COUNTY_NASSAU-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_NASSAU-TOWN_CLERK-TOWN_OF_OYSTER_BAY
+      election: ELECTION-USA-NY-OYSTER_BAY-2026_GENERAL
+      office: OFFICE-USA-NY-OYSTER_BAY-TOWN_CLERK
   - type: Person
     code: PERSON-LAMARCA_RC_4J
     attributes:
@@ -1640,7 +1671,7 @@ groups:
       middle_name: L.
       last_name: LaMarca
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NASSAU-TOWN_CLERK-TOWN_OF_OYSTER_BAY-2026_GENERAL-LAMARCA_RC_4J
+    code: CANDIDACY-USA-NY-OYSTER_BAY-TOWN_CLERK-2026_GENERAL-LAMARCA_RC_4J
     attributes:
       status: active
       participation: active
@@ -1650,7 +1681,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_NASSAU-TOWN_CLERK-TOWN_OF_OYSTER_BAY-2026_GENERAL
+      race: RACE-USA-NY-OYSTER_BAY-TOWN_CLERK-2026_GENERAL
       person: PERSON-LAMARCA_RC_4J
   - type: Person
     code: PERSON-GUPTA_SH_6R
@@ -1660,7 +1691,7 @@ groups:
       first_name: Shreya
       last_name: Gupta
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NASSAU-TOWN_CLERK-TOWN_OF_OYSTER_BAY-2026_GENERAL-GUPTA_SH_6R
+    code: CANDIDACY-USA-NY-OYSTER_BAY-TOWN_CLERK-2026_GENERAL-GUPTA_SH_6R
     attributes:
       status: active
       participation: active
@@ -1668,5 +1699,5 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_NASSAU-TOWN_CLERK-TOWN_OF_OYSTER_BAY-2026_GENERAL
+      race: RACE-USA-NY-OYSTER_BAY-TOWN_CLERK-2026_GENERAL
       person: PERSON-GUPTA_SH_6R

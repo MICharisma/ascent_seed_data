@@ -7,6 +7,30 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
+  code: ELECTION-USA-VA-HALIFAX-2026_GENERAL
+  attributes:
+    name: Halifax General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-HALIFAX
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-VIRGILINA-2026_GENERAL
+  attributes:
+    name: Virgilina General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-VIRGILINA
+    year: YEAR-2026
+- type: Election
   code: ELECTION-USA-VA-COUNTY_HALIFAX-2026_GENERAL
   attributes:
     name: Halifax County General Election 2026
@@ -17,6 +41,18 @@ records:
     is_historical: false
   references:
     jurisdiction: COUNTY-USA-VA-HALIFAX
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-SOUTH_BOSTON-2026_GENERAL
+  attributes:
+    name: South Boston General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-SOUTH_BOSTON
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-VA-COUNTY_HALIFAX-2026_SPECIAL
@@ -33,21 +69,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_HALIFAX-MAYOR-TOWN_OF_HALIFAX
+    code: OFFICE-USA-VA-HALIFAX-MAYOR
     attributes:
-      seat_code: TOWN_OF_HALIFAX
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-HALIFAX
+      jurisdiction: MUNICIPALITY-USA-VA-HALIFAX
   - type: Race
-    code: RACE-USA-VA-COUNTY_HALIFAX-MAYOR-TOWN_OF_HALIFAX-2026_GENERAL
+    code: RACE-USA-VA-HALIFAX-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_HALIFAX-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_HALIFAX-MAYOR-TOWN_OF_HALIFAX
+      election: ELECTION-USA-VA-HALIFAX-2026_GENERAL
+      office: OFFICE-USA-VA-HALIFAX-MAYOR
   - type: Person
     code: PERSON-GILLIAM_DB_6G
     attributes:
@@ -57,30 +92,29 @@ groups:
       middle_name: T.P. "Dexter"
       last_name: Gilliam, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-MAYOR-TOWN_OF_HALIFAX-2026_GENERAL-GILLIAM_DB_6G
+    code: CANDIDACY-USA-VA-HALIFAX-MAYOR-2026_GENERAL-GILLIAM_DB_6G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HALIFAX-MAYOR-TOWN_OF_HALIFAX-2026_GENERAL
+      race: RACE-USA-VA-HALIFAX-MAYOR-2026_GENERAL
       person: PERSON-GILLIAM_DB_6G
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_HALIFAX-MAYOR_VIRGILINA-TOWN_OF_VIRGILINA
+    code: OFFICE-USA-VA-VIRGILINA-MAYOR
     attributes:
-      seat_code: TOWN_OF_VIRGILINA
       is_active: true
     references:
-      position: POSITION-MAYOR_VIRGILINA
-      jurisdiction: COUNTY-USA-VA-HALIFAX
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-VIRGILINA
   - type: Race
-    code: RACE-USA-VA-COUNTY_HALIFAX-MAYOR_VIRGILINA-TOWN_OF_VIRGILINA-2026_GENERAL
+    code: RACE-USA-VA-VIRGILINA-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_HALIFAX-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_HALIFAX-MAYOR_VIRGILINA-TOWN_OF_VIRGILINA
+      election: ELECTION-USA-VA-VIRGILINA-2026_GENERAL
+      office: OFFICE-USA-VA-VIRGILINA-MAYOR
   - type: Person
     code: PERSON-MURRAY_RL_5H
     attributes:
@@ -90,30 +124,30 @@ groups:
       middle_name: O.
       last_name: Murray Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-MAYOR_VIRGILINA-TOWN_OF_VIRGILINA-2026_GENERAL-MURRAY_RL_5H
+    code: CANDIDACY-USA-VA-VIRGILINA-MAYOR-2026_GENERAL-MURRAY_RL_5H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HALIFAX-MAYOR_VIRGILINA-TOWN_OF_VIRGILINA-2026_GENERAL
+      race: RACE-USA-VA-VIRGILINA-MAYOR-2026_GENERAL
       person: PERSON-MURRAY_RL_5H
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_A
+    code: OFFICE-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_A
     attributes:
       seat_code: HALIFAX_WARD_A
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-HALIFAX
   - type: Race
-    code: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_A-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_A-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_HALIFAX-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_A
+      office: OFFICE-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_A
   - type: Person
     code: PERSON-BAILEY_SY_7Q
     attributes:
@@ -123,30 +157,30 @@ groups:
       middle_name: S.
       last_name: Bailey
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_A-2026_GENERAL-BAILEY_SY_7Q
+    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_A-2026_GENERAL-BAILEY_SY_7Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_A-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_A-2026_GENERAL
       person: PERSON-BAILEY_SY_7Q
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_B
+    code: OFFICE-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_B
     attributes:
       seat_code: HALIFAX_WARD_B
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-HALIFAX
   - type: Race
-    code: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_B-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_B-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_HALIFAX-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_B
+      office: OFFICE-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_B
   - type: Person
     code: PERSON-BOSIGER_GL_3A
     attributes:
@@ -156,30 +190,30 @@ groups:
       middle_name: W.
       last_name: Bosiger
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_B-2026_GENERAL-BOSIGER_GL_3A
+    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_B-2026_GENERAL-BOSIGER_GL_3A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_B-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_B-2026_GENERAL
       person: PERSON-BOSIGER_GL_3A
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_C
+    code: OFFICE-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_C
     attributes:
       seat_code: HALIFAX_WARD_C
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-HALIFAX
   - type: Race
-    code: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_C-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_C-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_HALIFAX-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_C
+      office: OFFICE-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_C
   - type: Person
     code: PERSON-DUNAVANT_S_7V
     attributes:
@@ -189,30 +223,30 @@ groups:
       middle_name: Jackson "Jack"
       last_name: Dunavant, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_C-2026_GENERAL-DUNAVANT_S_7V
+    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_C-2026_GENERAL-DUNAVANT_S_7V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_C-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_C-2026_GENERAL
       person: PERSON-DUNAVANT_S_7V
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_D
+    code: OFFICE-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_D
     attributes:
       seat_code: HALIFAX_WARD_D
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-HALIFAX
   - type: Race
-    code: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_D-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_D-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_HALIFAX-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_D
+      office: OFFICE-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_D
   - type: Person
     code: PERSON-COVINGTON_ED_8T
     attributes:
@@ -222,30 +256,29 @@ groups:
       middle_name: L. "Ned"
       last_name: Covington
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_D-2026_GENERAL-COVINGTON_ED_8T
+    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_D-2026_GENERAL-COVINGTON_ED_8T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-HALIFAX_WARD_D-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_HALIFAX-COUNCIL_MEMBER-HALIFAX_WARD_D-2026_GENERAL
       person: PERSON-COVINGTON_ED_8T
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_SOUTH_BOSTON
+    code: OFFICE-USA-VA-SOUTH_BOSTON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_SOUTH_BOSTON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-HALIFAX
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-SOUTH_BOSTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_SOUTH_BOSTON-2026_GENERAL
+    code: RACE-USA-VA-SOUTH_BOSTON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_HALIFAX-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_SOUTH_BOSTON
+      election: ELECTION-USA-VA-SOUTH_BOSTON-2026_GENERAL
+      office: OFFICE-USA-VA-SOUTH_BOSTON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-SPEECE_BR_4Q
     attributes:
@@ -255,12 +288,12 @@ groups:
       middle_name: C.
       last_name: Speece
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_SOUTH_BOSTON-2026_GENERAL-SPEECE_BR_4Q
+    code: CANDIDACY-USA-VA-SOUTH_BOSTON-COUNCIL_MEMBER-2026_GENERAL-SPEECE_BR_4Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_SOUTH_BOSTON-2026_GENERAL
+      race: RACE-USA-VA-SOUTH_BOSTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SPEECE_BR_4Q
   - type: Person
     code: PERSON-BURTON_J_9Q
@@ -271,12 +304,12 @@ groups:
       middle_name: Brian
       last_name: Burton
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_SOUTH_BOSTON-2026_GENERAL-BURTON_J_9Q
+    code: CANDIDACY-USA-VA-SOUTH_BOSTON-COUNCIL_MEMBER-2026_GENERAL-BURTON_J_9Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_SOUTH_BOSTON-2026_GENERAL
+      race: RACE-USA-VA-SOUTH_BOSTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BURTON_J_9Q
   - type: Person
     code: PERSON-HARRIS_SH_8E
@@ -287,30 +320,29 @@ groups:
       middle_name: M.
       last_name: Harris
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_SOUTH_BOSTON-2026_GENERAL-HARRIS_SH_8E
+    code: CANDIDACY-USA-VA-SOUTH_BOSTON-COUNCIL_MEMBER-2026_GENERAL-HARRIS_SH_8E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL-TOWN_OF_SOUTH_BOSTON-2026_GENERAL
+      race: RACE-USA-VA-SOUTH_BOSTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HARRIS_SH_8E
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL_VIRGILINA-TOWN_OF_VIRGILINA
+    code: OFFICE-USA-VA-VIRGILINA-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_VIRGILINA
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_VIRGILINA
-      jurisdiction: COUNTY-USA-VA-HALIFAX
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-VIRGILINA
   - type: Race
-    code: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL_VIRGILINA-TOWN_OF_VIRGILINA-2026_GENERAL
+    code: RACE-USA-VA-VIRGILINA-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_HALIFAX-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL_VIRGILINA-TOWN_OF_VIRGILINA
+      election: ELECTION-USA-VA-VIRGILINA-2026_GENERAL
+      office: OFFICE-USA-VA-VIRGILINA-COUNCIL_MEMBER
   - type: Person
     code: PERSON-ELLIXSON_CT_5Y
     attributes:
@@ -320,12 +352,12 @@ groups:
       middle_name: A.
       last_name: Ellixson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL_VIRGILINA-TOWN_OF_VIRGILINA-2026_GENERAL-ELLIXSON_CT_5Y
+    code: CANDIDACY-USA-VA-VIRGILINA-COUNCIL_MEMBER-2026_GENERAL-ELLIXSON_CT_5Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL_VIRGILINA-TOWN_OF_VIRGILINA-2026_GENERAL
+      race: RACE-USA-VA-VIRGILINA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ELLIXSON_CT_5Y
   - type: Person
     code: PERSON-JOHNSON_JS_4F
@@ -336,12 +368,12 @@ groups:
       middle_name: H.
       last_name: Johnson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL_VIRGILINA-TOWN_OF_VIRGILINA-2026_GENERAL-JOHNSON_JS_4F
+    code: CANDIDACY-USA-VA-VIRGILINA-COUNCIL_MEMBER-2026_GENERAL-JOHNSON_JS_4F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL_VIRGILINA-TOWN_OF_VIRGILINA-2026_GENERAL
+      race: RACE-USA-VA-VIRGILINA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-JOHNSON_JS_4F
   - type: Person
     code: PERSON-JORDAN_MR_8S
@@ -352,12 +384,12 @@ groups:
       middle_name: M.
       last_name: Jordan
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL_VIRGILINA-TOWN_OF_VIRGILINA-2026_GENERAL-JORDAN_MR_8S
+    code: CANDIDACY-USA-VA-VIRGILINA-COUNCIL_MEMBER-2026_GENERAL-JORDAN_MR_8S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL_VIRGILINA-TOWN_OF_VIRGILINA-2026_GENERAL
+      race: RACE-USA-VA-VIRGILINA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-JORDAN_MR_8S
   - type: Person
     code: PERSON-HONEYCUTT_PT_3U
@@ -368,12 +400,12 @@ groups:
       middle_name: E.
       last_name: Honeycutt
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL_VIRGILINA-TOWN_OF_VIRGILINA-2026_GENERAL-HONEYCUTT_PT_3U
+    code: CANDIDACY-USA-VA-VIRGILINA-COUNCIL_MEMBER-2026_GENERAL-HONEYCUTT_PT_3U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL_VIRGILINA-TOWN_OF_VIRGILINA-2026_GENERAL
+      race: RACE-USA-VA-VIRGILINA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HONEYCUTT_PT_3U
   - type: Person
     code: PERSON-BAGBEY_SS_3W
@@ -384,12 +416,12 @@ groups:
       middle_name: A.
       last_name: Bagbey
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL_VIRGILINA-TOWN_OF_VIRGILINA-2026_GENERAL-BAGBEY_SS_3W
+    code: CANDIDACY-USA-VA-VIRGILINA-COUNCIL_MEMBER-2026_GENERAL-BAGBEY_SS_3W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL_VIRGILINA-TOWN_OF_VIRGILINA-2026_GENERAL
+      race: RACE-USA-VA-VIRGILINA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BAGBEY_SS_3W
   - type: Person
     code: PERSON-GLASSCOCK_TM_7H
@@ -400,30 +432,29 @@ groups:
       middle_name: S.
       last_name: Glasscock
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL_VIRGILINA-TOWN_OF_VIRGILINA-2026_GENERAL-GLASSCOCK_TM_7H
+    code: CANDIDACY-USA-VA-VIRGILINA-COUNCIL_MEMBER-2026_GENERAL-GLASSCOCK_TM_7H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HALIFAX-MEMBER_TOWN_COUNCIL_VIRGILINA-TOWN_OF_VIRGILINA-2026_GENERAL
+      race: RACE-USA-VA-VIRGILINA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GLASSCOCK_TM_7H
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_HALIFAX-TREASURER-HALIFAX_COUNTY
+    code: OFFICE-USA-VA-COUNTY_HALIFAX-TREASURER
     attributes:
-      seat_code: HALIFAX_COUNTY
       is_active: true
     references:
       position: POSITION-TREASURER
       jurisdiction: COUNTY-USA-VA-HALIFAX
   - type: Race
-    code: RACE-USA-VA-COUNTY_HALIFAX-TREASURER-HALIFAX_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_HALIFAX-TREASURER-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_HALIFAX-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_HALIFAX-TREASURER-HALIFAX_COUNTY
+      office: OFFICE-USA-VA-COUNTY_HALIFAX-TREASURER
   - type: Person
     code: PERSON-HETZELL_SH_5Y
     attributes:
@@ -433,10 +464,10 @@ groups:
       middle_name: Lynn
       last_name: Hetzell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-TREASURER-HALIFAX_COUNTY-2026_SPECIAL-HETZELL_SH_5Y
+    code: CANDIDACY-USA-VA-COUNTY_HALIFAX-TREASURER-2026_SPECIAL-HETZELL_SH_5Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HALIFAX-TREASURER-HALIFAX_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_HALIFAX-TREASURER-2026_SPECIAL
       person: PERSON-HETZELL_SH_5Y

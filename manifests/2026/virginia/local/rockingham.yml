@@ -7,16 +7,88 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_ROCKINGHAM-2026_GENERAL
+  code: ELECTION-USA-VA-BRIDGEWATER-2026_GENERAL
   attributes:
-    name: Rockingham County General Election 2026
+    name: Bridgewater General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-ROCKINGHAM
+    jurisdiction: MUNICIPALITY-USA-VA-BRIDGEWATER
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-DAYTON-2026_GENERAL
+  attributes:
+    name: Dayton General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-DAYTON
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-ELKTON-2026_GENERAL
+  attributes:
+    name: Elkton General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-ELKTON
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-TOWN_OF_MT_CRAWFORD-2026_GENERAL
+  attributes:
+    name: Town of Mt Crawford General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-TOWN_OF_MT_CRAWFORD
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-TIMBERVILLE-2026_GENERAL
+  attributes:
+    name: Timberville General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-TIMBERVILLE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-BRIDGEWATER-2026_SPECIAL
+  attributes:
+    name: Bridgewater Special Election 2026
+    kind: special
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-BRIDGEWATER
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-DAYTON-2026_SPECIAL
+  attributes:
+    name: Dayton Special Election 2026
+    kind: special
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-DAYTON
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-VA-COUNTY_ROCKINGHAM-2026_SPECIAL
@@ -33,21 +105,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_BRIDGEWATER-TOWN_OF_BRIDGEWATER
+    code: OFFICE-USA-VA-BRIDGEWATER-MAYOR
     attributes:
-      seat_code: TOWN_OF_BRIDGEWATER
       is_active: true
     references:
-      position: POSITION-MAYOR_BRIDGEWATER
-      jurisdiction: COUNTY-USA-VA-ROCKINGHAM
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-BRIDGEWATER
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_BRIDGEWATER-TOWN_OF_BRIDGEWATER-2026_GENERAL
+    code: RACE-USA-VA-BRIDGEWATER-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ROCKINGHAM-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_BRIDGEWATER-TOWN_OF_BRIDGEWATER
+      election: ELECTION-USA-VA-BRIDGEWATER-2026_GENERAL
+      office: OFFICE-USA-VA-BRIDGEWATER-MAYOR
   - type: Person
     code: PERSON-FLORY_TH_2H
     attributes:
@@ -57,30 +128,29 @@ groups:
       middle_name: W. "Ted"
       last_name: Flory
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MAYOR_BRIDGEWATER-TOWN_OF_BRIDGEWATER-2026_GENERAL-FLORY_TH_2H
+    code: CANDIDACY-USA-VA-BRIDGEWATER-MAYOR-2026_GENERAL-FLORY_TH_2H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_BRIDGEWATER-TOWN_OF_BRIDGEWATER-2026_GENERAL
+      race: RACE-USA-VA-BRIDGEWATER-MAYOR-2026_GENERAL
       person: PERSON-FLORY_TH_2H
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_DAYTON-TOWN_OF_DAYTON
+    code: OFFICE-USA-VA-DAYTON-MAYOR
     attributes:
-      seat_code: TOWN_OF_DAYTON
       is_active: true
     references:
-      position: POSITION-MAYOR_DAYTON
-      jurisdiction: COUNTY-USA-VA-ROCKINGHAM
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-DAYTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_DAYTON-TOWN_OF_DAYTON-2026_GENERAL
+    code: RACE-USA-VA-DAYTON-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ROCKINGHAM-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_DAYTON-TOWN_OF_DAYTON
+      election: ELECTION-USA-VA-DAYTON-2026_GENERAL
+      office: OFFICE-USA-VA-DAYTON-MAYOR
   - type: Person
     code: PERSON-LEE_SM_3J
     attributes:
@@ -90,30 +160,29 @@ groups:
       middle_name: S.
       last_name: Lee
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MAYOR_DAYTON-TOWN_OF_DAYTON-2026_GENERAL-LEE_SM_3J
+    code: CANDIDACY-USA-VA-DAYTON-MAYOR-2026_GENERAL-LEE_SM_3J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_DAYTON-TOWN_OF_DAYTON-2026_GENERAL
+      race: RACE-USA-VA-DAYTON-MAYOR-2026_GENERAL
       person: PERSON-LEE_SM_3J
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_ELKTON-TOWN_OF_ELKTON
+    code: OFFICE-USA-VA-ELKTON-MAYOR
     attributes:
-      seat_code: TOWN_OF_ELKTON
       is_active: true
     references:
-      position: POSITION-MAYOR_ELKTON
-      jurisdiction: COUNTY-USA-VA-ROCKINGHAM
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-ELKTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_ELKTON-TOWN_OF_ELKTON-2026_GENERAL
+    code: RACE-USA-VA-ELKTON-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ROCKINGHAM-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_ELKTON-TOWN_OF_ELKTON
+      election: ELECTION-USA-VA-ELKTON-2026_GENERAL
+      office: OFFICE-USA-VA-ELKTON-MAYOR
   - type: Person
     code: PERSON-GOODEN_JS_4S
     attributes:
@@ -123,12 +192,12 @@ groups:
       middle_name: J.
       last_name: Gooden
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MAYOR_ELKTON-TOWN_OF_ELKTON-2026_GENERAL-GOODEN_JS_4S
+    code: CANDIDACY-USA-VA-ELKTON-MAYOR-2026_GENERAL-GOODEN_JS_4S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_ELKTON-TOWN_OF_ELKTON-2026_GENERAL
+      race: RACE-USA-VA-ELKTON-MAYOR-2026_GENERAL
       person: PERSON-GOODEN_JS_4S
   - type: Person
     code: PERSON-FULGINITI_VR_2U
@@ -139,12 +208,12 @@ groups:
       middle_name: H.
       last_name: Fulginiti
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MAYOR_ELKTON-TOWN_OF_ELKTON-2026_GENERAL-FULGINITI_VR_2U
+    code: CANDIDACY-USA-VA-ELKTON-MAYOR-2026_GENERAL-FULGINITI_VR_2U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_ELKTON-TOWN_OF_ELKTON-2026_GENERAL
+      race: RACE-USA-VA-ELKTON-MAYOR-2026_GENERAL
       person: PERSON-FULGINITI_VR_2U
   - type: Person
     code: PERSON-PRINTZ_WY_3U
@@ -155,30 +224,29 @@ groups:
       middle_name: E.
       last_name: Printz
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MAYOR_ELKTON-TOWN_OF_ELKTON-2026_GENERAL-PRINTZ_WY_3U
+    code: CANDIDACY-USA-VA-ELKTON-MAYOR-2026_GENERAL-PRINTZ_WY_3U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_ELKTON-TOWN_OF_ELKTON-2026_GENERAL
+      race: RACE-USA-VA-ELKTON-MAYOR-2026_GENERAL
       person: PERSON-PRINTZ_WY_3U
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_MT_CRAWFORD-TOWN_OF_MT_CRAWFORD
+    code: OFFICE-USA-VA-TOWN_OF_MT_CRAWFORD-MAYOR
     attributes:
-      seat_code: TOWN_OF_MT_CRAWFORD
       is_active: true
     references:
-      position: POSITION-MAYOR_MT_CRAWFORD
-      jurisdiction: COUNTY-USA-VA-ROCKINGHAM
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-TOWN_OF_MT_CRAWFORD
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_MT_CRAWFORD-TOWN_OF_MT_CRAWFORD-2026_GENERAL
+    code: RACE-USA-VA-TOWN_OF_MT_CRAWFORD-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ROCKINGHAM-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_MT_CRAWFORD-TOWN_OF_MT_CRAWFORD
+      election: ELECTION-USA-VA-TOWN_OF_MT_CRAWFORD-2026_GENERAL
+      office: OFFICE-USA-VA-TOWN_OF_MT_CRAWFORD-MAYOR
   - type: Person
     code: PERSON-HOOVER_TS_5Q
     attributes:
@@ -188,30 +256,29 @@ groups:
       middle_name: L.
       last_name: Hoover
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MAYOR_MT_CRAWFORD-TOWN_OF_MT_CRAWFORD-2026_GENERAL-HOOVER_TS_5Q
+    code: CANDIDACY-USA-VA-TOWN_OF_MT_CRAWFORD-MAYOR-2026_GENERAL-HOOVER_TS_5Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_MT_CRAWFORD-TOWN_OF_MT_CRAWFORD-2026_GENERAL
+      race: RACE-USA-VA-TOWN_OF_MT_CRAWFORD-MAYOR-2026_GENERAL
       person: PERSON-HOOVER_TS_5Q
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_TIMBERVILLE-TOWN_OF_TIMBERVILLE
+    code: OFFICE-USA-VA-TIMBERVILLE-MAYOR
     attributes:
-      seat_code: TOWN_OF_TIMBERVILLE
       is_active: true
     references:
-      position: POSITION-MAYOR_TIMBERVILLE
-      jurisdiction: COUNTY-USA-VA-ROCKINGHAM
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-TIMBERVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_TIMBERVILLE-TOWN_OF_TIMBERVILLE-2026_GENERAL
+    code: RACE-USA-VA-TIMBERVILLE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ROCKINGHAM-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_TIMBERVILLE-TOWN_OF_TIMBERVILLE
+      election: ELECTION-USA-VA-TIMBERVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-TIMBERVILLE-MAYOR
   - type: Person
     code: PERSON-FOX_CL_8G
     attributes:
@@ -221,12 +288,12 @@ groups:
       middle_name: L.
       last_name: Fox
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MAYOR_TIMBERVILLE-TOWN_OF_TIMBERVILLE-2026_GENERAL-FOX_CL_8G
+    code: CANDIDACY-USA-VA-TIMBERVILLE-MAYOR-2026_GENERAL-FOX_CL_8G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_TIMBERVILLE-TOWN_OF_TIMBERVILLE-2026_GENERAL
+      race: RACE-USA-VA-TIMBERVILLE-MAYOR-2026_GENERAL
       person: PERSON-FOX_CL_8G
   - type: Person
     code: PERSON-KELLEY_IS_2F
@@ -237,30 +304,29 @@ groups:
       middle_name: G.
       last_name: Kelley
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MAYOR_TIMBERVILLE-TOWN_OF_TIMBERVILLE-2026_GENERAL-KELLEY_IS_2F
+    code: CANDIDACY-USA-VA-TIMBERVILLE-MAYOR-2026_GENERAL-KELLEY_IS_2F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MAYOR_TIMBERVILLE-TOWN_OF_TIMBERVILLE-2026_GENERAL
+      race: RACE-USA-VA-TIMBERVILLE-MAYOR-2026_GENERAL
       person: PERSON-KELLEY_IS_2F
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_BRIDGEWATER-TOWN_OF_BRIDGEWATER
+    code: OFFICE-USA-VA-BRIDGEWATER-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_BRIDGEWATER
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_BRIDGEWATER
-      jurisdiction: COUNTY-USA-VA-ROCKINGHAM
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-BRIDGEWATER
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_BRIDGEWATER-TOWN_OF_BRIDGEWATER-2026_GENERAL
+    code: RACE-USA-VA-BRIDGEWATER-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ROCKINGHAM-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_BRIDGEWATER-TOWN_OF_BRIDGEWATER
+      election: ELECTION-USA-VA-BRIDGEWATER-2026_GENERAL
+      office: OFFICE-USA-VA-BRIDGEWATER-COUNCIL_MEMBER
   - type: Person
     code: PERSON-CANADA_A_2J
     attributes:
@@ -270,12 +336,12 @@ groups:
       middle_name: Fontaine
       last_name: Canada
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_BRIDGEWATER-TOWN_OF_BRIDGEWATER-2026_GENERAL-CANADA_A_2J
+    code: CANDIDACY-USA-VA-BRIDGEWATER-COUNCIL_MEMBER-2026_GENERAL-CANADA_A_2J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_BRIDGEWATER-TOWN_OF_BRIDGEWATER-2026_GENERAL
+      race: RACE-USA-VA-BRIDGEWATER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CANADA_A_2J
   - type: Person
     code: PERSON-TONGUE_JM_3R
@@ -286,12 +352,12 @@ groups:
       middle_name: M. "Jim"
       last_name: Tongue
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_BRIDGEWATER-TOWN_OF_BRIDGEWATER-2026_GENERAL-TONGUE_JM_3R
+    code: CANDIDACY-USA-VA-BRIDGEWATER-COUNCIL_MEMBER-2026_GENERAL-TONGUE_JM_3R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_BRIDGEWATER-TOWN_OF_BRIDGEWATER-2026_GENERAL
+      race: RACE-USA-VA-BRIDGEWATER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TONGUE_JM_3R
   - type: Person
     code: PERSON-CURTIS_ST_2U
@@ -302,12 +368,12 @@ groups:
       middle_name: L.
       last_name: Curtis
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_BRIDGEWATER-TOWN_OF_BRIDGEWATER-2026_GENERAL-CURTIS_ST_2U
+    code: CANDIDACY-USA-VA-BRIDGEWATER-COUNCIL_MEMBER-2026_GENERAL-CURTIS_ST_2U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_BRIDGEWATER-TOWN_OF_BRIDGEWATER-2026_GENERAL
+      race: RACE-USA-VA-BRIDGEWATER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CURTIS_ST_2U
   - type: Person
     code: PERSON-COPPOLA_VN_6F
@@ -318,30 +384,29 @@ groups:
       middle_name: G.
       last_name: Coppola
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_BRIDGEWATER-TOWN_OF_BRIDGEWATER-2026_GENERAL-COPPOLA_VN_6F
+    code: CANDIDACY-USA-VA-BRIDGEWATER-COUNCIL_MEMBER-2026_GENERAL-COPPOLA_VN_6F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_BRIDGEWATER-TOWN_OF_BRIDGEWATER-2026_GENERAL
+      race: RACE-USA-VA-BRIDGEWATER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-COPPOLA_VN_6F
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_BRIDGEWATER_SPECIAL-TOWN_OF_BRIDGEWATER
+    code: OFFICE-USA-VA-BRIDGEWATER-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_BRIDGEWATER
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_BRIDGEWATER_SPECIAL
-      jurisdiction: COUNTY-USA-VA-ROCKINGHAM
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-BRIDGEWATER
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_BRIDGEWATER_SPECIAL-TOWN_OF_BRIDGEWATER-2026_SPECIAL
+    code: RACE-USA-VA-BRIDGEWATER-COUNCIL_MEMBER-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ROCKINGHAM-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_BRIDGEWATER_SPECIAL-TOWN_OF_BRIDGEWATER
+      election: ELECTION-USA-VA-BRIDGEWATER-2026_SPECIAL
+      office: OFFICE-USA-VA-BRIDGEWATER-COUNCIL_MEMBER
   - type: Person
     code: PERSON-KYGER_BL_9E
     attributes:
@@ -351,30 +416,29 @@ groups:
       middle_name: B.
       last_name: Kyger Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_BRIDGEWATER_SPECIAL-TOWN_OF_BRIDGEWATER-2026_SPECIAL-KYGER_BL_9E
+    code: CANDIDACY-USA-VA-BRIDGEWATER-COUNCIL_MEMBER-2026_SPECIAL-KYGER_BL_9E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_BRIDGEWATER_SPECIAL-TOWN_OF_BRIDGEWATER-2026_SPECIAL
+      race: RACE-USA-VA-BRIDGEWATER-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-KYGER_BL_9E
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_DAYTON-TOWN_OF_DAYTON
+    code: OFFICE-USA-VA-DAYTON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_DAYTON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_DAYTON
-      jurisdiction: COUNTY-USA-VA-ROCKINGHAM
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-DAYTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_DAYTON-TOWN_OF_DAYTON-2026_GENERAL
+    code: RACE-USA-VA-DAYTON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ROCKINGHAM-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_DAYTON-TOWN_OF_DAYTON
+      election: ELECTION-USA-VA-DAYTON-2026_GENERAL
+      office: OFFICE-USA-VA-DAYTON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-MOORE_CH_7Q
     attributes:
@@ -384,12 +448,12 @@ groups:
       middle_name: W.
       last_name: Moore
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_DAYTON-TOWN_OF_DAYTON-2026_GENERAL-MOORE_CH_7Q
+    code: CANDIDACY-USA-VA-DAYTON-COUNCIL_MEMBER-2026_GENERAL-MOORE_CH_7Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_DAYTON-TOWN_OF_DAYTON-2026_GENERAL
+      race: RACE-USA-VA-DAYTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MOORE_CH_7Q
   - type: Person
     code: PERSON-CRANK_DB_5J
@@ -400,30 +464,29 @@ groups:
       middle_name: L. "Deb" Peggans
       last_name: Crank
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_DAYTON-TOWN_OF_DAYTON-2026_GENERAL-CRANK_DB_5J
+    code: CANDIDACY-USA-VA-DAYTON-COUNCIL_MEMBER-2026_GENERAL-CRANK_DB_5J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_DAYTON-TOWN_OF_DAYTON-2026_GENERAL
+      race: RACE-USA-VA-DAYTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CRANK_DB_5J
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_DAYTON_SPECIAL-TOWN_OF_DAYTON
+    code: OFFICE-USA-VA-DAYTON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_DAYTON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_DAYTON_SPECIAL
-      jurisdiction: COUNTY-USA-VA-ROCKINGHAM
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-DAYTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_DAYTON_SPECIAL-TOWN_OF_DAYTON-2026_SPECIAL
+    code: RACE-USA-VA-DAYTON-COUNCIL_MEMBER-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ROCKINGHAM-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_DAYTON_SPECIAL-TOWN_OF_DAYTON
+      election: ELECTION-USA-VA-DAYTON-2026_SPECIAL
+      office: OFFICE-USA-VA-DAYTON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-HENRY_L_5R
     attributes:
@@ -433,12 +496,12 @@ groups:
       middle_name: Joey
       last_name: Henry
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_DAYTON_SPECIAL-TOWN_OF_DAYTON-2026_SPECIAL-HENRY_L_5R
+    code: CANDIDACY-USA-VA-DAYTON-COUNCIL_MEMBER-2026_SPECIAL-HENRY_L_5R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_DAYTON_SPECIAL-TOWN_OF_DAYTON-2026_SPECIAL
+      race: RACE-USA-VA-DAYTON-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-HENRY_L_5R
   - type: Person
     code: PERSON-MCDANIEL_TR_8M
@@ -449,12 +512,12 @@ groups:
       middle_name: L.
       last_name: McDaniel
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_DAYTON_SPECIAL-TOWN_OF_DAYTON-2026_SPECIAL-MCDANIEL_TR_8M
+    code: CANDIDACY-USA-VA-DAYTON-COUNCIL_MEMBER-2026_SPECIAL-MCDANIEL_TR_8M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_DAYTON_SPECIAL-TOWN_OF_DAYTON-2026_SPECIAL
+      race: RACE-USA-VA-DAYTON-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-MCDANIEL_TR_8M
   - type: Person
     code: PERSON-COCKBURN_TR_6X
@@ -465,30 +528,29 @@ groups:
       middle_name: A.
       last_name: Cockburn
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_DAYTON_SPECIAL-TOWN_OF_DAYTON-2026_SPECIAL-COCKBURN_TR_6X
+    code: CANDIDACY-USA-VA-DAYTON-COUNCIL_MEMBER-2026_SPECIAL-COCKBURN_TR_6X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_DAYTON_SPECIAL-TOWN_OF_DAYTON-2026_SPECIAL
+      race: RACE-USA-VA-DAYTON-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-COCKBURN_TR_6X
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_ELKTON-TOWN_OF_ELKTON
+    code: OFFICE-USA-VA-ELKTON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_ELKTON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_ELKTON
-      jurisdiction: COUNTY-USA-VA-ROCKINGHAM
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-ELKTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_ELKTON-TOWN_OF_ELKTON-2026_GENERAL
+    code: RACE-USA-VA-ELKTON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ROCKINGHAM-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_ELKTON-TOWN_OF_ELKTON
+      election: ELECTION-USA-VA-ELKTON-2026_GENERAL
+      office: OFFICE-USA-VA-ELKTON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-KITE_D_8Q
     attributes:
@@ -498,12 +560,12 @@ groups:
       middle_name: E. "Gene"
       last_name: Kite
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_ELKTON-TOWN_OF_ELKTON-2026_GENERAL-KITE_D_8Q
+    code: CANDIDACY-USA-VA-ELKTON-COUNCIL_MEMBER-2026_GENERAL-KITE_D_8Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_ELKTON-TOWN_OF_ELKTON-2026_GENERAL
+      race: RACE-USA-VA-ELKTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-KITE_D_8Q
   - type: Person
     code: PERSON-DAWSON_TESTA_JO_7Y
@@ -514,12 +576,12 @@ groups:
       middle_name: M.
       last_name: Dawson-Testa
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_ELKTON-TOWN_OF_ELKTON-2026_GENERAL-DAWSON_TESTA_JO_7Y
+    code: CANDIDACY-USA-VA-ELKTON-COUNCIL_MEMBER-2026_GENERAL-DAWSON_TESTA_JO_7Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_ELKTON-TOWN_OF_ELKTON-2026_GENERAL
+      race: RACE-USA-VA-ELKTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DAWSON_TESTA_JO_7Y
   - type: Person
     code: PERSON-WORKMAN_PH_6D
@@ -530,12 +592,12 @@ groups:
       middle_name: '"Rick"'
       last_name: Workman II
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_ELKTON-TOWN_OF_ELKTON-2026_GENERAL-WORKMAN_PH_6D
+    code: CANDIDACY-USA-VA-ELKTON-COUNCIL_MEMBER-2026_GENERAL-WORKMAN_PH_6D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_ELKTON-TOWN_OF_ELKTON-2026_GENERAL
+      race: RACE-USA-VA-ELKTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WORKMAN_PH_6D
   - type: Person
     code: PERSON-DAVIDSON_W_5Y
@@ -546,30 +608,29 @@ groups:
       middle_name: Josh
       last_name: Davidson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_ELKTON-TOWN_OF_ELKTON-2026_GENERAL-DAVIDSON_W_5Y
+    code: CANDIDACY-USA-VA-ELKTON-COUNCIL_MEMBER-2026_GENERAL-DAVIDSON_W_5Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_ELKTON-TOWN_OF_ELKTON-2026_GENERAL
+      race: RACE-USA-VA-ELKTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DAVIDSON_W_5Y
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_MT_CRAWFORD-TOWN_OF_MT_CRAWFORD
+    code: OFFICE-USA-VA-TOWN_OF_MT_CRAWFORD-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_MT_CRAWFORD
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_MT_CRAWFORD
-      jurisdiction: COUNTY-USA-VA-ROCKINGHAM
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-TOWN_OF_MT_CRAWFORD
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_MT_CRAWFORD-TOWN_OF_MT_CRAWFORD-2026_GENERAL
+    code: RACE-USA-VA-TOWN_OF_MT_CRAWFORD-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ROCKINGHAM-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_MT_CRAWFORD-TOWN_OF_MT_CRAWFORD
+      election: ELECTION-USA-VA-TOWN_OF_MT_CRAWFORD-2026_GENERAL
+      office: OFFICE-USA-VA-TOWN_OF_MT_CRAWFORD-COUNCIL_MEMBER
   - type: Person
     code: PERSON-DRIVER_DN_3L
     attributes:
@@ -579,12 +640,12 @@ groups:
       middle_name: S.
       last_name: Driver
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_MT_CRAWFORD-TOWN_OF_MT_CRAWFORD-2026_GENERAL-DRIVER_DN_3L
+    code: CANDIDACY-USA-VA-TOWN_OF_MT_CRAWFORD-COUNCIL_MEMBER-2026_GENERAL-DRIVER_DN_3L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_MT_CRAWFORD-TOWN_OF_MT_CRAWFORD-2026_GENERAL
+      race: RACE-USA-VA-TOWN_OF_MT_CRAWFORD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DRIVER_DN_3L
   - type: Person
     code: PERSON-TAYLOR_RB_5P
@@ -595,12 +656,12 @@ groups:
       middle_name: E. "Bobby"
       last_name: Taylor
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_MT_CRAWFORD-TOWN_OF_MT_CRAWFORD-2026_GENERAL-TAYLOR_RB_5P
+    code: CANDIDACY-USA-VA-TOWN_OF_MT_CRAWFORD-COUNCIL_MEMBER-2026_GENERAL-TAYLOR_RB_5P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_MT_CRAWFORD-TOWN_OF_MT_CRAWFORD-2026_GENERAL
+      race: RACE-USA-VA-TOWN_OF_MT_CRAWFORD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TAYLOR_RB_5P
   - type: Person
     code: PERSON-RAY_TN_5K
@@ -611,29 +672,29 @@ groups:
       middle_name: B.
       last_name: Ray
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_MT_CRAWFORD-TOWN_OF_MT_CRAWFORD-2026_GENERAL-RAY_TN_5K
+    code: CANDIDACY-USA-VA-TOWN_OF_MT_CRAWFORD-COUNCIL_MEMBER-2026_GENERAL-RAY_TN_5K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_MT_CRAWFORD-TOWN_OF_MT_CRAWFORD-2026_GENERAL
+      race: RACE-USA-VA-TOWN_OF_MT_CRAWFORD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-RAY_TN_5K
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_MT_CRAWFORD_SPECIAL
+    code: OFFICE-USA-VA-COUNTY_ROCKINGHAM-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_MT_CRAWFORD_SPECIAL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-ROCKINGHAM
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_MT_CRAWFORD_SPECIAL-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_ROCKINGHAM-COUNCIL_MEMBER-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_ROCKINGHAM-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_MT_CRAWFORD_SPECIAL
+      office: OFFICE-USA-VA-COUNTY_ROCKINGHAM-COUNCIL_MEMBER
   - type: Person
     code: PERSON-ERSKINE_AL_8B
     attributes:
@@ -643,30 +704,29 @@ groups:
       middle_name: Miller
       last_name: Erskine
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_MT_CRAWFORD_SPECIAL-2026_SPECIAL-ERSKINE_AL_8B
+    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-COUNCIL_MEMBER-2026_SPECIAL-ERSKINE_AL_8B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_MT_CRAWFORD_SPECIAL-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_ROCKINGHAM-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-ERSKINE_AL_8B
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_TIMBERVILLE-TOWN_OF_TIMBERVILLE
+    code: OFFICE-USA-VA-TIMBERVILLE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_TIMBERVILLE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_TIMBERVILLE
-      jurisdiction: COUNTY-USA-VA-ROCKINGHAM
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-TIMBERVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_TIMBERVILLE-TOWN_OF_TIMBERVILLE-2026_GENERAL
+    code: RACE-USA-VA-TIMBERVILLE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ROCKINGHAM-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_TIMBERVILLE-TOWN_OF_TIMBERVILLE
+      election: ELECTION-USA-VA-TIMBERVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-TIMBERVILLE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-FREY_CR_9H
     attributes:
@@ -676,12 +736,12 @@ groups:
       middle_name: M.
       last_name: Frey
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_TIMBERVILLE-TOWN_OF_TIMBERVILLE-2026_GENERAL-FREY_CR_9H
+    code: CANDIDACY-USA-VA-TIMBERVILLE-COUNCIL_MEMBER-2026_GENERAL-FREY_CR_9H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_TIMBERVILLE-TOWN_OF_TIMBERVILLE-2026_GENERAL
+      race: RACE-USA-VA-TIMBERVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FREY_CR_9H
   - type: Person
     code: PERSON-COFFMAN_JN_6A
@@ -692,12 +752,12 @@ groups:
       middle_name: G.
       last_name: Coffman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_TIMBERVILLE-TOWN_OF_TIMBERVILLE-2026_GENERAL-COFFMAN_JN_6A
+    code: CANDIDACY-USA-VA-TIMBERVILLE-COUNCIL_MEMBER-2026_GENERAL-COFFMAN_JN_6A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_TIMBERVILLE-TOWN_OF_TIMBERVILLE-2026_GENERAL
+      race: RACE-USA-VA-TIMBERVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-COFFMAN_JN_6A
   - type: Person
     code: PERSON-BERRY_SR_7J
@@ -708,10 +768,10 @@ groups:
       middle_name: C.
       last_name: Berry
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_TIMBERVILLE-TOWN_OF_TIMBERVILLE-2026_GENERAL-BERRY_SR_7J
+    code: CANDIDACY-USA-VA-TIMBERVILLE-COUNCIL_MEMBER-2026_GENERAL-BERRY_SR_7J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROCKINGHAM-MEMBER_TOWN_COUNCIL_TIMBERVILLE-TOWN_OF_TIMBERVILLE-2026_GENERAL
+      race: RACE-USA-VA-TIMBERVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BERRY_SR_7J

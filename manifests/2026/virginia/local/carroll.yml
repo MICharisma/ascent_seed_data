@@ -7,6 +7,18 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
+  code: ELECTION-USA-VA-HILLSVILLE-2026_GENERAL
+  attributes:
+    name: Hillsville General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-HILLSVILLE
+    year: YEAR-2026
+- type: Election
   code: ELECTION-USA-VA-COUNTY_CARROLL-2026_GENERAL
   attributes:
     name: Carroll County General Election 2026
@@ -21,21 +33,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CARROLL-MAYOR-TOWN_OF_HILLSVILLE
+    code: OFFICE-USA-VA-HILLSVILLE-MAYOR
     attributes:
-      seat_code: TOWN_OF_HILLSVILLE
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-CARROLL
+      jurisdiction: MUNICIPALITY-USA-VA-HILLSVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_CARROLL-MAYOR-TOWN_OF_HILLSVILLE-2026_GENERAL
+    code: RACE-USA-VA-HILLSVILLE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_CARROLL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_CARROLL-MAYOR-TOWN_OF_HILLSVILLE
+      election: ELECTION-USA-VA-HILLSVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-HILLSVILLE-MAYOR
   - type: Person
     code: PERSON-KAUFMAN_AN_5Y
     attributes:
@@ -44,12 +55,12 @@ groups:
       first_name: Andrew
       last_name: Kaufman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CARROLL-MAYOR-TOWN_OF_HILLSVILLE-2026_GENERAL-KAUFMAN_AN_5Y
+    code: CANDIDACY-USA-VA-HILLSVILLE-MAYOR-2026_GENERAL-KAUFMAN_AN_5Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CARROLL-MAYOR-TOWN_OF_HILLSVILLE-2026_GENERAL
+      race: RACE-USA-VA-HILLSVILLE-MAYOR-2026_GENERAL
       person: PERSON-KAUFMAN_AN_5Y
   - type: Person
     code: PERSON-CROWDER_GR_2H
@@ -60,12 +71,12 @@ groups:
       middle_name: N.
       last_name: Crowder
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CARROLL-MAYOR-TOWN_OF_HILLSVILLE-2026_GENERAL-CROWDER_GR_2H
+    code: CANDIDACY-USA-VA-HILLSVILLE-MAYOR-2026_GENERAL-CROWDER_GR_2H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CARROLL-MAYOR-TOWN_OF_HILLSVILLE-2026_GENERAL
+      race: RACE-USA-VA-HILLSVILLE-MAYOR-2026_GENERAL
       person: PERSON-CROWDER_GR_2H
   - type: Person
     code: PERSON-HORTON_KT_5L
@@ -76,30 +87,30 @@ groups:
       middle_name: M.
       last_name: Horton
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CARROLL-MAYOR-TOWN_OF_HILLSVILLE-2026_GENERAL-HORTON_KT_5L
+    code: CANDIDACY-USA-VA-HILLSVILLE-MAYOR-2026_GENERAL-HORTON_KT_5L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CARROLL-MAYOR-TOWN_OF_HILLSVILLE-2026_GENERAL
+      race: RACE-USA-VA-HILLSVILLE-MAYOR-2026_GENERAL
       person: PERSON-HORTON_KT_5L
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CARROLL-MEMBER_TOWN_COUNCIL-LAUREL_FORK_WARD_D
+    code: OFFICE-USA-VA-COUNTY_CARROLL-COUNCIL_MEMBER-LAUREL_FORK_WARD_D
     attributes:
       seat_code: LAUREL_FORK_WARD_D
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-CARROLL
   - type: Race
-    code: RACE-USA-VA-COUNTY_CARROLL-MEMBER_TOWN_COUNCIL-LAUREL_FORK_WARD_D-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_CARROLL-COUNCIL_MEMBER-LAUREL_FORK_WARD_D-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_CARROLL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_CARROLL-MEMBER_TOWN_COUNCIL-LAUREL_FORK_WARD_D
+      office: OFFICE-USA-VA-COUNTY_CARROLL-COUNCIL_MEMBER-LAUREL_FORK_WARD_D
   - type: Person
     code: PERSON-YONCE_GR_8E
     attributes:
@@ -109,30 +120,30 @@ groups:
       middle_name: D. "Greg"
       last_name: Yonce
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CARROLL-MEMBER_TOWN_COUNCIL-LAUREL_FORK_WARD_D-2026_GENERAL-YONCE_GR_8E
+    code: CANDIDACY-USA-VA-COUNTY_CARROLL-COUNCIL_MEMBER-LAUREL_FORK_WARD_D-2026_GENERAL-YONCE_GR_8E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CARROLL-MEMBER_TOWN_COUNCIL-LAUREL_FORK_WARD_D-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_CARROLL-COUNCIL_MEMBER-LAUREL_FORK_WARD_D-2026_GENERAL
       person: PERSON-YONCE_GR_8E
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CARROLL-MEMBER_TOWN_COUNCIL-SULPHUR_SPRINGS_WARD_B
+    code: OFFICE-USA-VA-COUNTY_CARROLL-COUNCIL_MEMBER-SULPHUR_SPRINGS_WARD_B
     attributes:
       seat_code: SULPHUR_SPRINGS_WARD_B
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-CARROLL
   - type: Race
-    code: RACE-USA-VA-COUNTY_CARROLL-MEMBER_TOWN_COUNCIL-SULPHUR_SPRINGS_WARD_B-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_CARROLL-COUNCIL_MEMBER-SULPHUR_SPRINGS_WARD_B-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_CARROLL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_CARROLL-MEMBER_TOWN_COUNCIL-SULPHUR_SPRINGS_WARD_B
+      office: OFFICE-USA-VA-COUNTY_CARROLL-COUNCIL_MEMBER-SULPHUR_SPRINGS_WARD_B
   - type: Person
     code: PERSON-JESSUP_BR_2H
     attributes:
@@ -142,10 +153,10 @@ groups:
       middle_name: L.
       last_name: Jessup
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CARROLL-MEMBER_TOWN_COUNCIL-SULPHUR_SPRINGS_WARD_B-2026_GENERAL-JESSUP_BR_2H
+    code: CANDIDACY-USA-VA-COUNTY_CARROLL-COUNCIL_MEMBER-SULPHUR_SPRINGS_WARD_B-2026_GENERAL-JESSUP_BR_2H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CARROLL-MEMBER_TOWN_COUNCIL-SULPHUR_SPRINGS_WARD_B-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_CARROLL-COUNCIL_MEMBER-SULPHUR_SPRINGS_WARD_B-2026_GENERAL
       person: PERSON-JESSUP_BR_2H

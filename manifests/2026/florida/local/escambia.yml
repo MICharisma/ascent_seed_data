@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-ESCAMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ESCAMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-KING_ER_2H
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: EErica
       last_name: King
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-KING_ER_2H
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-KING_ER_2H
     attributes:
       status: active
       participation: active
@@ -52,7 +52,7 @@ groups:
       - label: Write-In
         kind: write_in
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-KING_ER_2H
   - type: Person
     code: PERSON-KOHLER_MK_3U
@@ -62,7 +62,7 @@ groups:
       first_name: Mike
       last_name: Kohler
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-KOHLER_MK_3U
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-KOHLER_MK_3U
     attributes:
       status: active
       participation: active
@@ -71,7 +71,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-KOHLER_MK_3U
   - type: Person
     code: PERSON-ROBINSON_MT_5B
@@ -82,7 +82,7 @@ groups:
       middle_name: D.
       last_name: Robinson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-ROBINSON_MT_5B
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-ROBINSON_MT_5B
     attributes:
       status: active
       participation: active
@@ -91,25 +91,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-ROBINSON_MT_5B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-ESCAMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ESCAMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-HOFBERGER_AS_8F
     attributes:
@@ -118,7 +118,7 @@ groups:
       first_name: Ashlee
       last_name: Hofberger
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-HOFBERGER_AS_8F
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-HOFBERGER_AS_8F
     attributes:
       status: active
       participation: active
@@ -127,7 +127,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-HOFBERGER_AS_8F
   - type: Person
     code: PERSON-VINSON_JO_8B
@@ -137,7 +137,7 @@ groups:
       first_name: Joe
       last_name: Vinson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-VINSON_JO_8B
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-VINSON_JO_8B
     attributes:
       status: active
       participation: active
@@ -145,24 +145,25 @@ groups:
       - label: No Party Affiliation (Partisan)
         kind: designation
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-VINSON_JO_8B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-CITY_COUNCIL_DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_2
     attributes:
+      seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-CITY_COUNCIL_DISTRICT_2
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-FL-ESCAMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ESCAMBIA-CITY_COUNCIL_DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=escambia&el=26.'
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-CITY_COUNCIL_DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-BARE_CH_4P
     attributes:
@@ -171,12 +172,12 @@ groups:
       first_name: Charles
       last_name: Bare
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-CITY_COUNCIL_DISTRICT_2-2026_GENERAL-BARE_CH_4P
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL-BARE_CH_4P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-CITY_COUNCIL_DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-BARE_CH_4P
   - type: Person
     code: PERSON-MYERS_SH_4G
@@ -186,29 +187,30 @@ groups:
       first_name: Sherri
       last_name: Myers
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-CITY_COUNCIL_DISTRICT_2-2026_GENERAL-MYERS_SH_4G
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL-MYERS_SH_4G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-CITY_COUNCIL_DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-MYERS_SH_4G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-CITY_COUNCIL_DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_4
     attributes:
+      seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-CITY_COUNCIL_DISTRICT_4
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-FL-ESCAMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ESCAMBIA-CITY_COUNCIL_DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=escambia&el=26.'
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-CITY_COUNCIL_DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-COLE_BR_9N
     attributes:
@@ -217,12 +219,12 @@ groups:
       first_name: Brian
       last_name: Cole
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-CITY_COUNCIL_DISTRICT_4-2026_GENERAL-COLE_BR_9N
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL-COLE_BR_9N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-CITY_COUNCIL_DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-COLE_BR_9N
   - type: Person
     code: PERSON-WHITE_BY_4N
@@ -233,12 +235,12 @@ groups:
       middle_name: T.
       last_name: White
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-CITY_COUNCIL_DISTRICT_4-2026_GENERAL-WHITE_BY_4N
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL-WHITE_BY_4N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-CITY_COUNCIL_DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-WHITE_BY_4N
 - records:
   - type: Office
@@ -275,21 +277,21 @@ groups:
       person: PERSON-YOUNG_CH_4R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-ECUA_DISTRICT_2-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: ECUA_SEAT_2
       is_active: true
     references:
-      position: POSITION-ECUA_DISTRICT_2
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ESCAMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ESCAMBIA-ECUA_DISTRICT_2-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-ECUA_DISTRICT_2-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_2
   - type: Person
     code: PERSON-BENSON_LS_7Z
     attributes:
@@ -298,7 +300,7 @@ groups:
       first_name: Lois
       last_name: Benson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-ECUA_DISTRICT_2-SEAT_2-2026_GENERAL-BENSON_LS_7Z
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_2-2026_GENERAL-BENSON_LS_7Z
     attributes:
       status: active
       participation: active
@@ -307,7 +309,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-ECUA_DISTRICT_2-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_2-2026_GENERAL
       person: PERSON-BENSON_LS_7Z
   - type: Person
     code: PERSON-HORNING_GL_8X
@@ -318,7 +320,7 @@ groups:
       middle_name: G.
       last_name: Horning
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-ECUA_DISTRICT_2-SEAT_2-2026_GENERAL-HORNING_GL_8X
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_2-2026_GENERAL-HORNING_GL_8X
     attributes:
       status: active
       participation: active
@@ -327,25 +329,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-INDEPENDENT
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-ECUA_DISTRICT_2-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_2-2026_GENERAL
       person: PERSON-HORNING_GL_8X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-ECUA_DISTRICT_4-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: ECUA_SEAT_4
       is_active: true
     references:
-      position: POSITION-ECUA_DISTRICT_4
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ESCAMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ESCAMBIA-ECUA_DISTRICT_4-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-ECUA_DISTRICT_4-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_4
   - type: Person
     code: PERSON-CAVENDER_JC_8T
     attributes:
@@ -354,7 +356,7 @@ groups:
       first_name: Jacob
       last_name: Cavender
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-ECUA_DISTRICT_4-SEAT_4-2026_GENERAL-CAVENDER_JC_8T
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_4-2026_GENERAL-CAVENDER_JC_8T
     attributes:
       status: active
       participation: active
@@ -363,7 +365,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-ECUA_DISTRICT_4-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_4-2026_GENERAL
       person: PERSON-CAVENDER_JC_8T
   - type: Person
     code: PERSON-LITTON_GR_8Q
@@ -373,7 +375,7 @@ groups:
       first_name: Greg
       last_name: Litton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-ECUA_DISTRICT_4-SEAT_4-2026_GENERAL-LITTON_GR_8Q
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_4-2026_GENERAL-LITTON_GR_8Q
     attributes:
       status: active
       participation: active
@@ -382,7 +384,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-ECUA_DISTRICT_4-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_4-2026_GENERAL
       person: PERSON-LITTON_GR_8Q
   - type: Person
     code: PERSON-SCHOFIELD_RL_7D
@@ -393,7 +395,7 @@ groups:
       middle_name: H.
       last_name: Schofield Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-ECUA_DISTRICT_4-SEAT_4-2026_GENERAL-SCHOFIELD_RL_7D
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_4-2026_GENERAL-SCHOFIELD_RL_7D
     attributes:
       status: active
       participation: active
@@ -401,25 +403,25 @@ groups:
       - label: No Party Affiliation (Partisan)
         kind: designation
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-ECUA_DISTRICT_4-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_4-2026_GENERAL
       person: PERSON-SCHOFIELD_RL_7D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST-GROUP_1
+    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1
     attributes:
       seat_code: GROUP_1
       is_active: true
     references:
-      position: POSITION-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ESCAMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ESCAMBIA-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST-GROUP_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST-GROUP_1
+      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1
   - type: Person
     code: PERSON-TAYLOR_CR_4M
     attributes:
@@ -428,30 +430,30 @@ groups:
       first_name: Carollyn
       last_name: Taylor
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST-GROUP_1-2026_GENERAL-TAYLOR_CR_4M
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1-2026_GENERAL-TAYLOR_CR_4M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST-GROUP_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1-2026_GENERAL
       person: PERSON-TAYLOR_CR_4M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST-GROUP_3
+    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3
     attributes:
       seat_code: GROUP_3
       is_active: true
     references:
-      position: POSITION-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ESCAMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ESCAMBIA-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST-GROUP_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST-GROUP_3
+      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3
   - type: Person
     code: PERSON-DEWEESE_NR_3W
     attributes:
@@ -461,30 +463,30 @@ groups:
       middle_name: Jeffrey
       last_name: DeWeese
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST-GROUP_3-2026_GENERAL-DEWEESE_NR_3W
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3-2026_GENERAL-DEWEESE_NR_3W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST-GROUP_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3-2026_GENERAL
       person: PERSON-DEWEESE_NR_3W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST-GROUP_5
+    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5
     attributes:
       seat_code: GROUP_5
       is_active: true
     references:
-      position: POSITION-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ESCAMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ESCAMBIA-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST-GROUP_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST-GROUP_5
+      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5
   - type: Person
     code: PERSON-PHILLIPS_MS_3P
     attributes:
@@ -494,29 +496,30 @@ groups:
       middle_name: Moyer
       last_name: Phillips
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST-GROUP_5-2026_GENERAL-PHILLIPS_MS_3P
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5-2026_GENERAL-PHILLIPS_MS_3P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-ESCAMBIA_SOIL_WATER_CONSERVATION_DIST-GROUP_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5-2026_GENERAL
       person: PERSON-PHILLIPS_MS_3P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SANTA_ROSA_ISLAND_AUTHORITY
+    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-SANTA_ROSA_ISLAND_AUTHORITY
     attributes:
+      seat_code: SANTA_ROSA_ISLAND_AUTHORITY
       is_active: true
     references:
-      position: POSITION-SANTA_ROSA_ISLAND_AUTHORITY
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ESCAMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ESCAMBIA-SANTA_ROSA_ISLAND_AUTHORITY-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-SANTA_ROSA_ISLAND_AUTHORITY-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SANTA_ROSA_ISLAND_AUTHORITY
+      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-SANTA_ROSA_ISLAND_AUTHORITY
   - type: Person
     code: PERSON-LUPPERT_ST_9D
     attributes:
@@ -525,30 +528,30 @@ groups:
       first_name: Steven
       last_name: Luppert
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-SANTA_ROSA_ISLAND_AUTHORITY-2026_GENERAL-LUPPERT_ST_9D
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-SANTA_ROSA_ISLAND_AUTHORITY-2026_GENERAL-LUPPERT_ST_9D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-SANTA_ROSA_ISLAND_AUTHORITY-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-SANTA_ROSA_ISLAND_AUTHORITY-2026_GENERAL
       person: PERSON-LUPPERT_ST_9D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ESCAMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-ADAMS_KV_9Y
     attributes:
@@ -557,30 +560,30 @@ groups:
       first_name: Kevin
       last_name: Adams
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-ADAMS_KV_9Y
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-ADAMS_KV_9Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-ADAMS_KV_9Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ESCAMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-FETSKO_PL_8Y
     attributes:
@@ -590,30 +593,30 @@ groups:
       middle_name: H.
       last_name: Fetsko
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-FETSKO_PL_8Y
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-FETSKO_PL_8Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-FETSKO_PL_8Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ESCAMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-WILLIAMS_DV_6F
     attributes:
@@ -622,10 +625,10 @@ groups:
       first_name: David
       last_name: Williams
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-WILLIAMS_DV_6F
+    code: CANDIDACY-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-WILLIAMS_DV_6F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-WILLIAMS_DV_6F

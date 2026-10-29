@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_UNION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_UNION-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-UNION
   - type: Race
-    code: RACE-USA-FL-COUNTY_UNION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_UNION-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_UNION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_UNION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_UNION-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-DOBBS_CH_2K
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Channing
       last_name: Dobbs
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_UNION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-DOBBS_CH_2K
+    code: CANDIDACY-USA-FL-COUNTY_UNION-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-DOBBS_CH_2K
     attributes:
       status: active
       participation: active
@@ -53,25 +53,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_UNION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_UNION-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-DOBBS_CH_2K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_UNION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_UNION-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-UNION
   - type: Race
-    code: RACE-USA-FL-COUNTY_UNION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_UNION-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_UNION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_UNION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_UNION-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-JOHNS_MC_7F
     attributes:
@@ -80,7 +80,7 @@ groups:
       first_name: Mac
       last_name: Johns
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_UNION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-JOHNS_MC_7F
+    code: CANDIDACY-USA-FL-COUNTY_UNION-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-JOHNS_MC_7F
     attributes:
       status: active
       participation: active
@@ -89,7 +89,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_UNION-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_UNION-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-JOHNS_MC_7F
 - records:
   - type: Office
@@ -126,21 +126,21 @@ groups:
       person: PERSON-BISHOP_MT_5T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_UNION-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_UNION-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-UNION
   - type: Race
-    code: RACE-USA-FL-COUNTY_UNION-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_UNION-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_UNION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_UNION-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_UNION-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-HODGSON_CH_2G
     attributes:
@@ -149,30 +149,30 @@ groups:
       first_name: Chris
       last_name: Hodgson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_UNION-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-HODGSON_CH_2G
+    code: CANDIDACY-USA-FL-COUNTY_UNION-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-HODGSON_CH_2G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_UNION-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_UNION-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-HODGSON_CH_2G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_UNION-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_UNION-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-UNION
   - type: Race
-    code: RACE-USA-FL-COUNTY_UNION-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_UNION-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_UNION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_UNION-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_UNION-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-CLYATT_CR_7T
     attributes:
@@ -182,30 +182,30 @@ groups:
       middle_name: H
       last_name: Clyatt
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_UNION-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-CLYATT_CR_7T
+    code: CANDIDACY-USA-FL-COUNTY_UNION-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-CLYATT_CR_7T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_UNION-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_UNION-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-CLYATT_CR_7T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_UNION-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_UNION-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-UNION
   - type: Race
-    code: RACE-USA-FL-COUNTY_UNION-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_UNION-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_UNION-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_UNION-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_UNION-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-JOHNSON_TR_9B
     attributes:
@@ -214,10 +214,10 @@ groups:
       first_name: Terra
       last_name: Johnson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_UNION-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-JOHNSON_TR_9B
+    code: CANDIDACY-USA-FL-COUNTY_UNION-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-JOHNSON_TR_9B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_UNION-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_UNION-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-JOHNSON_TR_9B

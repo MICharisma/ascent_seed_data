@@ -33,21 +33,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FLAGLER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-FLAGLER
   - type: Race
-    code: RACE-USA-FL-COUNTY_FLAGLER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FLAGLER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-PONTIERI_TH_2B
     attributes:
@@ -56,7 +56,7 @@ groups:
       first_name: Theresa
       last_name: Pontieri
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-PONTIERI_TH_2B
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-PONTIERI_TH_2B
     attributes:
       status: active
       participation: active
@@ -65,7 +65,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-PONTIERI_TH_2B
   - type: Person
     code: PERSON-ROYER_RY_3F
@@ -75,7 +75,7 @@ groups:
       first_name: Raymond
       last_name: Royer
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-ROYER_RY_3F
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-ROYER_RY_3F
     attributes:
       status: active
       participation: active
@@ -84,25 +84,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-INDEPENDENT
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-ROYER_RY_3F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FLAGLER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-FLAGLER
   - type: Race
-    code: RACE-USA-FL-COUNTY_FLAGLER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FLAGLER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-CALDERWOOD_DN_5L
     attributes:
@@ -112,7 +112,7 @@ groups:
       middle_name: Woody
       last_name: Calderwood
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-CALDERWOOD_DN_5L
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-CALDERWOOD_DN_5L
     attributes:
       status: active
       participation: active
@@ -120,7 +120,7 @@ groups:
       - label: Write-In
         kind: write_in
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-CALDERWOOD_DN_5L
   - type: Person
     code: PERSON-PENNINGTON_LN_3G
@@ -130,7 +130,7 @@ groups:
       first_name: Leann
       last_name: Pennington
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-PENNINGTON_LN_3G
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-PENNINGTON_LN_3G
     attributes:
       status: active
       participation: active
@@ -139,25 +139,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-PENNINGTON_LN_3G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FLAGLER-DEER_RUN_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: DEER_RUN_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-DEER_RUN_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-FLAGLER
   - type: Race
-    code: RACE-USA-FL-COUNTY_FLAGLER-DEER_RUN_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FLAGLER-DEER_RUN_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_1
   - type: Person
     code: PERSON-GARNER_GR_2U
     attributes:
@@ -167,30 +167,30 @@ groups:
       middle_name: David
       last_name: Garner
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-DEER_RUN_CDD-SEAT_1-2026_GENERAL-GARNER_GR_2U
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_1-2026_GENERAL-GARNER_GR_2U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-DEER_RUN_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_1-2026_GENERAL
       person: PERSON-GARNER_GR_2U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FLAGLER-DEER_RUN_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: DEER_RUN_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-DEER_RUN_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-FLAGLER
   - type: Race
-    code: RACE-USA-FL-COUNTY_FLAGLER-DEER_RUN_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FLAGLER-DEER_RUN_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_2
   - type: Person
     code: PERSON-JAMES_JN_8U
     attributes:
@@ -199,12 +199,12 @@ groups:
       first_name: Jeanna
       last_name: James
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-DEER_RUN_CDD-SEAT_2-2026_GENERAL-JAMES_JN_8U
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_2-2026_GENERAL-JAMES_JN_8U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-DEER_RUN_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_2-2026_GENERAL
       person: PERSON-JAMES_JN_8U
   - type: Person
     code: PERSON-MASTEN_GR_2P
@@ -214,30 +214,30 @@ groups:
       first_name: Gary
       last_name: Masten
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-DEER_RUN_CDD-SEAT_2-2026_GENERAL-MASTEN_GR_2P
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_2-2026_GENERAL-MASTEN_GR_2P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-DEER_RUN_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_2-2026_GENERAL
       person: PERSON-MASTEN_GR_2P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FLAGLER-DUNES_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DUNES_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: DUNES_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-DUNES_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-FLAGLER
   - type: Race
-    code: RACE-USA-FL-COUNTY_FLAGLER-DUNES_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DUNES_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FLAGLER-DUNES_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DUNES_CDD_SEAT_1
   - type: Person
     code: PERSON-PORTER_KV_3D
     attributes:
@@ -246,30 +246,30 @@ groups:
       first_name: Kevin
       last_name: Porter
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-DUNES_CDD-SEAT_1-2026_GENERAL-PORTER_KV_3D
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DUNES_CDD_SEAT_1-2026_GENERAL-PORTER_KV_3D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-DUNES_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DUNES_CDD_SEAT_1-2026_GENERAL
       person: PERSON-PORTER_KV_3D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FLAGLER-DUNES_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DUNES_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: DUNES_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-DUNES_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-FLAGLER
   - type: Race
-    code: RACE-USA-FL-COUNTY_FLAGLER-DUNES_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DUNES_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FLAGLER-DUNES_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DUNES_CDD_SEAT_5
   - type: Person
     code: PERSON-DEGOVANNI_GR_5E
     attributes:
@@ -278,30 +278,30 @@ groups:
       first_name: George
       last_name: DeGovanni
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-DUNES_CDD-SEAT_5-2026_GENERAL-DEGOVANNI_GR_5E
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DUNES_CDD_SEAT_5-2026_GENERAL-DEGOVANNI_GR_5E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-DUNES_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DUNES_CDD_SEAT_5-2026_GENERAL
       person: PERSON-DEGOVANNI_GR_5E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: GRAND_HAVEN_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-GRAND_HAVEN_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-FLAGLER
   - type: Race
-    code: RACE-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_1
   - type: Person
     code: PERSON-MAYOR_RC_6G
     attributes:
@@ -311,30 +311,30 @@ groups:
       middle_name: F.
       last_name: Mayor
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_1-2026_GENERAL-MAYOR_RC_6G
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_1-2026_GENERAL-MAYOR_RC_6G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_1-2026_GENERAL
       person: PERSON-MAYOR_RC_6G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: GRAND_HAVEN_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-GRAND_HAVEN_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-FLAGLER
   - type: Race
-    code: RACE-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_3
   - type: Person
     code: PERSON-JANUKAITIS_JO_9V
     attributes:
@@ -343,12 +343,12 @@ groups:
       first_name: Joe
       last_name: Janukaitis
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_3-2026_GENERAL-JANUKAITIS_JO_9V
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_3-2026_GENERAL-JANUKAITIS_JO_9V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_3-2026_GENERAL
       person: PERSON-JANUKAITIS_JO_9V
   - type: Person
     code: PERSON-KROV_RY_2V
@@ -358,12 +358,12 @@ groups:
       first_name: Ray
       last_name: Krov
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_3-2026_GENERAL-KROV_RY_2V
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_3-2026_GENERAL-KROV_RY_2V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_3-2026_GENERAL
       person: PERSON-KROV_RY_2V
   - type: Person
     code: PERSON-UNGER_BR_3G
@@ -374,30 +374,30 @@ groups:
       middle_name: L.
       last_name: Unger
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_3-2026_GENERAL-UNGER_BR_3G
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_3-2026_GENERAL-UNGER_BR_3G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_3-2026_GENERAL
       person: PERSON-UNGER_BR_3G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: GRAND_HAVEN_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-GRAND_HAVEN_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-FLAGLER
   - type: Race
-    code: RACE-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_5
   - type: Person
     code: PERSON-MYERS_KT_7T
     attributes:
@@ -407,30 +407,30 @@ groups:
       middle_name: V.
       last_name: Myers
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_5-2026_GENERAL-MYERS_KT_7T
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_5-2026_GENERAL-MYERS_KT_7T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-GRAND_HAVEN_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_5-2026_GENERAL
       person: PERSON-MYERS_KT_7T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FLAGLER-HUNTERS_RIDGE_NO_1_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HUNTERS_RIDGE_NO_1_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: HUNTERS_RIDGE_NO_1_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-HUNTERS_RIDGE_NO_1_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-FLAGLER
   - type: Race
-    code: RACE-USA-FL-COUNTY_FLAGLER-HUNTERS_RIDGE_NO_1_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HUNTERS_RIDGE_NO_1_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FLAGLER-HUNTERS_RIDGE_NO_1_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HUNTERS_RIDGE_NO_1_CDD_SEAT_1
   - type: Person
     code: PERSON-THIGPEN_PT_3R
     attributes:
@@ -439,30 +439,30 @@ groups:
       first_name: Patricia
       last_name: Thigpen
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-HUNTERS_RIDGE_NO_1_CDD-SEAT_1-2026_GENERAL-THIGPEN_PT_3R
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HUNTERS_RIDGE_NO_1_CDD_SEAT_1-2026_GENERAL-THIGPEN_PT_3R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-HUNTERS_RIDGE_NO_1_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HUNTERS_RIDGE_NO_1_CDD_SEAT_1-2026_GENERAL
       person: PERSON-THIGPEN_PT_3R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FLAGLER-HUNTERS_RIDGE_NO_1_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HUNTERS_RIDGE_NO_1_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: HUNTERS_RIDGE_NO_1_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-HUNTERS_RIDGE_NO_1_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-FLAGLER
   - type: Race
-    code: RACE-USA-FL-COUNTY_FLAGLER-HUNTERS_RIDGE_NO_1_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HUNTERS_RIDGE_NO_1_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FLAGLER-HUNTERS_RIDGE_NO_1_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HUNTERS_RIDGE_NO_1_CDD_SEAT_5
   - type: Person
     code: PERSON-FORD_JH_6L
     attributes:
@@ -471,29 +471,30 @@ groups:
       first_name: John
       last_name: Ford
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-HUNTERS_RIDGE_NO_1_CDD-SEAT_5-2026_GENERAL-FORD_JH_6L
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HUNTERS_RIDGE_NO_1_CDD_SEAT_5-2026_GENERAL-FORD_JH_6L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-HUNTERS_RIDGE_NO_1_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HUNTERS_RIDGE_NO_1_CDD_SEAT_5-2026_GENERAL
       person: PERSON-FORD_JH_6L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-PALM_COAST-PALM_COAST_CITY_COUNCIL_MEMBER_DISTRICT_2
+    code: OFFICE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_2
     attributes:
+      seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-PALM_COAST_CITY_COUNCIL_MEMBER_DISTRICT_2
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-PALM_COAST
   - type: Race
-    code: RACE-USA-FL-PALM_COAST-PALM_COAST_CITY_COUNCIL_MEMBER_DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Runoff. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=flagler&el=41.'
     references:
       election: ELECTION-USA-FL-PALM_COAST-2026_GENERAL
-      office: OFFICE-USA-FL-PALM_COAST-PALM_COAST_CITY_COUNCIL_MEMBER_DISTRICT_2
+      office: OFFICE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-DUARTE_JN_2Z
     attributes:
@@ -502,12 +503,12 @@ groups:
       first_name: Jeani
       last_name: Duarte
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PALM_COAST-PALM_COAST_CITY_COUNCIL_MEMBER_DISTRICT_2-2026_GENERAL-DUARTE_JN_2Z
+    code: CANDIDACY-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL-DUARTE_JN_2Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PALM_COAST-PALM_COAST_CITY_COUNCIL_MEMBER_DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-DUARTE_JN_2Z
   - type: Person
     code: PERSON-AMARAL_AN_4U
@@ -518,29 +519,30 @@ groups:
       middle_name: '"Tony"'
       last_name: Amaral Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PALM_COAST-PALM_COAST_CITY_COUNCIL_MEMBER_DISTRICT_2-2026_GENERAL-AMARAL_AN_4U
+    code: CANDIDACY-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL-AMARAL_AN_4U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PALM_COAST-PALM_COAST_CITY_COUNCIL_MEMBER_DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-AMARAL_AN_4U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-PALM_COAST-PALM_COAST_CITY_COUNCIL_MEMBER_DISTRICT_4
+    code: OFFICE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_4
     attributes:
+      seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-PALM_COAST_CITY_COUNCIL_MEMBER_DISTRICT_4
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-PALM_COAST
   - type: Race
-    code: RACE-USA-FL-PALM_COAST-PALM_COAST_CITY_COUNCIL_MEMBER_DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Runoff. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=flagler&el=41.'
     references:
       election: ELECTION-USA-FL-PALM_COAST-2026_GENERAL
-      office: OFFICE-USA-FL-PALM_COAST-PALM_COAST_CITY_COUNCIL_MEMBER_DISTRICT_4
+      office: OFFICE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-GALERY_DY_3B
     attributes:
@@ -550,12 +552,12 @@ groups:
       middle_name: '"Dee"'
       last_name: Galery
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PALM_COAST-PALM_COAST_CITY_COUNCIL_MEMBER_DISTRICT_4-2026_GENERAL-GALERY_DY_3B
+    code: CANDIDACY-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL-GALERY_DY_3B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PALM_COAST-PALM_COAST_CITY_COUNCIL_MEMBER_DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-GALERY_DY_3B
   - type: Person
     code: PERSON-SHELLEY_DR_7J
@@ -565,30 +567,30 @@ groups:
       first_name: Darlene
       last_name: Shelley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PALM_COAST-PALM_COAST_CITY_COUNCIL_MEMBER_DISTRICT_4-2026_GENERAL-SHELLEY_DR_7J
+    code: CANDIDACY-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL-SHELLEY_DR_7J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PALM_COAST-PALM_COAST_CITY_COUNCIL_MEMBER_DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-SHELLEY_DR_7J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-FLAGLER
   - type: Race
-    code: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-MOON_CT_2Y
     attributes:
@@ -597,30 +599,30 @@ groups:
       first_name: Cathy
       last_name: Moon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-MOON_CT_2Y
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-MOON_CT_2Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-MOON_CT_2Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-FLAGLER
   - type: Race
-    code: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-WOOD_RB_8S
     attributes:
@@ -629,30 +631,30 @@ groups:
       first_name: Rob
       last_name: Wood
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-WOOD_RB_8S
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-WOOD_RB_8S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-WOOD_RB_8S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-FLAGLER
   - type: Race
-    code: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-CHONG_CH_2F
     attributes:
@@ -661,12 +663,12 @@ groups:
       first_name: Christy
       last_name: Chong
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-CHONG_CH_2F
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-CHONG_CH_2F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-CHONG_CH_2F
   - type: Person
     code: PERSON-TUCKER_TR_8E
@@ -676,10 +678,10 @@ groups:
       first_name: Trevor
       last_name: Tucker
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-TUCKER_TR_8E
+    code: CANDIDACY-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-TUCKER_TR_8E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-TUCKER_TR_8E

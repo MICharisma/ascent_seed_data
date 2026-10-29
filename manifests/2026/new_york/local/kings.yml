@@ -21,22 +21,22 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-KINGS
+    code: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-KINGS
     attributes:
       seat_code: KINGS
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_COUNTY
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-KINGS
   - type: Race
-    code: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-KINGS-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-KINGS-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 4. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_KINGS-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-KINGS
+      office: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-KINGS
   - type: Person
     code: PERSON-FELIX_CL_2Q
     attributes:
@@ -45,7 +45,7 @@ groups:
       first_name: Celeste
       last_name: Felix
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-KINGS-2026_GENERAL-FELIX_CL_2Q
+    code: CANDIDACY-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-KINGS-2026_GENERAL-FELIX_CL_2Q
     attributes:
       status: active
       participation: active
@@ -54,7 +54,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-KINGS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-KINGS-2026_GENERAL
       person: PERSON-FELIX_CL_2Q
   - type: Person
     code: PERSON-ORTIZ_CH_7K
@@ -65,7 +65,7 @@ groups:
       middle_name: G.
       last_name: Ortiz
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-KINGS-2026_GENERAL-ORTIZ_CH_7K
+    code: CANDIDACY-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-KINGS-2026_GENERAL-ORTIZ_CH_7K
     attributes:
       status: active
       participation: active
@@ -74,7 +74,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-KINGS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-KINGS-2026_GENERAL
       person: PERSON-ORTIZ_CH_7K
   - type: Person
     code: PERSON-NOEL_DN_4U
@@ -85,7 +85,7 @@ groups:
       middle_name: A.
       last_name: Noel
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-KINGS-2026_GENERAL-NOEL_DN_4U
+    code: CANDIDACY-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-KINGS-2026_GENERAL-NOEL_DN_4U
     attributes:
       status: active
       participation: active
@@ -94,7 +94,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-KINGS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-KINGS-2026_GENERAL
       person: PERSON-NOEL_DN_4U
   - type: Person
     code: PERSON-CASCIO_LN_9R
@@ -105,7 +105,7 @@ groups:
       middle_name: Lo
       last_name: Cascio
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-KINGS-2026_GENERAL-CASCIO_LN_9R
+    code: CANDIDACY-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-KINGS-2026_GENERAL-CASCIO_LN_9R
     attributes:
       status: active
       participation: active
@@ -114,26 +114,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-KINGS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-KINGS-2026_GENERAL
       person: PERSON-CASCIO_LN_9R
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_KINGS
+    code: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_KINGS
     attributes:
       seat_code: 2ND_MUNICIPAL_COURT_DISTRICT_KINGS
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-KINGS
   - type: Race
-    code: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 1. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_KINGS-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_KINGS
+      office: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_KINGS
   - type: Person
     code: PERSON-BROWN_AKOWE_LR_6S
     attributes:
@@ -143,7 +143,7 @@ groups:
       middle_name: J.
       last_name: Brown-Akowe
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-BROWN_AKOWE_LR_6S
+    code: CANDIDACY-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-BROWN_AKOWE_LR_6S
     attributes:
       status: active
       participation: active
@@ -152,26 +152,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
       person: PERSON-BROWN_AKOWE_LR_6S
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_KINGS
+    code: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_KINGS
     attributes:
       seat_code: 3RD_MUNICIPAL_COURT_DISTRICT_KINGS
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-KINGS
   - type: Race
-    code: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 1. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_KINGS-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_KINGS
+      office: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_KINGS
   - type: Person
     code: PERSON-ORTIZ_TM_4K
     attributes:
@@ -180,7 +180,7 @@ groups:
       first_name: Tamara
       last_name: Ortiz
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-ORTIZ_TM_4K
+    code: CANDIDACY-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-ORTIZ_TM_4K
     attributes:
       status: active
       participation: active
@@ -189,26 +189,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
       person: PERSON-ORTIZ_TM_4K
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_KINGS
+    code: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_KINGS
     attributes:
       seat_code: 4TH_MUNICIPAL_COURT_DISTRICT_KINGS
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-KINGS
   - type: Race
-    code: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 2. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_KINGS-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_KINGS
+      office: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_KINGS
   - type: Person
     code: PERSON-FRANKLIN_AR_4B
     attributes:
@@ -217,7 +217,7 @@ groups:
       first_name: Aaron
       last_name: Franklin
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-FRANKLIN_AR_4B
+    code: CANDIDACY-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-FRANKLIN_AR_4B
     attributes:
       status: active
       participation: active
@@ -229,7 +229,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
       person: PERSON-FRANKLIN_AR_4B
   - type: Person
     code: PERSON-VAUGHN_AN_9G
@@ -240,7 +240,7 @@ groups:
       middle_name: W.
       last_name: Vaughn Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-VAUGHN_AN_9G
+    code: CANDIDACY-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-VAUGHN_AN_9G
     attributes:
       status: active
       participation: active
@@ -249,7 +249,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
       person: PERSON-VAUGHN_AN_9G
   - type: Person
     code: PERSON-CARR_XV_4X
@@ -259,7 +259,7 @@ groups:
       first_name: Xavier
       last_name: Carr
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-CARR_XV_4X
+    code: CANDIDACY-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-CARR_XV_4X
     attributes:
       status: active
       participation: active
@@ -268,26 +268,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
       person: PERSON-CARR_XV_4X
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-6TH_MUNICIPAL_COURT_DISTRICT_KINGS
+    code: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-6TH_MUNICIPAL_COURT_DISTRICT_KINGS
     attributes:
       seat_code: 6TH_MUNICIPAL_COURT_DISTRICT_KINGS
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-KINGS
   - type: Race
-    code: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-6TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-6TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 2. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_KINGS-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-6TH_MUNICIPAL_COURT_DISTRICT_KINGS
+      office: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-6TH_MUNICIPAL_COURT_DISTRICT_KINGS
   - type: Person
     code: PERSON-PURVIS_JN_9J
     attributes:
@@ -297,7 +297,7 @@ groups:
       middle_name: P.
       last_name: Purvis
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-6TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-PURVIS_JN_9J
+    code: CANDIDACY-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-6TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-PURVIS_JN_9J
     attributes:
       status: active
       participation: active
@@ -309,7 +309,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-6TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-6TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
       person: PERSON-PURVIS_JN_9J
   - type: Person
     code: PERSON-DESOUZA_FORTE_MC_9Q
@@ -319,7 +319,7 @@ groups:
       first_name: Michelle
       last_name: DeSouza-Forte
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-6TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-DESOUZA_FORTE_MC_9Q
+    code: CANDIDACY-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-6TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-DESOUZA_FORTE_MC_9Q
     attributes:
       status: active
       participation: active
@@ -328,26 +328,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-6TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-6TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
       person: PERSON-DESOUZA_FORTE_MC_9Q
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-7TH_MUNICIPAL_COURT_DISTRICT_KINGS
+    code: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_KINGS
     attributes:
       seat_code: 7TH_MUNICIPAL_COURT_DISTRICT_KINGS
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-KINGS
   - type: Race
-    code: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-7TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 1. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_KINGS-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-7TH_MUNICIPAL_COURT_DISTRICT_KINGS
+      office: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_KINGS
   - type: Person
     code: PERSON-HAMBLIN_BR_4A
     attributes:
@@ -356,7 +356,7 @@ groups:
       first_name: Bridget
       last_name: Hamblin
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-7TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-HAMBLIN_BR_4A
+    code: CANDIDACY-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-HAMBLIN_BR_4A
     attributes:
       status: active
       participation: active
@@ -365,26 +365,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-7TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
       person: PERSON-HAMBLIN_BR_4A
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-8TH_MUNICIPAL_COURT_DISTRICT_KINGS
+    code: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-8TH_MUNICIPAL_COURT_DISTRICT_KINGS
     attributes:
       seat_code: 8TH_MUNICIPAL_COURT_DISTRICT_KINGS
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-KINGS
   - type: Race
-    code: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-8TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-8TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 1. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_KINGS-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-8TH_MUNICIPAL_COURT_DISTRICT_KINGS
+      office: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-8TH_MUNICIPAL_COURT_DISTRICT_KINGS
   - type: Person
     code: PERSON-HARRIS_ET_9E
     attributes:
@@ -394,7 +394,7 @@ groups:
       middle_name: C.
       last_name: Harris
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-8TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-HARRIS_ET_9E
+    code: CANDIDACY-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-8TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-HARRIS_ET_9E
     attributes:
       status: active
       participation: active
@@ -406,7 +406,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-8TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-8TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
       person: PERSON-HARRIS_ET_9E
   - type: Person
     code: PERSON-LIEBMAN_SS_3X
@@ -417,7 +417,7 @@ groups:
       middle_name: A.
       last_name: Liebman
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-8TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-LIEBMAN_SS_3X
+    code: CANDIDACY-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-8TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL-LIEBMAN_SS_3X
     attributes:
       status: active
       participation: active
@@ -426,5 +426,5 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_KINGS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-8TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-8TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
       person: PERSON-LIEBMAN_SS_3X

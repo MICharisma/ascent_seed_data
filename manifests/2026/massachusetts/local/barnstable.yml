@@ -189,21 +189,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_BARNSTABLE-REGISTER_OF_PROBATE-BARNSTABLE_COUNTY
+    code: OFFICE-USA-MA-COUNTY_BARNSTABLE-REGISTER_OF_PROBATE
     attributes:
-      seat_code: BARNSTABLE_COUNTY
       is_active: true
     references:
       position: POSITION-REGISTER_OF_PROBATE
       jurisdiction: COUNTY-USA-MA-BARNSTABLE
   - type: Race
-    code: RACE-USA-MA-COUNTY_BARNSTABLE-REGISTER_OF_PROBATE-BARNSTABLE_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_BARNSTABLE-REGISTER_OF_PROBATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_BARNSTABLE-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_BARNSTABLE-REGISTER_OF_PROBATE-BARNSTABLE_COUNTY
+      office: OFFICE-USA-MA-COUNTY_BARNSTABLE-REGISTER_OF_PROBATE
   - type: Person
     code: PERSON-PERRINO_AN_3W
     attributes:
@@ -213,7 +212,7 @@ groups:
       middle_name: Welsh
       last_name: Perrino
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_BARNSTABLE-REGISTER_OF_PROBATE-BARNSTABLE_COUNTY-2026_GENERAL-PERRINO_AN_3W
+    code: CANDIDACY-USA-MA-COUNTY_BARNSTABLE-REGISTER_OF_PROBATE-2026_GENERAL-PERRINO_AN_3W
     attributes:
       status: active
       participation: active
@@ -222,25 +221,24 @@ groups:
         kind: party
         party: PARTY-USA-MA-REPUBLICAN
     references:
-      race: RACE-USA-MA-COUNTY_BARNSTABLE-REGISTER_OF_PROBATE-BARNSTABLE_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_BARNSTABLE-REGISTER_OF_PROBATE-2026_GENERAL
       person: PERSON-PERRINO_AN_3W
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_BARNSTABLE-COUNTY_COMMISSIONER-BARNSTABLE_COUNTY
+    code: OFFICE-USA-MA-COUNTY_BARNSTABLE-COUNTY_COMMISSIONER
     attributes:
-      seat_code: BARNSTABLE_COUNTY
       is_active: true
     references:
       position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-MA-BARNSTABLE
   - type: Race
-    code: RACE-USA-MA-COUNTY_BARNSTABLE-COUNTY_COMMISSIONER-BARNSTABLE_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_BARNSTABLE-COUNTY_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_BARNSTABLE-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_BARNSTABLE-COUNTY_COMMISSIONER-BARNSTABLE_COUNTY
+      office: OFFICE-USA-MA-COUNTY_BARNSTABLE-COUNTY_COMMISSIONER
   - type: Person
     code: PERSON-GESSEN_DN_3X
     attributes:
@@ -250,7 +248,7 @@ groups:
       middle_name: A.
       last_name: Gessen
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_BARNSTABLE-COUNTY_COMMISSIONER-BARNSTABLE_COUNTY-2026_GENERAL-GESSEN_DN_3X
+    code: CANDIDACY-USA-MA-COUNTY_BARNSTABLE-COUNTY_COMMISSIONER-2026_GENERAL-GESSEN_DN_3X
     attributes:
       status: active
       participation: active
@@ -259,7 +257,7 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_BARNSTABLE-COUNTY_COMMISSIONER-BARNSTABLE_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_BARNSTABLE-COUNTY_COMMISSIONER-2026_GENERAL
       person: PERSON-GESSEN_DN_3X
   - type: Person
     code: PERSON-HOGUE_AD_4V
@@ -270,7 +268,7 @@ groups:
       middle_name: Michael
       last_name: Hogue
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_BARNSTABLE-COUNTY_COMMISSIONER-BARNSTABLE_COUNTY-2026_GENERAL-HOGUE_AD_4V
+    code: CANDIDACY-USA-MA-COUNTY_BARNSTABLE-COUNTY_COMMISSIONER-2026_GENERAL-HOGUE_AD_4V
     attributes:
       status: active
       participation: active
@@ -279,25 +277,24 @@ groups:
         kind: party
         party: PARTY-USA-MA-REPUBLICAN
     references:
-      race: RACE-USA-MA-COUNTY_BARNSTABLE-COUNTY_COMMISSIONER-BARNSTABLE_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_BARNSTABLE-COUNTY_COMMISSIONER-2026_GENERAL
       person: PERSON-HOGUE_AD_4V
 - records:
   - type: Office
-    code: OFFICE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE
+    code: OFFICE-USA-MA-BARNSTABLE_TOWN-COUNTY_ASSEMBLY_DELEGATE
     attributes:
-      seat_code: BARNSTABLE
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_ASSEMBLY_DELEGATE
+      position: POSITION-COUNTY_ASSEMBLY_DELEGATE
       jurisdiction: MUNICIPALITY-USA-MA-BARNSTABLE_TOWN
   - type: Race
-    code: RACE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE-2026_GENERAL
+    code: RACE-USA-MA-BARNSTABLE_TOWN-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-BARNSTABLE_TOWN-2026_GENERAL
-      office: OFFICE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE
+      office: OFFICE-USA-MA-BARNSTABLE_TOWN-COUNTY_ASSEMBLY_DELEGATE
   - type: Person
     code: PERSON-FREDERICKSON_FR_7S
     attributes:
@@ -307,12 +304,12 @@ groups:
       middle_name: George
       last_name: Frederickson
   - type: Candidacy
-    code: CANDIDACY-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE-2026_GENERAL-FREDERICKSON_FR_7S
+    code: CANDIDACY-USA-MA-BARNSTABLE_TOWN-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL-FREDERICKSON_FR_7S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE-2026_GENERAL
+      race: RACE-USA-MA-BARNSTABLE_TOWN-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
       person: PERSON-FREDERICKSON_FR_7S
   - type: Person
     code: PERSON-CAPLAN_IS_5F
@@ -323,30 +320,29 @@ groups:
       middle_name: Kerxhalli
       last_name: Caplan
   - type: Candidacy
-    code: CANDIDACY-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE-2026_GENERAL-CAPLAN_IS_5F
+    code: CANDIDACY-USA-MA-BARNSTABLE_TOWN-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL-CAPLAN_IS_5F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_ASSEMBLY_DELEGATE-BARNSTABLE-2026_GENERAL
+      race: RACE-USA-MA-BARNSTABLE_TOWN-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
       person: PERSON-CAPLAN_IS_5F
 - records:
   - type: Office
-    code: OFFICE-USA-MA-BOURNE-BARNSTABLE_ASSEMBLY_DELEGATE-BOURNE
+    code: OFFICE-USA-MA-BOURNE-COUNTY_ASSEMBLY_DELEGATE
     attributes:
-      seat_code: BOURNE
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_ASSEMBLY_DELEGATE
+      position: POSITION-COUNTY_ASSEMBLY_DELEGATE
       jurisdiction: MUNICIPALITY-USA-MA-BOURNE
   - type: Race
-    code: RACE-USA-MA-BOURNE-BARNSTABLE_ASSEMBLY_DELEGATE-BOURNE-2026_GENERAL
+    code: RACE-USA-MA-BOURNE-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-BOURNE-2026_GENERAL
-      office: OFFICE-USA-MA-BOURNE-BARNSTABLE_ASSEMBLY_DELEGATE-BOURNE
+      office: OFFICE-USA-MA-BOURNE-COUNTY_ASSEMBLY_DELEGATE
   - type: Person
     code: PERSON-GONZAGA_LZ_7Y
     attributes:
@@ -355,30 +351,29 @@ groups:
       first_name: Luiz
       last_name: Gonzaga
   - type: Candidacy
-    code: CANDIDACY-USA-MA-BOURNE-BARNSTABLE_ASSEMBLY_DELEGATE-BOURNE-2026_GENERAL-GONZAGA_LZ_7Y
+    code: CANDIDACY-USA-MA-BOURNE-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL-GONZAGA_LZ_7Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-BOURNE-BARNSTABLE_ASSEMBLY_DELEGATE-BOURNE-2026_GENERAL
+      race: RACE-USA-MA-BOURNE-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
       person: PERSON-GONZAGA_LZ_7Y
 - records:
   - type: Office
-    code: OFFICE-USA-MA-BREWSTER-BARNSTABLE_ASSEMBLY_DELEGATE-BREWSTER
+    code: OFFICE-USA-MA-BREWSTER-COUNTY_ASSEMBLY_DELEGATE
     attributes:
-      seat_code: BREWSTER
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_ASSEMBLY_DELEGATE
+      position: POSITION-COUNTY_ASSEMBLY_DELEGATE
       jurisdiction: MUNICIPALITY-USA-MA-BREWSTER
   - type: Race
-    code: RACE-USA-MA-BREWSTER-BARNSTABLE_ASSEMBLY_DELEGATE-BREWSTER-2026_GENERAL
+    code: RACE-USA-MA-BREWSTER-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-BREWSTER-2026_GENERAL
-      office: OFFICE-USA-MA-BREWSTER-BARNSTABLE_ASSEMBLY_DELEGATE-BREWSTER
+      office: OFFICE-USA-MA-BREWSTER-COUNTY_ASSEMBLY_DELEGATE
   - type: Person
     code: PERSON-FRYZEL_KR_9A
     attributes:
@@ -388,30 +383,29 @@ groups:
       middle_name: Peter
       last_name: Fryzel
   - type: Candidacy
-    code: CANDIDACY-USA-MA-BREWSTER-BARNSTABLE_ASSEMBLY_DELEGATE-BREWSTER-2026_GENERAL-FRYZEL_KR_9A
+    code: CANDIDACY-USA-MA-BREWSTER-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL-FRYZEL_KR_9A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-BREWSTER-BARNSTABLE_ASSEMBLY_DELEGATE-BREWSTER-2026_GENERAL
+      race: RACE-USA-MA-BREWSTER-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
       person: PERSON-FRYZEL_KR_9A
 - records:
   - type: Office
-    code: OFFICE-USA-MA-CHATHAM-BARNSTABLE_ASSEMBLY_DELEGATE-CHATHAM
+    code: OFFICE-USA-MA-CHATHAM-COUNTY_ASSEMBLY_DELEGATE
     attributes:
-      seat_code: CHATHAM
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_ASSEMBLY_DELEGATE
+      position: POSITION-COUNTY_ASSEMBLY_DELEGATE
       jurisdiction: MUNICIPALITY-USA-MA-CHATHAM
   - type: Race
-    code: RACE-USA-MA-CHATHAM-BARNSTABLE_ASSEMBLY_DELEGATE-CHATHAM-2026_GENERAL
+    code: RACE-USA-MA-CHATHAM-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-CHATHAM-2026_GENERAL
-      office: OFFICE-USA-MA-CHATHAM-BARNSTABLE_ASSEMBLY_DELEGATE-CHATHAM
+      office: OFFICE-USA-MA-CHATHAM-COUNTY_ASSEMBLY_DELEGATE
   - type: Person
     code: PERSON-CLARKE_TH_7U
     attributes:
@@ -421,30 +415,29 @@ groups:
       middle_name: H.
       last_name: Clarke, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-MA-CHATHAM-BARNSTABLE_ASSEMBLY_DELEGATE-CHATHAM-2026_GENERAL-CLARKE_TH_7U
+    code: CANDIDACY-USA-MA-CHATHAM-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL-CLARKE_TH_7U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-CHATHAM-BARNSTABLE_ASSEMBLY_DELEGATE-CHATHAM-2026_GENERAL
+      race: RACE-USA-MA-CHATHAM-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
       person: PERSON-CLARKE_TH_7U
 - records:
   - type: Office
-    code: OFFICE-USA-MA-DENNIS-BARNSTABLE_ASSEMBLY_DELEGATE-DENNIS
+    code: OFFICE-USA-MA-DENNIS-COUNTY_ASSEMBLY_DELEGATE
     attributes:
-      seat_code: DENNIS
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_ASSEMBLY_DELEGATE
+      position: POSITION-COUNTY_ASSEMBLY_DELEGATE
       jurisdiction: MUNICIPALITY-USA-MA-DENNIS
   - type: Race
-    code: RACE-USA-MA-DENNIS-BARNSTABLE_ASSEMBLY_DELEGATE-DENNIS-2026_GENERAL
+    code: RACE-USA-MA-DENNIS-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-DENNIS-2026_GENERAL
-      office: OFFICE-USA-MA-DENNIS-BARNSTABLE_ASSEMBLY_DELEGATE-DENNIS
+      office: OFFICE-USA-MA-DENNIS-COUNTY_ASSEMBLY_DELEGATE
   - type: Person
     code: PERSON-OHMAN_JH_5V
     attributes:
@@ -454,30 +447,29 @@ groups:
       middle_name: Walter
       last_name: Ohman
   - type: Candidacy
-    code: CANDIDACY-USA-MA-DENNIS-BARNSTABLE_ASSEMBLY_DELEGATE-DENNIS-2026_GENERAL-OHMAN_JH_5V
+    code: CANDIDACY-USA-MA-DENNIS-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL-OHMAN_JH_5V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-DENNIS-BARNSTABLE_ASSEMBLY_DELEGATE-DENNIS-2026_GENERAL
+      race: RACE-USA-MA-DENNIS-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
       person: PERSON-OHMAN_JH_5V
 - records:
   - type: Office
-    code: OFFICE-USA-MA-EASTHAM-BARNSTABLE_ASSEMBLY_DELEGATE-EASTHAM
+    code: OFFICE-USA-MA-EASTHAM-COUNTY_ASSEMBLY_DELEGATE
     attributes:
-      seat_code: EASTHAM
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_ASSEMBLY_DELEGATE
+      position: POSITION-COUNTY_ASSEMBLY_DELEGATE
       jurisdiction: MUNICIPALITY-USA-MA-EASTHAM
   - type: Race
-    code: RACE-USA-MA-EASTHAM-BARNSTABLE_ASSEMBLY_DELEGATE-EASTHAM-2026_GENERAL
+    code: RACE-USA-MA-EASTHAM-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-EASTHAM-2026_GENERAL
-      office: OFFICE-USA-MA-EASTHAM-BARNSTABLE_ASSEMBLY_DELEGATE-EASTHAM
+      office: OFFICE-USA-MA-EASTHAM-COUNTY_ASSEMBLY_DELEGATE
   - type: Person
     code: PERSON-GALLAGHER_JH_7L
     attributes:
@@ -487,30 +479,29 @@ groups:
       middle_name: Terence
       last_name: Gallagher
   - type: Candidacy
-    code: CANDIDACY-USA-MA-EASTHAM-BARNSTABLE_ASSEMBLY_DELEGATE-EASTHAM-2026_GENERAL-GALLAGHER_JH_7L
+    code: CANDIDACY-USA-MA-EASTHAM-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL-GALLAGHER_JH_7L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-EASTHAM-BARNSTABLE_ASSEMBLY_DELEGATE-EASTHAM-2026_GENERAL
+      race: RACE-USA-MA-EASTHAM-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
       person: PERSON-GALLAGHER_JH_7L
 - records:
   - type: Office
-    code: OFFICE-USA-MA-FALMOUTH-BARNSTABLE_ASSEMBLY_DELEGATE-FALMOUTH
+    code: OFFICE-USA-MA-FALMOUTH-COUNTY_ASSEMBLY_DELEGATE
     attributes:
-      seat_code: FALMOUTH
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_ASSEMBLY_DELEGATE
+      position: POSITION-COUNTY_ASSEMBLY_DELEGATE
       jurisdiction: MUNICIPALITY-USA-MA-FALMOUTH
   - type: Race
-    code: RACE-USA-MA-FALMOUTH-BARNSTABLE_ASSEMBLY_DELEGATE-FALMOUTH-2026_GENERAL
+    code: RACE-USA-MA-FALMOUTH-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-FALMOUTH-2026_GENERAL
-      office: OFFICE-USA-MA-FALMOUTH-BARNSTABLE_ASSEMBLY_DELEGATE-FALMOUTH
+      office: OFFICE-USA-MA-FALMOUTH-COUNTY_ASSEMBLY_DELEGATE
   - type: Person
     code: PERSON-WALKER_RY_9C
     attributes:
@@ -520,30 +511,29 @@ groups:
       middle_name: James
       last_name: Walker
   - type: Candidacy
-    code: CANDIDACY-USA-MA-FALMOUTH-BARNSTABLE_ASSEMBLY_DELEGATE-FALMOUTH-2026_GENERAL-WALKER_RY_9C
+    code: CANDIDACY-USA-MA-FALMOUTH-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL-WALKER_RY_9C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-FALMOUTH-BARNSTABLE_ASSEMBLY_DELEGATE-FALMOUTH-2026_GENERAL
+      race: RACE-USA-MA-FALMOUTH-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
       person: PERSON-WALKER_RY_9C
 - records:
   - type: Office
-    code: OFFICE-USA-MA-HARWICH-BARNSTABLE_ASSEMBLY_DELEGATE-HARWICH
+    code: OFFICE-USA-MA-HARWICH-COUNTY_ASSEMBLY_DELEGATE
     attributes:
-      seat_code: HARWICH
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_ASSEMBLY_DELEGATE
+      position: POSITION-COUNTY_ASSEMBLY_DELEGATE
       jurisdiction: MUNICIPALITY-USA-MA-HARWICH
   - type: Race
-    code: RACE-USA-MA-HARWICH-BARNSTABLE_ASSEMBLY_DELEGATE-HARWICH-2026_GENERAL
+    code: RACE-USA-MA-HARWICH-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-HARWICH-2026_GENERAL
-      office: OFFICE-USA-MA-HARWICH-BARNSTABLE_ASSEMBLY_DELEGATE-HARWICH
+      office: OFFICE-USA-MA-HARWICH-COUNTY_ASSEMBLY_DELEGATE
   - type: Person
     code: PERSON-HARDER_EL_6T
     attributes:
@@ -553,30 +543,29 @@ groups:
       middle_name: Rhodes
       last_name: Harder
   - type: Candidacy
-    code: CANDIDACY-USA-MA-HARWICH-BARNSTABLE_ASSEMBLY_DELEGATE-HARWICH-2026_GENERAL-HARDER_EL_6T
+    code: CANDIDACY-USA-MA-HARWICH-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL-HARDER_EL_6T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-HARWICH-BARNSTABLE_ASSEMBLY_DELEGATE-HARWICH-2026_GENERAL
+      race: RACE-USA-MA-HARWICH-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
       person: PERSON-HARDER_EL_6T
 - records:
   - type: Office
-    code: OFFICE-USA-MA-ORLEANS-BARNSTABLE_ASSEMBLY_DELEGATE-ORLEANS
+    code: OFFICE-USA-MA-ORLEANS-COUNTY_ASSEMBLY_DELEGATE
     attributes:
-      seat_code: ORLEANS
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_ASSEMBLY_DELEGATE
+      position: POSITION-COUNTY_ASSEMBLY_DELEGATE
       jurisdiction: MUNICIPALITY-USA-MA-ORLEANS
   - type: Race
-    code: RACE-USA-MA-ORLEANS-BARNSTABLE_ASSEMBLY_DELEGATE-ORLEANS-2026_GENERAL
+    code: RACE-USA-MA-ORLEANS-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-ORLEANS-2026_GENERAL
-      office: OFFICE-USA-MA-ORLEANS-BARNSTABLE_ASSEMBLY_DELEGATE-ORLEANS
+      office: OFFICE-USA-MA-ORLEANS-COUNTY_ASSEMBLY_DELEGATE
   - type: Person
     code: PERSON-AHERN_NL_5W
     attributes:
@@ -586,30 +575,29 @@ groups:
       middle_name: Vincent
       last_name: Ahern
   - type: Candidacy
-    code: CANDIDACY-USA-MA-ORLEANS-BARNSTABLE_ASSEMBLY_DELEGATE-ORLEANS-2026_GENERAL-AHERN_NL_5W
+    code: CANDIDACY-USA-MA-ORLEANS-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL-AHERN_NL_5W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-ORLEANS-BARNSTABLE_ASSEMBLY_DELEGATE-ORLEANS-2026_GENERAL
+      race: RACE-USA-MA-ORLEANS-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
       person: PERSON-AHERN_NL_5W
 - records:
   - type: Office
-    code: OFFICE-USA-MA-PROVINCETOWN-BARNSTABLE_ASSEMBLY_DELEGATE-PROVINCETOWN
+    code: OFFICE-USA-MA-PROVINCETOWN-COUNTY_ASSEMBLY_DELEGATE
     attributes:
-      seat_code: PROVINCETOWN
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_ASSEMBLY_DELEGATE
+      position: POSITION-COUNTY_ASSEMBLY_DELEGATE
       jurisdiction: MUNICIPALITY-USA-MA-PROVINCETOWN
   - type: Race
-    code: RACE-USA-MA-PROVINCETOWN-BARNSTABLE_ASSEMBLY_DELEGATE-PROVINCETOWN-2026_GENERAL
+    code: RACE-USA-MA-PROVINCETOWN-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-PROVINCETOWN-2026_GENERAL
-      office: OFFICE-USA-MA-PROVINCETOWN-BARNSTABLE_ASSEMBLY_DELEGATE-PROVINCETOWN
+      office: OFFICE-USA-MA-PROVINCETOWN-COUNTY_ASSEMBLY_DELEGATE
   - type: Person
     code: PERSON-OMALLEY_BR_5X
     attributes:
@@ -618,30 +606,29 @@ groups:
       first_name: Brian
       last_name: O'Malley
   - type: Candidacy
-    code: CANDIDACY-USA-MA-PROVINCETOWN-BARNSTABLE_ASSEMBLY_DELEGATE-PROVINCETOWN-2026_GENERAL-OMALLEY_BR_5X
+    code: CANDIDACY-USA-MA-PROVINCETOWN-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL-OMALLEY_BR_5X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-PROVINCETOWN-BARNSTABLE_ASSEMBLY_DELEGATE-PROVINCETOWN-2026_GENERAL
+      race: RACE-USA-MA-PROVINCETOWN-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
       person: PERSON-OMALLEY_BR_5X
 - records:
   - type: Office
-    code: OFFICE-USA-MA-SANDWICH-BARNSTABLE_ASSEMBLY_DELEGATE-SANDWICH
+    code: OFFICE-USA-MA-SANDWICH-COUNTY_ASSEMBLY_DELEGATE
     attributes:
-      seat_code: SANDWICH
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_ASSEMBLY_DELEGATE
+      position: POSITION-COUNTY_ASSEMBLY_DELEGATE
       jurisdiction: MUNICIPALITY-USA-MA-SANDWICH
   - type: Race
-    code: RACE-USA-MA-SANDWICH-BARNSTABLE_ASSEMBLY_DELEGATE-SANDWICH-2026_GENERAL
+    code: RACE-USA-MA-SANDWICH-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-SANDWICH-2026_GENERAL
-      office: OFFICE-USA-MA-SANDWICH-BARNSTABLE_ASSEMBLY_DELEGATE-SANDWICH
+      office: OFFICE-USA-MA-SANDWICH-COUNTY_ASSEMBLY_DELEGATE
   - type: Person
     code: PERSON-KILLION_JM_9Q
     attributes:
@@ -651,30 +638,29 @@ groups:
       middle_name: J.
       last_name: Killion
   - type: Candidacy
-    code: CANDIDACY-USA-MA-SANDWICH-BARNSTABLE_ASSEMBLY_DELEGATE-SANDWICH-2026_GENERAL-KILLION_JM_9Q
+    code: CANDIDACY-USA-MA-SANDWICH-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL-KILLION_JM_9Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-SANDWICH-BARNSTABLE_ASSEMBLY_DELEGATE-SANDWICH-2026_GENERAL
+      race: RACE-USA-MA-SANDWICH-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
       person: PERSON-KILLION_JM_9Q
 - records:
   - type: Office
-    code: OFFICE-USA-MA-WELLFLEET-BARNSTABLE_ASSEMBLY_DELEGATE-WELLFLEET
+    code: OFFICE-USA-MA-WELLFLEET-COUNTY_ASSEMBLY_DELEGATE
     attributes:
-      seat_code: WELLFLEET
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_ASSEMBLY_DELEGATE
+      position: POSITION-COUNTY_ASSEMBLY_DELEGATE
       jurisdiction: MUNICIPALITY-USA-MA-WELLFLEET
   - type: Race
-    code: RACE-USA-MA-WELLFLEET-BARNSTABLE_ASSEMBLY_DELEGATE-WELLFLEET-2026_GENERAL
+    code: RACE-USA-MA-WELLFLEET-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-WELLFLEET-2026_GENERAL
-      office: OFFICE-USA-MA-WELLFLEET-BARNSTABLE_ASSEMBLY_DELEGATE-WELLFLEET
+      office: OFFICE-USA-MA-WELLFLEET-COUNTY_ASSEMBLY_DELEGATE
   - type: Person
     code: PERSON-CURLEY_RY_3H
     attributes:
@@ -684,30 +670,29 @@ groups:
       middle_name: D.
       last_name: Curley
   - type: Candidacy
-    code: CANDIDACY-USA-MA-WELLFLEET-BARNSTABLE_ASSEMBLY_DELEGATE-WELLFLEET-2026_GENERAL-CURLEY_RY_3H
+    code: CANDIDACY-USA-MA-WELLFLEET-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL-CURLEY_RY_3H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-WELLFLEET-BARNSTABLE_ASSEMBLY_DELEGATE-WELLFLEET-2026_GENERAL
+      race: RACE-USA-MA-WELLFLEET-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
       person: PERSON-CURLEY_RY_3H
 - records:
   - type: Office
-    code: OFFICE-USA-MA-YARMOUTH-BARNSTABLE_ASSEMBLY_DELEGATE-YARMOUTH
+    code: OFFICE-USA-MA-YARMOUTH-COUNTY_ASSEMBLY_DELEGATE
     attributes:
-      seat_code: YARMOUTH
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_ASSEMBLY_DELEGATE
+      position: POSITION-COUNTY_ASSEMBLY_DELEGATE
       jurisdiction: MUNICIPALITY-USA-MA-YARMOUTH
   - type: Race
-    code: RACE-USA-MA-YARMOUTH-BARNSTABLE_ASSEMBLY_DELEGATE-YARMOUTH-2026_GENERAL
+    code: RACE-USA-MA-YARMOUTH-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-YARMOUTH-2026_GENERAL
-      office: OFFICE-USA-MA-YARMOUTH-BARNSTABLE_ASSEMBLY_DELEGATE-YARMOUTH
+      office: OFFICE-USA-MA-YARMOUTH-COUNTY_ASSEMBLY_DELEGATE
   - type: Person
     code: PERSON-WARNER_SS_8X
     attributes:
@@ -717,30 +702,29 @@ groups:
       middle_name: Lee
       last_name: Warner
   - type: Candidacy
-    code: CANDIDACY-USA-MA-YARMOUTH-BARNSTABLE_ASSEMBLY_DELEGATE-YARMOUTH-2026_GENERAL-WARNER_SS_8X
+    code: CANDIDACY-USA-MA-YARMOUTH-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL-WARNER_SS_8X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-YARMOUTH-BARNSTABLE_ASSEMBLY_DELEGATE-YARMOUTH-2026_GENERAL
+      race: RACE-USA-MA-YARMOUTH-COUNTY_ASSEMBLY_DELEGATE-2026_GENERAL
       person: PERSON-WARNER_SS_8X
 - records:
   - type: Office
-    code: OFFICE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BARNSTABLE
+    code: OFFICE-USA-MA-BARNSTABLE_TOWN-COUNTY_CHARTER_COMMISSIONER
     attributes:
-      seat_code: BARNSTABLE
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER
+      position: POSITION-COUNTY_CHARTER_COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-MA-BARNSTABLE_TOWN
   - type: Race
-    code: RACE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BARNSTABLE-2026_GENERAL
+    code: RACE-USA-MA-BARNSTABLE_TOWN-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-BARNSTABLE_TOWN-2026_GENERAL
-      office: OFFICE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BARNSTABLE
+      office: OFFICE-USA-MA-BARNSTABLE_TOWN-COUNTY_CHARTER_COMMISSIONER
   - type: Person
     code: PERSON-PRINCI_PT_3U
     attributes:
@@ -750,30 +734,29 @@ groups:
       middle_name: M.
       last_name: Princi
   - type: Candidacy
-    code: CANDIDACY-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BARNSTABLE-2026_GENERAL-PRINCI_PT_3U
+    code: CANDIDACY-USA-MA-BARNSTABLE_TOWN-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL-PRINCI_PT_3U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-BARNSTABLE_TOWN-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BARNSTABLE-2026_GENERAL
+      race: RACE-USA-MA-BARNSTABLE_TOWN-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
       person: PERSON-PRINCI_PT_3U
 - records:
   - type: Office
-    code: OFFICE-USA-MA-BREWSTER-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BREWSTER
+    code: OFFICE-USA-MA-BREWSTER-COUNTY_CHARTER_COMMISSIONER
     attributes:
-      seat_code: BREWSTER
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER
+      position: POSITION-COUNTY_CHARTER_COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-MA-BREWSTER
   - type: Race
-    code: RACE-USA-MA-BREWSTER-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BREWSTER-2026_GENERAL
+    code: RACE-USA-MA-BREWSTER-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-BREWSTER-2026_GENERAL
-      office: OFFICE-USA-MA-BREWSTER-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BREWSTER
+      office: OFFICE-USA-MA-BREWSTER-COUNTY_CHARTER_COMMISSIONER
   - type: Person
     code: PERSON-SUMNER_CH_6P
     attributes:
@@ -783,30 +766,29 @@ groups:
       middle_name: L.
       last_name: Sumner
   - type: Candidacy
-    code: CANDIDACY-USA-MA-BREWSTER-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BREWSTER-2026_GENERAL-SUMNER_CH_6P
+    code: CANDIDACY-USA-MA-BREWSTER-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL-SUMNER_CH_6P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-BREWSTER-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-BREWSTER-2026_GENERAL
+      race: RACE-USA-MA-BREWSTER-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
       person: PERSON-SUMNER_CH_6P
 - records:
   - type: Office
-    code: OFFICE-USA-MA-CHATHAM-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-CHATHAM
+    code: OFFICE-USA-MA-CHATHAM-COUNTY_CHARTER_COMMISSIONER
     attributes:
-      seat_code: CHATHAM
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER
+      position: POSITION-COUNTY_CHARTER_COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-MA-CHATHAM
   - type: Race
-    code: RACE-USA-MA-CHATHAM-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-CHATHAM-2026_GENERAL
+    code: RACE-USA-MA-CHATHAM-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-CHATHAM-2026_GENERAL
-      office: OFFICE-USA-MA-CHATHAM-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-CHATHAM
+      office: OFFICE-USA-MA-CHATHAM-COUNTY_CHARTER_COMMISSIONER
   - type: Person
     code: PERSON-CLARKE_TH_3C
     attributes:
@@ -816,12 +798,12 @@ groups:
       middle_name: H.
       last_name: Clarke, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-MA-CHATHAM-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-CHATHAM-2026_GENERAL-CLARKE_TH_3C
+    code: CANDIDACY-USA-MA-CHATHAM-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL-CLARKE_TH_3C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-CHATHAM-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-CHATHAM-2026_GENERAL
+      race: RACE-USA-MA-CHATHAM-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
       person: PERSON-CLARKE_TH_3C
   - type: Person
     code: PERSON-TAYLOR_ST_6D
@@ -832,30 +814,29 @@ groups:
       middle_name: Thomas
       last_name: Taylor
   - type: Candidacy
-    code: CANDIDACY-USA-MA-CHATHAM-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-CHATHAM-2026_GENERAL-TAYLOR_ST_6D
+    code: CANDIDACY-USA-MA-CHATHAM-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL-TAYLOR_ST_6D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-CHATHAM-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-CHATHAM-2026_GENERAL
+      race: RACE-USA-MA-CHATHAM-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
       person: PERSON-TAYLOR_ST_6D
 - records:
   - type: Office
-    code: OFFICE-USA-MA-DENNIS-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-DENNIS
+    code: OFFICE-USA-MA-DENNIS-COUNTY_CHARTER_COMMISSIONER
     attributes:
-      seat_code: DENNIS
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER
+      position: POSITION-COUNTY_CHARTER_COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-MA-DENNIS
   - type: Race
-    code: RACE-USA-MA-DENNIS-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-DENNIS-2026_GENERAL
+    code: RACE-USA-MA-DENNIS-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-DENNIS-2026_GENERAL
-      office: OFFICE-USA-MA-DENNIS-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-DENNIS
+      office: OFFICE-USA-MA-DENNIS-COUNTY_CHARTER_COMMISSIONER
   - type: Person
     code: PERSON-OHMAN_JH_8Z
     attributes:
@@ -865,30 +846,29 @@ groups:
       middle_name: Walter
       last_name: Ohman
   - type: Candidacy
-    code: CANDIDACY-USA-MA-DENNIS-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-DENNIS-2026_GENERAL-OHMAN_JH_8Z
+    code: CANDIDACY-USA-MA-DENNIS-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL-OHMAN_JH_8Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-DENNIS-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-DENNIS-2026_GENERAL
+      race: RACE-USA-MA-DENNIS-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
       person: PERSON-OHMAN_JH_8Z
 - records:
   - type: Office
-    code: OFFICE-USA-MA-EASTHAM-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-EASTHAM
+    code: OFFICE-USA-MA-EASTHAM-COUNTY_CHARTER_COMMISSIONER
     attributes:
-      seat_code: EASTHAM
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER
+      position: POSITION-COUNTY_CHARTER_COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-MA-EASTHAM
   - type: Race
-    code: RACE-USA-MA-EASTHAM-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-EASTHAM-2026_GENERAL
+    code: RACE-USA-MA-EASTHAM-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-EASTHAM-2026_GENERAL
-      office: OFFICE-USA-MA-EASTHAM-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-EASTHAM
+      office: OFFICE-USA-MA-EASTHAM-COUNTY_CHARTER_COMMISSIONER
   - type: Person
     code: PERSON-GALLAGHER_JH_9R
     attributes:
@@ -898,30 +878,29 @@ groups:
       middle_name: Terence
       last_name: Gallagher
   - type: Candidacy
-    code: CANDIDACY-USA-MA-EASTHAM-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-EASTHAM-2026_GENERAL-GALLAGHER_JH_9R
+    code: CANDIDACY-USA-MA-EASTHAM-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL-GALLAGHER_JH_9R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-EASTHAM-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-EASTHAM-2026_GENERAL
+      race: RACE-USA-MA-EASTHAM-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
       person: PERSON-GALLAGHER_JH_9R
 - records:
   - type: Office
-    code: OFFICE-USA-MA-FALMOUTH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-FALMOUTH
+    code: OFFICE-USA-MA-FALMOUTH-COUNTY_CHARTER_COMMISSIONER
     attributes:
-      seat_code: FALMOUTH
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER
+      position: POSITION-COUNTY_CHARTER_COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-MA-FALMOUTH
   - type: Race
-    code: RACE-USA-MA-FALMOUTH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-FALMOUTH-2026_GENERAL
+    code: RACE-USA-MA-FALMOUTH-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-FALMOUTH-2026_GENERAL
-      office: OFFICE-USA-MA-FALMOUTH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-FALMOUTH
+      office: OFFICE-USA-MA-FALMOUTH-COUNTY_CHARTER_COMMISSIONER
   - type: Person
     code: PERSON-MASCALI_RB_8Q
     attributes:
@@ -931,30 +910,29 @@ groups:
       middle_name: Philip
       last_name: Mascali
   - type: Candidacy
-    code: CANDIDACY-USA-MA-FALMOUTH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-FALMOUTH-2026_GENERAL-MASCALI_RB_8Q
+    code: CANDIDACY-USA-MA-FALMOUTH-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL-MASCALI_RB_8Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-FALMOUTH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-FALMOUTH-2026_GENERAL
+      race: RACE-USA-MA-FALMOUTH-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
       person: PERSON-MASCALI_RB_8Q
 - records:
   - type: Office
-    code: OFFICE-USA-MA-HARWICH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-HARWICH
+    code: OFFICE-USA-MA-HARWICH-COUNTY_CHARTER_COMMISSIONER
     attributes:
-      seat_code: HARWICH
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER
+      position: POSITION-COUNTY_CHARTER_COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-MA-HARWICH
   - type: Race
-    code: RACE-USA-MA-HARWICH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-HARWICH-2026_GENERAL
+    code: RACE-USA-MA-HARWICH-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-HARWICH-2026_GENERAL
-      office: OFFICE-USA-MA-HARWICH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-HARWICH
+      office: OFFICE-USA-MA-HARWICH-COUNTY_CHARTER_COMMISSIONER
   - type: Person
     code: PERSON-HARDER_EL_8E
     attributes:
@@ -964,30 +942,29 @@ groups:
       middle_name: Rhodes
       last_name: Harder
   - type: Candidacy
-    code: CANDIDACY-USA-MA-HARWICH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-HARWICH-2026_GENERAL-HARDER_EL_8E
+    code: CANDIDACY-USA-MA-HARWICH-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL-HARDER_EL_8E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-HARWICH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-HARWICH-2026_GENERAL
+      race: RACE-USA-MA-HARWICH-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
       person: PERSON-HARDER_EL_8E
 - records:
   - type: Office
-    code: OFFICE-USA-MA-MASHPEE-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-MASHPEE
+    code: OFFICE-USA-MA-MASHPEE-COUNTY_CHARTER_COMMISSIONER
     attributes:
-      seat_code: MASHPEE
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER
+      position: POSITION-COUNTY_CHARTER_COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-MA-MASHPEE
   - type: Race
-    code: RACE-USA-MA-MASHPEE-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-MASHPEE-2026_GENERAL
+    code: RACE-USA-MA-MASHPEE-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-MASHPEE-2026_GENERAL
-      office: OFFICE-USA-MA-MASHPEE-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-MASHPEE
+      office: OFFICE-USA-MA-MASHPEE-COUNTY_CHARTER_COMMISSIONER
   - type: Person
     code: PERSON-COLLINS_RD_9H
     attributes:
@@ -997,30 +974,29 @@ groups:
       middle_name: Clay
       last_name: Collins
   - type: Candidacy
-    code: CANDIDACY-USA-MA-MASHPEE-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-MASHPEE-2026_GENERAL-COLLINS_RD_9H
+    code: CANDIDACY-USA-MA-MASHPEE-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL-COLLINS_RD_9H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-MASHPEE-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-MASHPEE-2026_GENERAL
+      race: RACE-USA-MA-MASHPEE-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
       person: PERSON-COLLINS_RD_9H
 - records:
   - type: Office
-    code: OFFICE-USA-MA-ORLEANS-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-ORLEANS
+    code: OFFICE-USA-MA-ORLEANS-COUNTY_CHARTER_COMMISSIONER
     attributes:
-      seat_code: ORLEANS
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER
+      position: POSITION-COUNTY_CHARTER_COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-MA-ORLEANS
   - type: Race
-    code: RACE-USA-MA-ORLEANS-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-ORLEANS-2026_GENERAL
+    code: RACE-USA-MA-ORLEANS-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-ORLEANS-2026_GENERAL
-      office: OFFICE-USA-MA-ORLEANS-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-ORLEANS
+      office: OFFICE-USA-MA-ORLEANS-COUNTY_CHARTER_COMMISSIONER
   - type: Person
     code: PERSON-BRUNEAU_MR_3V
     attributes:
@@ -1030,30 +1006,29 @@ groups:
       middle_name: Marie
       last_name: Bruneau
   - type: Candidacy
-    code: CANDIDACY-USA-MA-ORLEANS-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-ORLEANS-2026_GENERAL-BRUNEAU_MR_3V
+    code: CANDIDACY-USA-MA-ORLEANS-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL-BRUNEAU_MR_3V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-ORLEANS-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-ORLEANS-2026_GENERAL
+      race: RACE-USA-MA-ORLEANS-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
       person: PERSON-BRUNEAU_MR_3V
 - records:
   - type: Office
-    code: OFFICE-USA-MA-PROVINCETOWN-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-PROVINCETOWN
+    code: OFFICE-USA-MA-PROVINCETOWN-COUNTY_CHARTER_COMMISSIONER
     attributes:
-      seat_code: PROVINCETOWN
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER
+      position: POSITION-COUNTY_CHARTER_COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-MA-PROVINCETOWN
   - type: Race
-    code: RACE-USA-MA-PROVINCETOWN-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-PROVINCETOWN-2026_GENERAL
+    code: RACE-USA-MA-PROVINCETOWN-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-PROVINCETOWN-2026_GENERAL
-      office: OFFICE-USA-MA-PROVINCETOWN-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-PROVINCETOWN
+      office: OFFICE-USA-MA-PROVINCETOWN-COUNTY_CHARTER_COMMISSIONER
   - type: Person
     code: PERSON-OMALLEY_BR_3M
     attributes:
@@ -1062,30 +1037,29 @@ groups:
       first_name: Brian
       last_name: O'Malley
   - type: Candidacy
-    code: CANDIDACY-USA-MA-PROVINCETOWN-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-PROVINCETOWN-2026_GENERAL-OMALLEY_BR_3M
+    code: CANDIDACY-USA-MA-PROVINCETOWN-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL-OMALLEY_BR_3M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-PROVINCETOWN-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-PROVINCETOWN-2026_GENERAL
+      race: RACE-USA-MA-PROVINCETOWN-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
       person: PERSON-OMALLEY_BR_3M
 - records:
   - type: Office
-    code: OFFICE-USA-MA-SANDWICH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-SANDWICH
+    code: OFFICE-USA-MA-SANDWICH-COUNTY_CHARTER_COMMISSIONER
     attributes:
-      seat_code: SANDWICH
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER
+      position: POSITION-COUNTY_CHARTER_COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-MA-SANDWICH
   - type: Race
-    code: RACE-USA-MA-SANDWICH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-SANDWICH-2026_GENERAL
+    code: RACE-USA-MA-SANDWICH-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-SANDWICH-2026_GENERAL
-      office: OFFICE-USA-MA-SANDWICH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-SANDWICH
+      office: OFFICE-USA-MA-SANDWICH-COUNTY_CHARTER_COMMISSIONER
   - type: Person
     code: PERSON-KILLION_JM_6W
     attributes:
@@ -1095,30 +1069,29 @@ groups:
       middle_name: J.
       last_name: Killion
   - type: Candidacy
-    code: CANDIDACY-USA-MA-SANDWICH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-SANDWICH-2026_GENERAL-KILLION_JM_6W
+    code: CANDIDACY-USA-MA-SANDWICH-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL-KILLION_JM_6W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-SANDWICH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-SANDWICH-2026_GENERAL
+      race: RACE-USA-MA-SANDWICH-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
       person: PERSON-KILLION_JM_6W
 - records:
   - type: Office
-    code: OFFICE-USA-MA-WELLFLEET-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-WELLFLEET
+    code: OFFICE-USA-MA-WELLFLEET-COUNTY_CHARTER_COMMISSIONER
     attributes:
-      seat_code: WELLFLEET
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER
+      position: POSITION-COUNTY_CHARTER_COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-MA-WELLFLEET
   - type: Race
-    code: RACE-USA-MA-WELLFLEET-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-WELLFLEET-2026_GENERAL
+    code: RACE-USA-MA-WELLFLEET-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-WELLFLEET-2026_GENERAL
-      office: OFFICE-USA-MA-WELLFLEET-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-WELLFLEET
+      office: OFFICE-USA-MA-WELLFLEET-COUNTY_CHARTER_COMMISSIONER
   - type: Person
     code: PERSON-CURLEY_RY_3A
     attributes:
@@ -1128,30 +1101,29 @@ groups:
       middle_name: D.
       last_name: Curley
   - type: Candidacy
-    code: CANDIDACY-USA-MA-WELLFLEET-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-WELLFLEET-2026_GENERAL-CURLEY_RY_3A
+    code: CANDIDACY-USA-MA-WELLFLEET-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL-CURLEY_RY_3A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-WELLFLEET-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-WELLFLEET-2026_GENERAL
+      race: RACE-USA-MA-WELLFLEET-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
       person: PERSON-CURLEY_RY_3A
 - records:
   - type: Office
-    code: OFFICE-USA-MA-YARMOUTH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-YARMOUTH
+    code: OFFICE-USA-MA-YARMOUTH-COUNTY_CHARTER_COMMISSIONER
     attributes:
-      seat_code: YARMOUTH
       is_active: true
     references:
-      position: POSITION-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER
+      position: POSITION-COUNTY_CHARTER_COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-MA-YARMOUTH
   - type: Race
-    code: RACE-USA-MA-YARMOUTH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-YARMOUTH-2026_GENERAL
+    code: RACE-USA-MA-YARMOUTH-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: 1. Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-YARMOUTH-2026_GENERAL
-      office: OFFICE-USA-MA-YARMOUTH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-YARMOUTH
+      office: OFFICE-USA-MA-YARMOUTH-COUNTY_CHARTER_COMMISSIONER
   - type: Person
     code: PERSON-LAWTON_RB_4A
     attributes:
@@ -1161,10 +1133,10 @@ groups:
       middle_name: C.
       last_name: Lawton, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-MA-YARMOUTH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-YARMOUTH-2026_GENERAL-LAWTON_RB_4A
+    code: CANDIDACY-USA-MA-YARMOUTH-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL-LAWTON_RB_4A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-YARMOUTH-BARNSTABLE_COUNTY_CHARTER_COMMISSIONER-YARMOUTH-2026_GENERAL
+      race: RACE-USA-MA-YARMOUTH-COUNTY_CHARTER_COMMISSIONER-2026_GENERAL
       person: PERSON-LAWTON_RB_4A

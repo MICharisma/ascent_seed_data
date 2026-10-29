@@ -7,6 +7,18 @@ scope:
   state: STATE-USA-NY
 records:
 - type: Election
+  code: ELECTION-USA-NY-CITY_OF_JAMESTOWN_WARD_2-2026_GENERAL
+  attributes:
+    name: City of Jamestown Ward 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-CITY_OF_JAMESTOWN_WARD_2
+    year: YEAR-2026
+- type: Election
   code: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
   attributes:
     name: Chautauqua County General Election 2026
@@ -18,25 +30,349 @@ records:
   references:
     jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
     year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-KIANTONE-2026_GENERAL
+  attributes:
+    name: Kiantone General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-KIANTONE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-DUNKIRK_TOWN-2026_GENERAL
+  attributes:
+    name: Dunkirk General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-DUNKIRK_TOWN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-HARMONY-2026_GENERAL
+  attributes:
+    name: Harmony General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-HARMONY
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-MINA-2026_GENERAL
+  attributes:
+    name: Mina General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-MINA
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-POMFRET-2026_GENERAL
+  attributes:
+    name: Pomfret General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-POMFRET
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-TOWN_OF_ELLICOTT_WARD_1-2026_GENERAL
+  attributes:
+    name: Town of Ellicott Ward 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-TOWN_OF_ELLICOTT_WARD_1
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-TOWN_OF_ELLICOTT_WARD_2-2026_GENERAL
+  attributes:
+    name: Town of Ellicott Ward 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-TOWN_OF_ELLICOTT_WARD_2
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-TOWN_OF_ELLICOTT_WARD_3-2026_GENERAL
+  attributes:
+    name: Town of Ellicott Ward 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-TOWN_OF_ELLICOTT_WARD_3
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-TOWN_OF_ELLICOTT_WARD_4-2026_GENERAL
+  attributes:
+    name: Town of Ellicott Ward 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-TOWN_OF_ELLICOTT_WARD_4
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-SHERMAN_TOWN-2026_GENERAL
+  attributes:
+    name: Sherman General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-SHERMAN_TOWN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-VILLENOVA-2026_GENERAL
+  attributes:
+    name: Villenova General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-VILLENOVA
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-BUSTI-2026_GENERAL
+  attributes:
+    name: Busti General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-BUSTI
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-ELLINGTON-2026_GENERAL
+  attributes:
+    name: Ellington General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-ELLINGTON
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-PORTLAND-2026_GENERAL
+  attributes:
+    name: Portland General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-PORTLAND
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-WESTFIELD_TOWN-2026_GENERAL
+  attributes:
+    name: Westfield General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-WESTFIELD_TOWN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-CARROLL-2026_GENERAL
+  attributes:
+    name: Carroll General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-CARROLL
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-CHERRY_CREEK-2026_GENERAL
+  attributes:
+    name: Cherry Creek General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-CHERRY_CREEK
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-ELLERY-2026_GENERAL
+  attributes:
+    name: Ellery General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-ELLERY
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-POLAND_TOWN-2026_GENERAL
+  attributes:
+    name: Poland General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-POLAND_TOWN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-CLYMER-2026_GENERAL
+  attributes:
+    name: Clymer General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-CLYMER
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-MAYVILLE-2026_GENERAL
+  attributes:
+    name: Mayville General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-MAYVILLE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-PANAMA-2026_GENERAL
+  attributes:
+    name: Panama General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-PANAMA
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-BEMUS_POINT-2026_GENERAL
+  attributes:
+    name: Bemus Point General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-BEMUS_POINT
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-CELORON-2026_GENERAL
+  attributes:
+    name: Celoron General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-CELORON
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-SILVER_CREEK-2026_GENERAL
+  attributes:
+    name: Silver Creek General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-SILVER_CREEK
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-CASSADAGA-2026_GENERAL
+  attributes:
+    name: Cassadaga General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-CASSADAGA
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-FREDONIA-2026_GENERAL
+  attributes:
+    name: Fredonia General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-FREDONIA
+    year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-CITY_COUNCILMEMBER_WARD_2_VACANCY-CITY_OF_JAMESTOWN_WARD_2
+    code: OFFICE-USA-NY-CITY_OF_JAMESTOWN_WARD_2-COUNCIL_MEMBER-WARD_2
     attributes:
-      seat_code: CITY_OF_JAMESTOWN_WARD_2
+      seat_code: WARD_2
       is_active: true
     references:
-      position: POSITION-CITY_COUNCILMEMBER_WARD_2_VACANCY
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-NY-CITY_OF_JAMESTOWN_WARD_2
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-CITY_COUNCILMEMBER_WARD_2_VACANCY-CITY_OF_JAMESTOWN_WARD_2-2026_GENERAL
+    code: RACE-USA-NY-CITY_OF_JAMESTOWN_WARD_2-COUNCIL_MEMBER-WARD_2-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-CITY_COUNCILMEMBER_WARD_2_VACANCY-CITY_OF_JAMESTOWN_WARD_2
+      election: ELECTION-USA-NY-CITY_OF_JAMESTOWN_WARD_2-2026_GENERAL
+      office: OFFICE-USA-NY-CITY_OF_JAMESTOWN_WARD_2-COUNCIL_MEMBER-WARD_2
   - type: Person
     code: PERSON-BIGELOW_BR_9D
     attributes:
@@ -46,7 +382,7 @@ groups:
       middle_name: S.
       last_name: Bigelow
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-CITY_COUNCILMEMBER_WARD_2_VACANCY-CITY_OF_JAMESTOWN_WARD_2-2026_GENERAL-BIGELOW_BR_9D
+    code: CANDIDACY-USA-NY-CITY_OF_JAMESTOWN_WARD_2-COUNCIL_MEMBER-WARD_2-UNEXPIRED_TERM-2026_GENERAL-BIGELOW_BR_9D
     attributes:
       status: active
       participation: active
@@ -58,7 +394,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-CITY_COUNCILMEMBER_WARD_2_VACANCY-CITY_OF_JAMESTOWN_WARD_2-2026_GENERAL
+      race: RACE-USA-NY-CITY_OF_JAMESTOWN_WARD_2-COUNCIL_MEMBER-WARD_2-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-BIGELOW_BR_9D
   - type: Person
     code: PERSON-SAMPLE_JS_3Z
@@ -68,7 +404,7 @@ groups:
       first_name: Jason
       last_name: Sample
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-CITY_COUNCILMEMBER_WARD_2_VACANCY-CITY_OF_JAMESTOWN_WARD_2-2026_GENERAL-SAMPLE_JS_3Z
+    code: CANDIDACY-USA-NY-CITY_OF_JAMESTOWN_WARD_2-COUNCIL_MEMBER-WARD_2-UNEXPIRED_TERM-2026_GENERAL-SAMPLE_JS_3Z
     attributes:
       status: active
       participation: active
@@ -77,26 +413,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-CITY_COUNCILMEMBER_WARD_2_VACANCY-CITY_OF_JAMESTOWN_WARD_2-2026_GENERAL
+      race: RACE-USA-NY-CITY_OF_JAMESTOWN_WARD_2-COUNCIL_MEMBER-WARD_2-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-SAMPLE_JS_3Z
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_FAMILY_COURT_JUDGE-CHAUTAUQUA_COUNTY
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-FAMILY_COURT_JUDGE
     attributes:
-      seat_code: CHAUTAUQUA_COUNTY
       is_active: true
     references:
-      position: POSITION-COUNTY_FAMILY_COURT_JUDGE
+      position: POSITION-FAMILY_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_FAMILY_COURT_JUDGE-CHAUTAUQUA_COUNTY-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-FAMILY_COURT_JUDGE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_FAMILY_COURT_JUDGE-CHAUTAUQUA_COUNTY
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-FAMILY_COURT_JUDGE
   - type: Person
     code: PERSON-MOSS_AL_3N
     attributes:
@@ -106,7 +441,7 @@ groups:
       middle_name: B.
       last_name: Moss
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_FAMILY_COURT_JUDGE-CHAUTAUQUA_COUNTY-2026_GENERAL-MOSS_AL_3N
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-FAMILY_COURT_JUDGE-2026_GENERAL-MOSS_AL_3N
     attributes:
       status: active
       participation: active
@@ -118,7 +453,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_FAMILY_COURT_JUDGE-CHAUTAUQUA_COUNTY-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-FAMILY_COURT_JUDGE-2026_GENERAL
       person: PERSON-MOSS_AL_3N
   - type: Person
     code: PERSON-SULLIVAN_MC_7F
@@ -128,7 +463,7 @@ groups:
       first_name: Michael
       last_name: Sullivan
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_FAMILY_COURT_JUDGE-CHAUTAUQUA_COUNTY-2026_GENERAL-SULLIVAN_MC_7F
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-FAMILY_COURT_JUDGE-2026_GENERAL-SULLIVAN_MC_7F
     attributes:
       status: active
       participation: active
@@ -140,26 +475,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_FAMILY_COURT_JUDGE-CHAUTAUQUA_COUNTY-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-FAMILY_COURT_JUDGE-2026_GENERAL
       person: PERSON-SULLIVAN_MC_7F
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_1-DUNKIRK_TOWN_2_DUNKIRK_2_1_2_2_2_3_3_2_3_3
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_1
     attributes:
-      seat_code: DUNKIRK_TOWN_2_DUNKIRK_2_1_2_2_2_3_3_2_3_3
+      seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_1
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_1-DUNKIRK_TOWN_2_DUNKIRK_2_1_2_2_2_3_3_2_3_3-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_1-DUNKIRK_TOWN_2_DUNKIRK_2_1_2_2_2_3_3_2_3_3
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_1
   - type: Person
     code: PERSON-GARZA_CL_9X
     attributes:
@@ -168,7 +503,7 @@ groups:
       first_name: Colby
       last_name: Garza
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_1-DUNKIRK_TOWN_2_DUNKIRK_2_1_2_2_2_3_3_2_3_3-2026_GENERAL-GARZA_CL_9X
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_1-2026_GENERAL-GARZA_CL_9X
     attributes:
       status: active
       participation: active
@@ -180,7 +515,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_1-DUNKIRK_TOWN_2_DUNKIRK_2_1_2_2_2_3_3_2_3_3-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_1-2026_GENERAL
       person: PERSON-GARZA_CL_9X
   - type: Person
     code: PERSON-BUCHANAN_MR_8E
@@ -190,7 +525,7 @@ groups:
       first_name: Marcus
       last_name: Buchanan
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_1-DUNKIRK_TOWN_2_DUNKIRK_2_1_2_2_2_3_3_2_3_3-2026_GENERAL-BUCHANAN_MR_8E
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_1-2026_GENERAL-BUCHANAN_MR_8E
     attributes:
       status: active
       participation: active
@@ -204,26 +539,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_1-DUNKIRK_TOWN_2_DUNKIRK_2_1_2_2_2_3_3_2_3_3-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_1-2026_GENERAL
       person: PERSON-BUCHANAN_MR_8E
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_10-BUSTI_1_2_3_ELLICOTT_2_2_JAMESTOWN_4_3_5_1
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_10
     attributes:
-      seat_code: BUSTI_1_2_3_ELLICOTT_2_2_JAMESTOWN_4_3_5_1
+      seat_code: DISTRICT_10
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_10
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_10-BUSTI_1_2_3_ELLICOTT_2_2_JAMESTOWN_4_3_5_1-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_10-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_10-BUSTI_1_2_3_ELLICOTT_2_2_JAMESTOWN_4_3_5_1
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_10
   - type: Person
     code: PERSON-GUSTAFSON_JM_2E
     attributes:
@@ -232,7 +567,7 @@ groups:
       first_name: Jamie
       last_name: Gustafson
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_10-BUSTI_1_2_3_ELLICOTT_2_2_JAMESTOWN_4_3_5_1-2026_GENERAL-GUSTAFSON_JM_2E
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_10-2026_GENERAL-GUSTAFSON_JM_2E
     attributes:
       status: active
       participation: active
@@ -244,7 +579,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_10-BUSTI_1_2_3_ELLICOTT_2_2_JAMESTOWN_4_3_5_1-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_10-2026_GENERAL
       person: PERSON-GUSTAFSON_JM_2E
   - type: Person
     code: PERSON-JACKSON_FORSBERG_JL_6Z
@@ -254,7 +589,7 @@ groups:
       first_name: Julie
       last_name: Jackson-Forsberg
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_10-BUSTI_1_2_3_ELLICOTT_2_2_JAMESTOWN_4_3_5_1-2026_GENERAL-JACKSON_FORSBERG_JL_6Z
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_10-2026_GENERAL-JACKSON_FORSBERG_JL_6Z
     attributes:
       status: active
       participation: active
@@ -266,26 +601,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_10-BUSTI_1_2_3_ELLICOTT_2_2_JAMESTOWN_4_3_5_1-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_10-2026_GENERAL
       person: PERSON-JACKSON_FORSBERG_JL_6Z
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_11-JAMESTOWN_3_1_3_4_4_1_4_2
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_11
     attributes:
-      seat_code: JAMESTOWN_3_1_3_4_4_1_4_2
+      seat_code: DISTRICT_11
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_11
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_11-JAMESTOWN_3_1_3_4_4_1_4_2-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_11-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_11-JAMESTOWN_3_1_3_4_4_1_4_2
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_11
   - type: Person
     code: PERSON-MAGGIO_JR_5F
     attributes:
@@ -294,7 +629,7 @@ groups:
       first_name: Jeremy
       last_name: Maggio
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_11-JAMESTOWN_3_1_3_4_4_1_4_2-2026_GENERAL-MAGGIO_JR_5F
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_11-2026_GENERAL-MAGGIO_JR_5F
     attributes:
       status: active
       participation: active
@@ -306,7 +641,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_11-JAMESTOWN_3_1_3_4_4_1_4_2-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_11-2026_GENERAL
       person: PERSON-MAGGIO_JR_5F
   - type: Person
     code: PERSON-WHITNEY_RB_8S
@@ -317,7 +652,7 @@ groups:
       middle_name: W.
       last_name: Whitney Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_11-JAMESTOWN_3_1_3_4_4_1_4_2-2026_GENERAL-WHITNEY_RB_8S
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_11-2026_GENERAL-WHITNEY_RB_8S
     attributes:
       status: active
       participation: active
@@ -328,26 +663,26 @@ groups:
       - label: Taxpayer's
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_11-JAMESTOWN_3_1_3_4_4_1_4_2-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_11-2026_GENERAL
       person: PERSON-WHITNEY_RB_8S
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_12-JAMESTOWN_1_2_2_2
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_12
     attributes:
-      seat_code: JAMESTOWN_1_2_2_2
+      seat_code: DISTRICT_12
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_12
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_12-JAMESTOWN_1_2_2_2-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_12-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_12-JAMESTOWN_1_2_2_2
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_12
   - type: Person
     code: PERSON-SHELDON_BR_6J
     attributes:
@@ -357,7 +692,7 @@ groups:
       middle_name: P.
       last_name: Sheldon
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_12-JAMESTOWN_1_2_2_2-2026_GENERAL-SHELDON_BR_6J
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_12-2026_GENERAL-SHELDON_BR_6J
     attributes:
       status: active
       participation: active
@@ -369,7 +704,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_12-JAMESTOWN_1_2_2_2-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_12-2026_GENERAL
       person: PERSON-SHELDON_BR_6J
   - type: Person
     code: PERSON-LARSON_FR_3J
@@ -380,7 +715,7 @@ groups:
       middle_name: A.
       last_name: Larson
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_12-JAMESTOWN_1_2_2_2-2026_GENERAL-LARSON_FR_3J
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_12-2026_GENERAL-LARSON_FR_3J
     attributes:
       status: active
       participation: active
@@ -392,26 +727,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_12-JAMESTOWN_1_2_2_2-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_12-2026_GENERAL
       person: PERSON-LARSON_FR_3J
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_13-JAMESTOWN_1_1_2_1_3_2_6_2_6_3
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_13
     attributes:
-      seat_code: JAMESTOWN_1_1_2_1_3_2_6_2_6_3
+      seat_code: DISTRICT_13
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_13
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_13-JAMESTOWN_1_1_2_1_3_2_6_2_6_3-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_13-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_13-JAMESTOWN_1_1_2_1_3_2_6_2_6_3
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_13
   - type: Person
     code: PERSON-FAULKNER_AN_2T
     attributes:
@@ -420,7 +755,7 @@ groups:
       first_name: Andrew
       last_name: Faulkner
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_13-JAMESTOWN_1_1_2_1_3_2_6_2_6_3-2026_GENERAL-FAULKNER_AN_2T
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_13-2026_GENERAL-FAULKNER_AN_2T
     attributes:
       status: active
       participation: active
@@ -432,7 +767,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_13-JAMESTOWN_1_1_2_1_3_2_6_2_6_3-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_13-2026_GENERAL
       person: PERSON-FAULKNER_AN_2T
   - type: Person
     code: PERSON-NELSON_TH_8P
@@ -442,7 +777,7 @@ groups:
       first_name: Thomas
       last_name: Nelson
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_13-JAMESTOWN_1_1_2_1_3_2_6_2_6_3-2026_GENERAL-NELSON_TH_8P
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_13-2026_GENERAL-NELSON_TH_8P
     attributes:
       status: active
       participation: active
@@ -454,26 +789,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_13-JAMESTOWN_1_1_2_1_3_2_6_2_6_3-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_13-2026_GENERAL
       person: PERSON-NELSON_TH_8P
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_14-CHARLOTTE_ELLICOTT_2_3_4_3_ELLINGTON_GERRY_POLAND_1
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_14
     attributes:
-      seat_code: CHARLOTTE_ELLICOTT_2_3_4_3_ELLINGTON_GERRY_POLAND_1
+      seat_code: DISTRICT_14
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_14
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_14-CHARLOTTE_ELLICOTT_2_3_4_3_ELLINGTON_GERRY_POLAND_1-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_14-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_14-CHARLOTTE_ELLICOTT_2_3_4_3_ELLINGTON_GERRY_POLAND_1
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_14
   - type: Person
     code: PERSON-PAVLOCK_DN_9H
     attributes:
@@ -482,7 +817,7 @@ groups:
       first_name: Daniel
       last_name: Pavlock
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_14-CHARLOTTE_ELLICOTT_2_3_4_3_ELLINGTON_GERRY_POLAND_1-2026_GENERAL-PAVLOCK_DN_9H
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_14-2026_GENERAL-PAVLOCK_DN_9H
     attributes:
       status: active
       participation: active
@@ -494,26 +829,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_14-CHARLOTTE_ELLICOTT_2_3_4_3_ELLINGTON_GERRY_POLAND_1-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_14-2026_GENERAL
       person: PERSON-PAVLOCK_DN_9H
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_15-ELLICOTT_1_1_1_2_2_1_2_4_3_1_3_2_4_1_4_2
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_15
     attributes:
-      seat_code: ELLICOTT_1_1_1_2_2_1_2_4_3_1_3_2_4_1_4_2
+      seat_code: DISTRICT_15
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_15
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_15-ELLICOTT_1_1_1_2_2_1_2_4_3_1_3_2_4_1_4_2-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_15-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_15-ELLICOTT_1_1_1_2_2_1_2_4_3_1_3_2_4_1_4_2
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_15
   - type: Person
     code: PERSON-VANSTROM_LS_6C
     attributes:
@@ -522,7 +857,7 @@ groups:
       first_name: Lisa
       last_name: Vanstrom
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_15-ELLICOTT_1_1_1_2_2_1_2_4_3_1_3_2_4_1_4_2-2026_GENERAL-VANSTROM_LS_6C
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_15-2026_GENERAL-VANSTROM_LS_6C
     attributes:
       status: active
       participation: active
@@ -534,7 +869,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_15-ELLICOTT_1_1_1_2_2_1_2_4_3_1_3_2_4_1_4_2-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_15-2026_GENERAL
       person: PERSON-VANSTROM_LS_6C
   - type: Person
     code: PERSON-PIERCE_NK_5T
@@ -544,7 +879,7 @@ groups:
       first_name: Nikki
       last_name: Pierce
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_15-ELLICOTT_1_1_1_2_2_1_2_4_3_1_3_2_4_1_4_2-2026_GENERAL-PIERCE_NK_5T
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_15-2026_GENERAL-PIERCE_NK_5T
     attributes:
       status: active
       participation: active
@@ -555,26 +890,26 @@ groups:
       - label: Taxpayer's
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_15-ELLICOTT_1_1_1_2_2_1_2_4_3_1_3_2_4_1_4_2-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_15-2026_GENERAL
       person: PERSON-PIERCE_NK_5T
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_16-CARROLL_1_2_KIANTONE_POLAND_2
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_16
     attributes:
-      seat_code: CARROLL_1_2_KIANTONE_POLAND_2
+      seat_code: DISTRICT_16
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_16
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_16-CARROLL_1_2_KIANTONE_POLAND_2-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_16-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_16-CARROLL_1_2_KIANTONE_POLAND_2
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_16
   - type: Person
     code: PERSON-DEBLASS_CH_7N
     attributes:
@@ -583,7 +918,7 @@ groups:
       first_name: Christopher
       last_name: DeBlass
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_16-CARROLL_1_2_KIANTONE_POLAND_2-2026_GENERAL-DEBLASS_CH_7N
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_16-2026_GENERAL-DEBLASS_CH_7N
     attributes:
       status: active
       participation: active
@@ -595,7 +930,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_16-CARROLL_1_2_KIANTONE_POLAND_2-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_16-2026_GENERAL
       person: PERSON-DEBLASS_CH_7N
   - type: Person
     code: PERSON-ANTHONY_DL_8P
@@ -605,7 +940,7 @@ groups:
       first_name: Dalton
       last_name: Anthony
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_16-CARROLL_1_2_KIANTONE_POLAND_2-2026_GENERAL-ANTHONY_DL_8P
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_16-2026_GENERAL-ANTHONY_DL_8P
     attributes:
       status: active
       participation: active
@@ -617,26 +952,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_16-CARROLL_1_2_KIANTONE_POLAND_2-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_16-2026_GENERAL
       person: PERSON-ANTHONY_DL_8P
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_17-BUSTI_4_CLYMER_HARMONY_1_2
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_17
     attributes:
-      seat_code: BUSTI_4_CLYMER_HARMONY_1_2
+      seat_code: DISTRICT_17
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_17
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_17-BUSTI_4_CLYMER_HARMONY_1_2-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_17-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_17-BUSTI_4_CLYMER_HARMONY_1_2
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_17
   - type: Person
     code: PERSON-HEISER_TR_3R
     attributes:
@@ -645,7 +980,7 @@ groups:
       first_name: Travis
       last_name: Heiser
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_17-BUSTI_4_CLYMER_HARMONY_1_2-2026_GENERAL-HEISER_TR_3R
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_17-2026_GENERAL-HEISER_TR_3R
     attributes:
       status: active
       participation: active
@@ -657,26 +992,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_17-BUSTI_4_CLYMER_HARMONY_1_2-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_17-2026_GENERAL
       person: PERSON-HEISER_TR_3R
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_18-CHAUTAUQUA_1_2_FRENCH_CREEK_MINA_SHERMAN
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_18
     attributes:
-      seat_code: CHAUTAUQUA_1_2_FRENCH_CREEK_MINA_SHERMAN
+      seat_code: DISTRICT_18
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_18
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_18-CHAUTAUQUA_1_2_FRENCH_CREEK_MINA_SHERMAN-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_18-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_18-CHAUTAUQUA_1_2_FRENCH_CREEK_MINA_SHERMAN
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_18
   - type: Person
     code: PERSON-MORTON_DN_5S
     attributes:
@@ -685,7 +1020,7 @@ groups:
       first_name: Dan
       last_name: Morton
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_18-CHAUTAUQUA_1_2_FRENCH_CREEK_MINA_SHERMAN-2026_GENERAL-MORTON_DN_5S
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_18-2026_GENERAL-MORTON_DN_5S
     attributes:
       status: active
       participation: active
@@ -694,7 +1029,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_18-CHAUTAUQUA_1_2_FRENCH_CREEK_MINA_SHERMAN-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_18-2026_GENERAL
       person: PERSON-MORTON_DN_5S
   - type: Person
     code: PERSON-PROCTOR_MR_5L
@@ -704,7 +1039,7 @@ groups:
       first_name: Martin
       last_name: Proctor
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_18-CHAUTAUQUA_1_2_FRENCH_CREEK_MINA_SHERMAN-2026_GENERAL-PROCTOR_MR_5L
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_18-2026_GENERAL-PROCTOR_MR_5L
     attributes:
       status: active
       participation: active
@@ -716,26 +1051,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_18-CHAUTAUQUA_1_2_FRENCH_CREEK_MINA_SHERMAN-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_18-2026_GENERAL
       person: PERSON-PROCTOR_MR_5L
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_19-RIPLEY_WESTFIELD_1_2_3
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_19
     attributes:
-      seat_code: RIPLEY_WESTFIELD_1_2_3
+      seat_code: DISTRICT_19
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_19
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_19-RIPLEY_WESTFIELD_1_2_3-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_19-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_19-RIPLEY_WESTFIELD_1_2_3
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_19
   - type: Person
     code: PERSON-JOHNSON_FR_9K
     attributes:
@@ -744,7 +1079,7 @@ groups:
       first_name: Frederick
       last_name: Johnson
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_19-RIPLEY_WESTFIELD_1_2_3-2026_GENERAL-JOHNSON_FR_9K
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_19-2026_GENERAL-JOHNSON_FR_9K
     attributes:
       status: active
       participation: active
@@ -756,7 +1091,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_19-RIPLEY_WESTFIELD_1_2_3-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_19-2026_GENERAL
       person: PERSON-JOHNSON_FR_9K
   - type: Person
     code: PERSON-HAMELS_JH_9E
@@ -766,7 +1101,7 @@ groups:
       first_name: John
       last_name: Hamels
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_19-RIPLEY_WESTFIELD_1_2_3-2026_GENERAL-HAMELS_JH_9E
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_19-2026_GENERAL-HAMELS_JH_9E
     attributes:
       status: active
       participation: active
@@ -778,26 +1113,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_19-RIPLEY_WESTFIELD_1_2_3-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_19-2026_GENERAL
       person: PERSON-HAMELS_JH_9E
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_2-DUNKIRK_1_1_1_2_3_1_4_1_4_2
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_2
     attributes:
-      seat_code: DUNKIRK_1_1_1_2_3_1_4_1_4_2
+      seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_2
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_2-DUNKIRK_1_1_1_2_3_1_4_1_4_2-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_2-DUNKIRK_1_1_1_2_3_1_4_1_4_2
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_2
   - type: Person
     code: PERSON-BANKOSKI_RB_4B
     attributes:
@@ -806,7 +1141,7 @@ groups:
       first_name: Robert
       last_name: Bankoski
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_2-DUNKIRK_1_1_1_2_3_1_4_1_4_2-2026_GENERAL-BANKOSKI_RB_4B
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_2-2026_GENERAL-BANKOSKI_RB_4B
     attributes:
       status: active
       participation: active
@@ -818,26 +1153,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_2-DUNKIRK_1_1_1_2_3_1_4_1_4_2-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_2-2026_GENERAL
       person: PERSON-BANKOSKI_RB_4B
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_3-POMFRET_1_2_5_6
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_3
     attributes:
-      seat_code: POMFRET_1_2_5_6
+      seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_3
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_3-POMFRET_1_2_5_6-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_3-POMFRET_1_2_5_6
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_3
   - type: Person
     code: PERSON-SCUDDER_BB_7R
     attributes:
@@ -846,7 +1181,7 @@ groups:
       first_name: Bob
       last_name: Scudder
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_3-POMFRET_1_2_5_6-2026_GENERAL-SCUDDER_BB_7R
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_3-2026_GENERAL-SCUDDER_BB_7R
     attributes:
       status: active
       participation: active
@@ -858,7 +1193,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_3-POMFRET_1_2_5_6-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_3-2026_GENERAL
       person: PERSON-SCUDDER_BB_7R
   - type: Person
     code: PERSON-LEE_MC_8S
@@ -868,7 +1203,7 @@ groups:
       first_name: Michael
       last_name: Lee
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_3-POMFRET_1_2_5_6-2026_GENERAL-LEE_MC_8S
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_3-2026_GENERAL-LEE_MC_8S
     attributes:
       status: active
       participation: active
@@ -880,26 +1215,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_3-POMFRET_1_2_5_6-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_3-2026_GENERAL
       person: PERSON-LEE_MC_8S
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_4-DUNKIRK_3_4_POMFRET_3_4
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_4
     attributes:
-      seat_code: DUNKIRK_3_4_POMFRET_3_4
+      seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_4
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_4-DUNKIRK_3_4_POMFRET_3_4-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_4-DUNKIRK_3_4_POMFRET_3_4
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_4
   - type: Person
     code: PERSON-LEWIS_SN_2F
     attributes:
@@ -908,7 +1243,7 @@ groups:
       first_name: Sandra
       last_name: Lewis
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_4-DUNKIRK_3_4_POMFRET_3_4-2026_GENERAL-LEWIS_SN_2F
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_4-2026_GENERAL-LEWIS_SN_2F
     attributes:
       status: active
       participation: active
@@ -917,26 +1252,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_4-DUNKIRK_3_4_POMFRET_3_4-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_4-2026_GENERAL
       person: PERSON-LEWIS_SN_2F
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_5-ARKWRIGHT_CHERRY_CREEK_DUNKIRK_TOWN_1_HANOVER_4_SHERIDAN_VILLENOVA
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_5
     attributes:
-      seat_code: ARKWRIGHT_CHERRY_CREEK_DUNKIRK_TOWN_1_HANOVER_4_SHERIDAN_VILLENOVA
+      seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_5
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_5-ARKWRIGHT_CHERRY_CREEK_DUNKIRK_TOWN_1_HANOVER_4_SHERIDAN_VILLENOVA-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_5-ARKWRIGHT_CHERRY_CREEK_DUNKIRK_TOWN_1_HANOVER_4_SHERIDAN_VILLENOVA
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_5
   - type: Person
     code: PERSON-MERRITT_JY_3Q
     attributes:
@@ -945,7 +1280,7 @@ groups:
       first_name: Jay
       last_name: Merritt
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_5-ARKWRIGHT_CHERRY_CREEK_DUNKIRK_TOWN_1_HANOVER_4_SHERIDAN_VILLENOVA-2026_GENERAL-MERRITT_JY_3Q
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_5-2026_GENERAL-MERRITT_JY_3Q
     attributes:
       status: active
       participation: active
@@ -957,26 +1292,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_5-ARKWRIGHT_CHERRY_CREEK_DUNKIRK_TOWN_1_HANOVER_4_SHERIDAN_VILLENOVA-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_5-2026_GENERAL
       person: PERSON-MERRITT_JY_3Q
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_6-HANOVER_1_2_3
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_6
     attributes:
-      seat_code: HANOVER_1_2_3
+      seat_code: DISTRICT_6
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_6
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_6-HANOVER_1_2_3-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_6-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_6-HANOVER_1_2_3
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_6
   - type: Person
     code: PERSON-OCONNELL_KV_7L
     attributes:
@@ -985,7 +1320,7 @@ groups:
       first_name: Kevin
       last_name: O'Connell
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_6-HANOVER_1_2_3-2026_GENERAL-OCONNELL_KV_7L
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_6-2026_GENERAL-OCONNELL_KV_7L
     attributes:
       status: active
       participation: active
@@ -997,7 +1332,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_6-HANOVER_1_2_3-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_6-2026_GENERAL
       person: PERSON-OCONNELL_KV_7L
   - type: Person
     code: PERSON-HARMON_TH_2A
@@ -1007,7 +1342,7 @@ groups:
       first_name: Thomas
       last_name: Harmon
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_6-HANOVER_1_2_3-2026_GENERAL-HARMON_TH_2A
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_6-2026_GENERAL-HARMON_TH_2A
     attributes:
       status: active
       participation: active
@@ -1019,26 +1354,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_6-HANOVER_1_2_3-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_6-2026_GENERAL
       person: PERSON-HARMON_TH_2A
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_7-CHAUTAUQUA_3_PORTLAND_1_2_STOCKTON_1_2
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_7
     attributes:
-      seat_code: CHAUTAUQUA_3_PORTLAND_1_2_STOCKTON_1_2
+      seat_code: DISTRICT_7
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_7
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_7-CHAUTAUQUA_3_PORTLAND_1_2_STOCKTON_1_2-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_7-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_7-CHAUTAUQUA_3_PORTLAND_1_2_STOCKTON_1_2
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_7
   - type: Person
     code: PERSON-RODRIGUEZ_CR_4F
     attributes:
@@ -1047,7 +1382,7 @@ groups:
       first_name: Carla
       last_name: Rodriguez
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_7-CHAUTAUQUA_3_PORTLAND_1_2_STOCKTON_1_2-2026_GENERAL-RODRIGUEZ_CR_4F
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_7-2026_GENERAL-RODRIGUEZ_CR_4F
     attributes:
       status: active
       participation: active
@@ -1059,7 +1394,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_7-CHAUTAUQUA_3_PORTLAND_1_2_STOCKTON_1_2-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_7-2026_GENERAL
       person: PERSON-RODRIGUEZ_CR_4F
   - type: Person
     code: PERSON-PENHOLLOW_JH_6R
@@ -1069,7 +1404,7 @@ groups:
       first_name: Johnathan
       last_name: Penhollow
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_7-CHAUTAUQUA_3_PORTLAND_1_2_STOCKTON_1_2-2026_GENERAL-PENHOLLOW_JH_6R
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_7-2026_GENERAL-PENHOLLOW_JH_6R
     attributes:
       status: active
       participation: active
@@ -1081,26 +1416,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_7-CHAUTAUQUA_3_PORTLAND_1_2_STOCKTON_1_2-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_7-2026_GENERAL
       person: PERSON-PENHOLLOW_JH_6R
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_8-CHAUTAUQUA_4_ELLERY_1_2_3_NORTH_HARMONY
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_8
     attributes:
-      seat_code: CHAUTAUQUA_4_ELLERY_1_2_3_NORTH_HARMONY
+      seat_code: DISTRICT_8
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_8
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_8-CHAUTAUQUA_4_ELLERY_1_2_3_NORTH_HARMONY-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_8-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_8-CHAUTAUQUA_4_ELLERY_1_2_3_NORTH_HARMONY
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_8
   - type: Person
     code: PERSON-CHAGNON_PR_2Q
     attributes:
@@ -1109,7 +1444,7 @@ groups:
       first_name: Pierre
       last_name: Chagnon
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_8-CHAUTAUQUA_4_ELLERY_1_2_3_NORTH_HARMONY-2026_GENERAL-CHAGNON_PR_2Q
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_8-2026_GENERAL-CHAGNON_PR_2Q
     attributes:
       status: active
       participation: active
@@ -1121,26 +1456,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_8-CHAUTAUQUA_4_ELLERY_1_2_3_NORTH_HARMONY-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_8-2026_GENERAL
       person: PERSON-CHAGNON_PR_2Q
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_9-JAMESTOWN_3_3_5_2_5_3_6_1_6_4
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_9
     attributes:
-      seat_code: JAMESTOWN_3_3_5_2_5_3_6_1_6_4
+      seat_code: DISTRICT_9
       is_active: true
     references:
-      position: POSITION-COUNTY_LEGISLATOR_DISTRICT_9
+      position: POSITION-COUNTY_LEGISLATOR
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_9-JAMESTOWN_3_3_5_2_5_3_6_1_6_4-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_9-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_9-JAMESTOWN_3_3_5_2_5_3_6_1_6_4
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_9
   - type: Person
     code: PERSON-VOGAN_JH_6U
     attributes:
@@ -1149,7 +1484,7 @@ groups:
       first_name: John
       last_name: Vogan
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_9-JAMESTOWN_3_3_5_2_5_3_6_1_6_4-2026_GENERAL-VOGAN_JH_6U
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_9-2026_GENERAL-VOGAN_JH_6U
     attributes:
       status: active
       participation: active
@@ -1161,7 +1496,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_9-JAMESTOWN_3_3_5_2_5_3_6_1_6_4-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_9-2026_GENERAL
       person: PERSON-VOGAN_JH_6U
   - type: Person
     code: PERSON-DEJOY_VN_5J
@@ -1171,7 +1506,7 @@ groups:
       first_name: Vincent
       last_name: DeJoy III
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_9-JAMESTOWN_3_3_5_2_5_3_6_1_6_4-2026_GENERAL-DEJOY_VN_5J
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_9-2026_GENERAL-DEJOY_VN_5J
     attributes:
       status: active
       participation: active
@@ -1180,26 +1515,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR_DISTRICT_9-JAMESTOWN_3_3_5_2_5_3_6_1_6_4-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_LEGISLATOR-DISTRICT_9-2026_GENERAL
       person: PERSON-DEJOY_VN_5J
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_SHERIFF-CHAUTAUQUA_COUNTY
+    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-SHERIFF
     attributes:
-      seat_code: CHAUTAUQUA_COUNTY
       is_active: true
     references:
-      position: POSITION-COUNTY_SHERIFF
+      position: POSITION-SHERIFF
       jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_SHERIFF-CHAUTAUQUA_COUNTY-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-SHERIFF-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_SHERIFF-CHAUTAUQUA_COUNTY
+      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-SHERIFF
   - type: Person
     code: PERSON-QUATTRONE_JM_4X
     attributes:
@@ -1208,7 +1542,7 @@ groups:
       first_name: James
       last_name: Quattrone
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_SHERIFF-CHAUTAUQUA_COUNTY-2026_GENERAL-QUATTRONE_JM_4X
+    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-SHERIFF-2026_GENERAL-QUATTRONE_JM_4X
     attributes:
       status: active
       participation: active
@@ -1220,26 +1554,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-COUNTY_SHERIFF-CHAUTAUQUA_COUNTY-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-SHERIFF-2026_GENERAL
       person: PERSON-QUATTRONE_JM_4X
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_CLERK-TOWN_OF_KIANTONE
+    code: OFFICE-USA-NY-KIANTONE-TOWN_CLERK
     attributes:
-      seat_code: TOWN_OF_KIANTONE
       is_active: true
     references:
       position: POSITION-TOWN_CLERK
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-KIANTONE
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_CLERK-TOWN_OF_KIANTONE-2026_GENERAL
+    code: RACE-USA-NY-KIANTONE-TOWN_CLERK-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_CLERK-TOWN_OF_KIANTONE
+      election: ELECTION-USA-NY-KIANTONE-2026_GENERAL
+      office: OFFICE-USA-NY-KIANTONE-TOWN_CLERK
   - type: Person
     code: PERSON-SCHMITT_JN_8Q
     attributes:
@@ -1249,7 +1582,7 @@ groups:
       middle_name: A.
       last_name: Schmitt
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_CLERK-TOWN_OF_KIANTONE-2026_GENERAL-SCHMITT_JN_8Q
+    code: CANDIDACY-USA-NY-KIANTONE-TOWN_CLERK-2026_GENERAL-SCHMITT_JN_8Q
     attributes:
       status: active
       participation: active
@@ -1258,7 +1591,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_CLERK-TOWN_OF_KIANTONE-2026_GENERAL
+      race: RACE-USA-NY-KIANTONE-TOWN_CLERK-2026_GENERAL
       person: PERSON-SCHMITT_JN_8Q
   - type: Person
     code: PERSON-COOK_MR_6S
@@ -1268,7 +1601,7 @@ groups:
       first_name: Mary
       last_name: Cook
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_CLERK-TOWN_OF_KIANTONE-2026_GENERAL-COOK_MR_6S
+    code: CANDIDACY-USA-NY-KIANTONE-TOWN_CLERK-2026_GENERAL-COOK_MR_6S
     attributes:
       status: active
       participation: active
@@ -1277,26 +1610,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_CLERK-TOWN_OF_KIANTONE-2026_GENERAL
+      race: RACE-USA-NY-KIANTONE-TOWN_CLERK-2026_GENERAL
       person: PERSON-COOK_MR_6S
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_DUNKIRK
+    code: OFFICE-USA-NY-DUNKIRK_TOWN-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_DUNKIRK
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILMEMBER_VACANCY
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-NY-DUNKIRK_TOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_DUNKIRK-2026_GENERAL
+    code: RACE-USA-NY-DUNKIRK_TOWN-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_DUNKIRK
+      election: ELECTION-USA-NY-DUNKIRK_TOWN-2026_GENERAL
+      office: OFFICE-USA-NY-DUNKIRK_TOWN-COUNCIL_MEMBER
   - type: Person
     code: PERSON-PAGANO_SC_5Q
     attributes:
@@ -1305,7 +1637,7 @@ groups:
       first_name: Scott
       last_name: Pagano
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_DUNKIRK-2026_GENERAL-PAGANO_SC_5Q
+    code: CANDIDACY-USA-NY-DUNKIRK_TOWN-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-PAGANO_SC_5Q
     attributes:
       status: active
       participation: active
@@ -1314,26 +1646,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_DUNKIRK-2026_GENERAL
+      race: RACE-USA-NY-DUNKIRK_TOWN-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-PAGANO_SC_5Q
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_HARMONY
+    code: OFFICE-USA-NY-HARMONY-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_HARMONY
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILMEMBER_VACANCY
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-NY-HARMONY
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_HARMONY-2026_GENERAL
+    code: RACE-USA-NY-HARMONY-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_HARMONY
+      election: ELECTION-USA-NY-HARMONY-2026_GENERAL
+      office: OFFICE-USA-NY-HARMONY-COUNCIL_MEMBER
   - type: Person
     code: PERSON-JORDAN_JF_9F
     attributes:
@@ -1342,7 +1673,7 @@ groups:
       first_name: Jeffrey
       last_name: Jordan
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_HARMONY-2026_GENERAL-JORDAN_JF_9F
+    code: CANDIDACY-USA-NY-HARMONY-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-JORDAN_JF_9F
     attributes:
       status: active
       participation: active
@@ -1351,26 +1682,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_HARMONY-2026_GENERAL
+      race: RACE-USA-NY-HARMONY-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-JORDAN_JF_9F
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_MINA
+    code: OFFICE-USA-NY-MINA-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_MINA
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILMEMBER_VACANCY
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-NY-MINA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_MINA-2026_GENERAL
+    code: RACE-USA-NY-MINA-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_MINA
+      election: ELECTION-USA-NY-MINA-2026_GENERAL
+      office: OFFICE-USA-NY-MINA-COUNCIL_MEMBER
   - type: Person
     code: PERSON-TORNSTROM_JF_5A
     attributes:
@@ -1380,7 +1710,7 @@ groups:
       middle_name: W.
       last_name: Tornstrom
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_MINA-2026_GENERAL-TORNSTROM_JF_5A
+    code: CANDIDACY-USA-NY-MINA-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-TORNSTROM_JF_5A
     attributes:
       status: active
       participation: active
@@ -1389,26 +1719,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_MINA-2026_GENERAL
+      race: RACE-USA-NY-MINA-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-TORNSTROM_JF_5A
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_POMFRET
+    code: OFFICE-USA-NY-POMFRET-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_POMFRET
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILMEMBER_VACANCY
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-NY-POMFRET
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_POMFRET-2026_GENERAL
+    code: RACE-USA-NY-POMFRET-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_POMFRET
+      election: ELECTION-USA-NY-POMFRET-2026_GENERAL
+      office: OFFICE-USA-NY-POMFRET-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BASHAW_EV_5X
     attributes:
@@ -1417,7 +1746,7 @@ groups:
       first_name: EvaDawn
       last_name: Bashaw
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_POMFRET-2026_GENERAL-BASHAW_EV_5X
+    code: CANDIDACY-USA-NY-POMFRET-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-BASHAW_EV_5X
     attributes:
       status: active
       participation: active
@@ -1429,26 +1758,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_VACANCY-TOWN_OF_POMFRET-2026_GENERAL
+      race: RACE-USA-NY-POMFRET-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-BASHAW_EV_5X
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_1-TOWN_OF_ELLICOTT_WARD_1
+    code: OFFICE-USA-NY-TOWN_OF_ELLICOTT_WARD_1-COUNCIL_MEMBER-WARD_1
     attributes:
-      seat_code: TOWN_OF_ELLICOTT_WARD_1
+      seat_code: WARD_1
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILMEMBER_WARD_1
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-NY-TOWN_OF_ELLICOTT_WARD_1
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_1-TOWN_OF_ELLICOTT_WARD_1-2026_GENERAL
+    code: RACE-USA-NY-TOWN_OF_ELLICOTT_WARD_1-COUNCIL_MEMBER-WARD_1-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_1-TOWN_OF_ELLICOTT_WARD_1
+      election: ELECTION-USA-NY-TOWN_OF_ELLICOTT_WARD_1-2026_GENERAL
+      office: OFFICE-USA-NY-TOWN_OF_ELLICOTT_WARD_1-COUNCIL_MEMBER-WARD_1
   - type: Person
     code: PERSON-RENSEL_JM_2E
     attributes:
@@ -1457,7 +1786,7 @@ groups:
       first_name: James
       last_name: Rensel
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_1-TOWN_OF_ELLICOTT_WARD_1-2026_GENERAL-RENSEL_JM_2E
+    code: CANDIDACY-USA-NY-TOWN_OF_ELLICOTT_WARD_1-COUNCIL_MEMBER-WARD_1-2026_GENERAL-RENSEL_JM_2E
     attributes:
       status: active
       participation: active
@@ -1469,26 +1798,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_1-TOWN_OF_ELLICOTT_WARD_1-2026_GENERAL
+      race: RACE-USA-NY-TOWN_OF_ELLICOTT_WARD_1-COUNCIL_MEMBER-WARD_1-2026_GENERAL
       person: PERSON-RENSEL_JM_2E
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_2-TOWN_OF_ELLICOTT_WARD_2
+    code: OFFICE-USA-NY-TOWN_OF_ELLICOTT_WARD_2-COUNCIL_MEMBER-WARD_2
     attributes:
-      seat_code: TOWN_OF_ELLICOTT_WARD_2
+      seat_code: WARD_2
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILMEMBER_WARD_2
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-NY-TOWN_OF_ELLICOTT_WARD_2
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_2-TOWN_OF_ELLICOTT_WARD_2-2026_GENERAL
+    code: RACE-USA-NY-TOWN_OF_ELLICOTT_WARD_2-COUNCIL_MEMBER-WARD_2-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_2-TOWN_OF_ELLICOTT_WARD_2
+      election: ELECTION-USA-NY-TOWN_OF_ELLICOTT_WARD_2-2026_GENERAL
+      office: OFFICE-USA-NY-TOWN_OF_ELLICOTT_WARD_2-COUNCIL_MEMBER-WARD_2
   - type: Person
     code: PERSON-WHITE_RB_6J
     attributes:
@@ -1497,7 +1826,7 @@ groups:
       first_name: Robert
       last_name: White
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_2-TOWN_OF_ELLICOTT_WARD_2-2026_GENERAL-WHITE_RB_6J
+    code: CANDIDACY-USA-NY-TOWN_OF_ELLICOTT_WARD_2-COUNCIL_MEMBER-WARD_2-2026_GENERAL-WHITE_RB_6J
     attributes:
       status: active
       participation: active
@@ -1509,26 +1838,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_2-TOWN_OF_ELLICOTT_WARD_2-2026_GENERAL
+      race: RACE-USA-NY-TOWN_OF_ELLICOTT_WARD_2-COUNCIL_MEMBER-WARD_2-2026_GENERAL
       person: PERSON-WHITE_RB_6J
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_3-TOWN_OF_ELLICOTT_WARD_3
+    code: OFFICE-USA-NY-TOWN_OF_ELLICOTT_WARD_3-COUNCIL_MEMBER-WARD_3
     attributes:
-      seat_code: TOWN_OF_ELLICOTT_WARD_3
+      seat_code: WARD_3
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILMEMBER_WARD_3
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-NY-TOWN_OF_ELLICOTT_WARD_3
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_3-TOWN_OF_ELLICOTT_WARD_3-2026_GENERAL
+    code: RACE-USA-NY-TOWN_OF_ELLICOTT_WARD_3-COUNCIL_MEMBER-WARD_3-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_3-TOWN_OF_ELLICOTT_WARD_3
+      election: ELECTION-USA-NY-TOWN_OF_ELLICOTT_WARD_3-2026_GENERAL
+      office: OFFICE-USA-NY-TOWN_OF_ELLICOTT_WARD_3-COUNCIL_MEMBER-WARD_3
   - type: Person
     code: PERSON-WHITMORE_KT_6J
     attributes:
@@ -1537,7 +1866,7 @@ groups:
       first_name: Katy
       last_name: Whitmore
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_3-TOWN_OF_ELLICOTT_WARD_3-2026_GENERAL-WHITMORE_KT_6J
+    code: CANDIDACY-USA-NY-TOWN_OF_ELLICOTT_WARD_3-COUNCIL_MEMBER-WARD_3-2026_GENERAL-WHITMORE_KT_6J
     attributes:
       status: active
       participation: active
@@ -1546,26 +1875,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_3-TOWN_OF_ELLICOTT_WARD_3-2026_GENERAL
+      race: RACE-USA-NY-TOWN_OF_ELLICOTT_WARD_3-COUNCIL_MEMBER-WARD_3-2026_GENERAL
       person: PERSON-WHITMORE_KT_6J
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_4-TOWN_OF_ELLICOTT_WARD_4
+    code: OFFICE-USA-NY-TOWN_OF_ELLICOTT_WARD_4-COUNCIL_MEMBER-WARD_4
     attributes:
-      seat_code: TOWN_OF_ELLICOTT_WARD_4
+      seat_code: WARD_4
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCILMEMBER_WARD_4
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-NY-TOWN_OF_ELLICOTT_WARD_4
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_4-TOWN_OF_ELLICOTT_WARD_4-2026_GENERAL
+    code: RACE-USA-NY-TOWN_OF_ELLICOTT_WARD_4-COUNCIL_MEMBER-WARD_4-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_4-TOWN_OF_ELLICOTT_WARD_4
+      election: ELECTION-USA-NY-TOWN_OF_ELLICOTT_WARD_4-2026_GENERAL
+      office: OFFICE-USA-NY-TOWN_OF_ELLICOTT_WARD_4-COUNCIL_MEMBER-WARD_4
   - type: Person
     code: PERSON-SWAN_KN_4B
     attributes:
@@ -1574,7 +1903,7 @@ groups:
       first_name: Kenneth
       last_name: Swan
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_4-TOWN_OF_ELLICOTT_WARD_4-2026_GENERAL-SWAN_KN_4B
+    code: CANDIDACY-USA-NY-TOWN_OF_ELLICOTT_WARD_4-COUNCIL_MEMBER-WARD_4-2026_GENERAL-SWAN_KN_4B
     attributes:
       status: active
       participation: active
@@ -1586,26 +1915,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_COUNCILMEMBER_WARD_4-TOWN_OF_ELLICOTT_WARD_4-2026_GENERAL
+      race: RACE-USA-NY-TOWN_OF_ELLICOTT_WARD_4-COUNCIL_MEMBER-WARD_4-2026_GENERAL
       person: PERSON-SWAN_KN_4B
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_HIGHWAY_SUPERINTENDENT-TOWN_OF_KIANTONE
+    code: OFFICE-USA-NY-KIANTONE-HIGHWAY_SUPERINTENDENT
     attributes:
-      seat_code: TOWN_OF_KIANTONE
       is_active: true
     references:
-      position: POSITION-TOWN_HIGHWAY_SUPERINTENDENT
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-HIGHWAY_SUPERINTENDENT
+      jurisdiction: MUNICIPALITY-USA-NY-KIANTONE
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_HIGHWAY_SUPERINTENDENT-TOWN_OF_KIANTONE-2026_GENERAL
+    code: RACE-USA-NY-KIANTONE-HIGHWAY_SUPERINTENDENT-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_HIGHWAY_SUPERINTENDENT-TOWN_OF_KIANTONE
+      election: ELECTION-USA-NY-KIANTONE-2026_GENERAL
+      office: OFFICE-USA-NY-KIANTONE-HIGHWAY_SUPERINTENDENT
   - type: Person
     code: PERSON-CARLSON_RB_5W
     attributes:
@@ -1614,7 +1942,7 @@ groups:
       first_name: Robert
       last_name: Carlson
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_HIGHWAY_SUPERINTENDENT-TOWN_OF_KIANTONE-2026_GENERAL-CARLSON_RB_5W
+    code: CANDIDACY-USA-NY-KIANTONE-HIGHWAY_SUPERINTENDENT-2026_GENERAL-CARLSON_RB_5W
     attributes:
       status: active
       participation: active
@@ -1626,26 +1954,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_HIGHWAY_SUPERINTENDENT-TOWN_OF_KIANTONE-2026_GENERAL
+      race: RACE-USA-NY-KIANTONE-HIGHWAY_SUPERINTENDENT-2026_GENERAL
       person: PERSON-CARLSON_RB_5W
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_HIGHWAY_SUPERINTENDENT_VACANCY-TOWN_OF_SHERMAN
+    code: OFFICE-USA-NY-SHERMAN_TOWN-HIGHWAY_SUPERINTENDENT
     attributes:
-      seat_code: TOWN_OF_SHERMAN
       is_active: true
     references:
-      position: POSITION-TOWN_HIGHWAY_SUPERINTENDENT_VACANCY
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-HIGHWAY_SUPERINTENDENT
+      jurisdiction: MUNICIPALITY-USA-NY-SHERMAN_TOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_HIGHWAY_SUPERINTENDENT_VACANCY-TOWN_OF_SHERMAN-2026_GENERAL
+    code: RACE-USA-NY-SHERMAN_TOWN-HIGHWAY_SUPERINTENDENT-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_HIGHWAY_SUPERINTENDENT_VACANCY-TOWN_OF_SHERMAN
+      election: ELECTION-USA-NY-SHERMAN_TOWN-2026_GENERAL
+      office: OFFICE-USA-NY-SHERMAN_TOWN-HIGHWAY_SUPERINTENDENT
   - type: Person
     code: PERSON-COURTNEY_MC_6L
     attributes:
@@ -1654,7 +1981,7 @@ groups:
       first_name: Michael
       last_name: Courtney
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_HIGHWAY_SUPERINTENDENT_VACANCY-TOWN_OF_SHERMAN-2026_GENERAL-COURTNEY_MC_6L
+    code: CANDIDACY-USA-NY-SHERMAN_TOWN-HIGHWAY_SUPERINTENDENT-UNEXPIRED_TERM-2026_GENERAL-COURTNEY_MC_6L
     attributes:
       status: active
       participation: active
@@ -1663,26 +1990,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_HIGHWAY_SUPERINTENDENT_VACANCY-TOWN_OF_SHERMAN-2026_GENERAL
+      race: RACE-USA-NY-SHERMAN_TOWN-HIGHWAY_SUPERINTENDENT-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-COURTNEY_MC_6L
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_HIGHWAY_SUPERINTENDENT_VACANCY-TOWN_OF_VILLENOVA
+    code: OFFICE-USA-NY-VILLENOVA-HIGHWAY_SUPERINTENDENT
     attributes:
-      seat_code: TOWN_OF_VILLENOVA
       is_active: true
     references:
-      position: POSITION-TOWN_HIGHWAY_SUPERINTENDENT_VACANCY
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-HIGHWAY_SUPERINTENDENT
+      jurisdiction: MUNICIPALITY-USA-NY-VILLENOVA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_HIGHWAY_SUPERINTENDENT_VACANCY-TOWN_OF_VILLENOVA-2026_GENERAL
+    code: RACE-USA-NY-VILLENOVA-HIGHWAY_SUPERINTENDENT-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_HIGHWAY_SUPERINTENDENT_VACANCY-TOWN_OF_VILLENOVA
+      election: ELECTION-USA-NY-VILLENOVA-2026_GENERAL
+      office: OFFICE-USA-NY-VILLENOVA-HIGHWAY_SUPERINTENDENT
   - type: Person
     code: PERSON-WALKER_MC_8R
     attributes:
@@ -1692,7 +2018,7 @@ groups:
       middle_name: Emke
       last_name: Walker
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_HIGHWAY_SUPERINTENDENT_VACANCY-TOWN_OF_VILLENOVA-2026_GENERAL-WALKER_MC_8R
+    code: CANDIDACY-USA-NY-VILLENOVA-HIGHWAY_SUPERINTENDENT-UNEXPIRED_TERM-2026_GENERAL-WALKER_MC_8R
     attributes:
       status: active
       participation: active
@@ -1701,26 +2027,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_HIGHWAY_SUPERINTENDENT_VACANCY-TOWN_OF_VILLENOVA-2026_GENERAL
+      race: RACE-USA-NY-VILLENOVA-HIGHWAY_SUPERINTENDENT-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-WALKER_MC_8R
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_BUSTI
+    code: OFFICE-USA-NY-BUSTI-TOWN_JUSTICE
     attributes:
-      seat_code: TOWN_OF_BUSTI
       is_active: true
     references:
       position: POSITION-TOWN_JUSTICE
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-BUSTI
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_BUSTI-2026_GENERAL
+    code: RACE-USA-NY-BUSTI-TOWN_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 2. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_BUSTI
+      election: ELECTION-USA-NY-BUSTI-2026_GENERAL
+      office: OFFICE-USA-NY-BUSTI-TOWN_JUSTICE
   - type: Person
     code: PERSON-HAJDU_LY_9U
     attributes:
@@ -1729,7 +2054,7 @@ groups:
       first_name: Lyle
       last_name: Hajdu
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_BUSTI-2026_GENERAL-HAJDU_LY_9U
+    code: CANDIDACY-USA-NY-BUSTI-TOWN_JUSTICE-2026_GENERAL-HAJDU_LY_9U
     attributes:
       status: active
       participation: active
@@ -1741,7 +2066,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_BUSTI-2026_GENERAL
+      race: RACE-USA-NY-BUSTI-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-HAJDU_LY_9U
   - type: Person
     code: PERSON-ROUSH_RY_8R
@@ -1751,7 +2076,7 @@ groups:
       first_name: Ryan
       last_name: Roush
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_BUSTI-2026_GENERAL-ROUSH_RY_8R
+    code: CANDIDACY-USA-NY-BUSTI-TOWN_JUSTICE-2026_GENERAL-ROUSH_RY_8R
     attributes:
       status: active
       participation: active
@@ -1760,26 +2085,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_BUSTI-2026_GENERAL
+      race: RACE-USA-NY-BUSTI-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-ROUSH_RY_8R
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_ELLINGTON
+    code: OFFICE-USA-NY-ELLINGTON-TOWN_JUSTICE
     attributes:
-      seat_code: TOWN_OF_ELLINGTON
       is_active: true
     references:
       position: POSITION-TOWN_JUSTICE
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-ELLINGTON
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_ELLINGTON-2026_GENERAL
+    code: RACE-USA-NY-ELLINGTON-TOWN_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_ELLINGTON
+      election: ELECTION-USA-NY-ELLINGTON-2026_GENERAL
+      office: OFFICE-USA-NY-ELLINGTON-TOWN_JUSTICE
   - type: Person
     code: PERSON-KENT_LR_6D
     attributes:
@@ -1789,7 +2113,7 @@ groups:
       middle_name: T.
       last_name: Kent
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_ELLINGTON-2026_GENERAL-KENT_LR_6D
+    code: CANDIDACY-USA-NY-ELLINGTON-TOWN_JUSTICE-2026_GENERAL-KENT_LR_6D
     attributes:
       status: active
       participation: active
@@ -1798,26 +2122,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_ELLINGTON-2026_GENERAL
+      race: RACE-USA-NY-ELLINGTON-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-KENT_LR_6D
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_KIANTONE
+    code: OFFICE-USA-NY-KIANTONE-TOWN_JUSTICE
     attributes:
-      seat_code: TOWN_OF_KIANTONE
       is_active: true
     references:
       position: POSITION-TOWN_JUSTICE
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-KIANTONE
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_KIANTONE-2026_GENERAL
+    code: RACE-USA-NY-KIANTONE-TOWN_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_KIANTONE
+      election: ELECTION-USA-NY-KIANTONE-2026_GENERAL
+      office: OFFICE-USA-NY-KIANTONE-TOWN_JUSTICE
   - type: Person
     code: PERSON-VOLPE_SH_7D
     attributes:
@@ -1826,7 +2149,7 @@ groups:
       first_name: Shannon
       last_name: Volpe
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_KIANTONE-2026_GENERAL-VOLPE_SH_7D
+    code: CANDIDACY-USA-NY-KIANTONE-TOWN_JUSTICE-2026_GENERAL-VOLPE_SH_7D
     attributes:
       status: active
       participation: active
@@ -1835,26 +2158,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_KIANTONE-2026_GENERAL
+      race: RACE-USA-NY-KIANTONE-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-VOLPE_SH_7D
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_PORTLAND
+    code: OFFICE-USA-NY-PORTLAND-TOWN_JUSTICE
     attributes:
-      seat_code: TOWN_OF_PORTLAND
       is_active: true
     references:
       position: POSITION-TOWN_JUSTICE
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-PORTLAND
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_PORTLAND-2026_GENERAL
+    code: RACE-USA-NY-PORTLAND-TOWN_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 2. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_PORTLAND
+      election: ELECTION-USA-NY-PORTLAND-2026_GENERAL
+      office: OFFICE-USA-NY-PORTLAND-TOWN_JUSTICE
   - type: Person
     code: PERSON-LARISH_DN_3D
     attributes:
@@ -1863,7 +2185,7 @@ groups:
       first_name: Daniel
       last_name: Larish
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_PORTLAND-2026_GENERAL-LARISH_DN_3D
+    code: CANDIDACY-USA-NY-PORTLAND-TOWN_JUSTICE-2026_GENERAL-LARISH_DN_3D
     attributes:
       status: active
       participation: active
@@ -1875,7 +2197,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_PORTLAND-2026_GENERAL
+      race: RACE-USA-NY-PORTLAND-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-LARISH_DN_3D
   - type: Person
     code: PERSON-THOMPSON_DN_3R
@@ -1885,7 +2207,7 @@ groups:
       first_name: Daniel
       last_name: Thompson
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_PORTLAND-2026_GENERAL-THOMPSON_DN_3R
+    code: CANDIDACY-USA-NY-PORTLAND-TOWN_JUSTICE-2026_GENERAL-THOMPSON_DN_3R
     attributes:
       status: active
       participation: active
@@ -1897,26 +2219,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_PORTLAND-2026_GENERAL
+      race: RACE-USA-NY-PORTLAND-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-THOMPSON_DN_3R
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_VILLENOVA
+    code: OFFICE-USA-NY-VILLENOVA-TOWN_JUSTICE
     attributes:
-      seat_code: TOWN_OF_VILLENOVA
       is_active: true
     references:
       position: POSITION-TOWN_JUSTICE
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-VILLENOVA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_VILLENOVA-2026_GENERAL
+    code: RACE-USA-NY-VILLENOVA-TOWN_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_VILLENOVA
+      election: ELECTION-USA-NY-VILLENOVA-2026_GENERAL
+      office: OFFICE-USA-NY-VILLENOVA-TOWN_JUSTICE
   - type: Person
     code: PERSON-LUCAS_RN_8Z
     attributes:
@@ -1926,7 +2247,7 @@ groups:
       middle_name: G.
       last_name: Lucas
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_VILLENOVA-2026_GENERAL-LUCAS_RN_8Z
+    code: CANDIDACY-USA-NY-VILLENOVA-TOWN_JUSTICE-2026_GENERAL-LUCAS_RN_8Z
     attributes:
       status: active
       participation: active
@@ -1935,26 +2256,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_VILLENOVA-2026_GENERAL
+      race: RACE-USA-NY-VILLENOVA-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-LUCAS_RN_8Z
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_WESTFIELD
+    code: OFFICE-USA-NY-WESTFIELD_TOWN-TOWN_JUSTICE
     attributes:
-      seat_code: TOWN_OF_WESTFIELD
       is_active: true
     references:
       position: POSITION-TOWN_JUSTICE
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-WESTFIELD_TOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_WESTFIELD-2026_GENERAL
+    code: RACE-USA-NY-WESTFIELD_TOWN-TOWN_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_WESTFIELD
+      election: ELECTION-USA-NY-WESTFIELD_TOWN-2026_GENERAL
+      office: OFFICE-USA-NY-WESTFIELD_TOWN-TOWN_JUSTICE
   - type: Person
     code: PERSON-WILSON_RB_2C
     attributes:
@@ -1963,7 +2283,7 @@ groups:
       first_name: Rob
       last_name: Wilson
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_WESTFIELD-2026_GENERAL-WILSON_RB_2C
+    code: CANDIDACY-USA-NY-WESTFIELD_TOWN-TOWN_JUSTICE-2026_GENERAL-WILSON_RB_2C
     attributes:
       status: active
       participation: active
@@ -1972,26 +2292,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_JUSTICE-TOWN_OF_WESTFIELD-2026_GENERAL
+      race: RACE-USA-NY-WESTFIELD_TOWN-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-WILSON_RB_2C
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_CARROLL
+    code: OFFICE-USA-NY-CARROLL-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_CARROLL
       is_active: true
     references:
       position: POSITION-TOWN_SUPERVISOR
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-CARROLL
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_CARROLL-2026_GENERAL
+    code: RACE-USA-NY-CARROLL-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_CARROLL
+      election: ELECTION-USA-NY-CARROLL-2026_GENERAL
+      office: OFFICE-USA-NY-CARROLL-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-BURKETT_TM_4W
     attributes:
@@ -2000,7 +2319,7 @@ groups:
       first_name: Timothy
       last_name: Burkett
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_CARROLL-2026_GENERAL-BURKETT_TM_4W
+    code: CANDIDACY-USA-NY-CARROLL-TOWN_SUPERVISOR-2026_GENERAL-BURKETT_TM_4W
     attributes:
       status: active
       participation: active
@@ -2012,26 +2331,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_CARROLL-2026_GENERAL
+      race: RACE-USA-NY-CARROLL-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-BURKETT_TM_4W
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_CHERRY_CREEK
+    code: OFFICE-USA-NY-CHERRY_CREEK-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_CHERRY_CREEK
       is_active: true
     references:
       position: POSITION-TOWN_SUPERVISOR
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-CHERRY_CREEK
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_CHERRY_CREEK-2026_GENERAL
+    code: RACE-USA-NY-CHERRY_CREEK-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_CHERRY_CREEK
+      election: ELECTION-USA-NY-CHERRY_CREEK-2026_GENERAL
+      office: OFFICE-USA-NY-CHERRY_CREEK-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-ABBEY_JM_7X
     attributes:
@@ -2040,7 +2358,7 @@ groups:
       first_name: James
       last_name: Abbey
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_CHERRY_CREEK-2026_GENERAL-ABBEY_JM_7X
+    code: CANDIDACY-USA-NY-CHERRY_CREEK-TOWN_SUPERVISOR-2026_GENERAL-ABBEY_JM_7X
     attributes:
       status: active
       participation: active
@@ -2049,26 +2367,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_CHERRY_CREEK-2026_GENERAL
+      race: RACE-USA-NY-CHERRY_CREEK-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-ABBEY_JM_7X
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_ELLERY
+    code: OFFICE-USA-NY-ELLERY-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_ELLERY
       is_active: true
     references:
       position: POSITION-TOWN_SUPERVISOR
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-ELLERY
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_ELLERY-2026_GENERAL
+    code: RACE-USA-NY-ELLERY-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_ELLERY
+      election: ELECTION-USA-NY-ELLERY-2026_GENERAL
+      office: OFFICE-USA-NY-ELLERY-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-ANDERSON_LW_8V
     attributes:
@@ -2077,7 +2394,7 @@ groups:
       first_name: Lawrence
       last_name: Anderson
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_ELLERY-2026_GENERAL-ANDERSON_LW_8V
+    code: CANDIDACY-USA-NY-ELLERY-TOWN_SUPERVISOR-2026_GENERAL-ANDERSON_LW_8V
     attributes:
       status: active
       participation: active
@@ -2086,26 +2403,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_ELLERY-2026_GENERAL
+      race: RACE-USA-NY-ELLERY-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-ANDERSON_LW_8V
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_KIANTONE
+    code: OFFICE-USA-NY-KIANTONE-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_KIANTONE
       is_active: true
     references:
       position: POSITION-TOWN_SUPERVISOR
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-KIANTONE
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_KIANTONE-2026_GENERAL
+    code: RACE-USA-NY-KIANTONE-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_KIANTONE
+      election: ELECTION-USA-NY-KIANTONE-2026_GENERAL
+      office: OFFICE-USA-NY-KIANTONE-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-OSTRANDER_JS_9P
     attributes:
@@ -2114,7 +2430,7 @@ groups:
       first_name: Joshua
       last_name: Ostrander
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_KIANTONE-2026_GENERAL-OSTRANDER_JS_9P
+    code: CANDIDACY-USA-NY-KIANTONE-TOWN_SUPERVISOR-2026_GENERAL-OSTRANDER_JS_9P
     attributes:
       status: active
       participation: active
@@ -2126,26 +2442,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_KIANTONE-2026_GENERAL
+      race: RACE-USA-NY-KIANTONE-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-OSTRANDER_JS_9P
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_POLAND
+    code: OFFICE-USA-NY-POLAND_TOWN-TOWN_SUPERVISOR
     attributes:
-      seat_code: TOWN_OF_POLAND
       is_active: true
     references:
       position: POSITION-TOWN_SUPERVISOR
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-POLAND_TOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_POLAND-2026_GENERAL
+    code: RACE-USA-NY-POLAND_TOWN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_POLAND
+      election: ELECTION-USA-NY-POLAND_TOWN-2026_GENERAL
+      office: OFFICE-USA-NY-POLAND_TOWN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-SMITH_RB_3D
     attributes:
@@ -2154,7 +2469,7 @@ groups:
       first_name: Robert
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_POLAND-2026_GENERAL-SMITH_RB_3D
+    code: CANDIDACY-USA-NY-POLAND_TOWN-TOWN_SUPERVISOR-2026_GENERAL-SMITH_RB_3D
     attributes:
       status: active
       participation: active
@@ -2166,26 +2481,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_SUPERVISOR-TOWN_OF_POLAND-2026_GENERAL
+      race: RACE-USA-NY-POLAND_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-SMITH_RB_3D
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_TAX_COLLECTOR-TOWN_OF_CLYMER
+    code: OFFICE-USA-NY-CLYMER-TAX_COLLECTOR
     attributes:
-      seat_code: TOWN_OF_CLYMER
       is_active: true
     references:
-      position: POSITION-TOWN_TAX_COLLECTOR
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-TAX_COLLECTOR
+      jurisdiction: MUNICIPALITY-USA-NY-CLYMER
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_TAX_COLLECTOR-TOWN_OF_CLYMER-2026_GENERAL
+    code: RACE-USA-NY-CLYMER-TAX_COLLECTOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_TAX_COLLECTOR-TOWN_OF_CLYMER
+      election: ELECTION-USA-NY-CLYMER-2026_GENERAL
+      office: OFFICE-USA-NY-CLYMER-TAX_COLLECTOR
   - type: Person
     code: PERSON-CARUTIS_LR_7Y
     attributes:
@@ -2194,7 +2508,7 @@ groups:
       first_name: Lori
       last_name: Carutis
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-TOWN_TAX_COLLECTOR-TOWN_OF_CLYMER-2026_GENERAL-CARUTIS_LR_7Y
+    code: CANDIDACY-USA-NY-CLYMER-TAX_COLLECTOR-2026_GENERAL-CARUTIS_LR_7Y
     attributes:
       status: active
       participation: active
@@ -2203,26 +2517,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-TOWN_TAX_COLLECTOR-TOWN_OF_CLYMER-2026_GENERAL
+      race: RACE-USA-NY-CLYMER-TAX_COLLECTOR-2026_GENERAL
       person: PERSON-CARUTIS_LR_7Y
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_MAYOR-VILLAGE_OF_MAYVILLE
+    code: OFFICE-USA-NY-MAYVILLE-MAYOR
     attributes:
-      seat_code: VILLAGE_OF_MAYVILLE
       is_active: true
     references:
-      position: POSITION-VILLAGE_MAYOR
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-NY-MAYVILLE
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_MAYOR-VILLAGE_OF_MAYVILLE-2026_GENERAL
+    code: RACE-USA-NY-MAYVILLE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_MAYOR-VILLAGE_OF_MAYVILLE
+      election: ELECTION-USA-NY-MAYVILLE-2026_GENERAL
+      office: OFFICE-USA-NY-MAYVILLE-MAYOR
   - type: Person
     code: PERSON-SYPER_RC_8Q
     attributes:
@@ -2231,7 +2544,7 @@ groups:
       first_name: Richard
       last_name: Syper
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_MAYOR-VILLAGE_OF_MAYVILLE-2026_GENERAL-SYPER_RC_8Q
+    code: CANDIDACY-USA-NY-MAYVILLE-MAYOR-2026_GENERAL-SYPER_RC_8Q
     attributes:
       status: active
       participation: active
@@ -2240,26 +2553,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_MAYOR-VILLAGE_OF_MAYVILLE-2026_GENERAL
+      race: RACE-USA-NY-MAYVILLE-MAYOR-2026_GENERAL
       person: PERSON-SYPER_RC_8Q
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_MAYOR-VILLAGE_OF_PANAMA
+    code: OFFICE-USA-NY-PANAMA-MAYOR
     attributes:
-      seat_code: VILLAGE_OF_PANAMA
       is_active: true
     references:
-      position: POSITION-VILLAGE_MAYOR
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-NY-PANAMA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_MAYOR-VILLAGE_OF_PANAMA-2026_GENERAL
+    code: RACE-USA-NY-PANAMA-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_MAYOR-VILLAGE_OF_PANAMA
+      election: ELECTION-USA-NY-PANAMA-2026_GENERAL
+      office: OFFICE-USA-NY-PANAMA-MAYOR
   - type: Person
     code: PERSON-SCHNEIDER_WL_8R
     attributes:
@@ -2269,7 +2581,7 @@ groups:
       middle_name: F.
       last_name: Schneider
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_MAYOR-VILLAGE_OF_PANAMA-2026_GENERAL-SCHNEIDER_WL_8R
+    code: CANDIDACY-USA-NY-PANAMA-MAYOR-2026_GENERAL-SCHNEIDER_WL_8R
     attributes:
       status: active
       participation: active
@@ -2278,26 +2590,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_MAYOR-VILLAGE_OF_PANAMA-2026_GENERAL
+      race: RACE-USA-NY-PANAMA-MAYOR-2026_GENERAL
       person: PERSON-SCHNEIDER_WL_8R
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_BEMUS_POINT
+    code: OFFICE-USA-NY-BEMUS_POINT-VILLAGE_TRUSTEE
     attributes:
-      seat_code: VILLAGE_OF_BEMUS_POINT
       is_active: true
     references:
       position: POSITION-VILLAGE_TRUSTEE
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-BEMUS_POINT
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_BEMUS_POINT-2026_GENERAL
+    code: RACE-USA-NY-BEMUS_POINT-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 2. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_BEMUS_POINT
+      election: ELECTION-USA-NY-BEMUS_POINT-2026_GENERAL
+      office: OFFICE-USA-NY-BEMUS_POINT-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-LIPSEY_DV_3P
     attributes:
@@ -2306,7 +2617,7 @@ groups:
       first_name: David
       last_name: Lipsey
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_BEMUS_POINT-2026_GENERAL-LIPSEY_DV_3P
+    code: CANDIDACY-USA-NY-BEMUS_POINT-VILLAGE_TRUSTEE-2026_GENERAL-LIPSEY_DV_3P
     attributes:
       status: active
       participation: active
@@ -2315,7 +2626,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_BEMUS_POINT-2026_GENERAL
+      race: RACE-USA-NY-BEMUS_POINT-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-LIPSEY_DV_3P
   - type: Person
     code: PERSON-FARNHAM_TH_8J
@@ -2325,7 +2636,7 @@ groups:
       first_name: Theodore
       last_name: Farnham
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_BEMUS_POINT-2026_GENERAL-FARNHAM_TH_8J
+    code: CANDIDACY-USA-NY-BEMUS_POINT-VILLAGE_TRUSTEE-2026_GENERAL-FARNHAM_TH_8J
     attributes:
       status: active
       participation: active
@@ -2334,26 +2645,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_BEMUS_POINT-2026_GENERAL
+      race: RACE-USA-NY-BEMUS_POINT-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-FARNHAM_TH_8J
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_CELORON
+    code: OFFICE-USA-NY-CELORON-VILLAGE_TRUSTEE
     attributes:
-      seat_code: VILLAGE_OF_CELORON
       is_active: true
     references:
       position: POSITION-VILLAGE_TRUSTEE
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-CELORON
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_CELORON-2026_GENERAL
+    code: RACE-USA-NY-CELORON-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 2. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_CELORON
+      election: ELECTION-USA-NY-CELORON-2026_GENERAL
+      office: OFFICE-USA-NY-CELORON-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-BURNETT_KT_6W
     attributes:
@@ -2362,7 +2672,7 @@ groups:
       first_name: Kate
       last_name: Burnett
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_CELORON-2026_GENERAL-BURNETT_KT_6W
+    code: CANDIDACY-USA-NY-CELORON-VILLAGE_TRUSTEE-2026_GENERAL-BURNETT_KT_6W
     attributes:
       status: active
       participation: active
@@ -2370,7 +2680,7 @@ groups:
       - label: Citizen
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_CELORON-2026_GENERAL
+      race: RACE-USA-NY-CELORON-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-BURNETT_KT_6W
   - type: Person
     code: PERSON-MURPHY_VL_9M
@@ -2381,7 +2691,7 @@ groups:
       middle_name: R.
       last_name: Murphy
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_CELORON-2026_GENERAL-MURPHY_VL_9M
+    code: CANDIDACY-USA-NY-CELORON-VILLAGE_TRUSTEE-2026_GENERAL-MURPHY_VL_9M
     attributes:
       status: active
       participation: active
@@ -2389,26 +2699,25 @@ groups:
       - label: Citizen
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_CELORON-2026_GENERAL
+      race: RACE-USA-NY-CELORON-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-MURPHY_VL_9M
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_MAYVILLE
+    code: OFFICE-USA-NY-MAYVILLE-VILLAGE_TRUSTEE
     attributes:
-      seat_code: VILLAGE_OF_MAYVILLE
       is_active: true
     references:
       position: POSITION-VILLAGE_TRUSTEE
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-MAYVILLE
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_MAYVILLE-2026_GENERAL
+    code: RACE-USA-NY-MAYVILLE-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 2. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_MAYVILLE
+      election: ELECTION-USA-NY-MAYVILLE-2026_GENERAL
+      office: OFFICE-USA-NY-MAYVILLE-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-FISCHER_FR_6Y
     attributes:
@@ -2417,7 +2726,7 @@ groups:
       first_name: Fairlee
       last_name: Fischer
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_MAYVILLE-2026_GENERAL-FISCHER_FR_6Y
+    code: CANDIDACY-USA-NY-MAYVILLE-VILLAGE_TRUSTEE-2026_GENERAL-FISCHER_FR_6Y
     attributes:
       status: active
       participation: active
@@ -2426,7 +2735,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_MAYVILLE-2026_GENERAL
+      race: RACE-USA-NY-MAYVILLE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-FISCHER_FR_6Y
   - type: Person
     code: PERSON-TESTA_MC_2Z
@@ -2436,7 +2745,7 @@ groups:
       first_name: Michael
       last_name: Testa
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_MAYVILLE-2026_GENERAL-TESTA_MC_2Z
+    code: CANDIDACY-USA-NY-MAYVILLE-VILLAGE_TRUSTEE-2026_GENERAL-TESTA_MC_2Z
     attributes:
       status: active
       participation: active
@@ -2445,26 +2754,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_MAYVILLE-2026_GENERAL
+      race: RACE-USA-NY-MAYVILLE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-TESTA_MC_2Z
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_PANAMA
+    code: OFFICE-USA-NY-PANAMA-VILLAGE_TRUSTEE
     attributes:
-      seat_code: VILLAGE_OF_PANAMA
       is_active: true
     references:
       position: POSITION-VILLAGE_TRUSTEE
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-PANAMA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_PANAMA-2026_GENERAL
+    code: RACE-USA-NY-PANAMA-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_PANAMA
+      election: ELECTION-USA-NY-PANAMA-2026_GENERAL
+      office: OFFICE-USA-NY-PANAMA-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-EDDY_TD_9M
     attributes:
@@ -2474,7 +2782,7 @@ groups:
       middle_name: E.
       last_name: Eddy
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_PANAMA-2026_GENERAL-EDDY_TD_9M
+    code: CANDIDACY-USA-NY-PANAMA-VILLAGE_TRUSTEE-2026_GENERAL-EDDY_TD_9M
     attributes:
       status: active
       participation: active
@@ -2483,26 +2791,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_PANAMA-2026_GENERAL
+      race: RACE-USA-NY-PANAMA-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-EDDY_TD_9M
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_SILVER_CREEK
+    code: OFFICE-USA-NY-SILVER_CREEK-VILLAGE_TRUSTEE
     attributes:
-      seat_code: VILLAGE_OF_SILVER_CREEK
       is_active: true
     references:
       position: POSITION-VILLAGE_TRUSTEE
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      jurisdiction: MUNICIPALITY-USA-NY-SILVER_CREEK
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_SILVER_CREEK-2026_GENERAL
+    code: RACE-USA-NY-SILVER_CREEK-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 2. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_SILVER_CREEK
+      election: ELECTION-USA-NY-SILVER_CREEK-2026_GENERAL
+      office: OFFICE-USA-NY-SILVER_CREEK-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-AUSTIN_AM_8A
     attributes:
@@ -2512,7 +2819,7 @@ groups:
       middle_name: E.
       last_name: Austin
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_SILVER_CREEK-2026_GENERAL-AUSTIN_AM_8A
+    code: CANDIDACY-USA-NY-SILVER_CREEK-VILLAGE_TRUSTEE-2026_GENERAL-AUSTIN_AM_8A
     attributes:
       status: active
       participation: active
@@ -2521,7 +2828,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_SILVER_CREEK-2026_GENERAL
+      race: RACE-USA-NY-SILVER_CREEK-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-AUSTIN_AM_8A
   - type: Person
     code: PERSON-HASKINS_DW_7H
@@ -2531,7 +2838,7 @@ groups:
       first_name: Dwayne
       last_name: Haskins
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_SILVER_CREEK-2026_GENERAL-HASKINS_DW_7H
+    code: CANDIDACY-USA-NY-SILVER_CREEK-VILLAGE_TRUSTEE-2026_GENERAL-HASKINS_DW_7H
     attributes:
       status: active
       participation: active
@@ -2540,7 +2847,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_SILVER_CREEK-2026_GENERAL
+      race: RACE-USA-NY-SILVER_CREEK-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-HASKINS_DW_7H
   - type: Person
     code: PERSON-POISSANT_MR_7T
@@ -2550,7 +2857,7 @@ groups:
       first_name: Mary
       last_name: Poissant
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_SILVER_CREEK-2026_GENERAL-POISSANT_MR_7T
+    code: CANDIDACY-USA-NY-SILVER_CREEK-VILLAGE_TRUSTEE-2026_GENERAL-POISSANT_MR_7T
     attributes:
       status: active
       participation: active
@@ -2559,7 +2866,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_SILVER_CREEK-2026_GENERAL
+      race: RACE-USA-NY-SILVER_CREEK-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-POISSANT_MR_7T
   - type: Person
     code: PERSON-SOUTER_NT_5G
@@ -2570,7 +2877,7 @@ groups:
       middle_name: M.
       last_name: Souter
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_SILVER_CREEK-2026_GENERAL-SOUTER_NT_5G
+    code: CANDIDACY-USA-NY-SILVER_CREEK-VILLAGE_TRUSTEE-2026_GENERAL-SOUTER_NT_5G
     attributes:
       status: active
       participation: active
@@ -2579,26 +2886,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE-VILLAGE_OF_SILVER_CREEK-2026_GENERAL
+      race: RACE-USA-NY-SILVER_CREEK-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-SOUTER_NT_5G
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE_VACANCY-VILLAGE_OF_CASSADAGA
+    code: OFFICE-USA-NY-CASSADAGA-VILLAGE_TRUSTEE
     attributes:
-      seat_code: VILLAGE_OF_CASSADAGA
       is_active: true
     references:
-      position: POSITION-VILLAGE_TRUSTEE_VACANCY
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-CASSADAGA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE_VACANCY-VILLAGE_OF_CASSADAGA-2026_GENERAL
+    code: RACE-USA-NY-CASSADAGA-VILLAGE_TRUSTEE-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE_VACANCY-VILLAGE_OF_CASSADAGA
+      election: ELECTION-USA-NY-CASSADAGA-2026_GENERAL
+      office: OFFICE-USA-NY-CASSADAGA-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-ROWLEY_DV_4Q
     attributes:
@@ -2608,7 +2914,7 @@ groups:
       middle_name: E.
       last_name: Rowley
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE_VACANCY-VILLAGE_OF_CASSADAGA-2026_GENERAL-ROWLEY_DV_4Q
+    code: CANDIDACY-USA-NY-CASSADAGA-VILLAGE_TRUSTEE-UNEXPIRED_TERM-2026_GENERAL-ROWLEY_DV_4Q
     attributes:
       status: active
       participation: active
@@ -2617,26 +2923,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE_VACANCY-VILLAGE_OF_CASSADAGA-2026_GENERAL
+      race: RACE-USA-NY-CASSADAGA-VILLAGE_TRUSTEE-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-ROWLEY_DV_4Q
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE_VACANCY-VILLAGE_OF_FREDONIA
+    code: OFFICE-USA-NY-FREDONIA-VILLAGE_TRUSTEE
     attributes:
-      seat_code: VILLAGE_OF_FREDONIA
       is_active: true
     references:
-      position: POSITION-VILLAGE_TRUSTEE_VACANCY
-      jurisdiction: COUNTY-USA-NY-CHAUTAUQUA
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-FREDONIA
   - type: Race
-    code: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE_VACANCY-VILLAGE_OF_FREDONIA-2026_GENERAL
+    code: RACE-USA-NY-FREDONIA-VILLAGE_TRUSTEE-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: certified
       description: 'Vote for: 1. Source status: certified. Retrieved: 2026-10-01. Sources: https://chautauquacountyny.gov/sites/default/files/inline-files/GE26%20Candidate%20Certification%20for%20Website.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_CHAUTAUQUA-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE_VACANCY-VILLAGE_OF_FREDONIA
+      election: ELECTION-USA-NY-FREDONIA-2026_GENERAL
+      office: OFFICE-USA-NY-FREDONIA-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-MULHOLLAND_TM_6S
     attributes:
@@ -2645,7 +2950,7 @@ groups:
       first_name: Timothy
       last_name: Mulholland Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE_VACANCY-VILLAGE_OF_FREDONIA-2026_GENERAL-MULHOLLAND_TM_6S
+    code: CANDIDACY-USA-NY-FREDONIA-VILLAGE_TRUSTEE-UNEXPIRED_TERM-2026_GENERAL-MULHOLLAND_TM_6S
     attributes:
       status: active
       participation: active
@@ -2654,5 +2959,5 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_CHAUTAUQUA-VILLAGE_TRUSTEE_VACANCY-VILLAGE_OF_FREDONIA-2026_GENERAL
+      race: RACE-USA-NY-FREDONIA-VILLAGE_TRUSTEE-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-MULHOLLAND_TM_6S

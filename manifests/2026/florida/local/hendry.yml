@@ -33,21 +33,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HENDRY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_HENDRY-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-HENDRY
   - type: Race
-    code: RACE-USA-FL-COUNTY_HENDRY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HENDRY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HENDRY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HENDRY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_HENDRY-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-HOWARD_EM_3P
     attributes:
@@ -57,7 +57,7 @@ groups:
       middle_name: Rowdy
       last_name: Howard
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HENDRY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-HOWARD_EM_3P
+    code: CANDIDACY-USA-FL-COUNTY_HENDRY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-HOWARD_EM_3P
     attributes:
       status: active
       participation: active
@@ -66,25 +66,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_HENDRY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HENDRY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-HOWARD_EM_3P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HENDRY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_HENDRY-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-HENDRY
   - type: Race
-    code: RACE-USA-FL-COUNTY_HENDRY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HENDRY-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HENDRY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HENDRY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_HENDRY-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-IGLESIAS_RM_8Y
     attributes:
@@ -93,7 +93,7 @@ groups:
       first_name: Ramon
       last_name: Iglesias
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HENDRY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-IGLESIAS_RM_8Y
+    code: CANDIDACY-USA-FL-COUNTY_HENDRY-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-IGLESIAS_RM_8Y
     attributes:
       status: active
       participation: active
@@ -102,24 +102,24 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_HENDRY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HENDRY-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-IGLESIAS_RM_8Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-CLEWISTON-CLEWISTON_CITY_COMMISSION
+    code: OFFICE-USA-FL-CLEWISTON-COMMISSIONER
     attributes:
       is_active: true
     references:
-      position: POSITION-CLEWISTON_CITY_COMMISSION
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-CLEWISTON
   - type: Race
-    code: RACE-USA-FL-CLEWISTON-CLEWISTON_CITY_COMMISSION-2026_GENERAL
+    code: RACE-USA-FL-CLEWISTON-COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hendry&el=17.'
     references:
       election: ELECTION-USA-FL-CLEWISTON-2026_GENERAL
-      office: OFFICE-USA-FL-CLEWISTON-CLEWISTON_CITY_COMMISSION
+      office: OFFICE-USA-FL-CLEWISTON-COMMISSIONER
   - type: Person
     code: PERSON-EDMONDS_BR_4W
     attributes:
@@ -128,12 +128,12 @@ groups:
       first_name: Barbara
       last_name: Edmonds
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CLEWISTON-CLEWISTON_CITY_COMMISSION-2026_GENERAL-EDMONDS_BR_4W
+    code: CANDIDACY-USA-FL-CLEWISTON-COMMISSIONER-2026_GENERAL-EDMONDS_BR_4W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CLEWISTON-CLEWISTON_CITY_COMMISSION-2026_GENERAL
+      race: RACE-USA-FL-CLEWISTON-COMMISSIONER-2026_GENERAL
       person: PERSON-EDMONDS_BR_4W
   - type: Person
     code: PERSON-EVANS_JN_7R
@@ -144,12 +144,12 @@ groups:
       middle_name: A.
       last_name: Evans
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CLEWISTON-CLEWISTON_CITY_COMMISSION-2026_GENERAL-EVANS_JN_7R
+    code: CANDIDACY-USA-FL-CLEWISTON-COMMISSIONER-2026_GENERAL-EVANS_JN_7R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CLEWISTON-CLEWISTON_CITY_COMMISSION-2026_GENERAL
+      race: RACE-USA-FL-CLEWISTON-COMMISSIONER-2026_GENERAL
       person: PERSON-EVANS_JN_7R
   - type: Person
     code: PERSON-GARDNER_M_4P
@@ -160,12 +160,12 @@ groups:
       middle_name: Mali
       last_name: Gardner
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CLEWISTON-CLEWISTON_CITY_COMMISSION-2026_GENERAL-GARDNER_M_4P
+    code: CANDIDACY-USA-FL-CLEWISTON-COMMISSIONER-2026_GENERAL-GARDNER_M_4P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CLEWISTON-CLEWISTON_CITY_COMMISSION-2026_GENERAL
+      race: RACE-USA-FL-CLEWISTON-COMMISSIONER-2026_GENERAL
       person: PERSON-GARDNER_M_4P
   - type: Person
     code: PERSON-HUGHES_DR_7D
@@ -175,12 +175,12 @@ groups:
       first_name: Derrick
       last_name: Hughes
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CLEWISTON-CLEWISTON_CITY_COMMISSION-2026_GENERAL-HUGHES_DR_7D
+    code: CANDIDACY-USA-FL-CLEWISTON-COMMISSIONER-2026_GENERAL-HUGHES_DR_7D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CLEWISTON-CLEWISTON_CITY_COMMISSION-2026_GENERAL
+      race: RACE-USA-FL-CLEWISTON-COMMISSIONER-2026_GENERAL
       person: PERSON-HUGHES_DR_7D
   - type: Person
     code: PERSON-HYSLOPE_HL_4K
@@ -190,12 +190,12 @@ groups:
       first_name: Hillary
       last_name: Hyslope
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CLEWISTON-CLEWISTON_CITY_COMMISSION-2026_GENERAL-HYSLOPE_HL_4K
+    code: CANDIDACY-USA-FL-CLEWISTON-COMMISSIONER-2026_GENERAL-HYSLOPE_HL_4K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CLEWISTON-CLEWISTON_CITY_COMMISSION-2026_GENERAL
+      race: RACE-USA-FL-CLEWISTON-COMMISSIONER-2026_GENERAL
       person: PERSON-HYSLOPE_HL_4K
 - records:
   - type: Office
@@ -231,21 +231,21 @@ groups:
       person: PERSON-OSTROV_RB_5A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HENDRY-HENDRY_HOSPITAL_BOARD_DIST_4-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_HENDRY-HOSPITAL_BOARD_MEMBER-SEAT_4
     attributes:
       seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-HENDRY_HOSPITAL_BOARD_DIST_4
+      position: POSITION-HOSPITAL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HENDRY
   - type: Race
-    code: RACE-USA-FL-COUNTY_HENDRY-HENDRY_HOSPITAL_BOARD_DIST_4-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HENDRY-HOSPITAL_BOARD_MEMBER-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HENDRY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HENDRY-HENDRY_HOSPITAL_BOARD_DIST_4-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_HENDRY-HOSPITAL_BOARD_MEMBER-SEAT_4
   - type: Person
     code: PERSON-WOOD_EL_3J
     attributes:
@@ -254,30 +254,30 @@ groups:
       first_name: Elaine
       last_name: Wood
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HENDRY-HENDRY_HOSPITAL_BOARD_DIST_4-SEAT_4-2026_GENERAL-WOOD_EL_3J
+    code: CANDIDACY-USA-FL-COUNTY_HENDRY-HOSPITAL_BOARD_MEMBER-SEAT_4-2026_GENERAL-WOOD_EL_3J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HENDRY-HENDRY_HOSPITAL_BOARD_DIST_4-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HENDRY-HOSPITAL_BOARD_MEMBER-SEAT_4-2026_GENERAL
       person: PERSON-WOOD_EL_3J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HENDRY
   - type: Race
-    code: RACE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HENDRY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-NELSON_AM_7M
     attributes:
@@ -287,30 +287,30 @@ groups:
       middle_name: Suzanne
       last_name: Nelson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-NELSON_AM_7M
+    code: CANDIDACY-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-NELSON_AM_7M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-NELSON_AM_7M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HENDRY
   - type: Race
-    code: RACE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HENDRY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-BUSIN_ST_9P
     attributes:
@@ -319,30 +319,30 @@ groups:
       first_name: Stephanie
       last_name: Busin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-BUSIN_ST_9P
+    code: CANDIDACY-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-BUSIN_ST_9P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-BUSIN_ST_9P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HENDRY
   - type: Race
-    code: RACE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HENDRY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-BASQUIN_JN_4G
     attributes:
@@ -351,10 +351,10 @@ groups:
       first_name: Jon
       last_name: Basquin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-BASQUIN_JN_4G
+    code: CANDIDACY-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-BASQUIN_JN_4G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-BASQUIN_JN_4G

@@ -7,35 +7,34 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_ROANOKE-2026_GENERAL
+  code: ELECTION-USA-VA-VINTON-2026_GENERAL
   attributes:
-    name: Roanoke County General Election 2026
+    name: Vinton General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-ROANOKE
+    jurisdiction: MUNICIPALITY-USA-VA-VINTON
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ROANOKE-MEMBER_TOWN_COUNCIL-TOWN_OF_VINTON
+    code: OFFICE-USA-VA-VINTON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_VINTON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-ROANOKE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-VINTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_ROANOKE-MEMBER_TOWN_COUNCIL-TOWN_OF_VINTON-2026_GENERAL
+    code: RACE-USA-VA-VINTON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ROANOKE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ROANOKE-MEMBER_TOWN_COUNCIL-TOWN_OF_VINTON
+      election: ELECTION-USA-VA-VINTON-2026_GENERAL
+      office: OFFICE-USA-VA-VINTON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-STOVALL_MC_5G
     attributes:
@@ -45,12 +44,12 @@ groups:
       middle_name: W. "Mike"
       last_name: Stovall
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROANOKE-MEMBER_TOWN_COUNCIL-TOWN_OF_VINTON-2026_GENERAL-STOVALL_MC_5G
+    code: CANDIDACY-USA-VA-VINTON-COUNCIL_MEMBER-2026_GENERAL-STOVALL_MC_5G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROANOKE-MEMBER_TOWN_COUNCIL-TOWN_OF_VINTON-2026_GENERAL
+      race: RACE-USA-VA-VINTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-STOVALL_MC_5G
   - type: Person
     code: PERSON-MCCARTY_SB_6F
@@ -61,10 +60,10 @@ groups:
       middle_name: M.
       last_name: McCarty
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ROANOKE-MEMBER_TOWN_COUNCIL-TOWN_OF_VINTON-2026_GENERAL-MCCARTY_SB_6F
+    code: CANDIDACY-USA-VA-VINTON-COUNCIL_MEMBER-2026_GENERAL-MCCARTY_SB_6F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ROANOKE-MEMBER_TOWN_COUNCIL-TOWN_OF_VINTON-2026_GENERAL
+      race: RACE-USA-VA-VINTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MCCARTY_SB_6F

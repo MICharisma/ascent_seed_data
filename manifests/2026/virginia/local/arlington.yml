@@ -33,21 +33,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ARLINGTON-MEMBER_COUNTY_BOARD-ARLINGTON_COUNTY
+    code: OFFICE-USA-VA-COUNTY_ARLINGTON-COUNTY_BOARD_MEMBER
     attributes:
-      seat_code: ARLINGTON_COUNTY
       is_active: true
     references:
-      position: POSITION-MEMBER_COUNTY_BOARD
+      position: POSITION-COUNTY_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-ARLINGTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_ARLINGTON-MEMBER_COUNTY_BOARD-ARLINGTON_COUNTY-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_ARLINGTON-COUNTY_BOARD_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_ARLINGTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ARLINGTON-MEMBER_COUNTY_BOARD-ARLINGTON_COUNTY
+      office: OFFICE-USA-VA-COUNTY_ARLINGTON-COUNTY_BOARD_MEMBER
   - type: Person
     code: PERSON-FERRANTI_MT_5K
     attributes:
@@ -57,12 +56,12 @@ groups:
       middle_name: D. "Matt" de
       last_name: Ferranti
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ARLINGTON-MEMBER_COUNTY_BOARD-ARLINGTON_COUNTY-2026_GENERAL-FERRANTI_MT_5K
+    code: CANDIDACY-USA-VA-COUNTY_ARLINGTON-COUNTY_BOARD_MEMBER-2026_GENERAL-FERRANTI_MT_5K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ARLINGTON-MEMBER_COUNTY_BOARD-ARLINGTON_COUNTY-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_ARLINGTON-COUNTY_BOARD_MEMBER-2026_GENERAL
       person: PERSON-FERRANTI_MT_5K
   - type: Person
     code: PERSON-CLEMENT_AD_7Q
@@ -73,12 +72,12 @@ groups:
       middle_name: R.
       last_name: Clement
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ARLINGTON-MEMBER_COUNTY_BOARD-ARLINGTON_COUNTY-2026_GENERAL-CLEMENT_AD_7Q
+    code: CANDIDACY-USA-VA-COUNTY_ARLINGTON-COUNTY_BOARD_MEMBER-2026_GENERAL-CLEMENT_AD_7Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ARLINGTON-MEMBER_COUNTY_BOARD-ARLINGTON_COUNTY-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_ARLINGTON-COUNTY_BOARD_MEMBER-2026_GENERAL
       person: PERSON-CLEMENT_AD_7Q
   - type: Person
     code: PERSON-SISSON_DV_3U
@@ -89,30 +88,29 @@ groups:
       middle_name: P.
       last_name: Sisson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ARLINGTON-MEMBER_COUNTY_BOARD-ARLINGTON_COUNTY-2026_GENERAL-SISSON_DV_3U
+    code: CANDIDACY-USA-VA-COUNTY_ARLINGTON-COUNTY_BOARD_MEMBER-2026_GENERAL-SISSON_DV_3U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ARLINGTON-MEMBER_COUNTY_BOARD-ARLINGTON_COUNTY-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_ARLINGTON-COUNTY_BOARD_MEMBER-2026_GENERAL
       person: PERSON-SISSON_DV_3U
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ARLINGTON-MEMBER_SCHOOL_BOARD-ARLINGTON_COUNTY
+    code: OFFICE-USA-VA-COUNTY_ARLINGTON-SCHOOL_BOARD_MEMBER
     attributes:
-      seat_code: ARLINGTON_COUNTY
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-ARLINGTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_ARLINGTON-MEMBER_SCHOOL_BOARD-ARLINGTON_COUNTY-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_ARLINGTON-SCHOOL_BOARD_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_ARLINGTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ARLINGTON-MEMBER_SCHOOL_BOARD-ARLINGTON_COUNTY
+      office: OFFICE-USA-VA-COUNTY_ARLINGTON-SCHOOL_BOARD_MEMBER
   - type: Person
     code: PERSON-SUTTON_BT_3X
     attributes:
@@ -122,12 +120,12 @@ groups:
       middle_name: Zecher
       last_name: Sutton
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ARLINGTON-MEMBER_SCHOOL_BOARD-ARLINGTON_COUNTY-2026_GENERAL-SUTTON_BT_3X
+    code: CANDIDACY-USA-VA-COUNTY_ARLINGTON-SCHOOL_BOARD_MEMBER-2026_GENERAL-SUTTON_BT_3X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ARLINGTON-MEMBER_SCHOOL_BOARD-ARLINGTON_COUNTY-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_ARLINGTON-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-SUTTON_BT_3X
   - type: Person
     code: PERSON-RIVES_JM_9P
@@ -138,30 +136,29 @@ groups:
       middle_name: Vell
       last_name: Rives IV
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ARLINGTON-MEMBER_SCHOOL_BOARD-ARLINGTON_COUNTY-2026_GENERAL-RIVES_JM_9P
+    code: CANDIDACY-USA-VA-COUNTY_ARLINGTON-SCHOOL_BOARD_MEMBER-2026_GENERAL-RIVES_JM_9P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ARLINGTON-MEMBER_SCHOOL_BOARD-ARLINGTON_COUNTY-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_ARLINGTON-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-RIVES_JM_9P
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ARLINGTON-TREASURER-ARLINGTON_COUNTY
+    code: OFFICE-USA-VA-COUNTY_ARLINGTON-TREASURER
     attributes:
-      seat_code: ARLINGTON_COUNTY
       is_active: true
     references:
       position: POSITION-TREASURER
       jurisdiction: COUNTY-USA-VA-ARLINGTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_ARLINGTON-TREASURER-ARLINGTON_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_ARLINGTON-TREASURER-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_ARLINGTON-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_ARLINGTON-TREASURER-ARLINGTON_COUNTY
+      office: OFFICE-USA-VA-COUNTY_ARLINGTON-TREASURER
   - type: Person
     code: PERSON-RUCKER_KM_9W
     attributes:
@@ -171,12 +168,12 @@ groups:
       middle_name: M.
       last_name: Rucker
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ARLINGTON-TREASURER-ARLINGTON_COUNTY-2026_SPECIAL-RUCKER_KM_9W
+    code: CANDIDACY-USA-VA-COUNTY_ARLINGTON-TREASURER-2026_SPECIAL-RUCKER_KM_9W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ARLINGTON-TREASURER-ARLINGTON_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_ARLINGTON-TREASURER-2026_SPECIAL
       person: PERSON-RUCKER_KM_9W
   - type: Person
     code: PERSON-RAWOOT_AS_6L
@@ -187,10 +184,10 @@ groups:
       middle_name: S.
       last_name: Rawoot
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ARLINGTON-TREASURER-ARLINGTON_COUNTY-2026_SPECIAL-RAWOOT_AS_6L
+    code: CANDIDACY-USA-VA-COUNTY_ARLINGTON-TREASURER-2026_SPECIAL-RAWOOT_AS_6L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ARLINGTON-TREASURER-ARLINGTON_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_ARLINGTON-TREASURER-2026_SPECIAL
       person: PERSON-RAWOOT_AS_6L

@@ -1,0 +1,901 @@
+# How each printed local office title converts. The key is the title exactly as the source prints it.
+# A bare code names the Position the office fills; a mapping adds what the title prints beyond the role:
+#   position  the Position's code in manifests/foundation.yml
+#   seat      the seat the title names, used instead of the row's district
+#   part      a seat within the row's district that the title names, like Seat B; the office's seat ends with it
+#   body      the special district the title names; the office's seat starts with it
+#   town      the town the title names, used when the row's jurisdiction names none
+#   term      a race for part of a term, such as an unexpired term; the office stays the same
+# Every local title needs an entry: the conversion stops at one it cannot find.
+"Aberdeen CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Aberdeen CDD }
+"Airport Authority, District 2": { position: POSITION-AIRPORT_AUTHORITY_MEMBER, body: Airport Authority }
+"Airport Authority, District 4": { position: POSITION-AIRPORT_AUTHORITY_MEMBER, body: Airport Authority }
+"Altamonte Springs Commissioner, District 4": { position: POSITION-COMMISSIONER, seat: District 4 }
+"Altamonte Springs Mayor": POSITION-MAYOR
+"ALVA FIRE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Alva Fire }
+"Amelia Concourse Community Dev. Dst.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Amelia Concourse CDD }
+"Amelia Island Mosquito Control Member": { position: POSITION-MOSQUITO_CONTROL_COMMISSIONER, body: Amelia Island Mosquito Control }
+"Amelia National Community Dev. Dst.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Amelia National CDD }
+"Amelia Walk Community Dev. Dst.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Amelia Walk CDD }
+"Anastasia Mosq Control Dist.": { position: POSITION-MOSQUITO_CONTROL_COMMISSIONER, body: Anastasia Mosq Control Dist. }
+"Anthem Park Comm. Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Anthem Park CDD }
+"ARBORWOOD CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Arborwood CDD }
+"Arcadia City Council": POSITION-COUNCIL_MEMBER
+"Arcadia City Marshal": POSITION-CITY_MARSHAL
+"Argyle Fire District": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Argyle Fire District }
+"Arlington Ridge Comm. Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Arlington Ridge CDD }
+"Armstrong CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Armstrong CDD }
+"ARTISAN LAKES CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Artisan Lakes CDD }
+"ARTISAN LAKES EAST CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Artisan Lakes East CDD }
+"Astonia Community Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Astonia CDD }
+"Avalon Beach-Mulat Fire Prot Dist": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Avalon Beach-Mulat Fire Prot Dist }
+"Avalon Groves CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Avalon Groves CDD }
+"Ave Maria Stewardship District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Ave Maria Stewardship District }
+"Avenir CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Avenir CDD }
+"Aventura - Mayor": POSITION-MAYOR
+"Aventura Isles CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Aventura Isles CDD }
+"Bainebridge CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Bainebridge CDD }
+"Bannon Lakes CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Bannon Lakes CDD }
+"Barefoot Bay Recreation District Trustee": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Barefoot Bay Recreation District Trustee }
+"Barefoot Bay Trustee": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Barefoot Bay Trustee }
+"Bartram Park CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Bartram Park CDD }
+"Bartram Springs CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Bartram Springs CDD }
+"BAY CREEK CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Bay Creek CDD }
+"BAYSHORE FIRE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Bayshore Fire }
+"Baytree Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Baytree CDD }
+"Beach CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Beach CDD }
+"BEACH RD ESTATES CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Beach Rd Estates CDD }
+"Bella Collina Community Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Bella Collina CDD }
+"Bellagio CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Bellagio CDD }
+"Biscayne Park - Commissioner": POSITION-COMMISSIONER
+"Black Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Black Creek CDD }
+"Blackburn Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Blackburn Creek CDD }
+"Blackwater Soil & Water Cons Dist": { position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR, body: Blackwater Soil & Water Cons Dist }
+"Blountstown City Council Member, Ward 3": { position: POSITION-COUNCIL_MEMBER, seat: Ward 3 }
+"Blountstown City Council Member, Ward 4": { position: POSITION-COUNCIL_MEMBER, seat: Ward 4 }
+"BLUE LAKE CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Blue Lake CDD }
+"Bluewater MSBU, Group 4": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Bluewater MSBU, seat: Group 4 }
+"Bluewaters CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Bluewaters CDD }
+"Board of County Commissioners": POSITION-COUNTY_COMMISSIONER
+"Bobcat Trail CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Bobcat Trail CDD }
+"BONITA LANDING CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Bonita Landing CDD }
+"BONITA SPRINGS FIRE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Bonita Springs Fire }
+"Bonterra CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Bonterra CDD }
+"Brandy Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Brandy Creek CDD }
+"Bridgewater Community Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Bridgewater CDD }
+"Briger CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Briger CDD }
+"Brighton Lakes Comm. Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Brighton Lakes CDD }
+"BROOKS I CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Brooks I CDD }
+"BROOKS II CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Brooks II CDD }
+"Brooksville City Council Member, Seat 1": { position: POSITION-COUNCIL_MEMBER, seat: Seat 1 }
+"Brooksville City Council Member, Seat 4": { position: POSITION-COUNCIL_MEMBER, seat: Seat 4 }
+"Brooksville City Council Member, Seat 5": { position: POSITION-COUNCIL_MEMBER, seat: Seat 5 }
+"Broward Soil & Water Conservation District": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Callaway Commissioner Ward 1": { position: POSITION-COMMISSIONER, seat: Ward 1 }
+"Callaway Commissioner Ward 2": { position: POSITION-COMMISSIONER, seat: Ward 2 }
+"Canaveral Port Authority, District 3": { position: POSITION-PORT_COMMISSIONER, body: Canaveral Port Authority }
+"Canaveral Port Authority, District 5": { position: POSITION-PORT_COMMISSIONER, body: Canaveral Port Authority }
+"CANDLER HILLS EAST COMM DEVEL DIST": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Candler Hills East CDD }
+"Canopy CDD Supervisor": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Canopy CDD }
+"CAPE CORAL COUNCIL MAYOR": POSITION-MAYOR
+"CAPE CORAL COUNCIL-1": { position: POSITION-COUNCIL_MEMBER, seat: Seat 1 }
+"CAPE CORAL COUNCIL-4": { position: POSITION-COUNCIL_MEMBER, seat: Seat 4 }
+"CAPE CORAL COUNCIL-6": { position: POSITION-COUNCIL_MEMBER, seat: Seat 6 }
+"Capital Region CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Capital Region CDD }
+"CAPTIVA EROSION": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Captiva Erosion }
+"CAPTIVA FIRE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Captiva Fire }
+"Caribe Palm CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Caribe Palm CDD }
+"Cascades at Groveland CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Cascades at Groveland CDD }
+"CATALINA CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Catalina CDD }
+"CDD - Beaumont": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Beaumont CDD }
+"CDD Abbott Square": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Abbott Square CDD }
+"CDD Asturia": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Asturia CDD }
+"CDD Bexley": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Bexley CDD }
+"CDD Bridgewater": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Bridgewater CDD }
+"CDD Chapel Creek": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Chapel Creek CDD }
+"CDD Chapel Crossings": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Chapel Crossings CDD }
+"CDD Concord Station": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Concord Station CDD }
+"CDD Connerton West": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Connerton West CDD }
+"CDD Copperspring": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Copperspring CDD }
+"CDD Country Walk": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Country Walk CDD }
+"CDD Cypress Preserve": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Cypress Preserve CDD }
+"CDD Del Webb Bexley": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Del Webb Bexley CDD }
+"CDD Dupree Lakes": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Dupree Lakes CDD }
+"CDD Epperson North": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Epperson North CDD }
+"CDD Epperson Ranch": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Epperson Ranch CDD }
+"CDD Epperson Ranch II": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Epperson Ranch II CDD }
+"CDD Estancia at Wiregrass": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Estancia at Wiregrass CDD }
+"CDD Heritage Pines": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Heritage Pines CDD }
+"CDD Heritage Springs": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Heritage Springs CDD }
+"CDD Hidden Creek North": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Hidden Creek North CDD }
+"CDD Lake Bernadette": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lake Bernadette CDD }
+"CDD LakeShore Ranch": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: LakeShore Ranch CDD }
+"CDD Lakeside": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lakeside CDD }
+"CDD Lexington Oaks": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lexington Oaks CDD }
+"CDD Long Lake Ranch": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Long Lake Ranch CDD }
+"CDD Long Lake Reserve": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Long Lake Reserve CDD }
+"CDD Meadow Pointe": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Meadow Pointe CDD }
+"CDD Meadow Pointe II": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Meadow Pointe II CDD }
+"CDD Meadow Pointe III": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Meadow Pointe III CDD }
+"CDD Meadow Pointe IV": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Meadow Pointe IV CDD }
+"CDD Mirada": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Mirada CDD }
+"CDD Mirada II": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Mirada II CDD }
+"CDD New River": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: New River CDD }
+"CDD North AR-1 Pasco": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: North AR-1 Pasco CDD }
+"CDD Northwood": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Northwood CDD }
+"CDD Oak Creek": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Oak Creek CDD }
+"CDD Oakstead": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Oakstead CDD }
+"CDD Parkview at Long Lake Ranch": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Parkview at Long Lake Ranch CDD }
+"CDD Preserve at Wilderness Lake": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Preserve at Wilderness Lake CDD }
+"CDD Seven Oaks": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Seven Oaks CDD }
+"CDD Silverado": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Silverado CDD }
+"CDD Suncoast": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Suncoast CDD }
+"CDD Talavera": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Talavera CDD }
+"CDD The Groves": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: The Groves CDD }
+"CDD The Verandahs": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: The Verandahs CDD }
+"CDD Union Park": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Union Park CDD }
+"CDD Union Park East": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Union Park East CDD }
+"CDD Watergrass I": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Watergrass I CDD }
+"CDD Watergrass II": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Watergrass II CDD }
+"CDD Waters Edge": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Waters Edge CDD }
+"CDD Wesbridge": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Wesbridge CDD }
+"CDD Wiregrass": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Wiregrass CDD }
+"CDD Wiregrass II": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Wiregrass II CDD }
+"CDD Zephyr Lakes": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Zephyr Lakes CDD }
+"CDD Zephyr Ridge": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Zephyr Ridge CDD }
+"CDD, Southern Hills Plantation 1": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Southern Hills Plantation 1 CDD }
+"CDD, Spring Ridge": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Spring Ridge CDD }
+"CDD, Sterling Hill": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Sterling Hill CDD }
+"Cedar Hammock CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Cedar Hammock CDD }
+"CEDAR HAMMOCK FIRE DIST": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Cedar Hammock Fire Dist }
+"Celebration Community Development": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Celebration CDD }
+"Center Hill, Seat 1": { position: POSITION-COUNCIL_MEMBER, seat: Seat 1 }
+"Center Hill, Seat 3": { position: POSITION-COUNCIL_MEMBER, seat: Seat 3 }
+"Center Hill, Seat 5": { position: POSITION-COUNCIL_MEMBER, seat: Seat 5 }
+"Central Broward Water Control District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Central Broward Water Control District }
+"CFM CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: CFM CDD }
+"Champions Gate Comm. Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Champions Gate CDD }
+"Charles Cove Community Development Dist": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Charles Cove CDD }
+"Chipola River Soil & Water Conservation District": { position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR, body: Chipola River Soil & Water Conservation District }
+"Choctawhatchee River Soil & Water Dist": { position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR, body: Choctawhatchee River Soil & Water Dist }
+"Citrus Co. Community Charitable Foundation": { position: POSITION-HOSPITAL_BOARD_MEMBER, body: Citrus Co. Community Charitable Foundation }
+"City Commissioner - Group 2": { position: POSITION-COMMISSIONER, seat: Group 2 }
+"City Commissioner - Group 4": { position: POSITION-COMMISSIONER, seat: Group 4 }
+"City Commissioner, District 1": { position: POSITION-COMMISSIONER, seat: District 1 }
+"City Commissioner, District 2": { position: POSITION-COMMISSIONER, seat: District 2 }
+"City Commissioner, District 3": { position: POSITION-COMMISSIONER, seat: District 3 }
+"City Commissioner, District 4": { position: POSITION-COMMISSIONER, seat: District 4 }
+"City Commissioner, District 5": { position: POSITION-COMMISSIONER, seat: District 5 }
+"City Commissioner, Seat 1": { position: POSITION-COMMISSIONER, seat: Seat 1 }
+"City Commissioner, Seat 2": { position: POSITION-COMMISSIONER, seat: Seat 2 }
+"City Commissioner, Seat 3": { position: POSITION-COMMISSIONER, seat: Seat 3 }
+"City Commissioner- Group 1 Crescent City": { position: POSITION-COMMISSIONER, seat: Group 1 }
+"City Commissioner- Group 2 Crescent City": { position: POSITION-COMMISSIONER, seat: Group 2 }
+"City Council District 4": { position: POSITION-COUNCIL_MEMBER, seat: District 4 }
+"City Council District 5": { position: POSITION-COUNCIL_MEMBER, seat: District 5 }
+"City Council Grp. 1": { position: POSITION-COUNCIL_MEMBER, seat: Group 1 }
+"City Council Grp. 2": { position: POSITION-COUNCIL_MEMBER, seat: Group 2 }
+"City Council, District 2": { position: POSITION-COUNCIL_MEMBER, seat: District 2 }
+"City Council, District 4": { position: POSITION-COUNCIL_MEMBER, seat: District 4 }
+"CITY OF ANNA MARIA COMMISSIONER": POSITION-COMMISSIONER
+"CITY OF ANNA MARIA MAYOR": POSITION-MAYOR
+"City of Atlantic Beach Commissioner, Seat 4": { position: POSITION-COMMISSIONER, seat: Seat 4 }
+"City of Atlantic Beach Commissioner, Seat 5": { position: POSITION-COMMISSIONER, seat: Seat 5 }
+"City of Atlantic Beach Mayor-Commissioner, Seat 1": { position: POSITION-MAYOR, seat: Seat 1 }
+"City of Belleair Beach Councilmembers": POSITION-COUNCIL_MEMBER
+"CITY OF BRADENTON BEACH COMMISSION WARD 2": { position: POSITION-COMMISSIONER, seat: Ward 2 }
+"CITY OF BRADENTON CITY COUNCIL WARD 2": { position: POSITION-COUNCIL_MEMBER, seat: Ward 2 }
+"CITY OF BRADENTON CITY COUNCIL WARD 3": { position: POSITION-COUNCIL_MEMBER, seat: Ward 3 }
+"CITY OF BRADENTON CITY COUNCIL WARD 4": { position: POSITION-COUNCIL_MEMBER, seat: Ward 4 }
+"City of Bushnell, Seat 1 Mayor": { position: POSITION-MAYOR, seat: Seat 1 }
+"City of Bushnell, Seat 3": { position: POSITION-COUNCIL_MEMBER, seat: Seat 3 }
+"City of Bushnell, Seat 5": { position: POSITION-COUNCIL_MEMBER, seat: Seat 5 }
+"City of Cape Canaveral City Council (3 Seats Available)": POSITION-COUNCIL_MEMBER
+"City of Clearwater Councilmember - Seat 5": { position: POSITION-COUNCIL_MEMBER, seat: Seat 5 }
+"City of Cocoa Beach Commissioner, Seat 4": { position: POSITION-COMMISSIONER, seat: Seat 4 }
+"City of Cocoa Beach Commissioner, Seat 5": { position: POSITION-COMMISSIONER, seat: Seat 5 }
+"City of Cocoa City Council, District 1": { position: POSITION-COUNCIL_MEMBER, seat: District 1 }
+"City of Cocoa City Council, District 4": { position: POSITION-COUNCIL_MEMBER, seat: District 4 }
+"City of Dunedin Commissioner - Seat 4": { position: POSITION-COMMISSIONER, seat: Seat 4 }
+"City of Fernandina Beach Commissioner, Seat 5": { position: POSITION-COMMISSIONER, seat: Seat 5 }
+"City of Fernandina Beach Mayor": POSITION-MAYOR
+"City of Fort Pierce City Commission, District 1": { position: POSITION-COMMISSIONER, seat: District 1 }
+"City of Fort Pierce City Commission, District 2": { position: POSITION-COMMISSIONER, seat: District 2 }
+"CITY OF HOLMES BEACH COMMISSIONER": POSITION-COMMISSIONER
+"CITY OF HOLMES BEACH MAYOR": POSITION-MAYOR
+"City of Indian Harbour Beach City Council, Seat 1": { position: POSITION-COUNCIL_MEMBER, seat: Seat 1 }
+"City of Indian Harbour Beach City Council, Seat 2": { position: POSITION-COUNCIL_MEMBER, seat: Seat 2 }
+"City of Indian Harbour Beach City Council, Seat 3": { position: POSITION-COUNCIL_MEMBER, seat: Seat 3 }
+"City of Largo City Commissioner - Seat 2": { position: POSITION-COMMISSIONER, seat: Seat 2 }
+"City of Melbourne City Council, District 2": { position: POSITION-COUNCIL_MEMBER, seat: District 2 }
+"City of Melbourne City Council, District 4": { position: POSITION-COUNCIL_MEMBER, seat: District 4 }
+"City of Melbourne City Council, District 6": { position: POSITION-COUNCIL_MEMBER, seat: District 6 }
+"City of Naples Airport Authority": { position: POSITION-AIRPORT_AUTHORITY_MEMBER, body: City of Naples Airport Authority }
+"City of Neptune Beach City Council, Seat 4": { position: POSITION-COUNCIL_MEMBER, seat: Seat 4 }
+"City of Neptune Beach City Council, Seat 5": { position: POSITION-COUNCIL_MEMBER, seat: Seat 5 }
+"CITY OF PALMETTO COMMISSION WARD 1": { position: POSITION-COMMISSIONER, seat: Ward 1 }
+"CITY OF PALMETTO COMMISSION WARD 2": { position: POSITION-COMMISSIONER, seat: Ward 2 }
+"CITY OF PALMETTO COMMISSION WARD 3": { position: POSITION-COMMISSIONER, seat: Ward 3 }
+"City of Port St. Lucie City Council, District 1": { position: POSITION-COUNCIL_MEMBER, seat: District 1 }
+"City of Port St. Lucie Mayor": POSITION-MAYOR
+"City of Rockledge City Council, Seat 3": { position: POSITION-COUNCIL_MEMBER, seat: Seat 3 }
+"City of Rockledge City Council, Seat 4": { position: POSITION-COUNCIL_MEMBER, seat: Seat 4 }
+"City of Rockledge Mayor": POSITION-MAYOR
+"City of Satellite Beach City Council (2 Seats Available)": POSITION-COUNCIL_MEMBER
+"City of Seminole Council Members": POSITION-COUNCIL_MEMBER
+"City of St. Aug. Beach Comm. - Seat 3": { position: POSITION-COMMISSIONER, seat: Seat 3 }
+"City of St. Augustine Comm - Seat 5": { position: POSITION-COMMISSIONER, seat: Seat 5 }
+"City of St. Petersburg - Council Member District 2": { position: POSITION-COUNCIL_MEMBER, seat: District 2 }
+"City of St. Petersburg - Council Member District 6": { position: POSITION-COUNCIL_MEMBER, seat: District 6 }
+"City of St. Petersburg - Mayor": POSITION-MAYOR
+"City of Temple Terrace City Council Member": POSITION-COUNCIL_MEMBER
+"City of Titusville City Council, Seat 1": { position: POSITION-COUNCIL_MEMBER, seat: Seat 1 }
+"City of Titusville City Council, Seat 3": { position: POSITION-COUNCIL_MEMBER, seat: Seat 3 }
+"City of Titusville City Council, Seat 5": { position: POSITION-COUNCIL_MEMBER, seat: Seat 5 }
+"City of West Melbourne City Council Member (3 Seats Available)": POSITION-COUNCIL_MEMBER
+"Clay Soil and Water Conservation District": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Clearwater Cay CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Clearwater Cay CDD }
+"Clerk of the Circuit Court": POSITION-CLERK_OF_COURT
+"Clewiston City Commission": POSITION-COMMISSIONER
+"Coco Palms CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Coco Palms CDD }
+"Coconut Cay CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Coconut Cay CDD }
+"Coleman, Mayor": POSITION-MAYOR
+"Coleman, Seat 2": { position: POSITION-COUNCIL_MEMBER, seat: Seat 2 }
+"Coleman, Seat 4": { position: POSITION-COUNCIL_MEMBER, seat: Seat 4 }
+"Collier Mosquito Control District": POSITION-MOSQUITO_CONTROL_COMMISSIONER
+"COLONIAL CC CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Colonial CC CDD }
+"Community Council Area/Subarea 02/21": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 2 Subarea 21 }
+"Community Council Area/Subarea 02/At Large": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 2 Subarea At Large }
+"Community Council Area/Subarea 05/51": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 5 Subarea 51 }
+"Community Council Area/Subarea 05/55": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 5 Subarea 55 }
+"Community Council Area/Subarea 07/72 B": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 7 Subarea 72 B }
+"Community Council Area/Subarea 10/101": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 10 Subarea 101 }
+"Community Council Area/Subarea 10/105": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 10 Subarea 105 }
+"Community Council Area/Subarea 10/106": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 10 Subarea 106 }
+"Community Council Area/Subarea 11/113": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 11 Subarea 113 }
+"Community Council Area/Subarea 11/115": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 11 Subarea 115 }
+"Community Council Area/Subarea 11/At Large": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 11 Subarea At Large }
+"Community Council Area/Subarea 12/125": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 12 Subarea 125 }
+"Community Council Area/Subarea 14/141": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 14 Subarea 141 }
+"Community Council Area/Subarea 14/143": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 14 Subarea 143 }
+"Community Council Area/Subarea 14/146": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 14 Subarea 146 }
+"Community Council Area/Subarea 15/153": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 15 Subarea 153 }
+"Community Council Area/Subarea 15/155": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 15 Subarea 155 }
+"Community Council Area/Subarea 16/161-A": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 16 Subarea 161-A }
+"Community Council Area/Subarea 16/161-E": { position: POSITION-COMMUNITY_COUNCIL_MEMBER, seat: Area 16 Subarea 161-E }
+"Concorde Estates Comm. Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Concorde Estates CDD }
+"Copper Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Copper Creek CDD }
+"COPPERSTONE CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Copperstone CDD }
+"Coral Bay Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Coral Bay CDD }
+"Coral Gables - for Commissioner - Group IV": { position: POSITION-COMMISSIONER, seat: Group 4 }
+"Coral Gables - for Commissioner - Group V": { position: POSITION-COMMISSIONER, seat: Group 5 }
+"Coral Gables - for Mayor - Group I": { position: POSITION-MAYOR, seat: Group 1 }
+"Coral Springs Improvement District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Coral Springs Improvement District }
+"Coral Springs, Commissioner, Seat 3": { position: POSITION-COMMISSIONER, seat: Seat 3 }
+"Coral Springs, Commissioner, Seat 4": { position: POSITION-COMMISSIONER, seat: Seat 4 }
+"Coral Springs, Mayor": POSITION-MAYOR
+"Coronado CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Coronado CDD }
+"Council Member, Group II": { position: POSITION-COUNCIL_MEMBER, seat: Group 2 }
+"Council Member, Group III": { position: POSITION-COUNCIL_MEMBER, seat: Group 3 }
+"Council Member, Group IV": { position: POSITION-COUNCIL_MEMBER, seat: Group 4 }
+"Country Greens Community Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Country Greens CDD }
+"County Judge": POSITION-COUNTY_JUDGE
+"County Miscellaneous Boards": POSITION-COUNTY_BOARD_MEMBER
+"County Officer (Mayor/Chair/Attorney)": POSITION-COUNTY_OFFICER
+"Creekside at Twin Creeks CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Creekside at Twin Creeks CDD }
+"Crescent Lakes Common Facilities District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Crescent Lakes Common Facilities District }
+"Crestview City Council Member, Pct 1": { position: POSITION-COUNCIL_MEMBER, seat: Precinct 1 }
+"Crestview City Council Member, Pct 2": { position: POSITION-COUNCIL_MEMBER, seat: Precinct 2 }
+"Crestview City Council Member, Pct 3": { position: POSITION-COUNCIL_MEMBER, seat: Precinct 3 }
+"Cross Creek North CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Cross Creek North CDD }
+"CROSSCREEK CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Crosscreek CDD }
+"Cutler Bay - Mayor": POSITION-MAYOR
+"Cutler Bay - Residential Area Council Member - Seat 1": { position: POSITION-COUNCIL_MEMBER, seat: Seat 1 }
+"Cutler Bay - Residential Area Council Member - Seat 3": { position: POSITION-COUNCIL_MEMBER, seat: Seat 3 }
+"Cutler Cay CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Cutler Cay CDD }
+"Cypress Bluff CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Cypress Bluff CDD }
+"Cypress Cove Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Cypress Cove CDD }
+"Cypress Lakes CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Cypress Lakes CDD }
+"Cypress Park Estates CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Cypress Park Estates CDD }
+"CYPRESS SHADOWS CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Cypress Shadows CDD }
+"Dania Beach, Commissioner": POSITION-COMMISSIONER
+"Davie, Councilmember, District 1": { position: POSITION-COUNCIL_MEMBER, seat: District 1 }
+"Davie, Councilmember, District 3": { position: POSITION-COUNCIL_MEMBER, seat: District 3 }
+"Davie, Councilmember, District 4": { position: POSITION-COUNCIL_MEMBER, seat: District 4 }
+"Davie, Mayor, At-Large": { position: POSITION-MAYOR, seat: At Large }
+"Daytona Beach Commissioner Zone 1": { position: POSITION-COMMISSIONER, seat: Zone 1 }
+"Daytona Beach Commissioner Zone 3": { position: POSITION-COMMISSIONER, seat: Zone 3 }
+"Daytona Beach Shores Commission Seat 1": { position: POSITION-COMMISSIONER, seat: Seat 1 }
+"Daytona Beach Shores Commission Seat 3": { position: POSITION-COMMISSIONER, seat: Seat 3 }
+"Daytona Beach Shores Mayor": POSITION-MAYOR
+"DeBary Council Seat 3": { position: POSITION-COUNCIL_MEMBER, seat: Seat 3 }
+"DeBary Council Seat 4": { position: POSITION-COUNCIL_MEMBER, seat: Seat 4 }
+"DeBary Mayor/Seat 5": { position: POSITION-MAYOR, seat: Seat 5 }
+"Deer Island Community Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Deer Island CDD }
+"Deer Run CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Deer Run CDD }
+"DeLand Commission Seat 3": { position: POSITION-COMMISSIONER, seat: Seat 3 }
+"DeLand Commission Seat 5": { position: POSITION-COMMISSIONER, seat: Seat 5 }
+"DeLand Mayor/Seat 1": { position: POSITION-MAYOR, seat: Seat 1 }
+"Deltona Commission District 1": { position: POSITION-COMMISSIONER, seat: District 1 }
+"Deltona Commission District 3": { position: POSITION-COMMISSIONER, seat: District 3 }
+"Deltona Commission District 5": { position: POSITION-COMMISSIONER, seat: District 5 }
+"Deltona Commission District 6": { position: POSITION-COMMISSIONER, seat: District 6 }
+"Deltona Mayor": POSITION-MAYOR
+"Destin Council Member": POSITION-COUNCIL_MEMBER
+"Destin Mayor": POSITION-MAYOR
+"Doral - Councilmember - Seat 2": { position: POSITION-COUNCIL_MEMBER, seat: Seat 2 }
+"Doral - Councilmember - Seat 4": { position: POSITION-COUNCIL_MEMBER, seat: Seat 4 }
+"Double Branch CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Double Branch CDD }
+"Downtown Doral CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Downtown Doral CDD }
+"Downtown Doral South CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Downtown Doral South CDD }
+"DUETTE FIRE DISTRICT": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Duette Fire District }
+"Dunes CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Dunes CDD }
+"Durbin Crossing CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Durbin Crossing CDD }
+"DW BAYVIEW CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: DW Bayview CDD }
+"EAGLE POINTE CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Eagle Pointe CDD }
+"East Homestead CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: East Homestead CDD }
+"East Lake Tarpon Spec. Fire Cont. Dist.": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: East Lake Tarpon Spec. Fire Cont. Dist. }
+"EAST MANATEE FIRE RESCUE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: East Manatee Fire Rescue }
+"East Park CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: East Park CDD }
+"Eastlake Oaks CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Eastlake Oaks CDD }
+"ECUA, District 2": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: ECUA }
+"ECUA, District 4": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: ECUA }
+"Eden Hills Community Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Eden Hills CDD }
+"Edgewater Council District 1": { position: POSITION-COUNCIL_MEMBER, seat: District 1 }
+"Edgewater Council District 3": { position: POSITION-COUNCIL_MEMBER, seat: District 3 }
+"El Portal - Councilperson - Seat 1": { position: POSITION-COUNCIL_MEMBER, seat: Seat 1 }
+"El Portal - Councilperson - Seat 2": { position: POSITION-COUNCIL_MEMBER, seat: Seat 2 }
+"El Portal - Councilperson - Seat 3": { position: POSITION-COUNCIL_MEMBER, seat: Seat 3 }
+"El Portal - Councilperson - Seat 4": { position: POSITION-COUNCIL_MEMBER, seat: Seat 4 }
+"El Portal - Mayor": POSITION-MAYOR
+"Enbrook CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Enbrook CDD }
+"Enclave at Black Point Marina CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Enclave at Black Point Marina CDD }
+"Englewood Water District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Englewood Water District }
+"Entrada CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Entrada CDD }
+"Escambia Soil & Water Conservation Dist": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"ESTERO FIRE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Estero Fire }
+"Everlands Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Everlands CDD }
+"Falcon Trace CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Falcon Trace CDD }
+"Fallschase CDD Supervisor": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Fallschase CDD }
+"Fiddlers Creek 2 CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Fiddlers Creek 2 CDD }
+"Fiddlers Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Fiddlers Creek CDD }
+"Fleming Island Plantation CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Fleming Island Plantation CDD }
+"Flow Way CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Flow Way CDD }
+"Fontainbleau Lakes CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Fontainbleau Lakes CDD }
+"FOREST CREEK CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Forest Creek CDD }
+"Forest Lake Community Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Forest Lake CDD }
+"Fort Lauderdale, Commissioner, District 1": { position: POSITION-COMMISSIONER, seat: District 1 }
+"FORT MYERS BEACH FIRE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Fort Myers Beach Fire }
+"FORT MYERS BEACH LIBRARY": { position: POSITION-LIBRARY_TRUSTEE, body: Fort Myers Beach Library }
+"FORT MYERS BEACH MOSQUITO": { position: POSITION-MOSQUITO_CONTROL_COMMISSIONER, body: Fort Myers Beach Mosquito }
+"FORT MYERS BEACH TOWN COUNCIL": POSITION-COUNCIL_MEMBER
+"FORT MYERS SHORES FIRE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Fort Myers Shores Fire }
+"Fort Walton Beach Council Member": POSITION-COUNCIL_MEMBER
+"Gainesville City Commission District 4": { position: POSITION-COMMISSIONER, seat: District 4 }
+"Gasparilla Island Bridge Authority": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Gasparilla Island Bridge Authority }
+"GATEWAY CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Gateway CDD }
+"Golden Lakes Community Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Golden Lakes CDD }
+"Gramercy Farms Comm. Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Gramercy Farms CDD }
+"Grand Haven CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Grand Haven CDD }
+"Grand Oaks CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Grand Oaks CDD }
+"Greater Naples FD": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Greater Naples FD }
+"Greater Naples FD (E Naples Division)": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Greater Naples FD (E Naples Division) }
+"Greater Naples FD (Golden Gate Div)": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Greater Naples FD (Golden Gate Div) }
+"Greeneway Improvement District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Greeneway Improvement District }
+"GREYHAWK LANDING CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Greyhawk Landing CDD }
+"Griffin Lakes Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Griffin Lakes CDD }
+"HABITAT CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Habitat CDD }
+"Hacienda Lakes CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Hacienda Lakes CDD }
+"Hallandale Beach, Commissioner, Seat 1": { position: POSITION-COMMISSIONER, seat: Seat 1 }
+"Hallandale Beach, Commissioner, Seat 2": { position: POSITION-COMMISSIONER, seat: Seat 2 }
+"Hamal CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Hamal CDD }
+"Hammock Bay Community Development Dist": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Hammock Bay CDD }
+"Hammock Reserve Community Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Hammock Reserve CDD }
+"Harbour Waterway SD": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Harbour Waterway SD }
+"HARBOURAGE AT BRADEN RIVER CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Harbourage at Braden River CDD }
+"Harmony Comm. Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Harmony CDD }
+"HARRISON RANCH CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Harrison Ranch CDD }
+"Hemingway Point CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Hemingway Point CDD }
+"Hendry Hospital Board Dist 4": POSITION-HOSPITAL_BOARD_MEMBER
+"Heritage Bay CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Heritage Bay CDD }
+"Heritage Greens CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Heritage Greens CDD }
+"HERITAGE HARBOUR NORTH CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Heritage Harbour North CDD }
+"HERITAGE HARBOUR SOUTH CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Heritage Harbour South CDD }
+"Heritage Isle at Viera Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Heritage Isle at Viera CDD }
+"Heritage Lake Park CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Heritage Lake Park CDD }
+"Heritage Landing CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Heritage Landing CDD }
+"Heritage Oak Park CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Heritage Oak Park CDD }
+"Heritage Park CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Heritage Park CDD }
+"Hialeah - Councilmember - Group II": { position: POSITION-COUNCIL_MEMBER, seat: Group 2 }
+"Highland Meadows II Community Development": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Highland Meadows II CDD }
+"Highlands Soil and Water Conserv Dist": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Hillcrest Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Hillcrest CDD }
+"Holley-Navarre Fire District": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Holley-Navarre Fire District }
+"Holly Hill Commission District 4": { position: POSITION-COMMISSIONER, seat: District 4 }
+"Holly Hill Road East Community Development Dist. 4": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Holly Hill Road East CDD }
+"Hollywood, Commissioner, District 1": { position: POSITION-COMMISSIONER, seat: District 1 }
+"Hollywood, Commissioner, District 3": { position: POSITION-COMMISSIONER, seat: District 3 }
+"Hollywood, Commissioner, District 5": { position: POSITION-COMMISSIONER, seat: District 5 }
+"Homestead 50 CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Homestead 50 CDD }
+"Homosassa Water Board": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Homosassa Water Board }
+"Hospital Board Central District": { position: POSITION-HOSPITAL_BOARD_MEMBER, body: Hospital Board Central District }
+"Hospital Board Northern District": { position: POSITION-HOSPITAL_BOARD_MEMBER, body: Hospital Board Northern District }
+"Hospital Board Southern District": { position: POSITION-HOSPITAL_BOARD_MEMBER, body: Hospital Board Southern District }
+"Hunters Ridge No. 1 CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Hunters Ridge No. 1 CDD }
+"Immokalee Fire District": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Immokalee Fire District }
+"Indian Creek Common Facilities District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Indian Creek Common Facilities District }
+"Indian Point Common Facilities District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Indian Point Common Facilities District }
+"Indian Ridge Villas Common Facilities Dist.": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Indian Ridge Villas Common Facilities Dist. }
+"Indian River County Hospital District": POSITION-HOSPITAL_BOARD_MEMBER
+"Indian River Mosquito Control District": POSITION-MOSQUITO_CONTROL_COMMISSIONER
+"Indian Trail Improvement District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Indian Trail Improvement District }
+"Indigo Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Indigo CDD }
+"INDIGO EAST COMMUNITY DEVELOPMENT DIST": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Indigo East CDD }
+"IONA-MCGREGOR FIRE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Iona-Mcgregor Fire }
+"ISD Lake Padgett Estates": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: ISD Lake Padgett Estates }
+"Islands at Doral (NE) CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Islands at Doral (NE) CDD }
+"Islands at Doral (SW) CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Islands at Doral (SW) CDD }
+"Islands at Doral III CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Islands at Doral III CDD }
+"Isle of Palms SD": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Isle of Palms SD }
+"Isles of Bartram Park CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Isles of Bartram Park CDD }
+"Julington Creek Plantation CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Julington Creek Plantation CDD }
+"Jupiter Inlet Commission District 2": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Jupiter Inlet Commission }
+"Jupiter Inlet Commission District 4": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Jupiter Inlet Commission }
+"Key Biscayne - Village Council": POSITION-COUNCIL_MEMBER
+"Key Largo Fire & Emergency Medical Board": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Key Largo Fire & Emergency Medical Board }
+"Key Largo Wastewater District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Key Largo Wastewater District }
+"Key West Utility Board Member Seat B": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Key West Utility Board, seat: Seat B }
+"Keys Cove II CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Keys Cove II CDD }
+"Kissimmee City Commission Seat 4": { position: POSITION-COMMISSIONER, seat: Seat 4 }
+"LAGUNA LAKES CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Laguna Lakes CDD }
+"Lake Asbury MSBD": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Lake Asbury MSBD }
+"Lake Ashton Community Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lake Ashton CDD }
+"Lake Ashton II Community Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lake Ashton II CDD }
+"Lake Helen Commission Zone 2": { position: POSITION-COMMISSIONER, seat: Zone 2 }
+"Lake Helen Commission Zone 4": { position: POSITION-COMMISSIONER, seat: Zone 4 }
+"Lake Lucie CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lake Lucie CDD }
+"Lake Mary City Commissioner, Seat 4": { position: POSITION-COMMISSIONER, seat: Seat 4 }
+"Lake Powell CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lake Powell CDD }
+"Lake Region Lakes Management Dist.": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Lake Region Lakes Management Dist. }
+"Lakes by the Bay South CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lakes by the Bay South CDD }
+"Lakeside Landing Community Development": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lakeside Landing CDD }
+"Lakeside Plantation CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lakeside Plantation CDD }
+"LAKEWOOD RANCH CDD 1": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lakewood Ranch CDD 1 }
+"LAKEWOOD RANCH CDD 2": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lakewood Ranch CDD 2 }
+"LAKEWOOD RANCH CDD 4": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lakewood Ranch CDD 4 }
+"LAKEWOOD RANCH CDD 5": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lakewood Ranch CDD 5 }
+"LAKEWOOD RANCH STEWARDSHIP": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Lakewood Ranch Stewardship }
+"Lakewood Ranch Stewardship District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Lakewood Ranch Stewardship District }
+"Landmark At Doral CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Landmark At Doral CDD }
+"Lauderdale-by-the-Sea, Commissioner, Seat 1": { position: POSITION-COMMISSIONER, seat: Seat 1 }
+"Lauderdale-by-the-Sea, Commissioner, Seat 2": { position: POSITION-COMMISSIONER, seat: Seat 2 }
+"Lauderdale-by-the-Sea, Mayor": POSITION-MAYOR
+"Lauderhill, Commissioner, Seat 4": { position: POSITION-COMMISSIONER, seat: Seat 4 }
+"Lauderhill, Mayor": POSITION-MAYOR
+"Lealman Spec. Fire Cont. Dist.": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Lealman Spec. Fire Cont. Dist. }
+"LEE COUNTY MOSQUITO CONTROL": POSITION-MOSQUITO_CONTROL_COMMISSIONER
+"LEGENDS BAY CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Legends Bay CDD }
+"LEHIGH ACRES FIRE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Lehigh Acres Fire }
+"Lehigh Acres Municipal Services Improvement Dist": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Lehigh Acres Municipal Services Improvement Dist }
+"Lely CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lely CDD }
+"Leon Soil and Water Conservation District 1": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Leon Soil and Water Conservation District 5": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Liberty Fire District": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Liberty Fire District }
+"Live Oak Lake Comm. Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Live Oak Lake CDD }
+"Loxahatchee River Environmental Control District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Loxahatchee River Environmental Control District }
+"LT Ranch Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: LT Ranch CDD }
+"Madeira CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Madeira CDD }
+"Magnolia West CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Magnolia West CDD }
+"Majorca Isles CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Majorca Isles CDD }
+"MANATEE RIVER SOIL AND WATER": { position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR, body: Manatee River Soil and Water }
+"Margate, Commissioner, Seat 3": { position: POSITION-COMMISSIONER, seat: Seat 3 }
+"Margate, Commissioner, Seat 5": { position: POSITION-COMMISSIONER, seat: Seat 5 }
+"Marshall Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Marshall Creek CDD }
+"MATLACHA/PINE ISLAND FIRE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Matlacha/pine Island Fire }
+"Mayor": POSITION-MAYOR
+"Meadow Pines Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Meadow Pines CDD }
+"Meadow View at Twin Creeks CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Meadow View at Twin Creeks CDD }
+"Mediterra Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Mediterra CDD }
+"Mediterranea CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Mediterranea CDD }
+"Medley - for Council Member": POSITION-COUNCIL_MEMBER
+"Miami Gardens - Residential Area Council Member - Seat 4": { position: POSITION-COUNCIL_MEMBER, seat: Seat 4 }
+"Miami World Center CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Miami World Center CDD }
+"Middle Village CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Middle Village CDD }
+"Midtown Miami CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Midtown Miami CDD }
+"Midway Fire District": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Midway Fire District }
+"Millers Creek SD": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Millers Creek SD }
+"MIROMAR LAKES CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Miromar Lakes CDD }
+"Montecito Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Montecito CDD }
+"Monterey/Congress CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Monterey/Congress CDD }
+"Monterra Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Monterra CDD }
+"MOODY RIVER CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Moody River CDD }
+"Mosquito Control": POSITION-MOSQUITO_CONTROL_COMMISSIONER
+"MOSQUITO CONTROL": POSITION-MOSQUITO_CONTROL_COMMISSIONER
+"Mosquito Control Board": POSITION-MOSQUITO_CONTROL_COMMISSIONER
+"Mosquito Control Board, Dist 2": POSITION-MOSQUITO_CONTROL_COMMISSIONER
+"Mosquito Control Board, Dist 5": POSITION-MOSQUITO_CONTROL_COMMISSIONER
+"Myrtle Creek Improvement District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Myrtle Creek Improvement District }
+"Naples Heritage CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Naples Heritage CDD }
+"Naples Reserve CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Naples Reserve CDD }
+"Narcoossee CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Narcoossee CDD }
+"Navarre Beach Fire Rescue District": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Navarre Beach Fire Rescue District }
+"New Smyrna Beach Commission Zone 1": { position: POSITION-COMMISSIONER, seat: Zone 1 }
+"New Smyrna Beach Commission Zone 2": { position: POSITION-COMMISSIONER, seat: Zone 2 }
+"New Smyrna Beach Mayor": POSITION-MAYOR
+"North Boulevard Community Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: North Boulevard CDD }
+"North Collier Fire District": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: North Collier Fire District }
+"NORTH FORT MYERS FIRE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: North Fort Myers Fire }
+"North Lake Co. Hospital Board NE": { position: POSITION-HOSPITAL_BOARD_MEMBER, body: North Lake Co. Hospital Board NE }
+"North Lake Co. Hospital Board NW": { position: POSITION-HOSPITAL_BOARD_MEMBER, body: North Lake Co. Hospital Board NW }
+"North Lauderdale, Mayor, At-Large": { position: POSITION-MAYOR, seat: At Large }
+"North Merritt Island Dependent Special District Advisory Board": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: North Merritt Island Dependent Special District Advisory Board }
+"North Miami - Councilperson - District 2": { position: POSITION-COUNCIL_MEMBER, seat: District 2 }
+"North Miami - Councilperson - District 3": { position: POSITION-COUNCIL_MEMBER, seat: District 3 }
+"North Miami - Mayor": POSITION-MAYOR
+"North Miami Beach - Group 2 - Commissioner": { position: POSITION-COMMISSIONER, seat: Group 2 }
+"North Miami Beach - Group 4 - Commissioner": { position: POSITION-COMMISSIONER, seat: Group 4 }
+"North Miami Beach - Group 6 - Commissioner": { position: POSITION-COMMISSIONER, seat: Group 6 }
+"North Port City Commissioner, District Seat 4": { position: POSITION-COMMISSIONER, seat: Seat 4 }
+"North Port City Commissioner, District Seat 5": { position: POSITION-COMMISSIONER, seat: Seat 5 }
+"NORTH RIVER FIRE DIST": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: North River Fire Dist }
+"North Springs Improvement District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: North Springs Improvement District }
+"North Sumter Co Utility Dependent District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: North Sumter Co Utility Dependent District }
+"Northern PBC Improvement District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Northern PBC Improvement District }
+"Oak Hill Commission Seat 1": { position: POSITION-COMMISSIONER, seat: Seat 1 }
+"Oak Hill Commission Seat 3": { position: POSITION-COMMISSIONER, seat: Seat 3 }
+"Oakland Park, Commissioner": POSITION-COMMISSIONER
+"Oakridge Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Oakridge CDD }
+"Ocean, Highway & Port Authority Member, District 3": { position: POSITION-PORT_COMMISSIONER, body: "Ocean, Highway & Port Authority" }
+"Ocean, Highway & Port Authority Member, District 4": { position: POSITION-PORT_COMMISSIONER, body: "Ocean, Highway & Port Authority" }
+"Ocean, Highway & Port Authority Member, District 5": { position: POSITION-PORT_COMMISSIONER, body: "Ocean, Highway & Port Authority" }
+"Old Palm CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Old Palm CDD }
+"Opa-locka - Commissioners": POSITION-COMMISSIONER
+"Opa-locka - Mayor": POSITION-MAYOR
+"Orange City At-Large": { position: POSITION-COUNCIL_MEMBER, seat: At Large }
+"Orange City Council District 3": { position: POSITION-COUNCIL_MEMBER, seat: District 3 }
+"Orange City Council District 4": { position: POSITION-COUNCIL_MEMBER, seat: District 4 }
+"Orange City Council District 5": { position: POSITION-COUNCIL_MEMBER, seat: District 5 }
+"Orange Soil and Water Conservation District 1": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Orange Soil and Water Conservation District 3": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Orange Soil and Water Conservation District 5": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Orchid Grove Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Orchid Grove CDD }
+"Ormond Beach Commission Zone 2": { position: POSITION-COMMISSIONER, seat: Zone 2 }
+"Ormond Beach Commission Zone 4": { position: POSITION-COMMISSIONER, seat: Zone 4 }
+"Pace Fire Rescue District": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Pace Fire Rescue District }
+"Palm Aire Special Recreation District Members": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Palm Aire Special Recreation District }
+"Palm Beach Soil & Water Conservation": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Palm Coast City Council Member District 2": { position: POSITION-COUNCIL_MEMBER, seat: District 2 }
+"Palm Coast City Council Member District 4": { position: POSITION-COUNCIL_MEMBER, seat: District 4 }
+"Palm Harbor Spec. Fire Cont. & Res. Dist.": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Palm Harbor Spec. Fire Cont. & Res. Dist. }
+"PALMA SOLA TRACE CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Palma Sola Trace CDD }
+"Palmetto Bay - Councilmember - Seat 1": { position: POSITION-COUNCIL_MEMBER, seat: Seat 1 }
+"Palmetto Bay - Councilmember - Seat 3": { position: POSITION-COUNCIL_MEMBER, seat: Seat 3 }
+"Palmetto Bay - Mayor": POSITION-MAYOR
+"Panama City Beach Council Ward 1": { position: POSITION-COUNCIL_MEMBER, seat: Ward 1 }
+"Panama City Beach Council Ward 3": { position: POSITION-COUNCIL_MEMBER, seat: Ward 3 }
+"Parker Road Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Parker Road CDD }
+"PARKLANDS LEE CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Parklands Lee CDD }
+"PARKLANDS WEST CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Parklands West CDD }
+"PARRISH FIRE DIST": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Parrish Fire Dist }
+"PASEO CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Paseo CDD }
+"Pelican Marsh CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Pelican Marsh CDD }
+"Pierson Council Seat 1": { position: POSITION-COUNCIL_MEMBER, seat: Seat 1 }
+"Pierson Council Seat 2": { position: POSITION-COUNCIL_MEMBER, seat: Seat 2 }
+"Pierson Council Seat 3": { position: POSITION-COUNCIL_MEMBER, seat: Seat 3 }
+"Pine Isle CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Pine Isle CDD }
+"Pine Ridge Plantation CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Pine Ridge Plantation CDD }
+"Pine Tree Water Control District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Pine Tree Water Control District }
+"Pinecrest - Councilmember - Seat 3": { position: POSITION-COUNCIL_MEMBER, seat: Seat 3 }
+"Pinecrest - Councilmember - Seat 4": { position: POSITION-COUNCIL_MEMBER, seat: Seat 4 }
+"Pinellas Suncoast Fire & Res. Dist.": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Pinellas Suncoast Fire & Res. Dist. }
+"Piney Z CDD Supervisor": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Piney Z CDD }
+"Plantation Acres Improvement District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Plantation Acres Improvement District }
+"Plantation, Councilmember, Group 4": { position: POSITION-COUNCIL_MEMBER, seat: Group 4 }
+"Plantation, Mayor": POSITION-MAYOR
+"Poinciana Community Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Poinciana CDD }
+"Poinciana West Community Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Poinciana West CDD }
+"Poitras East CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Poitras East CDD }
+"Pompano Beach, Commissioner, District 1": { position: POSITION-COMMISSIONER, seat: District 1 }
+"Pompano Beach, Commissioner, District 2": { position: POSITION-COMMISSIONER, seat: District 2 }
+"Pompano Beach, Commissioner, District 3": { position: POSITION-COMMISSIONER, seat: District 3 }
+"Pompano Beach, Commissioner, District 4": { position: POSITION-COMMISSIONER, seat: District 4 }
+"Ponce Inlet Council Seat 2": { position: POSITION-COUNCIL_MEMBER, seat: Seat 2 }
+"Ponce Inlet Council Seat 4": { position: POSITION-COUNCIL_MEMBER, seat: Seat 4 }
+"Ponte Vedra MSD": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Ponte Vedra MSD }
+"Port LaBelle Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Port LaBelle CDD }
+"Port Malabar Holiday Park Recreation District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Port Malabar Holiday Park Recreation District }
+"Port of Palm Beach": { position: POSITION-PORT_COMMISSIONER, body: Port of Palm Beach }
+"Port of the Islands CID": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Port of the Islands CID }
+"Port Orange Council District 1": { position: POSITION-COUNCIL_MEMBER, seat: District 1 }
+"Port Orange Council District 2": { position: POSITION-COUNCIL_MEMBER, seat: District 2 }
+"Port Waterway and Beach": { position: POSITION-PORT_COMMISSIONER, body: Port Waterway and Beach }
+"Portofino Shores CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Portofino Shores CDD }
+"Quarry CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Quarry CDD }
+"Randal Park CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Randal Park CDD }
+"Remington Comm. Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Remington CDD }
+"Reserve CDD 1": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Reserve CDD 1 }
+"Reunion East Comm. Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Reunion East CDD }
+"Reunion West Comm. Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Reunion West CDD }
+"Ridgewood Trails CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Ridgewood Trails CDD }
+"River Glen Community Dev. Dst.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: River Glen CDD }
+"RIVER HALL CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: River Hall CDD }
+"River Place on the St. Lucie CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: River Place on the St. Lucie CDD }
+"RIVER RIDGE CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: River Ridge CDD }
+"Rivers Edge CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Rivers Edge CDD }
+"Rivers Edge II CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Rivers Edge II CDD }
+"Rivers Edge III CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Rivers Edge III CDD }
+"Riverwood CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Riverwood CDD }
+"Rivington Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Rivington CDD }
+"Rolling Hills CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Rolling Hills CDD }
+"Sabal Palm Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Sabal Palm CDD }
+"Saddle Creek Preserve of Polk County CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Saddle Creek Preserve of Polk County CDD }
+"SAN CARLOS PARK FIRE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: San Carlos Park Fire }
+"SANIBEL FIRE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Sanibel Fire }
+"SANIBEL PUBLIC LIBRARY": { position: POSITION-LIBRARY_TRUSTEE, body: Sanibel Public Library }
+"Santa Rosa Island Authority": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Santa Rosa Island Authority }
+"Sarasota City Commissioner, At Large": { position: POSITION-COMMISSIONER, seat: At Large }
+"Sarasota National CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Sarasota National CDD }
+"School Board": POSITION-SCHOOL_BOARD_MEMBER
+"Sebastian Inlet Tax District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Sebastian Inlet Tax District }
+"Shingle Creek Comm. Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Shingle Creek CDD }
+"Silver Palms West CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Silver Palms West CDD }
+"SILVERLEAF CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Silverleaf CDD }
+"Six Mile Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Six Mile Creek CDD }
+"Soil & Water Conservation Dist. 3": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Soil & Water Conservation Dist. 5": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"SOIL & WATER CONSERVATION DISTRICT": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Soil & Water Conservation District": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Soil & Water Conservation District - District 1": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Soil & Water Conservation District Member": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Soil & Water District 1": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Soil and Water": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Soil and Water Conservation": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Soil and Water Conservation District": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Soil and Water Conservation District 1": { position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR, seat: District 1 }
+"Soil and Water Conservation, Dist. 1": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Soil and Water Conservation, Dist. 5": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Soil and Water District 1": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Soil and Water District 3": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Soil and Water District 5": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Solterra Resort Community Development Dist": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Solterra Resort CDD }
+"Solterra Resort Community Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Solterra Resort CDD }
+"South Broward Drainage District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: South Broward Drainage District }
+"South Dade Venture CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: South Dade Venture CDD }
+"South Kendall CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: South Kendall CDD }
+"South Miami - Commissioner - Group I": { position: POSITION-COMMISSIONER, seat: Group 1 }
+"South Miami - Commissioner - Group IV": { position: POSITION-COMMISSIONER, seat: Group 4 }
+"South Miami - Mayor": POSITION-MAYOR
+"SOUTH TRAIL FIRE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: South Trail Fire }
+"South Village CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: South Village CDD }
+"South Walton Fire Dist": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: South Walton Fire Dist }
+"South Walton Mosquito": { position: POSITION-MOSQUITO_CONTROL_COMMISSIONER, body: South Walton Mosquito }
+"Southaven CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Southaven CDD }
+"SOUTHERN MANATEE FIRE DIST": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Southern Manatee Fire Dist }
+"Spicewood CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Spicewood CDD }
+"Spring Lake Improvement Dist": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Spring Lake Improvement Dist }
+"St Cloud City Council Member Seat 4": { position: POSITION-COUNCIL_MEMBER, seat: Seat 4 }
+"St Cloud City Council Member Seat 5": { position: POSITION-COUNCIL_MEMBER, seat: Seat 5 }
+"St. Johns Forest CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: St. Johns Forest CDD }
+"St. Lucie Soil and Water District 1": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"St. Lucie Soil and Water District 3": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"St. Lucie Soil and Water District 5": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"St. Lucie West Services District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: St. Lucie West Services District }
+"Stevens Plantation Comm. Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Stevens Plantation CDD }
+"Stillwater CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Stillwater CDD }
+"Stonegate CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Stonegate CDD }
+"Stoneybrook at Venice CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Stoneybrook at Venice CDD }
+"STONEYBROOK CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Stoneybrook CDD }
+"STONEYBROOK NORTH CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Stoneybrook North CDD }
+"Stoneybrook South at ChampionsGate CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Stoneybrook South at ChampionsGate CDD }
+"Stoneybrook South Comm. Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Stoneybrook South CDD }
+"Stoneybrook West CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Stoneybrook West CDD }
+"Storey Creek Comm. Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Storey Creek CDD }
+"Storey Park CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Storey Park CDD }
+"SUMMERWOODS CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Summerwoods CDD }
+"Sunny Isles Beach - Mayor": POSITION-MAYOR
+"Sunny Isles Beach - Residential Area Commissioner - Seat 2": { position: POSITION-COMMISSIONER, seat: Seat 2 }
+"Sunny Isles Beach - Residential Area Commissioner - Seat 4": { position: POSITION-COMMISSIONER, seat: Seat 4 }
+"Sunrise, Commissioner, Seat C": { position: POSITION-COMMISSIONER, seat: Seat C }
+"Sunrise, Commissioner, Seat D": { position: POSITION-COMMISSIONER, seat: Seat D }
+"Sunshine Water Control District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Sunshine Water Control District }
+"Supervisor of Elections": POSITION-SUPERVISOR_OF_ELECTIONS
+"Supervisor, Arbor Greene CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Arbor Greene CDD }
+"Supervisor, Avelar Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Avelar Creek CDD }
+"Supervisor, Bahia Lakes CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Bahia Lakes CDD }
+"Supervisor, Ballentrae Hillsborough CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Ballentrae Hillsborough CDD }
+"Supervisor, Belmond Reserve CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Belmond Reserve CDD }
+"Supervisor, Belmont CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Belmont CDD }
+"Supervisor, Bullfrog Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Bullfrog Creek CDD }
+"Supervisor, Cheval West CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Cheval West CDD }
+"Supervisor, Cordoba Ranch CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Cordoba Ranch CDD }
+"Supervisor, Cory Lakes CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Cory Lakes CDD }
+"Supervisor, Covington Park CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Covington Park CDD }
+"Supervisor, Creek Preserve CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Creek Preserve CDD }
+"Supervisor, Cypress Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Cypress Creek CDD }
+"Supervisor, Cypress Mills CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Cypress Mills CDD }
+"Supervisor, DG Farms CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: DG Farms CDD }
+"Supervisor, Diamond Hill CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Diamond Hill CDD }
+"Supervisor, Easton Park CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Easton Park CDD }
+"Supervisor, Encore CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Encore CDD }
+"Supervisor, Fishhawk CDD IV": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Fishhawk CDD IV }
+"Supervisor, Fishhawk Ranch CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Fishhawk Ranch CDD }
+"Supervisor, Forest Brooke CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Forest Brooke CDD }
+"Supervisor, Grand Hampton CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Grand Hampton CDD }
+"Supervisor, Harbor Bay CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Harbor Bay CDD }
+"Supervisor, Harbour Isles CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Harbour Isles CDD }
+"Supervisor, Hawks Point CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Hawks Point CDD }
+"Supervisor, Hawkstone CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Hawkstone CDD }
+"Supervisor, Heritage Harbor CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Heritage Harbor CDD }
+"Supervisor, Heritage Isles CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Heritage Isles CDD }
+"Supervisor, Hidden Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Hidden Creek CDD }
+"Supervisor, Highlands CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Highlands CDD }
+"Supervisor, K-Bar Ranch CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: K-Bar Ranch CDD }
+"Supervisor, K-Bar Ranch II CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: K-Bar Ranch II CDD }
+"Supervisor, La Collina CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: La Collina CDD }
+"Supervisor, Lake St. Charles CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lake St. Charles CDD }
+"Supervisor, Live Oak I CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Live Oak I CDD }
+"Supervisor, Lynwood CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Lynwood CDD }
+"Supervisor, Magnolia Park CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Magnolia Park CDD }
+"Supervisor, Mirabella CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Mirabella CDD }
+"Supervisor, New Port - Tampa Bay CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: New Port - Tampa Bay CDD }
+"Supervisor, North Park Isle CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: North Park Isle CDD }
+"Supervisor, Oaks at Shady Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Oaks at Shady Creek CDD }
+"Supervisor, Panther Trace CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Panther Trace CDD }
+"Supervisor, Panther Trace II CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Panther Trace II CDD }
+"Supervisor, Panther Trails CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Panther Trails CDD }
+"Supervisor, Park Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Park Creek CDD }
+"Supervisor, Park Place CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Park Place CDD }
+"Supervisor, Parkway Center CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Parkway Center CDD }
+"Supervisor, Reserve at Pradera CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Reserve at Pradera CDD }
+"Supervisor, Rhodine Road North CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Rhodine Road North CDD }
+"Supervisor, River Bend CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: River Bend CDD }
+"Supervisor, Rivercrest CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Rivercrest CDD }
+"Supervisor, Shell Point CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Shell Point CDD }
+"Supervisor, South Bay CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: South Bay CDD }
+"Supervisor, South Fork CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: South Fork CDD }
+"Supervisor, South Fork East CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: South Fork East CDD }
+"Supervisor, South Fork III CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: South Fork III CDD }
+"Supervisor, Southshore Bay CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Southshore Bay CDD }
+"Supervisor, Spring Lake CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Spring Lake CDD }
+"Supervisor, Stonebrier CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Stonebrier CDD }
+"Supervisor, StoneLake Ranch CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: StoneLake Ranch CDD }
+"Supervisor, Tampa Palms CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Tampa Palms CDD }
+"Supervisor, Tampa Palms OST CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Tampa Palms OST CDD }
+"Supervisor, The Hammocks CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: The Hammocks CDD }
+"Supervisor, Timber Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Timber Creek CDD }
+"Supervisor, Touchstone CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Touchstone CDD }
+"Supervisor, Triple Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Triple Creek CDD }
+"Supervisor, Ventana CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Ventana CDD }
+"Supervisor, Villages of Bloomingdale CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Villages of Bloomingdale CDD }
+"Supervisor, Waterchase CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Waterchase CDD }
+"Supervisor, Waterleaf CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Waterleaf CDD }
+"Supervisor, Waterset Central CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Waterset Central CDD }
+"Supervisor, Waterset North CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Waterset North CDD }
+"Supervisor, Westchase CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Westchase CDD }
+"Supervisor, Wynnmere East CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Wynnmere East CDD }
+"Supervisor, Wynnmere West CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Wynnmere West CDD }
+"Suwannee Water & Sewer District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Suwannee Water & Sewer District }
+"Sweetwater Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Sweetwater Creek CDD }
+"Talis Park CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Talis Park CDD }
+"Tallahassee City Commission - Seat 3": { position: POSITION-COMMISSIONER, seat: Seat 3 }
+"Tallahassee City Commission - Seat 4/Mayor": { position: POSITION-MAYOR, seat: Seat 4 }
+"Tallahassee City Commission - Seat 5": { position: POSITION-COMMISSIONER, seat: Seat 5 }
+"Tamarac, Commissioner, District 2": { position: POSITION-COMMISSIONER, seat: District 2 }
+"Tamarac, Commissioner, District 4": { position: POSITION-COMMISSIONER, seat: District 4 }
+"TARA CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Tara CDD }
+"Tarpon Cove SD": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Tarpon Cove SD }
+"Tax Collector": POSITION-TAX_COLLECTOR
+"Tern Bay CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Tern Bay CDD }
+"Tesoro CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Tesoro CDD }
+"The Crossings at Fleming Island CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: The Crossings at Fleming Island CDD }
+"The Woodlands CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: The Woodlands CDD }
+"Thousand Oaks CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Thousand Oaks CDD }
+"TICE FIRE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Tice Fire }
+"TIMBER CREEK SOUTHWEST CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Timber Creek Southwest CDD }
+"Tisons Landing CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Tisons Landing CDD }
+"Tohoqua Comm. Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Tohoqua CDD }
+"Tolomato Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Tolomato CDD }
+"Toscana Isles CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Toscana Isles CDD }
+"Town Council - Seat 1 Pomona Park": { position: POSITION-COUNCIL_MEMBER, seat: Seat 1 }
+"Town Council - Seat 2 Pomona Park": { position: POSITION-COUNCIL_MEMBER, seat: Seat 2 }
+"Town Council - Seat 3 Pomona Park": { position: POSITION-COUNCIL_MEMBER, seat: Seat 3 }
+"Town of Callahan Council Member": POSITION-COUNCIL_MEMBER
+"Town of Callahan Mayor": POSITION-MAYOR
+"Town of Callahan Treasurer": POSITION-TREASURER
+"Town of Grant-Valkaria Mayor": POSITION-MAYOR
+"Town of Grant-Valkaria Town Council (4 Seats Available)": POSITION-COUNCIL_MEMBER
+"Town of Hilliard Council Member": POSITION-COUNCIL_MEMBER
+"Town of Hilliard Mayor": POSITION-MAYOR
+"Town of Indialantic Mayor": POSITION-MAYOR
+"Town of Indialantic Town Council, Seat 2": { position: POSITION-COUNCIL_MEMBER, seat: Seat 2 }
+"Town of Indialantic Town Council, Seat 4": { position: POSITION-COUNCIL_MEMBER, seat: Seat 4 }
+"Town of Malabar, District 1 Council Member": { position: POSITION-COUNCIL_MEMBER, seat: District 1 }
+"Town of Malabar, District 2 Council Member": { position: POSITION-COUNCIL_MEMBER, seat: District 2 }
+"Town of Malabar, District 3 Council Member": { position: POSITION-COUNCIL_MEMBER, seat: District 3 }
+"Town of Melbourne Beach Mayor": POSITION-MAYOR
+"Town of Melbourne Village Mayor/Commissioner, Seat 4": { position: POSITION-MAYOR, seat: Seat 4 }
+"Town of Melbourne Village Town Commissioners (4 Seats Available)": POSITION-COMMISSIONER
+"Town of Palm Shores Town Council, Seat 2": { position: POSITION-COUNCIL_MEMBER, seat: Seat 2 }
+"Town of Palm Shores Town Council, Seat 4": { position: POSITION-COUNCIL_MEMBER, seat: Seat 4 }
+"Town of Pomona Park Mayor": POSITION-MAYOR
+"Towne Park Community Development Dist.": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Towne Park CDD }
+"Tradition CDD 3": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Tradition CDD 3 }
+"Tradition CDD 4": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Tradition CDD 4 }
+"Tradition CDD 5": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Tradition CDD 5 }
+"Tradition CDD 6": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Tradition CDD 6 }
+"Trails CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Trails CDD }
+"Tree Island Estates CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Tree Island Estates CDD }
+"TREVESTA CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Trevesta CDD }
+"Trout Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Trout Creek CDD }
+"Trustee, Brandon Hills Special Dependent District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Brandon Hills Special Dependent District }
+"Trustee, Carrollwood Recreation District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: Carrollwood Recreation District }
+"Turnbull Creek CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Turnbull Creek CDD }
+"Turtle Run community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Turtle Run CDD }
+"Turtle Run Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Turtle Run CDD }
+"Twin Creeks North CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Twin Creeks North CDD }
+"Two Creeks CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Two Creeks CDD }
+"Two Lakes CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Two Lakes CDD }
+"UNIVERSITY PLACE CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: University Place CDD }
+"UPPER CAPTIVA FIRE": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: Upper Captiva Fire }
+"Urban Orlando CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Urban Orlando CDD }
+"Valencia Acres CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Valencia Acres CDD }
+"VASARI CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Vasari CDD }
+"VCDD 1 - Board of Supervisor": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: VCDD 1 }
+"VCDD 10 - Board of Supervisor": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: VCDD 10 }
+"VCDD 12 - Board of Supervisor": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: VCDD 12 }
+"VCDD 13 - Board of Supervisor": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: VCDD 13 }
+"VCDD 2 - Board of Supervisor": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: VCDD 2 }
+"VCDD 3 - Board of Supervisor": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: VCDD 3 }
+"VCDD 5 - Board of Supervisor": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: VCDD 5 }
+"VCDD 6 - Board of Supervisor": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: VCDD 6 }
+"VCDD 7 - Board of Supervisor": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: VCDD 7 }
+"VCDD 8 - Board of Supervisor": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: VCDD 8 }
+"VCDD 9 - Board of Supervisor": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: VCDD 9 }
+"Venetian CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Venetian CDD }
+"Venetian Isles CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Venetian Isles CDD }
+"VERANDAH EAST CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Verandah East CDD }
+"VERANDAH WEST CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Verandah West CDD }
+"Verano CDD 1": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Verano CDD 1 }
+"Verano CDD 2": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Verano CDD 2 }
+"Verona Walk CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Verona Walk CDD }
+"Viera East Supervisor": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Viera East CDD }
+"Village CDD No. 11": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Village CDD No. 11 }
+"VILLAGE WALK CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Village Walk CDD }
+"VILLAGES CDD#4": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: "Villages CDD#4" }
+"Villages of Westport CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Villages of Westport CDD }
+"VillaSol Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: VillaSol CDD }
+"Virginia Gardens - Council": POSITION-COUNCIL_MEMBER
+"Virginia Gardens - Mayor": POSITION-MAYOR
+"Vista Lakes CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Vista Lakes CDD }
+"Vizcaya in Kendall CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Vizcaya in Kendall CDD }
+"VPS": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: VPS }
+"Wakulla Soil & Water": POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
+"Walnut Creek Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Walnut Creek CDD }
+"WATERFORD CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Waterford CDD }
+"WATERLEFE CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Waterlefe CDD }
+"WATERS EDGE CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Waters Edge CDD }
+"Webster, Seat 1": { position: POSITION-COUNCIL_MEMBER, seat: Seat 1 }
+"Webster, Seat 3": { position: POSITION-COUNCIL_MEMBER, seat: Seat 3 }
+"Wentworth Estates CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Wentworth Estates CDD }
+"WEST MANATEE FIRE DIST": { position: POSITION-FIRE_DISTRICT_COMMISSIONER, body: West Manatee Fire Dist }
+"West Park, Commissioner, Seat 1": { position: POSITION-COMMISSIONER, seat: Seat 1 }
+"West Park, Commissioner, Seat 2": { position: POSITION-COMMISSIONER, seat: Seat 2 }
+"West Port CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: West Port CDD }
+"West Villages Improvement District": { position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER, body: West Villages Improvement District }
+"West Volusia Hospital Authority - Group B": { position: POSITION-HOSPITAL_BOARD_MEMBER, body: West Volusia Hospital Authority }
+"Weston, Commissioner, Seat 3": { position: POSITION-COMMISSIONER, seat: Seat 3 }
+"Weston, Commissioner, Seat 4": { position: POSITION-COMMISSIONER, seat: Seat 4 }
+"Westridge Community Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Westridge CDD }
+"Westview north CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Westview north CDD }
+"WILDBLUE CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Wildblue CDD }
+"Wildwood City Commission, Group 1": { position: POSITION-COMMISSIONER, seat: Group 1 }
+"Wildwood City Commission, Group 2": { position: POSITION-COMMISSIONER, seat: Group 2 }
+"Wildwood City Commission, Group 4": { position: POSITION-COMMISSIONER, seat: Group 4 }
+"Wilford Preserve CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Wilford Preserve CDD }
+"WILLOW WALK CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Willow Walk CDD }
+"Wilton Manors, Commissioner": POSITION-COMMISSIONER
+"Wilton Manors, Mayor": POSITION-MAYOR
+"Winding Cypress CDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Winding Cypress CDD }
+"Windward at Lakewood Ranch": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Windward at Lakewood Ranch }
+"Windward Comm. Development District": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: Windward CDD }
+"WUDD": { position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR, body: WUDD }

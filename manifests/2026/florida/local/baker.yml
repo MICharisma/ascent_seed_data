@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BAKER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_BAKER-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-BAKER
   - type: Race
-    code: RACE-USA-FL-COUNTY_BAKER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BAKER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BAKER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BAKER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_BAKER-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-HORNE_RC_8B
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Ricky
       last_name: Horne
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BAKER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-HORNE_RC_8B
+    code: CANDIDACY-USA-FL-COUNTY_BAKER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-HORNE_RC_8B
     attributes:
       status: active
       participation: active
@@ -53,25 +53,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_BAKER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BAKER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-HORNE_RC_8B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BAKER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_BAKER-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-BAKER
   - type: Race
-    code: RACE-USA-FL-COUNTY_BAKER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BAKER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BAKER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BAKER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_BAKER-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-THOMPSON_CJ_4L
     attributes:
@@ -80,7 +80,7 @@ groups:
       first_name: CJ
       last_name: Thompson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BAKER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-THOMPSON_CJ_4L
+    code: CANDIDACY-USA-FL-COUNTY_BAKER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-THOMPSON_CJ_4L
     attributes:
       status: active
       participation: active
@@ -89,25 +89,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_BAKER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BAKER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-THOMPSON_CJ_4L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BAKER
   - type: Race
-    code: RACE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BAKER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-BAKER_JC_2Z
     attributes:
@@ -116,30 +116,30 @@ groups:
       first_name: Jack
       last_name: Baker Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BAKER-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-BAKER_JC_2Z
+    code: CANDIDACY-USA-FL-COUNTY_BAKER-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-BAKER_JC_2Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-BAKER_JC_2Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BAKER
   - type: Race
-    code: RACE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BAKER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-LYONS_CL_4J
     attributes:
@@ -148,30 +148,30 @@ groups:
       first_name: Clayton
       last_name: Lyons Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BAKER-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-LYONS_CL_4J
+    code: CANDIDACY-USA-FL-COUNTY_BAKER-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-LYONS_CL_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-LYONS_CL_4J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BAKER
   - type: Race
-    code: RACE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BAKER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-CANADAY_MN_7H
     attributes:
@@ -180,10 +180,10 @@ groups:
       first_name: Mandi
       last_name: Canaday
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BAKER-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-CANADAY_MN_7H
+    code: CANDIDACY-USA-FL-COUNTY_BAKER-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-CANADAY_MN_7H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BAKER-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-CANADAY_MN_7H

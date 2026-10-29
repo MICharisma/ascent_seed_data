@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARLINGTON_RIDGE_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: ARLINGTON_RIDGE_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARLINGTON_RIDGE_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARLINGTON_RIDGE_CDD_SEAT_2
   - type: Person
     code: PERSON-SETARO_DM_3H
     attributes:
@@ -45,30 +45,30 @@ groups:
       middle_name: A.
       last_name: Setaro Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST-SEAT_2-2026_GENERAL-SETARO_DM_3H
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARLINGTON_RIDGE_CDD_SEAT_2-2026_GENERAL-SETARO_DM_3H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARLINGTON_RIDGE_CDD_SEAT_2-2026_GENERAL
       person: PERSON-SETARO_DM_3H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARLINGTON_RIDGE_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: ARLINGTON_RIDGE_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARLINGTON_RIDGE_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARLINGTON_RIDGE_CDD_SEAT_4
   - type: Person
     code: PERSON-NEWLIN_ST_5L
     attributes:
@@ -77,30 +77,30 @@ groups:
       first_name: Steve
       last_name: Newlin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST-SEAT_4-2026_GENERAL-NEWLIN_ST_5L
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARLINGTON_RIDGE_CDD_SEAT_4-2026_GENERAL-NEWLIN_ST_5L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARLINGTON_RIDGE_CDD_SEAT_4-2026_GENERAL
       person: PERSON-NEWLIN_ST_5L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARLINGTON_RIDGE_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: ARLINGTON_RIDGE_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARLINGTON_RIDGE_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARLINGTON_RIDGE_CDD_SEAT_5
   - type: Person
     code: PERSON-DAIGLE_GL_6L
     attributes:
@@ -109,30 +109,30 @@ groups:
       first_name: Glenn
       last_name: Daigle
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST-SEAT_5-2026_GENERAL-DAIGLE_GL_6L
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARLINGTON_RIDGE_CDD_SEAT_5-2026_GENERAL-DAIGLE_GL_6L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-ARLINGTON_RIDGE_COMM_DEVELOPMENT_DIST-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARLINGTON_RIDGE_CDD_SEAT_5-2026_GENERAL
       person: PERSON-DAIGLE_GL_6L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: AVALON_GROVES_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-AVALON_GROVES_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_3
   - type: Person
     code: PERSON-JONES_SM_4B
     attributes:
@@ -142,12 +142,12 @@ groups:
       middle_name: Harrison
       last_name: Jones III
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_3-2026_GENERAL-JONES_SM_4B
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_3-2026_GENERAL-JONES_SM_4B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_3-2026_GENERAL
       person: PERSON-JONES_SM_4B
   - type: Person
     code: PERSON-WAGNER_DV_4C
@@ -158,30 +158,30 @@ groups:
       middle_name: Allen
       last_name: Wagner
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_3-2026_GENERAL-WAGNER_DV_4C
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_3-2026_GENERAL-WAGNER_DV_4C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_3-2026_GENERAL
       person: PERSON-WAGNER_DV_4C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: AVALON_GROVES_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-AVALON_GROVES_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_4
   - type: Person
     code: PERSON-DONAHUE_JH_9R
     attributes:
@@ -191,12 +191,12 @@ groups:
       middle_name: Christopher
       last_name: Donahue
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_4-2026_GENERAL-DONAHUE_JH_9R
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_4-2026_GENERAL-DONAHUE_JH_9R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_4-2026_GENERAL
       person: PERSON-DONAHUE_JH_9R
   - type: Person
     code: PERSON-WOLSKI_RB_2N
@@ -206,30 +206,30 @@ groups:
       first_name: Robert
       last_name: Wolski
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_4-2026_GENERAL-WOLSKI_RB_2N
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_4-2026_GENERAL-WOLSKI_RB_2N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_4-2026_GENERAL
       person: PERSON-WOLSKI_RB_2N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: AVALON_GROVES_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-AVALON_GROVES_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_5
   - type: Person
     code: PERSON-MASTRANGELI_EG_6F
     attributes:
@@ -238,12 +238,12 @@ groups:
       first_name: Eugene
       last_name: Mastrangeli
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_5-2026_GENERAL-MASTRANGELI_EG_6F
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_5-2026_GENERAL-MASTRANGELI_EG_6F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_5-2026_GENERAL
       person: PERSON-MASTRANGELI_EG_6F
   - type: Person
     code: PERSON-RAYMOND_BN_3E
@@ -253,30 +253,30 @@ groups:
       first_name: Bonnie
       last_name: Raymond
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_5-2026_GENERAL-RAYMOND_BN_3E
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_5-2026_GENERAL-RAYMOND_BN_3E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-AVALON_GROVES_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVALON_GROVES_CDD_SEAT_5-2026_GENERAL
       person: PERSON-RAYMOND_BN_3E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-BELLA_COLLINA_COMMUNITY_DEVELOPMENT_DIST-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BELLA_COLLINA_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: BELLA_COLLINA_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-BELLA_COLLINA_COMMUNITY_DEVELOPMENT_DIST
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-BELLA_COLLINA_COMMUNITY_DEVELOPMENT_DIST-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BELLA_COLLINA_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-BELLA_COLLINA_COMMUNITY_DEVELOPMENT_DIST-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BELLA_COLLINA_CDD_SEAT_4
   - type: Person
     code: PERSON-STEWART_RN_7K
     attributes:
@@ -286,30 +286,30 @@ groups:
       middle_name: R
       last_name: Stewart
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-BELLA_COLLINA_COMMUNITY_DEVELOPMENT_DIST-SEAT_4-2026_GENERAL-STEWART_RN_7K
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BELLA_COLLINA_CDD_SEAT_4-2026_GENERAL-STEWART_RN_7K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-BELLA_COLLINA_COMMUNITY_DEVELOPMENT_DIST-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BELLA_COLLINA_CDD_SEAT_4-2026_GENERAL
       person: PERSON-STEWART_RN_7K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-ELIAS_TORRES_JS_8E
     attributes:
@@ -318,7 +318,7 @@ groups:
       first_name: Jose
       last_name: Elias-Torres
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-ELIAS_TORRES_JS_8E
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-ELIAS_TORRES_JS_8E
     attributes:
       status: active
       participation: active
@@ -326,7 +326,7 @@ groups:
       - label: Write-In
         kind: write_in
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-ELIAS_TORRES_JS_8E
   - type: Person
     code: PERSON-PARKS_SN_2J
@@ -337,7 +337,7 @@ groups:
       middle_name: M.
       last_name: Parks
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-PARKS_SN_2J
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-PARKS_SN_2J
     attributes:
       status: active
       participation: active
@@ -346,7 +346,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-PARKS_SN_2J
   - type: Person
     code: PERSON-POWERS_LG_2A
@@ -356,7 +356,7 @@ groups:
       first_name: Leighton
       last_name: Powers
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-POWERS_LG_2A
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-POWERS_LG_2A
     attributes:
       status: active
       participation: active
@@ -364,25 +364,25 @@ groups:
       - label: Write-In
         kind: write_in
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-POWERS_LG_2A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-CAMPIONE_LS_9W
     attributes:
@@ -391,7 +391,7 @@ groups:
       first_name: Leslie
       last_name: Campione
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-CAMPIONE_LS_9W
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-CAMPIONE_LS_9W
     attributes:
       status: active
       participation: active
@@ -400,7 +400,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-CAMPIONE_LS_9W
   - type: Person
     code: PERSON-EMERY_EG_4P
@@ -410,7 +410,7 @@ groups:
       first_name: Egor
       last_name: Emery
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-EMERY_EG_4P
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-EMERY_EG_4P
     attributes:
       status: active
       participation: active
@@ -419,7 +419,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-EMERY_EG_4P
   - type: Person
     code: PERSON-POWERS_TM_8P
@@ -430,7 +430,7 @@ groups:
       middle_name: Rhea
       last_name: Powers Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-POWERS_TM_8P
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-POWERS_TM_8P
     attributes:
       status: active
       participation: active
@@ -438,25 +438,25 @@ groups:
       - label: Write-In
         kind: write_in
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-POWERS_TM_8P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-CASCADES_AT_GROVELAND_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CASCADES_AT_GROVELAND_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: CASCADES_AT_GROVELAND_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-CASCADES_AT_GROVELAND_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-CASCADES_AT_GROVELAND_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CASCADES_AT_GROVELAND_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-CASCADES_AT_GROVELAND_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CASCADES_AT_GROVELAND_CDD_SEAT_4
   - type: Person
     code: PERSON-HOUPPERMANS_WL_5E
     attributes:
@@ -465,30 +465,30 @@ groups:
       first_name: William
       last_name: Houppermans
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-CASCADES_AT_GROVELAND_CDD-SEAT_4-2026_GENERAL-HOUPPERMANS_WL_5E
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CASCADES_AT_GROVELAND_CDD_SEAT_4-2026_GENERAL-HOUPPERMANS_WL_5E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-CASCADES_AT_GROVELAND_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CASCADES_AT_GROVELAND_CDD_SEAT_4-2026_GENERAL
       person: PERSON-HOUPPERMANS_WL_5E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-CASCADES_AT_GROVELAND_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CASCADES_AT_GROVELAND_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: CASCADES_AT_GROVELAND_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-CASCADES_AT_GROVELAND_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-CASCADES_AT_GROVELAND_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CASCADES_AT_GROVELAND_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-CASCADES_AT_GROVELAND_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CASCADES_AT_GROVELAND_CDD_SEAT_5
   - type: Person
     code: PERSON-KROBATH_JH_6U
     attributes:
@@ -498,30 +498,30 @@ groups:
       middle_name: E.
       last_name: Krobath
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-CASCADES_AT_GROVELAND_CDD-SEAT_5-2026_GENERAL-KROBATH_JH_6U
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CASCADES_AT_GROVELAND_CDD_SEAT_5-2026_GENERAL-KROBATH_JH_6U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-CASCADES_AT_GROVELAND_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CASCADES_AT_GROVELAND_CDD_SEAT_5-2026_GENERAL
       person: PERSON-KROBATH_JH_6U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-COUNTRY_GREENS_COMMUNITY_DEVELOPMENT_DIST-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COUNTRY_GREENS_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: COUNTRY_GREENS_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-COUNTRY_GREENS_COMMUNITY_DEVELOPMENT_DIST
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-COUNTRY_GREENS_COMMUNITY_DEVELOPMENT_DIST-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COUNTRY_GREENS_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-COUNTRY_GREENS_COMMUNITY_DEVELOPMENT_DIST-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COUNTRY_GREENS_CDD_SEAT_1
   - type: Person
     code: PERSON-CATASUS_CT_6A
     attributes:
@@ -530,30 +530,30 @@ groups:
       first_name: Catherine
       last_name: Catasus
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-COUNTRY_GREENS_COMMUNITY_DEVELOPMENT_DIST-SEAT_1-2026_GENERAL-CATASUS_CT_6A
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COUNTRY_GREENS_CDD_SEAT_1-2026_GENERAL-CATASUS_CT_6A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-COUNTRY_GREENS_COMMUNITY_DEVELOPMENT_DIST-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COUNTRY_GREENS_CDD_SEAT_1-2026_GENERAL
       person: PERSON-CATASUS_CT_6A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-COUNTRY_GREENS_COMMUNITY_DEVELOPMENT_DIST-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COUNTRY_GREENS_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: COUNTRY_GREENS_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-COUNTRY_GREENS_COMMUNITY_DEVELOPMENT_DIST
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-COUNTRY_GREENS_COMMUNITY_DEVELOPMENT_DIST-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COUNTRY_GREENS_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-COUNTRY_GREENS_COMMUNITY_DEVELOPMENT_DIST-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COUNTRY_GREENS_CDD_SEAT_2
   - type: Person
     code: PERSON-JONES_CR_9A
     attributes:
@@ -563,12 +563,12 @@ groups:
       middle_name: Y.
       last_name: Jones
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-COUNTRY_GREENS_COMMUNITY_DEVELOPMENT_DIST-SEAT_2-2026_GENERAL-JONES_CR_9A
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COUNTRY_GREENS_CDD_SEAT_2-2026_GENERAL-JONES_CR_9A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-COUNTRY_GREENS_COMMUNITY_DEVELOPMENT_DIST-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COUNTRY_GREENS_CDD_SEAT_2-2026_GENERAL
       person: PERSON-JONES_CR_9A
 - records:
   - type: Office
@@ -605,21 +605,21 @@ groups:
       person: PERSON-PEPPERMAN_CR_9W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_ISLAND_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: DEER_ISLAND_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_ISLAND_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_ISLAND_CDD_SEAT_2
   - type: Person
     code: PERSON-ENGLAND_MR_4C
     attributes:
@@ -629,30 +629,30 @@ groups:
       middle_name: Jeanne
       last_name: England
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST-SEAT_2-2026_GENERAL-ENGLAND_MR_4C
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_ISLAND_CDD_SEAT_2-2026_GENERAL-ENGLAND_MR_4C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_ISLAND_CDD_SEAT_2-2026_GENERAL
       person: PERSON-ENGLAND_MR_4C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_ISLAND_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: DEER_ISLAND_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_ISLAND_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_ISLAND_CDD_SEAT_3
   - type: Person
     code: PERSON-POLLARD_BR_2K
     attributes:
@@ -661,30 +661,30 @@ groups:
       first_name: Brian
       last_name: Pollard
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST-SEAT_3-2026_GENERAL-POLLARD_BR_2K
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_ISLAND_CDD_SEAT_3-2026_GENERAL-POLLARD_BR_2K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_ISLAND_CDD_SEAT_3-2026_GENERAL
       person: PERSON-POLLARD_BR_2K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_ISLAND_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: DEER_ISLAND_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_ISLAND_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_ISLAND_CDD_SEAT_5
   - type: Person
     code: PERSON-HUTTON_WD_3R
     attributes:
@@ -693,30 +693,30 @@ groups:
       first_name: Woody
       last_name: Hutton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST-SEAT_5-2026_GENERAL-HUTTON_WD_3R
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_ISLAND_CDD_SEAT_5-2026_GENERAL-HUTTON_WD_3R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-DEER_ISLAND_COMMUNITY_DEVELOPMENT_DIST-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_ISLAND_CDD_SEAT_5-2026_GENERAL
       person: PERSON-HUTTON_WD_3R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-NORTH_LAKE_CO_HOSPITAL_BOARD_NE-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_LAKE-HOSPITAL_BOARD_MEMBER-NORTH_LAKE_CO_HOSPITAL_BOARD_NE_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: NORTH_LAKE_CO_HOSPITAL_BOARD_NE_SEAT_2
       is_active: true
     references:
-      position: POSITION-NORTH_LAKE_CO_HOSPITAL_BOARD_NE
+      position: POSITION-HOSPITAL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-NORTH_LAKE_CO_HOSPITAL_BOARD_NE-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-HOSPITAL_BOARD_MEMBER-NORTH_LAKE_CO_HOSPITAL_BOARD_NE_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-NORTH_LAKE_CO_HOSPITAL_BOARD_NE-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_LAKE-HOSPITAL_BOARD_MEMBER-NORTH_LAKE_CO_HOSPITAL_BOARD_NE_SEAT_2
   - type: Person
     code: PERSON-WARD_RG_5D
     attributes:
@@ -726,7 +726,7 @@ groups:
       middle_name: A.
       last_name: Ward
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-NORTH_LAKE_CO_HOSPITAL_BOARD_NE-SEAT_2-2026_GENERAL-WARD_RG_5D
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-HOSPITAL_BOARD_MEMBER-NORTH_LAKE_CO_HOSPITAL_BOARD_NE_SEAT_2-2026_GENERAL-WARD_RG_5D
     attributes:
       status: active
       participation: active
@@ -735,25 +735,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-NORTH_LAKE_CO_HOSPITAL_BOARD_NE-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-HOSPITAL_BOARD_MEMBER-NORTH_LAKE_CO_HOSPITAL_BOARD_NE_SEAT_2-2026_GENERAL
       person: PERSON-WARD_RG_5D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-NORTH_LAKE_CO_HOSPITAL_BOARD_NW-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_LAKE-HOSPITAL_BOARD_MEMBER-NORTH_LAKE_CO_HOSPITAL_BOARD_NW_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: NORTH_LAKE_CO_HOSPITAL_BOARD_NW_SEAT_4
       is_active: true
     references:
-      position: POSITION-NORTH_LAKE_CO_HOSPITAL_BOARD_NW
+      position: POSITION-HOSPITAL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-NORTH_LAKE_CO_HOSPITAL_BOARD_NW-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-HOSPITAL_BOARD_MEMBER-NORTH_LAKE_CO_HOSPITAL_BOARD_NW_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-NORTH_LAKE_CO_HOSPITAL_BOARD_NW-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_LAKE-HOSPITAL_BOARD_MEMBER-NORTH_LAKE_CO_HOSPITAL_BOARD_NW_SEAT_4
   - type: Person
     code: PERSON-HARPER_RC_4D
     attributes:
@@ -762,7 +762,7 @@ groups:
       first_name: Ricky
       last_name: Harper
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-NORTH_LAKE_CO_HOSPITAL_BOARD_NW-SEAT_4-2026_GENERAL-HARPER_RC_4D
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-HOSPITAL_BOARD_MEMBER-NORTH_LAKE_CO_HOSPITAL_BOARD_NW_SEAT_4-2026_GENERAL-HARPER_RC_4D
     attributes:
       status: active
       participation: active
@@ -771,25 +771,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-NORTH_LAKE_CO_HOSPITAL_BOARD_NW-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-HOSPITAL_BOARD_MEMBER-NORTH_LAKE_CO_HOSPITAL_BOARD_NW_SEAT_4-2026_GENERAL
       person: PERSON-HARPER_RC_4D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-NORTH_LAKE_CO_HOSPITAL_BOARD_NW-SEAT_6
+    code: OFFICE-USA-FL-COUNTY_LAKE-HOSPITAL_BOARD_MEMBER-NORTH_LAKE_CO_HOSPITAL_BOARD_NW_SEAT_6
     attributes:
-      seat_code: SEAT_6
+      seat_code: NORTH_LAKE_CO_HOSPITAL_BOARD_NW_SEAT_6
       is_active: true
     references:
-      position: POSITION-NORTH_LAKE_CO_HOSPITAL_BOARD_NW
+      position: POSITION-HOSPITAL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-NORTH_LAKE_CO_HOSPITAL_BOARD_NW-SEAT_6-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-HOSPITAL_BOARD_MEMBER-NORTH_LAKE_CO_HOSPITAL_BOARD_NW_SEAT_6-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-NORTH_LAKE_CO_HOSPITAL_BOARD_NW-SEAT_6
+      office: OFFICE-USA-FL-COUNTY_LAKE-HOSPITAL_BOARD_MEMBER-NORTH_LAKE_CO_HOSPITAL_BOARD_NW_SEAT_6
   - type: Person
     code: PERSON-HURLEY_TR_4N
     attributes:
@@ -798,7 +798,7 @@ groups:
       first_name: Trueman
       last_name: Hurley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-NORTH_LAKE_CO_HOSPITAL_BOARD_NW-SEAT_6-2026_GENERAL-HURLEY_TR_4N
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-HOSPITAL_BOARD_MEMBER-NORTH_LAKE_CO_HOSPITAL_BOARD_NW_SEAT_6-2026_GENERAL-HURLEY_TR_4N
     attributes:
       status: active
       participation: active
@@ -807,25 +807,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-NORTH_LAKE_CO_HOSPITAL_BOARD_NW-SEAT_6-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-HOSPITAL_BOARD_MEMBER-NORTH_LAKE_CO_HOSPITAL_BOARD_NW_SEAT_6-2026_GENERAL
       person: PERSON-HURLEY_TR_4N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed; Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-KELLEY_PT_5Y
     attributes:
@@ -834,12 +834,12 @@ groups:
       first_name: Pat
       last_name: Kelley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-KELLEY_PT_5Y
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-KELLEY_PT_5Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-KELLEY_PT_5Y
   - type: Person
     code: PERSON-SMITH_JM_8D
@@ -849,7 +849,7 @@ groups:
       first_name: James
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-SMITH_JM_8D
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-SMITH_JM_8D
     attributes:
       status: active
       participation: active
@@ -857,25 +857,25 @@ groups:
       - label: Write-In
         kind: write_in
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-SMITH_JM_8D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-DODD_MR_6T
     attributes:
@@ -885,30 +885,30 @@ groups:
       middle_name: A.
       last_name: Dodd
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-DODD_MR_6T
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-DODD_MR_6T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-DODD_MR_6T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-LUKE_ST_3E
     attributes:
@@ -917,30 +917,30 @@ groups:
       first_name: Stephanie
       last_name: Luke
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-LUKE_ST_3E
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-LUKE_ST_3E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-LUKE_ST_3E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAKE-VILLAGE_CDD_NO_11-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGE_CDD_NO_11_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: VILLAGE_CDD_NO_11_SEAT_4
       is_active: true
     references:
-      position: POSITION-VILLAGE_CDD_NO_11
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LAKE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAKE-VILLAGE_CDD_NO_11-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGE_CDD_NO_11_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAKE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAKE-VILLAGE_CDD_NO_11-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGE_CDD_NO_11_SEAT_4
   - type: Person
     code: PERSON-BROZICK_DN_7G
     attributes:
@@ -949,10 +949,10 @@ groups:
       first_name: Donald
       last_name: Brozick
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAKE-VILLAGE_CDD_NO_11-SEAT_4-2026_GENERAL-BROZICK_DN_7G
+    code: CANDIDACY-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGE_CDD_NO_11_SEAT_4-2026_GENERAL-BROZICK_DN_7G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAKE-VILLAGE_CDD_NO_11-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAKE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGE_CDD_NO_11_SEAT_4-2026_GENERAL
       person: PERSON-BROZICK_DN_7G

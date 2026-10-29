@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BUCKINGHAM-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-DISTRICT_7
+    code: OFFICE-USA-VA-COUNTY_BUCKINGHAM-COUNTY_SUPERVISOR-DISTRICT_7
     attributes:
       seat_code: DISTRICT_7
       is_active: true
     references:
-      position: POSITION-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL
+      position: POSITION-COUNTY_SUPERVISOR
       jurisdiction: COUNTY-USA-VA-BUCKINGHAM
   - type: Race
-    code: RACE-USA-VA-COUNTY_BUCKINGHAM-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-DISTRICT_7-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_BUCKINGHAM-COUNTY_SUPERVISOR-DISTRICT_7-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_BUCKINGHAM-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_BUCKINGHAM-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-DISTRICT_7
+      office: OFFICE-USA-VA-COUNTY_BUCKINGHAM-COUNTY_SUPERVISOR-DISTRICT_7
   - type: Person
     code: PERSON-ALLEN_CR_4T
     attributes:
@@ -45,10 +45,10 @@ groups:
       middle_name: S.
       last_name: Allen
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BUCKINGHAM-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-DISTRICT_7-2026_SPECIAL-ALLEN_CR_4T
+    code: CANDIDACY-USA-VA-COUNTY_BUCKINGHAM-COUNTY_SUPERVISOR-DISTRICT_7-2026_SPECIAL-ALLEN_CR_4T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BUCKINGHAM-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-DISTRICT_7-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_BUCKINGHAM-COUNTY_SUPERVISOR-DISTRICT_7-2026_SPECIAL
       person: PERSON-ALLEN_CR_4T

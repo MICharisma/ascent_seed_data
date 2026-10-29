@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CHESTERFIELD-MEMBER_BOARD_OF_SUPERVISORS-DALE_DISTRICT
+    code: OFFICE-USA-VA-COUNTY_CHESTERFIELD-COUNTY_SUPERVISOR-DALE_DISTRICT
     attributes:
       seat_code: DALE_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_BOARD_OF_SUPERVISORS
+      position: POSITION-COUNTY_SUPERVISOR
       jurisdiction: COUNTY-USA-VA-CHESTERFIELD
   - type: Race
-    code: RACE-USA-VA-COUNTY_CHESTERFIELD-MEMBER_BOARD_OF_SUPERVISORS-DALE_DISTRICT-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_CHESTERFIELD-COUNTY_SUPERVISOR-DALE_DISTRICT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_CHESTERFIELD-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_CHESTERFIELD-MEMBER_BOARD_OF_SUPERVISORS-DALE_DISTRICT
+      office: OFFICE-USA-VA-COUNTY_CHESTERFIELD-COUNTY_SUPERVISOR-DALE_DISTRICT
   - type: Person
     code: PERSON-HYLTON_LQ_4Y
     attributes:
@@ -45,30 +45,30 @@ groups:
       middle_name: M.
       last_name: Hylton
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CHESTERFIELD-MEMBER_BOARD_OF_SUPERVISORS-DALE_DISTRICT-2026_SPECIAL-HYLTON_LQ_4Y
+    code: CANDIDACY-USA-VA-COUNTY_CHESTERFIELD-COUNTY_SUPERVISOR-DALE_DISTRICT-2026_SPECIAL-HYLTON_LQ_4Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CHESTERFIELD-MEMBER_BOARD_OF_SUPERVISORS-DALE_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_CHESTERFIELD-COUNTY_SUPERVISOR-DALE_DISTRICT-2026_SPECIAL
       person: PERSON-HYLTON_LQ_4Y
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CHESTERFIELD-MEMBER_SCHOOL_BOARD-CLOVER_HILL_DISTRICT
+    code: OFFICE-USA-VA-COUNTY_CHESTERFIELD-SCHOOL_BOARD_MEMBER-CLOVER_HILL_DISTRICT
     attributes:
       seat_code: CLOVER_HILL_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-CHESTERFIELD
   - type: Race
-    code: RACE-USA-VA-COUNTY_CHESTERFIELD-MEMBER_SCHOOL_BOARD-CLOVER_HILL_DISTRICT-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_CHESTERFIELD-SCHOOL_BOARD_MEMBER-CLOVER_HILL_DISTRICT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_CHESTERFIELD-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_CHESTERFIELD-MEMBER_SCHOOL_BOARD-CLOVER_HILL_DISTRICT
+      office: OFFICE-USA-VA-COUNTY_CHESTERFIELD-SCHOOL_BOARD_MEMBER-CLOVER_HILL_DISTRICT
   - type: Person
     code: PERSON-BRADY_CH_3K
     attributes:
@@ -78,12 +78,12 @@ groups:
       middle_name: Romers
       last_name: Brady
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CHESTERFIELD-MEMBER_SCHOOL_BOARD-CLOVER_HILL_DISTRICT-2026_SPECIAL-BRADY_CH_3K
+    code: CANDIDACY-USA-VA-COUNTY_CHESTERFIELD-SCHOOL_BOARD_MEMBER-CLOVER_HILL_DISTRICT-2026_SPECIAL-BRADY_CH_3K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CHESTERFIELD-MEMBER_SCHOOL_BOARD-CLOVER_HILL_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_CHESTERFIELD-SCHOOL_BOARD_MEMBER-CLOVER_HILL_DISTRICT-2026_SPECIAL
       person: PERSON-BRADY_CH_3K
   - type: Person
     code: PERSON-SCHULTZ_EL_3B
@@ -94,10 +94,10 @@ groups:
       middle_name: L.
       last_name: Schultz
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CHESTERFIELD-MEMBER_SCHOOL_BOARD-CLOVER_HILL_DISTRICT-2026_SPECIAL-SCHULTZ_EL_3B
+    code: CANDIDACY-USA-VA-COUNTY_CHESTERFIELD-SCHOOL_BOARD_MEMBER-CLOVER_HILL_DISTRICT-2026_SPECIAL-SCHULTZ_EL_3B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CHESTERFIELD-MEMBER_SCHOOL_BOARD-CLOVER_HILL_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_CHESTERFIELD-SCHOOL_BOARD_MEMBER-CLOVER_HILL_DISTRICT-2026_SPECIAL
       person: PERSON-SCHULTZ_EL_3B

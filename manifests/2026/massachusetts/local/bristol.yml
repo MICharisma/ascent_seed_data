@@ -21,21 +21,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE-BRISTOL_COUNTY
+    code: OFFICE-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE
     attributes:
-      seat_code: BRISTOL_COUNTY
       is_active: true
     references:
       position: POSITION-REGISTER_OF_PROBATE
       jurisdiction: COUNTY-USA-MA-BRISTOL
   - type: Race
-    code: RACE-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE-BRISTOL_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_BRISTOL-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE-BRISTOL_COUNTY
+      office: OFFICE-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE
   - type: Person
     code: PERSON-HOYE_TH_9T
     attributes:
@@ -45,7 +44,7 @@ groups:
       middle_name: Cleary
       last_name: Hoye, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE-BRISTOL_COUNTY-2026_GENERAL-HOYE_TH_9T
+    code: CANDIDACY-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE-2026_GENERAL-HOYE_TH_9T
     attributes:
       status: active
       participation: active
@@ -54,7 +53,7 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE-BRISTOL_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE-2026_GENERAL
       person: PERSON-HOYE_TH_9T
   - type: Person
     code: PERSON-LAYDEN_ML_7U
@@ -65,7 +64,7 @@ groups:
       middle_name: Patenaude
       last_name: Layden
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE-BRISTOL_COUNTY-2026_GENERAL-LAYDEN_ML_7U
+    code: CANDIDACY-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE-2026_GENERAL-LAYDEN_ML_7U
     attributes:
       status: active
       participation: active
@@ -73,25 +72,24 @@ groups:
       - label: Independent
         kind: designation
     references:
-      race: RACE-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE-BRISTOL_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE-2026_GENERAL
       person: PERSON-LAYDEN_ML_7U
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_BRISTOL-COUNTY_TREASURER-BRISTOL_COUNTY
+    code: OFFICE-USA-MA-COUNTY_BRISTOL-TREASURER
     attributes:
-      seat_code: BRISTOL_COUNTY
       is_active: true
     references:
-      position: POSITION-COUNTY_TREASURER
+      position: POSITION-TREASURER
       jurisdiction: COUNTY-USA-MA-BRISTOL
   - type: Race
-    code: RACE-USA-MA-COUNTY_BRISTOL-COUNTY_TREASURER-BRISTOL_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_BRISTOL-TREASURER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_BRISTOL-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_BRISTOL-COUNTY_TREASURER-BRISTOL_COUNTY
+      office: OFFICE-USA-MA-COUNTY_BRISTOL-TREASURER
   - type: Person
     code: PERSON-SAUNDERS_CH_2E
     attributes:
@@ -101,7 +99,7 @@ groups:
       middle_name: T.
       last_name: Saunders
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_BRISTOL-COUNTY_TREASURER-BRISTOL_COUNTY-2026_GENERAL-SAUNDERS_CH_2E
+    code: CANDIDACY-USA-MA-COUNTY_BRISTOL-TREASURER-2026_GENERAL-SAUNDERS_CH_2E
     attributes:
       status: active
       participation: active
@@ -110,25 +108,24 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_BRISTOL-COUNTY_TREASURER-BRISTOL_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_BRISTOL-TREASURER-2026_GENERAL
       person: PERSON-SAUNDERS_CH_2E
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_BRISTOL-COUNTY_COMMISSIONER-BRISTOL_COUNTY
+    code: OFFICE-USA-MA-COUNTY_BRISTOL-COUNTY_COMMISSIONER
     attributes:
-      seat_code: BRISTOL_COUNTY
       is_active: true
     references:
       position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-MA-BRISTOL
   - type: Race
-    code: RACE-USA-MA-COUNTY_BRISTOL-COUNTY_COMMISSIONER-BRISTOL_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_BRISTOL-COUNTY_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_BRISTOL-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_BRISTOL-COUNTY_COMMISSIONER-BRISTOL_COUNTY
+      office: OFFICE-USA-MA-COUNTY_BRISTOL-COUNTY_COMMISSIONER
   - type: Person
     code: PERSON-SAUNDERS_JH_7Q
     attributes:
@@ -138,7 +135,7 @@ groups:
       middle_name: Thomas
       last_name: Saunders
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_BRISTOL-COUNTY_COMMISSIONER-BRISTOL_COUNTY-2026_GENERAL-SAUNDERS_JH_7Q
+    code: CANDIDACY-USA-MA-COUNTY_BRISTOL-COUNTY_COMMISSIONER-2026_GENERAL-SAUNDERS_JH_7Q
     attributes:
       status: active
       participation: active
@@ -147,5 +144,5 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_BRISTOL-COUNTY_COMMISSIONER-BRISTOL_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_BRISTOL-COUNTY_COMMISSIONER-2026_GENERAL
       person: PERSON-SAUNDERS_JH_7Q

@@ -7,6 +7,30 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
+  code: ELECTION-USA-VA-CLINCHPORT-2026_GENERAL
+  attributes:
+    name: Clinchport General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-CLINCHPORT
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-DUNGANNON-2026_GENERAL
+  attributes:
+    name: Dungannon General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-DUNGANNON
+    year: YEAR-2026
+- type: Election
   code: ELECTION-USA-VA-COUNTY_SCOTT-2026_GENERAL
   attributes:
     name: Scott County General Election 2026
@@ -18,24 +42,35 @@ records:
   references:
     jurisdiction: COUNTY-USA-VA-SCOTT
     year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-GATE_CITY-2026_GENERAL
+  attributes:
+    name: Gate City General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-GATE_CITY
+    year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SCOTT-MAYOR_CLINCHPORT-TOWN_OF_CLINCHPORT
+    code: OFFICE-USA-VA-CLINCHPORT-MAYOR
     attributes:
-      seat_code: TOWN_OF_CLINCHPORT
       is_active: true
     references:
-      position: POSITION-MAYOR_CLINCHPORT
-      jurisdiction: COUNTY-USA-VA-SCOTT
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-CLINCHPORT
   - type: Race
-    code: RACE-USA-VA-COUNTY_SCOTT-MAYOR_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL
+    code: RACE-USA-VA-CLINCHPORT-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SCOTT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SCOTT-MAYOR_CLINCHPORT-TOWN_OF_CLINCHPORT
+      election: ELECTION-USA-VA-CLINCHPORT-2026_GENERAL
+      office: OFFICE-USA-VA-CLINCHPORT-MAYOR
   - type: Person
     code: PERSON-MEADE_TM_7M
     attributes:
@@ -45,30 +80,29 @@ groups:
       middle_name: R.
       last_name: Meade
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MAYOR_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL-MEADE_TM_7M
+    code: CANDIDACY-USA-VA-CLINCHPORT-MAYOR-2026_GENERAL-MEADE_TM_7M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MAYOR_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL
+      race: RACE-USA-VA-CLINCHPORT-MAYOR-2026_GENERAL
       person: PERSON-MEADE_TM_7M
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SCOTT-MAYOR_DUNGANNON-TOWN_OF_DUNGANNON
+    code: OFFICE-USA-VA-DUNGANNON-MAYOR
     attributes:
-      seat_code: TOWN_OF_DUNGANNON
       is_active: true
     references:
-      position: POSITION-MAYOR_DUNGANNON
-      jurisdiction: COUNTY-USA-VA-SCOTT
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-DUNGANNON
   - type: Race
-    code: RACE-USA-VA-COUNTY_SCOTT-MAYOR_DUNGANNON-TOWN_OF_DUNGANNON-2026_GENERAL
+    code: RACE-USA-VA-DUNGANNON-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SCOTT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SCOTT-MAYOR_DUNGANNON-TOWN_OF_DUNGANNON
+      election: ELECTION-USA-VA-DUNGANNON-2026_GENERAL
+      office: OFFICE-USA-VA-DUNGANNON-MAYOR
   - type: Person
     code: PERSON-GILLENWATER_ML_9S
     attributes:
@@ -78,30 +112,30 @@ groups:
       middle_name: Hensley
       last_name: Gillenwater
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MAYOR_DUNGANNON-TOWN_OF_DUNGANNON-2026_GENERAL-GILLENWATER_ML_9S
+    code: CANDIDACY-USA-VA-DUNGANNON-MAYOR-2026_GENERAL-GILLENWATER_ML_9S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MAYOR_DUNGANNON-TOWN_OF_DUNGANNON-2026_GENERAL
+      race: RACE-USA-VA-DUNGANNON-MAYOR-2026_GENERAL
       person: PERSON-GILLENWATER_ML_9S
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SCOTT-MAYOR_NICKELSVILLE-NICKELSVILLE
+    code: OFFICE-USA-VA-COUNTY_SCOTT-MAYOR-NICKELSVILLE
     attributes:
       seat_code: NICKELSVILLE
       is_active: true
     references:
-      position: POSITION-MAYOR_NICKELSVILLE
+      position: POSITION-MAYOR
       jurisdiction: COUNTY-USA-VA-SCOTT
   - type: Race
-    code: RACE-USA-VA-COUNTY_SCOTT-MAYOR_NICKELSVILLE-NICKELSVILLE-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_SCOTT-MAYOR-NICKELSVILLE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_SCOTT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SCOTT-MAYOR_NICKELSVILLE-NICKELSVILLE
+      office: OFFICE-USA-VA-COUNTY_SCOTT-MAYOR-NICKELSVILLE
   - type: Person
     code: PERSON-BRYANT_RB_2D
     attributes:
@@ -111,30 +145,30 @@ groups:
       middle_name: Leigh
       last_name: Bryant
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MAYOR_NICKELSVILLE-NICKELSVILLE-2026_GENERAL-BRYANT_RB_2D
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MAYOR-NICKELSVILLE-2026_GENERAL-BRYANT_RB_2D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MAYOR_NICKELSVILLE-NICKELSVILLE-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-MAYOR-NICKELSVILLE-2026_GENERAL
       person: PERSON-BRYANT_RB_2D
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SCOTT-MAYOR_WEBER_CITY-WEBER_CITY
+    code: OFFICE-USA-VA-COUNTY_SCOTT-MAYOR-WEBER_CITY
     attributes:
       seat_code: WEBER_CITY
       is_active: true
     references:
-      position: POSITION-MAYOR_WEBER_CITY
+      position: POSITION-MAYOR
       jurisdiction: COUNTY-USA-VA-SCOTT
   - type: Race
-    code: RACE-USA-VA-COUNTY_SCOTT-MAYOR_WEBER_CITY-WEBER_CITY-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_SCOTT-MAYOR-WEBER_CITY-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_SCOTT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SCOTT-MAYOR_WEBER_CITY-WEBER_CITY
+      office: OFFICE-USA-VA-COUNTY_SCOTT-MAYOR-WEBER_CITY
   - type: Person
     code: PERSON-ADDINGTON_JS_3H
     attributes:
@@ -144,30 +178,29 @@ groups:
       middle_name: M.
       last_name: Addington
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MAYOR_WEBER_CITY-WEBER_CITY-2026_GENERAL-ADDINGTON_JS_3H
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MAYOR-WEBER_CITY-2026_GENERAL-ADDINGTON_JS_3H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MAYOR_WEBER_CITY-WEBER_CITY-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-MAYOR-WEBER_CITY-2026_GENERAL
       person: PERSON-ADDINGTON_JS_3H
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_CLINCHPORT-TOWN_OF_CLINCHPORT
+    code: OFFICE-USA-VA-CLINCHPORT-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_CLINCHPORT
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_CLINCHPORT
-      jurisdiction: COUNTY-USA-VA-SCOTT
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-CLINCHPORT
   - type: Race
-    code: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL
+    code: RACE-USA-VA-CLINCHPORT-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SCOTT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_CLINCHPORT-TOWN_OF_CLINCHPORT
+      election: ELECTION-USA-VA-CLINCHPORT-2026_GENERAL
+      office: OFFICE-USA-VA-CLINCHPORT-COUNCIL_MEMBER
   - type: Person
     code: PERSON-MEADE_AN_6A
     attributes:
@@ -176,12 +209,12 @@ groups:
       first_name: Andy
       last_name: Meade
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL-MEADE_AN_6A
+    code: CANDIDACY-USA-VA-CLINCHPORT-COUNCIL_MEMBER-2026_GENERAL-MEADE_AN_6A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL
+      race: RACE-USA-VA-CLINCHPORT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MEADE_AN_6A
   - type: Person
     code: PERSON-POTTS_AS_8N
@@ -192,12 +225,12 @@ groups:
       middle_name: T.
       last_name: Potts
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL-POTTS_AS_8N
+    code: CANDIDACY-USA-VA-CLINCHPORT-COUNCIL_MEMBER-2026_GENERAL-POTTS_AS_8N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL
+      race: RACE-USA-VA-CLINCHPORT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-POTTS_AS_8N
   - type: Person
     code: PERSON-PAGE_CR_4A
@@ -208,12 +241,12 @@ groups:
       middle_name: E.
       last_name: Page
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL-PAGE_CR_4A
+    code: CANDIDACY-USA-VA-CLINCHPORT-COUNCIL_MEMBER-2026_GENERAL-PAGE_CR_4A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL
+      race: RACE-USA-VA-CLINCHPORT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PAGE_CR_4A
   - type: Person
     code: PERSON-PHILLIPS_JN_3W
@@ -224,12 +257,12 @@ groups:
       middle_name: David
       last_name: Phillips
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL-PHILLIPS_JN_3W
+    code: CANDIDACY-USA-VA-CLINCHPORT-COUNCIL_MEMBER-2026_GENERAL-PHILLIPS_JN_3W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL
+      race: RACE-USA-VA-CLINCHPORT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PHILLIPS_JN_3W
   - type: Person
     code: PERSON-CARTER_MR_9F
@@ -240,12 +273,12 @@ groups:
       middle_name: Jane
       last_name: Carter
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL-CARTER_MR_9F
+    code: CANDIDACY-USA-VA-CLINCHPORT-COUNCIL_MEMBER-2026_GENERAL-CARTER_MR_9F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL
+      race: RACE-USA-VA-CLINCHPORT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CARTER_MR_9F
   - type: Person
     code: PERSON-MERRILL_RC_8G
@@ -256,30 +289,30 @@ groups:
       middle_name: P.
       last_name: Merrill
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL-MERRILL_RC_8G
+    code: CANDIDACY-USA-VA-CLINCHPORT-COUNCIL_MEMBER-2026_GENERAL-MERRILL_RC_8G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL
+      race: RACE-USA-VA-CLINCHPORT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MERRILL_RC_8G
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUFFIELD-DUFFIELD
+    code: OFFICE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-DUFFIELD
     attributes:
       seat_code: DUFFIELD
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_DUFFIELD
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-SCOTT
   - type: Race
-    code: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUFFIELD-DUFFIELD-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-DUFFIELD-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_SCOTT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUFFIELD-DUFFIELD
+      office: OFFICE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-DUFFIELD
   - type: Person
     code: PERSON-SHUPE_AM_7P
     attributes:
@@ -289,12 +322,12 @@ groups:
       middle_name: M.
       last_name: Shupe
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUFFIELD-DUFFIELD-2026_GENERAL-SHUPE_AM_7P
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-DUFFIELD-2026_GENERAL-SHUPE_AM_7P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUFFIELD-DUFFIELD-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-DUFFIELD-2026_GENERAL
       person: PERSON-SHUPE_AM_7P
   - type: Person
     code: PERSON-BOWEN_BL_9N
@@ -305,30 +338,29 @@ groups:
       middle_name: Travis
       last_name: Bowen
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUFFIELD-DUFFIELD-2026_GENERAL-BOWEN_BL_9N
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-DUFFIELD-2026_GENERAL-BOWEN_BL_9N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUFFIELD-DUFFIELD-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-DUFFIELD-2026_GENERAL
       person: PERSON-BOWEN_BL_9N
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUNGANNON-TOWN_OF_DUNGANNON
+    code: OFFICE-USA-VA-DUNGANNON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_DUNGANNON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_DUNGANNON
-      jurisdiction: COUNTY-USA-VA-SCOTT
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-DUNGANNON
   - type: Race
-    code: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUNGANNON-TOWN_OF_DUNGANNON-2026_GENERAL
+    code: RACE-USA-VA-DUNGANNON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SCOTT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUNGANNON-TOWN_OF_DUNGANNON
+      election: ELECTION-USA-VA-DUNGANNON-2026_GENERAL
+      office: OFFICE-USA-VA-DUNGANNON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-DARNELL_BR_7N
     attributes:
@@ -338,12 +370,12 @@ groups:
       middle_name: LePaige
       last_name: Darnell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUNGANNON-TOWN_OF_DUNGANNON-2026_GENERAL-DARNELL_BR_7N
+    code: CANDIDACY-USA-VA-DUNGANNON-COUNCIL_MEMBER-2026_GENERAL-DARNELL_BR_7N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUNGANNON-TOWN_OF_DUNGANNON-2026_GENERAL
+      race: RACE-USA-VA-DUNGANNON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DARNELL_BR_7N
   - type: Person
     code: PERSON-LANE_KT_3U
@@ -354,12 +386,12 @@ groups:
       middle_name: S.
       last_name: Lane
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUNGANNON-TOWN_OF_DUNGANNON-2026_GENERAL-LANE_KT_3U
+    code: CANDIDACY-USA-VA-DUNGANNON-COUNCIL_MEMBER-2026_GENERAL-LANE_KT_3U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUNGANNON-TOWN_OF_DUNGANNON-2026_GENERAL
+      race: RACE-USA-VA-DUNGANNON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LANE_KT_3U
   - type: Person
     code: PERSON-HENSLEY_MR_3Q
@@ -370,12 +402,12 @@ groups:
       middle_name: '"Beth"'
       last_name: Hensley
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUNGANNON-TOWN_OF_DUNGANNON-2026_GENERAL-HENSLEY_MR_3Q
+    code: CANDIDACY-USA-VA-DUNGANNON-COUNCIL_MEMBER-2026_GENERAL-HENSLEY_MR_3Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUNGANNON-TOWN_OF_DUNGANNON-2026_GENERAL
+      race: RACE-USA-VA-DUNGANNON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HENSLEY_MR_3Q
   - type: Person
     code: PERSON-BEGLEY_NN_8H
@@ -386,12 +418,12 @@ groups:
       middle_name: Osborne
       last_name: Begley
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUNGANNON-TOWN_OF_DUNGANNON-2026_GENERAL-BEGLEY_NN_8H
+    code: CANDIDACY-USA-VA-DUNGANNON-COUNCIL_MEMBER-2026_GENERAL-BEGLEY_NN_8H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUNGANNON-TOWN_OF_DUNGANNON-2026_GENERAL
+      race: RACE-USA-VA-DUNGANNON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BEGLEY_NN_8H
   - type: Person
     code: PERSON-WARD_TR_3M
@@ -402,12 +434,12 @@ groups:
       middle_name: M.
       last_name: Ward
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUNGANNON-TOWN_OF_DUNGANNON-2026_GENERAL-WARD_TR_3M
+    code: CANDIDACY-USA-VA-DUNGANNON-COUNCIL_MEMBER-2026_GENERAL-WARD_TR_3M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUNGANNON-TOWN_OF_DUNGANNON-2026_GENERAL
+      race: RACE-USA-VA-DUNGANNON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WARD_TR_3M
   - type: Person
     code: PERSON-AUSMAN_TF_5Q
@@ -418,30 +450,29 @@ groups:
       middle_name: Lynn
       last_name: Ausman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUNGANNON-TOWN_OF_DUNGANNON-2026_GENERAL-AUSMAN_TF_5Q
+    code: CANDIDACY-USA-VA-DUNGANNON-COUNCIL_MEMBER-2026_GENERAL-AUSMAN_TF_5Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_DUNGANNON-TOWN_OF_DUNGANNON-2026_GENERAL
+      race: RACE-USA-VA-DUNGANNON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-AUSMAN_TF_5Q
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_GATE_CITY-TOWN_OF_GATE_CITY
+    code: OFFICE-USA-VA-GATE_CITY-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_GATE_CITY
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_GATE_CITY
-      jurisdiction: COUNTY-USA-VA-SCOTT
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-GATE_CITY
   - type: Race
-    code: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_GATE_CITY-TOWN_OF_GATE_CITY-2026_GENERAL
+    code: RACE-USA-VA-GATE_CITY-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SCOTT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_GATE_CITY-TOWN_OF_GATE_CITY
+      election: ELECTION-USA-VA-GATE_CITY-2026_GENERAL
+      office: OFFICE-USA-VA-GATE_CITY-COUNCIL_MEMBER
   - type: Person
     code: PERSON-HARMON_DX_9A
     attributes:
@@ -451,12 +482,12 @@ groups:
       middle_name: L.
       last_name: Harmon
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_GATE_CITY-TOWN_OF_GATE_CITY-2026_GENERAL-HARMON_DX_9A
+    code: CANDIDACY-USA-VA-GATE_CITY-COUNCIL_MEMBER-2026_GENERAL-HARMON_DX_9A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_GATE_CITY-TOWN_OF_GATE_CITY-2026_GENERAL
+      race: RACE-USA-VA-GATE_CITY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HARMON_DX_9A
   - type: Person
     code: PERSON-ELLIOTT_HW_7T
@@ -467,30 +498,30 @@ groups:
       middle_name: Pat
       last_name: Elliott
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_GATE_CITY-TOWN_OF_GATE_CITY-2026_GENERAL-ELLIOTT_HW_7T
+    code: CANDIDACY-USA-VA-GATE_CITY-COUNCIL_MEMBER-2026_GENERAL-ELLIOTT_HW_7T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_GATE_CITY-TOWN_OF_GATE_CITY-2026_GENERAL
+      race: RACE-USA-VA-GATE_CITY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ELLIOTT_HW_7T
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_NICKELSVILLE-NICKELSVILLE
+    code: OFFICE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-NICKELSVILLE
     attributes:
       seat_code: NICKELSVILLE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_NICKELSVILLE
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-SCOTT
   - type: Race
-    code: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_NICKELSVILLE-NICKELSVILLE-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-NICKELSVILLE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_SCOTT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_NICKELSVILLE-NICKELSVILLE
+      office: OFFICE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-NICKELSVILLE
   - type: Person
     code: PERSON-ISAACS_BR_4W
     attributes:
@@ -500,12 +531,12 @@ groups:
       middle_name: Kaye
       last_name: Isaacs
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_NICKELSVILLE-NICKELSVILLE-2026_GENERAL-ISAACS_BR_4W
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-NICKELSVILLE-2026_GENERAL-ISAACS_BR_4W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_NICKELSVILLE-NICKELSVILLE-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-NICKELSVILLE-2026_GENERAL
       person: PERSON-ISAACS_BR_4W
   - type: Person
     code: PERSON-DIXON_DN_5L
@@ -516,12 +547,12 @@ groups:
       middle_name: L.
       last_name: Dixon
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_NICKELSVILLE-NICKELSVILLE-2026_GENERAL-DIXON_DN_5L
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-NICKELSVILLE-2026_GENERAL-DIXON_DN_5L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_NICKELSVILLE-NICKELSVILLE-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-NICKELSVILLE-2026_GENERAL
       person: PERSON-DIXON_DN_5L
   - type: Person
     code: PERSON-DEVINE_RB_4G
@@ -532,12 +563,12 @@ groups:
       middle_name: J.
       last_name: Devine
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_NICKELSVILLE-NICKELSVILLE-2026_GENERAL-DEVINE_RB_4G
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-NICKELSVILLE-2026_GENERAL-DEVINE_RB_4G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_NICKELSVILLE-NICKELSVILLE-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-NICKELSVILLE-2026_GENERAL
       person: PERSON-DEVINE_RB_4G
   - type: Person
     code: PERSON-CASTLE_SH_3E
@@ -548,12 +579,12 @@ groups:
       middle_name: Craft
       last_name: Castle
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_NICKELSVILLE-NICKELSVILLE-2026_GENERAL-CASTLE_SH_3E
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-NICKELSVILLE-2026_GENERAL-CASTLE_SH_3E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_NICKELSVILLE-NICKELSVILLE-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-NICKELSVILLE-2026_GENERAL
       person: PERSON-CASTLE_SH_3E
   - type: Person
     code: PERSON-GLOVIER_ST_8Z
@@ -564,30 +595,30 @@ groups:
       middle_name: L.
       last_name: Glovier
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_NICKELSVILLE-NICKELSVILLE-2026_GENERAL-GLOVIER_ST_8Z
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-NICKELSVILLE-2026_GENERAL-GLOVIER_ST_8Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_NICKELSVILLE-NICKELSVILLE-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-NICKELSVILLE-2026_GENERAL
       person: PERSON-GLOVIER_ST_8Z
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY
+    code: OFFICE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY
     attributes:
       seat_code: WEBER_CITY
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_WEBER_CITY
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-SCOTT
   - type: Race
-    code: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_SCOTT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY
+      office: OFFICE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY
   - type: Person
     code: PERSON-HASS_AN_4Y
     attributes:
@@ -597,12 +628,12 @@ groups:
       middle_name: J.
       last_name: Hass
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL-HASS_AN_4Y
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL-HASS_AN_4Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL
       person: PERSON-HASS_AN_4Y
   - type: Person
     code: PERSON-DECKARD_EL_7E
@@ -613,12 +644,12 @@ groups:
       middle_name: Roberts
       last_name: Deckard
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL-DECKARD_EL_7E
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL-DECKARD_EL_7E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL
       person: PERSON-DECKARD_EL_7E
   - type: Person
     code: PERSON-SMITH_GR_4Q
@@ -629,12 +660,12 @@ groups:
       middle_name: W.
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL-SMITH_GR_4Q
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL-SMITH_GR_4Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL
       person: PERSON-SMITH_GR_4Q
   - type: Person
     code: PERSON-FLANARY_JF_8X
@@ -645,12 +676,12 @@ groups:
       middle_name: D.
       last_name: Flanary
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL-FLANARY_JF_8X
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL-FLANARY_JF_8X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL
       person: PERSON-FLANARY_JF_8X
   - type: Person
     code: PERSON-KERNEY_KL_5F
@@ -661,12 +692,12 @@ groups:
       middle_name: Baker
       last_name: Kerney
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL-KERNEY_KL_5F
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL-KERNEY_KL_5F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL
       person: PERSON-KERNEY_KL_5F
   - type: Person
     code: PERSON-KERNEY_MC_9R
@@ -677,12 +708,12 @@ groups:
       middle_name: A.
       last_name: Kerney
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL-KERNEY_MC_9R
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL-KERNEY_MC_9R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL
       person: PERSON-KERNEY_MC_9R
   - type: Person
     code: PERSON-SMITH_ST_2X
@@ -693,12 +724,12 @@ groups:
       middle_name: '"Pee Wee"'
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL-SMITH_ST_2X
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL-SMITH_ST_2X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL
       person: PERSON-SMITH_ST_2X
   - type: Person
     code: PERSON-TILSON_TR_5Q
@@ -709,30 +740,29 @@ groups:
       middle_name: A.
       last_name: Tilson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL-TILSON_TR_5Q
+    code: CANDIDACY-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL-TILSON_TR_5Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-MEMBER_TOWN_COUNCIL_WEBER_CITY-WEBER_CITY-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SCOTT-COUNCIL_MEMBER-WEBER_CITY-2026_GENERAL
       person: PERSON-TILSON_TR_5Q
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SCOTT-RECORDER_CLINCHPORT-TOWN_OF_CLINCHPORT
+    code: OFFICE-USA-VA-CLINCHPORT-RECORDER
     attributes:
-      seat_code: TOWN_OF_CLINCHPORT
       is_active: true
     references:
-      position: POSITION-RECORDER_CLINCHPORT
-      jurisdiction: COUNTY-USA-VA-SCOTT
+      position: POSITION-RECORDER
+      jurisdiction: MUNICIPALITY-USA-VA-CLINCHPORT
   - type: Race
-    code: RACE-USA-VA-COUNTY_SCOTT-RECORDER_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL
+    code: RACE-USA-VA-CLINCHPORT-RECORDER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SCOTT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SCOTT-RECORDER_CLINCHPORT-TOWN_OF_CLINCHPORT
+      election: ELECTION-USA-VA-CLINCHPORT-2026_GENERAL
+      office: OFFICE-USA-VA-CLINCHPORT-RECORDER
   - type: Person
     code: PERSON-PHILLIPS_AL_6J
     attributes:
@@ -742,10 +772,10 @@ groups:
       middle_name: Ann
       last_name: Phillips
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SCOTT-RECORDER_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL-PHILLIPS_AL_6J
+    code: CANDIDACY-USA-VA-CLINCHPORT-RECORDER-2026_GENERAL-PHILLIPS_AL_6J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SCOTT-RECORDER_CLINCHPORT-TOWN_OF_CLINCHPORT-2026_GENERAL
+      race: RACE-USA-VA-CLINCHPORT-RECORDER-2026_GENERAL
       person: PERSON-PHILLIPS_AL_6J

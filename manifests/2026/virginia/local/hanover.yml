@@ -21,21 +21,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_HANOVER-SHERIFF-HANOVER_COUNTY
+    code: OFFICE-USA-VA-COUNTY_HANOVER-SHERIFF
     attributes:
-      seat_code: HANOVER_COUNTY
       is_active: true
     references:
       position: POSITION-SHERIFF
       jurisdiction: COUNTY-USA-VA-HANOVER
   - type: Race
-    code: RACE-USA-VA-COUNTY_HANOVER-SHERIFF-HANOVER_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_HANOVER-SHERIFF-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_HANOVER-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_HANOVER-SHERIFF-HANOVER_COUNTY
+      office: OFFICE-USA-VA-COUNTY_HANOVER-SHERIFF
   - type: Person
     code: PERSON-SIX_GR_6P
     attributes:
@@ -45,12 +44,12 @@ groups:
       middle_name: W.
       last_name: Six
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HANOVER-SHERIFF-HANOVER_COUNTY-2026_SPECIAL-SIX_GR_6P
+    code: CANDIDACY-USA-VA-COUNTY_HANOVER-SHERIFF-2026_SPECIAL-SIX_GR_6P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HANOVER-SHERIFF-HANOVER_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_HANOVER-SHERIFF-2026_SPECIAL
       person: PERSON-SIX_GR_6P
   - type: Person
     code: PERSON-DANDRIDGE_RC_5J
@@ -61,10 +60,10 @@ groups:
       middle_name: R.
       last_name: Dandridge
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HANOVER-SHERIFF-HANOVER_COUNTY-2026_SPECIAL-DANDRIDGE_RC_5J
+    code: CANDIDACY-USA-VA-COUNTY_HANOVER-SHERIFF-2026_SPECIAL-DANDRIDGE_RC_5J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HANOVER-SHERIFF-HANOVER_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_HANOVER-SHERIFF-2026_SPECIAL
       person: PERSON-DANDRIDGE_RC_5J

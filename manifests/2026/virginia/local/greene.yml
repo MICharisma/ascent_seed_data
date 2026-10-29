@@ -7,16 +7,16 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_GREENE-2026_GENERAL
+  code: ELECTION-USA-VA-STANARDSVILLE-2026_GENERAL
   attributes:
-    name: Greene County General Election 2026
+    name: Stanardsville General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-GREENE
+    jurisdiction: MUNICIPALITY-USA-VA-STANARDSVILLE
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-VA-COUNTY_GREENE-2026_SPECIAL
@@ -33,21 +33,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_GREENE-MAYOR-TOWN_OF_STANARDSVILLE
+    code: OFFICE-USA-VA-STANARDSVILLE-MAYOR
     attributes:
-      seat_code: TOWN_OF_STANARDSVILLE
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-GREENE
+      jurisdiction: MUNICIPALITY-USA-VA-STANARDSVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_GREENE-MAYOR-TOWN_OF_STANARDSVILLE-2026_GENERAL
+    code: RACE-USA-VA-STANARDSVILLE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_GREENE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_GREENE-MAYOR-TOWN_OF_STANARDSVILLE
+      election: ELECTION-USA-VA-STANARDSVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-STANARDSVILLE-MAYOR
   - type: Person
     code: PERSON-PAYNE_MC_6N
     attributes:
@@ -57,30 +56,30 @@ groups:
       middle_name: A.
       last_name: Payne
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GREENE-MAYOR-TOWN_OF_STANARDSVILLE-2026_GENERAL-PAYNE_MC_6N
+    code: CANDIDACY-USA-VA-STANARDSVILLE-MAYOR-2026_GENERAL-PAYNE_MC_6N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GREENE-MAYOR-TOWN_OF_STANARDSVILLE-2026_GENERAL
+      race: RACE-USA-VA-STANARDSVILLE-MAYOR-2026_GENERAL
       person: PERSON-PAYNE_MC_6N
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_GREENE-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE-GREENE_COUNTY
+    code: OFFICE-USA-VA-COUNTY_GREENE-COUNTY_SUPERVISOR-AT_LARGE
     attributes:
-      seat_code: GREENE_COUNTY
+      seat_code: AT_LARGE
       is_active: true
     references:
-      position: POSITION-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE
+      position: POSITION-COUNTY_SUPERVISOR
       jurisdiction: COUNTY-USA-VA-GREENE
   - type: Race
-    code: RACE-USA-VA-COUNTY_GREENE-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE-GREENE_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_GREENE-COUNTY_SUPERVISOR-AT_LARGE-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_GREENE-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_GREENE-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE-GREENE_COUNTY
+      office: OFFICE-USA-VA-COUNTY_GREENE-COUNTY_SUPERVISOR-AT_LARGE
   - type: Person
     code: PERSON-SALLE_AL_3X
     attributes:
@@ -90,12 +89,12 @@ groups:
       middle_name: J.
       last_name: Salle
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GREENE-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE-GREENE_COUNTY-2026_SPECIAL-SALLE_AL_3X
+    code: CANDIDACY-USA-VA-COUNTY_GREENE-COUNTY_SUPERVISOR-AT_LARGE-2026_SPECIAL-SALLE_AL_3X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GREENE-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE-GREENE_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_GREENE-COUNTY_SUPERVISOR-AT_LARGE-2026_SPECIAL
       person: PERSON-SALLE_AL_3X
   - type: Person
     code: PERSON-ZIROS_JN_3B
@@ -106,12 +105,12 @@ groups:
       middle_name: A.
       last_name: Ziros
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GREENE-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE-GREENE_COUNTY-2026_SPECIAL-ZIROS_JN_3B
+    code: CANDIDACY-USA-VA-COUNTY_GREENE-COUNTY_SUPERVISOR-AT_LARGE-2026_SPECIAL-ZIROS_JN_3B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GREENE-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE-GREENE_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_GREENE-COUNTY_SUPERVISOR-AT_LARGE-2026_SPECIAL
       person: PERSON-ZIROS_JN_3B
   - type: Person
     code: PERSON-HUNTER_JH_2Y
@@ -122,30 +121,29 @@ groups:
       middle_name: M. "Jay"
       last_name: Hunter
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GREENE-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE-GREENE_COUNTY-2026_SPECIAL-HUNTER_JH_2Y
+    code: CANDIDACY-USA-VA-COUNTY_GREENE-COUNTY_SUPERVISOR-AT_LARGE-2026_SPECIAL-HUNTER_JH_2Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GREENE-MEMBER_BOARD_OF_SUPERVISORS_AT_LARGE-GREENE_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_GREENE-COUNTY_SUPERVISOR-AT_LARGE-2026_SPECIAL
       person: PERSON-HUNTER_JH_2Y
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_GREENE-MEMBER_TOWN_COUNCIL-TOWN_OF_STANARDSVILLE
+    code: OFFICE-USA-VA-STANARDSVILLE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_STANARDSVILLE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-GREENE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-STANARDSVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_GREENE-MEMBER_TOWN_COUNCIL-TOWN_OF_STANARDSVILLE-2026_GENERAL
+    code: RACE-USA-VA-STANARDSVILLE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_GREENE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_GREENE-MEMBER_TOWN_COUNCIL-TOWN_OF_STANARDSVILLE
+      election: ELECTION-USA-VA-STANARDSVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-STANARDSVILLE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-SWENSON_DR_2W
     attributes:
@@ -155,12 +153,12 @@ groups:
       middle_name: Rorrer
       last_name: Swenson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GREENE-MEMBER_TOWN_COUNCIL-TOWN_OF_STANARDSVILLE-2026_GENERAL-SWENSON_DR_2W
+    code: CANDIDACY-USA-VA-STANARDSVILLE-COUNCIL_MEMBER-2026_GENERAL-SWENSON_DR_2W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GREENE-MEMBER_TOWN_COUNCIL-TOWN_OF_STANARDSVILLE-2026_GENERAL
+      race: RACE-USA-VA-STANARDSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SWENSON_DR_2W
   - type: Person
     code: PERSON-KELLEY_KV_2A
@@ -171,12 +169,12 @@ groups:
       middle_name: A.
       last_name: Kelley
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GREENE-MEMBER_TOWN_COUNCIL-TOWN_OF_STANARDSVILLE-2026_GENERAL-KELLEY_KV_2A
+    code: CANDIDACY-USA-VA-STANARDSVILLE-COUNCIL_MEMBER-2026_GENERAL-KELLEY_KV_2A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GREENE-MEMBER_TOWN_COUNCIL-TOWN_OF_STANARDSVILLE-2026_GENERAL
+      race: RACE-USA-VA-STANARDSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-KELLEY_KV_2A
   - type: Person
     code: PERSON-KIME_MT_9W
@@ -187,12 +185,12 @@ groups:
       middle_name: A. "Matt"
       last_name: Kime
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GREENE-MEMBER_TOWN_COUNCIL-TOWN_OF_STANARDSVILLE-2026_GENERAL-KIME_MT_9W
+    code: CANDIDACY-USA-VA-STANARDSVILLE-COUNCIL_MEMBER-2026_GENERAL-KIME_MT_9W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GREENE-MEMBER_TOWN_COUNCIL-TOWN_OF_STANARDSVILLE-2026_GENERAL
+      race: RACE-USA-VA-STANARDSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-KIME_MT_9W
   - type: Person
     code: PERSON-EARLY_RC_3M
@@ -203,10 +201,10 @@ groups:
       middle_name: N.
       last_name: Early Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GREENE-MEMBER_TOWN_COUNCIL-TOWN_OF_STANARDSVILLE-2026_GENERAL-EARLY_RC_3M
+    code: CANDIDACY-USA-VA-STANARDSVILLE-COUNCIL_MEMBER-2026_GENERAL-EARLY_RC_3M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GREENE-MEMBER_TOWN_COUNCIL-TOWN_OF_STANARDSVILLE-2026_GENERAL
+      race: RACE-USA-VA-STANARDSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-EARLY_RC_3M

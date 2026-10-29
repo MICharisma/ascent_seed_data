@@ -7,16 +7,16 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_PAGE-2026_GENERAL
+  code: ELECTION-USA-VA-SHENANDOAH-2026_GENERAL
   attributes:
-    name: Page County General Election 2026
+    name: Shenandoah General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-PAGE
+    jurisdiction: MUNICIPALITY-USA-VA-SHENANDOAH
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-VA-COUNTY_PAGE-2026_SPECIAL
@@ -30,24 +30,47 @@ records:
   references:
     jurisdiction: COUNTY-USA-VA-PAGE
     year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-LURAY-2026_GENERAL
+  attributes:
+    name: Luray General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-LURAY
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-STANLEY-2026_GENERAL
+  attributes:
+    name: Stanley General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-STANLEY
+    year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PAGE-MAYOR_SHENANDOAH-TOWN_OF_SHENANDOAH
+    code: OFFICE-USA-VA-SHENANDOAH-MAYOR
     attributes:
-      seat_code: TOWN_OF_SHENANDOAH
       is_active: true
     references:
-      position: POSITION-MAYOR_SHENANDOAH
-      jurisdiction: COUNTY-USA-VA-PAGE
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-SHENANDOAH
   - type: Race
-    code: RACE-USA-VA-COUNTY_PAGE-MAYOR_SHENANDOAH-TOWN_OF_SHENANDOAH-2026_GENERAL
+    code: RACE-USA-VA-SHENANDOAH-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_PAGE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_PAGE-MAYOR_SHENANDOAH-TOWN_OF_SHENANDOAH
+      election: ELECTION-USA-VA-SHENANDOAH-2026_GENERAL
+      office: OFFICE-USA-VA-SHENANDOAH-MAYOR
   - type: Person
     code: PERSON-LUCAS_CL_6L
     attributes:
@@ -57,30 +80,30 @@ groups:
       middle_name: O.
       last_name: Lucas Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PAGE-MAYOR_SHENANDOAH-TOWN_OF_SHENANDOAH-2026_GENERAL-LUCAS_CL_6L
+    code: CANDIDACY-USA-VA-SHENANDOAH-MAYOR-2026_GENERAL-LUCAS_CL_6L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PAGE-MAYOR_SHENANDOAH-TOWN_OF_SHENANDOAH-2026_GENERAL
+      race: RACE-USA-VA-SHENANDOAH-MAYOR-2026_GENERAL
       person: PERSON-LUCAS_CL_6L
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PAGE-MEMBER_SCHOOL_BOARD-DISTRICT_2
+    code: OFFICE-USA-VA-COUNTY_PAGE-SCHOOL_BOARD_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-PAGE
   - type: Race
-    code: RACE-USA-VA-COUNTY_PAGE-MEMBER_SCHOOL_BOARD-DISTRICT_2-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_PAGE-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_PAGE-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_PAGE-MEMBER_SCHOOL_BOARD-DISTRICT_2
+      office: OFFICE-USA-VA-COUNTY_PAGE-SCHOOL_BOARD_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-HENRY_CD_2R
     attributes:
@@ -90,12 +113,12 @@ groups:
       middle_name: E.
       last_name: Henry
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PAGE-MEMBER_SCHOOL_BOARD-DISTRICT_2-2026_SPECIAL-HENRY_CD_2R
+    code: CANDIDACY-USA-VA-COUNTY_PAGE-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_SPECIAL-HENRY_CD_2R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PAGE-MEMBER_SCHOOL_BOARD-DISTRICT_2-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_PAGE-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_SPECIAL
       person: PERSON-HENRY_CD_2R
   - type: Person
     code: PERSON-GRIFFITH_JN_9Z
@@ -106,12 +129,12 @@ groups:
       middle_name: R.
       last_name: Griffith
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PAGE-MEMBER_SCHOOL_BOARD-DISTRICT_2-2026_SPECIAL-GRIFFITH_JN_9Z
+    code: CANDIDACY-USA-VA-COUNTY_PAGE-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_SPECIAL-GRIFFITH_JN_9Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PAGE-MEMBER_SCHOOL_BOARD-DISTRICT_2-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_PAGE-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_SPECIAL
       person: PERSON-GRIFFITH_JN_9Z
   - type: Person
     code: PERSON-MARCUM_KR_9F
@@ -122,30 +145,30 @@ groups:
       middle_name: M.
       last_name: Marcum
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PAGE-MEMBER_SCHOOL_BOARD-DISTRICT_2-2026_SPECIAL-MARCUM_KR_9F
+    code: CANDIDACY-USA-VA-COUNTY_PAGE-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_SPECIAL-MARCUM_KR_9F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PAGE-MEMBER_SCHOOL_BOARD-DISTRICT_2-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_PAGE-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_SPECIAL
       person: PERSON-MARCUM_KR_9F
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PAGE-MEMBER_SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-VA-COUNTY_PAGE-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-PAGE
   - type: Race
-    code: RACE-USA-VA-COUNTY_PAGE-MEMBER_SCHOOL_BOARD-DISTRICT_5-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_PAGE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_PAGE-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_PAGE-MEMBER_SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-VA-COUNTY_PAGE-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-THOMAS_BR_6F
     attributes:
@@ -155,30 +178,29 @@ groups:
       middle_name: Adam
       last_name: Thomas
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PAGE-MEMBER_SCHOOL_BOARD-DISTRICT_5-2026_SPECIAL-THOMAS_BR_6F
+    code: CANDIDACY-USA-VA-COUNTY_PAGE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_SPECIAL-THOMAS_BR_6F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PAGE-MEMBER_SCHOOL_BOARD-DISTRICT_5-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_PAGE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_SPECIAL
       person: PERSON-THOMAS_BR_6F
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_LURAY-TOWN_OF_LURAY
+    code: OFFICE-USA-VA-LURAY-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_LURAY
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_LURAY
-      jurisdiction: COUNTY-USA-VA-PAGE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-LURAY
   - type: Race
-    code: RACE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_LURAY-TOWN_OF_LURAY-2026_GENERAL
+    code: RACE-USA-VA-LURAY-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_PAGE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_LURAY-TOWN_OF_LURAY
+      election: ELECTION-USA-VA-LURAY-2026_GENERAL
+      office: OFFICE-USA-VA-LURAY-COUNCIL_MEMBER
   - type: Person
     code: PERSON-DOFFLEMYER_JR_8F
     attributes:
@@ -188,12 +210,12 @@ groups:
       middle_name: R.
       last_name: Dofflemyer
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_LURAY-TOWN_OF_LURAY-2026_GENERAL-DOFFLEMYER_JR_8F
+    code: CANDIDACY-USA-VA-LURAY-COUNCIL_MEMBER-2026_GENERAL-DOFFLEMYER_JR_8F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_LURAY-TOWN_OF_LURAY-2026_GENERAL
+      race: RACE-USA-VA-LURAY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DOFFLEMYER_JR_8F
   - type: Person
     code: PERSON-VICKERS_RN_4U
@@ -204,12 +226,12 @@ groups:
       middle_name: C. "Ron"
       last_name: Vickers
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_LURAY-TOWN_OF_LURAY-2026_GENERAL-VICKERS_RN_4U
+    code: CANDIDACY-USA-VA-LURAY-COUNCIL_MEMBER-2026_GENERAL-VICKERS_RN_4U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_LURAY-TOWN_OF_LURAY-2026_GENERAL
+      race: RACE-USA-VA-LURAY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-VICKERS_RN_4U
   - type: Person
     code: PERSON-DEAN_RY_7U
@@ -220,30 +242,29 @@ groups:
       middle_name: B. "Beaver"
       last_name: Dean
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_LURAY-TOWN_OF_LURAY-2026_GENERAL-DEAN_RY_7U
+    code: CANDIDACY-USA-VA-LURAY-COUNCIL_MEMBER-2026_GENERAL-DEAN_RY_7U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_LURAY-TOWN_OF_LURAY-2026_GENERAL
+      race: RACE-USA-VA-LURAY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DEAN_RY_7U
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_SHENANDOAH-TOWN_OF_SHENANDOAH
+    code: OFFICE-USA-VA-SHENANDOAH-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_SHENANDOAH
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_SHENANDOAH
-      jurisdiction: COUNTY-USA-VA-PAGE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-SHENANDOAH
   - type: Race
-    code: RACE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_SHENANDOAH-TOWN_OF_SHENANDOAH-2026_GENERAL
+    code: RACE-USA-VA-SHENANDOAH-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_PAGE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_SHENANDOAH-TOWN_OF_SHENANDOAH
+      election: ELECTION-USA-VA-SHENANDOAH-2026_GENERAL
+      office: OFFICE-USA-VA-SHENANDOAH-COUNCIL_MEMBER
   - type: Person
     code: PERSON-TAYLOR_GR_4J
     attributes:
@@ -253,12 +274,12 @@ groups:
       middle_name: A. "Red"
       last_name: Taylor
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_SHENANDOAH-TOWN_OF_SHENANDOAH-2026_GENERAL-TAYLOR_GR_4J
+    code: CANDIDACY-USA-VA-SHENANDOAH-COUNCIL_MEMBER-2026_GENERAL-TAYLOR_GR_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_SHENANDOAH-TOWN_OF_SHENANDOAH-2026_GENERAL
+      race: RACE-USA-VA-SHENANDOAH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TAYLOR_GR_4J
   - type: Person
     code: PERSON-FOX_LY_5P
@@ -269,12 +290,12 @@ groups:
       middle_name: E.
       last_name: Fox
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_SHENANDOAH-TOWN_OF_SHENANDOAH-2026_GENERAL-FOX_LY_5P
+    code: CANDIDACY-USA-VA-SHENANDOAH-COUNCIL_MEMBER-2026_GENERAL-FOX_LY_5P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_SHENANDOAH-TOWN_OF_SHENANDOAH-2026_GENERAL
+      race: RACE-USA-VA-SHENANDOAH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FOX_LY_5P
   - type: Person
     code: PERSON-COMER_NT_7V
@@ -285,30 +306,29 @@ groups:
       middle_name: T.
       last_name: Comer
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_SHENANDOAH-TOWN_OF_SHENANDOAH-2026_GENERAL-COMER_NT_7V
+    code: CANDIDACY-USA-VA-SHENANDOAH-COUNCIL_MEMBER-2026_GENERAL-COMER_NT_7V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_SHENANDOAH-TOWN_OF_SHENANDOAH-2026_GENERAL
+      race: RACE-USA-VA-SHENANDOAH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-COMER_NT_7V
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_STANLEY-TOWN_OF_STANLEY
+    code: OFFICE-USA-VA-STANLEY-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_STANLEY
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_STANLEY
-      jurisdiction: COUNTY-USA-VA-PAGE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-STANLEY
   - type: Race
-    code: RACE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_STANLEY-TOWN_OF_STANLEY-2026_GENERAL
+    code: RACE-USA-VA-STANLEY-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_PAGE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_STANLEY-TOWN_OF_STANLEY
+      election: ELECTION-USA-VA-STANLEY-2026_GENERAL
+      office: OFFICE-USA-VA-STANLEY-COUNCIL_MEMBER
   - type: Person
     code: PERSON-STONEBERGER_BR_2B
     attributes:
@@ -318,12 +338,12 @@ groups:
       middle_name: W.
       last_name: Stoneberger
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_STANLEY-TOWN_OF_STANLEY-2026_GENERAL-STONEBERGER_BR_2B
+    code: CANDIDACY-USA-VA-STANLEY-COUNCIL_MEMBER-2026_GENERAL-STONEBERGER_BR_2B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_STANLEY-TOWN_OF_STANLEY-2026_GENERAL
+      race: RACE-USA-VA-STANLEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-STONEBERGER_BR_2B
   - type: Person
     code: PERSON-GOOD_DN_8J
@@ -334,12 +354,12 @@ groups:
       middle_name: E. "JR"
       last_name: Good Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_STANLEY-TOWN_OF_STANLEY-2026_GENERAL-GOOD_DN_8J
+    code: CANDIDACY-USA-VA-STANLEY-COUNCIL_MEMBER-2026_GENERAL-GOOD_DN_8J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_STANLEY-TOWN_OF_STANLEY-2026_GENERAL
+      race: RACE-USA-VA-STANLEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GOOD_DN_8J
   - type: Person
     code: PERSON-PURDHAM_DG_4X
@@ -350,12 +370,12 @@ groups:
       middle_name: L.
       last_name: Purdham
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_STANLEY-TOWN_OF_STANLEY-2026_GENERAL-PURDHAM_DG_4X
+    code: CANDIDACY-USA-VA-STANLEY-COUNCIL_MEMBER-2026_GENERAL-PURDHAM_DG_4X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_STANLEY-TOWN_OF_STANLEY-2026_GENERAL
+      race: RACE-USA-VA-STANLEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PURDHAM_DG_4X
   - type: Person
     code: PERSON-CAMPBELL_JS_7N
@@ -366,12 +386,12 @@ groups:
       middle_name: L.
       last_name: Campbell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_STANLEY-TOWN_OF_STANLEY-2026_GENERAL-CAMPBELL_JS_7N
+    code: CANDIDACY-USA-VA-STANLEY-COUNCIL_MEMBER-2026_GENERAL-CAMPBELL_JS_7N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_STANLEY-TOWN_OF_STANLEY-2026_GENERAL
+      race: RACE-USA-VA-STANLEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CAMPBELL_JS_7N
   - type: Person
     code: PERSON-GOOD_RB_9V
@@ -382,10 +402,10 @@ groups:
       middle_name: C.
       last_name: Good
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_STANLEY-TOWN_OF_STANLEY-2026_GENERAL-GOOD_RB_9V
+    code: CANDIDACY-USA-VA-STANLEY-COUNCIL_MEMBER-2026_GENERAL-GOOD_RB_9V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PAGE-MEMBER_TOWN_COUNCIL_STANLEY-TOWN_OF_STANLEY-2026_GENERAL
+      race: RACE-USA-VA-STANLEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GOOD_RB_9V

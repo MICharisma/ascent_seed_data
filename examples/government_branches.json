@@ -1,0 +1,37 @@
+{
+  "format": "micharisma-seeds/v1",
+  "namespace": "MIC",
+  "catalog": "ASC",
+  "source": {
+    "contributor": "Ascent examples",
+    "url": "https://example.org/government-branches",
+    "captured_on": "2026-10-28",
+    "note": "Branch values are Position attributes, not separate branch records. These generic position examples need no other records."
+  },
+  "records": [
+    {
+      "type": "Position",
+      "code": "POSITION-STATE_REPRESENTATIVE",
+      "attributes": {
+        "title": "State Representative",
+        "branch": "legislative"
+      }
+    },
+    {
+      "type": "Position",
+      "code": "POSITION-GOVERNOR",
+      "attributes": {
+        "title": "Governor",
+        "branch": "executive"
+      }
+    },
+    {
+      "type": "Position",
+      "code": "POSITION-STATE_JUDGE",
+      "attributes": {
+        "title": "State Judge",
+        "branch": "judicial"
+      }
+    }
+  ]
+}

@@ -21,21 +21,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_MATHEWS-COMMONWEALTHS_ATTORNEY-MATHEWS_COUNTY
+    code: OFFICE-USA-VA-COUNTY_MATHEWS-COMMONWEALTHS_ATTORNEY
     attributes:
-      seat_code: MATHEWS_COUNTY
       is_active: true
     references:
       position: POSITION-COMMONWEALTHS_ATTORNEY
       jurisdiction: COUNTY-USA-VA-MATHEWS
   - type: Race
-    code: RACE-USA-VA-COUNTY_MATHEWS-COMMONWEALTHS_ATTORNEY-MATHEWS_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_MATHEWS-COMMONWEALTHS_ATTORNEY-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_MATHEWS-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_MATHEWS-COMMONWEALTHS_ATTORNEY-MATHEWS_COUNTY
+      office: OFFICE-USA-VA-COUNTY_MATHEWS-COMMONWEALTHS_ATTORNEY
   - type: Person
     code: PERSON-REAGAN_CH_7K
     attributes:
@@ -45,12 +44,12 @@ groups:
       middle_name: Paul
       last_name: Reagan
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MATHEWS-COMMONWEALTHS_ATTORNEY-MATHEWS_COUNTY-2026_SPECIAL-REAGAN_CH_7K
+    code: CANDIDACY-USA-VA-COUNTY_MATHEWS-COMMONWEALTHS_ATTORNEY-2026_SPECIAL-REAGAN_CH_7K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MATHEWS-COMMONWEALTHS_ATTORNEY-MATHEWS_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_MATHEWS-COMMONWEALTHS_ATTORNEY-2026_SPECIAL
       person: PERSON-REAGAN_CH_7K
   - type: Person
     code: PERSON-SPEARS_J_4M
@@ -61,10 +60,10 @@ groups:
       middle_name: Grant
       last_name: Spears
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MATHEWS-COMMONWEALTHS_ATTORNEY-MATHEWS_COUNTY-2026_SPECIAL-SPEARS_J_4M
+    code: CANDIDACY-USA-VA-COUNTY_MATHEWS-COMMONWEALTHS_ATTORNEY-2026_SPECIAL-SPEARS_J_4M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MATHEWS-COMMONWEALTHS_ATTORNEY-MATHEWS_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_MATHEWS-COMMONWEALTHS_ATTORNEY-2026_SPECIAL
       person: PERSON-SPEARS_J_4M
