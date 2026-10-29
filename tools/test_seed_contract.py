@@ -211,6 +211,95 @@ class CandidateAccountsTest(unittest.TestCase):
             path.write_text(json.dumps(document))
             self.assertEqual(contract.main(["validate", str(folder)]), 1)
 
+    def test_person_definitions_require_full_disambiguated_codes_and_reject_duplicates(self):
+        schema = contract.validator("asc.schema.json")
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            bare = {
+                "format": "micharisma-seeds/v1", "namespace": "MIC", "catalog": "ASC",
+                "records": [{"type": "Person", "code": "PERSON-JAMES_LT", "attributes": {"first_name": "Letitia", "last_name": "James"}}],
+            }
+            bare_path = root / "bare.json"
+            bare_path.write_text(json.dumps(bare))
+            with self.assertRaisesRegex(ValueError, "requires a disambiguator; bare name codes are allowed only as references"):
+                contract.validate_file(bare_path, schema)
+            with self.assertRaisesRegex(ValueError, "requires a disambiguator"):
+                contract.catalog(root)
+
+            bad_username = copy.deepcopy(bare)
+            bad_username["records"][0] = {
+                "type": "Person", "code": "PERSON-JAMES_LT_6J",
+                "attributes": {"username": "james_lt_9z", "first_name": "Letitia", "last_name": "James"},
+            }
+            bare_path.write_text(json.dumps(bad_username))
+            with self.assertRaisesRegex(ValueError, "username 'james_lt_9z' must match 'james_lt_6j'"):
+                contract.validate_file(bare_path, schema)
+
+            valid = copy.deepcopy(bare)
+            valid["records"][0] = {
+                "type": "Person", "code": "PERSON-JAMES_LT_6J",
+                "attributes": {"username": "james_lt_6j", "first_name": "Letitia", "last_name": "James"},
+            }
+            first_path = root / "first.json"
+            second_path = root / "second.json"
+            bare_path.unlink()
+            first_path.write_text(json.dumps(valid))
+            second_path.write_text(json.dumps(valid))
+            with self.assertRaisesRegex(ValueError, "duplicate Person definition PERSON-JAMES_LT_6J"):
+                contract.catalog(root)
+            with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+                self.assertEqual(contract.main(["validate", str(first_path), str(second_path)]), 1)
+
+    def test_mint_computes_deterministic_code_and_steps_on_collision(self):
+        self.assertEqual(contract.name_code("Kathy Hochul"), "hochul_kt")
+        self.assertEqual(contract.name_code("Joe Canino"), "canino_jo")
+        self.assertEqual(contract.name_code("James Athans Jr."), "athans_jm")
+        result = contract.mint_person_code("NY", "2026-11-03", "Kathy Hochul", "Governor", index={}, taken=set())
+        self.assertEqual(result["code"], "PERSON-HOCHUL_KT_9A")
+        self.assertEqual(result["username"], "hochul_kt_9a")
+
+        next_slot = contract.mint_person_code("NY", "2026-11-03", "Kathy Hochul", "Governor", index={}, taken={"hochul_kt_9a"})
+        self.assertEqual(next_slot["code"], "PERSON-HOCHUL_KT_9B")
+
+    def test_mint_requires_explicit_choice_when_name_code_already_exists(self):
+        index = {
+            "PERSON-LEVY_MT_2Q": {
+                "code": "PERSON-LEVY_MT_2Q", "type": "Person",
+                "attributes": {"first_name": "Matt", "last_name": "Levy"},
+                "references": {}, "files": ["2026/florida/local.yml"],
+            },
+            "CANDIDACY-FL-LEVY": {
+                "code": "CANDIDACY-FL-LEVY", "type": "Candidacy", "attributes": {},
+                "references": {"person": "PERSON-LEVY_MT_2Q", "race": "RACE-USA-FL-PORT-2026_GENERAL"},
+                "files": ["2026/florida/local.yml"],
+            },
+        }
+        with self.assertRaisesRegex(ValueError, r"PERSON-LEVY_MT_2Q: Matt Levy \(RACE-USA-FL-PORT-2026_GENERAL\)"):
+            contract.mint_person_code("CA", "2026-06-02", "Matthew Chase Levy", "Governor", index=index, taken={"levy_mt_2q"})
+
+        same = contract.mint_person_code(
+            "CA", "2026-06-02", "Matthew Chase Levy", "Governor",
+            same_as="PERSON-LEVY_MT_2Q", index=index, taken={"levy_mt_2q"}
+        )
+        self.assertEqual(same["code"], "PERSON-LEVY_MT_2Q")
+        self.assertEqual(same["resolution"], "existing")
+
+        minted = contract.mint_person_code(
+            "CA", "2026-06-02", "Matthew Chase Levy", "Governor",
+            is_new=True, index=index, taken={"levy_mt_2q"}
+        )
+        self.assertRegex(minted["code"], r"^PERSON-LEVY_MT_[2-9][A-HJ-NP-Z]$")
+        self.assertNotEqual(minted["code"], "PERSON-LEVY_MT_2Q")
+        self.assertEqual(minted["resolution"], "new")
+
+        stdout = io.StringIO()
+        with patch.object(contract, "catalog", return_value=index), patch.object(contract, "taken_usernames", return_value={"levy_mt_2q"}), contextlib.redirect_stdout(stdout):
+            self.assertEqual(contract.main([
+                "mint", "--state", "CA", "--date", "2026-06-02",
+                "--name", "Matthew Chase Levy", "--office", "Governor", "--new"
+            ]), 0)
+        self.assertEqual(stdout.getvalue().strip(), minted["code"])
+
 
 if __name__ == "__main__":
     unittest.main()

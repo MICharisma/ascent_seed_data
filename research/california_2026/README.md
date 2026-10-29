@@ -28,33 +28,33 @@ Contributor: Ascent Clerk. Captured 2026-10-27 (America/New_York). Files: `manif
 8. **Special elections.** The Green Papers shows special elections for CD 1 (special primary June 2, 2026) and CD 14 (June 16 and Aug 18, 2026). Not recorded here; they are not on the Nov 3 ballot.
 9. **Race in the primary election.** Per CONTRIBUTING.md, district nomination races sit in `ELECTION-USA-CA-2026_PRIMARY` although the nomination office's jurisdiction is the district.
 
-## Name-code collisions: 21 candidates NOT in the YAML
+## Name-code collisions: 21 candidates resolved as new people and minted
 
-CONTRIBUTING.md allows a name code alone (e.g. `PERSON-SHEA_JS`) only when it resolves to one person; the importer stops if two share it. These 21 ballot names produce a name code already used by a person in this repository (listed with the existing full codes). I cannot tell whether they are the same people, and Ascent issues the disambiguators, so these people, their primary candidacies, their 7 general candidacies and 5 websites are **left out** and listed in `ca_2026_review.csv` (`in_pr = N`). Once Ascent issues codes, they need adding.
+Every `Person` definition in `ca_2026_candidates.yml` carries a full disambiguated code minted with `tools/seed_contract.py mint` from the candidate's first-appearance facts (`CA | 2026-06-02 | <printed_name> | <printed_office>`). These 21 ballot names shared a name code with an existing person in the repository; all 21 were confirmed to be distinct people (`--new`), minted with the next available disambiguators, and added to `ca_2026_candidates.yml` along with their 21 primary candidacies and 7 general candidacies (`in_pr = Y` in `ca_2026_review.csv`).
 
-| Race | Candidate | On Nov 3 ballot | Name code | Existing repo codes |
+| Race | Candidate | On Nov 3 ballot | Minted code | Existing repo codes |
 |---|---|---|---|---|
-| Governor | Matthew Chase Levy (Democratic) | N | PERSON-LEVY_MT | PERSON-LEVY_MT_2Q |
-| Governor | Mauro Alberto Orozco (No Party Preference) | N | PERSON-OROZCO_MR | PERSON-OROZCO_MR_6D |
-| State Assembly District 18 | Michael Goldstein (Green) | N | PERSON-GOLDSTEIN_MC | PERSON-GOLDSTEIN_MC_4F |
-| U.S. House District 1 | Timothy Sean Kelly (No Party Preference) | N | PERSON-KELLY_TM | PERSON-KELLY_TM_6K |
-| U.S. House District 4 | Sharon Brown (Republican) | N | PERSON-BROWN_SH | PERSON-BROWN_SH_5Q, PERSON-BROWN_SH_7R, PERSON-BROWN_SH_8Q |
-| State Assembly District 11 | Rochelle Conner (No Party Preference) | N | PERSON-CONNER_RC | PERSON-CONNER_RC_2W |
-| U.S. House District 20 | Jeremy Fox (No Party Preference) | N | PERSON-FOX_JR | PERSON-FOX_JR_4U |
-| U.S. House District 26 | Daniel Miller (Republican) | N | PERSON-MILLER_DN | PERSON-MILLER_DN_7C |
-| U.S. House District 32 | Doug Smith (No Party Preference) | N | PERSON-SMITH_DG | PERSON-SMITH_DG_2Y, PERSON-SMITH_DG_9A |
-| U.S. House District 37 | John Thompson Parker (Peace and Freedom) | N | PERSON-PARKER_JH | PERSON-PARKER_JH_7H |
-| U.S. House District 41 | Shonique Williams (Democratic) | N | PERSON-WILLIAMS_SH | PERSON-WILLIAMS_SH_3Y |
-| U.S. House District 44 | Mark Stewart Greenstein (Democratic) | N | PERSON-GREENSTEIN_MR | PERSON-GREENSTEIN_MR_8Q |
-| State Assembly District 43 | Celeste Rodriguez (Democratic) | Y | PERSON-RODRIGUEZ_CL | PERSON-RODRIGUEZ_CL_6E |
-| State Assembly District 52 | Andrea Lee Anderson (Republican) | Y | PERSON-ANDERSON_AN | PERSON-ANDERSON_AN_8R |
-| State Assembly District 54 | Mark Gonzalez (Democratic) | Y | PERSON-GONZALEZ_MR | PERSON-GONZALEZ_MR_9A |
-| State Assembly District 55 | Ashley M. Brown (Democratic) | Y | PERSON-BROWN_AS | PERSON-BROWN_AS_6D |
-| State Assembly District 56 | Jessica Martinez (Republican) | Y | PERSON-MARTINEZ_JS | PERSON-MARTINEZ_JS_5K |
-| State Assembly District 62 | Paul Irving Jones (Republican) | Y | PERSON-JONES_PL | PERSON-JONES_PL_8K |
-| State Assembly District 50 | Robert Garcia (Democratic) | Y | PERSON-GARCIA_RB | PERSON-GARCIA_RB_5M |
-| U.S. House District 50 | Joseph "Joe" Shea (Libertarian) | N | PERSON-SHEA_JS | PERSON-SHEA_JS_7C |
-| U.S. House District 16 | Kevin Johnson (Republican) | N | PERSON-JOHNSON_KV | PERSON-JOHNSON_KV_4H, PERSON-JOHNSON_KV_5D |
+| Governor | Matthew Chase Levy (Democratic) | N | PERSON-LEVY_MT_4P | PERSON-LEVY_MT_2Q |
+| Governor | Mauro Alberto Orozco (No Party Preference) | N | PERSON-OROZCO_MR_9C | PERSON-OROZCO_MR_6D |
+| State Assembly District 18 | Michael Goldstein (Green) | N | PERSON-GOLDSTEIN_MC_4S | PERSON-GOLDSTEIN_MC_4F |
+| U.S. House District 1 | Timothy Sean Kelly (No Party Preference) | N | PERSON-KELLY_TM_2F | PERSON-KELLY_TM_6K |
+| U.S. House District 4 | Sharon Brown (Republican) | N | PERSON-BROWN_SH_5B | PERSON-BROWN_SH_5Q, PERSON-BROWN_SH_7R, PERSON-BROWN_SH_8Q |
+| State Assembly District 11 | Rochelle Conner (No Party Preference) | N | PERSON-CONNER_RC_8C | PERSON-CONNER_RC_2W |
+| U.S. House District 20 | Jeremy Fox (No Party Preference) | N | PERSON-FOX_JR_3W | PERSON-FOX_JR_4U |
+| U.S. House District 26 | Daniel Miller (Republican) | N | PERSON-MILLER_DN_2C | PERSON-MILLER_DN_7C |
+| U.S. House District 32 | Doug Smith (No Party Preference) | N | PERSON-SMITH_DG_2P | PERSON-SMITH_DG_2Y, PERSON-SMITH_DG_9A |
+| U.S. House District 37 | John Thompson Parker (Peace and Freedom) | N | PERSON-PARKER_JH_4H | PERSON-PARKER_JH_7H |
+| U.S. House District 41 | Shonique Williams (Democratic) | N | PERSON-WILLIAMS_SH_6M | PERSON-WILLIAMS_SH_3Y |
+| U.S. House District 44 | Mark Stewart Greenstein (Democratic) | N | PERSON-GREENSTEIN_MR_5P | PERSON-GREENSTEIN_MR_8Q |
+| State Assembly District 43 | Celeste Rodriguez (Democratic) | Y | PERSON-RODRIGUEZ_CL_4E | PERSON-RODRIGUEZ_CL_6E |
+| State Assembly District 52 | Andrea Lee Anderson (Republican) | Y | PERSON-ANDERSON_AN_6Q | PERSON-ANDERSON_AN_8R |
+| State Assembly District 54 | Mark Gonzalez (Democratic) | Y | PERSON-GONZALEZ_MR_5G | PERSON-GONZALEZ_MR_9A |
+| State Assembly District 55 | Ashley M. Brown (Democratic) | Y | PERSON-BROWN_AS_5N | PERSON-BROWN_AS_6D |
+| State Assembly District 56 | Jessica Martinez (Republican) | Y | PERSON-MARTINEZ_JS_4X | PERSON-MARTINEZ_JS_5K |
+| State Assembly District 62 | Paul Irving Jones (Republican) | Y | PERSON-JONES_PL_9Y | PERSON-JONES_PL_8K |
+| State Assembly District 50 | Robert Garcia (Democratic) | Y | PERSON-GARCIA_RB_2F | PERSON-GARCIA_RB_5M |
+| U.S. House District 50 | Joseph "Joe" Shea (Libertarian) | N | PERSON-SHEA_JS_8G | PERSON-SHEA_JS_7C |
+| U.S. House District 16 | Kevin Johnson (Republican) | N | PERSON-JOHNSON_KV_6Y | PERSON-JOHNSON_KV_4H, PERSON-JOHNSON_KV_5D |
 
 ## Not included
 
@@ -77,16 +77,16 @@ These 11 contact-list websites were omitted because that check failed (HTTP stat
 
 | Channel | Owner person | Result |
 |---|---|---|
-| hawksforus.com | PERSON-HAWKS_JN | no response |
+| hawksforus.com | PERSON-HAWKS_JN_7Z | no response |
 | harderforcongress.com | PERSON-HARDER_JS_2S | HTTP 500 |
 | souleforcongress.com | PERSON-SOULE_PT_9S | 200, name not found (likely script-rendered) |
 | rokhanna.com | PERSON-KHANNA_RO_8D | HTTP 403 |
 | bobsmithforcongress.com | PERSON-SMITH_BB_4D | 200, name not found |
 | gilonthehill.com | PERSON-CISNEROS_GL_2A | HTTP 403 |
-| tief4casenate.com | PERSON-GIBBS_TF | no response |
-| seyartoforsenate.com | PERSON-SEYARTO_KL | no response |
-| adams4assembly.com | PERSON-ADAMS_MT | no response |
-| andresandfordforassembly.com | PERSON-SANDFORD_AN | 200, name not found |
-| vote4lydia.com | PERSON-GUTIERREZ_LY | no response |
+| tief4casenate.com | PERSON-GIBBS_TF_2G | no response |
+| seyartoforsenate.com | PERSON-SEYARTO_KL_3P | no response |
+| adams4assembly.com | PERSON-ADAMS_MT_4A | no response |
+| andresandfordforassembly.com | PERSON-SANDFORD_AN_2L | 200, name not found |
+| vote4lydia.com | PERSON-GUTIERREZ_LY_3G | no response |
 
-The 5 websites of the name-code-collision general nominees stay excluded with those candidates. The contract still has no way to submit a person whose name code is already taken, so the 21 collisions are reported only.
+The 5 websites of the 7 general nominees whose name codes collided with existing repository people remain uncollected pending website verification.

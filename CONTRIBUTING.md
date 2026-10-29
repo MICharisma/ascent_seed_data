@@ -94,11 +94,18 @@ A nonzero exit means the catalog is missing, stale, or has unexpected files. Thi
 
 ## People
 
-A person's code is a version of their name and a disambiguator Ascent issues to everyone in advance: Letitia James is `PERSON-JAMES_LT_5Y` in the current manifests. Use the owner export in [WORKERS.md](WORKERS.md#find-the-owner-codes) to find current full codes.
+A person's code is a version of their name and a disambiguator issued to everyone in advance: Letitia James is `PERSON-JAMES_LT_5Y` in the current manifests. Use the owner export in [WORKERS.md](WORKERS.md#find-the-owner-codes) to find current full codes.
 
 - **The name code** is the surname, then the given name's first letter and its next consonant: Letitia → `LT`, Clyde → `CL`, Ann → `AN`. A person printed with only a surname has the surname alone.
-- **The disambiguator** is a digit and a letter, such as `6J`. Ascent assigns it once and never changes it.
-- **In a submission you may use the name code alone**, such as `PERSON-JAMES_LT`, when you don't know the disambiguator. The importer resolves it to the one person with that name code; if two people share it, the import stops and lists both full codes.
+- **The disambiguator** is a digit and a letter, such as `6J`, skipping the look-alikes `0`, `1`, `I`, and `O`.
+- **Every `Person` definition requires a full code.** Mint a new person's code from their first-appearance facts (`state`, `election_date`, `printed_name`, and `printed_office`) before adding the record:
+
+```sh
+.venv/bin/python tools/seed_contract.py mint --state CA --date 2026-06-02 --name "Akinyemi Agbede" --office "Governor"
+```
+
+  The hash of those four facts picks the starting disambiguator and steps to the next unused code across the repository. If existing people already share the name code, `mint` lists them with their races and requires an explicit `--new` or `--same-as PERSON-...` choice. Once minted, store the full code in the manifest (`code: PERSON-...`, `username: ...`, `username_status: provisional`) and never recompute it. If two simultaneous pull requests mint the same code, `validate` and `export-catalog` reject the duplicate `Person` definition and the second contributor re-runs `mint`.
+- **Bare name codes are allowed only as references.** Both `tools/seed_contract.py validate` and the app importer reject a bare name code on a `Person` definition. Other records may reference `PERSON-JAMES_LT` when only one person has that name code; if two people share it, the importer stops and lists both full codes.
 - A code names no state or office, because a person may later run somewhere else. Social media handles go in the person's Channel records, not their code.
 
 ## Organizations
