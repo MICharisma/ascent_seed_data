@@ -7,7 +7,9 @@ The JSON Schema (Draft 2020-12) files in `v1/` describe YAML and JSON manifests:
 - `entity-sequences.schema.json`: the optional numeric sequence registry.
 - `candidate-accounts.schema.json`: the worker subset for verified official Channels owned by existing people or candidacies. It references the generated Ascent schema, and adds required account fields and per-record source evidence. Owner existence and account collisions are checked by `tools/seed_contract.py accounts`; see [WORKERS.md](../WORKERS.md).
 
-Contributors can validate a manifest against `v1/asc.schema.json` with any Draft 2020-12 validator. The schema does not require relationships on each record, because they can be inherited through scope; Ascent's importer still checks that references resolve and that definitions do not contradict each other.
+Contributors can check a manifest's structure and field values against `v1/asc.schema.json` with any Draft 2020-12 validator. For submission, also run `tools/seed_contract.py validate` as described in [WORKERS.md](../WORKERS.md#validate-before-submission). It adds checks for full Person definition codes, provisional usernames, duplicate Person definitions, and matching state scope on U.S. state district definitions.
+
+The schema does not require relationships on each record because they can be inherited through scope. The supplied validator checks effective district scope after inheritance. Ascent's importer still checks that references resolve, definitions agree, and each race's office falls within its election's jurisdiction.
 
 Image manifests use the general `asc.schema.json`, including Image and ImagePlacement records. The candidate-account schema accepts only Channel records. Use the [image contribution workflow](../WORKERS.md#write-the-image-contribution) and the equivalent [YAML](../examples/profile_images.yml) or [JSON](../examples/profile_images.json) example. Active Storage files, blobs, thumbnail variants, and portrait-generation settings are outside the seed manifest contract.
 

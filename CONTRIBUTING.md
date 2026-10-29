@@ -56,6 +56,24 @@ A Position describes a role, such as Mayor. An Office connects that role to a ju
 
 State filters follow manifest scope and references. A person's state association does not establish residence. Catalog entries describe repository definitions, independent of whether a database has imported them.
 
+## District parent jurisdictions
+
+Every `DISTRICT-USA-<STATE>-...` definition needs a matching `scope.state`. Set it on the record or inherit it from the document or a containing group:
+
+```yaml
+type: District
+code: DISTRICT-USA-TX-HOUSE-HD_8
+attributes:
+  name: Texas House of Representatives District 8
+  kind: state house district
+scope:
+  state: STATE-USA-TX
+```
+
+The importer uses this scope to nest the district's jurisdiction beneath its state. It does not infer the parent from the code. `references.state` is not supported for District records.
+
+An election's jurisdiction must contain each race's office jurisdiction. A district nomination race can use the state's primary election because the district belongs beneath that state. See [the minimum election graph](examples/minimum_election.yml) for a complete example.
+
 ## County FIPS
 
 A record's top-level `code` is its Ascent entity code. A county's external geographic identifier is `attributes.fips`:
@@ -105,6 +123,7 @@ A person's code is a version of their name and a disambiguator issued to everyon
 ```
 
   The hash of those four facts picks the starting disambiguator and steps to the next unused code across the repository. If existing people already share the name code, `mint` lists them with their races and requires an explicit `--new` or `--same-as PERSON-...` choice. Once minted, store the full code in the manifest (`code: PERSON-...`, `username: ...`, `username_status: provisional`) and never recompute it. If two simultaneous pull requests mint the same code, `validate` and `export-catalog` reject the duplicate `Person` definition and the second contributor re-runs `mint`.
+- Reuse an existing person's full code across all candidacies. Do not mint a replacement code when updating their name, accounts, or source evidence.
 - **Bare name codes are allowed only as references.** Both `tools/seed_contract.py validate` and the app importer reject a bare name code on a `Person` definition. Other records may reference `PERSON-JAMES_LT` when only one person has that name code; if two people share it, the importer stops and lists both full codes.
 - A code names no state or office, because a person may later run somewhere else. Social media handles go in the person's Channel records, not their code.
 
@@ -215,7 +234,9 @@ OpenAI portrait generation is disabled pending legal review. Seed contributions 
 
 ## Checking your files
 
-Use the offline validator described in [WORKERS.md](WORKERS.md#validate-before-submission), or validate each manifest against `schemas/v1/asc.schema.json` with any JSON Schema (Draft 2020-12) validator. YAML files can be converted to JSON first. Maintainers also run Ascent's `bin/rails seed_library:validate` for catalog definitions and contradictions. The import step resolves dependencies and checks model validations, identity collisions, and conflicts with database values.
+Run the offline validator described in [WORKERS.md](WORKERS.md#validate-before-submission). It checks the published JSON Schema, full Person definition codes, provisional usernames, duplicate Person definitions, and effective district state scope. These additional checks also run in CI. A standalone JSON Schema validator checks structure and field values but does not replace this command.
+
+Maintainers also run Ascent's `bin/rails seed_library:validate` for catalog definitions and contradictions. Importing into a disposable database checks resolved dependencies and model validations, including whether an election contains its offices. Before merging a new election graph, report the import results and repeat the import to check that it creates no duplicates. Identify existing-value conflicts separately from validation failures.
 
 ## Import behavior
 

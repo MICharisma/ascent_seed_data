@@ -255,6 +255,17 @@ class CandidateAccountsTest(unittest.TestCase):
             with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
                 self.assertEqual(contract.main(["validate", str(first_path), str(second_path)]), 1)
 
+    def test_full_person_definition_can_be_referenced_by_its_bare_name_code(self):
+        document = {"format": "micharisma-seeds/v1", "namespace": "MIC", "catalog": "ASC", "records": [
+            {"type": "Person", "code": "PERSON-JAMES_LT_6J", "attributes": {"first_name": "Letitia", "last_name": "James"}},
+            {"type": "Candidacy", "code": "CANDIDACY-USA-NY-ATTORNEY_GENERAL-2026_GENERAL-JAMES_LT_6J",
+             "references": {"person": "PERSON-JAMES_LT", "race": "RACE-USA-NY-ATTORNEY_GENERAL-2026_GENERAL"}},
+        ]}
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "candidacy.json"
+            path.write_text(json.dumps(document))
+            contract.validate_file(path, contract.validator("asc.schema.json"))
+
     def test_mint_computes_deterministic_code_and_steps_on_collision(self):
         self.assertEqual(contract.name_code("Kathy Hochul"), "hochul_kt")
         self.assertEqual(contract.name_code("Joe Canino"), "canino_jo")
@@ -304,6 +315,60 @@ class CandidateAccountsTest(unittest.TestCase):
                 "--name", "Matthew Chase Levy", "--office", "Governor", "--new"
             ]), 0)
         self.assertEqual(stdout.getvalue().strip(), minted["code"])
+
+
+class DistrictScopeTest(unittest.TestCase):
+    def setUp(self):
+        self.district = {"type": "District", "code": "DISTRICT-USA-TX-HOUSE-HD_8",
+                         "attributes": {"name": "Texas House of Representatives District 8", "kind": "state house district"}}
+        self.document = {"format": "micharisma-seeds/v1", "namespace": "MIC", "catalog": "ASC",
+                         "records": [self.district]}
+        self.schema = contract.validator("asc.schema.json")
+
+    def test_cli_rejects_missing_or_wrong_state_scope_in_both_formats(self):
+        with tempfile.TemporaryDirectory() as directory:
+            for suffix in ("json", "yml"):
+                for state in (None, "STATE-USA-CA"):
+                    with self.subTest(suffix=suffix, state=state):
+                        document = copy.deepcopy(self.document)
+                        if state:
+                            document["scope"] = {"state": state}
+                        path = Path(directory) / f"district.{suffix}"
+                        path.write_text(json.dumps(document) if suffix == "json" else yaml.safe_dump(document))
+                        with contextlib.redirect_stdout(io.StringIO()) as output, contextlib.redirect_stderr(io.StringIO()) as errors:
+                            self.assertEqual(contract.main(["validate", str(path)]), 1)
+                        self.assertIn("1 failed", output.getvalue())
+                        self.assertIn("DISTRICT-USA-TX-HOUSE-HD_8 requires scope.state: STATE-USA-TX", errors.getvalue())
+
+    def test_accepts_document_group_and_record_scope_with_nested_overrides(self):
+        documents = [
+            self.document | {"scope": {"state": "STATE-USA-TX"}},
+            self.document | {"records": [], "groups": [{"scope": {"state": "STATE-USA-TX"},
+                                                       "groups": [{"records": [self.district]}]}]},
+            self.document | {"scope": {"state": "STATE-USA-CA"},
+                             "records": [self.district | {"scope": {"state": "STATE-USA-TX"}}]},
+            self.document | {"scope": {"state": "STATE-USA-CA"}, "records": [],
+                             "groups": [{"scope": {"state": "STATE-USA-TX"}, "records": [self.district]}]},
+        ]
+        with tempfile.TemporaryDirectory() as directory:
+            for index, document in enumerate(documents):
+                with self.subTest(scope=index):
+                    path = Path(directory) / "district.json"
+                    path.write_text(json.dumps(document))
+                    contract.validate_file(path, self.schema)
+                    catalog = contract.catalog(Path(directory))
+                    self.assertEqual(catalog[self.district["code"]]["references"]["state"], "STATE-USA-TX")
+
+    def test_catalog_rejects_unscoped_district_before_export(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "district.json"
+            path.write_text(json.dumps(self.document))
+            with self.assertRaisesRegex(ValueError, "requires scope.state: STATE-USA-TX"):
+                contract.catalog(Path(directory))
+
+    def test_state_scope_rule_does_not_assume_a_state_for_other_district_codes(self):
+        document = self.document | {"records": [self.district | {"code": "DISTRICT-GBR-WESTMINSTER"}]}
+        contract.validate_records(document)
 
 
 if __name__ == "__main__":

@@ -101,22 +101,33 @@ def validate_person_record(row):
         raise ValueError(f"Person definition {code} provisional username {username!r} must match {expected_username!r}")
 
 
-def iter_person_records(container):
+def iter_records(container, inherited_scope=None):
+    scope = (inherited_scope or {}) | container.get("scope", {})
     for row in container.get("records", []):
-        if row.get("type") == "Person":
-            yield row
+        yield row, scope | row.get("scope", {})
     for group in container.get("groups", []):
-        yield from iter_person_records(group)
+        yield from iter_records(group, scope)
 
 
-def validate_people(document):
+def validate_district_scope(row, scope):
+    match = re.match(r"^DISTRICT-USA-([A-Z]{2})-", row["code"])
+    if row["type"] != "District" or not match:
+        return
+    expected = f"STATE-USA-{match[1]}"
+    if scope.get("state") != expected:
+        raise ValueError(f"District {row['code']} requires scope.state: {expected}, on the record or inherited from its document or group")
+
+
+def validate_records(document):
     seen = set()
-    for row in iter_person_records(document):
-        validate_person_record(row)
-        code = row["code"]
-        if code in seen:
-            raise ValueError(f"duplicate Person definition {code}")
-        seen.add(code)
+    for row, scope in iter_records(document):
+        if row["type"] == "Person":
+            validate_person_record(row)
+            code = row["code"]
+            if code in seen:
+                raise ValueError(f"duplicate Person definition {code}")
+            seen.add(code)
+        validate_district_scope(row, scope)
 
 
 def validate_file(path, schema):
@@ -136,7 +147,7 @@ def validate_file(path, schema):
             pointer = "/" + "/".join(map(str, error.absolute_path))
             print(f"{path}:{pointer}: {error.message[:240]}", file=sys.stderr)
         raise ValueError(f"{len(errors)} schema violation(s)")
-    validate_people(document)
+    validate_records(document)
     return document
 
 
@@ -155,6 +166,7 @@ def catalog(root):
         scope = scope | container.get("scope", {})
         for row in container.get("records", []):
             code = row["code"]
+            validate_district_scope(row, scope | row.get("scope", {}))
             if row["type"] == "Person":
                 validate_person_record(row)
             entry = index.setdefault(code, {"code": code, "type": row["type"], "attributes": {},
@@ -407,7 +419,9 @@ def check_duplicate_people(documents):
         resolved = path.resolve()
         if resolved.is_relative_to(examples_root):
             continue
-        for row in iter_person_records(document):
+        for row, _scope in iter_records(document):
+            if row["type"] != "Person":
+                continue
             code = row["code"]
             if code in seen and seen[code].with_suffix("") != resolved.with_suffix(""):
                 raise ValueError(f"{path}: duplicate Person definition {code} (already defined in {seen[code]})")
