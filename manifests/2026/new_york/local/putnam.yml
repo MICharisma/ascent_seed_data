@@ -43,6 +43,18 @@ records:
     jurisdiction: MUNICIPALITY-USA-NY-COLD_SPRING
     year: YEAR-2026
 - type: Election
+  code: ELECTION-USA-NY-COUNTY_PUTNAM-2026_GENERAL
+  attributes:
+    name: Putnam County General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: COUNTY-USA-NY-PUTNAM
+    year: YEAR-2026
+- type: Election
   code: ELECTION-USA-NY-KENT-2026_GENERAL
   attributes:
     name: Kent General Election 2026
@@ -93,20 +105,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-NY-BREWSTER-BREWSTER_VILLAGE_TRUSTEE
+    code: OFFICE-USA-NY-BREWSTER-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-BREWSTER_VILLAGE_TRUSTEE
+      position: POSITION-VILLAGE_TRUSTEE
       jurisdiction: MUNICIPALITY-USA-NY-BREWSTER
   - type: Race
-    code: RACE-USA-NY-BREWSTER-BREWSTER_VILLAGE_TRUSTEE-2026_GENERAL
+    code: RACE-USA-NY-BREWSTER-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: up to two. Retrieved: 2026-10-01. Sources: http://boe.putnamcountyny.gov/wp-content/uploads/2026/09/2026-LIST-CANDIDATES-PROPOSITIONS-GENERAL.pdf.'
     references:
       election: ELECTION-USA-NY-BREWSTER-2026_GENERAL
-      office: OFFICE-USA-NY-BREWSTER-BREWSTER_VILLAGE_TRUSTEE
+      office: OFFICE-USA-NY-BREWSTER-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-BOISSONNAULT_TM_4M
     attributes:
@@ -116,7 +128,7 @@ groups:
       middle_name: J.
       last_name: Boissonnault
   - type: Candidacy
-    code: CANDIDACY-USA-NY-BREWSTER-BREWSTER_VILLAGE_TRUSTEE-2026_GENERAL-BOISSONNAULT_TM_4M
+    code: CANDIDACY-USA-NY-BREWSTER-VILLAGE_TRUSTEE-2026_GENERAL-BOISSONNAULT_TM_4M
     attributes:
       status: active
       participation: active
@@ -124,7 +136,7 @@ groups:
       - label: A Better Brewster
         kind: designation
     references:
-      race: RACE-USA-NY-BREWSTER-BREWSTER_VILLAGE_TRUSTEE-2026_GENERAL
+      race: RACE-USA-NY-BREWSTER-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-BOISSONNAULT_TM_4M
   - type: Person
     code: PERSON-MCFADDEN_TN_4L
@@ -135,7 +147,7 @@ groups:
       middle_name: D.
       last_name: McFadden
   - type: Candidacy
-    code: CANDIDACY-USA-NY-BREWSTER-BREWSTER_VILLAGE_TRUSTEE-2026_GENERAL-MCFADDEN_TN_4L
+    code: CANDIDACY-USA-NY-BREWSTER-VILLAGE_TRUSTEE-2026_GENERAL-MCFADDEN_TN_4L
     attributes:
       status: active
       participation: active
@@ -143,24 +155,24 @@ groups:
       - label: A Better Brewster
         kind: designation
     references:
-      race: RACE-USA-NY-BREWSTER-BREWSTER_VILLAGE_TRUSTEE-2026_GENERAL
+      race: RACE-USA-NY-BREWSTER-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-MCFADDEN_TN_4L
 - records:
   - type: Office
-    code: OFFICE-USA-NY-CARMEL-CARMEL_SUPERVISOR
+    code: OFFICE-USA-NY-CARMEL-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-CARMEL_SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-CARMEL
   - type: Race
-    code: RACE-USA-NY-CARMEL-CARMEL_SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-CARMEL-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: one. Retrieved: 2026-10-01. Sources: http://boe.putnamcountyny.gov/wp-content/uploads/2026/09/2026-LIST-CANDIDATES-PROPOSITIONS-GENERAL.pdf.'
     references:
       election: ELECTION-USA-NY-CARMEL-2026_GENERAL
-      office: OFFICE-USA-NY-CARMEL-CARMEL_SUPERVISOR
+      office: OFFICE-USA-NY-CARMEL-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-KEARNS_RB_9C
     attributes:
@@ -170,7 +182,7 @@ groups:
       middle_name: T.
       last_name: Kearns
   - type: Candidacy
-    code: CANDIDACY-USA-NY-CARMEL-CARMEL_SUPERVISOR-2026_GENERAL-KEARNS_RB_9C
+    code: CANDIDACY-USA-NY-CARMEL-TOWN_SUPERVISOR-2026_GENERAL-KEARNS_RB_9C
     attributes:
       status: active
       participation: active
@@ -182,24 +194,24 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-CARMEL-CARMEL_SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-CARMEL-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-KEARNS_RB_9C
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COLD_SPRING-COLD_SPRING_VILLAGE_TRUSTEE
+    code: OFFICE-USA-NY-COLD_SPRING-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-COLD_SPRING_VILLAGE_TRUSTEE
+      position: POSITION-VILLAGE_TRUSTEE
       jurisdiction: MUNICIPALITY-USA-NY-COLD_SPRING
   - type: Race
-    code: RACE-USA-NY-COLD_SPRING-COLD_SPRING_VILLAGE_TRUSTEE-2026_GENERAL
+    code: RACE-USA-NY-COLD_SPRING-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: up to two. Retrieved: 2026-10-01. Sources: http://boe.putnamcountyny.gov/wp-content/uploads/2026/09/2026-LIST-CANDIDATES-PROPOSITIONS-GENERAL.pdf.'
     references:
       election: ELECTION-USA-NY-COLD_SPRING-2026_GENERAL
-      office: OFFICE-USA-NY-COLD_SPRING-COLD_SPRING_VILLAGE_TRUSTEE
+      office: OFFICE-USA-NY-COLD_SPRING-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-BOZZI_LR_6R
     attributes:
@@ -209,7 +221,7 @@ groups:
       middle_name: A.
       last_name: Bozzi
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COLD_SPRING-COLD_SPRING_VILLAGE_TRUSTEE-2026_GENERAL-BOZZI_LR_6R
+    code: CANDIDACY-USA-NY-COLD_SPRING-VILLAGE_TRUSTEE-2026_GENERAL-BOZZI_LR_6R
     attributes:
       status: active
       participation: active
@@ -217,7 +229,7 @@ groups:
       - label: Good Neighbors
         kind: designation
     references:
-      race: RACE-USA-NY-COLD_SPRING-COLD_SPRING_VILLAGE_TRUSTEE-2026_GENERAL
+      race: RACE-USA-NY-COLD_SPRING-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-BOZZI_LR_6R
   - type: Person
     code: PERSON-WOODS_TW_5D
@@ -228,7 +240,7 @@ groups:
       middle_name: P.
       last_name: Woods
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COLD_SPRING-COLD_SPRING_VILLAGE_TRUSTEE-2026_GENERAL-WOODS_TW_5D
+    code: CANDIDACY-USA-NY-COLD_SPRING-VILLAGE_TRUSTEE-2026_GENERAL-WOODS_TW_5D
     attributes:
       status: active
       participation: active
@@ -236,24 +248,404 @@ groups:
       - label: Service Party
         kind: designation
     references:
-      race: RACE-USA-NY-COLD_SPRING-COLD_SPRING_VILLAGE_TRUSTEE-2026_GENERAL
+      race: RACE-USA-NY-COLD_SPRING-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-WOODS_TW_5D
 - records:
   - type: Office
-    code: OFFICE-USA-NY-KENT-KENT_SUPERVISOR
+    code: OFFICE-USA-NY-COUNTY_PUTNAM-COUNTY_CLERK
     attributes:
       is_active: true
     references:
-      position: POSITION-KENT_SUPERVISOR
+      position: POSITION-COUNTY_CLERK
+      jurisdiction: COUNTY-USA-NY-PUTNAM
+  - type: Race
+    code: RACE-USA-NY-COUNTY_PUTNAM-COUNTY_CLERK-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: one. Retrieved: 2026-10-01. Sources: http://boe.putnamcountyny.gov/wp-content/uploads/2026/09/2026-LIST-CANDIDATES-PROPOSITIONS-GENERAL.pdf.'
+    references:
+      election: ELECTION-USA-NY-COUNTY_PUTNAM-2026_GENERAL
+      office: OFFICE-USA-NY-COUNTY_PUTNAM-COUNTY_CLERK
+  - type: Person
+    code: PERSON-BARTOLOTTI_MC_4G
+    attributes:
+      username: bartolotti_mc_4g
+      username_status: provisional
+      first_name: Michael
+      middle_name: C.
+      last_name: Bartolotti
+  - type: Candidacy
+    code: CANDIDACY-USA-NY-COUNTY_PUTNAM-COUNTY_CLERK-2026_GENERAL-BARTOLOTTI_MC_4G
+    attributes:
+      status: active
+      participation: active
+      ballot_lines:
+      - label: Conservative / Libertarian
+        kind: designation
+      - label: Republican
+        kind: party
+        party: PARTY-USA-NY-REPUBLICAN
+    references:
+      race: RACE-USA-NY-COUNTY_PUTNAM-COUNTY_CLERK-2026_GENERAL
+      person: PERSON-BARTOLOTTI_MC_4G
+- records:
+  - type: Office
+    code: OFFICE-USA-NY-COUNTY_PUTNAM-CORONER
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-CORONER
+      jurisdiction: COUNTY-USA-NY-PUTNAM
+  - type: Race
+    code: RACE-USA-NY-COUNTY_PUTNAM-CORONER-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: up to two. Retrieved: 2026-10-01. Sources: http://boe.putnamcountyny.gov/wp-content/uploads/2026/09/2026-LIST-CANDIDATES-PROPOSITIONS-GENERAL.pdf.'
+    references:
+      election: ELECTION-USA-NY-COUNTY_PUTNAM-2026_GENERAL
+      office: OFFICE-USA-NY-COUNTY_PUTNAM-CORONER
+  - type: Person
+    code: PERSON-BOURGES_JH_2D
+    attributes:
+      username: bourges_jh_2d
+      username_status: provisional
+      first_name: John
+      middle_name: F.
+      last_name: Bourges
+  - type: Candidacy
+    code: CANDIDACY-USA-NY-COUNTY_PUTNAM-CORONER-2026_GENERAL-BOURGES_JH_2D
+    attributes:
+      status: active
+      participation: active
+      ballot_lines:
+      - label: Conservative / Libertarian
+        kind: designation
+      - label: Republican
+        kind: party
+        party: PARTY-USA-NY-REPUBLICAN
+    references:
+      race: RACE-USA-NY-COUNTY_PUTNAM-CORONER-2026_GENERAL
+      person: PERSON-BOURGES_JH_2D
+  - type: Person
+    code: PERSON-NESHEIWAT_MC_2V
+    attributes:
+      username: nesheiwat_mc_2v
+      username_status: provisional
+      first_name: Michael
+      middle_name: J.
+      last_name: Nesheiwat
+  - type: Candidacy
+    code: CANDIDACY-USA-NY-COUNTY_PUTNAM-CORONER-2026_GENERAL-NESHEIWAT_MC_2V
+    attributes:
+      status: active
+      participation: active
+      ballot_lines:
+      - label: Conservative / Libertarian
+        kind: designation
+      - label: Republican
+        kind: party
+        party: PARTY-USA-NY-REPUBLICAN
+    references:
+      race: RACE-USA-NY-COUNTY_PUTNAM-CORONER-2026_GENERAL
+      person: PERSON-NESHEIWAT_MC_2V
+  - type: Person
+    code: PERSON-STRAUSS_MC_9Y
+    attributes:
+      username: strauss_mc_9y
+      username_status: provisional
+      first_name: Michael
+      middle_name: L.
+      last_name: Strauss
+  - type: Candidacy
+    code: CANDIDACY-USA-NY-COUNTY_PUTNAM-CORONER-2026_GENERAL-STRAUSS_MC_9Y
+    attributes:
+      status: active
+      participation: active
+      ballot_lines:
+      - label: Democratic
+        kind: party
+        party: PARTY-USA-NY-DEMOCRATIC
+      - label: The Putnam Party
+        kind: designation
+    references:
+      race: RACE-USA-NY-COUNTY_PUTNAM-CORONER-2026_GENERAL
+      person: PERSON-STRAUSS_MC_9Y
+- records:
+  - type: Office
+    code: OFFICE-USA-NY-COUNTY_PUTNAM-COUNTY_EXECUTIVE
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-COUNTY_EXECUTIVE
+      jurisdiction: COUNTY-USA-NY-PUTNAM
+  - type: Race
+    code: RACE-USA-NY-COUNTY_PUTNAM-COUNTY_EXECUTIVE-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: one. Retrieved: 2026-10-01. Sources: http://boe.putnamcountyny.gov/wp-content/uploads/2026/09/2026-LIST-CANDIDATES-PROPOSITIONS-GENERAL.pdf.'
+    references:
+      election: ELECTION-USA-NY-COUNTY_PUTNAM-2026_GENERAL
+      office: OFFICE-USA-NY-COUNTY_PUTNAM-COUNTY_EXECUTIVE
+  - type: Person
+    code: PERSON-YARRIS_BR_2Z
+    attributes:
+      username: yarris_br_2z
+      username_status: provisional
+      first_name: Brett
+      last_name: Yarris
+  - type: Candidacy
+    code: CANDIDACY-USA-NY-COUNTY_PUTNAM-COUNTY_EXECUTIVE-2026_GENERAL-YARRIS_BR_2Z
+    attributes:
+      status: active
+      participation: active
+      ballot_lines:
+      - label: Democratic
+        kind: party
+        party: PARTY-USA-NY-DEMOCRATIC
+      - label: Working Families / For the People
+        kind: designation
+    references:
+      race: RACE-USA-NY-COUNTY_PUTNAM-COUNTY_EXECUTIVE-2026_GENERAL
+      person: PERSON-YARRIS_BR_2Z
+  - type: Person
+    code: PERSON-BYRNE_KV_7L
+    attributes:
+      username: byrne_kv_7l
+      username_status: provisional
+      first_name: Kevin
+      middle_name: M.
+      last_name: Byrne
+  - type: Candidacy
+    code: CANDIDACY-USA-NY-COUNTY_PUTNAM-COUNTY_EXECUTIVE-2026_GENERAL-BYRNE_KV_7L
+    attributes:
+      status: active
+      participation: active
+      ballot_lines:
+      - label: Libertarian
+        kind: designation
+      - label: Republican
+        kind: party
+        party: PARTY-USA-NY-REPUBLICAN
+    references:
+      race: RACE-USA-NY-COUNTY_PUTNAM-COUNTY_EXECUTIVE-2026_GENERAL
+      person: PERSON-BYRNE_KV_7L
+  - type: Person
+    code: PERSON-BRAHIMI_TT_7L
+    attributes:
+      username: brahimi_tt_7l
+      username_status: provisional
+      first_name: Tatiana
+      last_name: Brahimi
+  - type: Candidacy
+    code: CANDIDACY-USA-NY-COUNTY_PUTNAM-COUNTY_EXECUTIVE-2026_GENERAL-BRAHIMI_TT_7L
+    attributes:
+      status: active
+      participation: active
+      ballot_lines:
+      - label: Conservative
+        kind: party
+        party: PARTY-USA-NY-CONSERVATIVE
+    references:
+      race: RACE-USA-NY-COUNTY_PUTNAM-COUNTY_EXECUTIVE-2026_GENERAL
+      person: PERSON-BRAHIMI_TT_7L
+- records:
+  - type: Office
+    code: OFFICE-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_2
+    attributes:
+      seat_code: LEGISLATIVE_DISTRICT_2
+      is_active: true
+    references:
+      position: POSITION-COUNTY_LEGISLATOR
+      jurisdiction: COUNTY-USA-NY-PUTNAM
+  - type: Race
+    code: RACE-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_2-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: one. Retrieved: 2026-10-01. Sources: http://boe.putnamcountyny.gov/wp-content/uploads/2026/09/2026-LIST-CANDIDATES-PROPOSITIONS-GENERAL.pdf.'
+    references:
+      election: ELECTION-USA-NY-COUNTY_PUTNAM-2026_GENERAL
+      office: OFFICE-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_2
+  - type: Person
+    code: PERSON-RUSSO_CH_4A
+    attributes:
+      username: russo_ch_4a
+      username_status: provisional
+      first_name: Christian
+      middle_name: J.
+      last_name: Russo
+  - type: Candidacy
+    code: CANDIDACY-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_2-2026_GENERAL-RUSSO_CH_4A
+    attributes:
+      status: active
+      participation: active
+      ballot_lines:
+      - label: Conservative / Libertarian
+        kind: designation
+      - label: Republican
+        kind: party
+        party: PARTY-USA-NY-REPUBLICAN
+    references:
+      race: RACE-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_2-2026_GENERAL
+      person: PERSON-RUSSO_CH_4A
+  - type: Person
+    code: PERSON-GILLEO_MA_4P
+    attributes:
+      username: gilleo_ma_4p
+      username_status: provisional
+      first_name: Maia
+      middle_name: N.
+      last_name: Gilleo
+  - type: Candidacy
+    code: CANDIDACY-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_2-2026_GENERAL-GILLEO_MA_4P
+    attributes:
+      status: active
+      participation: active
+      ballot_lines:
+      - label: Democratic / The Putnam Party
+        kind: designation
+      - label: Working Families
+        kind: party
+        party: PARTY-USA-NY-WORKING_FAMILIES
+    references:
+      race: RACE-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_2-2026_GENERAL
+      person: PERSON-GILLEO_MA_4P
+- records:
+  - type: Office
+    code: OFFICE-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_3
+    attributes:
+      seat_code: LEGISLATIVE_DISTRICT_3
+      is_active: true
+    references:
+      position: POSITION-COUNTY_LEGISLATOR
+      jurisdiction: COUNTY-USA-NY-PUTNAM
+  - type: Race
+    code: RACE-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_3-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: one. Retrieved: 2026-10-01. Sources: http://boe.putnamcountyny.gov/wp-content/uploads/2026/09/2026-LIST-CANDIDATES-PROPOSITIONS-GENERAL.pdf.'
+    references:
+      election: ELECTION-USA-NY-COUNTY_PUTNAM-2026_GENERAL
+      office: OFFICE-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_3
+  - type: Person
+    code: PERSON-CUNNINGHAM_JS_3U
+    attributes:
+      username: cunningham_js_3u
+      username_status: provisional
+      first_name: Joseph
+      last_name: Cunningham
+  - type: Candidacy
+    code: CANDIDACY-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_3-2026_GENERAL-CUNNINGHAM_JS_3U
+    attributes:
+      status: active
+      participation: active
+      ballot_lines:
+      - label: Conservative
+        kind: party
+        party: PARTY-USA-NY-CONSERVATIVE
+      - label: Republican
+        kind: party
+        party: PARTY-USA-NY-REPUBLICAN
+    references:
+      race: RACE-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_3-2026_GENERAL
+      person: PERSON-CUNNINGHAM_JS_3U
+  - type: Person
+    code: PERSON-KAHNG_KT_8A
+    attributes:
+      username: kahng_kt_8a
+      username_status: provisional
+      first_name: Kathy
+      last_name: Kahng
+  - type: Candidacy
+    code: CANDIDACY-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_3-2026_GENERAL-KAHNG_KT_8A
+    attributes:
+      status: active
+      participation: active
+      ballot_lines:
+      - label: Democratic
+        kind: party
+        party: PARTY-USA-NY-DEMOCRATIC
+      - label: The Putnam Party
+        kind: designation
+    references:
+      race: RACE-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_3-2026_GENERAL
+      person: PERSON-KAHNG_KT_8A
+- records:
+  - type: Office
+    code: OFFICE-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_8
+    attributes:
+      seat_code: LEGISLATIVE_DISTRICT_8
+      is_active: true
+    references:
+      position: POSITION-COUNTY_LEGISLATOR
+      jurisdiction: COUNTY-USA-NY-PUTNAM
+  - type: Race
+    code: RACE-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_8-2026_GENERAL
+    attributes:
+      status: upcoming
+      description: 'Vote for: one. Retrieved: 2026-10-01. Sources: http://boe.putnamcountyny.gov/wp-content/uploads/2026/09/2026-LIST-CANDIDATES-PROPOSITIONS-GENERAL.pdf.'
+    references:
+      election: ELECTION-USA-NY-COUNTY_PUTNAM-2026_GENERAL
+      office: OFFICE-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_8
+  - type: Person
+    code: PERSON-BURKE_GW_5U
+    attributes:
+      username: burke_gw_5u
+      username_status: provisional
+      first_name: Gwendolyn
+      middle_name: H.
+      last_name: Burke
+  - type: Candidacy
+    code: CANDIDACY-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_8-2026_GENERAL-BURKE_GW_5U
+    attributes:
+      status: active
+      participation: active
+      ballot_lines:
+      - label: Democratic
+        kind: party
+        party: PARTY-USA-NY-DEMOCRATIC
+      - label: The Putnam Party
+        kind: designation
+    references:
+      race: RACE-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_8-2026_GENERAL
+      person: PERSON-BURKE_GW_5U
+  - type: Person
+    code: PERSON-MCCRACKEN_TN_6S
+    attributes:
+      username: mccracken_tn_6s
+      username_status: provisional
+      first_name: Tanner
+      last_name: McCracken
+  - type: Candidacy
+    code: CANDIDACY-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_8-2026_GENERAL-MCCRACKEN_TN_6S
+    attributes:
+      status: active
+      participation: active
+      ballot_lines:
+      - label: Conservative
+        kind: party
+        party: PARTY-USA-NY-CONSERVATIVE
+      - label: Republican
+        kind: party
+        party: PARTY-USA-NY-REPUBLICAN
+    references:
+      race: RACE-USA-NY-COUNTY_PUTNAM-COUNTY_LEGISLATOR-LEGISLATIVE_DISTRICT_8-2026_GENERAL
+      person: PERSON-MCCRACKEN_TN_6S
+- records:
+  - type: Office
+    code: OFFICE-USA-NY-KENT-TOWN_SUPERVISOR
+    attributes:
+      is_active: true
+    references:
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-KENT
   - type: Race
-    code: RACE-USA-NY-KENT-KENT_SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-KENT-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: one. Retrieved: 2026-10-01. Sources: http://boe.putnamcountyny.gov/wp-content/uploads/2026/09/2026-LIST-CANDIDATES-PROPOSITIONS-GENERAL.pdf.'
     references:
       election: ELECTION-USA-NY-KENT-2026_GENERAL
-      office: OFFICE-USA-NY-KENT-KENT_SUPERVISOR
+      office: OFFICE-USA-NY-KENT-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-SEWELL_AL_9H
     attributes:
@@ -262,7 +654,7 @@ groups:
       first_name: Alex
       last_name: Sewell
   - type: Candidacy
-    code: CANDIDACY-USA-NY-KENT-KENT_SUPERVISOR-2026_GENERAL-SEWELL_AL_9H
+    code: CANDIDACY-USA-NY-KENT-TOWN_SUPERVISOR-2026_GENERAL-SEWELL_AL_9H
     attributes:
       status: active
       participation: active
@@ -273,7 +665,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
-      race: RACE-USA-NY-KENT-KENT_SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-KENT-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-SEWELL_AL_9H
   - type: Person
     code: PERSON-MCGLASSON_JM_8E
@@ -284,7 +676,7 @@ groups:
       middle_name: F.
       last_name: McGlasson
   - type: Candidacy
-    code: CANDIDACY-USA-NY-KENT-KENT_SUPERVISOR-2026_GENERAL-MCGLASSON_JM_8E
+    code: CANDIDACY-USA-NY-KENT-TOWN_SUPERVISOR-2026_GENERAL-MCGLASSON_JM_8E
     attributes:
       status: active
       participation: active
@@ -296,24 +688,24 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-KENT-KENT_SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-KENT-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-MCGLASSON_JM_8E
 - records:
   - type: Office
-    code: OFFICE-USA-NY-PHILIPSTOWN-PHILIPSTOWN_SUPERVISOR
+    code: OFFICE-USA-NY-PHILIPSTOWN-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-PHILIPSTOWN_SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-PHILIPSTOWN
   - type: Race
-    code: RACE-USA-NY-PHILIPSTOWN-PHILIPSTOWN_SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-PHILIPSTOWN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: one. Retrieved: 2026-10-01. Sources: http://boe.putnamcountyny.gov/wp-content/uploads/2026/09/2026-LIST-CANDIDATES-PROPOSITIONS-GENERAL.pdf.'
     references:
       election: ELECTION-USA-NY-PHILIPSTOWN-2026_GENERAL
-      office: OFFICE-USA-NY-PHILIPSTOWN-PHILIPSTOWN_SUPERVISOR
+      office: OFFICE-USA-NY-PHILIPSTOWN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-VANTASSEL_JH_8P
     attributes:
@@ -323,7 +715,7 @@ groups:
       middle_name: J.
       last_name: VanTassel
   - type: Candidacy
-    code: CANDIDACY-USA-NY-PHILIPSTOWN-PHILIPSTOWN_SUPERVISOR-2026_GENERAL-VANTASSEL_JH_8P
+    code: CANDIDACY-USA-NY-PHILIPSTOWN-TOWN_SUPERVISOR-2026_GENERAL-VANTASSEL_JH_8P
     attributes:
       status: active
       participation: active
@@ -334,24 +726,24 @@ groups:
       - label: Philipstown Focus
         kind: designation
     references:
-      race: RACE-USA-NY-PHILIPSTOWN-PHILIPSTOWN_SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-PHILIPSTOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-VANTASSEL_JH_8P
 - records:
   - type: Office
-    code: OFFICE-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_HIGHWAY_SUPERINTENDENT
+    code: OFFICE-USA-NY-PUTNAM_VALLEY-HIGHWAY_SUPERINTENDENT
     attributes:
       is_active: true
     references:
-      position: POSITION-PUTNAM_VALLEY_HIGHWAY_SUPERINTENDENT
+      position: POSITION-HIGHWAY_SUPERINTENDENT
       jurisdiction: MUNICIPALITY-USA-NY-PUTNAM_VALLEY
   - type: Race
-    code: RACE-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_HIGHWAY_SUPERINTENDENT-2026_GENERAL
+    code: RACE-USA-NY-PUTNAM_VALLEY-HIGHWAY_SUPERINTENDENT-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: one. Retrieved: 2026-10-01. Sources: http://boe.putnamcountyny.gov/wp-content/uploads/2026/09/2026-LIST-CANDIDATES-PROPOSITIONS-GENERAL.pdf.'
     references:
       election: ELECTION-USA-NY-PUTNAM_VALLEY-2026_GENERAL
-      office: OFFICE-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_HIGHWAY_SUPERINTENDENT
+      office: OFFICE-USA-NY-PUTNAM_VALLEY-HIGHWAY_SUPERINTENDENT
   - type: Person
     code: PERSON-KEELER_SH_6X
     attributes:
@@ -361,7 +753,7 @@ groups:
       middle_name: M.
       last_name: Keeler
   - type: Candidacy
-    code: CANDIDACY-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_HIGHWAY_SUPERINTENDENT-2026_GENERAL-KEELER_SH_6X
+    code: CANDIDACY-USA-NY-PUTNAM_VALLEY-HIGHWAY_SUPERINTENDENT-2026_GENERAL-KEELER_SH_6X
     attributes:
       status: active
       participation: active
@@ -372,24 +764,24 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_HIGHWAY_SUPERINTENDENT-2026_GENERAL
+      race: RACE-USA-NY-PUTNAM_VALLEY-HIGHWAY_SUPERINTENDENT-2026_GENERAL
       person: PERSON-KEELER_SH_6X
 - records:
   - type: Office
-    code: OFFICE-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_SUPERVISOR
+    code: OFFICE-USA-NY-PUTNAM_VALLEY-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-PUTNAM_VALLEY_SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-PUTNAM_VALLEY
   - type: Race
-    code: RACE-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_SUPERVISOR-2026_GENERAL
+    code: RACE-USA-NY-PUTNAM_VALLEY-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: one. Retrieved: 2026-10-01. Sources: http://boe.putnamcountyny.gov/wp-content/uploads/2026/09/2026-LIST-CANDIDATES-PROPOSITIONS-GENERAL.pdf.'
     references:
       election: ELECTION-USA-NY-PUTNAM_VALLEY-2026_GENERAL
-      office: OFFICE-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_SUPERVISOR
+      office: OFFICE-USA-NY-PUTNAM_VALLEY-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-JOLICOEUR_AL_5B
     attributes:
@@ -398,7 +790,7 @@ groups:
       first_name: Alison
       last_name: Jolicoeur
   - type: Candidacy
-    code: CANDIDACY-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_SUPERVISOR-2026_GENERAL-JOLICOEUR_AL_5B
+    code: CANDIDACY-USA-NY-PUTNAM_VALLEY-TOWN_SUPERVISOR-2026_GENERAL-JOLICOEUR_AL_5B
     attributes:
       status: active
       participation: active
@@ -409,7 +801,7 @@ groups:
       - label: Working Together
         kind: designation
     references:
-      race: RACE-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-PUTNAM_VALLEY-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-JOLICOEUR_AL_5B
   - type: Person
     code: PERSON-GOULDMAN_WL_2M
@@ -420,7 +812,7 @@ groups:
       middle_name: J.
       last_name: Gouldman
   - type: Candidacy
-    code: CANDIDACY-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_SUPERVISOR-2026_GENERAL-GOULDMAN_WL_2M
+    code: CANDIDACY-USA-NY-PUTNAM_VALLEY-TOWN_SUPERVISOR-2026_GENERAL-GOULDMAN_WL_2M
     attributes:
       status: active
       participation: active
@@ -431,24 +823,24 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_SUPERVISOR-2026_GENERAL
+      race: RACE-USA-NY-PUTNAM_VALLEY-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-GOULDMAN_WL_2M
 - records:
   - type: Office
-    code: OFFICE-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_TOWN_JUSTICE
+    code: OFFICE-USA-NY-PUTNAM_VALLEY-TOWN_JUSTICE
     attributes:
       is_active: true
     references:
-      position: POSITION-PUTNAM_VALLEY_TOWN_JUSTICE
+      position: POSITION-TOWN_JUSTICE
       jurisdiction: MUNICIPALITY-USA-NY-PUTNAM_VALLEY
   - type: Race
-    code: RACE-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_TOWN_JUSTICE-2026_GENERAL
+    code: RACE-USA-NY-PUTNAM_VALLEY-TOWN_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: one. Retrieved: 2026-10-01. Sources: http://boe.putnamcountyny.gov/wp-content/uploads/2026/09/2026-LIST-CANDIDATES-PROPOSITIONS-GENERAL.pdf.'
     references:
       election: ELECTION-USA-NY-PUTNAM_VALLEY-2026_GENERAL
-      office: OFFICE-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_TOWN_JUSTICE
+      office: OFFICE-USA-NY-PUTNAM_VALLEY-TOWN_JUSTICE
   - type: Person
     code: PERSON-AXINN_DV_3E
     attributes:
@@ -457,7 +849,7 @@ groups:
       first_name: David
       last_name: Axinn
   - type: Candidacy
-    code: CANDIDACY-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_TOWN_JUSTICE-2026_GENERAL-AXINN_DV_3E
+    code: CANDIDACY-USA-NY-PUTNAM_VALLEY-TOWN_JUSTICE-2026_GENERAL-AXINN_DV_3E
     attributes:
       status: active
       participation: active
@@ -468,7 +860,7 @@ groups:
       - label: Working Together
         kind: designation
     references:
-      race: RACE-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_TOWN_JUSTICE-2026_GENERAL
+      race: RACE-USA-NY-PUTNAM_VALLEY-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-AXINN_DV_3E
   - type: Person
     code: PERSON-NACHAMIE_RB_9M
@@ -479,7 +871,7 @@ groups:
       middle_name: M.
       last_name: Nachamie
   - type: Candidacy
-    code: CANDIDACY-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_TOWN_JUSTICE-2026_GENERAL-NACHAMIE_RB_9M
+    code: CANDIDACY-USA-NY-PUTNAM_VALLEY-TOWN_JUSTICE-2026_GENERAL-NACHAMIE_RB_9M
     attributes:
       status: active
       participation: active
@@ -490,25 +882,25 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-PUTNAM_VALLEY-PUTNAM_VALLEY_TOWN_JUSTICE-2026_GENERAL
+      race: RACE-USA-NY-PUTNAM_VALLEY-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-NACHAMIE_RB_9M
 - records:
   - type: Office
-    code: OFFICE-USA-NY-SOUTHEAST-SOUTHEAST_SUPERVISOR-TO_FILL_AN_UNEXPIRED_TERM
+    code: OFFICE-USA-NY-SOUTHEAST-TOWN_SUPERVISOR-TO_FILL_AN_UNEXPIRED_TERM
     attributes:
       seat_code: TO_FILL_AN_UNEXPIRED_TERM
       is_active: true
     references:
-      position: POSITION-SOUTHEAST_SUPERVISOR
+      position: POSITION-TOWN_SUPERVISOR
       jurisdiction: MUNICIPALITY-USA-NY-SOUTHEAST
   - type: Race
-    code: RACE-USA-NY-SOUTHEAST-SOUTHEAST_SUPERVISOR-TO_FILL_AN_UNEXPIRED_TERM-2026_GENERAL
+    code: RACE-USA-NY-SOUTHEAST-TOWN_SUPERVISOR-TO_FILL_AN_UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Vote for: one. Retrieved: 2026-10-01. Sources: http://boe.putnamcountyny.gov/wp-content/uploads/2026/09/2026-LIST-CANDIDATES-PROPOSITIONS-GENERAL.pdf.'
     references:
       election: ELECTION-USA-NY-SOUTHEAST-2026_GENERAL
-      office: OFFICE-USA-NY-SOUTHEAST-SOUTHEAST_SUPERVISOR-TO_FILL_AN_UNEXPIRED_TERM
+      office: OFFICE-USA-NY-SOUTHEAST-TOWN_SUPERVISOR-TO_FILL_AN_UNEXPIRED_TERM
   - type: Person
     code: PERSON-CASTELLANO_JS_8N
     attributes:
@@ -518,7 +910,7 @@ groups:
       middle_name: F.
       last_name: Castellano
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SOUTHEAST-SOUTHEAST_SUPERVISOR-TO_FILL_AN_UNEXPIRED_TERM-2026_GENERAL-CASTELLANO_JS_8N
+    code: CANDIDACY-USA-NY-SOUTHEAST-TOWN_SUPERVISOR-TO_FILL_AN_UNEXPIRED_TERM-2026_GENERAL-CASTELLANO_JS_8N
     attributes:
       status: active
       participation: active
@@ -530,7 +922,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-SOUTHEAST-SOUTHEAST_SUPERVISOR-TO_FILL_AN_UNEXPIRED_TERM-2026_GENERAL
+      race: RACE-USA-NY-SOUTHEAST-TOWN_SUPERVISOR-TO_FILL_AN_UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-CASTELLANO_JS_8N
   - type: Person
     code: PERSON-ECKARDT_LY_7V
@@ -541,7 +933,7 @@ groups:
       middle_name: A.
       last_name: Eckardt
   - type: Candidacy
-    code: CANDIDACY-USA-NY-SOUTHEAST-SOUTHEAST_SUPERVISOR-TO_FILL_AN_UNEXPIRED_TERM-2026_GENERAL-ECKARDT_LY_7V
+    code: CANDIDACY-USA-NY-SOUTHEAST-TOWN_SUPERVISOR-TO_FILL_AN_UNEXPIRED_TERM-2026_GENERAL-ECKARDT_LY_7V
     attributes:
       status: active
       participation: active
@@ -552,5 +944,5 @@ groups:
       - label: Southeast United
         kind: designation
     references:
-      race: RACE-USA-NY-SOUTHEAST-SOUTHEAST_SUPERVISOR-TO_FILL_AN_UNEXPIRED_TERM-2026_GENERAL
+      race: RACE-USA-NY-SOUTHEAST-TOWN_SUPERVISOR-TO_FILL_AN_UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-ECKARDT_LY_7V

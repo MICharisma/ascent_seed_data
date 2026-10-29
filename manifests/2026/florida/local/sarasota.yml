@@ -45,21 +45,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-BLACKBURN_CREEK_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BLACKBURN_CREEK_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: BLACKBURN_CREEK_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-BLACKBURN_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-BLACKBURN_CREEK_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BLACKBURN_CREEK_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-BLACKBURN_CREEK_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BLACKBURN_CREEK_CDD_SEAT_3
   - type: Person
     code: PERSON-DAVIS_PH_9P
     attributes:
@@ -68,30 +68,30 @@ groups:
       first_name: Phil
       last_name: Davis
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-BLACKBURN_CREEK_CDD-SEAT_3-2026_GENERAL-DAVIS_PH_9P
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BLACKBURN_CREEK_CDD_SEAT_3-2026_GENERAL-DAVIS_PH_9P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-BLACKBURN_CREEK_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BLACKBURN_CREEK_CDD_SEAT_3-2026_GENERAL
       person: PERSON-DAVIS_PH_9P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-BLACKBURN_CREEK_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BLACKBURN_CREEK_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: BLACKBURN_CREEK_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-BLACKBURN_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-BLACKBURN_CREEK_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BLACKBURN_CREEK_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-BLACKBURN_CREEK_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BLACKBURN_CREEK_CDD_SEAT_4
   - type: Person
     code: PERSON-JOHNSON_KV_5D
     attributes:
@@ -101,30 +101,30 @@ groups:
       middle_name: J.
       last_name: Johnson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-BLACKBURN_CREEK_CDD-SEAT_4-2026_GENERAL-JOHNSON_KV_5D
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BLACKBURN_CREEK_CDD_SEAT_4-2026_GENERAL-JOHNSON_KV_5D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-BLACKBURN_CREEK_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BLACKBURN_CREEK_CDD_SEAT_4-2026_GENERAL
       person: PERSON-JOHNSON_KV_5D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-SMITH_MR_7M
     attributes:
@@ -133,7 +133,7 @@ groups:
       first_name: Mark
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-SMITH_MR_7M
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-SMITH_MR_7M
     attributes:
       status: active
       participation: active
@@ -142,25 +142,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-SMITH_MR_7M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-DENIRO_JM_5P
     attributes:
@@ -169,7 +169,7 @@ groups:
       first_name: Jim
       last_name: DeNiro
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-DENIRO_JM_5P
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-DENIRO_JM_5P
     attributes:
       status: active
       participation: active
@@ -178,7 +178,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-DENIRO_JM_5P
   - type: Person
     code: PERSON-LONDON_JL_4Q
@@ -188,7 +188,7 @@ groups:
       first_name: Julie
       last_name: London
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-LONDON_JL_4Q
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-LONDON_JL_4Q
     attributes:
       status: active
       participation: active
@@ -197,25 +197,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-LONDON_JL_4Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: BOBCAT_TRAIL_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-BOBCAT_TRAIL_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_1
   - type: Person
     code: PERSON-FILLER_DV_6K
     attributes:
@@ -224,12 +224,12 @@ groups:
       first_name: David
       last_name: Filler
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_1-2026_GENERAL-FILLER_DV_6K
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_1-2026_GENERAL-FILLER_DV_6K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_1-2026_GENERAL
       person: PERSON-FILLER_DV_6K
   - type: Person
     code: PERSON-KAPLAN_KR_8F
@@ -239,12 +239,12 @@ groups:
       first_name: Kristine
       last_name: Kaplan
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_1-2026_GENERAL-KAPLAN_KR_8F
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_1-2026_GENERAL-KAPLAN_KR_8F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_1-2026_GENERAL
       person: PERSON-KAPLAN_KR_8F
   - type: Person
     code: PERSON-TAYLOR_PL_4W
@@ -255,30 +255,30 @@ groups:
       middle_name: Johnson
       last_name: Taylor
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_1-2026_GENERAL-TAYLOR_PL_4W
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_1-2026_GENERAL-TAYLOR_PL_4W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_1-2026_GENERAL
       person: PERSON-TAYLOR_PL_4W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: BOBCAT_TRAIL_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-BOBCAT_TRAIL_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_2
   - type: Person
     code: PERSON-BRALL_JF_2C
     attributes:
@@ -287,30 +287,30 @@ groups:
       first_name: Jeffrey
       last_name: Brall
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_2-2026_GENERAL-BRALL_JF_2C
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_2-2026_GENERAL-BRALL_JF_2C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_2-2026_GENERAL
       person: PERSON-BRALL_JF_2C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: BOBCAT_TRAIL_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-BOBCAT_TRAIL_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_4
   - type: Person
     code: PERSON-BALL_ST_2N
     attributes:
@@ -319,12 +319,12 @@ groups:
       first_name: Steven
       last_name: Ball
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_4-2026_GENERAL-BALL_ST_2N
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_4-2026_GENERAL-BALL_ST_2N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-BOBCAT_TRAIL_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BOBCAT_TRAIL_CDD_SEAT_4-2026_GENERAL
       person: PERSON-BALL_ST_2N
 - records:
   - type: Office
@@ -360,21 +360,21 @@ groups:
       person: PERSON-HANKIN_SH_4C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_1
     attributes:
       seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-COUNTY_MISCELLANEOUS_BOARDS
+      position: POSITION-COUNTY_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_1
   - type: Person
     code: PERSON-COE_AL_3Q
     attributes:
@@ -383,7 +383,7 @@ groups:
       first_name: Alexandra
       last_name: Coe
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_1-2026_GENERAL-COE_AL_3Q
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_1-2026_GENERAL-COE_AL_3Q
     attributes:
       status: active
       participation: active
@@ -392,25 +392,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_1-2026_GENERAL
       person: PERSON-COE_AL_3Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_2
     attributes:
       seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-COUNTY_MISCELLANEOUS_BOARDS
+      position: POSITION-COUNTY_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_2
   - type: Person
     code: PERSON-BROCKWAY_G_3V
     attributes:
@@ -420,7 +420,7 @@ groups:
       middle_name: Matthew
       last_name: Brockway
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_2-2026_GENERAL-BROCKWAY_G_3V
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_2-2026_GENERAL-BROCKWAY_G_3V
     attributes:
       status: active
       participation: active
@@ -429,7 +429,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_2-2026_GENERAL
       person: PERSON-BROCKWAY_G_3V
   - type: Person
     code: PERSON-KELLER_JR_6J
@@ -439,7 +439,7 @@ groups:
       first_name: Jordan
       last_name: Keller
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_2-2026_GENERAL-KELLER_JR_6J
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_2-2026_GENERAL-KELLER_JR_6J
     attributes:
       status: active
       participation: active
@@ -448,25 +448,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_2-2026_GENERAL
       person: PERSON-KELLER_JR_6J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_3
     attributes:
       seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-COUNTY_MISCELLANEOUS_BOARDS
+      position: POSITION-COUNTY_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_3
   - type: Person
     code: PERSON-ADAMS_CH_2F
     attributes:
@@ -475,7 +475,7 @@ groups:
       first_name: Chip
       last_name: Adams
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_3-2026_GENERAL-ADAMS_CH_2F
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_3-2026_GENERAL-ADAMS_CH_2F
     attributes:
       status: active
       participation: active
@@ -484,7 +484,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_3-2026_GENERAL
       person: PERSON-ADAMS_CH_2F
   - type: Person
     code: PERSON-TATE_JM_5H
@@ -494,7 +494,7 @@ groups:
       first_name: Jim
       last_name: Tate
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_3-2026_GENERAL-TATE_JM_5H
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_3-2026_GENERAL-TATE_JM_5H
     attributes:
       status: active
       participation: active
@@ -503,25 +503,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_3-2026_GENERAL
       person: PERSON-TATE_JM_5H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_4
     attributes:
       seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-COUNTY_MISCELLANEOUS_BOARDS
+      position: POSITION-COUNTY_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_4
   - type: Person
     code: PERSON-COLLINS_TY_3T
     attributes:
@@ -531,7 +531,7 @@ groups:
       middle_name: T.
       last_name: Collins
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_4-2026_GENERAL-COLLINS_TY_3T
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_4-2026_GENERAL-COLLINS_TY_3T
     attributes:
       status: active
       participation: active
@@ -540,7 +540,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_4-2026_GENERAL
       person: PERSON-COLLINS_TY_3T
   - type: Person
     code: PERSON-WILLIAMS_RB_9V
@@ -550,7 +550,7 @@ groups:
       first_name: Robin
       last_name: Williams
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_4-2026_GENERAL-WILLIAMS_RB_9V
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_4-2026_GENERAL-WILLIAMS_RB_9V
     attributes:
       status: active
       participation: active
@@ -559,25 +559,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_4-2026_GENERAL
       person: PERSON-WILLIAMS_RB_9V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_5
     attributes:
       seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-COUNTY_MISCELLANEOUS_BOARDS
+      position: POSITION-COUNTY_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_5
   - type: Person
     code: PERSON-HALSTEAD_ER_7V
     attributes:
@@ -586,7 +586,7 @@ groups:
       first_name: Erin
       last_name: Halstead
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_5-2026_GENERAL-HALSTEAD_ER_7V
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_5-2026_GENERAL-HALSTEAD_ER_7V
     attributes:
       status: active
       participation: active
@@ -595,7 +595,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_5-2026_GENERAL
       person: PERSON-HALSTEAD_ER_7V
   - type: Person
     code: PERSON-KALE_AN_6Y
@@ -606,7 +606,7 @@ groups:
       middle_name: Doria
       last_name: Kale
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_5-2026_GENERAL-KALE_AN_6Y
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_5-2026_GENERAL-KALE_AN_6Y
     attributes:
       status: active
       participation: active
@@ -615,25 +615,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_MISCELLANEOUS_BOARDS-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COUNTY_BOARD_MEMBER-SEAT_5-2026_GENERAL
       person: PERSON-KALE_AN_6Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_CENTRAL_DISTRICT-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_CENTRAL_DISTRICT_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: HOSPITAL_BOARD_CENTRAL_DISTRICT_SEAT_2
       is_active: true
     references:
-      position: POSITION-HOSPITAL_BOARD_CENTRAL_DISTRICT
+      position: POSITION-HOSPITAL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_CENTRAL_DISTRICT-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_CENTRAL_DISTRICT_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_CENTRAL_DISTRICT-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_CENTRAL_DISTRICT_SEAT_2
   - type: Person
     code: PERSON-FIORUCCI_BR_3Z
     attributes:
@@ -642,7 +642,7 @@ groups:
       first_name: Bridgette
       last_name: Fiorucci
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_CENTRAL_DISTRICT-SEAT_2-2026_GENERAL-FIORUCCI_BR_3Z
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_CENTRAL_DISTRICT_SEAT_2-2026_GENERAL-FIORUCCI_BR_3Z
     attributes:
       status: active
       participation: active
@@ -651,25 +651,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_CENTRAL_DISTRICT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_CENTRAL_DISTRICT_SEAT_2-2026_GENERAL
       person: PERSON-FIORUCCI_BR_3Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_NORTHERN_DISTRICT-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_NORTHERN_DISTRICT_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: HOSPITAL_BOARD_NORTHERN_DISTRICT_SEAT_1
       is_active: true
     references:
-      position: POSITION-HOSPITAL_BOARD_NORTHERN_DISTRICT
+      position: POSITION-HOSPITAL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_NORTHERN_DISTRICT-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_NORTHERN_DISTRICT_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_NORTHERN_DISTRICT-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_NORTHERN_DISTRICT_SEAT_1
   - type: Person
     code: PERSON-BAKER_BR_6M
     attributes:
@@ -678,7 +678,7 @@ groups:
       first_name: Brad
       last_name: Baker
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_NORTHERN_DISTRICT-SEAT_1-2026_GENERAL-BAKER_BR_6M
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_NORTHERN_DISTRICT_SEAT_1-2026_GENERAL-BAKER_BR_6M
     attributes:
       status: active
       participation: active
@@ -687,25 +687,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_NORTHERN_DISTRICT-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_NORTHERN_DISTRICT_SEAT_1-2026_GENERAL
       person: PERSON-BAKER_BR_6M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_NORTHERN_DISTRICT-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_NORTHERN_DISTRICT_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: HOSPITAL_BOARD_NORTHERN_DISTRICT_SEAT_2
       is_active: true
     references:
-      position: POSITION-HOSPITAL_BOARD_NORTHERN_DISTRICT
+      position: POSITION-HOSPITAL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_NORTHERN_DISTRICT-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_NORTHERN_DISTRICT_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_NORTHERN_DISTRICT-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_NORTHERN_DISTRICT_SEAT_2
   - type: Person
     code: PERSON-BUTLER_TR_9J
     attributes:
@@ -714,7 +714,7 @@ groups:
       first_name: Tara
       last_name: Butler
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_NORTHERN_DISTRICT-SEAT_2-2026_GENERAL-BUTLER_TR_9J
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_NORTHERN_DISTRICT_SEAT_2-2026_GENERAL-BUTLER_TR_9J
     attributes:
       status: active
       participation: active
@@ -723,25 +723,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_NORTHERN_DISTRICT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_NORTHERN_DISTRICT_SEAT_2-2026_GENERAL
       person: PERSON-BUTLER_TR_9J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_SOUTHERN_DISTRICT-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_SOUTHERN_DISTRICT_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: HOSPITAL_BOARD_SOUTHERN_DISTRICT_SEAT_1
       is_active: true
     references:
-      position: POSITION-HOSPITAL_BOARD_SOUTHERN_DISTRICT
+      position: POSITION-HOSPITAL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_SOUTHERN_DISTRICT-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_SOUTHERN_DISTRICT_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_SOUTHERN_DISTRICT-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_SOUTHERN_DISTRICT_SEAT_1
   - type: Person
     code: PERSON-MARAIA_PT_2Q
     attributes:
@@ -750,7 +750,7 @@ groups:
       first_name: Patricia
       last_name: Maraia
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_SOUTHERN_DISTRICT-SEAT_1-2026_GENERAL-MARAIA_PT_2Q
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_SOUTHERN_DISTRICT_SEAT_1-2026_GENERAL-MARAIA_PT_2Q
     attributes:
       status: active
       participation: active
@@ -759,25 +759,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_SOUTHERN_DISTRICT-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_SOUTHERN_DISTRICT_SEAT_1-2026_GENERAL
       person: PERSON-MARAIA_PT_2Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_SOUTHERN_DISTRICT-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_SOUTHERN_DISTRICT_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: HOSPITAL_BOARD_SOUTHERN_DISTRICT_SEAT_2
       is_active: true
     references:
-      position: POSITION-HOSPITAL_BOARD_SOUTHERN_DISTRICT
+      position: POSITION-HOSPITAL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_SOUTHERN_DISTRICT-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_SOUTHERN_DISTRICT_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_SOUTHERN_DISTRICT-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_SOUTHERN_DISTRICT_SEAT_2
   - type: Person
     code: PERSON-KNIGHT_TR_2J
     attributes:
@@ -786,7 +786,7 @@ groups:
       first_name: Tracy
       last_name: Knight
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_SOUTHERN_DISTRICT-SEAT_2-2026_GENERAL-KNIGHT_TR_2J
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_SOUTHERN_DISTRICT_SEAT_2-2026_GENERAL-KNIGHT_TR_2J
     attributes:
       status: active
       participation: active
@@ -795,25 +795,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_SOUTHERN_DISTRICT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-HOSPITAL_BOARD_MEMBER-HOSPITAL_BOARD_SOUTHERN_DISTRICT_SEAT_2-2026_GENERAL
       person: PERSON-KNIGHT_TR_2J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-LT_RANCH_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LT_RANCH_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: LT_RANCH_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-LT_RANCH_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-LT_RANCH_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LT_RANCH_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-LT_RANCH_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LT_RANCH_CDD_SEAT_1
   - type: Person
     code: PERSON-HOLOWAYCHUK_AR_2Y
     attributes:
@@ -822,30 +822,30 @@ groups:
       first_name: Aaron
       last_name: Holowaychuk
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-LT_RANCH_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1-2026_GENERAL-HOLOWAYCHUK_AR_2Y
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LT_RANCH_CDD_SEAT_1-2026_GENERAL-HOLOWAYCHUK_AR_2Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-LT_RANCH_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LT_RANCH_CDD_SEAT_1-2026_GENERAL
       person: PERSON-HOLOWAYCHUK_AR_2Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-LT_RANCH_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LT_RANCH_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: LT_RANCH_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-LT_RANCH_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-LT_RANCH_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LT_RANCH_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-LT_RANCH_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LT_RANCH_CDD_SEAT_2
   - type: Person
     code: PERSON-SOGGE_MR_6B
     attributes:
@@ -854,30 +854,30 @@ groups:
       first_name: Merle
       last_name: Sogge
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-LT_RANCH_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2-2026_GENERAL-SOGGE_MR_6B
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LT_RANCH_CDD_SEAT_2-2026_GENERAL-SOGGE_MR_6B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-LT_RANCH_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LT_RANCH_CDD_SEAT_2-2026_GENERAL
       person: PERSON-SOGGE_MR_6B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: LAKESIDE_PLANTATION_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-LAKESIDE_PLANTATION_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_1
   - type: Person
     code: PERSON-WOODS_CL_6P
     attributes:
@@ -886,30 +886,30 @@ groups:
       first_name: Clint
       last_name: Woods
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_1-2026_GENERAL-WOODS_CL_6P
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_1-2026_GENERAL-WOODS_CL_6P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_1-2026_GENERAL
       person: PERSON-WOODS_CL_6P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: LAKESIDE_PLANTATION_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-LAKESIDE_PLANTATION_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_2
   - type: Person
     code: PERSON-SABOL_BD_3Z
     attributes:
@@ -918,12 +918,12 @@ groups:
       first_name: Bud
       last_name: Sabol
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_2-2026_GENERAL-SABOL_BD_3Z
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_2-2026_GENERAL-SABOL_BD_3Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_2-2026_GENERAL
       person: PERSON-SABOL_BD_3Z
   - type: Person
     code: PERSON-WILMER_FR_7P
@@ -933,30 +933,30 @@ groups:
       first_name: Francis
       last_name: Wilmer
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_2-2026_GENERAL-WILMER_FR_7P
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_2-2026_GENERAL-WILMER_FR_7P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_2-2026_GENERAL
       person: PERSON-WILMER_FR_7P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: LAKESIDE_PLANTATION_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-LAKESIDE_PLANTATION_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_3
   - type: Person
     code: PERSON-LAVOY_PT_2C
     attributes:
@@ -965,30 +965,30 @@ groups:
       first_name: Patrick
       last_name: Lavoy
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_3-2026_GENERAL-LAVOY_PT_2C
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_3-2026_GENERAL-LAVOY_PT_2C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-LAKESIDE_PLANTATION_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKESIDE_PLANTATION_CDD_SEAT_3-2026_GENERAL
       person: PERSON-LAVOY_PT_2C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-LAKEWOOD_RANCH_STEWARDSHIP_DISTRICT-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-SPECIAL_DISTRICT_BOARD_MEMBER-LAKEWOOD_RANCH_STEWARDSHIP_DISTRICT_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: LAKEWOOD_RANCH_STEWARDSHIP_DISTRICT_SEAT_3
       is_active: true
     references:
-      position: POSITION-LAKEWOOD_RANCH_STEWARDSHIP_DISTRICT
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-LAKEWOOD_RANCH_STEWARDSHIP_DISTRICT-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-SPECIAL_DISTRICT_BOARD_MEMBER-LAKEWOOD_RANCH_STEWARDSHIP_DISTRICT_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-LAKEWOOD_RANCH_STEWARDSHIP_DISTRICT-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-SPECIAL_DISTRICT_BOARD_MEMBER-LAKEWOOD_RANCH_STEWARDSHIP_DISTRICT_SEAT_3
   - type: Person
     code: PERSON-STIMART_TR_3D
     attributes:
@@ -997,12 +997,12 @@ groups:
       first_name: Tryn
       last_name: Stimart
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-LAKEWOOD_RANCH_STEWARDSHIP_DISTRICT-SEAT_3-2026_GENERAL-STIMART_TR_3D
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-SPECIAL_DISTRICT_BOARD_MEMBER-LAKEWOOD_RANCH_STEWARDSHIP_DISTRICT_SEAT_3-2026_GENERAL-STIMART_TR_3D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-LAKEWOOD_RANCH_STEWARDSHIP_DISTRICT-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-SPECIAL_DISTRICT_BOARD_MEMBER-LAKEWOOD_RANCH_STEWARDSHIP_DISTRICT_SEAT_3-2026_GENERAL
       person: PERSON-STIMART_TR_3D
   - type: Person
     code: PERSON-WHITE_HN_5F
@@ -1012,29 +1012,30 @@ groups:
       first_name: Henry
       last_name: White Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-LAKEWOOD_RANCH_STEWARDSHIP_DISTRICT-SEAT_3-2026_GENERAL-WHITE_HN_5F
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-SPECIAL_DISTRICT_BOARD_MEMBER-LAKEWOOD_RANCH_STEWARDSHIP_DISTRICT_SEAT_3-2026_GENERAL-WHITE_HN_5F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-LAKEWOOD_RANCH_STEWARDSHIP_DISTRICT-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-SPECIAL_DISTRICT_BOARD_MEMBER-LAKEWOOD_RANCH_STEWARDSHIP_DISTRICT_SEAT_3-2026_GENERAL
       person: PERSON-WHITE_HN_5F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-NORTH_PORT-NORTH_PORT_CITY_COMMISSIONER_DISTRICT_SEAT_4
+    code: OFFICE-USA-FL-NORTH_PORT-COMMISSIONER-SEAT_4
     attributes:
+      seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-NORTH_PORT_CITY_COMMISSIONER_DISTRICT_SEAT_4
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-NORTH_PORT
   - type: Race
-    code: RACE-USA-FL-NORTH_PORT-NORTH_PORT_CITY_COMMISSIONER_DISTRICT_SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-NORTH_PORT-COMMISSIONER-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sarasota&el=153.'
     references:
       election: ELECTION-USA-FL-NORTH_PORT-2026_GENERAL
-      office: OFFICE-USA-FL-NORTH_PORT-NORTH_PORT_CITY_COMMISSIONER_DISTRICT_SEAT_4
+      office: OFFICE-USA-FL-NORTH_PORT-COMMISSIONER-SEAT_4
   - type: Person
     code: PERSON-ALLEN_EMRICH_EL_7L
     attributes:
@@ -1043,12 +1044,12 @@ groups:
       first_name: Elaine
       last_name: Allen-Emrich
   - type: Candidacy
-    code: CANDIDACY-USA-FL-NORTH_PORT-NORTH_PORT_CITY_COMMISSIONER_DISTRICT_SEAT_4-2026_GENERAL-ALLEN_EMRICH_EL_7L
+    code: CANDIDACY-USA-FL-NORTH_PORT-COMMISSIONER-SEAT_4-2026_GENERAL-ALLEN_EMRICH_EL_7L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-NORTH_PORT-NORTH_PORT_CITY_COMMISSIONER_DISTRICT_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-NORTH_PORT-COMMISSIONER-SEAT_4-2026_GENERAL
       person: PERSON-ALLEN_EMRICH_EL_7L
   - type: Person
     code: PERSON-DUNCHYK_LY_7Z
@@ -1059,29 +1060,30 @@ groups:
       middle_name: Andrashko
       last_name: Dunchyk
   - type: Candidacy
-    code: CANDIDACY-USA-FL-NORTH_PORT-NORTH_PORT_CITY_COMMISSIONER_DISTRICT_SEAT_4-2026_GENERAL-DUNCHYK_LY_7Z
+    code: CANDIDACY-USA-FL-NORTH_PORT-COMMISSIONER-SEAT_4-2026_GENERAL-DUNCHYK_LY_7Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-NORTH_PORT-NORTH_PORT_CITY_COMMISSIONER_DISTRICT_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-NORTH_PORT-COMMISSIONER-SEAT_4-2026_GENERAL
       person: PERSON-DUNCHYK_LY_7Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-NORTH_PORT-NORTH_PORT_CITY_COMMISSIONER_DISTRICT_SEAT_5
+    code: OFFICE-USA-FL-NORTH_PORT-COMMISSIONER-SEAT_5
     attributes:
+      seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-NORTH_PORT_CITY_COMMISSIONER_DISTRICT_SEAT_5
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-NORTH_PORT
   - type: Race
-    code: RACE-USA-FL-NORTH_PORT-NORTH_PORT_CITY_COMMISSIONER_DISTRICT_SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-NORTH_PORT-COMMISSIONER-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sarasota&el=153.'
     references:
       election: ELECTION-USA-FL-NORTH_PORT-2026_GENERAL
-      office: OFFICE-USA-FL-NORTH_PORT-NORTH_PORT_CITY_COMMISSIONER_DISTRICT_SEAT_5
+      office: OFFICE-USA-FL-NORTH_PORT-COMMISSIONER-SEAT_5
   - type: Person
     code: PERSON-LISITSYN_OL_8R
     attributes:
@@ -1091,12 +1093,12 @@ groups:
       middle_name: Mikhaylovich
       last_name: Lisitsyn
   - type: Candidacy
-    code: CANDIDACY-USA-FL-NORTH_PORT-NORTH_PORT_CITY_COMMISSIONER_DISTRICT_SEAT_5-2026_GENERAL-LISITSYN_OL_8R
+    code: CANDIDACY-USA-FL-NORTH_PORT-COMMISSIONER-SEAT_5-2026_GENERAL-LISITSYN_OL_8R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-NORTH_PORT-NORTH_PORT_CITY_COMMISSIONER_DISTRICT_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-NORTH_PORT-COMMISSIONER-SEAT_5-2026_GENERAL
       person: PERSON-LISITSYN_OL_8R
   - type: Person
     code: PERSON-STOKES_PH_4S
@@ -1107,29 +1109,30 @@ groups:
       middle_name: Michael
       last_name: Stokes
   - type: Candidacy
-    code: CANDIDACY-USA-FL-NORTH_PORT-NORTH_PORT_CITY_COMMISSIONER_DISTRICT_SEAT_5-2026_GENERAL-STOKES_PH_4S
+    code: CANDIDACY-USA-FL-NORTH_PORT-COMMISSIONER-SEAT_5-2026_GENERAL-STOKES_PH_4S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-NORTH_PORT-NORTH_PORT_CITY_COMMISSIONER_DISTRICT_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-NORTH_PORT-COMMISSIONER-SEAT_5-2026_GENERAL
       person: PERSON-STOKES_PH_4S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-SARASOTA-SARASOTA_CITY_COMMISSIONER_AT_LARGE
+    code: OFFICE-USA-FL-SARASOTA-COMMISSIONER-AT_LARGE
     attributes:
+      seat_code: AT_LARGE
       is_active: true
     references:
-      position: POSITION-SARASOTA_CITY_COMMISSIONER_AT_LARGE
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-SARASOTA-SARASOTA_CITY_COMMISSIONER_AT_LARGE-2026_GENERAL
+    code: RACE-USA-FL-SARASOTA-COMMISSIONER-AT_LARGE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sarasota&el=149.'
     references:
       election: ELECTION-USA-FL-SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-SARASOTA-SARASOTA_CITY_COMMISSIONER_AT_LARGE
+      office: OFFICE-USA-FL-SARASOTA-COMMISSIONER-AT_LARGE
   - type: Person
     code: PERSON-AHEARN_KOCH_JN_8M
     attributes:
@@ -1138,12 +1141,12 @@ groups:
       first_name: Jen
       last_name: Ahearn-Koch
   - type: Candidacy
-    code: CANDIDACY-USA-FL-SARASOTA-SARASOTA_CITY_COMMISSIONER_AT_LARGE-2026_GENERAL-AHEARN_KOCH_JN_8M
+    code: CANDIDACY-USA-FL-SARASOTA-COMMISSIONER-AT_LARGE-2026_GENERAL-AHEARN_KOCH_JN_8M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-SARASOTA-SARASOTA_CITY_COMMISSIONER_AT_LARGE-2026_GENERAL
+      race: RACE-USA-FL-SARASOTA-COMMISSIONER-AT_LARGE-2026_GENERAL
       person: PERSON-AHEARN_KOCH_JN_8M
   - type: Person
     code: PERSON-ENTLER_FL_4K
@@ -1153,12 +1156,12 @@ groups:
       first_name: Florence
       last_name: Entler
   - type: Candidacy
-    code: CANDIDACY-USA-FL-SARASOTA-SARASOTA_CITY_COMMISSIONER_AT_LARGE-2026_GENERAL-ENTLER_FL_4K
+    code: CANDIDACY-USA-FL-SARASOTA-COMMISSIONER-AT_LARGE-2026_GENERAL-ENTLER_FL_4K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-SARASOTA-SARASOTA_CITY_COMMISSIONER_AT_LARGE-2026_GENERAL
+      race: RACE-USA-FL-SARASOTA-COMMISSIONER-AT_LARGE-2026_GENERAL
       person: PERSON-ENTLER_FL_4K
   - type: Person
     code: PERSON-HARSHMAN_JH_9H
@@ -1168,12 +1171,12 @@ groups:
       first_name: John
       last_name: Harshman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-SARASOTA-SARASOTA_CITY_COMMISSIONER_AT_LARGE-2026_GENERAL-HARSHMAN_JH_9H
+    code: CANDIDACY-USA-FL-SARASOTA-COMMISSIONER-AT_LARGE-2026_GENERAL-HARSHMAN_JH_9H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-SARASOTA-SARASOTA_CITY_COMMISSIONER_AT_LARGE-2026_GENERAL
+      race: RACE-USA-FL-SARASOTA-COMMISSIONER-AT_LARGE-2026_GENERAL
       person: PERSON-HARSHMAN_JH_9H
   - type: Person
     code: PERSON-KHODORKOVSKY_YV_3D
@@ -1183,12 +1186,12 @@ groups:
       first_name: Yevgeny
       last_name: Khodorkovsky
   - type: Candidacy
-    code: CANDIDACY-USA-FL-SARASOTA-SARASOTA_CITY_COMMISSIONER_AT_LARGE-2026_GENERAL-KHODORKOVSKY_YV_3D
+    code: CANDIDACY-USA-FL-SARASOTA-COMMISSIONER-AT_LARGE-2026_GENERAL-KHODORKOVSKY_YV_3D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-SARASOTA-SARASOTA_CITY_COMMISSIONER_AT_LARGE-2026_GENERAL
+      race: RACE-USA-FL-SARASOTA-COMMISSIONER-AT_LARGE-2026_GENERAL
       person: PERSON-KHODORKOVSKY_YV_3D
   - type: Person
     code: PERSON-ROMINIECKI_RB_4J
@@ -1198,30 +1201,30 @@ groups:
       first_name: Rob
       last_name: Rominiecki
   - type: Candidacy
-    code: CANDIDACY-USA-FL-SARASOTA-SARASOTA_CITY_COMMISSIONER_AT_LARGE-2026_GENERAL-ROMINIECKI_RB_4J
+    code: CANDIDACY-USA-FL-SARASOTA-COMMISSIONER-AT_LARGE-2026_GENERAL-ROMINIECKI_RB_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-SARASOTA-SARASOTA_CITY_COMMISSIONER_AT_LARGE-2026_GENERAL
+      race: RACE-USA-FL-SARASOTA-COMMISSIONER-AT_LARGE-2026_GENERAL
       person: PERSON-ROMINIECKI_RB_4J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: SARASOTA_NATIONAL_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-SARASOTA_NATIONAL_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_1
   - type: Person
     code: PERSON-LEUSCHNER_CR_9N
     attributes:
@@ -1230,30 +1233,30 @@ groups:
       first_name: Cary
       last_name: Leuschner
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_1-2026_GENERAL-LEUSCHNER_CR_9N
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_1-2026_GENERAL-LEUSCHNER_CR_9N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_1-2026_GENERAL
       person: PERSON-LEUSCHNER_CR_9N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: SARASOTA_NATIONAL_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-SARASOTA_NATIONAL_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_4
   - type: Person
     code: PERSON-CENTNER_JM_9U
     attributes:
@@ -1262,12 +1265,12 @@ groups:
       first_name: Jim
       last_name: Centner
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_4-2026_GENERAL-CENTNER_JM_9U
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_4-2026_GENERAL-CENTNER_JM_9U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_4-2026_GENERAL
       person: PERSON-CENTNER_JM_9U
   - type: Person
     code: PERSON-KASL_DG_9D
@@ -1278,30 +1281,30 @@ groups:
       middle_name: J.
       last_name: Kasl
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_4-2026_GENERAL-KASL_DG_9D
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_4-2026_GENERAL-KASL_DG_9D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_4-2026_GENERAL
       person: PERSON-KASL_DG_9D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: SARASOTA_NATIONAL_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-SARASOTA_NATIONAL_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_5
   - type: Person
     code: PERSON-DUTHIE_PT_9T
     attributes:
@@ -1311,30 +1314,30 @@ groups:
       middle_name: C.
       last_name: Duthie
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_5-2026_GENERAL-DUTHIE_PT_9T
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_5-2026_GENERAL-DUTHIE_PT_9T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-SARASOTA_NATIONAL_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SARASOTA_NATIONAL_CDD_SEAT_5-2026_GENERAL
       person: PERSON-DUTHIE_PT_9T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-BRANDT_HD_7U
     attributes:
@@ -1343,12 +1346,12 @@ groups:
       first_name: Heidi
       last_name: Brandt
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-BRANDT_HD_7U
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-BRANDT_HD_7U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-BRANDT_HD_7U
   - type: Person
     code: PERSON-GLOVER_JM_6J
@@ -1358,30 +1361,30 @@ groups:
       first_name: Jimmy
       last_name: Glover
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-GLOVER_JM_6J
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-GLOVER_JM_6J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-GLOVER_JM_6J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-TENNIMON_MG_3V
     attributes:
@@ -1390,30 +1393,30 @@ groups:
       first_name: Megan
       last_name: Tennimon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-TENNIMON_MG_3V
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-TENNIMON_MG_3V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-TENNIMON_MG_3V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-MAYBERRY_BT_7R
     attributes:
@@ -1422,30 +1425,30 @@ groups:
       first_name: Beth
       last_name: Mayberry
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-MAYBERRY_BT_7R
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-MAYBERRY_BT_7R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-MAYBERRY_BT_7R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-STONEYBROOK_AT_VENICE_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONEYBROOK_AT_VENICE_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: STONEYBROOK_AT_VENICE_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-STONEYBROOK_AT_VENICE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-STONEYBROOK_AT_VENICE_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONEYBROOK_AT_VENICE_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-STONEYBROOK_AT_VENICE_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONEYBROOK_AT_VENICE_CDD_SEAT_2
   - type: Person
     code: PERSON-COMPTON_GR_4D
     attributes:
@@ -1455,30 +1458,30 @@ groups:
       middle_name: R.
       last_name: Compton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-STONEYBROOK_AT_VENICE_CDD-SEAT_2-2026_GENERAL-COMPTON_GR_4D
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONEYBROOK_AT_VENICE_CDD_SEAT_2-2026_GENERAL-COMPTON_GR_4D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-STONEYBROOK_AT_VENICE_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONEYBROOK_AT_VENICE_CDD_SEAT_2-2026_GENERAL
       person: PERSON-COMPTON_GR_4D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-STONEYBROOK_AT_VENICE_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONEYBROOK_AT_VENICE_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: STONEYBROOK_AT_VENICE_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-STONEYBROOK_AT_VENICE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-STONEYBROOK_AT_VENICE_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONEYBROOK_AT_VENICE_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-STONEYBROOK_AT_VENICE_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONEYBROOK_AT_VENICE_CDD_SEAT_5
   - type: Person
     code: PERSON-CORY_DV_4W
     attributes:
@@ -1487,30 +1490,30 @@ groups:
       first_name: Dave
       last_name: Cory
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-STONEYBROOK_AT_VENICE_CDD-SEAT_5-2026_GENERAL-CORY_DV_4W
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONEYBROOK_AT_VENICE_CDD_SEAT_5-2026_GENERAL-CORY_DV_4W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-STONEYBROOK_AT_VENICE_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONEYBROOK_AT_VENICE_CDD_SEAT_5-2026_GENERAL
       person: PERSON-CORY_DV_4W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-THE_WOODLANDS_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_WOODLANDS_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: THE_WOODLANDS_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-THE_WOODLANDS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-THE_WOODLANDS_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_WOODLANDS_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-THE_WOODLANDS_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_WOODLANDS_CDD_SEAT_1
   - type: Person
     code: PERSON-YAGER_ST_9V
     attributes:
@@ -1519,30 +1522,30 @@ groups:
       first_name: Steven
       last_name: Yager
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-THE_WOODLANDS_CDD-SEAT_1-2026_GENERAL-YAGER_ST_9V
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_WOODLANDS_CDD_SEAT_1-2026_GENERAL-YAGER_ST_9V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-THE_WOODLANDS_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_WOODLANDS_CDD_SEAT_1-2026_GENERAL
       person: PERSON-YAGER_ST_9V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-THE_WOODLANDS_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_WOODLANDS_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: THE_WOODLANDS_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-THE_WOODLANDS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-THE_WOODLANDS_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_WOODLANDS_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-THE_WOODLANDS_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_WOODLANDS_CDD_SEAT_2
   - type: Person
     code: PERSON-ALDRICH_JY_2V
     attributes:
@@ -1551,30 +1554,30 @@ groups:
       first_name: Jay
       last_name: Aldrich
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-THE_WOODLANDS_CDD-SEAT_2-2026_GENERAL-ALDRICH_JY_2V
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_WOODLANDS_CDD_SEAT_2-2026_GENERAL-ALDRICH_JY_2V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-THE_WOODLANDS_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_WOODLANDS_CDD_SEAT_2-2026_GENERAL
       person: PERSON-ALDRICH_JY_2V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-TOSCANA_ISLES_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TOSCANA_ISLES_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: TOSCANA_ISLES_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-TOSCANA_ISLES_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-TOSCANA_ISLES_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TOSCANA_ISLES_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-TOSCANA_ISLES_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TOSCANA_ISLES_CDD_SEAT_1
   - type: Person
     code: PERSON-SIMMONS_CH_8P
     attributes:
@@ -1583,30 +1586,30 @@ groups:
       first_name: Chris
       last_name: Simmons
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-TOSCANA_ISLES_CDD-SEAT_1-2026_GENERAL-SIMMONS_CH_8P
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TOSCANA_ISLES_CDD_SEAT_1-2026_GENERAL-SIMMONS_CH_8P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-TOSCANA_ISLES_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TOSCANA_ISLES_CDD_SEAT_1-2026_GENERAL
       person: PERSON-SIMMONS_CH_8P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-TOSCANA_ISLES_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TOSCANA_ISLES_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: TOSCANA_ISLES_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-TOSCANA_ISLES_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-TOSCANA_ISLES_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TOSCANA_ISLES_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-TOSCANA_ISLES_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TOSCANA_ISLES_CDD_SEAT_3
   - type: Person
     code: PERSON-MANZELLA_RB_9Y
     attributes:
@@ -1615,30 +1618,30 @@ groups:
       first_name: Robert
       last_name: Manzella
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-TOSCANA_ISLES_CDD-SEAT_3-2026_GENERAL-MANZELLA_RB_9Y
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TOSCANA_ISLES_CDD_SEAT_3-2026_GENERAL-MANZELLA_RB_9Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-TOSCANA_ISLES_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TOSCANA_ISLES_CDD_SEAT_3-2026_GENERAL
       person: PERSON-MANZELLA_RB_9Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-VENETIAN_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VENETIAN_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: VENETIAN_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-VENETIAN_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-VENETIAN_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VENETIAN_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-VENETIAN_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VENETIAN_CDD_SEAT_2
   - type: Person
     code: PERSON-MATTSON_BY_5L
     attributes:
@@ -1647,30 +1650,30 @@ groups:
       first_name: Byron
       last_name: Mattson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-VENETIAN_CDD-SEAT_2-2026_GENERAL-MATTSON_BY_5L
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VENETIAN_CDD_SEAT_2-2026_GENERAL-MATTSON_BY_5L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-VENETIAN_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VENETIAN_CDD_SEAT_2-2026_GENERAL
       person: PERSON-MATTSON_BY_5L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-VENETIAN_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VENETIAN_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: VENETIAN_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-VENETIAN_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-VENETIAN_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VENETIAN_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-VENETIAN_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VENETIAN_CDD_SEAT_4
   - type: Person
     code: PERSON-TERRANA_CH_2L
     attributes:
@@ -1680,30 +1683,30 @@ groups:
       middle_name: Harmon
       last_name: Terrana
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-VENETIAN_CDD-SEAT_4-2026_GENERAL-TERRANA_CH_2L
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VENETIAN_CDD_SEAT_4-2026_GENERAL-TERRANA_CH_2L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-VENETIAN_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VENETIAN_CDD_SEAT_4-2026_GENERAL
       person: PERSON-TERRANA_CH_2L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-WEST_VILLAGES_IMPROVEMENT_DISTRICT-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-SPECIAL_DISTRICT_BOARD_MEMBER-WEST_VILLAGES_IMPROVEMENT_DISTRICT_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: WEST_VILLAGES_IMPROVEMENT_DISTRICT_SEAT_5
       is_active: true
     references:
-      position: POSITION-WEST_VILLAGES_IMPROVEMENT_DISTRICT
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-WEST_VILLAGES_IMPROVEMENT_DISTRICT-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-SPECIAL_DISTRICT_BOARD_MEMBER-WEST_VILLAGES_IMPROVEMENT_DISTRICT_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-WEST_VILLAGES_IMPROVEMENT_DISTRICT-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-SPECIAL_DISTRICT_BOARD_MEMBER-WEST_VILLAGES_IMPROVEMENT_DISTRICT_SEAT_5
   - type: Person
     code: PERSON-HAMMAR_JM_5U
     attributes:
@@ -1712,30 +1715,30 @@ groups:
       first_name: James
       last_name: Hammar
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-WEST_VILLAGES_IMPROVEMENT_DISTRICT-SEAT_5-2026_GENERAL-HAMMAR_JM_5U
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-SPECIAL_DISTRICT_BOARD_MEMBER-WEST_VILLAGES_IMPROVEMENT_DISTRICT_SEAT_5-2026_GENERAL-HAMMAR_JM_5U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-WEST_VILLAGES_IMPROVEMENT_DISTRICT-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-SPECIAL_DISTRICT_BOARD_MEMBER-WEST_VILLAGES_IMPROVEMENT_DISTRICT_SEAT_5-2026_GENERAL
       person: PERSON-HAMMAR_JM_5U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-WINDWARD_AT_LAKEWOOD_RANCH-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WINDWARD_AT_LAKEWOOD_RANCH_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: WINDWARD_AT_LAKEWOOD_RANCH_SEAT_2
       is_active: true
     references:
-      position: POSITION-WINDWARD_AT_LAKEWOOD_RANCH
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-WINDWARD_AT_LAKEWOOD_RANCH-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WINDWARD_AT_LAKEWOOD_RANCH_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-WINDWARD_AT_LAKEWOOD_RANCH-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WINDWARD_AT_LAKEWOOD_RANCH_SEAT_2
   - type: Person
     code: PERSON-MASCERA_LR_4X
     attributes:
@@ -1744,30 +1747,30 @@ groups:
       first_name: Laurence
       last_name: Mascera
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-WINDWARD_AT_LAKEWOOD_RANCH-SEAT_2-2026_GENERAL-MASCERA_LR_4X
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WINDWARD_AT_LAKEWOOD_RANCH_SEAT_2-2026_GENERAL-MASCERA_LR_4X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-WINDWARD_AT_LAKEWOOD_RANCH-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WINDWARD_AT_LAKEWOOD_RANCH_SEAT_2-2026_GENERAL
       person: PERSON-MASCERA_LR_4X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SARASOTA-WINDWARD_AT_LAKEWOOD_RANCH-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WINDWARD_AT_LAKEWOOD_RANCH_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: WINDWARD_AT_LAKEWOOD_RANCH_SEAT_5
       is_active: true
     references:
-      position: POSITION-WINDWARD_AT_LAKEWOOD_RANCH
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SARASOTA
   - type: Race
-    code: RACE-USA-FL-COUNTY_SARASOTA-WINDWARD_AT_LAKEWOOD_RANCH-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WINDWARD_AT_LAKEWOOD_RANCH_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SARASOTA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SARASOTA-WINDWARD_AT_LAKEWOOD_RANCH-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WINDWARD_AT_LAKEWOOD_RANCH_SEAT_5
   - type: Person
     code: PERSON-NOAKES_JH_9P
     attributes:
@@ -1776,12 +1779,12 @@ groups:
       first_name: John
       last_name: Noakes
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-WINDWARD_AT_LAKEWOOD_RANCH-SEAT_5-2026_GENERAL-NOAKES_JH_9P
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WINDWARD_AT_LAKEWOOD_RANCH_SEAT_5-2026_GENERAL-NOAKES_JH_9P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-WINDWARD_AT_LAKEWOOD_RANCH-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WINDWARD_AT_LAKEWOOD_RANCH_SEAT_5-2026_GENERAL
       person: PERSON-NOAKES_JH_9P
   - type: Person
     code: PERSON-WINTERS_RY_5S
@@ -1792,10 +1795,10 @@ groups:
       middle_name: Martin
       last_name: Winters
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-WINDWARD_AT_LAKEWOOD_RANCH-SEAT_5-2026_GENERAL-WINTERS_RY_5S
+    code: CANDIDACY-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WINDWARD_AT_LAKEWOOD_RANCH_SEAT_5-2026_GENERAL-WINTERS_RY_5S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SARASOTA-WINDWARD_AT_LAKEWOOD_RANCH-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SARASOTA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WINDWARD_AT_LAKEWOOD_RANCH_SEAT_5-2026_GENERAL
       person: PERSON-WINTERS_RY_5S

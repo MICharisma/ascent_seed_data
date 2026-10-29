@@ -19,35 +19,35 @@ records:
     jurisdiction: COUNTY-USA-VA-AUGUSTA
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_AUGUSTA-2026_GENERAL
+  code: ELECTION-USA-VA-CRAIGSVILLE-2026_GENERAL
   attributes:
-    name: Augusta County General Election 2026
+    name: Craigsville General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-AUGUSTA
+    jurisdiction: MUNICIPALITY-USA-VA-CRAIGSVILLE
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_AUGUSTA-MEMBER_SCHOOL_BOARD-RIVERHEADS_DISTRICT
+    code: OFFICE-USA-VA-COUNTY_AUGUSTA-SCHOOL_BOARD_MEMBER-RIVERHEADS_DISTRICT
     attributes:
       seat_code: RIVERHEADS_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-AUGUSTA
   - type: Race
-    code: RACE-USA-VA-COUNTY_AUGUSTA-MEMBER_SCHOOL_BOARD-RIVERHEADS_DISTRICT-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_AUGUSTA-SCHOOL_BOARD_MEMBER-RIVERHEADS_DISTRICT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_AUGUSTA-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_AUGUSTA-MEMBER_SCHOOL_BOARD-RIVERHEADS_DISTRICT
+      office: OFFICE-USA-VA-COUNTY_AUGUSTA-SCHOOL_BOARD_MEMBER-RIVERHEADS_DISTRICT
   - type: Person
     code: PERSON-MCELVEEN_KT_9V
     attributes:
@@ -57,12 +57,12 @@ groups:
       middle_name: J.
       last_name: McElveen
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_AUGUSTA-MEMBER_SCHOOL_BOARD-RIVERHEADS_DISTRICT-2026_SPECIAL-MCELVEEN_KT_9V
+    code: CANDIDACY-USA-VA-COUNTY_AUGUSTA-SCHOOL_BOARD_MEMBER-RIVERHEADS_DISTRICT-2026_SPECIAL-MCELVEEN_KT_9V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_AUGUSTA-MEMBER_SCHOOL_BOARD-RIVERHEADS_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_AUGUSTA-SCHOOL_BOARD_MEMBER-RIVERHEADS_DISTRICT-2026_SPECIAL
       person: PERSON-MCELVEEN_KT_9V
   - type: Person
     code: PERSON-KYLE_ST_6L
@@ -73,30 +73,29 @@ groups:
       middle_name: R. "Steve"
       last_name: Kyle
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_AUGUSTA-MEMBER_SCHOOL_BOARD-RIVERHEADS_DISTRICT-2026_SPECIAL-KYLE_ST_6L
+    code: CANDIDACY-USA-VA-COUNTY_AUGUSTA-SCHOOL_BOARD_MEMBER-RIVERHEADS_DISTRICT-2026_SPECIAL-KYLE_ST_6L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_AUGUSTA-MEMBER_SCHOOL_BOARD-RIVERHEADS_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_AUGUSTA-SCHOOL_BOARD_MEMBER-RIVERHEADS_DISTRICT-2026_SPECIAL
       person: PERSON-KYLE_ST_6L
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_AUGUSTA-MEMBER_TOWN_COUNCIL_CRAIGSVILLE-TOWN_OF_CRAIGSVILLE
+    code: OFFICE-USA-VA-CRAIGSVILLE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_CRAIGSVILLE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_CRAIGSVILLE
-      jurisdiction: COUNTY-USA-VA-AUGUSTA
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-CRAIGSVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_AUGUSTA-MEMBER_TOWN_COUNCIL_CRAIGSVILLE-TOWN_OF_CRAIGSVILLE-2026_GENERAL
+    code: RACE-USA-VA-CRAIGSVILLE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_AUGUSTA-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_AUGUSTA-MEMBER_TOWN_COUNCIL_CRAIGSVILLE-TOWN_OF_CRAIGSVILLE
+      election: ELECTION-USA-VA-CRAIGSVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-CRAIGSVILLE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-COLE_EM_6D
     attributes:
@@ -106,12 +105,12 @@ groups:
       middle_name: B.
       last_name: Cole
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_AUGUSTA-MEMBER_TOWN_COUNCIL_CRAIGSVILLE-TOWN_OF_CRAIGSVILLE-2026_GENERAL-COLE_EM_6D
+    code: CANDIDACY-USA-VA-CRAIGSVILLE-COUNCIL_MEMBER-2026_GENERAL-COLE_EM_6D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_AUGUSTA-MEMBER_TOWN_COUNCIL_CRAIGSVILLE-TOWN_OF_CRAIGSVILLE-2026_GENERAL
+      race: RACE-USA-VA-CRAIGSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-COLE_EM_6D
   - type: Person
     code: PERSON-FOX_RC_8A
@@ -122,12 +121,12 @@ groups:
       middle_name: L.
       last_name: Fox
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_AUGUSTA-MEMBER_TOWN_COUNCIL_CRAIGSVILLE-TOWN_OF_CRAIGSVILLE-2026_GENERAL-FOX_RC_8A
+    code: CANDIDACY-USA-VA-CRAIGSVILLE-COUNCIL_MEMBER-2026_GENERAL-FOX_RC_8A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_AUGUSTA-MEMBER_TOWN_COUNCIL_CRAIGSVILLE-TOWN_OF_CRAIGSVILLE-2026_GENERAL
+      race: RACE-USA-VA-CRAIGSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FOX_RC_8A
   - type: Person
     code: PERSON-MORAN_VR_5E
@@ -138,10 +137,10 @@ groups:
       middle_name: L.
       last_name: Moran
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_AUGUSTA-MEMBER_TOWN_COUNCIL_CRAIGSVILLE-TOWN_OF_CRAIGSVILLE-2026_GENERAL-MORAN_VR_5E
+    code: CANDIDACY-USA-VA-CRAIGSVILLE-COUNCIL_MEMBER-2026_GENERAL-MORAN_VR_5E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_AUGUSTA-MEMBER_TOWN_COUNCIL_CRAIGSVILLE-TOWN_OF_CRAIGSVILLE-2026_GENERAL
+      race: RACE-USA-VA-CRAIGSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MORAN_VR_5E

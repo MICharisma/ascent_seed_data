@@ -21,22 +21,22 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-QUEENS
+    code: OFFICE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-QUEENS
     attributes:
       seat_code: QUEENS
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_COUNTY
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-QUEENS
   - type: Race
-    code: RACE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-QUEENS-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-QUEENS-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 3. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_QUEENS-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-QUEENS
+      office: OFFICE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-QUEENS
   - type: Person
     code: PERSON-WONG_ED_2U
     attributes:
@@ -45,7 +45,7 @@ groups:
       first_name: Edmond
       last_name: Wong
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-QUEENS-2026_GENERAL-WONG_ED_2U
+    code: CANDIDACY-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-QUEENS-2026_GENERAL-WONG_ED_2U
     attributes:
       status: active
       participation: active
@@ -54,7 +54,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-QUEENS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-QUEENS-2026_GENERAL
       person: PERSON-WONG_ED_2U
   - type: Person
     code: PERSON-VALLE_BUENO_JS_3G
@@ -65,7 +65,7 @@ groups:
       middle_name: I.
       last_name: Valle-Bueno
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-QUEENS-2026_GENERAL-VALLE_BUENO_JS_3G
+    code: CANDIDACY-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-QUEENS-2026_GENERAL-VALLE_BUENO_JS_3G
     attributes:
       status: active
       participation: active
@@ -74,7 +74,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-QUEENS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-QUEENS-2026_GENERAL
       person: PERSON-VALLE_BUENO_JS_3G
   - type: Person
     code: PERSON-MILNER_JL_2W
@@ -85,7 +85,7 @@ groups:
       middle_name: M.
       last_name: Milner
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-QUEENS-2026_GENERAL-MILNER_JL_2W
+    code: CANDIDACY-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-QUEENS-2026_GENERAL-MILNER_JL_2W
     attributes:
       status: active
       participation: active
@@ -97,7 +97,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-QUEENS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-QUEENS-2026_GENERAL
       person: PERSON-MILNER_JL_2W
   - type: Person
     code: PERSON-MOSSA_MC_5J
@@ -107,7 +107,7 @@ groups:
       first_name: Michael
       last_name: Mossa
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-QUEENS-2026_GENERAL-MOSSA_MC_5J
+    code: CANDIDACY-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-QUEENS-2026_GENERAL-MOSSA_MC_5J
     attributes:
       status: active
       participation: active
@@ -119,7 +119,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-QUEENS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-QUEENS-2026_GENERAL
       person: PERSON-MOSSA_MC_5J
   - type: Person
     code: PERSON-BARRA_TH_9F
@@ -130,7 +130,7 @@ groups:
       middle_name: D.
       last_name: Barra
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-QUEENS-2026_GENERAL-BARRA_TH_9F
+    code: CANDIDACY-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-QUEENS-2026_GENERAL-BARRA_TH_9F
     attributes:
       status: active
       participation: active
@@ -142,26 +142,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_COUNTY-QUEENS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-QUEENS-2026_GENERAL
       person: PERSON-BARRA_TH_9F
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_QUEENS
+    code: OFFICE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_QUEENS
     attributes:
       seat_code: 2ND_MUNICIPAL_COURT_DISTRICT_QUEENS
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-QUEENS
   - type: Race
-    code: RACE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 1. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_QUEENS-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_QUEENS
+      office: OFFICE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_QUEENS
   - type: Person
     code: PERSON-KELLER_JN_3D
     attributes:
@@ -171,7 +171,7 @@ groups:
       middle_name: Ellen
       last_name: Keller
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL-KELLER_JN_3D
+    code: CANDIDACY-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL-KELLER_JN_3D
     attributes:
       status: active
       participation: active
@@ -180,7 +180,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL
       person: PERSON-KELLER_JN_3D
   - type: Person
     code: PERSON-DACHTERA_ST_3D
@@ -191,7 +191,7 @@ groups:
       middle_name: C.
       last_name: Dachtera
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL-DACHTERA_ST_3D
+    code: CANDIDACY-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL-DACHTERA_ST_3D
     attributes:
       status: active
       participation: active
@@ -200,26 +200,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL
       person: PERSON-DACHTERA_ST_3D
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_QUEENS
+    code: OFFICE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_QUEENS
     attributes:
       seat_code: 3RD_MUNICIPAL_COURT_DISTRICT_QUEENS
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-QUEENS
   - type: Race
-    code: RACE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 1. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_QUEENS-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_QUEENS
+      office: OFFICE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_QUEENS
   - type: Person
     code: PERSON-MCSWEENEY_ORTIZ_MC_4G
     attributes:
@@ -229,7 +229,7 @@ groups:
       middle_name: Ann
       last_name: McSweeney-Ortiz
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL-MCSWEENEY_ORTIZ_MC_4G
+    code: CANDIDACY-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL-MCSWEENEY_ORTIZ_MC_4G
     attributes:
       status: active
       participation: active
@@ -238,7 +238,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL
       person: PERSON-MCSWEENEY_ORTIZ_MC_4G
   - type: Person
     code: PERSON-SHANAHAN_WL_4M
@@ -249,7 +249,7 @@ groups:
       middle_name: David
       last_name: Shanahan
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL-SHANAHAN_WL_4M
+    code: CANDIDACY-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL-SHANAHAN_WL_4M
     attributes:
       status: active
       participation: active
@@ -261,26 +261,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL
       person: PERSON-SHANAHAN_WL_4M
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_QUEENS
+    code: OFFICE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_QUEENS
     attributes:
       seat_code: 4TH_MUNICIPAL_COURT_DISTRICT_QUEENS
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-QUEENS
   - type: Race
-    code: RACE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 1. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_QUEENS-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_QUEENS
+      office: OFFICE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_QUEENS
   - type: Person
     code: PERSON-IRIZARRY_ED_6P
     attributes:
@@ -289,7 +289,7 @@ groups:
       first_name: Edward
       last_name: Irizarry
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL-IRIZARRY_ED_6P
+    code: CANDIDACY-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL-IRIZARRY_ED_6P
     attributes:
       status: active
       participation: active
@@ -298,5 +298,5 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_QUEENS-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_QUEENS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_QUEENS-2026_GENERAL
       person: PERSON-IRIZARRY_ED_6P

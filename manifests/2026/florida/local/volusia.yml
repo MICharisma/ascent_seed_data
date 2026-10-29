@@ -201,21 +201,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-ATL
+    code: OFFICE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-ATL
     attributes:
       seat_code: ATL
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-VOLUSIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-ATL-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-ATL-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_VOLUSIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-ATL
+      office: OFFICE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-ATL
   - type: Person
     code: PERSON-MILLER_NN_2M
     attributes:
@@ -224,12 +224,12 @@ groups:
       first_name: Nancy
       last_name: Miller
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-ATL-2026_GENERAL-MILLER_NN_2M
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-ATL-2026_GENERAL-MILLER_NN_2M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-ATL-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-ATL-2026_GENERAL
       person: PERSON-MILLER_NN_2M
   - type: Person
     code: PERSON-PONIATOWSKI_MC_4M
@@ -239,30 +239,30 @@ groups:
       first_name: Michael
       last_name: Poniatowski
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-ATL-2026_GENERAL-PONIATOWSKI_MC_4M
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-ATL-2026_GENERAL-PONIATOWSKI_MC_4M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-ATL-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-ATL-2026_GENERAL
       person: PERSON-PONIATOWSKI_MC_4M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-VOLUSIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_VOLUSIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_1
   - type: Person
     code: PERSON-ANDERSON_WN_3Y
     attributes:
@@ -271,12 +271,12 @@ groups:
       first_name: Wendy
       last_name: Anderson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL-ANDERSON_WN_3Y
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL-ANDERSON_WN_3Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL
       person: PERSON-ANDERSON_WN_3Y
   - type: Person
     code: PERSON-DEMPSEY_DN_9C
@@ -286,30 +286,30 @@ groups:
       first_name: Don
       last_name: Dempsey
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL-DEMPSEY_DN_9C
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL-DEMPSEY_DN_9C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL
       person: PERSON-DEMPSEY_DN_9C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-VOLUSIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_VOLUSIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_3
   - type: Person
     code: PERSON-ROBINS_DN_2V
     attributes:
@@ -318,12 +318,12 @@ groups:
       first_name: Danny
       last_name: Robins
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_3-2026_GENERAL-ROBINS_DN_2V
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_3-2026_GENERAL-ROBINS_DN_2V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_3-2026_GENERAL
       person: PERSON-ROBINS_DN_2V
   - type: Person
     code: PERSON-WHITE_BR_3H
@@ -333,30 +333,30 @@ groups:
       first_name: Bryon
       last_name: White
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_3-2026_GENERAL-WHITE_BR_3H
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_3-2026_GENERAL-WHITE_BR_3H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_3-2026_GENERAL
       person: PERSON-WHITE_BR_3H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-VOLUSIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_VOLUSIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_5
   - type: Person
     code: PERSON-SANTIAGO_DV_7S
     attributes:
@@ -365,12 +365,12 @@ groups:
       first_name: David
       last_name: Santiago
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_5-2026_GENERAL-SANTIAGO_DV_7S
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_5-2026_GENERAL-SANTIAGO_DV_7S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_5-2026_GENERAL
       person: PERSON-SANTIAGO_DV_7S
   - type: Person
     code: PERSON-SOSA_J_2Q
@@ -381,12 +381,12 @@ groups:
       middle_name: David
       last_name: Sosa
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_5-2026_GENERAL-SOSA_J_2Q
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_5-2026_GENERAL-SOSA_J_2Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-COUNTY_COMMISSIONER-DISTRICT_5-2026_GENERAL
       person: PERSON-SOSA_J_2Q
 - records:
   - type: Office
@@ -552,20 +552,21 @@ groups:
       person: PERSON-DEMPSEY_AN_3S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DAYTONA_BEACH-DAYTONA_BEACH_COMMISSIONER_ZONE_1
+    code: OFFICE-USA-FL-DAYTONA_BEACH-COMMISSIONER-ZONE_1
     attributes:
+      seat_code: ZONE_1
       is_active: true
     references:
-      position: POSITION-DAYTONA_BEACH_COMMISSIONER_ZONE_1
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-DAYTONA_BEACH
   - type: Race
-    code: RACE-USA-FL-DAYTONA_BEACH-DAYTONA_BEACH_COMMISSIONER_ZONE_1-2026_GENERAL
+    code: RACE-USA-FL-DAYTONA_BEACH-COMMISSIONER-ZONE_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-DAYTONA_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-DAYTONA_BEACH-DAYTONA_BEACH_COMMISSIONER_ZONE_1
+      office: OFFICE-USA-FL-DAYTONA_BEACH-COMMISSIONER-ZONE_1
   - type: Person
     code: PERSON-NAVARRA_JH_5F
     attributes:
@@ -574,12 +575,12 @@ groups:
       first_name: John
       last_name: Navarra
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DAYTONA_BEACH-DAYTONA_BEACH_COMMISSIONER_ZONE_1-2026_GENERAL-NAVARRA_JH_5F
+    code: CANDIDACY-USA-FL-DAYTONA_BEACH-COMMISSIONER-ZONE_1-2026_GENERAL-NAVARRA_JH_5F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DAYTONA_BEACH-DAYTONA_BEACH_COMMISSIONER_ZONE_1-2026_GENERAL
+      race: RACE-USA-FL-DAYTONA_BEACH-COMMISSIONER-ZONE_1-2026_GENERAL
       person: PERSON-NAVARRA_JH_5F
   - type: Person
     code: PERSON-PARIS_MN_7M
@@ -589,29 +590,30 @@ groups:
       first_name: Monica
       last_name: Paris
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DAYTONA_BEACH-DAYTONA_BEACH_COMMISSIONER_ZONE_1-2026_GENERAL-PARIS_MN_7M
+    code: CANDIDACY-USA-FL-DAYTONA_BEACH-COMMISSIONER-ZONE_1-2026_GENERAL-PARIS_MN_7M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DAYTONA_BEACH-DAYTONA_BEACH_COMMISSIONER_ZONE_1-2026_GENERAL
+      race: RACE-USA-FL-DAYTONA_BEACH-COMMISSIONER-ZONE_1-2026_GENERAL
       person: PERSON-PARIS_MN_7M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DAYTONA_BEACH-DAYTONA_BEACH_COMMISSIONER_ZONE_3
+    code: OFFICE-USA-FL-DAYTONA_BEACH-COMMISSIONER-ZONE_3
     attributes:
+      seat_code: ZONE_3
       is_active: true
     references:
-      position: POSITION-DAYTONA_BEACH_COMMISSIONER_ZONE_3
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-DAYTONA_BEACH
   - type: Race
-    code: RACE-USA-FL-DAYTONA_BEACH-DAYTONA_BEACH_COMMISSIONER_ZONE_3-2026_GENERAL
+    code: RACE-USA-FL-DAYTONA_BEACH-COMMISSIONER-ZONE_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-DAYTONA_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-DAYTONA_BEACH-DAYTONA_BEACH_COMMISSIONER_ZONE_3
+      office: OFFICE-USA-FL-DAYTONA_BEACH-COMMISSIONER-ZONE_3
   - type: Person
     code: PERSON-MAY_QN_3E
     attributes:
@@ -620,12 +622,12 @@ groups:
       first_name: Quanita
       last_name: May
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DAYTONA_BEACH-DAYTONA_BEACH_COMMISSIONER_ZONE_3-2026_GENERAL-MAY_QN_3E
+    code: CANDIDACY-USA-FL-DAYTONA_BEACH-COMMISSIONER-ZONE_3-2026_GENERAL-MAY_QN_3E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DAYTONA_BEACH-DAYTONA_BEACH_COMMISSIONER_ZONE_3-2026_GENERAL
+      race: RACE-USA-FL-DAYTONA_BEACH-COMMISSIONER-ZONE_3-2026_GENERAL
       person: PERSON-MAY_QN_3E
   - type: Person
     code: PERSON-MILLER_ST_6A
@@ -635,29 +637,30 @@ groups:
       first_name: Steve
       last_name: Miller
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DAYTONA_BEACH-DAYTONA_BEACH_COMMISSIONER_ZONE_3-2026_GENERAL-MILLER_ST_6A
+    code: CANDIDACY-USA-FL-DAYTONA_BEACH-COMMISSIONER-ZONE_3-2026_GENERAL-MILLER_ST_6A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DAYTONA_BEACH-DAYTONA_BEACH_COMMISSIONER_ZONE_3-2026_GENERAL
+      race: RACE-USA-FL-DAYTONA_BEACH-COMMISSIONER-ZONE_3-2026_GENERAL
       person: PERSON-MILLER_ST_6A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DAYTONA_BEACH_SHORES-DAYTONA_BEACH_SHORES_COMMISSION_SEAT_1
+    code: OFFICE-USA-FL-DAYTONA_BEACH_SHORES-COMMISSIONER-SEAT_1
     attributes:
+      seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-DAYTONA_BEACH_SHORES_COMMISSION_SEAT_1
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-DAYTONA_BEACH_SHORES
   - type: Race
-    code: RACE-USA-FL-DAYTONA_BEACH_SHORES-DAYTONA_BEACH_SHORES_COMMISSION_SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-DAYTONA_BEACH_SHORES-COMMISSIONER-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-DAYTONA_BEACH_SHORES-2026_GENERAL
-      office: OFFICE-USA-FL-DAYTONA_BEACH_SHORES-DAYTONA_BEACH_SHORES_COMMISSION_SEAT_1
+      office: OFFICE-USA-FL-DAYTONA_BEACH_SHORES-COMMISSIONER-SEAT_1
   - type: Person
     code: PERSON-CONOMOS_CH_3Y
     attributes:
@@ -666,29 +669,30 @@ groups:
       first_name: Chris
       last_name: Conomos
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DAYTONA_BEACH_SHORES-DAYTONA_BEACH_SHORES_COMMISSION_SEAT_1-2026_GENERAL-CONOMOS_CH_3Y
+    code: CANDIDACY-USA-FL-DAYTONA_BEACH_SHORES-COMMISSIONER-SEAT_1-2026_GENERAL-CONOMOS_CH_3Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DAYTONA_BEACH_SHORES-DAYTONA_BEACH_SHORES_COMMISSION_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-DAYTONA_BEACH_SHORES-COMMISSIONER-SEAT_1-2026_GENERAL
       person: PERSON-CONOMOS_CH_3Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DAYTONA_BEACH_SHORES-DAYTONA_BEACH_SHORES_COMMISSION_SEAT_3
+    code: OFFICE-USA-FL-DAYTONA_BEACH_SHORES-COMMISSIONER-SEAT_3
     attributes:
+      seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-DAYTONA_BEACH_SHORES_COMMISSION_SEAT_3
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-DAYTONA_BEACH_SHORES
   - type: Race
-    code: RACE-USA-FL-DAYTONA_BEACH_SHORES-DAYTONA_BEACH_SHORES_COMMISSION_SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-DAYTONA_BEACH_SHORES-COMMISSIONER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-DAYTONA_BEACH_SHORES-2026_GENERAL
-      office: OFFICE-USA-FL-DAYTONA_BEACH_SHORES-DAYTONA_BEACH_SHORES_COMMISSION_SEAT_3
+      office: OFFICE-USA-FL-DAYTONA_BEACH_SHORES-COMMISSIONER-SEAT_3
   - type: Person
     code: PERSON-DONVITO_VN_5A
     attributes:
@@ -697,29 +701,29 @@ groups:
       first_name: Vince
       last_name: DonVito
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DAYTONA_BEACH_SHORES-DAYTONA_BEACH_SHORES_COMMISSION_SEAT_3-2026_GENERAL-DONVITO_VN_5A
+    code: CANDIDACY-USA-FL-DAYTONA_BEACH_SHORES-COMMISSIONER-SEAT_3-2026_GENERAL-DONVITO_VN_5A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DAYTONA_BEACH_SHORES-DAYTONA_BEACH_SHORES_COMMISSION_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-DAYTONA_BEACH_SHORES-COMMISSIONER-SEAT_3-2026_GENERAL
       person: PERSON-DONVITO_VN_5A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DAYTONA_BEACH_SHORES-DAYTONA_BEACH_SHORES_MAYOR
+    code: OFFICE-USA-FL-DAYTONA_BEACH_SHORES-MAYOR
     attributes:
       is_active: true
     references:
-      position: POSITION-DAYTONA_BEACH_SHORES_MAYOR
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-DAYTONA_BEACH_SHORES
   - type: Race
-    code: RACE-USA-FL-DAYTONA_BEACH_SHORES-DAYTONA_BEACH_SHORES_MAYOR-2026_GENERAL
+    code: RACE-USA-FL-DAYTONA_BEACH_SHORES-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-DAYTONA_BEACH_SHORES-2026_GENERAL
-      office: OFFICE-USA-FL-DAYTONA_BEACH_SHORES-DAYTONA_BEACH_SHORES_MAYOR
+      office: OFFICE-USA-FL-DAYTONA_BEACH_SHORES-MAYOR
   - type: Person
     code: PERSON-DEMBINSKY_ST_3L
     attributes:
@@ -728,29 +732,30 @@ groups:
       first_name: Stephan
       last_name: Dembinsky
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DAYTONA_BEACH_SHORES-DAYTONA_BEACH_SHORES_MAYOR-2026_GENERAL-DEMBINSKY_ST_3L
+    code: CANDIDACY-USA-FL-DAYTONA_BEACH_SHORES-MAYOR-2026_GENERAL-DEMBINSKY_ST_3L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DAYTONA_BEACH_SHORES-DAYTONA_BEACH_SHORES_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-DAYTONA_BEACH_SHORES-MAYOR-2026_GENERAL
       person: PERSON-DEMBINSKY_ST_3L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DEBARY-DEBARY_COUNCIL_SEAT_3
+    code: OFFICE-USA-FL-DEBARY-COUNCIL_MEMBER-SEAT_3
     attributes:
+      seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-DEBARY_COUNCIL_SEAT_3
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-DEBARY
   - type: Race
-    code: RACE-USA-FL-DEBARY-DEBARY_COUNCIL_SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-DEBARY-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-DEBARY-2026_GENERAL
-      office: OFFICE-USA-FL-DEBARY-DEBARY_COUNCIL_SEAT_3
+      office: OFFICE-USA-FL-DEBARY-COUNCIL_MEMBER-SEAT_3
   - type: Person
     code: PERSON-SCHECK_MC_8E
     attributes:
@@ -759,29 +764,30 @@ groups:
       first_name: Michael
       last_name: Scheck
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DEBARY-DEBARY_COUNCIL_SEAT_3-2026_GENERAL-SCHECK_MC_8E
+    code: CANDIDACY-USA-FL-DEBARY-COUNCIL_MEMBER-SEAT_3-2026_GENERAL-SCHECK_MC_8E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DEBARY-DEBARY_COUNCIL_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-DEBARY-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
       person: PERSON-SCHECK_MC_8E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DEBARY-DEBARY_COUNCIL_SEAT_4
+    code: OFFICE-USA-FL-DEBARY-COUNCIL_MEMBER-SEAT_4
     attributes:
+      seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-DEBARY_COUNCIL_SEAT_4
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-DEBARY
   - type: Race
-    code: RACE-USA-FL-DEBARY-DEBARY_COUNCIL_SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-DEBARY-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-DEBARY-2026_GENERAL
-      office: OFFICE-USA-FL-DEBARY-DEBARY_COUNCIL_SEAT_4
+      office: OFFICE-USA-FL-DEBARY-COUNCIL_MEMBER-SEAT_4
   - type: Person
     code: PERSON-ADAMS_CH_9X
     attributes:
@@ -790,29 +796,30 @@ groups:
       first_name: Christopher
       last_name: Adams
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DEBARY-DEBARY_COUNCIL_SEAT_4-2026_GENERAL-ADAMS_CH_9X
+    code: CANDIDACY-USA-FL-DEBARY-COUNCIL_MEMBER-SEAT_4-2026_GENERAL-ADAMS_CH_9X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DEBARY-DEBARY_COUNCIL_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-DEBARY-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
       person: PERSON-ADAMS_CH_9X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DEBARY-DEBARY_MAYOR_SEAT_5
+    code: OFFICE-USA-FL-DEBARY-MAYOR-SEAT_5
     attributes:
+      seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-DEBARY_MAYOR_SEAT_5
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-DEBARY
   - type: Race
-    code: RACE-USA-FL-DEBARY-DEBARY_MAYOR_SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-DEBARY-MAYOR-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-DEBARY-2026_GENERAL
-      office: OFFICE-USA-FL-DEBARY-DEBARY_MAYOR_SEAT_5
+      office: OFFICE-USA-FL-DEBARY-MAYOR-SEAT_5
   - type: Person
     code: PERSON-BUTLIEN_PH_2H
     attributes:
@@ -821,12 +828,12 @@ groups:
       first_name: Phyllis
       last_name: Butlien
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DEBARY-DEBARY_MAYOR_SEAT_5-2026_GENERAL-BUTLIEN_PH_2H
+    code: CANDIDACY-USA-FL-DEBARY-MAYOR-SEAT_5-2026_GENERAL-BUTLIEN_PH_2H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DEBARY-DEBARY_MAYOR_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-DEBARY-MAYOR-SEAT_5-2026_GENERAL
       person: PERSON-BUTLIEN_PH_2H
   - type: Person
     code: PERSON-HANDY_PETERS_LT_8C
@@ -836,29 +843,30 @@ groups:
       first_name: Lita
       last_name: Handy-Peters
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DEBARY-DEBARY_MAYOR_SEAT_5-2026_GENERAL-HANDY_PETERS_LT_8C
+    code: CANDIDACY-USA-FL-DEBARY-MAYOR-SEAT_5-2026_GENERAL-HANDY_PETERS_LT_8C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DEBARY-DEBARY_MAYOR_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-DEBARY-MAYOR-SEAT_5-2026_GENERAL
       person: PERSON-HANDY_PETERS_LT_8C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DELAND-DELAND_COMMISSION_SEAT_3
+    code: OFFICE-USA-FL-DELAND-COMMISSIONER-SEAT_3
     attributes:
+      seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-DELAND_COMMISSION_SEAT_3
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-DELAND
   - type: Race
-    code: RACE-USA-FL-DELAND-DELAND_COMMISSION_SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-DELAND-COMMISSIONER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-DELAND-2026_GENERAL
-      office: OFFICE-USA-FL-DELAND-DELAND_COMMISSION_SEAT_3
+      office: OFFICE-USA-FL-DELAND-COMMISSIONER-SEAT_3
   - type: Person
     code: PERSON-DAVIS_JS_4S
     attributes:
@@ -867,29 +875,30 @@ groups:
       first_name: Jessica
       last_name: Davis
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DELAND-DELAND_COMMISSION_SEAT_3-2026_GENERAL-DAVIS_JS_4S
+    code: CANDIDACY-USA-FL-DELAND-COMMISSIONER-SEAT_3-2026_GENERAL-DAVIS_JS_4S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DELAND-DELAND_COMMISSION_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-DELAND-COMMISSIONER-SEAT_3-2026_GENERAL
       person: PERSON-DAVIS_JS_4S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DELAND-DELAND_COMMISSION_SEAT_5
+    code: OFFICE-USA-FL-DELAND-COMMISSIONER-SEAT_5
     attributes:
+      seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-DELAND_COMMISSION_SEAT_5
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-DELAND
   - type: Race
-    code: RACE-USA-FL-DELAND-DELAND_COMMISSION_SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-DELAND-COMMISSIONER-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-DELAND-2026_GENERAL
-      office: OFFICE-USA-FL-DELAND-DELAND_COMMISSION_SEAT_5
+      office: OFFICE-USA-FL-DELAND-COMMISSIONER-SEAT_5
   - type: Person
     code: PERSON-REID_KV_4J
     attributes:
@@ -898,29 +907,30 @@ groups:
       first_name: Kevin
       last_name: Reid
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DELAND-DELAND_COMMISSION_SEAT_5-2026_GENERAL-REID_KV_4J
+    code: CANDIDACY-USA-FL-DELAND-COMMISSIONER-SEAT_5-2026_GENERAL-REID_KV_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DELAND-DELAND_COMMISSION_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-DELAND-COMMISSIONER-SEAT_5-2026_GENERAL
       person: PERSON-REID_KV_4J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DELAND-DELAND_MAYOR_SEAT_1
+    code: OFFICE-USA-FL-DELAND-MAYOR-SEAT_1
     attributes:
+      seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-DELAND_MAYOR_SEAT_1
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-DELAND
   - type: Race
-    code: RACE-USA-FL-DELAND-DELAND_MAYOR_SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-DELAND-MAYOR-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-DELAND-2026_GENERAL
-      office: OFFICE-USA-FL-DELAND-DELAND_MAYOR_SEAT_1
+      office: OFFICE-USA-FL-DELAND-MAYOR-SEAT_1
   - type: Person
     code: PERSON-CLOUDMAN_CH_3J
     attributes:
@@ -930,29 +940,30 @@ groups:
       middle_name: M.
       last_name: Cloudman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DELAND-DELAND_MAYOR_SEAT_1-2026_GENERAL-CLOUDMAN_CH_3J
+    code: CANDIDACY-USA-FL-DELAND-MAYOR-SEAT_1-2026_GENERAL-CLOUDMAN_CH_3J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DELAND-DELAND_MAYOR_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-DELAND-MAYOR-SEAT_1-2026_GENERAL
       person: PERSON-CLOUDMAN_CH_3J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_1
+    code: OFFICE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_1
     attributes:
+      seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-DELTONA_COMMISSION_DISTRICT_1
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-DELTONA
   - type: Race
-    code: RACE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-DELTONA-2026_GENERAL
-      office: OFFICE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_1
+      office: OFFICE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_1
   - type: Person
     code: PERSON-HERIOT_DV_5C
     attributes:
@@ -961,12 +972,12 @@ groups:
       first_name: Davison
       last_name: Heriot
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_1-2026_GENERAL-HERIOT_DV_5C
+    code: CANDIDACY-USA-FL-DELTONA-COMMISSIONER-DISTRICT_1-2026_GENERAL-HERIOT_DV_5C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_1-2026_GENERAL
       person: PERSON-HERIOT_DV_5C
   - type: Person
     code: PERSON-WHITE_BR_5R
@@ -976,29 +987,30 @@ groups:
       first_name: Brandy
       last_name: White
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_1-2026_GENERAL-WHITE_BR_5R
+    code: CANDIDACY-USA-FL-DELTONA-COMMISSIONER-DISTRICT_1-2026_GENERAL-WHITE_BR_5R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_1-2026_GENERAL
       person: PERSON-WHITE_BR_5R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_3
+    code: OFFICE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_3
     attributes:
+      seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-DELTONA_COMMISSION_DISTRICT_3
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-DELTONA
   - type: Race
-    code: RACE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-DELTONA-2026_GENERAL
-      office: OFFICE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_3
+      office: OFFICE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_3
   - type: Person
     code: PERSON-DERRICO_TR_7P
     attributes:
@@ -1007,12 +1019,12 @@ groups:
       first_name: Tara
       last_name: D'Errico
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_3-2026_GENERAL-DERRICO_TR_7P
+    code: CANDIDACY-USA-FL-DELTONA-COMMISSIONER-DISTRICT_3-2026_GENERAL-DERRICO_TR_7P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_3-2026_GENERAL
       person: PERSON-DERRICO_TR_7P
   - type: Person
     code: PERSON-ODONNELL_SN_8B
@@ -1022,29 +1034,30 @@ groups:
       first_name: Sean
       last_name: O'Donnell
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_3-2026_GENERAL-ODONNELL_SN_8B
+    code: CANDIDACY-USA-FL-DELTONA-COMMISSIONER-DISTRICT_3-2026_GENERAL-ODONNELL_SN_8B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_3-2026_GENERAL
       person: PERSON-ODONNELL_SN_8B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_5
+    code: OFFICE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_5
     attributes:
+      seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-DELTONA_COMMISSION_DISTRICT_5
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-DELTONA
   - type: Race
-    code: RACE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-DELTONA-2026_GENERAL
-      office: OFFICE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_5
+      office: OFFICE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_5
   - type: Person
     code: PERSON-BELLINGHAM_CH_7F
     attributes:
@@ -1053,12 +1066,12 @@ groups:
       first_name: Christopher
       last_name: Bellingham
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_5-2026_GENERAL-BELLINGHAM_CH_7F
+    code: CANDIDACY-USA-FL-DELTONA-COMMISSIONER-DISTRICT_5-2026_GENERAL-BELLINGHAM_CH_7F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_5-2026_GENERAL
       person: PERSON-BELLINGHAM_CH_7F
   - type: Person
     code: PERSON-COLWELL_ST_5L
@@ -1069,29 +1082,30 @@ groups:
       middle_name: R.
       last_name: Colwell, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_5-2026_GENERAL-COLWELL_ST_5L
+    code: CANDIDACY-USA-FL-DELTONA-COMMISSIONER-DISTRICT_5-2026_GENERAL-COLWELL_ST_5L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_5-2026_GENERAL
       person: PERSON-COLWELL_ST_5L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_6
+    code: OFFICE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_6
     attributes:
+      seat_code: DISTRICT_6
       is_active: true
     references:
-      position: POSITION-DELTONA_COMMISSION_DISTRICT_6
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-DELTONA
   - type: Race
-    code: RACE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_6-2026_GENERAL
+    code: RACE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_6-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-DELTONA-2026_GENERAL
-      office: OFFICE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_6
+      office: OFFICE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_6
   - type: Person
     code: PERSON-NABICHT_CH_3E
     attributes:
@@ -1100,12 +1114,12 @@ groups:
       first_name: Chris
       last_name: Nabicht
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_6-2026_GENERAL-NABICHT_CH_3E
+    code: CANDIDACY-USA-FL-DELTONA-COMMISSIONER-DISTRICT_6-2026_GENERAL-NABICHT_CH_3E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_6-2026_GENERAL
+      race: RACE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_6-2026_GENERAL
       person: PERSON-NABICHT_CH_3E
   - type: Person
     code: PERSON-OBRIEN_CH_6E
@@ -1115,29 +1129,29 @@ groups:
       first_name: Christian
       last_name: O'Brien
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_6-2026_GENERAL-OBRIEN_CH_6E
+    code: CANDIDACY-USA-FL-DELTONA-COMMISSIONER-DISTRICT_6-2026_GENERAL-OBRIEN_CH_6E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DELTONA-DELTONA_COMMISSION_DISTRICT_6-2026_GENERAL
+      race: RACE-USA-FL-DELTONA-COMMISSIONER-DISTRICT_6-2026_GENERAL
       person: PERSON-OBRIEN_CH_6E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DELTONA-DELTONA_MAYOR
+    code: OFFICE-USA-FL-DELTONA-MAYOR
     attributes:
       is_active: true
     references:
-      position: POSITION-DELTONA_MAYOR
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-DELTONA
   - type: Race
-    code: RACE-USA-FL-DELTONA-DELTONA_MAYOR-2026_GENERAL
+    code: RACE-USA-FL-DELTONA-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-DELTONA-2026_GENERAL
-      office: OFFICE-USA-FL-DELTONA-DELTONA_MAYOR
+      office: OFFICE-USA-FL-DELTONA-MAYOR
   - type: Person
     code: PERSON-VAZQUEZ_MR_5A
     attributes:
@@ -1147,29 +1161,30 @@ groups:
       middle_name: A.
       last_name: Vazquez
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DELTONA-DELTONA_MAYOR-2026_GENERAL-VAZQUEZ_MR_5A
+    code: CANDIDACY-USA-FL-DELTONA-MAYOR-2026_GENERAL-VAZQUEZ_MR_5A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DELTONA-DELTONA_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-DELTONA-MAYOR-2026_GENERAL
       person: PERSON-VAZQUEZ_MR_5A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-EDGEWATER-EDGEWATER_COUNCIL_DISTRICT_1
+    code: OFFICE-USA-FL-EDGEWATER-COUNCIL_MEMBER-DISTRICT_1
     attributes:
+      seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-EDGEWATER_COUNCIL_DISTRICT_1
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-EDGEWATER
   - type: Race
-    code: RACE-USA-FL-EDGEWATER-EDGEWATER_COUNCIL_DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-EDGEWATER-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-EDGEWATER-2026_GENERAL
-      office: OFFICE-USA-FL-EDGEWATER-EDGEWATER_COUNCIL_DISTRICT_1
+      office: OFFICE-USA-FL-EDGEWATER-COUNCIL_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-GILLIS_CH_5Z
     attributes:
@@ -1179,12 +1194,12 @@ groups:
       middle_name: Hope
       last_name: Gillis
   - type: Candidacy
-    code: CANDIDACY-USA-FL-EDGEWATER-EDGEWATER_COUNCIL_DISTRICT_1-2026_GENERAL-GILLIS_CH_5Z
+    code: CANDIDACY-USA-FL-EDGEWATER-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL-GILLIS_CH_5Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-EDGEWATER-EDGEWATER_COUNCIL_DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-EDGEWATER-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-GILLIS_CH_5Z
   - type: Person
     code: PERSON-MARTIN_CH_4W
@@ -1194,29 +1209,30 @@ groups:
       first_name: Chuck
       last_name: Martin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-EDGEWATER-EDGEWATER_COUNCIL_DISTRICT_1-2026_GENERAL-MARTIN_CH_4W
+    code: CANDIDACY-USA-FL-EDGEWATER-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL-MARTIN_CH_4W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-EDGEWATER-EDGEWATER_COUNCIL_DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-EDGEWATER-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-MARTIN_CH_4W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-EDGEWATER-EDGEWATER_COUNCIL_DISTRICT_3
+    code: OFFICE-USA-FL-EDGEWATER-COUNCIL_MEMBER-DISTRICT_3
     attributes:
+      seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-EDGEWATER_COUNCIL_DISTRICT_3
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-EDGEWATER
   - type: Race
-    code: RACE-USA-FL-EDGEWATER-EDGEWATER_COUNCIL_DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-EDGEWATER-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-EDGEWATER-2026_GENERAL
-      office: OFFICE-USA-FL-EDGEWATER-EDGEWATER_COUNCIL_DISTRICT_3
+      office: OFFICE-USA-FL-EDGEWATER-COUNCIL_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-DOLBOW_DB_5J
     attributes:
@@ -1225,12 +1241,12 @@ groups:
       first_name: Debbie
       last_name: Dolbow
   - type: Candidacy
-    code: CANDIDACY-USA-FL-EDGEWATER-EDGEWATER_COUNCIL_DISTRICT_3-2026_GENERAL-DOLBOW_DB_5J
+    code: CANDIDACY-USA-FL-EDGEWATER-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL-DOLBOW_DB_5J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-EDGEWATER-EDGEWATER_COUNCIL_DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-EDGEWATER-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-DOLBOW_DB_5J
   - type: Person
     code: PERSON-MCGINNIS_JM_4X
@@ -1240,29 +1256,30 @@ groups:
       first_name: Jim
       last_name: McGinnis
   - type: Candidacy
-    code: CANDIDACY-USA-FL-EDGEWATER-EDGEWATER_COUNCIL_DISTRICT_3-2026_GENERAL-MCGINNIS_JM_4X
+    code: CANDIDACY-USA-FL-EDGEWATER-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL-MCGINNIS_JM_4X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-EDGEWATER-EDGEWATER_COUNCIL_DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-EDGEWATER-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-MCGINNIS_JM_4X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-HOLLY_HILL-HOLLY_HILL_COMMISSION_DISTRICT_4
+    code: OFFICE-USA-FL-HOLLY_HILL-COMMISSIONER-DISTRICT_4
     attributes:
+      seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-HOLLY_HILL_COMMISSION_DISTRICT_4
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-HOLLY_HILL
   - type: Race
-    code: RACE-USA-FL-HOLLY_HILL-HOLLY_HILL_COMMISSION_DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-HOLLY_HILL-COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-HOLLY_HILL-2026_GENERAL
-      office: OFFICE-USA-FL-HOLLY_HILL-HOLLY_HILL_COMMISSION_DISTRICT_4
+      office: OFFICE-USA-FL-HOLLY_HILL-COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-SANSOM_DM_8A
     attributes:
@@ -1271,30 +1288,30 @@ groups:
       first_name: Damon
       last_name: Sansom
   - type: Candidacy
-    code: CANDIDACY-USA-FL-HOLLY_HILL-HOLLY_HILL_COMMISSION_DISTRICT_4-2026_GENERAL-SANSOM_DM_8A
+    code: CANDIDACY-USA-FL-HOLLY_HILL-COMMISSIONER-DISTRICT_4-2026_GENERAL-SANSOM_DM_8A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-HOLLY_HILL-HOLLY_HILL_COMMISSION_DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-HOLLY_HILL-COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-SANSOM_DM_8A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_VOLUSIA-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: INDIGO_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-VOLUSIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_VOLUSIA-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_VOLUSIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_VOLUSIA-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_CDD_SEAT_1
   - type: Person
     code: PERSON-BYRNE_RN_6A
     attributes:
@@ -1303,30 +1320,30 @@ groups:
       first_name: Ron
       last_name: Byrne
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1-2026_GENERAL-BYRNE_RN_6A
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_CDD_SEAT_1-2026_GENERAL-BYRNE_RN_6A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_CDD_SEAT_1-2026_GENERAL
       person: PERSON-BYRNE_RN_6A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_VOLUSIA-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: INDIGO_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-VOLUSIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_VOLUSIA-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_VOLUSIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_VOLUSIA-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_CDD_SEAT_3
   - type: Person
     code: PERSON-BROWN_RN_7B
     attributes:
@@ -1335,30 +1352,30 @@ groups:
       first_name: Ronald
       last_name: Brown
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3-2026_GENERAL-BROWN_RN_7B
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_CDD_SEAT_3-2026_GENERAL-BROWN_RN_7B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_CDD_SEAT_3-2026_GENERAL
       person: PERSON-BROWN_RN_7B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_VOLUSIA-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: INDIGO_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-VOLUSIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_VOLUSIA-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_VOLUSIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_VOLUSIA-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_CDD_SEAT_5
   - type: Person
     code: PERSON-MCCOMMON_MR_5S
     attributes:
@@ -1367,29 +1384,30 @@ groups:
       first_name: Mark
       last_name: McCommon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5-2026_GENERAL-MCCOMMON_MR_5S
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_CDD_SEAT_5-2026_GENERAL-MCCOMMON_MR_5S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-INDIGO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-INDIGO_CDD_SEAT_5-2026_GENERAL
       person: PERSON-MCCOMMON_MR_5S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-LAKE_HELEN-LAKE_HELEN_COMMISSION_ZONE_2
+    code: OFFICE-USA-FL-LAKE_HELEN-COMMISSIONER-ZONE_2
     attributes:
+      seat_code: ZONE_2
       is_active: true
     references:
-      position: POSITION-LAKE_HELEN_COMMISSION_ZONE_2
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-LAKE_HELEN
   - type: Race
-    code: RACE-USA-FL-LAKE_HELEN-LAKE_HELEN_COMMISSION_ZONE_2-2026_GENERAL
+    code: RACE-USA-FL-LAKE_HELEN-COMMISSIONER-ZONE_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-LAKE_HELEN-2026_GENERAL
-      office: OFFICE-USA-FL-LAKE_HELEN-LAKE_HELEN_COMMISSION_ZONE_2
+      office: OFFICE-USA-FL-LAKE_HELEN-COMMISSIONER-ZONE_2
   - type: Person
     code: PERSON-FARMER_ER_4S
     attributes:
@@ -1398,29 +1416,30 @@ groups:
       first_name: Earl
       last_name: Farmer
   - type: Candidacy
-    code: CANDIDACY-USA-FL-LAKE_HELEN-LAKE_HELEN_COMMISSION_ZONE_2-2026_GENERAL-FARMER_ER_4S
+    code: CANDIDACY-USA-FL-LAKE_HELEN-COMMISSIONER-ZONE_2-2026_GENERAL-FARMER_ER_4S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-LAKE_HELEN-LAKE_HELEN_COMMISSION_ZONE_2-2026_GENERAL
+      race: RACE-USA-FL-LAKE_HELEN-COMMISSIONER-ZONE_2-2026_GENERAL
       person: PERSON-FARMER_ER_4S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-LAKE_HELEN-LAKE_HELEN_COMMISSION_ZONE_4
+    code: OFFICE-USA-FL-LAKE_HELEN-COMMISSIONER-ZONE_4
     attributes:
+      seat_code: ZONE_4
       is_active: true
     references:
-      position: POSITION-LAKE_HELEN_COMMISSION_ZONE_4
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-LAKE_HELEN
   - type: Race
-    code: RACE-USA-FL-LAKE_HELEN-LAKE_HELEN_COMMISSION_ZONE_4-2026_GENERAL
+    code: RACE-USA-FL-LAKE_HELEN-COMMISSIONER-ZONE_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-LAKE_HELEN-2026_GENERAL
-      office: OFFICE-USA-FL-LAKE_HELEN-LAKE_HELEN_COMMISSION_ZONE_4
+      office: OFFICE-USA-FL-LAKE_HELEN-COMMISSIONER-ZONE_4
   - type: Person
     code: PERSON-BISHOP_CH_5W
     attributes:
@@ -1429,29 +1448,30 @@ groups:
       first_name: Charlene
       last_name: Bishop
   - type: Candidacy
-    code: CANDIDACY-USA-FL-LAKE_HELEN-LAKE_HELEN_COMMISSION_ZONE_4-2026_GENERAL-BISHOP_CH_5W
+    code: CANDIDACY-USA-FL-LAKE_HELEN-COMMISSIONER-ZONE_4-2026_GENERAL-BISHOP_CH_5W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-LAKE_HELEN-LAKE_HELEN_COMMISSION_ZONE_4-2026_GENERAL
+      race: RACE-USA-FL-LAKE_HELEN-COMMISSIONER-ZONE_4-2026_GENERAL
       person: PERSON-BISHOP_CH_5W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_COMMISSION_ZONE_1
+    code: OFFICE-USA-FL-NEW_SMYRNA_BEACH-COMMISSIONER-ZONE_1
     attributes:
+      seat_code: ZONE_1
       is_active: true
     references:
-      position: POSITION-NEW_SMYRNA_BEACH_COMMISSION_ZONE_1
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-NEW_SMYRNA_BEACH
   - type: Race
-    code: RACE-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_COMMISSION_ZONE_1-2026_GENERAL
+    code: RACE-USA-FL-NEW_SMYRNA_BEACH-COMMISSIONER-ZONE_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-NEW_SMYRNA_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_COMMISSION_ZONE_1
+      office: OFFICE-USA-FL-NEW_SMYRNA_BEACH-COMMISSIONER-ZONE_1
   - type: Person
     code: PERSON-HODGES_CR_5F
     attributes:
@@ -1461,29 +1481,30 @@ groups:
       middle_name: Curtis
       last_name: Hodges
   - type: Candidacy
-    code: CANDIDACY-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_COMMISSION_ZONE_1-2026_GENERAL-HODGES_CR_5F
+    code: CANDIDACY-USA-FL-NEW_SMYRNA_BEACH-COMMISSIONER-ZONE_1-2026_GENERAL-HODGES_CR_5F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_COMMISSION_ZONE_1-2026_GENERAL
+      race: RACE-USA-FL-NEW_SMYRNA_BEACH-COMMISSIONER-ZONE_1-2026_GENERAL
       person: PERSON-HODGES_CR_5F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_COMMISSION_ZONE_2
+    code: OFFICE-USA-FL-NEW_SMYRNA_BEACH-COMMISSIONER-ZONE_2
     attributes:
+      seat_code: ZONE_2
       is_active: true
     references:
-      position: POSITION-NEW_SMYRNA_BEACH_COMMISSION_ZONE_2
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-NEW_SMYRNA_BEACH
   - type: Race
-    code: RACE-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_COMMISSION_ZONE_2-2026_GENERAL
+    code: RACE-USA-FL-NEW_SMYRNA_BEACH-COMMISSIONER-ZONE_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-NEW_SMYRNA_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_COMMISSION_ZONE_2
+      office: OFFICE-USA-FL-NEW_SMYRNA_BEACH-COMMISSIONER-ZONE_2
   - type: Person
     code: PERSON-DEVINE_JN_8E
     attributes:
@@ -1492,12 +1513,12 @@ groups:
       first_name: Jennifer
       last_name: Devine
   - type: Candidacy
-    code: CANDIDACY-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_COMMISSION_ZONE_2-2026_GENERAL-DEVINE_JN_8E
+    code: CANDIDACY-USA-FL-NEW_SMYRNA_BEACH-COMMISSIONER-ZONE_2-2026_GENERAL-DEVINE_JN_8E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_COMMISSION_ZONE_2-2026_GENERAL
+      race: RACE-USA-FL-NEW_SMYRNA_BEACH-COMMISSIONER-ZONE_2-2026_GENERAL
       person: PERSON-DEVINE_JN_8E
   - type: Person
     code: PERSON-SNIEZAK_CY_8M
@@ -1507,29 +1528,29 @@ groups:
       first_name: Cynthia
       last_name: Sniezak
   - type: Candidacy
-    code: CANDIDACY-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_COMMISSION_ZONE_2-2026_GENERAL-SNIEZAK_CY_8M
+    code: CANDIDACY-USA-FL-NEW_SMYRNA_BEACH-COMMISSIONER-ZONE_2-2026_GENERAL-SNIEZAK_CY_8M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_COMMISSION_ZONE_2-2026_GENERAL
+      race: RACE-USA-FL-NEW_SMYRNA_BEACH-COMMISSIONER-ZONE_2-2026_GENERAL
       person: PERSON-SNIEZAK_CY_8M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_MAYOR
+    code: OFFICE-USA-FL-NEW_SMYRNA_BEACH-MAYOR
     attributes:
       is_active: true
     references:
-      position: POSITION-NEW_SMYRNA_BEACH_MAYOR
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-NEW_SMYRNA_BEACH
   - type: Race
-    code: RACE-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_MAYOR-2026_GENERAL
+    code: RACE-USA-FL-NEW_SMYRNA_BEACH-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-NEW_SMYRNA_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_MAYOR
+      office: OFFICE-USA-FL-NEW_SMYRNA_BEACH-MAYOR
   - type: Person
     code: PERSON-CLEVELAND_FR_4J
     attributes:
@@ -1539,12 +1560,12 @@ groups:
       middle_name: E.
       last_name: Cleveland
   - type: Candidacy
-    code: CANDIDACY-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_MAYOR-2026_GENERAL-CLEVELAND_FR_4J
+    code: CANDIDACY-USA-FL-NEW_SMYRNA_BEACH-MAYOR-2026_GENERAL-CLEVELAND_FR_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-NEW_SMYRNA_BEACH-MAYOR-2026_GENERAL
       person: PERSON-CLEVELAND_FR_4J
   - type: Person
     code: PERSON-MARTIN_LS_2Z
@@ -1554,29 +1575,30 @@ groups:
       first_name: Lisa
       last_name: Martin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_MAYOR-2026_GENERAL-MARTIN_LS_2Z
+    code: CANDIDACY-USA-FL-NEW_SMYRNA_BEACH-MAYOR-2026_GENERAL-MARTIN_LS_2Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-NEW_SMYRNA_BEACH-NEW_SMYRNA_BEACH_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-NEW_SMYRNA_BEACH-MAYOR-2026_GENERAL
       person: PERSON-MARTIN_LS_2Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-OAK_HILL-OAK_HILL_COMMISSION_SEAT_1
+    code: OFFICE-USA-FL-OAK_HILL-COMMISSIONER-SEAT_1
     attributes:
+      seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-OAK_HILL_COMMISSION_SEAT_1
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-OAK_HILL
   - type: Race
-    code: RACE-USA-FL-OAK_HILL-OAK_HILL_COMMISSION_SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-OAK_HILL-COMMISSIONER-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-OAK_HILL-2026_GENERAL
-      office: OFFICE-USA-FL-OAK_HILL-OAK_HILL_COMMISSION_SEAT_1
+      office: OFFICE-USA-FL-OAK_HILL-COMMISSIONER-SEAT_1
   - type: Person
     code: PERSON-WEEKS_GL_3W
     attributes:
@@ -1586,29 +1608,30 @@ groups:
       middle_name: W.
       last_name: Weeks
   - type: Candidacy
-    code: CANDIDACY-USA-FL-OAK_HILL-OAK_HILL_COMMISSION_SEAT_1-2026_GENERAL-WEEKS_GL_3W
+    code: CANDIDACY-USA-FL-OAK_HILL-COMMISSIONER-SEAT_1-2026_GENERAL-WEEKS_GL_3W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-OAK_HILL-OAK_HILL_COMMISSION_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-OAK_HILL-COMMISSIONER-SEAT_1-2026_GENERAL
       person: PERSON-WEEKS_GL_3W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-OAK_HILL-OAK_HILL_COMMISSION_SEAT_3
+    code: OFFICE-USA-FL-OAK_HILL-COMMISSIONER-SEAT_3
     attributes:
+      seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-OAK_HILL_COMMISSION_SEAT_3
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-OAK_HILL
   - type: Race
-    code: RACE-USA-FL-OAK_HILL-OAK_HILL_COMMISSION_SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-OAK_HILL-COMMISSIONER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-OAK_HILL-2026_GENERAL
-      office: OFFICE-USA-FL-OAK_HILL-OAK_HILL_COMMISSION_SEAT_3
+      office: OFFICE-USA-FL-OAK_HILL-COMMISSIONER-SEAT_3
   - type: Person
     code: PERSON-CATIGANO_JS_7T
     attributes:
@@ -1618,12 +1641,12 @@ groups:
       middle_name: A.
       last_name: Catigano
   - type: Candidacy
-    code: CANDIDACY-USA-FL-OAK_HILL-OAK_HILL_COMMISSION_SEAT_3-2026_GENERAL-CATIGANO_JS_7T
+    code: CANDIDACY-USA-FL-OAK_HILL-COMMISSIONER-SEAT_3-2026_GENERAL-CATIGANO_JS_7T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-OAK_HILL-OAK_HILL_COMMISSION_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-OAK_HILL-COMMISSIONER-SEAT_3-2026_GENERAL
       person: PERSON-CATIGANO_JS_7T
   - type: Person
     code: PERSON-MASON_TR_3R
@@ -1633,29 +1656,30 @@ groups:
       first_name: Terry
       last_name: Mason
   - type: Candidacy
-    code: CANDIDACY-USA-FL-OAK_HILL-OAK_HILL_COMMISSION_SEAT_3-2026_GENERAL-MASON_TR_3R
+    code: CANDIDACY-USA-FL-OAK_HILL-COMMISSIONER-SEAT_3-2026_GENERAL-MASON_TR_3R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-OAK_HILL-OAK_HILL_COMMISSION_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-OAK_HILL-COMMISSIONER-SEAT_3-2026_GENERAL
       person: PERSON-MASON_TR_3R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ORANGE_CITY-ORANGE_CITY_AT_LARGE
+    code: OFFICE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-AT_LARGE
     attributes:
+      seat_code: AT_LARGE
       is_active: true
     references:
-      position: POSITION-ORANGE_CITY_AT_LARGE
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-ORANGE_CITY
   - type: Race
-    code: RACE-USA-FL-ORANGE_CITY-ORANGE_CITY_AT_LARGE-2026_GENERAL
+    code: RACE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-ORANGE_CITY-2026_GENERAL
-      office: OFFICE-USA-FL-ORANGE_CITY-ORANGE_CITY_AT_LARGE
+      office: OFFICE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-AT_LARGE
   - type: Person
     code: PERSON-GENSEL_ST_7V
     attributes:
@@ -1665,12 +1689,12 @@ groups:
       middle_name: P.
       last_name: Gensel, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ORANGE_CITY-ORANGE_CITY_AT_LARGE-2026_GENERAL-GENSEL_ST_7V
+    code: CANDIDACY-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL-GENSEL_ST_7V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ORANGE_CITY-ORANGE_CITY_AT_LARGE-2026_GENERAL
+      race: RACE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
       person: PERSON-GENSEL_ST_7V
   - type: Person
     code: PERSON-KNIGHT_DN_4W
@@ -1680,29 +1704,30 @@ groups:
       first_name: Dana
       last_name: Knight
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ORANGE_CITY-ORANGE_CITY_AT_LARGE-2026_GENERAL-KNIGHT_DN_4W
+    code: CANDIDACY-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL-KNIGHT_DN_4W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ORANGE_CITY-ORANGE_CITY_AT_LARGE-2026_GENERAL
+      race: RACE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
       person: PERSON-KNIGHT_DN_4W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_3
+    code: OFFICE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_3
     attributes:
+      seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-ORANGE_CITY_COUNCIL_DISTRICT_3
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-ORANGE_CITY
   - type: Race
-    code: RACE-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-ORANGE_CITY-2026_GENERAL
-      office: OFFICE-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_3
+      office: OFFICE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-MARQUEZ_BR_4K
     attributes:
@@ -1711,12 +1736,12 @@ groups:
       first_name: Brett
       last_name: Marquez
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_3-2026_GENERAL-MARQUEZ_BR_4K
+    code: CANDIDACY-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL-MARQUEZ_BR_4K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-MARQUEZ_BR_4K
   - type: Person
     code: PERSON-POUGH_SH_2E
@@ -1726,29 +1751,30 @@ groups:
       first_name: Sherry
       last_name: Pough
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_3-2026_GENERAL-POUGH_SH_2E
+    code: CANDIDACY-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL-POUGH_SH_2E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-POUGH_SH_2E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_4
+    code: OFFICE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_4
     attributes:
+      seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-ORANGE_CITY_COUNCIL_DISTRICT_4
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-ORANGE_CITY
   - type: Race
-    code: RACE-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-ORANGE_CITY-2026_GENERAL
-      office: OFFICE-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_4
+      office: OFFICE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-PUPELLO_AN_6S
     attributes:
@@ -1757,29 +1783,30 @@ groups:
       first_name: Anthony
       last_name: Pupello
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_4-2026_GENERAL-PUPELLO_AN_6S
+    code: CANDIDACY-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL-PUPELLO_AN_6S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-PUPELLO_AN_6S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_5
+    code: OFFICE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_5
     attributes:
+      seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-ORANGE_CITY_COUNCIL_DISTRICT_5
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-ORANGE_CITY
   - type: Race
-    code: RACE-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-ORANGE_CITY-2026_GENERAL
-      office: OFFICE-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_5
+      office: OFFICE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-DARMS_FR_9S
     attributes:
@@ -1788,29 +1815,30 @@ groups:
       first_name: Frances
       last_name: Darms
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_5-2026_GENERAL-DARMS_FR_9S
+    code: CANDIDACY-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_5-2026_GENERAL-DARMS_FR_9S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ORANGE_CITY-ORANGE_CITY_COUNCIL_DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-ORANGE_CITY-COUNCIL_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-DARMS_FR_9S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ORMOND_BEACH-ORMOND_BEACH_COMMISSION_ZONE_2
+    code: OFFICE-USA-FL-ORMOND_BEACH-COMMISSIONER-ZONE_2
     attributes:
+      seat_code: ZONE_2
       is_active: true
     references:
-      position: POSITION-ORMOND_BEACH_COMMISSION_ZONE_2
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-ORMOND_BEACH
   - type: Race
-    code: RACE-USA-FL-ORMOND_BEACH-ORMOND_BEACH_COMMISSION_ZONE_2-2026_GENERAL
+    code: RACE-USA-FL-ORMOND_BEACH-COMMISSIONER-ZONE_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-ORMOND_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-ORMOND_BEACH-ORMOND_BEACH_COMMISSION_ZONE_2
+      office: OFFICE-USA-FL-ORMOND_BEACH-COMMISSIONER-ZONE_2
   - type: Person
     code: PERSON-BRIGHT_JN_4U
     attributes:
@@ -1819,12 +1847,12 @@ groups:
       first_name: Jennifer
       last_name: Bright
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ORMOND_BEACH-ORMOND_BEACH_COMMISSION_ZONE_2-2026_GENERAL-BRIGHT_JN_4U
+    code: CANDIDACY-USA-FL-ORMOND_BEACH-COMMISSIONER-ZONE_2-2026_GENERAL-BRIGHT_JN_4U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ORMOND_BEACH-ORMOND_BEACH_COMMISSION_ZONE_2-2026_GENERAL
+      race: RACE-USA-FL-ORMOND_BEACH-COMMISSIONER-ZONE_2-2026_GENERAL
       person: PERSON-BRIGHT_JN_4U
   - type: Person
     code: PERSON-SARGENT_TR_2M
@@ -1834,29 +1862,30 @@ groups:
       first_name: Travis
       last_name: Sargent
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ORMOND_BEACH-ORMOND_BEACH_COMMISSION_ZONE_2-2026_GENERAL-SARGENT_TR_2M
+    code: CANDIDACY-USA-FL-ORMOND_BEACH-COMMISSIONER-ZONE_2-2026_GENERAL-SARGENT_TR_2M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ORMOND_BEACH-ORMOND_BEACH_COMMISSION_ZONE_2-2026_GENERAL
+      race: RACE-USA-FL-ORMOND_BEACH-COMMISSIONER-ZONE_2-2026_GENERAL
       person: PERSON-SARGENT_TR_2M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ORMOND_BEACH-ORMOND_BEACH_COMMISSION_ZONE_4
+    code: OFFICE-USA-FL-ORMOND_BEACH-COMMISSIONER-ZONE_4
     attributes:
+      seat_code: ZONE_4
       is_active: true
     references:
-      position: POSITION-ORMOND_BEACH_COMMISSION_ZONE_4
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-ORMOND_BEACH
   - type: Race
-    code: RACE-USA-FL-ORMOND_BEACH-ORMOND_BEACH_COMMISSION_ZONE_4-2026_GENERAL
+    code: RACE-USA-FL-ORMOND_BEACH-COMMISSIONER-ZONE_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-ORMOND_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-ORMOND_BEACH-ORMOND_BEACH_COMMISSION_ZONE_4
+      office: OFFICE-USA-FL-ORMOND_BEACH-COMMISSIONER-ZONE_4
   - type: Person
     code: PERSON-BOBAK_AM_2V
     attributes:
@@ -1865,12 +1894,12 @@ groups:
       first_name: Amber
       last_name: Bobak
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ORMOND_BEACH-ORMOND_BEACH_COMMISSION_ZONE_4-2026_GENERAL-BOBAK_AM_2V
+    code: CANDIDACY-USA-FL-ORMOND_BEACH-COMMISSIONER-ZONE_4-2026_GENERAL-BOBAK_AM_2V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ORMOND_BEACH-ORMOND_BEACH_COMMISSION_ZONE_4-2026_GENERAL
+      race: RACE-USA-FL-ORMOND_BEACH-COMMISSIONER-ZONE_4-2026_GENERAL
       person: PERSON-BOBAK_AM_2V
   - type: Person
     code: PERSON-BRILEY_HR_3H
@@ -1880,29 +1909,30 @@ groups:
       first_name: Harold
       last_name: Briley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ORMOND_BEACH-ORMOND_BEACH_COMMISSION_ZONE_4-2026_GENERAL-BRILEY_HR_3H
+    code: CANDIDACY-USA-FL-ORMOND_BEACH-COMMISSIONER-ZONE_4-2026_GENERAL-BRILEY_HR_3H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ORMOND_BEACH-ORMOND_BEACH_COMMISSION_ZONE_4-2026_GENERAL
+      race: RACE-USA-FL-ORMOND_BEACH-COMMISSIONER-ZONE_4-2026_GENERAL
       person: PERSON-BRILEY_HR_3H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_1
+    code: OFFICE-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_1
     attributes:
+      seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-PIERSON_COUNCIL_SEAT_1
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-PIERSON
   - type: Race
-    code: RACE-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-PIERSON-2026_GENERAL
-      office: OFFICE-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_1
+      office: OFFICE-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_1
   - type: Person
     code: PERSON-CHRISP_JL_7E
     attributes:
@@ -1912,12 +1942,12 @@ groups:
       middle_name: M.
       last_name: Chrisp
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_1-2026_GENERAL-CHRISP_JL_7E
+    code: CANDIDACY-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_1-2026_GENERAL-CHRISP_JL_7E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
       person: PERSON-CHRISP_JL_7E
   - type: Person
     code: PERSON-RICHARDSON_LN_5M
@@ -1927,29 +1957,30 @@ groups:
       first_name: Linnie
       last_name: Richardson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_1-2026_GENERAL-RICHARDSON_LN_5M
+    code: CANDIDACY-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_1-2026_GENERAL-RICHARDSON_LN_5M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
       person: PERSON-RICHARDSON_LN_5M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_2
+    code: OFFICE-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_2
     attributes:
+      seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-PIERSON_COUNCIL_SEAT_2
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-PIERSON
   - type: Race
-    code: RACE-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-PIERSON-2026_GENERAL
-      office: OFFICE-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_2
+      office: OFFICE-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_2
   - type: Person
     code: PERSON-PETERSON_BR_3L
     attributes:
@@ -1958,29 +1989,30 @@ groups:
       first_name: Brandy
       last_name: Peterson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_2-2026_GENERAL-PETERSON_BR_3L
+    code: CANDIDACY-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_2-2026_GENERAL-PETERSON_BR_3L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_2-2026_GENERAL
       person: PERSON-PETERSON_BR_3L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_3
+    code: OFFICE-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_3
     attributes:
+      seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-PIERSON_COUNCIL_SEAT_3
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-PIERSON
   - type: Race
-    code: RACE-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-PIERSON-2026_GENERAL
-      office: OFFICE-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_3
+      office: OFFICE-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_3
   - type: Person
     code: PERSON-GREENLUND_RB_6H
     attributes:
@@ -1990,29 +2022,30 @@ groups:
       middle_name: F.
       last_name: Greenlund
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_3-2026_GENERAL-GREENLUND_RB_6H
+    code: CANDIDACY-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_3-2026_GENERAL-GREENLUND_RB_6H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PIERSON-PIERSON_COUNCIL_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-PIERSON-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
       person: PERSON-GREENLUND_RB_6H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-PONCE_INLET-PONCE_INLET_COUNCIL_SEAT_2
+    code: OFFICE-USA-FL-PONCE_INLET-COUNCIL_MEMBER-SEAT_2
     attributes:
+      seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-PONCE_INLET_COUNCIL_SEAT_2
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-PONCE_INLET
   - type: Race
-    code: RACE-USA-FL-PONCE_INLET-PONCE_INLET_COUNCIL_SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-PONCE_INLET-COUNCIL_MEMBER-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-PONCE_INLET-2026_GENERAL
-      office: OFFICE-USA-FL-PONCE_INLET-PONCE_INLET_COUNCIL_SEAT_2
+      office: OFFICE-USA-FL-PONCE_INLET-COUNCIL_MEMBER-SEAT_2
   - type: Person
     code: PERSON-MILANO_BL_4E
     attributes:
@@ -2021,29 +2054,30 @@ groups:
       first_name: Bill
       last_name: Milano
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PONCE_INLET-PONCE_INLET_COUNCIL_SEAT_2-2026_GENERAL-MILANO_BL_4E
+    code: CANDIDACY-USA-FL-PONCE_INLET-COUNCIL_MEMBER-SEAT_2-2026_GENERAL-MILANO_BL_4E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PONCE_INLET-PONCE_INLET_COUNCIL_SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-PONCE_INLET-COUNCIL_MEMBER-SEAT_2-2026_GENERAL
       person: PERSON-MILANO_BL_4E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-PONCE_INLET-PONCE_INLET_COUNCIL_SEAT_4
+    code: OFFICE-USA-FL-PONCE_INLET-COUNCIL_MEMBER-SEAT_4
     attributes:
+      seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-PONCE_INLET_COUNCIL_SEAT_4
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-PONCE_INLET
   - type: Race
-    code: RACE-USA-FL-PONCE_INLET-PONCE_INLET_COUNCIL_SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-PONCE_INLET-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-PONCE_INLET-2026_GENERAL
-      office: OFFICE-USA-FL-PONCE_INLET-PONCE_INLET_COUNCIL_SEAT_4
+      office: OFFICE-USA-FL-PONCE_INLET-COUNCIL_MEMBER-SEAT_4
   - type: Person
     code: PERSON-VILLANELLA_JS_3K
     attributes:
@@ -2053,29 +2087,30 @@ groups:
       middle_name: John
       last_name: Villanella
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PONCE_INLET-PONCE_INLET_COUNCIL_SEAT_4-2026_GENERAL-VILLANELLA_JS_3K
+    code: CANDIDACY-USA-FL-PONCE_INLET-COUNCIL_MEMBER-SEAT_4-2026_GENERAL-VILLANELLA_JS_3K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PONCE_INLET-PONCE_INLET_COUNCIL_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-PONCE_INLET-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
       person: PERSON-VILLANELLA_JS_3K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-PORT_ORANGE-PORT_ORANGE_COUNCIL_DISTRICT_1
+    code: OFFICE-USA-FL-PORT_ORANGE-COUNCIL_MEMBER-DISTRICT_1
     attributes:
+      seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-PORT_ORANGE_COUNCIL_DISTRICT_1
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-PORT_ORANGE
   - type: Race
-    code: RACE-USA-FL-PORT_ORANGE-PORT_ORANGE_COUNCIL_DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-PORT_ORANGE-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-PORT_ORANGE-2026_GENERAL
-      office: OFFICE-USA-FL-PORT_ORANGE-PORT_ORANGE_COUNCIL_DISTRICT_1
+      office: OFFICE-USA-FL-PORT_ORANGE-COUNCIL_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-SCHMIDT_ST_9X
     attributes:
@@ -2084,29 +2119,30 @@ groups:
       first_name: Stan
       last_name: Schmidt
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PORT_ORANGE-PORT_ORANGE_COUNCIL_DISTRICT_1-2026_GENERAL-SCHMIDT_ST_9X
+    code: CANDIDACY-USA-FL-PORT_ORANGE-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL-SCHMIDT_ST_9X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PORT_ORANGE-PORT_ORANGE_COUNCIL_DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-PORT_ORANGE-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-SCHMIDT_ST_9X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-PORT_ORANGE-PORT_ORANGE_COUNCIL_DISTRICT_2
+    code: OFFICE-USA-FL-PORT_ORANGE-COUNCIL_MEMBER-DISTRICT_2
     attributes:
+      seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-PORT_ORANGE_COUNCIL_DISTRICT_2
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-PORT_ORANGE
   - type: Race
-    code: RACE-USA-FL-PORT_ORANGE-PORT_ORANGE_COUNCIL_DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-PORT_ORANGE-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=volusia&el=36.'
     references:
       election: ELECTION-USA-FL-PORT_ORANGE-2026_GENERAL
-      office: OFFICE-USA-FL-PORT_ORANGE-PORT_ORANGE_COUNCIL_DISTRICT_2
+      office: OFFICE-USA-FL-PORT_ORANGE-COUNCIL_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-GRUBBS_TR_6M
     attributes:
@@ -2115,30 +2151,30 @@ groups:
       first_name: Tracy
       last_name: Grubbs
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PORT_ORANGE-PORT_ORANGE_COUNCIL_DISTRICT_2-2026_GENERAL-GRUBBS_TR_6M
+    code: CANDIDACY-USA-FL-PORT_ORANGE-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL-GRUBBS_TR_6M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PORT_ORANGE-PORT_ORANGE_COUNCIL_DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-PORT_ORANGE-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-GRUBBS_TR_6M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_VOLUSIA-RIVINGTON_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVINGTON_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: RIVINGTON_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-RIVINGTON_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-VOLUSIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_VOLUSIA-RIVINGTON_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVINGTON_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_VOLUSIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_VOLUSIA-RIVINGTON_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVINGTON_CDD_SEAT_2
   - type: Person
     code: PERSON-DUGGAN_JN_4R
     attributes:
@@ -2147,30 +2183,30 @@ groups:
       first_name: Jennifer
       last_name: Duggan
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-RIVINGTON_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2-2026_GENERAL-DUGGAN_JN_4R
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVINGTON_CDD_SEAT_2-2026_GENERAL-DUGGAN_JN_4R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-RIVINGTON_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVINGTON_CDD_SEAT_2-2026_GENERAL
       person: PERSON-DUGGAN_JN_4R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-VOLUSIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_VOLUSIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-BEERY_BR_5F
     attributes:
@@ -2179,12 +2215,12 @@ groups:
       first_name: Brenda
       last_name: Beery
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-BEERY_BR_5F
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-BEERY_BR_5F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-BEERY_BR_5F
   - type: Person
     code: PERSON-HAYNES_JM_3F
@@ -2194,30 +2230,30 @@ groups:
       first_name: Jamie
       last_name: Haynes
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-HAYNES_JM_3F
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-HAYNES_JM_3F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-HAYNES_JM_3F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-VOLUSIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_VOLUSIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-KELLERMEIER_GR_4Q
     attributes:
@@ -2226,30 +2262,30 @@ groups:
       first_name: Grace
       last_name: Kellermeier
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-KELLERMEIER_GR_4Q
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-KELLERMEIER_GR_4Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-KELLERMEIER_GR_4Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-VOLUSIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_VOLUSIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-COLON_RB_8D
     attributes:
@@ -2258,30 +2294,30 @@ groups:
       first_name: Ruben
       last_name: Colon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-COLON_RB_8D
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-COLON_RB_8D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-COLON_RB_8D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_VOLUSIA-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_VOLUSIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2
     attributes:
       seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-SOIL_WATER_CONSERVATION_DISTRICT_2
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-VOLUSIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_VOLUSIA-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_VOLUSIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_VOLUSIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_VOLUSIA-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_VOLUSIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2
   - type: Person
     code: PERSON-BAGLEY_DV_2R
     attributes:
@@ -2290,30 +2326,30 @@ groups:
       first_name: David
       last_name: Bagley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_2-2026_GENERAL-BAGLEY_DV_2R
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2-2026_GENERAL-BAGLEY_DV_2R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2-2026_GENERAL
       person: PERSON-BAGLEY_DV_2R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_VOLUSIA-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_VOLUSIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3
     attributes:
       seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-SOIL_WATER_CONSERVATION_DISTRICT_2
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-VOLUSIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_VOLUSIA-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_VOLUSIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_VOLUSIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_VOLUSIA-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_VOLUSIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3
   - type: Person
     code: PERSON-MICELI_ER_2P
     attributes:
@@ -2322,30 +2358,30 @@ groups:
       first_name: Erin
       last_name: Miceli
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_3-2026_GENERAL-MICELI_ER_2P
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL-MICELI_ER_2P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL
       person: PERSON-MICELI_ER_2P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_VOLUSIA-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_VOLUSIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
     attributes:
       seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-SOIL_WATER_CONSERVATION_DISTRICT_2
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-VOLUSIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_VOLUSIA-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_VOLUSIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_VOLUSIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_VOLUSIA-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_VOLUSIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
   - type: Person
     code: PERSON-CUNNINGHAM_KR_3P
     attributes:
@@ -2354,30 +2390,30 @@ groups:
       first_name: Kristine
       last_name: Cunningham
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_5-2026_GENERAL-CUNNINGHAM_KR_3P
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL-CUNNINGHAM_KR_3P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-SOIL_WATER_CONSERVATION_DISTRICT-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
       person: PERSON-CUNNINGHAM_KR_3P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_VOLUSIA-WEST_VOLUSIA_HOSPITAL_AUTHORITY_GROUP_B-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_VOLUSIA-HOSPITAL_BOARD_MEMBER-WEST_VOLUSIA_HOSPITAL_AUTHORITY_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: WEST_VOLUSIA_HOSPITAL_AUTHORITY_SEAT_1
       is_active: true
     references:
-      position: POSITION-WEST_VOLUSIA_HOSPITAL_AUTHORITY_GROUP_B
+      position: POSITION-HOSPITAL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-VOLUSIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_VOLUSIA-WEST_VOLUSIA_HOSPITAL_AUTHORITY_GROUP_B-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_VOLUSIA-HOSPITAL_BOARD_MEMBER-WEST_VOLUSIA_HOSPITAL_AUTHORITY_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_VOLUSIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_VOLUSIA-WEST_VOLUSIA_HOSPITAL_AUTHORITY_GROUP_B-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_VOLUSIA-HOSPITAL_BOARD_MEMBER-WEST_VOLUSIA_HOSPITAL_AUTHORITY_SEAT_1
   - type: Person
     code: PERSON-COEN_JN_3T
     attributes:
@@ -2387,30 +2423,30 @@ groups:
       middle_name: Lee
       last_name: Coen
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-WEST_VOLUSIA_HOSPITAL_AUTHORITY_GROUP_B-SEAT_1-2026_GENERAL-COEN_JN_3T
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-HOSPITAL_BOARD_MEMBER-WEST_VOLUSIA_HOSPITAL_AUTHORITY_SEAT_1-2026_GENERAL-COEN_JN_3T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-WEST_VOLUSIA_HOSPITAL_AUTHORITY_GROUP_B-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-HOSPITAL_BOARD_MEMBER-WEST_VOLUSIA_HOSPITAL_AUTHORITY_SEAT_1-2026_GENERAL
       person: PERSON-COEN_JN_3T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_VOLUSIA-WEST_VOLUSIA_HOSPITAL_AUTHORITY_GROUP_B-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_VOLUSIA-HOSPITAL_BOARD_MEMBER-WEST_VOLUSIA_HOSPITAL_AUTHORITY_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: WEST_VOLUSIA_HOSPITAL_AUTHORITY_SEAT_2
       is_active: true
     references:
-      position: POSITION-WEST_VOLUSIA_HOSPITAL_AUTHORITY_GROUP_B
+      position: POSITION-HOSPITAL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-VOLUSIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_VOLUSIA-WEST_VOLUSIA_HOSPITAL_AUTHORITY_GROUP_B-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_VOLUSIA-HOSPITAL_BOARD_MEMBER-WEST_VOLUSIA_HOSPITAL_AUTHORITY_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_VOLUSIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_VOLUSIA-WEST_VOLUSIA_HOSPITAL_AUTHORITY_GROUP_B-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_VOLUSIA-HOSPITAL_BOARD_MEMBER-WEST_VOLUSIA_HOSPITAL_AUTHORITY_SEAT_2
   - type: Person
     code: PERSON-MANNING_VL_6H
     attributes:
@@ -2419,12 +2455,12 @@ groups:
       first_name: Voloria
       last_name: Manning
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-WEST_VOLUSIA_HOSPITAL_AUTHORITY_GROUP_B-SEAT_2-2026_GENERAL-MANNING_VL_6H
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-HOSPITAL_BOARD_MEMBER-WEST_VOLUSIA_HOSPITAL_AUTHORITY_SEAT_2-2026_GENERAL-MANNING_VL_6H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-WEST_VOLUSIA_HOSPITAL_AUTHORITY_GROUP_B-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-HOSPITAL_BOARD_MEMBER-WEST_VOLUSIA_HOSPITAL_AUTHORITY_SEAT_2-2026_GENERAL
       person: PERSON-MANNING_VL_6H
   - type: Person
     code: PERSON-MARKLE_DV_5Y
@@ -2434,10 +2470,10 @@ groups:
       first_name: David
       last_name: Markle
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-WEST_VOLUSIA_HOSPITAL_AUTHORITY_GROUP_B-SEAT_2-2026_GENERAL-MARKLE_DV_5Y
+    code: CANDIDACY-USA-FL-COUNTY_VOLUSIA-HOSPITAL_BOARD_MEMBER-WEST_VOLUSIA_HOSPITAL_AUTHORITY_SEAT_2-2026_GENERAL-MARKLE_DV_5Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_VOLUSIA-WEST_VOLUSIA_HOSPITAL_AUTHORITY_GROUP_B-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_VOLUSIA-HOSPITAL_BOARD_MEMBER-WEST_VOLUSIA_HOSPITAL_AUTHORITY_SEAT_2-2026_GENERAL
       person: PERSON-MARKLE_DV_5Y

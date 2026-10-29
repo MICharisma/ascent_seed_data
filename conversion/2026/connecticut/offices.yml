@@ -1,0 +1,14 @@
+# How each printed local office title converts. The key is the title exactly as the source prints it.
+# A bare code names the Position the office fills; a mapping adds what the title prints beyond the role:
+#   position  the Position's code in manifests/foundation.yml
+#   seat      the seat the title names, used instead of the row's district
+#   part      a seat within the row's district that the title names, like Seat B; the office's seat ends with it
+#   body      the special district the title names; the office's seat starts with it
+#   town      the town the title names, used when the row's jurisdiction names none
+#   term      a race for part of a term, such as an unexpired term; the office stays the same
+# Every local title needs an entry: the conversion stops at one it cannot find.
+"Board of Education": POSITION-SCHOOL_BOARD_MEMBER
+"Board of Education Non Partisan": POSITION-SCHOOL_BOARD_MEMBER
+"Judge of Probate": POSITION-JUDGE_OF_PROBATE
+"Registrar of Voters": POSITION-REGISTRAR_OF_VOTERS
+"Representative Town Meeting": POSITION-REPRESENTATIVE_TOWN_MEETING_MEMBER

@@ -7,16 +7,64 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_NORTHAMPTON-2026_GENERAL
+  code: ELECTION-USA-VA-CAPE_CHARLES-2026_GENERAL
   attributes:
-    name: Northampton County General Election 2026
+    name: Cape Charles General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-NORTHAMPTON
+    jurisdiction: MUNICIPALITY-USA-VA-CAPE_CHARLES
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-CHERITON-2026_GENERAL
+  attributes:
+    name: Cheriton General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-CHERITON
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-EASTVILLE-2026_GENERAL
+  attributes:
+    name: Eastville General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-EASTVILLE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-EXMORE-2026_GENERAL
+  attributes:
+    name: Exmore General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-EXMORE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-NASSAWADOX-2026_GENERAL
+  attributes:
+    name: Nassawadox General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-NASSAWADOX
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-VA-COUNTY_NORTHAMPTON-2026_SPECIAL
@@ -33,21 +81,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NORTHAMPTON-MAYOR_CAPE_CHARLES-TOWN_OF_CAPE_CHARLES
+    code: OFFICE-USA-VA-CAPE_CHARLES-MAYOR
     attributes:
-      seat_code: TOWN_OF_CAPE_CHARLES
       is_active: true
     references:
-      position: POSITION-MAYOR_CAPE_CHARLES
-      jurisdiction: COUNTY-USA-VA-NORTHAMPTON
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-CAPE_CHARLES
   - type: Race
-    code: RACE-USA-VA-COUNTY_NORTHAMPTON-MAYOR_CAPE_CHARLES-TOWN_OF_CAPE_CHARLES-2026_GENERAL
+    code: RACE-USA-VA-CAPE_CHARLES-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_NORTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NORTHAMPTON-MAYOR_CAPE_CHARLES-TOWN_OF_CAPE_CHARLES
+      election: ELECTION-USA-VA-CAPE_CHARLES-2026_GENERAL
+      office: OFFICE-USA-VA-CAPE_CHARLES-MAYOR
   - type: Person
     code: PERSON-CHARNEY_AD_5C
     attributes:
@@ -57,30 +104,29 @@ groups:
       middle_name: M.
       last_name: Charney
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MAYOR_CAPE_CHARLES-TOWN_OF_CAPE_CHARLES-2026_GENERAL-CHARNEY_AD_5C
+    code: CANDIDACY-USA-VA-CAPE_CHARLES-MAYOR-2026_GENERAL-CHARNEY_AD_5C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MAYOR_CAPE_CHARLES-TOWN_OF_CAPE_CHARLES-2026_GENERAL
+      race: RACE-USA-VA-CAPE_CHARLES-MAYOR-2026_GENERAL
       person: PERSON-CHARNEY_AD_5C
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NORTHAMPTON-MAYOR_CHERITON-TOWN_OF_CHERITON
+    code: OFFICE-USA-VA-CHERITON-MAYOR
     attributes:
-      seat_code: TOWN_OF_CHERITON
       is_active: true
     references:
-      position: POSITION-MAYOR_CHERITON
-      jurisdiction: COUNTY-USA-VA-NORTHAMPTON
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-CHERITON
   - type: Race
-    code: RACE-USA-VA-COUNTY_NORTHAMPTON-MAYOR_CHERITON-TOWN_OF_CHERITON-2026_GENERAL
+    code: RACE-USA-VA-CHERITON-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_NORTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NORTHAMPTON-MAYOR_CHERITON-TOWN_OF_CHERITON
+      election: ELECTION-USA-VA-CHERITON-2026_GENERAL
+      office: OFFICE-USA-VA-CHERITON-MAYOR
   - type: Person
     code: PERSON-KOLAKOWSKI_CH_9J
     attributes:
@@ -89,30 +135,29 @@ groups:
       first_name: Charles
       last_name: Kolakowski
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MAYOR_CHERITON-TOWN_OF_CHERITON-2026_GENERAL-KOLAKOWSKI_CH_9J
+    code: CANDIDACY-USA-VA-CHERITON-MAYOR-2026_GENERAL-KOLAKOWSKI_CH_9J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MAYOR_CHERITON-TOWN_OF_CHERITON-2026_GENERAL
+      race: RACE-USA-VA-CHERITON-MAYOR-2026_GENERAL
       person: PERSON-KOLAKOWSKI_CH_9J
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NORTHAMPTON-MAYOR_EASTVILLE-TOWN_OF_EASTVILLE
+    code: OFFICE-USA-VA-EASTVILLE-MAYOR
     attributes:
-      seat_code: TOWN_OF_EASTVILLE
       is_active: true
     references:
-      position: POSITION-MAYOR_EASTVILLE
-      jurisdiction: COUNTY-USA-VA-NORTHAMPTON
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-EASTVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_NORTHAMPTON-MAYOR_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL
+    code: RACE-USA-VA-EASTVILLE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_NORTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NORTHAMPTON-MAYOR_EASTVILLE-TOWN_OF_EASTVILLE
+      election: ELECTION-USA-VA-EASTVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-EASTVILLE-MAYOR
   - type: Person
     code: PERSON-CROCKETT_DN_6P
     attributes:
@@ -122,12 +167,12 @@ groups:
       middle_name: Leigh
       last_name: Crockett
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MAYOR_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL-CROCKETT_DN_6P
+    code: CANDIDACY-USA-VA-EASTVILLE-MAYOR-2026_GENERAL-CROCKETT_DN_6P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MAYOR_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL
+      race: RACE-USA-VA-EASTVILLE-MAYOR-2026_GENERAL
       person: PERSON-CROCKETT_DN_6P
   - type: Person
     code: PERSON-GORDON_EL_2U
@@ -138,30 +183,29 @@ groups:
       middle_name: C.
       last_name: Gordon
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MAYOR_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL-GORDON_EL_2U
+    code: CANDIDACY-USA-VA-EASTVILLE-MAYOR-2026_GENERAL-GORDON_EL_2U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MAYOR_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL
+      race: RACE-USA-VA-EASTVILLE-MAYOR-2026_GENERAL
       person: PERSON-GORDON_EL_2U
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CAPE_CHARLES-TOWN_OF_CAPE_CHARLES
+    code: OFFICE-USA-VA-CAPE_CHARLES-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_CAPE_CHARLES
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_CAPE_CHARLES
-      jurisdiction: COUNTY-USA-VA-NORTHAMPTON
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-CAPE_CHARLES
   - type: Race
-    code: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CAPE_CHARLES-TOWN_OF_CAPE_CHARLES-2026_GENERAL
+    code: RACE-USA-VA-CAPE_CHARLES-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_NORTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CAPE_CHARLES-TOWN_OF_CAPE_CHARLES
+      election: ELECTION-USA-VA-CAPE_CHARLES-2026_GENERAL
+      office: OFFICE-USA-VA-CAPE_CHARLES-COUNCIL_MEMBER
   - type: Person
     code: PERSON-FELKER_CR_7K
     attributes:
@@ -171,12 +215,12 @@ groups:
       middle_name: C.
       last_name: Felker
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CAPE_CHARLES-TOWN_OF_CAPE_CHARLES-2026_GENERAL-FELKER_CR_7K
+    code: CANDIDACY-USA-VA-CAPE_CHARLES-COUNCIL_MEMBER-2026_GENERAL-FELKER_CR_7K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CAPE_CHARLES-TOWN_OF_CAPE_CHARLES-2026_GENERAL
+      race: RACE-USA-VA-CAPE_CHARLES-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FELKER_CR_7K
   - type: Person
     code: PERSON-MCDONALD_IN_4P
@@ -187,12 +231,12 @@ groups:
       middle_name: Alan
       last_name: McDonald
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CAPE_CHARLES-TOWN_OF_CAPE_CHARLES-2026_GENERAL-MCDONALD_IN_4P
+    code: CANDIDACY-USA-VA-CAPE_CHARLES-COUNCIL_MEMBER-2026_GENERAL-MCDONALD_IN_4P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CAPE_CHARLES-TOWN_OF_CAPE_CHARLES-2026_GENERAL
+      race: RACE-USA-VA-CAPE_CHARLES-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MCDONALD_IN_4P
   - type: Person
     code: PERSON-BUTTA_KN_4Y
@@ -203,12 +247,12 @@ groups:
       middle_name: R.
       last_name: Butta
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CAPE_CHARLES-TOWN_OF_CAPE_CHARLES-2026_GENERAL-BUTTA_KN_4Y
+    code: CANDIDACY-USA-VA-CAPE_CHARLES-COUNCIL_MEMBER-2026_GENERAL-BUTTA_KN_4Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CAPE_CHARLES-TOWN_OF_CAPE_CHARLES-2026_GENERAL
+      race: RACE-USA-VA-CAPE_CHARLES-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BUTTA_KN_4Y
   - type: Person
     code: PERSON-USRY_MR_8F
@@ -219,30 +263,29 @@ groups:
       middle_name: L.
       last_name: Usry
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CAPE_CHARLES-TOWN_OF_CAPE_CHARLES-2026_GENERAL-USRY_MR_8F
+    code: CANDIDACY-USA-VA-CAPE_CHARLES-COUNCIL_MEMBER-2026_GENERAL-USRY_MR_8F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CAPE_CHARLES-TOWN_OF_CAPE_CHARLES-2026_GENERAL
+      race: RACE-USA-VA-CAPE_CHARLES-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-USRY_MR_8F
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CHERITON-TOWN_OF_CHERITON
+    code: OFFICE-USA-VA-CHERITON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_CHERITON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_CHERITON
-      jurisdiction: COUNTY-USA-VA-NORTHAMPTON
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-CHERITON
   - type: Race
-    code: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CHERITON-TOWN_OF_CHERITON-2026_GENERAL
+    code: RACE-USA-VA-CHERITON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_NORTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CHERITON-TOWN_OF_CHERITON
+      election: ELECTION-USA-VA-CHERITON-2026_GENERAL
+      office: OFFICE-USA-VA-CHERITON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-DOWNING_B_5Z
     attributes:
@@ -252,12 +295,12 @@ groups:
       middle_name: B. "Barry"
       last_name: Downing Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CHERITON-TOWN_OF_CHERITON-2026_GENERAL-DOWNING_B_5Z
+    code: CANDIDACY-USA-VA-CHERITON-COUNCIL_MEMBER-2026_GENERAL-DOWNING_B_5Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CHERITON-TOWN_OF_CHERITON-2026_GENERAL
+      race: RACE-USA-VA-CHERITON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DOWNING_B_5Z
   - type: Person
     code: PERSON-YANCY_MT_8T
@@ -267,12 +310,12 @@ groups:
       first_name: Matthew
       last_name: Yancy III
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CHERITON-TOWN_OF_CHERITON-2026_GENERAL-YANCY_MT_8T
+    code: CANDIDACY-USA-VA-CHERITON-COUNCIL_MEMBER-2026_GENERAL-YANCY_MT_8T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CHERITON-TOWN_OF_CHERITON-2026_GENERAL
+      race: RACE-USA-VA-CHERITON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-YANCY_MT_8T
   - type: Person
     code: PERSON-SPENCER_NR_4D
@@ -283,12 +326,12 @@ groups:
       middle_name: P.
       last_name: Spencer
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CHERITON-TOWN_OF_CHERITON-2026_GENERAL-SPENCER_NR_4D
+    code: CANDIDACY-USA-VA-CHERITON-COUNCIL_MEMBER-2026_GENERAL-SPENCER_NR_4D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CHERITON-TOWN_OF_CHERITON-2026_GENERAL
+      race: RACE-USA-VA-CHERITON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SPENCER_NR_4D
   - type: Person
     code: PERSON-LEWIS_RB_8L
@@ -299,12 +342,12 @@ groups:
       middle_name: K. "Bo"
       last_name: Lewis, Sr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CHERITON-TOWN_OF_CHERITON-2026_GENERAL-LEWIS_RB_8L
+    code: CANDIDACY-USA-VA-CHERITON-COUNCIL_MEMBER-2026_GENERAL-LEWIS_RB_8L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CHERITON-TOWN_OF_CHERITON-2026_GENERAL
+      race: RACE-USA-VA-CHERITON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LEWIS_RB_8L
   - type: Person
     code: PERSON-TRAINA_SH_4B
@@ -315,12 +358,12 @@ groups:
       middle_name: M.
       last_name: Traina
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CHERITON-TOWN_OF_CHERITON-2026_GENERAL-TRAINA_SH_4B
+    code: CANDIDACY-USA-VA-CHERITON-COUNCIL_MEMBER-2026_GENERAL-TRAINA_SH_4B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CHERITON-TOWN_OF_CHERITON-2026_GENERAL
+      race: RACE-USA-VA-CHERITON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TRAINA_SH_4B
   - type: Person
     code: PERSON-TATEM_TR_8F
@@ -331,30 +374,29 @@ groups:
       middle_name: L.
       last_name: Tatem
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CHERITON-TOWN_OF_CHERITON-2026_GENERAL-TATEM_TR_8F
+    code: CANDIDACY-USA-VA-CHERITON-COUNCIL_MEMBER-2026_GENERAL-TATEM_TR_8F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_CHERITON-TOWN_OF_CHERITON-2026_GENERAL
+      race: RACE-USA-VA-CHERITON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TATEM_TR_8F
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EASTVILLE-TOWN_OF_EASTVILLE
+    code: OFFICE-USA-VA-EASTVILLE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_EASTVILLE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_EASTVILLE
-      jurisdiction: COUNTY-USA-VA-NORTHAMPTON
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-EASTVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL
+    code: RACE-USA-VA-EASTVILLE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_NORTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EASTVILLE-TOWN_OF_EASTVILLE
+      election: ELECTION-USA-VA-EASTVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-EASTVILLE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-SAYERS_AN_6X
     attributes:
@@ -364,12 +406,12 @@ groups:
       middle_name: G.
       last_name: Sayers
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL-SAYERS_AN_6X
+    code: CANDIDACY-USA-VA-EASTVILLE-COUNCIL_MEMBER-2026_GENERAL-SAYERS_AN_6X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL
+      race: RACE-USA-VA-EASTVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SAYERS_AN_6X
   - type: Person
     code: PERSON-BROWN_AN_4K
@@ -380,12 +422,12 @@ groups:
       middle_name: Marie
       last_name: Brown
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL-BROWN_AN_4K
+    code: CANDIDACY-USA-VA-EASTVILLE-COUNCIL_MEMBER-2026_GENERAL-BROWN_AN_4K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL
+      race: RACE-USA-VA-EASTVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BROWN_AN_4K
   - type: Person
     code: PERSON-LEWIS_BN_5R
@@ -396,12 +438,12 @@ groups:
       middle_name: W.
       last_name: Lewis
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL-LEWIS_BN_5R
+    code: CANDIDACY-USA-VA-EASTVILLE-COUNCIL_MEMBER-2026_GENERAL-LEWIS_BN_5R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL
+      race: RACE-USA-VA-EASTVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LEWIS_BN_5R
   - type: Person
     code: PERSON-PHILPOT_D_7N
@@ -412,12 +454,12 @@ groups:
       middle_name: Allen
       last_name: Philpot III
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL-PHILPOT_D_7N
+    code: CANDIDACY-USA-VA-EASTVILLE-COUNCIL_MEMBER-2026_GENERAL-PHILPOT_D_7N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL
+      race: RACE-USA-VA-EASTVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PHILPOT_D_7N
   - type: Person
     code: PERSON-CROCKETT_JH_6G
@@ -428,12 +470,12 @@ groups:
       middle_name: D.
       last_name: Crockett
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL-CROCKETT_JH_6G
+    code: CANDIDACY-USA-VA-EASTVILLE-COUNCIL_MEMBER-2026_GENERAL-CROCKETT_JH_6G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL
+      race: RACE-USA-VA-EASTVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CROCKETT_JH_6G
   - type: Person
     code: PERSON-SMALL_LG_5K
@@ -444,30 +486,29 @@ groups:
       middle_name: C.
       last_name: Small
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL-SMALL_LG_5K
+    code: CANDIDACY-USA-VA-EASTVILLE-COUNCIL_MEMBER-2026_GENERAL-SMALL_LG_5K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EASTVILLE-TOWN_OF_EASTVILLE-2026_GENERAL
+      race: RACE-USA-VA-EASTVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SMALL_LG_5K
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EXMORE-TOWN_OF_EXMORE
+    code: OFFICE-USA-VA-EXMORE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_EXMORE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_EXMORE
-      jurisdiction: COUNTY-USA-VA-NORTHAMPTON
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-EXMORE
   - type: Race
-    code: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EXMORE-TOWN_OF_EXMORE-2026_GENERAL
+    code: RACE-USA-VA-EXMORE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_NORTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EXMORE-TOWN_OF_EXMORE
+      election: ELECTION-USA-VA-EXMORE-2026_GENERAL
+      office: OFFICE-USA-VA-EXMORE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-LOWERY_BR_8H
     attributes:
@@ -477,12 +518,12 @@ groups:
       middle_name: W.
       last_name: Lowery
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EXMORE-TOWN_OF_EXMORE-2026_GENERAL-LOWERY_BR_8H
+    code: CANDIDACY-USA-VA-EXMORE-COUNCIL_MEMBER-2026_GENERAL-LOWERY_BR_8H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EXMORE-TOWN_OF_EXMORE-2026_GENERAL
+      race: RACE-USA-VA-EXMORE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LOWERY_BR_8H
   - type: Person
     code: PERSON-HEASTER_BR_8T
@@ -493,12 +534,12 @@ groups:
       middle_name: P.
       last_name: Heaster
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EXMORE-TOWN_OF_EXMORE-2026_GENERAL-HEASTER_BR_8T
+    code: CANDIDACY-USA-VA-EXMORE-COUNCIL_MEMBER-2026_GENERAL-HEASTER_BR_8T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EXMORE-TOWN_OF_EXMORE-2026_GENERAL
+      race: RACE-USA-VA-EXMORE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HEASTER_BR_8T
   - type: Person
     code: PERSON-ANDREWS_CL_7Q
@@ -509,12 +550,12 @@ groups:
       middle_name: C.
       last_name: Andrews
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EXMORE-TOWN_OF_EXMORE-2026_GENERAL-ANDREWS_CL_7Q
+    code: CANDIDACY-USA-VA-EXMORE-COUNCIL_MEMBER-2026_GENERAL-ANDREWS_CL_7Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EXMORE-TOWN_OF_EXMORE-2026_GENERAL
+      race: RACE-USA-VA-EXMORE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ANDREWS_CL_7Q
   - type: Person
     code: PERSON-LILLISTON_ST_6G
@@ -525,30 +566,29 @@ groups:
       middle_name: L.
       last_name: Lilliston
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EXMORE-TOWN_OF_EXMORE-2026_GENERAL-LILLISTON_ST_6G
+    code: CANDIDACY-USA-VA-EXMORE-COUNCIL_MEMBER-2026_GENERAL-LILLISTON_ST_6G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_EXMORE-TOWN_OF_EXMORE-2026_GENERAL
+      race: RACE-USA-VA-EXMORE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LILLISTON_ST_6G
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX
+    code: OFFICE-USA-VA-NASSAWADOX-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_NASSAWADOX
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_NASSAWADOX
-      jurisdiction: COUNTY-USA-VA-NORTHAMPTON
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-NASSAWADOX
   - type: Race
-    code: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX-2026_GENERAL
+    code: RACE-USA-VA-NASSAWADOX-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_NORTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX
+      election: ELECTION-USA-VA-NASSAWADOX-2026_GENERAL
+      office: OFFICE-USA-VA-NASSAWADOX-COUNCIL_MEMBER
   - type: Person
     code: PERSON-FOX_AN_4L
     attributes:
@@ -558,12 +598,12 @@ groups:
       middle_name: D.
       last_name: Fox
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX-2026_GENERAL-FOX_AN_4L
+    code: CANDIDACY-USA-VA-NASSAWADOX-COUNCIL_MEMBER-2026_GENERAL-FOX_AN_4L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX-2026_GENERAL
+      race: RACE-USA-VA-NASSAWADOX-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FOX_AN_4L
   - type: Person
     code: PERSON-LYNCH_ED_7K
@@ -574,12 +614,12 @@ groups:
       middle_name: Dirk
       last_name: Lynch
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX-2026_GENERAL-LYNCH_ED_7K
+    code: CANDIDACY-USA-VA-NASSAWADOX-COUNCIL_MEMBER-2026_GENERAL-LYNCH_ED_7K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX-2026_GENERAL
+      race: RACE-USA-VA-NASSAWADOX-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LYNCH_ED_7K
   - type: Person
     code: PERSON-PRESS_GR_5P
@@ -590,12 +630,12 @@ groups:
       middle_name: J.
       last_name: Press
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX-2026_GENERAL-PRESS_GR_5P
+    code: CANDIDACY-USA-VA-NASSAWADOX-COUNCIL_MEMBER-2026_GENERAL-PRESS_GR_5P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX-2026_GENERAL
+      race: RACE-USA-VA-NASSAWADOX-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PRESS_GR_5P
   - type: Person
     code: PERSON-NOTTINGHAM_JR_8J
@@ -606,12 +646,12 @@ groups:
       middle_name: W.
       last_name: Nottingham IV
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX-2026_GENERAL-NOTTINGHAM_JR_8J
+    code: CANDIDACY-USA-VA-NASSAWADOX-COUNCIL_MEMBER-2026_GENERAL-NOTTINGHAM_JR_8J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX-2026_GENERAL
+      race: RACE-USA-VA-NASSAWADOX-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-NOTTINGHAM_JR_8J
   - type: Person
     code: PERSON-HALLETT_JH_4M
@@ -622,12 +662,12 @@ groups:
       middle_name: W.
       last_name: Hallett, Sr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX-2026_GENERAL-HALLETT_JH_4M
+    code: CANDIDACY-USA-VA-NASSAWADOX-COUNCIL_MEMBER-2026_GENERAL-HALLETT_JH_4M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX-2026_GENERAL
+      race: RACE-USA-VA-NASSAWADOX-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HALLETT_JH_4M
   - type: Person
     code: PERSON-LINDBERG_LS_6C
@@ -637,12 +677,12 @@ groups:
       first_name: Lisa
       last_name: Lindberg
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX-2026_GENERAL-LINDBERG_LS_6C
+    code: CANDIDACY-USA-VA-NASSAWADOX-COUNCIL_MEMBER-2026_GENERAL-LINDBERG_LS_6C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX-2026_GENERAL
+      race: RACE-USA-VA-NASSAWADOX-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LINDBERG_LS_6C
   - type: Person
     code: PERSON-RIPPON_TH_7E
@@ -653,30 +693,29 @@ groups:
       middle_name: W.
       last_name: Rippon, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX-2026_GENERAL-RIPPON_TH_7E
+    code: CANDIDACY-USA-VA-NASSAWADOX-COUNCIL_MEMBER-2026_GENERAL-RIPPON_TH_7E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-MEMBER_TOWN_COUNCIL_NASSAWADOX-TOWN_OF_NASSAWADOX-2026_GENERAL
+      race: RACE-USA-VA-NASSAWADOX-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-RIPPON_TH_7E
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NORTHAMPTON-TREASURER-NORTHAMPTON_COUNTY
+    code: OFFICE-USA-VA-COUNTY_NORTHAMPTON-TREASURER
     attributes:
-      seat_code: NORTHAMPTON_COUNTY
       is_active: true
     references:
       position: POSITION-TREASURER
       jurisdiction: COUNTY-USA-VA-NORTHAMPTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_NORTHAMPTON-TREASURER-NORTHAMPTON_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_NORTHAMPTON-TREASURER-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_NORTHAMPTON-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_NORTHAMPTON-TREASURER-NORTHAMPTON_COUNTY
+      office: OFFICE-USA-VA-COUNTY_NORTHAMPTON-TREASURER
   - type: Person
     code: PERSON-WILLIS_KR_2M
     attributes:
@@ -686,12 +725,12 @@ groups:
       middle_name: N.
       last_name: Willis
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-TREASURER-NORTHAMPTON_COUNTY-2026_SPECIAL-WILLIS_KR_2M
+    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-TREASURER-2026_SPECIAL-WILLIS_KR_2M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-TREASURER-NORTHAMPTON_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_NORTHAMPTON-TREASURER-2026_SPECIAL
       person: PERSON-WILLIS_KR_2M
   - type: Person
     code: PERSON-RAYFIELD_NL_7J
@@ -702,10 +741,10 @@ groups:
       middle_name: T.
       last_name: Rayfield
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-TREASURER-NORTHAMPTON_COUNTY-2026_SPECIAL-RAYFIELD_NL_7J
+    code: CANDIDACY-USA-VA-COUNTY_NORTHAMPTON-TREASURER-2026_SPECIAL-RAYFIELD_NL_7J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NORTHAMPTON-TREASURER-NORTHAMPTON_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_NORTHAMPTON-TREASURER-2026_SPECIAL
       person: PERSON-RAYFIELD_NL_7J

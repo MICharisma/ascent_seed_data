@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GULF-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_GULF-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-GULF
   - type: Race
-    code: RACE-USA-FL-COUNTY_GULF-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GULF-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GULF-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GULF-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_GULF-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-HUSBAND_JC_7C
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Jack
       last_name: Husband
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GULF-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-HUSBAND_JC_7C
+    code: CANDIDACY-USA-FL-COUNTY_GULF-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-HUSBAND_JC_7C
     attributes:
       status: active
       participation: active
@@ -53,25 +53,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_GULF-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GULF-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-HUSBAND_JC_7C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GULF-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_GULF-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-GULF
   - type: Race
-    code: RACE-USA-FL-COUNTY_GULF-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GULF-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GULF-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GULF-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_GULF-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-QUINN_SN_6L
     attributes:
@@ -81,7 +81,7 @@ groups:
       middle_name: E.
       last_name: Quinn Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GULF-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-QUINN_SN_6L
+    code: CANDIDACY-USA-FL-COUNTY_GULF-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-QUINN_SN_6L
     attributes:
       status: active
       participation: active
@@ -90,24 +90,24 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_GULF-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GULF-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-QUINN_SN_6L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GULF-CLERK_OF_THE_CIRCUIT_COURT
+    code: OFFICE-USA-FL-COUNTY_GULF-CLERK_OF_COURT
     attributes:
       is_active: true
     references:
-      position: POSITION-CLERK_OF_THE_CIRCUIT_COURT
+      position: POSITION-CLERK_OF_COURT
       jurisdiction: COUNTY-USA-FL-GULF
   - type: Race
-    code: RACE-USA-FL-COUNTY_GULF-CLERK_OF_THE_CIRCUIT_COURT-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GULF-CLERK_OF_COURT-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GULF-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GULF-CLERK_OF_THE_CIRCUIT_COURT
+      office: OFFICE-USA-FL-COUNTY_GULF-CLERK_OF_COURT
   - type: Person
     code: PERSON-TERRY_JM_3W
     attributes:
@@ -117,7 +117,7 @@ groups:
       middle_name: '"Matt"'
       last_name: Terry
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GULF-CLERK_OF_THE_CIRCUIT_COURT-2026_GENERAL-TERRY_JM_3W
+    code: CANDIDACY-USA-FL-COUNTY_GULF-CLERK_OF_COURT-2026_GENERAL-TERRY_JM_3W
     attributes:
       status: active
       participation: active
@@ -126,25 +126,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_GULF-CLERK_OF_THE_CIRCUIT_COURT-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GULF-CLERK_OF_COURT-2026_GENERAL
       person: PERSON-TERRY_JM_3W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-GULF
   - type: Race
-    code: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GULF-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-BAILEY_CH_5T
     attributes:
@@ -153,12 +153,12 @@ groups:
       first_name: Chad
       last_name: Bailey
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-BAILEY_CH_5T
+    code: CANDIDACY-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-BAILEY_CH_5T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-BAILEY_CH_5T
   - type: Person
     code: PERSON-PEAK_DN_9Z
@@ -168,30 +168,30 @@ groups:
       first_name: Dennis
       last_name: Peak
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-PEAK_DN_9Z
+    code: CANDIDACY-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-PEAK_DN_9Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-PEAK_DN_9Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-GULF
   - type: Race
-    code: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GULF-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-WOOTEN_BR_8X
     attributes:
@@ -200,30 +200,30 @@ groups:
       first_name: Brooke
       last_name: Wooten
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-WOOTEN_BR_8X
+    code: CANDIDACY-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-WOOTEN_BR_8X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-WOOTEN_BR_8X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-GULF
   - type: Race
-    code: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GULF-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-PRIDGEON_LS_8N
     attributes:
@@ -233,30 +233,30 @@ groups:
       middle_name: V.
       last_name: Pridgeon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-PRIDGEON_LS_8N
+    code: CANDIDACY-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-PRIDGEON_LS_8N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-PRIDGEON_LS_8N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-GULF
   - type: Race
-    code: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GULF-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-KNOX_RB_7B
     attributes:
@@ -266,10 +266,10 @@ groups:
       middle_name: Sue
       last_name: Knox
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-KNOX_RB_7B
+    code: CANDIDACY-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-KNOX_RB_7B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-KNOX_RB_7B

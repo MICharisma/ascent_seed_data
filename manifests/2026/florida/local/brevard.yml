@@ -201,20 +201,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-BAREFOOT_BAY_RECREATION_DISTRICT_TRUSTEE
+    code: OFFICE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-BAREFOOT_BAY_RECREATION_DISTRICT_TRUSTEE
     attributes:
+      seat_code: BAREFOOT_BAY_RECREATION_DISTRICT_TRUSTEE
       is_active: true
     references:
-      position: POSITION-BAREFOOT_BAY_RECREATION_DISTRICT_TRUSTEE
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-BAREFOOT_BAY_RECREATION_DISTRICT_TRUSTEE-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-BAREFOOT_BAY_RECREATION_DISTRICT_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-BAREFOOT_BAY_RECREATION_DISTRICT_TRUSTEE
+      office: OFFICE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-BAREFOOT_BAY_RECREATION_DISTRICT_TRUSTEE
   - type: Person
     code: PERSON-VANBERSCHOT_EL_7R
     attributes:
@@ -223,29 +224,30 @@ groups:
       first_name: Elaine
       last_name: VanBerschot
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-BAREFOOT_BAY_RECREATION_DISTRICT_TRUSTEE-2026_GENERAL-VANBERSCHOT_EL_7R
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-BAREFOOT_BAY_RECREATION_DISTRICT_TRUSTEE-2026_GENERAL-VANBERSCHOT_EL_7R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-BAREFOOT_BAY_RECREATION_DISTRICT_TRUSTEE-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-BAREFOOT_BAY_RECREATION_DISTRICT_TRUSTEE-2026_GENERAL
       person: PERSON-VANBERSCHOT_EL_7R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-BAREFOOT_BAY_TRUSTEE
+    code: OFFICE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-BAREFOOT_BAY_TRUSTEE
     attributes:
+      seat_code: BAREFOOT_BAY_TRUSTEE
       is_active: true
     references:
-      position: POSITION-BAREFOOT_BAY_TRUSTEE
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-BAREFOOT_BAY_TRUSTEE-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-BAREFOOT_BAY_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-BAREFOOT_BAY_TRUSTEE
+      office: OFFICE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-BAREFOOT_BAY_TRUSTEE
   - type: Person
     code: PERSON-CREITZ_JN_8J
     attributes:
@@ -254,12 +256,12 @@ groups:
       first_name: Jan
       last_name: Creitz
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-BAREFOOT_BAY_TRUSTEE-2026_GENERAL-CREITZ_JN_8J
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-BAREFOOT_BAY_TRUSTEE-2026_GENERAL-CREITZ_JN_8J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-BAREFOOT_BAY_TRUSTEE-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-BAREFOOT_BAY_TRUSTEE-2026_GENERAL
       person: PERSON-CREITZ_JN_8J
   - type: Person
     code: PERSON-JAMES_SY_7V
@@ -269,30 +271,30 @@ groups:
       first_name: Sydne
       last_name: James
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-BAREFOOT_BAY_TRUSTEE-2026_GENERAL-JAMES_SY_7V
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-BAREFOOT_BAY_TRUSTEE-2026_GENERAL-JAMES_SY_7V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-BAREFOOT_BAY_TRUSTEE-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-BAREFOOT_BAY_TRUSTEE-2026_GENERAL
       person: PERSON-JAMES_SY_7V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAYTREE_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: BAYTREE_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAYTREE_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAYTREE_CDD_SEAT_3
   - type: Person
     code: PERSON-BROWN_RC_4M
     attributes:
@@ -301,30 +303,30 @@ groups:
       first_name: Rick
       last_name: Brown
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3-2026_GENERAL-BROWN_RC_4M
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAYTREE_CDD_SEAT_3-2026_GENERAL-BROWN_RC_4M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAYTREE_CDD_SEAT_3-2026_GENERAL
       person: PERSON-BROWN_RC_4M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAYTREE_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: BAYTREE_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAYTREE_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAYTREE_CDD_SEAT_4
   - type: Person
     code: PERSON-HILL_JN_4J
     attributes:
@@ -334,30 +336,30 @@ groups:
       middle_name: "(Jan)"
       last_name: Hill
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_4-2026_GENERAL-HILL_JN_4J
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAYTREE_CDD_SEAT_4-2026_GENERAL-HILL_JN_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAYTREE_CDD_SEAT_4-2026_GENERAL
       person: PERSON-HILL_JN_4J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAYTREE_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: BAYTREE_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAYTREE_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAYTREE_CDD_SEAT_5
   - type: Person
     code: PERSON-DARBY_JR_7B
     attributes:
@@ -367,30 +369,30 @@ groups:
       middle_name: S.
       last_name: Darby
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5-2026_GENERAL-DARBY_JR_7B
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAYTREE_CDD_SEAT_5-2026_GENERAL-DARBY_JR_7B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-BAYTREE_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAYTREE_CDD_SEAT_5-2026_GENERAL
       person: PERSON-DARBY_JR_7B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_1
   - type: Person
     code: PERSON-BOOKHARDT_AL_6Z
     attributes:
@@ -399,7 +401,7 @@ groups:
       first_name: Aldon
       last_name: Bookhardt
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL-BOOKHARDT_AL_6Z
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL-BOOKHARDT_AL_6Z
     attributes:
       status: active
       participation: active
@@ -408,7 +410,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL
       person: PERSON-BOOKHARDT_AL_6Z
   - type: Person
     code: PERSON-LOYD_MC_8P
@@ -418,7 +420,7 @@ groups:
       first_name: Micah
       last_name: Loyd
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL-LOYD_MC_8P
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL-LOYD_MC_8P
     attributes:
       status: active
       participation: active
@@ -427,7 +429,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL
       person: PERSON-LOYD_MC_8P
   - type: Person
     code: PERSON-SLUSHER_NT_6K
@@ -437,7 +439,7 @@ groups:
       first_name: Nathan
       last_name: Slusher
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL-SLUSHER_NT_6K
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL-SLUSHER_NT_6K
     attributes:
       status: active
       participation: active
@@ -446,25 +448,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-LIBERTARIAN
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL
       person: PERSON-SLUSHER_NT_6K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-SIROIS_TY_8N
     attributes:
@@ -473,7 +475,7 @@ groups:
       first_name: Tyler
       last_name: Sirois
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-SIROIS_TY_8N
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-SIROIS_TY_8N
     attributes:
       status: active
       participation: active
@@ -482,25 +484,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-SIROIS_TY_8N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-FELTNER_RB_3E
     attributes:
@@ -509,7 +511,7 @@ groups:
       first_name: Rob
       last_name: Feltner
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-FELTNER_RB_3E
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-FELTNER_RB_3E
     attributes:
       status: active
       participation: active
@@ -518,25 +520,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-FELTNER_RB_3E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-CANAVERAL_PORT_AUTHORITY_DISTRICT_3-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_BREVARD-PORT_COMMISSIONER-CANAVERAL_PORT_AUTHORITY_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: CANAVERAL_PORT_AUTHORITY_SEAT_3
       is_active: true
     references:
-      position: POSITION-CANAVERAL_PORT_AUTHORITY_DISTRICT_3
+      position: POSITION-PORT_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-CANAVERAL_PORT_AUTHORITY_DISTRICT_3-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-PORT_COMMISSIONER-CANAVERAL_PORT_AUTHORITY_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-CANAVERAL_PORT_AUTHORITY_DISTRICT_3-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_BREVARD-PORT_COMMISSIONER-CANAVERAL_PORT_AUTHORITY_SEAT_3
   - type: Person
     code: PERSON-LOYD_GR_4L
     attributes:
@@ -545,7 +547,7 @@ groups:
       first_name: Greg
       last_name: Loyd
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-CANAVERAL_PORT_AUTHORITY_DISTRICT_3-SEAT_3-2026_GENERAL-LOYD_GR_4L
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-PORT_COMMISSIONER-CANAVERAL_PORT_AUTHORITY_SEAT_3-2026_GENERAL-LOYD_GR_4L
     attributes:
       status: active
       participation: active
@@ -554,25 +556,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-CANAVERAL_PORT_AUTHORITY_DISTRICT_3-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-PORT_COMMISSIONER-CANAVERAL_PORT_AUTHORITY_SEAT_3-2026_GENERAL
       person: PERSON-LOYD_GR_4L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-CANAVERAL_PORT_AUTHORITY_DISTRICT_5-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_BREVARD-PORT_COMMISSIONER-CANAVERAL_PORT_AUTHORITY_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: CANAVERAL_PORT_AUTHORITY_SEAT_5
       is_active: true
     references:
-      position: POSITION-CANAVERAL_PORT_AUTHORITY_DISTRICT_5
+      position: POSITION-PORT_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-CANAVERAL_PORT_AUTHORITY_DISTRICT_5-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-PORT_COMMISSIONER-CANAVERAL_PORT_AUTHORITY_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-CANAVERAL_PORT_AUTHORITY_DISTRICT_5-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_BREVARD-PORT_COMMISSIONER-CANAVERAL_PORT_AUTHORITY_SEAT_5
   - type: Person
     code: PERSON-CRAIG_CR_4K
     attributes:
@@ -581,7 +583,7 @@ groups:
       first_name: Carol
       last_name: Craig
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-CANAVERAL_PORT_AUTHORITY_DISTRICT_5-SEAT_5-2026_GENERAL-CRAIG_CR_4K
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-PORT_COMMISSIONER-CANAVERAL_PORT_AUTHORITY_SEAT_5-2026_GENERAL-CRAIG_CR_4K
     attributes:
       status: active
       participation: active
@@ -590,24 +592,24 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-CANAVERAL_PORT_AUTHORITY_DISTRICT_5-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-PORT_COMMISSIONER-CANAVERAL_PORT_AUTHORITY_SEAT_5-2026_GENERAL
       person: PERSON-CRAIG_CR_4K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-CAPE_CANAVERAL-CITY_OF_CAPE_CANAVERAL_CITY_COUNCIL_3_SEATS_AVAILABLE
+    code: OFFICE-USA-FL-CAPE_CANAVERAL-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-CITY_OF_CAPE_CANAVERAL_CITY_COUNCIL_3_SEATS_AVAILABLE
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-CAPE_CANAVERAL
   - type: Race
-    code: RACE-USA-FL-CAPE_CANAVERAL-CITY_OF_CAPE_CANAVERAL_CITY_COUNCIL_3_SEATS_AVAILABLE-2026_GENERAL
+    code: RACE-USA-FL-CAPE_CANAVERAL-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-CAPE_CANAVERAL-2026_GENERAL
-      office: OFFICE-USA-FL-CAPE_CANAVERAL-CITY_OF_CAPE_CANAVERAL_CITY_COUNCIL_3_SEATS_AVAILABLE
+      office: OFFICE-USA-FL-CAPE_CANAVERAL-COUNCIL_MEMBER
   - type: Person
     code: PERSON-COON_DN_8H
     attributes:
@@ -616,12 +618,12 @@ groups:
       first_name: Dan
       last_name: Coon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CAPE_CANAVERAL-CITY_OF_CAPE_CANAVERAL_CITY_COUNCIL_3_SEATS_AVAILABLE-2026_GENERAL-COON_DN_8H
+    code: CANDIDACY-USA-FL-CAPE_CANAVERAL-COUNCIL_MEMBER-2026_GENERAL-COON_DN_8H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CAPE_CANAVERAL-CITY_OF_CAPE_CANAVERAL_CITY_COUNCIL_3_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-CAPE_CANAVERAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-COON_DN_8H
   - type: Person
     code: PERSON-JACKSON_KY_4H
@@ -631,12 +633,12 @@ groups:
       first_name: Kay
       last_name: Jackson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CAPE_CANAVERAL-CITY_OF_CAPE_CANAVERAL_CITY_COUNCIL_3_SEATS_AVAILABLE-2026_GENERAL-JACKSON_KY_4H
+    code: CANDIDACY-USA-FL-CAPE_CANAVERAL-COUNCIL_MEMBER-2026_GENERAL-JACKSON_KY_4H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CAPE_CANAVERAL-CITY_OF_CAPE_CANAVERAL_CITY_COUNCIL_3_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-CAPE_CANAVERAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-JACKSON_KY_4H
   - type: Person
     code: PERSON-KING_AN_9B
@@ -646,12 +648,12 @@ groups:
       first_name: Andrea
       last_name: King
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CAPE_CANAVERAL-CITY_OF_CAPE_CANAVERAL_CITY_COUNCIL_3_SEATS_AVAILABLE-2026_GENERAL-KING_AN_9B
+    code: CANDIDACY-USA-FL-CAPE_CANAVERAL-COUNCIL_MEMBER-2026_GENERAL-KING_AN_9B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CAPE_CANAVERAL-CITY_OF_CAPE_CANAVERAL_CITY_COUNCIL_3_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-CAPE_CANAVERAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-KING_AN_9B
   - type: Person
     code: PERSON-PERVELL_BR_4R
@@ -661,12 +663,12 @@ groups:
       first_name: Brad
       last_name: Pervell
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CAPE_CANAVERAL-CITY_OF_CAPE_CANAVERAL_CITY_COUNCIL_3_SEATS_AVAILABLE-2026_GENERAL-PERVELL_BR_4R
+    code: CANDIDACY-USA-FL-CAPE_CANAVERAL-COUNCIL_MEMBER-2026_GENERAL-PERVELL_BR_4R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CAPE_CANAVERAL-CITY_OF_CAPE_CANAVERAL_CITY_COUNCIL_3_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-CAPE_CANAVERAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PERVELL_BR_4R
   - type: Person
     code: PERSON-WILLIS_DN_2D
@@ -676,29 +678,30 @@ groups:
       first_name: Don
       last_name: Willis
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CAPE_CANAVERAL-CITY_OF_CAPE_CANAVERAL_CITY_COUNCIL_3_SEATS_AVAILABLE-2026_GENERAL-WILLIS_DN_2D
+    code: CANDIDACY-USA-FL-CAPE_CANAVERAL-COUNCIL_MEMBER-2026_GENERAL-WILLIS_DN_2D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CAPE_CANAVERAL-CITY_OF_CAPE_CANAVERAL_CITY_COUNCIL_3_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-CAPE_CANAVERAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WILLIS_DN_2D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_4
+    code: OFFICE-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_4
     attributes:
+      seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_4
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-COCOA_BEACH
   - type: Race
-    code: RACE-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-COCOA_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_4
+      office: OFFICE-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_4
   - type: Person
     code: PERSON-ANDERSON_RC_2S
     attributes:
@@ -708,12 +711,12 @@ groups:
       middle_name: '"Rick" Joseph'
       last_name: Anderson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_4-2026_GENERAL-ANDERSON_RC_2S
+    code: CANDIDACY-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_4-2026_GENERAL-ANDERSON_RC_2S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_4-2026_GENERAL
       person: PERSON-ANDERSON_RC_2S
   - type: Person
     code: PERSON-COBB_AN_7E
@@ -723,12 +726,12 @@ groups:
       first_name: Angela
       last_name: Cobb
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_4-2026_GENERAL-COBB_AN_7E
+    code: CANDIDACY-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_4-2026_GENERAL-COBB_AN_7E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_4-2026_GENERAL
       person: PERSON-COBB_AN_7E
   - type: Person
     code: PERSON-LUND_GR_5L
@@ -738,12 +741,12 @@ groups:
       first_name: Gregory
       last_name: Lund
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_4-2026_GENERAL-LUND_GR_5L
+    code: CANDIDACY-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_4-2026_GENERAL-LUND_GR_5L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_4-2026_GENERAL
       person: PERSON-LUND_GR_5L
   - type: Person
     code: PERSON-WELLS_KN_3F
@@ -753,29 +756,30 @@ groups:
       first_name: Kenne
       last_name: Wells
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_4-2026_GENERAL-WELLS_KN_3F
+    code: CANDIDACY-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_4-2026_GENERAL-WELLS_KN_3F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_4-2026_GENERAL
       person: PERSON-WELLS_KN_3F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_5
+    code: OFFICE-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_5
     attributes:
+      seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_5
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-COCOA_BEACH
   - type: Race
-    code: RACE-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-COCOA_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_5
+      office: OFFICE-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_5
   - type: Person
     code: PERSON-HUTCHERSON_JR_6R
     attributes:
@@ -784,12 +788,12 @@ groups:
       first_name: Jeremy
       last_name: Hutcherson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_5-2026_GENERAL-HUTCHERSON_JR_6R
+    code: CANDIDACY-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_5-2026_GENERAL-HUTCHERSON_JR_6R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_5-2026_GENERAL
       person: PERSON-HUTCHERSON_JR_6R
   - type: Person
     code: PERSON-WOULAS_KR_5T
@@ -799,29 +803,30 @@ groups:
       first_name: Karalyn
       last_name: Woulas
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_5-2026_GENERAL-WOULAS_KR_5T
+    code: CANDIDACY-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_5-2026_GENERAL-WOULAS_KR_5T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COCOA_BEACH-CITY_OF_COCOA_BEACH_COMMISSIONER_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COCOA_BEACH-COMMISSIONER-SEAT_5-2026_GENERAL
       person: PERSON-WOULAS_KR_5T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COCOA-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_1
+    code: OFFICE-USA-FL-COCOA-COUNCIL_MEMBER-DISTRICT_1
     attributes:
+      seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_1
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-COCOA
   - type: Race
-    code: RACE-USA-FL-COCOA-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COCOA-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-COCOA-2026_GENERAL
-      office: OFFICE-USA-FL-COCOA-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_1
+      office: OFFICE-USA-FL-COCOA-COUNCIL_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-EDMOND_AL_7H
     attributes:
@@ -830,12 +835,12 @@ groups:
       first_name: Alton
       last_name: Edmond, Esquire
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COCOA-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_1-2026_GENERAL-EDMOND_AL_7H
+    code: CANDIDACY-USA-FL-COCOA-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL-EDMOND_AL_7H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COCOA-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COCOA-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-EDMOND_AL_7H
   - type: Person
     code: PERSON-SMITH_AN_3G
@@ -846,12 +851,12 @@ groups:
       middle_name: Jones
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COCOA-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_1-2026_GENERAL-SMITH_AN_3G
+    code: CANDIDACY-USA-FL-COCOA-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL-SMITH_AN_3G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COCOA-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COCOA-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-SMITH_AN_3G
   - type: Person
     code: PERSON-WAGNER_DF_8V
@@ -861,29 +866,30 @@ groups:
       first_name: Duffy
       last_name: Wagner
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COCOA-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_1-2026_GENERAL-WAGNER_DF_8V
+    code: CANDIDACY-USA-FL-COCOA-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL-WAGNER_DF_8V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COCOA-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COCOA-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-WAGNER_DF_8V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COCOA-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_4
+    code: OFFICE-USA-FL-COCOA-COUNCIL_MEMBER-DISTRICT_4
     attributes:
+      seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_4
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-COCOA
   - type: Race
-    code: RACE-USA-FL-COCOA-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COCOA-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-COCOA-2026_GENERAL
-      office: OFFICE-USA-FL-COCOA-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_4
+      office: OFFICE-USA-FL-COCOA-COUNCIL_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-CHABOT_RN_5E
     attributes:
@@ -892,12 +898,12 @@ groups:
       first_name: Ron
       last_name: Chabot
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COCOA-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_4-2026_GENERAL-CHABOT_RN_5E
+    code: CANDIDACY-USA-FL-COCOA-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL-CHABOT_RN_5E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COCOA-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COCOA-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-CHABOT_RN_5E
   - type: Person
     code: PERSON-OTERO_JS_9J
@@ -907,29 +913,30 @@ groups:
       first_name: Josué
       last_name: Otero
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COCOA-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_4-2026_GENERAL-OTERO_JS_9J
+    code: CANDIDACY-USA-FL-COCOA-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL-OTERO_JS_9J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COCOA-CITY_OF_COCOA_CITY_COUNCIL_DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COCOA-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-OTERO_JS_9J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_1
+    code: OFFICE-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_1
     attributes:
+      seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_1
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-INDIAN_HARBOUR_BEACH
   - type: Race
-    code: RACE-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-INDIAN_HARBOUR_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_1
+      office: OFFICE-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_1
   - type: Person
     code: PERSON-CAMERON_BN_4P
     attributes:
@@ -938,12 +945,12 @@ groups:
       first_name: Bonnie
       last_name: Cameron
   - type: Candidacy
-    code: CANDIDACY-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_1-2026_GENERAL-CAMERON_BN_4P
+    code: CANDIDACY-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_1-2026_GENERAL-CAMERON_BN_4P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
       person: PERSON-CAMERON_BN_4P
   - type: Person
     code: PERSON-JIMEIAN_LN_2V
@@ -953,29 +960,30 @@ groups:
       first_name: Linda
       last_name: Jimeian
   - type: Candidacy
-    code: CANDIDACY-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_1-2026_GENERAL-JIMEIAN_LN_2V
+    code: CANDIDACY-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_1-2026_GENERAL-JIMEIAN_LN_2V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
       person: PERSON-JIMEIAN_LN_2V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_2
+    code: OFFICE-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_2
     attributes:
+      seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_2
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-INDIAN_HARBOUR_BEACH
   - type: Race
-    code: RACE-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-INDIAN_HARBOUR_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_2
+      office: OFFICE-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_2
   - type: Person
     code: PERSON-NUTT_DV_5A
     attributes:
@@ -984,29 +992,30 @@ groups:
       first_name: David
       last_name: Nutt
   - type: Candidacy
-    code: CANDIDACY-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_2-2026_GENERAL-NUTT_DV_5A
+    code: CANDIDACY-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_2-2026_GENERAL-NUTT_DV_5A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_2-2026_GENERAL
       person: PERSON-NUTT_DV_5A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_3
+    code: OFFICE-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_3
     attributes:
+      seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_3
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-INDIAN_HARBOUR_BEACH
   - type: Race
-    code: RACE-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-INDIAN_HARBOUR_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_3
+      office: OFFICE-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_3
   - type: Person
     code: PERSON-RUIMY_SS_3V
     attributes:
@@ -1015,29 +1024,30 @@ groups:
       first_name: Susan
       last_name: Ruimy
   - type: Candidacy
-    code: CANDIDACY-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_3-2026_GENERAL-RUIMY_SS_3V
+    code: CANDIDACY-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_3-2026_GENERAL-RUIMY_SS_3V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-INDIAN_HARBOUR_BEACH-CITY_OF_INDIAN_HARBOUR_BEACH_CITY_COUNCIL_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-INDIAN_HARBOUR_BEACH-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
       person: PERSON-RUIMY_SS_3V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_2
+    code: OFFICE-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_2
     attributes:
+      seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_2
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-MELBOURNE
   - type: Race
-    code: RACE-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-MELBOURNE-2026_GENERAL
-      office: OFFICE-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_2
+      office: OFFICE-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-HINTON_LG_4F
     attributes:
@@ -1047,12 +1057,12 @@ groups:
       middle_name: Alexander
       last_name: Hinton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_2-2026_GENERAL-HINTON_LG_4F
+    code: CANDIDACY-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL-HINTON_LG_4F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-HINTON_LG_4F
   - type: Person
     code: PERSON-ZONKA_ML_4U
@@ -1063,29 +1073,30 @@ groups:
       middle_name: Matthew
       last_name: Zonka
   - type: Candidacy
-    code: CANDIDACY-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_2-2026_GENERAL-ZONKA_ML_4U
+    code: CANDIDACY-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL-ZONKA_ML_4U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-ZONKA_ML_4U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_4
+    code: OFFICE-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_4
     attributes:
+      seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_4
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-MELBOURNE
   - type: Race
-    code: RACE-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-MELBOURNE-2026_GENERAL
-      office: OFFICE-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_4
+      office: OFFICE-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-BASSETT_RC_5S
     attributes:
@@ -1094,12 +1105,12 @@ groups:
       first_name: Rachael
       last_name: Bassett
   - type: Candidacy
-    code: CANDIDACY-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_4-2026_GENERAL-BASSETT_RC_5S
+    code: CANDIDACY-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL-BASSETT_RC_5S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-BASSETT_RC_5S
   - type: Person
     code: PERSON-BRUCE_JH_8Q
@@ -1109,29 +1120,30 @@ groups:
       first_name: John
       last_name: Bruce
   - type: Candidacy
-    code: CANDIDACY-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_4-2026_GENERAL-BRUCE_JH_8Q
+    code: CANDIDACY-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL-BRUCE_JH_8Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-BRUCE_JH_8Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_6
+    code: OFFICE-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_6
     attributes:
+      seat_code: DISTRICT_6
       is_active: true
     references:
-      position: POSITION-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_6
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-MELBOURNE
   - type: Race
-    code: RACE-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_6-2026_GENERAL
+    code: RACE-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_6-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-MELBOURNE-2026_GENERAL
-      office: OFFICE-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_6
+      office: OFFICE-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_6
   - type: Person
     code: PERSON-BENNINGER_HN_7R
     attributes:
@@ -1140,29 +1152,30 @@ groups:
       first_name: Hunter
       last_name: Benninger
   - type: Candidacy
-    code: CANDIDACY-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_6-2026_GENERAL-BENNINGER_HN_7R
+    code: CANDIDACY-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_6-2026_GENERAL-BENNINGER_HN_7R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-MELBOURNE-CITY_OF_MELBOURNE_CITY_COUNCIL_DISTRICT_6-2026_GENERAL
+      race: RACE-USA-FL-MELBOURNE-COUNCIL_MEMBER-DISTRICT_6-2026_GENERAL
       person: PERSON-BENNINGER_HN_7R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_CITY_COUNCIL_SEAT_3
+    code: OFFICE-USA-FL-ROCKLEDGE-COUNCIL_MEMBER-SEAT_3
     attributes:
+      seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-CITY_OF_ROCKLEDGE_CITY_COUNCIL_SEAT_3
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-ROCKLEDGE
   - type: Race
-    code: RACE-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_CITY_COUNCIL_SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-ROCKLEDGE-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-ROCKLEDGE-2026_GENERAL
-      office: OFFICE-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_CITY_COUNCIL_SEAT_3
+      office: OFFICE-USA-FL-ROCKLEDGE-COUNCIL_MEMBER-SEAT_3
   - type: Person
     code: PERSON-DIAZ_JD_9D
     attributes:
@@ -1171,12 +1184,12 @@ groups:
       first_name: Judy
       last_name: Diaz
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_CITY_COUNCIL_SEAT_3-2026_GENERAL-DIAZ_JD_9D
+    code: CANDIDACY-USA-FL-ROCKLEDGE-COUNCIL_MEMBER-SEAT_3-2026_GENERAL-DIAZ_JD_9D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_CITY_COUNCIL_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-ROCKLEDGE-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
       person: PERSON-DIAZ_JD_9D
   - type: Person
     code: PERSON-MARTIN_SM_8F
@@ -1187,29 +1200,30 @@ groups:
       middle_name: Brown
       last_name: Martin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_CITY_COUNCIL_SEAT_3-2026_GENERAL-MARTIN_SM_8F
+    code: CANDIDACY-USA-FL-ROCKLEDGE-COUNCIL_MEMBER-SEAT_3-2026_GENERAL-MARTIN_SM_8F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_CITY_COUNCIL_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-ROCKLEDGE-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
       person: PERSON-MARTIN_SM_8F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_CITY_COUNCIL_SEAT_4
+    code: OFFICE-USA-FL-ROCKLEDGE-COUNCIL_MEMBER-SEAT_4
     attributes:
+      seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-CITY_OF_ROCKLEDGE_CITY_COUNCIL_SEAT_4
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-ROCKLEDGE
   - type: Race
-    code: RACE-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_CITY_COUNCIL_SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-ROCKLEDGE-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-ROCKLEDGE-2026_GENERAL
-      office: OFFICE-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_CITY_COUNCIL_SEAT_4
+      office: OFFICE-USA-FL-ROCKLEDGE-COUNCIL_MEMBER-SEAT_4
   - type: Person
     code: PERSON-JOLLEY_RC_9Y
     attributes:
@@ -1218,12 +1232,12 @@ groups:
       first_name: Rachele
       last_name: Jolley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_CITY_COUNCIL_SEAT_4-2026_GENERAL-JOLLEY_RC_9Y
+    code: CANDIDACY-USA-FL-ROCKLEDGE-COUNCIL_MEMBER-SEAT_4-2026_GENERAL-JOLLEY_RC_9Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_CITY_COUNCIL_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-ROCKLEDGE-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
       person: PERSON-JOLLEY_RC_9Y
   - type: Person
     code: PERSON-ONEILL_TH_6Y
@@ -1234,29 +1248,29 @@ groups:
       middle_name: P. "Pat"
       last_name: O'Neill
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_CITY_COUNCIL_SEAT_4-2026_GENERAL-ONEILL_TH_6Y
+    code: CANDIDACY-USA-FL-ROCKLEDGE-COUNCIL_MEMBER-SEAT_4-2026_GENERAL-ONEILL_TH_6Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_CITY_COUNCIL_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-ROCKLEDGE-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
       person: PERSON-ONEILL_TH_6Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_MAYOR
+    code: OFFICE-USA-FL-ROCKLEDGE-MAYOR
     attributes:
       is_active: true
     references:
-      position: POSITION-CITY_OF_ROCKLEDGE_MAYOR
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-ROCKLEDGE
   - type: Race
-    code: RACE-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_MAYOR-2026_GENERAL
+    code: RACE-USA-FL-ROCKLEDGE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-ROCKLEDGE-2026_GENERAL
-      office: OFFICE-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_MAYOR
+      office: OFFICE-USA-FL-ROCKLEDGE-MAYOR
   - type: Person
     code: PERSON-FERGUSON_SH_8D
     attributes:
@@ -1265,29 +1279,29 @@ groups:
       first_name: Shaun
       last_name: Ferguson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_MAYOR-2026_GENERAL-FERGUSON_SH_8D
+    code: CANDIDACY-USA-FL-ROCKLEDGE-MAYOR-2026_GENERAL-FERGUSON_SH_8D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ROCKLEDGE-CITY_OF_ROCKLEDGE_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-ROCKLEDGE-MAYOR-2026_GENERAL
       person: PERSON-FERGUSON_SH_8D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-SATELLITE_BEACH-CITY_OF_SATELLITE_BEACH_CITY_COUNCIL_2_SEATS_AVAILABLE
+    code: OFFICE-USA-FL-SATELLITE_BEACH-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-CITY_OF_SATELLITE_BEACH_CITY_COUNCIL_2_SEATS_AVAILABLE
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-SATELLITE_BEACH
   - type: Race
-    code: RACE-USA-FL-SATELLITE_BEACH-CITY_OF_SATELLITE_BEACH_CITY_COUNCIL_2_SEATS_AVAILABLE-2026_GENERAL
+    code: RACE-USA-FL-SATELLITE_BEACH-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-SATELLITE_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-SATELLITE_BEACH-CITY_OF_SATELLITE_BEACH_CITY_COUNCIL_2_SEATS_AVAILABLE
+      office: OFFICE-USA-FL-SATELLITE_BEACH-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BOOTH_BL_4N
     attributes:
@@ -1296,12 +1310,12 @@ groups:
       first_name: Billy
       last_name: Booth
   - type: Candidacy
-    code: CANDIDACY-USA-FL-SATELLITE_BEACH-CITY_OF_SATELLITE_BEACH_CITY_COUNCIL_2_SEATS_AVAILABLE-2026_GENERAL-BOOTH_BL_4N
+    code: CANDIDACY-USA-FL-SATELLITE_BEACH-COUNCIL_MEMBER-2026_GENERAL-BOOTH_BL_4N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-SATELLITE_BEACH-CITY_OF_SATELLITE_BEACH_CITY_COUNCIL_2_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-SATELLITE_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BOOTH_BL_4N
   - type: Person
     code: PERSON-CULP_RN_2L
@@ -1311,12 +1325,12 @@ groups:
       first_name: Ron
       last_name: Culp
   - type: Candidacy
-    code: CANDIDACY-USA-FL-SATELLITE_BEACH-CITY_OF_SATELLITE_BEACH_CITY_COUNCIL_2_SEATS_AVAILABLE-2026_GENERAL-CULP_RN_2L
+    code: CANDIDACY-USA-FL-SATELLITE_BEACH-COUNCIL_MEMBER-2026_GENERAL-CULP_RN_2L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-SATELLITE_BEACH-CITY_OF_SATELLITE_BEACH_CITY_COUNCIL_2_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-SATELLITE_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CULP_RN_2L
   - type: Person
     code: PERSON-SCAGLIONE_FR_3T
@@ -1326,12 +1340,12 @@ groups:
       first_name: Frank
       last_name: Scaglione
   - type: Candidacy
-    code: CANDIDACY-USA-FL-SATELLITE_BEACH-CITY_OF_SATELLITE_BEACH_CITY_COUNCIL_2_SEATS_AVAILABLE-2026_GENERAL-SCAGLIONE_FR_3T
+    code: CANDIDACY-USA-FL-SATELLITE_BEACH-COUNCIL_MEMBER-2026_GENERAL-SCAGLIONE_FR_3T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-SATELLITE_BEACH-CITY_OF_SATELLITE_BEACH_CITY_COUNCIL_2_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-SATELLITE_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SCAGLIONE_FR_3T
   - type: Person
     code: PERSON-ZIMMERMAN_MT_3N
@@ -1341,29 +1355,30 @@ groups:
       first_name: Matt
       last_name: Zimmerman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-SATELLITE_BEACH-CITY_OF_SATELLITE_BEACH_CITY_COUNCIL_2_SEATS_AVAILABLE-2026_GENERAL-ZIMMERMAN_MT_3N
+    code: CANDIDACY-USA-FL-SATELLITE_BEACH-COUNCIL_MEMBER-2026_GENERAL-ZIMMERMAN_MT_3N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-SATELLITE_BEACH-CITY_OF_SATELLITE_BEACH_CITY_COUNCIL_2_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-SATELLITE_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ZIMMERMAN_MT_3N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_1
+    code: OFFICE-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_1
     attributes:
+      seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_1
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-TITUSVILLE
   - type: Race
-    code: RACE-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-TITUSVILLE-2026_GENERAL
-      office: OFFICE-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_1
+      office: OFFICE-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_1
   - type: Person
     code: PERSON-BAKER_EL_6G
     attributes:
@@ -1372,12 +1387,12 @@ groups:
       first_name: Elizabeth
       last_name: Baker
   - type: Candidacy
-    code: CANDIDACY-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_1-2026_GENERAL-BAKER_EL_6G
+    code: CANDIDACY-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_1-2026_GENERAL-BAKER_EL_6G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
       person: PERSON-BAKER_EL_6G
   - type: Person
     code: PERSON-COLE_HR_4V
@@ -1388,29 +1403,30 @@ groups:
       middle_name: A.
       last_name: Cole
   - type: Candidacy
-    code: CANDIDACY-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_1-2026_GENERAL-COLE_HR_4V
+    code: CANDIDACY-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_1-2026_GENERAL-COLE_HR_4V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
       person: PERSON-COLE_HR_4V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_3
+    code: OFFICE-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_3
     attributes:
+      seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_3
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-TITUSVILLE
   - type: Race
-    code: RACE-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-TITUSVILLE-2026_GENERAL
-      office: OFFICE-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_3
+      office: OFFICE-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_3
   - type: Person
     code: PERSON-CURTIS_TM_2V
     attributes:
@@ -1419,12 +1435,12 @@ groups:
       first_name: Tim
       last_name: Curtis
   - type: Candidacy
-    code: CANDIDACY-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_3-2026_GENERAL-CURTIS_TM_2V
+    code: CANDIDACY-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_3-2026_GENERAL-CURTIS_TM_2V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
       person: PERSON-CURTIS_TM_2V
   - type: Person
     code: PERSON-MOSCOSO_MG_9E
@@ -1434,29 +1450,30 @@ groups:
       first_name: Megan
       last_name: Moscoso
   - type: Candidacy
-    code: CANDIDACY-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_3-2026_GENERAL-MOSCOSO_MG_9E
+    code: CANDIDACY-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_3-2026_GENERAL-MOSCOSO_MG_9E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
       person: PERSON-MOSCOSO_MG_9E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_5
+    code: OFFICE-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_5
     attributes:
+      seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_5
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-TITUSVILLE
   - type: Race
-    code: RACE-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-TITUSVILLE-2026_GENERAL
-      office: OFFICE-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_5
+      office: OFFICE-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_5
   - type: Person
     code: PERSON-CHILDS_CH_2N
     attributes:
@@ -1465,12 +1482,12 @@ groups:
       first_name: Christopher
       last_name: Childs
   - type: Candidacy
-    code: CANDIDACY-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_5-2026_GENERAL-CHILDS_CH_2N
+    code: CANDIDACY-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_5-2026_GENERAL-CHILDS_CH_2N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_5-2026_GENERAL
       person: PERSON-CHILDS_CH_2N
   - type: Person
     code: PERSON-MANNING_KY_9T
@@ -1480,29 +1497,29 @@ groups:
       first_name: Kayla
       last_name: Manning
   - type: Candidacy
-    code: CANDIDACY-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_5-2026_GENERAL-MANNING_KY_9T
+    code: CANDIDACY-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_5-2026_GENERAL-MANNING_KY_9T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-TITUSVILLE-CITY_OF_TITUSVILLE_CITY_COUNCIL_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-TITUSVILLE-COUNCIL_MEMBER-SEAT_5-2026_GENERAL
       person: PERSON-MANNING_KY_9T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-WEST_MELBOURNE-CITY_OF_WEST_MELBOURNE_CITY_COUNCIL_MEMBER_3_SEATS_AVAILABLE
+    code: OFFICE-USA-FL-WEST_MELBOURNE-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-CITY_OF_WEST_MELBOURNE_CITY_COUNCIL_MEMBER_3_SEATS_AVAILABLE
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-WEST_MELBOURNE
   - type: Race
-    code: RACE-USA-FL-WEST_MELBOURNE-CITY_OF_WEST_MELBOURNE_CITY_COUNCIL_MEMBER_3_SEATS_AVAILABLE-2026_GENERAL
+    code: RACE-USA-FL-WEST_MELBOURNE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-WEST_MELBOURNE-2026_GENERAL
-      office: OFFICE-USA-FL-WEST_MELBOURNE-CITY_OF_WEST_MELBOURNE_CITY_COUNCIL_MEMBER_3_SEATS_AVAILABLE
+      office: OFFICE-USA-FL-WEST_MELBOURNE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-ADAMS_DN_8A
     attributes:
@@ -1511,12 +1528,12 @@ groups:
       first_name: Diana
       last_name: Adams
   - type: Candidacy
-    code: CANDIDACY-USA-FL-WEST_MELBOURNE-CITY_OF_WEST_MELBOURNE_CITY_COUNCIL_MEMBER_3_SEATS_AVAILABLE-2026_GENERAL-ADAMS_DN_8A
+    code: CANDIDACY-USA-FL-WEST_MELBOURNE-COUNCIL_MEMBER-2026_GENERAL-ADAMS_DN_8A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-WEST_MELBOURNE-CITY_OF_WEST_MELBOURNE_CITY_COUNCIL_MEMBER_3_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-WEST_MELBOURNE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ADAMS_DN_8A
   - type: Person
     code: PERSON-DITTMORE_JH_5M
@@ -1526,12 +1543,12 @@ groups:
       first_name: John
       last_name: Dittmore
   - type: Candidacy
-    code: CANDIDACY-USA-FL-WEST_MELBOURNE-CITY_OF_WEST_MELBOURNE_CITY_COUNCIL_MEMBER_3_SEATS_AVAILABLE-2026_GENERAL-DITTMORE_JH_5M
+    code: CANDIDACY-USA-FL-WEST_MELBOURNE-COUNCIL_MEMBER-2026_GENERAL-DITTMORE_JH_5M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-WEST_MELBOURNE-CITY_OF_WEST_MELBOURNE_CITY_COUNCIL_MEMBER_3_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-WEST_MELBOURNE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DITTMORE_JH_5M
   - type: Person
     code: PERSON-GAFFNEY_AD_3K
@@ -1541,12 +1558,12 @@ groups:
       first_name: Adam
       last_name: Gaffney
   - type: Candidacy
-    code: CANDIDACY-USA-FL-WEST_MELBOURNE-CITY_OF_WEST_MELBOURNE_CITY_COUNCIL_MEMBER_3_SEATS_AVAILABLE-2026_GENERAL-GAFFNEY_AD_3K
+    code: CANDIDACY-USA-FL-WEST_MELBOURNE-COUNCIL_MEMBER-2026_GENERAL-GAFFNEY_AD_3K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-WEST_MELBOURNE-CITY_OF_WEST_MELBOURNE_CITY_COUNCIL_MEMBER_3_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-WEST_MELBOURNE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GAFFNEY_AD_3K
   - type: Person
     code: PERSON-VILLAREAL_LC_5Q
@@ -1556,12 +1573,12 @@ groups:
       first_name: Lacey
       last_name: Villareal
   - type: Candidacy
-    code: CANDIDACY-USA-FL-WEST_MELBOURNE-CITY_OF_WEST_MELBOURNE_CITY_COUNCIL_MEMBER_3_SEATS_AVAILABLE-2026_GENERAL-VILLAREAL_LC_5Q
+    code: CANDIDACY-USA-FL-WEST_MELBOURNE-COUNCIL_MEMBER-2026_GENERAL-VILLAREAL_LC_5Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-WEST_MELBOURNE-CITY_OF_WEST_MELBOURNE_CITY_COUNCIL_MEMBER_3_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-WEST_MELBOURNE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-VILLAREAL_LC_5Q
   - type: Person
     code: PERSON-VOLTZ_HL_7H
@@ -1571,12 +1588,12 @@ groups:
       first_name: Helen
       last_name: Voltz
   - type: Candidacy
-    code: CANDIDACY-USA-FL-WEST_MELBOURNE-CITY_OF_WEST_MELBOURNE_CITY_COUNCIL_MEMBER_3_SEATS_AVAILABLE-2026_GENERAL-VOLTZ_HL_7H
+    code: CANDIDACY-USA-FL-WEST_MELBOURNE-COUNCIL_MEMBER-2026_GENERAL-VOLTZ_HL_7H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-WEST_MELBOURNE-CITY_OF_WEST_MELBOURNE_CITY_COUNCIL_MEMBER_3_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-WEST_MELBOURNE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-VOLTZ_HL_7H
 - records:
   - type: Office
@@ -1613,21 +1630,21 @@ groups:
       person: PERSON-TUCKER_TM_3Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EVERLANDS_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: EVERLANDS_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EVERLANDS_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EVERLANDS_CDD_SEAT_3
   - type: Person
     code: PERSON-FEARON_LS_4C
     attributes:
@@ -1636,30 +1653,30 @@ groups:
       first_name: Lisa
       last_name: Fearon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3-2026_GENERAL-FEARON_LS_4C
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EVERLANDS_CDD_SEAT_3-2026_GENERAL-FEARON_LS_4C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EVERLANDS_CDD_SEAT_3-2026_GENERAL
       person: PERSON-FEARON_LS_4C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EVERLANDS_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: EVERLANDS_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EVERLANDS_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EVERLANDS_CDD_SEAT_4
   - type: Person
     code: PERSON-HOTALSKI_NC_4B
     attributes:
@@ -1669,30 +1686,30 @@ groups:
       middle_name: C.
       last_name: Hotalski
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_4-2026_GENERAL-HOTALSKI_NC_4B
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EVERLANDS_CDD_SEAT_4-2026_GENERAL-HOTALSKI_NC_4B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EVERLANDS_CDD_SEAT_4-2026_GENERAL
       person: PERSON-HOTALSKI_NC_4B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EVERLANDS_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: EVERLANDS_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EVERLANDS_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EVERLANDS_CDD_SEAT_5
   - type: Person
     code: PERSON-NEELY_KT_3D
     attributes:
@@ -1701,30 +1718,30 @@ groups:
       first_name: Katherine
       last_name: Neely
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5-2026_GENERAL-NEELY_KT_3D
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EVERLANDS_CDD_SEAT_5-2026_GENERAL-NEELY_KT_3D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-EVERLANDS_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EVERLANDS_CDD_SEAT_5-2026_GENERAL
       person: PERSON-NEELY_KT_3D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: HERITAGE_ISLE_AT_VIERA_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_1
   - type: Person
     code: PERSON-FRANCIS_DV_8P
     attributes:
@@ -1733,12 +1750,12 @@ groups:
       first_name: David
       last_name: Francis
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1-2026_GENERAL-FRANCIS_DV_8P
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_1-2026_GENERAL-FRANCIS_DV_8P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_1-2026_GENERAL
       person: PERSON-FRANCIS_DV_8P
   - type: Person
     code: PERSON-WAYNE_RB_4D
@@ -1748,30 +1765,30 @@ groups:
       first_name: Robert
       last_name: Wayne
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1-2026_GENERAL-WAYNE_RB_4D
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_1-2026_GENERAL-WAYNE_RB_4D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_1-2026_GENERAL
       person: PERSON-WAYNE_RB_4D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: HERITAGE_ISLE_AT_VIERA_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_2
   - type: Person
     code: PERSON-BARCLAE_CY_4V
     attributes:
@@ -1780,12 +1797,12 @@ groups:
       first_name: Cynthia
       last_name: Barclae
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2-2026_GENERAL-BARCLAE_CY_4V
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_2-2026_GENERAL-BARCLAE_CY_4V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_2-2026_GENERAL
       person: PERSON-BARCLAE_CY_4V
   - type: Person
     code: PERSON-MOORE_CH_5P
@@ -1796,30 +1813,30 @@ groups:
       middle_name: L. "Hawk"
       last_name: Moore
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2-2026_GENERAL-MOORE_CH_5P
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_2-2026_GENERAL-MOORE_CH_5P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_2-2026_GENERAL
       person: PERSON-MOORE_CH_5P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: HERITAGE_ISLE_AT_VIERA_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_3
   - type: Person
     code: PERSON-WALTER_KN_4V
     attributes:
@@ -1828,30 +1845,30 @@ groups:
       first_name: Ken
       last_name: Walter
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3-2026_GENERAL-WALTER_KN_4V
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_3-2026_GENERAL-WALTER_KN_4V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-HERITAGE_ISLE_AT_VIERA_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLE_AT_VIERA_CDD_SEAT_3-2026_GENERAL
       person: PERSON-WALTER_KN_4V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-MONTECITO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MONTECITO_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: MONTECITO_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-MONTECITO_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-MONTECITO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MONTECITO_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-MONTECITO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MONTECITO_CDD_SEAT_4
   - type: Person
     code: PERSON-GLYNN_TN_7H
     attributes:
@@ -1860,30 +1877,30 @@ groups:
       first_name: Tanja
       last_name: Glynn
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-MONTECITO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_4-2026_GENERAL-GLYNN_TN_7H
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MONTECITO_CDD_SEAT_4-2026_GENERAL-GLYNN_TN_7H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-MONTECITO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MONTECITO_CDD_SEAT_4-2026_GENERAL
       person: PERSON-GLYNN_TN_7H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-MONTECITO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MONTECITO_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: MONTECITO_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-MONTECITO_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-MONTECITO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MONTECITO_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-MONTECITO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MONTECITO_CDD_SEAT_5
   - type: Person
     code: PERSON-WELLMAN_RC_8H
     attributes:
@@ -1892,30 +1909,30 @@ groups:
       first_name: Rich
       last_name: Wellman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-MONTECITO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5-2026_GENERAL-WELLMAN_RC_8H
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MONTECITO_CDD_SEAT_5-2026_GENERAL-WELLMAN_RC_8H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-MONTECITO_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MONTECITO_CDD_SEAT_5-2026_GENERAL
       person: PERSON-WELLMAN_RC_8H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD-GROUP_1
+    code: OFFICE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD_GROUP_1
     attributes:
-      seat_code: GROUP_1
+      seat_code: NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD_GROUP_1
       is_active: true
     references:
-      position: POSITION-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD-GROUP_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD_GROUP_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD-GROUP_1
+      office: OFFICE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD_GROUP_1
   - type: Person
     code: PERSON-HILLBERG_MR_8L
     attributes:
@@ -1924,30 +1941,30 @@ groups:
       first_name: Mary
       last_name: Hillberg
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD-GROUP_1-2026_GENERAL-HILLBERG_MR_8L
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD_GROUP_1-2026_GENERAL-HILLBERG_MR_8L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD-GROUP_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD_GROUP_1-2026_GENERAL
       person: PERSON-HILLBERG_MR_8L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD-GROUP_5
+    code: OFFICE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD_GROUP_5
     attributes:
-      seat_code: GROUP_5
+      seat_code: NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD_GROUP_5
       is_active: true
     references:
-      position: POSITION-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD-GROUP_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD_GROUP_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD-GROUP_5
+      office: OFFICE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD_GROUP_5
   - type: Person
     code: PERSON-SPECK_JH_7Z
     attributes:
@@ -1957,30 +1974,30 @@ groups:
       middle_name: W.
       last_name: Speck Jr
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD-GROUP_5-2026_GENERAL-SPECK_JH_7Z
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD_GROUP_5-2026_GENERAL-SPECK_JH_7Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD-GROUP_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_MERRITT_ISLAND_DEPENDENT_SPECIAL_DISTRICT_ADVISORY_BOARD_GROUP_5-2026_GENERAL
       person: PERSON-SPECK_JH_7Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-PORT_MALABAR_HOLIDAY_PARK_RECREATION_DISTRICT-SEAT_6
+    code: OFFICE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-PORT_MALABAR_HOLIDAY_PARK_RECREATION_DISTRICT_SEAT_6
     attributes:
-      seat_code: SEAT_6
+      seat_code: PORT_MALABAR_HOLIDAY_PARK_RECREATION_DISTRICT_SEAT_6
       is_active: true
     references:
-      position: POSITION-PORT_MALABAR_HOLIDAY_PARK_RECREATION_DISTRICT
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-PORT_MALABAR_HOLIDAY_PARK_RECREATION_DISTRICT-SEAT_6-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-PORT_MALABAR_HOLIDAY_PARK_RECREATION_DISTRICT_SEAT_6-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-PORT_MALABAR_HOLIDAY_PARK_RECREATION_DISTRICT-SEAT_6
+      office: OFFICE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-PORT_MALABAR_HOLIDAY_PARK_RECREATION_DISTRICT_SEAT_6
   - type: Person
     code: PERSON-EARNEST_RB_2W
     attributes:
@@ -1989,30 +2006,30 @@ groups:
       first_name: Rebecca
       last_name: Earnest
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-PORT_MALABAR_HOLIDAY_PARK_RECREATION_DISTRICT-SEAT_6-2026_GENERAL-EARNEST_RB_2W
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-PORT_MALABAR_HOLIDAY_PARK_RECREATION_DISTRICT_SEAT_6-2026_GENERAL-EARNEST_RB_2W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-PORT_MALABAR_HOLIDAY_PARK_RECREATION_DISTRICT-SEAT_6-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-SPECIAL_DISTRICT_BOARD_MEMBER-PORT_MALABAR_HOLIDAY_PARK_RECREATION_DISTRICT_SEAT_6-2026_GENERAL
       person: PERSON-EARNEST_RB_2W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-WRIGHT_MG_9L
     attributes:
@@ -2021,30 +2038,30 @@ groups:
       first_name: Megan
       last_name: Wright
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-WRIGHT_MG_9L
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-WRIGHT_MG_9L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-WRIGHT_MG_9L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-SAVAGE_KY_3V
     attributes:
@@ -2053,12 +2070,12 @@ groups:
       first_name: Kyle
       last_name: Savage
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-SAVAGE_KY_3V
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-SAVAGE_KY_3V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-SAVAGE_KY_3V
   - type: Person
     code: PERSON-TRENT_GN_2L
@@ -2068,30 +2085,30 @@ groups:
       first_name: Gene
       last_name: Trent
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-TRENT_GN_2L
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-TRENT_GN_2L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-TRENT_GN_2L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-DENNIS_TM_9S
     attributes:
@@ -2100,12 +2117,12 @@ groups:
       first_name: Tammy
       last_name: Dennis
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-DENNIS_TM_9S
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-DENNIS_TM_9S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-DENNIS_TM_9S
   - type: Person
     code: PERSON-MCCORMACK_MC_6S
@@ -2115,30 +2132,30 @@ groups:
       first_name: Michele
       last_name: McCormack
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-MCCORMACK_MC_6S
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-MCCORMACK_MC_6S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-MCCORMACK_MC_6S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
     attributes:
       seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
   - type: Person
     code: PERSON-WIIRRE_AN_3A
     attributes:
@@ -2147,30 +2164,30 @@ groups:
       first_name: Ann
       last_name: Wiirre
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_1-2026_GENERAL-WIIRRE_AN_3A
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL-WIIRRE_AN_3A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
       person: PERSON-WIIRRE_AN_3A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2
     attributes:
       seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2
   - type: Person
     code: PERSON-CRISAFULLI_BD_5D
     attributes:
@@ -2179,30 +2196,30 @@ groups:
       first_name: Bud
       last_name: Crisafulli
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_2-2026_GENERAL-CRISAFULLI_BD_5D
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2-2026_GENERAL-CRISAFULLI_BD_5D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2-2026_GENERAL
       person: PERSON-CRISAFULLI_BD_5D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3
     attributes:
       seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3
   - type: Person
     code: PERSON-SEPP_EL_9L
     attributes:
@@ -2211,29 +2228,29 @@ groups:
       first_name: Eileen
       last_name: Sepp
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_3-2026_GENERAL-SEPP_EL_9L
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL-SEPP_EL_9L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL
       person: PERSON-SEPP_EL_9L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_MAYOR
+    code: OFFICE-USA-FL-GRANT_VALKARIA-MAYOR
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_OF_GRANT_VALKARIA_MAYOR
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-GRANT_VALKARIA
   - type: Race
-    code: RACE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_MAYOR-2026_GENERAL
+    code: RACE-USA-FL-GRANT_VALKARIA-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-GRANT_VALKARIA-2026_GENERAL
-      office: OFFICE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_MAYOR
+      office: OFFICE-USA-FL-GRANT_VALKARIA-MAYOR
   - type: Person
     code: PERSON-BACIGALUPO_ND_2Q
     attributes:
@@ -2242,12 +2259,12 @@ groups:
       first_name: Ned
       last_name: Bacigalupo
   - type: Candidacy
-    code: CANDIDACY-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_MAYOR-2026_GENERAL-BACIGALUPO_ND_2Q
+    code: CANDIDACY-USA-FL-GRANT_VALKARIA-MAYOR-2026_GENERAL-BACIGALUPO_ND_2Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-GRANT_VALKARIA-MAYOR-2026_GENERAL
       person: PERSON-BACIGALUPO_ND_2Q
   - type: Person
     code: PERSON-BRADVAREVIC_MC_3G
@@ -2257,29 +2274,29 @@ groups:
       first_name: Michael
       last_name: Bradvarevic
   - type: Candidacy
-    code: CANDIDACY-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_MAYOR-2026_GENERAL-BRADVAREVIC_MC_3G
+    code: CANDIDACY-USA-FL-GRANT_VALKARIA-MAYOR-2026_GENERAL-BRADVAREVIC_MC_3G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-GRANT_VALKARIA-MAYOR-2026_GENERAL
       person: PERSON-BRADVAREVIC_MC_3G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE
+    code: OFFICE-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-GRANT_VALKARIA
   - type: Race
-    code: RACE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL
+    code: RACE-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-GRANT_VALKARIA-2026_GENERAL
-      office: OFFICE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE
+      office: OFFICE-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BEVER_MC_3R
     attributes:
@@ -2289,12 +2306,12 @@ groups:
       middle_name: Van
       last_name: Bever
   - type: Candidacy
-    code: CANDIDACY-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL-BEVER_MC_3R
+    code: CANDIDACY-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL-BEVER_MC_3R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BEVER_MC_3R
   - type: Person
     code: PERSON-DOCKERY_RC_6F
@@ -2304,12 +2321,12 @@ groups:
       first_name: Richard
       last_name: Dockery
   - type: Candidacy
-    code: CANDIDACY-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL-DOCKERY_RC_6F
+    code: CANDIDACY-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL-DOCKERY_RC_6F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DOCKERY_RC_6F
   - type: Person
     code: PERSON-FADEN_DN_9Z
@@ -2319,12 +2336,12 @@ groups:
       first_name: Dan
       last_name: Faden
   - type: Candidacy
-    code: CANDIDACY-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL-FADEN_DN_9Z
+    code: CANDIDACY-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL-FADEN_DN_9Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FADEN_DN_9Z
   - type: Person
     code: PERSON-GARBACIK_JS_6R
@@ -2334,12 +2351,12 @@ groups:
       first_name: Joseph
       last_name: Garbacik
   - type: Candidacy
-    code: CANDIDACY-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL-GARBACIK_JS_6R
+    code: CANDIDACY-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL-GARBACIK_JS_6R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GARBACIK_JS_6R
   - type: Person
     code: PERSON-KOLAR_LS_6H
@@ -2349,12 +2366,12 @@ groups:
       first_name: Lisette
       last_name: Kolar
   - type: Candidacy
-    code: CANDIDACY-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL-KOLAR_LS_6H
+    code: CANDIDACY-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL-KOLAR_LS_6H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-KOLAR_LS_6H
   - type: Person
     code: PERSON-MALLET_RN_9T
@@ -2364,12 +2381,12 @@ groups:
       first_name: Ron
       last_name: Mallet
   - type: Candidacy
-    code: CANDIDACY-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL-MALLET_RN_9T
+    code: CANDIDACY-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL-MALLET_RN_9T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MALLET_RN_9T
   - type: Person
     code: PERSON-NEGRON_ED_7X
@@ -2379,12 +2396,12 @@ groups:
       first_name: Eddie
       last_name: Negrón
   - type: Candidacy
-    code: CANDIDACY-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL-NEGRON_ED_7X
+    code: CANDIDACY-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL-NEGRON_ED_7X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-NEGRON_ED_7X
   - type: Person
     code: PERSON-POOLE_CH_5Z
@@ -2394,12 +2411,12 @@ groups:
       first_name: Chris
       last_name: Poole
   - type: Candidacy
-    code: CANDIDACY-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL-POOLE_CH_5Z
+    code: CANDIDACY-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL-POOLE_CH_5Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-POOLE_CH_5Z
   - type: Person
     code: PERSON-RIPTON_PT_7X
@@ -2409,12 +2426,12 @@ groups:
       first_name: Patrick
       last_name: Ripton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL-RIPTON_PT_7X
+    code: CANDIDACY-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL-RIPTON_PT_7X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-RIPTON_PT_7X
   - type: Person
     code: PERSON-VEASEY_BR_5S
@@ -2424,29 +2441,29 @@ groups:
       first_name: Brandon
       last_name: Veasey
   - type: Candidacy
-    code: CANDIDACY-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL-VEASEY_BR_5S
+    code: CANDIDACY-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL-VEASEY_BR_5S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-GRANT_VALKARIA-TOWN_OF_GRANT_VALKARIA_TOWN_COUNCIL_4_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-GRANT_VALKARIA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-VEASEY_BR_5S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-INDIALANTIC-TOWN_OF_INDIALANTIC_MAYOR
+    code: OFFICE-USA-FL-INDIALANTIC-MAYOR
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_OF_INDIALANTIC_MAYOR
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-INDIALANTIC
   - type: Race
-    code: RACE-USA-FL-INDIALANTIC-TOWN_OF_INDIALANTIC_MAYOR-2026_GENERAL
+    code: RACE-USA-FL-INDIALANTIC-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-INDIALANTIC-2026_GENERAL
-      office: OFFICE-USA-FL-INDIALANTIC-TOWN_OF_INDIALANTIC_MAYOR
+      office: OFFICE-USA-FL-INDIALANTIC-MAYOR
   - type: Person
     code: PERSON-TARANTO_VN_4P
     attributes:
@@ -2455,29 +2472,30 @@ groups:
       first_name: Vinnie
       last_name: Taranto Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-INDIALANTIC-TOWN_OF_INDIALANTIC_MAYOR-2026_GENERAL-TARANTO_VN_4P
+    code: CANDIDACY-USA-FL-INDIALANTIC-MAYOR-2026_GENERAL-TARANTO_VN_4P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-INDIALANTIC-TOWN_OF_INDIALANTIC_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-INDIALANTIC-MAYOR-2026_GENERAL
       person: PERSON-TARANTO_VN_4P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-INDIALANTIC-TOWN_OF_INDIALANTIC_TOWN_COUNCIL_SEAT_2
+    code: OFFICE-USA-FL-INDIALANTIC-COUNCIL_MEMBER-SEAT_2
     attributes:
+      seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-TOWN_OF_INDIALANTIC_TOWN_COUNCIL_SEAT_2
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-INDIALANTIC
   - type: Race
-    code: RACE-USA-FL-INDIALANTIC-TOWN_OF_INDIALANTIC_TOWN_COUNCIL_SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-INDIALANTIC-COUNCIL_MEMBER-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-INDIALANTIC-2026_GENERAL
-      office: OFFICE-USA-FL-INDIALANTIC-TOWN_OF_INDIALANTIC_TOWN_COUNCIL_SEAT_2
+      office: OFFICE-USA-FL-INDIALANTIC-COUNCIL_MEMBER-SEAT_2
   - type: Person
     code: PERSON-BRADY_JH_2W
     attributes:
@@ -2487,29 +2505,30 @@ groups:
       middle_name: N.
       last_name: Brady
   - type: Candidacy
-    code: CANDIDACY-USA-FL-INDIALANTIC-TOWN_OF_INDIALANTIC_TOWN_COUNCIL_SEAT_2-2026_GENERAL-BRADY_JH_2W
+    code: CANDIDACY-USA-FL-INDIALANTIC-COUNCIL_MEMBER-SEAT_2-2026_GENERAL-BRADY_JH_2W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-INDIALANTIC-TOWN_OF_INDIALANTIC_TOWN_COUNCIL_SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-INDIALANTIC-COUNCIL_MEMBER-SEAT_2-2026_GENERAL
       person: PERSON-BRADY_JH_2W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-INDIALANTIC-TOWN_OF_INDIALANTIC_TOWN_COUNCIL_SEAT_4
+    code: OFFICE-USA-FL-INDIALANTIC-COUNCIL_MEMBER-SEAT_4
     attributes:
+      seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-TOWN_OF_INDIALANTIC_TOWN_COUNCIL_SEAT_4
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-INDIALANTIC
   - type: Race
-    code: RACE-USA-FL-INDIALANTIC-TOWN_OF_INDIALANTIC_TOWN_COUNCIL_SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-INDIALANTIC-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-INDIALANTIC-2026_GENERAL
-      office: OFFICE-USA-FL-INDIALANTIC-TOWN_OF_INDIALANTIC_TOWN_COUNCIL_SEAT_4
+      office: OFFICE-USA-FL-INDIALANTIC-COUNCIL_MEMBER-SEAT_4
   - type: Person
     code: PERSON-FOY_CR_3U
     attributes:
@@ -2518,29 +2537,30 @@ groups:
       first_name: Carrie
       last_name: Foy
   - type: Candidacy
-    code: CANDIDACY-USA-FL-INDIALANTIC-TOWN_OF_INDIALANTIC_TOWN_COUNCIL_SEAT_4-2026_GENERAL-FOY_CR_3U
+    code: CANDIDACY-USA-FL-INDIALANTIC-COUNCIL_MEMBER-SEAT_4-2026_GENERAL-FOY_CR_3U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-INDIALANTIC-TOWN_OF_INDIALANTIC_TOWN_COUNCIL_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-INDIALANTIC-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
       person: PERSON-FOY_CR_3U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_1_COUNCIL_MEMBER
+    code: OFFICE-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_1
     attributes:
+      seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-TOWN_OF_MALABAR_DISTRICT_1_COUNCIL_MEMBER
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-MALABAR
   - type: Race
-    code: RACE-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_1_COUNCIL_MEMBER-2026_GENERAL
+    code: RACE-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-MALABAR-2026_GENERAL
-      office: OFFICE-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_1_COUNCIL_MEMBER
+      office: OFFICE-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-CIOFFI_GN_2D
     attributes:
@@ -2549,29 +2569,30 @@ groups:
       first_name: Gene
       last_name: Cioffi
   - type: Candidacy
-    code: CANDIDACY-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_1_COUNCIL_MEMBER-2026_GENERAL-CIOFFI_GN_2D
+    code: CANDIDACY-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL-CIOFFI_GN_2D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_1_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-CIOFFI_GN_2D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_2_COUNCIL_MEMBER
+    code: OFFICE-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_2
     attributes:
+      seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-TOWN_OF_MALABAR_DISTRICT_2_COUNCIL_MEMBER
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-MALABAR
   - type: Race
-    code: RACE-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_2_COUNCIL_MEMBER-2026_GENERAL
+    code: RACE-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-MALABAR-2026_GENERAL
-      office: OFFICE-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_2_COUNCIL_MEMBER
+      office: OFFICE-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-ABARE_WY_8Z
     attributes:
@@ -2580,12 +2601,12 @@ groups:
       first_name: Wayne
       last_name: Abare
   - type: Candidacy
-    code: CANDIDACY-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_2_COUNCIL_MEMBER-2026_GENERAL-ABARE_WY_8Z
+    code: CANDIDACY-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL-ABARE_WY_8Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_2_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-ABARE_WY_8Z
   - type: Person
     code: PERSON-VAIL_BR_3Q
@@ -2595,29 +2616,30 @@ groups:
       first_name: Brian
       last_name: Vail
   - type: Candidacy
-    code: CANDIDACY-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_2_COUNCIL_MEMBER-2026_GENERAL-VAIL_BR_3Q
+    code: CANDIDACY-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL-VAIL_BR_3Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_2_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-VAIL_BR_3Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_3_COUNCIL_MEMBER
+    code: OFFICE-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_3
     attributes:
+      seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-TOWN_OF_MALABAR_DISTRICT_3_COUNCIL_MEMBER
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-MALABAR
   - type: Race
-    code: RACE-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_3_COUNCIL_MEMBER-2026_GENERAL
+    code: RACE-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-MALABAR-2026_GENERAL
-      office: OFFICE-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_3_COUNCIL_MEMBER
+      office: OFFICE-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-DYKES_CL_5H
     attributes:
@@ -2626,29 +2648,29 @@ groups:
       first_name: Cliff
       last_name: Dykes
   - type: Candidacy
-    code: CANDIDACY-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_3_COUNCIL_MEMBER-2026_GENERAL-DYKES_CL_5H
+    code: CANDIDACY-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL-DYKES_CL_5H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-MALABAR-TOWN_OF_MALABAR_DISTRICT_3_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-MALABAR-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-DYKES_CL_5H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-MELBOURNE_BEACH-TOWN_OF_MELBOURNE_BEACH_MAYOR
+    code: OFFICE-USA-FL-MELBOURNE_BEACH-MAYOR
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_OF_MELBOURNE_BEACH_MAYOR
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-MELBOURNE_BEACH
   - type: Race
-    code: RACE-USA-FL-MELBOURNE_BEACH-TOWN_OF_MELBOURNE_BEACH_MAYOR-2026_GENERAL
+    code: RACE-USA-FL-MELBOURNE_BEACH-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-MELBOURNE_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-MELBOURNE_BEACH-TOWN_OF_MELBOURNE_BEACH_MAYOR
+      office: OFFICE-USA-FL-MELBOURNE_BEACH-MAYOR
   - type: Person
     code: PERSON-PICKETT_BR_3A
     attributes:
@@ -2658,29 +2680,30 @@ groups:
       middle_name: G.
       last_name: Pickett
   - type: Candidacy
-    code: CANDIDACY-USA-FL-MELBOURNE_BEACH-TOWN_OF_MELBOURNE_BEACH_MAYOR-2026_GENERAL-PICKETT_BR_3A
+    code: CANDIDACY-USA-FL-MELBOURNE_BEACH-MAYOR-2026_GENERAL-PICKETT_BR_3A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-MELBOURNE_BEACH-TOWN_OF_MELBOURNE_BEACH_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-MELBOURNE_BEACH-MAYOR-2026_GENERAL
       person: PERSON-PICKETT_BR_3A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-MELBOURNE_VILLAGE-TOWN_OF_MELBOURNE_VILLAGE_MAYOR_COMMISSIONER_SEAT_4
+    code: OFFICE-USA-FL-MELBOURNE_VILLAGE-MAYOR-SEAT_4
     attributes:
+      seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-TOWN_OF_MELBOURNE_VILLAGE_MAYOR_COMMISSIONER_SEAT_4
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-MELBOURNE_VILLAGE
   - type: Race
-    code: RACE-USA-FL-MELBOURNE_VILLAGE-TOWN_OF_MELBOURNE_VILLAGE_MAYOR_COMMISSIONER_SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-MELBOURNE_VILLAGE-MAYOR-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-MELBOURNE_VILLAGE-2026_GENERAL
-      office: OFFICE-USA-FL-MELBOURNE_VILLAGE-TOWN_OF_MELBOURNE_VILLAGE_MAYOR_COMMISSIONER_SEAT_4
+      office: OFFICE-USA-FL-MELBOURNE_VILLAGE-MAYOR-SEAT_4
   - type: Person
     code: PERSON-FOSTER_BR_7M
     attributes:
@@ -2690,29 +2713,29 @@ groups:
       middle_name: E.
       last_name: Foster
   - type: Candidacy
-    code: CANDIDACY-USA-FL-MELBOURNE_VILLAGE-TOWN_OF_MELBOURNE_VILLAGE_MAYOR_COMMISSIONER_SEAT_4-2026_GENERAL-FOSTER_BR_7M
+    code: CANDIDACY-USA-FL-MELBOURNE_VILLAGE-MAYOR-SEAT_4-2026_GENERAL-FOSTER_BR_7M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-MELBOURNE_VILLAGE-TOWN_OF_MELBOURNE_VILLAGE_MAYOR_COMMISSIONER_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-MELBOURNE_VILLAGE-MAYOR-SEAT_4-2026_GENERAL
       person: PERSON-FOSTER_BR_7M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-MELBOURNE_VILLAGE-TOWN_OF_MELBOURNE_VILLAGE_TOWN_COMMISSIONERS_4_SEATS_AVAILABLE
+    code: OFFICE-USA-FL-MELBOURNE_VILLAGE-COMMISSIONER
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_OF_MELBOURNE_VILLAGE_TOWN_COMMISSIONERS_4_SEATS_AVAILABLE
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-MELBOURNE_VILLAGE
   - type: Race
-    code: RACE-USA-FL-MELBOURNE_VILLAGE-TOWN_OF_MELBOURNE_VILLAGE_TOWN_COMMISSIONERS_4_SEATS_AVAILABLE-2026_GENERAL
+    code: RACE-USA-FL-MELBOURNE_VILLAGE-COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-MELBOURNE_VILLAGE-2026_GENERAL
-      office: OFFICE-USA-FL-MELBOURNE_VILLAGE-TOWN_OF_MELBOURNE_VILLAGE_TOWN_COMMISSIONERS_4_SEATS_AVAILABLE
+      office: OFFICE-USA-FL-MELBOURNE_VILLAGE-COMMISSIONER
   - type: Person
     code: PERSON-CALENDA_VL_5J
     attributes:
@@ -2722,12 +2745,12 @@ groups:
       middle_name: J.
       last_name: Calenda
   - type: Candidacy
-    code: CANDIDACY-USA-FL-MELBOURNE_VILLAGE-TOWN_OF_MELBOURNE_VILLAGE_TOWN_COMMISSIONERS_4_SEATS_AVAILABLE-2026_GENERAL-CALENDA_VL_5J
+    code: CANDIDACY-USA-FL-MELBOURNE_VILLAGE-COMMISSIONER-2026_GENERAL-CALENDA_VL_5J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-MELBOURNE_VILLAGE-TOWN_OF_MELBOURNE_VILLAGE_TOWN_COMMISSIONERS_4_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-MELBOURNE_VILLAGE-COMMISSIONER-2026_GENERAL
       person: PERSON-CALENDA_VL_5J
   - type: Person
     code: PERSON-FOSTER_GR_8H
@@ -2737,12 +2760,12 @@ groups:
       first_name: Graham
       last_name: Foster
   - type: Candidacy
-    code: CANDIDACY-USA-FL-MELBOURNE_VILLAGE-TOWN_OF_MELBOURNE_VILLAGE_TOWN_COMMISSIONERS_4_SEATS_AVAILABLE-2026_GENERAL-FOSTER_GR_8H
+    code: CANDIDACY-USA-FL-MELBOURNE_VILLAGE-COMMISSIONER-2026_GENERAL-FOSTER_GR_8H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-MELBOURNE_VILLAGE-TOWN_OF_MELBOURNE_VILLAGE_TOWN_COMMISSIONERS_4_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-MELBOURNE_VILLAGE-COMMISSIONER-2026_GENERAL
       person: PERSON-FOSTER_GR_8H
   - type: Person
     code: PERSON-MORRISON_JH_4J
@@ -2753,12 +2776,12 @@ groups:
       middle_name: C.
       last_name: Morrison
   - type: Candidacy
-    code: CANDIDACY-USA-FL-MELBOURNE_VILLAGE-TOWN_OF_MELBOURNE_VILLAGE_TOWN_COMMISSIONERS_4_SEATS_AVAILABLE-2026_GENERAL-MORRISON_JH_4J
+    code: CANDIDACY-USA-FL-MELBOURNE_VILLAGE-COMMISSIONER-2026_GENERAL-MORRISON_JH_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-MELBOURNE_VILLAGE-TOWN_OF_MELBOURNE_VILLAGE_TOWN_COMMISSIONERS_4_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-MELBOURNE_VILLAGE-COMMISSIONER-2026_GENERAL
       person: PERSON-MORRISON_JH_4J
   - type: Person
     code: PERSON-YORIO_BT_2M
@@ -2769,29 +2792,30 @@ groups:
       middle_name: Jo
       last_name: Yorio
   - type: Candidacy
-    code: CANDIDACY-USA-FL-MELBOURNE_VILLAGE-TOWN_OF_MELBOURNE_VILLAGE_TOWN_COMMISSIONERS_4_SEATS_AVAILABLE-2026_GENERAL-YORIO_BT_2M
+    code: CANDIDACY-USA-FL-MELBOURNE_VILLAGE-COMMISSIONER-2026_GENERAL-YORIO_BT_2M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-MELBOURNE_VILLAGE-TOWN_OF_MELBOURNE_VILLAGE_TOWN_COMMISSIONERS_4_SEATS_AVAILABLE-2026_GENERAL
+      race: RACE-USA-FL-MELBOURNE_VILLAGE-COMMISSIONER-2026_GENERAL
       person: PERSON-YORIO_BT_2M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-PALM_SHORES-TOWN_OF_PALM_SHORES_TOWN_COUNCIL_SEAT_2
+    code: OFFICE-USA-FL-PALM_SHORES-COUNCIL_MEMBER-SEAT_2
     attributes:
+      seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-TOWN_OF_PALM_SHORES_TOWN_COUNCIL_SEAT_2
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-PALM_SHORES
   - type: Race
-    code: RACE-USA-FL-PALM_SHORES-TOWN_OF_PALM_SHORES_TOWN_COUNCIL_SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-PALM_SHORES-COUNCIL_MEMBER-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-PALM_SHORES-2026_GENERAL
-      office: OFFICE-USA-FL-PALM_SHORES-TOWN_OF_PALM_SHORES_TOWN_COUNCIL_SEAT_2
+      office: OFFICE-USA-FL-PALM_SHORES-COUNCIL_MEMBER-SEAT_2
   - type: Person
     code: PERSON-MATHEWSON_BR_4S
     attributes:
@@ -2800,29 +2824,30 @@ groups:
       first_name: Barbara
       last_name: Mathewson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PALM_SHORES-TOWN_OF_PALM_SHORES_TOWN_COUNCIL_SEAT_2-2026_GENERAL-MATHEWSON_BR_4S
+    code: CANDIDACY-USA-FL-PALM_SHORES-COUNCIL_MEMBER-SEAT_2-2026_GENERAL-MATHEWSON_BR_4S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PALM_SHORES-TOWN_OF_PALM_SHORES_TOWN_COUNCIL_SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-PALM_SHORES-COUNCIL_MEMBER-SEAT_2-2026_GENERAL
       person: PERSON-MATHEWSON_BR_4S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-PALM_SHORES-TOWN_OF_PALM_SHORES_TOWN_COUNCIL_SEAT_4
+    code: OFFICE-USA-FL-PALM_SHORES-COUNCIL_MEMBER-SEAT_4
     attributes:
+      seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-TOWN_OF_PALM_SHORES_TOWN_COUNCIL_SEAT_4
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-PALM_SHORES
   - type: Race
-    code: RACE-USA-FL-PALM_SHORES-TOWN_OF_PALM_SHORES_TOWN_COUNCIL_SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-PALM_SHORES-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.votebrevard.gov/Candidate-Information/2026-Candidates.'
     references:
       election: ELECTION-USA-FL-PALM_SHORES-2026_GENERAL
-      office: OFFICE-USA-FL-PALM_SHORES-TOWN_OF_PALM_SHORES_TOWN_COUNCIL_SEAT_4
+      office: OFFICE-USA-FL-PALM_SHORES-COUNCIL_MEMBER-SEAT_4
   - type: Person
     code: PERSON-GREEN_MC_7G
     attributes:
@@ -2831,30 +2856,30 @@ groups:
       first_name: Michelle
       last_name: Green
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PALM_SHORES-TOWN_OF_PALM_SHORES_TOWN_COUNCIL_SEAT_4-2026_GENERAL-GREEN_MC_7G
+    code: CANDIDACY-USA-FL-PALM_SHORES-COUNCIL_MEMBER-SEAT_4-2026_GENERAL-GREEN_MC_7G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PALM_SHORES-TOWN_OF_PALM_SHORES_TOWN_COUNCIL_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-PALM_SHORES-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
       person: PERSON-GREEN_MC_7G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-VIERA_EAST_SUPERVISOR-GROUP_1
+    code: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VIERA_EAST_CDD_GROUP_1
     attributes:
-      seat_code: GROUP_1
+      seat_code: VIERA_EAST_CDD_GROUP_1
       is_active: true
     references:
-      position: POSITION-VIERA_EAST_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-VIERA_EAST_SUPERVISOR-GROUP_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VIERA_EAST_CDD_GROUP_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-VIERA_EAST_SUPERVISOR-GROUP_1
+      office: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VIERA_EAST_CDD_GROUP_1
   - type: Person
     code: PERSON-VRIES_JN_9S
     attributes:
@@ -2864,30 +2889,30 @@ groups:
       middle_name: De
       last_name: Vries
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-VIERA_EAST_SUPERVISOR-GROUP_1-2026_GENERAL-VRIES_JN_9S
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VIERA_EAST_CDD_GROUP_1-2026_GENERAL-VRIES_JN_9S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-VIERA_EAST_SUPERVISOR-GROUP_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VIERA_EAST_CDD_GROUP_1-2026_GENERAL
       person: PERSON-VRIES_JN_9S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BREVARD-VIERA_EAST_SUPERVISOR-GROUP_2
+    code: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VIERA_EAST_CDD_GROUP_2
     attributes:
-      seat_code: GROUP_2
+      seat_code: VIERA_EAST_CDD_GROUP_2
       is_active: true
     references:
-      position: POSITION-VIERA_EAST_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-BREVARD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BREVARD-VIERA_EAST_SUPERVISOR-GROUP_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VIERA_EAST_CDD_GROUP_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BREVARD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BREVARD-VIERA_EAST_SUPERVISOR-GROUP_2
+      office: OFFICE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VIERA_EAST_CDD_GROUP_2
   - type: Person
     code: PERSON-RYSZTOGI_RN_2D
     attributes:
@@ -2897,10 +2922,10 @@ groups:
       middle_name: M
       last_name: Rysztogi
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BREVARD-VIERA_EAST_SUPERVISOR-GROUP_2-2026_GENERAL-RYSZTOGI_RN_2D
+    code: CANDIDACY-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VIERA_EAST_CDD_GROUP_2-2026_GENERAL-RYSZTOGI_RN_2D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BREVARD-VIERA_EAST_SUPERVISOR-GROUP_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BREVARD-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VIERA_EAST_CDD_GROUP_2-2026_GENERAL
       person: PERSON-RYSZTOGI_RN_2D

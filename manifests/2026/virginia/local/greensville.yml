@@ -21,21 +21,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_GREENSVILLE-COMMISSIONER_OF_REVENUE-GREENSVILLE_COUNTY
+    code: OFFICE-USA-VA-COUNTY_GREENSVILLE-COMMISSIONER_OF_REVENUE
     attributes:
-      seat_code: GREENSVILLE_COUNTY
       is_active: true
     references:
       position: POSITION-COMMISSIONER_OF_REVENUE
       jurisdiction: COUNTY-USA-VA-GREENSVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_GREENSVILLE-COMMISSIONER_OF_REVENUE-GREENSVILLE_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_GREENSVILLE-COMMISSIONER_OF_REVENUE-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_GREENSVILLE-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_GREENSVILLE-COMMISSIONER_OF_REVENUE-GREENSVILLE_COUNTY
+      office: OFFICE-USA-VA-COUNTY_GREENSVILLE-COMMISSIONER_OF_REVENUE
   - type: Person
     code: PERSON-LIGON_EM_4P
     attributes:
@@ -45,10 +44,10 @@ groups:
       middle_name: D.
       last_name: Ligon
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GREENSVILLE-COMMISSIONER_OF_REVENUE-GREENSVILLE_COUNTY-2026_SPECIAL-LIGON_EM_4P
+    code: CANDIDACY-USA-VA-COUNTY_GREENSVILLE-COMMISSIONER_OF_REVENUE-2026_SPECIAL-LIGON_EM_4P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GREENSVILLE-COMMISSIONER_OF_REVENUE-GREENSVILLE_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_GREENSVILLE-COMMISSIONER_OF_REVENUE-2026_SPECIAL
       person: PERSON-LIGON_EM_4P

@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_WASHINGTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_WASHINGTON-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-WASHINGTON
   - type: Race
-    code: RACE-USA-FL-COUNTY_WASHINGTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_WASHINGTON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_WASHINGTON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_WASHINGTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_WASHINGTON-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-COPE_CM_3C
     attributes:
@@ -45,7 +45,7 @@ groups:
       middle_name: Leigh "Lee"
       last_name: Cope
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_WASHINGTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-COPE_CM_3C
+    code: CANDIDACY-USA-FL-COUNTY_WASHINGTON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-COPE_CM_3C
     attributes:
       status: active
       participation: active
@@ -54,25 +54,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_WASHINGTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_WASHINGTON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-COPE_CM_3C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_WASHINGTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_WASHINGTON-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-WASHINGTON
   - type: Race
-    code: RACE-USA-FL-COUNTY_WASHINGTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_WASHINGTON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_WASHINGTON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_WASHINGTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_WASHINGTON-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-GRIFFIN_WS_8G
     attributes:
@@ -82,7 +82,7 @@ groups:
       middle_name: Scott
       last_name: Griffin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_WASHINGTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-GRIFFIN_WS_8G
+    code: CANDIDACY-USA-FL-COUNTY_WASHINGTON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-GRIFFIN_WS_8G
     attributes:
       status: active
       participation: active
@@ -91,25 +91,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_WASHINGTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_WASHINGTON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-GRIFFIN_WS_8G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-WASHINGTON
   - type: Race
-    code: RACE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_WASHINGTON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-WOODS_SB_2U
     attributes:
@@ -119,30 +119,30 @@ groups:
       middle_name: Lee
       last_name: Woods
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-WOODS_SB_2U
+    code: CANDIDACY-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-WOODS_SB_2U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-WOODS_SB_2U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-WASHINGTON
   - type: Race
-    code: RACE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_WASHINGTON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-TAYLOR_WL_3S
     attributes:
@@ -152,30 +152,30 @@ groups:
       middle_name: Marvin
       last_name: Taylor
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-TAYLOR_WL_3S
+    code: CANDIDACY-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-TAYLOR_WL_3S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-TAYLOR_WL_3S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-WASHINGTON
   - type: Race
-    code: RACE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_WASHINGTON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-WILLIAMS_CH_4J
     attributes:
@@ -185,10 +185,10 @@ groups:
       middle_name: Ann
       last_name: Williams
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-WILLIAMS_CH_4J
+    code: CANDIDACY-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-WILLIAMS_CH_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-WILLIAMS_CH_4J

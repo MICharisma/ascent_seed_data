@@ -7,6 +7,54 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
+  code: ELECTION-USA-VA-BOYKINS-2026_GENERAL
+  attributes:
+    name: Boykins General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-BOYKINS
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-CAPRON-2026_GENERAL
+  attributes:
+    name: Capron General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-CAPRON
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-COURTLAND-2026_GENERAL
+  attributes:
+    name: Courtland General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-COURTLAND
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-IVOR-2026_GENERAL
+  attributes:
+    name: Ivor General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-IVOR
+    year: YEAR-2026
+- type: Election
   code: ELECTION-USA-VA-COUNTY_SOUTHAMPTON-2026_GENERAL
   attributes:
     name: Southampton County General Election 2026
@@ -18,24 +66,35 @@ records:
   references:
     jurisdiction: COUNTY-USA-VA-SOUTHAMPTON
     year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-NEWSOMS-2026_GENERAL
+  attributes:
+    name: Newsoms General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-NEWSOMS
+    year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_BOYKINS-TOWN_OF_BOYKINS
+    code: OFFICE-USA-VA-BOYKINS-MAYOR
     attributes:
-      seat_code: TOWN_OF_BOYKINS
       is_active: true
     references:
-      position: POSITION-MAYOR_BOYKINS
-      jurisdiction: COUNTY-USA-VA-SOUTHAMPTON
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-BOYKINS
   - type: Race
-    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_BOYKINS-TOWN_OF_BOYKINS-2026_GENERAL
+    code: RACE-USA-VA-BOYKINS-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SOUTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_BOYKINS-TOWN_OF_BOYKINS
+      election: ELECTION-USA-VA-BOYKINS-2026_GENERAL
+      office: OFFICE-USA-VA-BOYKINS-MAYOR
   - type: Person
     code: PERSON-LASSITER_CL_4E
     attributes:
@@ -45,30 +104,29 @@ groups:
       middle_name: Wilton
       last_name: Lassiter
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_BOYKINS-TOWN_OF_BOYKINS-2026_GENERAL-LASSITER_CL_4E
+    code: CANDIDACY-USA-VA-BOYKINS-MAYOR-2026_GENERAL-LASSITER_CL_4E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_BOYKINS-TOWN_OF_BOYKINS-2026_GENERAL
+      race: RACE-USA-VA-BOYKINS-MAYOR-2026_GENERAL
       person: PERSON-LASSITER_CL_4E
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_CAPRON-TOWN_OF_CAPRON
+    code: OFFICE-USA-VA-CAPRON-MAYOR
     attributes:
-      seat_code: TOWN_OF_CAPRON
       is_active: true
     references:
-      position: POSITION-MAYOR_CAPRON
-      jurisdiction: COUNTY-USA-VA-SOUTHAMPTON
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-CAPRON
   - type: Race
-    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_CAPRON-TOWN_OF_CAPRON-2026_GENERAL
+    code: RACE-USA-VA-CAPRON-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SOUTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_CAPRON-TOWN_OF_CAPRON
+      election: ELECTION-USA-VA-CAPRON-2026_GENERAL
+      office: OFFICE-USA-VA-CAPRON-MAYOR
   - type: Person
     code: PERSON-KITCHEN_WL_2D
     attributes:
@@ -78,30 +136,29 @@ groups:
       middle_name: Nick
       last_name: Kitchen IV
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_CAPRON-TOWN_OF_CAPRON-2026_GENERAL-KITCHEN_WL_2D
+    code: CANDIDACY-USA-VA-CAPRON-MAYOR-2026_GENERAL-KITCHEN_WL_2D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_CAPRON-TOWN_OF_CAPRON-2026_GENERAL
+      race: RACE-USA-VA-CAPRON-MAYOR-2026_GENERAL
       person: PERSON-KITCHEN_WL_2D
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_COURTLAND-TOWN_OF_COURTLAND
+    code: OFFICE-USA-VA-COURTLAND-MAYOR
     attributes:
-      seat_code: TOWN_OF_COURTLAND
       is_active: true
     references:
-      position: POSITION-MAYOR_COURTLAND
-      jurisdiction: COUNTY-USA-VA-SOUTHAMPTON
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-COURTLAND
   - type: Race
-    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_COURTLAND-TOWN_OF_COURTLAND-2026_GENERAL
+    code: RACE-USA-VA-COURTLAND-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SOUTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_COURTLAND-TOWN_OF_COURTLAND
+      election: ELECTION-USA-VA-COURTLAND-2026_GENERAL
+      office: OFFICE-USA-VA-COURTLAND-MAYOR
   - type: Person
     code: PERSON-WILLIAMS_DN_7W
     attributes:
@@ -111,12 +168,12 @@ groups:
       middle_name: R.
       last_name: Williams
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_COURTLAND-TOWN_OF_COURTLAND-2026_GENERAL-WILLIAMS_DN_7W
+    code: CANDIDACY-USA-VA-COURTLAND-MAYOR-2026_GENERAL-WILLIAMS_DN_7W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_COURTLAND-TOWN_OF_COURTLAND-2026_GENERAL
+      race: RACE-USA-VA-COURTLAND-MAYOR-2026_GENERAL
       person: PERSON-WILLIAMS_DN_7W
   - type: Person
     code: PERSON-TALLEY_LT_2S
@@ -127,30 +184,29 @@ groups:
       middle_name: W. "Chip"
       last_name: Talley Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_COURTLAND-TOWN_OF_COURTLAND-2026_GENERAL-TALLEY_LT_2S
+    code: CANDIDACY-USA-VA-COURTLAND-MAYOR-2026_GENERAL-TALLEY_LT_2S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_COURTLAND-TOWN_OF_COURTLAND-2026_GENERAL
+      race: RACE-USA-VA-COURTLAND-MAYOR-2026_GENERAL
       person: PERSON-TALLEY_LT_2S
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_IVOR-TOWN_OF_IVOR
+    code: OFFICE-USA-VA-IVOR-MAYOR
     attributes:
-      seat_code: TOWN_OF_IVOR
       is_active: true
     references:
-      position: POSITION-MAYOR_IVOR
-      jurisdiction: COUNTY-USA-VA-SOUTHAMPTON
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-IVOR
   - type: Race
-    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_IVOR-TOWN_OF_IVOR-2026_GENERAL
+    code: RACE-USA-VA-IVOR-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SOUTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_IVOR-TOWN_OF_IVOR
+      election: ELECTION-USA-VA-IVOR-2026_GENERAL
+      office: OFFICE-USA-VA-IVOR-MAYOR
   - type: Person
     code: PERSON-KEA_TR_6U
     attributes:
@@ -160,30 +216,30 @@ groups:
       middle_name: Burgess
       last_name: Kea
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_IVOR-TOWN_OF_IVOR-2026_GENERAL-KEA_TR_6U
+    code: CANDIDACY-USA-VA-IVOR-MAYOR-2026_GENERAL-KEA_TR_6U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MAYOR_IVOR-TOWN_OF_IVOR-2026_GENERAL
+      race: RACE-USA-VA-IVOR-MAYOR-2026_GENERAL
       person: PERSON-KEA_TR_6U
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_SCHOOL_BOARD-CENTRAL_DISTRICT
+    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-SCHOOL_BOARD_MEMBER-CENTRAL_DISTRICT
     attributes:
       seat_code: CENTRAL_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-SOUTHAMPTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_SCHOOL_BOARD-CENTRAL_DISTRICT-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-SCHOOL_BOARD_MEMBER-CENTRAL_DISTRICT-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_SOUTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_SCHOOL_BOARD-CENTRAL_DISTRICT
+      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-SCHOOL_BOARD_MEMBER-CENTRAL_DISTRICT
   - type: Person
     code: PERSON-TURNER_AM_6G
     attributes:
@@ -193,30 +249,30 @@ groups:
       middle_name: D.
       last_name: Turner
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_SCHOOL_BOARD-CENTRAL_DISTRICT-2026_GENERAL-TURNER_AM_6G
+    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-SCHOOL_BOARD_MEMBER-CENTRAL_DISTRICT-2026_GENERAL-TURNER_AM_6G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_SCHOOL_BOARD-CENTRAL_DISTRICT-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-SCHOOL_BOARD_MEMBER-CENTRAL_DISTRICT-2026_GENERAL
       person: PERSON-TURNER_AM_6G
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_SCHOOL_BOARD-SOUTHWEST_DISTRICT
+    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-SCHOOL_BOARD_MEMBER-SOUTHWEST_DISTRICT
     attributes:
       seat_code: SOUTHWEST_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-SOUTHAMPTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_SCHOOL_BOARD-SOUTHWEST_DISTRICT-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-SCHOOL_BOARD_MEMBER-SOUTHWEST_DISTRICT-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_SOUTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_SCHOOL_BOARD-SOUTHWEST_DISTRICT
+      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-SCHOOL_BOARD_MEMBER-SOUTHWEST_DISTRICT
   - type: Person
     code: PERSON-EDWARDS_VC_3P
     attributes:
@@ -226,30 +282,30 @@ groups:
       middle_name: M.
       last_name: Edwards
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_SCHOOL_BOARD-SOUTHWEST_DISTRICT-2026_GENERAL-EDWARDS_VC_3P
+    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-SCHOOL_BOARD_MEMBER-SOUTHWEST_DISTRICT-2026_GENERAL-EDWARDS_VC_3P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_SCHOOL_BOARD-SOUTHWEST_DISTRICT-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-SCHOOL_BOARD_MEMBER-SOUTHWEST_DISTRICT-2026_GENERAL
       person: PERSON-EDWARDS_VC_3P
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_SCHOOL_BOARD_AT_LARGE-AT_LARGE
+    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-SCHOOL_BOARD_MEMBER-AT_LARGE
     attributes:
       seat_code: AT_LARGE
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD_AT_LARGE_2
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-SOUTHAMPTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_SCHOOL_BOARD_AT_LARGE-AT_LARGE-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-SCHOOL_BOARD_MEMBER-AT_LARGE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_SOUTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_SCHOOL_BOARD_AT_LARGE-AT_LARGE
+      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-SCHOOL_BOARD_MEMBER-AT_LARGE
   - type: Person
     code: PERSON-LANE_OR_5V
     attributes:
@@ -259,30 +315,29 @@ groups:
       middle_name: G.
       last_name: Lane
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_SCHOOL_BOARD_AT_LARGE-AT_LARGE-2026_GENERAL-LANE_OR_5V
+    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-SCHOOL_BOARD_MEMBER-AT_LARGE-2026_GENERAL-LANE_OR_5V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_SCHOOL_BOARD_AT_LARGE-AT_LARGE-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-SCHOOL_BOARD_MEMBER-AT_LARGE-2026_GENERAL
       person: PERSON-LANE_OR_5V
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_BOYKINS-TOWN_OF_BOYKINS
+    code: OFFICE-USA-VA-BOYKINS-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_BOYKINS
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_BOYKINS
-      jurisdiction: COUNTY-USA-VA-SOUTHAMPTON
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-BOYKINS
   - type: Race
-    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_BOYKINS-TOWN_OF_BOYKINS-2026_GENERAL
+    code: RACE-USA-VA-BOYKINS-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SOUTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_BOYKINS-TOWN_OF_BOYKINS
+      election: ELECTION-USA-VA-BOYKINS-2026_GENERAL
+      office: OFFICE-USA-VA-BOYKINS-COUNCIL_MEMBER
   - type: Person
     code: PERSON-CLARY_EL_9S
     attributes:
@@ -292,12 +347,12 @@ groups:
       middle_name: Dee
       last_name: Clary
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_BOYKINS-TOWN_OF_BOYKINS-2026_GENERAL-CLARY_EL_9S
+    code: CANDIDACY-USA-VA-BOYKINS-COUNCIL_MEMBER-2026_GENERAL-CLARY_EL_9S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_BOYKINS-TOWN_OF_BOYKINS-2026_GENERAL
+      race: RACE-USA-VA-BOYKINS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CLARY_EL_9S
   - type: Person
     code: PERSON-FELTS_F_4S
@@ -308,12 +363,12 @@ groups:
       middle_name: W. "Freddy"
       last_name: Felts
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_BOYKINS-TOWN_OF_BOYKINS-2026_GENERAL-FELTS_F_4S
+    code: CANDIDACY-USA-VA-BOYKINS-COUNCIL_MEMBER-2026_GENERAL-FELTS_F_4S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_BOYKINS-TOWN_OF_BOYKINS-2026_GENERAL
+      race: RACE-USA-VA-BOYKINS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FELTS_F_4S
   - type: Person
     code: PERSON-BOONE_JN_9M
@@ -324,12 +379,12 @@ groups:
       middle_name: B.
       last_name: Boone
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_BOYKINS-TOWN_OF_BOYKINS-2026_GENERAL-BOONE_JN_9M
+    code: CANDIDACY-USA-VA-BOYKINS-COUNCIL_MEMBER-2026_GENERAL-BOONE_JN_9M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_BOYKINS-TOWN_OF_BOYKINS-2026_GENERAL
+      race: RACE-USA-VA-BOYKINS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BOONE_JN_9M
   - type: Person
     code: PERSON-BEATTY_LN_8Z
@@ -340,12 +395,12 @@ groups:
       middle_name: E.
       last_name: Beatty
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_BOYKINS-TOWN_OF_BOYKINS-2026_GENERAL-BEATTY_LN_8Z
+    code: CANDIDACY-USA-VA-BOYKINS-COUNCIL_MEMBER-2026_GENERAL-BEATTY_LN_8Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_BOYKINS-TOWN_OF_BOYKINS-2026_GENERAL
+      race: RACE-USA-VA-BOYKINS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BEATTY_LN_8Z
   - type: Person
     code: PERSON-POLAND_RB_4M
@@ -356,30 +411,29 @@ groups:
       middle_name: Chet
       last_name: Poland
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_BOYKINS-TOWN_OF_BOYKINS-2026_GENERAL-POLAND_RB_4M
+    code: CANDIDACY-USA-VA-BOYKINS-COUNCIL_MEMBER-2026_GENERAL-POLAND_RB_4M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_BOYKINS-TOWN_OF_BOYKINS-2026_GENERAL
+      race: RACE-USA-VA-BOYKINS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-POLAND_RB_4M
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_CAPRON-TOWN_OF_CAPRON
+    code: OFFICE-USA-VA-CAPRON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_CAPRON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_CAPRON
-      jurisdiction: COUNTY-USA-VA-SOUTHAMPTON
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-CAPRON
   - type: Race
-    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_CAPRON-TOWN_OF_CAPRON-2026_GENERAL
+    code: RACE-USA-VA-CAPRON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SOUTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_CAPRON-TOWN_OF_CAPRON
+      election: ELECTION-USA-VA-CAPRON-2026_GENERAL
+      office: OFFICE-USA-VA-CAPRON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-EDWARDS_AL_2K
     attributes:
@@ -389,12 +443,12 @@ groups:
       middle_name: S.
       last_name: Edwards
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_CAPRON-TOWN_OF_CAPRON-2026_GENERAL-EDWARDS_AL_2K
+    code: CANDIDACY-USA-VA-CAPRON-COUNCIL_MEMBER-2026_GENERAL-EDWARDS_AL_2K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_CAPRON-TOWN_OF_CAPRON-2026_GENERAL
+      race: RACE-USA-VA-CAPRON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-EDWARDS_AL_2K
   - type: Person
     code: PERSON-BURGESS_DN_5X
@@ -405,12 +459,12 @@ groups:
       middle_name: M.
       last_name: Burgess
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_CAPRON-TOWN_OF_CAPRON-2026_GENERAL-BURGESS_DN_5X
+    code: CANDIDACY-USA-VA-CAPRON-COUNCIL_MEMBER-2026_GENERAL-BURGESS_DN_5X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_CAPRON-TOWN_OF_CAPRON-2026_GENERAL
+      race: RACE-USA-VA-CAPRON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BURGESS_DN_5X
   - type: Person
     code: PERSON-MCGEE_PH_5Q
@@ -421,12 +475,12 @@ groups:
       middle_name: C.
       last_name: McGee
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_CAPRON-TOWN_OF_CAPRON-2026_GENERAL-MCGEE_PH_5Q
+    code: CANDIDACY-USA-VA-CAPRON-COUNCIL_MEMBER-2026_GENERAL-MCGEE_PH_5Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_CAPRON-TOWN_OF_CAPRON-2026_GENERAL
+      race: RACE-USA-VA-CAPRON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MCGEE_PH_5Q
   - type: Person
     code: PERSON-VAUGHAN_RG_7A
@@ -437,12 +491,12 @@ groups:
       middle_name: T.
       last_name: Vaughan Sr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_CAPRON-TOWN_OF_CAPRON-2026_GENERAL-VAUGHAN_RG_7A
+    code: CANDIDACY-USA-VA-CAPRON-COUNCIL_MEMBER-2026_GENERAL-VAUGHAN_RG_7A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_CAPRON-TOWN_OF_CAPRON-2026_GENERAL
+      race: RACE-USA-VA-CAPRON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-VAUGHAN_RG_7A
   - type: Person
     code: PERSON-CARR_RN_5F
@@ -453,12 +507,12 @@ groups:
       middle_name: E.
       last_name: Carr Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_CAPRON-TOWN_OF_CAPRON-2026_GENERAL-CARR_RN_5F
+    code: CANDIDACY-USA-VA-CAPRON-COUNCIL_MEMBER-2026_GENERAL-CARR_RN_5F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_CAPRON-TOWN_OF_CAPRON-2026_GENERAL
+      race: RACE-USA-VA-CAPRON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CARR_RN_5F
   - type: Person
     code: PERSON-FUTRELL_TM_3G
@@ -469,30 +523,30 @@ groups:
       middle_name: M.
       last_name: Futrell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_CAPRON-TOWN_OF_CAPRON-2026_GENERAL-FUTRELL_TM_3G
+    code: CANDIDACY-USA-VA-CAPRON-COUNCIL_MEMBER-2026_GENERAL-FUTRELL_TM_3G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_CAPRON-TOWN_OF_CAPRON-2026_GENERAL
+      race: RACE-USA-VA-CAPRON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FUTRELL_TM_3G
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_A
+    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_A
     attributes:
       seat_code: COURTLAND_WARD_A
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_COURTLAND
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-SOUTHAMPTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_A-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_A-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_SOUTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_A
+      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_A
   - type: Person
     code: PERSON-PITTMAN_LY_9Y
     attributes:
@@ -502,12 +556,12 @@ groups:
       middle_name: S.
       last_name: Pittman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_A-2026_GENERAL-PITTMAN_LY_9Y
+    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_A-2026_GENERAL-PITTMAN_LY_9Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_A-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_A-2026_GENERAL
       person: PERSON-PITTMAN_LY_9Y
   - type: Person
     code: PERSON-GOODWYN_PR_4E
@@ -518,12 +572,12 @@ groups:
       middle_name: Allen
       last_name: Goodwyn
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_A-2026_GENERAL-GOODWYN_PR_4E
+    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_A-2026_GENERAL-GOODWYN_PR_4E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_A-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_A-2026_GENERAL
       person: PERSON-GOODWYN_PR_4E
   - type: Person
     code: PERSON-KEY_SH_7R
@@ -534,30 +588,30 @@ groups:
       middle_name: M.
       last_name: Key
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_A-2026_GENERAL-KEY_SH_7R
+    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_A-2026_GENERAL-KEY_SH_7R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_A-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_A-2026_GENERAL
       person: PERSON-KEY_SH_7R
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_B
+    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_B
     attributes:
       seat_code: COURTLAND_WARD_B
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_COURTLAND
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-SOUTHAMPTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_B-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_B-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_SOUTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_B
+      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_B
   - type: Person
     code: PERSON-GIBBS_DV_4T
     attributes:
@@ -567,12 +621,12 @@ groups:
       middle_name: C.
       last_name: Gibbs
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_B-2026_GENERAL-GIBBS_DV_4T
+    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_B-2026_GENERAL-GIBBS_DV_4T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_B-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_B-2026_GENERAL
       person: PERSON-GIBBS_DV_4T
   - type: Person
     code: PERSON-FOWLER_JS_8N
@@ -583,30 +637,30 @@ groups:
       middle_name: C.
       last_name: Fowler
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_B-2026_GENERAL-FOWLER_JS_8N
+    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_B-2026_GENERAL-FOWLER_JS_8N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_B-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_B-2026_GENERAL
       person: PERSON-FOWLER_JS_8N
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_C
+    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_C
     attributes:
       seat_code: COURTLAND_WARD_C
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_COURTLAND
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-SOUTHAMPTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_C-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_C-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_SOUTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_C
+      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_C
   - type: Person
     code: PERSON-DODSON_JF_3T
     attributes:
@@ -616,12 +670,12 @@ groups:
       middle_name: L.
       last_name: Dodson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_C-2026_GENERAL-DODSON_JF_3T
+    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_C-2026_GENERAL-DODSON_JF_3T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_C-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_C-2026_GENERAL
       person: PERSON-DODSON_JF_3T
   - type: Person
     code: PERSON-DAVIS_LO_3C
@@ -632,12 +686,12 @@ groups:
       middle_name: Anne
       last_name: Davis
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_C-2026_GENERAL-DAVIS_LO_3C
+    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_C-2026_GENERAL-DAVIS_LO_3C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_C-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_C-2026_GENERAL
       person: PERSON-DAVIS_LO_3C
   - type: Person
     code: PERSON-BERRYMAN_MD_9E
@@ -648,30 +702,29 @@ groups:
       middle_name: Edwards
       last_name: Berryman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_C-2026_GENERAL-BERRYMAN_MD_9E
+    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_C-2026_GENERAL-BERRYMAN_MD_9E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_COURTLAND-COURTLAND_WARD_C-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-COUNCIL_MEMBER-COURTLAND_WARD_C-2026_GENERAL
       person: PERSON-BERRYMAN_MD_9E
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_IVOR-TOWN_OF_IVOR
+    code: OFFICE-USA-VA-IVOR-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_IVOR
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_IVOR
-      jurisdiction: COUNTY-USA-VA-SOUTHAMPTON
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-IVOR
   - type: Race
-    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_IVOR-TOWN_OF_IVOR-2026_GENERAL
+    code: RACE-USA-VA-IVOR-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SOUTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_IVOR-TOWN_OF_IVOR
+      election: ELECTION-USA-VA-IVOR-2026_GENERAL
+      office: OFFICE-USA-VA-IVOR-COUNCIL_MEMBER
   - type: Person
     code: PERSON-COOK_B_6C
     attributes:
@@ -681,12 +734,12 @@ groups:
       middle_name: Frank
       last_name: Cook, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_IVOR-TOWN_OF_IVOR-2026_GENERAL-COOK_B_6C
+    code: CANDIDACY-USA-VA-IVOR-COUNCIL_MEMBER-2026_GENERAL-COOK_B_6C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_IVOR-TOWN_OF_IVOR-2026_GENERAL
+      race: RACE-USA-VA-IVOR-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-COOK_B_6C
   - type: Person
     code: PERSON-MENNE_BR_7W
@@ -697,12 +750,12 @@ groups:
       middle_name: T.
       last_name: Menne
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_IVOR-TOWN_OF_IVOR-2026_GENERAL-MENNE_BR_7W
+    code: CANDIDACY-USA-VA-IVOR-COUNCIL_MEMBER-2026_GENERAL-MENNE_BR_7W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_IVOR-TOWN_OF_IVOR-2026_GENERAL
+      race: RACE-USA-VA-IVOR-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MENNE_BR_7W
   - type: Person
     code: PERSON-DEMSKO_MG_9K
@@ -713,12 +766,12 @@ groups:
       middle_name: B.
       last_name: Demsko
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_IVOR-TOWN_OF_IVOR-2026_GENERAL-DEMSKO_MG_9K
+    code: CANDIDACY-USA-VA-IVOR-COUNCIL_MEMBER-2026_GENERAL-DEMSKO_MG_9K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_IVOR-TOWN_OF_IVOR-2026_GENERAL
+      race: RACE-USA-VA-IVOR-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DEMSKO_MG_9K
   - type: Person
     code: PERSON-BRITT_RL_8X
@@ -729,30 +782,29 @@ groups:
       middle_name: N.
       last_name: Britt
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_IVOR-TOWN_OF_IVOR-2026_GENERAL-BRITT_RL_8X
+    code: CANDIDACY-USA-VA-IVOR-COUNCIL_MEMBER-2026_GENERAL-BRITT_RL_8X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_IVOR-TOWN_OF_IVOR-2026_GENERAL
+      race: RACE-USA-VA-IVOR-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BRITT_RL_8X
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_NEWSOMS-TOWN_OF_NEWSOMS
+    code: OFFICE-USA-VA-NEWSOMS-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_NEWSOMS
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_NEWSOMS
-      jurisdiction: COUNTY-USA-VA-SOUTHAMPTON
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-NEWSOMS
   - type: Race
-    code: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_NEWSOMS-TOWN_OF_NEWSOMS-2026_GENERAL
+    code: RACE-USA-VA-NEWSOMS-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SOUTHAMPTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_NEWSOMS-TOWN_OF_NEWSOMS
+      election: ELECTION-USA-VA-NEWSOMS-2026_GENERAL
+      office: OFFICE-USA-VA-NEWSOMS-COUNCIL_MEMBER
   - type: Person
     code: PERSON-DOVELL_DN_4N
     attributes:
@@ -762,12 +814,12 @@ groups:
       middle_name: L.
       last_name: Dovell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_NEWSOMS-TOWN_OF_NEWSOMS-2026_GENERAL-DOVELL_DN_4N
+    code: CANDIDACY-USA-VA-NEWSOMS-COUNCIL_MEMBER-2026_GENERAL-DOVELL_DN_4N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_NEWSOMS-TOWN_OF_NEWSOMS-2026_GENERAL
+      race: RACE-USA-VA-NEWSOMS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DOVELL_DN_4N
   - type: Person
     code: PERSON-CARTER_JH_3G
@@ -778,10 +830,10 @@ groups:
       middle_name: B.
       last_name: Carter
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_NEWSOMS-TOWN_OF_NEWSOMS-2026_GENERAL-CARTER_JH_3G
+    code: CANDIDACY-USA-VA-NEWSOMS-COUNCIL_MEMBER-2026_GENERAL-CARTER_JH_3G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SOUTHAMPTON-MEMBER_TOWN_COUNCIL_NEWSOMS-TOWN_OF_NEWSOMS-2026_GENERAL
+      race: RACE-USA-VA-NEWSOMS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CARTER_JH_3G

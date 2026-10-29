@@ -1,0 +1,175 @@
+# How each printed local office title converts. The key is the title exactly as the source prints it.
+# A bare code names the Position the office fills; a mapping adds what the title prints beyond the role:
+#   position  the Position's code in manifests/foundation.yml
+#   seat      the seat the title names, used instead of the row's district
+#   part      a seat within the row's district that the title names, like Seat B; the office's seat ends with it
+#   body      the special district the title names; the office's seat starts with it
+#   town      the town the title names, used when the row's jurisdiction names none
+#   term      a race for part of a term, such as an unexpired term; the office stays the same
+# Every local title needs an entry: the conversion stops at one it cannot find.
+"Brewster Village Trustee": POSITION-VILLAGE_TRUSTEE
+"Carmel Supervisor": POSITION-TOWN_SUPERVISOR
+"City Councilmember Ward 2 Vacancy": { position: POSITION-COUNCIL_MEMBER, seat: Ward 2, term: Unexpired Term }
+"City Court Judge": POSITION-CITY_COURT_JUDGE
+"CITY COURT JUDGE": POSITION-CITY_COURT_JUDGE
+"CITY COURT JUDGE-MT. VERNON": { position: POSITION-CITY_COURT_JUDGE, town: City of Mount Vernon }
+"CITY COURT JUDGE-YONKERS": { position: POSITION-CITY_COURT_JUDGE, town: City of Yonkers }
+"Clerk": POSITION-TOWN_CLERK
+"Clerk/Tax Collector": POSITION-TOWN_CLERK_AND_TAX_COLLECTOR
+"Clerk/Tax Collector to Fill a Vacancy": { position: POSITION-TOWN_CLERK_AND_TAX_COLLECTOR, term: Unexpired Term }
+"Cold Spring Village Trustee": POSITION-VILLAGE_TRUSTEE
+"COMMISSIONER OF EDUCATION (TO FILL VACANCY)": { position: POSITION-SCHOOL_BOARD_MEMBER, term: Unexpired Term }
+"Council Member to fill a Vacancy": { position: POSITION-COUNCIL_MEMBER, term: Unexpired Term }
+"Council Member to Fill a Vacancy": { position: POSITION-COUNCIL_MEMBER, term: Unexpired Term }
+"COUNCILMEMBER": POSITION-COUNCIL_MEMBER
+"COUNCILMEMBER - UNEXP.-SOMERS": { position: POSITION-COUNCIL_MEMBER, term: Unexpired Term, town: Town of Somers }
+"COUNCILMEMBER -UNEXP.-RYE CITY": { position: POSITION-COUNCIL_MEMBER, term: Unexpired Term, town: City of Rye }
+"COUNCILMEMBER-1 YR.UNEXP. TERM-WHITE PLAINS": { position: POSITION-COUNCIL_MEMBER, term: "1 Year Unexpired Term", town: City of White Plains }
+"COUNCILMEMBER-3 YR.UNEXP. TERM-WHITE PLAINS": { position: POSITION-COUNCIL_MEMBER, term: "3 Year Unexpired Term", town: City of White Plains }
+"COUNCILMEMBER-UNEXP.-MAMARONECK": { position: POSITION-COUNCIL_MEMBER, term: Unexpired Term, town: Town of Mamaroneck }
+"COUNCILMEMBER-UNEXP.-MT PLEASANT": { position: POSITION-COUNCIL_MEMBER, term: Unexpired Term, town: Town of Mount Pleasant }
+"COUNCILOR – AT – LARGE (TO FILL VACANCY)": { position: POSITION-COUNCIL_MEMBER, seat: At Large, term: Unexpired Term }
+"COUNTY CLERK": POSITION-COUNTY_CLERK
+"County Clerk": POSITION-COUNTY_CLERK
+"County Comptroller": POSITION-COMPTROLLER
+"County Coroner": POSITION-CORONER
+"COUNTY COURT JUDGE": POSITION-COUNTY_JUDGE
+"County Court Judge": POSITION-COUNTY_JUDGE
+"County Executive": POSITION-COUNTY_EXECUTIVE
+"County Family Court Judge": POSITION-FAMILY_COURT_JUDGE
+"County Legislator": POSITION-COUNTY_LEGISLATOR
+"COUNTY LEGISLATOR": POSITION-COUNTY_LEGISLATOR
+"County Legislator District 1": { position: POSITION-COUNTY_LEGISLATOR, seat: District 1 }
+"County Legislator District 10": { position: POSITION-COUNTY_LEGISLATOR, seat: District 10 }
+"County Legislator District 11": { position: POSITION-COUNTY_LEGISLATOR, seat: District 11 }
+"County Legislator District 12": { position: POSITION-COUNTY_LEGISLATOR, seat: District 12 }
+"County Legislator District 13": { position: POSITION-COUNTY_LEGISLATOR, seat: District 13 }
+"County Legislator District 14": { position: POSITION-COUNTY_LEGISLATOR, seat: District 14 }
+"County Legislator District 15": { position: POSITION-COUNTY_LEGISLATOR, seat: District 15 }
+"County Legislator District 16": { position: POSITION-COUNTY_LEGISLATOR, seat: District 16 }
+"County Legislator District 17": { position: POSITION-COUNTY_LEGISLATOR, seat: District 17 }
+"County Legislator District 18": { position: POSITION-COUNTY_LEGISLATOR, seat: District 18 }
+"County Legislator District 19": { position: POSITION-COUNTY_LEGISLATOR, seat: District 19 }
+"County Legislator District 2": { position: POSITION-COUNTY_LEGISLATOR, seat: District 2 }
+"County Legislator District 3": { position: POSITION-COUNTY_LEGISLATOR, seat: District 3 }
+"County Legislator District 4": { position: POSITION-COUNTY_LEGISLATOR, seat: District 4 }
+"County Legislator District 5": { position: POSITION-COUNTY_LEGISLATOR, seat: District 5 }
+"County Legislator District 6": { position: POSITION-COUNTY_LEGISLATOR, seat: District 6 }
+"County Legislator District 7": { position: POSITION-COUNTY_LEGISLATOR, seat: District 7 }
+"County Legislator District 8": { position: POSITION-COUNTY_LEGISLATOR, seat: District 8 }
+"County Legislator District 9": { position: POSITION-COUNTY_LEGISLATOR, seat: District 9 }
+"County Sheriff": POSITION-SHERIFF
+"County Supervisor At Large": { position: POSITION-COUNTY_SUPERVISOR, seat: At Large }
+"County Treasurer": POSITION-TREASURER
+"District Court Judge": POSITION-DISTRICT_COURT_JUDGE
+"Family Court Judge": POSITION-FAMILY_COURT_JUDGE
+"HIGHWAY SUPERINTENDENT": POSITION-HIGHWAY_SUPERINTENDENT
+"HIGHWAY SUPERINTENDENT (TO FILL VACANCY)": { position: POSITION-HIGHWAY_SUPERINTENDENT, term: Unexpired Term }
+"Judge of the Civil Court - County": POSITION-CIVIL_COURT_JUDGE
+"Judge of the Civil Court - District": POSITION-CIVIL_COURT_JUDGE
+"Justice": POSITION-TOWN_JUSTICE
+"Kent Supervisor": POSITION-TOWN_SUPERVISOR
+"LEGISLATOR 10TH DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 10 }
+"LEGISLATOR 11TH DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 11 }
+"LEGISLATOR 12TH DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 12 }
+"LEGISLATOR 13TH DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 13 }
+"LEGISLATOR 14TH DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 14 }
+"LEGISLATOR 15TH DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 15 }
+"LEGISLATOR 16TH DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 16 }
+"LEGISLATOR 17TH DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 17 }
+"LEGISLATOR 1ST DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 1 }
+"LEGISLATOR 2ND DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 2 }
+"LEGISLATOR 3RD DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 3 }
+"LEGISLATOR 4TH DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 4 }
+"LEGISLATOR 5TH DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 5 }
+"LEGISLATOR 6TH DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 6 }
+"LEGISLATOR 7TH DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 7 }
+"LEGISLATOR 8TH DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 8 }
+"LEGISLATOR 9TH DISTRICT": { position: POSITION-COUNTY_LEGISLATOR, seat: District 9 }
+"Library Trustee": POSITION-LIBRARY_TRUSTEE
+"MAYOR-VILLAGE OF LARCHMONT": { position: POSITION-MAYOR, town: Village of Larchmont }
+"MAYOR-VILLAGE OF OSSINING": { position: POSITION-MAYOR, town: Village of Ossining }
+"Member of the City Council": POSITION-COUNCIL_MEMBER
+"ONONDAGA COUNTY SHERIFF": POSITION-SHERIFF
+"Philipstown Supervisor": POSITION-TOWN_SUPERVISOR
+"Putnam Valley Highway Superintendent": POSITION-HIGHWAY_SUPERINTENDENT
+"Putnam Valley Supervisor": POSITION-TOWN_SUPERVISOR
+"Putnam Valley Town Justice": POSITION-TOWN_JUSTICE
+"Receiver of Taxes": POSITION-RECEIVER_OF_TAXES
+"RECIEVER OF TAXES (TO FILL VACANCY)": { position: POSITION-RECEIVER_OF_TAXES, term: Unexpired Term }
+"Sheriff": POSITION-SHERIFF
+"Southeast Supervisor": POSITION-TOWN_SUPERVISOR
+"Superintendent of Highways": POSITION-HIGHWAY_SUPERINTENDENT
+"SUPERINTENDENT OF HIGHWAYS-MT.PLEASANT": { position: POSITION-HIGHWAY_SUPERINTENDENT, town: Town of Mount Pleasant }
+"SUPERINTENDENT OF HIGHWAYS-OSSINING": { position: POSITION-HIGHWAY_SUPERINTENDENT, town: Town of Ossining }
+"SUPERVISOR": POSITION-TOWN_SUPERVISOR
+"Supervisor": POSITION-TOWN_SUPERVISOR
+"SUPERVISOR-BEDFORD": { position: POSITION-TOWN_SUPERVISOR, town: Town of Bedford }
+"SUPERVISOR-CORTLANDT": { position: POSITION-TOWN_SUPERVISOR, town: Town of Cortlandt }
+"SUPERVISOR-EASTCHESTER": { position: POSITION-TOWN_SUPERVISOR, town: Town of Eastchester }
+"SUPERVISOR-GREENBURGH": { position: POSITION-TOWN_SUPERVISOR, town: Town of Greenburgh }
+"SUPERVISOR-LEWISBORO": { position: POSITION-TOWN_SUPERVISOR, town: Town of Lewisboro }
+"SUPERVISOR-MAMARONECK": { position: POSITION-TOWN_SUPERVISOR, town: Town of Mamaroneck }
+"SUPERVISOR-MT.PLEASANT": { position: POSITION-TOWN_SUPERVISOR, town: Town of Mount Pleasant }
+"SUPERVISOR-NEW CASTLE": { position: POSITION-TOWN_SUPERVISOR, town: Town of New Castle }
+"SUPERVISOR-NORTH CASTLE": { position: POSITION-TOWN_SUPERVISOR, town: Town of North Castle }
+"SUPERVISOR-NORTH SALEM": { position: POSITION-TOWN_SUPERVISOR, town: Town of North Salem }
+"SUPERVISOR-OSSINING": { position: POSITION-TOWN_SUPERVISOR, town: Town of Ossining }
+"SUPERVISOR-PELHAM": { position: POSITION-TOWN_SUPERVISOR, town: Town of Pelham }
+"SUPERVISOR-POUND RIDGE": { position: POSITION-TOWN_SUPERVISOR, town: Town of Pound Ridge }
+"SUPERVISOR-SOMERS": { position: POSITION-TOWN_SUPERVISOR, town: Town of Somers }
+"SUPERVISOR-YORKTOWN": { position: POSITION-TOWN_SUPERVISOR, town: Town of Yorktown }
+"Surrogate": POSITION-SURROGATE
+"TAX COLLECTOR": POSITION-TAX_COLLECTOR
+"Town Clerk": POSITION-TOWN_CLERK
+"TOWN CLERK": POSITION-TOWN_CLERK
+"TOWN CLERK (TO FILL VACANCY)": { position: POSITION-TOWN_CLERK, term: Unexpired Term }
+"TOWN CLERK - GREENBURGH": { position: POSITION-TOWN_CLERK, town: Town of Greenburgh }
+"TOWN CLERK - MT.PLEASANT": { position: POSITION-TOWN_CLERK, town: Town of Mount Pleasant }
+"TOWN CLERK - PELHAM": { position: POSITION-TOWN_CLERK, town: Town of Pelham }
+"Town Councilmember Vacancy": { position: POSITION-COUNCIL_MEMBER, term: Unexpired Term }
+"Town Councilmember Ward 1": { position: POSITION-COUNCIL_MEMBER, seat: Ward 1 }
+"Town Councilmember Ward 2": { position: POSITION-COUNCIL_MEMBER, seat: Ward 2 }
+"Town Councilmember Ward 3": { position: POSITION-COUNCIL_MEMBER, seat: Ward 3 }
+"Town Councilmember Ward 4": { position: POSITION-COUNCIL_MEMBER, seat: Ward 4 }
+"TOWN COUNCILOR": POSITION-COUNCIL_MEMBER
+"TOWN COUNCILOR (TO FILL VACANCY)": { position: POSITION-COUNCIL_MEMBER, term: Unexpired Term }
+"Town Highway Superintendent": POSITION-HIGHWAY_SUPERINTENDENT
+"Town Highway Superintendent Vacancy": { position: POSITION-HIGHWAY_SUPERINTENDENT, term: Unexpired Term }
+"TOWN JUSTICE": POSITION-TOWN_JUSTICE
+"Town Justice": POSITION-TOWN_JUSTICE
+"TOWN JUSTICE-GREENBURGH": { position: POSITION-TOWN_JUSTICE, town: Town of Greenburgh }
+"TOWN JUSTICE-MT.PLEASANT": { position: POSITION-TOWN_JUSTICE, town: Town of Mount Pleasant }
+"Town Supervisor": POSITION-TOWN_SUPERVISOR
+"TOWN SUPT. OF HIGHWAYS": POSITION-HIGHWAY_SUPERINTENDENT
+"Town Tax Collector": POSITION-TAX_COLLECTOR
+"Trustee": POSITION-TOWN_TRUSTEE
+"TRUSTEE- VILLAGE OF ARDSLEY": { position: POSITION-VILLAGE_TRUSTEE, town: Village of Ardsley }
+"TRUSTEE- VILLAGE OF HASTINGS ON HUDSON": { position: POSITION-VILLAGE_TRUSTEE, town: Village of Hastings on Hudson }
+"TRUSTEE- VILLAGE OF IRVINGTON": { position: POSITION-VILLAGE_TRUSTEE, town: Village of Irvington }
+"TRUSTEE- VILLAGE OF MT KISCO": { position: POSITION-VILLAGE_TRUSTEE, town: Village of Mount Kisco }
+"TRUSTEE- VILLAGE OF TARRYTOWN": { position: POSITION-VILLAGE_TRUSTEE, town: Village of Tarrytown }
+"TRUSTEE-VILLAGE OF CROTON ON HUDSON": { position: POSITION-VILLAGE_TRUSTEE, town: Village of Croton on Hudson }
+"TRUSTEE-VILLAGE OF DOBBS FERRY": { position: POSITION-VILLAGE_TRUSTEE, town: Village of Dobbs Ferry }
+"TRUSTEE-VILLAGE OF LARCHMONT": { position: POSITION-VILLAGE_TRUSTEE, town: Village of Larchmont }
+"TRUSTEE-VILLAGE OF MAMARONECK": { position: POSITION-VILLAGE_TRUSTEE, town: Village of Mamaroneck }
+"TRUSTEE-VILLAGE OF OSSINING": { position: POSITION-VILLAGE_TRUSTEE, town: Village of Ossining }
+"TRUSTEE-VILLAGE OF PELHAM": { position: POSITION-VILLAGE_TRUSTEE, town: Village of Pelham }
+"TRUSTEE-VILLAGE OF PELHAM MANOR": { position: POSITION-VILLAGE_TRUSTEE, town: Village of Pelham Manor }
+"TRUSTEE-VILLAGE OF PLEASANTVILLE": { position: POSITION-VILLAGE_TRUSTEE, town: Village of Pleasantville }
+"TRUSTEE-VILLAGE OF SLEEPY HOLLOW": { position: POSITION-VILLAGE_TRUSTEE, town: Village of Sleepy Hollow }
+"TRUSTEE-VILLAGE OF TUCKAHOE": { position: POSITION-VILLAGE_TRUSTEE, town: Village of Tuckahoe }
+"VILLAGE JUSTICE - VILLAGE OF MAMARONECK": { position: POSITION-VILLAGE_JUSTICE, town: Village of Mamaroneck }
+"VILLAGE JUSTICE -VILLAGE OF IRVINGTON": { position: POSITION-VILLAGE_JUSTICE, town: Village of Irvington }
+"VILLAGE JUSTICE- VILLAGE OF TUCKAHOE": { position: POSITION-VILLAGE_JUSTICE, town: Village of Tuckahoe }
+"VILLAGE JUSTICE-VILLAGE OF CROTON ON HUDSON": { position: POSITION-VILLAGE_JUSTICE, town: Village of Croton on Hudson }
+"VILLAGE MAYOR": POSITION-MAYOR
+"Village Mayor": POSITION-MAYOR
+"Village Trustee": POSITION-VILLAGE_TRUSTEE
+"VILLAGE TRUSTEE": POSITION-VILLAGE_TRUSTEE
+"VILLAGE TRUSTEE (TO FILL VACANCY)": { position: POSITION-VILLAGE_TRUSTEE, term: Unexpired Term }
+"Village Trustee Vacancy": { position: POSITION-VILLAGE_TRUSTEE, term: Unexpired Term }
+"Ward 1 Council Member": { position: POSITION-COUNCIL_MEMBER, seat: Ward 1 }
+"Ward 2 Council Member": { position: POSITION-COUNCIL_MEMBER, seat: Ward 2 }
+"Ward 3 Council Member": { position: POSITION-COUNCIL_MEMBER, seat: Ward 3 }
+"Ward 4 Council Member": { position: POSITION-COUNCIL_MEMBER, seat: Ward 4 }

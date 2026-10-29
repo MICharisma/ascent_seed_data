@@ -21,21 +21,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_SUFFOLK-REGISTER_OF_PROBATE-SUFFOLK_COUNTY
+    code: OFFICE-USA-MA-COUNTY_SUFFOLK-REGISTER_OF_PROBATE
     attributes:
-      seat_code: SUFFOLK_COUNTY
       is_active: true
     references:
       position: POSITION-REGISTER_OF_PROBATE
       jurisdiction: COUNTY-USA-MA-SUFFOLK
   - type: Race
-    code: RACE-USA-MA-COUNTY_SUFFOLK-REGISTER_OF_PROBATE-SUFFOLK_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_SUFFOLK-REGISTER_OF_PROBATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_SUFFOLK-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_SUFFOLK-REGISTER_OF_PROBATE-SUFFOLK_COUNTY
+      office: OFFICE-USA-MA-COUNTY_SUFFOLK-REGISTER_OF_PROBATE
   - type: Person
     code: PERSON-EVERETT_ST_5S
     attributes:
@@ -45,7 +44,7 @@ groups:
       middle_name: L.
       last_name: Everett
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_SUFFOLK-REGISTER_OF_PROBATE-SUFFOLK_COUNTY-2026_GENERAL-EVERETT_ST_5S
+    code: CANDIDACY-USA-MA-COUNTY_SUFFOLK-REGISTER_OF_PROBATE-2026_GENERAL-EVERETT_ST_5S
     attributes:
       status: active
       participation: active
@@ -54,5 +53,5 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_SUFFOLK-REGISTER_OF_PROBATE-SUFFOLK_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_SUFFOLK-REGISTER_OF_PROBATE-2026_GENERAL
       person: PERSON-EVERETT_ST_5S

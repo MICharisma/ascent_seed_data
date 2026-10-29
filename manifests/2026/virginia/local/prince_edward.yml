@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_A
+    code: OFFICE-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_A
     attributes:
       seat_code: FARMVILLE_WARD_A
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-PRINCE_EDWARD
   - type: Race
-    code: RACE-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_A-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_A-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_PRINCE_EDWARD-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_A
+      office: OFFICE-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_A
   - type: Person
     code: PERSON-HARDY_JH_9V
     attributes:
@@ -45,30 +45,30 @@ groups:
       middle_name: F.
       last_name: Hardy
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_A-2026_GENERAL-HARDY_JH_9V
+    code: CANDIDACY-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_A-2026_GENERAL-HARDY_JH_9V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_A-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_A-2026_GENERAL
       person: PERSON-HARDY_JH_9V
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_B
+    code: OFFICE-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_B
     attributes:
       seat_code: FARMVILLE_WARD_B
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-PRINCE_EDWARD
   - type: Race
-    code: RACE-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_B-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_B-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_PRINCE_EDWARD-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_B
+      office: OFFICE-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_B
   - type: Person
     code: PERSON-YOELIN_AD_7P
     attributes:
@@ -78,30 +78,30 @@ groups:
       middle_name: B.
       last_name: Yoelin
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_B-2026_GENERAL-YOELIN_AD_7P
+    code: CANDIDACY-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_B-2026_GENERAL-YOELIN_AD_7P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_B-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_B-2026_GENERAL
       person: PERSON-YOELIN_AD_7P
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_C
+    code: OFFICE-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_C
     attributes:
       seat_code: FARMVILLE_WARD_C
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-PRINCE_EDWARD
   - type: Race
-    code: RACE-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_C-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_C-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_PRINCE_EDWARD-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_C
+      office: OFFICE-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_C
   - type: Person
     code: PERSON-REID_A_5Q
     attributes:
@@ -111,12 +111,12 @@ groups:
       middle_name: D. "Chuckie"
       last_name: Reid
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_C-2026_GENERAL-REID_A_5Q
+    code: CANDIDACY-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_C-2026_GENERAL-REID_A_5Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_C-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_C-2026_GENERAL
       person: PERSON-REID_A_5Q
   - type: Person
     code: PERSON-CARWILE_PT_8G
@@ -127,10 +127,10 @@ groups:
       middle_name: B.
       last_name: Carwile
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_C-2026_GENERAL-CARWILE_PT_8G
+    code: CANDIDACY-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_C-2026_GENERAL-CARWILE_PT_8G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PRINCE_EDWARD-MEMBER_TOWN_COUNCIL-FARMVILLE_WARD_C-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_PRINCE_EDWARD-COUNCIL_MEMBER-FARMVILLE_WARD_C-2026_GENERAL
       person: PERSON-CARWILE_PT_8G

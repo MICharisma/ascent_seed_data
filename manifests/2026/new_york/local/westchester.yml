@@ -7,6 +7,90 @@ scope:
   state: STATE-USA-NY
 records:
 - type: Election
+  code: ELECTION-USA-NY-MOUNT_VERNON-2026_GENERAL
+  attributes:
+    name: Mount Vernon General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-MOUNT_VERNON
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-YONKERS-2026_GENERAL
+  attributes:
+    name: Yonkers General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-YONKERS
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-SOMERS-2026_GENERAL
+  attributes:
+    name: Somers General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-SOMERS
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-RYE_CITY-2026_GENERAL
+  attributes:
+    name: Rye General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-RYE_CITY
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-WHITE_PLAINS-2026_GENERAL
+  attributes:
+    name: White Plains General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-WHITE_PLAINS
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-MAMARONECK_TOWN-2026_GENERAL
+  attributes:
+    name: Mamaroneck General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-MAMARONECK_TOWN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-MOUNT_PLEASANT-2026_GENERAL
+  attributes:
+    name: Mount Pleasant General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-MOUNT_PLEASANT
+    year: YEAR-2026
+- type: Election
   code: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
   attributes:
     name: Westchester County General Election 2026
@@ -18,24 +102,348 @@ records:
   references:
     jurisdiction: COUNTY-USA-NY-WESTCHESTER
     year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-LARCHMONT-2026_GENERAL
+  attributes:
+    name: Larchmont General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-LARCHMONT
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-OSSINING_VILLAGE-2026_GENERAL
+  attributes:
+    name: Ossining General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-OSSINING_VILLAGE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-OSSINING_TOWN-2026_GENERAL
+  attributes:
+    name: Ossining General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-OSSINING_TOWN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-BEDFORD-2026_GENERAL
+  attributes:
+    name: Bedford General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-BEDFORD
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-CORTLANDT-2026_GENERAL
+  attributes:
+    name: Cortlandt General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-CORTLANDT
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-EASTCHESTER-2026_GENERAL
+  attributes:
+    name: Eastchester General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-EASTCHESTER
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-GREENBURGH-2026_GENERAL
+  attributes:
+    name: Greenburgh General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-GREENBURGH
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-LEWISBORO-2026_GENERAL
+  attributes:
+    name: Lewisboro General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-LEWISBORO
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-NEW_CASTLE-2026_GENERAL
+  attributes:
+    name: New Castle General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-NEW_CASTLE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-NORTH_CASTLE-2026_GENERAL
+  attributes:
+    name: North Castle General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-NORTH_CASTLE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-NORTH_SALEM-2026_GENERAL
+  attributes:
+    name: North Salem General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-NORTH_SALEM
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-PELHAM_TOWN-2026_GENERAL
+  attributes:
+    name: Pelham General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-PELHAM_TOWN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-POUND_RIDGE-2026_GENERAL
+  attributes:
+    name: Pound Ridge General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-POUND_RIDGE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-YORKTOWN-2026_GENERAL
+  attributes:
+    name: Yorktown General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-YORKTOWN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-ARDSLEY-2026_GENERAL
+  attributes:
+    name: Ardsley General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-ARDSLEY
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-HASTINGS_ON_HUDSON-2026_GENERAL
+  attributes:
+    name: Hastings-on-Hudson General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-HASTINGS_ON_HUDSON
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-IRVINGTON-2026_GENERAL
+  attributes:
+    name: Irvington General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-IRVINGTON
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-MOUNT_KISCO-2026_GENERAL
+  attributes:
+    name: Mount Kisco General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-MOUNT_KISCO
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-TARRYTOWN-2026_GENERAL
+  attributes:
+    name: Tarrytown General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-TARRYTOWN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-CROTON_ON_HUDSON-2026_GENERAL
+  attributes:
+    name: Croton-on-Hudson General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-CROTON_ON_HUDSON
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-DOBBS_FERRY-2026_GENERAL
+  attributes:
+    name: Dobbs Ferry General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-DOBBS_FERRY
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-MAMARONECK_VILLAGE-2026_GENERAL
+  attributes:
+    name: Mamaroneck General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-MAMARONECK_VILLAGE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-PELHAM_VILLAGE-2026_GENERAL
+  attributes:
+    name: Pelham General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-PELHAM_VILLAGE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-PELHAM_MANOR-2026_GENERAL
+  attributes:
+    name: Pelham Manor General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-PELHAM_MANOR
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-PLEASANTVILLE-2026_GENERAL
+  attributes:
+    name: Pleasantville General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-PLEASANTVILLE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-SLEEPY_HOLLOW-2026_GENERAL
+  attributes:
+    name: Sleepy Hollow General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-SLEEPY_HOLLOW
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-NY-TUCKAHOE-2026_GENERAL
+  attributes:
+    name: Tuckahoe General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-NY-TUCKAHOE
+    year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-CITY_COURT_JUDGE_MT_VERNON
+    code: OFFICE-USA-NY-MOUNT_VERNON-CITY_COURT_JUDGE
     attributes:
       is_active: true
     references:
-      position: POSITION-CITY_COURT_JUDGE_MT_VERNON
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-CITY_COURT_JUDGE
+      jurisdiction: MUNICIPALITY-USA-NY-MOUNT_VERNON
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-CITY_COURT_JUDGE_MT_VERNON-2026_GENERAL
+    code: RACE-USA-NY-MOUNT_VERNON-CITY_COURT_JUDGE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-CITY_COURT_JUDGE_MT_VERNON
+      election: ELECTION-USA-NY-MOUNT_VERNON-2026_GENERAL
+      office: OFFICE-USA-NY-MOUNT_VERNON-CITY_COURT_JUDGE
   - type: Person
     code: PERSON-JOHNSON_NC_7V
     attributes:
@@ -45,7 +453,7 @@ groups:
       middle_name: A
       last_name: JOHNSON
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-CITY_COURT_JUDGE_MT_VERNON-2026_GENERAL-JOHNSON_NC_7V
+    code: CANDIDACY-USA-NY-MOUNT_VERNON-CITY_COURT_JUDGE-2026_GENERAL-JOHNSON_NC_7V
     attributes:
       status: active
       participation: active
@@ -53,25 +461,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-CITY_COURT_JUDGE_MT_VERNON-2026_GENERAL
+      race: RACE-USA-NY-MOUNT_VERNON-CITY_COURT_JUDGE-2026_GENERAL
       person: PERSON-JOHNSON_NC_7V
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-CITY_COURT_JUDGE_YONKERS
+    code: OFFICE-USA-NY-YONKERS-CITY_COURT_JUDGE
     attributes:
       is_active: true
     references:
-      position: POSITION-CITY_COURT_JUDGE_YONKERS
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-CITY_COURT_JUDGE
+      jurisdiction: MUNICIPALITY-USA-NY-YONKERS
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-CITY_COURT_JUDGE_YONKERS-2026_GENERAL
+    code: RACE-USA-NY-YONKERS-CITY_COURT_JUDGE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-CITY_COURT_JUDGE_YONKERS
+      election: ELECTION-USA-NY-YONKERS-2026_GENERAL
+      office: OFFICE-USA-NY-YONKERS-CITY_COURT_JUDGE
   - type: Person
     code: PERSON-BISESI_AL_8G
     attributes:
@@ -81,7 +489,7 @@ groups:
       middle_name: R
       last_name: BISESI
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-CITY_COURT_JUDGE_YONKERS-2026_GENERAL-BISESI_AL_8G
+    code: CANDIDACY-USA-NY-YONKERS-CITY_COURT_JUDGE-2026_GENERAL-BISESI_AL_8G
     attributes:
       status: active
       participation: active
@@ -91,25 +499,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-CITY_COURT_JUDGE_YONKERS-2026_GENERAL
+      race: RACE-USA-NY-YONKERS-CITY_COURT_JUDGE-2026_GENERAL
       person: PERSON-BISESI_AL_8G
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_SOMERS
+    code: OFFICE-USA-NY-SOMERS-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-COUNCILMEMBER_UNEXP_SOMERS
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-NY-SOMERS
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_SOMERS-2026_GENERAL
+    code: RACE-USA-NY-SOMERS-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_SOMERS
+      election: ELECTION-USA-NY-SOMERS-2026_GENERAL
+      office: OFFICE-USA-NY-SOMERS-COUNCIL_MEMBER
   - type: Person
     code: PERSON-ARENA_GN_2G
     attributes:
@@ -119,7 +527,7 @@ groups:
       middle_name: M
       last_name: ARENA
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_SOMERS-2026_GENERAL-ARENA_GN_2G
+    code: CANDIDACY-USA-NY-SOMERS-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-ARENA_GN_2G
     attributes:
       status: active
       participation: active
@@ -129,7 +537,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_SOMERS-2026_GENERAL
+      race: RACE-USA-NY-SOMERS-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-ARENA_GN_2G
   - type: Person
     code: PERSON-ROMEU_RT_3V
@@ -140,7 +548,7 @@ groups:
       middle_name: M
       last_name: ROMEU
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_SOMERS-2026_GENERAL-ROMEU_RT_3V
+    code: CANDIDACY-USA-NY-SOMERS-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-ROMEU_RT_3V
     attributes:
       status: active
       participation: active
@@ -148,25 +556,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_SOMERS-2026_GENERAL
+      race: RACE-USA-NY-SOMERS-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-ROMEU_RT_3V
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_RYE_CITY
+    code: OFFICE-USA-NY-RYE_CITY-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-COUNCILMEMBER_UNEXP_RYE_CITY
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-NY-RYE_CITY
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_RYE_CITY-2026_GENERAL
+    code: RACE-USA-NY-RYE_CITY-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_RYE_CITY
+      election: ELECTION-USA-NY-RYE_CITY-2026_GENERAL
+      office: OFFICE-USA-NY-RYE_CITY-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BALDWIN_EM_8K
     attributes:
@@ -176,7 +584,7 @@ groups:
       middle_name: S
       last_name: BALDWIN
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_RYE_CITY-2026_GENERAL-BALDWIN_EM_8K
+    code: CANDIDACY-USA-NY-RYE_CITY-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-BALDWIN_EM_8K
     attributes:
       status: active
       participation: active
@@ -184,25 +592,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_RYE_CITY-2026_GENERAL
+      race: RACE-USA-NY-RYE_CITY-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-BALDWIN_EM_8K
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_1_YR_UNEXP_TERM_WHITE_PLAINS
+    code: OFFICE-USA-NY-WHITE_PLAINS-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-COUNCILMEMBER_1_YR_UNEXP_TERM_WHITE_PLAINS
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-NY-WHITE_PLAINS
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_1_YR_UNEXP_TERM_WHITE_PLAINS-2026_GENERAL
+    code: RACE-USA-NY-WHITE_PLAINS-COUNCIL_MEMBER-1_YEAR_UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_1_YR_UNEXP_TERM_WHITE_PLAINS
+      election: ELECTION-USA-NY-WHITE_PLAINS-2026_GENERAL
+      office: OFFICE-USA-NY-WHITE_PLAINS-COUNCIL_MEMBER
   - type: Person
     code: PERSON-GUGLIELMO_KT_6V
     attributes:
@@ -211,7 +619,7 @@ groups:
       first_name: KATHY
       last_name: GUGLIELMO
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_1_YR_UNEXP_TERM_WHITE_PLAINS-2026_GENERAL-GUGLIELMO_KT_6V
+    code: CANDIDACY-USA-NY-WHITE_PLAINS-COUNCIL_MEMBER-1_YEAR_UNEXPIRED_TERM-2026_GENERAL-GUGLIELMO_KT_6V
     attributes:
       status: active
       participation: active
@@ -219,7 +627,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_1_YR_UNEXP_TERM_WHITE_PLAINS-2026_GENERAL
+      race: RACE-USA-NY-WHITE_PLAINS-COUNCIL_MEMBER-1_YEAR_UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-GUGLIELMO_KT_6V
   - type: Person
     code: PERSON-SIMMONS_VL_7J
@@ -229,7 +637,7 @@ groups:
       first_name: VALERIE
       last_name: SIMMONS
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_1_YR_UNEXP_TERM_WHITE_PLAINS-2026_GENERAL-SIMMONS_VL_7J
+    code: CANDIDACY-USA-NY-WHITE_PLAINS-COUNCIL_MEMBER-1_YEAR_UNEXPIRED_TERM-2026_GENERAL-SIMMONS_VL_7J
     attributes:
       status: active
       participation: active
@@ -237,25 +645,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_1_YR_UNEXP_TERM_WHITE_PLAINS-2026_GENERAL
+      race: RACE-USA-NY-WHITE_PLAINS-COUNCIL_MEMBER-1_YEAR_UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-SIMMONS_VL_7J
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_3_YR_UNEXP_TERM_WHITE_PLAINS
+    code: OFFICE-USA-NY-WHITE_PLAINS-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-COUNCILMEMBER_3_YR_UNEXP_TERM_WHITE_PLAINS
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-NY-WHITE_PLAINS
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_3_YR_UNEXP_TERM_WHITE_PLAINS-2026_GENERAL
+    code: RACE-USA-NY-WHITE_PLAINS-COUNCIL_MEMBER-3_YEAR_UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_3_YR_UNEXP_TERM_WHITE_PLAINS
+      election: ELECTION-USA-NY-WHITE_PLAINS-2026_GENERAL
+      office: OFFICE-USA-NY-WHITE_PLAINS-COUNCIL_MEMBER
   - type: Person
     code: PERSON-CAMBARERI_JH_5G
     attributes:
@@ -264,7 +672,7 @@ groups:
       first_name: JOHN
       last_name: CAMBARERI
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_3_YR_UNEXP_TERM_WHITE_PLAINS-2026_GENERAL-CAMBARERI_JH_5G
+    code: CANDIDACY-USA-NY-WHITE_PLAINS-COUNCIL_MEMBER-3_YEAR_UNEXPIRED_TERM-2026_GENERAL-CAMBARERI_JH_5G
     attributes:
       status: active
       participation: active
@@ -272,7 +680,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_3_YR_UNEXP_TERM_WHITE_PLAINS-2026_GENERAL
+      race: RACE-USA-NY-WHITE_PLAINS-COUNCIL_MEMBER-3_YEAR_UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-CAMBARERI_JH_5G
   - type: Person
     code: PERSON-CARUSO_TH_2R
@@ -283,7 +691,7 @@ groups:
       middle_name: J
       last_name: CARUSO JR
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_3_YR_UNEXP_TERM_WHITE_PLAINS-2026_GENERAL-CARUSO_TH_2R
+    code: CANDIDACY-USA-NY-WHITE_PLAINS-COUNCIL_MEMBER-3_YEAR_UNEXPIRED_TERM-2026_GENERAL-CARUSO_TH_2R
     attributes:
       status: active
       participation: active
@@ -291,25 +699,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_3_YR_UNEXP_TERM_WHITE_PLAINS-2026_GENERAL
+      race: RACE-USA-NY-WHITE_PLAINS-COUNCIL_MEMBER-3_YEAR_UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-CARUSO_TH_2R
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_MAMARONECK
+    code: OFFICE-USA-NY-MAMARONECK_TOWN-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-COUNCILMEMBER_UNEXP_MAMARONECK
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-NY-MAMARONECK_TOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_MAMARONECK-2026_GENERAL
+    code: RACE-USA-NY-MAMARONECK_TOWN-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_MAMARONECK
+      election: ELECTION-USA-NY-MAMARONECK_TOWN-2026_GENERAL
+      office: OFFICE-USA-NY-MAMARONECK_TOWN-COUNCIL_MEMBER
   - type: Person
     code: PERSON-REGENSTREICH_AN_8J
     attributes:
@@ -319,7 +727,7 @@ groups:
       middle_name: M
       last_name: REGENSTREICH
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_MAMARONECK-2026_GENERAL-REGENSTREICH_AN_8J
+    code: CANDIDACY-USA-NY-MAMARONECK_TOWN-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-REGENSTREICH_AN_8J
     attributes:
       status: active
       participation: active
@@ -327,25 +735,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_MAMARONECK-2026_GENERAL
+      race: RACE-USA-NY-MAMARONECK_TOWN-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-REGENSTREICH_AN_8J
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_MT_PLEASANT
+    code: OFFICE-USA-NY-MOUNT_PLEASANT-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-COUNCILMEMBER_UNEXP_MT_PLEASANT
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-NY-MOUNT_PLEASANT
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_MT_PLEASANT-2026_GENERAL
+    code: RACE-USA-NY-MOUNT_PLEASANT-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_MT_PLEASANT
+      election: ELECTION-USA-NY-MOUNT_PLEASANT-2026_GENERAL
+      office: OFFICE-USA-NY-MOUNT_PLEASANT-COUNCIL_MEMBER
   - type: Person
     code: PERSON-NELSON_AN_5T
     attributes:
@@ -355,7 +763,7 @@ groups:
       middle_name: T
       last_name: NELSON
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_MT_PLEASANT-2026_GENERAL-NELSON_AN_5T
+    code: CANDIDACY-USA-NY-MOUNT_PLEASANT-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-NELSON_AN_5T
     attributes:
       status: active
       participation: active
@@ -363,7 +771,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_MT_PLEASANT-2026_GENERAL
+      race: RACE-USA-NY-MOUNT_PLEASANT-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-NELSON_AN_5T
   - type: Person
     code: PERSON-WIND_GL_3P
@@ -374,7 +782,7 @@ groups:
       middle_name: A
       last_name: WIND
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_MT_PLEASANT-2026_GENERAL-WIND_GL_3P
+    code: CANDIDACY-USA-NY-MOUNT_PLEASANT-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL-WIND_GL_3P
     attributes:
       status: active
       participation: active
@@ -382,7 +790,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-COUNCILMEMBER_UNEXP_MT_PLEASANT-2026_GENERAL
+      race: RACE-USA-NY-MOUNT_PLEASANT-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
       person: PERSON-WIND_GL_3P
 - records:
   - type: Office
@@ -1251,21 +1659,21 @@ groups:
       person: PERSON-TERRERO_WL_7F
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-MAYOR_VILLAGE_OF_LARCHMONT
+    code: OFFICE-USA-NY-LARCHMONT-MAYOR
     attributes:
       is_active: true
     references:
-      position: POSITION-MAYOR_VILLAGE_OF_LARCHMONT
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-NY-LARCHMONT
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-MAYOR_VILLAGE_OF_LARCHMONT-2026_GENERAL
+    code: RACE-USA-NY-LARCHMONT-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-MAYOR_VILLAGE_OF_LARCHMONT
+      election: ELECTION-USA-NY-LARCHMONT-2026_GENERAL
+      office: OFFICE-USA-NY-LARCHMONT-MAYOR
   - type: Person
     code: PERSON-BRENNAN_BR_9M
     attributes:
@@ -1274,7 +1682,7 @@ groups:
       first_name: BRIGID
       last_name: BRENNAN
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-MAYOR_VILLAGE_OF_LARCHMONT-2026_GENERAL-BRENNAN_BR_9M
+    code: CANDIDACY-USA-NY-LARCHMONT-MAYOR-2026_GENERAL-BRENNAN_BR_9M
     attributes:
       status: active
       participation: active
@@ -1282,25 +1690,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-MAYOR_VILLAGE_OF_LARCHMONT-2026_GENERAL
+      race: RACE-USA-NY-LARCHMONT-MAYOR-2026_GENERAL
       person: PERSON-BRENNAN_BR_9M
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-MAYOR_VILLAGE_OF_OSSINING
+    code: OFFICE-USA-NY-OSSINING_VILLAGE-MAYOR
     attributes:
       is_active: true
     references:
-      position: POSITION-MAYOR_VILLAGE_OF_OSSINING
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-NY-OSSINING_VILLAGE
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-MAYOR_VILLAGE_OF_OSSINING-2026_GENERAL
+    code: RACE-USA-NY-OSSINING_VILLAGE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-MAYOR_VILLAGE_OF_OSSINING
+      election: ELECTION-USA-NY-OSSINING_VILLAGE-2026_GENERAL
+      office: OFFICE-USA-NY-OSSINING_VILLAGE-MAYOR
   - type: Person
     code: PERSON-LEVIN_RK_5L
     attributes:
@@ -1309,7 +1717,7 @@ groups:
       first_name: RIKA
       last_name: LEVIN
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-MAYOR_VILLAGE_OF_OSSINING-2026_GENERAL-LEVIN_RK_5L
+    code: CANDIDACY-USA-NY-OSSINING_VILLAGE-MAYOR-2026_GENERAL-LEVIN_RK_5L
     attributes:
       status: active
       participation: active
@@ -1317,25 +1725,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-MAYOR_VILLAGE_OF_OSSINING-2026_GENERAL
+      race: RACE-USA-NY-OSSINING_VILLAGE-MAYOR-2026_GENERAL
       person: PERSON-LEVIN_RK_5L
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERINTENDENT_OF_HIGHWAYS_MT_PLEASANT
+    code: OFFICE-USA-NY-MOUNT_PLEASANT-HIGHWAY_SUPERINTENDENT
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERINTENDENT_OF_HIGHWAYS_MT_PLEASANT
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-HIGHWAY_SUPERINTENDENT
+      jurisdiction: MUNICIPALITY-USA-NY-MOUNT_PLEASANT
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERINTENDENT_OF_HIGHWAYS_MT_PLEASANT-2026_GENERAL
+    code: RACE-USA-NY-MOUNT_PLEASANT-HIGHWAY_SUPERINTENDENT-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERINTENDENT_OF_HIGHWAYS_MT_PLEASANT
+      election: ELECTION-USA-NY-MOUNT_PLEASANT-2026_GENERAL
+      office: OFFICE-USA-NY-MOUNT_PLEASANT-HIGHWAY_SUPERINTENDENT
   - type: Person
     code: PERSON-HROTKO_FR_7Z
     attributes:
@@ -1345,7 +1753,7 @@ groups:
       middle_name: R
       last_name: HROTKO
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERINTENDENT_OF_HIGHWAYS_MT_PLEASANT-2026_GENERAL-HROTKO_FR_7Z
+    code: CANDIDACY-USA-NY-MOUNT_PLEASANT-HIGHWAY_SUPERINTENDENT-2026_GENERAL-HROTKO_FR_7Z
     attributes:
       status: active
       participation: active
@@ -1353,7 +1761,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERINTENDENT_OF_HIGHWAYS_MT_PLEASANT-2026_GENERAL
+      race: RACE-USA-NY-MOUNT_PLEASANT-HIGHWAY_SUPERINTENDENT-2026_GENERAL
       person: PERSON-HROTKO_FR_7Z
   - type: Person
     code: PERSON-BENKWITT_RC_5K
@@ -1364,7 +1772,7 @@ groups:
       middle_name: B
       last_name: BENKWITT
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERINTENDENT_OF_HIGHWAYS_MT_PLEASANT-2026_GENERAL-BENKWITT_RC_5K
+    code: CANDIDACY-USA-NY-MOUNT_PLEASANT-HIGHWAY_SUPERINTENDENT-2026_GENERAL-BENKWITT_RC_5K
     attributes:
       status: active
       participation: active
@@ -1374,25 +1782,25 @@ groups:
       - label: VOTE AFFORDABLE
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERINTENDENT_OF_HIGHWAYS_MT_PLEASANT-2026_GENERAL
+      race: RACE-USA-NY-MOUNT_PLEASANT-HIGHWAY_SUPERINTENDENT-2026_GENERAL
       person: PERSON-BENKWITT_RC_5K
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERINTENDENT_OF_HIGHWAYS_OSSINING
+    code: OFFICE-USA-NY-OSSINING_TOWN-HIGHWAY_SUPERINTENDENT
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERINTENDENT_OF_HIGHWAYS_OSSINING
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-HIGHWAY_SUPERINTENDENT
+      jurisdiction: MUNICIPALITY-USA-NY-OSSINING_TOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERINTENDENT_OF_HIGHWAYS_OSSINING-2026_GENERAL
+    code: RACE-USA-NY-OSSINING_TOWN-HIGHWAY_SUPERINTENDENT-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERINTENDENT_OF_HIGHWAYS_OSSINING
+      election: ELECTION-USA-NY-OSSINING_TOWN-2026_GENERAL
+      office: OFFICE-USA-NY-OSSINING_TOWN-HIGHWAY_SUPERINTENDENT
   - type: Person
     code: PERSON-CONNOLLY_PT_9U
     attributes:
@@ -1402,7 +1810,7 @@ groups:
       middle_name: J
       last_name: CONNOLLY
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERINTENDENT_OF_HIGHWAYS_OSSINING-2026_GENERAL-CONNOLLY_PT_9U
+    code: CANDIDACY-USA-NY-OSSINING_TOWN-HIGHWAY_SUPERINTENDENT-2026_GENERAL-CONNOLLY_PT_9U
     attributes:
       status: active
       participation: active
@@ -1410,25 +1818,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERINTENDENT_OF_HIGHWAYS_OSSINING-2026_GENERAL
+      race: RACE-USA-NY-OSSINING_TOWN-HIGHWAY_SUPERINTENDENT-2026_GENERAL
       person: PERSON-CONNOLLY_PT_9U
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_BEDFORD
+    code: OFFICE-USA-NY-BEDFORD-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_BEDFORD
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-BEDFORD
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_BEDFORD-2026_GENERAL
+    code: RACE-USA-NY-BEDFORD-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_BEDFORD
+      election: ELECTION-USA-NY-BEDFORD-2026_GENERAL
+      office: OFFICE-USA-NY-BEDFORD-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-SCOTT_DN_7R
     attributes:
@@ -1437,7 +1845,7 @@ groups:
       first_name: DON
       last_name: SCOTT
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_BEDFORD-2026_GENERAL-SCOTT_DN_7R
+    code: CANDIDACY-USA-NY-BEDFORD-TOWN_SUPERVISOR-2026_GENERAL-SCOTT_DN_7R
     attributes:
       status: active
       participation: active
@@ -1445,7 +1853,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_BEDFORD-2026_GENERAL
+      race: RACE-USA-NY-BEDFORD-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-SCOTT_DN_7R
   - type: Person
     code: PERSON-CALVES_EL_2K
@@ -1456,7 +1864,7 @@ groups:
       middle_name: Z
       last_name: CALVES
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_BEDFORD-2026_GENERAL-CALVES_EL_2K
+    code: CANDIDACY-USA-NY-BEDFORD-TOWN_SUPERVISOR-2026_GENERAL-CALVES_EL_2K
     attributes:
       status: active
       participation: active
@@ -1466,25 +1874,25 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_BEDFORD-2026_GENERAL
+      race: RACE-USA-NY-BEDFORD-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-CALVES_EL_2K
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_CORTLANDT
+    code: OFFICE-USA-NY-CORTLANDT-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_CORTLANDT
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-CORTLANDT
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_CORTLANDT-2026_GENERAL
+    code: RACE-USA-NY-CORTLANDT-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_CORTLANDT
+      election: ELECTION-USA-NY-CORTLANDT-2026_GENERAL
+      office: OFFICE-USA-NY-CORTLANDT-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-BECKER_RC_2Q
     attributes:
@@ -1494,7 +1902,7 @@ groups:
       middle_name: H
       last_name: BECKER
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_CORTLANDT-2026_GENERAL-BECKER_RC_2Q
+    code: CANDIDACY-USA-NY-CORTLANDT-TOWN_SUPERVISOR-2026_GENERAL-BECKER_RC_2Q
     attributes:
       status: active
       participation: active
@@ -1504,7 +1912,7 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_CORTLANDT-2026_GENERAL
+      race: RACE-USA-NY-CORTLANDT-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-BECKER_RC_2Q
   - type: Person
     code: PERSON-COOK_SH_7S
@@ -1515,7 +1923,7 @@ groups:
       middle_name: ANN
       last_name: COOK
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_CORTLANDT-2026_GENERAL-COOK_SH_7S
+    code: CANDIDACY-USA-NY-CORTLANDT-TOWN_SUPERVISOR-2026_GENERAL-COOK_SH_7S
     attributes:
       status: active
       participation: active
@@ -1523,25 +1931,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_CORTLANDT-2026_GENERAL
+      race: RACE-USA-NY-CORTLANDT-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-COOK_SH_7S
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_EASTCHESTER
+    code: OFFICE-USA-NY-EASTCHESTER-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_EASTCHESTER
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-EASTCHESTER
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_EASTCHESTER-2026_GENERAL
+    code: RACE-USA-NY-EASTCHESTER-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_EASTCHESTER
+      election: ELECTION-USA-NY-EASTCHESTER-2026_GENERAL
+      office: OFFICE-USA-NY-EASTCHESTER-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-COLAVITA_AN_8K
     attributes:
@@ -1551,7 +1959,7 @@ groups:
       middle_name: S
       last_name: COLAVITA
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_EASTCHESTER-2026_GENERAL-COLAVITA_AN_8K
+    code: CANDIDACY-USA-NY-EASTCHESTER-TOWN_SUPERVISOR-2026_GENERAL-COLAVITA_AN_8K
     attributes:
       status: active
       participation: active
@@ -1561,7 +1969,7 @@ groups:
       - label: VOTE AFFORDABLE
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_EASTCHESTER-2026_GENERAL
+      race: RACE-USA-NY-EASTCHESTER-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-COLAVITA_AN_8K
   - type: Person
     code: PERSON-SAYLES_CT_8M
@@ -1571,7 +1979,7 @@ groups:
       first_name: CAT
       last_name: SAYLES
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_EASTCHESTER-2026_GENERAL-SAYLES_CT_8M
+    code: CANDIDACY-USA-NY-EASTCHESTER-TOWN_SUPERVISOR-2026_GENERAL-SAYLES_CT_8M
     attributes:
       status: active
       participation: active
@@ -1581,25 +1989,25 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_EASTCHESTER-2026_GENERAL
+      race: RACE-USA-NY-EASTCHESTER-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-SAYLES_CT_8M
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_GREENBURGH
+    code: OFFICE-USA-NY-GREENBURGH-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_GREENBURGH
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-GREENBURGH
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_GREENBURGH-2026_GENERAL
+    code: RACE-USA-NY-GREENBURGH-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_GREENBURGH
+      election: ELECTION-USA-NY-GREENBURGH-2026_GENERAL
+      office: OFFICE-USA-NY-GREENBURGH-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-FEINER_PL_5W
     attributes:
@@ -1609,7 +2017,7 @@ groups:
       middle_name: J
       last_name: FEINER
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_GREENBURGH-2026_GENERAL-FEINER_PL_5W
+    code: CANDIDACY-USA-NY-GREENBURGH-TOWN_SUPERVISOR-2026_GENERAL-FEINER_PL_5W
     attributes:
       status: active
       participation: active
@@ -1619,25 +2027,25 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_GREENBURGH-2026_GENERAL
+      race: RACE-USA-NY-GREENBURGH-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-FEINER_PL_5W
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_LEWISBORO
+    code: OFFICE-USA-NY-LEWISBORO-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_LEWISBORO
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-LEWISBORO
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_LEWISBORO-2026_GENERAL
+    code: RACE-USA-NY-LEWISBORO-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_LEWISBORO
+      election: ELECTION-USA-NY-LEWISBORO-2026_GENERAL
+      office: OFFICE-USA-NY-LEWISBORO-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-GONCALVES_AN_5P
     attributes:
@@ -1647,7 +2055,7 @@ groups:
       middle_name: J
       last_name: GONCALVES
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_LEWISBORO-2026_GENERAL-GONCALVES_AN_5P
+    code: CANDIDACY-USA-NY-LEWISBORO-TOWN_SUPERVISOR-2026_GENERAL-GONCALVES_AN_5P
     attributes:
       status: active
       participation: active
@@ -1657,25 +2065,25 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_LEWISBORO-2026_GENERAL
+      race: RACE-USA-NY-LEWISBORO-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-GONCALVES_AN_5P
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_MAMARONECK
+    code: OFFICE-USA-NY-MAMARONECK_TOWN-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_MAMARONECK
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-MAMARONECK_TOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_MAMARONECK-2026_GENERAL
+    code: RACE-USA-NY-MAMARONECK_TOWN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_MAMARONECK
+      election: ELECTION-USA-NY-MAMARONECK_TOWN-2026_GENERAL
+      office: OFFICE-USA-NY-MAMARONECK_TOWN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-ENEY_JN_5J
     attributes:
@@ -1685,7 +2093,7 @@ groups:
       middle_name: ELKIND
       last_name: ENEY
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_MAMARONECK-2026_GENERAL-ENEY_JN_5J
+    code: CANDIDACY-USA-NY-MAMARONECK_TOWN-TOWN_SUPERVISOR-2026_GENERAL-ENEY_JN_5J
     attributes:
       status: active
       participation: active
@@ -1693,25 +2101,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_MAMARONECK-2026_GENERAL
+      race: RACE-USA-NY-MAMARONECK_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-ENEY_JN_5J
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_MT_PLEASANT
+    code: OFFICE-USA-NY-MOUNT_PLEASANT-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_MT_PLEASANT
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-MOUNT_PLEASANT
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_MT_PLEASANT-2026_GENERAL
+    code: RACE-USA-NY-MOUNT_PLEASANT-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_MT_PLEASANT
+      election: ELECTION-USA-NY-MOUNT_PLEASANT-2026_GENERAL
+      office: OFFICE-USA-NY-MOUNT_PLEASANT-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-FULGENZI_CR_4S
     attributes:
@@ -1720,7 +2128,7 @@ groups:
       first_name: CARL
       last_name: FULGENZI JR.
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_MT_PLEASANT-2026_GENERAL-FULGENZI_CR_4S
+    code: CANDIDACY-USA-NY-MOUNT_PLEASANT-TOWN_SUPERVISOR-2026_GENERAL-FULGENZI_CR_4S
     attributes:
       status: active
       participation: active
@@ -1730,7 +2138,7 @@ groups:
       - label: VOTE AFFORDABLE
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_MT_PLEASANT-2026_GENERAL
+      race: RACE-USA-NY-MOUNT_PLEASANT-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-FULGENZI_CR_4S
   - type: Person
     code: PERSON-ABINANTI_TH_7C
@@ -1741,7 +2149,7 @@ groups:
       middle_name: J
       last_name: ABINANTI
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_MT_PLEASANT-2026_GENERAL-ABINANTI_TH_7C
+    code: CANDIDACY-USA-NY-MOUNT_PLEASANT-TOWN_SUPERVISOR-2026_GENERAL-ABINANTI_TH_7C
     attributes:
       status: active
       participation: active
@@ -1749,25 +2157,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_MT_PLEASANT-2026_GENERAL
+      race: RACE-USA-NY-MOUNT_PLEASANT-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-ABINANTI_TH_7C
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NEW_CASTLE
+    code: OFFICE-USA-NY-NEW_CASTLE-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_NEW_CASTLE
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-NEW_CASTLE
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NEW_CASTLE-2026_GENERAL
+    code: RACE-USA-NY-NEW_CASTLE-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NEW_CASTLE
+      election: ELECTION-USA-NY-NEW_CASTLE-2026_GENERAL
+      office: OFFICE-USA-NY-NEW_CASTLE-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-TIPP_VC_2B
     attributes:
@@ -1777,7 +2185,7 @@ groups:
       middle_name: BAYARD
       last_name: TIPP
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NEW_CASTLE-2026_GENERAL-TIPP_VC_2B
+    code: CANDIDACY-USA-NY-NEW_CASTLE-TOWN_SUPERVISOR-2026_GENERAL-TIPP_VC_2B
     attributes:
       status: active
       participation: active
@@ -1785,25 +2193,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NEW_CASTLE-2026_GENERAL
+      race: RACE-USA-NY-NEW_CASTLE-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-TIPP_VC_2B
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NORTH_CASTLE
+    code: OFFICE-USA-NY-NORTH_CASTLE-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_NORTH_CASTLE
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-NORTH_CASTLE
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NORTH_CASTLE-2026_GENERAL
+    code: RACE-USA-NY-NORTH_CASTLE-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NORTH_CASTLE
+      election: ELECTION-USA-NY-NORTH_CASTLE-2026_GENERAL
+      office: OFFICE-USA-NY-NORTH_CASTLE-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-RENDE_JS_6V
     attributes:
@@ -1813,7 +2221,7 @@ groups:
       middle_name: A
       last_name: RENDE
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NORTH_CASTLE-2026_GENERAL-RENDE_JS_6V
+    code: CANDIDACY-USA-NY-NORTH_CASTLE-TOWN_SUPERVISOR-2026_GENERAL-RENDE_JS_6V
     attributes:
       status: active
       participation: active
@@ -1821,7 +2229,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NORTH_CASTLE-2026_GENERAL
+      race: RACE-USA-NY-NORTH_CASTLE-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-RENDE_JS_6V
   - type: Person
     code: PERSON-ORELLANA_ML_2A
@@ -1832,7 +2240,7 @@ groups:
       middle_name: D
       last_name: ORELLANA
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NORTH_CASTLE-2026_GENERAL-ORELLANA_ML_2A
+    code: CANDIDACY-USA-NY-NORTH_CASTLE-TOWN_SUPERVISOR-2026_GENERAL-ORELLANA_ML_2A
     attributes:
       status: active
       participation: active
@@ -1842,25 +2250,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NORTH_CASTLE-2026_GENERAL
+      race: RACE-USA-NY-NORTH_CASTLE-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-ORELLANA_ML_2A
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NORTH_SALEM
+    code: OFFICE-USA-NY-NORTH_SALEM-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_NORTH_SALEM
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-NORTH_SALEM
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NORTH_SALEM-2026_GENERAL
+    code: RACE-USA-NY-NORTH_SALEM-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NORTH_SALEM
+      election: ELECTION-USA-NY-NORTH_SALEM-2026_GENERAL
+      office: OFFICE-USA-NY-NORTH_SALEM-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-DANIELS_KT_6C
     attributes:
@@ -1870,7 +2278,7 @@ groups:
       middle_name: J
       last_name: DANIELS
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NORTH_SALEM-2026_GENERAL-DANIELS_KT_6C
+    code: CANDIDACY-USA-NY-NORTH_SALEM-TOWN_SUPERVISOR-2026_GENERAL-DANIELS_KT_6C
     attributes:
       status: active
       participation: active
@@ -1880,7 +2288,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NORTH_SALEM-2026_GENERAL
+      race: RACE-USA-NY-NORTH_SALEM-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-DANIELS_KT_6C
   - type: Person
     code: PERSON-LUCAS_WR_4U
@@ -1891,7 +2299,7 @@ groups:
       middle_name: J
       last_name: LUCAS
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NORTH_SALEM-2026_GENERAL-LUCAS_WR_4U
+    code: CANDIDACY-USA-NY-NORTH_SALEM-TOWN_SUPERVISOR-2026_GENERAL-LUCAS_WR_4U
     attributes:
       status: active
       participation: active
@@ -1901,25 +2309,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_NORTH_SALEM-2026_GENERAL
+      race: RACE-USA-NY-NORTH_SALEM-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-LUCAS_WR_4U
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_OSSINING
+    code: OFFICE-USA-NY-OSSINING_TOWN-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_OSSINING
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-OSSINING_TOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_OSSINING-2026_GENERAL
+    code: RACE-USA-NY-OSSINING_TOWN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_OSSINING
+      election: ELECTION-USA-NY-OSSINING_TOWN-2026_GENERAL
+      office: OFFICE-USA-NY-OSSINING_TOWN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-FELDMAN_EL_2T
     attributes:
@@ -1929,7 +2337,7 @@ groups:
       middle_name: R
       last_name: FELDMAN
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_OSSINING-2026_GENERAL-FELDMAN_EL_2T
+    code: CANDIDACY-USA-NY-OSSINING_TOWN-TOWN_SUPERVISOR-2026_GENERAL-FELDMAN_EL_2T
     attributes:
       status: active
       participation: active
@@ -1939,25 +2347,25 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_OSSINING-2026_GENERAL
+      race: RACE-USA-NY-OSSINING_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-FELDMAN_EL_2T
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_PELHAM
+    code: OFFICE-USA-NY-PELHAM_TOWN-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_PELHAM
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-PELHAM_TOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_PELHAM-2026_GENERAL
+    code: RACE-USA-NY-PELHAM_TOWN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_PELHAM
+      election: ELECTION-USA-NY-PELHAM_TOWN-2026_GENERAL
+      office: OFFICE-USA-NY-PELHAM_TOWN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-WOLFGANG_SC_6J
     attributes:
@@ -1967,7 +2375,7 @@ groups:
       middle_name: E
       last_name: WOLFGANG
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_PELHAM-2026_GENERAL-WOLFGANG_SC_6J
+    code: CANDIDACY-USA-NY-PELHAM_TOWN-TOWN_SUPERVISOR-2026_GENERAL-WOLFGANG_SC_6J
     attributes:
       status: active
       participation: active
@@ -1975,7 +2383,7 @@ groups:
       - label: NEIGHBORHOOD PARTY
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_PELHAM-2026_GENERAL
+      race: RACE-USA-NY-PELHAM_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-WOLFGANG_SC_6J
   - type: Person
     code: PERSON-MOHAN_TH_5Z
@@ -1986,7 +2394,7 @@ groups:
       middle_name: K
       last_name: MOHAN
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_PELHAM-2026_GENERAL-MOHAN_TH_5Z
+    code: CANDIDACY-USA-NY-PELHAM_TOWN-TOWN_SUPERVISOR-2026_GENERAL-MOHAN_TH_5Z
     attributes:
       status: active
       participation: active
@@ -1994,25 +2402,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_PELHAM-2026_GENERAL
+      race: RACE-USA-NY-PELHAM_TOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-MOHAN_TH_5Z
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_POUND_RIDGE
+    code: OFFICE-USA-NY-POUND_RIDGE-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_POUND_RIDGE
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-POUND_RIDGE
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_POUND_RIDGE-2026_GENERAL
+    code: RACE-USA-NY-POUND_RIDGE-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_POUND_RIDGE
+      election: ELECTION-USA-NY-POUND_RIDGE-2026_GENERAL
+      office: OFFICE-USA-NY-POUND_RIDGE-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-HANSAN_KV_9P
     attributes:
@@ -2022,7 +2430,7 @@ groups:
       middle_name: C
       last_name: HANSAN
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_POUND_RIDGE-2026_GENERAL-HANSAN_KV_9P
+    code: CANDIDACY-USA-NY-POUND_RIDGE-TOWN_SUPERVISOR-2026_GENERAL-HANSAN_KV_9P
     attributes:
       status: active
       participation: active
@@ -2032,25 +2440,25 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_POUND_RIDGE-2026_GENERAL
+      race: RACE-USA-NY-POUND_RIDGE-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-HANSAN_KV_9P
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_SOMERS
+    code: OFFICE-USA-NY-SOMERS-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_SOMERS
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-SOMERS
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_SOMERS-2026_GENERAL
+    code: RACE-USA-NY-SOMERS-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_SOMERS
+      election: ELECTION-USA-NY-SOMERS-2026_GENERAL
+      office: OFFICE-USA-NY-SOMERS-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-SCORRANO_RB_4E
     attributes:
@@ -2060,7 +2468,7 @@ groups:
       middle_name: G
       last_name: SCORRANO
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_SOMERS-2026_GENERAL-SCORRANO_RB_4E
+    code: CANDIDACY-USA-NY-SOMERS-TOWN_SUPERVISOR-2026_GENERAL-SCORRANO_RB_4E
     attributes:
       status: active
       participation: active
@@ -2070,7 +2478,7 @@ groups:
       - label: SOMERS STRONG
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_SOMERS-2026_GENERAL
+      race: RACE-USA-NY-SOMERS-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-SCORRANO_RB_4E
   - type: Person
     code: PERSON-CLIFFORD_TR_9D
@@ -2081,7 +2489,7 @@ groups:
       middle_name: LAURA
       last_name: CLIFFORD
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_SOMERS-2026_GENERAL-CLIFFORD_TR_9D
+    code: CANDIDACY-USA-NY-SOMERS-TOWN_SUPERVISOR-2026_GENERAL-CLIFFORD_TR_9D
     attributes:
       status: active
       participation: active
@@ -2089,25 +2497,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_SOMERS-2026_GENERAL
+      race: RACE-USA-NY-SOMERS-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-CLIFFORD_TR_9D
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_YORKTOWN
+    code: OFFICE-USA-NY-YORKTOWN-TOWN_SUPERVISOR
     attributes:
       is_active: true
     references:
-      position: POSITION-SUPERVISOR_YORKTOWN
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_SUPERVISOR
+      jurisdiction: MUNICIPALITY-USA-NY-YORKTOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_YORKTOWN-2026_GENERAL
+    code: RACE-USA-NY-YORKTOWN-TOWN_SUPERVISOR-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_YORKTOWN
+      election: ELECTION-USA-NY-YORKTOWN-2026_GENERAL
+      office: OFFICE-USA-NY-YORKTOWN-TOWN_SUPERVISOR
   - type: Person
     code: PERSON-LACHTERMAN_ED_4G
     attributes:
@@ -2117,7 +2525,7 @@ groups:
       middle_name: A
       last_name: LACHTERMAN
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_YORKTOWN-2026_GENERAL-LACHTERMAN_ED_4G
+    code: CANDIDACY-USA-NY-YORKTOWN-TOWN_SUPERVISOR-2026_GENERAL-LACHTERMAN_ED_4G
     attributes:
       status: active
       participation: active
@@ -2127,7 +2535,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_YORKTOWN-2026_GENERAL
+      race: RACE-USA-NY-YORKTOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-LACHTERMAN_ED_4G
   - type: Person
     code: PERSON-MIRCHANDANI_JN_6A
@@ -2137,7 +2545,7 @@ groups:
       first_name: JANN
       last_name: MIRCHANDANI
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_YORKTOWN-2026_GENERAL-MIRCHANDANI_JN_6A
+    code: CANDIDACY-USA-NY-YORKTOWN-TOWN_SUPERVISOR-2026_GENERAL-MIRCHANDANI_JN_6A
     attributes:
       status: active
       participation: active
@@ -2147,25 +2555,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-SUPERVISOR_YORKTOWN-2026_GENERAL
+      race: RACE-USA-NY-YORKTOWN-TOWN_SUPERVISOR-2026_GENERAL
       person: PERSON-MIRCHANDANI_JN_6A
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_GREENBURGH
+    code: OFFICE-USA-NY-GREENBURGH-TOWN_CLERK
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_CLERK_GREENBURGH
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_CLERK
+      jurisdiction: MUNICIPALITY-USA-NY-GREENBURGH
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_GREENBURGH-2026_GENERAL
+    code: RACE-USA-NY-GREENBURGH-TOWN_CLERK-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_GREENBURGH
+      election: ELECTION-USA-NY-GREENBURGH-2026_GENERAL
+      office: OFFICE-USA-NY-GREENBURGH-TOWN_CLERK
   - type: Person
     code: PERSON-NERO_LS_6E
     attributes:
@@ -2175,7 +2583,7 @@ groups:
       middle_name: M
       last_name: NERO
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_GREENBURGH-2026_GENERAL-NERO_LS_6E
+    code: CANDIDACY-USA-NY-GREENBURGH-TOWN_CLERK-2026_GENERAL-NERO_LS_6E
     attributes:
       status: active
       participation: active
@@ -2183,25 +2591,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_GREENBURGH-2026_GENERAL
+      race: RACE-USA-NY-GREENBURGH-TOWN_CLERK-2026_GENERAL
       person: PERSON-NERO_LS_6E
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_MT_PLEASANT
+    code: OFFICE-USA-NY-MOUNT_PLEASANT-TOWN_CLERK
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_CLERK_MT_PLEASANT
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_CLERK
+      jurisdiction: MUNICIPALITY-USA-NY-MOUNT_PLEASANT
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_MT_PLEASANT-2026_GENERAL
+    code: RACE-USA-NY-MOUNT_PLEASANT-TOWN_CLERK-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_MT_PLEASANT
+      election: ELECTION-USA-NY-MOUNT_PLEASANT-2026_GENERAL
+      office: OFFICE-USA-NY-MOUNT_PLEASANT-TOWN_CLERK
   - type: Person
     code: PERSON-COSTANZA_EM_6N
     attributes:
@@ -2211,7 +2619,7 @@ groups:
       middle_name: A
       last_name: COSTANZA
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_MT_PLEASANT-2026_GENERAL-COSTANZA_EM_6N
+    code: CANDIDACY-USA-NY-MOUNT_PLEASANT-TOWN_CLERK-2026_GENERAL-COSTANZA_EM_6N
     attributes:
       status: active
       participation: active
@@ -2221,25 +2629,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_MT_PLEASANT-2026_GENERAL
+      race: RACE-USA-NY-MOUNT_PLEASANT-TOWN_CLERK-2026_GENERAL
       person: PERSON-COSTANZA_EM_6N
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_PELHAM
+    code: OFFICE-USA-NY-PELHAM_TOWN-TOWN_CLERK
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_CLERK_PELHAM
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_CLERK
+      jurisdiction: MUNICIPALITY-USA-NY-PELHAM_TOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_PELHAM-2026_GENERAL
+    code: RACE-USA-NY-PELHAM_TOWN-TOWN_CLERK-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_PELHAM
+      election: ELECTION-USA-NY-PELHAM_TOWN-2026_GENERAL
+      office: OFFICE-USA-NY-PELHAM_TOWN-TOWN_CLERK
   - type: Person
     code: PERSON-MILLER_EL_2W
     attributes:
@@ -2249,7 +2657,7 @@ groups:
       middle_name: R
       last_name: MILLER
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_PELHAM-2026_GENERAL-MILLER_EL_2W
+    code: CANDIDACY-USA-NY-PELHAM_TOWN-TOWN_CLERK-2026_GENERAL-MILLER_EL_2W
     attributes:
       status: active
       participation: active
@@ -2257,7 +2665,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_PELHAM-2026_GENERAL
+      race: RACE-USA-NY-PELHAM_TOWN-TOWN_CLERK-2026_GENERAL
       person: PERSON-MILLER_EL_2W
   - type: Person
     code: PERSON-BORSELLA_MR_7Z
@@ -2267,7 +2675,7 @@ groups:
       first_name: MAUREEN
       last_name: BORSELLA
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_PELHAM-2026_GENERAL-BORSELLA_MR_7Z
+    code: CANDIDACY-USA-NY-PELHAM_TOWN-TOWN_CLERK-2026_GENERAL-BORSELLA_MR_7Z
     attributes:
       status: active
       participation: active
@@ -2275,25 +2683,25 @@ groups:
       - label: NEIGHBORHOOD PARTY
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TOWN_CLERK_PELHAM-2026_GENERAL
+      race: RACE-USA-NY-PELHAM_TOWN-TOWN_CLERK-2026_GENERAL
       person: PERSON-BORSELLA_MR_7Z
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TOWN_JUSTICE_GREENBURGH
+    code: OFFICE-USA-NY-GREENBURGH-TOWN_JUSTICE
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_GREENBURGH
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_JUSTICE
+      jurisdiction: MUNICIPALITY-USA-NY-GREENBURGH
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TOWN_JUSTICE_GREENBURGH-2026_GENERAL
+    code: RACE-USA-NY-GREENBURGH-TOWN_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TOWN_JUSTICE_GREENBURGH
+      election: ELECTION-USA-NY-GREENBURGH-2026_GENERAL
+      office: OFFICE-USA-NY-GREENBURGH-TOWN_JUSTICE
   - type: Person
     code: PERSON-FOOTE_AM_3S
     attributes:
@@ -2303,7 +2711,7 @@ groups:
       middle_name: R
       last_name: FOOTE
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TOWN_JUSTICE_GREENBURGH-2026_GENERAL-FOOTE_AM_3S
+    code: CANDIDACY-USA-NY-GREENBURGH-TOWN_JUSTICE-2026_GENERAL-FOOTE_AM_3S
     attributes:
       status: active
       participation: active
@@ -2311,25 +2719,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TOWN_JUSTICE_GREENBURGH-2026_GENERAL
+      race: RACE-USA-NY-GREENBURGH-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-FOOTE_AM_3S
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TOWN_JUSTICE_MT_PLEASANT
+    code: OFFICE-USA-NY-MOUNT_PLEASANT-TOWN_JUSTICE
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_JUSTICE_MT_PLEASANT
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-TOWN_JUSTICE
+      jurisdiction: MUNICIPALITY-USA-NY-MOUNT_PLEASANT
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TOWN_JUSTICE_MT_PLEASANT-2026_GENERAL
+    code: RACE-USA-NY-MOUNT_PLEASANT-TOWN_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TOWN_JUSTICE_MT_PLEASANT
+      election: ELECTION-USA-NY-MOUNT_PLEASANT-2026_GENERAL
+      office: OFFICE-USA-NY-MOUNT_PLEASANT-TOWN_JUSTICE
   - type: Person
     code: PERSON-RUBEO_MR_5K
     attributes:
@@ -2339,7 +2747,7 @@ groups:
       middle_name: A
       last_name: RUBEO JR
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TOWN_JUSTICE_MT_PLEASANT-2026_GENERAL-RUBEO_MR_5K
+    code: CANDIDACY-USA-NY-MOUNT_PLEASANT-TOWN_JUSTICE-2026_GENERAL-RUBEO_MR_5K
     attributes:
       status: active
       participation: active
@@ -2349,25 +2757,25 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TOWN_JUSTICE_MT_PLEASANT-2026_GENERAL
+      race: RACE-USA-NY-MOUNT_PLEASANT-TOWN_JUSTICE-2026_GENERAL
       person: PERSON-RUBEO_MR_5K
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_ARDSLEY
+    code: OFFICE-USA-NY-ARDSLEY-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-TRUSTEE_VILLAGE_OF_ARDSLEY
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-ARDSLEY
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_ARDSLEY-2026_GENERAL
+    code: RACE-USA-NY-ARDSLEY-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR TWO. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_ARDSLEY
+      election: ELECTION-USA-NY-ARDSLEY-2026_GENERAL
+      office: OFFICE-USA-NY-ARDSLEY-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-WISKIND_MC_7W
     attributes:
@@ -2377,7 +2785,7 @@ groups:
       middle_name: J
       last_name: WISKIND
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_ARDSLEY-2026_GENERAL-WISKIND_MC_7W
+    code: CANDIDACY-USA-NY-ARDSLEY-VILLAGE_TRUSTEE-2026_GENERAL-WISKIND_MC_7W
     attributes:
       status: active
       participation: active
@@ -2385,7 +2793,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_ARDSLEY-2026_GENERAL
+      race: RACE-USA-NY-ARDSLEY-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-WISKIND_MC_7W
   - type: Person
     code: PERSON-SYED_SB_6M
@@ -2395,7 +2803,7 @@ groups:
       first_name: SABOOR
       last_name: SYED
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_ARDSLEY-2026_GENERAL-SYED_SB_6M
+    code: CANDIDACY-USA-NY-ARDSLEY-VILLAGE_TRUSTEE-2026_GENERAL-SYED_SB_6M
     attributes:
       status: active
       participation: active
@@ -2403,25 +2811,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_ARDSLEY-2026_GENERAL
+      race: RACE-USA-NY-ARDSLEY-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-SYED_SB_6M
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_HASTINGS_ON_HUDSON
+    code: OFFICE-USA-NY-HASTINGS_ON_HUDSON-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-TRUSTEE_VILLAGE_OF_HASTINGS_ON_HUDSON
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-HASTINGS_ON_HUDSON
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_HASTINGS_ON_HUDSON-2026_GENERAL
+    code: RACE-USA-NY-HASTINGS_ON_HUDSON-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR TWO. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_HASTINGS_ON_HUDSON
+      election: ELECTION-USA-NY-HASTINGS_ON_HUDSON-2026_GENERAL
+      office: OFFICE-USA-NY-HASTINGS_ON_HUDSON-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-FLEISIG_MR_4T
     attributes:
@@ -2431,7 +2839,7 @@ groups:
       middle_name: L
       last_name: FLEISIG
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_HASTINGS_ON_HUDSON-2026_GENERAL-FLEISIG_MR_4T
+    code: CANDIDACY-USA-NY-HASTINGS_ON_HUDSON-VILLAGE_TRUSTEE-2026_GENERAL-FLEISIG_MR_4T
     attributes:
       status: active
       participation: active
@@ -2441,7 +2849,7 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_HASTINGS_ON_HUDSON-2026_GENERAL
+      race: RACE-USA-NY-HASTINGS_ON_HUDSON-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-FLEISIG_MR_4T
   - type: Person
     code: PERSON-MERTON_SM_2M
@@ -2452,7 +2860,7 @@ groups:
       middle_name: J
       last_name: MERTON
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_HASTINGS_ON_HUDSON-2026_GENERAL-MERTON_SM_2M
+    code: CANDIDACY-USA-NY-HASTINGS_ON_HUDSON-VILLAGE_TRUSTEE-2026_GENERAL-MERTON_SM_2M
     attributes:
       status: active
       participation: active
@@ -2460,25 +2868,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_HASTINGS_ON_HUDSON-2026_GENERAL
+      race: RACE-USA-NY-HASTINGS_ON_HUDSON-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-MERTON_SM_2M
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_IRVINGTON
+    code: OFFICE-USA-NY-IRVINGTON-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-TRUSTEE_VILLAGE_OF_IRVINGTON
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-IRVINGTON
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_IRVINGTON-2026_GENERAL
+    code: RACE-USA-NY-IRVINGTON-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR TWO. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_IRVINGTON
+      election: ELECTION-USA-NY-IRVINGTON-2026_GENERAL
+      office: OFFICE-USA-NY-IRVINGTON-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-BLOOM_JS_4C
     attributes:
@@ -2487,7 +2895,7 @@ groups:
       first_name: JOSIE
       last_name: BLOOM
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_IRVINGTON-2026_GENERAL-BLOOM_JS_4C
+    code: CANDIDACY-USA-NY-IRVINGTON-VILLAGE_TRUSTEE-2026_GENERAL-BLOOM_JS_4C
     attributes:
       status: active
       participation: active
@@ -2495,7 +2903,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_IRVINGTON-2026_GENERAL
+      race: RACE-USA-NY-IRVINGTON-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-BLOOM_JS_4C
   - type: Person
     code: PERSON-KLEIMAN_KN_9T
@@ -2506,7 +2914,7 @@ groups:
       middle_name: M
       last_name: KLEIMAN
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_IRVINGTON-2026_GENERAL-KLEIMAN_KN_9T
+    code: CANDIDACY-USA-NY-IRVINGTON-VILLAGE_TRUSTEE-2026_GENERAL-KLEIMAN_KN_9T
     attributes:
       status: active
       participation: active
@@ -2514,25 +2922,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_IRVINGTON-2026_GENERAL
+      race: RACE-USA-NY-IRVINGTON-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-KLEIMAN_KN_9T
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MT_KISCO
+    code: OFFICE-USA-NY-MOUNT_KISCO-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-TRUSTEE_VILLAGE_OF_MT_KISCO
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-MOUNT_KISCO
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MT_KISCO-2026_GENERAL
+    code: RACE-USA-NY-MOUNT_KISCO-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR TWO. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MT_KISCO
+      election: ELECTION-USA-NY-MOUNT_KISCO-2026_GENERAL
+      office: OFFICE-USA-NY-MOUNT_KISCO-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-REGO_VALLEJOS_JN_6A
     attributes:
@@ -2542,7 +2950,7 @@ groups:
       middle_name: A
       last_name: REGO-VALLEJOS
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MT_KISCO-2026_GENERAL-REGO_VALLEJOS_JN_6A
+    code: CANDIDACY-USA-NY-MOUNT_KISCO-VILLAGE_TRUSTEE-2026_GENERAL-REGO_VALLEJOS_JN_6A
     attributes:
       status: active
       participation: active
@@ -2550,7 +2958,7 @@ groups:
       - label: KISCO UNITED
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MT_KISCO-2026_GENERAL
+      race: RACE-USA-NY-MOUNT_KISCO-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-REGO_VALLEJOS_JN_6A
   - type: Person
     code: PERSON-MCGUIRK_MC_4K
@@ -2561,7 +2969,7 @@ groups:
       middle_name: P
       last_name: MCGUIRK
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MT_KISCO-2026_GENERAL-MCGUIRK_MC_4K
+    code: CANDIDACY-USA-NY-MOUNT_KISCO-VILLAGE_TRUSTEE-2026_GENERAL-MCGUIRK_MC_4K
     attributes:
       status: active
       participation: active
@@ -2569,7 +2977,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MT_KISCO-2026_GENERAL
+      race: RACE-USA-NY-MOUNT_KISCO-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-MCGUIRK_MC_4K
   - type: Person
     code: PERSON-MORAN_SN_5M
@@ -2580,7 +2988,7 @@ groups:
       middle_name: D
       last_name: MORAN
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MT_KISCO-2026_GENERAL-MORAN_SN_5M
+    code: CANDIDACY-USA-NY-MOUNT_KISCO-VILLAGE_TRUSTEE-2026_GENERAL-MORAN_SN_5M
     attributes:
       status: active
       participation: active
@@ -2588,7 +2996,7 @@ groups:
       - label: KISCO UNITED
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MT_KISCO-2026_GENERAL
+      race: RACE-USA-NY-MOUNT_KISCO-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-MORAN_SN_5M
   - type: Person
     code: PERSON-LUZIO_TH_3B
@@ -2599,7 +3007,7 @@ groups:
       middle_name: G
       last_name: LUZIO
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MT_KISCO-2026_GENERAL-LUZIO_TH_3B
+    code: CANDIDACY-USA-NY-MOUNT_KISCO-VILLAGE_TRUSTEE-2026_GENERAL-LUZIO_TH_3B
     attributes:
       status: active
       participation: active
@@ -2607,25 +3015,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MT_KISCO-2026_GENERAL
+      race: RACE-USA-NY-MOUNT_KISCO-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-LUZIO_TH_3B
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_TARRYTOWN
+    code: OFFICE-USA-NY-TARRYTOWN-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-TRUSTEE_VILLAGE_OF_TARRYTOWN
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-TARRYTOWN
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_TARRYTOWN-2026_GENERAL
+    code: RACE-USA-NY-TARRYTOWN-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR THREE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_TARRYTOWN
+      election: ELECTION-USA-NY-TARRYTOWN-2026_GENERAL
+      office: OFFICE-USA-NY-TARRYTOWN-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-SCHUBERT_EL_2Q
     attributes:
@@ -2635,7 +3043,7 @@ groups:
       middle_name: S
       last_name: SCHUBERT
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_TARRYTOWN-2026_GENERAL-SCHUBERT_EL_2Q
+    code: CANDIDACY-USA-NY-TARRYTOWN-VILLAGE_TRUSTEE-2026_GENERAL-SCHUBERT_EL_2Q
     attributes:
       status: active
       participation: active
@@ -2643,7 +3051,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_TARRYTOWN-2026_GENERAL
+      race: RACE-USA-NY-TARRYTOWN-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-SCHUBERT_EL_2Q
   - type: Person
     code: PERSON-RINALDI_PL_4C
@@ -2654,7 +3062,7 @@ groups:
       middle_name: J
       last_name: RINALDI
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_TARRYTOWN-2026_GENERAL-RINALDI_PL_4C
+    code: CANDIDACY-USA-NY-TARRYTOWN-VILLAGE_TRUSTEE-2026_GENERAL-RINALDI_PL_4C
     attributes:
       status: active
       participation: active
@@ -2662,7 +3070,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_TARRYTOWN-2026_GENERAL
+      race: RACE-USA-NY-TARRYTOWN-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-RINALDI_PL_4C
   - type: Person
     code: PERSON-MITCHELL_TH_5C
@@ -2673,7 +3081,7 @@ groups:
       middle_name: E
       last_name: MITCHELL
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_TARRYTOWN-2026_GENERAL-MITCHELL_TH_5C
+    code: CANDIDACY-USA-NY-TARRYTOWN-VILLAGE_TRUSTEE-2026_GENERAL-MITCHELL_TH_5C
     attributes:
       status: active
       participation: active
@@ -2681,25 +3089,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_TARRYTOWN-2026_GENERAL
+      race: RACE-USA-NY-TARRYTOWN-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-MITCHELL_TH_5C
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_CROTON_ON_HUDSON
+    code: OFFICE-USA-NY-CROTON_ON_HUDSON-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-TRUSTEE_VILLAGE_OF_CROTON_ON_HUDSON
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-CROTON_ON_HUDSON
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_CROTON_ON_HUDSON-2026_GENERAL
+    code: RACE-USA-NY-CROTON_ON_HUDSON-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR TWO. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_CROTON_ON_HUDSON
+      election: ELECTION-USA-NY-CROTON_ON_HUDSON-2026_GENERAL
+      office: OFFICE-USA-NY-CROTON_ON_HUDSON-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-SIMON_LN_9W
     attributes:
@@ -2709,7 +3117,7 @@ groups:
       middle_name: S
       last_name: SIMON
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_CROTON_ON_HUDSON-2026_GENERAL-SIMON_LN_9W
+    code: CANDIDACY-USA-NY-CROTON_ON_HUDSON-VILLAGE_TRUSTEE-2026_GENERAL-SIMON_LN_9W
     attributes:
       status: active
       participation: active
@@ -2719,7 +3127,7 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_CROTON_ON_HUDSON-2026_GENERAL
+      race: RACE-USA-NY-CROTON_ON_HUDSON-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-SIMON_LN_9W
   - type: Person
     code: PERSON-SLIPPEN_MR_8N
@@ -2730,7 +3138,7 @@ groups:
       middle_name: F
       last_name: SLIPPEN
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_CROTON_ON_HUDSON-2026_GENERAL-SLIPPEN_MR_8N
+    code: CANDIDACY-USA-NY-CROTON_ON_HUDSON-VILLAGE_TRUSTEE-2026_GENERAL-SLIPPEN_MR_8N
     attributes:
       status: active
       participation: active
@@ -2740,7 +3148,7 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_CROTON_ON_HUDSON-2026_GENERAL
+      race: RACE-USA-NY-CROTON_ON_HUDSON-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-SLIPPEN_MR_8N
   - type: Person
     code: PERSON-DLABOLA_MR_3X
@@ -2751,7 +3159,7 @@ groups:
       middle_name: LYNN
       last_name: DLABOLA
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_CROTON_ON_HUDSON-2026_GENERAL-DLABOLA_MR_3X
+    code: CANDIDACY-USA-NY-CROTON_ON_HUDSON-VILLAGE_TRUSTEE-2026_GENERAL-DLABOLA_MR_3X
     attributes:
       status: active
       participation: active
@@ -2759,25 +3167,25 @@ groups:
       - label: VOICE OF CROTON
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_CROTON_ON_HUDSON-2026_GENERAL
+      race: RACE-USA-NY-CROTON_ON_HUDSON-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-DLABOLA_MR_3X
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_DOBBS_FERRY
+    code: OFFICE-USA-NY-DOBBS_FERRY-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-TRUSTEE_VILLAGE_OF_DOBBS_FERRY
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-DOBBS_FERRY
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_DOBBS_FERRY-2026_GENERAL
+    code: RACE-USA-NY-DOBBS_FERRY-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR THREE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_DOBBS_FERRY
+      election: ELECTION-USA-NY-DOBBS_FERRY-2026_GENERAL
+      office: OFFICE-USA-NY-DOBBS_FERRY-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-GALEN_JS_9G
     attributes:
@@ -2787,7 +3195,7 @@ groups:
       middle_name: BLOOM
       last_name: GALEN
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_DOBBS_FERRY-2026_GENERAL-GALEN_JS_9G
+    code: CANDIDACY-USA-NY-DOBBS_FERRY-VILLAGE_TRUSTEE-2026_GENERAL-GALEN_JS_9G
     attributes:
       status: active
       participation: active
@@ -2795,7 +3203,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_DOBBS_FERRY-2026_GENERAL
+      race: RACE-USA-NY-DOBBS_FERRY-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-GALEN_JS_9G
   - type: Person
     code: PERSON-ROTHROCK_LR_5N
@@ -2805,7 +3213,7 @@ groups:
       first_name: LAURA
       last_name: ROTHROCK
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_DOBBS_FERRY-2026_GENERAL-ROTHROCK_LR_5N
+    code: CANDIDACY-USA-NY-DOBBS_FERRY-VILLAGE_TRUSTEE-2026_GENERAL-ROTHROCK_LR_5N
     attributes:
       status: active
       participation: active
@@ -2813,7 +3221,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_DOBBS_FERRY-2026_GENERAL
+      race: RACE-USA-NY-DOBBS_FERRY-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-ROTHROCK_LR_5N
   - type: Person
     code: PERSON-GUPTA_NT_8G
@@ -2823,7 +3231,7 @@ groups:
       first_name: NITIN
       last_name: GUPTA
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_DOBBS_FERRY-2026_GENERAL-GUPTA_NT_8G
+    code: CANDIDACY-USA-NY-DOBBS_FERRY-VILLAGE_TRUSTEE-2026_GENERAL-GUPTA_NT_8G
     attributes:
       status: active
       participation: active
@@ -2831,25 +3239,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_DOBBS_FERRY-2026_GENERAL
+      race: RACE-USA-NY-DOBBS_FERRY-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-GUPTA_NT_8G
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_LARCHMONT
+    code: OFFICE-USA-NY-LARCHMONT-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-TRUSTEE_VILLAGE_OF_LARCHMONT
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-LARCHMONT
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_LARCHMONT-2026_GENERAL
+    code: RACE-USA-NY-LARCHMONT-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR TWO. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_LARCHMONT
+      election: ELECTION-USA-NY-LARCHMONT-2026_GENERAL
+      office: OFFICE-USA-NY-LARCHMONT-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-FANELLI_PT_5Q
     attributes:
@@ -2858,7 +3266,7 @@ groups:
       first_name: PETER
       last_name: FANELLI
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_LARCHMONT-2026_GENERAL-FANELLI_PT_5Q
+    code: CANDIDACY-USA-NY-LARCHMONT-VILLAGE_TRUSTEE-2026_GENERAL-FANELLI_PT_5Q
     attributes:
       status: active
       participation: active
@@ -2866,7 +3274,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_LARCHMONT-2026_GENERAL
+      race: RACE-USA-NY-LARCHMONT-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-FANELLI_PT_5Q
   - type: Person
     code: PERSON-PARE_TR_4K
@@ -2876,7 +3284,7 @@ groups:
       first_name: TERENCE
       last_name: PARE
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_LARCHMONT-2026_GENERAL-PARE_TR_4K
+    code: CANDIDACY-USA-NY-LARCHMONT-VILLAGE_TRUSTEE-2026_GENERAL-PARE_TR_4K
     attributes:
       status: active
       participation: active
@@ -2884,25 +3292,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_LARCHMONT-2026_GENERAL
+      race: RACE-USA-NY-LARCHMONT-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-PARE_TR_4K
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MAMARONECK
+    code: OFFICE-USA-NY-MAMARONECK_VILLAGE-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-TRUSTEE_VILLAGE_OF_MAMARONECK
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-MAMARONECK_VILLAGE
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MAMARONECK-2026_GENERAL
+    code: RACE-USA-NY-MAMARONECK_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR THREE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MAMARONECK
+      election: ELECTION-USA-NY-MAMARONECK_VILLAGE-2026_GENERAL
+      office: OFFICE-USA-NY-MAMARONECK_VILLAGE-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-KUSHNICK_DN_5W
     attributes:
@@ -2911,7 +3319,7 @@ groups:
       first_name: DANIEL
       last_name: KUSHNICK
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MAMARONECK-2026_GENERAL-KUSHNICK_DN_5W
+    code: CANDIDACY-USA-NY-MAMARONECK_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL-KUSHNICK_DN_5W
     attributes:
       status: active
       participation: active
@@ -2921,7 +3329,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MAMARONECK-2026_GENERAL
+      race: RACE-USA-NY-MAMARONECK_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-KUSHNICK_DN_5W
   - type: Person
     code: PERSON-SILVER_EL_2Z
@@ -2932,7 +3340,7 @@ groups:
       middle_name: L
       last_name: SILVER
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MAMARONECK-2026_GENERAL-SILVER_EL_2Z
+    code: CANDIDACY-USA-NY-MAMARONECK_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL-SILVER_EL_2Z
     attributes:
       status: active
       participation: active
@@ -2942,7 +3350,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MAMARONECK-2026_GENERAL
+      race: RACE-USA-NY-MAMARONECK_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-SILVER_EL_2Z
   - type: Person
     code: PERSON-DEROSE_MR_6Y
@@ -2952,7 +3360,7 @@ groups:
       first_name: MARIA
       last_name: DEROSE
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MAMARONECK-2026_GENERAL-DEROSE_MR_6Y
+    code: CANDIDACY-USA-NY-MAMARONECK_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL-DEROSE_MR_6Y
     attributes:
       status: active
       participation: active
@@ -2962,25 +3370,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_MAMARONECK-2026_GENERAL
+      race: RACE-USA-NY-MAMARONECK_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-DEROSE_MR_6Y
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_OSSINING
+    code: OFFICE-USA-NY-OSSINING_VILLAGE-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-TRUSTEE_VILLAGE_OF_OSSINING
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-OSSINING_VILLAGE
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_OSSINING-2026_GENERAL
+    code: RACE-USA-NY-OSSINING_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR TWO. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_OSSINING
+      election: ELECTION-USA-NY-OSSINING_VILLAGE-2026_GENERAL
+      office: OFFICE-USA-NY-OSSINING_VILLAGE-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-WHITE_DN_5M
     attributes:
@@ -2989,7 +3397,7 @@ groups:
       first_name: DANA
       last_name: WHITE
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_OSSINING-2026_GENERAL-WHITE_DN_5M
+    code: CANDIDACY-USA-NY-OSSINING_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL-WHITE_DN_5M
     attributes:
       status: active
       participation: active
@@ -2997,7 +3405,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_OSSINING-2026_GENERAL
+      race: RACE-USA-NY-OSSINING_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-WHITE_DN_5M
   - type: Person
     code: PERSON-YOST_PT_4P
@@ -3008,7 +3416,7 @@ groups:
       middle_name: H
       last_name: YOST
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_OSSINING-2026_GENERAL-YOST_PT_4P
+    code: CANDIDACY-USA-NY-OSSINING_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL-YOST_PT_4P
     attributes:
       status: active
       participation: active
@@ -3016,25 +3424,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_OSSINING-2026_GENERAL
+      race: RACE-USA-NY-OSSINING_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-YOST_PT_4P
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM
+    code: OFFICE-USA-NY-PELHAM_VILLAGE-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-TRUSTEE_VILLAGE_OF_PELHAM
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-PELHAM_VILLAGE
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM-2026_GENERAL
+    code: RACE-USA-NY-PELHAM_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR THREE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM
+      election: ELECTION-USA-NY-PELHAM_VILLAGE-2026_GENERAL
+      office: OFFICE-USA-NY-PELHAM_VILLAGE-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-LONG_AR_7B
     attributes:
@@ -3044,7 +3452,7 @@ groups:
       middle_name: S
       last_name: LONG
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM-2026_GENERAL-LONG_AR_7B
+    code: CANDIDACY-USA-NY-PELHAM_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL-LONG_AR_7B
     attributes:
       status: active
       participation: active
@@ -3052,7 +3460,7 @@ groups:
       - label: NEIGHBORHOOD PARTY
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM-2026_GENERAL
+      race: RACE-USA-NY-PELHAM_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-LONG_AR_7B
   - type: Person
     code: PERSON-SPEROS_EV_7H
@@ -3063,7 +3471,7 @@ groups:
       middle_name: P
       last_name: SPEROS
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM-2026_GENERAL-SPEROS_EV_7H
+    code: CANDIDACY-USA-NY-PELHAM_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL-SPEROS_EV_7H
     attributes:
       status: active
       participation: active
@@ -3071,7 +3479,7 @@ groups:
       - label: NEIGHBORHOOD PARTY
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM-2026_GENERAL
+      race: RACE-USA-NY-PELHAM_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-SPEROS_EV_7H
   - type: Person
     code: PERSON-BURKE_KR_3R
@@ -3082,7 +3490,7 @@ groups:
       middle_name: M
       last_name: BURKE
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM-2026_GENERAL-BURKE_KR_3R
+    code: CANDIDACY-USA-NY-PELHAM_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL-BURKE_KR_3R
     attributes:
       status: active
       participation: active
@@ -3092,7 +3500,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM-2026_GENERAL
+      race: RACE-USA-NY-PELHAM_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-BURKE_KR_3R
   - type: Person
     code: PERSON-HOWELL_KR_5T
@@ -3102,7 +3510,7 @@ groups:
       first_name: KRYSTAL
       last_name: HOWELL
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM-2026_GENERAL-HOWELL_KR_5T
+    code: CANDIDACY-USA-NY-PELHAM_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL-HOWELL_KR_5T
     attributes:
       status: active
       participation: active
@@ -3112,7 +3520,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM-2026_GENERAL
+      race: RACE-USA-NY-PELHAM_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-HOWELL_KR_5T
   - type: Person
     code: PERSON-ANZILOTTI_PL_8A
@@ -3122,7 +3530,7 @@ groups:
       first_name: PAUL
       last_name: ANZILOTTI
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM-2026_GENERAL-ANZILOTTI_PL_8A
+    code: CANDIDACY-USA-NY-PELHAM_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL-ANZILOTTI_PL_8A
     attributes:
       status: active
       participation: active
@@ -3130,7 +3538,7 @@ groups:
       - label: NEIGHBORHOOD PARTY
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM-2026_GENERAL
+      race: RACE-USA-NY-PELHAM_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-ANZILOTTI_PL_8A
   - type: Person
     code: PERSON-SOLOMON_RS_2Q
@@ -3141,7 +3549,7 @@ groups:
       middle_name: L
       last_name: SOLOMON
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM-2026_GENERAL-SOLOMON_RS_2Q
+    code: CANDIDACY-USA-NY-PELHAM_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL-SOLOMON_RS_2Q
     attributes:
       status: active
       participation: active
@@ -3151,25 +3559,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM-2026_GENERAL
+      race: RACE-USA-NY-PELHAM_VILLAGE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-SOLOMON_RS_2Q
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM_MANOR
+    code: OFFICE-USA-NY-PELHAM_MANOR-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-TRUSTEE_VILLAGE_OF_PELHAM_MANOR
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-PELHAM_MANOR
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM_MANOR-2026_GENERAL
+    code: RACE-USA-NY-PELHAM_MANOR-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR TWO. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM_MANOR
+      election: ELECTION-USA-NY-PELHAM_MANOR-2026_GENERAL
+      office: OFFICE-USA-NY-PELHAM_MANOR-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-BENNETT_BR_4U
     attributes:
@@ -3179,7 +3587,7 @@ groups:
       middle_name: A
       last_name: BENNETT
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM_MANOR-2026_GENERAL-BENNETT_BR_4U
+    code: CANDIDACY-USA-NY-PELHAM_MANOR-VILLAGE_TRUSTEE-2026_GENERAL-BENNETT_BR_4U
     attributes:
       status: active
       participation: active
@@ -3189,7 +3597,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM_MANOR-2026_GENERAL
+      race: RACE-USA-NY-PELHAM_MANOR-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-BENNETT_BR_4U
   - type: Person
     code: PERSON-DLUTOWSKI_CH_9Q
@@ -3200,7 +3608,7 @@ groups:
       middle_name: J
       last_name: DLUTOWSKI
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM_MANOR-2026_GENERAL-DLUTOWSKI_CH_9Q
+    code: CANDIDACY-USA-NY-PELHAM_MANOR-VILLAGE_TRUSTEE-2026_GENERAL-DLUTOWSKI_CH_9Q
     attributes:
       status: active
       participation: active
@@ -3210,7 +3618,7 @@ groups:
       - label: MANOR TOGETHER
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM_MANOR-2026_GENERAL
+      race: RACE-USA-NY-PELHAM_MANOR-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-DLUTOWSKI_CH_9Q
   - type: Person
     code: PERSON-LIBERATORE_JS_6Q
@@ -3221,7 +3629,7 @@ groups:
       middle_name: J
       last_name: LIBERATORE
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM_MANOR-2026_GENERAL-LIBERATORE_JS_6Q
+    code: CANDIDACY-USA-NY-PELHAM_MANOR-VILLAGE_TRUSTEE-2026_GENERAL-LIBERATORE_JS_6Q
     attributes:
       status: active
       participation: active
@@ -3231,7 +3639,7 @@ groups:
       - label: REP
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM_MANOR-2026_GENERAL
+      race: RACE-USA-NY-PELHAM_MANOR-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-LIBERATORE_JS_6Q
   - type: Person
     code: PERSON-KURTZ_RY_4H
@@ -3242,7 +3650,7 @@ groups:
       middle_name: J
       last_name: KURTZ
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM_MANOR-2026_GENERAL-KURTZ_RY_4H
+    code: CANDIDACY-USA-NY-PELHAM_MANOR-VILLAGE_TRUSTEE-2026_GENERAL-KURTZ_RY_4H
     attributes:
       status: active
       participation: active
@@ -3252,25 +3660,25 @@ groups:
       - label: MANOR TOGETHER
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PELHAM_MANOR-2026_GENERAL
+      race: RACE-USA-NY-PELHAM_MANOR-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-KURTZ_RY_4H
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PLEASANTVILLE
+    code: OFFICE-USA-NY-PLEASANTVILLE-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-TRUSTEE_VILLAGE_OF_PLEASANTVILLE
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-PLEASANTVILLE
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PLEASANTVILLE-2026_GENERAL
+    code: RACE-USA-NY-PLEASANTVILLE-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR TWO. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PLEASANTVILLE
+      election: ELECTION-USA-NY-PLEASANTVILLE-2026_GENERAL
+      office: OFFICE-USA-NY-PLEASANTVILLE-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-ASQUITH_NC_9R
     attributes:
@@ -3279,7 +3687,7 @@ groups:
       first_name: NICOLE
       last_name: ASQUITH
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PLEASANTVILLE-2026_GENERAL-ASQUITH_NC_9R
+    code: CANDIDACY-USA-NY-PLEASANTVILLE-VILLAGE_TRUSTEE-2026_GENERAL-ASQUITH_NC_9R
     attributes:
       status: active
       participation: active
@@ -3287,7 +3695,7 @@ groups:
       - label: PLEASANTVILLE CIVIC PARTY
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PLEASANTVILLE-2026_GENERAL
+      race: RACE-USA-NY-PLEASANTVILLE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-ASQUITH_NC_9R
   - type: Person
     code: PERSON-ALVAREZ_W_6B
@@ -3298,7 +3706,7 @@ groups:
       middle_name: PAUL
       last_name: ALVAREZ
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PLEASANTVILLE-2026_GENERAL-ALVAREZ_W_6B
+    code: CANDIDACY-USA-NY-PLEASANTVILLE-VILLAGE_TRUSTEE-2026_GENERAL-ALVAREZ_W_6B
     attributes:
       status: active
       participation: active
@@ -3306,25 +3714,25 @@ groups:
       - label: FAMILY FIRST PARTY
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_PLEASANTVILLE-2026_GENERAL
+      race: RACE-USA-NY-PLEASANTVILLE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-ALVAREZ_W_6B
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_SLEEPY_HOLLOW
+    code: OFFICE-USA-NY-SLEEPY_HOLLOW-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-TRUSTEE_VILLAGE_OF_SLEEPY_HOLLOW
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-SLEEPY_HOLLOW
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_SLEEPY_HOLLOW-2026_GENERAL
+    code: RACE-USA-NY-SLEEPY_HOLLOW-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR THREE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_SLEEPY_HOLLOW
+      election: ELECTION-USA-NY-SLEEPY_HOLLOW-2026_GENERAL
+      office: OFFICE-USA-NY-SLEEPY_HOLLOW-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-RADERSTRONG_MG_5C
     attributes:
@@ -3333,7 +3741,7 @@ groups:
       first_name: MEGHAN
       last_name: RADERSTRONG
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_SLEEPY_HOLLOW-2026_GENERAL-RADERSTRONG_MG_5C
+    code: CANDIDACY-USA-NY-SLEEPY_HOLLOW-VILLAGE_TRUSTEE-2026_GENERAL-RADERSTRONG_MG_5C
     attributes:
       status: active
       participation: active
@@ -3343,7 +3751,7 @@ groups:
       - label: TRANSPARENT ACCOUNTABLE GOVERNMENT (T.A.G.) PARTY
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_SLEEPY_HOLLOW-2026_GENERAL
+      race: RACE-USA-NY-SLEEPY_HOLLOW-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-RADERSTRONG_MG_5C
   - type: Person
     code: PERSON-SHEERAN_PT_2R
@@ -3353,7 +3761,7 @@ groups:
       first_name: PATRICK
       last_name: SHEERAN
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_SLEEPY_HOLLOW-2026_GENERAL-SHEERAN_PT_2R
+    code: CANDIDACY-USA-NY-SLEEPY_HOLLOW-VILLAGE_TRUSTEE-2026_GENERAL-SHEERAN_PT_2R
     attributes:
       status: active
       participation: active
@@ -3361,7 +3769,7 @@ groups:
       - label: TRANSPARENT ACCOUNTABLE GOVERNMENT (T.A.G.) PARTY
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_SLEEPY_HOLLOW-2026_GENERAL
+      race: RACE-USA-NY-SLEEPY_HOLLOW-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-SHEERAN_PT_2R
   - type: Person
     code: PERSON-BOULANGER_RD_8C
@@ -3371,7 +3779,7 @@ groups:
       first_name: RODOLPHE
       last_name: BOULANGER
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_SLEEPY_HOLLOW-2026_GENERAL-BOULANGER_RD_8C
+    code: CANDIDACY-USA-NY-SLEEPY_HOLLOW-VILLAGE_TRUSTEE-2026_GENERAL-BOULANGER_RD_8C
     attributes:
       status: active
       participation: active
@@ -3381,25 +3789,25 @@ groups:
       - label: TRANSPARENT ACCOUNTABLE GOVERNMENT (T.A.G.) PARTY
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_SLEEPY_HOLLOW-2026_GENERAL
+      race: RACE-USA-NY-SLEEPY_HOLLOW-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-BOULANGER_RD_8C
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_TUCKAHOE
+    code: OFFICE-USA-NY-TUCKAHOE-VILLAGE_TRUSTEE
     attributes:
       is_active: true
     references:
-      position: POSITION-TRUSTEE_VILLAGE_OF_TUCKAHOE
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_TRUSTEE
+      jurisdiction: MUNICIPALITY-USA-NY-TUCKAHOE
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_TUCKAHOE-2026_GENERAL
+    code: RACE-USA-NY-TUCKAHOE-VILLAGE_TRUSTEE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR TWO. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_TUCKAHOE
+      election: ELECTION-USA-NY-TUCKAHOE-2026_GENERAL
+      office: OFFICE-USA-NY-TUCKAHOE-VILLAGE_TRUSTEE
   - type: Person
     code: PERSON-TAYLOR_DR_4K
     attributes:
@@ -3409,7 +3817,7 @@ groups:
       middle_name: L
       last_name: TAYLOR
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_TUCKAHOE-2026_GENERAL-TAYLOR_DR_4K
+    code: CANDIDACY-USA-NY-TUCKAHOE-VILLAGE_TRUSTEE-2026_GENERAL-TAYLOR_DR_4K
     attributes:
       status: active
       participation: active
@@ -3417,7 +3825,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_TUCKAHOE-2026_GENERAL
+      race: RACE-USA-NY-TUCKAHOE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-TAYLOR_DR_4K
   - type: Person
     code: PERSON-GOINDI_HR_2F
@@ -3428,7 +3836,7 @@ groups:
       middle_name: S
       last_name: GOINDI
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_TUCKAHOE-2026_GENERAL-GOINDI_HR_2F
+    code: CANDIDACY-USA-NY-TUCKAHOE-VILLAGE_TRUSTEE-2026_GENERAL-GOINDI_HR_2F
     attributes:
       status: active
       participation: active
@@ -3436,25 +3844,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-TRUSTEE_VILLAGE_OF_TUCKAHOE-2026_GENERAL
+      race: RACE-USA-NY-TUCKAHOE-VILLAGE_TRUSTEE-2026_GENERAL
       person: PERSON-GOINDI_HR_2F
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_MAMARONECK
+    code: OFFICE-USA-NY-MAMARONECK_VILLAGE-VILLAGE_JUSTICE
     attributes:
       is_active: true
     references:
-      position: POSITION-VILLAGE_JUSTICE_VILLAGE_OF_MAMARONECK
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_JUSTICE
+      jurisdiction: MUNICIPALITY-USA-NY-MAMARONECK_VILLAGE
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_MAMARONECK-2026_GENERAL
+    code: RACE-USA-NY-MAMARONECK_VILLAGE-VILLAGE_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_MAMARONECK
+      election: ELECTION-USA-NY-MAMARONECK_VILLAGE-2026_GENERAL
+      office: OFFICE-USA-NY-MAMARONECK_VILLAGE-VILLAGE_JUSTICE
   - type: Person
     code: PERSON-DERRICO_CH_8A
     attributes:
@@ -3464,7 +3872,7 @@ groups:
       middle_name: L
       last_name: DERRICO
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_MAMARONECK-2026_GENERAL-DERRICO_CH_8A
+    code: CANDIDACY-USA-NY-MAMARONECK_VILLAGE-VILLAGE_JUSTICE-2026_GENERAL-DERRICO_CH_8A
     attributes:
       status: active
       participation: active
@@ -3474,25 +3882,25 @@ groups:
       - label: REP/BUILDING BRIDGES PARTY
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_MAMARONECK-2026_GENERAL
+      race: RACE-USA-NY-MAMARONECK_VILLAGE-VILLAGE_JUSTICE-2026_GENERAL
       person: PERSON-DERRICO_CH_8A
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_IRVINGTON
+    code: OFFICE-USA-NY-IRVINGTON-VILLAGE_JUSTICE
     attributes:
       is_active: true
     references:
-      position: POSITION-VILLAGE_JUSTICE_VILLAGE_OF_IRVINGTON
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_JUSTICE
+      jurisdiction: MUNICIPALITY-USA-NY-IRVINGTON
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_IRVINGTON-2026_GENERAL
+    code: RACE-USA-NY-IRVINGTON-VILLAGE_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_IRVINGTON
+      election: ELECTION-USA-NY-IRVINGTON-2026_GENERAL
+      office: OFFICE-USA-NY-IRVINGTON-VILLAGE_JUSTICE
   - type: Person
     code: PERSON-FARBER_DN_2A
     attributes:
@@ -3502,7 +3910,7 @@ groups:
       middle_name: S
       last_name: FARBER
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_IRVINGTON-2026_GENERAL-FARBER_DN_2A
+    code: CANDIDACY-USA-NY-IRVINGTON-VILLAGE_JUSTICE-2026_GENERAL-FARBER_DN_2A
     attributes:
       status: active
       participation: active
@@ -3510,25 +3918,25 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_IRVINGTON-2026_GENERAL
+      race: RACE-USA-NY-IRVINGTON-VILLAGE_JUSTICE-2026_GENERAL
       person: PERSON-FARBER_DN_2A
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_TUCKAHOE
+    code: OFFICE-USA-NY-TUCKAHOE-VILLAGE_JUSTICE
     attributes:
       is_active: true
     references:
-      position: POSITION-VILLAGE_JUSTICE_VILLAGE_OF_TUCKAHOE
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_JUSTICE
+      jurisdiction: MUNICIPALITY-USA-NY-TUCKAHOE
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_TUCKAHOE-2026_GENERAL
+    code: RACE-USA-NY-TUCKAHOE-VILLAGE_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_TUCKAHOE
+      election: ELECTION-USA-NY-TUCKAHOE-2026_GENERAL
+      office: OFFICE-USA-NY-TUCKAHOE-VILLAGE_JUSTICE
   - type: Person
     code: PERSON-SCHOLES_AS_5H
     attributes:
@@ -3538,7 +3946,7 @@ groups:
       middle_name: M
       last_name: SCHOLES
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_TUCKAHOE-2026_GENERAL-SCHOLES_AS_5H
+    code: CANDIDACY-USA-NY-TUCKAHOE-VILLAGE_JUSTICE-2026_GENERAL-SCHOLES_AS_5H
     attributes:
       status: active
       participation: active
@@ -3546,7 +3954,7 @@ groups:
       - label: DEM
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_TUCKAHOE-2026_GENERAL
+      race: RACE-USA-NY-TUCKAHOE-VILLAGE_JUSTICE-2026_GENERAL
       person: PERSON-SCHOLES_AS_5H
   - type: Person
     code: PERSON-FULLER_DV_3G
@@ -3557,7 +3965,7 @@ groups:
       middle_name: O
       last_name: FULLER JR
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_TUCKAHOE-2026_GENERAL-FULLER_DV_3G
+    code: CANDIDACY-USA-NY-TUCKAHOE-VILLAGE_JUSTICE-2026_GENERAL-FULLER_DV_3G
     attributes:
       status: active
       participation: active
@@ -3567,25 +3975,25 @@ groups:
       - label: VOTE AFFORDABLE
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_TUCKAHOE-2026_GENERAL
+      race: RACE-USA-NY-TUCKAHOE-VILLAGE_JUSTICE-2026_GENERAL
       person: PERSON-FULLER_DV_3G
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_CROTON_ON_HUDSON
+    code: OFFICE-USA-NY-CROTON_ON_HUDSON-VILLAGE_JUSTICE
     attributes:
       is_active: true
     references:
-      position: POSITION-VILLAGE_JUSTICE_VILLAGE_OF_CROTON_ON_HUDSON
-      jurisdiction: COUNTY-USA-NY-WESTCHESTER
+      position: POSITION-VILLAGE_JUSTICE
+      jurisdiction: MUNICIPALITY-USA-NY-CROTON_ON_HUDSON
   - type: Race
-    code: RACE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_CROTON_ON_HUDSON-2026_GENERAL
+    code: RACE-USA-NY-CROTON_ON_HUDSON-VILLAGE_JUSTICE-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: unofficial
       description: 'Vote for: VOTE FOR ONE. Source status: unofficial. Retrieved: 2026-10-01. Sources: https://citizenparticipation.westchestercountyny.gov/images/stories/pdfs/2026/2026-candidate-list-no-address.pdf.'
     references:
-      election: ELECTION-USA-NY-COUNTY_WESTCHESTER-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_CROTON_ON_HUDSON
+      election: ELECTION-USA-NY-CROTON_ON_HUDSON-2026_GENERAL
+      office: OFFICE-USA-NY-CROTON_ON_HUDSON-VILLAGE_JUSTICE
   - type: Person
     code: PERSON-JAFFERY_AL_4Z
     attributes:
@@ -3595,7 +4003,7 @@ groups:
       middle_name: RAZA
       last_name: JAFFERY
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_CROTON_ON_HUDSON-2026_GENERAL-JAFFERY_AL_4Z
+    code: CANDIDACY-USA-NY-CROTON_ON_HUDSON-VILLAGE_JUSTICE-2026_GENERAL-JAFFERY_AL_4Z
     attributes:
       status: active
       participation: active
@@ -3605,7 +4013,7 @@ groups:
       - label: WOR
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_CROTON_ON_HUDSON-2026_GENERAL
+      race: RACE-USA-NY-CROTON_ON_HUDSON-VILLAGE_JUSTICE-2026_GENERAL
       person: PERSON-JAFFERY_AL_4Z
   - type: Person
     code: PERSON-WATKINS_SM_4L
@@ -3616,7 +4024,7 @@ groups:
       middle_name: R
       last_name: WATKINS JR
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_CROTON_ON_HUDSON-2026_GENERAL-WATKINS_SM_4L
+    code: CANDIDACY-USA-NY-CROTON_ON_HUDSON-VILLAGE_JUSTICE-2026_GENERAL-WATKINS_SM_4L
     attributes:
       status: active
       participation: active
@@ -3624,5 +4032,5 @@ groups:
       - label: VOICE OF CROTON
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_WESTCHESTER-VILLAGE_JUSTICE_VILLAGE_OF_CROTON_ON_HUDSON-2026_GENERAL
+      race: RACE-USA-NY-CROTON_ON_HUDSON-VILLAGE_JUSTICE-2026_GENERAL
       person: PERSON-WATKINS_SM_4L

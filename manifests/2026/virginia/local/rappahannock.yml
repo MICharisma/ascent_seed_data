@@ -7,35 +7,34 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_RAPPAHANNOCK-2026_GENERAL
+  code: ELECTION-USA-VA-WASHINGTON-2026_GENERAL
   attributes:
-    name: Rappahannock County General Election 2026
+    name: Washington General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-RAPPAHANNOCK
+    jurisdiction: MUNICIPALITY-USA-VA-WASHINGTON
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_RAPPAHANNOCK-MAYOR-TOWN_OF_WASHINGTON
+    code: OFFICE-USA-VA-WASHINGTON-MAYOR
     attributes:
-      seat_code: TOWN_OF_WASHINGTON
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-RAPPAHANNOCK
+      jurisdiction: MUNICIPALITY-USA-VA-WASHINGTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_RAPPAHANNOCK-MAYOR-TOWN_OF_WASHINGTON-2026_GENERAL
+    code: RACE-USA-VA-WASHINGTON-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_RAPPAHANNOCK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_RAPPAHANNOCK-MAYOR-TOWN_OF_WASHINGTON
+      election: ELECTION-USA-VA-WASHINGTON-2026_GENERAL
+      office: OFFICE-USA-VA-WASHINGTON-MAYOR
   - type: Person
     code: PERSON-WHITED_JS_4G
     attributes:
@@ -45,30 +44,29 @@ groups:
       middle_name: J.
       last_name: Whited
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RAPPAHANNOCK-MAYOR-TOWN_OF_WASHINGTON-2026_GENERAL-WHITED_JS_4G
+    code: CANDIDACY-USA-VA-WASHINGTON-MAYOR-2026_GENERAL-WHITED_JS_4G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RAPPAHANNOCK-MAYOR-TOWN_OF_WASHINGTON-2026_GENERAL
+      race: RACE-USA-VA-WASHINGTON-MAYOR-2026_GENERAL
       person: PERSON-WHITED_JS_4G
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_RAPPAHANNOCK-MEMBER_TOWN_COUNCIL-TOWN_OF_WASHINGTON
+    code: OFFICE-USA-VA-WASHINGTON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_WASHINGTON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-RAPPAHANNOCK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-WASHINGTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_RAPPAHANNOCK-MEMBER_TOWN_COUNCIL-TOWN_OF_WASHINGTON-2026_GENERAL
+    code: RACE-USA-VA-WASHINGTON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_RAPPAHANNOCK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_RAPPAHANNOCK-MEMBER_TOWN_COUNCIL-TOWN_OF_WASHINGTON
+      election: ELECTION-USA-VA-WASHINGTON-2026_GENERAL
+      office: OFFICE-USA-VA-WASHINGTON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-SCHNEIDER_BR_6V
     attributes:
@@ -78,12 +76,12 @@ groups:
       middle_name: C.
       last_name: Schneider
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RAPPAHANNOCK-MEMBER_TOWN_COUNCIL-TOWN_OF_WASHINGTON-2026_GENERAL-SCHNEIDER_BR_6V
+    code: CANDIDACY-USA-VA-WASHINGTON-COUNCIL_MEMBER-2026_GENERAL-SCHNEIDER_BR_6V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RAPPAHANNOCK-MEMBER_TOWN_COUNCIL-TOWN_OF_WASHINGTON-2026_GENERAL
+      race: RACE-USA-VA-WASHINGTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SCHNEIDER_BR_6V
   - type: Person
     code: PERSON-BEARD_J_9U
@@ -94,12 +92,12 @@ groups:
       middle_name: Drew
       last_name: Beard
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RAPPAHANNOCK-MEMBER_TOWN_COUNCIL-TOWN_OF_WASHINGTON-2026_GENERAL-BEARD_J_9U
+    code: CANDIDACY-USA-VA-WASHINGTON-COUNCIL_MEMBER-2026_GENERAL-BEARD_J_9U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RAPPAHANNOCK-MEMBER_TOWN_COUNCIL-TOWN_OF_WASHINGTON-2026_GENERAL
+      race: RACE-USA-VA-WASHINGTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BEARD_J_9U
   - type: Person
     code: PERSON-SULLIVAN_JH_9R
@@ -110,12 +108,12 @@ groups:
       middle_name: Fox
       last_name: Sullivan
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RAPPAHANNOCK-MEMBER_TOWN_COUNCIL-TOWN_OF_WASHINGTON-2026_GENERAL-SULLIVAN_JH_9R
+    code: CANDIDACY-USA-VA-WASHINGTON-COUNCIL_MEMBER-2026_GENERAL-SULLIVAN_JH_9R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RAPPAHANNOCK-MEMBER_TOWN_COUNCIL-TOWN_OF_WASHINGTON-2026_GENERAL
+      race: RACE-USA-VA-WASHINGTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SULLIVAN_JH_9R
   - type: Person
     code: PERSON-OCONNELL_PT_5X
@@ -126,12 +124,12 @@ groups:
       middle_name: J.
       last_name: O'Connell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RAPPAHANNOCK-MEMBER_TOWN_COUNCIL-TOWN_OF_WASHINGTON-2026_GENERAL-OCONNELL_PT_5X
+    code: CANDIDACY-USA-VA-WASHINGTON-COUNCIL_MEMBER-2026_GENERAL-OCONNELL_PT_5X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RAPPAHANNOCK-MEMBER_TOWN_COUNCIL-TOWN_OF_WASHINGTON-2026_GENERAL
+      race: RACE-USA-VA-WASHINGTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-OCONNELL_PT_5X
   - type: Person
     code: PERSON-BRUCE_TH_5F
@@ -142,30 +140,29 @@ groups:
       middle_name: W.
       last_name: Bruce
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RAPPAHANNOCK-MEMBER_TOWN_COUNCIL-TOWN_OF_WASHINGTON-2026_GENERAL-BRUCE_TH_5F
+    code: CANDIDACY-USA-VA-WASHINGTON-COUNCIL_MEMBER-2026_GENERAL-BRUCE_TH_5F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RAPPAHANNOCK-MEMBER_TOWN_COUNCIL-TOWN_OF_WASHINGTON-2026_GENERAL
+      race: RACE-USA-VA-WASHINGTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BRUCE_TH_5F
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_RAPPAHANNOCK-TREASURER-TOWN_OF_WASHINGTON
+    code: OFFICE-USA-VA-WASHINGTON-TREASURER
     attributes:
-      seat_code: TOWN_OF_WASHINGTON
       is_active: true
     references:
       position: POSITION-TREASURER
-      jurisdiction: COUNTY-USA-VA-RAPPAHANNOCK
+      jurisdiction: MUNICIPALITY-USA-VA-WASHINGTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_RAPPAHANNOCK-TREASURER-TOWN_OF_WASHINGTON-2026_GENERAL
+    code: RACE-USA-VA-WASHINGTON-TREASURER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_RAPPAHANNOCK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_RAPPAHANNOCK-TREASURER-TOWN_OF_WASHINGTON
+      election: ELECTION-USA-VA-WASHINGTON-2026_GENERAL
+      office: OFFICE-USA-VA-WASHINGTON-TREASURER
   - type: Person
     code: PERSON-HARRIS_DB_2R
     attributes:
@@ -175,10 +172,10 @@ groups:
       middle_name: L.
       last_name: Harris
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RAPPAHANNOCK-TREASURER-TOWN_OF_WASHINGTON-2026_GENERAL-HARRIS_DB_2R
+    code: CANDIDACY-USA-VA-WASHINGTON-TREASURER-2026_GENERAL-HARRIS_DB_2R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RAPPAHANNOCK-TREASURER-TOWN_OF_WASHINGTON-2026_GENERAL
+      race: RACE-USA-VA-WASHINGTON-TREASURER-2026_GENERAL
       person: PERSON-HARRIS_DB_2R

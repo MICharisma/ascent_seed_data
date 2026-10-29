@@ -45,21 +45,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-DORSAINVIL_RL_4K
     attributes:
@@ -68,7 +68,7 @@ groups:
       first_name: Rolin
       last_name: Dorsainvil
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-DORSAINVIL_RL_4K
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-DORSAINVIL_RL_4K
     attributes:
       status: active
       participation: active
@@ -77,7 +77,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-INDEPENDENT
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-DORSAINVIL_RL_4K
   - type: Person
     code: PERSON-LEET_LR_6C
@@ -88,7 +88,7 @@ groups:
       middle_name: D
       last_name: Leet
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-LEET_LR_6C
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-LEET_LR_6C
     attributes:
       status: active
       participation: active
@@ -97,25 +97,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-LEET_LR_6C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-BURGOS_NC_7Z
     attributes:
@@ -125,7 +125,7 @@ groups:
       middle_name: R.
       last_name: Burgos
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-BURGOS_NC_7Z
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-BURGOS_NC_7Z
     attributes:
       status: active
       participation: active
@@ -133,7 +133,7 @@ groups:
       - label: No Party Affiliation (Partisan)
         kind: designation
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-BURGOS_NC_7Z
   - type: Person
     code: PERSON-FOWLER_JM_3P
@@ -143,7 +143,7 @@ groups:
       first_name: Jamie
       last_name: Fowler
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-FOWLER_JM_3P
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-FOWLER_JM_3P
     attributes:
       status: active
       participation: active
@@ -152,7 +152,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-FOWLER_JM_3P
   - type: Person
     code: PERSON-LEROY_JN_3A
@@ -163,7 +163,7 @@ groups:
       middle_name: Eddy
       last_name: Leroy
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-LEROY_JN_3A
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-LEROY_JN_3A
     attributes:
       status: active
       participation: active
@@ -172,24 +172,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-LEROY_JN_3A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-FORT_PIERCE-CITY_OF_FORT_PIERCE_CITY_COMMISSION_DISTRICT_1
+    code: OFFICE-USA-FL-FORT_PIERCE-COMMISSIONER-DISTRICT_1
     attributes:
+      seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-CITY_OF_FORT_PIERCE_CITY_COMMISSION_DISTRICT_1
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-FORT_PIERCE
   - type: Race
-    code: RACE-USA-FL-FORT_PIERCE-CITY_OF_FORT_PIERCE_CITY_COMMISSION_DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-FORT_PIERCE-COMMISSIONER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=stlucie&el=26.'
     references:
       election: ELECTION-USA-FL-FORT_PIERCE-2026_GENERAL
-      office: OFFICE-USA-FL-FORT_PIERCE-CITY_OF_FORT_PIERCE_CITY_COMMISSION_DISTRICT_1
+      office: OFFICE-USA-FL-FORT_PIERCE-COMMISSIONER-DISTRICT_1
   - type: Person
     code: PERSON-GAINES_AR_8N
     attributes:
@@ -198,29 +199,30 @@ groups:
       first_name: Arnold
       last_name: Gaines
   - type: Candidacy
-    code: CANDIDACY-USA-FL-FORT_PIERCE-CITY_OF_FORT_PIERCE_CITY_COMMISSION_DISTRICT_1-2026_GENERAL-GAINES_AR_8N
+    code: CANDIDACY-USA-FL-FORT_PIERCE-COMMISSIONER-DISTRICT_1-2026_GENERAL-GAINES_AR_8N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-FORT_PIERCE-CITY_OF_FORT_PIERCE_CITY_COMMISSION_DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-FORT_PIERCE-COMMISSIONER-DISTRICT_1-2026_GENERAL
       person: PERSON-GAINES_AR_8N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-FORT_PIERCE-CITY_OF_FORT_PIERCE_CITY_COMMISSION_DISTRICT_2
+    code: OFFICE-USA-FL-FORT_PIERCE-COMMISSIONER-DISTRICT_2
     attributes:
+      seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-CITY_OF_FORT_PIERCE_CITY_COMMISSION_DISTRICT_2
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-FORT_PIERCE
   - type: Race
-    code: RACE-USA-FL-FORT_PIERCE-CITY_OF_FORT_PIERCE_CITY_COMMISSION_DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-FORT_PIERCE-COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=stlucie&el=26.'
     references:
       election: ELECTION-USA-FL-FORT_PIERCE-2026_GENERAL
-      office: OFFICE-USA-FL-FORT_PIERCE-CITY_OF_FORT_PIERCE_CITY_COMMISSION_DISTRICT_2
+      office: OFFICE-USA-FL-FORT_PIERCE-COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-BRODERICK_MC_5R
     attributes:
@@ -229,29 +231,30 @@ groups:
       first_name: Michael
       last_name: Broderick
   - type: Candidacy
-    code: CANDIDACY-USA-FL-FORT_PIERCE-CITY_OF_FORT_PIERCE_CITY_COMMISSION_DISTRICT_2-2026_GENERAL-BRODERICK_MC_5R
+    code: CANDIDACY-USA-FL-FORT_PIERCE-COMMISSIONER-DISTRICT_2-2026_GENERAL-BRODERICK_MC_5R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-FORT_PIERCE-CITY_OF_FORT_PIERCE_CITY_COMMISSION_DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-FORT_PIERCE-COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-BRODERICK_MC_5R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-PORT_ST_LUCIE-CITY_OF_PORT_ST_LUCIE_CITY_COUNCIL_DISTRICT_1
+    code: OFFICE-USA-FL-PORT_ST_LUCIE-COUNCIL_MEMBER-DISTRICT_1
     attributes:
+      seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-CITY_OF_PORT_ST_LUCIE_CITY_COUNCIL_DISTRICT_1
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-PORT_ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-PORT_ST_LUCIE-CITY_OF_PORT_ST_LUCIE_CITY_COUNCIL_DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-PORT_ST_LUCIE-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=stlucie&el=26.'
     references:
       election: ELECTION-USA-FL-PORT_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-PORT_ST_LUCIE-CITY_OF_PORT_ST_LUCIE_CITY_COUNCIL_DISTRICT_1
+      office: OFFICE-USA-FL-PORT_ST_LUCIE-COUNCIL_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-BAPTISTE_IN_4D
     attributes:
@@ -261,12 +264,12 @@ groups:
       middle_name: Jean
       last_name: Baptiste
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PORT_ST_LUCIE-CITY_OF_PORT_ST_LUCIE_CITY_COUNCIL_DISTRICT_1-2026_GENERAL-BAPTISTE_IN_4D
+    code: CANDIDACY-USA-FL-PORT_ST_LUCIE-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL-BAPTISTE_IN_4D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PORT_ST_LUCIE-CITY_OF_PORT_ST_LUCIE_CITY_COUNCIL_DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-PORT_ST_LUCIE-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-BAPTISTE_IN_4D
   - type: Person
     code: PERSON-MELTZER_RC_6K
@@ -276,29 +279,29 @@ groups:
       first_name: Rick
       last_name: Meltzer
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PORT_ST_LUCIE-CITY_OF_PORT_ST_LUCIE_CITY_COUNCIL_DISTRICT_1-2026_GENERAL-MELTZER_RC_6K
+    code: CANDIDACY-USA-FL-PORT_ST_LUCIE-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL-MELTZER_RC_6K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PORT_ST_LUCIE-CITY_OF_PORT_ST_LUCIE_CITY_COUNCIL_DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-PORT_ST_LUCIE-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-MELTZER_RC_6K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-PORT_ST_LUCIE-CITY_OF_PORT_ST_LUCIE_MAYOR
+    code: OFFICE-USA-FL-PORT_ST_LUCIE-MAYOR
     attributes:
       is_active: true
     references:
-      position: POSITION-CITY_OF_PORT_ST_LUCIE_MAYOR
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-PORT_ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-PORT_ST_LUCIE-CITY_OF_PORT_ST_LUCIE_MAYOR-2026_GENERAL
+    code: RACE-USA-FL-PORT_ST_LUCIE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=stlucie&el=26.'
     references:
       election: ELECTION-USA-FL-PORT_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-PORT_ST_LUCIE-CITY_OF_PORT_ST_LUCIE_MAYOR
+      office: OFFICE-USA-FL-PORT_ST_LUCIE-MAYOR
   - type: Person
     code: PERSON-GIORDANO_ST_5F
     attributes:
@@ -307,12 +310,12 @@ groups:
       first_name: Steven
       last_name: Giordano
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PORT_ST_LUCIE-CITY_OF_PORT_ST_LUCIE_MAYOR-2026_GENERAL-GIORDANO_ST_5F
+    code: CANDIDACY-USA-FL-PORT_ST_LUCIE-MAYOR-2026_GENERAL-GIORDANO_ST_5F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PORT_ST_LUCIE-CITY_OF_PORT_ST_LUCIE_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-PORT_ST_LUCIE-MAYOR-2026_GENERAL
       person: PERSON-GIORDANO_ST_5F
   - type: Person
     code: PERSON-MARTIN_SH_3K
@@ -322,30 +325,30 @@ groups:
       first_name: Shannon
       last_name: Martin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-PORT_ST_LUCIE-CITY_OF_PORT_ST_LUCIE_MAYOR-2026_GENERAL-MARTIN_SH_3K
+    code: CANDIDACY-USA-FL-PORT_ST_LUCIE-MAYOR-2026_GENERAL-MARTIN_SH_3K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-PORT_ST_LUCIE-CITY_OF_PORT_ST_LUCIE_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-PORT_ST_LUCIE-MAYOR-2026_GENERAL
       person: PERSON-MARTIN_SH_3K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COPPER_CREEK_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COPPER_CREEK_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: COPPER_CREEK_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-COPPER_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-COPPER_CREEK_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COPPER_CREEK_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COPPER_CREEK_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COPPER_CREEK_CDD_SEAT_3
   - type: Person
     code: PERSON-LANGE_FR_4K
     attributes:
@@ -354,30 +357,30 @@ groups:
       first_name: Francis
       last_name: Lange
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COPPER_CREEK_CDD-SEAT_3-2026_GENERAL-LANGE_FR_4K
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COPPER_CREEK_CDD_SEAT_3-2026_GENERAL-LANGE_FR_4K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-COPPER_CREEK_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COPPER_CREEK_CDD_SEAT_3-2026_GENERAL
       person: PERSON-LANGE_FR_4K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COPPER_CREEK_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COPPER_CREEK_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: COPPER_CREEK_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-COPPER_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-COPPER_CREEK_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COPPER_CREEK_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COPPER_CREEK_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COPPER_CREEK_CDD_SEAT_4
   - type: Person
     code: PERSON-MENARD_KT_5Q
     attributes:
@@ -386,12 +389,12 @@ groups:
       first_name: Kathy
       last_name: Menard
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COPPER_CREEK_CDD-SEAT_4-2026_GENERAL-MENARD_KT_5Q
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COPPER_CREEK_CDD_SEAT_4-2026_GENERAL-MENARD_KT_5Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-COPPER_CREEK_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COPPER_CREEK_CDD_SEAT_4-2026_GENERAL
       person: PERSON-MENARD_KT_5Q
 - records:
   - type: Office
@@ -461,21 +464,21 @@ groups:
       person: PERSON-SWEET_LR_5S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-LAKE_LUCIE_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_LUCIE_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: LAKE_LUCIE_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-LAKE_LUCIE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-LAKE_LUCIE_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_LUCIE_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-LAKE_LUCIE_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_LUCIE_CDD_SEAT_2
   - type: Person
     code: PERSON-WOOD_TH_7T
     attributes:
@@ -484,30 +487,30 @@ groups:
       first_name: Thomas
       last_name: Wood
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-LAKE_LUCIE_CDD-SEAT_2-2026_GENERAL-WOOD_TH_7T
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_LUCIE_CDD_SEAT_2-2026_GENERAL-WOOD_TH_7T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-LAKE_LUCIE_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_LUCIE_CDD_SEAT_2-2026_GENERAL
       person: PERSON-WOOD_TH_7T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-LAKE_LUCIE_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_LUCIE_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: LAKE_LUCIE_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-LAKE_LUCIE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-LAKE_LUCIE_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_LUCIE_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-LAKE_LUCIE_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_LUCIE_CDD_SEAT_3
   - type: Person
     code: PERSON-ROWE_GR_8D
     attributes:
@@ -516,30 +519,30 @@ groups:
       first_name: George
       last_name: Rowe
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-LAKE_LUCIE_CDD-SEAT_3-2026_GENERAL-ROWE_GR_8D
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_LUCIE_CDD_SEAT_3-2026_GENERAL-ROWE_GR_8D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-LAKE_LUCIE_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_LUCIE_CDD_SEAT_3-2026_GENERAL
       person: PERSON-ROWE_GR_8D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-PORTOFINO_SHORES_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PORTOFINO_SHORES_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: PORTOFINO_SHORES_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-PORTOFINO_SHORES_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-PORTOFINO_SHORES_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PORTOFINO_SHORES_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-PORTOFINO_SHORES_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PORTOFINO_SHORES_CDD_SEAT_3
   - type: Person
     code: PERSON-GRUBB_IN_5X
     attributes:
@@ -549,30 +552,30 @@ groups:
       middle_name: Raad
       last_name: Grubb
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-PORTOFINO_SHORES_CDD-SEAT_3-2026_GENERAL-GRUBB_IN_5X
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PORTOFINO_SHORES_CDD_SEAT_3-2026_GENERAL-GRUBB_IN_5X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-PORTOFINO_SHORES_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PORTOFINO_SHORES_CDD_SEAT_3-2026_GENERAL
       person: PERSON-GRUBB_IN_5X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-PORTOFINO_SHORES_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PORTOFINO_SHORES_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: PORTOFINO_SHORES_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-PORTOFINO_SHORES_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-PORTOFINO_SHORES_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PORTOFINO_SHORES_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-PORTOFINO_SHORES_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PORTOFINO_SHORES_CDD_SEAT_4
   - type: Person
     code: PERSON-EDDY_SH_6U
     attributes:
@@ -581,30 +584,30 @@ groups:
       first_name: Sheryl
       last_name: Eddy
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-PORTOFINO_SHORES_CDD-SEAT_4-2026_GENERAL-EDDY_SH_6U
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PORTOFINO_SHORES_CDD_SEAT_4-2026_GENERAL-EDDY_SH_6U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-PORTOFINO_SHORES_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PORTOFINO_SHORES_CDD_SEAT_4-2026_GENERAL
       person: PERSON-EDDY_SH_6U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-RESERVE_CDD_1-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RESERVE_CDD_1_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: RESERVE_CDD_1_SEAT_5
       is_active: true
     references:
-      position: POSITION-RESERVE_CDD_1
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-RESERVE_CDD_1-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RESERVE_CDD_1_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-RESERVE_CDD_1-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RESERVE_CDD_1_SEAT_5
   - type: Person
     code: PERSON-FETTROW_LY_6Y
     attributes:
@@ -613,30 +616,30 @@ groups:
       first_name: Lynn
       last_name: Fettrow
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-RESERVE_CDD_1-SEAT_5-2026_GENERAL-FETTROW_LY_6Y
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RESERVE_CDD_1_SEAT_5-2026_GENERAL-FETTROW_LY_6Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-RESERVE_CDD_1-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RESERVE_CDD_1_SEAT_5-2026_GENERAL
       person: PERSON-FETTROW_LY_6Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-RIVER_PLACE_ON_THE_ST_LUCIE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_1
   - type: Person
     code: PERSON-DUGMORE_TD_6L
     attributes:
@@ -645,12 +648,12 @@ groups:
       first_name: Todd
       last_name: Dugmore
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_1-2026_GENERAL-DUGMORE_TD_6L
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_1-2026_GENERAL-DUGMORE_TD_6L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_1-2026_GENERAL
       person: PERSON-DUGMORE_TD_6L
   - type: Person
     code: PERSON-WILLS_BR_3Z
@@ -661,30 +664,30 @@ groups:
       middle_name: W.
       last_name: Wills
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_1-2026_GENERAL-WILLS_BR_3Z
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_1-2026_GENERAL-WILLS_BR_3Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_1-2026_GENERAL
       person: PERSON-WILLS_BR_3Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-RIVER_PLACE_ON_THE_ST_LUCIE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_2
   - type: Person
     code: PERSON-HANLON_JH_4B
     attributes:
@@ -693,12 +696,12 @@ groups:
       first_name: John
       last_name: Hanlon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_2-2026_GENERAL-HANLON_JH_4B
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_2-2026_GENERAL-HANLON_JH_4B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_2-2026_GENERAL
       person: PERSON-HANLON_JH_4B
   - type: Person
     code: PERSON-LYNCH_CH_4J
@@ -709,30 +712,30 @@ groups:
       middle_name: Lang
       last_name: Lynch
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_2-2026_GENERAL-LYNCH_CH_4J
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_2-2026_GENERAL-LYNCH_CH_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_2-2026_GENERAL
       person: PERSON-LYNCH_CH_4J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-RIVER_PLACE_ON_THE_ST_LUCIE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_3
   - type: Person
     code: PERSON-BALDINO_JF_9R
     attributes:
@@ -741,12 +744,12 @@ groups:
       first_name: Jeffrey
       last_name: Baldino
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_3-2026_GENERAL-BALDINO_JF_9R
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_3-2026_GENERAL-BALDINO_JF_9R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_3-2026_GENERAL
       person: PERSON-BALDINO_JF_9R
   - type: Person
     code: PERSON-HALL_CH_9K
@@ -756,30 +759,30 @@ groups:
       first_name: Christopher
       last_name: Hall
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_3-2026_GENERAL-HALL_CH_9K
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_3-2026_GENERAL-HALL_CH_9K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-RIVER_PLACE_ON_THE_ST_LUCIE_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_PLACE_ON_THE_ST_LUCIE_CDD_SEAT_3-2026_GENERAL
       person: PERSON-HALL_CH_9K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-HAWLEY_DB_7P
     attributes:
@@ -789,30 +792,30 @@ groups:
       middle_name: Johnson
       last_name: Hawley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-HAWLEY_DB_7P
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-HAWLEY_DB_7P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-HAWLEY_DB_7P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-MILLS_DN_6Y
     attributes:
@@ -821,12 +824,12 @@ groups:
       first_name: Donna
       last_name: Mills
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-MILLS_DN_6Y
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-MILLS_DN_6Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-MILLS_DN_6Y
   - type: Person
     code: PERSON-ZAGROBELNY_BN_8Q
@@ -837,7 +840,7 @@ groups:
       middle_name: Zag
       last_name: Zagrobelny
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-ZAGROBELNY_BN_8Q
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-ZAGROBELNY_BN_8Q
     attributes:
       status: active
       participation: active
@@ -845,25 +848,25 @@ groups:
       - label: Write-In
         kind: write_in
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-ZAGROBELNY_BN_8Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-INGERSOLL_TR_4P
     attributes:
@@ -872,12 +875,12 @@ groups:
       first_name: Troy
       last_name: Ingersoll
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-INGERSOLL_TR_4P
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-INGERSOLL_TR_4P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-INGERSOLL_TR_4P
   - type: Person
     code: PERSON-KESSLER_LS_7K
@@ -887,30 +890,30 @@ groups:
       first_name: Lisa
       last_name: Kessler
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-KESSLER_LS_7K
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-KESSLER_LS_7K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-KESSLER_LS_7K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_SOIL_AND_WATER_DISTRICT_1-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
     attributes:
       seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-ST_LUCIE_SOIL_AND_WATER_DISTRICT_1
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_SOIL_AND_WATER_DISTRICT_1-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_SOIL_AND_WATER_DISTRICT_1-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
   - type: Person
     code: PERSON-BOUDRIAS_CH_5Q
     attributes:
@@ -920,30 +923,30 @@ groups:
       middle_name: J.
       last_name: Boudrias
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_SOIL_AND_WATER_DISTRICT_1-SEAT_1-2026_GENERAL-BOUDRIAS_CH_5Q
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL-BOUDRIAS_CH_5Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_SOIL_AND_WATER_DISTRICT_1-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
       person: PERSON-BOUDRIAS_CH_5Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_SOIL_AND_WATER_DISTRICT_3-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3
     attributes:
       seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-ST_LUCIE_SOIL_AND_WATER_DISTRICT_3
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_SOIL_AND_WATER_DISTRICT_3-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_SOIL_AND_WATER_DISTRICT_3-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3
   - type: Person
     code: PERSON-JOHNSON_RB_4H
     attributes:
@@ -952,30 +955,30 @@ groups:
       first_name: Robert
       last_name: Johnson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_SOIL_AND_WATER_DISTRICT_3-SEAT_3-2026_GENERAL-JOHNSON_RB_4H
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL-JOHNSON_RB_4H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_SOIL_AND_WATER_DISTRICT_3-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL
       person: PERSON-JOHNSON_RB_4H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_SOIL_AND_WATER_DISTRICT_5-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
     attributes:
       seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-ST_LUCIE_SOIL_AND_WATER_DISTRICT_5
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_SOIL_AND_WATER_DISTRICT_5-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_SOIL_AND_WATER_DISTRICT_5-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
   - type: Person
     code: PERSON-HAMILTON_MT_5A
     attributes:
@@ -984,30 +987,30 @@ groups:
       first_name: Matthew
       last_name: Hamilton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_SOIL_AND_WATER_DISTRICT_5-SEAT_5-2026_GENERAL-HAMILTON_MT_5A
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL-HAMILTON_MT_5A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_SOIL_AND_WATER_DISTRICT_5-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
       person: PERSON-HAMILTON_MT_5A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_1
       is_active: true
     references:
-      position: POSITION-ST_LUCIE_WEST_SERVICES_DISTRICT
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_1
   - type: Person
     code: PERSON-PIEKARA_DN_6P
     attributes:
@@ -1016,30 +1019,30 @@ groups:
       first_name: Deane
       last_name: Piekara
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_1-2026_GENERAL-PIEKARA_DN_6P
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_1-2026_GENERAL-PIEKARA_DN_6P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_1-2026_GENERAL
       person: PERSON-PIEKARA_DN_6P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_2
       is_active: true
     references:
-      position: POSITION-ST_LUCIE_WEST_SERVICES_DISTRICT
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_2
   - type: Person
     code: PERSON-GRACI_DM_8E
     attributes:
@@ -1048,30 +1051,30 @@ groups:
       first_name: Dominick
       last_name: Graci
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_2-2026_GENERAL-GRACI_DM_8E
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_2-2026_GENERAL-GRACI_DM_8E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_2-2026_GENERAL
       person: PERSON-GRACI_DM_8E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_3
       is_active: true
     references:
-      position: POSITION-ST_LUCIE_WEST_SERVICES_DISTRICT
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_3
   - type: Person
     code: PERSON-DAVIDSON_BL_2A
     attributes:
@@ -1080,12 +1083,12 @@ groups:
       first_name: Bill
       last_name: Davidson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_3-2026_GENERAL-DAVIDSON_BL_2A
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_3-2026_GENERAL-DAVIDSON_BL_2A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_3-2026_GENERAL
       person: PERSON-DAVIDSON_BL_2A
   - type: Person
     code: PERSON-NEY_GR_4Z
@@ -1095,30 +1098,30 @@ groups:
       first_name: Gregg
       last_name: Ney
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_3-2026_GENERAL-NEY_GR_4Z
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_3-2026_GENERAL-NEY_GR_4Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-ST_LUCIE_WEST_SERVICES_DISTRICT-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-SPECIAL_DISTRICT_BOARD_MEMBER-ST_LUCIE_WEST_SERVICES_DISTRICT_SEAT_3-2026_GENERAL
       person: PERSON-NEY_GR_4Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-TESORO_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TESORO_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: TESORO_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-TESORO_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-TESORO_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TESORO_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-TESORO_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TESORO_CDD_SEAT_1
   - type: Person
     code: PERSON-DONATELLI_AN_7M
     attributes:
@@ -1127,12 +1130,12 @@ groups:
       first_name: Anthony
       last_name: Donatelli
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-TESORO_CDD-SEAT_1-2026_GENERAL-DONATELLI_AN_7M
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TESORO_CDD_SEAT_1-2026_GENERAL-DONATELLI_AN_7M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-TESORO_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TESORO_CDD_SEAT_1-2026_GENERAL
       person: PERSON-DONATELLI_AN_7M
   - type: Person
     code: PERSON-JONES_EM_3Z
@@ -1142,30 +1145,30 @@ groups:
       first_name: Emily
       last_name: Jones
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-TESORO_CDD-SEAT_1-2026_GENERAL-JONES_EM_3Z
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TESORO_CDD_SEAT_1-2026_GENERAL-JONES_EM_3Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-TESORO_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TESORO_CDD_SEAT_1-2026_GENERAL
       person: PERSON-JONES_EM_3Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-TESORO_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TESORO_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: TESORO_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-TESORO_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-TESORO_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TESORO_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-TESORO_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TESORO_CDD_SEAT_2
   - type: Person
     code: PERSON-JONES_RS_2R
     attributes:
@@ -1174,12 +1177,12 @@ groups:
       first_name: Rosemary
       last_name: Jones
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-TESORO_CDD-SEAT_2-2026_GENERAL-JONES_RS_2R
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TESORO_CDD_SEAT_2-2026_GENERAL-JONES_RS_2R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-TESORO_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TESORO_CDD_SEAT_2-2026_GENERAL
       person: PERSON-JONES_RS_2R
   - type: Person
     code: PERSON-WANGLE_MK_6V
@@ -1189,30 +1192,30 @@ groups:
       first_name: Mike
       last_name: Wangle
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-TESORO_CDD-SEAT_2-2026_GENERAL-WANGLE_MK_6V
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TESORO_CDD_SEAT_2-2026_GENERAL-WANGLE_MK_6V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-TESORO_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TESORO_CDD_SEAT_2-2026_GENERAL
       person: PERSON-WANGLE_MK_6V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_3-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_3_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: TRADITION_CDD_3_SEAT_2
       is_active: true
     references:
-      position: POSITION-TRADITION_CDD_3
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_3-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_3_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_3-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_3_SEAT_2
   - type: Person
     code: PERSON-SLASON_JD_5D
     attributes:
@@ -1221,30 +1224,30 @@ groups:
       first_name: Judith
       last_name: Slason
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_3-SEAT_2-2026_GENERAL-SLASON_JD_5D
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_3_SEAT_2-2026_GENERAL-SLASON_JD_5D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_3-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_3_SEAT_2-2026_GENERAL
       person: PERSON-SLASON_JD_5D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_3-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_3_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: TRADITION_CDD_3_SEAT_3
       is_active: true
     references:
-      position: POSITION-TRADITION_CDD_3
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_3-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_3_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_3-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_3_SEAT_3
   - type: Person
     code: PERSON-BRIGGS_ST_3T
     attributes:
@@ -1253,30 +1256,30 @@ groups:
       first_name: Stanton
       last_name: Briggs
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_3-SEAT_3-2026_GENERAL-BRIGGS_ST_3T
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_3_SEAT_3-2026_GENERAL-BRIGGS_ST_3T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_3-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_3_SEAT_3-2026_GENERAL
       person: PERSON-BRIGGS_ST_3T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_4-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_4_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: TRADITION_CDD_4_SEAT_1
       is_active: true
     references:
-      position: POSITION-TRADITION_CDD_4
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_4-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_4_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_4-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_4_SEAT_1
   - type: Person
     code: PERSON-HELLER_LN_4X
     attributes:
@@ -1285,30 +1288,30 @@ groups:
       first_name: Lindsay
       last_name: Heller
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_4-SEAT_1-2026_GENERAL-HELLER_LN_4X
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_4_SEAT_1-2026_GENERAL-HELLER_LN_4X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_4-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_4_SEAT_1-2026_GENERAL
       person: PERSON-HELLER_LN_4X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_4-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_4_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: TRADITION_CDD_4_SEAT_3
       is_active: true
     references:
-      position: POSITION-TRADITION_CDD_4
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_4-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_4_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_4-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_4_SEAT_3
   - type: Person
     code: PERSON-WESLEY_DR_9U
     attributes:
@@ -1317,30 +1320,30 @@ groups:
       first_name: Drew
       last_name: Wesley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_4-SEAT_3-2026_GENERAL-WESLEY_DR_9U
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_4_SEAT_3-2026_GENERAL-WESLEY_DR_9U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_4-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_4_SEAT_3-2026_GENERAL
       person: PERSON-WESLEY_DR_9U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_4-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_4_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: TRADITION_CDD_4_SEAT_4
       is_active: true
     references:
-      position: POSITION-TRADITION_CDD_4
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_4-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_4_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_4-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_4_SEAT_4
   - type: Person
     code: PERSON-LEANDRE_LR_6J
     attributes:
@@ -1349,30 +1352,30 @@ groups:
       first_name: Lauren
       last_name: Leandre
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_4-SEAT_4-2026_GENERAL-LEANDRE_LR_6J
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_4_SEAT_4-2026_GENERAL-LEANDRE_LR_6J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_4-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_4_SEAT_4-2026_GENERAL
       person: PERSON-LEANDRE_LR_6J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_5-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_5_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: TRADITION_CDD_5_SEAT_1
       is_active: true
     references:
-      position: POSITION-TRADITION_CDD_5
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_5-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_5_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_5-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_5_SEAT_1
   - type: Person
     code: PERSON-LASHER_DV_6U
     attributes:
@@ -1381,30 +1384,30 @@ groups:
       first_name: David
       last_name: Lasher
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_5-SEAT_1-2026_GENERAL-LASHER_DV_6U
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_5_SEAT_1-2026_GENERAL-LASHER_DV_6U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_5-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_5_SEAT_1-2026_GENERAL
       person: PERSON-LASHER_DV_6U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_5-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_5_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: TRADITION_CDD_5_SEAT_5
       is_active: true
     references:
-      position: POSITION-TRADITION_CDD_5
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_5-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_5_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_5-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_5_SEAT_5
   - type: Person
     code: PERSON-PINTO_JO_8N
     attributes:
@@ -1413,30 +1416,30 @@ groups:
       first_name: Joe
       last_name: Pinto
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_5-SEAT_5-2026_GENERAL-PINTO_JO_8N
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_5_SEAT_5-2026_GENERAL-PINTO_JO_8N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_5-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_5_SEAT_5-2026_GENERAL
       person: PERSON-PINTO_JO_8N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_6-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_6_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: TRADITION_CDD_6_SEAT_1
       is_active: true
     references:
-      position: POSITION-TRADITION_CDD_6
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_6-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_6_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_6-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_6_SEAT_1
   - type: Person
     code: PERSON-LILLY_JM_7P
     attributes:
@@ -1445,30 +1448,30 @@ groups:
       first_name: James
       last_name: Lilly
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_6-SEAT_1-2026_GENERAL-LILLY_JM_7P
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_6_SEAT_1-2026_GENERAL-LILLY_JM_7P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-TRADITION_CDD_6-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRADITION_CDD_6_SEAT_1-2026_GENERAL
       person: PERSON-LILLY_JM_7P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_1-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_1_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: VERANO_CDD_1_SEAT_1
       is_active: true
     references:
-      position: POSITION-VERANO_CDD_1
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_1-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_1_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_1-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_1_SEAT_1
   - type: Person
     code: PERSON-KRUPO_MX_6E
     attributes:
@@ -1477,30 +1480,30 @@ groups:
       first_name: Max
       last_name: Krupo
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_1-SEAT_1-2026_GENERAL-KRUPO_MX_6E
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_1_SEAT_1-2026_GENERAL-KRUPO_MX_6E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_1-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_1_SEAT_1-2026_GENERAL
       person: PERSON-KRUPO_MX_6E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_1-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_1_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: VERANO_CDD_1_SEAT_4
       is_active: true
     references:
-      position: POSITION-VERANO_CDD_1
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_1-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_1_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_1-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_1_SEAT_4
   - type: Person
     code: PERSON-TRAMMELL_TH_8F
     attributes:
@@ -1509,30 +1512,30 @@ groups:
       first_name: Thomas
       last_name: Trammell
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_1-SEAT_4-2026_GENERAL-TRAMMELL_TH_8F
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_1_SEAT_4-2026_GENERAL-TRAMMELL_TH_8F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_1-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_1_SEAT_4-2026_GENERAL
       person: PERSON-TRAMMELL_TH_8F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_2-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_2_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: VERANO_CDD_2_SEAT_4
       is_active: true
     references:
-      position: POSITION-VERANO_CDD_2
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_2-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_2_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_2-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_2_SEAT_4
   - type: Person
     code: PERSON-CANN_TH_6X
     attributes:
@@ -1541,30 +1544,30 @@ groups:
       first_name: Thomas
       last_name: Cann
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_2-SEAT_4-2026_GENERAL-CANN_TH_6X
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_2_SEAT_4-2026_GENERAL-CANN_TH_6X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_2-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_2_SEAT_4-2026_GENERAL
       person: PERSON-CANN_TH_6X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_2-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_2_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: VERANO_CDD_2_SEAT_5
       is_active: true
     references:
-      position: POSITION-VERANO_CDD_2
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_LUCIE
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_2-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_2_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_LUCIE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_2-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_2_SEAT_5
   - type: Person
     code: PERSON-MAGETT_LN_2M
     attributes:
@@ -1574,10 +1577,10 @@ groups:
       middle_name: A.
       last_name: Magett
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_2-SEAT_5-2026_GENERAL-MAGETT_LN_2M
+    code: CANDIDACY-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_2_SEAT_5-2026_GENERAL-MAGETT_LN_2M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_LUCIE-VERANO_CDD_2-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_LUCIE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VERANO_CDD_2_SEAT_5-2026_GENERAL
       person: PERSON-MAGETT_LN_2M

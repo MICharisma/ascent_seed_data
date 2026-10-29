@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FLOYD-MEMBER_TOWN_COUNCIL_SPECIAL-FLOYD
+    code: OFFICE-USA-VA-COUNTY_FLOYD-COUNCIL_MEMBER-FLOYD
     attributes:
       seat_code: FLOYD
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_SPECIAL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-FLOYD
   - type: Race
-    code: RACE-USA-VA-COUNTY_FLOYD-MEMBER_TOWN_COUNCIL_SPECIAL-FLOYD-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_FLOYD-COUNCIL_MEMBER-FLOYD-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_FLOYD-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_FLOYD-MEMBER_TOWN_COUNCIL_SPECIAL-FLOYD
+      office: OFFICE-USA-VA-COUNTY_FLOYD-COUNCIL_MEMBER-FLOYD
   - type: Person
     code: PERSON-WHITAKER_DV_5R
     attributes:
@@ -45,12 +45,12 @@ groups:
       middle_name: B.
       last_name: Whitaker
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FLOYD-MEMBER_TOWN_COUNCIL_SPECIAL-FLOYD-2026_SPECIAL-WHITAKER_DV_5R
+    code: CANDIDACY-USA-VA-COUNTY_FLOYD-COUNCIL_MEMBER-FLOYD-2026_SPECIAL-WHITAKER_DV_5R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FLOYD-MEMBER_TOWN_COUNCIL_SPECIAL-FLOYD-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_FLOYD-COUNCIL_MEMBER-FLOYD-2026_SPECIAL
       person: PERSON-WHITAKER_DV_5R
   - type: Person
     code: PERSON-THOMPSON_LS_5A
@@ -61,10 +61,10 @@ groups:
       middle_name: R.
       last_name: Thompson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FLOYD-MEMBER_TOWN_COUNCIL_SPECIAL-FLOYD-2026_SPECIAL-THOMPSON_LS_5A
+    code: CANDIDACY-USA-VA-COUNTY_FLOYD-COUNCIL_MEMBER-FLOYD-2026_SPECIAL-THOMPSON_LS_5A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FLOYD-MEMBER_TOWN_COUNCIL_SPECIAL-FLOYD-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_FLOYD-COUNCIL_MEMBER-FLOYD-2026_SPECIAL
       person: PERSON-THOMPSON_LS_5A

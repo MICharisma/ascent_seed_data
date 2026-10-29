@@ -1,0 +1,45 @@
+{
+  "format": "micharisma-seeds/v1",
+  "namespace": "MIC",
+  "catalog": "ASC",
+  "records": [
+    {
+      "type": "Channel",
+      "code": "CHANNEL-BSKY-AVERY_EXAMPLE_COM",
+      "attributes": {
+        "platform": "bluesky",
+        "handle": "avery.example.com",
+        "url": "https://bsky.app/profile/avery.example.com",
+        "official": true
+      },
+      "references": {
+        "owner": "PERSON-EXAMPLE_AV_7K"
+      },
+      "source": {
+        "contributor": "Example worker",
+        "url": "https://avery.example.com/about",
+        "captured_on": "2026-10-28",
+        "verification_note": "Fictional example: the personal site links directly to this profile."
+      }
+    },
+    {
+      "type": "Channel",
+      "code": "CHANNEL-WEB-AVERY_FOR_GOVERNOR_EXAMPLE_COM",
+      "attributes": {
+        "platform": "website",
+        "handle": "avery-for-governor.example.com",
+        "url": "https://avery-for-governor.example.com",
+        "official": true
+      },
+      "references": {
+        "owner": "CANDIDACY-USA-NY-GOVERNOR-2026_GENERAL-EXAMPLE_AV_7K"
+      },
+      "source": {
+        "contributor": "Example worker",
+        "url": "https://avery.example.com/campaign",
+        "captured_on": "2026-10-28",
+        "verification_note": "Fictional example: the personal site identifies this website as the 2026 Governor campaign."
+      }
+    }
+  ]
+}

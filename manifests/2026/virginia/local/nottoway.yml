@@ -30,24 +30,47 @@ records:
   references:
     jurisdiction: COUNTY-USA-VA-NOTTOWAY
     year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-BURKEVILLE-2026_GENERAL
+  attributes:
+    name: Burkeville General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-BURKEVILLE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-CREWE-2026_GENERAL
+  attributes:
+    name: Crewe General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-CREWE
+    year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-NOTTOWAY_COUNTY
+    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT
     attributes:
-      seat_code: NOTTOWAY_COUNTY
       is_active: true
     references:
-      position: POSITION-CLERK_OF_COURT_2
+      position: POSITION-CLERK_OF_COURT
       jurisdiction: COUNTY-USA-VA-NOTTOWAY
   - type: Race
-    code: RACE-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-NOTTOWAY_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-NOTTOWAY_COUNTY
+      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT
   - type: Person
     code: PERSON-JONES_BL_9G
     attributes:
@@ -57,12 +80,12 @@ groups:
       middle_name: A.
       last_name: Jones
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-NOTTOWAY_COUNTY-2026_SPECIAL-JONES_BL_9G
+    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-2026_SPECIAL-JONES_BL_9G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-NOTTOWAY_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-2026_SPECIAL
       person: PERSON-JONES_BL_9G
   - type: Person
     code: PERSON-LAGES_FR_5H
@@ -73,12 +96,12 @@ groups:
       middle_name: P. "Fritz"
       last_name: Lages
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-NOTTOWAY_COUNTY-2026_SPECIAL-LAGES_FR_5H
+    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-2026_SPECIAL-LAGES_FR_5H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-NOTTOWAY_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-2026_SPECIAL
       person: PERSON-LAGES_FR_5H
   - type: Person
     code: PERSON-SPENCE_KT_9X
@@ -89,12 +112,12 @@ groups:
       middle_name: L. "Kate"
       last_name: Spence
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-NOTTOWAY_COUNTY-2026_SPECIAL-SPENCE_KT_9X
+    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-2026_SPECIAL-SPENCE_KT_9X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-NOTTOWAY_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-2026_SPECIAL
       person: PERSON-SPENCE_KT_9X
 - records:
   - type: Office
@@ -146,21 +169,20 @@ groups:
       person: PERSON-DICKENS_LF_3F
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-MAYOR-TOWN_OF_BURKEVILLE
+    code: OFFICE-USA-VA-BURKEVILLE-MAYOR
     attributes:
-      seat_code: TOWN_OF_BURKEVILLE
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-NOTTOWAY
+      jurisdiction: MUNICIPALITY-USA-VA-BURKEVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_NOTTOWAY-MAYOR-TOWN_OF_BURKEVILLE-2026_GENERAL
+    code: RACE-USA-VA-BURKEVILLE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-MAYOR-TOWN_OF_BURKEVILLE
+      election: ELECTION-USA-VA-BURKEVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-BURKEVILLE-MAYOR
   - type: Person
     code: PERSON-SMITH_GR_6L
     attributes:
@@ -170,30 +192,29 @@ groups:
       middle_name: E.
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MAYOR-TOWN_OF_BURKEVILLE-2026_GENERAL-SMITH_GR_6L
+    code: CANDIDACY-USA-VA-BURKEVILLE-MAYOR-2026_GENERAL-SMITH_GR_6L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MAYOR-TOWN_OF_BURKEVILLE-2026_GENERAL
+      race: RACE-USA-VA-BURKEVILLE-MAYOR-2026_GENERAL
       person: PERSON-SMITH_GR_6L
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-MAYOR-TOWN_OF_CREWE
+    code: OFFICE-USA-VA-CREWE-MAYOR
     attributes:
-      seat_code: TOWN_OF_CREWE
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-NOTTOWAY
+      jurisdiction: MUNICIPALITY-USA-VA-CREWE
   - type: Race
-    code: RACE-USA-VA-COUNTY_NOTTOWAY-MAYOR-TOWN_OF_CREWE-2026_GENERAL
+    code: RACE-USA-VA-CREWE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-MAYOR-TOWN_OF_CREWE
+      election: ELECTION-USA-VA-CREWE-2026_GENERAL
+      office: OFFICE-USA-VA-CREWE-MAYOR
   - type: Person
     code: PERSON-ENGMANN_EL_6M
     attributes:
@@ -202,30 +223,30 @@ groups:
       first_name: Ela
       last_name: Engmann
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MAYOR-TOWN_OF_CREWE-2026_GENERAL-ENGMANN_EL_6M
+    code: CANDIDACY-USA-VA-CREWE-MAYOR-2026_GENERAL-ENGMANN_EL_6M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MAYOR-TOWN_OF_CREWE-2026_GENERAL
+      race: RACE-USA-VA-CREWE-MAYOR-2026_GENERAL
       person: PERSON-ENGMANN_EL_6M
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_BOARD_OF_SUPERVISORS-DISTRICT_3
+    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNTY_SUPERVISOR-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-MEMBER_BOARD_OF_SUPERVISORS
+      position: POSITION-COUNTY_SUPERVISOR
       jurisdiction: COUNTY-USA-VA-NOTTOWAY
   - type: Race
-    code: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_BOARD_OF_SUPERVISORS-DISTRICT_3-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_NOTTOWAY-COUNTY_SUPERVISOR-DISTRICT_3-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_BOARD_OF_SUPERVISORS-DISTRICT_3
+      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNTY_SUPERVISOR-DISTRICT_3
   - type: Person
     code: PERSON-GREEN_AUGUST_JC_2Z
     attributes:
@@ -235,30 +256,30 @@ groups:
       middle_name: A.
       last_name: Green-August
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_BOARD_OF_SUPERVISORS-DISTRICT_3-2026_SPECIAL-GREEN_AUGUST_JC_2Z
+    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-COUNTY_SUPERVISOR-DISTRICT_3-2026_SPECIAL-GREEN_AUGUST_JC_2Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_BOARD_OF_SUPERVISORS-DISTRICT_3-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNTY_SUPERVISOR-DISTRICT_3-2026_SPECIAL
       person: PERSON-GREEN_AUGUST_JC_2Z
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_A
+    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_A
     attributes:
       seat_code: BLACKSTONE_WARD_A
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-NOTTOWAY
   - type: Race
-    code: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_A-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_A-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_A
+      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_A
   - type: Person
     code: PERSON-MILLER_NT_2H
     attributes:
@@ -268,30 +289,30 @@ groups:
       middle_name: L.
       last_name: Miller
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_A-2026_GENERAL-MILLER_NT_2H
+    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_A-2026_GENERAL-MILLER_NT_2H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_A-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_A-2026_GENERAL
       person: PERSON-MILLER_NT_2H
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_B
+    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_B
     attributes:
       seat_code: BLACKSTONE_WARD_B
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-NOTTOWAY
   - type: Race
-    code: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_B-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_B-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_B
+      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_B
   - type: Person
     code: PERSON-EAHEART_BN_6Z
     attributes:
@@ -301,12 +322,12 @@ groups:
       middle_name: D.
       last_name: Eaheart III
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_B-2026_GENERAL-EAHEART_BN_6Z
+    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_B-2026_GENERAL-EAHEART_BN_6Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_B-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_B-2026_GENERAL
       person: PERSON-EAHEART_BN_6Z
   - type: Person
     code: PERSON-GORMUS_WS_4Z
@@ -316,30 +337,30 @@ groups:
       first_name: Wesley
       last_name: Gormus Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_B-2026_GENERAL-GORMUS_WS_4Z
+    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_B-2026_GENERAL-GORMUS_WS_4Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_B-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_B-2026_GENERAL
       person: PERSON-GORMUS_WS_4Z
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_C
+    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_C
     attributes:
       seat_code: BLACKSTONE_WARD_C
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-NOTTOWAY
   - type: Race
-    code: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_C-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_C-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_C
+      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_C
   - type: Person
     code: PERSON-QUEEN_G_8D
     attributes:
@@ -349,12 +370,12 @@ groups:
       middle_name: Allen
       last_name: Queen III
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_C-2026_GENERAL-QUEEN_G_8D
+    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_C-2026_GENERAL-QUEEN_G_8D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_C-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_C-2026_GENERAL
       person: PERSON-QUEEN_G_8D
   - type: Person
     code: PERSON-ALLMAN_JC_2S
@@ -365,30 +386,30 @@ groups:
       middle_name: L.
       last_name: Allman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_C-2026_GENERAL-ALLMAN_JC_2S
+    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_C-2026_GENERAL-ALLMAN_JC_2S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_C-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_C-2026_GENERAL
       person: PERSON-ALLMAN_JC_2S
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_D
+    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_D
     attributes:
       seat_code: BLACKSTONE_WARD_D
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-NOTTOWAY
   - type: Race
-    code: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_D-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_D-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_D
+      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_D
   - type: Person
     code: PERSON-WILLIAMS_CR_7S
     attributes:
@@ -398,30 +419,30 @@ groups:
       middle_name: A.
       last_name: Williams
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_D-2026_GENERAL-WILLIAMS_CR_7S
+    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_D-2026_GENERAL-WILLIAMS_CR_7S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_D-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_D-2026_GENERAL
       person: PERSON-WILLIAMS_CR_7S
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_E
+    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_E
     attributes:
       seat_code: BLACKSTONE_WARD_E
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-NOTTOWAY
   - type: Race
-    code: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_E-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_E-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_E
+      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_E
   - type: Person
     code: PERSON-WYNN_LL_5H
     attributes:
@@ -431,30 +452,29 @@ groups:
       middle_name: R.
       last_name: Wynn
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_E-2026_GENERAL-WYNN_LL_5H
+    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_E-2026_GENERAL-WYNN_LL_5H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-BLACKSTONE_WARD_E-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_E-2026_GENERAL
       person: PERSON-WYNN_LL_5H
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_BURKEVILLE
+    code: OFFICE-USA-VA-BURKEVILLE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_BURKEVILLE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-NOTTOWAY
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-BURKEVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_BURKEVILLE-2026_GENERAL
+    code: RACE-USA-VA-BURKEVILLE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_BURKEVILLE
+      election: ELECTION-USA-VA-BURKEVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-BURKEVILLE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-CUMMINGS_BR_2E
     attributes:
@@ -464,12 +484,12 @@ groups:
       middle_name: S.
       last_name: Cummings
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_BURKEVILLE-2026_GENERAL-CUMMINGS_BR_2E
+    code: CANDIDACY-USA-VA-BURKEVILLE-COUNCIL_MEMBER-2026_GENERAL-CUMMINGS_BR_2E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_BURKEVILLE-2026_GENERAL
+      race: RACE-USA-VA-BURKEVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CUMMINGS_BR_2E
   - type: Person
     code: PERSON-HORN_JM_3N
@@ -480,12 +500,12 @@ groups:
       middle_name: G. "Jay"
       last_name: Horn Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_BURKEVILLE-2026_GENERAL-HORN_JM_3N
+    code: CANDIDACY-USA-VA-BURKEVILLE-COUNCIL_MEMBER-2026_GENERAL-HORN_JM_3N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_BURKEVILLE-2026_GENERAL
+      race: RACE-USA-VA-BURKEVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HORN_JM_3N
   - type: Person
     code: PERSON-JONES_KV_5T
@@ -496,12 +516,12 @@ groups:
       middle_name: E.
       last_name: Jones Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_BURKEVILLE-2026_GENERAL-JONES_KV_5T
+    code: CANDIDACY-USA-VA-BURKEVILLE-COUNCIL_MEMBER-2026_GENERAL-JONES_KV_5T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_BURKEVILLE-2026_GENERAL
+      race: RACE-USA-VA-BURKEVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-JONES_KV_5T
   - type: Person
     code: PERSON-DANIELS_TH_3C
@@ -512,30 +532,29 @@ groups:
       middle_name: J.
       last_name: Daniels
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_BURKEVILLE-2026_GENERAL-DANIELS_TH_3C
+    code: CANDIDACY-USA-VA-BURKEVILLE-COUNCIL_MEMBER-2026_GENERAL-DANIELS_TH_3C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_BURKEVILLE-2026_GENERAL
+      race: RACE-USA-VA-BURKEVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DANIELS_TH_3C
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE
+    code: OFFICE-USA-VA-CREWE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_CREWE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-NOTTOWAY
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-CREWE
   - type: Race
-    code: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL
+    code: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE
+      election: ELECTION-USA-VA-CREWE-2026_GENERAL
+      office: OFFICE-USA-VA-CREWE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-STINSON_AN_4B
     attributes:
@@ -545,12 +564,12 @@ groups:
       middle_name: O.
       last_name: Stinson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL-STINSON_AN_4B
+    code: CANDIDACY-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL-STINSON_AN_4B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL
+      race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-STINSON_AN_4B
   - type: Person
     code: PERSON-MUNIR_AN_6P
@@ -561,12 +580,12 @@ groups:
       middle_name: M.
       last_name: Munir
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL-MUNIR_AN_6P
+    code: CANDIDACY-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL-MUNIR_AN_6P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL
+      race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MUNIR_AN_6P
   - type: Person
     code: PERSON-FARMER_MR_8R
@@ -577,12 +596,12 @@ groups:
       middle_name: E. "Marv"
       last_name: Farmer
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL-FARMER_MR_8R
+    code: CANDIDACY-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL-FARMER_MR_8R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL
+      race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FARMER_MR_8R
   - type: Person
     code: PERSON-ESTES_ML_7N
@@ -593,12 +612,12 @@ groups:
       middle_name: H. "Lisa"
       last_name: Estes
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL-ESTES_ML_7N
+    code: CANDIDACY-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL-ESTES_ML_7N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL
+      race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ESTES_ML_7N
   - type: Person
     code: PERSON-VICK_RL_3K
@@ -609,12 +628,12 @@ groups:
       middle_name: C.
       last_name: Vick Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL-VICK_RL_3K
+    code: CANDIDACY-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL-VICK_RL_3K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL
+      race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-VICK_RL_3K
   - type: Person
     code: PERSON-VICK_RL_9Z
@@ -625,12 +644,12 @@ groups:
       middle_name: C.
       last_name: Vick V
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL-VICK_RL_9Z
+    code: CANDIDACY-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL-VICK_RL_9Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL
+      race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-VICK_RL_9Z
   - type: Person
     code: PERSON-SAPP_RB_7R
@@ -641,12 +660,12 @@ groups:
       middle_name: P.
       last_name: Sapp
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL-SAPP_RB_7R
+    code: CANDIDACY-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL-SAPP_RB_7R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL
+      race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SAPP_RB_7R
   - type: Person
     code: PERSON-DAVIS_T_8K
@@ -657,12 +676,12 @@ groups:
       middle_name: Sean
       last_name: Davis
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL-DAVIS_T_8K
+    code: CANDIDACY-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL-DAVIS_T_8K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL
+      race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DAVIS_T_8K
   - type: Person
     code: PERSON-WILLIAMS_WL_3U
@@ -673,30 +692,30 @@ groups:
       middle_name: J.
       last_name: Williams
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL-WILLIAMS_WL_3U
+    code: CANDIDACY-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL-WILLIAMS_WL_3U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL-TOWN_OF_CREWE-2026_GENERAL
+      race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WILLIAMS_WL_3U
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL_AT_LARGE-BLACKSTONE
+    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE
     attributes:
-      seat_code: BLACKSTONE
+      seat_code: AT_LARGE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_AT_LARGE_2
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-NOTTOWAY
   - type: Race
-    code: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL_AT_LARGE-BLACKSTONE-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL_AT_LARGE-BLACKSTONE
+      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE
   - type: Person
     code: PERSON-PAGE_CH_2J
     attributes:
@@ -706,12 +725,12 @@ groups:
       middle_name: C.
       last_name: Page Sr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL_AT_LARGE-BLACKSTONE-2026_GENERAL-PAGE_CH_2J
+    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL-PAGE_CH_2J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL_AT_LARGE-BLACKSTONE-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
       person: PERSON-PAGE_CH_2J
   - type: Person
     code: PERSON-WILSON_DR_5N
@@ -722,12 +741,12 @@ groups:
       middle_name: A.
       last_name: Wilson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL_AT_LARGE-BLACKSTONE-2026_GENERAL-WILSON_DR_5N
+    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL-WILSON_DR_5N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL_AT_LARGE-BLACKSTONE-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
       person: PERSON-WILSON_DR_5N
   - type: Person
     code: PERSON-NASH_ER_8A
@@ -738,12 +757,12 @@ groups:
       middle_name: M.
       last_name: Nash
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL_AT_LARGE-BLACKSTONE-2026_GENERAL-NASH_ER_8A
+    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL-NASH_ER_8A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL_AT_LARGE-BLACKSTONE-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
       person: PERSON-NASH_ER_8A
   - type: Person
     code: PERSON-FRISBY_RN_5W
@@ -754,30 +773,30 @@ groups:
       middle_name: L.
       last_name: Frisby
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL_AT_LARGE-BLACKSTONE-2026_GENERAL-FRISBY_RN_5W
+    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL-FRISBY_RN_5W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL_AT_LARGE-BLACKSTONE-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
       person: PERSON-FRISBY_RN_5W
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL_SPECIAL-CREWE
+    code: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-CREWE
     attributes:
       seat_code: CREWE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_SPECIAL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-NOTTOWAY
   - type: Race
-    code: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL_SPECIAL-CREWE-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-CREWE-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL_SPECIAL-CREWE
+      office: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-CREWE
   - type: Person
     code: PERSON-PAYNE_BR_3Y
     attributes:
@@ -787,10 +806,10 @@ groups:
       middle_name: H.
       last_name: Payne
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL_SPECIAL-CREWE-2026_SPECIAL-PAYNE_BR_3Y
+    code: CANDIDACY-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-CREWE-2026_SPECIAL-PAYNE_BR_3Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_NOTTOWAY-MEMBER_TOWN_COUNCIL_SPECIAL-CREWE-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-CREWE-2026_SPECIAL
       person: PERSON-PAYNE_BR_3Y

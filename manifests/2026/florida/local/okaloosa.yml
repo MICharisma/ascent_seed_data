@@ -57,20 +57,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_OKALOOSA-BLUEWATER_MSBU_GROUP_4
+    code: OFFICE-USA-FL-COUNTY_OKALOOSA-SPECIAL_DISTRICT_BOARD_MEMBER-BLUEWATER_MSBU_GROUP_4
     attributes:
+      seat_code: BLUEWATER_MSBU_GROUP_4
       is_active: true
     references:
-      position: POSITION-BLUEWATER_MSBU_GROUP_4
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-OKALOOSA
   - type: Race
-    code: RACE-USA-FL-COUNTY_OKALOOSA-BLUEWATER_MSBU_GROUP_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_OKALOOSA-SPECIAL_DISTRICT_BOARD_MEMBER-BLUEWATER_MSBU_GROUP_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okaloosa&el=220.'
     references:
       election: ELECTION-USA-FL-COUNTY_OKALOOSA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_OKALOOSA-BLUEWATER_MSBU_GROUP_4
+      office: OFFICE-USA-FL-COUNTY_OKALOOSA-SPECIAL_DISTRICT_BOARD_MEMBER-BLUEWATER_MSBU_GROUP_4
   - type: Person
     code: PERSON-DWYER_TH_3F
     attributes:
@@ -79,12 +80,12 @@ groups:
       first_name: Thomas
       last_name: Dwyer
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_OKALOOSA-BLUEWATER_MSBU_GROUP_4-2026_GENERAL-DWYER_TH_3F
+    code: CANDIDACY-USA-FL-COUNTY_OKALOOSA-SPECIAL_DISTRICT_BOARD_MEMBER-BLUEWATER_MSBU_GROUP_4-2026_GENERAL-DWYER_TH_3F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_OKALOOSA-BLUEWATER_MSBU_GROUP_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_OKALOOSA-SPECIAL_DISTRICT_BOARD_MEMBER-BLUEWATER_MSBU_GROUP_4-2026_GENERAL
       person: PERSON-DWYER_TH_3F
   - type: Person
     code: PERSON-JOHNSON_JM_4R
@@ -95,30 +96,30 @@ groups:
       middle_name: K.
       last_name: Johnson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_OKALOOSA-BLUEWATER_MSBU_GROUP_4-2026_GENERAL-JOHNSON_JM_4R
+    code: CANDIDACY-USA-FL-COUNTY_OKALOOSA-SPECIAL_DISTRICT_BOARD_MEMBER-BLUEWATER_MSBU_GROUP_4-2026_GENERAL-JOHNSON_JM_4R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_OKALOOSA-BLUEWATER_MSBU_GROUP_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_OKALOOSA-SPECIAL_DISTRICT_BOARD_MEMBER-BLUEWATER_MSBU_GROUP_4-2026_GENERAL
       person: PERSON-JOHNSON_JM_4R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_OKALOOSA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_OKALOOSA-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-OKALOOSA
   - type: Race
-    code: RACE-USA-FL-COUNTY_OKALOOSA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_OKALOOSA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_OKALOOSA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_OKALOOSA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_OKALOOSA-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-KETCHEL_CR_6R
     attributes:
@@ -127,7 +128,7 @@ groups:
       first_name: Carolyn
       last_name: Ketchel
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_OKALOOSA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-KETCHEL_CR_6R
+    code: CANDIDACY-USA-FL-COUNTY_OKALOOSA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-KETCHEL_CR_6R
     attributes:
       status: active
       participation: active
@@ -136,25 +137,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_OKALOOSA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_OKALOOSA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-KETCHEL_CR_6R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_OKALOOSA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_OKALOOSA-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-OKALOOSA
   - type: Race
-    code: RACE-USA-FL-COUNTY_OKALOOSA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_OKALOOSA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_OKALOOSA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_OKALOOSA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_OKALOOSA-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-GOODWIN_TR_5X
     attributes:
@@ -163,7 +164,7 @@ groups:
       first_name: Trey
       last_name: Goodwin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_OKALOOSA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-GOODWIN_TR_5X
+    code: CANDIDACY-USA-FL-COUNTY_OKALOOSA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-GOODWIN_TR_5X
     attributes:
       status: active
       participation: active
@@ -172,7 +173,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_OKALOOSA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_OKALOOSA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-GOODWIN_TR_5X
 - records:
   - type: Office
@@ -241,20 +242,21 @@ groups:
       person: PERSON-REED_JH_6S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_1
+    code: OFFICE-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_1
     attributes:
+      seat_code: PRECINCT_1
       is_active: true
     references:
-      position: POSITION-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_1
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-CRESTVIEW
   - type: Race
-    code: RACE-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_1-2026_GENERAL
+    code: RACE-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okaloosa&el=220.'
     references:
       election: ELECTION-USA-FL-CRESTVIEW-2026_GENERAL
-      office: OFFICE-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_1
+      office: OFFICE-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_1
   - type: Person
     code: PERSON-ALLISON_DR_7V
     attributes:
@@ -264,12 +266,12 @@ groups:
       middle_name: '"Dusty"'
       last_name: Allison
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_1-2026_GENERAL-ALLISON_DR_7V
+    code: CANDIDACY-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_1-2026_GENERAL-ALLISON_DR_7V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_1-2026_GENERAL
+      race: RACE-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_1-2026_GENERAL
       person: PERSON-ALLISON_DR_7V
   - type: Person
     code: PERSON-BUTTS_FR_2K
@@ -280,29 +282,30 @@ groups:
       middle_name: Jackson
       last_name: Butts III
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_1-2026_GENERAL-BUTTS_FR_2K
+    code: CANDIDACY-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_1-2026_GENERAL-BUTTS_FR_2K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_1-2026_GENERAL
+      race: RACE-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_1-2026_GENERAL
       person: PERSON-BUTTS_FR_2K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_2
+    code: OFFICE-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_2
     attributes:
+      seat_code: PRECINCT_2
       is_active: true
     references:
-      position: POSITION-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_2
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-CRESTVIEW
   - type: Race
-    code: RACE-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_2-2026_GENERAL
+    code: RACE-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okaloosa&el=220.'
     references:
       election: ELECTION-USA-FL-CRESTVIEW-2026_GENERAL
-      office: OFFICE-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_2
+      office: OFFICE-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_2
   - type: Person
     code: PERSON-ECHOLS_SY_7J
     attributes:
@@ -311,12 +314,12 @@ groups:
       first_name: Sylvester
       last_name: Echols
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_2-2026_GENERAL-ECHOLS_SY_7J
+    code: CANDIDACY-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_2-2026_GENERAL-ECHOLS_SY_7J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_2-2026_GENERAL
+      race: RACE-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_2-2026_GENERAL
       person: PERSON-ECHOLS_SY_7J
   - type: Person
     code: PERSON-RENCICH_AP_7U
@@ -326,12 +329,12 @@ groups:
       first_name: April
       last_name: Rencich
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_2-2026_GENERAL-RENCICH_AP_7U
+    code: CANDIDACY-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_2-2026_GENERAL-RENCICH_AP_7U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_2-2026_GENERAL
+      race: RACE-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_2-2026_GENERAL
       person: PERSON-RENCICH_AP_7U
   - type: Person
     code: PERSON-RODRIQUEZ_LS_2L
@@ -341,29 +344,30 @@ groups:
       first_name: Louis
       last_name: Rodriquez
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_2-2026_GENERAL-RODRIQUEZ_LS_2L
+    code: CANDIDACY-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_2-2026_GENERAL-RODRIQUEZ_LS_2L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_2-2026_GENERAL
+      race: RACE-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_2-2026_GENERAL
       person: PERSON-RODRIQUEZ_LS_2L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_3
+    code: OFFICE-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_3
     attributes:
+      seat_code: PRECINCT_3
       is_active: true
     references:
-      position: POSITION-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_3
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-CRESTVIEW
   - type: Race
-    code: RACE-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_3-2026_GENERAL
+    code: RACE-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okaloosa&el=220.'
     references:
       election: ELECTION-USA-FL-CRESTVIEW-2026_GENERAL
-      office: OFFICE-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_3
+      office: OFFICE-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_3
   - type: Person
     code: PERSON-CAPPS_DG_5J
     attributes:
@@ -372,29 +376,29 @@ groups:
       first_name: Douglas
       last_name: Capps
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_3-2026_GENERAL-CAPPS_DG_5J
+    code: CANDIDACY-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_3-2026_GENERAL-CAPPS_DG_5J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CRESTVIEW-CRESTVIEW_CITY_COUNCIL_MEMBER_PCT_3-2026_GENERAL
+      race: RACE-USA-FL-CRESTVIEW-COUNCIL_MEMBER-PRECINCT_3-2026_GENERAL
       person: PERSON-CAPPS_DG_5J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DESTIN-DESTIN_COUNCIL_MEMBER
+    code: OFFICE-USA-FL-DESTIN-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-DESTIN_COUNCIL_MEMBER
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-DESTIN
   - type: Race
-    code: RACE-USA-FL-DESTIN-DESTIN_COUNCIL_MEMBER-2026_GENERAL
+    code: RACE-USA-FL-DESTIN-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okaloosa&el=220.'
     references:
       election: ELECTION-USA-FL-DESTIN-2026_GENERAL
-      office: OFFICE-USA-FL-DESTIN-DESTIN_COUNCIL_MEMBER
+      office: OFFICE-USA-FL-DESTIN-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BRADEN_RD_7F
     attributes:
@@ -403,12 +407,12 @@ groups:
       first_name: Rodney
       last_name: Braden
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DESTIN-DESTIN_COUNCIL_MEMBER-2026_GENERAL-BRADEN_RD_7F
+    code: CANDIDACY-USA-FL-DESTIN-COUNCIL_MEMBER-2026_GENERAL-BRADEN_RD_7F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DESTIN-DESTIN_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-DESTIN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BRADEN_RD_7F
   - type: Person
     code: PERSON-HAYNES_RS_9B
@@ -418,12 +422,12 @@ groups:
       first_name: Ross
       last_name: Haynes
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DESTIN-DESTIN_COUNCIL_MEMBER-2026_GENERAL-HAYNES_RS_9B
+    code: CANDIDACY-USA-FL-DESTIN-COUNCIL_MEMBER-2026_GENERAL-HAYNES_RS_9B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DESTIN-DESTIN_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-DESTIN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HAYNES_RS_9B
   - type: Person
     code: PERSON-MORGAN_RS_7U
@@ -434,12 +438,12 @@ groups:
       middle_name: '"Chatham"'
       last_name: Morgan
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DESTIN-DESTIN_COUNCIL_MEMBER-2026_GENERAL-MORGAN_RS_7U
+    code: CANDIDACY-USA-FL-DESTIN-COUNCIL_MEMBER-2026_GENERAL-MORGAN_RS_7U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DESTIN-DESTIN_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-DESTIN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MORGAN_RS_7U
   - type: Person
     code: PERSON-STEPHENS_JH_8C
@@ -449,29 +453,29 @@ groups:
       first_name: John
       last_name: Stephens
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DESTIN-DESTIN_COUNCIL_MEMBER-2026_GENERAL-STEPHENS_JH_8C
+    code: CANDIDACY-USA-FL-DESTIN-COUNCIL_MEMBER-2026_GENERAL-STEPHENS_JH_8C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DESTIN-DESTIN_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-DESTIN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-STEPHENS_JH_8C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DESTIN-DESTIN_MAYOR
+    code: OFFICE-USA-FL-DESTIN-MAYOR
     attributes:
       is_active: true
     references:
-      position: POSITION-DESTIN_MAYOR
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-DESTIN
   - type: Race
-    code: RACE-USA-FL-DESTIN-DESTIN_MAYOR-2026_GENERAL
+    code: RACE-USA-FL-DESTIN-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okaloosa&el=220.'
     references:
       election: ELECTION-USA-FL-DESTIN-2026_GENERAL
-      office: OFFICE-USA-FL-DESTIN-DESTIN_MAYOR
+      office: OFFICE-USA-FL-DESTIN-MAYOR
   - type: Person
     code: PERSON-WAGNER_BB_8L
     attributes:
@@ -480,29 +484,29 @@ groups:
       first_name: Bobby
       last_name: Wagner
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DESTIN-DESTIN_MAYOR-2026_GENERAL-WAGNER_BB_8L
+    code: CANDIDACY-USA-FL-DESTIN-MAYOR-2026_GENERAL-WAGNER_BB_8L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DESTIN-DESTIN_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-DESTIN-MAYOR-2026_GENERAL
       person: PERSON-WAGNER_BB_8L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER
+    code: OFFICE-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-FORT_WALTON_BEACH_COUNCIL_MEMBER
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-FORT_WALTON_BEACH
   - type: Race
-    code: RACE-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL
+    code: RACE-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=okaloosa&el=220.'
     references:
       election: ELECTION-USA-FL-FORT_WALTON_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER
+      office: OFFICE-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BISHOP_BR_8B
     attributes:
@@ -511,12 +515,12 @@ groups:
       first_name: Brandon
       last_name: Bishop
   - type: Candidacy
-    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL-BISHOP_BR_8B
+    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL-BISHOP_BR_8B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BISHOP_BR_8B
   - type: Person
     code: PERSON-BLACK_SC_5T
@@ -526,12 +530,12 @@ groups:
       first_name: Schuyler
       last_name: Black
   - type: Candidacy
-    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL-BLACK_SC_5T
+    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL-BLACK_SC_5T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BLACK_SC_5T
   - type: Person
     code: PERSON-CALDARELLI_ST_8D
@@ -541,12 +545,12 @@ groups:
       first_name: Steve
       last_name: Caldarelli
   - type: Candidacy
-    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL-CALDARELLI_ST_8D
+    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL-CALDARELLI_ST_8D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CALDARELLI_ST_8D
   - type: Person
     code: PERSON-CAPELOTTI_TY_7M
@@ -556,12 +560,12 @@ groups:
       first_name: Tyler
       last_name: Capelotti
   - type: Candidacy
-    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL-CAPELOTTI_TY_7M
+    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL-CAPELOTTI_TY_7M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CAPELOTTI_TY_7M
   - type: Person
     code: PERSON-DEBERRY_GL_5Q
@@ -571,12 +575,12 @@ groups:
       first_name: Gloria
       last_name: DeBerry
   - type: Candidacy
-    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL-DEBERRY_GL_5Q
+    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL-DEBERRY_GL_5Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DEBERRY_GL_5Q
   - type: Person
     code: PERSON-DIERKER_DN_2H
@@ -586,12 +590,12 @@ groups:
       first_name: Denise
       last_name: Dierker
   - type: Candidacy
-    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL-DIERKER_DN_2H
+    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL-DIERKER_DN_2H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DIERKER_DN_2H
   - type: Person
     code: PERSON-GUARIN_GL_4D
@@ -601,12 +605,12 @@ groups:
       first_name: Glen
       last_name: Guarin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL-GUARIN_GL_4D
+    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL-GUARIN_GL_4D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GUARIN_GL_4D
   - type: Person
     code: PERSON-PENDLETON_JF_2M
@@ -616,12 +620,12 @@ groups:
       first_name: Jeffrey
       last_name: Pendleton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL-PENDLETON_JF_2M
+    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL-PENDLETON_JF_2M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PENDLETON_JF_2M
   - type: Person
     code: PERSON-TURPIN_MT_5D
@@ -631,12 +635,12 @@ groups:
       first_name: Matthew
       last_name: Turpin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL-TURPIN_MT_5D
+    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL-TURPIN_MT_5D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TURPIN_MT_5D
   - type: Person
     code: PERSON-WALKER_T_8G
@@ -647,30 +651,30 @@ groups:
       middle_name: Payne
       last_name: Walker
   - type: Candidacy
-    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL-WALKER_T_8G
+    code: CANDIDACY-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL-WALKER_T_8G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-FORT_WALTON_BEACH-FORT_WALTON_BEACH_COUNCIL_MEMBER-2026_GENERAL
+      race: RACE-USA-FL-FORT_WALTON_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WALKER_T_8G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-OKALOOSA
   - type: Race
-    code: RACE-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_OKALOOSA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-EVANCHYK_LN_3H
     attributes:
@@ -679,30 +683,30 @@ groups:
       first_name: Linda
       last_name: Evanchyk
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-EVANCHYK_LN_3H
+    code: CANDIDACY-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-EVANCHYK_LN_3H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-EVANCHYK_LN_3H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-OKALOOSA
   - type: Race
-    code: RACE-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_OKALOOSA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-HINELY_BR_9R
     attributes:
@@ -711,10 +715,10 @@ groups:
       first_name: Brett
       last_name: Hinely
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-HINELY_BR_9R
+    code: CANDIDACY-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-HINELY_BR_9R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_OKALOOSA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-HINELY_BR_9R

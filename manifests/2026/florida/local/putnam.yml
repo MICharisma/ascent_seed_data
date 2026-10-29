@@ -45,21 +45,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PUTNAM-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-PUTNAM
   - type: Race
-    code: RACE-USA-FL-COUNTY_PUTNAM-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PUTNAM-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PUTNAM-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-WILKINSON_LT_2W
     attributes:
@@ -69,7 +69,7 @@ groups:
       middle_name: D.
       last_name: Wilkinson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-WILKINSON_LT_2W
+    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-WILKINSON_LT_2W
     attributes:
       status: active
       participation: active
@@ -78,25 +78,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_PUTNAM-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-WILKINSON_LT_2W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PUTNAM-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-PUTNAM
   - type: Race
-    code: RACE-USA-FL-COUNTY_PUTNAM-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PUTNAM-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PUTNAM-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-BURCKHARD_RN_3L
     attributes:
@@ -105,7 +105,7 @@ groups:
       first_name: Ron
       last_name: Burckhard
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-BURCKHARD_RN_3L
+    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-BURCKHARD_RN_3L
     attributes:
       status: active
       participation: active
@@ -113,7 +113,7 @@ groups:
       - label: No Party Affiliation (Partisan)
         kind: designation
     references:
-      race: RACE-USA-FL-COUNTY_PUTNAM-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-BURCKHARD_RN_3L
   - type: Person
     code: PERSON-FLORENCE_JS_4M
@@ -123,7 +123,7 @@ groups:
       first_name: Joshua
       last_name: Florence
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-FLORENCE_JS_4M
+    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-FLORENCE_JS_4M
     attributes:
       status: active
       participation: active
@@ -132,7 +132,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_PUTNAM-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-FLORENCE_JS_4M
   - type: Person
     code: PERSON-HARVEY_LR_2E
@@ -142,7 +142,7 @@ groups:
       first_name: Larry
       last_name: Harvey
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-HARVEY_LR_2E
+    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-HARVEY_LR_2E
     attributes:
       status: active
       participation: active
@@ -151,24 +151,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_PUTNAM-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-HARVEY_LR_2E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PUTNAM-CITY_COMMISSIONER_GROUP_2
+    code: OFFICE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_2
     attributes:
+      seat_code: GROUP_2
       is_active: true
     references:
-      position: POSITION-CITY_COMMISSIONER_GROUP_2
+      position: POSITION-COMMISSIONER
       jurisdiction: COUNTY-USA-FL-PUTNAM
   - type: Race
-    code: RACE-USA-FL-COUNTY_PUTNAM-CITY_COMMISSIONER_GROUP_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=putnam&el=34.'
     references:
       election: ELECTION-USA-FL-COUNTY_PUTNAM-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PUTNAM-CITY_COMMISSIONER_GROUP_2
+      office: OFFICE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_2
   - type: Person
     code: PERSON-NORWOOD_JM_9D
     attributes:
@@ -177,12 +178,12 @@ groups:
       first_name: James
       last_name: Norwood, Jr
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-CITY_COMMISSIONER_GROUP_2-2026_GENERAL-NORWOOD_JM_9D
+    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_2-2026_GENERAL-NORWOOD_JM_9D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PUTNAM-CITY_COMMISSIONER_GROUP_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_2-2026_GENERAL
       person: PERSON-NORWOOD_JM_9D
   - type: Person
     code: PERSON-BATTS_JM_7H
@@ -193,29 +194,30 @@ groups:
       middle_name: C.
       last_name: Batts, Sr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-CITY_COMMISSIONER_GROUP_2-2026_GENERAL-BATTS_JM_7H
+    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_2-2026_GENERAL-BATTS_JM_7H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PUTNAM-CITY_COMMISSIONER_GROUP_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_2-2026_GENERAL
       person: PERSON-BATTS_JM_7H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PUTNAM-CITY_COMMISSIONER_GROUP_4
+    code: OFFICE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_4
     attributes:
+      seat_code: GROUP_4
       is_active: true
     references:
-      position: POSITION-CITY_COMMISSIONER_GROUP_4
+      position: POSITION-COMMISSIONER
       jurisdiction: COUNTY-USA-FL-PUTNAM
   - type: Race
-    code: RACE-USA-FL-COUNTY_PUTNAM-CITY_COMMISSIONER_GROUP_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=putnam&el=34.'
     references:
       election: ELECTION-USA-FL-COUNTY_PUTNAM-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PUTNAM-CITY_COMMISSIONER_GROUP_4
+      office: OFFICE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_4
   - type: Person
     code: PERSON-CAMPBELL_JS_6D
     attributes:
@@ -224,12 +226,12 @@ groups:
       first_name: Justin
       last_name: Campbell
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-CITY_COMMISSIONER_GROUP_4-2026_GENERAL-CAMPBELL_JS_6D
+    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_4-2026_GENERAL-CAMPBELL_JS_6D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PUTNAM-CITY_COMMISSIONER_GROUP_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_4-2026_GENERAL
       person: PERSON-CAMPBELL_JS_6D
   - type: Person
     code: PERSON-PIERCE_BR_2V
@@ -239,29 +241,30 @@ groups:
       first_name: Breanna
       last_name: Pierce
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-CITY_COMMISSIONER_GROUP_4-2026_GENERAL-PIERCE_BR_2V
+    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_4-2026_GENERAL-PIERCE_BR_2V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PUTNAM-CITY_COMMISSIONER_GROUP_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_4-2026_GENERAL
       person: PERSON-PIERCE_BR_2V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-CRESCENT_CITY-CITY_COMMISSIONER_GROUP_1_CRESCENT_CITY
+    code: OFFICE-USA-FL-CRESCENT_CITY-COMMISSIONER-GROUP_1
     attributes:
+      seat_code: GROUP_1
       is_active: true
     references:
-      position: POSITION-CITY_COMMISSIONER_GROUP_1_CRESCENT_CITY
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-CRESCENT_CITY
   - type: Race
-    code: RACE-USA-FL-CRESCENT_CITY-CITY_COMMISSIONER_GROUP_1_CRESCENT_CITY-2026_GENERAL
+    code: RACE-USA-FL-CRESCENT_CITY-COMMISSIONER-GROUP_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=putnam&el=34.'
     references:
       election: ELECTION-USA-FL-CRESCENT_CITY-2026_GENERAL
-      office: OFFICE-USA-FL-CRESCENT_CITY-CITY_COMMISSIONER_GROUP_1_CRESCENT_CITY
+      office: OFFICE-USA-FL-CRESCENT_CITY-COMMISSIONER-GROUP_1
   - type: Person
     code: PERSON-DEVITTO_LS_5P
     attributes:
@@ -271,29 +274,30 @@ groups:
       middle_name: Kane
       last_name: DeVitto
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CRESCENT_CITY-CITY_COMMISSIONER_GROUP_1_CRESCENT_CITY-2026_GENERAL-DEVITTO_LS_5P
+    code: CANDIDACY-USA-FL-CRESCENT_CITY-COMMISSIONER-GROUP_1-2026_GENERAL-DEVITTO_LS_5P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CRESCENT_CITY-CITY_COMMISSIONER_GROUP_1_CRESCENT_CITY-2026_GENERAL
+      race: RACE-USA-FL-CRESCENT_CITY-COMMISSIONER-GROUP_1-2026_GENERAL
       person: PERSON-DEVITTO_LS_5P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-CRESCENT_CITY-CITY_COMMISSIONER_GROUP_2_CRESCENT_CITY
+    code: OFFICE-USA-FL-CRESCENT_CITY-COMMISSIONER-GROUP_2
     attributes:
+      seat_code: GROUP_2
       is_active: true
     references:
-      position: POSITION-CITY_COMMISSIONER_GROUP_2_CRESCENT_CITY
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-CRESCENT_CITY
   - type: Race
-    code: RACE-USA-FL-CRESCENT_CITY-CITY_COMMISSIONER_GROUP_2_CRESCENT_CITY-2026_GENERAL
+    code: RACE-USA-FL-CRESCENT_CITY-COMMISSIONER-GROUP_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=putnam&el=34.'
     references:
       election: ELECTION-USA-FL-CRESCENT_CITY-2026_GENERAL
-      office: OFFICE-USA-FL-CRESCENT_CITY-CITY_COMMISSIONER_GROUP_2_CRESCENT_CITY
+      office: OFFICE-USA-FL-CRESCENT_CITY-COMMISSIONER-GROUP_2
   - type: Person
     code: PERSON-LAURIE_WL_5J
     attributes:
@@ -303,30 +307,30 @@ groups:
       middle_name: James
       last_name: Laurie
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CRESCENT_CITY-CITY_COMMISSIONER_GROUP_2_CRESCENT_CITY-2026_GENERAL-LAURIE_WL_5J
+    code: CANDIDACY-USA-FL-CRESCENT_CITY-COMMISSIONER-GROUP_2-2026_GENERAL-LAURIE_WL_5J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CRESCENT_CITY-CITY_COMMISSIONER_GROUP_2_CRESCENT_CITY-2026_GENERAL
+      race: RACE-USA-FL-CRESCENT_CITY-COMMISSIONER-GROUP_2-2026_GENERAL
       person: PERSON-LAURIE_WL_5J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-PUTNAM
   - type: Race
-    code: RACE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PUTNAM-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-PICKENS_HL_6Q
     attributes:
@@ -336,30 +340,30 @@ groups:
       middle_name: H.
       last_name: Pickens
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-PICKENS_HL_6Q
+    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-PICKENS_HL_6Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-PICKENS_HL_6Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-PUTNAM
   - type: Race
-    code: RACE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PUTNAM-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-WAGNER_LN_3Z
     attributes:
@@ -369,30 +373,30 @@ groups:
       middle_name: A.
       last_name: Wagner
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-WAGNER_LN_3Z
+    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-WAGNER_LN_3Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-WAGNER_LN_3Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-PUTNAM
   - type: Race
-    code: RACE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PUTNAM-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-LEARY_PH_7W
     attributes:
@@ -401,29 +405,30 @@ groups:
       first_name: Phil
       last_name: Leary
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-LEARY_PH_7W
+    code: CANDIDACY-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-LEARY_PH_7W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-LEARY_PH_7W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-POMONA_PARK-TOWN_COUNCIL_SEAT_1_POMONA_PARK
+    code: OFFICE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_1
     attributes:
+      seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCIL_SEAT_1_POMONA_PARK
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-POMONA_PARK
   - type: Race
-    code: RACE-USA-FL-POMONA_PARK-TOWN_COUNCIL_SEAT_1_POMONA_PARK-2026_GENERAL
+    code: RACE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=putnam&el=34.'
     references:
       election: ELECTION-USA-FL-POMONA_PARK-2026_GENERAL
-      office: OFFICE-USA-FL-POMONA_PARK-TOWN_COUNCIL_SEAT_1_POMONA_PARK
+      office: OFFICE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_1
   - type: Person
     code: PERSON-SWANSON_MR_3J
     attributes:
@@ -432,29 +437,30 @@ groups:
       first_name: Mark
       last_name: Swanson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-POMONA_PARK-TOWN_COUNCIL_SEAT_1_POMONA_PARK-2026_GENERAL-SWANSON_MR_3J
+    code: CANDIDACY-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_1-2026_GENERAL-SWANSON_MR_3J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-POMONA_PARK-TOWN_COUNCIL_SEAT_1_POMONA_PARK-2026_GENERAL
+      race: RACE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
       person: PERSON-SWANSON_MR_3J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-POMONA_PARK-TOWN_COUNCIL_SEAT_2_POMONA_PARK
+    code: OFFICE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_2
     attributes:
+      seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCIL_SEAT_2_POMONA_PARK
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-POMONA_PARK
   - type: Race
-    code: RACE-USA-FL-POMONA_PARK-TOWN_COUNCIL_SEAT_2_POMONA_PARK-2026_GENERAL
+    code: RACE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=putnam&el=34.'
     references:
       election: ELECTION-USA-FL-POMONA_PARK-2026_GENERAL
-      office: OFFICE-USA-FL-POMONA_PARK-TOWN_COUNCIL_SEAT_2_POMONA_PARK
+      office: OFFICE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_2
   - type: Person
     code: PERSON-CARROLL_DR_5U
     attributes:
@@ -464,29 +470,30 @@ groups:
       middle_name: Ann
       last_name: Carroll
   - type: Candidacy
-    code: CANDIDACY-USA-FL-POMONA_PARK-TOWN_COUNCIL_SEAT_2_POMONA_PARK-2026_GENERAL-CARROLL_DR_5U
+    code: CANDIDACY-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_2-2026_GENERAL-CARROLL_DR_5U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-POMONA_PARK-TOWN_COUNCIL_SEAT_2_POMONA_PARK-2026_GENERAL
+      race: RACE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_2-2026_GENERAL
       person: PERSON-CARROLL_DR_5U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-POMONA_PARK-TOWN_COUNCIL_SEAT_3_POMONA_PARK
+    code: OFFICE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_3
     attributes:
+      seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-TOWN_COUNCIL_SEAT_3_POMONA_PARK
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-POMONA_PARK
   - type: Race
-    code: RACE-USA-FL-POMONA_PARK-TOWN_COUNCIL_SEAT_3_POMONA_PARK-2026_GENERAL
+    code: RACE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=putnam&el=34.'
     references:
       election: ELECTION-USA-FL-POMONA_PARK-2026_GENERAL
-      office: OFFICE-USA-FL-POMONA_PARK-TOWN_COUNCIL_SEAT_3_POMONA_PARK
+      office: OFFICE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_3
   - type: Person
     code: PERSON-EVANS_CR_4A
     attributes:
@@ -495,29 +502,29 @@ groups:
       first_name: CarrieAnn
       last_name: Evans
   - type: Candidacy
-    code: CANDIDACY-USA-FL-POMONA_PARK-TOWN_COUNCIL_SEAT_3_POMONA_PARK-2026_GENERAL-EVANS_CR_4A
+    code: CANDIDACY-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_3-2026_GENERAL-EVANS_CR_4A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-POMONA_PARK-TOWN_COUNCIL_SEAT_3_POMONA_PARK-2026_GENERAL
+      race: RACE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
       person: PERSON-EVANS_CR_4A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-POMONA_PARK-TOWN_OF_POMONA_PARK_MAYOR
+    code: OFFICE-USA-FL-POMONA_PARK-MAYOR
     attributes:
       is_active: true
     references:
-      position: POSITION-TOWN_OF_POMONA_PARK_MAYOR
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-POMONA_PARK
   - type: Race
-    code: RACE-USA-FL-POMONA_PARK-TOWN_OF_POMONA_PARK_MAYOR-2026_GENERAL
+    code: RACE-USA-FL-POMONA_PARK-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=putnam&el=34.'
     references:
       election: ELECTION-USA-FL-POMONA_PARK-2026_GENERAL
-      office: OFFICE-USA-FL-POMONA_PARK-TOWN_OF_POMONA_PARK_MAYOR
+      office: OFFICE-USA-FL-POMONA_PARK-MAYOR
   - type: Person
     code: PERSON-ANDERSON_NL_8X
     attributes:
@@ -526,12 +533,12 @@ groups:
       first_name: Nelson
       last_name: Anderson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-POMONA_PARK-TOWN_OF_POMONA_PARK_MAYOR-2026_GENERAL-ANDERSON_NL_8X
+    code: CANDIDACY-USA-FL-POMONA_PARK-MAYOR-2026_GENERAL-ANDERSON_NL_8X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-POMONA_PARK-TOWN_OF_POMONA_PARK_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-POMONA_PARK-MAYOR-2026_GENERAL
       person: PERSON-ANDERSON_NL_8X
   - type: Person
     code: PERSON-CUEVAS_AN_7F
@@ -541,10 +548,10 @@ groups:
       first_name: Anthony
       last_name: Cuevas III
   - type: Candidacy
-    code: CANDIDACY-USA-FL-POMONA_PARK-TOWN_OF_POMONA_PARK_MAYOR-2026_GENERAL-CUEVAS_AN_7F
+    code: CANDIDACY-USA-FL-POMONA_PARK-MAYOR-2026_GENERAL-CUEVAS_AN_7F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-POMONA_PARK-TOWN_OF_POMONA_PARK_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-POMONA_PARK-MAYOR-2026_GENERAL
       person: PERSON-CUEVAS_AN_7F

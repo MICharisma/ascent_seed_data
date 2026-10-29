@@ -7,35 +7,34 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_DINWIDDIE-2026_GENERAL
+  code: ELECTION-USA-VA-MCKENNEY-2026_GENERAL
   attributes:
-    name: Dinwiddie County General Election 2026
+    name: McKenney General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-DINWIDDIE
+    jurisdiction: MUNICIPALITY-USA-VA-MCKENNEY
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_DINWIDDIE-MAYOR-TOWN_OF_MCKENNEY
+    code: OFFICE-USA-VA-MCKENNEY-MAYOR
     attributes:
-      seat_code: TOWN_OF_MCKENNEY
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-DINWIDDIE
+      jurisdiction: MUNICIPALITY-USA-VA-MCKENNEY
   - type: Race
-    code: RACE-USA-VA-COUNTY_DINWIDDIE-MAYOR-TOWN_OF_MCKENNEY-2026_GENERAL
+    code: RACE-USA-VA-MCKENNEY-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_DINWIDDIE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_DINWIDDIE-MAYOR-TOWN_OF_MCKENNEY
+      election: ELECTION-USA-VA-MCKENNEY-2026_GENERAL
+      office: OFFICE-USA-VA-MCKENNEY-MAYOR
   - type: Person
     code: PERSON-ABBEY_MG_7L
     attributes:
@@ -45,30 +44,29 @@ groups:
       middle_name: S. Haire
       last_name: Abbey
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DINWIDDIE-MAYOR-TOWN_OF_MCKENNEY-2026_GENERAL-ABBEY_MG_7L
+    code: CANDIDACY-USA-VA-MCKENNEY-MAYOR-2026_GENERAL-ABBEY_MG_7L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DINWIDDIE-MAYOR-TOWN_OF_MCKENNEY-2026_GENERAL
+      race: RACE-USA-VA-MCKENNEY-MAYOR-2026_GENERAL
       person: PERSON-ABBEY_MG_7L
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_DINWIDDIE-MEMBER_TOWN_COUNCIL-TOWN_OF_MCKENNEY
+    code: OFFICE-USA-VA-MCKENNEY-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_MCKENNEY
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-DINWIDDIE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-MCKENNEY
   - type: Race
-    code: RACE-USA-VA-COUNTY_DINWIDDIE-MEMBER_TOWN_COUNCIL-TOWN_OF_MCKENNEY-2026_GENERAL
+    code: RACE-USA-VA-MCKENNEY-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_DINWIDDIE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_DINWIDDIE-MEMBER_TOWN_COUNCIL-TOWN_OF_MCKENNEY
+      election: ELECTION-USA-VA-MCKENNEY-2026_GENERAL
+      office: OFFICE-USA-VA-MCKENNEY-COUNCIL_MEMBER
   - type: Person
     code: PERSON-MODRALL_AN_9V
     attributes:
@@ -78,12 +76,12 @@ groups:
       middle_name: M.
       last_name: Modrall
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DINWIDDIE-MEMBER_TOWN_COUNCIL-TOWN_OF_MCKENNEY-2026_GENERAL-MODRALL_AN_9V
+    code: CANDIDACY-USA-VA-MCKENNEY-COUNCIL_MEMBER-2026_GENERAL-MODRALL_AN_9V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DINWIDDIE-MEMBER_TOWN_COUNCIL-TOWN_OF_MCKENNEY-2026_GENERAL
+      race: RACE-USA-VA-MCKENNEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MODRALL_AN_9V
   - type: Person
     code: PERSON-ANDERSON_M_6P
@@ -94,12 +92,12 @@ groups:
       middle_name: E. "Beth"
       last_name: Anderson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DINWIDDIE-MEMBER_TOWN_COUNCIL-TOWN_OF_MCKENNEY-2026_GENERAL-ANDERSON_M_6P
+    code: CANDIDACY-USA-VA-MCKENNEY-COUNCIL_MEMBER-2026_GENERAL-ANDERSON_M_6P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DINWIDDIE-MEMBER_TOWN_COUNCIL-TOWN_OF_MCKENNEY-2026_GENERAL
+      race: RACE-USA-VA-MCKENNEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ANDERSON_M_6P
   - type: Person
     code: PERSON-WOODLAND_SR_8U
@@ -110,10 +108,10 @@ groups:
       middle_name: A.
       last_name: Woodland
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DINWIDDIE-MEMBER_TOWN_COUNCIL-TOWN_OF_MCKENNEY-2026_GENERAL-WOODLAND_SR_8U
+    code: CANDIDACY-USA-VA-MCKENNEY-COUNCIL_MEMBER-2026_GENERAL-WOODLAND_SR_8U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DINWIDDIE-MEMBER_TOWN_COUNCIL-TOWN_OF_MCKENNEY-2026_GENERAL
+      race: RACE-USA-VA-MCKENNEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WOODLAND_SR_8U

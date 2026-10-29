@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GILCHRIST-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_GILCHRIST-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-GILCHRIST
   - type: Race
-    code: RACE-USA-FL-COUNTY_GILCHRIST-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GILCHRIST-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GILCHRIST-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GILCHRIST-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_GILCHRIST-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-NESSMITH_CD_7M
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Cody
       last_name: NesSmith
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GILCHRIST-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-NESSMITH_CD_7M
+    code: CANDIDACY-USA-FL-COUNTY_GILCHRIST-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-NESSMITH_CD_7M
     attributes:
       status: active
       participation: active
@@ -53,25 +53,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_GILCHRIST-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GILCHRIST-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-NESSMITH_CD_7M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GILCHRIST-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_GILCHRIST-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-GILCHRIST
   - type: Race
-    code: RACE-USA-FL-COUNTY_GILCHRIST-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GILCHRIST-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GILCHRIST-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GILCHRIST-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_GILCHRIST-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-LANGFORD_TM_4T
     attributes:
@@ -80,7 +80,7 @@ groups:
       first_name: Tommy
       last_name: Langford
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GILCHRIST-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-LANGFORD_TM_4T
+    code: CANDIDACY-USA-FL-COUNTY_GILCHRIST-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-LANGFORD_TM_4T
     attributes:
       status: active
       participation: active
@@ -89,25 +89,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_GILCHRIST-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GILCHRIST-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-LANGFORD_TM_4T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-GILCHRIST
   - type: Race
-    code: RACE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GILCHRIST-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-BIDDLE_DV_7V
     attributes:
@@ -116,30 +116,30 @@ groups:
       first_name: David
       last_name: Biddle
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-BIDDLE_DV_7V
+    code: CANDIDACY-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-BIDDLE_DV_7V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-BIDDLE_DV_7V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-GILCHRIST
   - type: Race
-    code: RACE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GILCHRIST-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-SMITH_RY_3J
     attributes:
@@ -149,30 +149,30 @@ groups:
       middle_name: A
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-SMITH_RY_3J
+    code: CANDIDACY-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-SMITH_RY_3J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-SMITH_RY_3J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-GILCHRIST
   - type: Race
-    code: RACE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GILCHRIST-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-KEARNEY_CH_4K
     attributes:
@@ -181,30 +181,30 @@ groups:
       first_name: Charlotte
       last_name: Kearney
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-KEARNEY_CH_4K
+    code: CANDIDACY-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-KEARNEY_CH_4K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GILCHRIST-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-KEARNEY_CH_4K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_DISTRICT_1-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
     attributes:
       seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-SOIL_AND_WATER_DISTRICT_1
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-GILCHRIST
   - type: Race
-    code: RACE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_DISTRICT_1-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GILCHRIST-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_DISTRICT_1-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
   - type: Person
     code: PERSON-REED_JF_4C
     attributes:
@@ -213,30 +213,30 @@ groups:
       first_name: Jeffrey
       last_name: Reed
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_DISTRICT_1-SEAT_1-2026_GENERAL-REED_JF_4C
+    code: CANDIDACY-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL-REED_JF_4C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_DISTRICT_1-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
       person: PERSON-REED_JF_4C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_DISTRICT_3-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3
     attributes:
       seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-SOIL_AND_WATER_DISTRICT_3
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-GILCHRIST
   - type: Race
-    code: RACE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_DISTRICT_3-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GILCHRIST-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_DISTRICT_3-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3
   - type: Person
     code: PERSON-CRAWFORD_BR_7G
     attributes:
@@ -245,30 +245,30 @@ groups:
       first_name: Brett
       last_name: Crawford
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_DISTRICT_3-SEAT_3-2026_GENERAL-CRAWFORD_BR_7G
+    code: CANDIDACY-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL-CRAWFORD_BR_7G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_DISTRICT_3-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL
       person: PERSON-CRAWFORD_BR_7G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_DISTRICT_5-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
     attributes:
       seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-SOIL_AND_WATER_DISTRICT_5
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-GILCHRIST
   - type: Race
-    code: RACE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_DISTRICT_5-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_GILCHRIST-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_DISTRICT_5-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
   - type: Person
     code: PERSON-LANGFORD_MY_2D
     attributes:
@@ -277,10 +277,10 @@ groups:
       first_name: Myles
       last_name: Langford
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_DISTRICT_5-SEAT_5-2026_GENERAL-LANGFORD_MY_2D
+    code: CANDIDACY-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL-LANGFORD_MY_2D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_DISTRICT_5-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_GILCHRIST-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
       person: PERSON-LANGFORD_MY_2D

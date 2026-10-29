@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_COLUMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-COLUMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_COLUMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_COLUMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_COLUMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-FORD_RC_4B
     attributes:
@@ -44,12 +44,12 @@ groups:
       first_name: Rocky
       last_name: Ford
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_COLUMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-FORD_RC_4B
+    code: CANDIDACY-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-FORD_RC_4B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_COLUMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-FORD_RC_4B
   - type: Person
     code: PERSON-PITTMAN_CL_9K
@@ -59,30 +59,30 @@ groups:
       first_name: Clint
       last_name: Pittman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_COLUMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-PITTMAN_CL_9K
+    code: CANDIDACY-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-PITTMAN_CL_9K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_COLUMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-PITTMAN_CL_9K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_COLUMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-COLUMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_COLUMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_COLUMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_COLUMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-DICKS_CH_6C
     attributes:
@@ -91,12 +91,12 @@ groups:
       first_name: Chris
       last_name: Dicks
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_COLUMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-DICKS_CH_6C
+    code: CANDIDACY-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-DICKS_CH_6C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_COLUMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-DICKS_CH_6C
   - type: Person
     code: PERSON-PHILLIPS_EV_5M
@@ -106,12 +106,12 @@ groups:
       first_name: Everett
       last_name: Phillips
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_COLUMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-PHILLIPS_EV_5M
+    code: CANDIDACY-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-PHILLIPS_EV_5M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_COLUMBIA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-PHILLIPS_EV_5M
 - records:
   - type: Office
@@ -180,20 +180,20 @@ groups:
       person: PERSON-HILL_GR_4L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_OFFICER_MAYOR_CHAIR_ATTORNEY
+    code: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_OFFICER
     attributes:
       is_active: true
     references:
-      position: POSITION-COUNTY_OFFICER_MAYOR_CHAIR_ATTORNEY
+      position: POSITION-COUNTY_OFFICER
       jurisdiction: COUNTY-USA-FL-COLUMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_OFFICER_MAYOR_CHAIR_ATTORNEY-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_OFFICER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_COLUMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_OFFICER_MAYOR_CHAIR_ATTORNEY
+      office: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_OFFICER
   - type: Person
     code: PERSON-FOREMAN_JL_8T
     attributes:
@@ -203,30 +203,30 @@ groups:
       middle_name: F.
       last_name: Foreman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_COLUMBIA-COUNTY_OFFICER_MAYOR_CHAIR_ATTORNEY-2026_GENERAL-FOREMAN_JL_8T
+    code: CANDIDACY-USA-FL-COUNTY_COLUMBIA-COUNTY_OFFICER-2026_GENERAL-FOREMAN_JL_8T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_OFFICER_MAYOR_CHAIR_ATTORNEY-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_OFFICER-2026_GENERAL
       person: PERSON-FOREMAN_JL_8T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-COLUMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_COLUMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-SMITH_NR_6Z
     attributes:
@@ -235,30 +235,30 @@ groups:
       first_name: Narrie
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-SMITH_NR_6Z
+    code: CANDIDACY-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-SMITH_NR_6Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-SMITH_NR_6Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-COLUMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_COLUMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-HILL_CH_9B
     attributes:
@@ -268,30 +268,30 @@ groups:
       middle_name: Dicks
       last_name: Hill
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-HILL_CH_9B
+    code: CANDIDACY-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-HILL_CH_9B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-HILL_CH_9B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-COLUMBIA
   - type: Race
-    code: RACE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_COLUMBIA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-PEELER_HN_2E
     attributes:
@@ -300,10 +300,10 @@ groups:
       first_name: Hunter
       last_name: Peeler
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-PEELER_HN_2E
+    code: CANDIDACY-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-PEELER_HN_2E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-PEELER_HN_2E

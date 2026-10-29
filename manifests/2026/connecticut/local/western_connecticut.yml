@@ -1132,20 +1132,20 @@ groups:
       person: PERSON-SIGNORE_MR_6J
 - records:
   - type: Office
-    code: OFFICE-USA-CT-DARIEN-BOARD_OF_EDUCATION
+    code: OFFICE-USA-CT-DARIEN-SCHOOL_BOARD_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-BOARD_OF_EDUCATION
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: MUNICIPALITY-USA-CT-DARIEN
   - type: Race
-    code: RACE-USA-CT-DARIEN-BOARD_OF_EDUCATION-2026_GENERAL
+    code: RACE-USA-CT-DARIEN-SCHOOL_BOARD_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
     references:
       election: ELECTION-USA-CT-DARIEN-2026_GENERAL
-      office: OFFICE-USA-CT-DARIEN-BOARD_OF_EDUCATION
+      office: OFFICE-USA-CT-DARIEN-SCHOOL_BOARD_MEMBER
   - type: Person
     code: PERSON-HILL_CR_4E
     attributes:
@@ -1154,7 +1154,7 @@ groups:
       first_name: Crystal
       last_name: Hill
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-BOARD_OF_EDUCATION-2026_GENERAL-HILL_CR_4E
+    code: CANDIDACY-USA-CT-DARIEN-SCHOOL_BOARD_MEMBER-2026_GENERAL-HILL_CR_4E
     attributes:
       status: active
       participation: active
@@ -1163,7 +1163,7 @@ groups:
         kind: party
         party: PARTY-USA-CT-DEMOCRATIC
     references:
-      race: RACE-USA-CT-DARIEN-BOARD_OF_EDUCATION-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-HILL_CR_4E
   - type: Person
     code: PERSON-ORPHANOS_PT_3B
@@ -1174,7 +1174,7 @@ groups:
       middle_name: P.
       last_name: Orphanos
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-BOARD_OF_EDUCATION-2026_GENERAL-ORPHANOS_PT_3B
+    code: CANDIDACY-USA-CT-DARIEN-SCHOOL_BOARD_MEMBER-2026_GENERAL-ORPHANOS_PT_3B
     attributes:
       status: active
       participation: active
@@ -1183,7 +1183,7 @@ groups:
         kind: party
         party: PARTY-USA-CT-DEMOCRATIC
     references:
-      race: RACE-USA-CT-DARIEN-BOARD_OF_EDUCATION-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-ORPHANOS_PT_3B
   - type: Person
     code: PERSON-FLEITMAN_ZC_5H
@@ -1193,7 +1193,7 @@ groups:
       first_name: Zachary
       last_name: Fleitman
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-BOARD_OF_EDUCATION-2026_GENERAL-FLEITMAN_ZC_5H
+    code: CANDIDACY-USA-CT-DARIEN-SCHOOL_BOARD_MEMBER-2026_GENERAL-FLEITMAN_ZC_5H
     attributes:
       status: active
       participation: active
@@ -1202,7 +1202,7 @@ groups:
         kind: party
         party: PARTY-USA-CT-REPUBLICAN
     references:
-      race: RACE-USA-CT-DARIEN-BOARD_OF_EDUCATION-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-FLEITMAN_ZC_5H
   - type: Person
     code: PERSON-GRAMBLING_GR_9R
@@ -1212,7 +1212,7 @@ groups:
       first_name: Gregory
       last_name: Grambling
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-BOARD_OF_EDUCATION-2026_GENERAL-GRAMBLING_GR_9R
+    code: CANDIDACY-USA-CT-DARIEN-SCHOOL_BOARD_MEMBER-2026_GENERAL-GRAMBLING_GR_9R
     attributes:
       status: active
       participation: active
@@ -1221,24 +1221,24 @@ groups:
         kind: party
         party: PARTY-USA-CT-REPUBLICAN
     references:
-      race: RACE-USA-CT-DARIEN-BOARD_OF_EDUCATION-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-GRAMBLING_GR_9R
 - records:
   - type: Office
-    code: OFFICE-USA-CT-STAMFORD-BOARD_OF_EDUCATION
+    code: OFFICE-USA-CT-STAMFORD-SCHOOL_BOARD_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-BOARD_OF_EDUCATION
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: MUNICIPALITY-USA-CT-STAMFORD
   - type: Race
-    code: RACE-USA-CT-STAMFORD-BOARD_OF_EDUCATION-2026_GENERAL
+    code: RACE-USA-CT-STAMFORD-SCHOOL_BOARD_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
     references:
       election: ELECTION-USA-CT-STAMFORD-2026_GENERAL
-      office: OFFICE-USA-CT-STAMFORD-BOARD_OF_EDUCATION
+      office: OFFICE-USA-CT-STAMFORD-SCHOOL_BOARD_MEMBER
   - type: Person
     code: PERSON-ALLAN_RG_8H
     attributes:
@@ -1247,7 +1247,7 @@ groups:
       first_name: Regan
       last_name: Allan
   - type: Candidacy
-    code: CANDIDACY-USA-CT-STAMFORD-BOARD_OF_EDUCATION-2026_GENERAL-ALLAN_RG_8H
+    code: CANDIDACY-USA-CT-STAMFORD-SCHOOL_BOARD_MEMBER-2026_GENERAL-ALLAN_RG_8H
     attributes:
       status: active
       participation: active
@@ -1259,7 +1259,7 @@ groups:
         kind: party
         party: PARTY-USA-CT-INDEPENDENT
     references:
-      race: RACE-USA-CT-STAMFORD-BOARD_OF_EDUCATION-2026_GENERAL
+      race: RACE-USA-CT-STAMFORD-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-ALLAN_RG_8H
   - type: Person
     code: PERSON-GEORGE_AN_2E
@@ -1269,7 +1269,7 @@ groups:
       first_name: Andy
       last_name: George
   - type: Candidacy
-    code: CANDIDACY-USA-CT-STAMFORD-BOARD_OF_EDUCATION-2026_GENERAL-GEORGE_AN_2E
+    code: CANDIDACY-USA-CT-STAMFORD-SCHOOL_BOARD_MEMBER-2026_GENERAL-GEORGE_AN_2E
     attributes:
       status: active
       participation: active
@@ -1278,7 +1278,7 @@ groups:
         kind: party
         party: PARTY-USA-CT-DEMOCRATIC
     references:
-      race: RACE-USA-CT-STAMFORD-BOARD_OF_EDUCATION-2026_GENERAL
+      race: RACE-USA-CT-STAMFORD-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-GEORGE_AN_2E
   - type: Person
     code: PERSON-KOC_GB_7B
@@ -1288,7 +1288,7 @@ groups:
       first_name: Gabriela
       last_name: Koc
   - type: Candidacy
-    code: CANDIDACY-USA-CT-STAMFORD-BOARD_OF_EDUCATION-2026_GENERAL-KOC_GB_7B
+    code: CANDIDACY-USA-CT-STAMFORD-SCHOOL_BOARD_MEMBER-2026_GENERAL-KOC_GB_7B
     attributes:
       status: active
       participation: active
@@ -1297,7 +1297,7 @@ groups:
         kind: party
         party: PARTY-USA-CT-DEMOCRATIC
     references:
-      race: RACE-USA-CT-STAMFORD-BOARD_OF_EDUCATION-2026_GENERAL
+      race: RACE-USA-CT-STAMFORD-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-KOC_GB_7B
   - type: Person
     code: PERSON-TEJEDA_JS_6P
@@ -1307,7 +1307,7 @@ groups:
       first_name: Jose
       last_name: Tejeda
   - type: Candidacy
-    code: CANDIDACY-USA-CT-STAMFORD-BOARD_OF_EDUCATION-2026_GENERAL-TEJEDA_JS_6P
+    code: CANDIDACY-USA-CT-STAMFORD-SCHOOL_BOARD_MEMBER-2026_GENERAL-TEJEDA_JS_6P
     attributes:
       status: active
       participation: active
@@ -1319,25 +1319,25 @@ groups:
         kind: party
         party: PARTY-USA-CT-INDEPENDENT
     references:
-      race: RACE-USA-CT-STAMFORD-BOARD_OF_EDUCATION-2026_GENERAL
+      race: RACE-USA-CT-STAMFORD-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-TEJEDA_JS_6P
 - records:
   - type: Office
-    code: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1
+    code: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1
     attributes:
       seat_code: '1'
       is_active: true
     references:
-      position: POSITION-REPRESENTATIVE_TOWN_MEETING
+      position: POSITION-REPRESENTATIVE_TOWN_MEETING_MEMBER
       jurisdiction: MUNICIPALITY-USA-CT-DARIEN
   - type: Race
-    code: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1-2026_GENERAL
+    code: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
     references:
       election: ELECTION-USA-CT-DARIEN-2026_GENERAL
-      office: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1
+      office: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1
   - type: Person
     code: PERSON-WONG_PR_8U
     attributes:
@@ -1346,7 +1346,7 @@ groups:
       first_name: Priscilla
       last_name: Wong
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1-2026_GENERAL-WONG_PR_8U
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1-2026_GENERAL-WONG_PR_8U
     attributes:
       status: active
       participation: active
@@ -1354,7 +1354,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1-2026_GENERAL
       person: PERSON-WONG_PR_8U
   - type: Person
     code: PERSON-POWIS_CH_6R
@@ -1364,7 +1364,7 @@ groups:
       first_name: Charles
       last_name: Powis
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1-2026_GENERAL-POWIS_CH_6R
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1-2026_GENERAL-POWIS_CH_6R
     attributes:
       status: active
       participation: active
@@ -1372,7 +1372,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1-2026_GENERAL
       person: PERSON-POWIS_CH_6R
   - type: Person
     code: PERSON-CLARKSON_BL_2R
@@ -1382,7 +1382,7 @@ groups:
       first_name: Bill
       last_name: Clarkson
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1-2026_GENERAL-CLARKSON_BL_2R
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1-2026_GENERAL-CLARKSON_BL_2R
     attributes:
       status: active
       participation: active
@@ -1390,7 +1390,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1-2026_GENERAL
       person: PERSON-CLARKSON_BL_2R
   - type: Person
     code: PERSON-CLEMENTS_BT_8T
@@ -1400,7 +1400,7 @@ groups:
       first_name: Beatrice
       last_name: Clements
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1-2026_GENERAL-CLEMENTS_BT_8T
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1-2026_GENERAL-CLEMENTS_BT_8T
     attributes:
       status: active
       participation: active
@@ -1408,7 +1408,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1-2026_GENERAL
       person: PERSON-CLEMENTS_BT_8T
   - type: Person
     code: PERSON-CONOLOGUE_DN_9S
@@ -1418,7 +1418,7 @@ groups:
       first_name: Diane
       last_name: Conologue
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1-2026_GENERAL-CONOLOGUE_DN_9S
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1-2026_GENERAL-CONOLOGUE_DN_9S
     attributes:
       status: active
       participation: active
@@ -1426,7 +1426,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1-2026_GENERAL
       person: PERSON-CONOLOGUE_DN_9S
   - type: Person
     code: PERSON-TAVLARIOS_LN_3A
@@ -1436,7 +1436,7 @@ groups:
       first_name: Linda
       last_name: Tavlarios
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1-2026_GENERAL-TAVLARIOS_LN_3A
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1-2026_GENERAL-TAVLARIOS_LN_3A
     attributes:
       status: active
       participation: active
@@ -1444,25 +1444,25 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1-2026_GENERAL
       person: PERSON-TAVLARIOS_LN_3A
 - records:
   - type: Office
-    code: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_01
+    code: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_01
     attributes:
       seat_code: '1_01'
       is_active: true
     references:
-      position: POSITION-REPRESENTATIVE_TOWN_MEETING
+      position: POSITION-REPRESENTATIVE_TOWN_MEETING_MEMBER
       jurisdiction: MUNICIPALITY-USA-CT-DARIEN
   - type: Race
-    code: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_01-2026_GENERAL
+    code: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_01-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
     references:
       election: ELECTION-USA-CT-DARIEN-2026_GENERAL
-      office: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_01
+      office: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_01
   - type: Person
     code: PERSON-WONG_PR_3R
     attributes:
@@ -1471,7 +1471,7 @@ groups:
       first_name: Priscilla
       last_name: Wong
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_01-2026_GENERAL-WONG_PR_3R
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_01-2026_GENERAL-WONG_PR_3R
     attributes:
       status: active
       participation: active
@@ -1479,7 +1479,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_01-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_01-2026_GENERAL
       person: PERSON-WONG_PR_3R
   - type: Person
     code: PERSON-POWIS_CH_8Q
@@ -1489,7 +1489,7 @@ groups:
       first_name: Charles
       last_name: Powis
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_01-2026_GENERAL-POWIS_CH_8Q
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_01-2026_GENERAL-POWIS_CH_8Q
     attributes:
       status: active
       participation: active
@@ -1497,7 +1497,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_01-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_01-2026_GENERAL
       person: PERSON-POWIS_CH_8Q
   - type: Person
     code: PERSON-CLARKSON_BL_5L
@@ -1507,7 +1507,7 @@ groups:
       first_name: Bill
       last_name: Clarkson
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_01-2026_GENERAL-CLARKSON_BL_5L
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_01-2026_GENERAL-CLARKSON_BL_5L
     attributes:
       status: active
       participation: active
@@ -1515,7 +1515,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_01-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_01-2026_GENERAL
       person: PERSON-CLARKSON_BL_5L
   - type: Person
     code: PERSON-CLEMENTS_BT_6D
@@ -1525,7 +1525,7 @@ groups:
       first_name: Beatrice
       last_name: Clements
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_01-2026_GENERAL-CLEMENTS_BT_6D
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_01-2026_GENERAL-CLEMENTS_BT_6D
     attributes:
       status: active
       participation: active
@@ -1533,7 +1533,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_01-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_01-2026_GENERAL
       person: PERSON-CLEMENTS_BT_6D
   - type: Person
     code: PERSON-CONOLOGUE_DN_4X
@@ -1543,7 +1543,7 @@ groups:
       first_name: Diane
       last_name: Conologue
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_01-2026_GENERAL-CONOLOGUE_DN_4X
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_01-2026_GENERAL-CONOLOGUE_DN_4X
     attributes:
       status: active
       participation: active
@@ -1551,7 +1551,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_01-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_01-2026_GENERAL
       person: PERSON-CONOLOGUE_DN_4X
   - type: Person
     code: PERSON-TAVLARIOS_LN_4Z
@@ -1561,7 +1561,7 @@ groups:
       first_name: Linda
       last_name: Tavlarios
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_01-2026_GENERAL-TAVLARIOS_LN_4Z
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_01-2026_GENERAL-TAVLARIOS_LN_4Z
     attributes:
       status: active
       participation: active
@@ -1569,25 +1569,25 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_01-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_01-2026_GENERAL
       person: PERSON-TAVLARIOS_LN_4Z
 - records:
   - type: Office
-    code: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_02
+    code: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_02
     attributes:
       seat_code: '1_02'
       is_active: true
     references:
-      position: POSITION-REPRESENTATIVE_TOWN_MEETING
+      position: POSITION-REPRESENTATIVE_TOWN_MEETING_MEMBER
       jurisdiction: MUNICIPALITY-USA-CT-DARIEN
   - type: Race
-    code: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_02-2026_GENERAL
+    code: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_02-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
     references:
       election: ELECTION-USA-CT-DARIEN-2026_GENERAL
-      office: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_02
+      office: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_02
   - type: Person
     code: PERSON-WONG_PR_3H
     attributes:
@@ -1596,7 +1596,7 @@ groups:
       first_name: Priscilla
       last_name: Wong
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_02-2026_GENERAL-WONG_PR_3H
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_02-2026_GENERAL-WONG_PR_3H
     attributes:
       status: active
       participation: active
@@ -1604,7 +1604,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_02-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_02-2026_GENERAL
       person: PERSON-WONG_PR_3H
   - type: Person
     code: PERSON-POWIS_CH_6F
@@ -1614,7 +1614,7 @@ groups:
       first_name: Charles
       last_name: Powis
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_02-2026_GENERAL-POWIS_CH_6F
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_02-2026_GENERAL-POWIS_CH_6F
     attributes:
       status: active
       participation: active
@@ -1622,7 +1622,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_02-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_02-2026_GENERAL
       person: PERSON-POWIS_CH_6F
   - type: Person
     code: PERSON-CLARKSON_BL_5R
@@ -1632,7 +1632,7 @@ groups:
       first_name: Bill
       last_name: Clarkson
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_02-2026_GENERAL-CLARKSON_BL_5R
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_02-2026_GENERAL-CLARKSON_BL_5R
     attributes:
       status: active
       participation: active
@@ -1640,7 +1640,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_02-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_02-2026_GENERAL
       person: PERSON-CLARKSON_BL_5R
   - type: Person
     code: PERSON-CLEMENTS_BT_2X
@@ -1650,7 +1650,7 @@ groups:
       first_name: Beatrice
       last_name: Clements
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_02-2026_GENERAL-CLEMENTS_BT_2X
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_02-2026_GENERAL-CLEMENTS_BT_2X
     attributes:
       status: active
       participation: active
@@ -1658,7 +1658,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_02-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_02-2026_GENERAL
       person: PERSON-CLEMENTS_BT_2X
   - type: Person
     code: PERSON-CONOLOGUE_DN_3R
@@ -1668,7 +1668,7 @@ groups:
       first_name: Diane
       last_name: Conologue
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_02-2026_GENERAL-CONOLOGUE_DN_3R
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_02-2026_GENERAL-CONOLOGUE_DN_3R
     attributes:
       status: active
       participation: active
@@ -1676,7 +1676,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_02-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_02-2026_GENERAL
       person: PERSON-CONOLOGUE_DN_3R
   - type: Person
     code: PERSON-TAVLARIOS_LN_8B
@@ -1686,7 +1686,7 @@ groups:
       first_name: Linda
       last_name: Tavlarios
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_02-2026_GENERAL-TAVLARIOS_LN_8B
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_02-2026_GENERAL-TAVLARIOS_LN_8B
     attributes:
       status: active
       participation: active
@@ -1694,25 +1694,25 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-1_02-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-1_02-2026_GENERAL
       person: PERSON-TAVLARIOS_LN_8B
 - records:
   - type: Office
-    code: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-2
+    code: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-2
     attributes:
       seat_code: '2'
       is_active: true
     references:
-      position: POSITION-REPRESENTATIVE_TOWN_MEETING
+      position: POSITION-REPRESENTATIVE_TOWN_MEETING_MEMBER
       jurisdiction: MUNICIPALITY-USA-CT-DARIEN
   - type: Race
-    code: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-2-2026_GENERAL
+    code: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
     references:
       election: ELECTION-USA-CT-DARIEN-2026_GENERAL
-      office: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-2
+      office: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-2
   - type: Person
     code: PERSON-CASOLO_MC_7A
     attributes:
@@ -1722,7 +1722,7 @@ groups:
       middle_name: A.P.
       last_name: Casolo
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-2-2026_GENERAL-CASOLO_MC_7A
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-2-2026_GENERAL-CASOLO_MC_7A
     attributes:
       status: active
       participation: active
@@ -1730,7 +1730,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-2-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-2-2026_GENERAL
       person: PERSON-CASOLO_MC_7A
   - type: Person
     code: PERSON-RUSSELL_CH_6W
@@ -1740,7 +1740,7 @@ groups:
       first_name: Cheryl
       last_name: Russell
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-2-2026_GENERAL-RUSSELL_CH_6W
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-2-2026_GENERAL-RUSSELL_CH_6W
     attributes:
       status: active
       participation: active
@@ -1748,7 +1748,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-2-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-2-2026_GENERAL
       person: PERSON-RUSSELL_CH_6W
   - type: Person
     code: PERSON-BACON_LZ_3J
@@ -1758,7 +1758,7 @@ groups:
       first_name: Liz
       last_name: Bacon
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-2-2026_GENERAL-BACON_LZ_3J
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-2-2026_GENERAL-BACON_LZ_3J
     attributes:
       status: active
       participation: active
@@ -1766,7 +1766,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-2-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-2-2026_GENERAL
       person: PERSON-BACON_LZ_3J
   - type: Person
     code: PERSON-TESCHNER_CH_7V
@@ -1776,7 +1776,7 @@ groups:
       first_name: Charles
       last_name: Teschner
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-2-2026_GENERAL-TESCHNER_CH_7V
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-2-2026_GENERAL-TESCHNER_CH_7V
     attributes:
       status: active
       participation: active
@@ -1784,25 +1784,25 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-2-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-2-2026_GENERAL
       person: PERSON-TESCHNER_CH_7V
 - records:
   - type: Office
-    code: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-3
+    code: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-3
     attributes:
       seat_code: '3'
       is_active: true
     references:
-      position: POSITION-REPRESENTATIVE_TOWN_MEETING
+      position: POSITION-REPRESENTATIVE_TOWN_MEETING_MEMBER
       jurisdiction: MUNICIPALITY-USA-CT-DARIEN
   - type: Race
-    code: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-3-2026_GENERAL
+    code: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
     references:
       election: ELECTION-USA-CT-DARIEN-2026_GENERAL
-      office: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-3
+      office: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-3
   - type: Person
     code: PERSON-CROUSE_JF_6V
     attributes:
@@ -1811,7 +1811,7 @@ groups:
       first_name: Jeff
       last_name: Crouse
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-3-2026_GENERAL-CROUSE_JF_6V
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-3-2026_GENERAL-CROUSE_JF_6V
     attributes:
       status: active
       participation: active
@@ -1819,7 +1819,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-3-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-3-2026_GENERAL
       person: PERSON-CROUSE_JF_6V
   - type: Person
     code: PERSON-CREUTZ_DG_2D
@@ -1829,7 +1829,7 @@ groups:
       first_name: Doug
       last_name: Creutz
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-3-2026_GENERAL-CREUTZ_DG_2D
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-3-2026_GENERAL-CREUTZ_DG_2D
     attributes:
       status: active
       participation: active
@@ -1837,7 +1837,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-3-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-3-2026_GENERAL
       person: PERSON-CREUTZ_DG_2D
   - type: Person
     code: PERSON-BURLEIGH_JN_8J
@@ -1847,7 +1847,7 @@ groups:
       first_name: Jon
       last_name: Burleigh
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-3-2026_GENERAL-BURLEIGH_JN_8J
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-3-2026_GENERAL-BURLEIGH_JN_8J
     attributes:
       status: active
       participation: active
@@ -1855,7 +1855,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-3-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-3-2026_GENERAL
       person: PERSON-BURLEIGH_JN_8J
   - type: Person
     code: PERSON-DAVIS_JC_2F
@@ -1866,7 +1866,7 @@ groups:
       middle_name: H.
       last_name: Davis
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-3-2026_GENERAL-DAVIS_JC_2F
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-3-2026_GENERAL-DAVIS_JC_2F
     attributes:
       status: active
       participation: active
@@ -1874,25 +1874,25 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-3-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-3-2026_GENERAL
       person: PERSON-DAVIS_JC_2F
 - records:
   - type: Office
-    code: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-4
+    code: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-4
     attributes:
       seat_code: '4'
       is_active: true
     references:
-      position: POSITION-REPRESENTATIVE_TOWN_MEETING
+      position: POSITION-REPRESENTATIVE_TOWN_MEETING_MEMBER
       jurisdiction: MUNICIPALITY-USA-CT-DARIEN
   - type: Race
-    code: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-4-2026_GENERAL
+    code: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
     references:
       election: ELECTION-USA-CT-DARIEN-2026_GENERAL
-      office: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-4
+      office: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-4
   - type: Person
     code: PERSON-RAYHILL_BR_9C
     attributes:
@@ -1902,7 +1902,7 @@ groups:
       middle_name: J.
       last_name: Rayhill
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-4-2026_GENERAL-RAYHILL_BR_9C
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-4-2026_GENERAL-RAYHILL_BR_9C
     attributes:
       status: active
       participation: active
@@ -1910,7 +1910,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-4-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-4-2026_GENERAL
       person: PERSON-RAYHILL_BR_9C
   - type: Person
     code: PERSON-HSU_JN_3M
@@ -1920,7 +1920,7 @@ groups:
       first_name: Jean
       last_name: Hsu
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-4-2026_GENERAL-HSU_JN_3M
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-4-2026_GENERAL-HSU_JN_3M
     attributes:
       status: active
       participation: active
@@ -1928,7 +1928,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-4-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-4-2026_GENERAL
       person: PERSON-HSU_JN_3M
   - type: Person
     code: PERSON-OBIN_RL_3S
@@ -1939,7 +1939,7 @@ groups:
       middle_name: C.
       last_name: Obin
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-4-2026_GENERAL-OBIN_RL_3S
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-4-2026_GENERAL-OBIN_RL_3S
     attributes:
       status: active
       participation: active
@@ -1947,7 +1947,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-4-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-4-2026_GENERAL
       person: PERSON-OBIN_RL_3S
   - type: Person
     code: PERSON-RAYMOND_JN_9D
@@ -1957,7 +1957,7 @@ groups:
       first_name: Jan
       last_name: Raymond
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-4-2026_GENERAL-RAYMOND_JN_9D
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-4-2026_GENERAL-RAYMOND_JN_9D
     attributes:
       status: active
       participation: active
@@ -1965,7 +1965,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-4-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-4-2026_GENERAL
       person: PERSON-RAYMOND_JN_9D
   - type: Person
     code: PERSON-COONAN_DN_4K
@@ -1975,7 +1975,7 @@ groups:
       first_name: Dan
       last_name: Coonan
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-4-2026_GENERAL-COONAN_DN_4K
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-4-2026_GENERAL-COONAN_DN_4K
     attributes:
       status: active
       participation: active
@@ -1983,25 +1983,25 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-4-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-4-2026_GENERAL
       person: PERSON-COONAN_DN_4K
 - records:
   - type: Office
-    code: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5
+    code: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5
     attributes:
       seat_code: '5'
       is_active: true
     references:
-      position: POSITION-REPRESENTATIVE_TOWN_MEETING
+      position: POSITION-REPRESENTATIVE_TOWN_MEETING_MEMBER
       jurisdiction: MUNICIPALITY-USA-CT-DARIEN
   - type: Race
-    code: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL
+    code: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
     references:
       election: ELECTION-USA-CT-DARIEN-2026_GENERAL
-      office: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5
+      office: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5
   - type: Person
     code: PERSON-MALOOF_TD_2K
     attributes:
@@ -2010,7 +2010,7 @@ groups:
       first_name: Todd
       last_name: Maloof
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL-MALOOF_TD_2K
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL-MALOOF_TD_2K
     attributes:
       status: active
       participation: active
@@ -2018,7 +2018,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL
       person: PERSON-MALOOF_TD_2K
   - type: Person
     code: PERSON-BUSER_ZR_2K
@@ -2028,7 +2028,7 @@ groups:
       first_name: Zori
       last_name: Buser
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL-BUSER_ZR_2K
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL-BUSER_ZR_2K
     attributes:
       status: active
       participation: active
@@ -2036,7 +2036,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL
       person: PERSON-BUSER_ZR_2K
   - type: Person
     code: PERSON-BERNACCHI_DG_8U
@@ -2047,7 +2047,7 @@ groups:
       middle_name: Allen
       last_name: Bernacchi
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL-BERNACCHI_DG_8U
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL-BERNACCHI_DG_8U
     attributes:
       status: active
       participation: active
@@ -2055,7 +2055,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL
       person: PERSON-BERNACCHI_DG_8U
   - type: Person
     code: PERSON-SAVERINE_SL_4X
@@ -2065,7 +2065,7 @@ groups:
       first_name: Sloan
       last_name: Saverine
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL-SAVERINE_SL_4X
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL-SAVERINE_SL_4X
     attributes:
       status: active
       participation: active
@@ -2073,7 +2073,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL
       person: PERSON-SAVERINE_SL_4X
   - type: Person
     code: PERSON-GUADANO_AS_9T
@@ -2083,7 +2083,7 @@ groups:
       first_name: Ashley
       last_name: Guadano
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL-GUADANO_AS_9T
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL-GUADANO_AS_9T
     attributes:
       status: active
       participation: active
@@ -2091,7 +2091,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL
       person: PERSON-GUADANO_AS_9T
   - type: Person
     code: PERSON-ADILETTA_MR_5U
@@ -2101,7 +2101,7 @@ groups:
       first_name: Mark
       last_name: Adiletta
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL-ADILETTA_MR_5U
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL-ADILETTA_MR_5U
     attributes:
       status: active
       participation: active
@@ -2109,7 +2109,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL
       person: PERSON-ADILETTA_MR_5U
   - type: Person
     code: PERSON-WALKER_CH_3V
@@ -2119,7 +2119,7 @@ groups:
       first_name: Charlie
       last_name: Walker
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL-WALKER_CH_3V
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL-WALKER_CH_3V
     attributes:
       status: active
       participation: active
@@ -2127,7 +2127,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL
       person: PERSON-WALKER_CH_3V
   - type: Person
     code: PERSON-LAIRD_IN_2M
@@ -2137,7 +2137,7 @@ groups:
       first_name: Ian
       last_name: Laird
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL-LAIRD_IN_2M
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL-LAIRD_IN_2M
     attributes:
       status: active
       participation: active
@@ -2145,7 +2145,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL
       person: PERSON-LAIRD_IN_2M
   - type: Person
     code: PERSON-SMITH_DV_8J
@@ -2155,7 +2155,7 @@ groups:
       first_name: David
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL-SMITH_DV_8J
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL-SMITH_DV_8J
     attributes:
       status: active
       participation: active
@@ -2163,7 +2163,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL
       person: PERSON-SMITH_DV_8J
   - type: Person
     code: PERSON-BAYNE_DV_8P
@@ -2173,7 +2173,7 @@ groups:
       first_name: David
       last_name: Bayne
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL-BAYNE_DV_8P
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL-BAYNE_DV_8P
     attributes:
       status: active
       participation: active
@@ -2181,7 +2181,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL
       person: PERSON-BAYNE_DV_8P
   - type: Person
     code: PERSON-WHEELER_MC_7T
@@ -2191,7 +2191,7 @@ groups:
       first_name: Michael
       last_name: Wheeler
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL-WHEELER_MC_7T
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL-WHEELER_MC_7T
     attributes:
       status: active
       participation: active
@@ -2199,25 +2199,25 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-5-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-5-2026_GENERAL
       person: PERSON-WHEELER_MC_7T
 - records:
   - type: Office
-    code: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-6
+    code: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-6
     attributes:
       seat_code: '6'
       is_active: true
     references:
-      position: POSITION-REPRESENTATIVE_TOWN_MEETING
+      position: POSITION-REPRESENTATIVE_TOWN_MEETING_MEMBER
       jurisdiction: MUNICIPALITY-USA-CT-DARIEN
   - type: Race
-    code: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-6-2026_GENERAL
+    code: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-6-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
     references:
       election: ELECTION-USA-CT-DARIEN-2026_GENERAL
-      office: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-6
+      office: OFFICE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-6
   - type: Person
     code: PERSON-BARTNING_JS_6P
     attributes:
@@ -2226,7 +2226,7 @@ groups:
       first_name: Joseph
       last_name: Bartning
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-6-2026_GENERAL-BARTNING_JS_6P
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-6-2026_GENERAL-BARTNING_JS_6P
     attributes:
       status: active
       participation: active
@@ -2234,7 +2234,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-6-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-6-2026_GENERAL
       person: PERSON-BARTNING_JS_6P
   - type: Person
     code: PERSON-QUERIJERO_MC_8V
@@ -2244,7 +2244,7 @@ groups:
       first_name: Michael
       last_name: Querijero
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-6-2026_GENERAL-QUERIJERO_MC_8V
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-6-2026_GENERAL-QUERIJERO_MC_8V
     attributes:
       status: active
       participation: active
@@ -2252,7 +2252,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-6-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-6-2026_GENERAL
       person: PERSON-QUERIJERO_MC_8V
   - type: Person
     code: PERSON-SAVERINE_PT_6F
@@ -2263,7 +2263,7 @@ groups:
       middle_name: Charles
       last_name: Saverine
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-6-2026_GENERAL-SAVERINE_PT_6F
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-6-2026_GENERAL-SAVERINE_PT_6F
     attributes:
       status: active
       participation: active
@@ -2271,7 +2271,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-6-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-6-2026_GENERAL
       person: PERSON-SAVERINE_PT_6F
   - type: Person
     code: PERSON-LAURITZEN_SS_6N
@@ -2282,7 +2282,7 @@ groups:
       middle_name: R.
       last_name: Lauritzen
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-6-2026_GENERAL-LAURITZEN_SS_6N
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-6-2026_GENERAL-LAURITZEN_SS_6N
     attributes:
       status: active
       participation: active
@@ -2290,7 +2290,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-6-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-6-2026_GENERAL
       person: PERSON-LAURITZEN_SS_6N
   - type: Person
     code: PERSON-ADELMAN_FR_9Y
@@ -2300,7 +2300,7 @@ groups:
       first_name: Frank
       last_name: Adelman
   - type: Candidacy
-    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-6-2026_GENERAL-ADELMAN_FR_9Y
+    code: CANDIDACY-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-6-2026_GENERAL-ADELMAN_FR_9Y
     attributes:
       status: active
       participation: active
@@ -2308,7 +2308,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING-6-2026_GENERAL
+      race: RACE-USA-CT-DARIEN-REPRESENTATIVE_TOWN_MEETING_MEMBER-6-2026_GENERAL
       person: PERSON-ADELMAN_FR_9Y
 - records:
   - type: Office

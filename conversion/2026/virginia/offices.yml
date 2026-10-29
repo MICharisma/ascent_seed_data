@@ -1,0 +1,205 @@
+# How each printed local office title converts. The key is the title exactly as the source prints it.
+# A bare code names the Position the office fills; a mapping adds what the title prints beyond the role:
+#   position  the Position's code in manifests/foundation.yml
+#   seat      the seat the title names, used instead of the row's district
+#   part      a seat within the row's district that the title names, like Seat B; the office's seat ends with it
+#   body      the special district the title names; the office's seat starts with it
+#   town      the town the title names, used when the row's jurisdiction names none
+#   term      a race for part of a term, such as an unexpired term; the office stays the same
+# Every local title needs an entry: the conversion stops at one it cannot find.
+"Chairman Board of Supervisors": POSITION-COUNTY_BOARD_CHAIR
+"Clerk Of Court": POSITION-CLERK_OF_COURT
+"Clerk of Court": POSITION-CLERK_OF_COURT
+"Commissioner of Revenue": POSITION-COMMISSIONER_OF_REVENUE
+"Commonwealth's Attorney": POSITION-COMMONWEALTHS_ATTORNEY
+"Mayor": POSITION-MAYOR
+"Mayor - Alberta": POSITION-MAYOR
+"Mayor - Amherst": POSITION-MAYOR
+"Mayor - Appomattox": POSITION-MAYOR
+"Mayor - Belle Haven": POSITION-MAYOR
+"Mayor - Bloxom": POSITION-MAYOR
+"Mayor - Boykins": POSITION-MAYOR
+"Mayor - Bridgewater": POSITION-MAYOR
+"Mayor - Brookneal": POSITION-MAYOR
+"Mayor - Cape Charles": POSITION-MAYOR
+"Mayor - Capron": POSITION-MAYOR
+"Mayor - Chatham": POSITION-MAYOR
+"Mayor - Cheriton": POSITION-MAYOR
+"Mayor - Chilhowie": POSITION-MAYOR
+"Mayor - Clinchport": POSITION-MAYOR
+"Mayor - Courtland": POSITION-MAYOR
+"Mayor - Damascus": POSITION-MAYOR
+"Mayor - Dayton": POSITION-MAYOR
+"Mayor - Dumfries": POSITION-MAYOR
+"Mayor - Dungannon": POSITION-MAYOR
+"Mayor - Eastville": POSITION-MAYOR
+"Mayor - Elkton": POSITION-MAYOR
+"Mayor - Glade Spring": POSITION-MAYOR
+"Mayor - Goshen": POSITION-MAYOR
+"Mayor - Gretna": POSITION-MAYOR
+"Mayor - Hallwood": POSITION-MAYOR
+"Mayor - Haymarket": POSITION-MAYOR
+"Mayor - Ivor": POSITION-MAYOR
+"Mayor - Jonesville": POSITION-MAYOR
+"Mayor - Keller": POSITION-MAYOR
+"Mayor - Kenbridge": POSITION-MAYOR
+"Mayor - Kilmarnock": POSITION-MAYOR
+"Mayor - Lawrenceville": POSITION-MAYOR
+"Mayor - Leesburg": POSITION-MAYOR
+"Mayor - Lovettsville": POSITION-MAYOR
+"Mayor - Mt Crawford": POSITION-MAYOR
+"Mayor - Nickelsville": POSITION-MAYOR
+"Mayor - Occoquan": POSITION-MAYOR
+"Mayor - Onancock": POSITION-MAYOR
+"Mayor - Onley": POSITION-MAYOR
+"Mayor - Painter": POSITION-MAYOR
+"Mayor - Pamplin City": POSITION-MAYOR
+"Mayor - Pennington Gap": POSITION-MAYOR
+"Mayor - Pocahontas": POSITION-MAYOR
+"Mayor - Pound": POSITION-MAYOR
+"Mayor - Purcellville": POSITION-MAYOR
+"Mayor - Quantico": POSITION-MAYOR
+"Mayor - Richlands": POSITION-MAYOR
+"Mayor - Rocky Mount": POSITION-MAYOR
+"Mayor - Saltville": POSITION-MAYOR
+"Mayor - Saxis": POSITION-MAYOR
+"Mayor - Shenandoah": POSITION-MAYOR
+"Mayor - Tangier": POSITION-MAYOR
+"Mayor - Tazewell": POSITION-MAYOR
+"Mayor - Timberville": POSITION-MAYOR
+"Mayor - Victoria": POSITION-MAYOR
+"Mayor - Virgilina": POSITION-MAYOR
+"Mayor - Wachapreague": POSITION-MAYOR
+"Mayor - Weber City": POSITION-MAYOR
+"Mayor - White Stone": POSITION-MAYOR
+"Mayor, Town of Fincastle": POSITION-MAYOR
+"Member Board of Supervisors": POSITION-COUNTY_SUPERVISOR
+"Member Board of Supervisors - Special": POSITION-COUNTY_SUPERVISOR
+"Member Board of Supervisors At Large": { position: POSITION-COUNTY_SUPERVISOR, seat: At Large }
+"Member City Council": POSITION-COUNCIL_MEMBER
+"Member City Council - At Large": { position: POSITION-COUNCIL_MEMBER, seat: At Large }
+"Member City Council - Seat B": { position: POSITION-COUNCIL_MEMBER, part: Seat B }
+"Member City Council - Special": POSITION-COUNCIL_MEMBER
+"Member County Board": POSITION-COUNTY_BOARD_MEMBER
+"Member School Board": POSITION-SCHOOL_BOARD_MEMBER
+"Member School Board - At Large": { position: POSITION-SCHOOL_BOARD_MEMBER, seat: At Large }
+"Member School Board - At Large - Special": { position: POSITION-SCHOOL_BOARD_MEMBER, seat: At Large }
+"Member School Board - Colonial Beach": POSITION-SCHOOL_BOARD_MEMBER
+"Member School Board - Special": POSITION-SCHOOL_BOARD_MEMBER
+"Member School Board At Large": { position: POSITION-SCHOOL_BOARD_MEMBER, seat: At Large }
+"Member Town Council": POSITION-COUNCIL_MEMBER
+"Member Town Council - Abingdon": POSITION-COUNCIL_MEMBER
+"Member Town Council - Accomac": POSITION-COUNCIL_MEMBER
+"Member Town Council - Alberta": POSITION-COUNCIL_MEMBER
+"Member Town Council - Altavista": POSITION-COUNCIL_MEMBER
+"Member Town Council - Amherst": POSITION-COUNCIL_MEMBER
+"Member Town Council - Amherst - Special": POSITION-COUNCIL_MEMBER
+"Member Town Council - Appalachia": POSITION-COUNCIL_MEMBER
+"Member Town Council - Appomattox": POSITION-COUNCIL_MEMBER
+"Member Town Council - At Large": { position: POSITION-COUNCIL_MEMBER, seat: At Large }
+"Member Town Council - Belle Haven": POSITION-COUNCIL_MEMBER
+"Member Town Council - Bloxom": POSITION-COUNCIL_MEMBER
+"Member Town Council - Bluefield": POSITION-COUNCIL_MEMBER
+"Member Town Council - Boones Mill": POSITION-COUNCIL_MEMBER
+"Member Town Council - Boykins": POSITION-COUNCIL_MEMBER
+"Member Town Council - Bridgewater": POSITION-COUNCIL_MEMBER
+"Member Town Council - Bridgewater - Special": POSITION-COUNCIL_MEMBER
+"Member Town Council - Brookneal": POSITION-COUNCIL_MEMBER
+"Member Town Council - Cape Charles": POSITION-COUNCIL_MEMBER
+"Member Town Council - Capron": POSITION-COUNCIL_MEMBER
+"Member Town Council - Cedar Bluff": POSITION-COUNCIL_MEMBER
+"Member Town Council - Chatham": POSITION-COUNCIL_MEMBER
+"Member Town Council - Cheriton": POSITION-COUNCIL_MEMBER
+"Member Town Council - Chilhowie": POSITION-COUNCIL_MEMBER
+"Member Town Council - Chincoteague": POSITION-COUNCIL_MEMBER
+"Member Town Council - Clifton Forge": POSITION-COUNCIL_MEMBER
+"Member Town Council - Clinchport": POSITION-COUNCIL_MEMBER
+"Member Town Council - Coeburn": POSITION-COUNCIL_MEMBER
+"Member Town Council - Coeburn - Special": POSITION-COUNCIL_MEMBER
+"Member Town Council - Colonial Beach": POSITION-COUNCIL_MEMBER
+"Member Town Council - Courtland": POSITION-COUNCIL_MEMBER
+"Member Town Council - Craigsville": POSITION-COUNCIL_MEMBER
+"Member Town Council - Damascus": POSITION-COUNCIL_MEMBER
+"Member Town Council - Dayton": POSITION-COUNCIL_MEMBER
+"Member Town Council - Dayton - Special": POSITION-COUNCIL_MEMBER
+"Member Town Council - Duffield": POSITION-COUNCIL_MEMBER
+"Member Town Council - Dumfries": POSITION-COUNCIL_MEMBER
+"Member Town Council - Dungannon": POSITION-COUNCIL_MEMBER
+"Member Town Council - Eastville": POSITION-COUNCIL_MEMBER
+"Member Town Council - Elkton": POSITION-COUNCIL_MEMBER
+"Member Town Council - Exmore": POSITION-COUNCIL_MEMBER
+"Member Town Council - Gate City": POSITION-COUNCIL_MEMBER
+"Member Town Council - Glade Spring": POSITION-COUNCIL_MEMBER
+"Member Town Council - Glasgow": POSITION-COUNCIL_MEMBER
+"Member Town Council - Gordonsville": POSITION-COUNCIL_MEMBER
+"Member Town Council - Goshen": POSITION-COUNCIL_MEMBER
+"Member Town Council - Gretna": POSITION-COUNCIL_MEMBER
+"Member Town Council - Grottoes": POSITION-COUNCIL_MEMBER
+"Member Town Council - Hallwood": POSITION-COUNCIL_MEMBER
+"Member Town Council - Hamilton": POSITION-COUNCIL_MEMBER
+"Member Town Council - Haymarket": POSITION-COUNCIL_MEMBER
+"Member Town Council - Irvington": POSITION-COUNCIL_MEMBER
+"Member Town Council - Ivor": POSITION-COUNCIL_MEMBER
+"Member Town Council - Jonesville": POSITION-COUNCIL_MEMBER
+"Member Town Council - Keller": POSITION-COUNCIL_MEMBER
+"Member Town Council - Kilmarnock": POSITION-COUNCIL_MEMBER
+"Member Town Council - Lawrenceville": POSITION-COUNCIL_MEMBER
+"Member Town Council - Leesburg": POSITION-COUNCIL_MEMBER
+"Member Town Council - Lovettsville": POSITION-COUNCIL_MEMBER
+"Member Town Council - Luray": POSITION-COUNCIL_MEMBER
+"Member Town Council - Marion": POSITION-COUNCIL_MEMBER
+"Member Town Council - Melfa": POSITION-COUNCIL_MEMBER
+"Member Town Council - Montross": POSITION-COUNCIL_MEMBER
+"Member Town Council - Mt Crawford": POSITION-COUNCIL_MEMBER
+"Member Town Council - Mt Crawford -Special": POSITION-COUNCIL_MEMBER
+"Member Town Council - Nassawadox": POSITION-COUNCIL_MEMBER
+"Member Town Council - Newsoms": POSITION-COUNCIL_MEMBER
+"Member Town Council - Nickelsville": POSITION-COUNCIL_MEMBER
+"Member Town Council - Occoquan": POSITION-COUNCIL_MEMBER
+"Member Town Council - Onancock": POSITION-COUNCIL_MEMBER
+"Member Town Council - Onley": POSITION-COUNCIL_MEMBER
+"Member Town Council - Orange": POSITION-COUNCIL_MEMBER
+"Member Town Council - Painter": POSITION-COUNCIL_MEMBER
+"Member Town Council - Pamplin City": POSITION-COUNCIL_MEMBER
+"Member Town Council - Pamplin City - Special": POSITION-COUNCIL_MEMBER
+"Member Town Council - Parksley": POSITION-COUNCIL_MEMBER
+"Member Town Council - Pennington Gap": POSITION-COUNCIL_MEMBER
+"Member Town Council - Pocahontas": POSITION-COUNCIL_MEMBER
+"Member Town Council - Pound": POSITION-COUNCIL_MEMBER
+"Member Town Council - Purcellville": POSITION-COUNCIL_MEMBER
+"Member Town Council - Quantico": POSITION-COUNCIL_MEMBER
+"Member Town Council - Rich Creek - Special": POSITION-COUNCIL_MEMBER
+"Member Town Council - Richlands": POSITION-COUNCIL_MEMBER
+"Member Town Council - Rocky Mount": POSITION-COUNCIL_MEMBER
+"Member Town Council - Rural Retreat": POSITION-COUNCIL_MEMBER
+"Member Town Council - Saltville": POSITION-COUNCIL_MEMBER
+"Member Town Council - Saxis": POSITION-COUNCIL_MEMBER
+"Member Town Council - Shenandoah": POSITION-COUNCIL_MEMBER
+"Member Town Council - Smithfield": POSITION-COUNCIL_MEMBER
+"Member Town Council - Special": POSITION-COUNCIL_MEMBER
+"Member Town Council - Special - Edinburg": POSITION-COUNCIL_MEMBER
+"Member Town Council - Stanley": POSITION-COUNCIL_MEMBER
+"Member Town Council - Strasburg": POSITION-COUNCIL_MEMBER
+"Member Town Council - Tangier": POSITION-COUNCIL_MEMBER
+"Member Town Council - Tazewell": POSITION-COUNCIL_MEMBER
+"Member Town Council - Timberville": POSITION-COUNCIL_MEMBER
+"Member Town Council - Victoria": POSITION-COUNCIL_MEMBER
+"Member Town Council - Virgilina": POSITION-COUNCIL_MEMBER
+"Member Town Council - Wachapreague": POSITION-COUNCIL_MEMBER
+"Member Town Council - Weber City": POSITION-COUNCIL_MEMBER
+"Member Town Council - White Stone": POSITION-COUNCIL_MEMBER
+"Member Town Council - Windsor": POSITION-COUNCIL_MEMBER
+"Member Town Council - Wise": POSITION-COUNCIL_MEMBER
+"Member Town Council - Woodstock": POSITION-COUNCIL_MEMBER
+"Member Town Council - Wytheville": POSITION-COUNCIL_MEMBER
+"Member Town Council At Large": { position: POSITION-COUNCIL_MEMBER, seat: At Large }
+"Member Town Council, Buchanan": POSITION-COUNCIL_MEMBER
+"Member Town Council, Fincastle": POSITION-COUNCIL_MEMBER
+"Member Town Council, Troutville": POSITION-COUNCIL_MEMBER
+"Member, School Board": POSITION-SCHOOL_BOARD_MEMBER
+"Member, Town Council - Hurt": POSITION-COUNCIL_MEMBER
+"Recorder": POSITION-RECORDER
+"Recorder - Clinchport": POSITION-RECORDER
+"Sheriff": POSITION-SHERIFF
+"Treasurer": POSITION-TREASURER
+"Vice Mayor": POSITION-VICE_MAYOR

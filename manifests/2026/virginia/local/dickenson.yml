@@ -19,35 +19,46 @@ records:
     jurisdiction: COUNTY-USA-VA-DICKENSON
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_DICKENSON-2026_GENERAL
+  code: ELECTION-USA-VA-CLINTWOOD-2026_GENERAL
   attributes:
-    name: Dickenson County General Election 2026
+    name: Clintwood General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-DICKENSON
+    jurisdiction: MUNICIPALITY-USA-VA-CLINTWOOD
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-HAYSI-2026_GENERAL
+  attributes:
+    name: Haysi General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-HAYSI
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY-DICKENSON_COUNTY
+    code: OFFICE-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY
     attributes:
-      seat_code: DICKENSON_COUNTY
       is_active: true
     references:
       position: POSITION-COMMONWEALTHS_ATTORNEY
       jurisdiction: COUNTY-USA-VA-DICKENSON
   - type: Race
-    code: RACE-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY-DICKENSON_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_DICKENSON-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY-DICKENSON_COUNTY
+      office: OFFICE-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY
   - type: Person
     code: PERSON-EVANS_JS_4G
     attributes:
@@ -57,12 +68,12 @@ groups:
       middle_name: R.
       last_name: Evans
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY-DICKENSON_COUNTY-2026_SPECIAL-EVANS_JS_4G
+    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY-2026_SPECIAL-EVANS_JS_4G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY-DICKENSON_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY-2026_SPECIAL
       person: PERSON-EVANS_JS_4G
   - type: Person
     code: PERSON-MULLINS_ST_3S
@@ -73,30 +84,29 @@ groups:
       middle_name: W.
       last_name: Mullins
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY-DICKENSON_COUNTY-2026_SPECIAL-MULLINS_ST_3S
+    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY-2026_SPECIAL-MULLINS_ST_3S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY-DICKENSON_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY-2026_SPECIAL
       person: PERSON-MULLINS_ST_3S
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_DICKENSON-MAYOR-TOWN_OF_CLINTWOOD
+    code: OFFICE-USA-VA-CLINTWOOD-MAYOR
     attributes:
-      seat_code: TOWN_OF_CLINTWOOD
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-DICKENSON
+      jurisdiction: MUNICIPALITY-USA-VA-CLINTWOOD
   - type: Race
-    code: RACE-USA-VA-COUNTY_DICKENSON-MAYOR-TOWN_OF_CLINTWOOD-2026_GENERAL
+    code: RACE-USA-VA-CLINTWOOD-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_DICKENSON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_DICKENSON-MAYOR-TOWN_OF_CLINTWOOD
+      election: ELECTION-USA-VA-CLINTWOOD-2026_GENERAL
+      office: OFFICE-USA-VA-CLINTWOOD-MAYOR
   - type: Person
     code: PERSON-WYNN_CH_5K
     attributes:
@@ -106,12 +116,12 @@ groups:
       middle_name: H. "Charlie"
       last_name: Wynn
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-MAYOR-TOWN_OF_CLINTWOOD-2026_GENERAL-WYNN_CH_5K
+    code: CANDIDACY-USA-VA-CLINTWOOD-MAYOR-2026_GENERAL-WYNN_CH_5K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DICKENSON-MAYOR-TOWN_OF_CLINTWOOD-2026_GENERAL
+      race: RACE-USA-VA-CLINTWOOD-MAYOR-2026_GENERAL
       person: PERSON-WYNN_CH_5K
   - type: Person
     code: PERSON-LAMBERT_DN_3S
@@ -122,30 +132,29 @@ groups:
       middle_name: W.
       last_name: Lambert
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-MAYOR-TOWN_OF_CLINTWOOD-2026_GENERAL-LAMBERT_DN_3S
+    code: CANDIDACY-USA-VA-CLINTWOOD-MAYOR-2026_GENERAL-LAMBERT_DN_3S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DICKENSON-MAYOR-TOWN_OF_CLINTWOOD-2026_GENERAL
+      race: RACE-USA-VA-CLINTWOOD-MAYOR-2026_GENERAL
       person: PERSON-LAMBERT_DN_3S
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_CLINTWOOD
+    code: OFFICE-USA-VA-CLINTWOOD-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_CLINTWOOD
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-DICKENSON
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-CLINTWOOD
   - type: Race
-    code: RACE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_CLINTWOOD-2026_GENERAL
+    code: RACE-USA-VA-CLINTWOOD-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_DICKENSON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_CLINTWOOD
+      election: ELECTION-USA-VA-CLINTWOOD-2026_GENERAL
+      office: OFFICE-USA-VA-CLINTWOOD-COUNCIL_MEMBER
   - type: Person
     code: PERSON-EDWARDS_CR_3R
     attributes:
@@ -155,12 +164,12 @@ groups:
       middle_name: A.
       last_name: Edwards
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_CLINTWOOD-2026_GENERAL-EDWARDS_CR_3R
+    code: CANDIDACY-USA-VA-CLINTWOOD-COUNCIL_MEMBER-2026_GENERAL-EDWARDS_CR_3R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_CLINTWOOD-2026_GENERAL
+      race: RACE-USA-VA-CLINTWOOD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-EDWARDS_CR_3R
   - type: Person
     code: PERSON-ROSE_JM_5V
@@ -171,12 +180,12 @@ groups:
       middle_name: Andrew "Andy"
       last_name: Rose
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_CLINTWOOD-2026_GENERAL-ROSE_JM_5V
+    code: CANDIDACY-USA-VA-CLINTWOOD-COUNCIL_MEMBER-2026_GENERAL-ROSE_JM_5V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_CLINTWOOD-2026_GENERAL
+      race: RACE-USA-VA-CLINTWOOD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ROSE_JM_5V
   - type: Person
     code: PERSON-CHILDRESS_JM_9R
@@ -187,30 +196,29 @@ groups:
       middle_name: R. "Jim"
       last_name: Childress
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_CLINTWOOD-2026_GENERAL-CHILDRESS_JM_9R
+    code: CANDIDACY-USA-VA-CLINTWOOD-COUNCIL_MEMBER-2026_GENERAL-CHILDRESS_JM_9R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_CLINTWOOD-2026_GENERAL
+      race: RACE-USA-VA-CLINTWOOD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CHILDRESS_JM_9R
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_HAYSI
+    code: OFFICE-USA-VA-HAYSI-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_HAYSI
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-DICKENSON
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-HAYSI
   - type: Race
-    code: RACE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_HAYSI-2026_GENERAL
+    code: RACE-USA-VA-HAYSI-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_DICKENSON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_HAYSI
+      election: ELECTION-USA-VA-HAYSI-2026_GENERAL
+      office: OFFICE-USA-VA-HAYSI-COUNCIL_MEMBER
   - type: Person
     code: PERSON-THACKER_LL_2Q
     attributes:
@@ -220,12 +228,12 @@ groups:
       middle_name: Dalene
       last_name: Thacker
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_HAYSI-2026_GENERAL-THACKER_LL_2Q
+    code: CANDIDACY-USA-VA-HAYSI-COUNCIL_MEMBER-2026_GENERAL-THACKER_LL_2Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_HAYSI-2026_GENERAL
+      race: RACE-USA-VA-HAYSI-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-THACKER_LL_2Q
   - type: Person
     code: PERSON-HARRIS_MC_4R
@@ -236,12 +244,12 @@ groups:
       middle_name: S.
       last_name: Harris
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_HAYSI-2026_GENERAL-HARRIS_MC_4R
+    code: CANDIDACY-USA-VA-HAYSI-COUNCIL_MEMBER-2026_GENERAL-HARRIS_MC_4R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_HAYSI-2026_GENERAL
+      race: RACE-USA-VA-HAYSI-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HARRIS_MC_4R
   - type: Person
     code: PERSON-TILLER_SS_9G
@@ -252,12 +260,12 @@ groups:
       middle_name: M. Smith
       last_name: Tiller
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_HAYSI-2026_GENERAL-TILLER_SS_9G
+    code: CANDIDACY-USA-VA-HAYSI-COUNCIL_MEMBER-2026_GENERAL-TILLER_SS_9G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_HAYSI-2026_GENERAL
+      race: RACE-USA-VA-HAYSI-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TILLER_SS_9G
   - type: Person
     code: PERSON-WALLACE_TR_4P
@@ -268,29 +276,29 @@ groups:
       middle_name: A.
       last_name: Wallace
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_HAYSI-2026_GENERAL-WALLACE_TR_4P
+    code: CANDIDACY-USA-VA-HAYSI-COUNCIL_MEMBER-2026_GENERAL-WALLACE_TR_4P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL-TOWN_OF_HAYSI-2026_GENERAL
+      race: RACE-USA-VA-HAYSI-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WALLACE_TR_4P
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL_SPECIAL
+    code: OFFICE-USA-VA-COUNTY_DICKENSON-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_SPECIAL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-DICKENSON
   - type: Race
-    code: RACE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL_SPECIAL-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_DICKENSON-COUNCIL_MEMBER-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_DICKENSON-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL_SPECIAL
+      office: OFFICE-USA-VA-COUNTY_DICKENSON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BRANHAM_CR_7P
     attributes:
@@ -300,12 +308,12 @@ groups:
       middle_name: J.
       last_name: Branham
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL_SPECIAL-2026_SPECIAL-BRANHAM_CR_7P
+    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-COUNCIL_MEMBER-2026_SPECIAL-BRANHAM_CR_7P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL_SPECIAL-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_DICKENSON-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-BRANHAM_CR_7P
   - type: Person
     code: PERSON-MOORE_T_8F
@@ -316,10 +324,10 @@ groups:
       middle_name: Jane Vandyke
       last_name: Moore
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL_SPECIAL-2026_SPECIAL-MOORE_T_8F
+    code: CANDIDACY-USA-VA-COUNTY_DICKENSON-COUNCIL_MEMBER-2026_SPECIAL-MOORE_T_8F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_DICKENSON-MEMBER_TOWN_COUNCIL_SPECIAL-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_DICKENSON-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-MOORE_T_8F

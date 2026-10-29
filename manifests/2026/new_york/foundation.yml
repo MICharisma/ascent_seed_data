@@ -93,6 +93,36 @@ groups:
       name: City of Canandaigua Ward 1
     references:
       county: COUNTY-USA-NY-ONTARIO
+  - type: Municipality
+    code: MUNICIPALITY-USA-NY-CITY_OF_JAMESTOWN_WARD_2
+    attributes:
+      name: City of Jamestown Ward 2
+    references:
+      county: COUNTY-USA-NY-CHAUTAUQUA
+  - type: Municipality
+    code: MUNICIPALITY-USA-NY-TOWN_OF_ELLICOTT_WARD_1
+    attributes:
+      name: Town of Ellicott Ward 1
+    references:
+      county: COUNTY-USA-NY-CHAUTAUQUA
+  - type: Municipality
+    code: MUNICIPALITY-USA-NY-TOWN_OF_ELLICOTT_WARD_2
+    attributes:
+      name: Town of Ellicott Ward 2
+    references:
+      county: COUNTY-USA-NY-CHAUTAUQUA
+  - type: Municipality
+    code: MUNICIPALITY-USA-NY-TOWN_OF_ELLICOTT_WARD_3
+    attributes:
+      name: Town of Ellicott Ward 3
+    references:
+      county: COUNTY-USA-NY-CHAUTAUQUA
+  - type: Municipality
+    code: MUNICIPALITY-USA-NY-TOWN_OF_ELLICOTT_WARD_4
+    attributes:
+      name: Town of Ellicott Ward 4
+    references:
+      county: COUNTY-USA-NY-CHAUTAUQUA
   - type: District
     code: DISTRICT-USA-NY-ASSEMBLY-AD_1
     attributes:
@@ -973,26 +1003,6 @@ groups:
     attributes:
       name: New York Congressional District 9
       kind: congressional district
-  - type: District
-    code: DISTRICT-USA-NY-COUNTY_CLERK-PUTNAM_COUNTY_COUNTY
-    attributes:
-      name: New York County Clerk (Putnam County, County)
-      kind: county clerk district
-  - type: District
-    code: DISTRICT-USA-NY-COUNTY_CORONER-PUTNAM_COUNTY_COUNTY
-    attributes:
-      name: New York County Coroner (Putnam County, County)
-      kind: county coroner district
-  - type: District
-    code: DISTRICT-USA-NY-COUNTY_EXECUTIVE-PUTNAM_COUNTY_COUNTY
-    attributes:
-      name: New York County Executive (Putnam County, County)
-      kind: county executive district
-  - type: District
-    code: DISTRICT-USA-NY-COUNTY_LEGISLATOR-PUTNAM_COUNTY_COUNTY
-    attributes:
-      name: New York County Legislator (Putnam County, County)
-      kind: county legislator district
   - type: District
     code: DISTRICT-USA-NY-JUDICIAL-JD_1
     attributes:

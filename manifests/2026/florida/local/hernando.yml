@@ -33,21 +33,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HERNANDO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_HERNANDO-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-HERNANDO
   - type: Race
-    code: RACE-USA-FL-COUNTY_HERNANDO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HERNANDO-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HERNANDO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HERNANDO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_HERNANDO-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-BIRREN_KT_4D
     attributes:
@@ -56,7 +56,7 @@ groups:
       first_name: Kathryn
       last_name: Birren
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-BIRREN_KT_4D
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-BIRREN_KT_4D
     attributes:
       status: active
       participation: active
@@ -65,25 +65,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-BIRREN_KT_4D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HERNANDO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_HERNANDO-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-HERNANDO
   - type: Race
-    code: RACE-USA-FL-COUNTY_HERNANDO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HERNANDO-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HERNANDO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HERNANDO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_HERNANDO-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-BIGELOW_DN_5F
     attributes:
@@ -92,7 +92,7 @@ groups:
       first_name: Donald
       last_name: Bigelow
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-BIGELOW_DN_5F
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-BIGELOW_DN_5F
     attributes:
       status: active
       participation: active
@@ -100,7 +100,7 @@ groups:
       - label: Write-In
         kind: write_in
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-BIGELOW_DN_5F
   - type: Person
     code: PERSON-HOLCOMB_JF_4R
@@ -110,7 +110,7 @@ groups:
       first_name: Jeff
       last_name: Holcomb
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-HOLCOMB_JF_4R
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-HOLCOMB_JF_4R
     attributes:
       status: active
       participation: active
@@ -119,24 +119,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-HOLCOMB_JF_4R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_1
+    code: OFFICE-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_1
     attributes:
+      seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_1
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-BROOKSVILLE
   - type: Race
-    code: RACE-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hernando&el=32.'
     references:
       election: ELECTION-USA-FL-BROOKSVILLE-2026_GENERAL
-      office: OFFICE-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_1
+      office: OFFICE-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_1
   - type: Person
     code: PERSON-ERHARD_BT_4S
     attributes:
@@ -145,12 +146,12 @@ groups:
       first_name: Betty
       last_name: Erhard
   - type: Candidacy
-    code: CANDIDACY-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_1-2026_GENERAL-ERHARD_BT_4S
+    code: CANDIDACY-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_1-2026_GENERAL-ERHARD_BT_4S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
       person: PERSON-ERHARD_BT_4S
   - type: Person
     code: PERSON-WATSON_RB_9H
@@ -161,29 +162,30 @@ groups:
       middle_name: D.
       last_name: Watson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_1-2026_GENERAL-WATSON_RB_9H
+    code: CANDIDACY-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_1-2026_GENERAL-WATSON_RB_9H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
       person: PERSON-WATSON_RB_9H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_4
+    code: OFFICE-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_4
     attributes:
+      seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_4
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-BROOKSVILLE
   - type: Race
-    code: RACE-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hernando&el=32.'
     references:
       election: ELECTION-USA-FL-BROOKSVILLE-2026_GENERAL
-      office: OFFICE-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_4
+      office: OFFICE-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_4
   - type: Person
     code: PERSON-HODGES_NH_5M
     attributes:
@@ -192,12 +194,12 @@ groups:
       first_name: Noah
       last_name: Hodges
   - type: Candidacy
-    code: CANDIDACY-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_4-2026_GENERAL-HODGES_NH_5M
+    code: CANDIDACY-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_4-2026_GENERAL-HODGES_NH_5M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
       person: PERSON-HODGES_NH_5M
   - type: Person
     code: PERSON-MCCOSKRIE_JN_9T
@@ -207,29 +209,30 @@ groups:
       first_name: Jennifer
       last_name: McCoskrie
   - type: Candidacy
-    code: CANDIDACY-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_4-2026_GENERAL-MCCOSKRIE_JN_9T
+    code: CANDIDACY-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_4-2026_GENERAL-MCCOSKRIE_JN_9T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
       person: PERSON-MCCOSKRIE_JN_9T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_5
+    code: OFFICE-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_5
     attributes:
+      seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_5
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-BROOKSVILLE
   - type: Race
-    code: RACE-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=hernando&el=32.'
     references:
       election: ELECTION-USA-FL-BROOKSVILLE-2026_GENERAL
-      office: OFFICE-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_5
+      office: OFFICE-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_5
   - type: Person
     code: PERSON-BRONSON_WL_9S
     attributes:
@@ -239,30 +242,30 @@ groups:
       middle_name: Thomas
       last_name: Bronson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_5-2026_GENERAL-BRONSON_WL_9S
+    code: CANDIDACY-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_5-2026_GENERAL-BRONSON_WL_9S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-BROOKSVILLE-BROOKSVILLE_CITY_COUNCIL_MEMBER_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-BROOKSVILLE-COUNCIL_MEMBER-SEAT_5-2026_GENERAL
       person: PERSON-BRONSON_WL_9S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_SOUTHERN_HILLS_PLANTATION_1-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-CDD_SOUTHERN_HILLS_PLANTATION_1
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-HERNANDO
   - type: Race
-    code: RACE-USA-FL-COUNTY_HERNANDO-CDD_SOUTHERN_HILLS_PLANTATION_1-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HERNANDO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_SOUTHERN_HILLS_PLANTATION_1-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_1
   - type: Person
     code: PERSON-MCCOSKRIE_JH_6T
     attributes:
@@ -272,30 +275,30 @@ groups:
       middle_name: Hendrik
       last_name: McCoskrie
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-CDD_SOUTHERN_HILLS_PLANTATION_1-SEAT_1-2026_GENERAL-MCCOSKRIE_JH_6T
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_1-2026_GENERAL-MCCOSKRIE_JH_6T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-CDD_SOUTHERN_HILLS_PLANTATION_1-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_1-2026_GENERAL
       person: PERSON-MCCOSKRIE_JH_6T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_SOUTHERN_HILLS_PLANTATION_1-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-CDD_SOUTHERN_HILLS_PLANTATION_1
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-HERNANDO
   - type: Race
-    code: RACE-USA-FL-COUNTY_HERNANDO-CDD_SOUTHERN_HILLS_PLANTATION_1-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HERNANDO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_SOUTHERN_HILLS_PLANTATION_1-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_2
   - type: Person
     code: PERSON-PAKAN_RC_2R
     attributes:
@@ -304,30 +307,30 @@ groups:
       first_name: Richard
       last_name: Pakan
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-CDD_SOUTHERN_HILLS_PLANTATION_1-SEAT_2-2026_GENERAL-PAKAN_RC_2R
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_2-2026_GENERAL-PAKAN_RC_2R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-CDD_SOUTHERN_HILLS_PLANTATION_1-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_2-2026_GENERAL
       person: PERSON-PAKAN_RC_2R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_SOUTHERN_HILLS_PLANTATION_1-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-CDD_SOUTHERN_HILLS_PLANTATION_1
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-HERNANDO
   - type: Race
-    code: RACE-USA-FL-COUNTY_HERNANDO-CDD_SOUTHERN_HILLS_PLANTATION_1-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HERNANDO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_SOUTHERN_HILLS_PLANTATION_1-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_5
   - type: Person
     code: PERSON-BLOOMQUIST_MR_5L
     attributes:
@@ -336,30 +339,30 @@ groups:
       first_name: Margaret
       last_name: Bloomquist
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-CDD_SOUTHERN_HILLS_PLANTATION_1-SEAT_5-2026_GENERAL-BLOOMQUIST_MR_5L
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_5-2026_GENERAL-BLOOMQUIST_MR_5L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-CDD_SOUTHERN_HILLS_PLANTATION_1-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHERN_HILLS_PLANTATION_1_CDD_SEAT_5-2026_GENERAL
       person: PERSON-BLOOMQUIST_MR_5L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_SPRING_RIDGE-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_RIDGE_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: SPRING_RIDGE_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-CDD_SPRING_RIDGE
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-HERNANDO
   - type: Race
-    code: RACE-USA-FL-COUNTY_HERNANDO-CDD_SPRING_RIDGE-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_RIDGE_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HERNANDO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_SPRING_RIDGE-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_RIDGE_CDD_SEAT_1
   - type: Person
     code: PERSON-MARTINO_AN_5G
     attributes:
@@ -368,30 +371,30 @@ groups:
       first_name: Anthony
       last_name: Martino
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-CDD_SPRING_RIDGE-SEAT_1-2026_GENERAL-MARTINO_AN_5G
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_RIDGE_CDD_SEAT_1-2026_GENERAL-MARTINO_AN_5G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-CDD_SPRING_RIDGE-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_RIDGE_CDD_SEAT_1-2026_GENERAL
       person: PERSON-MARTINO_AN_5G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_SPRING_RIDGE-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_RIDGE_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: SPRING_RIDGE_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-CDD_SPRING_RIDGE
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-HERNANDO
   - type: Race
-    code: RACE-USA-FL-COUNTY_HERNANDO-CDD_SPRING_RIDGE-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_RIDGE_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HERNANDO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_SPRING_RIDGE-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_RIDGE_CDD_SEAT_2
   - type: Person
     code: PERSON-ORLANDO_MR_9W
     attributes:
@@ -401,30 +404,30 @@ groups:
       middle_name: "- Lyn"
       last_name: Orlando
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-CDD_SPRING_RIDGE-SEAT_2-2026_GENERAL-ORLANDO_MR_9W
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_RIDGE_CDD_SEAT_2-2026_GENERAL-ORLANDO_MR_9W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-CDD_SPRING_RIDGE-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_RIDGE_CDD_SEAT_2-2026_GENERAL
       person: PERSON-ORLANDO_MR_9W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_SPRING_RIDGE-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_RIDGE_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: SPRING_RIDGE_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-CDD_SPRING_RIDGE
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-HERNANDO
   - type: Race
-    code: RACE-USA-FL-COUNTY_HERNANDO-CDD_SPRING_RIDGE-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_RIDGE_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HERNANDO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_SPRING_RIDGE-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_RIDGE_CDD_SEAT_5
   - type: Person
     code: PERSON-BREKKA_JN_4A
     attributes:
@@ -433,30 +436,30 @@ groups:
       first_name: Jane
       last_name: Brekka
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-CDD_SPRING_RIDGE-SEAT_5-2026_GENERAL-BREKKA_JN_4A
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_RIDGE_CDD_SEAT_5-2026_GENERAL-BREKKA_JN_4A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-CDD_SPRING_RIDGE-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_RIDGE_CDD_SEAT_5-2026_GENERAL
       person: PERSON-BREKKA_JN_4A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: STERLING_HILL_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-CDD_STERLING_HILL
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-HERNANDO
   - type: Race
-    code: RACE-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HERNANDO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_1
   - type: Person
     code: PERSON-MARZULLI_MR_4F
     attributes:
@@ -466,30 +469,30 @@ groups:
       middle_name: Y.
       last_name: Marzulli
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_1-2026_GENERAL-MARZULLI_MR_4F
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_1-2026_GENERAL-MARZULLI_MR_4F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_1-2026_GENERAL
       person: PERSON-MARZULLI_MR_4F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: STERLING_HILL_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-CDD_STERLING_HILL
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-HERNANDO
   - type: Race
-    code: RACE-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HERNANDO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_2
   - type: Person
     code: PERSON-BAGNUOLO_DR_2F
     attributes:
@@ -498,12 +501,12 @@ groups:
       first_name: Darrin
       last_name: Bagnuolo
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_2-2026_GENERAL-BAGNUOLO_DR_2F
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_2-2026_GENERAL-BAGNUOLO_DR_2F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_2-2026_GENERAL
       person: PERSON-BAGNUOLO_DR_2F
   - type: Person
     code: PERSON-CLARK_LR_5U
@@ -513,30 +516,30 @@ groups:
       first_name: Laura
       last_name: Clark
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_2-2026_GENERAL-CLARK_LR_5U
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_2-2026_GENERAL-CLARK_LR_5U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_2-2026_GENERAL
       person: PERSON-CLARK_LR_5U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: STERLING_HILL_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-CDD_STERLING_HILL
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-HERNANDO
   - type: Race
-    code: RACE-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HERNANDO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_3
   - type: Person
     code: PERSON-MILLER_CH_7N
     attributes:
@@ -545,12 +548,12 @@ groups:
       first_name: Christina
       last_name: Miller
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_3-2026_GENERAL-MILLER_CH_7N
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_3-2026_GENERAL-MILLER_CH_7N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-CDD_STERLING_HILL-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STERLING_HILL_CDD_SEAT_3-2026_GENERAL
       person: PERSON-MILLER_CH_7N
 - records:
   - type: Office
@@ -587,21 +590,21 @@ groups:
       person: PERSON-HITZEMANN_KR_5K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HERNANDO
   - type: Race
-    code: RACE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HERNANDO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-PEARCE_DN_2S
     attributes:
@@ -610,30 +613,30 @@ groups:
       first_name: Dana
       last_name: Pearce
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-PEARCE_DN_2S
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-PEARCE_DN_2S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-PEARCE_DN_2S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HERNANDO
   - type: Race
-    code: RACE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HERNANDO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-RODRIGUEZ_SH_3H
     attributes:
@@ -642,30 +645,30 @@ groups:
       first_name: Shannon
       last_name: Rodriguez
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-RODRIGUEZ_SH_3H
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-RODRIGUEZ_SH_3H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-RODRIGUEZ_SH_3H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HERNANDO
   - type: Race
-    code: RACE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HERNANDO-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-CHAMPION_KR_9X
     attributes:
@@ -674,12 +677,12 @@ groups:
       first_name: Kara
       last_name: Champion
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-CHAMPION_KR_9X
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-CHAMPION_KR_9X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-CHAMPION_KR_9X
   - type: Person
     code: PERSON-DUVAL_SS_2Y
@@ -689,10 +692,10 @@ groups:
       first_name: Susan
       last_name: Duval
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-DUVAL_SS_2Y
+    code: CANDIDACY-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-DUVAL_SS_2Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HERNANDO-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-DUVAL_SS_2Y

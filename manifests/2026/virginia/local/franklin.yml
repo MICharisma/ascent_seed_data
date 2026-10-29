@@ -7,16 +7,16 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_FRANKLIN-2026_GENERAL
+  code: ELECTION-USA-VA-ROCKY_MOUNT-2026_GENERAL
   attributes:
-    name: Franklin County General Election 2026
+    name: Rocky Mount General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-FRANKLIN
+    jurisdiction: MUNICIPALITY-USA-VA-ROCKY_MOUNT
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-VA-COUNTY_FRANKLIN-2026_SPECIAL
@@ -30,24 +30,35 @@ records:
   references:
     jurisdiction: COUNTY-USA-VA-FRANKLIN
     year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-BOONES_MILL-2026_GENERAL
+  attributes:
+    name: Boones Mill General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-BOONES_MILL
+    year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FRANKLIN-MAYOR_ROCKY_MOUNT-TOWN_OF_ROCKY_MOUNT
+    code: OFFICE-USA-VA-ROCKY_MOUNT-MAYOR
     attributes:
-      seat_code: TOWN_OF_ROCKY_MOUNT
       is_active: true
     references:
-      position: POSITION-MAYOR_ROCKY_MOUNT
-      jurisdiction: COUNTY-USA-VA-FRANKLIN
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-ROCKY_MOUNT
   - type: Race
-    code: RACE-USA-VA-COUNTY_FRANKLIN-MAYOR_ROCKY_MOUNT-TOWN_OF_ROCKY_MOUNT-2026_GENERAL
+    code: RACE-USA-VA-ROCKY_MOUNT-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_FRANKLIN-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_FRANKLIN-MAYOR_ROCKY_MOUNT-TOWN_OF_ROCKY_MOUNT
+      election: ELECTION-USA-VA-ROCKY_MOUNT-2026_GENERAL
+      office: OFFICE-USA-VA-ROCKY_MOUNT-MAYOR
   - type: Person
     code: PERSON-PERDUE_CL_5N
     attributes:
@@ -57,30 +68,30 @@ groups:
       middle_name: Holland
       last_name: Perdue, III
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FRANKLIN-MAYOR_ROCKY_MOUNT-TOWN_OF_ROCKY_MOUNT-2026_GENERAL-PERDUE_CL_5N
+    code: CANDIDACY-USA-VA-ROCKY_MOUNT-MAYOR-2026_GENERAL-PERDUE_CL_5N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FRANKLIN-MAYOR_ROCKY_MOUNT-TOWN_OF_ROCKY_MOUNT-2026_GENERAL
+      race: RACE-USA-VA-ROCKY_MOUNT-MAYOR-2026_GENERAL
       person: PERSON-PERDUE_CL_5N
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FRANKLIN-MEMBER_SCHOOL_BOARD-UNION_HALL_DISTRICT
+    code: OFFICE-USA-VA-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-UNION_HALL_DISTRICT
     attributes:
       seat_code: UNION_HALL_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-FRANKLIN
   - type: Race
-    code: RACE-USA-VA-COUNTY_FRANKLIN-MEMBER_SCHOOL_BOARD-UNION_HALL_DISTRICT-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-UNION_HALL_DISTRICT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_FRANKLIN-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_FRANKLIN-MEMBER_SCHOOL_BOARD-UNION_HALL_DISTRICT
+      office: OFFICE-USA-VA-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-UNION_HALL_DISTRICT
   - type: Person
     code: PERSON-INGRAM_SN_6S
     attributes:
@@ -90,30 +101,29 @@ groups:
       middle_name: Cundiff
       last_name: Ingram
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FRANKLIN-MEMBER_SCHOOL_BOARD-UNION_HALL_DISTRICT-2026_SPECIAL-INGRAM_SN_6S
+    code: CANDIDACY-USA-VA-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-UNION_HALL_DISTRICT-2026_SPECIAL-INGRAM_SN_6S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FRANKLIN-MEMBER_SCHOOL_BOARD-UNION_HALL_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-UNION_HALL_DISTRICT-2026_SPECIAL
       person: PERSON-INGRAM_SN_6S
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FRANKLIN-MEMBER_TOWN_COUNCIL_BOONES_MILL-TOWN_OF_BOONES_MILL
+    code: OFFICE-USA-VA-BOONES_MILL-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_BOONES_MILL
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_BOONES_MILL
-      jurisdiction: COUNTY-USA-VA-FRANKLIN
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-BOONES_MILL
   - type: Race
-    code: RACE-USA-VA-COUNTY_FRANKLIN-MEMBER_TOWN_COUNCIL_BOONES_MILL-TOWN_OF_BOONES_MILL-2026_GENERAL
+    code: RACE-USA-VA-BOONES_MILL-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_FRANKLIN-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_FRANKLIN-MEMBER_TOWN_COUNCIL_BOONES_MILL-TOWN_OF_BOONES_MILL
+      election: ELECTION-USA-VA-BOONES_MILL-2026_GENERAL
+      office: OFFICE-USA-VA-BOONES_MILL-COUNCIL_MEMBER
   - type: Person
     code: PERSON-STEELE_PG_2W
     attributes:
@@ -123,12 +133,12 @@ groups:
       middle_name: B.
       last_name: Steele
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FRANKLIN-MEMBER_TOWN_COUNCIL_BOONES_MILL-TOWN_OF_BOONES_MILL-2026_GENERAL-STEELE_PG_2W
+    code: CANDIDACY-USA-VA-BOONES_MILL-COUNCIL_MEMBER-2026_GENERAL-STEELE_PG_2W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FRANKLIN-MEMBER_TOWN_COUNCIL_BOONES_MILL-TOWN_OF_BOONES_MILL-2026_GENERAL
+      race: RACE-USA-VA-BOONES_MILL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-STEELE_PG_2W
   - type: Person
     code: PERSON-MCFALLS_RH_5L
@@ -139,30 +149,29 @@ groups:
       middle_name: J.
       last_name: McFalls
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FRANKLIN-MEMBER_TOWN_COUNCIL_BOONES_MILL-TOWN_OF_BOONES_MILL-2026_GENERAL-MCFALLS_RH_5L
+    code: CANDIDACY-USA-VA-BOONES_MILL-COUNCIL_MEMBER-2026_GENERAL-MCFALLS_RH_5L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FRANKLIN-MEMBER_TOWN_COUNCIL_BOONES_MILL-TOWN_OF_BOONES_MILL-2026_GENERAL
+      race: RACE-USA-VA-BOONES_MILL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MCFALLS_RH_5L
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FRANKLIN-MEMBER_TOWN_COUNCIL_ROCKY_MOUNT-TOWN_OF_ROCKY_MOUNT
+    code: OFFICE-USA-VA-ROCKY_MOUNT-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_ROCKY_MOUNT
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_ROCKY_MOUNT
-      jurisdiction: COUNTY-USA-VA-FRANKLIN
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-ROCKY_MOUNT
   - type: Race
-    code: RACE-USA-VA-COUNTY_FRANKLIN-MEMBER_TOWN_COUNCIL_ROCKY_MOUNT-TOWN_OF_ROCKY_MOUNT-2026_GENERAL
+    code: RACE-USA-VA-ROCKY_MOUNT-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_FRANKLIN-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_FRANKLIN-MEMBER_TOWN_COUNCIL_ROCKY_MOUNT-TOWN_OF_ROCKY_MOUNT
+      election: ELECTION-USA-VA-ROCKY_MOUNT-2026_GENERAL
+      office: OFFICE-USA-VA-ROCKY_MOUNT-COUNCIL_MEMBER
   - type: Person
     code: PERSON-CASEY_A_9Q
     attributes:
@@ -172,12 +181,12 @@ groups:
       middle_name: Ralph
       last_name: Casey
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FRANKLIN-MEMBER_TOWN_COUNCIL_ROCKY_MOUNT-TOWN_OF_ROCKY_MOUNT-2026_GENERAL-CASEY_A_9Q
+    code: CANDIDACY-USA-VA-ROCKY_MOUNT-COUNCIL_MEMBER-2026_GENERAL-CASEY_A_9Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FRANKLIN-MEMBER_TOWN_COUNCIL_ROCKY_MOUNT-TOWN_OF_ROCKY_MOUNT-2026_GENERAL
+      race: RACE-USA-VA-ROCKY_MOUNT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CASEY_A_9Q
   - type: Person
     code: PERSON-MULLINS_BN_7P
@@ -188,12 +197,12 @@ groups:
       middle_name: K.
       last_name: Mullins
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FRANKLIN-MEMBER_TOWN_COUNCIL_ROCKY_MOUNT-TOWN_OF_ROCKY_MOUNT-2026_GENERAL-MULLINS_BN_7P
+    code: CANDIDACY-USA-VA-ROCKY_MOUNT-COUNCIL_MEMBER-2026_GENERAL-MULLINS_BN_7P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FRANKLIN-MEMBER_TOWN_COUNCIL_ROCKY_MOUNT-TOWN_OF_ROCKY_MOUNT-2026_GENERAL
+      race: RACE-USA-VA-ROCKY_MOUNT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MULLINS_BN_7P
   - type: Person
     code: PERSON-CLEMENTS_DV_3F
@@ -204,10 +213,10 @@ groups:
       middle_name: K.
       last_name: Clements
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FRANKLIN-MEMBER_TOWN_COUNCIL_ROCKY_MOUNT-TOWN_OF_ROCKY_MOUNT-2026_GENERAL-CLEMENTS_DV_3F
+    code: CANDIDACY-USA-VA-ROCKY_MOUNT-COUNCIL_MEMBER-2026_GENERAL-CLEMENTS_DV_3F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FRANKLIN-MEMBER_TOWN_COUNCIL_ROCKY_MOUNT-TOWN_OF_ROCKY_MOUNT-2026_GENERAL
+      race: RACE-USA-VA-ROCKY_MOUNT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CLEMENTS_DV_3F

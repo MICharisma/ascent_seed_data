@@ -93,21 +93,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-HUGHES_TM_5G
     attributes:
@@ -116,7 +116,7 @@ groups:
       first_name: Tim
       last_name: Hughes
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-HUGHES_TM_5G
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-HUGHES_TM_5G
     attributes:
       status: active
       participation: active
@@ -125,7 +125,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-HUGHES_TM_5G
   - type: Person
     code: PERSON-SCOTT_BR_6E
@@ -135,7 +135,7 @@ groups:
       first_name: Brian
       last_name: Scott
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-SCOTT_BR_6E
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-SCOTT_BR_6E
     attributes:
       status: active
       participation: active
@@ -144,25 +144,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-SCOTT_BR_6E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-EGGERS_DV_7H
     attributes:
@@ -171,7 +171,7 @@ groups:
       first_name: Dave
       last_name: Eggers
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-EGGERS_DV_7H
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-EGGERS_DV_7H
     attributes:
       status: active
       participation: active
@@ -180,25 +180,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-EGGERS_DV_7H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_6
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_6
     attributes:
       seat_code: DISTRICT_6
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_6-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_6-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_6
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_6
   - type: Person
     code: PERSON-GLENN_DV_3M
     attributes:
@@ -207,7 +207,7 @@ groups:
       first_name: David
       last_name: Glenn Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_6-2026_GENERAL-GLENN_DV_3M
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_6-2026_GENERAL-GLENN_DV_3M
     attributes:
       status: active
       participation: active
@@ -216,7 +216,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_6-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_6-2026_GENERAL
       person: PERSON-GLENN_DV_3M
   - type: Person
     code: PERSON-PETERS_KT_9W
@@ -226,7 +226,7 @@ groups:
       first_name: Kathleen
       last_name: Peters
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_6-2026_GENERAL-PETERS_KT_9W
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_6-2026_GENERAL-PETERS_KT_9W
     attributes:
       status: active
       participation: active
@@ -235,24 +235,24 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_6-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_6-2026_GENERAL
       person: PERSON-PETERS_KT_9W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-BELLEAIR_BEACH-CITY_OF_BELLEAIR_BEACH_COUNCILMEMBERS
+    code: OFFICE-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-CITY_OF_BELLEAIR_BEACH_COUNCILMEMBERS
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-BELLEAIR_BEACH
   - type: Race
-    code: RACE-USA-FL-BELLEAIR_BEACH-CITY_OF_BELLEAIR_BEACH_COUNCILMEMBERS-2026_GENERAL
+    code: RACE-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-11. Sources: https://www.votepinellas.gov/382/November-3-2026-General-Election-Informa.'
     references:
       election: ELECTION-USA-FL-BELLEAIR_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-BELLEAIR_BEACH-CITY_OF_BELLEAIR_BEACH_COUNCILMEMBERS
+      office: OFFICE-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER
   - type: Person
     code: PERSON-GOFF_KN_6N
     attributes:
@@ -262,12 +262,12 @@ groups:
       middle_name: A.
       last_name: Goff
   - type: Candidacy
-    code: CANDIDACY-USA-FL-BELLEAIR_BEACH-CITY_OF_BELLEAIR_BEACH_COUNCILMEMBERS-2026_GENERAL-GOFF_KN_6N
+    code: CANDIDACY-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER-2026_GENERAL-GOFF_KN_6N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-BELLEAIR_BEACH-CITY_OF_BELLEAIR_BEACH_COUNCILMEMBERS-2026_GENERAL
+      race: RACE-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GOFF_KN_6N
   - type: Person
     code: PERSON-HOPPER_AN_8L
@@ -277,12 +277,12 @@ groups:
       first_name: Annette
       last_name: Hopper
   - type: Candidacy
-    code: CANDIDACY-USA-FL-BELLEAIR_BEACH-CITY_OF_BELLEAIR_BEACH_COUNCILMEMBERS-2026_GENERAL-HOPPER_AN_8L
+    code: CANDIDACY-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER-2026_GENERAL-HOPPER_AN_8L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-BELLEAIR_BEACH-CITY_OF_BELLEAIR_BEACH_COUNCILMEMBERS-2026_GENERAL
+      race: RACE-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HOPPER_AN_8L
   - type: Person
     code: PERSON-ROBERTS_LL_9M
@@ -293,12 +293,12 @@ groups:
       middle_name: A.
       last_name: Roberts
   - type: Candidacy
-    code: CANDIDACY-USA-FL-BELLEAIR_BEACH-CITY_OF_BELLEAIR_BEACH_COUNCILMEMBERS-2026_GENERAL-ROBERTS_LL_9M
+    code: CANDIDACY-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER-2026_GENERAL-ROBERTS_LL_9M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-BELLEAIR_BEACH-CITY_OF_BELLEAIR_BEACH_COUNCILMEMBERS-2026_GENERAL
+      race: RACE-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ROBERTS_LL_9M
   - type: Person
     code: PERSON-SHIRLEY_JD_9P
@@ -308,29 +308,30 @@ groups:
       first_name: Jody
       last_name: Shirley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-BELLEAIR_BEACH-CITY_OF_BELLEAIR_BEACH_COUNCILMEMBERS-2026_GENERAL-SHIRLEY_JD_9P
+    code: CANDIDACY-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER-2026_GENERAL-SHIRLEY_JD_9P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-BELLEAIR_BEACH-CITY_OF_BELLEAIR_BEACH_COUNCILMEMBERS-2026_GENERAL
+      race: RACE-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SHIRLEY_JD_9P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-CLEARWATER-CITY_OF_CLEARWATER_COUNCILMEMBER_SEAT_5
+    code: OFFICE-USA-FL-CLEARWATER-COUNCIL_MEMBER-SEAT_5
     attributes:
+      seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-CITY_OF_CLEARWATER_COUNCILMEMBER_SEAT_5
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-CLEARWATER
   - type: Race
-    code: RACE-USA-FL-CLEARWATER-CITY_OF_CLEARWATER_COUNCILMEMBER_SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-CLEARWATER-COUNCIL_MEMBER-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-11. Sources: https://www.votepinellas.gov/382/November-3-2026-General-Election-Informa.'
     references:
       election: ELECTION-USA-FL-CLEARWATER-2026_GENERAL
-      office: OFFICE-USA-FL-CLEARWATER-CITY_OF_CLEARWATER_COUNCILMEMBER_SEAT_5
+      office: OFFICE-USA-FL-CLEARWATER-COUNCIL_MEMBER-SEAT_5
   - type: Person
     code: PERSON-BUNKER_MR_5U
     attributes:
@@ -339,12 +340,12 @@ groups:
       first_name: Mark
       last_name: Bunker
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CLEARWATER-CITY_OF_CLEARWATER_COUNCILMEMBER_SEAT_5-2026_GENERAL-BUNKER_MR_5U
+    code: CANDIDACY-USA-FL-CLEARWATER-COUNCIL_MEMBER-SEAT_5-2026_GENERAL-BUNKER_MR_5U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CLEARWATER-CITY_OF_CLEARWATER_COUNCILMEMBER_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-CLEARWATER-COUNCIL_MEMBER-SEAT_5-2026_GENERAL
       person: PERSON-BUNKER_MR_5U
   - type: Person
     code: PERSON-WILSON_SM_9B
@@ -354,29 +355,30 @@ groups:
       first_name: Sam
       last_name: Wilson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CLEARWATER-CITY_OF_CLEARWATER_COUNCILMEMBER_SEAT_5-2026_GENERAL-WILSON_SM_9B
+    code: CANDIDACY-USA-FL-CLEARWATER-COUNCIL_MEMBER-SEAT_5-2026_GENERAL-WILSON_SM_9B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CLEARWATER-CITY_OF_CLEARWATER_COUNCILMEMBER_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-CLEARWATER-COUNCIL_MEMBER-SEAT_5-2026_GENERAL
       person: PERSON-WILSON_SM_9B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-DUNEDIN-CITY_OF_DUNEDIN_COMMISSIONER_SEAT_4
+    code: OFFICE-USA-FL-DUNEDIN-COMMISSIONER-SEAT_4
     attributes:
+      seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-CITY_OF_DUNEDIN_COMMISSIONER_SEAT_4
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-DUNEDIN
   - type: Race
-    code: RACE-USA-FL-DUNEDIN-CITY_OF_DUNEDIN_COMMISSIONER_SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-DUNEDIN-COMMISSIONER-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-11. Sources: https://www.votepinellas.gov/382/November-3-2026-General-Election-Informa.'
     references:
       election: ELECTION-USA-FL-DUNEDIN-2026_GENERAL
-      office: OFFICE-USA-FL-DUNEDIN-CITY_OF_DUNEDIN_COMMISSIONER_SEAT_4
+      office: OFFICE-USA-FL-DUNEDIN-COMMISSIONER-SEAT_4
   - type: Person
     code: PERSON-BENNETT_NN_4X
     attributes:
@@ -385,12 +387,12 @@ groups:
       first_name: Nan
       last_name: Bennett
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DUNEDIN-CITY_OF_DUNEDIN_COMMISSIONER_SEAT_4-2026_GENERAL-BENNETT_NN_4X
+    code: CANDIDACY-USA-FL-DUNEDIN-COMMISSIONER-SEAT_4-2026_GENERAL-BENNETT_NN_4X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DUNEDIN-CITY_OF_DUNEDIN_COMMISSIONER_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-DUNEDIN-COMMISSIONER-SEAT_4-2026_GENERAL
       person: PERSON-BENNETT_NN_4X
   - type: Person
     code: PERSON-OSSIAN_MR_6W
@@ -401,29 +403,30 @@ groups:
       middle_name: A.
       last_name: Ossian
   - type: Candidacy
-    code: CANDIDACY-USA-FL-DUNEDIN-CITY_OF_DUNEDIN_COMMISSIONER_SEAT_4-2026_GENERAL-OSSIAN_MR_6W
+    code: CANDIDACY-USA-FL-DUNEDIN-COMMISSIONER-SEAT_4-2026_GENERAL-OSSIAN_MR_6W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-DUNEDIN-CITY_OF_DUNEDIN_COMMISSIONER_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-DUNEDIN-COMMISSIONER-SEAT_4-2026_GENERAL
       person: PERSON-OSSIAN_MR_6W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-LARGO-CITY_OF_LARGO_CITY_COMMISSIONER_SEAT_2
+    code: OFFICE-USA-FL-LARGO-COMMISSIONER-SEAT_2
     attributes:
+      seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-CITY_OF_LARGO_CITY_COMMISSIONER_SEAT_2
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-LARGO
   - type: Race
-    code: RACE-USA-FL-LARGO-CITY_OF_LARGO_CITY_COMMISSIONER_SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-LARGO-COMMISSIONER-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-11. Sources: https://www.votepinellas.gov/382/November-3-2026-General-Election-Informa.'
     references:
       election: ELECTION-USA-FL-LARGO-2026_GENERAL
-      office: OFFICE-USA-FL-LARGO-CITY_OF_LARGO_CITY_COMMISSIONER_SEAT_2
+      office: OFFICE-USA-FL-LARGO-COMMISSIONER-SEAT_2
   - type: Person
     code: PERSON-FAUSTINI_MT_4W
     attributes:
@@ -432,12 +435,12 @@ groups:
       first_name: Matthew
       last_name: Faustini
   - type: Candidacy
-    code: CANDIDACY-USA-FL-LARGO-CITY_OF_LARGO_CITY_COMMISSIONER_SEAT_2-2026_GENERAL-FAUSTINI_MT_4W
+    code: CANDIDACY-USA-FL-LARGO-COMMISSIONER-SEAT_2-2026_GENERAL-FAUSTINI_MT_4W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-LARGO-CITY_OF_LARGO_CITY_COMMISSIONER_SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-LARGO-COMMISSIONER-SEAT_2-2026_GENERAL
       person: PERSON-FAUSTINI_MT_4W
   - type: Person
     code: PERSON-HOLMES_CR_8L
@@ -448,29 +451,29 @@ groups:
       middle_name: A.
       last_name: Holmes
   - type: Candidacy
-    code: CANDIDACY-USA-FL-LARGO-CITY_OF_LARGO_CITY_COMMISSIONER_SEAT_2-2026_GENERAL-HOLMES_CR_8L
+    code: CANDIDACY-USA-FL-LARGO-COMMISSIONER-SEAT_2-2026_GENERAL-HOLMES_CR_8L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-LARGO-CITY_OF_LARGO_CITY_COMMISSIONER_SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-LARGO-COMMISSIONER-SEAT_2-2026_GENERAL
       person: PERSON-HOLMES_CR_8L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-SEMINOLE-CITY_OF_SEMINOLE_COUNCIL_MEMBERS
+    code: OFFICE-USA-FL-SEMINOLE-COUNCIL_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-CITY_OF_SEMINOLE_COUNCIL_MEMBERS
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-SEMINOLE
   - type: Race
-    code: RACE-USA-FL-SEMINOLE-CITY_OF_SEMINOLE_COUNCIL_MEMBERS-2026_GENERAL
+    code: RACE-USA-FL-SEMINOLE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-11. Sources: https://www.votepinellas.gov/382/November-3-2026-General-Election-Informa.'
     references:
       election: ELECTION-USA-FL-SEMINOLE-2026_GENERAL
-      office: OFFICE-USA-FL-SEMINOLE-CITY_OF_SEMINOLE_COUNCIL_MEMBERS
+      office: OFFICE-USA-FL-SEMINOLE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BELIVEAU_RY_4T
     attributes:
@@ -479,12 +482,12 @@ groups:
       first_name: Ray
       last_name: Beliveau
   - type: Candidacy
-    code: CANDIDACY-USA-FL-SEMINOLE-CITY_OF_SEMINOLE_COUNCIL_MEMBERS-2026_GENERAL-BELIVEAU_RY_4T
+    code: CANDIDACY-USA-FL-SEMINOLE-COUNCIL_MEMBER-2026_GENERAL-BELIVEAU_RY_4T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-SEMINOLE-CITY_OF_SEMINOLE_COUNCIL_MEMBERS-2026_GENERAL
+      race: RACE-USA-FL-SEMINOLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BELIVEAU_RY_4T
   - type: Person
     code: PERSON-LURIE_MK_3Q
@@ -494,12 +497,12 @@ groups:
       first_name: Mike
       last_name: Lurie
   - type: Candidacy
-    code: CANDIDACY-USA-FL-SEMINOLE-CITY_OF_SEMINOLE_COUNCIL_MEMBERS-2026_GENERAL-LURIE_MK_3Q
+    code: CANDIDACY-USA-FL-SEMINOLE-COUNCIL_MEMBER-2026_GENERAL-LURIE_MK_3Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-SEMINOLE-CITY_OF_SEMINOLE_COUNCIL_MEMBERS-2026_GENERAL
+      race: RACE-USA-FL-SEMINOLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LURIE_MK_3Q
   - type: Person
     code: PERSON-TUBBS_KD_6U
@@ -510,29 +513,30 @@ groups:
       middle_name: Hendricks
       last_name: Tubbs
   - type: Candidacy
-    code: CANDIDACY-USA-FL-SEMINOLE-CITY_OF_SEMINOLE_COUNCIL_MEMBERS-2026_GENERAL-TUBBS_KD_6U
+    code: CANDIDACY-USA-FL-SEMINOLE-COUNCIL_MEMBER-2026_GENERAL-TUBBS_KD_6U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-SEMINOLE-CITY_OF_SEMINOLE_COUNCIL_MEMBERS-2026_GENERAL
+      race: RACE-USA-FL-SEMINOLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TUBBS_KD_6U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_COUNCIL_MEMBER_DISTRICT_2
+    code: OFFICE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_2
     attributes:
+      seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-CITY_OF_ST_PETERSBURG_COUNCIL_MEMBER_DISTRICT_2
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-ST_PETERSBURG
   - type: Race
-    code: RACE-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_COUNCIL_MEMBER_DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-11. Sources: https://www.votepinellas.gov/382/November-3-2026-General-Election-Informa.'
     references:
       election: ELECTION-USA-FL-ST_PETERSBURG-2026_GENERAL
-      office: OFFICE-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_COUNCIL_MEMBER_DISTRICT_2
+      office: OFFICE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-BERMUDEZ_CR_6E
     attributes:
@@ -541,12 +545,12 @@ groups:
       first_name: Courtney
       last_name: Bermudez
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_COUNCIL_MEMBER_DISTRICT_2-2026_GENERAL-BERMUDEZ_CR_6E
+    code: CANDIDACY-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL-BERMUDEZ_CR_6E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_COUNCIL_MEMBER_DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-BERMUDEZ_CR_6E
   - type: Person
     code: PERSON-HAMENT_GB_7L
@@ -556,29 +560,30 @@ groups:
       first_name: Gabriel
       last_name: Hament
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_COUNCIL_MEMBER_DISTRICT_2-2026_GENERAL-HAMENT_GB_7L
+    code: CANDIDACY-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL-HAMENT_GB_7L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_COUNCIL_MEMBER_DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-HAMENT_GB_7L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_COUNCIL_MEMBER_DISTRICT_6
+    code: OFFICE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_6
     attributes:
+      seat_code: DISTRICT_6
       is_active: true
     references:
-      position: POSITION-CITY_OF_ST_PETERSBURG_COUNCIL_MEMBER_DISTRICT_6
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-ST_PETERSBURG
   - type: Race
-    code: RACE-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_COUNCIL_MEMBER_DISTRICT_6-2026_GENERAL
+    code: RACE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_6-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-11. Sources: https://www.votepinellas.gov/382/November-3-2026-General-Election-Informa.'
     references:
       election: ELECTION-USA-FL-ST_PETERSBURG-2026_GENERAL
-      office: OFFICE-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_COUNCIL_MEMBER_DISTRICT_6
+      office: OFFICE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_6
   - type: Person
     code: PERSON-GROVE_LN_5S
     attributes:
@@ -587,12 +592,12 @@ groups:
       first_name: Linsey
       last_name: Grove
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_COUNCIL_MEMBER_DISTRICT_6-2026_GENERAL-GROVE_LN_5S
+    code: CANDIDACY-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_6-2026_GENERAL-GROVE_LN_5S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_COUNCIL_MEMBER_DISTRICT_6-2026_GENERAL
+      race: RACE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_6-2026_GENERAL
       person: PERSON-GROVE_LN_5S
   - type: Person
     code: PERSON-MALLORY_TR_3V
@@ -602,29 +607,29 @@ groups:
       first_name: Trevor
       last_name: Mallory
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_COUNCIL_MEMBER_DISTRICT_6-2026_GENERAL-MALLORY_TR_3V
+    code: CANDIDACY-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_6-2026_GENERAL-MALLORY_TR_3V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_COUNCIL_MEMBER_DISTRICT_6-2026_GENERAL
+      race: RACE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_6-2026_GENERAL
       person: PERSON-MALLORY_TR_3V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_MAYOR
+    code: OFFICE-USA-FL-ST_PETERSBURG-MAYOR
     attributes:
       is_active: true
     references:
-      position: POSITION-CITY_OF_ST_PETERSBURG_MAYOR
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-ST_PETERSBURG
   - type: Race
-    code: RACE-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_MAYOR-2026_GENERAL
+    code: RACE-USA-FL-ST_PETERSBURG-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-11. Sources: https://www.votepinellas.gov/382/November-3-2026-General-Election-Informa.'
     references:
       election: ELECTION-USA-FL-ST_PETERSBURG-2026_GENERAL
-      office: OFFICE-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_MAYOR
+      office: OFFICE-USA-FL-ST_PETERSBURG-MAYOR
   - type: Person
     code: PERSON-CRIST_CH_8R
     attributes:
@@ -633,12 +638,12 @@ groups:
       first_name: Charlie
       last_name: Crist
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_MAYOR-2026_GENERAL-CRIST_CH_8R
+    code: CANDIDACY-USA-FL-ST_PETERSBURG-MAYOR-2026_GENERAL-CRIST_CH_8R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-ST_PETERSBURG-MAYOR-2026_GENERAL
       person: PERSON-CRIST_CH_8R
   - type: Person
     code: PERSON-WELCH_KN_2E
@@ -649,30 +654,30 @@ groups:
       middle_name: T.
       last_name: Welch
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_MAYOR-2026_GENERAL-WELCH_KN_2E
+    code: CANDIDACY-USA-FL-ST_PETERSBURG-MAYOR-2026_GENERAL-WELCH_KN_2E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ST_PETERSBURG-CITY_OF_ST_PETERSBURG_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-ST_PETERSBURG-MAYOR-2026_GENERAL
       person: PERSON-WELCH_KN_2E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-CLEARWATER_CAY_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: CLEARWATER_CAY_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-CLEARWATER_CAY_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-CLEARWATER_CAY_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-CLEARWATER_CAY_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_3
   - type: Person
     code: PERSON-MCKINNEY_JC_8Z
     attributes:
@@ -682,30 +687,30 @@ groups:
       middle_name: Ross
       last_name: McKinney
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-CLEARWATER_CAY_CDD-SEAT_3-2026_GENERAL-MCKINNEY_JC_8Z
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_3-2026_GENERAL-MCKINNEY_JC_8Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-CLEARWATER_CAY_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_3-2026_GENERAL
       person: PERSON-MCKINNEY_JC_8Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-CLEARWATER_CAY_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: CLEARWATER_CAY_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-CLEARWATER_CAY_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-CLEARWATER_CAY_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-CLEARWATER_CAY_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_4
   - type: Person
     code: PERSON-WILSON_JF_4N
     attributes:
@@ -715,30 +720,30 @@ groups:
       middle_name: D.
       last_name: Wilson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-CLEARWATER_CAY_CDD-SEAT_4-2026_GENERAL-WILSON_JF_4N
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_4-2026_GENERAL-WILSON_JF_4N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-CLEARWATER_CAY_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_4-2026_GENERAL
       person: PERSON-WILSON_JF_4N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-CLEARWATER_CAY_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: CLEARWATER_CAY_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-CLEARWATER_CAY_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-CLEARWATER_CAY_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-CLEARWATER_CAY_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_5
   - type: Person
     code: PERSON-ANASTASIO_AN_3T
     attributes:
@@ -748,12 +753,12 @@ groups:
       middle_name: A.
       last_name: Anastasio
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-CLEARWATER_CAY_CDD-SEAT_5-2026_GENERAL-ANASTASIO_AN_3T
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_5-2026_GENERAL-ANASTASIO_AN_3T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-CLEARWATER_CAY_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_5-2026_GENERAL
       person: PERSON-ANASTASIO_AN_3T
 - records:
   - type: Office
@@ -887,21 +892,21 @@ groups:
       person: PERSON-CARASSAS_JH_2B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_2
       is_active: true
     references:
-      position: POSITION-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST
+      position: POSITION-FIRE_DISTRICT_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_2
   - type: Person
     code: PERSON-DOWNES_JM_5U
     attributes:
@@ -910,12 +915,12 @@ groups:
       first_name: Jim
       last_name: Downes
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST-SEAT_2-2026_GENERAL-DOWNES_JM_5U
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_2-2026_GENERAL-DOWNES_JM_5U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_2-2026_GENERAL
       person: PERSON-DOWNES_JM_5U
   - type: Person
     code: PERSON-FORNWALT_BB_2P
@@ -925,30 +930,30 @@ groups:
       first_name: Bob
       last_name: Fornwalt
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST-SEAT_2-2026_GENERAL-FORNWALT_BB_2P
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_2-2026_GENERAL-FORNWALT_BB_2P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_2-2026_GENERAL
       person: PERSON-FORNWALT_BB_2P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_4
       is_active: true
     references:
-      position: POSITION-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST
+      position: POSITION-FIRE_DISTRICT_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_4
   - type: Person
     code: PERSON-PEASLEY_MC_2L
     attributes:
@@ -958,30 +963,30 @@ groups:
       middle_name: S.
       last_name: Peasley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST-SEAT_4-2026_GENERAL-PEASLEY_MC_2L
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_4-2026_GENERAL-PEASLEY_MC_2L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_4-2026_GENERAL
       person: PERSON-PEASLEY_MC_2L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: EASTLAKE_OAKS_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-EASTLAKE_OAKS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_1
   - type: Person
     code: PERSON-SARACKI_DN_4V
     attributes:
@@ -990,30 +995,30 @@ groups:
       first_name: Daniel
       last_name: Saracki
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_1-2026_GENERAL-SARACKI_DN_4V
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_1-2026_GENERAL-SARACKI_DN_4V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_1-2026_GENERAL
       person: PERSON-SARACKI_DN_4V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: EASTLAKE_OAKS_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-EASTLAKE_OAKS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_2
   - type: Person
     code: PERSON-MAIN_JS_6S
     attributes:
@@ -1022,12 +1027,12 @@ groups:
       first_name: Joshua
       last_name: Main
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_2-2026_GENERAL-MAIN_JS_6S
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_2-2026_GENERAL-MAIN_JS_6S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_2-2026_GENERAL
       person: PERSON-MAIN_JS_6S
   - type: Person
     code: PERSON-YAGNIK_JR_6D
@@ -1038,30 +1043,30 @@ groups:
       middle_name: '"Nick"'
       last_name: Yagnik
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_2-2026_GENERAL-YAGNIK_JR_6D
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_2-2026_GENERAL-YAGNIK_JR_6D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_2-2026_GENERAL
       person: PERSON-YAGNIK_JR_6D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: EASTLAKE_OAKS_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-EASTLAKE_OAKS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_3
   - type: Person
     code: PERSON-MARSH_CH_9W
     attributes:
@@ -1070,30 +1075,30 @@ groups:
       first_name: Chris
       last_name: Marsh
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_3-2026_GENERAL-MARSH_CH_9W
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_3-2026_GENERAL-MARSH_CH_9W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-EASTLAKE_OAKS_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_3-2026_GENERAL
       person: PERSON-MARSH_CH_9W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-LEALMAN_SPEC_FIRE_CONT_DIST-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_2
       is_active: true
     references:
-      position: POSITION-LEALMAN_SPEC_FIRE_CONT_DIST
+      position: POSITION-FIRE_DISTRICT_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-LEALMAN_SPEC_FIRE_CONT_DIST-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-LEALMAN_SPEC_FIRE_CONT_DIST-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_2
   - type: Person
     code: PERSON-LITTON_KT_3L
     attributes:
@@ -1103,30 +1108,30 @@ groups:
       middle_name: Quinn
       last_name: Litton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-LEALMAN_SPEC_FIRE_CONT_DIST-SEAT_2-2026_GENERAL-LITTON_KT_3L
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_2-2026_GENERAL-LITTON_KT_3L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-LEALMAN_SPEC_FIRE_CONT_DIST-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_2-2026_GENERAL
       person: PERSON-LITTON_KT_3L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-LEALMAN_SPEC_FIRE_CONT_DIST-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_4
       is_active: true
     references:
-      position: POSITION-LEALMAN_SPEC_FIRE_CONT_DIST
+      position: POSITION-FIRE_DISTRICT_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-LEALMAN_SPEC_FIRE_CONT_DIST-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-LEALMAN_SPEC_FIRE_CONT_DIST-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_4
   - type: Person
     code: PERSON-HARRIMAN_RB_5L
     attributes:
@@ -1135,30 +1140,30 @@ groups:
       first_name: Rebecca
       last_name: Harriman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-LEALMAN_SPEC_FIRE_CONT_DIST-SEAT_4-2026_GENERAL-HARRIMAN_RB_5L
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_4-2026_GENERAL-HARRIMAN_RB_5L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-LEALMAN_SPEC_FIRE_CONT_DIST-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_4-2026_GENERAL
       person: PERSON-HARRIMAN_RB_5L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_2
       is_active: true
     references:
-      position: POSITION-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST
+      position: POSITION-FIRE_DISTRICT_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_2
   - type: Person
     code: PERSON-NICHOLS_BN_2Q
     attributes:
@@ -1167,12 +1172,12 @@ groups:
       first_name: Benjamin
       last_name: Nichols
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST-SEAT_2-2026_GENERAL-NICHOLS_BN_2Q
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_2-2026_GENERAL-NICHOLS_BN_2Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_2-2026_GENERAL
       person: PERSON-NICHOLS_BN_2Q
   - type: Person
     code: PERSON-PELUSO_JL_6T
@@ -1182,30 +1187,30 @@ groups:
       first_name: Julie
       last_name: Peluso
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST-SEAT_2-2026_GENERAL-PELUSO_JL_6T
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_2-2026_GENERAL-PELUSO_JL_6T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_2-2026_GENERAL
       person: PERSON-PELUSO_JL_6T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_4
       is_active: true
     references:
-      position: POSITION-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST
+      position: POSITION-FIRE_DISTRICT_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_4
   - type: Person
     code: PERSON-WILLIAMS_ST_4C
     attributes:
@@ -1214,30 +1219,30 @@ groups:
       first_name: Stu
       last_name: Williams
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST-SEAT_4-2026_GENERAL-WILLIAMS_ST_4C
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_4-2026_GENERAL-WILLIAMS_ST_4C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_4-2026_GENERAL
       person: PERSON-WILLIAMS_ST_4C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-PINELLAS_SUNCOAST_FIRE_RES_DIST-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_1
       is_active: true
     references:
-      position: POSITION-PINELLAS_SUNCOAST_FIRE_RES_DIST
+      position: POSITION-FIRE_DISTRICT_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-PINELLAS_SUNCOAST_FIRE_RES_DIST-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-PINELLAS_SUNCOAST_FIRE_RES_DIST-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_1
   - type: Person
     code: PERSON-BOLLING_MR_4A
     attributes:
@@ -1247,30 +1252,30 @@ groups:
       middle_name: B.
       last_name: Bolling
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-PINELLAS_SUNCOAST_FIRE_RES_DIST-SEAT_1-2026_GENERAL-BOLLING_MR_4A
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_1-2026_GENERAL-BOLLING_MR_4A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-PINELLAS_SUNCOAST_FIRE_RES_DIST-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_1-2026_GENERAL
       person: PERSON-BOLLING_MR_4A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-PINELLAS_SUNCOAST_FIRE_RES_DIST-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_2
       is_active: true
     references:
-      position: POSITION-PINELLAS_SUNCOAST_FIRE_RES_DIST
+      position: POSITION-FIRE_DISTRICT_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-PINELLAS_SUNCOAST_FIRE_RES_DIST-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-PINELLAS_SUNCOAST_FIRE_RES_DIST-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_2
   - type: Person
     code: PERSON-MCKENNA_EL_8H
     attributes:
@@ -1280,12 +1285,12 @@ groups:
       middle_name: '"Betsey"'
       last_name: McKenna
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-PINELLAS_SUNCOAST_FIRE_RES_DIST-SEAT_2-2026_GENERAL-MCKENNA_EL_8H
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_2-2026_GENERAL-MCKENNA_EL_8H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-PINELLAS_SUNCOAST_FIRE_RES_DIST-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_2-2026_GENERAL
       person: PERSON-MCKENNA_EL_8H
   - type: Person
     code: PERSON-MYNSBERGE_DN_2N
@@ -1295,30 +1300,30 @@ groups:
       first_name: Daniel
       last_name: Mynsberge
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-PINELLAS_SUNCOAST_FIRE_RES_DIST-SEAT_2-2026_GENERAL-MYNSBERGE_DN_2N
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_2-2026_GENERAL-MYNSBERGE_DN_2N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-PINELLAS_SUNCOAST_FIRE_RES_DIST-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_2-2026_GENERAL
       person: PERSON-MYNSBERGE_DN_2N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-CANE_LS_4Z
     attributes:
@@ -1327,30 +1332,30 @@ groups:
       first_name: Lisa
       last_name: Cane
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-CANE_LS_4Z
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-CANE_LS_4Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-CANE_LS_4Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-CAMPOGNI_CR_3Y
     attributes:
@@ -1359,12 +1364,12 @@ groups:
       first_name: Curtis
       last_name: Campogni
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-CAMPOGNI_CR_3Y
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-CAMPOGNI_CR_3Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-CAMPOGNI_CR_3Y
   - type: Person
     code: PERSON-PETERS_DW_7G
@@ -1374,30 +1379,30 @@ groups:
       first_name: Dawn
       last_name: Peters
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-PETERS_DW_7G
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-PETERS_DW_7G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-PETERS_DW_7G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_6
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_6
     attributes:
       seat_code: DISTRICT_6
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_6-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_6-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_6
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_6
   - type: Person
     code: PERSON-BOSTOCK_NN_6K
     attributes:
@@ -1407,30 +1412,30 @@ groups:
       middle_name: Nelis
       last_name: Bostock
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_6-2026_GENERAL-BOSTOCK_NN_6K
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_6-2026_GENERAL-BOSTOCK_NN_6K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_6-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_6-2026_GENERAL
       person: PERSON-BOSTOCK_NN_6K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_7
+    code: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_7
     attributes:
       seat_code: DISTRICT_7
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-PINELLAS
   - type: Race
-    code: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_7-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_7-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_7
+      office: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_7
   - type: Person
     code: PERSON-EDMOND_CP_9A
     attributes:
@@ -1439,10 +1444,10 @@ groups:
       first_name: Caprice
       last_name: Edmond
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_7-2026_GENERAL-EDMOND_CP_9A
+    code: CANDIDACY-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_7-2026_GENERAL-EDMOND_CP_9A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD-DISTRICT_7-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_7-2026_GENERAL
       person: PERSON-EDMOND_CP_9A

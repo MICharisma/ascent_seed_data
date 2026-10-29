@@ -204,9 +204,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -216,9 +214,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -307,9 +303,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -322,9 +316,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -368,9 +360,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -380,9 +370,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -494,9 +482,7 @@
                   "type": "string"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -506,9 +492,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -552,18 +536,13 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
               "type": "object",
-              "properties": {
-              },
-              "required": [
-
-              ],
+              "properties": {},
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -576,10 +555,11 @@
             "attributes": {
               "type": "object",
               "properties": {
-                "code": {
+                "fips": {
                   "anyOf": [
                     {
-                      "type": "string"
+                      "type": "string",
+                      "pattern": "^[0-9]{5}$"
                     },
                     {
                       "type": "null"
@@ -590,9 +570,7 @@
                   "type": "string"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -602,9 +580,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -624,18 +600,13 @@
                   "type": "string"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
               "type": "object",
-              "properties": {
-              },
-              "required": [
-
-              ],
+              "properties": {},
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -734,9 +705,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -749,9 +718,97 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Image"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "alt_text": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "credit": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "source_url": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "url": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {},
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "ImagePlacement"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "position": {
+                  "type": "integer"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "image": {
+                  "$ref": "#/$defs/reference"
+                },
+                "subject": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -785,9 +842,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -797,9 +852,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -823,9 +876,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -841,9 +892,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -897,9 +946,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -924,9 +971,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -972,9 +1017,7 @@
                   "type": "string"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -984,9 +1027,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1013,9 +1054,7 @@
                   "type": "string"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -1025,9 +1064,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1126,18 +1163,13 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
               "type": "object",
-              "properties": {
-              },
-              "required": [
-
-              ],
+              "properties": {},
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1196,18 +1228,13 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
               "type": "object",
-              "properties": {
-              },
-              "required": [
-
-              ],
+              "properties": {},
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1255,9 +1282,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -1270,9 +1295,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1316,9 +1339,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -1331,9 +1352,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1375,9 +1394,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -1390,9 +1407,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1426,9 +1441,7 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
@@ -1438,9 +1451,7 @@
                   "$ref": "#/$defs/reference"
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1474,18 +1485,13 @@
                   ]
                 }
               },
-              "required": [
-
-              ],
+              "required": [],
               "additionalProperties": false
             },
             "references": {
               "type": "object",
-              "properties": {
-              },
-              "required": [
-
-              ],
+              "properties": {},
+              "required": [],
               "additionalProperties": false
             }
           }
@@ -1524,9 +1530,7 @@
           }
         }
       },
-      "required": [
-
-      ],
+      "required": [],
       "additionalProperties": false
     }
   },

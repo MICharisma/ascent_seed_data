@@ -19,35 +19,58 @@ records:
     jurisdiction: COUNTY-USA-VA-BOTETOURT
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_BOTETOURT-2026_GENERAL
+  code: ELECTION-USA-VA-FINCASTLE-2026_GENERAL
   attributes:
-    name: Botetourt County General Election 2026
+    name: Fincastle General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-BOTETOURT
+    jurisdiction: MUNICIPALITY-USA-VA-FINCASTLE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-BUCHANAN-2026_GENERAL
+  attributes:
+    name: Buchanan General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-BUCHANAN
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-TROUTVILLE-2026_GENERAL
+  attributes:
+    name: Troutville General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-TROUTVILLE
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BOTETOURT-CLERK_OF_COURT-BOTETOURT_COUNTY
+    code: OFFICE-USA-VA-COUNTY_BOTETOURT-CLERK_OF_COURT
     attributes:
-      seat_code: BOTETOURT_COUNTY
       is_active: true
     references:
       position: POSITION-CLERK_OF_COURT
       jurisdiction: COUNTY-USA-VA-BOTETOURT
   - type: Race
-    code: RACE-USA-VA-COUNTY_BOTETOURT-CLERK_OF_COURT-BOTETOURT_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_BOTETOURT-CLERK_OF_COURT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_BOTETOURT-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_BOTETOURT-CLERK_OF_COURT-BOTETOURT_COUNTY
+      office: OFFICE-USA-VA-COUNTY_BOTETOURT-CLERK_OF_COURT
   - type: Person
     code: PERSON-SIMMONS_CH_8W
     attributes:
@@ -57,30 +80,29 @@ groups:
       middle_name: W. "Chad"
       last_name: Simmons
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BOTETOURT-CLERK_OF_COURT-BOTETOURT_COUNTY-2026_SPECIAL-SIMMONS_CH_8W
+    code: CANDIDACY-USA-VA-COUNTY_BOTETOURT-CLERK_OF_COURT-2026_SPECIAL-SIMMONS_CH_8W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BOTETOURT-CLERK_OF_COURT-BOTETOURT_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_BOTETOURT-CLERK_OF_COURT-2026_SPECIAL
       person: PERSON-SIMMONS_CH_8W
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BOTETOURT-MAYOR_TOWN_OF_FINCASTLE-TOWN_OF_FINCASTLE
+    code: OFFICE-USA-VA-FINCASTLE-MAYOR
     attributes:
-      seat_code: TOWN_OF_FINCASTLE
       is_active: true
     references:
-      position: POSITION-MAYOR_TOWN_OF_FINCASTLE
-      jurisdiction: COUNTY-USA-VA-BOTETOURT
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-FINCASTLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_BOTETOURT-MAYOR_TOWN_OF_FINCASTLE-TOWN_OF_FINCASTLE-2026_GENERAL
+    code: RACE-USA-VA-FINCASTLE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_BOTETOURT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_BOTETOURT-MAYOR_TOWN_OF_FINCASTLE-TOWN_OF_FINCASTLE
+      election: ELECTION-USA-VA-FINCASTLE-2026_GENERAL
+      office: OFFICE-USA-VA-FINCASTLE-MAYOR
   - type: Person
     code: PERSON-SMITH_MR_8E
     attributes:
@@ -90,30 +112,29 @@ groups:
       middle_name: Bess
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BOTETOURT-MAYOR_TOWN_OF_FINCASTLE-TOWN_OF_FINCASTLE-2026_GENERAL-SMITH_MR_8E
+    code: CANDIDACY-USA-VA-FINCASTLE-MAYOR-2026_GENERAL-SMITH_MR_8E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BOTETOURT-MAYOR_TOWN_OF_FINCASTLE-TOWN_OF_FINCASTLE-2026_GENERAL
+      race: RACE-USA-VA-FINCASTLE-MAYOR-2026_GENERAL
       person: PERSON-SMITH_MR_8E
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_BUCHANAN-TOWN_OF_BUCHANAN
+    code: OFFICE-USA-VA-BUCHANAN-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_BUCHANAN
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_BUCHANAN
-      jurisdiction: COUNTY-USA-VA-BOTETOURT
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-BUCHANAN
   - type: Race
-    code: RACE-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_BUCHANAN-TOWN_OF_BUCHANAN-2026_GENERAL
+    code: RACE-USA-VA-BUCHANAN-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_BOTETOURT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_BUCHANAN-TOWN_OF_BUCHANAN
+      election: ELECTION-USA-VA-BUCHANAN-2026_GENERAL
+      office: OFFICE-USA-VA-BUCHANAN-COUNCIL_MEMBER
   - type: Person
     code: PERSON-RICKMAN_MR_4R
     attributes:
@@ -123,12 +144,12 @@ groups:
       middle_name: E. "Marty"
       last_name: Rickman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_BUCHANAN-TOWN_OF_BUCHANAN-2026_GENERAL-RICKMAN_MR_4R
+    code: CANDIDACY-USA-VA-BUCHANAN-COUNCIL_MEMBER-2026_GENERAL-RICKMAN_MR_4R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_BUCHANAN-TOWN_OF_BUCHANAN-2026_GENERAL
+      race: RACE-USA-VA-BUCHANAN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-RICKMAN_MR_4R
   - type: Person
     code: PERSON-BOWERS_SH_8Y
@@ -139,30 +160,29 @@ groups:
       middle_name: C.
       last_name: Bowers
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_BUCHANAN-TOWN_OF_BUCHANAN-2026_GENERAL-BOWERS_SH_8Y
+    code: CANDIDACY-USA-VA-BUCHANAN-COUNCIL_MEMBER-2026_GENERAL-BOWERS_SH_8Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_BUCHANAN-TOWN_OF_BUCHANAN-2026_GENERAL
+      race: RACE-USA-VA-BUCHANAN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BOWERS_SH_8Y
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_FINCASTLE-TOWN_OF_FINCASTLE
+    code: OFFICE-USA-VA-FINCASTLE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_FINCASTLE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_FINCASTLE
-      jurisdiction: COUNTY-USA-VA-BOTETOURT
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-FINCASTLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_FINCASTLE-TOWN_OF_FINCASTLE-2026_GENERAL
+    code: RACE-USA-VA-FINCASTLE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_BOTETOURT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_FINCASTLE-TOWN_OF_FINCASTLE
+      election: ELECTION-USA-VA-FINCASTLE-2026_GENERAL
+      office: OFFICE-USA-VA-FINCASTLE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BORDETT_ED_5W
     attributes:
@@ -172,12 +192,12 @@ groups:
       middle_name: D.
       last_name: Bordett
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_FINCASTLE-TOWN_OF_FINCASTLE-2026_GENERAL-BORDETT_ED_5W
+    code: CANDIDACY-USA-VA-FINCASTLE-COUNCIL_MEMBER-2026_GENERAL-BORDETT_ED_5W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_FINCASTLE-TOWN_OF_FINCASTLE-2026_GENERAL
+      race: RACE-USA-VA-FINCASTLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BORDETT_ED_5W
   - type: Person
     code: PERSON-WARE_PG_9V
@@ -188,12 +208,12 @@ groups:
       middle_name: Wright
       last_name: Ware
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_FINCASTLE-TOWN_OF_FINCASTLE-2026_GENERAL-WARE_PG_9V
+    code: CANDIDACY-USA-VA-FINCASTLE-COUNCIL_MEMBER-2026_GENERAL-WARE_PG_9V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_FINCASTLE-TOWN_OF_FINCASTLE-2026_GENERAL
+      race: RACE-USA-VA-FINCASTLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WARE_PG_9V
   - type: Person
     code: PERSON-BINNS_PM_2L
@@ -204,30 +224,29 @@ groups:
       middle_name: D.
       last_name: Binns
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_FINCASTLE-TOWN_OF_FINCASTLE-2026_GENERAL-BINNS_PM_2L
+    code: CANDIDACY-USA-VA-FINCASTLE-COUNCIL_MEMBER-2026_GENERAL-BINNS_PM_2L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_FINCASTLE-TOWN_OF_FINCASTLE-2026_GENERAL
+      race: RACE-USA-VA-FINCASTLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BINNS_PM_2L
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_TROUTVILLE-TOWN_OF_TROUTVILLE
+    code: OFFICE-USA-VA-TROUTVILLE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_TROUTVILLE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_TROUTVILLE
-      jurisdiction: COUNTY-USA-VA-BOTETOURT
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-TROUTVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_TROUTVILLE-TOWN_OF_TROUTVILLE-2026_GENERAL
+    code: RACE-USA-VA-TROUTVILLE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_BOTETOURT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_TROUTVILLE-TOWN_OF_TROUTVILLE
+      election: ELECTION-USA-VA-TROUTVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-TROUTVILLE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-GRANT_GR_3C
     attributes:
@@ -237,12 +256,12 @@ groups:
       middle_name: E.
       last_name: Grant
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_TROUTVILLE-TOWN_OF_TROUTVILLE-2026_GENERAL-GRANT_GR_3C
+    code: CANDIDACY-USA-VA-TROUTVILLE-COUNCIL_MEMBER-2026_GENERAL-GRANT_GR_3C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_TROUTVILLE-TOWN_OF_TROUTVILLE-2026_GENERAL
+      race: RACE-USA-VA-TROUTVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GRANT_GR_3C
   - type: Person
     code: PERSON-COOK_HN_7H
@@ -253,10 +272,10 @@ groups:
       middle_name: John
       last_name: Cook Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_TROUTVILLE-TOWN_OF_TROUTVILLE-2026_GENERAL-COOK_HN_7H
+    code: CANDIDACY-USA-VA-TROUTVILLE-COUNCIL_MEMBER-2026_GENERAL-COOK_HN_7H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BOTETOURT-MEMBER_TOWN_COUNCIL_TROUTVILLE-TOWN_OF_TROUTVILLE-2026_GENERAL
+      race: RACE-USA-VA-TROUTVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-COOK_HN_7H

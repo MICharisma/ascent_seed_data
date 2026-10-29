@@ -7,35 +7,34 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_ESSEX-2026_GENERAL
+  code: ELECTION-USA-VA-TAPPAHANNOCK-2026_GENERAL
   attributes:
-    name: Essex County General Election 2026
+    name: Tappahannock General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-ESSEX
+    jurisdiction: MUNICIPALITY-USA-VA-TAPPAHANNOCK
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ESSEX-MAYOR-TOWN_OF_TAPPAHANNOCK
+    code: OFFICE-USA-VA-TAPPAHANNOCK-MAYOR
     attributes:
-      seat_code: TOWN_OF_TAPPAHANNOCK
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-ESSEX
+      jurisdiction: MUNICIPALITY-USA-VA-TAPPAHANNOCK
   - type: Race
-    code: RACE-USA-VA-COUNTY_ESSEX-MAYOR-TOWN_OF_TAPPAHANNOCK-2026_GENERAL
+    code: RACE-USA-VA-TAPPAHANNOCK-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ESSEX-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ESSEX-MAYOR-TOWN_OF_TAPPAHANNOCK
+      election: ELECTION-USA-VA-TAPPAHANNOCK-2026_GENERAL
+      office: OFFICE-USA-VA-TAPPAHANNOCK-MAYOR
   - type: Person
     code: PERSON-BARRETT_CR_6A
     attributes:
@@ -45,12 +44,12 @@ groups:
       middle_name: S.
       last_name: Barrett
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ESSEX-MAYOR-TOWN_OF_TAPPAHANNOCK-2026_GENERAL-BARRETT_CR_6A
+    code: CANDIDACY-USA-VA-TAPPAHANNOCK-MAYOR-2026_GENERAL-BARRETT_CR_6A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ESSEX-MAYOR-TOWN_OF_TAPPAHANNOCK-2026_GENERAL
+      race: RACE-USA-VA-TAPPAHANNOCK-MAYOR-2026_GENERAL
       person: PERSON-BARRETT_CR_6A
   - type: Person
     code: PERSON-BALDERSON_TR_2U
@@ -61,30 +60,29 @@ groups:
       middle_name: L.
       last_name: Balderson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ESSEX-MAYOR-TOWN_OF_TAPPAHANNOCK-2026_GENERAL-BALDERSON_TR_2U
+    code: CANDIDACY-USA-VA-TAPPAHANNOCK-MAYOR-2026_GENERAL-BALDERSON_TR_2U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ESSEX-MAYOR-TOWN_OF_TAPPAHANNOCK-2026_GENERAL
+      race: RACE-USA-VA-TAPPAHANNOCK-MAYOR-2026_GENERAL
       person: PERSON-BALDERSON_TR_2U
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ESSEX-MEMBER_TOWN_COUNCIL-TOWN_OF_TAPPAHANNOCK
+    code: OFFICE-USA-VA-TAPPAHANNOCK-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_TAPPAHANNOCK
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-ESSEX
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-TAPPAHANNOCK
   - type: Race
-    code: RACE-USA-VA-COUNTY_ESSEX-MEMBER_TOWN_COUNCIL-TOWN_OF_TAPPAHANNOCK-2026_GENERAL
+    code: RACE-USA-VA-TAPPAHANNOCK-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ESSEX-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ESSEX-MEMBER_TOWN_COUNCIL-TOWN_OF_TAPPAHANNOCK
+      election: ELECTION-USA-VA-TAPPAHANNOCK-2026_GENERAL
+      office: OFFICE-USA-VA-TAPPAHANNOCK-COUNCIL_MEMBER
   - type: Person
     code: PERSON-CARNEAL_DN_6D
     attributes:
@@ -94,12 +92,12 @@ groups:
       middle_name: L.
       last_name: Carneal
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ESSEX-MEMBER_TOWN_COUNCIL-TOWN_OF_TAPPAHANNOCK-2026_GENERAL-CARNEAL_DN_6D
+    code: CANDIDACY-USA-VA-TAPPAHANNOCK-COUNCIL_MEMBER-2026_GENERAL-CARNEAL_DN_6D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ESSEX-MEMBER_TOWN_COUNCIL-TOWN_OF_TAPPAHANNOCK-2026_GENERAL
+      race: RACE-USA-VA-TAPPAHANNOCK-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CARNEAL_DN_6D
   - type: Person
     code: PERSON-KELLEY_J_6H
@@ -110,12 +108,12 @@ groups:
       middle_name: Erin
       last_name: Kelley
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ESSEX-MEMBER_TOWN_COUNCIL-TOWN_OF_TAPPAHANNOCK-2026_GENERAL-KELLEY_J_6H
+    code: CANDIDACY-USA-VA-TAPPAHANNOCK-COUNCIL_MEMBER-2026_GENERAL-KELLEY_J_6H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ESSEX-MEMBER_TOWN_COUNCIL-TOWN_OF_TAPPAHANNOCK-2026_GENERAL
+      race: RACE-USA-VA-TAPPAHANNOCK-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-KELLEY_J_6H
   - type: Person
     code: PERSON-FRAZIER_JM_9Z
@@ -126,12 +124,12 @@ groups:
       middle_name: M.
       last_name: Frazier Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ESSEX-MEMBER_TOWN_COUNCIL-TOWN_OF_TAPPAHANNOCK-2026_GENERAL-FRAZIER_JM_9Z
+    code: CANDIDACY-USA-VA-TAPPAHANNOCK-COUNCIL_MEMBER-2026_GENERAL-FRAZIER_JM_9Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ESSEX-MEMBER_TOWN_COUNCIL-TOWN_OF_TAPPAHANNOCK-2026_GENERAL
+      race: RACE-USA-VA-TAPPAHANNOCK-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FRAZIER_JM_9Z
   - type: Person
     code: PERSON-GILLIS_KN_2X
@@ -142,12 +140,12 @@ groups:
       middle_name: A. "Skip"
       last_name: Gillis
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ESSEX-MEMBER_TOWN_COUNCIL-TOWN_OF_TAPPAHANNOCK-2026_GENERAL-GILLIS_KN_2X
+    code: CANDIDACY-USA-VA-TAPPAHANNOCK-COUNCIL_MEMBER-2026_GENERAL-GILLIS_KN_2X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ESSEX-MEMBER_TOWN_COUNCIL-TOWN_OF_TAPPAHANNOCK-2026_GENERAL
+      race: RACE-USA-VA-TAPPAHANNOCK-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GILLIS_KN_2X
   - type: Person
     code: PERSON-OWENS_M_8V
@@ -158,12 +156,12 @@ groups:
       middle_name: Jeans
       last_name: Owens
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ESSEX-MEMBER_TOWN_COUNCIL-TOWN_OF_TAPPAHANNOCK-2026_GENERAL-OWENS_M_8V
+    code: CANDIDACY-USA-VA-TAPPAHANNOCK-COUNCIL_MEMBER-2026_GENERAL-OWENS_M_8V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ESSEX-MEMBER_TOWN_COUNCIL-TOWN_OF_TAPPAHANNOCK-2026_GENERAL
+      race: RACE-USA-VA-TAPPAHANNOCK-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-OWENS_M_8V
   - type: Person
     code: PERSON-LOWERY_RB_9A
@@ -174,10 +172,10 @@ groups:
       middle_name: Tyler
       last_name: Lowery
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ESSEX-MEMBER_TOWN_COUNCIL-TOWN_OF_TAPPAHANNOCK-2026_GENERAL-LOWERY_RB_9A
+    code: CANDIDACY-USA-VA-TAPPAHANNOCK-COUNCIL_MEMBER-2026_GENERAL-LOWERY_RB_9A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ESSEX-MEMBER_TOWN_COUNCIL-TOWN_OF_TAPPAHANNOCK-2026_GENERAL
+      race: RACE-USA-VA-TAPPAHANNOCK-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LOWERY_RB_9A
