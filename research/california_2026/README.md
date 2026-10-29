@@ -1,6 +1,6 @@
 # California 2026: sources, conflicts and gaps
 
-Contributor: Ascent Clerk. Captured 2026-10-27 (America/New_York). Files: `manifests/contributions/ascent-clerk/ca_2026_{foundation,races,candidates,channels}.yml`.
+Contributor: Ascent Clerk. Captured 2026-10-27 (America/New_York). Files: `manifests/contributions/ascent-clerk/ca_2026_{foundation,races,candidates}.yml` and `manifests/contributions/ascent-clerk/candidate_accounts/ca_2026_sos_contact_list_websites.yml`. `POSITION-BOARD_OF_EQUALIZATION_MEMBER` is defined in `manifests/foundation.yml`.
 
 ## Sources (in order of authority)
 
@@ -68,3 +68,25 @@ CONTRIBUTING.md allows a name code alone (e.g. `PERSON-SHEA_JS`) only when it re
 
 * `ca_2026_review.csv`: one row per primary candidate (733), flagged for the 324 on the Nov 3 ballot.
 * `district_crosswalk.csv`: district code, TIGER 2024 GEOID where one exists, and county codes and FIPS (counties that reported votes in the contest).
+
+## Candidate websites (worker contract, reworked 2026-10-28)
+
+202 website Channels are in `candidate_accounts/`. Each is owned by the candidate's 2026 general Candidacy, because the SoS contact list is a campaign filing. Each has `official: true` and its own `source` citing the contact list. Each site was fetched on 2026-10-28; a site was kept only when it returned HTTP 200 and its page named the candidate.
+
+These 11 contact-list websites were omitted because that check failed (HTTP status, or surname not found in the page):
+
+| Channel | Owner person | Result |
+|---|---|---|
+| hawksforus.com | PERSON-HAWKS_JN | no response |
+| harderforcongress.com | PERSON-HARDER_JS_2S | HTTP 500 |
+| souleforcongress.com | PERSON-SOULE_PT_9S | 200, name not found (likely script-rendered) |
+| rokhanna.com | PERSON-KHANNA_RO_8D | HTTP 403 |
+| bobsmithforcongress.com | PERSON-SMITH_BB_4D | 200, name not found |
+| gilonthehill.com | PERSON-CISNEROS_GL_2A | HTTP 403 |
+| tief4casenate.com | PERSON-GIBBS_TF | no response |
+| seyartoforsenate.com | PERSON-SEYARTO_KL | no response |
+| adams4assembly.com | PERSON-ADAMS_MT | no response |
+| andresandfordforassembly.com | PERSON-SANDFORD_AN | 200, name not found |
+| vote4lydia.com | PERSON-GUTIERREZ_LY | no response |
+
+The 5 websites of the name-code-collision general nominees stay excluded with those candidates. The contract still has no way to submit a person whose name code is already taken, so the 21 collisions are reported only.
