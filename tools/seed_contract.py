@@ -3,10 +3,13 @@
 
 import argparse
 import datetime
+import hashlib
 import json
 import math
 from pathlib import Path
+import re
 import sys
+import unicodedata
 
 import yaml
 from jsonschema import Draft202012Validator, FormatChecker
@@ -16,6 +19,10 @@ import reference_catalog
 
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMAS = ROOT / "schemas" / "v1"
+PERSON_CODE_RE = re.compile(r"^PERSON-[A-Z0-9]+(?:_[A-Z0-9]+)*_[2-9][A-HJ-NP-Z]$")
+DISAMBIGUATORS = [f"{digit}{letter}" for digit in "23456789" for letter in "abcdefghjklmnpqrstuvwxyz"]
+SUFFIX_RE = re.compile(r"^(?:jr|sr|ii|iii|iv|v|esq|esquire)\.?$", re.I)
+TRANSLIT = str.maketrans({"ł": "l", "Ł": "L", "ø": "o", "Ø": "O", "ß": "ss", "æ": "ae", "Æ": "AE", "œ": "oe", "Œ": "OE", "đ": "d", "Đ": "D"})
 
 
 class StrictLoader(getattr(yaml, "CSafeLoader", yaml.SafeLoader)):
@@ -68,7 +75,7 @@ def load_document(path):
     if Path(path).suffix.lower() == ".json":
         value = json.loads(text, object_pairs_hook=unique_object)
     else:
-        if any(isinstance(event, yaml.AliasEvent) for event in yaml.parse(text, Loader=StrictLoader)):
+        if "*" in text and any(isinstance(event, yaml.AliasEvent) for event in yaml.parse(text, Loader=StrictLoader)):
             raise ValueError("YAML aliases are unsupported; use scope/groups")
         value = yaml.load(text, Loader=StrictLoader)
     return portable(value)
@@ -80,6 +87,47 @@ def validator(name):
     resources = [json.loads(path.read_text()) for path in SCHEMAS.glob("*.schema.json")]
     registry = Registry().with_resources((item["$id"], Resource.from_contents(item)) for item in resources)
     return Draft202012Validator(schema, registry=registry, format_checker=FormatChecker())
+
+
+def validate_person_record(row):
+    code = row.get("code", "")
+    if not PERSON_CODE_RE.match(code):
+        raise ValueError(f"Person definition {code} requires a disambiguator; bare name codes are allowed only as references")
+    # A provisional username is the code itself; a verified one is the person's own choice.
+    attributes = row.get("attributes", {})
+    username = attributes.get("username")
+    expected_username = code.removeprefix("PERSON-").lower()
+    if attributes.get("username_status") == "provisional" and username != expected_username:
+        raise ValueError(f"Person definition {code} provisional username {username!r} must match {expected_username!r}")
+
+
+def iter_records(container, inherited_scope=None):
+    scope = (inherited_scope or {}) | container.get("scope", {})
+    for row in container.get("records", []):
+        yield row, scope | row.get("scope", {})
+    for group in container.get("groups", []):
+        yield from iter_records(group, scope)
+
+
+def validate_district_scope(row, scope):
+    match = re.match(r"^DISTRICT-USA-([A-Z]{2})-", row["code"])
+    if row["type"] != "District" or not match:
+        return
+    expected = f"STATE-USA-{match[1]}"
+    if scope.get("state") != expected:
+        raise ValueError(f"District {row['code']} requires scope.state: {expected}, on the record or inherited from its document or group")
+
+
+def validate_records(document):
+    seen = set()
+    for row, scope in iter_records(document):
+        if row["type"] == "Person":
+            validate_person_record(row)
+            code = row["code"]
+            if code in seen:
+                raise ValueError(f"duplicate Person definition {code}")
+            seen.add(code)
+        validate_district_scope(row, scope)
 
 
 def validate_file(path, schema):
@@ -99,6 +147,7 @@ def validate_file(path, schema):
             pointer = "/" + "/".join(map(str, error.absolute_path))
             print(f"{path}:{pointer}: {error.message[:240]}", file=sys.stderr)
         raise ValueError(f"{len(errors)} schema violation(s)")
+    validate_records(document)
     return document
 
 
@@ -117,10 +166,15 @@ def catalog(root):
         scope = scope | container.get("scope", {})
         for row in container.get("records", []):
             code = row["code"]
+            validate_district_scope(row, scope | row.get("scope", {}))
+            if row["type"] == "Person":
+                validate_person_record(row)
             entry = index.setdefault(code, {"code": code, "type": row["type"], "attributes": {},
                                             "references": {}, "aliases": [], "files": []})
             if entry["type"] != row["type"]:
                 raise ValueError(f"{code} names multiple entity types")
+            if row["type"] == "Person" and entry["files"]:
+                raise ValueError(f"{path}: duplicate Person definition {code} (already defined in {entry['files'][0]})")
             if row["type"] == "Channel":
                 owner = (scope | row.get("scope", {}) | row.get("references", {})).get("owner")
                 existing_owner = entry["references"].get("owner")
@@ -156,6 +210,162 @@ def catalog(root):
 
 def reference_code(value):
     return value.get("code") if isinstance(value, dict) else value
+
+
+def person_full_name(attributes):
+    return " ".join(attributes[key] for key in ("first_name", "middle_name", "last_name") if attributes.get(key))
+
+
+def slug(text):
+    decomposed = "".join(c for c in unicodedata.normalize("NFKD", str(text or "").translate(TRANSLIT)) if not unicodedata.combining(c))
+    ascii_text = decomposed.encode("ascii", "replace").decode("ascii").lower().replace("'", "")
+    return re.sub(r"[^a-z0-9]+", "_", ascii_text).strip("_")
+
+
+def name_parts(printed_name):
+    words = str(printed_name or "").split()
+    if not words:
+        raise ValueError("printed name is required")
+    suffix = words.pop() if len(words) > 2 and SUFFIX_RE.match(words[-1]) else None
+    last_word = words.pop()
+    last_name = f"{last_word} {suffix}" if suffix else last_word
+    first_name = words.pop(0) if words else None
+    middle_name = " ".join(words) or None
+    return {"first_name": first_name, "middle_name": middle_name, "last_name": last_name}
+
+
+def given_letters(first_name):
+    letters = slug(first_name).replace("_", "")
+    if not letters:
+        return ""
+    consonant = next((ch for ch in letters[1:] if ch not in "aeiou0123456789"), None)
+    return letters[0] + (consonant if consonant is not None else letters[1:2])
+
+
+def name_code(printed_name):
+    parts = name_parts(printed_name) if isinstance(printed_name, str) else printed_name
+    surname_words = (parts.get("last_name") or "").replace(",", "").split()
+    if len(surname_words) > 1 and SUFFIX_RE.match(surname_words[-1]):
+        surname_words.pop()
+    surname = slug(surname_words[-1] if surname_words else "")
+    given = given_letters(parts.get("first_name"))
+    return "_".join(part for part in (surname, given) if part)
+
+
+def first_appearance_facts(state, election_date, printed_name, printed_office):
+    state_code = str(state or "").strip().upper().removeprefix("STATE-USA-")
+    date_text = " ".join(str(election_date or "").split())
+    name_text = " ".join(str(printed_name or "").split())
+    office_text = " ".join(str(printed_office or "").split())
+    if not state_code or not date_text or not name_text or not office_text:
+        raise ValueError("state, election_date, printed_name, and printed_office are required")
+    return f"{state_code} | {date_text} | {name_text} | {office_text}"
+
+
+def mint_username(base, state, election_date, printed_name, printed_office, taken=()):
+    normalized_base = str(base or "").strip().removeprefix("PERSON-").lower()
+    if not re.match(r"^[a-z0-9]+(?:_[a-z0-9]+)*$", normalized_base) or PERSON_CODE_RE.match(f"PERSON-{normalized_base.upper()}"):
+        raise ValueError(f"invalid name code {base!r}")
+    facts = first_appearance_facts(state, election_date, printed_name, printed_office)
+    taken_set = {str(item).strip().removeprefix("PERSON-").lower() for item in taken}
+    start = int(hashlib.sha256(facts.encode("utf-8")).hexdigest(), 16) % len(DISAMBIGUATORS)
+    for offset in range(len(DISAMBIGUATORS)):
+        candidate = f"{normalized_base}_{DISAMBIGUATORS[(start + offset) % len(DISAMBIGUATORS)]}"
+        if candidate not in taken_set:
+            return candidate
+    raise ValueError(f"All {len(DISAMBIGUATORS)} disambiguators are taken for PERSON-{normalized_base.upper()}")
+
+
+def taken_usernames(root=ROOT, index=None):
+    index = catalog(root / "manifests") if index is None else index
+    taken = set()
+    for code, row in index.items():
+        if row["type"] == "Person":
+            taken.add(code.removeprefix("PERSON-").lower())
+            for alias in row.get("aliases", []):
+                if alias.startswith("PERSON-"):
+                    taken.add(alias.removeprefix("PERSON-").lower())
+    conversion = root / "conversion"
+    if conversion.is_dir():
+        for path in sorted(conversion.glob("*/*/usernames.yml")):
+            mapping = load_document(path) or {}
+            taken.update(str(value).strip().removeprefix("PERSON-").lower() for value in mapping.values())
+    return taken
+
+
+def existing_people_for_name_code(index, base):
+    prefix = f"PERSON-{str(base).strip().removeprefix('PERSON-').upper()}"
+    races_by_person = {}
+    for row in index.values():
+        if row["type"] == "Candidacy":
+            person_code = reference_code(row["references"].get("person"))
+            race_code = reference_code(row["references"].get("race"))
+            if person_code and race_code:
+                races_by_person.setdefault(person_code, set()).add(race_code)
+    matches = []
+    for code, row in sorted(index.items()):
+        if row["type"] == "Person" and code.rsplit("_", 1)[0] == prefix and PERSON_CODE_RE.match(code):
+            matches.append({
+                "code": code,
+                "username": code.removeprefix("PERSON-").lower(),
+                "name": person_full_name(row.get("attributes", {})),
+                "races": sorted(races_by_person.get(code, ())),
+                "files": sorted(set(row.get("files", ()))),
+            })
+    return matches
+
+
+def format_existing_people(base_code, existing):
+    lines = [f"Existing people sharing {base_code}:"]
+    for item in existing:
+        races = ", ".join(item["races"]) if item["races"] else "no candidacy recorded"
+        lines.append(f"  - {item['code']}: {item['name']} ({races})")
+    return "\n".join(lines)
+
+
+def mint_person_code(state, election_date, printed_name, printed_office, base=None,
+                     is_new=False, same_as=None, index=None, taken=None, interactive=False):
+    if is_new and same_as:
+        raise ValueError("Pass either --new or --same-as, not both")
+    index = catalog(ROOT / "manifests") if index is None else index
+    resolved_base = (base.strip().removeprefix("PERSON-").lower() if base else name_code(printed_name))
+    base_code = f"PERSON-{resolved_base.upper()}"
+    facts = first_appearance_facts(state, election_date, printed_name, printed_office)
+    existing = existing_people_for_name_code(index, resolved_base)
+    if same_as:
+        target = same_as.strip().upper()
+        if not target.startswith("PERSON-"):
+            target = f"PERSON-{target}"
+        matched = next((item for item in existing if item["code"] == target), None)
+        if not matched:
+            raise ValueError(f"{target} is not an existing Person sharing {base_code}")
+        return {"code": matched["code"], "username": matched["username"], "name_code": base_code,
+                "facts": facts, "resolution": "existing", "existing": existing}
+    if existing and not is_new:
+        summary = format_existing_people(base_code, existing)
+        if interactive:
+            print(summary, file=sys.stderr)
+            print("Enter 'new' or an existing PERSON-... code: ", end="", file=sys.stderr, flush=True)
+            answer = sys.stdin.readline().strip()
+            normalized = re.sub(r"^same\s+as\s+", "", answer, flags=re.I).strip()
+            if normalized.lower() == "new":
+                is_new = True
+            else:
+                target = normalized.upper()
+                if target and not target.startswith("PERSON-"):
+                    target = f"PERSON-{target}"
+                matched = next((item for item in existing if item["code"] == target), None)
+                if matched:
+                    return {"code": matched["code"], "username": matched["username"], "name_code": base_code,
+                            "facts": facts, "resolution": "existing", "existing": existing}
+                raise ValueError(f"{summary}\nSpecify --new or --same-as PERSON-...")
+        else:
+            raise ValueError(f"{summary}\nSpecify --new or --same-as PERSON-...")
+    all_taken = taken_usernames(ROOT, index=index) if taken is None else set(taken)
+    all_taken.update(item["username"] for item in existing)
+    username = mint_username(resolved_base, state, election_date, printed_name, printed_office, taken=all_taken)
+    return {"code": f"PERSON-{username.upper()}", "username": username, "name_code": base_code,
+            "facts": facts, "resolution": "new", "existing": existing}
 
 
 def owners(index):
@@ -202,6 +412,22 @@ def check_accounts(documents, index):
             accounts[key] = code
 
 
+def check_duplicate_people(documents):
+    seen = {}
+    examples_root = (ROOT / "examples").resolve()
+    for path, document in documents:
+        resolved = path.resolve()
+        if resolved.is_relative_to(examples_root):
+            continue
+        for row, _scope in iter_records(document):
+            if row["type"] != "Person":
+                continue
+            code = row["code"]
+            if code in seen and seen[code].with_suffix("") != resolved.with_suffix(""):
+                raise ValueError(f"{path}: duplicate Person definition {code} (already defined in {seen[code]})")
+            seen[code] = resolved
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     commands = parser.add_subparsers(dest="command", required=True)
@@ -216,6 +442,16 @@ def main(argv=None):
     lookup.add_argument("--type", dest="entity_type")
     lookup.add_argument("--state")
     lookup.add_argument("--format", choices=("table", "json"), default="table")
+    mint = commands.add_parser("mint")
+    mint.add_argument("--state", required=True)
+    mint.add_argument("--date", dest="election_date", required=True)
+    mint.add_argument("--name", dest="printed_name", required=True)
+    mint.add_argument("--office", dest="printed_office", required=True)
+    mint.add_argument("--name-code", dest="base")
+    resolution = mint.add_mutually_exclusive_group()
+    resolution.add_argument("--new", dest="is_new", action="store_true")
+    resolution.add_argument("--same-as")
+    mint.add_argument("--format", choices=("text", "json"), default="text")
     args = parser.parse_args(argv)
     if args.command == "export-catalog":
         count = reference_catalog.export(catalog(ROOT / "manifests"), ROOT / "catalog", check=args.check)
@@ -233,6 +469,16 @@ def main(argv=None):
         if not rows:
             raise ValueError("No candidate owners found")
         print(json.dumps(rows, indent=2, ensure_ascii=False))
+        return 0
+    if args.command == "mint":
+        result = mint_person_code(
+            args.state, args.election_date, args.printed_name, args.printed_office,
+            base=args.base, is_new=args.is_new, same_as=args.same_as, interactive=sys.stdin.isatty()
+        )
+        if args.format == "json":
+            print(json.dumps(result, indent=2, ensure_ascii=False))
+        else:
+            print(result["code"])
         return 0
     files = manifest_files(args.paths)
     if not files:
@@ -253,9 +499,15 @@ def main(argv=None):
         except (ValueError, yaml.YAMLError, OSError) as error:
             print(f"{path}: {error}", file=sys.stderr)
             failed += 1
-    if account_documents and not failed:
+    if not failed:
         try:
-            check_accounts(account_documents, catalog(ROOT / "manifests"))
+            check_duplicate_people(documents)
+            manifests_root = (ROOT / "manifests").resolve()
+            in_manifests = any(path.resolve().is_relative_to(manifests_root) for path, _ in documents)
+            if account_documents or in_manifests:
+                index = catalog(ROOT / "manifests")
+                if account_documents:
+                    check_accounts(account_documents, index)
         except (ValueError, yaml.YAMLError, OSError) as error:
             print(str(error), file=sys.stderr)
             failed += 1

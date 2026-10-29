@@ -1,0 +1,1816 @@
+# California 2026: parties, the Board of Equalization position, and the state Senate, Assembly and Board of Equalization districts and general elections.
+# Even-numbered state Senate districts only (the 20 seats on the Nov 3, 2026 ballot). Sources: https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf ; https://www.sos.ca.gov/elections/prior-elections/statewide-election-results/primary-election-june-2-2026/statement-vote
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf
+  captured_on: '2026-10-27'
+scope:
+  state: STATE-USA-CA
+records:
+- type: Party
+  code: PARTY-USA-CA-DEMOCRATIC
+  attributes:
+    name: California Democratic Party
+  references:
+    state: STATE-USA-CA
+- type: Party
+  code: PARTY-USA-CA-REPUBLICAN
+  attributes:
+    name: California Republican Party
+  references:
+    state: STATE-USA-CA
+- type: Party
+  code: PARTY-USA-CA-GREEN
+  attributes:
+    name: Green Party of California
+  references:
+    state: STATE-USA-CA
+- type: Party
+  code: PARTY-USA-CA-LIBERTARIAN
+  attributes:
+    name: Libertarian Party of California
+  references:
+    state: STATE-USA-CA
+- type: Party
+  code: PARTY-USA-CA-PEACE_AND_FREEDOM
+  attributes:
+    name: Peace and Freedom Party of California
+  references:
+    state: STATE-USA-CA
+- type: Party
+  code: PARTY-USA-CA-AMERICAN_INDEPENDENT
+  attributes:
+    name: American Independent Party of California
+  references:
+    state: STATE-USA-CA
+- type: District
+  code: DISTRICT-USA-CA-BOE-BD_2
+  attributes:
+    name: California Board of Equalization District 2
+    kind: board of equalization district
+- type: Election
+  code: ELECTION-USA-CA-BOE-BD_2-2026_GENERAL
+  attributes:
+    name: California Board of Equalization District 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-BOE-BD_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_10
+  attributes:
+    name: California State Senate District 10
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_10-2026_GENERAL
+  attributes:
+    name: California State Senate District 10 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_10
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_14
+  attributes:
+    name: California State Assembly District 14
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_14-2026_GENERAL
+  attributes:
+    name: California State Assembly District 14 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_14
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_16
+  attributes:
+    name: California State Assembly District 16
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_16-2026_GENERAL
+  attributes:
+    name: California State Assembly District 16 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_16
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_18
+  attributes:
+    name: California State Assembly District 18
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_18-2026_GENERAL
+  attributes:
+    name: California State Assembly District 18 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_18
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_20
+  attributes:
+    name: California State Assembly District 20
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_20-2026_GENERAL
+  attributes:
+    name: California State Assembly District 20 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_20
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_24
+  attributes:
+    name: California State Assembly District 24
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_24-2026_GENERAL
+  attributes:
+    name: California State Assembly District 24 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_24
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-BOE-BD_1
+  attributes:
+    name: California Board of Equalization District 1
+    kind: board of equalization district
+- type: Election
+  code: ELECTION-USA-CA-BOE-BD_1-2026_GENERAL
+  attributes:
+    name: California Board of Equalization District 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-BOE-BD_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_4
+  attributes:
+    name: California State Senate District 4
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_4-2026_GENERAL
+  attributes:
+    name: California State Senate District 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_1
+  attributes:
+    name: California State Assembly District 1
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_1-2026_GENERAL
+  attributes:
+    name: California State Assembly District 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_9
+  attributes:
+    name: California State Assembly District 9
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_9-2026_GENERAL
+  attributes:
+    name: California State Assembly District 9 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_9
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_3
+  attributes:
+    name: California State Assembly District 3
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_3-2026_GENERAL
+  attributes:
+    name: California State Assembly District 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_8
+  attributes:
+    name: California State Assembly District 8
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_8-2026_GENERAL
+  attributes:
+    name: California State Assembly District 8 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_8
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_4
+  attributes:
+    name: California State Assembly District 4
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_4-2026_GENERAL
+  attributes:
+    name: California State Assembly District 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_11
+  attributes:
+    name: California State Assembly District 11
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_11-2026_GENERAL
+  attributes:
+    name: California State Assembly District 11 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_11
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_15
+  attributes:
+    name: California State Assembly District 15
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_15-2026_GENERAL
+  attributes:
+    name: California State Assembly District 15 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_15
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_2
+  attributes:
+    name: California State Senate District 2
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_2-2026_GENERAL
+  attributes:
+    name: California State Senate District 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_2
+  attributes:
+    name: California State Assembly District 2
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_2-2026_GENERAL
+  attributes:
+    name: California State Assembly District 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_5
+  attributes:
+    name: California State Assembly District 5
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_5-2026_GENERAL
+  attributes:
+    name: California State Assembly District 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_12
+  attributes:
+    name: California State Senate District 12
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_12-2026_GENERAL
+  attributes:
+    name: California State Senate District 12 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_12
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_14
+  attributes:
+    name: California State Senate District 14
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_14-2026_GENERAL
+  attributes:
+    name: California State Senate District 14 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_14
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_16
+  attributes:
+    name: California State Senate District 16
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_16-2026_GENERAL
+  attributes:
+    name: California State Senate District 16 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_16
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_27
+  attributes:
+    name: California State Assembly District 27
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_27-2026_GENERAL
+  attributes:
+    name: California State Assembly District 27 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_27
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_31
+  attributes:
+    name: California State Assembly District 31
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_31-2026_GENERAL
+  attributes:
+    name: California State Assembly District 31 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_31
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_33
+  attributes:
+    name: California State Assembly District 33
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_33-2026_GENERAL
+  attributes:
+    name: California State Assembly District 33 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_33
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-BOE-BD_4
+  attributes:
+    name: California Board of Equalization District 4
+    kind: board of equalization district
+- type: Election
+  code: ELECTION-USA-CA-BOE-BD_4-2026_GENERAL
+  attributes:
+    name: California Board of Equalization District 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-BOE-BD_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_18
+  attributes:
+    name: California State Senate District 18
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_18-2026_GENERAL
+  attributes:
+    name: California State Senate District 18 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_18
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_36
+  attributes:
+    name: California State Assembly District 36
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_36-2026_GENERAL
+  attributes:
+    name: California State Assembly District 36 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_36
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_32
+  attributes:
+    name: California State Assembly District 32
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_32-2026_GENERAL
+  attributes:
+    name: California State Assembly District 32 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_32
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_34
+  attributes:
+    name: California State Assembly District 34
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_34-2026_GENERAL
+  attributes:
+    name: California State Assembly District 34 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_34
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_35
+  attributes:
+    name: California State Assembly District 35
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_35-2026_GENERAL
+  attributes:
+    name: California State Assembly District 35 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_35
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-BOE-BD_3
+  attributes:
+    name: California Board of Equalization District 3
+    kind: board of equalization district
+- type: Election
+  code: ELECTION-USA-CA-BOE-BD_3-2026_GENERAL
+  attributes:
+    name: California Board of Equalization District 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-BOE-BD_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_20
+  attributes:
+    name: California State Senate District 20
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_20-2026_GENERAL
+  attributes:
+    name: California State Senate District 20 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_20
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_22
+  attributes:
+    name: California State Senate District 22
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_22-2026_GENERAL
+  attributes:
+    name: California State Senate District 22 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_22
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_24
+  attributes:
+    name: California State Senate District 24
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_24-2026_GENERAL
+  attributes:
+    name: California State Senate District 24 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_24
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_26
+  attributes:
+    name: California State Senate District 26
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_26-2026_GENERAL
+  attributes:
+    name: California State Senate District 26 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_26
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_28
+  attributes:
+    name: California State Senate District 28
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_28-2026_GENERAL
+  attributes:
+    name: California State Senate District 28 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_28
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_30
+  attributes:
+    name: California State Senate District 30
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_30-2026_GENERAL
+  attributes:
+    name: California State Senate District 30 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_30
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_34
+  attributes:
+    name: California State Senate District 34
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_34-2026_GENERAL
+  attributes:
+    name: California State Senate District 34 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_34
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_36
+  attributes:
+    name: California State Senate District 36
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_36-2026_GENERAL
+  attributes:
+    name: California State Senate District 36 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_36
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_39
+  attributes:
+    name: California State Assembly District 39
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_39-2026_GENERAL
+  attributes:
+    name: California State Assembly District 39 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_39
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_40
+  attributes:
+    name: California State Assembly District 40
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_40-2026_GENERAL
+  attributes:
+    name: California State Assembly District 40 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_40
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_41
+  attributes:
+    name: California State Assembly District 41
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_41-2026_GENERAL
+  attributes:
+    name: California State Assembly District 41 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_41
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_42
+  attributes:
+    name: California State Assembly District 42
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_42-2026_GENERAL
+  attributes:
+    name: California State Assembly District 42 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_42
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_43
+  attributes:
+    name: California State Assembly District 43
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_43-2026_GENERAL
+  attributes:
+    name: California State Assembly District 43 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_43
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_44
+  attributes:
+    name: California State Assembly District 44
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_44-2026_GENERAL
+  attributes:
+    name: California State Assembly District 44 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_44
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_46
+  attributes:
+    name: California State Assembly District 46
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_46-2026_GENERAL
+  attributes:
+    name: California State Assembly District 46 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_46
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_48
+  attributes:
+    name: California State Assembly District 48
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_48-2026_GENERAL
+  attributes:
+    name: California State Assembly District 48 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_48
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_49
+  attributes:
+    name: California State Assembly District 49
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_49-2026_GENERAL
+  attributes:
+    name: California State Assembly District 49 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_49
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_51
+  attributes:
+    name: California State Assembly District 51
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_51-2026_GENERAL
+  attributes:
+    name: California State Assembly District 51 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_51
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_52
+  attributes:
+    name: California State Assembly District 52
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_52-2026_GENERAL
+  attributes:
+    name: California State Assembly District 52 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_52
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_53
+  attributes:
+    name: California State Assembly District 53
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_53-2026_GENERAL
+  attributes:
+    name: California State Assembly District 53 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_53
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_54
+  attributes:
+    name: California State Assembly District 54
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_54-2026_GENERAL
+  attributes:
+    name: California State Assembly District 54 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_54
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_55
+  attributes:
+    name: California State Assembly District 55
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_55-2026_GENERAL
+  attributes:
+    name: California State Assembly District 55 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_55
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_56
+  attributes:
+    name: California State Assembly District 56
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_56-2026_GENERAL
+  attributes:
+    name: California State Assembly District 56 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_56
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_57
+  attributes:
+    name: California State Assembly District 57
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_57-2026_GENERAL
+  attributes:
+    name: California State Assembly District 57 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_57
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_61
+  attributes:
+    name: California State Assembly District 61
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_61-2026_GENERAL
+  attributes:
+    name: California State Assembly District 61 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_61
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_62
+  attributes:
+    name: California State Assembly District 62
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_62-2026_GENERAL
+  attributes:
+    name: California State Assembly District 62 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_62
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_64
+  attributes:
+    name: California State Assembly District 64
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_64-2026_GENERAL
+  attributes:
+    name: California State Assembly District 64 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_64
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_65
+  attributes:
+    name: California State Assembly District 65
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_65-2026_GENERAL
+  attributes:
+    name: California State Assembly District 65 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_65
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_66
+  attributes:
+    name: California State Assembly District 66
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_66-2026_GENERAL
+  attributes:
+    name: California State Assembly District 66 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_66
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_67
+  attributes:
+    name: California State Assembly District 67
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_67-2026_GENERAL
+  attributes:
+    name: California State Assembly District 67 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_67
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_69
+  attributes:
+    name: California State Assembly District 69
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_69-2026_GENERAL
+  attributes:
+    name: California State Assembly District 69 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_69
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_12
+  attributes:
+    name: California State Assembly District 12
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_12-2026_GENERAL
+  attributes:
+    name: California State Assembly District 12 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_12
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_22
+  attributes:
+    name: California State Assembly District 22
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_22-2026_GENERAL
+  attributes:
+    name: California State Assembly District 22 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_22
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_29
+  attributes:
+    name: California State Assembly District 29
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_29-2026_GENERAL
+  attributes:
+    name: California State Assembly District 29 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_29
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_30
+  attributes:
+    name: California State Assembly District 30
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_30-2026_GENERAL
+  attributes:
+    name: California State Assembly District 30 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_30
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_32
+  attributes:
+    name: California State Senate District 32
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_32-2026_GENERAL
+  attributes:
+    name: California State Senate District 32 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_32
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_38
+  attributes:
+    name: California State Senate District 38
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_38-2026_GENERAL
+  attributes:
+    name: California State Senate District 38 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_38
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_59
+  attributes:
+    name: California State Assembly District 59
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_59-2026_GENERAL
+  attributes:
+    name: California State Assembly District 59 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_59
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_68
+  attributes:
+    name: California State Assembly District 68
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_68-2026_GENERAL
+  attributes:
+    name: California State Assembly District 68 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_68
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_70
+  attributes:
+    name: California State Assembly District 70
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_70-2026_GENERAL
+  attributes:
+    name: California State Assembly District 70 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_70
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_71
+  attributes:
+    name: California State Assembly District 71
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_71-2026_GENERAL
+  attributes:
+    name: California State Assembly District 71 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_71
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_72
+  attributes:
+    name: California State Assembly District 72
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_72-2026_GENERAL
+  attributes:
+    name: California State Assembly District 72 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_72
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_73
+  attributes:
+    name: California State Assembly District 73
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_73-2026_GENERAL
+  attributes:
+    name: California State Assembly District 73 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_73
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_74
+  attributes:
+    name: California State Assembly District 74
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_74-2026_GENERAL
+  attributes:
+    name: California State Assembly District 74 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_74
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_6
+  attributes:
+    name: California State Senate District 6
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_6-2026_GENERAL
+  attributes:
+    name: California State Senate District 6 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_6
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_47
+  attributes:
+    name: California State Assembly District 47
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_47-2026_GENERAL
+  attributes:
+    name: California State Assembly District 47 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_47
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_58
+  attributes:
+    name: California State Assembly District 58
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_58-2026_GENERAL
+  attributes:
+    name: California State Assembly District 58 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_58
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_60
+  attributes:
+    name: California State Assembly District 60
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_60-2026_GENERAL
+  attributes:
+    name: California State Assembly District 60 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_60
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_63
+  attributes:
+    name: California State Assembly District 63
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_63-2026_GENERAL
+  attributes:
+    name: California State Assembly District 63 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_63
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_8
+  attributes:
+    name: California State Senate District 8
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_8-2026_GENERAL
+  attributes:
+    name: California State Senate District 8 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_8
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_6
+  attributes:
+    name: California State Assembly District 6
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_6-2026_GENERAL
+  attributes:
+    name: California State Assembly District 6 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_6
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_7
+  attributes:
+    name: California State Assembly District 7
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_7-2026_GENERAL
+  attributes:
+    name: California State Assembly District 7 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_7
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_10
+  attributes:
+    name: California State Assembly District 10
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_10-2026_GENERAL
+  attributes:
+    name: California State Assembly District 10 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_10
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_45
+  attributes:
+    name: California State Assembly District 45
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_45-2026_GENERAL
+  attributes:
+    name: California State Assembly District 45 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_45
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_50
+  attributes:
+    name: California State Assembly District 50
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_50-2026_GENERAL
+  attributes:
+    name: California State Assembly District 50 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_50
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-SENATE-SD_40
+  attributes:
+    name: California State Senate District 40
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-CA-SENATE-SD_40-2026_GENERAL
+  attributes:
+    name: California State Senate District 40 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-SENATE-SD_40
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_75
+  attributes:
+    name: California State Assembly District 75
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_75-2026_GENERAL
+  attributes:
+    name: California State Assembly District 75 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_75
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_76
+  attributes:
+    name: California State Assembly District 76
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_76-2026_GENERAL
+  attributes:
+    name: California State Assembly District 76 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_76
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_77
+  attributes:
+    name: California State Assembly District 77
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_77-2026_GENERAL
+  attributes:
+    name: California State Assembly District 77 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_77
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_78
+  attributes:
+    name: California State Assembly District 78
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_78-2026_GENERAL
+  attributes:
+    name: California State Assembly District 78 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_78
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_79
+  attributes:
+    name: California State Assembly District 79
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_79-2026_GENERAL
+  attributes:
+    name: California State Assembly District 79 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_79
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_80
+  attributes:
+    name: California State Assembly District 80
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_80-2026_GENERAL
+  attributes:
+    name: California State Assembly District 80 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_80
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_17
+  attributes:
+    name: California State Assembly District 17
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_17-2026_GENERAL
+  attributes:
+    name: California State Assembly District 17 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_17
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_19
+  attributes:
+    name: California State Assembly District 19
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_19-2026_GENERAL
+  attributes:
+    name: California State Assembly District 19 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_19
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_13
+  attributes:
+    name: California State Assembly District 13
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_13-2026_GENERAL
+  attributes:
+    name: California State Assembly District 13 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_13
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_37
+  attributes:
+    name: California State Assembly District 37
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_37-2026_GENERAL
+  attributes:
+    name: California State Assembly District 37 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_37
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_21
+  attributes:
+    name: California State Assembly District 21
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_21-2026_GENERAL
+  attributes:
+    name: California State Assembly District 21 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_21
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_23
+  attributes:
+    name: California State Assembly District 23
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_23-2026_GENERAL
+  attributes:
+    name: California State Assembly District 23 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_23
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_25
+  attributes:
+    name: California State Assembly District 25
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_25-2026_GENERAL
+  attributes:
+    name: California State Assembly District 25 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_25
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_26
+  attributes:
+    name: California State Assembly District 26
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_26-2026_GENERAL
+  attributes:
+    name: California State Assembly District 26 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_26
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_28
+  attributes:
+    name: California State Assembly District 28
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_28-2026_GENERAL
+  attributes:
+    name: California State Assembly District 28 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_28
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-CA-ASSEMBLY-AD_38
+  attributes:
+    name: California State Assembly District 38
+    kind: assembly district
+- type: Election
+  code: ELECTION-USA-CA-ASSEMBLY-AD_38-2026_GENERAL
+  attributes:
+    name: California State Assembly District 38 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-CA-ASSEMBLY-AD_38
+    year: YEAR-2026

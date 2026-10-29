@@ -36,7 +36,7 @@ Export the current repository's people and candidacies:
 
 A nonzero exit means export failed. The output is a nonempty JSON array with `code`, `type`, `name`, `person`, `race`, and source `files`. Use `race` to distinguish a person's campaigns. For example, the current New York statewide manifest defines `PERSON-JAMES_LT_5Y` and `CANDIDACY-USA-NY-ATTORNEY_GENERAL-2026_GENERAL-JAMES_LT_5Y`. Read the current export rather than copying codes from prose.
 
-Use the full local code, including the person's disambiguator. Do not use database IDs, page URLs, name-only shortcuts, or the `MIC-ASC-` URI prefix. Do not create another Person or Candidacy to attach an account or image. If the owner is missing or ambiguous, report that gap to the maintainer.
+Use the full local code, including the person's disambiguator. Do not use database IDs, page URLs, name-only shortcuts, or the `MIC-ASC-` URI prefix. Do not create another Person or Candidacy to attach an account or image. If the owner is missing or ambiguous, report that gap to the maintainer. New Person definitions use the [minting workflow](CONTRIBUTING.md#people), which issues the full code before submission.
 
 ## Verify each account
 
@@ -108,7 +108,7 @@ Check all manifests and examples before opening a pull request:
 .venv/bin/python tools/seed_contract.py validate manifests examples
 ```
 
-A nonzero exit or a nonzero `failed` count means validation failed. Files in a `candidate_accounts` directory receive the stricter account checks. Other files receive the general Ascent schema checks. GitHub Actions runs this command and the validator tests on pull requests.
+A nonzero exit or a nonzero `failed` count means validation failed. Files in a `candidate_accounts` directory receive the stricter account checks. Other files receive the general Ascent schema checks. The validator also rejects bare Person definition codes, mismatched provisional usernames, duplicate Person definitions, and missing or mismatched state scope on U.S. state district definitions. Scope can be inherited from a document or group. GitHub Actions runs this command and the validator tests on pull requests.
 
 After adding or changing manifests, also regenerate and check the [entity catalog](CONTRIBUTING.md#refresh-the-catalog). Commit generated catalog changes with the manifest changes.
 
