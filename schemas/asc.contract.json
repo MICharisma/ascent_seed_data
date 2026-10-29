@@ -291,10 +291,11 @@
     },
     "County": {
       "attributes": {
-        "code": {
+        "fips": {
           "anyOf": [
             {
-              "type": "string"
+              "type": "string",
+              "pattern": "^[0-9]{5}$"
             },
             {
               "type": "null"
@@ -411,6 +412,62 @@
       "references": [
         "jurisdiction",
         "year"
+      ]
+    },
+    "Image": {
+      "attributes": {
+        "alt_text": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "credit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": []
+    },
+    "ImagePlacement": {
+      "attributes": {
+        "position": {
+          "type": "integer"
+        }
+      },
+      "references": [
+        "image",
+        "subject"
       ]
     },
     "Issue": {
@@ -624,36 +681,6 @@
           ]
         },
         "middle_name": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "portrait_credit": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "portrait_source_url": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "portrait_url": {
           "anyOf": [
             {
               "type": "string"

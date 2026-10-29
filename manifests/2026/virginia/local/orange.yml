@@ -7,35 +7,46 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_ORANGE-2026_GENERAL
+  code: ELECTION-USA-VA-GORDONSVILLE-2026_GENERAL
   attributes:
-    name: Orange County General Election 2026
+    name: Gordonsville General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-ORANGE
+    jurisdiction: MUNICIPALITY-USA-VA-GORDONSVILLE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-ORANGE-2026_GENERAL
+  attributes:
+    name: Orange General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-ORANGE
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ORANGE-MEMBER_TOWN_COUNCIL_GORDONSVILLE-TOWN_OF_GORDONSVILLE
+    code: OFFICE-USA-VA-GORDONSVILLE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_GORDONSVILLE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_GORDONSVILLE
-      jurisdiction: COUNTY-USA-VA-ORANGE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-GORDONSVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_ORANGE-MEMBER_TOWN_COUNCIL_GORDONSVILLE-TOWN_OF_GORDONSVILLE-2026_GENERAL
+    code: RACE-USA-VA-GORDONSVILLE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ORANGE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ORANGE-MEMBER_TOWN_COUNCIL_GORDONSVILLE-TOWN_OF_GORDONSVILLE
+      election: ELECTION-USA-VA-GORDONSVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-GORDONSVILLE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BLACK_MR_5Q
     attributes:
@@ -45,12 +56,12 @@ groups:
       middle_name: C. "Cyd"
       last_name: Black
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ORANGE-MEMBER_TOWN_COUNCIL_GORDONSVILLE-TOWN_OF_GORDONSVILLE-2026_GENERAL-BLACK_MR_5Q
+    code: CANDIDACY-USA-VA-GORDONSVILLE-COUNCIL_MEMBER-2026_GENERAL-BLACK_MR_5Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ORANGE-MEMBER_TOWN_COUNCIL_GORDONSVILLE-TOWN_OF_GORDONSVILLE-2026_GENERAL
+      race: RACE-USA-VA-GORDONSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BLACK_MR_5Q
   - type: Person
     code: PERSON-PAXTON_NC_4U
@@ -61,30 +72,29 @@ groups:
       middle_name: L.
       last_name: Paxton
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ORANGE-MEMBER_TOWN_COUNCIL_GORDONSVILLE-TOWN_OF_GORDONSVILLE-2026_GENERAL-PAXTON_NC_4U
+    code: CANDIDACY-USA-VA-GORDONSVILLE-COUNCIL_MEMBER-2026_GENERAL-PAXTON_NC_4U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ORANGE-MEMBER_TOWN_COUNCIL_GORDONSVILLE-TOWN_OF_GORDONSVILLE-2026_GENERAL
+      race: RACE-USA-VA-GORDONSVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PAXTON_NC_4U
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ORANGE-MEMBER_TOWN_COUNCIL_ORANGE-TOWN_OF_ORANGE
+    code: OFFICE-USA-VA-ORANGE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_ORANGE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_ORANGE
-      jurisdiction: COUNTY-USA-VA-ORANGE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-ORANGE
   - type: Race
-    code: RACE-USA-VA-COUNTY_ORANGE-MEMBER_TOWN_COUNCIL_ORANGE-TOWN_OF_ORANGE-2026_GENERAL
+    code: RACE-USA-VA-ORANGE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ORANGE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ORANGE-MEMBER_TOWN_COUNCIL_ORANGE-TOWN_OF_ORANGE
+      election: ELECTION-USA-VA-ORANGE-2026_GENERAL
+      office: OFFICE-USA-VA-ORANGE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-CRANE_JF_5E
     attributes:
@@ -94,12 +104,12 @@ groups:
       middle_name: L.
       last_name: Crane
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ORANGE-MEMBER_TOWN_COUNCIL_ORANGE-TOWN_OF_ORANGE-2026_GENERAL-CRANE_JF_5E
+    code: CANDIDACY-USA-VA-ORANGE-COUNCIL_MEMBER-2026_GENERAL-CRANE_JF_5E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ORANGE-MEMBER_TOWN_COUNCIL_ORANGE-TOWN_OF_ORANGE-2026_GENERAL
+      race: RACE-USA-VA-ORANGE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CRANE_JF_5E
   - type: Person
     code: PERSON-ASHWORTH_ZC_8W
@@ -110,10 +120,10 @@ groups:
       middle_name: M.
       last_name: Ashworth
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ORANGE-MEMBER_TOWN_COUNCIL_ORANGE-TOWN_OF_ORANGE-2026_GENERAL-ASHWORTH_ZC_8W
+    code: CANDIDACY-USA-VA-ORANGE-COUNCIL_MEMBER-2026_GENERAL-ASHWORTH_ZC_8W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ORANGE-MEMBER_TOWN_COUNCIL_ORANGE-TOWN_OF_ORANGE-2026_GENERAL
+      race: RACE-USA-VA-ORANGE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ASHWORTH_ZC_8W

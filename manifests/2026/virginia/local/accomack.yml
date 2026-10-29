@@ -7,47 +7,190 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
+  code: ELECTION-USA-VA-BLOXOM-2026_GENERAL
   attributes:
-    name: Accomack County General Election 2026
+    name: Bloxom General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-ACCOMACK
+    jurisdiction: MUNICIPALITY-USA-VA-BLOXOM
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_SPECIAL
+  code: ELECTION-USA-VA-HALLWOOD-2026_GENERAL
   attributes:
-    name: Accomack County Special Election 2026
+    name: Hallwood General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-HALLWOOD
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-KELLER-2026_GENERAL
+  attributes:
+    name: Keller General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-KELLER
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-ONANCOCK-2026_GENERAL
+  attributes:
+    name: Onancock General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-ONANCOCK
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-ONLEY-2026_GENERAL
+  attributes:
+    name: Onley General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-ONLEY
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-PAINTER-2026_GENERAL
+  attributes:
+    name: Painter General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-PAINTER
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-SAXIS-2026_GENERAL
+  attributes:
+    name: Saxis General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-SAXIS
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-TANGIER-2026_GENERAL
+  attributes:
+    name: Tangier General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-TANGIER
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-WACHAPREAGUE-2026_GENERAL
+  attributes:
+    name: Wachapreague General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-WACHAPREAGUE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-ACCOMAC-2026_GENERAL
+  attributes:
+    name: Accomac General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-ACCOMAC
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-CHINCOTEAGUE-2026_GENERAL
+  attributes:
+    name: Chincoteague General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-CHINCOTEAGUE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-MELFA-2026_GENERAL
+  attributes:
+    name: Melfa General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-MELFA
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-PARKSLEY-2026_GENERAL
+  attributes:
+    name: Parksley General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-PARKSLEY
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-ONANCOCK-2026_SPECIAL
+  attributes:
+    name: Onancock Special Election 2026
     kind: special
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-ACCOMACK
+    jurisdiction: MUNICIPALITY-USA-VA-ONANCOCK
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_BLOXOM-TOWN_OF_BLOXOM
+    code: OFFICE-USA-VA-BLOXOM-MAYOR
     attributes:
-      seat_code: TOWN_OF_BLOXOM
       is_active: true
     references:
-      position: POSITION-MAYOR_BLOXOM
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-BLOXOM
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_BLOXOM-TOWN_OF_BLOXOM-2026_GENERAL
+    code: RACE-USA-VA-BLOXOM-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_BLOXOM-TOWN_OF_BLOXOM
+      election: ELECTION-USA-VA-BLOXOM-2026_GENERAL
+      office: OFFICE-USA-VA-BLOXOM-MAYOR
   - type: Person
     code: PERSON-KREISL_CH_7P
     attributes:
@@ -57,30 +200,29 @@ groups:
       middle_name: F.
       last_name: Kreisl
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MAYOR_BLOXOM-TOWN_OF_BLOXOM-2026_GENERAL-KREISL_CH_7P
+    code: CANDIDACY-USA-VA-BLOXOM-MAYOR-2026_GENERAL-KREISL_CH_7P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_BLOXOM-TOWN_OF_BLOXOM-2026_GENERAL
+      race: RACE-USA-VA-BLOXOM-MAYOR-2026_GENERAL
       person: PERSON-KREISL_CH_7P
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_HALLWOOD-TOWN_OF_HALLWOOD
+    code: OFFICE-USA-VA-HALLWOOD-MAYOR
     attributes:
-      seat_code: TOWN_OF_HALLWOOD
       is_active: true
     references:
-      position: POSITION-MAYOR_HALLWOOD
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-HALLWOOD
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_HALLWOOD-TOWN_OF_HALLWOOD-2026_GENERAL
+    code: RACE-USA-VA-HALLWOOD-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_HALLWOOD-TOWN_OF_HALLWOOD
+      election: ELECTION-USA-VA-HALLWOOD-2026_GENERAL
+      office: OFFICE-USA-VA-HALLWOOD-MAYOR
   - type: Person
     code: PERSON-POULSON_JH_2H
     attributes:
@@ -90,30 +232,29 @@ groups:
       middle_name: W.
       last_name: Poulson, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MAYOR_HALLWOOD-TOWN_OF_HALLWOOD-2026_GENERAL-POULSON_JH_2H
+    code: CANDIDACY-USA-VA-HALLWOOD-MAYOR-2026_GENERAL-POULSON_JH_2H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_HALLWOOD-TOWN_OF_HALLWOOD-2026_GENERAL
+      race: RACE-USA-VA-HALLWOOD-MAYOR-2026_GENERAL
       person: PERSON-POULSON_JH_2H
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_KELLER-TOWN_OF_KELLER
+    code: OFFICE-USA-VA-KELLER-MAYOR
     attributes:
-      seat_code: TOWN_OF_KELLER
       is_active: true
     references:
-      position: POSITION-MAYOR_KELLER
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-KELLER
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_KELLER-TOWN_OF_KELLER-2026_GENERAL
+    code: RACE-USA-VA-KELLER-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_KELLER-TOWN_OF_KELLER
+      election: ELECTION-USA-VA-KELLER-2026_GENERAL
+      office: OFFICE-USA-VA-KELLER-MAYOR
   - type: Person
     code: PERSON-HART_S_3P
     attributes:
@@ -123,30 +264,29 @@ groups:
       middle_name: Beth J.
       last_name: Hart
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MAYOR_KELLER-TOWN_OF_KELLER-2026_GENERAL-HART_S_3P
+    code: CANDIDACY-USA-VA-KELLER-MAYOR-2026_GENERAL-HART_S_3P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_KELLER-TOWN_OF_KELLER-2026_GENERAL
+      race: RACE-USA-VA-KELLER-MAYOR-2026_GENERAL
       person: PERSON-HART_S_3P
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_ONANCOCK-TOWN_OF_ONANCOCK
+    code: OFFICE-USA-VA-ONANCOCK-MAYOR
     attributes:
-      seat_code: TOWN_OF_ONANCOCK
       is_active: true
     references:
-      position: POSITION-MAYOR_ONANCOCK
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-ONANCOCK
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_ONANCOCK-TOWN_OF_ONANCOCK-2026_GENERAL
+    code: RACE-USA-VA-ONANCOCK-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_ONANCOCK-TOWN_OF_ONANCOCK
+      election: ELECTION-USA-VA-ONANCOCK-2026_GENERAL
+      office: OFFICE-USA-VA-ONANCOCK-MAYOR
   - type: Person
     code: PERSON-FOSQUE_FL_5Q
     attributes:
@@ -156,30 +296,29 @@ groups:
       middle_name: D.
       last_name: Fosque
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MAYOR_ONANCOCK-TOWN_OF_ONANCOCK-2026_GENERAL-FOSQUE_FL_5Q
+    code: CANDIDACY-USA-VA-ONANCOCK-MAYOR-2026_GENERAL-FOSQUE_FL_5Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_ONANCOCK-TOWN_OF_ONANCOCK-2026_GENERAL
+      race: RACE-USA-VA-ONANCOCK-MAYOR-2026_GENERAL
       person: PERSON-FOSQUE_FL_5Q
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_ONLEY-TOWN_OF_ONLEY
+    code: OFFICE-USA-VA-ONLEY-MAYOR
     attributes:
-      seat_code: TOWN_OF_ONLEY
       is_active: true
     references:
-      position: POSITION-MAYOR_ONLEY
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-ONLEY
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_ONLEY-TOWN_OF_ONLEY-2026_GENERAL
+    code: RACE-USA-VA-ONLEY-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_ONLEY-TOWN_OF_ONLEY
+      election: ELECTION-USA-VA-ONLEY-2026_GENERAL
+      office: OFFICE-USA-VA-ONLEY-MAYOR
   - type: Person
     code: PERSON-FINNEY_HN_6R
     attributes:
@@ -189,30 +328,29 @@ groups:
       middle_name: E. "Ned"
       last_name: Finney
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MAYOR_ONLEY-TOWN_OF_ONLEY-2026_GENERAL-FINNEY_HN_6R
+    code: CANDIDACY-USA-VA-ONLEY-MAYOR-2026_GENERAL-FINNEY_HN_6R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_ONLEY-TOWN_OF_ONLEY-2026_GENERAL
+      race: RACE-USA-VA-ONLEY-MAYOR-2026_GENERAL
       person: PERSON-FINNEY_HN_6R
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_PAINTER-TOWN_OF_PAINTER
+    code: OFFICE-USA-VA-PAINTER-MAYOR
     attributes:
-      seat_code: TOWN_OF_PAINTER
       is_active: true
     references:
-      position: POSITION-MAYOR_PAINTER
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-PAINTER
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_PAINTER-TOWN_OF_PAINTER-2026_GENERAL
+    code: RACE-USA-VA-PAINTER-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_PAINTER-TOWN_OF_PAINTER
+      election: ELECTION-USA-VA-PAINTER-2026_GENERAL
+      office: OFFICE-USA-VA-PAINTER-MAYOR
   - type: Person
     code: PERSON-CAMPBELL_CN_4U
     attributes:
@@ -222,30 +360,29 @@ groups:
       middle_name: Widgeon
       last_name: Campbell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MAYOR_PAINTER-TOWN_OF_PAINTER-2026_GENERAL-CAMPBELL_CN_4U
+    code: CANDIDACY-USA-VA-PAINTER-MAYOR-2026_GENERAL-CAMPBELL_CN_4U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_PAINTER-TOWN_OF_PAINTER-2026_GENERAL
+      race: RACE-USA-VA-PAINTER-MAYOR-2026_GENERAL
       person: PERSON-CAMPBELL_CN_4U
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_SAXIS-TOWN_OF_SAXIS
+    code: OFFICE-USA-VA-SAXIS-MAYOR
     attributes:
-      seat_code: TOWN_OF_SAXIS
       is_active: true
     references:
-      position: POSITION-MAYOR_SAXIS
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-SAXIS
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_SAXIS-TOWN_OF_SAXIS-2026_GENERAL
+    code: RACE-USA-VA-SAXIS-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_SAXIS-TOWN_OF_SAXIS
+      election: ELECTION-USA-VA-SAXIS-2026_GENERAL
+      office: OFFICE-USA-VA-SAXIS-MAYOR
   - type: Person
     code: PERSON-SHREAVES_BR_4J
     attributes:
@@ -255,30 +392,29 @@ groups:
       middle_name: P.
       last_name: Shreaves, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MAYOR_SAXIS-TOWN_OF_SAXIS-2026_GENERAL-SHREAVES_BR_4J
+    code: CANDIDACY-USA-VA-SAXIS-MAYOR-2026_GENERAL-SHREAVES_BR_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_SAXIS-TOWN_OF_SAXIS-2026_GENERAL
+      race: RACE-USA-VA-SAXIS-MAYOR-2026_GENERAL
       person: PERSON-SHREAVES_BR_4J
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_TANGIER-TOWN_OF_TANGIER
+    code: OFFICE-USA-VA-TANGIER-MAYOR
     attributes:
-      seat_code: TOWN_OF_TANGIER
       is_active: true
     references:
-      position: POSITION-MAYOR_TANGIER
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-TANGIER
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_TANGIER-TOWN_OF_TANGIER-2026_GENERAL
+    code: RACE-USA-VA-TANGIER-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_TANGIER-TOWN_OF_TANGIER
+      election: ELECTION-USA-VA-TANGIER-2026_GENERAL
+      office: OFFICE-USA-VA-TANGIER-MAYOR
   - type: Person
     code: PERSON-ESKRIDGE_JM_5N
     attributes:
@@ -288,30 +424,29 @@ groups:
       middle_name: Wyatt
       last_name: Eskridge
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MAYOR_TANGIER-TOWN_OF_TANGIER-2026_GENERAL-ESKRIDGE_JM_5N
+    code: CANDIDACY-USA-VA-TANGIER-MAYOR-2026_GENERAL-ESKRIDGE_JM_5N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_TANGIER-TOWN_OF_TANGIER-2026_GENERAL
+      race: RACE-USA-VA-TANGIER-MAYOR-2026_GENERAL
       person: PERSON-ESKRIDGE_JM_5N
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE
+    code: OFFICE-USA-VA-WACHAPREAGUE-MAYOR
     attributes:
-      seat_code: TOWN_OF_WACHAPREAGUE
       is_active: true
     references:
-      position: POSITION-MAYOR_WACHAPREAGUE
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-WACHAPREAGUE
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE-2026_GENERAL
+    code: RACE-USA-VA-WACHAPREAGUE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MAYOR_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE
+      election: ELECTION-USA-VA-WACHAPREAGUE-2026_GENERAL
+      office: OFFICE-USA-VA-WACHAPREAGUE-MAYOR
   - type: Person
     code: PERSON-MENDEZ_AR_7N
     attributes:
@@ -321,30 +456,29 @@ groups:
       middle_name: J.
       last_name: Mendez
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MAYOR_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE-2026_GENERAL-MENDEZ_AR_7N
+    code: CANDIDACY-USA-VA-WACHAPREAGUE-MAYOR-2026_GENERAL-MENDEZ_AR_7N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MAYOR_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE-2026_GENERAL
+      race: RACE-USA-VA-WACHAPREAGUE-MAYOR-2026_GENERAL
       person: PERSON-MENDEZ_AR_7N
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ACCOMAC-TOWN_OF_ACCOMAC
+    code: OFFICE-USA-VA-ACCOMAC-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_ACCOMAC
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_ACCOMAC
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-ACCOMAC
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ACCOMAC-TOWN_OF_ACCOMAC-2026_GENERAL
+    code: RACE-USA-VA-ACCOMAC-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ACCOMAC-TOWN_OF_ACCOMAC
+      election: ELECTION-USA-VA-ACCOMAC-2026_GENERAL
+      office: OFFICE-USA-VA-ACCOMAC-COUNCIL_MEMBER
   - type: Person
     code: PERSON-NEWMAN_CH_9J
     attributes:
@@ -354,12 +488,12 @@ groups:
       middle_name: W.
       last_name: Newman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ACCOMAC-TOWN_OF_ACCOMAC-2026_GENERAL-NEWMAN_CH_9J
+    code: CANDIDACY-USA-VA-ACCOMAC-COUNCIL_MEMBER-2026_GENERAL-NEWMAN_CH_9J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ACCOMAC-TOWN_OF_ACCOMAC-2026_GENERAL
+      race: RACE-USA-VA-ACCOMAC-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-NEWMAN_CH_9J
   - type: Person
     code: PERSON-MINDURSKI_JN_4M
@@ -370,12 +504,12 @@ groups:
       middle_name: J.
       last_name: Mindurski
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ACCOMAC-TOWN_OF_ACCOMAC-2026_GENERAL-MINDURSKI_JN_4M
+    code: CANDIDACY-USA-VA-ACCOMAC-COUNCIL_MEMBER-2026_GENERAL-MINDURSKI_JN_4M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ACCOMAC-TOWN_OF_ACCOMAC-2026_GENERAL
+      race: RACE-USA-VA-ACCOMAC-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MINDURSKI_JN_4M
   - type: Person
     code: PERSON-DAHLKE_MR_8N
@@ -386,12 +520,12 @@ groups:
       middle_name: E.
       last_name: Dahlke
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ACCOMAC-TOWN_OF_ACCOMAC-2026_GENERAL-DAHLKE_MR_8N
+    code: CANDIDACY-USA-VA-ACCOMAC-COUNCIL_MEMBER-2026_GENERAL-DAHLKE_MR_8N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ACCOMAC-TOWN_OF_ACCOMAC-2026_GENERAL
+      race: RACE-USA-VA-ACCOMAC-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DAHLKE_MR_8N
   - type: Person
     code: PERSON-HINES_TH_6B
@@ -402,30 +536,29 @@ groups:
       middle_name: E.
       last_name: Hines
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ACCOMAC-TOWN_OF_ACCOMAC-2026_GENERAL-HINES_TH_6B
+    code: CANDIDACY-USA-VA-ACCOMAC-COUNCIL_MEMBER-2026_GENERAL-HINES_TH_6B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ACCOMAC-TOWN_OF_ACCOMAC-2026_GENERAL
+      race: RACE-USA-VA-ACCOMAC-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HINES_TH_6B
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_BLOXOM-TOWN_OF_BLOXOM
+    code: OFFICE-USA-VA-BLOXOM-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_BLOXOM
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_BLOXOM
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-BLOXOM
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_BLOXOM-TOWN_OF_BLOXOM-2026_GENERAL
+    code: RACE-USA-VA-BLOXOM-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_BLOXOM-TOWN_OF_BLOXOM
+      election: ELECTION-USA-VA-BLOXOM-2026_GENERAL
+      office: OFFICE-USA-VA-BLOXOM-COUNCIL_MEMBER
   - type: Person
     code: PERSON-ROE_CH_9Z
     attributes:
@@ -435,12 +568,12 @@ groups:
       middle_name: Edward
       last_name: Roe, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_BLOXOM-TOWN_OF_BLOXOM-2026_GENERAL-ROE_CH_9Z
+    code: CANDIDACY-USA-VA-BLOXOM-COUNCIL_MEMBER-2026_GENERAL-ROE_CH_9Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_BLOXOM-TOWN_OF_BLOXOM-2026_GENERAL
+      race: RACE-USA-VA-BLOXOM-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ROE_CH_9Z
   - type: Person
     code: PERSON-BAGWELL_JM_4D
@@ -451,12 +584,12 @@ groups:
       middle_name: T.
       last_name: Bagwell II
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_BLOXOM-TOWN_OF_BLOXOM-2026_GENERAL-BAGWELL_JM_4D
+    code: CANDIDACY-USA-VA-BLOXOM-COUNCIL_MEMBER-2026_GENERAL-BAGWELL_JM_4D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_BLOXOM-TOWN_OF_BLOXOM-2026_GENERAL
+      race: RACE-USA-VA-BLOXOM-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BAGWELL_JM_4D
   - type: Person
     code: PERSON-BAGWELL_KS_4G
@@ -467,12 +600,12 @@ groups:
       middle_name: G.
       last_name: Bagwell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_BLOXOM-TOWN_OF_BLOXOM-2026_GENERAL-BAGWELL_KS_4G
+    code: CANDIDACY-USA-VA-BLOXOM-COUNCIL_MEMBER-2026_GENERAL-BAGWELL_KS_4G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_BLOXOM-TOWN_OF_BLOXOM-2026_GENERAL
+      race: RACE-USA-VA-BLOXOM-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BAGWELL_KS_4G
   - type: Person
     code: PERSON-GIBBONS_RS_5W
@@ -483,12 +616,12 @@ groups:
       middle_name: G.
       last_name: Gibbons
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_BLOXOM-TOWN_OF_BLOXOM-2026_GENERAL-GIBBONS_RS_5W
+    code: CANDIDACY-USA-VA-BLOXOM-COUNCIL_MEMBER-2026_GENERAL-GIBBONS_RS_5W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_BLOXOM-TOWN_OF_BLOXOM-2026_GENERAL
+      race: RACE-USA-VA-BLOXOM-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GIBBONS_RS_5W
   - type: Person
     code: PERSON-BLOXOM_SM_6S
@@ -499,12 +632,12 @@ groups:
       middle_name: H.
       last_name: Bloxom, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_BLOXOM-TOWN_OF_BLOXOM-2026_GENERAL-BLOXOM_SM_6S
+    code: CANDIDACY-USA-VA-BLOXOM-COUNCIL_MEMBER-2026_GENERAL-BLOXOM_SM_6S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_BLOXOM-TOWN_OF_BLOXOM-2026_GENERAL
+      race: RACE-USA-VA-BLOXOM-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BLOXOM_SM_6S
   - type: Person
     code: PERSON-BEASLEY_TH_9V
@@ -515,30 +648,29 @@ groups:
       middle_name: W.
       last_name: Beasley
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_BLOXOM-TOWN_OF_BLOXOM-2026_GENERAL-BEASLEY_TH_9V
+    code: CANDIDACY-USA-VA-BLOXOM-COUNCIL_MEMBER-2026_GENERAL-BEASLEY_TH_9V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_BLOXOM-TOWN_OF_BLOXOM-2026_GENERAL
+      race: RACE-USA-VA-BLOXOM-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BEASLEY_TH_9V
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_CHINCOTEAGUE-TOWN_OF_CHINCOTEAGUE
+    code: OFFICE-USA-VA-CHINCOTEAGUE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_CHINCOTEAGUE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_CHINCOTEAGUE
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-CHINCOTEAGUE
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_CHINCOTEAGUE-TOWN_OF_CHINCOTEAGUE-2026_GENERAL
+    code: RACE-USA-VA-CHINCOTEAGUE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_CHINCOTEAGUE-TOWN_OF_CHINCOTEAGUE
+      election: ELECTION-USA-VA-CHINCOTEAGUE-2026_GENERAL
+      office: OFFICE-USA-VA-CHINCOTEAGUE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BOTT_CH_8W
     attributes:
@@ -548,12 +680,12 @@ groups:
       middle_name: Duer
       last_name: Bott
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_CHINCOTEAGUE-TOWN_OF_CHINCOTEAGUE-2026_GENERAL-BOTT_CH_8W
+    code: CANDIDACY-USA-VA-CHINCOTEAGUE-COUNCIL_MEMBER-2026_GENERAL-BOTT_CH_8W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_CHINCOTEAGUE-TOWN_OF_CHINCOTEAGUE-2026_GENERAL
+      race: RACE-USA-VA-CHINCOTEAGUE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BOTT_CH_8W
   - type: Person
     code: PERSON-RICHARDSON_EL_7X
@@ -564,12 +696,12 @@ groups:
       middle_name: W.
       last_name: Richardson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_CHINCOTEAGUE-TOWN_OF_CHINCOTEAGUE-2026_GENERAL-RICHARDSON_EL_7X
+    code: CANDIDACY-USA-VA-CHINCOTEAGUE-COUNCIL_MEMBER-2026_GENERAL-RICHARDSON_EL_7X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_CHINCOTEAGUE-TOWN_OF_CHINCOTEAGUE-2026_GENERAL
+      race: RACE-USA-VA-CHINCOTEAGUE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-RICHARDSON_EL_7X
   - type: Person
     code: PERSON-SAVAGE_K_9T
@@ -580,30 +712,29 @@ groups:
       middle_name: Jay
       last_name: Savage
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_CHINCOTEAGUE-TOWN_OF_CHINCOTEAGUE-2026_GENERAL-SAVAGE_K_9T
+    code: CANDIDACY-USA-VA-CHINCOTEAGUE-COUNCIL_MEMBER-2026_GENERAL-SAVAGE_K_9T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_CHINCOTEAGUE-TOWN_OF_CHINCOTEAGUE-2026_GENERAL
+      race: RACE-USA-VA-CHINCOTEAGUE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SAVAGE_K_9T
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_HALLWOOD-TOWN_OF_HALLWOOD
+    code: OFFICE-USA-VA-HALLWOOD-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_HALLWOOD
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_HALLWOOD
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-HALLWOOD
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_HALLWOOD-TOWN_OF_HALLWOOD-2026_GENERAL
+    code: RACE-USA-VA-HALLWOOD-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_HALLWOOD-TOWN_OF_HALLWOOD
+      election: ELECTION-USA-VA-HALLWOOD-2026_GENERAL
+      office: OFFICE-USA-VA-HALLWOOD-COUNCIL_MEMBER
   - type: Person
     code: PERSON-THORNTON_DW_9W
     attributes:
@@ -613,12 +744,12 @@ groups:
       middle_name: A.
       last_name: Thornton
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_HALLWOOD-TOWN_OF_HALLWOOD-2026_GENERAL-THORNTON_DW_9W
+    code: CANDIDACY-USA-VA-HALLWOOD-COUNCIL_MEMBER-2026_GENERAL-THORNTON_DW_9W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_HALLWOOD-TOWN_OF_HALLWOOD-2026_GENERAL
+      race: RACE-USA-VA-HALLWOOD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-THORNTON_DW_9W
   - type: Person
     code: PERSON-SMITH_JH_5M
@@ -629,12 +760,12 @@ groups:
       middle_name: W.
       last_name: Smith, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_HALLWOOD-TOWN_OF_HALLWOOD-2026_GENERAL-SMITH_JH_5M
+    code: CANDIDACY-USA-VA-HALLWOOD-COUNCIL_MEMBER-2026_GENERAL-SMITH_JH_5M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_HALLWOOD-TOWN_OF_HALLWOOD-2026_GENERAL
+      race: RACE-USA-VA-HALLWOOD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SMITH_JH_5M
   - type: Person
     code: PERSON-RIFFEY_PM_7D
@@ -645,30 +776,29 @@ groups:
       middle_name: G.
       last_name: Riffey
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_HALLWOOD-TOWN_OF_HALLWOOD-2026_GENERAL-RIFFEY_PM_7D
+    code: CANDIDACY-USA-VA-HALLWOOD-COUNCIL_MEMBER-2026_GENERAL-RIFFEY_PM_7D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_HALLWOOD-TOWN_OF_HALLWOOD-2026_GENERAL
+      race: RACE-USA-VA-HALLWOOD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-RIFFEY_PM_7D
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_KELLER-TOWN_OF_KELLER
+    code: OFFICE-USA-VA-KELLER-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_KELLER
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_KELLER
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-KELLER
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_KELLER-TOWN_OF_KELLER-2026_GENERAL
+    code: RACE-USA-VA-KELLER-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_KELLER-TOWN_OF_KELLER
+      election: ELECTION-USA-VA-KELLER-2026_GENERAL
+      office: OFFICE-USA-VA-KELLER-COUNCIL_MEMBER
   - type: Person
     code: PERSON-HART_AN_4R
     attributes:
@@ -678,12 +808,12 @@ groups:
       middle_name: L.
       last_name: Hart
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_KELLER-TOWN_OF_KELLER-2026_GENERAL-HART_AN_4R
+    code: CANDIDACY-USA-VA-KELLER-COUNCIL_MEMBER-2026_GENERAL-HART_AN_4R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_KELLER-TOWN_OF_KELLER-2026_GENERAL
+      race: RACE-USA-VA-KELLER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HART_AN_4R
   - type: Person
     code: PERSON-GUY_LN_7K
@@ -694,12 +824,12 @@ groups:
       middle_name: A.
       last_name: Guy
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_KELLER-TOWN_OF_KELLER-2026_GENERAL-GUY_LN_7K
+    code: CANDIDACY-USA-VA-KELLER-COUNCIL_MEMBER-2026_GENERAL-GUY_LN_7K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_KELLER-TOWN_OF_KELLER-2026_GENERAL
+      race: RACE-USA-VA-KELLER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GUY_LN_7K
   - type: Person
     code: PERSON-MOORE_RS_3J
@@ -710,12 +840,12 @@ groups:
       middle_name: Ann
       last_name: Moore
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_KELLER-TOWN_OF_KELLER-2026_GENERAL-MOORE_RS_3J
+    code: CANDIDACY-USA-VA-KELLER-COUNCIL_MEMBER-2026_GENERAL-MOORE_RS_3J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_KELLER-TOWN_OF_KELLER-2026_GENERAL
+      race: RACE-USA-VA-KELLER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MOORE_RS_3J
   - type: Person
     code: PERSON-GUY_TR_3L
@@ -726,30 +856,29 @@ groups:
       middle_name: E.
       last_name: Guy
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_KELLER-TOWN_OF_KELLER-2026_GENERAL-GUY_TR_3L
+    code: CANDIDACY-USA-VA-KELLER-COUNCIL_MEMBER-2026_GENERAL-GUY_TR_3L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_KELLER-TOWN_OF_KELLER-2026_GENERAL
+      race: RACE-USA-VA-KELLER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GUY_TR_3L
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_MELFA-TOWN_OF_MELFA
+    code: OFFICE-USA-VA-MELFA-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_MELFA
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_MELFA
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-MELFA
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_MELFA-TOWN_OF_MELFA-2026_GENERAL
+    code: RACE-USA-VA-MELFA-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_MELFA-TOWN_OF_MELFA
+      election: ELECTION-USA-VA-MELFA-2026_GENERAL
+      office: OFFICE-USA-VA-MELFA-COUNCIL_MEMBER
   - type: Person
     code: PERSON-WILSON_JM_9Z
     attributes:
@@ -759,12 +888,12 @@ groups:
       middle_name: R.
       last_name: Wilson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_MELFA-TOWN_OF_MELFA-2026_GENERAL-WILSON_JM_9Z
+    code: CANDIDACY-USA-VA-MELFA-COUNCIL_MEMBER-2026_GENERAL-WILSON_JM_9Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_MELFA-TOWN_OF_MELFA-2026_GENERAL
+      race: RACE-USA-VA-MELFA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WILSON_JM_9Z
   - type: Person
     code: PERSON-MARSH_RC_4C
@@ -775,12 +904,12 @@ groups:
       middle_name: C.
       last_name: Marsh
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_MELFA-TOWN_OF_MELFA-2026_GENERAL-MARSH_RC_4C
+    code: CANDIDACY-USA-VA-MELFA-COUNCIL_MEMBER-2026_GENERAL-MARSH_RC_4C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_MELFA-TOWN_OF_MELFA-2026_GENERAL
+      race: RACE-USA-VA-MELFA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MARSH_RC_4C
   - type: Person
     code: PERSON-MEARS_RB_7B
@@ -791,30 +920,29 @@ groups:
       middle_name: Douglas
       last_name: Mears
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_MELFA-TOWN_OF_MELFA-2026_GENERAL-MEARS_RB_7B
+    code: CANDIDACY-USA-VA-MELFA-COUNCIL_MEMBER-2026_GENERAL-MEARS_RB_7B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_MELFA-TOWN_OF_MELFA-2026_GENERAL
+      race: RACE-USA-VA-MELFA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MEARS_RB_7B
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONANCOCK-TOWN_OF_ONANCOCK
+    code: OFFICE-USA-VA-ONANCOCK-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_ONANCOCK
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_ONANCOCK
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-ONANCOCK
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONANCOCK-TOWN_OF_ONANCOCK-2026_GENERAL
+    code: RACE-USA-VA-ONANCOCK-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONANCOCK-TOWN_OF_ONANCOCK
+      election: ELECTION-USA-VA-ONANCOCK-2026_GENERAL
+      office: OFFICE-USA-VA-ONANCOCK-COUNCIL_MEMBER
   - type: Person
     code: PERSON-QUIGLEY_AN_3X
     attributes:
@@ -824,12 +952,12 @@ groups:
       middle_name: M.
       last_name: Quigley
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONANCOCK-TOWN_OF_ONANCOCK-2026_GENERAL-QUIGLEY_AN_3X
+    code: CANDIDACY-USA-VA-ONANCOCK-COUNCIL_MEMBER-2026_GENERAL-QUIGLEY_AN_3X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONANCOCK-TOWN_OF_ONANCOCK-2026_GENERAL
+      race: RACE-USA-VA-ONANCOCK-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-QUIGLEY_AN_3X
   - type: Person
     code: PERSON-PETTIT_AS_7L
@@ -840,12 +968,12 @@ groups:
       middle_name: G.
       last_name: Pettit
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONANCOCK-TOWN_OF_ONANCOCK-2026_GENERAL-PETTIT_AS_7L
+    code: CANDIDACY-USA-VA-ONANCOCK-COUNCIL_MEMBER-2026_GENERAL-PETTIT_AS_7L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONANCOCK-TOWN_OF_ONANCOCK-2026_GENERAL
+      race: RACE-USA-VA-ONANCOCK-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PETTIT_AS_7L
   - type: Person
     code: PERSON-HOLDREN_CY_7U
@@ -856,30 +984,29 @@ groups:
       middle_name: W.
       last_name: Holdren
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONANCOCK-TOWN_OF_ONANCOCK-2026_GENERAL-HOLDREN_CY_7U
+    code: CANDIDACY-USA-VA-ONANCOCK-COUNCIL_MEMBER-2026_GENERAL-HOLDREN_CY_7U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONANCOCK-TOWN_OF_ONANCOCK-2026_GENERAL
+      race: RACE-USA-VA-ONANCOCK-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HOLDREN_CY_7U
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONLEY-TOWN_OF_ONLEY
+    code: OFFICE-USA-VA-ONLEY-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_ONLEY
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_ONLEY
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-ONLEY
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONLEY-TOWN_OF_ONLEY-2026_GENERAL
+    code: RACE-USA-VA-ONLEY-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONLEY-TOWN_OF_ONLEY
+      election: ELECTION-USA-VA-ONLEY-2026_GENERAL
+      office: OFFICE-USA-VA-ONLEY-COUNCIL_MEMBER
   - type: Person
     code: PERSON-CORBIN_BR_7Y
     attributes:
@@ -889,12 +1016,12 @@ groups:
       middle_name: A.
       last_name: Corbin
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONLEY-TOWN_OF_ONLEY-2026_GENERAL-CORBIN_BR_7Y
+    code: CANDIDACY-USA-VA-ONLEY-COUNCIL_MEMBER-2026_GENERAL-CORBIN_BR_7Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONLEY-TOWN_OF_ONLEY-2026_GENERAL
+      race: RACE-USA-VA-ONLEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CORBIN_BR_7Y
   - type: Person
     code: PERSON-BLOXOM_DN_6X
@@ -905,12 +1032,12 @@ groups:
       middle_name: Keith
       last_name: Bloxom, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONLEY-TOWN_OF_ONLEY-2026_GENERAL-BLOXOM_DN_6X
+    code: CANDIDACY-USA-VA-ONLEY-COUNCIL_MEMBER-2026_GENERAL-BLOXOM_DN_6X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONLEY-TOWN_OF_ONLEY-2026_GENERAL
+      race: RACE-USA-VA-ONLEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BLOXOM_DN_6X
   - type: Person
     code: PERSON-CAMPBELL_JS_5B
@@ -921,12 +1048,12 @@ groups:
       middle_name: A.
       last_name: Campbell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONLEY-TOWN_OF_ONLEY-2026_GENERAL-CAMPBELL_JS_5B
+    code: CANDIDACY-USA-VA-ONLEY-COUNCIL_MEMBER-2026_GENERAL-CAMPBELL_JS_5B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONLEY-TOWN_OF_ONLEY-2026_GENERAL
+      race: RACE-USA-VA-ONLEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CAMPBELL_JS_5B
   - type: Person
     code: PERSON-LANG_RD_2T
@@ -937,12 +1064,12 @@ groups:
       middle_name: C.
       last_name: Lang
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONLEY-TOWN_OF_ONLEY-2026_GENERAL-LANG_RD_2T
+    code: CANDIDACY-USA-VA-ONLEY-COUNCIL_MEMBER-2026_GENERAL-LANG_RD_2T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONLEY-TOWN_OF_ONLEY-2026_GENERAL
+      race: RACE-USA-VA-ONLEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LANG_RD_2T
   - type: Person
     code: PERSON-FERGUSON_W_2T
@@ -953,12 +1080,12 @@ groups:
       middle_name: R. "Bill"
       last_name: Ferguson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONLEY-TOWN_OF_ONLEY-2026_GENERAL-FERGUSON_W_2T
+    code: CANDIDACY-USA-VA-ONLEY-COUNCIL_MEMBER-2026_GENERAL-FERGUSON_W_2T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONLEY-TOWN_OF_ONLEY-2026_GENERAL
+      race: RACE-USA-VA-ONLEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FERGUSON_W_2T
   - type: Person
     code: PERSON-ZEMBER_WD_2A
@@ -969,30 +1096,29 @@ groups:
       middle_name: W.
       last_name: Zember
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONLEY-TOWN_OF_ONLEY-2026_GENERAL-ZEMBER_WD_2A
+    code: CANDIDACY-USA-VA-ONLEY-COUNCIL_MEMBER-2026_GENERAL-ZEMBER_WD_2A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_ONLEY-TOWN_OF_ONLEY-2026_GENERAL
+      race: RACE-USA-VA-ONLEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ZEMBER_WD_2A
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PAINTER-TOWN_OF_PAINTER
+    code: OFFICE-USA-VA-PAINTER-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_PAINTER
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_PAINTER
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-PAINTER
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PAINTER-TOWN_OF_PAINTER-2026_GENERAL
+    code: RACE-USA-VA-PAINTER-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PAINTER-TOWN_OF_PAINTER
+      election: ELECTION-USA-VA-PAINTER-2026_GENERAL
+      office: OFFICE-USA-VA-PAINTER-COUNCIL_MEMBER
   - type: Person
     code: PERSON-HARRIS_ER_4W
     attributes:
@@ -1002,12 +1128,12 @@ groups:
       middle_name: Talmadge
       last_name: Harris
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PAINTER-TOWN_OF_PAINTER-2026_GENERAL-HARRIS_ER_4W
+    code: CANDIDACY-USA-VA-PAINTER-COUNCIL_MEMBER-2026_GENERAL-HARRIS_ER_4W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PAINTER-TOWN_OF_PAINTER-2026_GENERAL
+      race: RACE-USA-VA-PAINTER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HARRIS_ER_4W
   - type: Person
     code: PERSON-DUER_F_6X
@@ -1018,12 +1144,12 @@ groups:
       middle_name: C.
       last_name: Duer III
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PAINTER-TOWN_OF_PAINTER-2026_GENERAL-DUER_F_6X
+    code: CANDIDACY-USA-VA-PAINTER-COUNCIL_MEMBER-2026_GENERAL-DUER_F_6X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PAINTER-TOWN_OF_PAINTER-2026_GENERAL
+      race: RACE-USA-VA-PAINTER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DUER_F_6X
   - type: Person
     code: PERSON-STURGIS_JM_9P
@@ -1034,12 +1160,12 @@ groups:
       middle_name: N.
       last_name: Sturgis
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PAINTER-TOWN_OF_PAINTER-2026_GENERAL-STURGIS_JM_9P
+    code: CANDIDACY-USA-VA-PAINTER-COUNCIL_MEMBER-2026_GENERAL-STURGIS_JM_9P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PAINTER-TOWN_OF_PAINTER-2026_GENERAL
+      race: RACE-USA-VA-PAINTER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-STURGIS_JM_9P
   - type: Person
     code: PERSON-HEARNE_JS_4J
@@ -1050,12 +1176,12 @@ groups:
       middle_name: B.
       last_name: Hearne
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PAINTER-TOWN_OF_PAINTER-2026_GENERAL-HEARNE_JS_4J
+    code: CANDIDACY-USA-VA-PAINTER-COUNCIL_MEMBER-2026_GENERAL-HEARNE_JS_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PAINTER-TOWN_OF_PAINTER-2026_GENERAL
+      race: RACE-USA-VA-PAINTER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HEARNE_JS_4J
   - type: Person
     code: PERSON-LEWIS_SM_7Z
@@ -1066,12 +1192,12 @@ groups:
       middle_name: L.
       last_name: Lewis, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PAINTER-TOWN_OF_PAINTER-2026_GENERAL-LEWIS_SM_7Z
+    code: CANDIDACY-USA-VA-PAINTER-COUNCIL_MEMBER-2026_GENERAL-LEWIS_SM_7Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PAINTER-TOWN_OF_PAINTER-2026_GENERAL
+      race: RACE-USA-VA-PAINTER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LEWIS_SM_7Z
   - type: Person
     code: PERSON-WILLETT_TH_4X
@@ -1082,30 +1208,29 @@ groups:
       middle_name: L.
       last_name: Willett
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PAINTER-TOWN_OF_PAINTER-2026_GENERAL-WILLETT_TH_4X
+    code: CANDIDACY-USA-VA-PAINTER-COUNCIL_MEMBER-2026_GENERAL-WILLETT_TH_4X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PAINTER-TOWN_OF_PAINTER-2026_GENERAL
+      race: RACE-USA-VA-PAINTER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WILLETT_TH_4X
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PARKSLEY-TOWN_OF_PARKSLEY
+    code: OFFICE-USA-VA-PARKSLEY-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_PARKSLEY
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_PARKSLEY
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-PARKSLEY
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PARKSLEY-TOWN_OF_PARKSLEY-2026_GENERAL
+    code: RACE-USA-VA-PARKSLEY-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PARKSLEY-TOWN_OF_PARKSLEY
+      election: ELECTION-USA-VA-PARKSLEY-2026_GENERAL
+      office: OFFICE-USA-VA-PARKSLEY-COUNCIL_MEMBER
   - type: Person
     code: PERSON-SMITH_KM_4R
     attributes:
@@ -1115,12 +1240,12 @@ groups:
       middle_name: C.
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PARKSLEY-TOWN_OF_PARKSLEY-2026_GENERAL-SMITH_KM_4R
+    code: CANDIDACY-USA-VA-PARKSLEY-COUNCIL_MEMBER-2026_GENERAL-SMITH_KM_4R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PARKSLEY-TOWN_OF_PARKSLEY-2026_GENERAL
+      race: RACE-USA-VA-PARKSLEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SMITH_KM_4R
   - type: Person
     code: PERSON-LAYNE_MR_6J
@@ -1131,12 +1256,12 @@ groups:
       middle_name: S.
       last_name: Layne
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PARKSLEY-TOWN_OF_PARKSLEY-2026_GENERAL-LAYNE_MR_6J
+    code: CANDIDACY-USA-VA-PARKSLEY-COUNCIL_MEMBER-2026_GENERAL-LAYNE_MR_6J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PARKSLEY-TOWN_OF_PARKSLEY-2026_GENERAL
+      race: RACE-USA-VA-PARKSLEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LAYNE_MR_6J
   - type: Person
     code: PERSON-MATTSON_RC_3B
@@ -1147,30 +1272,29 @@ groups:
       middle_name: W.
       last_name: Mattson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PARKSLEY-TOWN_OF_PARKSLEY-2026_GENERAL-MATTSON_RC_3B
+    code: CANDIDACY-USA-VA-PARKSLEY-COUNCIL_MEMBER-2026_GENERAL-MATTSON_RC_3B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_PARKSLEY-TOWN_OF_PARKSLEY-2026_GENERAL
+      race: RACE-USA-VA-PARKSLEY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MATTSON_RC_3B
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS
+    code: OFFICE-USA-VA-SAXIS-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_SAXIS
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_SAXIS
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-SAXIS
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS-2026_GENERAL
+    code: RACE-USA-VA-SAXIS-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS
+      election: ELECTION-USA-VA-SAXIS-2026_GENERAL
+      office: OFFICE-USA-VA-SAXIS-COUNCIL_MEMBER
   - type: Person
     code: PERSON-MILES_AB_6D
     attributes:
@@ -1180,12 +1304,12 @@ groups:
       middle_name: Lee
       last_name: Miles, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS-2026_GENERAL-MILES_AB_6D
+    code: CANDIDACY-USA-VA-SAXIS-COUNCIL_MEMBER-2026_GENERAL-MILES_AB_6D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS-2026_GENERAL
+      race: RACE-USA-VA-SAXIS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MILES_AB_6D
   - type: Person
     code: PERSON-HART_BV_8U
@@ -1196,12 +1320,12 @@ groups:
       middle_name: L.
       last_name: Hart
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS-2026_GENERAL-HART_BV_8U
+    code: CANDIDACY-USA-VA-SAXIS-COUNCIL_MEMBER-2026_GENERAL-HART_BV_8U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS-2026_GENERAL
+      race: RACE-USA-VA-SAXIS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HART_BV_8U
   - type: Person
     code: PERSON-TAYLOR_BR_2R
@@ -1212,12 +1336,12 @@ groups:
       middle_name: J.
       last_name: Taylor
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS-2026_GENERAL-TAYLOR_BR_2R
+    code: CANDIDACY-USA-VA-SAXIS-COUNCIL_MEMBER-2026_GENERAL-TAYLOR_BR_2R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS-2026_GENERAL
+      race: RACE-USA-VA-SAXIS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TAYLOR_BR_2R
   - type: Person
     code: PERSON-MARSHALL_DR_4C
@@ -1228,12 +1352,12 @@ groups:
       middle_name: D.
       last_name: Marshall
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS-2026_GENERAL-MARSHALL_DR_4C
+    code: CANDIDACY-USA-VA-SAXIS-COUNCIL_MEMBER-2026_GENERAL-MARSHALL_DR_4C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS-2026_GENERAL
+      race: RACE-USA-VA-SAXIS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MARSHALL_DR_4C
   - type: Person
     code: PERSON-CHANCE_DN_5N
@@ -1244,12 +1368,12 @@ groups:
       middle_name: E.
       last_name: Chance
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS-2026_GENERAL-CHANCE_DN_5N
+    code: CANDIDACY-USA-VA-SAXIS-COUNCIL_MEMBER-2026_GENERAL-CHANCE_DN_5N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS-2026_GENERAL
+      race: RACE-USA-VA-SAXIS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CHANCE_DN_5N
   - type: Person
     code: PERSON-STITELY_K_4N
@@ -1260,12 +1384,12 @@ groups:
       middle_name: N. "Katie Morrison"
       last_name: Stitely
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS-2026_GENERAL-STITELY_K_4N
+    code: CANDIDACY-USA-VA-SAXIS-COUNCIL_MEMBER-2026_GENERAL-STITELY_K_4N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS-2026_GENERAL
+      race: RACE-USA-VA-SAXIS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-STITELY_K_4N
   - type: Person
     code: PERSON-PAOLETTI_RY_2D
@@ -1276,30 +1400,29 @@ groups:
       middle_name: Paul
       last_name: Paoletti
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS-2026_GENERAL-PAOLETTI_RY_2D
+    code: CANDIDACY-USA-VA-SAXIS-COUNCIL_MEMBER-2026_GENERAL-PAOLETTI_RY_2D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SAXIS-TOWN_OF_SAXIS-2026_GENERAL
+      race: RACE-USA-VA-SAXIS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PAOLETTI_RY_2D
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_ONANCOCK
+    code: OFFICE-USA-VA-ONANCOCK-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_ONANCOCK
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_SPECIAL
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-ONANCOCK
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_ONANCOCK-2026_SPECIAL
+    code: RACE-USA-VA-ONANCOCK-COUNCIL_MEMBER-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_ONANCOCK
+      election: ELECTION-USA-VA-ONANCOCK-2026_SPECIAL
+      office: OFFICE-USA-VA-ONANCOCK-COUNCIL_MEMBER
   - type: Person
     code: PERSON-GRIER_K_5R
     attributes:
@@ -1309,30 +1432,29 @@ groups:
       middle_name: C. "Kasey"
       last_name: Grier
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_ONANCOCK-2026_SPECIAL-GRIER_K_5R
+    code: CANDIDACY-USA-VA-ONANCOCK-COUNCIL_MEMBER-2026_SPECIAL-GRIER_K_5R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_ONANCOCK-2026_SPECIAL
+      race: RACE-USA-VA-ONANCOCK-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-GRIER_K_5R
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_TANGIER-TOWN_OF_TANGIER
+    code: OFFICE-USA-VA-TANGIER-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_TANGIER
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_TANGIER
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-TANGIER
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_TANGIER-TOWN_OF_TANGIER-2026_GENERAL
+    code: RACE-USA-VA-TANGIER-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_TANGIER-TOWN_OF_TANGIER
+      election: ELECTION-USA-VA-TANGIER-2026_GENERAL
+      office: OFFICE-USA-VA-TANGIER-COUNCIL_MEMBER
   - type: Person
     code: PERSON-PRUITT_PARKS_AN_4E
     attributes:
@@ -1342,12 +1464,12 @@ groups:
       middle_name: E.
       last_name: Pruitt-Parks
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_TANGIER-TOWN_OF_TANGIER-2026_GENERAL-PRUITT_PARKS_AN_4E
+    code: CANDIDACY-USA-VA-TANGIER-COUNCIL_MEMBER-2026_GENERAL-PRUITT_PARKS_AN_4E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_TANGIER-TOWN_OF_TANGIER-2026_GENERAL
+      race: RACE-USA-VA-TANGIER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PRUITT_PARKS_AN_4E
   - type: Person
     code: PERSON-THOMAS_EL_3K
@@ -1358,12 +1480,12 @@ groups:
       middle_name: P.
       last_name: Thomas
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_TANGIER-TOWN_OF_TANGIER-2026_GENERAL-THOMAS_EL_3K
+    code: CANDIDACY-USA-VA-TANGIER-COUNCIL_MEMBER-2026_GENERAL-THOMAS_EL_3K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_TANGIER-TOWN_OF_TANGIER-2026_GENERAL
+      race: RACE-USA-VA-TANGIER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-THOMAS_EL_3K
   - type: Person
     code: PERSON-WHEATLEY_KL_6M
@@ -1374,12 +1496,12 @@ groups:
       middle_name: Charnock
       last_name: Wheatley
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_TANGIER-TOWN_OF_TANGIER-2026_GENERAL-WHEATLEY_KL_6M
+    code: CANDIDACY-USA-VA-TANGIER-COUNCIL_MEMBER-2026_GENERAL-WHEATLEY_KL_6M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_TANGIER-TOWN_OF_TANGIER-2026_GENERAL
+      race: RACE-USA-VA-TANGIER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WHEATLEY_KL_6M
   - type: Person
     code: PERSON-PRUITT_TR_8E
@@ -1390,12 +1512,12 @@ groups:
       middle_name: King
       last_name: Pruitt
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_TANGIER-TOWN_OF_TANGIER-2026_GENERAL-PRUITT_TR_8E
+    code: CANDIDACY-USA-VA-TANGIER-COUNCIL_MEMBER-2026_GENERAL-PRUITT_TR_8E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_TANGIER-TOWN_OF_TANGIER-2026_GENERAL
+      race: RACE-USA-VA-TANGIER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PRUITT_TR_8E
   - type: Person
     code: PERSON-ESKRIDGE_WL_8B
@@ -1406,30 +1528,29 @@ groups:
       middle_name: T. "Tommy"
       last_name: Eskridge III
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_TANGIER-TOWN_OF_TANGIER-2026_GENERAL-ESKRIDGE_WL_8B
+    code: CANDIDACY-USA-VA-TANGIER-COUNCIL_MEMBER-2026_GENERAL-ESKRIDGE_WL_8B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_TANGIER-TOWN_OF_TANGIER-2026_GENERAL
+      race: RACE-USA-VA-TANGIER-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ESKRIDGE_WL_8B
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE
+    code: OFFICE-USA-VA-WACHAPREAGUE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_WACHAPREAGUE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_WACHAPREAGUE
-      jurisdiction: COUNTY-USA-VA-ACCOMACK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-WACHAPREAGUE
   - type: Race
-    code: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE-2026_GENERAL
+    code: RACE-USA-VA-WACHAPREAGUE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ACCOMACK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE
+      election: ELECTION-USA-VA-WACHAPREAGUE-2026_GENERAL
+      office: OFFICE-USA-VA-WACHAPREAGUE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-JOECKEL_AL_3H
     attributes:
@@ -1439,12 +1560,12 @@ groups:
       middle_name: Z.
       last_name: Joeckel
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE-2026_GENERAL-JOECKEL_AL_3H
+    code: CANDIDACY-USA-VA-WACHAPREAGUE-COUNCIL_MEMBER-2026_GENERAL-JOECKEL_AL_3H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE-2026_GENERAL
+      race: RACE-USA-VA-WACHAPREAGUE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-JOECKEL_AL_3H
   - type: Person
     code: PERSON-SCHAGELIN_GL_3S
@@ -1455,12 +1576,12 @@ groups:
       middle_name: J.
       last_name: Schagelin
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE-2026_GENERAL-SCHAGELIN_GL_3S
+    code: CANDIDACY-USA-VA-WACHAPREAGUE-COUNCIL_MEMBER-2026_GENERAL-SCHAGELIN_GL_3S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE-2026_GENERAL
+      race: RACE-USA-VA-WACHAPREAGUE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SCHAGELIN_GL_3S
   - type: Person
     code: PERSON-BELL_JM_4H
@@ -1471,12 +1592,12 @@ groups:
       middle_name: E.
       last_name: Bell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE-2026_GENERAL-BELL_JM_4H
+    code: CANDIDACY-USA-VA-WACHAPREAGUE-COUNCIL_MEMBER-2026_GENERAL-BELL_JM_4H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE-2026_GENERAL
+      race: RACE-USA-VA-WACHAPREAGUE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BELL_JM_4H
   - type: Person
     code: PERSON-HIPPLE_RB_5G
@@ -1487,12 +1608,12 @@ groups:
       middle_name: E.
       last_name: Hipple Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE-2026_GENERAL-HIPPLE_RB_5G
+    code: CANDIDACY-USA-VA-WACHAPREAGUE-COUNCIL_MEMBER-2026_GENERAL-HIPPLE_RB_5G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE-2026_GENERAL
+      race: RACE-USA-VA-WACHAPREAGUE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HIPPLE_RB_5G
   - type: Person
     code: PERSON-BILICKI_RB_9E
@@ -1503,12 +1624,12 @@ groups:
       middle_name: F.
       last_name: Bilicki
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE-2026_GENERAL-BILICKI_RB_9E
+    code: CANDIDACY-USA-VA-WACHAPREAGUE-COUNCIL_MEMBER-2026_GENERAL-BILICKI_RB_9E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE-2026_GENERAL
+      race: RACE-USA-VA-WACHAPREAGUE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BILICKI_RB_9E
   - type: Person
     code: PERSON-JOSEPH_ST_5D
@@ -1519,10 +1640,10 @@ groups:
       middle_name: B.
       last_name: Joseph
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE-2026_GENERAL-JOSEPH_ST_5D
+    code: CANDIDACY-USA-VA-WACHAPREAGUE-COUNCIL_MEMBER-2026_GENERAL-JOSEPH_ST_5D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ACCOMACK-MEMBER_TOWN_COUNCIL_WACHAPREAGUE-TOWN_OF_WACHAPREAGUE-2026_GENERAL
+      race: RACE-USA-VA-WACHAPREAGUE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-JOSEPH_ST_5D

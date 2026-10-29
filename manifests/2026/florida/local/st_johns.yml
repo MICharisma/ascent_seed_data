@@ -45,21 +45,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-ABERDEEN_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ABERDEEN_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: ABERDEEN_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-ABERDEEN_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-ABERDEEN_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ABERDEEN_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-ABERDEEN_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ABERDEEN_CDD_SEAT_1
   - type: Person
     code: PERSON-MARMO_TH_6N
     attributes:
@@ -68,30 +68,30 @@ groups:
       first_name: Thomas
       last_name: Marmo
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-ABERDEEN_CDD-SEAT_1-2026_GENERAL-MARMO_TH_6N
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ABERDEEN_CDD_SEAT_1-2026_GENERAL-MARMO_TH_6N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-ABERDEEN_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ABERDEEN_CDD_SEAT_1-2026_GENERAL
       person: PERSON-MARMO_TH_6N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-ABERDEEN_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ABERDEEN_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: ABERDEEN_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-ABERDEEN_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-ABERDEEN_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ABERDEEN_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-ABERDEEN_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ABERDEEN_CDD_SEAT_3
   - type: Person
     code: PERSON-CLARKE_HR_3Q
     attributes:
@@ -101,30 +101,30 @@ groups:
       middle_name: S.
       last_name: Clarke
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-ABERDEEN_CDD-SEAT_3-2026_GENERAL-CLARKE_HR_3Q
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ABERDEEN_CDD_SEAT_3-2026_GENERAL-CLARKE_HR_3Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-ABERDEEN_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ABERDEEN_CDD_SEAT_3-2026_GENERAL
       person: PERSON-CLARKE_HR_3Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-ABERDEEN_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ABERDEEN_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: ABERDEEN_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-ABERDEEN_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-ABERDEEN_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ABERDEEN_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-ABERDEEN_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ABERDEEN_CDD_SEAT_5
   - type: Person
     code: PERSON-FOGEL_PL_7X
     attributes:
@@ -134,30 +134,30 @@ groups:
       middle_name: R.
       last_name: Fogel
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-ABERDEEN_CDD-SEAT_5-2026_GENERAL-FOGEL_PL_7X
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ABERDEEN_CDD_SEAT_5-2026_GENERAL-FOGEL_PL_7X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-ABERDEEN_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ABERDEEN_CDD_SEAT_5-2026_GENERAL
       person: PERSON-FOGEL_PL_7X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: ANASTASIA_MOSQ_CONTROL_DIST_SEAT_2
       is_active: true
     references:
-      position: POSITION-ANASTASIA_MOSQ_CONTROL_DIST
+      position: POSITION-MOSQUITO_CONTROL_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_2
   - type: Person
     code: PERSON-BRANDHORST_CT_6M
     attributes:
@@ -166,12 +166,12 @@ groups:
       first_name: Catherine
       last_name: Brandhorst
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_2-2026_GENERAL-BRANDHORST_CT_6M
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_2-2026_GENERAL-BRANDHORST_CT_6M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_2-2026_GENERAL
       person: PERSON-BRANDHORST_CT_6M
   - type: Person
     code: PERSON-BURTON_TM_5A
@@ -181,12 +181,12 @@ groups:
       first_name: Tim
       last_name: Burton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_2-2026_GENERAL-BURTON_TM_5A
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_2-2026_GENERAL-BURTON_TM_5A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_2-2026_GENERAL
       person: PERSON-BURTON_TM_5A
   - type: Person
     code: PERSON-FEIN_SN_4A
@@ -196,12 +196,12 @@ groups:
       first_name: Sandra
       last_name: Fein
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_2-2026_GENERAL-FEIN_SN_4A
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_2-2026_GENERAL-FEIN_SN_4A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_2-2026_GENERAL
       person: PERSON-FEIN_SN_4A
   - type: Person
     code: PERSON-SLAVIN_ED_9R
@@ -211,30 +211,30 @@ groups:
       first_name: Ed
       last_name: Slavin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_2-2026_GENERAL-SLAVIN_ED_9R
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_2-2026_GENERAL-SLAVIN_ED_9R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_2-2026_GENERAL
       person: PERSON-SLAVIN_ED_9R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: ANASTASIA_MOSQ_CONTROL_DIST_SEAT_4
       is_active: true
     references:
-      position: POSITION-ANASTASIA_MOSQ_CONTROL_DIST
+      position: POSITION-MOSQUITO_CONTROL_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_4
   - type: Person
     code: PERSON-ANAGNOS_GR_6P
     attributes:
@@ -244,12 +244,12 @@ groups:
       middle_name: Tom
       last_name: Anagnos
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_4-2026_GENERAL-ANAGNOS_GR_6P
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_4-2026_GENERAL-ANAGNOS_GR_6P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_4-2026_GENERAL
       person: PERSON-ANAGNOS_GR_6P
   - type: Person
     code: PERSON-HOWELL_GR_8K
@@ -259,12 +259,12 @@ groups:
       first_name: Gary
       last_name: Howell
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_4-2026_GENERAL-HOWELL_GR_8K
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_4-2026_GENERAL-HOWELL_GR_8K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_4-2026_GENERAL
       person: PERSON-HOWELL_GR_8K
   - type: Person
     code: PERSON-ROLAND_MR_7K
@@ -275,12 +275,12 @@ groups:
       middle_name: Paul
       last_name: Roland
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_4-2026_GENERAL-ROLAND_MR_7K
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_4-2026_GENERAL-ROLAND_MR_7K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_4-2026_GENERAL
       person: PERSON-ROLAND_MR_7K
   - type: Person
     code: PERSON-SMITH_JS_2U
@@ -290,30 +290,30 @@ groups:
       first_name: Jason
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_4-2026_GENERAL-SMITH_JS_2U
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_4-2026_GENERAL-SMITH_JS_2U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-ANASTASIA_MOSQ_CONTROL_DIST-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-MOSQUITO_CONTROL_COMMISSIONER-ANASTASIA_MOSQ_CONTROL_DIST_SEAT_4-2026_GENERAL
       person: PERSON-SMITH_JS_2U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: BANNON_LAKES_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-BANNON_LAKES_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_2
   - type: Person
     code: PERSON-COOPER_TH_4Q
     attributes:
@@ -323,30 +323,30 @@ groups:
       middle_name: T.
       last_name: Cooper
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_2-2026_GENERAL-COOPER_TH_4Q
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_2-2026_GENERAL-COOPER_TH_4Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_2-2026_GENERAL
       person: PERSON-COOPER_TH_4Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: BANNON_LAKES_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-BANNON_LAKES_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_4
   - type: Person
     code: PERSON-LOUW_JH_2N
     attributes:
@@ -356,30 +356,30 @@ groups:
       middle_name: Ter
       last_name: Louw
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_4-2026_GENERAL-LOUW_JH_2N
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_4-2026_GENERAL-LOUW_JH_2N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_4-2026_GENERAL
       person: PERSON-LOUW_JH_2N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: BANNON_LAKES_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-BANNON_LAKES_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_5
   - type: Person
     code: PERSON-MANZIONE_MC_6H
     attributes:
@@ -389,12 +389,12 @@ groups:
       middle_name: James
       last_name: Manzione
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_5-2026_GENERAL-MANZIONE_MC_6H
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_5-2026_GENERAL-MANZIONE_MC_6H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_5-2026_GENERAL
       person: PERSON-MANZIONE_MC_6H
   - type: Person
     code: PERSON-SHELDON_MC_8G
@@ -405,30 +405,30 @@ groups:
       middle_name: B.
       last_name: Sheldon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_5-2026_GENERAL-SHELDON_MC_8G
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_5-2026_GENERAL-SHELDON_MC_8G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-BANNON_LAKES_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BANNON_LAKES_CDD_SEAT_5-2026_GENERAL
       person: PERSON-SHELDON_MC_8G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-PYSZCZYMUKA_MR_7F
     attributes:
@@ -438,7 +438,7 @@ groups:
       middle_name: Valerian
       last_name: Pyszczymuka
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-PYSZCZYMUKA_MR_7F
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-PYSZCZYMUKA_MR_7F
     attributes:
       status: active
       participation: active
@@ -447,25 +447,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-PYSZCZYMUKA_MR_7F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-KEATING_JOSEPH_KR_2G
     attributes:
@@ -474,7 +474,7 @@ groups:
       first_name: Krista
       last_name: Keating-Joseph
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-KEATING_JOSEPH_KR_2G
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-KEATING_JOSEPH_KR_2G
     attributes:
       status: active
       participation: active
@@ -483,25 +483,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-KEATING_JOSEPH_KR_2G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: BRANDY_CREEK_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-BRANDY_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_1
   - type: Person
     code: PERSON-METYCH_TH_7D
     attributes:
@@ -511,30 +511,30 @@ groups:
       middle_name: F.
       last_name: Metych Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_1-2026_GENERAL-METYCH_TH_7D
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_1-2026_GENERAL-METYCH_TH_7D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_1-2026_GENERAL
       person: PERSON-METYCH_TH_7D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: BRANDY_CREEK_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-BRANDY_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_3
   - type: Person
     code: PERSON-GREGORY_JO_7Q
     attributes:
@@ -543,12 +543,12 @@ groups:
       first_name: Joe
       last_name: Gregory
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_3-2026_GENERAL-GREGORY_JO_7Q
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_3-2026_GENERAL-GREGORY_JO_7Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_3-2026_GENERAL
       person: PERSON-GREGORY_JO_7Q
   - type: Person
     code: PERSON-LITTLE_BR_5D
@@ -558,30 +558,30 @@ groups:
       first_name: Barbara
       last_name: Little
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_3-2026_GENERAL-LITTLE_BR_5D
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_3-2026_GENERAL-LITTLE_BR_5D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_3-2026_GENERAL
       person: PERSON-LITTLE_BR_5D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: BRANDY_CREEK_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-BRANDY_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_5
   - type: Person
     code: PERSON-PAYNE_MR_3D
     attributes:
@@ -591,29 +591,30 @@ groups:
       middle_name: Rudolph
       last_name: Payne
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_5-2026_GENERAL-PAYNE_MR_3D
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_5-2026_GENERAL-PAYNE_MR_3D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-BRANDY_CREEK_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BRANDY_CREEK_CDD_SEAT_5-2026_GENERAL
       person: PERSON-PAYNE_MR_3D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ST_AUGUSTINE_BEACH-CITY_OF_ST_AUG_BEACH_COMM_SEAT_3
+    code: OFFICE-USA-FL-ST_AUGUSTINE_BEACH-COMMISSIONER-SEAT_3
     attributes:
+      seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-CITY_OF_ST_AUG_BEACH_COMM_SEAT_3
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-ST_AUGUSTINE_BEACH
   - type: Race
-    code: RACE-USA-FL-ST_AUGUSTINE_BEACH-CITY_OF_ST_AUG_BEACH_COMM_SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-ST_AUGUSTINE_BEACH-COMMISSIONER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=stjohns&el=20.'
     references:
       election: ELECTION-USA-FL-ST_AUGUSTINE_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-ST_AUGUSTINE_BEACH-CITY_OF_ST_AUG_BEACH_COMM_SEAT_3
+      office: OFFICE-USA-FL-ST_AUGUSTINE_BEACH-COMMISSIONER-SEAT_3
   - type: Person
     code: PERSON-DASCOMB_JC_6H
     attributes:
@@ -623,12 +624,12 @@ groups:
       middle_name: David
       last_name: Dascomb
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ST_AUGUSTINE_BEACH-CITY_OF_ST_AUG_BEACH_COMM_SEAT_3-2026_GENERAL-DASCOMB_JC_6H
+    code: CANDIDACY-USA-FL-ST_AUGUSTINE_BEACH-COMMISSIONER-SEAT_3-2026_GENERAL-DASCOMB_JC_6H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ST_AUGUSTINE_BEACH-CITY_OF_ST_AUG_BEACH_COMM_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-ST_AUGUSTINE_BEACH-COMMISSIONER-SEAT_3-2026_GENERAL
       person: PERSON-DASCOMB_JC_6H
   - type: Person
     code: PERSON-GEORGE_UN_5S
@@ -639,29 +640,30 @@ groups:
       middle_name: Celeste
       last_name: George
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ST_AUGUSTINE_BEACH-CITY_OF_ST_AUG_BEACH_COMM_SEAT_3-2026_GENERAL-GEORGE_UN_5S
+    code: CANDIDACY-USA-FL-ST_AUGUSTINE_BEACH-COMMISSIONER-SEAT_3-2026_GENERAL-GEORGE_UN_5S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ST_AUGUSTINE_BEACH-CITY_OF_ST_AUG_BEACH_COMM_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-ST_AUGUSTINE_BEACH-COMMISSIONER-SEAT_3-2026_GENERAL
       person: PERSON-GEORGE_UN_5S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ST_AUGUSTINE-CITY_OF_ST_AUGUSTINE_COMM_SEAT_5
+    code: OFFICE-USA-FL-ST_AUGUSTINE-COMMISSIONER-SEAT_5
     attributes:
+      seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-CITY_OF_ST_AUGUSTINE_COMM_SEAT_5
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-ST_AUGUSTINE
   - type: Race
-    code: RACE-USA-FL-ST_AUGUSTINE-CITY_OF_ST_AUGUSTINE_COMM_SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-ST_AUGUSTINE-COMMISSIONER-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=stjohns&el=20.'
     references:
       election: ELECTION-USA-FL-ST_AUGUSTINE-2026_GENERAL
-      office: OFFICE-USA-FL-ST_AUGUSTINE-CITY_OF_ST_AUGUSTINE_COMM_SEAT_5
+      office: OFFICE-USA-FL-ST_AUGUSTINE-COMMISSIONER-SEAT_5
   - type: Person
     code: PERSON-BROWN_MT_7C
     attributes:
@@ -670,12 +672,12 @@ groups:
       first_name: Matt
       last_name: Brown
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ST_AUGUSTINE-CITY_OF_ST_AUGUSTINE_COMM_SEAT_5-2026_GENERAL-BROWN_MT_7C
+    code: CANDIDACY-USA-FL-ST_AUGUSTINE-COMMISSIONER-SEAT_5-2026_GENERAL-BROWN_MT_7C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ST_AUGUSTINE-CITY_OF_ST_AUGUSTINE_COMM_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-ST_AUGUSTINE-COMMISSIONER-SEAT_5-2026_GENERAL
       person: PERSON-BROWN_MT_7C
   - type: Person
     code: PERSON-SETTLE_JL_7F
@@ -686,30 +688,30 @@ groups:
       middle_name: Hamlin
       last_name: Settle
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ST_AUGUSTINE-CITY_OF_ST_AUGUSTINE_COMM_SEAT_5-2026_GENERAL-SETTLE_JL_7F
+    code: CANDIDACY-USA-FL-ST_AUGUSTINE-COMMISSIONER-SEAT_5-2026_GENERAL-SETTLE_JL_7F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ST_AUGUSTINE-CITY_OF_ST_AUGUSTINE_COMM_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-ST_AUGUSTINE-COMMISSIONER-SEAT_5-2026_GENERAL
       person: PERSON-SETTLE_JL_7F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-CREEKSIDE_AT_TWIN_CREEKS_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CREEKSIDE_AT_TWIN_CREEKS_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: CREEKSIDE_AT_TWIN_CREEKS_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-CREEKSIDE_AT_TWIN_CREEKS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-CREEKSIDE_AT_TWIN_CREEKS_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CREEKSIDE_AT_TWIN_CREEKS_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-CREEKSIDE_AT_TWIN_CREEKS_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CREEKSIDE_AT_TWIN_CREEKS_CDD_SEAT_4
   - type: Person
     code: PERSON-GOLDBERGER_DV_6U
     attributes:
@@ -718,30 +720,30 @@ groups:
       first_name: David
       last_name: Goldberger
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-CREEKSIDE_AT_TWIN_CREEKS_CDD-SEAT_4-2026_GENERAL-GOLDBERGER_DV_6U
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CREEKSIDE_AT_TWIN_CREEKS_CDD_SEAT_4-2026_GENERAL-GOLDBERGER_DV_6U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-CREEKSIDE_AT_TWIN_CREEKS_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CREEKSIDE_AT_TWIN_CREEKS_CDD_SEAT_4-2026_GENERAL
       person: PERSON-GOLDBERGER_DV_6U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-DURBIN_CROSSING_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DURBIN_CROSSING_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: DURBIN_CROSSING_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-DURBIN_CROSSING_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-DURBIN_CROSSING_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DURBIN_CROSSING_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-DURBIN_CROSSING_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DURBIN_CROSSING_CDD_SEAT_1
   - type: Person
     code: PERSON-ESTES_SH_8T
     attributes:
@@ -751,30 +753,30 @@ groups:
       middle_name: B
       last_name: Estes
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-DURBIN_CROSSING_CDD-SEAT_1-2026_GENERAL-ESTES_SH_8T
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DURBIN_CROSSING_CDD_SEAT_1-2026_GENERAL-ESTES_SH_8T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-DURBIN_CROSSING_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DURBIN_CROSSING_CDD_SEAT_1-2026_GENERAL
       person: PERSON-ESTES_SH_8T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-DURBIN_CROSSING_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DURBIN_CROSSING_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: DURBIN_CROSSING_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-DURBIN_CROSSING_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-DURBIN_CROSSING_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DURBIN_CROSSING_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-DURBIN_CROSSING_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DURBIN_CROSSING_CDD_SEAT_3
   - type: Person
     code: PERSON-HOENES_AR_8C
     attributes:
@@ -783,30 +785,30 @@ groups:
       first_name: Art
       last_name: Hoenes
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-DURBIN_CROSSING_CDD-SEAT_3-2026_GENERAL-HOENES_AR_8C
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DURBIN_CROSSING_CDD_SEAT_3-2026_GENERAL-HOENES_AR_8C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-DURBIN_CROSSING_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DURBIN_CROSSING_CDD_SEAT_3-2026_GENERAL
       person: PERSON-HOENES_AR_8C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-ENTRADA_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ENTRADA_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: ENTRADA_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-ENTRADA_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-ENTRADA_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ENTRADA_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-ENTRADA_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ENTRADA_CDD_SEAT_3
   - type: Person
     code: PERSON-MEYERS_WY_4Y
     attributes:
@@ -815,30 +817,30 @@ groups:
       first_name: Wayne
       last_name: Meyers
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-ENTRADA_CDD-SEAT_3-2026_GENERAL-MEYERS_WY_4Y
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ENTRADA_CDD_SEAT_3-2026_GENERAL-MEYERS_WY_4Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-ENTRADA_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ENTRADA_CDD_SEAT_3-2026_GENERAL
       person: PERSON-MEYERS_WY_4Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-GRAND_OAKS_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_OAKS_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: GRAND_OAKS_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-GRAND_OAKS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-GRAND_OAKS_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_OAKS_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-GRAND_OAKS_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_OAKS_CDD_SEAT_1
   - type: Person
     code: PERSON-WARFEL_DV_6T
     attributes:
@@ -848,30 +850,30 @@ groups:
       middle_name: G
       last_name: Warfel
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-GRAND_OAKS_CDD-SEAT_1-2026_GENERAL-WARFEL_DV_6T
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_OAKS_CDD_SEAT_1-2026_GENERAL-WARFEL_DV_6T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-GRAND_OAKS_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_OAKS_CDD_SEAT_1-2026_GENERAL
       person: PERSON-WARFEL_DV_6T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: HERITAGE_LANDING_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-HERITAGE_LANDING_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_2
   - type: Person
     code: PERSON-MALLATT_CH_4T
     attributes:
@@ -880,12 +882,12 @@ groups:
       first_name: Christine
       last_name: Mallatt
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_2-2026_GENERAL-MALLATT_CH_4T
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_2-2026_GENERAL-MALLATT_CH_4T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_2-2026_GENERAL
       person: PERSON-MALLATT_CH_4T
   - type: Person
     code: PERSON-THOMPSON_BR_7R
@@ -895,30 +897,30 @@ groups:
       first_name: Brad
       last_name: Thompson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_2-2026_GENERAL-THOMPSON_BR_7R
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_2-2026_GENERAL-THOMPSON_BR_7R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_2-2026_GENERAL
       person: PERSON-THOMPSON_BR_7R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: HERITAGE_LANDING_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-HERITAGE_LANDING_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_3
   - type: Person
     code: PERSON-TARFA_AC_7J
     attributes:
@@ -927,30 +929,30 @@ groups:
       first_name: Achara
       last_name: Tarfa
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_3-2026_GENERAL-TARFA_AC_7J
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_3-2026_GENERAL-TARFA_AC_7J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_3-2026_GENERAL
       person: PERSON-TARFA_AC_7J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: HERITAGE_LANDING_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-HERITAGE_LANDING_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_4
   - type: Person
     code: PERSON-OCH_RB_7C
     attributes:
@@ -959,30 +961,30 @@ groups:
       first_name: Robert
       last_name: Och
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_4-2026_GENERAL-OCH_RB_7C
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_4-2026_GENERAL-OCH_RB_7C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_LANDING_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LANDING_CDD_SEAT_4-2026_GENERAL
       person: PERSON-OCH_RB_7C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_PARK_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_PARK_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: HERITAGE_PARK_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-HERITAGE_PARK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_PARK_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_PARK_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_PARK_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_PARK_CDD_SEAT_1
   - type: Person
     code: PERSON-KINNECOM_JD_5C
     attributes:
@@ -992,30 +994,30 @@ groups:
       middle_name: M.
       last_name: Kinnecom
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-HERITAGE_PARK_CDD-SEAT_1-2026_GENERAL-KINNECOM_JD_5C
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_PARK_CDD_SEAT_1-2026_GENERAL-KINNECOM_JD_5C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_PARK_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_PARK_CDD_SEAT_1-2026_GENERAL
       person: PERSON-KINNECOM_JD_5C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_PARK_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_PARK_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: HERITAGE_PARK_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-HERITAGE_PARK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_PARK_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_PARK_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_PARK_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_PARK_CDD_SEAT_3
   - type: Person
     code: PERSON-CURRAN_RB_4B
     attributes:
@@ -1025,30 +1027,30 @@ groups:
       middle_name: L.
       last_name: Curran Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-HERITAGE_PARK_CDD-SEAT_3-2026_GENERAL-CURRAN_RB_4B
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_PARK_CDD_SEAT_3-2026_GENERAL-CURRAN_RB_4B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_PARK_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_PARK_CDD_SEAT_3-2026_GENERAL
       person: PERSON-CURRAN_RB_4B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_PARK_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_PARK_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: HERITAGE_PARK_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-HERITAGE_PARK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_PARK_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_PARK_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_PARK_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_PARK_CDD_SEAT_5
   - type: Person
     code: PERSON-FERRY_TH_7Y
     attributes:
@@ -1057,30 +1059,30 @@ groups:
       first_name: Thomas
       last_name: Ferry
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-HERITAGE_PARK_CDD-SEAT_5-2026_GENERAL-FERRY_TH_7Y
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_PARK_CDD_SEAT_5-2026_GENERAL-FERRY_TH_7Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-HERITAGE_PARK_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_PARK_CDD_SEAT_5-2026_GENERAL
       person: PERSON-FERRY_TH_7Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-ISLES_OF_BARTRAM_PARK_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ISLES_OF_BARTRAM_PARK_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: ISLES_OF_BARTRAM_PARK_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-ISLES_OF_BARTRAM_PARK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-ISLES_OF_BARTRAM_PARK_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ISLES_OF_BARTRAM_PARK_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-ISLES_OF_BARTRAM_PARK_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ISLES_OF_BARTRAM_PARK_CDD_SEAT_2
   - type: Person
     code: PERSON-BROWN_NN_4Y
     attributes:
@@ -1089,30 +1091,30 @@ groups:
       first_name: Nancy
       last_name: Brown
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-ISLES_OF_BARTRAM_PARK_CDD-SEAT_2-2026_GENERAL-BROWN_NN_4Y
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ISLES_OF_BARTRAM_PARK_CDD_SEAT_2-2026_GENERAL-BROWN_NN_4Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-ISLES_OF_BARTRAM_PARK_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ISLES_OF_BARTRAM_PARK_CDD_SEAT_2-2026_GENERAL
       person: PERSON-BROWN_NN_4Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-ISLES_OF_BARTRAM_PARK_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ISLES_OF_BARTRAM_PARK_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: ISLES_OF_BARTRAM_PARK_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-ISLES_OF_BARTRAM_PARK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-ISLES_OF_BARTRAM_PARK_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ISLES_OF_BARTRAM_PARK_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-ISLES_OF_BARTRAM_PARK_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ISLES_OF_BARTRAM_PARK_CDD_SEAT_4
   - type: Person
     code: PERSON-ZEMEL_JS_7M
     attributes:
@@ -1121,30 +1123,30 @@ groups:
       first_name: Joseph
       last_name: Zemel
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-ISLES_OF_BARTRAM_PARK_CDD-SEAT_4-2026_GENERAL-ZEMEL_JS_7M
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ISLES_OF_BARTRAM_PARK_CDD_SEAT_4-2026_GENERAL-ZEMEL_JS_7M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-ISLES_OF_BARTRAM_PARK_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ISLES_OF_BARTRAM_PARK_CDD_SEAT_4-2026_GENERAL
       person: PERSON-ZEMEL_JS_7M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: JULINGTON_CREEK_PLANTATION_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-JULINGTON_CREEK_PLANTATION_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_1
   - type: Person
     code: PERSON-JACOB_PT_7D
     attributes:
@@ -1153,12 +1155,12 @@ groups:
       first_name: Patricia
       last_name: Jacob
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_1-2026_GENERAL-JACOB_PT_7D
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_1-2026_GENERAL-JACOB_PT_7D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_1-2026_GENERAL
       person: PERSON-JACOB_PT_7D
   - type: Person
     code: PERSON-MALAMUD_ZC_3D
@@ -1168,30 +1170,30 @@ groups:
       first_name: Zachary
       last_name: Malamud
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_1-2026_GENERAL-MALAMUD_ZC_3D
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_1-2026_GENERAL-MALAMUD_ZC_3D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_1-2026_GENERAL
       person: PERSON-MALAMUD_ZC_3D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: JULINGTON_CREEK_PLANTATION_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-JULINGTON_CREEK_PLANTATION_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_3
   - type: Person
     code: PERSON-STARNES_LG_3H
     attributes:
@@ -1200,30 +1202,30 @@ groups:
       first_name: Leigh
       last_name: Starnes
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_3-2026_GENERAL-STARNES_LG_3H
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_3-2026_GENERAL-STARNES_LG_3H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_3-2026_GENERAL
       person: PERSON-STARNES_LG_3H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: JULINGTON_CREEK_PLANTATION_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-JULINGTON_CREEK_PLANTATION_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_4
   - type: Person
     code: PERSON-JENSEN_LK_8P
     attributes:
@@ -1232,30 +1234,30 @@ groups:
       first_name: Luke
       last_name: Jensen
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_4-2026_GENERAL-JENSEN_LK_8P
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_4-2026_GENERAL-JENSEN_LK_8P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-JULINGTON_CREEK_PLANTATION_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-JULINGTON_CREEK_PLANTATION_CDD_SEAT_4-2026_GENERAL
       person: PERSON-JENSEN_LK_8P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-MADEIRA_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MADEIRA_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: MADEIRA_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-MADEIRA_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-MADEIRA_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MADEIRA_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-MADEIRA_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MADEIRA_CDD_SEAT_1
   - type: Person
     code: PERSON-SMITHSON_CL_6X
     attributes:
@@ -1264,30 +1266,30 @@ groups:
       first_name: Celeste
       last_name: Smithson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MADEIRA_CDD-SEAT_1-2026_GENERAL-SMITHSON_CL_6X
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MADEIRA_CDD_SEAT_1-2026_GENERAL-SMITHSON_CL_6X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-MADEIRA_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MADEIRA_CDD_SEAT_1-2026_GENERAL
       person: PERSON-SMITHSON_CL_6X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-MADEIRA_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MADEIRA_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: MADEIRA_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-MADEIRA_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-MADEIRA_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MADEIRA_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-MADEIRA_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MADEIRA_CDD_SEAT_2
   - type: Person
     code: PERSON-COLLIER_LR_6E
     attributes:
@@ -1296,30 +1298,30 @@ groups:
       first_name: Laurie
       last_name: Collier
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MADEIRA_CDD-SEAT_2-2026_GENERAL-COLLIER_LR_6E
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MADEIRA_CDD_SEAT_2-2026_GENERAL-COLLIER_LR_6E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-MADEIRA_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MADEIRA_CDD_SEAT_2-2026_GENERAL
       person: PERSON-COLLIER_LR_6E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: MARSHALL_CREEK_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-MARSHALL_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_1
   - type: Person
     code: PERSON-ENTMAN_HW_7J
     attributes:
@@ -1328,30 +1330,30 @@ groups:
       first_name: Howard
       last_name: Entman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_1-2026_GENERAL-ENTMAN_HW_7J
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_1-2026_GENERAL-ENTMAN_HW_7J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_1-2026_GENERAL
       person: PERSON-ENTMAN_HW_7J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: MARSHALL_CREEK_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-MARSHALL_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_2
   - type: Person
     code: PERSON-DAVIES_LS_9J
     attributes:
@@ -1360,30 +1362,30 @@ groups:
       first_name: Lisa
       last_name: Davies
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_2-2026_GENERAL-DAVIES_LS_9J
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_2-2026_GENERAL-DAVIES_LS_9J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_2-2026_GENERAL
       person: PERSON-DAVIES_LS_9J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: MARSHALL_CREEK_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-MARSHALL_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_3
   - type: Person
     code: PERSON-PARRISH_DV_8U
     attributes:
@@ -1392,12 +1394,12 @@ groups:
       first_name: David
       last_name: Parrish
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_3-2026_GENERAL-PARRISH_DV_8U
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_3-2026_GENERAL-PARRISH_DV_8U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_3-2026_GENERAL
       person: PERSON-PARRISH_DV_8U
   - type: Person
     code: PERSON-REHBERG_DN_5Z
@@ -1407,30 +1409,30 @@ groups:
       first_name: Don
       last_name: Rehberg
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_3-2026_GENERAL-REHBERG_DN_5Z
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_3-2026_GENERAL-REHBERG_DN_5Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-MARSHALL_CREEK_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MARSHALL_CREEK_CDD_SEAT_3-2026_GENERAL
       person: PERSON-REHBERG_DN_5Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-MEADOW_VIEW_AT_TWIN_CREEKS_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-MEADOW_VIEW_AT_TWIN_CREEKS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-MEADOW_VIEW_AT_TWIN_CREEKS_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-MEADOW_VIEW_AT_TWIN_CREEKS_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_2
   - type: Person
     code: PERSON-MCNAMEE_JM_3M
     attributes:
@@ -1439,30 +1441,30 @@ groups:
       first_name: Jim
       last_name: McNamee
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MEADOW_VIEW_AT_TWIN_CREEKS_CDD-SEAT_2-2026_GENERAL-MCNAMEE_JM_3M
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_2-2026_GENERAL-MCNAMEE_JM_3M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-MEADOW_VIEW_AT_TWIN_CREEKS_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_2-2026_GENERAL
       person: PERSON-MCNAMEE_JM_3M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-MEADOW_VIEW_AT_TWIN_CREEKS_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-MEADOW_VIEW_AT_TWIN_CREEKS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-MEADOW_VIEW_AT_TWIN_CREEKS_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-MEADOW_VIEW_AT_TWIN_CREEKS_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_4
   - type: Person
     code: PERSON-CAESAR_ST_8A
     attributes:
@@ -1471,30 +1473,30 @@ groups:
       first_name: Steven
       last_name: Caesar
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MEADOW_VIEW_AT_TWIN_CREEKS_CDD-SEAT_4-2026_GENERAL-CAESAR_ST_8A
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_4-2026_GENERAL-CAESAR_ST_8A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-MEADOW_VIEW_AT_TWIN_CREEKS_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_4-2026_GENERAL
       person: PERSON-CAESAR_ST_8A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-MEADOW_VIEW_AT_TWIN_CREEKS_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-MEADOW_VIEW_AT_TWIN_CREEKS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-MEADOW_VIEW_AT_TWIN_CREEKS_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-MEADOW_VIEW_AT_TWIN_CREEKS_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_5
   - type: Person
     code: PERSON-ARIAS_FR_4P
     attributes:
@@ -1503,30 +1505,30 @@ groups:
       first_name: Frank
       last_name: Arias
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-MEADOW_VIEW_AT_TWIN_CREEKS_CDD-SEAT_5-2026_GENERAL-ARIAS_FR_4P
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_5-2026_GENERAL-ARIAS_FR_4P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-MEADOW_VIEW_AT_TWIN_CREEKS_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MEADOW_VIEW_AT_TWIN_CREEKS_CDD_SEAT_5-2026_GENERAL
       person: PERSON-ARIAS_FR_4P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: PONTE_VEDRA_MSD_SEAT_1
       is_active: true
     references:
-      position: POSITION-PONTE_VEDRA_MSD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_1
   - type: Person
     code: PERSON-MOORE_WS_5B
     attributes:
@@ -1535,30 +1537,30 @@ groups:
       first_name: Wes
       last_name: Moore
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_1-2026_GENERAL-MOORE_WS_5B
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_1-2026_GENERAL-MOORE_WS_5B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_1-2026_GENERAL
       person: PERSON-MOORE_WS_5B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: PONTE_VEDRA_MSD_SEAT_3
       is_active: true
     references:
-      position: POSITION-PONTE_VEDRA_MSD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_3
   - type: Person
     code: PERSON-WHITE_JH_9B
     attributes:
@@ -1568,30 +1570,30 @@ groups:
       middle_name: Michael
       last_name: White
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_3-2026_GENERAL-WHITE_JH_9B
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_3-2026_GENERAL-WHITE_JH_9B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_3-2026_GENERAL
       person: PERSON-WHITE_JH_9B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: PONTE_VEDRA_MSD_SEAT_5
       is_active: true
     references:
-      position: POSITION-PONTE_VEDRA_MSD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_5
   - type: Person
     code: PERSON-ROBERTS_MK_7Y
     attributes:
@@ -1600,30 +1602,30 @@ groups:
       first_name: Mike
       last_name: Roberts
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_5-2026_GENERAL-ROBERTS_MK_7Y
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_5-2026_GENERAL-ROBERTS_MK_7Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_5-2026_GENERAL
       person: PERSON-ROBERTS_MK_7Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_7
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_7
     attributes:
-      seat_code: SEAT_7
+      seat_code: PONTE_VEDRA_MSD_SEAT_7
       is_active: true
     references:
-      position: POSITION-PONTE_VEDRA_MSD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_7-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_7-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_7
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_7
   - type: Person
     code: PERSON-WAINER_AM_5G
     attributes:
@@ -1633,30 +1635,30 @@ groups:
       middle_name: W.
       last_name: Wainer
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_7-2026_GENERAL-WAINER_AM_5G
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_7-2026_GENERAL-WAINER_AM_5G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-PONTE_VEDRA_MSD-SEAT_7-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-SPECIAL_DISTRICT_BOARD_MEMBER-PONTE_VEDRA_MSD_SEAT_7-2026_GENERAL
       person: PERSON-WAINER_AM_5G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_1
     attributes:
-      seat_code: GROUP_1
+      seat_code: PORT_WATERWAY_AND_BEACH_GROUP_1
       is_active: true
     references:
-      position: POSITION-PORT_WATERWAY_AND_BEACH
+      position: POSITION-PORT_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_1
   - type: Person
     code: PERSON-KIRKER_LY_8N
     attributes:
@@ -1666,12 +1668,12 @@ groups:
       middle_name: I.
       last_name: Kirker
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_1-2026_GENERAL-KIRKER_LY_8N
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_1-2026_GENERAL-KIRKER_LY_8N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_1-2026_GENERAL
       person: PERSON-KIRKER_LY_8N
   - type: Person
     code: PERSON-NEALE_ML_2U
@@ -1682,30 +1684,30 @@ groups:
       middle_name: Sunshine
       last_name: Neale
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_1-2026_GENERAL-NEALE_ML_2U
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_1-2026_GENERAL-NEALE_ML_2U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_1-2026_GENERAL
       person: PERSON-NEALE_ML_2U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_3
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_3
     attributes:
-      seat_code: GROUP_3
+      seat_code: PORT_WATERWAY_AND_BEACH_GROUP_3
       is_active: true
     references:
-      position: POSITION-PORT_WATERWAY_AND_BEACH
+      position: POSITION-PORT_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_3
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_3
   - type: Person
     code: PERSON-JENNISON_PT_6K
     attributes:
@@ -1715,30 +1717,30 @@ groups:
       middle_name: John
       last_name: Jennison
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_3-2026_GENERAL-JENNISON_PT_6K
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_3-2026_GENERAL-JENNISON_PT_6K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_3-2026_GENERAL
       person: PERSON-JENNISON_PT_6K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_5
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_5
     attributes:
-      seat_code: GROUP_5
+      seat_code: PORT_WATERWAY_AND_BEACH_GROUP_5
       is_active: true
     references:
-      position: POSITION-PORT_WATERWAY_AND_BEACH
+      position: POSITION-PORT_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_5
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_5
   - type: Person
     code: PERSON-HANSEN_CL_3N
     attributes:
@@ -1748,12 +1750,12 @@ groups:
       middle_name: M.
       last_name: Hansen
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_5-2026_GENERAL-HANSEN_CL_3N
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_5-2026_GENERAL-HANSEN_CL_3N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_5-2026_GENERAL
       person: PERSON-HANSEN_CL_3N
   - type: Person
     code: PERSON-RIVERS_TM_5S
@@ -1763,30 +1765,30 @@ groups:
       first_name: Tom
       last_name: Rivers
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_5-2026_GENERAL-RIVERS_TM_5S
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_5-2026_GENERAL-RIVERS_TM_5S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-PORT_WATERWAY_AND_BEACH-GROUP_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-PORT_COMMISSIONER-PORT_WATERWAY_AND_BEACH_GROUP_5-2026_GENERAL
       person: PERSON-RIVERS_TM_5S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: RIVERS_EDGE_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-RIVERS_EDGE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_CDD_SEAT_2
   - type: Person
     code: PERSON-MAYNARD_SC_6D
     attributes:
@@ -1796,30 +1798,30 @@ groups:
       middle_name: N.
       last_name: Maynard
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_CDD-SEAT_2-2026_GENERAL-MAYNARD_SC_6D
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_CDD_SEAT_2-2026_GENERAL-MAYNARD_SC_6D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_CDD_SEAT_2-2026_GENERAL
       person: PERSON-MAYNARD_SC_6D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_II_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_II_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: RIVERS_EDGE_II_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-RIVERS_EDGE_II_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_II_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_II_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_II_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_II_CDD_SEAT_1
   - type: Person
     code: PERSON-CARLIN_GR_6L
     attributes:
@@ -1828,30 +1830,30 @@ groups:
       first_name: Gary
       last_name: Carlin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_II_CDD-SEAT_1-2026_GENERAL-CARLIN_GR_6L
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_II_CDD_SEAT_1-2026_GENERAL-CARLIN_GR_6L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_II_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_II_CDD_SEAT_1-2026_GENERAL
       person: PERSON-CARLIN_GR_6L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_II_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_II_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: RIVERS_EDGE_II_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-RIVERS_EDGE_II_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_II_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_II_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_II_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_II_CDD_SEAT_2
   - type: Person
     code: PERSON-LAHR_KN_9U
     attributes:
@@ -1861,30 +1863,30 @@ groups:
       middle_name: V.
       last_name: Lahr
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_II_CDD-SEAT_2-2026_GENERAL-LAHR_KN_9U
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_II_CDD_SEAT_2-2026_GENERAL-LAHR_KN_9U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_II_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_II_CDD_SEAT_2-2026_GENERAL
       person: PERSON-LAHR_KN_9U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_III_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_III_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: RIVERS_EDGE_III_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-RIVERS_EDGE_III_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_III_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_III_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_III_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_III_CDD_SEAT_1
   - type: Person
     code: PERSON-FARMER_BR_9E
     attributes:
@@ -1893,30 +1895,30 @@ groups:
       first_name: Brad
       last_name: Farmer
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_III_CDD-SEAT_1-2026_GENERAL-FARMER_BR_9E
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_III_CDD_SEAT_1-2026_GENERAL-FARMER_BR_9E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-RIVERS_EDGE_III_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERS_EDGE_III_CDD_SEAT_1-2026_GENERAL
       person: PERSON-FARMER_BR_9E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-ALLEN_KV_6F
     attributes:
@@ -1925,30 +1927,30 @@ groups:
       first_name: Kevin
       last_name: Allen
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-ALLEN_KV_6F
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-ALLEN_KV_6F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-ALLEN_KV_6F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-COLLINS_JN_7F
     attributes:
@@ -1957,30 +1959,30 @@ groups:
       first_name: Jennifer
       last_name: Collins
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-COLLINS_JN_7F
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-COLLINS_JN_7F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-COLLINS_JN_7F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-MCCLAFFERTY_TM_4Y
     attributes:
@@ -1989,12 +1991,12 @@ groups:
       first_name: Tammie
       last_name: McClafferty
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-MCCLAFFERTY_TM_4Y
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-MCCLAFFERTY_TM_4Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-MCCLAFFERTY_TM_4Y
   - type: Person
     code: PERSON-TOZER_JL_6C
@@ -2004,30 +2006,30 @@ groups:
       first_name: Jillian
       last_name: Tozer
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-TOZER_JL_6C
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-TOZER_JL_6C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-TOZER_JL_6C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-SIX_MILE_CREEK_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SIX_MILE_CREEK_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: SIX_MILE_CREEK_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-SIX_MILE_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-SIX_MILE_CREEK_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SIX_MILE_CREEK_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-SIX_MILE_CREEK_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SIX_MILE_CREEK_CDD_SEAT_2
   - type: Person
     code: PERSON-WALTERS_GR_9V
     attributes:
@@ -2037,30 +2039,30 @@ groups:
       middle_name: '"Jerry"'
       last_name: Walters
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SIX_MILE_CREEK_CDD-SEAT_2-2026_GENERAL-WALTERS_GR_9V
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SIX_MILE_CREEK_CDD_SEAT_2-2026_GENERAL-WALTERS_GR_9V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-SIX_MILE_CREEK_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SIX_MILE_CREEK_CDD_SEAT_2-2026_GENERAL
       person: PERSON-WALTERS_GR_9V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-SIX_MILE_CREEK_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SIX_MILE_CREEK_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: SIX_MILE_CREEK_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-SIX_MILE_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-SIX_MILE_CREEK_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SIX_MILE_CREEK_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-SIX_MILE_CREEK_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SIX_MILE_CREEK_CDD_SEAT_4
   - type: Person
     code: PERSON-HARTLEY_WN_6L
     attributes:
@@ -2069,30 +2071,30 @@ groups:
       first_name: Wendy
       last_name: Hartley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SIX_MILE_CREEK_CDD-SEAT_4-2026_GENERAL-HARTLEY_WN_6L
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SIX_MILE_CREEK_CDD_SEAT_4-2026_GENERAL-HARTLEY_WN_6L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-SIX_MILE_CREEK_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SIX_MILE_CREEK_CDD_SEAT_4-2026_GENERAL
       person: PERSON-HARTLEY_WN_6L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-SOUTHAVEN_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHAVEN_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: SOUTHAVEN_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-SOUTHAVEN_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-SOUTHAVEN_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHAVEN_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-SOUTHAVEN_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHAVEN_CDD_SEAT_1
   - type: Person
     code: PERSON-REGER_KN_3Q
     attributes:
@@ -2101,30 +2103,30 @@ groups:
       first_name: Ken
       last_name: Reger
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SOUTHAVEN_CDD-SEAT_1-2026_GENERAL-REGER_KN_3Q
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHAVEN_CDD_SEAT_1-2026_GENERAL-REGER_KN_3Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-SOUTHAVEN_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHAVEN_CDD_SEAT_1-2026_GENERAL
       person: PERSON-REGER_KN_3Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-ST_JOHNS_FOREST_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ST_JOHNS_FOREST_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: ST_JOHNS_FOREST_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-ST_JOHNS_FOREST_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-ST_JOHNS_FOREST_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ST_JOHNS_FOREST_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-ST_JOHNS_FOREST_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ST_JOHNS_FOREST_CDD_SEAT_2
   - type: Person
     code: PERSON-KUEHNE_CH_3N
     attributes:
@@ -2134,30 +2136,30 @@ groups:
       middle_name: A.
       last_name: Kuehne
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-ST_JOHNS_FOREST_CDD-SEAT_2-2026_GENERAL-KUEHNE_CH_3N
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ST_JOHNS_FOREST_CDD_SEAT_2-2026_GENERAL-KUEHNE_CH_3N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-ST_JOHNS_FOREST_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ST_JOHNS_FOREST_CDD_SEAT_2-2026_GENERAL
       person: PERSON-KUEHNE_CH_3N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-ST_JOHNS_FOREST_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ST_JOHNS_FOREST_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: ST_JOHNS_FOREST_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-ST_JOHNS_FOREST_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-ST_JOHNS_FOREST_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ST_JOHNS_FOREST_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-ST_JOHNS_FOREST_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ST_JOHNS_FOREST_CDD_SEAT_3
   - type: Person
     code: PERSON-WEDDLE_CR_7A
     attributes:
@@ -2166,30 +2168,30 @@ groups:
       first_name: Carly
       last_name: Weddle
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-ST_JOHNS_FOREST_CDD-SEAT_3-2026_GENERAL-WEDDLE_CR_7A
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ST_JOHNS_FOREST_CDD_SEAT_3-2026_GENERAL-WEDDLE_CR_7A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-ST_JOHNS_FOREST_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ST_JOHNS_FOREST_CDD_SEAT_3-2026_GENERAL
       person: PERSON-WEDDLE_CR_7A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-STILLWATER_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STILLWATER_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: STILLWATER_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-STILLWATER_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-STILLWATER_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STILLWATER_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-STILLWATER_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STILLWATER_CDD_SEAT_2
   - type: Person
     code: PERSON-GATES_RB_3Y
     attributes:
@@ -2198,30 +2200,30 @@ groups:
       first_name: Robert
       last_name: Gates
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-STILLWATER_CDD-SEAT_2-2026_GENERAL-GATES_RB_3Y
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STILLWATER_CDD_SEAT_2-2026_GENERAL-GATES_RB_3Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-STILLWATER_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STILLWATER_CDD_SEAT_2-2026_GENERAL
       person: PERSON-GATES_RB_3Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-SWEETWATER_CREEK_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SWEETWATER_CREEK_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: SWEETWATER_CREEK_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-SWEETWATER_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-SWEETWATER_CREEK_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SWEETWATER_CREEK_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-SWEETWATER_CREEK_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SWEETWATER_CREEK_CDD_SEAT_1
   - type: Person
     code: PERSON-COHEN_KR_2L
     attributes:
@@ -2230,12 +2232,12 @@ groups:
       first_name: Kristen
       last_name: Cohen
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SWEETWATER_CREEK_CDD-SEAT_1-2026_GENERAL-COHEN_KR_2L
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SWEETWATER_CREEK_CDD_SEAT_1-2026_GENERAL-COHEN_KR_2L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-SWEETWATER_CREEK_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SWEETWATER_CREEK_CDD_SEAT_1-2026_GENERAL
       person: PERSON-COHEN_KR_2L
   - type: Person
     code: PERSON-YONALLY_PL_4Y
@@ -2245,30 +2247,30 @@ groups:
       first_name: Paul
       last_name: Yonally
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SWEETWATER_CREEK_CDD-SEAT_1-2026_GENERAL-YONALLY_PL_4Y
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SWEETWATER_CREEK_CDD_SEAT_1-2026_GENERAL-YONALLY_PL_4Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-SWEETWATER_CREEK_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SWEETWATER_CREEK_CDD_SEAT_1-2026_GENERAL
       person: PERSON-YONALLY_PL_4Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-SWEETWATER_CREEK_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SWEETWATER_CREEK_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: SWEETWATER_CREEK_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-SWEETWATER_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-SWEETWATER_CREEK_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SWEETWATER_CREEK_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-SWEETWATER_CREEK_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SWEETWATER_CREEK_CDD_SEAT_2
   - type: Person
     code: PERSON-LACOMBE_GR_3J
     attributes:
@@ -2278,30 +2280,30 @@ groups:
       middle_name: M.
       last_name: LaCombe
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-SWEETWATER_CREEK_CDD-SEAT_2-2026_GENERAL-LACOMBE_GR_3J
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SWEETWATER_CREEK_CDD_SEAT_2-2026_GENERAL-LACOMBE_GR_3J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-SWEETWATER_CREEK_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SWEETWATER_CREEK_CDD_SEAT_2-2026_GENERAL
       person: PERSON-LACOMBE_GR_3J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-TROUT_CREEK_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TROUT_CREEK_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: TROUT_CREEK_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-TROUT_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-TROUT_CREEK_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TROUT_CREEK_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-TROUT_CREEK_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TROUT_CREEK_CDD_SEAT_1
   - type: Person
     code: PERSON-LAUDENSLAGER_BD_8T
     attributes:
@@ -2310,12 +2312,12 @@ groups:
       first_name: Bud
       last_name: Laudenslager
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-TROUT_CREEK_CDD-SEAT_1-2026_GENERAL-LAUDENSLAGER_BD_8T
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TROUT_CREEK_CDD_SEAT_1-2026_GENERAL-LAUDENSLAGER_BD_8T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-TROUT_CREEK_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TROUT_CREEK_CDD_SEAT_1-2026_GENERAL
       person: PERSON-LAUDENSLAGER_BD_8T
   - type: Person
     code: PERSON-SUTLIFF_LN_7N
@@ -2325,30 +2327,30 @@ groups:
       first_name: Lindsay
       last_name: Sutliff
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-TROUT_CREEK_CDD-SEAT_1-2026_GENERAL-SUTLIFF_LN_7N
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TROUT_CREEK_CDD_SEAT_1-2026_GENERAL-SUTLIFF_LN_7N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-TROUT_CREEK_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TROUT_CREEK_CDD_SEAT_1-2026_GENERAL
       person: PERSON-SUTLIFF_LN_7N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-TROUT_CREEK_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TROUT_CREEK_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: TROUT_CREEK_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-TROUT_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-TROUT_CREEK_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TROUT_CREEK_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-TROUT_CREEK_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TROUT_CREEK_CDD_SEAT_2
   - type: Person
     code: PERSON-ANDERSON_BR_9C
     attributes:
@@ -2358,12 +2360,12 @@ groups:
       middle_name: S.
       last_name: Anderson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-TROUT_CREEK_CDD-SEAT_2-2026_GENERAL-ANDERSON_BR_9C
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TROUT_CREEK_CDD_SEAT_2-2026_GENERAL-ANDERSON_BR_9C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-TROUT_CREEK_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TROUT_CREEK_CDD_SEAT_2-2026_GENERAL
       person: PERSON-ANDERSON_BR_9C
   - type: Person
     code: PERSON-SAJKOWSKI_VN_8D
@@ -2373,12 +2375,12 @@ groups:
       first_name: Vincent
       last_name: Sajkowski
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-TROUT_CREEK_CDD-SEAT_2-2026_GENERAL-SAJKOWSKI_VN_8D
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TROUT_CREEK_CDD_SEAT_2-2026_GENERAL-SAJKOWSKI_VN_8D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-TROUT_CREEK_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TROUT_CREEK_CDD_SEAT_2-2026_GENERAL
       person: PERSON-SAJKOWSKI_VN_8D
   - type: Person
     code: PERSON-SPENCER_AD_8Z
@@ -2388,30 +2390,30 @@ groups:
       first_name: Adam
       last_name: Spencer
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-TROUT_CREEK_CDD-SEAT_2-2026_GENERAL-SPENCER_AD_8Z
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TROUT_CREEK_CDD_SEAT_2-2026_GENERAL-SPENCER_AD_8Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-TROUT_CREEK_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TROUT_CREEK_CDD_SEAT_2-2026_GENERAL
       person: PERSON-SPENCER_AD_8Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-TURNBULL_CREEK_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TURNBULL_CREEK_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: TURNBULL_CREEK_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-TURNBULL_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-TURNBULL_CREEK_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TURNBULL_CREEK_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-TURNBULL_CREEK_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TURNBULL_CREEK_CDD_SEAT_1
   - type: Person
     code: PERSON-MCKINNELL_NK_9Z
     attributes:
@@ -2420,30 +2422,30 @@ groups:
       first_name: Niki
       last_name: McKinnell
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-TURNBULL_CREEK_CDD-SEAT_1-2026_GENERAL-MCKINNELL_NK_9Z
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TURNBULL_CREEK_CDD_SEAT_1-2026_GENERAL-MCKINNELL_NK_9Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-TURNBULL_CREEK_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TURNBULL_CREEK_CDD_SEAT_1-2026_GENERAL
       person: PERSON-MCKINNELL_NK_9Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-TURNBULL_CREEK_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TURNBULL_CREEK_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: TURNBULL_CREEK_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-TURNBULL_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-TURNBULL_CREEK_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TURNBULL_CREEK_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-TURNBULL_CREEK_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TURNBULL_CREEK_CDD_SEAT_3
   - type: Person
     code: PERSON-MARTIN_TH_2J
     attributes:
@@ -2452,30 +2454,30 @@ groups:
       first_name: Thomas
       last_name: Martin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-TURNBULL_CREEK_CDD-SEAT_3-2026_GENERAL-MARTIN_TH_2J
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TURNBULL_CREEK_CDD_SEAT_3-2026_GENERAL-MARTIN_TH_2J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-TURNBULL_CREEK_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TURNBULL_CREEK_CDD_SEAT_3-2026_GENERAL
       person: PERSON-MARTIN_TH_2J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-TURNBULL_CREEK_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TURNBULL_CREEK_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: TURNBULL_CREEK_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-TURNBULL_CREEK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-TURNBULL_CREEK_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TURNBULL_CREEK_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-TURNBULL_CREEK_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TURNBULL_CREEK_CDD_SEAT_5
   - type: Person
     code: PERSON-DURDEN_SR_5B
     attributes:
@@ -2484,30 +2486,30 @@ groups:
       first_name: Sarina
       last_name: Durden
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-TURNBULL_CREEK_CDD-SEAT_5-2026_GENERAL-DURDEN_SR_5B
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TURNBULL_CREEK_CDD_SEAT_5-2026_GENERAL-DURDEN_SR_5B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-TURNBULL_CREEK_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TURNBULL_CREEK_CDD_SEAT_5-2026_GENERAL
       person: PERSON-DURDEN_SR_5B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: TWIN_CREEKS_NORTH_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-TWIN_CREEKS_NORTH_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_2
   - type: Person
     code: PERSON-MULLINS_DV_5Q
     attributes:
@@ -2516,30 +2518,30 @@ groups:
       first_name: David
       last_name: Mullins
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_2-2026_GENERAL-MULLINS_DV_5Q
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_2-2026_GENERAL-MULLINS_DV_5Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_2-2026_GENERAL
       person: PERSON-MULLINS_DV_5Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: TWIN_CREEKS_NORTH_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-TWIN_CREEKS_NORTH_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_3
   - type: Person
     code: PERSON-INGRAM_TR_3T
     attributes:
@@ -2549,30 +2551,30 @@ groups:
       middle_name: Melvin
       last_name: Ingram
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_3-2026_GENERAL-INGRAM_TR_3T
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_3-2026_GENERAL-INGRAM_TR_3T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_3-2026_GENERAL
       person: PERSON-INGRAM_TR_3T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: TWIN_CREEKS_NORTH_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-TWIN_CREEKS_NORTH_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ST_JOHNS
   - type: Race
-    code: RACE-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ST_JOHNS-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_4
   - type: Person
     code: PERSON-KAMIN_BR_4V
     attributes:
@@ -2581,12 +2583,12 @@ groups:
       first_name: Bertram
       last_name: Kamin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_4-2026_GENERAL-KAMIN_BR_4V
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_4-2026_GENERAL-KAMIN_BR_4V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_4-2026_GENERAL
       person: PERSON-KAMIN_BR_4V
   - type: Person
     code: PERSON-KARP_CL_5D
@@ -2596,10 +2598,10 @@ groups:
       first_name: Claire
       last_name: Karp
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_4-2026_GENERAL-KARP_CL_5D
+    code: CANDIDACY-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_4-2026_GENERAL-KARP_CL_5D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ST_JOHNS-TWIN_CREEKS_NORTH_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ST_JOHNS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWIN_CREEKS_NORTH_CDD_SEAT_4-2026_GENERAL
       person: PERSON-KARP_CL_5D

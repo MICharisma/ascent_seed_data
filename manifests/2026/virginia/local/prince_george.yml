@@ -21,21 +21,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PRINCE_GEORGE-COMMISSIONER_OF_REVENUE-PRINCE_GEORGE_COUNTY
+    code: OFFICE-USA-VA-COUNTY_PRINCE_GEORGE-COMMISSIONER_OF_REVENUE
     attributes:
-      seat_code: PRINCE_GEORGE_COUNTY
       is_active: true
     references:
       position: POSITION-COMMISSIONER_OF_REVENUE
       jurisdiction: COUNTY-USA-VA-PRINCE_GEORGE
   - type: Race
-    code: RACE-USA-VA-COUNTY_PRINCE_GEORGE-COMMISSIONER_OF_REVENUE-PRINCE_GEORGE_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_PRINCE_GEORGE-COMMISSIONER_OF_REVENUE-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_PRINCE_GEORGE-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_PRINCE_GEORGE-COMMISSIONER_OF_REVENUE-PRINCE_GEORGE_COUNTY
+      office: OFFICE-USA-VA-COUNTY_PRINCE_GEORGE-COMMISSIONER_OF_REVENUE
   - type: Person
     code: PERSON-LANE_LN_8R
     attributes:
@@ -45,10 +44,10 @@ groups:
       middle_name: A.
       last_name: Lane
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PRINCE_GEORGE-COMMISSIONER_OF_REVENUE-PRINCE_GEORGE_COUNTY-2026_SPECIAL-LANE_LN_8R
+    code: CANDIDACY-USA-VA-COUNTY_PRINCE_GEORGE-COMMISSIONER_OF_REVENUE-2026_SPECIAL-LANE_LN_8R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PRINCE_GEORGE-COMMISSIONER_OF_REVENUE-PRINCE_GEORGE_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_PRINCE_GEORGE-COMMISSIONER_OF_REVENUE-2026_SPECIAL
       person: PERSON-LANE_LN_8R

@@ -19,35 +19,46 @@ records:
     jurisdiction: COUNTY-USA-VA-FREDERICK
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_FREDERICK-2026_GENERAL
+  code: ELECTION-USA-VA-STEPHENS_CITY-2026_GENERAL
   attributes:
-    name: Frederick County General Election 2026
+    name: Stephens City General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-FREDERICK
+    jurisdiction: MUNICIPALITY-USA-VA-STEPHENS_CITY
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-MIDDLETOWN-2026_GENERAL
+  attributes:
+    name: Middletown General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-MIDDLETOWN
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FREDERICK-CHAIRMAN_BOARD_OF_SUPERVISORS-FREDERICK_COUNTY
+    code: OFFICE-USA-VA-COUNTY_FREDERICK-COUNTY_BOARD_CHAIR
     attributes:
-      seat_code: FREDERICK_COUNTY
       is_active: true
     references:
-      position: POSITION-CHAIRMAN_BOARD_OF_SUPERVISORS
+      position: POSITION-COUNTY_BOARD_CHAIR
       jurisdiction: COUNTY-USA-VA-FREDERICK
   - type: Race
-    code: RACE-USA-VA-COUNTY_FREDERICK-CHAIRMAN_BOARD_OF_SUPERVISORS-FREDERICK_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_FREDERICK-COUNTY_BOARD_CHAIR-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_FREDERICK-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_FREDERICK-CHAIRMAN_BOARD_OF_SUPERVISORS-FREDERICK_COUNTY
+      office: OFFICE-USA-VA-COUNTY_FREDERICK-COUNTY_BOARD_CHAIR
   - type: Person
     code: PERSON-RITTER_AL_5E
     attributes:
@@ -57,12 +68,12 @@ groups:
       middle_name: M.
       last_name: Ritter
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-CHAIRMAN_BOARD_OF_SUPERVISORS-FREDERICK_COUNTY-2026_SPECIAL-RITTER_AL_5E
+    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-COUNTY_BOARD_CHAIR-2026_SPECIAL-RITTER_AL_5E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-CHAIRMAN_BOARD_OF_SUPERVISORS-FREDERICK_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_FREDERICK-COUNTY_BOARD_CHAIR-2026_SPECIAL
       person: PERSON-RITTER_AL_5E
   - type: Person
     code: PERSON-JEWELL_JH_3X
@@ -73,30 +84,29 @@ groups:
       middle_name: F.
       last_name: Jewell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-CHAIRMAN_BOARD_OF_SUPERVISORS-FREDERICK_COUNTY-2026_SPECIAL-JEWELL_JH_3X
+    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-COUNTY_BOARD_CHAIR-2026_SPECIAL-JEWELL_JH_3X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-CHAIRMAN_BOARD_OF_SUPERVISORS-FREDERICK_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_FREDERICK-COUNTY_BOARD_CHAIR-2026_SPECIAL
       person: PERSON-JEWELL_JH_3X
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FREDERICK-MAYOR-TOWN_OF_STEPHENS_CITY
+    code: OFFICE-USA-VA-STEPHENS_CITY-MAYOR
     attributes:
-      seat_code: TOWN_OF_STEPHENS_CITY
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-FREDERICK
+      jurisdiction: MUNICIPALITY-USA-VA-STEPHENS_CITY
   - type: Race
-    code: RACE-USA-VA-COUNTY_FREDERICK-MAYOR-TOWN_OF_STEPHENS_CITY-2026_GENERAL
+    code: RACE-USA-VA-STEPHENS_CITY-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_FREDERICK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_FREDERICK-MAYOR-TOWN_OF_STEPHENS_CITY
+      election: ELECTION-USA-VA-STEPHENS_CITY-2026_GENERAL
+      office: OFFICE-USA-VA-STEPHENS_CITY-MAYOR
   - type: Person
     code: PERSON-EWING_BL_2R
     attributes:
@@ -106,12 +116,12 @@ groups:
       middle_name: M.
       last_name: Ewing
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-MAYOR-TOWN_OF_STEPHENS_CITY-2026_GENERAL-EWING_BL_2R
+    code: CANDIDACY-USA-VA-STEPHENS_CITY-MAYOR-2026_GENERAL-EWING_BL_2R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-MAYOR-TOWN_OF_STEPHENS_CITY-2026_GENERAL
+      race: RACE-USA-VA-STEPHENS_CITY-MAYOR-2026_GENERAL
       person: PERSON-EWING_BL_2R
   - type: Person
     code: PERSON-SMITH_MR_2T
@@ -122,30 +132,30 @@ groups:
       middle_name: C.
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-MAYOR-TOWN_OF_STEPHENS_CITY-2026_GENERAL-SMITH_MR_2T
+    code: CANDIDACY-USA-VA-STEPHENS_CITY-MAYOR-2026_GENERAL-SMITH_MR_2T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-MAYOR-TOWN_OF_STEPHENS_CITY-2026_GENERAL
+      race: RACE-USA-VA-STEPHENS_CITY-MAYOR-2026_GENERAL
       person: PERSON-SMITH_MR_2T
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FREDERICK-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-BACK_CREEK_DISTRICT
+    code: OFFICE-USA-VA-COUNTY_FREDERICK-COUNTY_SUPERVISOR-BACK_CREEK_DISTRICT
     attributes:
       seat_code: BACK_CREEK_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL
+      position: POSITION-COUNTY_SUPERVISOR
       jurisdiction: COUNTY-USA-VA-FREDERICK
   - type: Race
-    code: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-BACK_CREEK_DISTRICT-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_FREDERICK-COUNTY_SUPERVISOR-BACK_CREEK_DISTRICT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_FREDERICK-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_FREDERICK-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-BACK_CREEK_DISTRICT
+      office: OFFICE-USA-VA-COUNTY_FREDERICK-COUNTY_SUPERVISOR-BACK_CREEK_DISTRICT
   - type: Person
     code: PERSON-ORNDORFF_AL_6R
     attributes:
@@ -155,12 +165,12 @@ groups:
       middle_name: L.
       last_name: Orndorff
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-BACK_CREEK_DISTRICT-2026_SPECIAL-ORNDORFF_AL_6R
+    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-COUNTY_SUPERVISOR-BACK_CREEK_DISTRICT-2026_SPECIAL-ORNDORFF_AL_6R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-BACK_CREEK_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_FREDERICK-COUNTY_SUPERVISOR-BACK_CREEK_DISTRICT-2026_SPECIAL
       person: PERSON-ORNDORFF_AL_6R
   - type: Person
     code: PERSON-AYLOR_EL_9S
@@ -171,30 +181,30 @@ groups:
       middle_name: P.
       last_name: Aylor
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-BACK_CREEK_DISTRICT-2026_SPECIAL-AYLOR_EL_9S
+    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-COUNTY_SUPERVISOR-BACK_CREEK_DISTRICT-2026_SPECIAL-AYLOR_EL_9S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-BACK_CREEK_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_FREDERICK-COUNTY_SUPERVISOR-BACK_CREEK_DISTRICT-2026_SPECIAL
       person: PERSON-AYLOR_EL_9S
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FREDERICK-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-GAINESBORO_DISTRICT
+    code: OFFICE-USA-VA-COUNTY_FREDERICK-COUNTY_SUPERVISOR-GAINESBORO_DISTRICT
     attributes:
       seat_code: GAINESBORO_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL
+      position: POSITION-COUNTY_SUPERVISOR
       jurisdiction: COUNTY-USA-VA-FREDERICK
   - type: Race
-    code: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-GAINESBORO_DISTRICT-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_FREDERICK-COUNTY_SUPERVISOR-GAINESBORO_DISTRICT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_FREDERICK-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_FREDERICK-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-GAINESBORO_DISTRICT
+      office: OFFICE-USA-VA-COUNTY_FREDERICK-COUNTY_SUPERVISOR-GAINESBORO_DISTRICT
   - type: Person
     code: PERSON-AIKENS_JS_8P
     attributes:
@@ -204,12 +214,12 @@ groups:
       middle_name: C.
       last_name: Aikens
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-GAINESBORO_DISTRICT-2026_SPECIAL-AIKENS_JS_8P
+    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-COUNTY_SUPERVISOR-GAINESBORO_DISTRICT-2026_SPECIAL-AIKENS_JS_8P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-GAINESBORO_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_FREDERICK-COUNTY_SUPERVISOR-GAINESBORO_DISTRICT-2026_SPECIAL
       person: PERSON-AIKENS_JS_8P
   - type: Person
     code: PERSON-RAGER_RB_2V
@@ -220,12 +230,12 @@ groups:
       middle_name: L.
       last_name: Rager
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-GAINESBORO_DISTRICT-2026_SPECIAL-RAGER_RB_2V
+    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-COUNTY_SUPERVISOR-GAINESBORO_DISTRICT-2026_SPECIAL-RAGER_RB_2V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-GAINESBORO_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_FREDERICK-COUNTY_SUPERVISOR-GAINESBORO_DISTRICT-2026_SPECIAL
       person: PERSON-RAGER_RB_2V
   - type: Person
     code: PERSON-WHITACRE_VG_2S
@@ -236,30 +246,29 @@ groups:
       middle_name: S.
       last_name: Whitacre
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-GAINESBORO_DISTRICT-2026_SPECIAL-WHITACRE_VG_2S
+    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-COUNTY_SUPERVISOR-GAINESBORO_DISTRICT-2026_SPECIAL-WHITACRE_VG_2S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_BOARD_OF_SUPERVISORS_SPECIAL-GAINESBORO_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_FREDERICK-COUNTY_SUPERVISOR-GAINESBORO_DISTRICT-2026_SPECIAL
       person: PERSON-WHITACRE_VG_2S
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_MIDDLETOWN
+    code: OFFICE-USA-VA-MIDDLETOWN-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_MIDDLETOWN
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-FREDERICK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-MIDDLETOWN
   - type: Race
-    code: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_MIDDLETOWN-2026_GENERAL
+    code: RACE-USA-VA-MIDDLETOWN-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_FREDERICK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_MIDDLETOWN
+      election: ELECTION-USA-VA-MIDDLETOWN-2026_GENERAL
+      office: OFFICE-USA-VA-MIDDLETOWN-COUNCIL_MEMBER
   - type: Person
     code: PERSON-SHANNON_DN_3Y
     attributes:
@@ -269,12 +278,12 @@ groups:
       middle_name: H. Newman
       last_name: Shannon
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_MIDDLETOWN-2026_GENERAL-SHANNON_DN_3Y
+    code: CANDIDACY-USA-VA-MIDDLETOWN-COUNCIL_MEMBER-2026_GENERAL-SHANNON_DN_3Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_MIDDLETOWN-2026_GENERAL
+      race: RACE-USA-VA-MIDDLETOWN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SHANNON_DN_3Y
   - type: Person
     code: PERSON-SKEITH_JC_3G
@@ -285,12 +294,12 @@ groups:
       middle_name: D.
       last_name: Skeith
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_MIDDLETOWN-2026_GENERAL-SKEITH_JC_3G
+    code: CANDIDACY-USA-VA-MIDDLETOWN-COUNCIL_MEMBER-2026_GENERAL-SKEITH_JC_3G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_MIDDLETOWN-2026_GENERAL
+      race: RACE-USA-VA-MIDDLETOWN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SKEITH_JC_3G
   - type: Person
     code: PERSON-PENNINGTON_JF_5B
@@ -301,30 +310,29 @@ groups:
       middle_name: H.
       last_name: Pennington
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_MIDDLETOWN-2026_GENERAL-PENNINGTON_JF_5B
+    code: CANDIDACY-USA-VA-MIDDLETOWN-COUNCIL_MEMBER-2026_GENERAL-PENNINGTON_JF_5B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_MIDDLETOWN-2026_GENERAL
+      race: RACE-USA-VA-MIDDLETOWN-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PENNINGTON_JF_5B
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STEPHENS_CITY
+    code: OFFICE-USA-VA-STEPHENS_CITY-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_STEPHENS_CITY
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-FREDERICK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-STEPHENS_CITY
   - type: Race
-    code: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STEPHENS_CITY-2026_GENERAL
+    code: RACE-USA-VA-STEPHENS_CITY-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_FREDERICK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STEPHENS_CITY
+      election: ELECTION-USA-VA-STEPHENS_CITY-2026_GENERAL
+      office: OFFICE-USA-VA-STEPHENS_CITY-COUNCIL_MEMBER
   - type: Person
     code: PERSON-GUYER_AN_2Y
     attributes:
@@ -334,12 +342,12 @@ groups:
       middle_name: R.
       last_name: Guyer
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STEPHENS_CITY-2026_GENERAL-GUYER_AN_2Y
+    code: CANDIDACY-USA-VA-STEPHENS_CITY-COUNCIL_MEMBER-2026_GENERAL-GUYER_AN_2Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STEPHENS_CITY-2026_GENERAL
+      race: RACE-USA-VA-STEPHENS_CITY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GUYER_AN_2Y
   - type: Person
     code: PERSON-VOGT_JM_9R
@@ -350,12 +358,12 @@ groups:
       middle_name: '"Jim"'
       last_name: Vogt
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STEPHENS_CITY-2026_GENERAL-VOGT_JM_9R
+    code: CANDIDACY-USA-VA-STEPHENS_CITY-COUNCIL_MEMBER-2026_GENERAL-VOGT_JM_9R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STEPHENS_CITY-2026_GENERAL
+      race: RACE-USA-VA-STEPHENS_CITY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-VOGT_JM_9R
   - type: Person
     code: PERSON-FRAVEL_LN_3D
@@ -366,12 +374,12 @@ groups:
       middle_name: A. "Pete"
       last_name: Fravel III
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STEPHENS_CITY-2026_GENERAL-FRAVEL_LN_3D
+    code: CANDIDACY-USA-VA-STEPHENS_CITY-COUNCIL_MEMBER-2026_GENERAL-FRAVEL_LN_3D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STEPHENS_CITY-2026_GENERAL
+      race: RACE-USA-VA-STEPHENS_CITY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FRAVEL_LN_3D
   - type: Person
     code: PERSON-DILG_MR_8X
@@ -382,12 +390,12 @@ groups:
       middle_name: W.
       last_name: Dilg
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STEPHENS_CITY-2026_GENERAL-DILG_MR_8X
+    code: CANDIDACY-USA-VA-STEPHENS_CITY-COUNCIL_MEMBER-2026_GENERAL-DILG_MR_8X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STEPHENS_CITY-2026_GENERAL
+      race: RACE-USA-VA-STEPHENS_CITY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DILG_MR_8X
   - type: Person
     code: PERSON-SWYGERT_SMITH_RG_9Y
@@ -397,10 +405,10 @@ groups:
       first_name: Regina
       last_name: Swygert-Smith
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STEPHENS_CITY-2026_GENERAL-SWYGERT_SMITH_RG_9Y
+    code: CANDIDACY-USA-VA-STEPHENS_CITY-COUNCIL_MEMBER-2026_GENERAL-SWYGERT_SMITH_RG_9Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_FREDERICK-MEMBER_TOWN_COUNCIL-TOWN_OF_STEPHENS_CITY-2026_GENERAL
+      race: RACE-USA-VA-STEPHENS_CITY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SWYGERT_SMITH_RG_9Y

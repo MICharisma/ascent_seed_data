@@ -7,35 +7,46 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_CAMPBELL-2026_GENERAL
+  code: ELECTION-USA-VA-BROOKNEAL-2026_GENERAL
   attributes:
-    name: Campbell County General Election 2026
+    name: Brookneal General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-CAMPBELL
+    jurisdiction: MUNICIPALITY-USA-VA-BROOKNEAL
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-ALTAVISTA-2026_GENERAL
+  attributes:
+    name: Altavista General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-ALTAVISTA
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CAMPBELL-MAYOR_BROOKNEAL-TOWN_OF_BROOKNEAL
+    code: OFFICE-USA-VA-BROOKNEAL-MAYOR
     attributes:
-      seat_code: TOWN_OF_BROOKNEAL
       is_active: true
     references:
-      position: POSITION-MAYOR_BROOKNEAL
-      jurisdiction: COUNTY-USA-VA-CAMPBELL
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-BROOKNEAL
   - type: Race
-    code: RACE-USA-VA-COUNTY_CAMPBELL-MAYOR_BROOKNEAL-TOWN_OF_BROOKNEAL-2026_GENERAL
+    code: RACE-USA-VA-BROOKNEAL-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_CAMPBELL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_CAMPBELL-MAYOR_BROOKNEAL-TOWN_OF_BROOKNEAL
+      election: ELECTION-USA-VA-BROOKNEAL-2026_GENERAL
+      office: OFFICE-USA-VA-BROOKNEAL-MAYOR
   - type: Person
     code: PERSON-LAPRADE_BR_7Z
     attributes:
@@ -45,30 +56,29 @@ groups:
       middle_name: M.
       last_name: Laprade
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CAMPBELL-MAYOR_BROOKNEAL-TOWN_OF_BROOKNEAL-2026_GENERAL-LAPRADE_BR_7Z
+    code: CANDIDACY-USA-VA-BROOKNEAL-MAYOR-2026_GENERAL-LAPRADE_BR_7Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CAMPBELL-MAYOR_BROOKNEAL-TOWN_OF_BROOKNEAL-2026_GENERAL
+      race: RACE-USA-VA-BROOKNEAL-MAYOR-2026_GENERAL
       person: PERSON-LAPRADE_BR_7Z
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_ALTAVISTA-TOWN_OF_ALTAVISTA
+    code: OFFICE-USA-VA-ALTAVISTA-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_ALTAVISTA
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_ALTAVISTA
-      jurisdiction: COUNTY-USA-VA-CAMPBELL
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-ALTAVISTA
   - type: Race
-    code: RACE-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_ALTAVISTA-TOWN_OF_ALTAVISTA-2026_GENERAL
+    code: RACE-USA-VA-ALTAVISTA-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_CAMPBELL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_ALTAVISTA-TOWN_OF_ALTAVISTA
+      election: ELECTION-USA-VA-ALTAVISTA-2026_GENERAL
+      office: OFFICE-USA-VA-ALTAVISTA-COUNCIL_MEMBER
   - type: Person
     code: PERSON-LOWMAN_J_6F
     attributes:
@@ -78,12 +88,12 @@ groups:
       middle_name: Scott
       last_name: Lowman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_ALTAVISTA-TOWN_OF_ALTAVISTA-2026_GENERAL-LOWMAN_J_6F
+    code: CANDIDACY-USA-VA-ALTAVISTA-COUNCIL_MEMBER-2026_GENERAL-LOWMAN_J_6F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_ALTAVISTA-TOWN_OF_ALTAVISTA-2026_GENERAL
+      race: RACE-USA-VA-ALTAVISTA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LOWMAN_J_6F
   - type: Person
     code: PERSON-ROARK_JH_3T
@@ -94,12 +104,12 @@ groups:
       middle_name: E.
       last_name: Roark III
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_ALTAVISTA-TOWN_OF_ALTAVISTA-2026_GENERAL-ROARK_JH_3T
+    code: CANDIDACY-USA-VA-ALTAVISTA-COUNCIL_MEMBER-2026_GENERAL-ROARK_JH_3T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_ALTAVISTA-TOWN_OF_ALTAVISTA-2026_GENERAL
+      race: RACE-USA-VA-ALTAVISTA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ROARK_JH_3T
   - type: Person
     code: PERSON-GEORGE_TM_9F
@@ -110,30 +120,29 @@ groups:
       middle_name: H.
       last_name: George
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_ALTAVISTA-TOWN_OF_ALTAVISTA-2026_GENERAL-GEORGE_TM_9F
+    code: CANDIDACY-USA-VA-ALTAVISTA-COUNCIL_MEMBER-2026_GENERAL-GEORGE_TM_9F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_ALTAVISTA-TOWN_OF_ALTAVISTA-2026_GENERAL
+      race: RACE-USA-VA-ALTAVISTA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GEORGE_TM_9F
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_BROOKNEAL-TOWN_OF_BROOKNEAL
+    code: OFFICE-USA-VA-BROOKNEAL-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_BROOKNEAL
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_BROOKNEAL
-      jurisdiction: COUNTY-USA-VA-CAMPBELL
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-BROOKNEAL
   - type: Race
-    code: RACE-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_BROOKNEAL-TOWN_OF_BROOKNEAL-2026_GENERAL
+    code: RACE-USA-VA-BROOKNEAL-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_CAMPBELL-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_BROOKNEAL-TOWN_OF_BROOKNEAL
+      election: ELECTION-USA-VA-BROOKNEAL-2026_GENERAL
+      office: OFFICE-USA-VA-BROOKNEAL-COUNCIL_MEMBER
   - type: Person
     code: PERSON-PAYNE_CR_7H
     attributes:
@@ -143,12 +152,12 @@ groups:
       middle_name: R.
       last_name: Payne
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_BROOKNEAL-TOWN_OF_BROOKNEAL-2026_GENERAL-PAYNE_CR_7H
+    code: CANDIDACY-USA-VA-BROOKNEAL-COUNCIL_MEMBER-2026_GENERAL-PAYNE_CR_7H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_BROOKNEAL-TOWN_OF_BROOKNEAL-2026_GENERAL
+      race: RACE-USA-VA-BROOKNEAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PAYNE_CR_7H
   - type: Person
     code: PERSON-JOHNSON_CY_3R
@@ -159,12 +168,12 @@ groups:
       middle_name: B. "Cindy"
       last_name: Johnson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_BROOKNEAL-TOWN_OF_BROOKNEAL-2026_GENERAL-JOHNSON_CY_3R
+    code: CANDIDACY-USA-VA-BROOKNEAL-COUNCIL_MEMBER-2026_GENERAL-JOHNSON_CY_3R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_BROOKNEAL-TOWN_OF_BROOKNEAL-2026_GENERAL
+      race: RACE-USA-VA-BROOKNEAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-JOHNSON_CY_3R
   - type: Person
     code: PERSON-WORLEY_RC_3H
@@ -175,10 +184,10 @@ groups:
       middle_name: F. "Tank"
       last_name: Worley
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_BROOKNEAL-TOWN_OF_BROOKNEAL-2026_GENERAL-WORLEY_RC_3H
+    code: CANDIDACY-USA-VA-BROOKNEAL-COUNCIL_MEMBER-2026_GENERAL-WORLEY_RC_3H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CAMPBELL-MEMBER_TOWN_COUNCIL_BROOKNEAL-TOWN_OF_BROOKNEAL-2026_GENERAL
+      race: RACE-USA-VA-BROOKNEAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WORLEY_RC_3H

@@ -21,21 +21,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT-GLOUCESTER_COUNTY
+    code: OFFICE-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT
     attributes:
-      seat_code: GLOUCESTER_COUNTY
       is_active: true
     references:
       position: POSITION-CLERK_OF_COURT
       jurisdiction: COUNTY-USA-VA-GLOUCESTER
   - type: Race
-    code: RACE-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT-GLOUCESTER_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_GLOUCESTER-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT-GLOUCESTER_COUNTY
+      office: OFFICE-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT
   - type: Person
     code: PERSON-CARTER_CH_9D
     attributes:
@@ -45,12 +44,12 @@ groups:
       middle_name: D.
       last_name: Carter
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT-GLOUCESTER_COUNTY-2026_SPECIAL-CARTER_CH_9D
+    code: CANDIDACY-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT-2026_SPECIAL-CARTER_CH_9D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT-GLOUCESTER_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT-2026_SPECIAL
       person: PERSON-CARTER_CH_9D
   - type: Person
     code: PERSON-BECK_MC_5G
@@ -61,10 +60,10 @@ groups:
       middle_name: L.
       last_name: Beck
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT-GLOUCESTER_COUNTY-2026_SPECIAL-BECK_MC_5G
+    code: CANDIDACY-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT-2026_SPECIAL-BECK_MC_5G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT-GLOUCESTER_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT-2026_SPECIAL
       person: PERSON-BECK_MC_5G

@@ -33,21 +33,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_1
   - type: Person
     code: PERSON-PROCTOR_BL_6L
     attributes:
@@ -56,30 +56,30 @@ groups:
       first_name: Bill
       last_name: Proctor
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL-PROCTOR_BL_6L
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL-PROCTOR_BL_6L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL
       person: PERSON-PROCTOR_BL_6L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-AT2
+    code: OFFICE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-AT2
     attributes:
       seat_code: AT2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-AT2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-AT2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-AT2
+      office: OFFICE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-AT2
   - type: Person
     code: PERSON-MADDOX_NC_6T
     attributes:
@@ -88,12 +88,12 @@ groups:
       first_name: Nick
       last_name: Maddox
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-AT2-2026_GENERAL-MADDOX_NC_6T
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-AT2-2026_GENERAL-MADDOX_NC_6T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-AT2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-AT2-2026_GENERAL
       person: PERSON-MADDOX_NC_6T
   - type: Person
     code: PERSON-RASHID_MH_2C
@@ -103,7 +103,7 @@ groups:
       first_name: Mehwish
       last_name: Rashid
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-AT2-2026_GENERAL-RASHID_MH_2C
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-AT2-2026_GENERAL-RASHID_MH_2C
     attributes:
       status: active
       participation: active
@@ -111,25 +111,25 @@ groups:
       - label: Write-In
         kind: write_in
     references:
-      race: RACE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-AT2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-AT2-2026_GENERAL
       person: PERSON-RASHID_MH_2C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_3
   - type: Person
     code: PERSON-LORCH_CB_3S
     attributes:
@@ -138,12 +138,12 @@ groups:
       first_name: C.B.
       last_name: Lorch
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_3-2026_GENERAL-LORCH_CB_3S
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_3-2026_GENERAL-LORCH_CB_3S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_3-2026_GENERAL
       person: PERSON-LORCH_CB_3S
   - type: Person
     code: PERSON-MINOR_RC_5H
@@ -153,30 +153,30 @@ groups:
       first_name: Rick
       last_name: Minor
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_3-2026_GENERAL-MINOR_RC_5H
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_3-2026_GENERAL-MINOR_RC_5H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_3-2026_GENERAL
       person: PERSON-MINOR_RC_5H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_5
   - type: Person
     code: PERSON-HAWKINS_DV_2P
     attributes:
@@ -186,12 +186,12 @@ groups:
       middle_name: T.
       last_name: Hawkins
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_5-2026_GENERAL-HAWKINS_DV_2P
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_5-2026_GENERAL-HAWKINS_DV_2P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_5-2026_GENERAL
       person: PERSON-HAWKINS_DV_2P
   - type: Person
     code: PERSON-OKEEFE_DV_2B
@@ -202,30 +202,30 @@ groups:
       middle_name: T.
       last_name: O'Keefe
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_5-2026_GENERAL-OKEEFE_DV_2B
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_5-2026_GENERAL-OKEEFE_DV_2B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COUNTY_COMMISSIONER-DISTRICT_5-2026_GENERAL
       person: PERSON-OKEEFE_DV_2B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-CANOPY_CDD_SUPERVISOR-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANOPY_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: CANOPY_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-CANOPY_CDD_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-CANOPY_CDD_SUPERVISOR-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANOPY_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-CANOPY_CDD_SUPERVISOR-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANOPY_CDD_SEAT_1
   - type: Person
     code: PERSON-FENELUS_RH_8L
     attributes:
@@ -235,12 +235,12 @@ groups:
       middle_name: Jean Michlet
       last_name: Fenelus
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-CANOPY_CDD_SUPERVISOR-SEAT_1-2026_GENERAL-FENELUS_RH_8L
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANOPY_CDD_SEAT_1-2026_GENERAL-FENELUS_RH_8L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-CANOPY_CDD_SUPERVISOR-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANOPY_CDD_SEAT_1-2026_GENERAL
       person: PERSON-FENELUS_RH_8L
   - type: Person
     code: PERSON-FIEDLER_TG_5V
@@ -250,30 +250,30 @@ groups:
       first_name: Teegan
       last_name: Fiedler
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-CANOPY_CDD_SUPERVISOR-SEAT_1-2026_GENERAL-FIEDLER_TG_5V
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANOPY_CDD_SEAT_1-2026_GENERAL-FIEDLER_TG_5V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-CANOPY_CDD_SUPERVISOR-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CANOPY_CDD_SEAT_1-2026_GENERAL
       person: PERSON-FIEDLER_TG_5V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: CAPITAL_REGION_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-CAPITAL_REGION_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_1
   - type: Person
     code: PERSON-THIELEN_JM_6H
     attributes:
@@ -283,30 +283,30 @@ groups:
       middle_name: F.
       last_name: Thielen
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_1-2026_GENERAL-THIELEN_JM_6H
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_1-2026_GENERAL-THIELEN_JM_6H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_1-2026_GENERAL
       person: PERSON-THIELEN_JM_6H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: CAPITAL_REGION_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-CAPITAL_REGION_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_3
   - type: Person
     code: PERSON-GLANTZ_MC_6F
     attributes:
@@ -316,30 +316,30 @@ groups:
       middle_name: T.
       last_name: Glantz
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_3-2026_GENERAL-GLANTZ_MC_6F
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_3-2026_GENERAL-GLANTZ_MC_6F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_3-2026_GENERAL
       person: PERSON-GLANTZ_MC_6F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: CAPITAL_REGION_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-CAPITAL_REGION_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_5
   - type: Person
     code: PERSON-CHRISTENSEN_KR_7P
     attributes:
@@ -349,12 +349,12 @@ groups:
       middle_name: V.
       last_name: Christensen
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_5-2026_GENERAL-CHRISTENSEN_KR_7P
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_5-2026_GENERAL-CHRISTENSEN_KR_7P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_5-2026_GENERAL
       person: PERSON-CHRISTENSEN_KR_7P
   - type: Person
     code: PERSON-GREEN_JN_5C
@@ -365,12 +365,12 @@ groups:
       middle_name: Jankowski
       last_name: Green
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_5-2026_GENERAL-GREEN_JN_5C
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_5-2026_GENERAL-GREEN_JN_5C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-CAPITAL_REGION_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CAPITAL_REGION_CDD_SEAT_5-2026_GENERAL
       person: PERSON-GREEN_JN_5C
 - records:
   - type: Office
@@ -406,21 +406,21 @@ groups:
       person: PERSON-ASHENAFI_RICHARDSON_NN_5P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-FALLSCHASE_CDD_SUPERVISOR-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FALLSCHASE_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: FALLSCHASE_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-FALLSCHASE_CDD_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-FALLSCHASE_CDD_SUPERVISOR-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FALLSCHASE_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-FALLSCHASE_CDD_SUPERVISOR-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FALLSCHASE_CDD_SEAT_1
   - type: Person
     code: PERSON-THOMPSON_EL_9E
     attributes:
@@ -429,30 +429,30 @@ groups:
       first_name: Elena
       last_name: Thompson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-FALLSCHASE_CDD_SUPERVISOR-SEAT_1-2026_GENERAL-THOMPSON_EL_9E
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FALLSCHASE_CDD_SEAT_1-2026_GENERAL-THOMPSON_EL_9E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-FALLSCHASE_CDD_SUPERVISOR-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FALLSCHASE_CDD_SEAT_1-2026_GENERAL
       person: PERSON-THOMPSON_EL_9E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-FALLSCHASE_CDD_SUPERVISOR-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FALLSCHASE_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: FALLSCHASE_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-FALLSCHASE_CDD_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-FALLSCHASE_CDD_SUPERVISOR-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FALLSCHASE_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-FALLSCHASE_CDD_SUPERVISOR-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FALLSCHASE_CDD_SEAT_5
   - type: Person
     code: PERSON-BAKER_JN_6Z
     attributes:
@@ -462,30 +462,30 @@ groups:
       middle_name: N.
       last_name: Baker
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-FALLSCHASE_CDD_SUPERVISOR-SEAT_5-2026_GENERAL-BAKER_JN_6Z
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FALLSCHASE_CDD_SEAT_5-2026_GENERAL-BAKER_JN_6Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-FALLSCHASE_CDD_SUPERVISOR-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FALLSCHASE_CDD_SEAT_5-2026_GENERAL
       person: PERSON-BAKER_JN_6Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-LEON_SOIL_AND_WATER_CONSERVATION_DISTRICT_1-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_LEON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
     attributes:
       seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-LEON_SOIL_AND_WATER_CONSERVATION_DISTRICT_1
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-LEON_SOIL_AND_WATER_CONSERVATION_DISTRICT_1-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-LEON_SOIL_AND_WATER_CONSERVATION_DISTRICT_1-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_LEON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
   - type: Person
     code: PERSON-LACHAPPELLE_LR_9N
     attributes:
@@ -494,30 +494,30 @@ groups:
       first_name: Laura
       last_name: LaChappelle
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-LEON_SOIL_AND_WATER_CONSERVATION_DISTRICT_1-SEAT_1-2026_GENERAL-LACHAPPELLE_LR_9N
+    code: CANDIDACY-USA-FL-COUNTY_LEON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL-LACHAPPELLE_LR_9N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-LEON_SOIL_AND_WATER_CONSERVATION_DISTRICT_1-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
       person: PERSON-LACHAPPELLE_LR_9N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-LEON_SOIL_AND_WATER_CONSERVATION_DISTRICT_5-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_LEON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
     attributes:
       seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-LEON_SOIL_AND_WATER_CONSERVATION_DISTRICT_5
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-LEON_SOIL_AND_WATER_CONSERVATION_DISTRICT_5-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-LEON_SOIL_AND_WATER_CONSERVATION_DISTRICT_5-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_LEON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
   - type: Person
     code: PERSON-AXELRAD_DN_8G
     attributes:
@@ -527,30 +527,30 @@ groups:
       middle_name: M.
       last_name: Axelrad
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-LEON_SOIL_AND_WATER_CONSERVATION_DISTRICT_5-SEAT_5-2026_GENERAL-AXELRAD_DN_8G
+    code: CANDIDACY-USA-FL-COUNTY_LEON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL-AXELRAD_DN_8G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-LEON_SOIL_AND_WATER_CONSERVATION_DISTRICT_5-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
       person: PERSON-AXELRAD_DN_8G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-PINEY_Z_CDD_SUPERVISOR-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINEY_Z_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: PINEY_Z_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-PINEY_Z_CDD_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-PINEY_Z_CDD_SUPERVISOR-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINEY_Z_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-PINEY_Z_CDD_SUPERVISOR-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINEY_Z_CDD_SEAT_1
   - type: Person
     code: PERSON-TOWNSEND_KV_6N
     attributes:
@@ -560,30 +560,30 @@ groups:
       middle_name: M.
       last_name: Townsend
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-PINEY_Z_CDD_SUPERVISOR-SEAT_1-2026_GENERAL-TOWNSEND_KV_6N
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINEY_Z_CDD_SEAT_1-2026_GENERAL-TOWNSEND_KV_6N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-PINEY_Z_CDD_SUPERVISOR-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINEY_Z_CDD_SEAT_1-2026_GENERAL
       person: PERSON-TOWNSEND_KV_6N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-PINEY_Z_CDD_SUPERVISOR-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINEY_Z_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: PINEY_Z_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-PINEY_Z_CDD_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-PINEY_Z_CDD_SUPERVISOR-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINEY_Z_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-PINEY_Z_CDD_SUPERVISOR-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINEY_Z_CDD_SEAT_3
   - type: Person
     code: PERSON-HAYS_RC_3Z
     attributes:
@@ -592,12 +592,12 @@ groups:
       first_name: Rick
       last_name: Hays
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-PINEY_Z_CDD_SUPERVISOR-SEAT_3-2026_GENERAL-HAYS_RC_3Z
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINEY_Z_CDD_SEAT_3-2026_GENERAL-HAYS_RC_3Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-PINEY_Z_CDD_SUPERVISOR-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINEY_Z_CDD_SEAT_3-2026_GENERAL
       person: PERSON-HAYS_RC_3Z
   - type: Person
     code: PERSON-LAMB_DN_3N
@@ -608,30 +608,30 @@ groups:
       middle_name: K.
       last_name: Lamb
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-PINEY_Z_CDD_SUPERVISOR-SEAT_3-2026_GENERAL-LAMB_DN_3N
+    code: CANDIDACY-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINEY_Z_CDD_SEAT_3-2026_GENERAL-LAMB_DN_3N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-PINEY_Z_CDD_SUPERVISOR-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINEY_Z_CDD_SEAT_3-2026_GENERAL
       person: PERSON-LAMB_DN_3N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-BILLINGSLEY_JM_9M
     attributes:
@@ -640,7 +640,7 @@ groups:
       first_name: James
       last_name: Billingsley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-BILLINGSLEY_JM_9M
+    code: CANDIDACY-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-BILLINGSLEY_JM_9M
     attributes:
       status: active
       participation: active
@@ -648,7 +648,7 @@ groups:
       - label: Write-In
         kind: write_in
     references:
-      race: RACE-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-BILLINGSLEY_JM_9M
   - type: Person
     code: PERSON-SMITH_AL_8Z
@@ -659,30 +659,30 @@ groups:
       middle_name: Striplin
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-SMITH_AL_8Z
+    code: CANDIDACY-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-SMITH_AL_8Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-SMITH_AL_8Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-JONES_DR_5J
     attributes:
@@ -692,30 +692,30 @@ groups:
       middle_name: E.
       last_name: Jones
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-JONES_DR_5J
+    code: CANDIDACY-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-JONES_DR_5J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-JONES_DR_5J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-LEON
   - type: Race
-    code: RACE-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LEON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-NICOLAS_MR_2U
     attributes:
@@ -724,29 +724,30 @@ groups:
       first_name: Marcus
       last_name: Nicolas
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-NICOLAS_MR_2U
+    code: CANDIDACY-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-NICOLAS_MR_2U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LEON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LEON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-NICOLAS_MR_2U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_3
+    code: OFFICE-USA-FL-TALLAHASSEE-COMMISSIONER-SEAT_3
     attributes:
+      seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-TALLAHASSEE_CITY_COMMISSION_SEAT_3
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-TALLAHASSEE
   - type: Race
-    code: RACE-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-TALLAHASSEE-COMMISSIONER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=leon&el=25.'
     references:
       election: ELECTION-USA-FL-TALLAHASSEE-2026_GENERAL
-      office: OFFICE-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_3
+      office: OFFICE-USA-FL-TALLAHASSEE-COMMISSIONER-SEAT_3
   - type: Person
     code: PERSON-DERZYPOLSKI_TM_7W
     attributes:
@@ -755,12 +756,12 @@ groups:
       first_name: Tom
       last_name: Derzypolski
   - type: Candidacy
-    code: CANDIDACY-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_3-2026_GENERAL-DERZYPOLSKI_TM_7W
+    code: CANDIDACY-USA-FL-TALLAHASSEE-COMMISSIONER-SEAT_3-2026_GENERAL-DERZYPOLSKI_TM_7W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-TALLAHASSEE-COMMISSIONER-SEAT_3-2026_GENERAL
       person: PERSON-DERZYPOLSKI_TM_7W
   - type: Person
     code: PERSON-PEREZ_PJ_7D
@@ -770,29 +771,30 @@ groups:
       first_name: PJ
       last_name: Perez
   - type: Candidacy
-    code: CANDIDACY-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_3-2026_GENERAL-PEREZ_PJ_7D
+    code: CANDIDACY-USA-FL-TALLAHASSEE-COMMISSIONER-SEAT_3-2026_GENERAL-PEREZ_PJ_7D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-TALLAHASSEE-COMMISSIONER-SEAT_3-2026_GENERAL
       person: PERSON-PEREZ_PJ_7D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_4_MAYOR
+    code: OFFICE-USA-FL-TALLAHASSEE-MAYOR-SEAT_4
     attributes:
+      seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-TALLAHASSEE_CITY_COMMISSION_SEAT_4_MAYOR
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-TALLAHASSEE
   - type: Race
-    code: RACE-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_4_MAYOR-2026_GENERAL
+    code: RACE-USA-FL-TALLAHASSEE-MAYOR-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=leon&el=25.'
     references:
       election: ELECTION-USA-FL-TALLAHASSEE-2026_GENERAL
-      office: OFFICE-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_4_MAYOR
+      office: OFFICE-USA-FL-TALLAHASSEE-MAYOR-SEAT_4
   - type: Person
     code: PERSON-AUSLEY_LR_4R
     attributes:
@@ -802,12 +804,12 @@ groups:
       middle_name: Elizabeth
       last_name: Ausley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_4_MAYOR-2026_GENERAL-AUSLEY_LR_4R
+    code: CANDIDACY-USA-FL-TALLAHASSEE-MAYOR-SEAT_4-2026_GENERAL-AUSLEY_LR_4R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_4_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-TALLAHASSEE-MAYOR-SEAT_4-2026_GENERAL
       person: PERSON-AUSLEY_LR_4R
   - type: Person
     code: PERSON-MATLOW_JR_2B
@@ -817,29 +819,30 @@ groups:
       first_name: Jeremy
       last_name: Matlow
   - type: Candidacy
-    code: CANDIDACY-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_4_MAYOR-2026_GENERAL-MATLOW_JR_2B
+    code: CANDIDACY-USA-FL-TALLAHASSEE-MAYOR-SEAT_4-2026_GENERAL-MATLOW_JR_2B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_4_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-TALLAHASSEE-MAYOR-SEAT_4-2026_GENERAL
       person: PERSON-MATLOW_JR_2B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_5
+    code: OFFICE-USA-FL-TALLAHASSEE-COMMISSIONER-SEAT_5
     attributes:
+      seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-TALLAHASSEE_CITY_COMMISSION_SEAT_5
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-TALLAHASSEE
   - type: Race
-    code: RACE-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-TALLAHASSEE-COMMISSIONER-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Advanced. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=leon&el=25.'
     references:
       election: ELECTION-USA-FL-TALLAHASSEE-2026_GENERAL
-      office: OFFICE-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_5
+      office: OFFICE-USA-FL-TALLAHASSEE-COMMISSIONER-SEAT_5
   - type: Person
     code: PERSON-INMAN_JOHNSON_DT_2R
     attributes:
@@ -848,12 +851,12 @@ groups:
       first_name: Dot
       last_name: Inman-Johnson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_5-2026_GENERAL-INMAN_JOHNSON_DT_2R
+    code: CANDIDACY-USA-FL-TALLAHASSEE-COMMISSIONER-SEAT_5-2026_GENERAL-INMAN_JOHNSON_DT_2R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-TALLAHASSEE-COMMISSIONER-SEAT_5-2026_GENERAL
       person: PERSON-INMAN_JOHNSON_DT_2R
   - type: Person
     code: PERSON-WILLIAMS_COX_DN_2W
@@ -863,10 +866,10 @@ groups:
       first_name: Dianne
       last_name: Williams-Cox
   - type: Candidacy
-    code: CANDIDACY-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_5-2026_GENERAL-WILLIAMS_COX_DN_2W
+    code: CANDIDACY-USA-FL-TALLAHASSEE-COMMISSIONER-SEAT_5-2026_GENERAL-WILLIAMS_COX_DN_2W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-TALLAHASSEE-TALLAHASSEE_CITY_COMMISSION_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-TALLAHASSEE-COMMISSIONER-SEAT_5-2026_GENERAL
       person: PERSON-WILLIAMS_COX_DN_2W

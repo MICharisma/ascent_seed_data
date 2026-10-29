@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BRADFORD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-BRADFORD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BRADFORD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BRADFORD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BRADFORD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-BENNETT_JS_2N
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Jason
       last_name: Bennett
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BRADFORD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-BENNETT_JS_2N
+    code: CANDIDACY-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-BENNETT_JS_2N
     attributes:
       status: active
       participation: active
@@ -53,7 +53,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_BRADFORD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-BENNETT_JS_2N
   - type: Person
     code: PERSON-TALLEDA_JN_5X
@@ -63,7 +63,7 @@ groups:
       first_name: Jenna
       last_name: Talleda
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BRADFORD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-TALLEDA_JN_5X
+    code: CANDIDACY-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-TALLEDA_JN_5X
     attributes:
       status: active
       participation: active
@@ -72,25 +72,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_BRADFORD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-TALLEDA_JN_5X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BRADFORD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-BRADFORD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BRADFORD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BRADFORD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BRADFORD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-GERMANO_TM_9H
     attributes:
@@ -99,7 +99,7 @@ groups:
       first_name: Tom
       last_name: Germano
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BRADFORD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-GERMANO_TM_9H
+    code: CANDIDACY-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-GERMANO_TM_9H
     attributes:
       status: active
       participation: active
@@ -108,25 +108,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_BRADFORD-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-GERMANO_TM_9H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BRADFORD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BRADFORD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-CUMMINGS_SH_4X
     attributes:
@@ -136,30 +136,30 @@ groups:
       middle_name: Fayson
       last_name: Cummings
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-CUMMINGS_SH_4X
+    code: CANDIDACY-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-CUMMINGS_SH_4X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-CUMMINGS_SH_4X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BRADFORD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BRADFORD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-NICULA_GY_7F
     attributes:
@@ -169,30 +169,30 @@ groups:
       middle_name: Shuford
       last_name: Nicula
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-NICULA_GY_7F
+    code: CANDIDACY-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-NICULA_GY_7F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-NICULA_GY_7F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-BRADFORD
   - type: Race
-    code: RACE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_BRADFORD-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-COLEMAN_LC_8A
     attributes:
@@ -201,10 +201,10 @@ groups:
       first_name: Lacey
       last_name: Coleman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-COLEMAN_LC_8A
+    code: CANDIDACY-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-COLEMAN_LC_8A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-COLEMAN_LC_8A

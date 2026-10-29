@@ -7,6 +7,30 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
+  code: ELECTION-USA-VA-JONESVILLE-2026_GENERAL
+  attributes:
+    name: Jonesville General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-JONESVILLE
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-PENNINGTON_GAP-2026_GENERAL
+  attributes:
+    name: Pennington Gap General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-PENNINGTON_GAP
+    year: YEAR-2026
+- type: Election
   code: ELECTION-USA-VA-COUNTY_LEE-2026_GENERAL
   attributes:
     name: Lee County General Election 2026
@@ -21,21 +45,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LEE-MAYOR_JONESVILLE-TOWN_OF_JONESVILLE
+    code: OFFICE-USA-VA-JONESVILLE-MAYOR
     attributes:
-      seat_code: TOWN_OF_JONESVILLE
       is_active: true
     references:
-      position: POSITION-MAYOR_JONESVILLE
-      jurisdiction: COUNTY-USA-VA-LEE
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-JONESVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_LEE-MAYOR_JONESVILLE-TOWN_OF_JONESVILLE-2026_GENERAL
+    code: RACE-USA-VA-JONESVILLE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LEE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LEE-MAYOR_JONESVILLE-TOWN_OF_JONESVILLE
+      election: ELECTION-USA-VA-JONESVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-JONESVILLE-MAYOR
   - type: Person
     code: PERSON-HARRIS_JR_7L
     attributes:
@@ -45,30 +68,29 @@ groups:
       middle_name: L.
       last_name: Harris
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LEE-MAYOR_JONESVILLE-TOWN_OF_JONESVILLE-2026_GENERAL-HARRIS_JR_7L
+    code: CANDIDACY-USA-VA-JONESVILLE-MAYOR-2026_GENERAL-HARRIS_JR_7L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LEE-MAYOR_JONESVILLE-TOWN_OF_JONESVILLE-2026_GENERAL
+      race: RACE-USA-VA-JONESVILLE-MAYOR-2026_GENERAL
       person: PERSON-HARRIS_JR_7L
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LEE-MAYOR_PENNINGTON_GAP-TOWN_OF_PENNINGTON_GAP
+    code: OFFICE-USA-VA-PENNINGTON_GAP-MAYOR
     attributes:
-      seat_code: TOWN_OF_PENNINGTON_GAP
       is_active: true
     references:
-      position: POSITION-MAYOR_PENNINGTON_GAP
-      jurisdiction: COUNTY-USA-VA-LEE
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-PENNINGTON_GAP
   - type: Race
-    code: RACE-USA-VA-COUNTY_LEE-MAYOR_PENNINGTON_GAP-TOWN_OF_PENNINGTON_GAP-2026_GENERAL
+    code: RACE-USA-VA-PENNINGTON_GAP-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LEE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LEE-MAYOR_PENNINGTON_GAP-TOWN_OF_PENNINGTON_GAP
+      election: ELECTION-USA-VA-PENNINGTON_GAP-2026_GENERAL
+      office: OFFICE-USA-VA-PENNINGTON_GAP-MAYOR
   - type: Person
     code: PERSON-POPE_TR_6Q
     attributes:
@@ -78,30 +100,29 @@ groups:
       middle_name: K.
       last_name: Pope
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LEE-MAYOR_PENNINGTON_GAP-TOWN_OF_PENNINGTON_GAP-2026_GENERAL-POPE_TR_6Q
+    code: CANDIDACY-USA-VA-PENNINGTON_GAP-MAYOR-2026_GENERAL-POPE_TR_6Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LEE-MAYOR_PENNINGTON_GAP-TOWN_OF_PENNINGTON_GAP-2026_GENERAL
+      race: RACE-USA-VA-PENNINGTON_GAP-MAYOR-2026_GENERAL
       person: PERSON-POPE_TR_6Q
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_JONESVILLE-TOWN_OF_JONESVILLE
+    code: OFFICE-USA-VA-JONESVILLE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_JONESVILLE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_JONESVILLE
-      jurisdiction: COUNTY-USA-VA-LEE
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-JONESVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_JONESVILLE-TOWN_OF_JONESVILLE-2026_GENERAL
+    code: RACE-USA-VA-JONESVILLE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LEE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_JONESVILLE-TOWN_OF_JONESVILLE
+      election: ELECTION-USA-VA-JONESVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-JONESVILLE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-HOUNSHELL_B_7C
     attributes:
@@ -111,12 +132,12 @@ groups:
       middle_name: Kenny
       last_name: Hounshell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_JONESVILLE-TOWN_OF_JONESVILLE-2026_GENERAL-HOUNSHELL_B_7C
+    code: CANDIDACY-USA-VA-JONESVILLE-COUNCIL_MEMBER-2026_GENERAL-HOUNSHELL_B_7C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_JONESVILLE-TOWN_OF_JONESVILLE-2026_GENERAL
+      race: RACE-USA-VA-JONESVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HOUNSHELL_B_7C
   - type: Person
     code: PERSON-STAPLETON_DN_5J
@@ -127,12 +148,12 @@ groups:
       middle_name: R.
       last_name: Stapleton
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_JONESVILLE-TOWN_OF_JONESVILLE-2026_GENERAL-STAPLETON_DN_5J
+    code: CANDIDACY-USA-VA-JONESVILLE-COUNCIL_MEMBER-2026_GENERAL-STAPLETON_DN_5J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_JONESVILLE-TOWN_OF_JONESVILLE-2026_GENERAL
+      race: RACE-USA-VA-JONESVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-STAPLETON_DN_5J
   - type: Person
     code: PERSON-LITTON_MC_4J
@@ -143,12 +164,12 @@ groups:
       middle_name: J.
       last_name: Litton
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_JONESVILLE-TOWN_OF_JONESVILLE-2026_GENERAL-LITTON_MC_4J
+    code: CANDIDACY-USA-VA-JONESVILLE-COUNCIL_MEMBER-2026_GENERAL-LITTON_MC_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_JONESVILLE-TOWN_OF_JONESVILLE-2026_GENERAL
+      race: RACE-USA-VA-JONESVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LITTON_MC_4J
   - type: Person
     code: PERSON-HINES_RB_3V
@@ -159,12 +180,12 @@ groups:
       middle_name: Riggs
       last_name: Hines
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_JONESVILLE-TOWN_OF_JONESVILLE-2026_GENERAL-HINES_RB_3V
+    code: CANDIDACY-USA-VA-JONESVILLE-COUNCIL_MEMBER-2026_GENERAL-HINES_RB_3V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_JONESVILLE-TOWN_OF_JONESVILLE-2026_GENERAL
+      race: RACE-USA-VA-JONESVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HINES_RB_3V
   - type: Person
     code: PERSON-WYNN_SM_3C
@@ -175,30 +196,30 @@ groups:
       middle_name: M.
       last_name: Wynn
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_JONESVILLE-TOWN_OF_JONESVILLE-2026_GENERAL-WYNN_SM_3C
+    code: CANDIDACY-USA-VA-JONESVILLE-COUNCIL_MEMBER-2026_GENERAL-WYNN_SM_3C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_JONESVILLE-TOWN_OF_JONESVILLE-2026_GENERAL
+      race: RACE-USA-VA-JONESVILLE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WYNN_SM_3C
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP
+    code: OFFICE-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP
     attributes:
       seat_code: PENNINGTON_GAP
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-LEE
   - type: Race
-    code: RACE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_LEE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP
+      office: OFFICE-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP
   - type: Person
     code: PERSON-HAYES_DR_2X
     attributes:
@@ -208,12 +229,12 @@ groups:
       middle_name: W.
       last_name: Hayes
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL-HAYES_DR_2X
+    code: CANDIDACY-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL-HAYES_DR_2X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL
       person: PERSON-HAYES_DR_2X
   - type: Person
     code: PERSON-HARBER_E_7E
@@ -224,12 +245,12 @@ groups:
       middle_name: Ty
       last_name: Harber Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL-HARBER_E_7E
+    code: CANDIDACY-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL-HARBER_E_7E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL
       person: PERSON-HARBER_E_7E
   - type: Person
     code: PERSON-WARNER_JM_5U
@@ -240,12 +261,12 @@ groups:
       middle_name: L.
       last_name: Warner
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL-WARNER_JM_5U
+    code: CANDIDACY-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL-WARNER_JM_5U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL
       person: PERSON-WARNER_JM_5U
   - type: Person
     code: PERSON-SEE_LR_7D
@@ -256,12 +277,12 @@ groups:
       middle_name: L.
       last_name: See
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL-SEE_LR_7D
+    code: CANDIDACY-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL-SEE_LR_7D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL
       person: PERSON-SEE_LR_7D
   - type: Person
     code: PERSON-KENNEDY_MG_3R
@@ -272,12 +293,12 @@ groups:
       middle_name: L.L.
       last_name: Kennedy
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL-KENNEDY_MG_3R
+    code: CANDIDACY-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL-KENNEDY_MG_3R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL
       person: PERSON-KENNEDY_MG_3R
   - type: Person
     code: PERSON-OVERTON_OR_9J
@@ -288,12 +309,12 @@ groups:
       middle_name: D.
       last_name: Overton
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL-OVERTON_OR_9J
+    code: CANDIDACY-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL-OVERTON_OR_9J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL
       person: PERSON-OVERTON_OR_9J
   - type: Person
     code: PERSON-ALSUP_PL_2B
@@ -304,12 +325,12 @@ groups:
       middle_name: Doug
       last_name: Alsup
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL-ALSUP_PL_2B
+    code: CANDIDACY-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL-ALSUP_PL_2B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL
       person: PERSON-ALSUP_PL_2B
   - type: Person
     code: PERSON-MULLINS_TR_6S
@@ -320,10 +341,10 @@ groups:
       middle_name: C.
       last_name: Mullins
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL-MULLINS_TR_6S
+    code: CANDIDACY-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL-MULLINS_TR_6S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LEE-MEMBER_TOWN_COUNCIL_PENNINGTON_GAP-PENNINGTON_GAP-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_LEE-COUNCIL_MEMBER-PENNINGTON_GAP-2026_GENERAL
       person: PERSON-MULLINS_TR_6S

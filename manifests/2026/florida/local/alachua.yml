@@ -33,21 +33,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ALACHUA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_ALACHUA-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-ALACHUA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ALACHUA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ALACHUA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ALACHUA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ALACHUA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_ALACHUA-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-CERTAIN_TN_8A
     attributes:
@@ -56,7 +56,7 @@ groups:
       first_name: Tina
       last_name: Certain
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ALACHUA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-CERTAIN_TN_8A
+    code: CANDIDACY-USA-FL-COUNTY_ALACHUA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-CERTAIN_TN_8A
     attributes:
       status: active
       participation: active
@@ -65,25 +65,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_ALACHUA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ALACHUA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-CERTAIN_TN_8A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ALACHUA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_ALACHUA-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-ALACHUA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ALACHUA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ALACHUA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ALACHUA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ALACHUA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_ALACHUA-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-BAINES_DW_3C
     attributes:
@@ -92,7 +92,7 @@ groups:
       first_name: Dewayne
       last_name: Baines
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ALACHUA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-BAINES_DW_3C
+    code: CANDIDACY-USA-FL-COUNTY_ALACHUA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-BAINES_DW_3C
     attributes:
       status: active
       participation: active
@@ -100,7 +100,7 @@ groups:
       - label: No Party Affiliation (Partisan)
         kind: designation
     references:
-      race: RACE-USA-FL-COUNTY_ALACHUA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ALACHUA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-BAINES_DW_3C
   - type: Person
     code: PERSON-CORNELL_KN_4U
@@ -110,7 +110,7 @@ groups:
       first_name: Ken
       last_name: Cornell
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ALACHUA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-CORNELL_KN_4U
+    code: CANDIDACY-USA-FL-COUNTY_ALACHUA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-CORNELL_KN_4U
     attributes:
       status: active
       participation: active
@@ -119,7 +119,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_ALACHUA-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ALACHUA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-CORNELL_KN_4U
 - records:
   - type: Office
@@ -155,20 +155,21 @@ groups:
       person: PERSON-ATRIA_ER_9X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-GAINESVILLE-GAINESVILLE_CITY_COMMISSION_DISTRICT_4
+    code: OFFICE-USA-FL-GAINESVILLE-COMMISSIONER-DISTRICT_4
     attributes:
+      seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-GAINESVILLE_CITY_COMMISSION_DISTRICT_4
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-GAINESVILLE
   - type: Race
-    code: RACE-USA-FL-GAINESVILLE-GAINESVILLE_CITY_COMMISSION_DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-GAINESVILLE-COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=alachua&el=54.'
     references:
       election: ELECTION-USA-FL-GAINESVILLE-2026_GENERAL
-      office: OFFICE-USA-FL-GAINESVILLE-GAINESVILLE_CITY_COMMISSION_DISTRICT_4
+      office: OFFICE-USA-FL-GAINESVILLE-COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-EASTMAN_BR_8V
     attributes:
@@ -177,30 +178,30 @@ groups:
       first_name: Bryan
       last_name: Eastman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-GAINESVILLE-GAINESVILLE_CITY_COMMISSION_DISTRICT_4-2026_GENERAL-EASTMAN_BR_8V
+    code: CANDIDACY-USA-FL-GAINESVILLE-COMMISSIONER-DISTRICT_4-2026_GENERAL-EASTMAN_BR_8V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-GAINESVILLE-GAINESVILLE_CITY_COMMISSION_DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-GAINESVILLE-COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-EASTMAN_BR_8V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ALACHUA-PARKER_ROAD_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_ALACHUA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARKER_ROAD_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: PARKER_ROAD_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-PARKER_ROAD_COMMUNITY_DEVELOPMENT_DISTRICT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-ALACHUA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ALACHUA-PARKER_ROAD_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ALACHUA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARKER_ROAD_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ALACHUA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ALACHUA-PARKER_ROAD_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_ALACHUA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARKER_ROAD_CDD_SEAT_1
   - type: Person
     code: PERSON-SUMMERS_WL_2N
     attributes:
@@ -210,30 +211,30 @@ groups:
       middle_name: L.
       last_name: Summers
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ALACHUA-PARKER_ROAD_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1-2026_GENERAL-SUMMERS_WL_2N
+    code: CANDIDACY-USA-FL-COUNTY_ALACHUA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARKER_ROAD_CDD_SEAT_1-2026_GENERAL-SUMMERS_WL_2N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ALACHUA-PARKER_ROAD_COMMUNITY_DEVELOPMENT_DISTRICT-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ALACHUA-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARKER_ROAD_CDD_SEAT_1-2026_GENERAL
       person: PERSON-SUMMERS_WL_2N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ALACHUA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ALACHUA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-MILLER_HN_6Z
     attributes:
@@ -242,12 +243,12 @@ groups:
       first_name: Hunter
       last_name: Miller
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-MILLER_HN_6Z
+    code: CANDIDACY-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-MILLER_HN_6Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-MILLER_HN_6Z
   - type: Person
     code: PERSON-PLAVAC_JN_8D
@@ -257,30 +258,30 @@ groups:
       first_name: Janine
       last_name: Plavac
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-PLAVAC_JN_8D
+    code: CANDIDACY-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-PLAVAC_JN_8D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-PLAVAC_JN_8D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ALACHUA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ALACHUA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-ROCKWELL_SR_5M
     attributes:
@@ -289,30 +290,30 @@ groups:
       first_name: Sarah
       last_name: Rockwell
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-ROCKWELL_SR_5M
+    code: CANDIDACY-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-ROCKWELL_SR_5M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-ROCKWELL_SR_5M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-ALACHUA
   - type: Race
-    code: RACE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_ALACHUA-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-VINSON_JN_6G
     attributes:
@@ -321,10 +322,10 @@ groups:
       first_name: Jancie
       last_name: Vinson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-VINSON_JN_6G
+    code: CANDIDACY-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-VINSON_JN_6G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_ALACHUA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-VINSON_JN_6G

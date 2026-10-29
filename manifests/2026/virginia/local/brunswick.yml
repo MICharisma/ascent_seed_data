@@ -7,6 +7,30 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
+  code: ELECTION-USA-VA-ALBERTA-2026_GENERAL
+  attributes:
+    name: Alberta General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-ALBERTA
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-LAWRENCEVILLE-2026_GENERAL
+  attributes:
+    name: Lawrenceville General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-LAWRENCEVILLE
+    year: YEAR-2026
+- type: Election
   code: ELECTION-USA-VA-COUNTY_BRUNSWICK-2026_GENERAL
   attributes:
     name: Brunswick County General Election 2026
@@ -21,21 +45,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BRUNSWICK-MAYOR_ALBERTA-TOWN_OF_ALBERTA
+    code: OFFICE-USA-VA-ALBERTA-MAYOR
     attributes:
-      seat_code: TOWN_OF_ALBERTA
       is_active: true
     references:
-      position: POSITION-MAYOR_ALBERTA
-      jurisdiction: COUNTY-USA-VA-BRUNSWICK
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-ALBERTA
   - type: Race
-    code: RACE-USA-VA-COUNTY_BRUNSWICK-MAYOR_ALBERTA-TOWN_OF_ALBERTA-2026_GENERAL
+    code: RACE-USA-VA-ALBERTA-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_BRUNSWICK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_BRUNSWICK-MAYOR_ALBERTA-TOWN_OF_ALBERTA
+      election: ELECTION-USA-VA-ALBERTA-2026_GENERAL
+      office: OFFICE-USA-VA-ALBERTA-MAYOR
   - type: Person
     code: PERSON-HAYES_RB_3F
     attributes:
@@ -45,30 +68,29 @@ groups:
       middle_name: W.
       last_name: Hayes, Sr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BRUNSWICK-MAYOR_ALBERTA-TOWN_OF_ALBERTA-2026_GENERAL-HAYES_RB_3F
+    code: CANDIDACY-USA-VA-ALBERTA-MAYOR-2026_GENERAL-HAYES_RB_3F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BRUNSWICK-MAYOR_ALBERTA-TOWN_OF_ALBERTA-2026_GENERAL
+      race: RACE-USA-VA-ALBERTA-MAYOR-2026_GENERAL
       person: PERSON-HAYES_RB_3F
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BRUNSWICK-MAYOR_LAWRENCEVILLE-TOWN_OF_LAWRENCEVILLE
+    code: OFFICE-USA-VA-LAWRENCEVILLE-MAYOR
     attributes:
-      seat_code: TOWN_OF_LAWRENCEVILLE
       is_active: true
     references:
-      position: POSITION-MAYOR_LAWRENCEVILLE
-      jurisdiction: COUNTY-USA-VA-BRUNSWICK
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-LAWRENCEVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_BRUNSWICK-MAYOR_LAWRENCEVILLE-TOWN_OF_LAWRENCEVILLE-2026_GENERAL
+    code: RACE-USA-VA-LAWRENCEVILLE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_BRUNSWICK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_BRUNSWICK-MAYOR_LAWRENCEVILLE-TOWN_OF_LAWRENCEVILLE
+      election: ELECTION-USA-VA-LAWRENCEVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-LAWRENCEVILLE-MAYOR
   - type: Person
     code: PERSON-TATUM_LW_4V
     attributes:
@@ -78,30 +100,29 @@ groups:
       middle_name: V.
       last_name: Tatum
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BRUNSWICK-MAYOR_LAWRENCEVILLE-TOWN_OF_LAWRENCEVILLE-2026_GENERAL-TATUM_LW_4V
+    code: CANDIDACY-USA-VA-LAWRENCEVILLE-MAYOR-2026_GENERAL-TATUM_LW_4V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BRUNSWICK-MAYOR_LAWRENCEVILLE-TOWN_OF_LAWRENCEVILLE-2026_GENERAL
+      race: RACE-USA-VA-LAWRENCEVILLE-MAYOR-2026_GENERAL
       person: PERSON-TATUM_LW_4V
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_ALBERTA-TOWN_OF_ALBERTA
+    code: OFFICE-USA-VA-ALBERTA-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_ALBERTA
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_ALBERTA
-      jurisdiction: COUNTY-USA-VA-BRUNSWICK
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-ALBERTA
   - type: Race
-    code: RACE-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_ALBERTA-TOWN_OF_ALBERTA-2026_GENERAL
+    code: RACE-USA-VA-ALBERTA-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_BRUNSWICK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_ALBERTA-TOWN_OF_ALBERTA
+      election: ELECTION-USA-VA-ALBERTA-2026_GENERAL
+      office: OFFICE-USA-VA-ALBERTA-COUNCIL_MEMBER
   - type: Person
     code: PERSON-WEDDINGT_FR_4W
     attributes:
@@ -111,12 +132,12 @@ groups:
       middle_name: Peterson
       last_name: Weddingt
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_ALBERTA-TOWN_OF_ALBERTA-2026_GENERAL-WEDDINGT_FR_4W
+    code: CANDIDACY-USA-VA-ALBERTA-COUNCIL_MEMBER-2026_GENERAL-WEDDINGT_FR_4W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_ALBERTA-TOWN_OF_ALBERTA-2026_GENERAL
+      race: RACE-USA-VA-ALBERTA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WEDDINGT_FR_4W
   - type: Person
     code: PERSON-SPENGLER_RB_6K
@@ -127,12 +148,12 @@ groups:
       middle_name: L.
       last_name: Spengler
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_ALBERTA-TOWN_OF_ALBERTA-2026_GENERAL-SPENGLER_RB_6K
+    code: CANDIDACY-USA-VA-ALBERTA-COUNCIL_MEMBER-2026_GENERAL-SPENGLER_RB_6K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_ALBERTA-TOWN_OF_ALBERTA-2026_GENERAL
+      race: RACE-USA-VA-ALBERTA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SPENGLER_RB_6K
   - type: Person
     code: PERSON-UNDERDUE_SR_9C
@@ -143,30 +164,30 @@ groups:
       middle_name: K.
       last_name: Underdue
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_ALBERTA-TOWN_OF_ALBERTA-2026_GENERAL-UNDERDUE_SR_9C
+    code: CANDIDACY-USA-VA-ALBERTA-COUNCIL_MEMBER-2026_GENERAL-UNDERDUE_SR_9C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_ALBERTA-TOWN_OF_ALBERTA-2026_GENERAL
+      race: RACE-USA-VA-ALBERTA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-UNDERDUE_SR_9C
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_LAWRENCEVILLE-DISTRICT_1
+    code: OFFICE-USA-VA-COUNTY_BRUNSWICK-COUNCIL_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_LAWRENCEVILLE
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-BRUNSWICK
   - type: Race
-    code: RACE-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_LAWRENCEVILLE-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_BRUNSWICK-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_BRUNSWICK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_LAWRENCEVILLE-DISTRICT_1
+      office: OFFICE-USA-VA-COUNTY_BRUNSWICK-COUNCIL_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-TALBERT_AL_8R
     attributes:
@@ -176,30 +197,30 @@ groups:
       middle_name: B.
       last_name: Talbert
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_LAWRENCEVILLE-DISTRICT_1-2026_GENERAL-TALBERT_AL_8R
+    code: CANDIDACY-USA-VA-COUNTY_BRUNSWICK-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL-TALBERT_AL_8R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_LAWRENCEVILLE-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_BRUNSWICK-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-TALBERT_AL_8R
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_LAWRENCEVILLE-DISTRICT_2
+    code: OFFICE-USA-VA-COUNTY_BRUNSWICK-COUNCIL_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_LAWRENCEVILLE
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-BRUNSWICK
   - type: Race
-    code: RACE-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_LAWRENCEVILLE-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_BRUNSWICK-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_BRUNSWICK-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_LAWRENCEVILLE-DISTRICT_2
+      office: OFFICE-USA-VA-COUNTY_BRUNSWICK-COUNCIL_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-WHITEHEAD_TY_3B
     attributes:
@@ -209,10 +230,10 @@ groups:
       middle_name: J.
       last_name: Whitehead
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_LAWRENCEVILLE-DISTRICT_2-2026_GENERAL-WHITEHEAD_TY_3B
+    code: CANDIDACY-USA-VA-COUNTY_BRUNSWICK-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL-WHITEHEAD_TY_3B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BRUNSWICK-MEMBER_TOWN_COUNCIL_LAWRENCEVILLE-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_BRUNSWICK-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-WHITEHEAD_TY_3B

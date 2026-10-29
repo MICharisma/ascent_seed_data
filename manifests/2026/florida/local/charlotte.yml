@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_DISTRICT_2-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_MEMBER-AIRPORT_AUTHORITY_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: AIRPORT_AUTHORITY_SEAT_2
       is_active: true
     references:
-      position: POSITION-AIRPORT_AUTHORITY_DISTRICT_2
+      position: POSITION-AIRPORT_AUTHORITY_MEMBER
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_DISTRICT_2-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_MEMBER-AIRPORT_AUTHORITY_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_DISTRICT_2-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_MEMBER-AIRPORT_AUTHORITY_SEAT_2
   - type: Person
     code: PERSON-HANCIK_RB_6Q
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Robert
       last_name: Hancik
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_DISTRICT_2-SEAT_2-2026_GENERAL-HANCIK_RB_6Q
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_MEMBER-AIRPORT_AUTHORITY_SEAT_2-2026_GENERAL-HANCIK_RB_6Q
     attributes:
       status: active
       participation: active
@@ -53,25 +53,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_DISTRICT_2-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_MEMBER-AIRPORT_AUTHORITY_SEAT_2-2026_GENERAL
       person: PERSON-HANCIK_RB_6Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_DISTRICT_4-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_MEMBER-AIRPORT_AUTHORITY_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: AIRPORT_AUTHORITY_SEAT_4
       is_active: true
     references:
-      position: POSITION-AIRPORT_AUTHORITY_DISTRICT_4
+      position: POSITION-AIRPORT_AUTHORITY_MEMBER
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_DISTRICT_4-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_MEMBER-AIRPORT_AUTHORITY_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_DISTRICT_4-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_MEMBER-AIRPORT_AUTHORITY_SEAT_4
   - type: Person
     code: PERSON-DULL_DN_3H
     attributes:
@@ -80,7 +80,7 @@ groups:
       first_name: Denise
       last_name: Dull
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_DISTRICT_4-SEAT_4-2026_GENERAL-DULL_DN_3H
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_MEMBER-AIRPORT_AUTHORITY_SEAT_4-2026_GENERAL-DULL_DN_3H
     attributes:
       status: active
       participation: active
@@ -89,25 +89,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_DISTRICT_4-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-AIRPORT_AUTHORITY_MEMBER-AIRPORT_AUTHORITY_SEAT_4-2026_GENERAL
       person: PERSON-DULL_DN_3H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-FLEMING_JH_3R
     attributes:
@@ -116,7 +116,7 @@ groups:
       first_name: John
       last_name: Fleming
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-FLEMING_JH_3R
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-FLEMING_JH_3R
     attributes:
       status: active
       participation: active
@@ -125,25 +125,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-FLEMING_JH_3R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-AMONTREE_KM_4Z
     attributes:
@@ -152,7 +152,7 @@ groups:
       first_name: Kim
       last_name: Amontree
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-AMONTREE_KM_4Z
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-AMONTREE_KM_4Z
     attributes:
       status: active
       participation: active
@@ -161,7 +161,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-AMONTREE_KM_4Z
   - type: Person
     code: PERSON-MELTON_MC_8A
@@ -172,7 +172,7 @@ groups:
       middle_name: T.
       last_name: Melton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-MELTON_MC_8A
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-MELTON_MC_8A
     attributes:
       status: active
       participation: active
@@ -180,25 +180,25 @@ groups:
       - label: No Party Affiliation (Partisan)
         kind: designation
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-MELTON_MC_8A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_LAKE_PARK_CDD-GROUP_1
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LAKE_PARK_CDD_GROUP_1
     attributes:
-      seat_code: GROUP_1
+      seat_code: HERITAGE_LAKE_PARK_CDD_GROUP_1
       is_active: true
     references:
-      position: POSITION-HERITAGE_LAKE_PARK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_LAKE_PARK_CDD-GROUP_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LAKE_PARK_CDD_GROUP_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_LAKE_PARK_CDD-GROUP_1
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LAKE_PARK_CDD_GROUP_1
   - type: Person
     code: PERSON-SHELLA_EL_3G
     attributes:
@@ -208,30 +208,30 @@ groups:
       middle_name: Rowe
       last_name: Shella
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-HERITAGE_LAKE_PARK_CDD-GROUP_1-2026_GENERAL-SHELLA_EL_3G
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LAKE_PARK_CDD_GROUP_1-2026_GENERAL-SHELLA_EL_3G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_LAKE_PARK_CDD-GROUP_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LAKE_PARK_CDD_GROUP_1-2026_GENERAL
       person: PERSON-SHELLA_EL_3G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_LAKE_PARK_CDD-GROUP_2
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LAKE_PARK_CDD_GROUP_2
     attributes:
-      seat_code: GROUP_2
+      seat_code: HERITAGE_LAKE_PARK_CDD_GROUP_2
       is_active: true
     references:
-      position: POSITION-HERITAGE_LAKE_PARK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_LAKE_PARK_CDD-GROUP_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LAKE_PARK_CDD_GROUP_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_LAKE_PARK_CDD-GROUP_2
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LAKE_PARK_CDD_GROUP_2
   - type: Person
     code: PERSON-DEFILIPPO_JM_6P
     attributes:
@@ -240,30 +240,30 @@ groups:
       first_name: James
       last_name: DeFilippo
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-HERITAGE_LAKE_PARK_CDD-GROUP_2-2026_GENERAL-DEFILIPPO_JM_6P
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LAKE_PARK_CDD_GROUP_2-2026_GENERAL-DEFILIPPO_JM_6P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_LAKE_PARK_CDD-GROUP_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_LAKE_PARK_CDD_GROUP_2-2026_GENERAL
       person: PERSON-DEFILIPPO_JM_6P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_OAK_PARK_CDD-GROUP_3
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_OAK_PARK_CDD_GROUP_3
     attributes:
-      seat_code: GROUP_3
+      seat_code: HERITAGE_OAK_PARK_CDD_GROUP_3
       is_active: true
     references:
-      position: POSITION-HERITAGE_OAK_PARK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_OAK_PARK_CDD-GROUP_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_OAK_PARK_CDD_GROUP_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_OAK_PARK_CDD-GROUP_3
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_OAK_PARK_CDD_GROUP_3
   - type: Person
     code: PERSON-RUSSO_CR_4V
     attributes:
@@ -273,12 +273,12 @@ groups:
       middle_name: J.
       last_name: Russo Sr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-HERITAGE_OAK_PARK_CDD-GROUP_3-2026_GENERAL-RUSSO_CR_4V
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_OAK_PARK_CDD_GROUP_3-2026_GENERAL-RUSSO_CR_4V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_OAK_PARK_CDD-GROUP_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_OAK_PARK_CDD_GROUP_3-2026_GENERAL
       person: PERSON-RUSSO_CR_4V
   - type: Person
     code: PERSON-SUTTON_FY_9T
@@ -288,30 +288,30 @@ groups:
       first_name: Faye
       last_name: Sutton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-HERITAGE_OAK_PARK_CDD-GROUP_3-2026_GENERAL-SUTTON_FY_9T
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_OAK_PARK_CDD_GROUP_3-2026_GENERAL-SUTTON_FY_9T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_OAK_PARK_CDD-GROUP_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_OAK_PARK_CDD_GROUP_3-2026_GENERAL
       person: PERSON-SUTTON_FY_9T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_OAK_PARK_CDD-GROUP_4
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_OAK_PARK_CDD_GROUP_4
     attributes:
-      seat_code: GROUP_4
+      seat_code: HERITAGE_OAK_PARK_CDD_GROUP_4
       is_active: true
     references:
-      position: POSITION-HERITAGE_OAK_PARK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_OAK_PARK_CDD-GROUP_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_OAK_PARK_CDD_GROUP_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_OAK_PARK_CDD-GROUP_4
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_OAK_PARK_CDD_GROUP_4
   - type: Person
     code: PERSON-MACH_LN_9P
     attributes:
@@ -320,30 +320,30 @@ groups:
       first_name: Linda
       last_name: Mach
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-HERITAGE_OAK_PARK_CDD-GROUP_4-2026_GENERAL-MACH_LN_9P
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_OAK_PARK_CDD_GROUP_4-2026_GENERAL-MACH_LN_9P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-HERITAGE_OAK_PARK_CDD-GROUP_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_OAK_PARK_CDD_GROUP_4-2026_GENERAL
       person: PERSON-MACH_LN_9P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-RIVERWOOD_CDD-GROUP_2
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERWOOD_CDD_GROUP_2
     attributes:
-      seat_code: GROUP_2
+      seat_code: RIVERWOOD_CDD_GROUP_2
       is_active: true
     references:
-      position: POSITION-RIVERWOOD_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-RIVERWOOD_CDD-GROUP_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERWOOD_CDD_GROUP_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-RIVERWOOD_CDD-GROUP_2
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERWOOD_CDD_GROUP_2
   - type: Person
     code: PERSON-CLARK_DG_8B
     attributes:
@@ -352,12 +352,12 @@ groups:
       first_name: Douglas
       last_name: Clark
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-RIVERWOOD_CDD-GROUP_2-2026_GENERAL-CLARK_DG_8B
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERWOOD_CDD_GROUP_2-2026_GENERAL-CLARK_DG_8B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-RIVERWOOD_CDD-GROUP_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERWOOD_CDD_GROUP_2-2026_GENERAL
       person: PERSON-CLARK_DG_8B
   - type: Person
     code: PERSON-DZENKO_BB_8K
@@ -367,30 +367,30 @@ groups:
       first_name: Bob
       last_name: Dzenko
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-RIVERWOOD_CDD-GROUP_2-2026_GENERAL-DZENKO_BB_8K
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERWOOD_CDD_GROUP_2-2026_GENERAL-DZENKO_BB_8K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-RIVERWOOD_CDD-GROUP_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERWOOD_CDD_GROUP_2-2026_GENERAL
       person: PERSON-DZENKO_BB_8K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-RIVERWOOD_CDD-GROUP_5
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERWOOD_CDD_GROUP_5
     attributes:
-      seat_code: GROUP_5
+      seat_code: RIVERWOOD_CDD_GROUP_5
       is_active: true
     references:
-      position: POSITION-RIVERWOOD_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-RIVERWOOD_CDD-GROUP_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERWOOD_CDD_GROUP_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-RIVERWOOD_CDD-GROUP_5
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERWOOD_CDD_GROUP_5
   - type: Person
     code: PERSON-URHAHN_KR_5P
     attributes:
@@ -400,12 +400,12 @@ groups:
       middle_name: Mike
       last_name: Urhahn
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-RIVERWOOD_CDD-GROUP_5-2026_GENERAL-URHAHN_KR_5P
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERWOOD_CDD_GROUP_5-2026_GENERAL-URHAHN_KR_5P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-RIVERWOOD_CDD-GROUP_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERWOOD_CDD_GROUP_5-2026_GENERAL
       person: PERSON-URHAHN_KR_5P
   - type: Person
     code: PERSON-VOLINSKI_DG_7M
@@ -415,30 +415,30 @@ groups:
       first_name: Douglas
       last_name: Volinski
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-RIVERWOOD_CDD-GROUP_5-2026_GENERAL-VOLINSKI_DG_7M
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERWOOD_CDD_GROUP_5-2026_GENERAL-VOLINSKI_DG_7M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-RIVERWOOD_CDD-GROUP_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERWOOD_CDD_GROUP_5-2026_GENERAL
       person: PERSON-VOLINSKI_DG_7M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-REYNOLDS_CR_3F
     attributes:
@@ -448,30 +448,30 @@ groups:
       middle_name: Marie
       last_name: Reynolds
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-REYNOLDS_CR_3F
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-REYNOLDS_CR_3F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-REYNOLDS_CR_3F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-LECLAIR_JH_6B
     attributes:
@@ -481,30 +481,30 @@ groups:
       middle_name: Henry
       last_name: LeClair
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-LECLAIR_JH_6B
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-LECLAIR_JH_6B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-LECLAIR_JH_6B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-TERN_BAY_CDD-GROUP_2
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TERN_BAY_CDD_GROUP_2
     attributes:
-      seat_code: GROUP_2
+      seat_code: TERN_BAY_CDD_GROUP_2
       is_active: true
     references:
-      position: POSITION-TERN_BAY_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-TERN_BAY_CDD-GROUP_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TERN_BAY_CDD_GROUP_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-TERN_BAY_CDD-GROUP_2
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TERN_BAY_CDD_GROUP_2
   - type: Person
     code: PERSON-HAMILTON_GR_8L
     attributes:
@@ -513,30 +513,30 @@ groups:
       first_name: Gary
       last_name: Hamilton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-TERN_BAY_CDD-GROUP_2-2026_GENERAL-HAMILTON_GR_8L
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TERN_BAY_CDD_GROUP_2-2026_GENERAL-HAMILTON_GR_8L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-TERN_BAY_CDD-GROUP_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TERN_BAY_CDD_GROUP_2-2026_GENERAL
       person: PERSON-HAMILTON_GR_8L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-TERN_BAY_CDD-GROUP_3
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TERN_BAY_CDD_GROUP_3
     attributes:
-      seat_code: GROUP_3
+      seat_code: TERN_BAY_CDD_GROUP_3
       is_active: true
     references:
-      position: POSITION-TERN_BAY_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-TERN_BAY_CDD-GROUP_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TERN_BAY_CDD_GROUP_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-TERN_BAY_CDD-GROUP_3
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TERN_BAY_CDD_GROUP_3
   - type: Person
     code: PERSON-DELUCA_VC_6L
     attributes:
@@ -545,30 +545,30 @@ groups:
       first_name: Vickey
       last_name: DeLuca
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-TERN_BAY_CDD-GROUP_3-2026_GENERAL-DELUCA_VC_6L
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TERN_BAY_CDD_GROUP_3-2026_GENERAL-DELUCA_VC_6L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-TERN_BAY_CDD-GROUP_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TERN_BAY_CDD_GROUP_3-2026_GENERAL
       person: PERSON-DELUCA_VC_6L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-TERN_BAY_CDD-GROUP_5
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TERN_BAY_CDD_GROUP_5
     attributes:
-      seat_code: GROUP_5
+      seat_code: TERN_BAY_CDD_GROUP_5
       is_active: true
     references:
-      position: POSITION-TERN_BAY_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-TERN_BAY_CDD-GROUP_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TERN_BAY_CDD_GROUP_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-TERN_BAY_CDD-GROUP_5
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TERN_BAY_CDD_GROUP_5
   - type: Person
     code: PERSON-GIESE_MC_6S
     attributes:
@@ -578,30 +578,30 @@ groups:
       middle_name: J.
       last_name: Giese
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-TERN_BAY_CDD-GROUP_5-2026_GENERAL-GIESE_MC_6S
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TERN_BAY_CDD_GROUP_5-2026_GENERAL-GIESE_MC_6S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-TERN_BAY_CDD-GROUP_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TERN_BAY_CDD_GROUP_5-2026_GENERAL
       person: PERSON-GIESE_MC_6S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-WEST_PORT_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WEST_PORT_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: WEST_PORT_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-WEST_PORT_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-WEST_PORT_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WEST_PORT_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-WEST_PORT_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WEST_PORT_CDD_SEAT_4
   - type: Person
     code: PERSON-SMIRNOV_DM_5D
     attributes:
@@ -611,30 +611,30 @@ groups:
       middle_name: Y.
       last_name: Smirnov
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-WEST_PORT_CDD-SEAT_4-2026_GENERAL-SMIRNOV_DM_5D
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WEST_PORT_CDD_SEAT_4-2026_GENERAL-SMIRNOV_DM_5D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-WEST_PORT_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WEST_PORT_CDD_SEAT_4-2026_GENERAL
       person: PERSON-SMIRNOV_DM_5D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-WEST_PORT_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WEST_PORT_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: WEST_PORT_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-WEST_PORT_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CHARLOTTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_CHARLOTTE-WEST_PORT_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WEST_PORT_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CHARLOTTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-WEST_PORT_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WEST_PORT_CDD_SEAT_5
   - type: Person
     code: PERSON-PERRY_DV_5E
     attributes:
@@ -643,12 +643,12 @@ groups:
       first_name: David
       last_name: Perry
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-WEST_PORT_CDD-SEAT_5-2026_GENERAL-PERRY_DV_5E
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WEST_PORT_CDD_SEAT_5-2026_GENERAL-PERRY_DV_5E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-WEST_PORT_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WEST_PORT_CDD_SEAT_5-2026_GENERAL
       person: PERSON-PERRY_DV_5E
   - type: Person
     code: PERSON-WILLIS_TH_6W
@@ -658,10 +658,10 @@ groups:
       first_name: Thomas
       last_name: Willis
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-WEST_PORT_CDD-SEAT_5-2026_GENERAL-WILLIS_TH_6W
+    code: CANDIDACY-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WEST_PORT_CDD_SEAT_5-2026_GENERAL-WILLIS_TH_6W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CHARLOTTE-WEST_PORT_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CHARLOTTE-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WEST_PORT_CDD_SEAT_5-2026_GENERAL
       person: PERSON-WILLIS_TH_6W

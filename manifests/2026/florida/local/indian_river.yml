@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-INDIAN_RIVER
   - type: Race
-    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_INDIAN_RIVER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-HARDINGHAM_RB_5L
     attributes:
@@ -45,7 +45,7 @@ groups:
       middle_name: D
       last_name: Hardingham III
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-HARDINGHAM_RB_5L
+    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-HARDINGHAM_RB_5L
     attributes:
       status: active
       participation: active
@@ -54,7 +54,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-HARDINGHAM_RB_5L
   - type: Person
     code: PERSON-PARADISO_NC_3D
@@ -64,7 +64,7 @@ groups:
       first_name: Nicole
       last_name: Paradiso
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-PARADISO_NC_3D
+    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-PARADISO_NC_3D
     attributes:
       status: active
       participation: active
@@ -72,7 +72,7 @@ groups:
       - label: Write-In
         kind: write_in
     references:
-      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-PARADISO_NC_3D
   - type: Person
     code: PERSON-PIPPIN_JN_7H
@@ -82,7 +82,7 @@ groups:
       first_name: Jennifer
       last_name: Pippin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-PIPPIN_JN_7H
+    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-PIPPIN_JN_7H
     attributes:
       status: active
       participation: active
@@ -91,25 +91,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-PIPPIN_JN_7H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-INDIAN_RIVER
   - type: Race
-    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_INDIAN_RIVER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-JAFFE_MR_8E
     attributes:
@@ -118,7 +118,7 @@ groups:
       first_name: Marc
       last_name: Jaffe
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-JAFFE_MR_8E
+    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-JAFFE_MR_8E
     attributes:
       status: active
       participation: active
@@ -127,7 +127,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-JAFFE_MR_8E
   - type: Person
     code: PERSON-LOAR_DR_7K
@@ -137,7 +137,7 @@ groups:
       first_name: Deryl
       last_name: Loar
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-LOAR_DR_7K
+    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-LOAR_DR_7K
     attributes:
       status: active
       participation: active
@@ -146,25 +146,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-LOAR_DR_7K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-HOSPITAL_BOARD_MEMBER-SEAT_2
     attributes:
       seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT
+      position: POSITION-HOSPITAL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-INDIAN_RIVER
   - type: Race
-    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-HOSPITAL_BOARD_MEMBER-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_INDIAN_RIVER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-HOSPITAL_BOARD_MEMBER-SEAT_2
   - type: Person
     code: PERSON-KINT_MC_3F
     attributes:
@@ -173,30 +173,30 @@ groups:
       first_name: Michael
       last_name: Kint
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT-SEAT_2-2026_GENERAL-KINT_MC_3F
+    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-HOSPITAL_BOARD_MEMBER-SEAT_2-2026_GENERAL-KINT_MC_3F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-HOSPITAL_BOARD_MEMBER-SEAT_2-2026_GENERAL
       person: PERSON-KINT_MC_3F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-HOSPITAL_BOARD_MEMBER-SEAT_4
     attributes:
       seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT
+      position: POSITION-HOSPITAL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-INDIAN_RIVER
   - type: Race
-    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-HOSPITAL_BOARD_MEMBER-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_INDIAN_RIVER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-HOSPITAL_BOARD_MEMBER-SEAT_4
   - type: Person
     code: PERSON-CREELMAN_WY_9Z
     attributes:
@@ -205,30 +205,30 @@ groups:
       first_name: Wayne
       last_name: Creelman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT-SEAT_4-2026_GENERAL-CREELMAN_WY_9Z
+    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-HOSPITAL_BOARD_MEMBER-SEAT_4-2026_GENERAL-CREELMAN_WY_9Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-HOSPITAL_BOARD_MEMBER-SEAT_4-2026_GENERAL
       person: PERSON-CREELMAN_WY_9Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT-SEAT_6
+    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-HOSPITAL_BOARD_MEMBER-SEAT_6
     attributes:
       seat_code: SEAT_6
       is_active: true
     references:
-      position: POSITION-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT
+      position: POSITION-HOSPITAL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-INDIAN_RIVER
   - type: Race
-    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT-SEAT_6-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-HOSPITAL_BOARD_MEMBER-SEAT_6-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_INDIAN_RIVER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT-SEAT_6
+      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-HOSPITAL_BOARD_MEMBER-SEAT_6
   - type: Person
     code: PERSON-BARTLETT_KR_4F
     attributes:
@@ -237,30 +237,30 @@ groups:
       first_name: Kerry
       last_name: Bartlett
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT-SEAT_6-2026_GENERAL-BARTLETT_KR_4F
+    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-HOSPITAL_BOARD_MEMBER-SEAT_6-2026_GENERAL-BARTLETT_KR_4F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_COUNTY_HOSPITAL_DISTRICT-SEAT_6-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-HOSPITAL_BOARD_MEMBER-SEAT_6-2026_GENERAL
       person: PERSON-BARTLETT_KR_4F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_MOSQUITO_CONTROL_DISTRICT-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-MOSQUITO_CONTROL_COMMISSIONER-SEAT_2
     attributes:
       seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-INDIAN_RIVER_MOSQUITO_CONTROL_DISTRICT
+      position: POSITION-MOSQUITO_CONTROL_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-INDIAN_RIVER
   - type: Race
-    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_MOSQUITO_CONTROL_DISTRICT-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-MOSQUITO_CONTROL_COMMISSIONER-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_INDIAN_RIVER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_MOSQUITO_CONTROL_DISTRICT-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-MOSQUITO_CONTROL_COMMISSIONER-SEAT_2
   - type: Person
     code: PERSON-KIRKLAND_AN_7B
     attributes:
@@ -269,12 +269,12 @@ groups:
       first_name: Anna
       last_name: Kirkland
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_MOSQUITO_CONTROL_DISTRICT-SEAT_2-2026_GENERAL-KIRKLAND_AN_7B
+    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-MOSQUITO_CONTROL_COMMISSIONER-SEAT_2-2026_GENERAL-KIRKLAND_AN_7B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_MOSQUITO_CONTROL_DISTRICT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-MOSQUITO_CONTROL_COMMISSIONER-SEAT_2-2026_GENERAL
       person: PERSON-KIRKLAND_AN_7B
   - type: Person
     code: PERSON-MACCOY_CR_7P
@@ -284,30 +284,30 @@ groups:
       first_name: Craig
       last_name: MacCoy
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_MOSQUITO_CONTROL_DISTRICT-SEAT_2-2026_GENERAL-MACCOY_CR_7P
+    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-MOSQUITO_CONTROL_COMMISSIONER-SEAT_2-2026_GENERAL-MACCOY_CR_7P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_MOSQUITO_CONTROL_DISTRICT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-MOSQUITO_CONTROL_COMMISSIONER-SEAT_2-2026_GENERAL
       person: PERSON-MACCOY_CR_7P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_MOSQUITO_CONTROL_DISTRICT-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-MOSQUITO_CONTROL_COMMISSIONER-SEAT_3
     attributes:
       seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-INDIAN_RIVER_MOSQUITO_CONTROL_DISTRICT
+      position: POSITION-MOSQUITO_CONTROL_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-INDIAN_RIVER
   - type: Race
-    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_MOSQUITO_CONTROL_DISTRICT-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-MOSQUITO_CONTROL_COMMISSIONER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_INDIAN_RIVER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_MOSQUITO_CONTROL_DISTRICT-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-MOSQUITO_CONTROL_COMMISSIONER-SEAT_3
   - type: Person
     code: PERSON-LOWTHER_TH_2F
     attributes:
@@ -316,30 +316,30 @@ groups:
       first_name: Thomas
       last_name: Lowther
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_MOSQUITO_CONTROL_DISTRICT-SEAT_3-2026_GENERAL-LOWTHER_TH_2F
+    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-MOSQUITO_CONTROL_COMMISSIONER-SEAT_3-2026_GENERAL-LOWTHER_TH_2F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-INDIAN_RIVER_MOSQUITO_CONTROL_DISTRICT-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-MOSQUITO_CONTROL_COMMISSIONER-SEAT_3-2026_GENERAL
       person: PERSON-LOWTHER_TH_2F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-INDIAN_RIVER
   - type: Race
-    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_INDIAN_RIVER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-MATTHEWS_RY_2J
     attributes:
@@ -348,30 +348,30 @@ groups:
       first_name: Ryan
       last_name: Matthews
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-MATTHEWS_RY_2J
+    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-MATTHEWS_RY_2J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-MATTHEWS_RY_2J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-INDIAN_RIVER
   - type: Race
-    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_INDIAN_RIVER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-ROSARIO_JC_2W
     attributes:
@@ -380,30 +380,30 @@ groups:
       first_name: Jacqueline
       last_name: Rosario
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-ROSARIO_JC_2W
+    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-ROSARIO_JC_2W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-ROSARIO_JC_2W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-INDIAN_RIVER
   - type: Race
-    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_INDIAN_RIVER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-BARENBORG_TR_7L
     attributes:
@@ -412,10 +412,10 @@ groups:
       first_name: Teri
       last_name: Barenborg
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-BARENBORG_TR_7L
+    code: CANDIDACY-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-BARENBORG_TR_7L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_INDIAN_RIVER-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-BARENBORG_TR_7L

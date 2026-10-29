@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HAMILTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-HAMILTON
   - type: Race
-    code: RACE-USA-FL-COUNTY_HAMILTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HAMILTON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HAMILTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-ALTMAN_JS_9B
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Josh
       last_name: Altman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HAMILTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-ALTMAN_JS_9B
+    code: CANDIDACY-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-ALTMAN_JS_9B
     attributes:
       status: active
       participation: active
@@ -53,25 +53,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_HAMILTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-ALTMAN_JS_9B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HAMILTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-HAMILTON
   - type: Race
-    code: RACE-USA-FL-COUNTY_HAMILTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HAMILTON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HAMILTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-ERIXTON_TR_4P
     attributes:
@@ -80,7 +80,7 @@ groups:
       first_name: Travis
       last_name: Erixton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HAMILTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-ERIXTON_TR_4P
+    code: CANDIDACY-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-ERIXTON_TR_4P
     attributes:
       status: active
       participation: active
@@ -89,7 +89,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_HAMILTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-ERIXTON_TR_4P
   - type: Person
     code: PERSON-PINELLO_AN_3X
@@ -99,7 +99,7 @@ groups:
       first_name: Annie
       last_name: Pinello
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HAMILTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-PINELLO_AN_3X
+    code: CANDIDACY-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-PINELLO_AN_3X
     attributes:
       status: active
       participation: active
@@ -108,25 +108,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_HAMILTON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-PINELLO_AN_3X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HAMILTON
   - type: Race
-    code: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HAMILTON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-MCCALL_CH_2K
     attributes:
@@ -136,30 +136,30 @@ groups:
       middle_name: Deas
       last_name: McCall
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-MCCALL_CH_2K
+    code: CANDIDACY-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-MCCALL_CH_2K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-MCCALL_CH_2K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HAMILTON
   - type: Race
-    code: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HAMILTON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-BURCH_KZ_5Y
     attributes:
@@ -169,12 +169,12 @@ groups:
       middle_name: L.
       last_name: Burch
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-BURCH_KZ_5Y
+    code: CANDIDACY-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-BURCH_KZ_5Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-BURCH_KZ_5Y
   - type: Person
     code: PERSON-OGBURN_LR_4T
@@ -184,30 +184,30 @@ groups:
       first_name: Larry
       last_name: Ogburn Sr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-OGBURN_LR_4T
+    code: CANDIDACY-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-OGBURN_LR_4T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-OGBURN_LR_4T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-HAMILTON
   - type: Race
-    code: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_HAMILTON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-KENNEDY_MN_9K
     attributes:
@@ -217,10 +217,10 @@ groups:
       middle_name: M.
       last_name: Kennedy
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-KENNEDY_MN_9K
+    code: CANDIDACY-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-KENNEDY_MN_9K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-KENNEDY_MN_9K

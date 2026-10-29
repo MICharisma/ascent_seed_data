@@ -21,21 +21,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_NORFOLK-REGISTER_OF_PROBATE-NORFOLK_COUNTY
+    code: OFFICE-USA-MA-COUNTY_NORFOLK-REGISTER_OF_PROBATE
     attributes:
-      seat_code: NORFOLK_COUNTY
       is_active: true
     references:
       position: POSITION-REGISTER_OF_PROBATE
       jurisdiction: COUNTY-USA-MA-NORFOLK
   - type: Race
-    code: RACE-USA-MA-COUNTY_NORFOLK-REGISTER_OF_PROBATE-NORFOLK_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_NORFOLK-REGISTER_OF_PROBATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_NORFOLK-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_NORFOLK-REGISTER_OF_PROBATE-NORFOLK_COUNTY
+      office: OFFICE-USA-MA-COUNTY_NORFOLK-REGISTER_OF_PROBATE
   - type: Person
     code: PERSON-BRIERLEY_CL_4T
     attributes:
@@ -45,7 +44,7 @@ groups:
       middle_name: Marie
       last_name: Brierley
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_NORFOLK-REGISTER_OF_PROBATE-NORFOLK_COUNTY-2026_GENERAL-BRIERLEY_CL_4T
+    code: CANDIDACY-USA-MA-COUNTY_NORFOLK-REGISTER_OF_PROBATE-2026_GENERAL-BRIERLEY_CL_4T
     attributes:
       status: active
       participation: active
@@ -54,25 +53,24 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_NORFOLK-REGISTER_OF_PROBATE-NORFOLK_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_NORFOLK-REGISTER_OF_PROBATE-2026_GENERAL
       person: PERSON-BRIERLEY_CL_4T
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_NORFOLK-COUNTY_TREASURER-NORFOLK_COUNTY
+    code: OFFICE-USA-MA-COUNTY_NORFOLK-TREASURER
     attributes:
-      seat_code: NORFOLK_COUNTY
       is_active: true
     references:
-      position: POSITION-COUNTY_TREASURER
+      position: POSITION-TREASURER
       jurisdiction: COUNTY-USA-MA-NORFOLK
   - type: Race
-    code: RACE-USA-MA-COUNTY_NORFOLK-COUNTY_TREASURER-NORFOLK_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_NORFOLK-TREASURER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_NORFOLK-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_NORFOLK-COUNTY_TREASURER-NORFOLK_COUNTY
+      office: OFFICE-USA-MA-COUNTY_NORFOLK-TREASURER
   - type: Person
     code: PERSON-BELLOTTI_MC_8H
     attributes:
@@ -82,7 +80,7 @@ groups:
       middle_name: G.
       last_name: Bellotti
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_NORFOLK-COUNTY_TREASURER-NORFOLK_COUNTY-2026_GENERAL-BELLOTTI_MC_8H
+    code: CANDIDACY-USA-MA-COUNTY_NORFOLK-TREASURER-2026_GENERAL-BELLOTTI_MC_8H
     attributes:
       status: active
       participation: active
@@ -91,25 +89,24 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_NORFOLK-COUNTY_TREASURER-NORFOLK_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_NORFOLK-TREASURER-2026_GENERAL
       person: PERSON-BELLOTTI_MC_8H
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_NORFOLK-COUNTY_COMMISSIONER-NORFOLK_COUNTY
+    code: OFFICE-USA-MA-COUNTY_NORFOLK-COUNTY_COMMISSIONER
     attributes:
-      seat_code: NORFOLK_COUNTY
       is_active: true
     references:
       position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-MA-NORFOLK
   - type: Race
-    code: RACE-USA-MA-COUNTY_NORFOLK-COUNTY_COMMISSIONER-NORFOLK_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_NORFOLK-COUNTY_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_NORFOLK-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_NORFOLK-COUNTY_COMMISSIONER-NORFOLK_COUNTY
+      office: OFFICE-USA-MA-COUNTY_NORFOLK-COUNTY_COMMISSIONER
   - type: Person
     code: PERSON-COLLINS_PT_5E
     attributes:
@@ -119,7 +116,7 @@ groups:
       middle_name: Hugh
       last_name: Collins
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_NORFOLK-COUNTY_COMMISSIONER-NORFOLK_COUNTY-2026_GENERAL-COLLINS_PT_5E
+    code: CANDIDACY-USA-MA-COUNTY_NORFOLK-COUNTY_COMMISSIONER-2026_GENERAL-COLLINS_PT_5E
     attributes:
       status: active
       participation: active
@@ -128,5 +125,5 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_NORFOLK-COUNTY_COMMISSIONER-NORFOLK_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_NORFOLK-COUNTY_COMMISSIONER-2026_GENERAL
       person: PERSON-COLLINS_PT_5E

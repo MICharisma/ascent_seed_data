@@ -7,16 +7,28 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_WASHINGTON-2026_GENERAL
+  code: ELECTION-USA-VA-DAMASCUS-2026_GENERAL
   attributes:
-    name: Washington County General Election 2026
+    name: Damascus General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-WASHINGTON
+    jurisdiction: MUNICIPALITY-USA-VA-DAMASCUS
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-GLADE_SPRING-2026_GENERAL
+  attributes:
+    name: Glade Spring General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-GLADE_SPRING
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-VA-COUNTY_WASHINGTON-2026_SPECIAL
@@ -30,24 +42,35 @@ records:
   references:
     jurisdiction: COUNTY-USA-VA-WASHINGTON
     year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-ABINGDON-2026_GENERAL
+  attributes:
+    name: Abingdon General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-ABINGDON
+    year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WASHINGTON-MAYOR_DAMASCUS-TOWN_OF_DAMASCUS
+    code: OFFICE-USA-VA-DAMASCUS-MAYOR
     attributes:
-      seat_code: TOWN_OF_DAMASCUS
       is_active: true
     references:
-      position: POSITION-MAYOR_DAMASCUS
-      jurisdiction: COUNTY-USA-VA-WASHINGTON
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-DAMASCUS
   - type: Race
-    code: RACE-USA-VA-COUNTY_WASHINGTON-MAYOR_DAMASCUS-TOWN_OF_DAMASCUS-2026_GENERAL
+    code: RACE-USA-VA-DAMASCUS-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_WASHINGTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_WASHINGTON-MAYOR_DAMASCUS-TOWN_OF_DAMASCUS
+      election: ELECTION-USA-VA-DAMASCUS-2026_GENERAL
+      office: OFFICE-USA-VA-DAMASCUS-MAYOR
   - type: Person
     code: PERSON-LAMB_KT_4X
     attributes:
@@ -57,30 +80,29 @@ groups:
       middle_name: M.
       last_name: Lamb
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-MAYOR_DAMASCUS-TOWN_OF_DAMASCUS-2026_GENERAL-LAMB_KT_4X
+    code: CANDIDACY-USA-VA-DAMASCUS-MAYOR-2026_GENERAL-LAMB_KT_4X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WASHINGTON-MAYOR_DAMASCUS-TOWN_OF_DAMASCUS-2026_GENERAL
+      race: RACE-USA-VA-DAMASCUS-MAYOR-2026_GENERAL
       person: PERSON-LAMB_KT_4X
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WASHINGTON-MAYOR_GLADE_SPRING-TOWN_OF_GLADE_SPRING
+    code: OFFICE-USA-VA-GLADE_SPRING-MAYOR
     attributes:
-      seat_code: TOWN_OF_GLADE_SPRING
       is_active: true
     references:
-      position: POSITION-MAYOR_GLADE_SPRING
-      jurisdiction: COUNTY-USA-VA-WASHINGTON
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-GLADE_SPRING
   - type: Race
-    code: RACE-USA-VA-COUNTY_WASHINGTON-MAYOR_GLADE_SPRING-TOWN_OF_GLADE_SPRING-2026_GENERAL
+    code: RACE-USA-VA-GLADE_SPRING-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_WASHINGTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_WASHINGTON-MAYOR_GLADE_SPRING-TOWN_OF_GLADE_SPRING
+      election: ELECTION-USA-VA-GLADE_SPRING-2026_GENERAL
+      office: OFFICE-USA-VA-GLADE_SPRING-MAYOR
   - type: Person
     code: PERSON-CALL_RC_7K
     attributes:
@@ -90,12 +112,12 @@ groups:
       middle_name: R.
       last_name: Call
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-MAYOR_GLADE_SPRING-TOWN_OF_GLADE_SPRING-2026_GENERAL-CALL_RC_7K
+    code: CANDIDACY-USA-VA-GLADE_SPRING-MAYOR-2026_GENERAL-CALL_RC_7K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WASHINGTON-MAYOR_GLADE_SPRING-TOWN_OF_GLADE_SPRING-2026_GENERAL
+      race: RACE-USA-VA-GLADE_SPRING-MAYOR-2026_GENERAL
       person: PERSON-CALL_RC_7K
   - type: Person
     code: PERSON-THOMAS_WL_9Y
@@ -106,30 +128,30 @@ groups:
       middle_name: Cody
       last_name: Thomas
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-MAYOR_GLADE_SPRING-TOWN_OF_GLADE_SPRING-2026_GENERAL-THOMAS_WL_9Y
+    code: CANDIDACY-USA-VA-GLADE_SPRING-MAYOR-2026_GENERAL-THOMAS_WL_9Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WASHINGTON-MAYOR_GLADE_SPRING-TOWN_OF_GLADE_SPRING-2026_GENERAL
+      race: RACE-USA-VA-GLADE_SPRING-MAYOR-2026_GENERAL
       person: PERSON-THOMAS_WL_9Y
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WASHINGTON-MEMBER_BOARD_OF_SUPERVISORS-DISTRICT_D
+    code: OFFICE-USA-VA-COUNTY_WASHINGTON-COUNTY_SUPERVISOR-DISTRICT_D
     attributes:
       seat_code: DISTRICT_D
       is_active: true
     references:
-      position: POSITION-MEMBER_BOARD_OF_SUPERVISORS
+      position: POSITION-COUNTY_SUPERVISOR
       jurisdiction: COUNTY-USA-VA-WASHINGTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_BOARD_OF_SUPERVISORS-DISTRICT_D-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_WASHINGTON-COUNTY_SUPERVISOR-DISTRICT_D-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_WASHINGTON-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_WASHINGTON-MEMBER_BOARD_OF_SUPERVISORS-DISTRICT_D
+      office: OFFICE-USA-VA-COUNTY_WASHINGTON-COUNTY_SUPERVISOR-DISTRICT_D
   - type: Person
     code: PERSON-BRANNON_W_6T
     attributes:
@@ -139,30 +161,30 @@ groups:
       middle_name: Lee
       last_name: Brannon
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-MEMBER_BOARD_OF_SUPERVISORS-DISTRICT_D-2026_SPECIAL-BRANNON_W_6T
+    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-COUNTY_SUPERVISOR-DISTRICT_D-2026_SPECIAL-BRANNON_W_6T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_BOARD_OF_SUPERVISORS-DISTRICT_D-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_WASHINGTON-COUNTY_SUPERVISOR-DISTRICT_D-2026_SPECIAL
       person: PERSON-BRANNON_W_6T
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WASHINGTON-MEMBER_SCHOOL_BOARD-DISTRICT_D
+    code: OFFICE-USA-VA-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_D
     attributes:
       seat_code: DISTRICT_D
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-WASHINGTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_SCHOOL_BOARD-DISTRICT_D-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_D-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_WASHINGTON-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_WASHINGTON-MEMBER_SCHOOL_BOARD-DISTRICT_D
+      office: OFFICE-USA-VA-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_D
   - type: Person
     code: PERSON-PUCKETT_BN_5D
     attributes:
@@ -172,12 +194,12 @@ groups:
       middle_name: A. "Andy"
       last_name: Puckett
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-MEMBER_SCHOOL_BOARD-DISTRICT_D-2026_SPECIAL-PUCKETT_BN_5D
+    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_D-2026_SPECIAL-PUCKETT_BN_5D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_SCHOOL_BOARD-DISTRICT_D-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_D-2026_SPECIAL
       person: PERSON-PUCKETT_BN_5D
   - type: Person
     code: PERSON-LESTER_JN_9A
@@ -188,30 +210,29 @@ groups:
       middle_name: S.
       last_name: Lester
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-MEMBER_SCHOOL_BOARD-DISTRICT_D-2026_SPECIAL-LESTER_JN_9A
+    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_D-2026_SPECIAL-LESTER_JN_9A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_SCHOOL_BOARD-DISTRICT_D-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_WASHINGTON-SCHOOL_BOARD_MEMBER-DISTRICT_D-2026_SPECIAL
       person: PERSON-LESTER_JN_9A
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_ABINGDON-TOWN_OF_ABINGDON
+    code: OFFICE-USA-VA-ABINGDON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_ABINGDON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_ABINGDON
-      jurisdiction: COUNTY-USA-VA-WASHINGTON
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-ABINGDON
   - type: Race
-    code: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_ABINGDON-TOWN_OF_ABINGDON-2026_GENERAL
+    code: RACE-USA-VA-ABINGDON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_WASHINGTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_ABINGDON-TOWN_OF_ABINGDON
+      election: ELECTION-USA-VA-ABINGDON-2026_GENERAL
+      office: OFFICE-USA-VA-ABINGDON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-GOODPASTURE_FR_5J
     attributes:
@@ -220,12 +241,12 @@ groups:
       first_name: Frank
       last_name: Goodpasture IV
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_ABINGDON-TOWN_OF_ABINGDON-2026_GENERAL-GOODPASTURE_FR_5J
+    code: CANDIDACY-USA-VA-ABINGDON-COUNCIL_MEMBER-2026_GENERAL-GOODPASTURE_FR_5J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_ABINGDON-TOWN_OF_ABINGDON-2026_GENERAL
+      race: RACE-USA-VA-ABINGDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GOODPASTURE_FR_5J
   - type: Person
     code: PERSON-LILLY_J_5T
@@ -236,12 +257,12 @@ groups:
       middle_name: Greg
       last_name: Lilly
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_ABINGDON-TOWN_OF_ABINGDON-2026_GENERAL-LILLY_J_5T
+    code: CANDIDACY-USA-VA-ABINGDON-COUNCIL_MEMBER-2026_GENERAL-LILLY_J_5T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_ABINGDON-TOWN_OF_ABINGDON-2026_GENERAL
+      race: RACE-USA-VA-ABINGDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LILLY_J_5T
   - type: Person
     code: PERSON-BAILEY_OL_4V
@@ -252,12 +273,12 @@ groups:
       middle_name: C.
       last_name: Bailey
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_ABINGDON-TOWN_OF_ABINGDON-2026_GENERAL-BAILEY_OL_4V
+    code: CANDIDACY-USA-VA-ABINGDON-COUNCIL_MEMBER-2026_GENERAL-BAILEY_OL_4V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_ABINGDON-TOWN_OF_ABINGDON-2026_GENERAL
+      race: RACE-USA-VA-ABINGDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BAILEY_OL_4V
   - type: Person
     code: PERSON-AUSTIN_R_5A
@@ -268,12 +289,12 @@ groups:
       middle_name: Wayne
       last_name: Austin
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_ABINGDON-TOWN_OF_ABINGDON-2026_GENERAL-AUSTIN_R_5A
+    code: CANDIDACY-USA-VA-ABINGDON-COUNCIL_MEMBER-2026_GENERAL-AUSTIN_R_5A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_ABINGDON-TOWN_OF_ABINGDON-2026_GENERAL
+      race: RACE-USA-VA-ABINGDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-AUSTIN_R_5A
   - type: Person
     code: PERSON-ANDERSON_WL_5B
@@ -284,30 +305,29 @@ groups:
       middle_name: P. "Bill"
       last_name: Anderson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_ABINGDON-TOWN_OF_ABINGDON-2026_GENERAL-ANDERSON_WL_5B
+    code: CANDIDACY-USA-VA-ABINGDON-COUNCIL_MEMBER-2026_GENERAL-ANDERSON_WL_5B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_ABINGDON-TOWN_OF_ABINGDON-2026_GENERAL
+      race: RACE-USA-VA-ABINGDON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ANDERSON_WL_5B
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_DAMASCUS-TOWN_OF_DAMASCUS
+    code: OFFICE-USA-VA-DAMASCUS-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_DAMASCUS
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_DAMASCUS
-      jurisdiction: COUNTY-USA-VA-WASHINGTON
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-DAMASCUS
   - type: Race
-    code: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_DAMASCUS-TOWN_OF_DAMASCUS-2026_GENERAL
+    code: RACE-USA-VA-DAMASCUS-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_WASHINGTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_DAMASCUS-TOWN_OF_DAMASCUS
+      election: ELECTION-USA-VA-DAMASCUS-2026_GENERAL
+      office: OFFICE-USA-VA-DAMASCUS-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BRYANT_BR_6X
     attributes:
@@ -317,12 +337,12 @@ groups:
       middle_name: Blanton
       last_name: Bryant
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_DAMASCUS-TOWN_OF_DAMASCUS-2026_GENERAL-BRYANT_BR_6X
+    code: CANDIDACY-USA-VA-DAMASCUS-COUNCIL_MEMBER-2026_GENERAL-BRYANT_BR_6X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_DAMASCUS-TOWN_OF_DAMASCUS-2026_GENERAL
+      race: RACE-USA-VA-DAMASCUS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BRYANT_BR_6X
   - type: Person
     code: PERSON-FIELDS_CH_7K
@@ -333,12 +353,12 @@ groups:
       middle_name: E.
       last_name: Fields
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_DAMASCUS-TOWN_OF_DAMASCUS-2026_GENERAL-FIELDS_CH_7K
+    code: CANDIDACY-USA-VA-DAMASCUS-COUNCIL_MEMBER-2026_GENERAL-FIELDS_CH_7K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_DAMASCUS-TOWN_OF_DAMASCUS-2026_GENERAL
+      race: RACE-USA-VA-DAMASCUS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-FIELDS_CH_7K
   - type: Person
     code: PERSON-ALBRO_WR_4Q
@@ -349,30 +369,29 @@ groups:
       middle_name: S. "Buddy"
       last_name: Albro IV
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_DAMASCUS-TOWN_OF_DAMASCUS-2026_GENERAL-ALBRO_WR_4Q
+    code: CANDIDACY-USA-VA-DAMASCUS-COUNCIL_MEMBER-2026_GENERAL-ALBRO_WR_4Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_DAMASCUS-TOWN_OF_DAMASCUS-2026_GENERAL
+      race: RACE-USA-VA-DAMASCUS-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ALBRO_WR_4Q
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_GLADE_SPRING-TOWN_OF_GLADE_SPRING
+    code: OFFICE-USA-VA-GLADE_SPRING-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_GLADE_SPRING
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_GLADE_SPRING
-      jurisdiction: COUNTY-USA-VA-WASHINGTON
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-GLADE_SPRING
   - type: Race
-    code: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_GLADE_SPRING-TOWN_OF_GLADE_SPRING-2026_GENERAL
+    code: RACE-USA-VA-GLADE_SPRING-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_WASHINGTON-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_GLADE_SPRING-TOWN_OF_GLADE_SPRING
+      election: ELECTION-USA-VA-GLADE_SPRING-2026_GENERAL
+      office: OFFICE-USA-VA-GLADE_SPRING-COUNCIL_MEMBER
   - type: Person
     code: PERSON-SWEAT_KM_6G
     attributes:
@@ -382,12 +401,12 @@ groups:
       middle_name: M.
       last_name: Sweat
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_GLADE_SPRING-TOWN_OF_GLADE_SPRING-2026_GENERAL-SWEAT_KM_6G
+    code: CANDIDACY-USA-VA-GLADE_SPRING-COUNCIL_MEMBER-2026_GENERAL-SWEAT_KM_6G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_GLADE_SPRING-TOWN_OF_GLADE_SPRING-2026_GENERAL
+      race: RACE-USA-VA-GLADE_SPRING-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SWEAT_KM_6G
   - type: Person
     code: PERSON-WHITE_ST_8A
@@ -398,10 +417,10 @@ groups:
       middle_name: R.
       last_name: White
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_GLADE_SPRING-TOWN_OF_GLADE_SPRING-2026_GENERAL-WHITE_ST_8A
+    code: CANDIDACY-USA-VA-GLADE_SPRING-COUNCIL_MEMBER-2026_GENERAL-WHITE_ST_8A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_WASHINGTON-MEMBER_TOWN_COUNCIL_GLADE_SPRING-TOWN_OF_GLADE_SPRING-2026_GENERAL
+      race: RACE-USA-VA-GLADE_SPRING-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WHITE_ST_8A

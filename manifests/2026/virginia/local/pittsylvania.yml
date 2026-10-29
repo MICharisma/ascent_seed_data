@@ -7,35 +7,58 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_PITTSYLVANIA-2026_GENERAL
+  code: ELECTION-USA-VA-CHATHAM-2026_GENERAL
   attributes:
-    name: Pittsylvania County General Election 2026
+    name: Chatham General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-PITTSYLVANIA
+    jurisdiction: MUNICIPALITY-USA-VA-CHATHAM
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-GRETNA-2026_GENERAL
+  attributes:
+    name: Gretna General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-GRETNA
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-HURT-2026_GENERAL
+  attributes:
+    name: Hurt General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-HURT
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PITTSYLVANIA-MAYOR_CHATHAM-TOWN_OF_CHATHAM
+    code: OFFICE-USA-VA-CHATHAM-MAYOR
     attributes:
-      seat_code: TOWN_OF_CHATHAM
       is_active: true
     references:
-      position: POSITION-MAYOR_CHATHAM
-      jurisdiction: COUNTY-USA-VA-PITTSYLVANIA
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-CHATHAM
   - type: Race
-    code: RACE-USA-VA-COUNTY_PITTSYLVANIA-MAYOR_CHATHAM-TOWN_OF_CHATHAM-2026_GENERAL
+    code: RACE-USA-VA-CHATHAM-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_PITTSYLVANIA-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_PITTSYLVANIA-MAYOR_CHATHAM-TOWN_OF_CHATHAM
+      election: ELECTION-USA-VA-CHATHAM-2026_GENERAL
+      office: OFFICE-USA-VA-CHATHAM-MAYOR
   - type: Person
     code: PERSON-DAVIS_AL_3B
     attributes:
@@ -45,30 +68,29 @@ groups:
       middle_name: B.
       last_name: Davis
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PITTSYLVANIA-MAYOR_CHATHAM-TOWN_OF_CHATHAM-2026_GENERAL-DAVIS_AL_3B
+    code: CANDIDACY-USA-VA-CHATHAM-MAYOR-2026_GENERAL-DAVIS_AL_3B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PITTSYLVANIA-MAYOR_CHATHAM-TOWN_OF_CHATHAM-2026_GENERAL
+      race: RACE-USA-VA-CHATHAM-MAYOR-2026_GENERAL
       person: PERSON-DAVIS_AL_3B
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PITTSYLVANIA-MAYOR_GRETNA-TOWN_OF_GRETNA
+    code: OFFICE-USA-VA-GRETNA-MAYOR
     attributes:
-      seat_code: TOWN_OF_GRETNA
       is_active: true
     references:
-      position: POSITION-MAYOR_GRETNA
-      jurisdiction: COUNTY-USA-VA-PITTSYLVANIA
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-GRETNA
   - type: Race
-    code: RACE-USA-VA-COUNTY_PITTSYLVANIA-MAYOR_GRETNA-TOWN_OF_GRETNA-2026_GENERAL
+    code: RACE-USA-VA-GRETNA-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_PITTSYLVANIA-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_PITTSYLVANIA-MAYOR_GRETNA-TOWN_OF_GRETNA
+      election: ELECTION-USA-VA-GRETNA-2026_GENERAL
+      office: OFFICE-USA-VA-GRETNA-MAYOR
   - type: Person
     code: PERSON-HUBBARD_BR_5B
     attributes:
@@ -78,12 +100,12 @@ groups:
       middle_name: P.
       last_name: Hubbard
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PITTSYLVANIA-MAYOR_GRETNA-TOWN_OF_GRETNA-2026_GENERAL-HUBBARD_BR_5B
+    code: CANDIDACY-USA-VA-GRETNA-MAYOR-2026_GENERAL-HUBBARD_BR_5B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PITTSYLVANIA-MAYOR_GRETNA-TOWN_OF_GRETNA-2026_GENERAL
+      race: RACE-USA-VA-GRETNA-MAYOR-2026_GENERAL
       person: PERSON-HUBBARD_BR_5B
   - type: Person
     code: PERSON-MOTLEY_R_3D
@@ -94,30 +116,29 @@ groups:
       middle_name: Keith
       last_name: Motley
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PITTSYLVANIA-MAYOR_GRETNA-TOWN_OF_GRETNA-2026_GENERAL-MOTLEY_R_3D
+    code: CANDIDACY-USA-VA-GRETNA-MAYOR-2026_GENERAL-MOTLEY_R_3D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PITTSYLVANIA-MAYOR_GRETNA-TOWN_OF_GRETNA-2026_GENERAL
+      race: RACE-USA-VA-GRETNA-MAYOR-2026_GENERAL
       person: PERSON-MOTLEY_R_3D
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_CHATHAM-TOWN_OF_CHATHAM
+    code: OFFICE-USA-VA-CHATHAM-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_CHATHAM
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_CHATHAM
-      jurisdiction: COUNTY-USA-VA-PITTSYLVANIA
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-CHATHAM
   - type: Race
-    code: RACE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_CHATHAM-TOWN_OF_CHATHAM-2026_GENERAL
+    code: RACE-USA-VA-CHATHAM-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_PITTSYLVANIA-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_CHATHAM-TOWN_OF_CHATHAM
+      election: ELECTION-USA-VA-CHATHAM-2026_GENERAL
+      office: OFFICE-USA-VA-CHATHAM-COUNCIL_MEMBER
   - type: Person
     code: PERSON-PARIS_BN_8C
     attributes:
@@ -127,12 +148,12 @@ groups:
       middle_name: A.
       last_name: Paris
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_CHATHAM-TOWN_OF_CHATHAM-2026_GENERAL-PARIS_BN_8C
+    code: CANDIDACY-USA-VA-CHATHAM-COUNCIL_MEMBER-2026_GENERAL-PARIS_BN_8C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_CHATHAM-TOWN_OF_CHATHAM-2026_GENERAL
+      race: RACE-USA-VA-CHATHAM-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PARIS_BN_8C
   - type: Person
     code: PERSON-BISHOP_JN_2M
@@ -143,12 +164,12 @@ groups:
       middle_name: Royster
       last_name: Bishop
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_CHATHAM-TOWN_OF_CHATHAM-2026_GENERAL-BISHOP_JN_2M
+    code: CANDIDACY-USA-VA-CHATHAM-COUNCIL_MEMBER-2026_GENERAL-BISHOP_JN_2M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_CHATHAM-TOWN_OF_CHATHAM-2026_GENERAL
+      race: RACE-USA-VA-CHATHAM-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BISHOP_JN_2M
   - type: Person
     code: PERSON-MAYS_JS_9Y
@@ -159,12 +180,12 @@ groups:
       middle_name: L.
       last_name: Mays
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_CHATHAM-TOWN_OF_CHATHAM-2026_GENERAL-MAYS_JS_9Y
+    code: CANDIDACY-USA-VA-CHATHAM-COUNCIL_MEMBER-2026_GENERAL-MAYS_JS_9Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_CHATHAM-TOWN_OF_CHATHAM-2026_GENERAL
+      race: RACE-USA-VA-CHATHAM-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MAYS_JS_9Y
   - type: Person
     code: PERSON-EASLEY_TR_6N
@@ -175,12 +196,12 @@ groups:
       middle_name: D.
       last_name: Easley
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_CHATHAM-TOWN_OF_CHATHAM-2026_GENERAL-EASLEY_TR_6N
+    code: CANDIDACY-USA-VA-CHATHAM-COUNCIL_MEMBER-2026_GENERAL-EASLEY_TR_6N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_CHATHAM-TOWN_OF_CHATHAM-2026_GENERAL
+      race: RACE-USA-VA-CHATHAM-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-EASLEY_TR_6N
   - type: Person
     code: PERSON-BLACK_WL_9G
@@ -191,30 +212,29 @@ groups:
       middle_name: P.
       last_name: Black
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_CHATHAM-TOWN_OF_CHATHAM-2026_GENERAL-BLACK_WL_9G
+    code: CANDIDACY-USA-VA-CHATHAM-COUNCIL_MEMBER-2026_GENERAL-BLACK_WL_9G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_CHATHAM-TOWN_OF_CHATHAM-2026_GENERAL
+      race: RACE-USA-VA-CHATHAM-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BLACK_WL_9G
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_GRETNA-TOWN_OF_GRETNA
+    code: OFFICE-USA-VA-GRETNA-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_GRETNA
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_GRETNA
-      jurisdiction: COUNTY-USA-VA-PITTSYLVANIA
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-GRETNA
   - type: Race
-    code: RACE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_GRETNA-TOWN_OF_GRETNA-2026_GENERAL
+    code: RACE-USA-VA-GRETNA-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_PITTSYLVANIA-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_GRETNA-TOWN_OF_GRETNA
+      election: ELECTION-USA-VA-GRETNA-2026_GENERAL
+      office: OFFICE-USA-VA-GRETNA-COUNCIL_MEMBER
   - type: Person
     code: PERSON-MORAN_DB_9J
     attributes:
@@ -224,12 +244,12 @@ groups:
       middle_name: P.
       last_name: Moran
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_GRETNA-TOWN_OF_GRETNA-2026_GENERAL-MORAN_DB_9J
+    code: CANDIDACY-USA-VA-GRETNA-COUNCIL_MEMBER-2026_GENERAL-MORAN_DB_9J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_GRETNA-TOWN_OF_GRETNA-2026_GENERAL
+      race: RACE-USA-VA-GRETNA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MORAN_DB_9J
   - type: Person
     code: PERSON-WOOD_H_7Q
@@ -240,12 +260,12 @@ groups:
       middle_name: Wayne
       last_name: Wood
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_GRETNA-TOWN_OF_GRETNA-2026_GENERAL-WOOD_H_7Q
+    code: CANDIDACY-USA-VA-GRETNA-COUNCIL_MEMBER-2026_GENERAL-WOOD_H_7Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_GRETNA-TOWN_OF_GRETNA-2026_GENERAL
+      race: RACE-USA-VA-GRETNA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WOOD_H_7Q
   - type: Person
     code: PERSON-BOND_MC_8J
@@ -256,30 +276,29 @@ groups:
       middle_name: L.
       last_name: Bond
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_GRETNA-TOWN_OF_GRETNA-2026_GENERAL-BOND_MC_8J
+    code: CANDIDACY-USA-VA-GRETNA-COUNCIL_MEMBER-2026_GENERAL-BOND_MC_8J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_GRETNA-TOWN_OF_GRETNA-2026_GENERAL
+      race: RACE-USA-VA-GRETNA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BOND_MC_8J
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_HURT-TOWN_OF_HURT
+    code: OFFICE-USA-VA-HURT-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_HURT
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_HURT
-      jurisdiction: COUNTY-USA-VA-PITTSYLVANIA
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-HURT
   - type: Race
-    code: RACE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_HURT-TOWN_OF_HURT-2026_GENERAL
+    code: RACE-USA-VA-HURT-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_PITTSYLVANIA-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_HURT-TOWN_OF_HURT
+      election: ELECTION-USA-VA-HURT-2026_GENERAL
+      office: OFFICE-USA-VA-HURT-COUNCIL_MEMBER
   - type: Person
     code: PERSON-ARTHUR_DV_7Q
     attributes:
@@ -289,12 +308,12 @@ groups:
       middle_name: A.
       last_name: Arthur
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_HURT-TOWN_OF_HURT-2026_GENERAL-ARTHUR_DV_7Q
+    code: CANDIDACY-USA-VA-HURT-COUNCIL_MEMBER-2026_GENERAL-ARTHUR_DV_7Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_HURT-TOWN_OF_HURT-2026_GENERAL
+      race: RACE-USA-VA-HURT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ARTHUR_DV_7Q
   - type: Person
     code: PERSON-KNOWLES_JR_8E
@@ -305,12 +324,12 @@ groups:
       middle_name: M.
       last_name: Knowles
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_HURT-TOWN_OF_HURT-2026_GENERAL-KNOWLES_JR_8E
+    code: CANDIDACY-USA-VA-HURT-COUNCIL_MEMBER-2026_GENERAL-KNOWLES_JR_8E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_HURT-TOWN_OF_HURT-2026_GENERAL
+      race: RACE-USA-VA-HURT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-KNOWLES_JR_8E
   - type: Person
     code: PERSON-MAJURE_RB_8J
@@ -321,10 +340,10 @@ groups:
       middle_name: W. "Bob"
       last_name: Majure
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_HURT-TOWN_OF_HURT-2026_GENERAL-MAJURE_RB_8J
+    code: CANDIDACY-USA-VA-HURT-COUNCIL_MEMBER-2026_GENERAL-MAJURE_RB_8J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_PITTSYLVANIA-MEMBER_TOWN_COUNCIL_HURT-TOWN_OF_HURT-2026_GENERAL
+      race: RACE-USA-VA-HURT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MAJURE_RB_8J

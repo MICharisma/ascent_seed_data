@@ -21,21 +21,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BLAND-COMMISSIONER_OF_REVENUE-BLAND_COUNTY
+    code: OFFICE-USA-VA-COUNTY_BLAND-COMMISSIONER_OF_REVENUE
     attributes:
-      seat_code: BLAND_COUNTY
       is_active: true
     references:
       position: POSITION-COMMISSIONER_OF_REVENUE
       jurisdiction: COUNTY-USA-VA-BLAND
   - type: Race
-    code: RACE-USA-VA-COUNTY_BLAND-COMMISSIONER_OF_REVENUE-BLAND_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_BLAND-COMMISSIONER_OF_REVENUE-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_BLAND-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_BLAND-COMMISSIONER_OF_REVENUE-BLAND_COUNTY
+      office: OFFICE-USA-VA-COUNTY_BLAND-COMMISSIONER_OF_REVENUE
   - type: Person
     code: PERSON-VIAR_CR_2H
     attributes:
@@ -45,10 +44,10 @@ groups:
       middle_name: N.
       last_name: Viar
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BLAND-COMMISSIONER_OF_REVENUE-BLAND_COUNTY-2026_SPECIAL-VIAR_CR_2H
+    code: CANDIDACY-USA-VA-COUNTY_BLAND-COMMISSIONER_OF_REVENUE-2026_SPECIAL-VIAR_CR_2H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BLAND-COMMISSIONER_OF_REVENUE-BLAND_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_BLAND-COMMISSIONER_OF_REVENUE-2026_SPECIAL
       person: PERSON-VIAR_CR_2H

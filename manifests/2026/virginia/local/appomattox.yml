@@ -7,35 +7,34 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_APPOMATTOX-2026_GENERAL
+  code: ELECTION-USA-VA-APPOMATTOX-2026_GENERAL
   attributes:
-    name: Appomattox County General Election 2026
+    name: Appomattox General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-APPOMATTOX
+    jurisdiction: MUNICIPALITY-USA-VA-APPOMATTOX
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_APPOMATTOX-MAYOR_APPOMATTOX-TOWN_OF_APPOMATTOX
+    code: OFFICE-USA-VA-APPOMATTOX-MAYOR
     attributes:
-      seat_code: TOWN_OF_APPOMATTOX
       is_active: true
     references:
-      position: POSITION-MAYOR_APPOMATTOX
-      jurisdiction: COUNTY-USA-VA-APPOMATTOX
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-APPOMATTOX
   - type: Race
-    code: RACE-USA-VA-COUNTY_APPOMATTOX-MAYOR_APPOMATTOX-TOWN_OF_APPOMATTOX-2026_GENERAL
+    code: RACE-USA-VA-APPOMATTOX-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_APPOMATTOX-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_APPOMATTOX-MAYOR_APPOMATTOX-TOWN_OF_APPOMATTOX
+      election: ELECTION-USA-VA-APPOMATTOX-2026_GENERAL
+      office: OFFICE-USA-VA-APPOMATTOX-MAYOR
   - type: Person
     code: PERSON-CONNER_RC_2W
     attributes:
@@ -45,30 +44,29 @@ groups:
       middle_name: C.
       last_name: Conner
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_APPOMATTOX-MAYOR_APPOMATTOX-TOWN_OF_APPOMATTOX-2026_GENERAL-CONNER_RC_2W
+    code: CANDIDACY-USA-VA-APPOMATTOX-MAYOR-2026_GENERAL-CONNER_RC_2W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_APPOMATTOX-MAYOR_APPOMATTOX-TOWN_OF_APPOMATTOX-2026_GENERAL
+      race: RACE-USA-VA-APPOMATTOX-MAYOR-2026_GENERAL
       person: PERSON-CONNER_RC_2W
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_APPOMATTOX-MEMBER_TOWN_COUNCIL_APPOMATTOX-TOWN_OF_APPOMATTOX
+    code: OFFICE-USA-VA-APPOMATTOX-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_APPOMATTOX
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_APPOMATTOX
-      jurisdiction: COUNTY-USA-VA-APPOMATTOX
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-APPOMATTOX
   - type: Race
-    code: RACE-USA-VA-COUNTY_APPOMATTOX-MEMBER_TOWN_COUNCIL_APPOMATTOX-TOWN_OF_APPOMATTOX-2026_GENERAL
+    code: RACE-USA-VA-APPOMATTOX-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_APPOMATTOX-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_APPOMATTOX-MEMBER_TOWN_COUNCIL_APPOMATTOX-TOWN_OF_APPOMATTOX
+      election: ELECTION-USA-VA-APPOMATTOX-2026_GENERAL
+      office: OFFICE-USA-VA-APPOMATTOX-COUNCIL_MEMBER
   - type: Person
     code: PERSON-ULMER_DN_6U
     attributes:
@@ -78,12 +76,12 @@ groups:
       middle_name: R.
       last_name: Ulmer
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_APPOMATTOX-MEMBER_TOWN_COUNCIL_APPOMATTOX-TOWN_OF_APPOMATTOX-2026_GENERAL-ULMER_DN_6U
+    code: CANDIDACY-USA-VA-APPOMATTOX-COUNCIL_MEMBER-2026_GENERAL-ULMER_DN_6U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_APPOMATTOX-MEMBER_TOWN_COUNCIL_APPOMATTOX-TOWN_OF_APPOMATTOX-2026_GENERAL
+      race: RACE-USA-VA-APPOMATTOX-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ULMER_DN_6U
   - type: Person
     code: PERSON-SPIGGLE_MR_2Q
@@ -94,12 +92,12 @@ groups:
       middle_name: Lou
       last_name: Spiggle
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_APPOMATTOX-MEMBER_TOWN_COUNCIL_APPOMATTOX-TOWN_OF_APPOMATTOX-2026_GENERAL-SPIGGLE_MR_2Q
+    code: CANDIDACY-USA-VA-APPOMATTOX-COUNCIL_MEMBER-2026_GENERAL-SPIGGLE_MR_2Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_APPOMATTOX-MEMBER_TOWN_COUNCIL_APPOMATTOX-TOWN_OF_APPOMATTOX-2026_GENERAL
+      race: RACE-USA-VA-APPOMATTOX-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SPIGGLE_MR_2Q
   - type: Person
     code: PERSON-GARRETT_TM_8X
@@ -110,10 +108,10 @@ groups:
       middle_name: Wayne
       last_name: Garrett
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_APPOMATTOX-MEMBER_TOWN_COUNCIL_APPOMATTOX-TOWN_OF_APPOMATTOX-2026_GENERAL-GARRETT_TM_8X
+    code: CANDIDACY-USA-VA-APPOMATTOX-COUNCIL_MEMBER-2026_GENERAL-GARRETT_TM_8X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_APPOMATTOX-MEMBER_TOWN_COUNCIL_APPOMATTOX-TOWN_OF_APPOMATTOX-2026_GENERAL
+      race: RACE-USA-VA-APPOMATTOX-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GARRETT_TM_8X

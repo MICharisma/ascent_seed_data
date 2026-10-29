@@ -19,35 +19,47 @@ records:
     jurisdiction: COUNTY-USA-VA-ISLE_OF_WIGHT
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_ISLE_OF_WIGHT-2026_GENERAL
+  code: ELECTION-USA-VA-SMITHFIELD-2026_GENERAL
   attributes:
-    name: Isle of Wight County General Election 2026
+    name: Smithfield General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-ISLE_OF_WIGHT
+    jurisdiction: MUNICIPALITY-USA-VA-SMITHFIELD
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-WINDSOR-2026_GENERAL
+  attributes:
+    name: Windsor General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-WINDSOR
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-VA-COUNTY_ISLE_OF_WIGHT-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-ISLE_OF_WIGHT
   - type: Race
-    code: RACE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_SCHOOL_BOARD-DISTRICT_5-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_ISLE_OF_WIGHT-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_ISLE_OF_WIGHT-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-VA-COUNTY_ISLE_OF_WIGHT-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-BRADSHAW_ST_3Q
     attributes:
@@ -57,30 +69,29 @@ groups:
       middle_name: V.
       last_name: Bradshaw
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_SCHOOL_BOARD-DISTRICT_5-2026_SPECIAL-BRADSHAW_ST_3Q
+    code: CANDIDACY-USA-VA-COUNTY_ISLE_OF_WIGHT-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_SPECIAL-BRADSHAW_ST_3Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_SCHOOL_BOARD-DISTRICT_5-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_ISLE_OF_WIGHT-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_SPECIAL
       person: PERSON-BRADSHAW_ST_3Q
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_SMITHFIELD-TOWN_OF_SMITHFIELD
+    code: OFFICE-USA-VA-SMITHFIELD-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_SMITHFIELD
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_SMITHFIELD
-      jurisdiction: COUNTY-USA-VA-ISLE_OF_WIGHT
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-SMITHFIELD
   - type: Race
-    code: RACE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_SMITHFIELD-TOWN_OF_SMITHFIELD-2026_GENERAL
+    code: RACE-USA-VA-SMITHFIELD-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ISLE_OF_WIGHT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_SMITHFIELD-TOWN_OF_SMITHFIELD
+      election: ELECTION-USA-VA-SMITHFIELD-2026_GENERAL
+      office: OFFICE-USA-VA-SMITHFIELD-COUNCIL_MEMBER
   - type: Person
     code: PERSON-MACCONNELL_A_5Q
     attributes:
@@ -90,12 +101,12 @@ groups:
       middle_name: Russ
       last_name: MacConnell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_SMITHFIELD-TOWN_OF_SMITHFIELD-2026_GENERAL-MACCONNELL_A_5Q
+    code: CANDIDACY-USA-VA-SMITHFIELD-COUNCIL_MEMBER-2026_GENERAL-MACCONNELL_A_5Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_SMITHFIELD-TOWN_OF_SMITHFIELD-2026_GENERAL
+      race: RACE-USA-VA-SMITHFIELD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MACCONNELL_A_5Q
   - type: Person
     code: PERSON-MONROE_GN_2X
@@ -106,12 +117,12 @@ groups:
       middle_name: S.
       last_name: Monroe Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_SMITHFIELD-TOWN_OF_SMITHFIELD-2026_GENERAL-MONROE_GN_2X
+    code: CANDIDACY-USA-VA-SMITHFIELD-COUNCIL_MEMBER-2026_GENERAL-MONROE_GN_2X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_SMITHFIELD-TOWN_OF_SMITHFIELD-2026_GENERAL
+      race: RACE-USA-VA-SMITHFIELD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MONROE_GN_2X
   - type: Person
     code: PERSON-BROOKS_JF_8W
@@ -122,12 +133,12 @@ groups:
       middle_name: D.
       last_name: Brooks
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_SMITHFIELD-TOWN_OF_SMITHFIELD-2026_GENERAL-BROOKS_JF_8W
+    code: CANDIDACY-USA-VA-SMITHFIELD-COUNCIL_MEMBER-2026_GENERAL-BROOKS_JF_8W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_SMITHFIELD-TOWN_OF_SMITHFIELD-2026_GENERAL
+      race: RACE-USA-VA-SMITHFIELD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BROOKS_JF_8W
   - type: Person
     code: PERSON-HESS_NC_2T
@@ -138,12 +149,12 @@ groups:
       middle_name: F.
       last_name: Hess
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_SMITHFIELD-TOWN_OF_SMITHFIELD-2026_GENERAL-HESS_NC_2T
+    code: CANDIDACY-USA-VA-SMITHFIELD-COUNCIL_MEMBER-2026_GENERAL-HESS_NC_2T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_SMITHFIELD-TOWN_OF_SMITHFIELD-2026_GENERAL
+      race: RACE-USA-VA-SMITHFIELD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HESS_NC_2T
   - type: Person
     code: PERSON-BUTLER_VL_9N
@@ -154,30 +165,29 @@ groups:
       middle_name: Cofer
       last_name: Butler
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_SMITHFIELD-TOWN_OF_SMITHFIELD-2026_GENERAL-BUTLER_VL_9N
+    code: CANDIDACY-USA-VA-SMITHFIELD-COUNCIL_MEMBER-2026_GENERAL-BUTLER_VL_9N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_SMITHFIELD-TOWN_OF_SMITHFIELD-2026_GENERAL
+      race: RACE-USA-VA-SMITHFIELD-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BUTLER_VL_9N
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_WINDSOR-TOWN_OF_WINDSOR
+    code: OFFICE-USA-VA-WINDSOR-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_WINDSOR
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_WINDSOR
-      jurisdiction: COUNTY-USA-VA-ISLE_OF_WIGHT
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-WINDSOR
   - type: Race
-    code: RACE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_WINDSOR-TOWN_OF_WINDSOR-2026_GENERAL
+    code: RACE-USA-VA-WINDSOR-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_ISLE_OF_WIGHT-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_WINDSOR-TOWN_OF_WINDSOR
+      election: ELECTION-USA-VA-WINDSOR-2026_GENERAL
+      office: OFFICE-USA-VA-WINDSOR-COUNCIL_MEMBER
   - type: Person
     code: PERSON-BAIG_AM_7H
     attributes:
@@ -187,12 +197,12 @@ groups:
       middle_name: M.
       last_name: Baig
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_WINDSOR-TOWN_OF_WINDSOR-2026_GENERAL-BAIG_AM_7H
+    code: CANDIDACY-USA-VA-WINDSOR-COUNCIL_MEMBER-2026_GENERAL-BAIG_AM_7H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_WINDSOR-TOWN_OF_WINDSOR-2026_GENERAL
+      race: RACE-USA-VA-WINDSOR-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BAIG_AM_7H
   - type: Person
     code: PERSON-OVERMAN_BR_5W
@@ -203,12 +213,12 @@ groups:
       middle_name: L.
       last_name: Overman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_WINDSOR-TOWN_OF_WINDSOR-2026_GENERAL-OVERMAN_BR_5W
+    code: CANDIDACY-USA-VA-WINDSOR-COUNCIL_MEMBER-2026_GENERAL-OVERMAN_BR_5W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_WINDSOR-TOWN_OF_WINDSOR-2026_GENERAL
+      race: RACE-USA-VA-WINDSOR-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-OVERMAN_BR_5W
   - type: Person
     code: PERSON-CARRAWAY_DV_9L
@@ -219,12 +229,12 @@ groups:
       middle_name: E.
       last_name: Carraway
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_WINDSOR-TOWN_OF_WINDSOR-2026_GENERAL-CARRAWAY_DV_9L
+    code: CANDIDACY-USA-VA-WINDSOR-COUNCIL_MEMBER-2026_GENERAL-CARRAWAY_DV_9L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_WINDSOR-TOWN_OF_WINDSOR-2026_GENERAL
+      race: RACE-USA-VA-WINDSOR-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CARRAWAY_DV_9L
   - type: Person
     code: PERSON-DOWDY_ED_3E
@@ -235,10 +245,10 @@ groups:
       middle_name: G. "Gibbie"
       last_name: Dowdy II
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_WINDSOR-TOWN_OF_WINDSOR-2026_GENERAL-DOWDY_ED_3E
+    code: CANDIDACY-USA-VA-WINDSOR-COUNCIL_MEMBER-2026_GENERAL-DOWDY_ED_3E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_ISLE_OF_WIGHT-MEMBER_TOWN_COUNCIL_WINDSOR-TOWN_OF_WINDSOR-2026_GENERAL
+      race: RACE-USA-VA-WINDSOR-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DOWDY_ED_3E

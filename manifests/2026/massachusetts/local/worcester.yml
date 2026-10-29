@@ -21,21 +21,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_WORCESTER-REGISTER_OF_PROBATE-WORCESTER_COUNTY
+    code: OFFICE-USA-MA-COUNTY_WORCESTER-REGISTER_OF_PROBATE
     attributes:
-      seat_code: WORCESTER_COUNTY
       is_active: true
     references:
       position: POSITION-REGISTER_OF_PROBATE
       jurisdiction: COUNTY-USA-MA-WORCESTER
   - type: Race
-    code: RACE-USA-MA-COUNTY_WORCESTER-REGISTER_OF_PROBATE-WORCESTER_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_WORCESTER-REGISTER_OF_PROBATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_WORCESTER-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_WORCESTER-REGISTER_OF_PROBATE-WORCESTER_COUNTY
+      office: OFFICE-USA-MA-COUNTY_WORCESTER-REGISTER_OF_PROBATE
   - type: Person
     code: PERSON-FATTMAN_ST_7A
     attributes:
@@ -45,7 +44,7 @@ groups:
       middle_name: K.
       last_name: Fattman
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_WORCESTER-REGISTER_OF_PROBATE-WORCESTER_COUNTY-2026_GENERAL-FATTMAN_ST_7A
+    code: CANDIDACY-USA-MA-COUNTY_WORCESTER-REGISTER_OF_PROBATE-2026_GENERAL-FATTMAN_ST_7A
     attributes:
       status: active
       participation: active
@@ -54,5 +53,5 @@ groups:
         kind: party
         party: PARTY-USA-MA-REPUBLICAN
     references:
-      race: RACE-USA-MA-COUNTY_WORCESTER-REGISTER_OF_PROBATE-WORCESTER_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_WORCESTER-REGISTER_OF_PROBATE-2026_GENERAL
       person: PERSON-FATTMAN_ST_7A

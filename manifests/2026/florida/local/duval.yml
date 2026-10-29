@@ -45,21 +45,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-BAINEBRIDGE_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAINEBRIDGE_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: BAINEBRIDGE_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-BAINEBRIDGE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-BAINEBRIDGE_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAINEBRIDGE_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-BAINEBRIDGE_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAINEBRIDGE_CDD_SEAT_1
   - type: Person
     code: PERSON-HUFF_WL_4L
     attributes:
@@ -69,30 +69,30 @@ groups:
       middle_name: Russell
       last_name: Huff II
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-BAINEBRIDGE_CDD-SEAT_1-2026_GENERAL-HUFF_WL_4L
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAINEBRIDGE_CDD_SEAT_1-2026_GENERAL-HUFF_WL_4L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-BAINEBRIDGE_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAINEBRIDGE_CDD_SEAT_1-2026_GENERAL
       person: PERSON-HUFF_WL_4L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-BAINEBRIDGE_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAINEBRIDGE_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: BAINEBRIDGE_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-BAINEBRIDGE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-BAINEBRIDGE_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAINEBRIDGE_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-BAINEBRIDGE_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAINEBRIDGE_CDD_SEAT_5
   - type: Person
     code: PERSON-HALL_LR_5Z
     attributes:
@@ -101,30 +101,30 @@ groups:
       first_name: Larry
       last_name: Hall
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-BAINEBRIDGE_CDD-SEAT_5-2026_GENERAL-HALL_LR_5Z
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAINEBRIDGE_CDD_SEAT_5-2026_GENERAL-HALL_LR_5Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-BAINEBRIDGE_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAINEBRIDGE_CDD_SEAT_5-2026_GENERAL
       person: PERSON-HALL_LR_5Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-BARTRAM_PARK_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BARTRAM_PARK_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: BARTRAM_PARK_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-BARTRAM_PARK_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-BARTRAM_PARK_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BARTRAM_PARK_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-BARTRAM_PARK_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BARTRAM_PARK_CDD_SEAT_4
   - type: Person
     code: PERSON-LOKEY_LR_7G
     attributes:
@@ -134,30 +134,30 @@ groups:
       middle_name: H.
       last_name: Lokey
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-BARTRAM_PARK_CDD-SEAT_4-2026_GENERAL-LOKEY_LR_7G
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BARTRAM_PARK_CDD_SEAT_4-2026_GENERAL-LOKEY_LR_7G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-BARTRAM_PARK_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BARTRAM_PARK_CDD_SEAT_4-2026_GENERAL
       person: PERSON-LOKEY_LR_7G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-BARTRAM_SPRINGS_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BARTRAM_SPRINGS_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: BARTRAM_SPRINGS_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-BARTRAM_SPRINGS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-BARTRAM_SPRINGS_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BARTRAM_SPRINGS_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-BARTRAM_SPRINGS_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BARTRAM_SPRINGS_CDD_SEAT_4
   - type: Person
     code: PERSON-REYNOLDS_LC_5G
     attributes:
@@ -166,30 +166,30 @@ groups:
       first_name: Lacy
       last_name: Reynolds
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-BARTRAM_SPRINGS_CDD-SEAT_4-2026_GENERAL-REYNOLDS_LC_5G
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BARTRAM_SPRINGS_CDD_SEAT_4-2026_GENERAL-REYNOLDS_LC_5G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-BARTRAM_SPRINGS_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BARTRAM_SPRINGS_CDD_SEAT_4-2026_GENERAL
       person: PERSON-REYNOLDS_LC_5G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: BEACH_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-BEACH_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_2
   - type: Person
     code: PERSON-CANELONES_JN_6D
     attributes:
@@ -198,12 +198,12 @@ groups:
       first_name: Juan
       last_name: Canelones
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_2-2026_GENERAL-CANELONES_JN_6D
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_2-2026_GENERAL-CANELONES_JN_6D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_2-2026_GENERAL
       person: PERSON-CANELONES_JN_6D
   - type: Person
     code: PERSON-REPAK_WL_3D
@@ -213,30 +213,30 @@ groups:
       first_name: Walter
       last_name: Repak
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_2-2026_GENERAL-REPAK_WL_3D
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_2-2026_GENERAL-REPAK_WL_3D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_2-2026_GENERAL
       person: PERSON-REPAK_WL_3D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: BEACH_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-BEACH_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_4
   - type: Person
     code: PERSON-KORSAKOVA_EL_8A
     attributes:
@@ -245,12 +245,12 @@ groups:
       first_name: Elena
       last_name: Korsakova
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_4-2026_GENERAL-KORSAKOVA_EL_8A
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_4-2026_GENERAL-KORSAKOVA_EL_8A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_4-2026_GENERAL
       person: PERSON-KORSAKOVA_EL_8A
   - type: Person
     code: PERSON-YOUNG_KR_2L
@@ -260,30 +260,30 @@ groups:
       first_name: Karen
       last_name: Young
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_4-2026_GENERAL-YOUNG_KR_2L
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_4-2026_GENERAL-YOUNG_KR_2L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_4-2026_GENERAL
       person: PERSON-YOUNG_KR_2L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: BEACH_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-BEACH_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_5
   - type: Person
     code: PERSON-SARALAYA_RJ_4Q
     attributes:
@@ -292,12 +292,12 @@ groups:
       first_name: Raj
       last_name: Saralaya
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_5-2026_GENERAL-SARALAYA_RJ_4Q
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_5-2026_GENERAL-SARALAYA_RJ_4Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_5-2026_GENERAL
       person: PERSON-SARALAYA_RJ_4Q
   - type: Person
     code: PERSON-SZESZKO_PW_9Z
@@ -307,29 +307,30 @@ groups:
       first_name: Pawel
       last_name: Szeszko
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_5-2026_GENERAL-SZESZKO_PW_9Z
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_5-2026_GENERAL-SZESZKO_PW_9Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-BEACH_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEACH_CDD_SEAT_5-2026_GENERAL
       person: PERSON-SZESZKO_PW_9Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_COMMISSIONER_SEAT_4
+    code: OFFICE-USA-FL-ATLANTIC_BEACH-COMMISSIONER-SEAT_4
     attributes:
+      seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-CITY_OF_ATLANTIC_BEACH_COMMISSIONER_SEAT_4
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-ATLANTIC_BEACH
   - type: Race
-    code: RACE-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_COMMISSIONER_SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-ATLANTIC_BEACH-COMMISSIONER-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-11. Sources: https://www.coab.us/2232/2026-Filed-Candidates.'
     references:
       election: ELECTION-USA-FL-ATLANTIC_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_COMMISSIONER_SEAT_4
+      office: OFFICE-USA-FL-ATLANTIC_BEACH-COMMISSIONER-SEAT_4
   - type: Person
     code: PERSON-HERROLD_LS_2K
     attributes:
@@ -338,12 +339,12 @@ groups:
       first_name: Lisa
       last_name: Herrold
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_COMMISSIONER_SEAT_4-2026_GENERAL-HERROLD_LS_2K
+    code: CANDIDACY-USA-FL-ATLANTIC_BEACH-COMMISSIONER-SEAT_4-2026_GENERAL-HERROLD_LS_2K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_COMMISSIONER_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-ATLANTIC_BEACH-COMMISSIONER-SEAT_4-2026_GENERAL
       person: PERSON-HERROLD_LS_2K
   - type: Person
     code: PERSON-LAGNER_JN_6D
@@ -353,29 +354,30 @@ groups:
       first_name: Jennifer
       last_name: Lagner
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_COMMISSIONER_SEAT_4-2026_GENERAL-LAGNER_JN_6D
+    code: CANDIDACY-USA-FL-ATLANTIC_BEACH-COMMISSIONER-SEAT_4-2026_GENERAL-LAGNER_JN_6D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_COMMISSIONER_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-ATLANTIC_BEACH-COMMISSIONER-SEAT_4-2026_GENERAL
       person: PERSON-LAGNER_JN_6D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_COMMISSIONER_SEAT_5
+    code: OFFICE-USA-FL-ATLANTIC_BEACH-COMMISSIONER-SEAT_5
     attributes:
+      seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-CITY_OF_ATLANTIC_BEACH_COMMISSIONER_SEAT_5
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-ATLANTIC_BEACH
   - type: Race
-    code: RACE-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_COMMISSIONER_SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-ATLANTIC_BEACH-COMMISSIONER-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.coab.us/2232/2026-Filed-Candidates.'
     references:
       election: ELECTION-USA-FL-ATLANTIC_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_COMMISSIONER_SEAT_5
+      office: OFFICE-USA-FL-ATLANTIC_BEACH-COMMISSIONER-SEAT_5
   - type: Person
     code: PERSON-RING_JS_9V
     attributes:
@@ -384,29 +386,30 @@ groups:
       first_name: Jessica
       last_name: Ring
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_COMMISSIONER_SEAT_5-2026_GENERAL-RING_JS_9V
+    code: CANDIDACY-USA-FL-ATLANTIC_BEACH-COMMISSIONER-SEAT_5-2026_GENERAL-RING_JS_9V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_COMMISSIONER_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-ATLANTIC_BEACH-COMMISSIONER-SEAT_5-2026_GENERAL
       person: PERSON-RING_JS_9V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_MAYOR_COMMISSIONER_SEAT_1
+    code: OFFICE-USA-FL-ATLANTIC_BEACH-MAYOR-SEAT_1
     attributes:
+      seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-CITY_OF_ATLANTIC_BEACH_MAYOR_COMMISSIONER_SEAT_1
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-ATLANTIC_BEACH
   - type: Race
-    code: RACE-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_MAYOR_COMMISSIONER_SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-ATLANTIC_BEACH-MAYOR-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-11. Sources: https://www.coab.us/2232/2026-Filed-Candidates.'
     references:
       election: ELECTION-USA-FL-ATLANTIC_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_MAYOR_COMMISSIONER_SEAT_1
+      office: OFFICE-USA-FL-ATLANTIC_BEACH-MAYOR-SEAT_1
   - type: Person
     code: PERSON-FORD_CR_5E
     attributes:
@@ -415,12 +418,12 @@ groups:
       first_name: Curtis
       last_name: Ford
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_MAYOR_COMMISSIONER_SEAT_1-2026_GENERAL-FORD_CR_5E
+    code: CANDIDACY-USA-FL-ATLANTIC_BEACH-MAYOR-SEAT_1-2026_GENERAL-FORD_CR_5E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_MAYOR_COMMISSIONER_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-ATLANTIC_BEACH-MAYOR-SEAT_1-2026_GENERAL
       person: PERSON-FORD_CR_5E
   - type: Person
     code: PERSON-STAATS_NN_7K
@@ -430,29 +433,30 @@ groups:
       first_name: Nancy
       last_name: Staats
   - type: Candidacy
-    code: CANDIDACY-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_MAYOR_COMMISSIONER_SEAT_1-2026_GENERAL-STAATS_NN_7K
+    code: CANDIDACY-USA-FL-ATLANTIC_BEACH-MAYOR-SEAT_1-2026_GENERAL-STAATS_NN_7K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-ATLANTIC_BEACH-CITY_OF_ATLANTIC_BEACH_MAYOR_COMMISSIONER_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-ATLANTIC_BEACH-MAYOR-SEAT_1-2026_GENERAL
       person: PERSON-STAATS_NN_7K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-NEPTUNE_BEACH-CITY_OF_NEPTUNE_BEACH_CITY_COUNCIL_SEAT_4
+    code: OFFICE-USA-FL-NEPTUNE_BEACH-COUNCIL_MEMBER-SEAT_4
     attributes:
+      seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-CITY_OF_NEPTUNE_BEACH_CITY_COUNCIL_SEAT_4
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-NEPTUNE_BEACH
   - type: Race
-    code: RACE-USA-FL-NEPTUNE_BEACH-CITY_OF_NEPTUNE_BEACH_CITY_COUNCIL_SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-NEPTUNE_BEACH-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.nbfl.gov/2026-election/pages/2026-candidates.'
     references:
       election: ELECTION-USA-FL-NEPTUNE_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-NEPTUNE_BEACH-CITY_OF_NEPTUNE_BEACH_CITY_COUNCIL_SEAT_4
+      office: OFFICE-USA-FL-NEPTUNE_BEACH-COUNCIL_MEMBER-SEAT_4
   - type: Person
     code: PERSON-WETZEL_JR_2U
     attributes:
@@ -461,29 +465,30 @@ groups:
       first_name: Jerry
       last_name: Wetzel
   - type: Candidacy
-    code: CANDIDACY-USA-FL-NEPTUNE_BEACH-CITY_OF_NEPTUNE_BEACH_CITY_COUNCIL_SEAT_4-2026_GENERAL-WETZEL_JR_2U
+    code: CANDIDACY-USA-FL-NEPTUNE_BEACH-COUNCIL_MEMBER-SEAT_4-2026_GENERAL-WETZEL_JR_2U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-NEPTUNE_BEACH-CITY_OF_NEPTUNE_BEACH_CITY_COUNCIL_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-NEPTUNE_BEACH-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
       person: PERSON-WETZEL_JR_2U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-NEPTUNE_BEACH-CITY_OF_NEPTUNE_BEACH_CITY_COUNCIL_SEAT_5
+    code: OFFICE-USA-FL-NEPTUNE_BEACH-COUNCIL_MEMBER-SEAT_5
     attributes:
+      seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-CITY_OF_NEPTUNE_BEACH_CITY_COUNCIL_SEAT_5
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-NEPTUNE_BEACH
   - type: Race
-    code: RACE-USA-FL-NEPTUNE_BEACH-CITY_OF_NEPTUNE_BEACH_CITY_COUNCIL_SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-NEPTUNE_BEACH-COUNCIL_MEMBER-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.nbfl.gov/2026-election/pages/2026-candidates.'
     references:
       election: ELECTION-USA-FL-NEPTUNE_BEACH-2026_GENERAL
-      office: OFFICE-USA-FL-NEPTUNE_BEACH-CITY_OF_NEPTUNE_BEACH_CITY_COUNCIL_SEAT_5
+      office: OFFICE-USA-FL-NEPTUNE_BEACH-COUNCIL_MEMBER-SEAT_5
   - type: Person
     code: PERSON-THOLE_SH_7B
     attributes:
@@ -492,12 +497,12 @@ groups:
       first_name: Shellie
       last_name: Thole
   - type: Candidacy
-    code: CANDIDACY-USA-FL-NEPTUNE_BEACH-CITY_OF_NEPTUNE_BEACH_CITY_COUNCIL_SEAT_5-2026_GENERAL-THOLE_SH_7B
+    code: CANDIDACY-USA-FL-NEPTUNE_BEACH-COUNCIL_MEMBER-SEAT_5-2026_GENERAL-THOLE_SH_7B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-NEPTUNE_BEACH-CITY_OF_NEPTUNE_BEACH_CITY_COUNCIL_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-NEPTUNE_BEACH-COUNCIL_MEMBER-SEAT_5-2026_GENERAL
       person: PERSON-THOLE_SH_7B
 - records:
   - type: Office
@@ -679,21 +684,21 @@ groups:
       person: PERSON-NEALIS_JM_7L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-CYPRESS_BLUFF_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_BLUFF_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: CYPRESS_BLUFF_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-CYPRESS_BLUFF_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-CYPRESS_BLUFF_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_BLUFF_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-CYPRESS_BLUFF_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_BLUFF_CDD_SEAT_2
   - type: Person
     code: PERSON-CELLAR_WL_4Z
     attributes:
@@ -702,12 +707,12 @@ groups:
       first_name: William
       last_name: Cellar Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-CYPRESS_BLUFF_CDD-SEAT_2-2026_GENERAL-CELLAR_WL_4Z
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_BLUFF_CDD_SEAT_2-2026_GENERAL-CELLAR_WL_4Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-CYPRESS_BLUFF_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_BLUFF_CDD_SEAT_2-2026_GENERAL
       person: PERSON-CELLAR_WL_4Z
   - type: Person
     code: PERSON-SPRINGER_CR_9Y
@@ -717,30 +722,30 @@ groups:
       first_name: Carol
       last_name: Springer
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-CYPRESS_BLUFF_CDD-SEAT_2-2026_GENERAL-SPRINGER_CR_9Y
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_BLUFF_CDD_SEAT_2-2026_GENERAL-SPRINGER_CR_9Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-CYPRESS_BLUFF_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_BLUFF_CDD_SEAT_2-2026_GENERAL
       person: PERSON-SPRINGER_CR_9Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-CYPRESS_BLUFF_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_BLUFF_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: CYPRESS_BLUFF_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-CYPRESS_BLUFF_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-CYPRESS_BLUFF_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_BLUFF_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-CYPRESS_BLUFF_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_BLUFF_CDD_SEAT_3
   - type: Person
     code: PERSON-MUHL_JO_8N
     attributes:
@@ -749,30 +754,30 @@ groups:
       first_name: Joe
       last_name: Muhl
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-CYPRESS_BLUFF_CDD-SEAT_3-2026_GENERAL-MUHL_JO_8N
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_BLUFF_CDD_SEAT_3-2026_GENERAL-MUHL_JO_8N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-CYPRESS_BLUFF_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_BLUFF_CDD_SEAT_3-2026_GENERAL
       person: PERSON-MUHL_JO_8N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-HARBOUR_WATERWAY_SD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-HARBOUR_WATERWAY_SD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: HARBOUR_WATERWAY_SD_SEAT_2
       is_active: true
     references:
-      position: POSITION-HARBOUR_WATERWAY_SD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-HARBOUR_WATERWAY_SD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-HARBOUR_WATERWAY_SD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-HARBOUR_WATERWAY_SD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-HARBOUR_WATERWAY_SD_SEAT_2
   - type: Person
     code: PERSON-LOVELY_WL_8X
     attributes:
@@ -782,30 +787,30 @@ groups:
       middle_name: G.
       last_name: Lovely
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-HARBOUR_WATERWAY_SD-SEAT_2-2026_GENERAL-LOVELY_WL_8X
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-HARBOUR_WATERWAY_SD_SEAT_2-2026_GENERAL-LOVELY_WL_8X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-HARBOUR_WATERWAY_SD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-HARBOUR_WATERWAY_SD_SEAT_2-2026_GENERAL
       person: PERSON-LOVELY_WL_8X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-HARBOUR_WATERWAY_SD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-HARBOUR_WATERWAY_SD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: HARBOUR_WATERWAY_SD_SEAT_4
       is_active: true
     references:
-      position: POSITION-HARBOUR_WATERWAY_SD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-HARBOUR_WATERWAY_SD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-HARBOUR_WATERWAY_SD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-HARBOUR_WATERWAY_SD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-HARBOUR_WATERWAY_SD_SEAT_4
   - type: Person
     code: PERSON-BRANDE_MC_4G
     attributes:
@@ -815,30 +820,30 @@ groups:
       middle_name: L.
       last_name: Brande
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-HARBOUR_WATERWAY_SD-SEAT_4-2026_GENERAL-BRANDE_MC_4G
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-HARBOUR_WATERWAY_SD_SEAT_4-2026_GENERAL-BRANDE_MC_4G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-HARBOUR_WATERWAY_SD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-HARBOUR_WATERWAY_SD_SEAT_4-2026_GENERAL
       person: PERSON-BRANDE_MC_4G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-ISLE_OF_PALMS_SD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-ISLE_OF_PALMS_SD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: ISLE_OF_PALMS_SD_SEAT_2
       is_active: true
     references:
-      position: POSITION-ISLE_OF_PALMS_SD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-ISLE_OF_PALMS_SD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-ISLE_OF_PALMS_SD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-ISLE_OF_PALMS_SD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-ISLE_OF_PALMS_SD_SEAT_2
   - type: Person
     code: PERSON-RADLOFF_BR_6N
     attributes:
@@ -847,30 +852,30 @@ groups:
       first_name: Brad
       last_name: Radloff
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-ISLE_OF_PALMS_SD-SEAT_2-2026_GENERAL-RADLOFF_BR_6N
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-ISLE_OF_PALMS_SD_SEAT_2-2026_GENERAL-RADLOFF_BR_6N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-ISLE_OF_PALMS_SD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-ISLE_OF_PALMS_SD_SEAT_2-2026_GENERAL
       person: PERSON-RADLOFF_BR_6N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-ISLE_OF_PALMS_SD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-ISLE_OF_PALMS_SD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: ISLE_OF_PALMS_SD_SEAT_4
       is_active: true
     references:
-      position: POSITION-ISLE_OF_PALMS_SD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-ISLE_OF_PALMS_SD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-ISLE_OF_PALMS_SD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-ISLE_OF_PALMS_SD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-ISLE_OF_PALMS_SD_SEAT_4
   - type: Person
     code: PERSON-REICHERT_JS_5M
     attributes:
@@ -879,30 +884,30 @@ groups:
       first_name: Joshua
       last_name: Reichert
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-ISLE_OF_PALMS_SD-SEAT_4-2026_GENERAL-REICHERT_JS_5M
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-ISLE_OF_PALMS_SD_SEAT_4-2026_GENERAL-REICHERT_JS_5M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-ISLE_OF_PALMS_SD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-ISLE_OF_PALMS_SD_SEAT_4-2026_GENERAL
       person: PERSON-REICHERT_JS_5M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-MILLERS_CREEK_SD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-MILLERS_CREEK_SD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: MILLERS_CREEK_SD_SEAT_2
       is_active: true
     references:
-      position: POSITION-MILLERS_CREEK_SD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-MILLERS_CREEK_SD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-MILLERS_CREEK_SD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-MILLERS_CREEK_SD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-MILLERS_CREEK_SD_SEAT_2
   - type: Person
     code: PERSON-ROWLAND_JH_6N
     attributes:
@@ -911,30 +916,30 @@ groups:
       first_name: John
       last_name: Rowland
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-MILLERS_CREEK_SD-SEAT_2-2026_GENERAL-ROWLAND_JH_6N
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-MILLERS_CREEK_SD_SEAT_2-2026_GENERAL-ROWLAND_JH_6N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-MILLERS_CREEK_SD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-MILLERS_CREEK_SD_SEAT_2-2026_GENERAL
       person: PERSON-ROWLAND_JH_6N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-MILLERS_CREEK_SD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-MILLERS_CREEK_SD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: MILLERS_CREEK_SD_SEAT_4
       is_active: true
     references:
-      position: POSITION-MILLERS_CREEK_SD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-MILLERS_CREEK_SD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-MILLERS_CREEK_SD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-MILLERS_CREEK_SD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-MILLERS_CREEK_SD_SEAT_4
   - type: Person
     code: PERSON-MATHEWS_MR_3G
     attributes:
@@ -944,30 +949,30 @@ groups:
       middle_name: McKinney
       last_name: Mathews Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-MILLERS_CREEK_SD-SEAT_4-2026_GENERAL-MATHEWS_MR_3G
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-MILLERS_CREEK_SD_SEAT_4-2026_GENERAL-MATHEWS_MR_3G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-MILLERS_CREEK_SD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-MILLERS_CREEK_SD_SEAT_4-2026_GENERAL
       person: PERSON-MATHEWS_MR_3G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-MILLERS_CREEK_SD-SEAT_6
+    code: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-MILLERS_CREEK_SD_SEAT_6
     attributes:
-      seat_code: SEAT_6
+      seat_code: MILLERS_CREEK_SD_SEAT_6
       is_active: true
     references:
-      position: POSITION-MILLERS_CREEK_SD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-MILLERS_CREEK_SD-SEAT_6-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-MILLERS_CREEK_SD_SEAT_6-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-MILLERS_CREEK_SD-SEAT_6
+      office: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-MILLERS_CREEK_SD_SEAT_6
   - type: Person
     code: PERSON-SHANNON_MC_6N
     attributes:
@@ -977,30 +982,30 @@ groups:
       middle_name: T.
       last_name: Shannon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-MILLERS_CREEK_SD-SEAT_6-2026_GENERAL-SHANNON_MC_6N
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-MILLERS_CREEK_SD_SEAT_6-2026_GENERAL-SHANNON_MC_6N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-MILLERS_CREEK_SD-SEAT_6-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-MILLERS_CREEK_SD_SEAT_6-2026_GENERAL
       person: PERSON-SHANNON_MC_6N
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_2
   - type: Person
     code: PERSON-BRADLEY_DN_2L
     attributes:
@@ -1009,12 +1014,12 @@ groups:
       first_name: Donovan
       last_name: Bradley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-BRADLEY_DN_2L
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-BRADLEY_DN_2L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-BRADLEY_DN_2L
   - type: Person
     code: PERSON-WESTRICH_DN_9R
@@ -1025,30 +1030,30 @@ groups:
       middle_name: Mae
       last_name: Westrich
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL-WESTRICH_DN_9R
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL-WESTRICH_DN_9R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
       person: PERSON-WESTRICH_DN_9R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-BUTLER_RH_2M
     attributes:
@@ -1058,12 +1063,12 @@ groups:
       middle_name: Rho
       last_name: Butler
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-BUTLER_RH_2M
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-BUTLER_RH_2M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-BUTLER_RH_2M
   - type: Person
     code: PERSON-JACOBS_JM_9W
@@ -1074,12 +1079,12 @@ groups:
       middle_name: Coach
       last_name: Jacobs
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-JACOBS_JM_9W
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-JACOBS_JM_9W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-JACOBS_JM_9W
   - type: Person
     code: PERSON-KEARSE_MCCASTLER_GR_2T
@@ -1090,7 +1095,7 @@ groups:
       middle_name: Bell
       last_name: Kearse-McCastler
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-KEARSE_MCCASTLER_GR_2T
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-KEARSE_MCCASTLER_GR_2T
     attributes:
       status: active
       participation: active
@@ -1098,25 +1103,25 @@ groups:
       - label: Write-In
         kind: write_in
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-KEARSE_MCCASTLER_GR_2T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_6
+    code: OFFICE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_6
     attributes:
       seat_code: DISTRICT_6
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_6-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_6-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_6
+      office: OFFICE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_6
   - type: Person
     code: PERSON-DENMARK_LN_8L
     attributes:
@@ -1125,12 +1130,12 @@ groups:
       first_name: Lindsey
       last_name: Denmark
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_6-2026_GENERAL-DENMARK_LN_8L
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_6-2026_GENERAL-DENMARK_LN_8L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_6-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_6-2026_GENERAL
       person: PERSON-DENMARK_LN_8L
   - type: Person
     code: PERSON-JAMES_CL_2T
@@ -1141,30 +1146,30 @@ groups:
       middle_name: CJ
       last_name: James
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_6-2026_GENERAL-JAMES_CL_2T
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_6-2026_GENERAL-JAMES_CL_2T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD-DISTRICT_6-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SCHOOL_BOARD_MEMBER-DISTRICT_6-2026_GENERAL
       person: PERSON-JAMES_CL_2T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-SOIL_WATER_DISTRICT_1-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_DUVAL-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
     attributes:
       seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-SOIL_WATER_DISTRICT_1
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-SOIL_WATER_DISTRICT_1-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-SOIL_WATER_DISTRICT_1-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_DUVAL-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
   - type: Person
     code: PERSON-MCKNIGHT_SK_6J
     attributes:
@@ -1174,30 +1179,30 @@ groups:
       middle_name: D.
       last_name: McKnight
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SOIL_WATER_DISTRICT_1-SEAT_1-2026_GENERAL-MCKNIGHT_SK_6J
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL-MCKNIGHT_SK_6J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-SOIL_WATER_DISTRICT_1-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
       person: PERSON-MCKNIGHT_SK_6J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-TARPON_COVE_SD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-TARPON_COVE_SD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: TARPON_COVE_SD_SEAT_2
       is_active: true
     references:
-      position: POSITION-TARPON_COVE_SD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-TARPON_COVE_SD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-TARPON_COVE_SD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-TARPON_COVE_SD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-TARPON_COVE_SD_SEAT_2
   - type: Person
     code: PERSON-MAIRE_CR_4W
     attributes:
@@ -1206,30 +1211,30 @@ groups:
       first_name: Corey
       last_name: Maire
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-TARPON_COVE_SD-SEAT_2-2026_GENERAL-MAIRE_CR_4W
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-TARPON_COVE_SD_SEAT_2-2026_GENERAL-MAIRE_CR_4W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-TARPON_COVE_SD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-TARPON_COVE_SD_SEAT_2-2026_GENERAL
       person: PERSON-MAIRE_CR_4W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-TARPON_COVE_SD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-TARPON_COVE_SD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: TARPON_COVE_SD_SEAT_4
       is_active: true
     references:
-      position: POSITION-TARPON_COVE_SD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-TARPON_COVE_SD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-TARPON_COVE_SD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-TARPON_COVE_SD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-TARPON_COVE_SD_SEAT_4
   - type: Person
     code: PERSON-BRITO_JV_5J
     attributes:
@@ -1238,30 +1243,30 @@ groups:
       first_name: Javier
       last_name: Brito
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-TARPON_COVE_SD-SEAT_4-2026_GENERAL-BRITO_JV_5J
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-TARPON_COVE_SD_SEAT_4-2026_GENERAL-BRITO_JV_5J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-TARPON_COVE_SD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-TARPON_COVE_SD_SEAT_4-2026_GENERAL
       person: PERSON-BRITO_JV_5J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-TARPON_COVE_SD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-TARPON_COVE_SD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: TARPON_COVE_SD_SEAT_5
       is_active: true
     references:
-      position: POSITION-TARPON_COVE_SD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-TARPON_COVE_SD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-TARPON_COVE_SD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-TARPON_COVE_SD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-TARPON_COVE_SD_SEAT_5
   - type: Person
     code: PERSON-SHANKLAND_FR_4Q
     attributes:
@@ -1270,30 +1275,30 @@ groups:
       first_name: Frank
       last_name: Shankland
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-TARPON_COVE_SD-SEAT_5-2026_GENERAL-SHANKLAND_FR_4Q
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-TARPON_COVE_SD_SEAT_5-2026_GENERAL-SHANKLAND_FR_4Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-TARPON_COVE_SD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-SPECIAL_DISTRICT_BOARD_MEMBER-TARPON_COVE_SD_SEAT_5-2026_GENERAL
       person: PERSON-SHANKLAND_FR_4Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-TISONS_LANDING_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TISONS_LANDING_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: TISONS_LANDING_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-TISONS_LANDING_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-TISONS_LANDING_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TISONS_LANDING_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-TISONS_LANDING_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TISONS_LANDING_CDD_SEAT_2
   - type: Person
     code: PERSON-EVANS_MC_9J
     attributes:
@@ -1302,30 +1307,30 @@ groups:
       first_name: Michael
       last_name: Evans
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-TISONS_LANDING_CDD-SEAT_2-2026_GENERAL-EVANS_MC_9J
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TISONS_LANDING_CDD_SEAT_2-2026_GENERAL-EVANS_MC_9J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-TISONS_LANDING_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TISONS_LANDING_CDD_SEAT_2-2026_GENERAL
       person: PERSON-EVANS_MC_9J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-TISONS_LANDING_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TISONS_LANDING_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: TISONS_LANDING_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-TISONS_LANDING_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-TISONS_LANDING_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TISONS_LANDING_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-TISONS_LANDING_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TISONS_LANDING_CDD_SEAT_4
   - type: Person
     code: PERSON-TIMMONS_MN_5F
     attributes:
@@ -1334,30 +1339,30 @@ groups:
       first_name: Monica
       last_name: Timmons
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-TISONS_LANDING_CDD-SEAT_4-2026_GENERAL-TIMMONS_MN_5F
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TISONS_LANDING_CDD_SEAT_4-2026_GENERAL-TIMMONS_MN_5F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-TISONS_LANDING_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TISONS_LANDING_CDD_SEAT_4-2026_GENERAL
       person: PERSON-TIMMONS_MN_5F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-TISONS_LANDING_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TISONS_LANDING_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: TISONS_LANDING_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-TISONS_LANDING_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-TISONS_LANDING_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TISONS_LANDING_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-TISONS_LANDING_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TISONS_LANDING_CDD_SEAT_5
   - type: Person
     code: PERSON-ALFORD_CD_4C
     attributes:
@@ -1366,30 +1371,30 @@ groups:
       first_name: Cedeila
       last_name: Alford
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-TISONS_LANDING_CDD-SEAT_5-2026_GENERAL-ALFORD_CD_4C
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TISONS_LANDING_CDD_SEAT_5-2026_GENERAL-ALFORD_CD_4C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-TISONS_LANDING_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TISONS_LANDING_CDD_SEAT_5-2026_GENERAL
       person: PERSON-ALFORD_CD_4C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-TRAILS_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRAILS_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: TRAILS_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-TRAILS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-TRAILS_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRAILS_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-TRAILS_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRAILS_CDD_SEAT_2
   - type: Person
     code: PERSON-BRAXTON_AD_4T
     attributes:
@@ -1398,12 +1403,12 @@ groups:
       first_name: Adesina
       last_name: Braxton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-TRAILS_CDD-SEAT_2-2026_GENERAL-BRAXTON_AD_4T
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRAILS_CDD_SEAT_2-2026_GENERAL-BRAXTON_AD_4T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-TRAILS_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRAILS_CDD_SEAT_2-2026_GENERAL
       person: PERSON-BRAXTON_AD_4T
   - type: Person
     code: PERSON-BUCK_CR_2Q
@@ -1414,30 +1419,30 @@ groups:
       middle_name: K.
       last_name: Buck
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-TRAILS_CDD-SEAT_2-2026_GENERAL-BUCK_CR_2Q
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRAILS_CDD_SEAT_2-2026_GENERAL-BUCK_CR_2Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-TRAILS_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRAILS_CDD_SEAT_2-2026_GENERAL
       person: PERSON-BUCK_CR_2Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-TRAILS_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRAILS_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: TRAILS_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-TRAILS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-TRAILS_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRAILS_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-TRAILS_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRAILS_CDD_SEAT_5
   - type: Person
     code: PERSON-DOUGLAS_TR_3H
     attributes:
@@ -1446,12 +1451,12 @@ groups:
       first_name: Terence
       last_name: Douglas
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-TRAILS_CDD-SEAT_5-2026_GENERAL-DOUGLAS_TR_3H
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRAILS_CDD_SEAT_5-2026_GENERAL-DOUGLAS_TR_3H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-TRAILS_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRAILS_CDD_SEAT_5-2026_GENERAL
       person: PERSON-DOUGLAS_TR_3H
   - type: Person
     code: PERSON-GUIOA_AS_4H
@@ -1461,30 +1466,30 @@ groups:
       first_name: Ashley
       last_name: Guioa
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-TRAILS_CDD-SEAT_5-2026_GENERAL-GUIOA_AS_4H
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRAILS_CDD_SEAT_5-2026_GENERAL-GUIOA_AS_4H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-TRAILS_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRAILS_CDD_SEAT_5-2026_GENERAL
       person: PERSON-GUIOA_AS_4H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-VILLAGES_OF_WESTPORT_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_WESTPORT_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: VILLAGES_OF_WESTPORT_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-VILLAGES_OF_WESTPORT_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-VILLAGES_OF_WESTPORT_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_WESTPORT_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-VILLAGES_OF_WESTPORT_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_WESTPORT_CDD_SEAT_2
   - type: Person
     code: PERSON-THOMAS_CR_2E
     attributes:
@@ -1493,30 +1498,30 @@ groups:
       first_name: Cary
       last_name: Thomas
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-VILLAGES_OF_WESTPORT_CDD-SEAT_2-2026_GENERAL-THOMAS_CR_2E
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_WESTPORT_CDD_SEAT_2-2026_GENERAL-THOMAS_CR_2E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-VILLAGES_OF_WESTPORT_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_WESTPORT_CDD_SEAT_2-2026_GENERAL
       person: PERSON-THOMAS_CR_2E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-VILLAGES_OF_WESTPORT_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_WESTPORT_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: VILLAGES_OF_WESTPORT_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-VILLAGES_OF_WESTPORT_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-VILLAGES_OF_WESTPORT_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_WESTPORT_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-VILLAGES_OF_WESTPORT_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_WESTPORT_CDD_SEAT_3
   - type: Person
     code: PERSON-GUYTON_AN_2A
     attributes:
@@ -1525,30 +1530,30 @@ groups:
       first_name: Anina
       last_name: Guyton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-VILLAGES_OF_WESTPORT_CDD-SEAT_3-2026_GENERAL-GUYTON_AN_2A
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_WESTPORT_CDD_SEAT_3-2026_GENERAL-GUYTON_AN_2A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-VILLAGES_OF_WESTPORT_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_WESTPORT_CDD_SEAT_3-2026_GENERAL
       person: PERSON-GUYTON_AN_2A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_DUVAL-VILLAGES_OF_WESTPORT_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_WESTPORT_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: VILLAGES_OF_WESTPORT_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-VILLAGES_OF_WESTPORT_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-DUVAL
   - type: Race
-    code: RACE-USA-FL-COUNTY_DUVAL-VILLAGES_OF_WESTPORT_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_WESTPORT_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_DUVAL-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_DUVAL-VILLAGES_OF_WESTPORT_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_WESTPORT_CDD_SEAT_4
   - type: Person
     code: PERSON-HAWKINS_CR_8H
     attributes:
@@ -1557,10 +1562,10 @@ groups:
       first_name: Carl
       last_name: Hawkins
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_DUVAL-VILLAGES_OF_WESTPORT_CDD-SEAT_4-2026_GENERAL-HAWKINS_CR_8H
+    code: CANDIDACY-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_WESTPORT_CDD_SEAT_4-2026_GENERAL-HAWKINS_CR_8H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_DUVAL-VILLAGES_OF_WESTPORT_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_DUVAL-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_WESTPORT_CDD_SEAT_4-2026_GENERAL
       person: PERSON-HAWKINS_CR_8H

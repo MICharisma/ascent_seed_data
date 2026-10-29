@@ -21,21 +21,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_PLYMOUTH-REGISTER_OF_PROBATE-PLYMOUTH_COUNTY
+    code: OFFICE-USA-MA-COUNTY_PLYMOUTH-REGISTER_OF_PROBATE
     attributes:
-      seat_code: PLYMOUTH_COUNTY
       is_active: true
     references:
       position: POSITION-REGISTER_OF_PROBATE
       jurisdiction: COUNTY-USA-MA-PLYMOUTH
   - type: Race
-    code: RACE-USA-MA-COUNTY_PLYMOUTH-REGISTER_OF_PROBATE-PLYMOUTH_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_PLYMOUTH-REGISTER_OF_PROBATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_PLYMOUTH-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_PLYMOUTH-REGISTER_OF_PROBATE-PLYMOUTH_COUNTY
+      office: OFFICE-USA-MA-COUNTY_PLYMOUTH-REGISTER_OF_PROBATE
   - type: Person
     code: PERSON-MCDONOUGH_MT_7S
     attributes:
@@ -45,7 +44,7 @@ groups:
       middle_name: Joseph
       last_name: McDonough
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_PLYMOUTH-REGISTER_OF_PROBATE-PLYMOUTH_COUNTY-2026_GENERAL-MCDONOUGH_MT_7S
+    code: CANDIDACY-USA-MA-COUNTY_PLYMOUTH-REGISTER_OF_PROBATE-2026_GENERAL-MCDONOUGH_MT_7S
     attributes:
       status: active
       participation: active
@@ -54,25 +53,24 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_PLYMOUTH-REGISTER_OF_PROBATE-PLYMOUTH_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_PLYMOUTH-REGISTER_OF_PROBATE-2026_GENERAL
       person: PERSON-MCDONOUGH_MT_7S
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_PLYMOUTH-COUNTY_TREASURER-PLYMOUTH_COUNTY
+    code: OFFICE-USA-MA-COUNTY_PLYMOUTH-TREASURER
     attributes:
-      seat_code: PLYMOUTH_COUNTY
       is_active: true
     references:
-      position: POSITION-COUNTY_TREASURER
+      position: POSITION-TREASURER
       jurisdiction: COUNTY-USA-MA-PLYMOUTH
   - type: Race
-    code: RACE-USA-MA-COUNTY_PLYMOUTH-COUNTY_TREASURER-PLYMOUTH_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_PLYMOUTH-TREASURER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_PLYMOUTH-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_PLYMOUTH-COUNTY_TREASURER-PLYMOUTH_COUNTY
+      office: OFFICE-USA-MA-COUNTY_PLYMOUTH-TREASURER
   - type: Person
     code: PERSON-OBRIEN_TH_3W
     attributes:
@@ -82,7 +80,7 @@ groups:
       middle_name: J.
       last_name: O'Brien
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_PLYMOUTH-COUNTY_TREASURER-PLYMOUTH_COUNTY-2026_GENERAL-OBRIEN_TH_3W
+    code: CANDIDACY-USA-MA-COUNTY_PLYMOUTH-TREASURER-2026_GENERAL-OBRIEN_TH_3W
     attributes:
       status: active
       participation: active
@@ -91,25 +89,24 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_PLYMOUTH-COUNTY_TREASURER-PLYMOUTH_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_PLYMOUTH-TREASURER-2026_GENERAL
       person: PERSON-OBRIEN_TH_3W
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER-PLYMOUTH_COUNTY
+    code: OFFICE-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER
     attributes:
-      seat_code: PLYMOUTH_COUNTY
       is_active: true
     references:
       position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-MA-PLYMOUTH
   - type: Race
-    code: RACE-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER-PLYMOUTH_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_PLYMOUTH-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER-PLYMOUTH_COUNTY
+      office: OFFICE-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER
   - type: Person
     code: PERSON-NYMAN_RH_5Z
     attributes:
@@ -119,7 +116,7 @@ groups:
       middle_name: L.
       last_name: Nyman
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER-PLYMOUTH_COUNTY-2026_GENERAL-NYMAN_RH_5Z
+    code: CANDIDACY-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER-2026_GENERAL-NYMAN_RH_5Z
     attributes:
       status: active
       participation: active
@@ -128,7 +125,7 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER-PLYMOUTH_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER-2026_GENERAL
       person: PERSON-NYMAN_RH_5Z
   - type: Person
     code: PERSON-OBRIEN_AN_6D
@@ -139,7 +136,7 @@ groups:
       middle_name: Thomas
       last_name: O'Brien, Sr.
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER-PLYMOUTH_COUNTY-2026_GENERAL-OBRIEN_AN_6D
+    code: CANDIDACY-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER-2026_GENERAL-OBRIEN_AN_6D
     attributes:
       status: active
       participation: active
@@ -148,5 +145,5 @@ groups:
         kind: party
         party: PARTY-USA-MA-REPUBLICAN
     references:
-      race: RACE-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER-PLYMOUTH_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER-2026_GENERAL
       person: PERSON-OBRIEN_AN_6D

@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BATH-MEMBER_BOARD_OF_SUPERVISORS-VALLEY_SPRINGS_DISTRICT
+    code: OFFICE-USA-VA-COUNTY_BATH-COUNTY_SUPERVISOR-VALLEY_SPRINGS_DISTRICT
     attributes:
       seat_code: VALLEY_SPRINGS_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_BOARD_OF_SUPERVISORS
+      position: POSITION-COUNTY_SUPERVISOR
       jurisdiction: COUNTY-USA-VA-BATH
   - type: Race
-    code: RACE-USA-VA-COUNTY_BATH-MEMBER_BOARD_OF_SUPERVISORS-VALLEY_SPRINGS_DISTRICT-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_BATH-COUNTY_SUPERVISOR-VALLEY_SPRINGS_DISTRICT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_BATH-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_BATH-MEMBER_BOARD_OF_SUPERVISORS-VALLEY_SPRINGS_DISTRICT
+      office: OFFICE-USA-VA-COUNTY_BATH-COUNTY_SUPERVISOR-VALLEY_SPRINGS_DISTRICT
   - type: Person
     code: PERSON-BRYAN_JM_6L
     attributes:
@@ -45,30 +45,30 @@ groups:
       middle_name: W. "Jay"
       last_name: Bryan, III
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BATH-MEMBER_BOARD_OF_SUPERVISORS-VALLEY_SPRINGS_DISTRICT-2026_SPECIAL-BRYAN_JM_6L
+    code: CANDIDACY-USA-VA-COUNTY_BATH-COUNTY_SUPERVISOR-VALLEY_SPRINGS_DISTRICT-2026_SPECIAL-BRYAN_JM_6L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BATH-MEMBER_BOARD_OF_SUPERVISORS-VALLEY_SPRINGS_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_BATH-COUNTY_SUPERVISOR-VALLEY_SPRINGS_DISTRICT-2026_SPECIAL
       person: PERSON-BRYAN_JM_6L
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BATH-MEMBER_SCHOOL_BOARD-VALLEY_SPRINGS_DISTRICT
+    code: OFFICE-USA-VA-COUNTY_BATH-SCHOOL_BOARD_MEMBER-VALLEY_SPRINGS_DISTRICT
     attributes:
       seat_code: VALLEY_SPRINGS_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-BATH
   - type: Race
-    code: RACE-USA-VA-COUNTY_BATH-MEMBER_SCHOOL_BOARD-VALLEY_SPRINGS_DISTRICT-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_BATH-SCHOOL_BOARD_MEMBER-VALLEY_SPRINGS_DISTRICT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_BATH-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_BATH-MEMBER_SCHOOL_BOARD-VALLEY_SPRINGS_DISTRICT
+      office: OFFICE-USA-VA-COUNTY_BATH-SCHOOL_BOARD_MEMBER-VALLEY_SPRINGS_DISTRICT
   - type: Person
     code: PERSON-MILLER_JS_5Y
     attributes:
@@ -78,30 +78,30 @@ groups:
       middle_name: S.
       last_name: Miller
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BATH-MEMBER_SCHOOL_BOARD-VALLEY_SPRINGS_DISTRICT-2026_SPECIAL-MILLER_JS_5Y
+    code: CANDIDACY-USA-VA-COUNTY_BATH-SCHOOL_BOARD_MEMBER-VALLEY_SPRINGS_DISTRICT-2026_SPECIAL-MILLER_JS_5Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BATH-MEMBER_SCHOOL_BOARD-VALLEY_SPRINGS_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_BATH-SCHOOL_BOARD_MEMBER-VALLEY_SPRINGS_DISTRICT-2026_SPECIAL
       person: PERSON-MILLER_JS_5Y
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_BATH-MEMBER_SCHOOL_BOARD-WARM_SPRINGS_DISTRICT
+    code: OFFICE-USA-VA-COUNTY_BATH-SCHOOL_BOARD_MEMBER-WARM_SPRINGS_DISTRICT
     attributes:
       seat_code: WARM_SPRINGS_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-BATH
   - type: Race
-    code: RACE-USA-VA-COUNTY_BATH-MEMBER_SCHOOL_BOARD-WARM_SPRINGS_DISTRICT-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_BATH-SCHOOL_BOARD_MEMBER-WARM_SPRINGS_DISTRICT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_BATH-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_BATH-MEMBER_SCHOOL_BOARD-WARM_SPRINGS_DISTRICT
+      office: OFFICE-USA-VA-COUNTY_BATH-SCHOOL_BOARD_MEMBER-WARM_SPRINGS_DISTRICT
   - type: Person
     code: PERSON-HINER_ST_7C
     attributes:
@@ -111,10 +111,10 @@ groups:
       middle_name: W.
       last_name: Hiner
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_BATH-MEMBER_SCHOOL_BOARD-WARM_SPRINGS_DISTRICT-2026_SPECIAL-HINER_ST_7C
+    code: CANDIDACY-USA-VA-COUNTY_BATH-SCHOOL_BOARD_MEMBER-WARM_SPRINGS_DISTRICT-2026_SPECIAL-HINER_ST_7C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_BATH-MEMBER_SCHOOL_BOARD-WARM_SPRINGS_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_BATH-SCHOOL_BOARD_MEMBER-WARM_SPRINGS_DISTRICT-2026_SPECIAL
       person: PERSON-HINER_ST_7C

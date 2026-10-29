@@ -7,16 +7,40 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_SURRY-2026_GENERAL
+  code: ELECTION-USA-VA-CLAREMONT-2026_GENERAL
   attributes:
-    name: Surry County General Election 2026
+    name: Claremont General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-SURRY
+    jurisdiction: MUNICIPALITY-USA-VA-CLAREMONT
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-DENDRON-2026_GENERAL
+  attributes:
+    name: Dendron General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-DENDRON
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-SURRY-2026_GENERAL
+  attributes:
+    name: Surry General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-SURRY
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-VA-COUNTY_SURRY-2026_SPECIAL
@@ -33,21 +57,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SURRY-MAYOR-TOWN_OF_CLAREMONT
+    code: OFFICE-USA-VA-CLAREMONT-MAYOR
     attributes:
-      seat_code: TOWN_OF_CLAREMONT
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-SURRY
+      jurisdiction: MUNICIPALITY-USA-VA-CLAREMONT
   - type: Race
-    code: RACE-USA-VA-COUNTY_SURRY-MAYOR-TOWN_OF_CLAREMONT-2026_GENERAL
+    code: RACE-USA-VA-CLAREMONT-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SURRY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SURRY-MAYOR-TOWN_OF_CLAREMONT
+      election: ELECTION-USA-VA-CLAREMONT-2026_GENERAL
+      office: OFFICE-USA-VA-CLAREMONT-MAYOR
   - type: Person
     code: PERSON-GRAHAM_DR_7Q
     attributes:
@@ -57,30 +80,29 @@ groups:
       middle_name: W.
       last_name: Graham
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MAYOR-TOWN_OF_CLAREMONT-2026_GENERAL-GRAHAM_DR_7Q
+    code: CANDIDACY-USA-VA-CLAREMONT-MAYOR-2026_GENERAL-GRAHAM_DR_7Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MAYOR-TOWN_OF_CLAREMONT-2026_GENERAL
+      race: RACE-USA-VA-CLAREMONT-MAYOR-2026_GENERAL
       person: PERSON-GRAHAM_DR_7Q
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SURRY-MAYOR-TOWN_OF_DENDRON
+    code: OFFICE-USA-VA-DENDRON-MAYOR
     attributes:
-      seat_code: TOWN_OF_DENDRON
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-SURRY
+      jurisdiction: MUNICIPALITY-USA-VA-DENDRON
   - type: Race
-    code: RACE-USA-VA-COUNTY_SURRY-MAYOR-TOWN_OF_DENDRON-2026_GENERAL
+    code: RACE-USA-VA-DENDRON-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SURRY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SURRY-MAYOR-TOWN_OF_DENDRON
+      election: ELECTION-USA-VA-DENDRON-2026_GENERAL
+      office: OFFICE-USA-VA-DENDRON-MAYOR
   - type: Person
     code: PERSON-FAISON_WL_6Z
     attributes:
@@ -90,30 +112,29 @@ groups:
       middle_name: E.
       last_name: Faison Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MAYOR-TOWN_OF_DENDRON-2026_GENERAL-FAISON_WL_6Z
+    code: CANDIDACY-USA-VA-DENDRON-MAYOR-2026_GENERAL-FAISON_WL_6Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MAYOR-TOWN_OF_DENDRON-2026_GENERAL
+      race: RACE-USA-VA-DENDRON-MAYOR-2026_GENERAL
       person: PERSON-FAISON_WL_6Z
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SURRY-MAYOR-TOWN_OF_SURRY
+    code: OFFICE-USA-VA-SURRY-MAYOR
     attributes:
-      seat_code: TOWN_OF_SURRY
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-SURRY
+      jurisdiction: MUNICIPALITY-USA-VA-SURRY
   - type: Race
-    code: RACE-USA-VA-COUNTY_SURRY-MAYOR-TOWN_OF_SURRY-2026_GENERAL
+    code: RACE-USA-VA-SURRY-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SURRY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SURRY-MAYOR-TOWN_OF_SURRY
+      election: ELECTION-USA-VA-SURRY-2026_GENERAL
+      office: OFFICE-USA-VA-SURRY-MAYOR
   - type: Person
     code: PERSON-SAVEDGE_BN_6Q
     attributes:
@@ -123,30 +144,30 @@ groups:
       middle_name: J.
       last_name: Savedge
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MAYOR-TOWN_OF_SURRY-2026_GENERAL-SAVEDGE_BN_6Q
+    code: CANDIDACY-USA-VA-SURRY-MAYOR-2026_GENERAL-SAVEDGE_BN_6Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MAYOR-TOWN_OF_SURRY-2026_GENERAL
+      race: RACE-USA-VA-SURRY-MAYOR-2026_GENERAL
       person: PERSON-SAVEDGE_BN_6Q
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SURRY-MEMBER_BOARD_OF_SUPERVISORS-SURRY_DISTRICT
+    code: OFFICE-USA-VA-COUNTY_SURRY-COUNTY_SUPERVISOR-SURRY_DISTRICT
     attributes:
       seat_code: SURRY_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_BOARD_OF_SUPERVISORS
+      position: POSITION-COUNTY_SUPERVISOR
       jurisdiction: COUNTY-USA-VA-SURRY
   - type: Race
-    code: RACE-USA-VA-COUNTY_SURRY-MEMBER_BOARD_OF_SUPERVISORS-SURRY_DISTRICT-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_SURRY-COUNTY_SUPERVISOR-SURRY_DISTRICT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_SURRY-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_SURRY-MEMBER_BOARD_OF_SUPERVISORS-SURRY_DISTRICT
+      office: OFFICE-USA-VA-COUNTY_SURRY-COUNTY_SUPERVISOR-SURRY_DISTRICT
   - type: Person
     code: PERSON-SEWARD_JH_9A
     attributes:
@@ -156,30 +177,29 @@ groups:
       middle_name: M.
       last_name: Seward
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_BOARD_OF_SUPERVISORS-SURRY_DISTRICT-2026_SPECIAL-SEWARD_JH_9A
+    code: CANDIDACY-USA-VA-COUNTY_SURRY-COUNTY_SUPERVISOR-SURRY_DISTRICT-2026_SPECIAL-SEWARD_JH_9A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_BOARD_OF_SUPERVISORS-SURRY_DISTRICT-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_SURRY-COUNTY_SUPERVISOR-SURRY_DISTRICT-2026_SPECIAL
       person: PERSON-SEWARD_JH_9A
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_CLAREMONT
+    code: OFFICE-USA-VA-CLAREMONT-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_CLAREMONT
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-SURRY
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-CLAREMONT
   - type: Race
-    code: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_CLAREMONT-2026_GENERAL
+    code: RACE-USA-VA-CLAREMONT-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SURRY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_CLAREMONT
+      election: ELECTION-USA-VA-CLAREMONT-2026_GENERAL
+      office: OFFICE-USA-VA-CLAREMONT-COUNCIL_MEMBER
   - type: Person
     code: PERSON-HANSCH_LS_2J
     attributes:
@@ -189,12 +209,12 @@ groups:
       middle_name: A.
       last_name: Hansch
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_CLAREMONT-2026_GENERAL-HANSCH_LS_2J
+    code: CANDIDACY-USA-VA-CLAREMONT-COUNCIL_MEMBER-2026_GENERAL-HANSCH_LS_2J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_CLAREMONT-2026_GENERAL
+      race: RACE-USA-VA-CLAREMONT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HANSCH_LS_2J
   - type: Person
     code: PERSON-JONES_QN_4E
@@ -205,12 +225,12 @@ groups:
       middle_name: T.
       last_name: Jones
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_CLAREMONT-2026_GENERAL-JONES_QN_4E
+    code: CANDIDACY-USA-VA-CLAREMONT-COUNCIL_MEMBER-2026_GENERAL-JONES_QN_4E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_CLAREMONT-2026_GENERAL
+      race: RACE-USA-VA-CLAREMONT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-JONES_QN_4E
   - type: Person
     code: PERSON-PERKINSON_RD_4B
@@ -221,12 +241,12 @@ groups:
       middle_name: Dale
       last_name: Perkinson Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_CLAREMONT-2026_GENERAL-PERKINSON_RD_4B
+    code: CANDIDACY-USA-VA-CLAREMONT-COUNCIL_MEMBER-2026_GENERAL-PERKINSON_RD_4B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_CLAREMONT-2026_GENERAL
+      race: RACE-USA-VA-CLAREMONT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PERKINSON_RD_4B
   - type: Person
     code: PERSON-GILBERT_SU_8Q
@@ -237,12 +257,12 @@ groups:
       middle_name: W.
       last_name: Gilbert
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_CLAREMONT-2026_GENERAL-GILBERT_SU_8Q
+    code: CANDIDACY-USA-VA-CLAREMONT-COUNCIL_MEMBER-2026_GENERAL-GILBERT_SU_8Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_CLAREMONT-2026_GENERAL
+      race: RACE-USA-VA-CLAREMONT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GILBERT_SU_8Q
   - type: Person
     code: PERSON-KENT_TH_8B
@@ -253,30 +273,29 @@ groups:
       middle_name: G.
       last_name: Kent
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_CLAREMONT-2026_GENERAL-KENT_TH_8B
+    code: CANDIDACY-USA-VA-CLAREMONT-COUNCIL_MEMBER-2026_GENERAL-KENT_TH_8B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_CLAREMONT-2026_GENERAL
+      race: RACE-USA-VA-CLAREMONT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-KENT_TH_8B
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_DENDRON
+    code: OFFICE-USA-VA-DENDRON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_DENDRON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-SURRY
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-DENDRON
   - type: Race
-    code: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_DENDRON-2026_GENERAL
+    code: RACE-USA-VA-DENDRON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SURRY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_DENDRON
+      election: ELECTION-USA-VA-DENDRON-2026_GENERAL
+      office: OFFICE-USA-VA-DENDRON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-CHUBB_AD_3R
     attributes:
@@ -286,12 +305,12 @@ groups:
       middle_name: E.
       last_name: Chubb Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_DENDRON-2026_GENERAL-CHUBB_AD_3R
+    code: CANDIDACY-USA-VA-DENDRON-COUNCIL_MEMBER-2026_GENERAL-CHUBB_AD_3R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_DENDRON-2026_GENERAL
+      race: RACE-USA-VA-DENDRON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CHUBB_AD_3R
   - type: Person
     code: PERSON-JOYNER_ED_9M
@@ -302,12 +321,12 @@ groups:
       middle_name: Eugene
       last_name: Joyner
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_DENDRON-2026_GENERAL-JOYNER_ED_9M
+    code: CANDIDACY-USA-VA-DENDRON-COUNCIL_MEMBER-2026_GENERAL-JOYNER_ED_9M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_DENDRON-2026_GENERAL
+      race: RACE-USA-VA-DENDRON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-JOYNER_ED_9M
   - type: Person
     code: PERSON-LACKEY_HN_2B
@@ -318,12 +337,12 @@ groups:
       middle_name: E.
       last_name: Lackey
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_DENDRON-2026_GENERAL-LACKEY_HN_2B
+    code: CANDIDACY-USA-VA-DENDRON-COUNCIL_MEMBER-2026_GENERAL-LACKEY_HN_2B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_DENDRON-2026_GENERAL
+      race: RACE-USA-VA-DENDRON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LACKEY_HN_2B
   - type: Person
     code: PERSON-BROWN_JM_4J
@@ -334,12 +353,12 @@ groups:
       middle_name: W.
       last_name: Brown Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_DENDRON-2026_GENERAL-BROWN_JM_4J
+    code: CANDIDACY-USA-VA-DENDRON-COUNCIL_MEMBER-2026_GENERAL-BROWN_JM_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_DENDRON-2026_GENERAL
+      race: RACE-USA-VA-DENDRON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BROWN_JM_4J
   - type: Person
     code: PERSON-BYRD_TH_6X
@@ -350,12 +369,12 @@ groups:
       middle_name: L.
       last_name: Byrd
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_DENDRON-2026_GENERAL-BYRD_TH_6X
+    code: CANDIDACY-USA-VA-DENDRON-COUNCIL_MEMBER-2026_GENERAL-BYRD_TH_6X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_DENDRON-2026_GENERAL
+      race: RACE-USA-VA-DENDRON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BYRD_TH_6X
   - type: Person
     code: PERSON-RICHARDSON_WE_6X
@@ -366,30 +385,29 @@ groups:
       middle_name: '"Bill"'
       last_name: Richardson Jr
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_DENDRON-2026_GENERAL-RICHARDSON_WE_6X
+    code: CANDIDACY-USA-VA-DENDRON-COUNCIL_MEMBER-2026_GENERAL-RICHARDSON_WE_6X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_DENDRON-2026_GENERAL
+      race: RACE-USA-VA-DENDRON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-RICHARDSON_WE_6X
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_SURRY
+    code: OFFICE-USA-VA-SURRY-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_SURRY
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-SURRY
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-SURRY
   - type: Race
-    code: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_SURRY-2026_GENERAL
+    code: RACE-USA-VA-SURRY-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_SURRY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_SURRY
+      election: ELECTION-USA-VA-SURRY-2026_GENERAL
+      office: OFFICE-USA-VA-SURRY-COUNCIL_MEMBER
   - type: Person
     code: PERSON-AGOR_BR_5Q
     attributes:
@@ -399,12 +417,12 @@ groups:
       middle_name: L.
       last_name: Agor
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_SURRY-2026_GENERAL-AGOR_BR_5Q
+    code: CANDIDACY-USA-VA-SURRY-COUNCIL_MEMBER-2026_GENERAL-AGOR_BR_5Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_SURRY-2026_GENERAL
+      race: RACE-USA-VA-SURRY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-AGOR_BR_5Q
   - type: Person
     code: PERSON-WIEDEL_JS_4Z
@@ -415,12 +433,12 @@ groups:
       middle_name: N.
       last_name: Wiedel
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_SURRY-2026_GENERAL-WIEDEL_JS_4Z
+    code: CANDIDACY-USA-VA-SURRY-COUNCIL_MEMBER-2026_GENERAL-WIEDEL_JS_4Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_SURRY-2026_GENERAL
+      race: RACE-USA-VA-SURRY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WIEDEL_JS_4Z
   - type: Person
     code: PERSON-GARCIA_JO_3C
@@ -431,12 +449,12 @@ groups:
       middle_name: A.
       last_name: Garcia
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_SURRY-2026_GENERAL-GARCIA_JO_3C
+    code: CANDIDACY-USA-VA-SURRY-COUNCIL_MEMBER-2026_GENERAL-GARCIA_JO_3C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_SURRY-2026_GENERAL
+      race: RACE-USA-VA-SURRY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-GARCIA_JO_3C
   - type: Person
     code: PERSON-BERRYMAN_ML_7M
@@ -447,12 +465,12 @@ groups:
       middle_name: E.
       last_name: Berryman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_SURRY-2026_GENERAL-BERRYMAN_ML_7M
+    code: CANDIDACY-USA-VA-SURRY-COUNCIL_MEMBER-2026_GENERAL-BERRYMAN_ML_7M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_SURRY-2026_GENERAL
+      race: RACE-USA-VA-SURRY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BERRYMAN_ML_7M
   - type: Person
     code: PERSON-BERRYMAN_RB_3K
@@ -463,10 +481,10 @@ groups:
       middle_name: T.
       last_name: Berryman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_SURRY-2026_GENERAL-BERRYMAN_RB_3K
+    code: CANDIDACY-USA-VA-SURRY-COUNCIL_MEMBER-2026_GENERAL-BERRYMAN_RB_3K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_SURRY-MEMBER_TOWN_COUNCIL-TOWN_OF_SURRY-2026_GENERAL
+      race: RACE-USA-VA-SURRY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BERRYMAN_RB_3K

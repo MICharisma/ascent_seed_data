@@ -81,21 +81,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-BILARDELLO_AN_4K
     attributes:
@@ -105,7 +105,7 @@ groups:
       middle_name: Andy
       last_name: Bilardello
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-BILARDELLO_AN_4K
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-BILARDELLO_AN_4K
     attributes:
       status: active
       participation: active
@@ -114,25 +114,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-BILARDELLO_AN_4K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-BOGUE_JF_5A
     attributes:
@@ -142,7 +142,7 @@ groups:
       middle_name: A.
       last_name: Bogue
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-BOGUE_JF_5A
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-BOGUE_JF_5A
     attributes:
       status: active
       participation: active
@@ -151,25 +151,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-BOGUE_JF_5A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-CDD_BEAUMONT-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEAUMONT_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: BEAUMONT_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-CDD_BEAUMONT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-CDD_BEAUMONT-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEAUMONT_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-CDD_BEAUMONT-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEAUMONT_CDD_SEAT_2
   - type: Person
     code: PERSON-GARNER_RN_4J
     attributes:
@@ -178,30 +178,30 @@ groups:
       first_name: Randall
       last_name: Garner
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-CDD_BEAUMONT-SEAT_2-2026_GENERAL-GARNER_RN_4J
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEAUMONT_CDD_SEAT_2-2026_GENERAL-GARNER_RN_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-CDD_BEAUMONT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEAUMONT_CDD_SEAT_2-2026_GENERAL
       person: PERSON-GARNER_RN_4J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-CDD_BEAUMONT-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEAUMONT_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: BEAUMONT_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-CDD_BEAUMONT
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-CDD_BEAUMONT-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEAUMONT_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-CDD_BEAUMONT-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEAUMONT_CDD_SEAT_3
   - type: Person
     code: PERSON-SMITH_GR_2F
     attributes:
@@ -210,29 +210,30 @@ groups:
       first_name: Gary
       last_name: Smith II
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-CDD_BEAUMONT-SEAT_3-2026_GENERAL-SMITH_GR_2F
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEAUMONT_CDD_SEAT_3-2026_GENERAL-SMITH_GR_2F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-CDD_BEAUMONT-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BEAUMONT_CDD_SEAT_3-2026_GENERAL
       person: PERSON-SMITH_GR_2F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_1
+    code: OFFICE-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_1
     attributes:
+      seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-CENTER_HILL_SEAT_1
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-CENTER_HILL
   - type: Race
-    code: RACE-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26.'
     references:
       election: ELECTION-USA-FL-CENTER_HILL-2026_GENERAL
-      office: OFFICE-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_1
+      office: OFFICE-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_1
   - type: Person
     code: PERSON-PARKER_TN_4R
     attributes:
@@ -242,29 +243,30 @@ groups:
       middle_name: L.
       last_name: Parker
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_1-2026_GENERAL-PARKER_TN_4R
+    code: CANDIDACY-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_1-2026_GENERAL-PARKER_TN_4R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
       person: PERSON-PARKER_TN_4R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_3
+    code: OFFICE-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_3
     attributes:
+      seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-CENTER_HILL_SEAT_3
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-CENTER_HILL
   - type: Race
-    code: RACE-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26.'
     references:
       election: ELECTION-USA-FL-CENTER_HILL-2026_GENERAL
-      office: OFFICE-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_3
+      office: OFFICE-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_3
   - type: Person
     code: PERSON-SHIMASAKI_DN_6N
     attributes:
@@ -273,12 +275,12 @@ groups:
       first_name: Daniel
       last_name: Shimasaki
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_3-2026_GENERAL-SHIMASAKI_DN_6N
+    code: CANDIDACY-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_3-2026_GENERAL-SHIMASAKI_DN_6N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
       person: PERSON-SHIMASAKI_DN_6N
   - type: Person
     code: PERSON-BUCKNER_DN_2T
@@ -289,29 +291,30 @@ groups:
       middle_name: M.
       last_name: Buckner Sr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_3-2026_GENERAL-BUCKNER_DN_2T
+    code: CANDIDACY-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_3-2026_GENERAL-BUCKNER_DN_2T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
       person: PERSON-BUCKNER_DN_2T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_5
+    code: OFFICE-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_5
     attributes:
+      seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-CENTER_HILL_SEAT_5
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-CENTER_HILL
   - type: Race
-    code: RACE-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26.'
     references:
       election: ELECTION-USA-FL-CENTER_HILL-2026_GENERAL
-      office: OFFICE-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_5
+      office: OFFICE-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_5
   - type: Person
     code: PERSON-NASH_JC_3J
     attributes:
@@ -320,29 +323,30 @@ groups:
       first_name: Jack
       last_name: Nash
   - type: Candidacy
-    code: CANDIDACY-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_5-2026_GENERAL-NASH_JC_3J
+    code: CANDIDACY-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_5-2026_GENERAL-NASH_JC_3J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-CENTER_HILL-CENTER_HILL_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-CENTER_HILL-COUNCIL_MEMBER-SEAT_5-2026_GENERAL
       person: PERSON-NASH_JC_3J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_1_MAYOR
+    code: OFFICE-USA-FL-BUSHNELL-MAYOR-SEAT_1
     attributes:
+      seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-CITY_OF_BUSHNELL_SEAT_1_MAYOR
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-BUSHNELL
   - type: Race
-    code: RACE-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_1_MAYOR-2026_GENERAL
+    code: RACE-USA-FL-BUSHNELL-MAYOR-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26.'
     references:
       election: ELECTION-USA-FL-BUSHNELL-2026_GENERAL
-      office: OFFICE-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_1_MAYOR
+      office: OFFICE-USA-FL-BUSHNELL-MAYOR-SEAT_1
   - type: Person
     code: PERSON-BARNES_DL_6W
     attributes:
@@ -351,12 +355,12 @@ groups:
       first_name: Dale
       last_name: Barnes
   - type: Candidacy
-    code: CANDIDACY-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_1_MAYOR-2026_GENERAL-BARNES_DL_6W
+    code: CANDIDACY-USA-FL-BUSHNELL-MAYOR-SEAT_1-2026_GENERAL-BARNES_DL_6W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_1_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-BUSHNELL-MAYOR-SEAT_1-2026_GENERAL
       person: PERSON-BARNES_DL_6W
   - type: Person
     code: PERSON-MILLER_ER_7S
@@ -366,29 +370,30 @@ groups:
       first_name: Erica
       last_name: Miller
   - type: Candidacy
-    code: CANDIDACY-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_1_MAYOR-2026_GENERAL-MILLER_ER_7S
+    code: CANDIDACY-USA-FL-BUSHNELL-MAYOR-SEAT_1-2026_GENERAL-MILLER_ER_7S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_1_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-BUSHNELL-MAYOR-SEAT_1-2026_GENERAL
       person: PERSON-MILLER_ER_7S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_3
+    code: OFFICE-USA-FL-BUSHNELL-COUNCIL_MEMBER-SEAT_3
     attributes:
+      seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-CITY_OF_BUSHNELL_SEAT_3
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-BUSHNELL
   - type: Race
-    code: RACE-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-BUSHNELL-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26.'
     references:
       election: ELECTION-USA-FL-BUSHNELL-2026_GENERAL
-      office: OFFICE-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_3
+      office: OFFICE-USA-FL-BUSHNELL-COUNCIL_MEMBER-SEAT_3
   - type: Person
     code: PERSON-FRY_DV_3Q
     attributes:
@@ -397,29 +402,30 @@ groups:
       first_name: David
       last_name: Fry
   - type: Candidacy
-    code: CANDIDACY-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_3-2026_GENERAL-FRY_DV_3Q
+    code: CANDIDACY-USA-FL-BUSHNELL-COUNCIL_MEMBER-SEAT_3-2026_GENERAL-FRY_DV_3Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-BUSHNELL-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
       person: PERSON-FRY_DV_3Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_5
+    code: OFFICE-USA-FL-BUSHNELL-COUNCIL_MEMBER-SEAT_5
     attributes:
+      seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-CITY_OF_BUSHNELL_SEAT_5
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-BUSHNELL
   - type: Race
-    code: RACE-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-BUSHNELL-COUNCIL_MEMBER-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26.'
     references:
       election: ELECTION-USA-FL-BUSHNELL-2026_GENERAL
-      office: OFFICE-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_5
+      office: OFFICE-USA-FL-BUSHNELL-COUNCIL_MEMBER-SEAT_5
   - type: Person
     code: PERSON-DAVIS_KR_6U
     attributes:
@@ -428,29 +434,29 @@ groups:
       first_name: Karen
       last_name: Davis
   - type: Candidacy
-    code: CANDIDACY-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_5-2026_GENERAL-DAVIS_KR_6U
+    code: CANDIDACY-USA-FL-BUSHNELL-COUNCIL_MEMBER-SEAT_5-2026_GENERAL-DAVIS_KR_6U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-BUSHNELL-CITY_OF_BUSHNELL_SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-BUSHNELL-COUNCIL_MEMBER-SEAT_5-2026_GENERAL
       person: PERSON-DAVIS_KR_6U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COLEMAN-COLEMAN_MAYOR
+    code: OFFICE-USA-FL-COLEMAN-MAYOR
     attributes:
       is_active: true
     references:
-      position: POSITION-COLEMAN_MAYOR
+      position: POSITION-MAYOR
       jurisdiction: MUNICIPALITY-USA-FL-COLEMAN
   - type: Race
-    code: RACE-USA-FL-COLEMAN-COLEMAN_MAYOR-2026_GENERAL
+    code: RACE-USA-FL-COLEMAN-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26.'
     references:
       election: ELECTION-USA-FL-COLEMAN-2026_GENERAL
-      office: OFFICE-USA-FL-COLEMAN-COLEMAN_MAYOR
+      office: OFFICE-USA-FL-COLEMAN-MAYOR
   - type: Person
     code: PERSON-WHITED_CL_4T
     attributes:
@@ -459,29 +465,30 @@ groups:
       first_name: Calvin
       last_name: Whited
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COLEMAN-COLEMAN_MAYOR-2026_GENERAL-WHITED_CL_4T
+    code: CANDIDACY-USA-FL-COLEMAN-MAYOR-2026_GENERAL-WHITED_CL_4T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COLEMAN-COLEMAN_MAYOR-2026_GENERAL
+      race: RACE-USA-FL-COLEMAN-MAYOR-2026_GENERAL
       person: PERSON-WHITED_CL_4T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COLEMAN-COLEMAN_SEAT_2
+    code: OFFICE-USA-FL-COLEMAN-COUNCIL_MEMBER-SEAT_2
     attributes:
+      seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-COLEMAN_SEAT_2
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-COLEMAN
   - type: Race
-    code: RACE-USA-FL-COLEMAN-COLEMAN_SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COLEMAN-COUNCIL_MEMBER-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26.'
     references:
       election: ELECTION-USA-FL-COLEMAN-2026_GENERAL
-      office: OFFICE-USA-FL-COLEMAN-COLEMAN_SEAT_2
+      office: OFFICE-USA-FL-COLEMAN-COUNCIL_MEMBER-SEAT_2
   - type: Person
     code: PERSON-SHEARER_SN_6V
     attributes:
@@ -490,29 +497,30 @@ groups:
       first_name: Sonia
       last_name: Shearer
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COLEMAN-COLEMAN_SEAT_2-2026_GENERAL-SHEARER_SN_6V
+    code: CANDIDACY-USA-FL-COLEMAN-COUNCIL_MEMBER-SEAT_2-2026_GENERAL-SHEARER_SN_6V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COLEMAN-COLEMAN_SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COLEMAN-COUNCIL_MEMBER-SEAT_2-2026_GENERAL
       person: PERSON-SHEARER_SN_6V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COLEMAN-COLEMAN_SEAT_4
+    code: OFFICE-USA-FL-COLEMAN-COUNCIL_MEMBER-SEAT_4
     attributes:
+      seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-COLEMAN_SEAT_4
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-COLEMAN
   - type: Race
-    code: RACE-USA-FL-COLEMAN-COLEMAN_SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COLEMAN-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26.'
     references:
       election: ELECTION-USA-FL-COLEMAN-2026_GENERAL
-      office: OFFICE-USA-FL-COLEMAN-COLEMAN_SEAT_4
+      office: OFFICE-USA-FL-COLEMAN-COUNCIL_MEMBER-SEAT_4
   - type: Person
     code: PERSON-FELTON_CH_5M
     attributes:
@@ -521,30 +529,30 @@ groups:
       first_name: Charles
       last_name: Felton
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COLEMAN-COLEMAN_SEAT_4-2026_GENERAL-FELTON_CH_5M
+    code: CANDIDACY-USA-FL-COLEMAN-COUNCIL_MEMBER-SEAT_4-2026_GENERAL-FELTON_CH_5M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COLEMAN-COLEMAN_SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COLEMAN-COUNCIL_MEMBER-SEAT_4-2026_GENERAL
       person: PERSON-FELTON_CH_5M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_3
       is_active: true
     references:
-      position: POSITION-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_3
   - type: Person
     code: PERSON-DECKER_EL_7G
     attributes:
@@ -553,30 +561,30 @@ groups:
       first_name: Ellen
       last_name: Decker
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_3-2026_GENERAL-DECKER_EL_7G
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_3-2026_GENERAL-DECKER_EL_7G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_3-2026_GENERAL
       person: PERSON-DECKER_EL_7G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_4
       is_active: true
     references:
-      position: POSITION-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_4
   - type: Person
     code: PERSON-MCGOVERN_KV_5H
     attributes:
@@ -585,30 +593,30 @@ groups:
       first_name: Kevin
       last_name: McGovern
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_4-2026_GENERAL-MCGOVERN_KV_5H
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_4-2026_GENERAL-MCGOVERN_KV_5H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_4-2026_GENERAL
       person: PERSON-MCGOVERN_KV_5H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_5
       is_active: true
     references:
-      position: POSITION-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_5
   - type: Person
     code: PERSON-WARREN_DN_9S
     attributes:
@@ -617,30 +625,30 @@ groups:
       first_name: Daniel
       last_name: Warren
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_5-2026_GENERAL-WARREN_DN_9S
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_5-2026_GENERAL-WARREN_DN_9S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_5-2026_GENERAL
       person: PERSON-WARREN_DN_9S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_6
+    code: OFFICE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_6
     attributes:
-      seat_code: SEAT_6
+      seat_code: NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_6
       is_active: true
     references:
-      position: POSITION-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_6-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_6-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_6
+      office: OFFICE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_6
   - type: Person
     code: PERSON-FERRARO_DV_2Q
     attributes:
@@ -649,30 +657,30 @@ groups:
       first_name: David
       last_name: Ferraro
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_6-2026_GENERAL-FERRARO_DV_2Q
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_6-2026_GENERAL-FERRARO_DV_2Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT-SEAT_6-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-NORTH_SUMTER_CO_UTILITY_DEPENDENT_DISTRICT_SEAT_6-2026_GENERAL
       person: PERSON-FERRARO_DV_2Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-MOSS_SL_7E
     attributes:
@@ -681,30 +689,30 @@ groups:
       first_name: Sally
       last_name: Moss
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-MOSS_SL_7E
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-MOSS_SL_7E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-MOSS_SL_7E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-WILLIAMS_DV_3T
     attributes:
@@ -714,30 +722,30 @@ groups:
       middle_name: A.
       last_name: Williams
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-WILLIAMS_DV_3T
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-WILLIAMS_DV_3T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-WILLIAMS_DV_3T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-JOHNSON_MC_4F
     attributes:
@@ -746,30 +754,30 @@ groups:
       first_name: Michael
       last_name: Johnson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-JOHNSON_MC_4F
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-JOHNSON_MC_4F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-JOHNSON_MC_4F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_1_BOARD_OF_SUPERVISOR-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_1_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: VCDD_1_SEAT_4
       is_active: true
     references:
-      position: POSITION-VCDD_1_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_1_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_1_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_1_BOARD_OF_SUPERVISOR-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_1_SEAT_4
   - type: Person
     code: PERSON-GERWIN_ST_8V
     attributes:
@@ -778,30 +786,30 @@ groups:
       first_name: Stephen
       last_name: Gerwin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_1_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL-GERWIN_ST_8V
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_1_SEAT_4-2026_GENERAL-GERWIN_ST_8V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_1_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_1_SEAT_4-2026_GENERAL
       person: PERSON-GERWIN_ST_8V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_10_BOARD_OF_SUPERVISOR-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_10_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: VCDD_10_SEAT_2
       is_active: true
     references:
-      position: POSITION-VCDD_10_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_10_BOARD_OF_SUPERVISOR-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_10_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_10_BOARD_OF_SUPERVISOR-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_10_SEAT_2
   - type: Person
     code: PERSON-MILLER_JH_3U
     attributes:
@@ -810,30 +818,30 @@ groups:
       first_name: John
       last_name: Miller
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_10_BOARD_OF_SUPERVISOR-SEAT_2-2026_GENERAL-MILLER_JH_3U
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_10_SEAT_2-2026_GENERAL-MILLER_JH_3U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_10_BOARD_OF_SUPERVISOR-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_10_SEAT_2-2026_GENERAL
       person: PERSON-MILLER_JH_3U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_10_BOARD_OF_SUPERVISOR-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_10_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: VCDD_10_SEAT_3
       is_active: true
     references:
-      position: POSITION-VCDD_10_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_10_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_10_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_10_BOARD_OF_SUPERVISOR-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_10_SEAT_3
   - type: Person
     code: PERSON-BELL_HL_3T
     attributes:
@@ -842,30 +850,30 @@ groups:
       first_name: Holly
       last_name: Bell
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_10_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL-BELL_HL_3T
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_10_SEAT_3-2026_GENERAL-BELL_HL_3T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_10_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_10_SEAT_3-2026_GENERAL
       person: PERSON-BELL_HL_3T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_10_BOARD_OF_SUPERVISOR-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_10_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: VCDD_10_SEAT_5
       is_active: true
     references:
-      position: POSITION-VCDD_10_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_10_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_10_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_10_BOARD_OF_SUPERVISOR-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_10_SEAT_5
   - type: Person
     code: PERSON-BRADSHAW_CH_7R
     attributes:
@@ -875,30 +883,30 @@ groups:
       middle_name: C
       last_name: Bradshaw
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_10_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL-BRADSHAW_CH_7R
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_10_SEAT_5-2026_GENERAL-BRADSHAW_CH_7R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_10_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_10_SEAT_5-2026_GENERAL
       person: PERSON-BRADSHAW_CH_7R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_12_BOARD_OF_SUPERVISOR-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_12_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: VCDD_12_SEAT_3
       is_active: true
     references:
-      position: POSITION-VCDD_12_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_12_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_12_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_12_BOARD_OF_SUPERVISOR-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_12_SEAT_3
   - type: Person
     code: PERSON-ROUDABUSH_JN_9R
     attributes:
@@ -907,30 +915,30 @@ groups:
       first_name: Jon
       last_name: Roudabush
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_12_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL-ROUDABUSH_JN_9R
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_12_SEAT_3-2026_GENERAL-ROUDABUSH_JN_9R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_12_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_12_SEAT_3-2026_GENERAL
       person: PERSON-ROUDABUSH_JN_9R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_12_BOARD_OF_SUPERVISOR-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_12_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: VCDD_12_SEAT_4
       is_active: true
     references:
-      position: POSITION-VCDD_12_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_12_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_12_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_12_BOARD_OF_SUPERVISOR-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_12_SEAT_4
   - type: Person
     code: PERSON-MONTALVO_PH_5T
     attributes:
@@ -939,30 +947,30 @@ groups:
       first_name: Phil
       last_name: Montalvo
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_12_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL-MONTALVO_PH_5T
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_12_SEAT_4-2026_GENERAL-MONTALVO_PH_5T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_12_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_12_SEAT_4-2026_GENERAL
       person: PERSON-MONTALVO_PH_5T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_12_BOARD_OF_SUPERVISOR-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_12_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: VCDD_12_SEAT_5
       is_active: true
     references:
-      position: POSITION-VCDD_12_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_12_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_12_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_12_BOARD_OF_SUPERVISOR-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_12_SEAT_5
   - type: Person
     code: PERSON-MARTIN_DL_6Q
     attributes:
@@ -971,30 +979,30 @@ groups:
       first_name: Dale
       last_name: Martin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_12_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL-MARTIN_DL_6Q
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_12_SEAT_5-2026_GENERAL-MARTIN_DL_6Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_12_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_12_SEAT_5-2026_GENERAL
       person: PERSON-MARTIN_DL_6Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_13_BOARD_OF_SUPERVISOR-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_13_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: VCDD_13_SEAT_4
       is_active: true
     references:
-      position: POSITION-VCDD_13_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_13_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_13_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_13_BOARD_OF_SUPERVISOR-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_13_SEAT_4
   - type: Person
     code: PERSON-IVINS_KN_7W
     attributes:
@@ -1003,12 +1011,12 @@ groups:
       first_name: Kenneth
       last_name: Ivins
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_13_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL-IVINS_KN_7W
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_13_SEAT_4-2026_GENERAL-IVINS_KN_7W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_13_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_13_SEAT_4-2026_GENERAL
       person: PERSON-IVINS_KN_7W
   - type: Person
     code: PERSON-KROUSE_CH_2R
@@ -1018,30 +1026,30 @@ groups:
       first_name: Chuck
       last_name: Krouse
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_13_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL-KROUSE_CH_2R
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_13_SEAT_4-2026_GENERAL-KROUSE_CH_2R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_13_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_13_SEAT_4-2026_GENERAL
       person: PERSON-KROUSE_CH_2R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: VCDD_2_SEAT_1
       is_active: true
     references:
-      position: POSITION-VCDD_2_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_1
   - type: Person
     code: PERSON-SHALLIS_FR_2Z
     attributes:
@@ -1050,12 +1058,12 @@ groups:
       first_name: Frank
       last_name: Shallis
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_1-2026_GENERAL-SHALLIS_FR_2Z
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_1-2026_GENERAL-SHALLIS_FR_2Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_1-2026_GENERAL
       person: PERSON-SHALLIS_FR_2Z
   - type: Person
     code: PERSON-SWIERS_TM_5E
@@ -1065,30 +1073,30 @@ groups:
       first_name: Tom
       last_name: Swiers
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_1-2026_GENERAL-SWIERS_TM_5E
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_1-2026_GENERAL-SWIERS_TM_5E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_1-2026_GENERAL
       person: PERSON-SWIERS_TM_5E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: VCDD_2_SEAT_2
       is_active: true
     references:
-      position: POSITION-VCDD_2_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_2
   - type: Person
     code: PERSON-CIPOLLONE_JM_9Q
     attributes:
@@ -1098,12 +1106,12 @@ groups:
       middle_name: '"Jim"'
       last_name: Cipollone
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_2-2026_GENERAL-CIPOLLONE_JM_9Q
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_2-2026_GENERAL-CIPOLLONE_JM_9Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_2-2026_GENERAL
       person: PERSON-CIPOLLONE_JM_9Q
   - type: Person
     code: PERSON-STEM_DV_6G
@@ -1113,30 +1121,30 @@ groups:
       first_name: David
       last_name: Stem
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_2-2026_GENERAL-STEM_DV_6G
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_2-2026_GENERAL-STEM_DV_6G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_2-2026_GENERAL
       person: PERSON-STEM_DV_6G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: VCDD_2_SEAT_3
       is_active: true
     references:
-      position: POSITION-VCDD_2_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_3
   - type: Person
     code: PERSON-CONTI_JM_9G
     attributes:
@@ -1146,12 +1154,12 @@ groups:
       middle_name: '"Jim"'
       last_name: Conti
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL-CONTI_JM_9G
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_3-2026_GENERAL-CONTI_JM_9G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_3-2026_GENERAL
       person: PERSON-CONTI_JM_9G
   - type: Person
     code: PERSON-WHITING_HR_4C
@@ -1162,30 +1170,30 @@ groups:
       middle_name: '"Coach Hal"'
       last_name: Whiting
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL-WHITING_HR_4C
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_3-2026_GENERAL-WHITING_HR_4C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_2_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_2_SEAT_3-2026_GENERAL
       person: PERSON-WHITING_HR_4C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_3_BOARD_OF_SUPERVISOR-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_3_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: VCDD_3_SEAT_1
       is_active: true
     references:
-      position: POSITION-VCDD_3_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_3_BOARD_OF_SUPERVISOR-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_3_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_3_BOARD_OF_SUPERVISOR-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_3_SEAT_1
   - type: Person
     code: PERSON-DEMAYO_JS_9X
     attributes:
@@ -1194,30 +1202,30 @@ groups:
       first_name: Joseph
       last_name: Demayo
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_3_BOARD_OF_SUPERVISOR-SEAT_1-2026_GENERAL-DEMAYO_JS_9X
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_3_SEAT_1-2026_GENERAL-DEMAYO_JS_9X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_3_BOARD_OF_SUPERVISOR-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_3_SEAT_1-2026_GENERAL
       person: PERSON-DEMAYO_JS_9X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_3_BOARD_OF_SUPERVISOR-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_3_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: VCDD_3_SEAT_4
       is_active: true
     references:
-      position: POSITION-VCDD_3_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_3_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_3_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_3_BOARD_OF_SUPERVISOR-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_3_SEAT_4
   - type: Person
     code: PERSON-BELLES_RC_3R
     attributes:
@@ -1226,30 +1234,30 @@ groups:
       first_name: Richard
       last_name: Belles
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_3_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL-BELLES_RC_3R
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_3_SEAT_4-2026_GENERAL-BELLES_RC_3R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_3_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_3_SEAT_4-2026_GENERAL
       person: PERSON-BELLES_RC_3R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_5_BOARD_OF_SUPERVISOR-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_5_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: VCDD_5_SEAT_2
       is_active: true
     references:
-      position: POSITION-VCDD_5_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_5_BOARD_OF_SUPERVISOR-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_5_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_5_BOARD_OF_SUPERVISOR-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_5_SEAT_2
   - type: Person
     code: PERSON-KNOLL_JR_4U
     attributes:
@@ -1258,30 +1266,30 @@ groups:
       first_name: Jerry
       last_name: Knoll
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_5_BOARD_OF_SUPERVISOR-SEAT_2-2026_GENERAL-KNOLL_JR_4U
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_5_SEAT_2-2026_GENERAL-KNOLL_JR_4U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_5_BOARD_OF_SUPERVISOR-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_5_SEAT_2-2026_GENERAL
       person: PERSON-KNOLL_JR_4U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_5_BOARD_OF_SUPERVISOR-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_5_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: VCDD_5_SEAT_5
       is_active: true
     references:
-      position: POSITION-VCDD_5_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_5_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_5_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_5_BOARD_OF_SUPERVISOR-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_5_SEAT_5
   - type: Person
     code: PERSON-KADOW_GR_6X
     attributes:
@@ -1290,30 +1298,30 @@ groups:
       first_name: Gary
       last_name: Kadow
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_5_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL-KADOW_GR_6X
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_5_SEAT_5-2026_GENERAL-KADOW_GR_6X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_5_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_5_SEAT_5-2026_GENERAL
       person: PERSON-KADOW_GR_6X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_6_BOARD_OF_SUPERVISOR-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_6_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: VCDD_6_SEAT_1
       is_active: true
     references:
-      position: POSITION-VCDD_6_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_6_BOARD_OF_SUPERVISOR-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_6_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_6_BOARD_OF_SUPERVISOR-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_6_SEAT_1
   - type: Person
     code: PERSON-COLEMAN_TW_6P
     attributes:
@@ -1322,30 +1330,30 @@ groups:
       first_name: Tweet
       last_name: Coleman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_6_BOARD_OF_SUPERVISOR-SEAT_1-2026_GENERAL-COLEMAN_TW_6P
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_6_SEAT_1-2026_GENERAL-COLEMAN_TW_6P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_6_BOARD_OF_SUPERVISOR-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_6_SEAT_1-2026_GENERAL
       person: PERSON-COLEMAN_TW_6P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_6_BOARD_OF_SUPERVISOR-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_6_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: VCDD_6_SEAT_5
       is_active: true
     references:
-      position: POSITION-VCDD_6_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_6_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_6_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_6_BOARD_OF_SUPERVISOR-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_6_SEAT_5
   - type: Person
     code: PERSON-EDGAR_RN_7Z
     attributes:
@@ -1354,30 +1362,30 @@ groups:
       first_name: Randall
       last_name: Edgar
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_6_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL-EDGAR_RN_7Z
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_6_SEAT_5-2026_GENERAL-EDGAR_RN_7Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_6_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_6_SEAT_5-2026_GENERAL
       person: PERSON-EDGAR_RN_7Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_7_BOARD_OF_SUPERVISOR-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_7_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: VCDD_7_SEAT_1
       is_active: true
     references:
-      position: POSITION-VCDD_7_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_7_BOARD_OF_SUPERVISOR-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_7_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_7_BOARD_OF_SUPERVISOR-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_7_SEAT_1
   - type: Person
     code: PERSON-KLINKO_DR_8C
     attributes:
@@ -1386,30 +1394,30 @@ groups:
       first_name: Daryl
       last_name: Klinko
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_7_BOARD_OF_SUPERVISOR-SEAT_1-2026_GENERAL-KLINKO_DR_8C
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_7_SEAT_1-2026_GENERAL-KLINKO_DR_8C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_7_BOARD_OF_SUPERVISOR-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_7_SEAT_1-2026_GENERAL
       person: PERSON-KLINKO_DR_8C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_7_BOARD_OF_SUPERVISOR-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_7_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: VCDD_7_SEAT_3
       is_active: true
     references:
-      position: POSITION-VCDD_7_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_7_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_7_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_7_BOARD_OF_SUPERVISOR-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_7_SEAT_3
   - type: Person
     code: PERSON-LAPP_ST_9E
     attributes:
@@ -1418,30 +1426,30 @@ groups:
       first_name: Stephen
       last_name: Lapp
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_7_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL-LAPP_ST_9E
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_7_SEAT_3-2026_GENERAL-LAPP_ST_9E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_7_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_7_SEAT_3-2026_GENERAL
       person: PERSON-LAPP_ST_9E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_7_BOARD_OF_SUPERVISOR-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_7_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: VCDD_7_SEAT_5
       is_active: true
     references:
-      position: POSITION-VCDD_7_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_7_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_7_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_7_BOARD_OF_SUPERVISOR-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_7_SEAT_5
   - type: Person
     code: PERSON-COLEMAN_ED_8T
     attributes:
@@ -1450,30 +1458,30 @@ groups:
       first_name: Edward
       last_name: Coleman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_7_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL-COLEMAN_ED_8T
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_7_SEAT_5-2026_GENERAL-COLEMAN_ED_8T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_7_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_7_SEAT_5-2026_GENERAL
       person: PERSON-COLEMAN_ED_8T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_8_BOARD_OF_SUPERVISOR-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_8_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: VCDD_8_SEAT_3
       is_active: true
     references:
-      position: POSITION-VCDD_8_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_8_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_8_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_8_BOARD_OF_SUPERVISOR-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_8_SEAT_3
   - type: Person
     code: PERSON-MCMURRY_LR_9Q
     attributes:
@@ -1483,30 +1491,30 @@ groups:
       middle_name: James
       last_name: McMurry
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_8_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL-MCMURRY_LR_9Q
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_8_SEAT_3-2026_GENERAL-MCMURRY_LR_9Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_8_BOARD_OF_SUPERVISOR-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_8_SEAT_3-2026_GENERAL
       person: PERSON-MCMURRY_LR_9Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_8_BOARD_OF_SUPERVISOR-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_8_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: VCDD_8_SEAT_4
       is_active: true
     references:
-      position: POSITION-VCDD_8_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_8_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_8_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_8_BOARD_OF_SUPERVISOR-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_8_SEAT_4
   - type: Person
     code: PERSON-THOMPSON_GY_8R
     attributes:
@@ -1515,30 +1523,30 @@ groups:
       first_name: Gaylon
       last_name: Thompson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_8_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL-THOMPSON_GY_8R
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_8_SEAT_4-2026_GENERAL-THOMPSON_GY_8R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_8_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_8_SEAT_4-2026_GENERAL
       person: PERSON-THOMPSON_GY_8R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_8_BOARD_OF_SUPERVISOR-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_8_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: VCDD_8_SEAT_5
       is_active: true
     references:
-      position: POSITION-VCDD_8_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_8_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_8_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_8_BOARD_OF_SUPERVISOR-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_8_SEAT_5
   - type: Person
     code: PERSON-WALKER_PH_3C
     attributes:
@@ -1547,30 +1555,30 @@ groups:
       first_name: Phil
       last_name: Walker
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_8_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL-WALKER_PH_3C
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_8_SEAT_5-2026_GENERAL-WALKER_PH_3C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_8_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_8_SEAT_5-2026_GENERAL
       person: PERSON-WALKER_PH_3C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_9_BOARD_OF_SUPERVISOR-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_9_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: VCDD_9_SEAT_4
       is_active: true
     references:
-      position: POSITION-VCDD_9_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_9_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_9_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_9_BOARD_OF_SUPERVISOR-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_9_SEAT_4
   - type: Person
     code: PERSON-BOONE_DV_6X
     attributes:
@@ -1579,30 +1587,30 @@ groups:
       first_name: David
       last_name: Boone
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_9_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL-BOONE_DV_6X
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_9_SEAT_4-2026_GENERAL-BOONE_DV_6X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_9_BOARD_OF_SUPERVISOR-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_9_SEAT_4-2026_GENERAL
       person: PERSON-BOONE_DV_6X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_9_BOARD_OF_SUPERVISOR-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_9_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: VCDD_9_SEAT_5
       is_active: true
     references:
-      position: POSITION-VCDD_9_BOARD_OF_SUPERVISOR
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VCDD_9_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_9_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VCDD_9_BOARD_OF_SUPERVISOR-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_9_SEAT_5
   - type: Person
     code: PERSON-MILLER_OR_4Y
     attributes:
@@ -1611,30 +1619,30 @@ groups:
       first_name: Oren
       last_name: Miller
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VCDD_9_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL-MILLER_OR_4Y
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_9_SEAT_5-2026_GENERAL-MILLER_OR_4Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VCDD_9_BOARD_OF_SUPERVISOR-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VCDD_9_SEAT_5-2026_GENERAL
       person: PERSON-MILLER_OR_4Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VPS-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-VPS_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: VPS_SEAT_1
       is_active: true
     references:
-      position: POSITION-VPS
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VPS-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-VPS_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VPS-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-VPS_SEAT_1
   - type: Person
     code: PERSON-BOGLE_ST_4D
     attributes:
@@ -1643,30 +1651,30 @@ groups:
       first_name: Stephen
       last_name: Bogle
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VPS-SEAT_1-2026_GENERAL-BOGLE_ST_4D
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-VPS_SEAT_1-2026_GENERAL-BOGLE_ST_4D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VPS-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-VPS_SEAT_1-2026_GENERAL
       person: PERSON-BOGLE_ST_4D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VPS-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-VPS_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: VPS_SEAT_2
       is_active: true
     references:
-      position: POSITION-VPS
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VPS-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-VPS_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VPS-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-VPS_SEAT_2
   - type: Person
     code: PERSON-BRADLEY_RG_9Q
     attributes:
@@ -1675,30 +1683,30 @@ groups:
       first_name: Roger
       last_name: Bradley
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VPS-SEAT_2-2026_GENERAL-BRADLEY_RG_9Q
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-VPS_SEAT_2-2026_GENERAL-BRADLEY_RG_9Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VPS-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-VPS_SEAT_2-2026_GENERAL
       person: PERSON-BRADLEY_RG_9Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-VPS-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-VPS_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: VPS_SEAT_3
       is_active: true
     references:
-      position: POSITION-VPS
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-VPS-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-VPS_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-VPS-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-VPS_SEAT_3
   - type: Person
     code: PERSON-GOWIN_KT_3B
     attributes:
@@ -1707,30 +1715,30 @@ groups:
       first_name: Kathleen
       last_name: Gowin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-VPS-SEAT_3-2026_GENERAL-GOWIN_KT_3B
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-VPS_SEAT_3-2026_GENERAL-GOWIN_KT_3B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-VPS-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-SPECIAL_DISTRICT_BOARD_MEMBER-VPS_SEAT_3-2026_GENERAL
       person: PERSON-GOWIN_KT_3B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-WUDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WUDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: WUDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-WUDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-WUDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WUDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-WUDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WUDD_SEAT_3
   - type: Person
     code: PERSON-FALVO_BR_8L
     attributes:
@@ -1739,30 +1747,30 @@ groups:
       first_name: Bruno
       last_name: Falvo
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-WUDD-SEAT_3-2026_GENERAL-FALVO_BR_8L
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WUDD_SEAT_3-2026_GENERAL-FALVO_BR_8L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-WUDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WUDD_SEAT_3-2026_GENERAL
       person: PERSON-FALVO_BR_8L
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_SUMTER-WUDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WUDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: WUDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-WUDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-SUMTER
   - type: Race
-    code: RACE-USA-FL-COUNTY_SUMTER-WUDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WUDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_SUMTER-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_SUMTER-WUDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WUDD_SEAT_5
   - type: Person
     code: PERSON-KASS_RG_5F
     attributes:
@@ -1771,29 +1779,30 @@ groups:
       first_name: Roger
       last_name: Kass
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_SUMTER-WUDD-SEAT_5-2026_GENERAL-KASS_RG_5F
+    code: CANDIDACY-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WUDD_SEAT_5-2026_GENERAL-KASS_RG_5F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_SUMTER-WUDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_SUMTER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WUDD_SEAT_5-2026_GENERAL
       person: PERSON-KASS_RG_5F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-WEBSTER-WEBSTER_SEAT_1
+    code: OFFICE-USA-FL-WEBSTER-COUNCIL_MEMBER-SEAT_1
     attributes:
+      seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-WEBSTER_SEAT_1
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-WEBSTER
   - type: Race
-    code: RACE-USA-FL-WEBSTER-WEBSTER_SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-WEBSTER-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26.'
     references:
       election: ELECTION-USA-FL-WEBSTER-2026_GENERAL
-      office: OFFICE-USA-FL-WEBSTER-WEBSTER_SEAT_1
+      office: OFFICE-USA-FL-WEBSTER-COUNCIL_MEMBER-SEAT_1
   - type: Person
     code: PERSON-DORSEY_AL_9J
     attributes:
@@ -1803,29 +1812,30 @@ groups:
       middle_name: L.
       last_name: Dorsey Sr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-WEBSTER-WEBSTER_SEAT_1-2026_GENERAL-DORSEY_AL_9J
+    code: CANDIDACY-USA-FL-WEBSTER-COUNCIL_MEMBER-SEAT_1-2026_GENERAL-DORSEY_AL_9J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-WEBSTER-WEBSTER_SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-WEBSTER-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
       person: PERSON-DORSEY_AL_9J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-WEBSTER-WEBSTER_SEAT_3
+    code: OFFICE-USA-FL-WEBSTER-COUNCIL_MEMBER-SEAT_3
     attributes:
+      seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-WEBSTER_SEAT_3
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: MUNICIPALITY-USA-FL-WEBSTER
   - type: Race
-    code: RACE-USA-FL-WEBSTER-WEBSTER_SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-WEBSTER-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26.'
     references:
       election: ELECTION-USA-FL-WEBSTER-2026_GENERAL
-      office: OFFICE-USA-FL-WEBSTER-WEBSTER_SEAT_3
+      office: OFFICE-USA-FL-WEBSTER-COUNCIL_MEMBER-SEAT_3
   - type: Person
     code: PERSON-SOLOMON_SH_9R
     attributes:
@@ -1834,29 +1844,30 @@ groups:
       first_name: Shadae
       last_name: Solomon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-WEBSTER-WEBSTER_SEAT_3-2026_GENERAL-SOLOMON_SH_9R
+    code: CANDIDACY-USA-FL-WEBSTER-COUNCIL_MEMBER-SEAT_3-2026_GENERAL-SOLOMON_SH_9R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-WEBSTER-WEBSTER_SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-WEBSTER-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
       person: PERSON-SOLOMON_SH_9R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-WILDWOOD-WILDWOOD_CITY_COMMISSION_GROUP_1
+    code: OFFICE-USA-FL-WILDWOOD-COMMISSIONER-GROUP_1
     attributes:
+      seat_code: GROUP_1
       is_active: true
     references:
-      position: POSITION-WILDWOOD_CITY_COMMISSION_GROUP_1
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-WILDWOOD
   - type: Race
-    code: RACE-USA-FL-WILDWOOD-WILDWOOD_CITY_COMMISSION_GROUP_1-2026_GENERAL
+    code: RACE-USA-FL-WILDWOOD-COMMISSIONER-GROUP_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26.'
     references:
       election: ELECTION-USA-FL-WILDWOOD-2026_GENERAL
-      office: OFFICE-USA-FL-WILDWOOD-WILDWOOD_CITY_COMMISSION_GROUP_1
+      office: OFFICE-USA-FL-WILDWOOD-COMMISSIONER-GROUP_1
   - type: Person
     code: PERSON-WOLF_ED_3S
     attributes:
@@ -1865,29 +1876,30 @@ groups:
       first_name: Ed
       last_name: Wolf
   - type: Candidacy
-    code: CANDIDACY-USA-FL-WILDWOOD-WILDWOOD_CITY_COMMISSION_GROUP_1-2026_GENERAL-WOLF_ED_3S
+    code: CANDIDACY-USA-FL-WILDWOOD-COMMISSIONER-GROUP_1-2026_GENERAL-WOLF_ED_3S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-WILDWOOD-WILDWOOD_CITY_COMMISSION_GROUP_1-2026_GENERAL
+      race: RACE-USA-FL-WILDWOOD-COMMISSIONER-GROUP_1-2026_GENERAL
       person: PERSON-WOLF_ED_3S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-WILDWOOD-WILDWOOD_CITY_COMMISSION_GROUP_2
+    code: OFFICE-USA-FL-WILDWOOD-COMMISSIONER-GROUP_2
     attributes:
+      seat_code: GROUP_2
       is_active: true
     references:
-      position: POSITION-WILDWOOD_CITY_COMMISSION_GROUP_2
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-WILDWOOD
   - type: Race
-    code: RACE-USA-FL-WILDWOOD-WILDWOOD_CITY_COMMISSION_GROUP_2-2026_GENERAL
+    code: RACE-USA-FL-WILDWOOD-COMMISSIONER-GROUP_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26.'
     references:
       election: ELECTION-USA-FL-WILDWOOD-2026_GENERAL
-      office: OFFICE-USA-FL-WILDWOOD-WILDWOOD_CITY_COMMISSION_GROUP_2
+      office: OFFICE-USA-FL-WILDWOOD-COMMISSIONER-GROUP_2
   - type: Person
     code: PERSON-FOUNTAINE_DV_5C
     attributes:
@@ -1896,29 +1908,30 @@ groups:
       first_name: David
       last_name: Fountaine
   - type: Candidacy
-    code: CANDIDACY-USA-FL-WILDWOOD-WILDWOOD_CITY_COMMISSION_GROUP_2-2026_GENERAL-FOUNTAINE_DV_5C
+    code: CANDIDACY-USA-FL-WILDWOOD-COMMISSIONER-GROUP_2-2026_GENERAL-FOUNTAINE_DV_5C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-WILDWOOD-WILDWOOD_CITY_COMMISSION_GROUP_2-2026_GENERAL
+      race: RACE-USA-FL-WILDWOOD-COMMISSIONER-GROUP_2-2026_GENERAL
       person: PERSON-FOUNTAINE_DV_5C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-WILDWOOD-WILDWOOD_CITY_COMMISSION_GROUP_4
+    code: OFFICE-USA-FL-WILDWOOD-COMMISSIONER-GROUP_4
     attributes:
+      seat_code: GROUP_4
       is_active: true
     references:
-      position: POSITION-WILDWOOD_CITY_COMMISSION_GROUP_4
+      position: POSITION-COMMISSIONER
       jurisdiction: MUNICIPALITY-USA-FL-WILDWOOD
   - type: Race
-    code: RACE-USA-FL-WILDWOOD-WILDWOOD_CITY_COMMISSION_GROUP_4-2026_GENERAL
+    code: RACE-USA-FL-WILDWOOD-COMMISSIONER-GROUP_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=sumter&el=26.'
     references:
       election: ELECTION-USA-FL-WILDWOOD-2026_GENERAL
-      office: OFFICE-USA-FL-WILDWOOD-WILDWOOD_CITY_COMMISSION_GROUP_4
+      office: OFFICE-USA-FL-WILDWOOD-COMMISSIONER-GROUP_4
   - type: Person
     code: PERSON-FLORES_MR_9A
     attributes:
@@ -1927,10 +1940,10 @@ groups:
       first_name: Marcos
       last_name: Flores
   - type: Candidacy
-    code: CANDIDACY-USA-FL-WILDWOOD-WILDWOOD_CITY_COMMISSION_GROUP_4-2026_GENERAL-FLORES_MR_9A
+    code: CANDIDACY-USA-FL-WILDWOOD-COMMISSIONER-GROUP_4-2026_GENERAL-FLORES_MR_9A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-WILDWOOD-WILDWOOD_CITY_COMMISSION_GROUP_4-2026_GENERAL
+      race: RACE-USA-FL-WILDWOOD-COMMISSIONER-GROUP_4-2026_GENERAL
       person: PERSON-FLORES_MR_9A

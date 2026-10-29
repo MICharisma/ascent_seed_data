@@ -7,47 +7,58 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_LANCASTER-2026_GENERAL
+  code: ELECTION-USA-VA-WHITE_STONE-2026_GENERAL
   attributes:
-    name: Lancaster County General Election 2026
+    name: White Stone General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-LANCASTER
+    jurisdiction: MUNICIPALITY-USA-VA-WHITE_STONE
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_LANCASTER-2026_SPECIAL
+  code: ELECTION-USA-VA-IRVINGTON-2026_GENERAL
   attributes:
-    name: Lancaster County Special Election 2026
+    name: Irvington General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-IRVINGTON
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-IRVINGTON-2026_SPECIAL
+  attributes:
+    name: Irvington Special Election 2026
     kind: special
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-LANCASTER
+    jurisdiction: MUNICIPALITY-USA-VA-IRVINGTON
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LANCASTER-MAYOR_WHITE_STONE-TOWN_OF_WHITE_STONE
+    code: OFFICE-USA-VA-WHITE_STONE-MAYOR
     attributes:
-      seat_code: TOWN_OF_WHITE_STONE
       is_active: true
     references:
-      position: POSITION-MAYOR_WHITE_STONE
-      jurisdiction: COUNTY-USA-VA-LANCASTER
+      position: POSITION-MAYOR
+      jurisdiction: MUNICIPALITY-USA-VA-WHITE_STONE
   - type: Race
-    code: RACE-USA-VA-COUNTY_LANCASTER-MAYOR_WHITE_STONE-TOWN_OF_WHITE_STONE-2026_GENERAL
+    code: RACE-USA-VA-WHITE_STONE-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LANCASTER-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LANCASTER-MAYOR_WHITE_STONE-TOWN_OF_WHITE_STONE
+      election: ELECTION-USA-VA-WHITE_STONE-2026_GENERAL
+      office: OFFICE-USA-VA-WHITE_STONE-MAYOR
   - type: Person
     code: PERSON-BRITTINGHAM_IR_8X
     attributes:
@@ -57,30 +68,29 @@ groups:
       middle_name: T.
       last_name: Brittingham
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LANCASTER-MAYOR_WHITE_STONE-TOWN_OF_WHITE_STONE-2026_GENERAL-BRITTINGHAM_IR_8X
+    code: CANDIDACY-USA-VA-WHITE_STONE-MAYOR-2026_GENERAL-BRITTINGHAM_IR_8X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LANCASTER-MAYOR_WHITE_STONE-TOWN_OF_WHITE_STONE-2026_GENERAL
+      race: RACE-USA-VA-WHITE_STONE-MAYOR-2026_GENERAL
       person: PERSON-BRITTINGHAM_IR_8X
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_IRVINGTON-TOWN_OF_IRVINGTON
+    code: OFFICE-USA-VA-IRVINGTON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_IRVINGTON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_IRVINGTON
-      jurisdiction: COUNTY-USA-VA-LANCASTER
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-IRVINGTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_IRVINGTON-TOWN_OF_IRVINGTON-2026_GENERAL
+    code: RACE-USA-VA-IRVINGTON-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LANCASTER-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_IRVINGTON-TOWN_OF_IRVINGTON
+      election: ELECTION-USA-VA-IRVINGTON-2026_GENERAL
+      office: OFFICE-USA-VA-IRVINGTON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-ROBINSON_PH_5D
     attributes:
@@ -90,12 +100,12 @@ groups:
       middle_name: A.
       last_name: Robinson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_IRVINGTON-TOWN_OF_IRVINGTON-2026_GENERAL-ROBINSON_PH_5D
+    code: CANDIDACY-USA-VA-IRVINGTON-COUNCIL_MEMBER-2026_GENERAL-ROBINSON_PH_5D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_IRVINGTON-TOWN_OF_IRVINGTON-2026_GENERAL
+      race: RACE-USA-VA-IRVINGTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ROBINSON_PH_5D
   - type: Person
     code: PERSON-NUNNALLY_R_3M
@@ -106,12 +116,12 @@ groups:
       middle_name: Wayne
       last_name: Nunnally
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_IRVINGTON-TOWN_OF_IRVINGTON-2026_GENERAL-NUNNALLY_R_3M
+    code: CANDIDACY-USA-VA-IRVINGTON-COUNCIL_MEMBER-2026_GENERAL-NUNNALLY_R_3M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_IRVINGTON-TOWN_OF_IRVINGTON-2026_GENERAL
+      race: RACE-USA-VA-IRVINGTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-NUNNALLY_R_3M
   - type: Person
     code: PERSON-SAUN_SM_6J
@@ -122,12 +132,12 @@ groups:
       middle_name: C. Van
       last_name: Saun
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_IRVINGTON-TOWN_OF_IRVINGTON-2026_GENERAL-SAUN_SM_6J
+    code: CANDIDACY-USA-VA-IRVINGTON-COUNCIL_MEMBER-2026_GENERAL-SAUN_SM_6J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_IRVINGTON-TOWN_OF_IRVINGTON-2026_GENERAL
+      race: RACE-USA-VA-IRVINGTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-SAUN_SM_6J
   - type: Person
     code: PERSON-RALLS_VV_6V
@@ -138,30 +148,29 @@ groups:
       middle_name: S. "Viv"
       last_name: Ralls
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_IRVINGTON-TOWN_OF_IRVINGTON-2026_GENERAL-RALLS_VV_6V
+    code: CANDIDACY-USA-VA-IRVINGTON-COUNCIL_MEMBER-2026_GENERAL-RALLS_VV_6V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_IRVINGTON-TOWN_OF_IRVINGTON-2026_GENERAL
+      race: RACE-USA-VA-IRVINGTON-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-RALLS_VV_6V
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_IRVINGTON
+    code: OFFICE-USA-VA-IRVINGTON-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_IRVINGTON
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_SPECIAL
-      jurisdiction: COUNTY-USA-VA-LANCASTER
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-IRVINGTON
   - type: Race
-    code: RACE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_IRVINGTON-2026_SPECIAL
+    code: RACE-USA-VA-IRVINGTON-COUNCIL_MEMBER-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LANCASTER-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_IRVINGTON
+      election: ELECTION-USA-VA-IRVINGTON-2026_SPECIAL
+      office: OFFICE-USA-VA-IRVINGTON-COUNCIL_MEMBER
   - type: Person
     code: PERSON-KUPER_GR_7S
     attributes:
@@ -171,12 +180,12 @@ groups:
       middle_name: H.
       last_name: Kuper
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_IRVINGTON-2026_SPECIAL-KUPER_GR_7S
+    code: CANDIDACY-USA-VA-IRVINGTON-COUNCIL_MEMBER-2026_SPECIAL-KUPER_GR_7S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_IRVINGTON-2026_SPECIAL
+      race: RACE-USA-VA-IRVINGTON-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-KUPER_GR_7S
   - type: Person
     code: PERSON-PENNIMAN_JD_4T
@@ -187,12 +196,12 @@ groups:
       middle_name: M.
       last_name: Penniman
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_IRVINGTON-2026_SPECIAL-PENNIMAN_JD_4T
+    code: CANDIDACY-USA-VA-IRVINGTON-COUNCIL_MEMBER-2026_SPECIAL-PENNIMAN_JD_4T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_IRVINGTON-2026_SPECIAL
+      race: RACE-USA-VA-IRVINGTON-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-PENNIMAN_JD_4T
   - type: Person
     code: PERSON-CLINE_MR_5K
@@ -203,30 +212,29 @@ groups:
       middle_name: Windsor
       last_name: Cline
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_IRVINGTON-2026_SPECIAL-CLINE_MR_5K
+    code: CANDIDACY-USA-VA-IRVINGTON-COUNCIL_MEMBER-2026_SPECIAL-CLINE_MR_5K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_IRVINGTON-2026_SPECIAL
+      race: RACE-USA-VA-IRVINGTON-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-CLINE_MR_5K
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_WHITE_STONE-TOWN_OF_WHITE_STONE
+    code: OFFICE-USA-VA-WHITE_STONE-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_WHITE_STONE
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_WHITE_STONE
-      jurisdiction: COUNTY-USA-VA-LANCASTER
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-WHITE_STONE
   - type: Race
-    code: RACE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_WHITE_STONE-TOWN_OF_WHITE_STONE-2026_GENERAL
+    code: RACE-USA-VA-WHITE_STONE-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LANCASTER-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_WHITE_STONE-TOWN_OF_WHITE_STONE
+      election: ELECTION-USA-VA-WHITE_STONE-2026_GENERAL
+      office: OFFICE-USA-VA-WHITE_STONE-COUNCIL_MEMBER
   - type: Person
     code: PERSON-EVERETT_KR_4Q
     attributes:
@@ -236,12 +244,12 @@ groups:
       middle_name: G.
       last_name: Everett
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_WHITE_STONE-TOWN_OF_WHITE_STONE-2026_GENERAL-EVERETT_KR_4Q
+    code: CANDIDACY-USA-VA-WHITE_STONE-COUNCIL_MEMBER-2026_GENERAL-EVERETT_KR_4Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_WHITE_STONE-TOWN_OF_WHITE_STONE-2026_GENERAL
+      race: RACE-USA-VA-WHITE_STONE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-EVERETT_KR_4Q
   - type: Person
     code: PERSON-REEVES_RN_9F
@@ -252,12 +260,12 @@ groups:
       middle_name: S.
       last_name: Reeves Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_WHITE_STONE-TOWN_OF_WHITE_STONE-2026_GENERAL-REEVES_RN_9F
+    code: CANDIDACY-USA-VA-WHITE_STONE-COUNCIL_MEMBER-2026_GENERAL-REEVES_RN_9F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_WHITE_STONE-TOWN_OF_WHITE_STONE-2026_GENERAL
+      race: RACE-USA-VA-WHITE_STONE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-REEVES_RN_9F
   - type: Person
     code: PERSON-WILSON_TH_9D
@@ -268,10 +276,10 @@ groups:
       middle_name: Woodrow
       last_name: Wilson III
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_WHITE_STONE-TOWN_OF_WHITE_STONE-2026_GENERAL-WILSON_TH_9D
+    code: CANDIDACY-USA-VA-WHITE_STONE-COUNCIL_MEMBER-2026_GENERAL-WILSON_TH_9D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LANCASTER-MEMBER_TOWN_COUNCIL_WHITE_STONE-TOWN_OF_WHITE_STONE-2026_GENERAL
+      race: RACE-USA-VA-WHITE_STONE-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WILSON_TH_9D

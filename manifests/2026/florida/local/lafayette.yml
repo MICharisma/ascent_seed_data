@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAFAYETTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_LAFAYETTE-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-LAFAYETTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAFAYETTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAFAYETTE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAFAYETTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAFAYETTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_LAFAYETTE-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-BYRD_MS_8H
     attributes:
@@ -45,7 +45,7 @@ groups:
       middle_name: E.
       last_name: Byrd
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAFAYETTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-BYRD_MS_8H
+    code: CANDIDACY-USA-FL-COUNTY_LAFAYETTE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-BYRD_MS_8H
     attributes:
       status: active
       participation: active
@@ -54,25 +54,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_LAFAYETTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAFAYETTE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-BYRD_MS_8H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAFAYETTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_LAFAYETTE-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-LAFAYETTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAFAYETTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAFAYETTE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAFAYETTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAFAYETTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_LAFAYETTE-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-ADAMS_AN_3M
     attributes:
@@ -81,7 +81,7 @@ groups:
       first_name: Anthony
       last_name: Adams
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAFAYETTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-ADAMS_AN_3M
+    code: CANDIDACY-USA-FL-COUNTY_LAFAYETTE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-ADAMS_AN_3M
     attributes:
       status: active
       participation: active
@@ -90,25 +90,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_LAFAYETTE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAFAYETTE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-ADAMS_AN_3M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-LAFAYETTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAFAYETTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-DRIVER_DR_5B
     attributes:
@@ -117,30 +117,30 @@ groups:
       first_name: Darren
       last_name: Driver
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-DRIVER_DR_5B
+    code: CANDIDACY-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-DRIVER_DR_5B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-DRIVER_DR_5B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-LAFAYETTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAFAYETTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-MCCRAY_MR_3P
     attributes:
@@ -150,30 +150,30 @@ groups:
       middle_name: Anne Koon
       last_name: McCray
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-MCCRAY_MR_3P
+    code: CANDIDACY-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-MCCRAY_MR_3P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-MCCRAY_MR_3P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-LAFAYETTE
   - type: Race
-    code: RACE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_LAFAYETTE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-FOLSOM_KR_4W
     attributes:
@@ -182,10 +182,10 @@ groups:
       first_name: Kristyn
       last_name: Folsom
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-FOLSOM_KR_4W
+    code: CANDIDACY-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-FOLSOM_KR_4W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_LAFAYETTE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-FOLSOM_KR_4W

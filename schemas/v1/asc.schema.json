@@ -555,10 +555,11 @@
             "attributes": {
               "type": "object",
               "properties": {
-                "code": {
+                "fips": {
                   "anyOf": [
                     {
-                      "type": "string"
+                      "type": "string",
+                      "pattern": "^[0-9]{5}$"
                     },
                     {
                       "type": "null"
@@ -714,6 +715,96 @@
                   "$ref": "#/$defs/reference"
                 },
                 "year": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Image"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "alt_text": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "credit": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "source_url": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "url": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {},
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "ImagePlacement"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "position": {
+                  "type": "integer"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "image": {
+                  "$ref": "#/$defs/reference"
+                },
+                "subject": {
                   "$ref": "#/$defs/reference"
                 }
               },
@@ -1038,36 +1129,6 @@
                   ]
                 },
                 "middle_name": {
-                  "anyOf": [
-                    {
-                      "type": "string"
-                    },
-                    {
-                      "type": "null"
-                    }
-                  ]
-                },
-                "portrait_credit": {
-                  "anyOf": [
-                    {
-                      "type": "string"
-                    },
-                    {
-                      "type": "null"
-                    }
-                  ]
-                },
-                "portrait_source_url": {
-                  "anyOf": [
-                    {
-                      "type": "string"
-                    },
-                    {
-                      "type": "null"
-                    }
-                  ]
-                },
-                "portrait_url": {
                   "anyOf": [
                     {
                       "type": "string"

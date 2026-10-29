@@ -21,22 +21,22 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_BRONX-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_BRONX
+    code: OFFICE-USA-NY-COUNTY_BRONX-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_BRONX
     attributes:
       seat_code: 1ST_MUNICIPAL_COURT_DISTRICT_BRONX
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-BRONX
   - type: Race
-    code: RACE-USA-NY-COUNTY_BRONX-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_BRONX-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_BRONX-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_BRONX-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 1. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_BRONX-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_BRONX-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_BRONX
+      office: OFFICE-USA-NY-COUNTY_BRONX-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_BRONX
   - type: Person
     code: PERSON-MORALES_JD_9Q
     attributes:
@@ -46,7 +46,7 @@ groups:
       middle_name: L.
       last_name: Morales
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_BRONX-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_BRONX-2026_GENERAL-MORALES_JD_9Q
+    code: CANDIDACY-USA-NY-COUNTY_BRONX-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_BRONX-2026_GENERAL-MORALES_JD_9Q
     attributes:
       status: active
       participation: active
@@ -55,26 +55,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_BRONX-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_BRONX-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_BRONX-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_BRONX-2026_GENERAL
       person: PERSON-MORALES_JD_9Q
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_BRONX-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_BRONX
+    code: OFFICE-USA-NY-COUNTY_BRONX-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_BRONX
     attributes:
       seat_code: 2ND_MUNICIPAL_COURT_DISTRICT_BRONX
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-BRONX
   - type: Race
-    code: RACE-USA-NY-COUNTY_BRONX-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_BRONX-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_BRONX-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_BRONX-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 1. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_BRONX-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_BRONX-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_BRONX
+      office: OFFICE-USA-NY-COUNTY_BRONX-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_BRONX
   - type: Person
     code: PERSON-COLLINS_SEDEY_SR_5Q
     attributes:
@@ -84,7 +84,7 @@ groups:
       middle_name: A.
       last_name: Collins-Sedey
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_BRONX-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_BRONX-2026_GENERAL-COLLINS_SEDEY_SR_5Q
+    code: CANDIDACY-USA-NY-COUNTY_BRONX-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_BRONX-2026_GENERAL-COLLINS_SEDEY_SR_5Q
     attributes:
       status: active
       participation: active
@@ -93,7 +93,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_BRONX-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-2ND_MUNICIPAL_COURT_DISTRICT_BRONX-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_BRONX-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_BRONX-2026_GENERAL
       person: PERSON-COLLINS_SEDEY_SR_5Q
 - records:
   - type: Office

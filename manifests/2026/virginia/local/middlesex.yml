@@ -7,16 +7,16 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_MIDDLESEX-2026_GENERAL
+  code: ELECTION-USA-VA-URBANNA-2026_GENERAL
   attributes:
-    name: Middlesex County General Election 2026
+    name: Urbanna General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-MIDDLESEX
+    jurisdiction: MUNICIPALITY-USA-VA-URBANNA
     year: YEAR-2026
 - type: Election
   code: ELECTION-USA-VA-COUNTY_MIDDLESEX-2026_SPECIAL
@@ -33,21 +33,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_MIDDLESEX-MAYOR-TOWN_OF_URBANNA
+    code: OFFICE-USA-VA-URBANNA-MAYOR
     attributes:
-      seat_code: TOWN_OF_URBANNA
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-MIDDLESEX
+      jurisdiction: MUNICIPALITY-USA-VA-URBANNA
   - type: Race
-    code: RACE-USA-VA-COUNTY_MIDDLESEX-MAYOR-TOWN_OF_URBANNA-2026_GENERAL
+    code: RACE-USA-VA-URBANNA-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_MIDDLESEX-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_MIDDLESEX-MAYOR-TOWN_OF_URBANNA
+      election: ELECTION-USA-VA-URBANNA-2026_GENERAL
+      office: OFFICE-USA-VA-URBANNA-MAYOR
   - type: Person
     code: PERSON-WILSON_RB_7F
     attributes:
@@ -57,30 +56,29 @@ groups:
       middle_name: E. "Robbie"
       last_name: Wilson, III
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-MAYOR-TOWN_OF_URBANNA-2026_GENERAL-WILSON_RB_7F
+    code: CANDIDACY-USA-VA-URBANNA-MAYOR-2026_GENERAL-WILSON_RB_7F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MIDDLESEX-MAYOR-TOWN_OF_URBANNA-2026_GENERAL
+      race: RACE-USA-VA-URBANNA-MAYOR-2026_GENERAL
       person: PERSON-WILSON_RB_7F
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL-TOWN_OF_URBANNA
+    code: OFFICE-USA-VA-URBANNA-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_URBANNA
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-MIDDLESEX
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-URBANNA
   - type: Race
-    code: RACE-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL-TOWN_OF_URBANNA-2026_GENERAL
+    code: RACE-USA-VA-URBANNA-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_MIDDLESEX-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL-TOWN_OF_URBANNA
+      election: ELECTION-USA-VA-URBANNA-2026_GENERAL
+      office: OFFICE-USA-VA-URBANNA-COUNCIL_MEMBER
   - type: Person
     code: PERSON-PEARCE_AN_9Z
     attributes:
@@ -90,12 +88,12 @@ groups:
       middle_name: C.
       last_name: Pearce
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL-TOWN_OF_URBANNA-2026_GENERAL-PEARCE_AN_9Z
+    code: CANDIDACY-USA-VA-URBANNA-COUNCIL_MEMBER-2026_GENERAL-PEARCE_AN_9Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL-TOWN_OF_URBANNA-2026_GENERAL
+      race: RACE-USA-VA-URBANNA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PEARCE_AN_9Z
   - type: Person
     code: PERSON-THRIFT_JM_9D
@@ -106,12 +104,12 @@ groups:
       middle_name: B.
       last_name: Thrift
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL-TOWN_OF_URBANNA-2026_GENERAL-THRIFT_JM_9D
+    code: CANDIDACY-USA-VA-URBANNA-COUNCIL_MEMBER-2026_GENERAL-THRIFT_JM_9D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL-TOWN_OF_URBANNA-2026_GENERAL
+      race: RACE-USA-VA-URBANNA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-THRIFT_JM_9D
   - type: Person
     code: PERSON-RYLAND_JH_5C
@@ -122,12 +120,12 @@ groups:
       middle_name: William
       last_name: Ryland III
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL-TOWN_OF_URBANNA-2026_GENERAL-RYLAND_JH_5C
+    code: CANDIDACY-USA-VA-URBANNA-COUNCIL_MEMBER-2026_GENERAL-RYLAND_JH_5C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL-TOWN_OF_URBANNA-2026_GENERAL
+      race: RACE-USA-VA-URBANNA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-RYLAND_JH_5C
   - type: Person
     code: PERSON-POWERS_LS_6A
@@ -138,12 +136,12 @@ groups:
       middle_name: M.
       last_name: Powers
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL-TOWN_OF_URBANNA-2026_GENERAL-POWERS_LS_6A
+    code: CANDIDACY-USA-VA-URBANNA-COUNCIL_MEMBER-2026_GENERAL-POWERS_LS_6A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL-TOWN_OF_URBANNA-2026_GENERAL
+      race: RACE-USA-VA-URBANNA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-POWERS_LS_6A
   - type: Person
     code: PERSON-LOWE_MR_7Q
@@ -154,30 +152,30 @@ groups:
       middle_name: J.
       last_name: Lowe
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL-TOWN_OF_URBANNA-2026_GENERAL-LOWE_MR_7Q
+    code: CANDIDACY-USA-VA-URBANNA-COUNCIL_MEMBER-2026_GENERAL-LOWE_MR_7Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL-TOWN_OF_URBANNA-2026_GENERAL
+      race: RACE-USA-VA-URBANNA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LOWE_MR_7Q
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL_SPECIAL-URBANNA
+    code: OFFICE-USA-VA-COUNTY_MIDDLESEX-COUNCIL_MEMBER-URBANNA
     attributes:
       seat_code: URBANNA
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_SPECIAL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-MIDDLESEX
   - type: Race
-    code: RACE-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL_SPECIAL-URBANNA-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_MIDDLESEX-COUNCIL_MEMBER-URBANNA-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_MIDDLESEX-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL_SPECIAL-URBANNA
+      office: OFFICE-USA-VA-COUNTY_MIDDLESEX-COUNCIL_MEMBER-URBANNA
   - type: Person
     code: PERSON-SNEAD_J_9Z
     attributes:
@@ -187,12 +185,12 @@ groups:
       middle_name: Dan
       last_name: Snead
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL_SPECIAL-URBANNA-2026_SPECIAL-SNEAD_J_9Z
+    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-COUNCIL_MEMBER-URBANNA-2026_SPECIAL-SNEAD_J_9Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL_SPECIAL-URBANNA-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_MIDDLESEX-COUNCIL_MEMBER-URBANNA-2026_SPECIAL
       person: PERSON-SNEAD_J_9Z
   - type: Person
     code: PERSON-MURRAY_R_5G
@@ -203,30 +201,29 @@ groups:
       middle_name: Bruce
       last_name: Murray
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL_SPECIAL-URBANNA-2026_SPECIAL-MURRAY_R_5G
+    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-COUNCIL_MEMBER-URBANNA-2026_SPECIAL-MURRAY_R_5G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MIDDLESEX-MEMBER_TOWN_COUNCIL_SPECIAL-URBANNA-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_MIDDLESEX-COUNCIL_MEMBER-URBANNA-2026_SPECIAL
       person: PERSON-MURRAY_R_5G
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_MIDDLESEX-SHERIFF-MIDDLESEX_COUNTY
+    code: OFFICE-USA-VA-COUNTY_MIDDLESEX-SHERIFF
     attributes:
-      seat_code: MIDDLESEX_COUNTY
       is_active: true
     references:
       position: POSITION-SHERIFF
       jurisdiction: COUNTY-USA-VA-MIDDLESEX
   - type: Race
-    code: RACE-USA-VA-COUNTY_MIDDLESEX-SHERIFF-MIDDLESEX_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_MIDDLESEX-SHERIFF-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_MIDDLESEX-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_MIDDLESEX-SHERIFF-MIDDLESEX_COUNTY
+      office: OFFICE-USA-VA-COUNTY_MIDDLESEX-SHERIFF
   - type: Person
     code: PERSON-LONGEST_BR_8K
     attributes:
@@ -236,12 +233,12 @@ groups:
       middle_name: P.
       last_name: Longest
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-SHERIFF-MIDDLESEX_COUNTY-2026_SPECIAL-LONGEST_BR_8K
+    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-SHERIFF-2026_SPECIAL-LONGEST_BR_8K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MIDDLESEX-SHERIFF-MIDDLESEX_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_MIDDLESEX-SHERIFF-2026_SPECIAL
       person: PERSON-LONGEST_BR_8K
   - type: Person
     code: PERSON-EASTER_CH_2N
@@ -252,12 +249,12 @@ groups:
       middle_name: J.
       last_name: Easter
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-SHERIFF-MIDDLESEX_COUNTY-2026_SPECIAL-EASTER_CH_2N
+    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-SHERIFF-2026_SPECIAL-EASTER_CH_2N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MIDDLESEX-SHERIFF-MIDDLESEX_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_MIDDLESEX-SHERIFF-2026_SPECIAL
       person: PERSON-EASTER_CH_2N
   - type: Person
     code: PERSON-SCHOMBURG_K_9C
@@ -268,12 +265,12 @@ groups:
       middle_name: L.
       last_name: Schomburg
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-SHERIFF-MIDDLESEX_COUNTY-2026_SPECIAL-SCHOMBURG_K_9C
+    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-SHERIFF-2026_SPECIAL-SCHOMBURG_K_9C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MIDDLESEX-SHERIFF-MIDDLESEX_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_MIDDLESEX-SHERIFF-2026_SPECIAL
       person: PERSON-SCHOMBURG_K_9C
   - type: Person
     code: PERSON-JUSTIS_TH_2X
@@ -284,10 +281,10 @@ groups:
       middle_name: G.
       last_name: Justis
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-SHERIFF-MIDDLESEX_COUNTY-2026_SPECIAL-JUSTIS_TH_2X
+    code: CANDIDACY-USA-VA-COUNTY_MIDDLESEX-SHERIFF-2026_SPECIAL-JUSTIS_TH_2X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_MIDDLESEX-SHERIFF-MIDDLESEX_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_MIDDLESEX-SHERIFF-2026_SPECIAL
       person: PERSON-JUSTIS_TH_2X

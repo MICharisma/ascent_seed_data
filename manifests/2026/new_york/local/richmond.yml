@@ -21,22 +21,22 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_RICHMOND-JUDGE_OF_THE_CIVIL_COURT_COUNTY-RICHMOND
+    code: OFFICE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-RICHMOND
     attributes:
       seat_code: RICHMOND
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_COUNTY
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-RICHMOND
   - type: Race
-    code: RACE-USA-NY-COUNTY_RICHMOND-JUDGE_OF_THE_CIVIL_COURT_COUNTY-RICHMOND-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-RICHMOND-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 1. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_RICHMOND-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_RICHMOND-JUDGE_OF_THE_CIVIL_COURT_COUNTY-RICHMOND
+      office: OFFICE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-RICHMOND
   - type: Person
     code: PERSON-YOST_GL_7Q
     attributes:
@@ -46,7 +46,7 @@ groups:
       middle_name: A.
       last_name: Yost
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_RICHMOND-JUDGE_OF_THE_CIVIL_COURT_COUNTY-RICHMOND-2026_GENERAL-YOST_GL_7Q
+    code: CANDIDACY-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-RICHMOND-2026_GENERAL-YOST_GL_7Q
     attributes:
       status: active
       participation: active
@@ -55,7 +55,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_RICHMOND-JUDGE_OF_THE_CIVIL_COURT_COUNTY-RICHMOND-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-RICHMOND-2026_GENERAL
       person: PERSON-YOST_GL_7Q
   - type: Person
     code: PERSON-GOLDEN_TS_2D
@@ -65,7 +65,7 @@ groups:
       first_name: Tashanna
       last_name: Golden
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_RICHMOND-JUDGE_OF_THE_CIVIL_COURT_COUNTY-RICHMOND-2026_GENERAL-GOLDEN_TS_2D
+    code: CANDIDACY-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-RICHMOND-2026_GENERAL-GOLDEN_TS_2D
     attributes:
       status: active
       participation: active
@@ -74,26 +74,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_RICHMOND-JUDGE_OF_THE_CIVIL_COURT_COUNTY-RICHMOND-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-RICHMOND-2026_GENERAL
       person: PERSON-GOLDEN_TS_2D
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_RICHMOND-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND
+    code: OFFICE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND
     attributes:
       seat_code: 1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-RICHMOND
   - type: Race
-    code: RACE-USA-NY-COUNTY_RICHMOND-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 1. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_RICHMOND-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_RICHMOND-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND
+      office: OFFICE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND
   - type: Person
     code: PERSON-LOW_CR_4F
     attributes:
@@ -103,7 +103,7 @@ groups:
       middle_name: Ann
       last_name: Low
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_RICHMOND-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND-2026_GENERAL-LOW_CR_4F
+    code: CANDIDACY-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND-2026_GENERAL-LOW_CR_4F
     attributes:
       status: active
       participation: active
@@ -115,7 +115,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-REPUBLICAN
     references:
-      race: RACE-USA-NY-COUNTY_RICHMOND-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND-2026_GENERAL
       person: PERSON-LOW_CR_4F
   - type: Person
     code: PERSON-VITUCCI_JH_5K
@@ -126,7 +126,7 @@ groups:
       middle_name: A.
       last_name: Vitucci
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_RICHMOND-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND-2026_GENERAL-VITUCCI_JH_5K
+    code: CANDIDACY-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND-2026_GENERAL-VITUCCI_JH_5K
     attributes:
       status: active
       participation: active
@@ -135,5 +135,5 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_RICHMOND-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND-2026_GENERAL
       person: PERSON-VITUCCI_JH_5K

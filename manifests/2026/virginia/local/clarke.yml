@@ -18,24 +18,36 @@ records:
   references:
     jurisdiction: COUNTY-USA-VA-CLARKE
     year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-BERRYVILLE-2026_GENERAL
+  attributes:
+    name: Berryville General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-BERRYVILLE
+    year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CLARKE-MEMBER_TOWN_COUNCIL-BERRYVILLE_WARD_2
+    code: OFFICE-USA-VA-COUNTY_CLARKE-COUNCIL_MEMBER-BERRYVILLE_WARD_2
     attributes:
       seat_code: BERRYVILLE_WARD_2
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-CLARKE
   - type: Race
-    code: RACE-USA-VA-COUNTY_CLARKE-MEMBER_TOWN_COUNCIL-BERRYVILLE_WARD_2-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_CLARKE-COUNCIL_MEMBER-BERRYVILLE_WARD_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_CLARKE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_CLARKE-MEMBER_TOWN_COUNCIL-BERRYVILLE_WARD_2
+      office: OFFICE-USA-VA-COUNTY_CLARKE-COUNCIL_MEMBER-BERRYVILLE_WARD_2
   - type: Person
     code: PERSON-IRISH_PT_3V
     attributes:
@@ -45,30 +57,30 @@ groups:
       middle_name: M.
       last_name: Irish
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CLARKE-MEMBER_TOWN_COUNCIL-BERRYVILLE_WARD_2-2026_GENERAL-IRISH_PT_3V
+    code: CANDIDACY-USA-VA-COUNTY_CLARKE-COUNCIL_MEMBER-BERRYVILLE_WARD_2-2026_GENERAL-IRISH_PT_3V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CLARKE-MEMBER_TOWN_COUNCIL-BERRYVILLE_WARD_2-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_CLARKE-COUNCIL_MEMBER-BERRYVILLE_WARD_2-2026_GENERAL
       person: PERSON-IRISH_PT_3V
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CLARKE-MEMBER_TOWN_COUNCIL-BERRYVILLE_WARD_4
+    code: OFFICE-USA-VA-COUNTY_CLARKE-COUNCIL_MEMBER-BERRYVILLE_WARD_4
     attributes:
       seat_code: BERRYVILLE_WARD_4
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-VA-CLARKE
   - type: Race
-    code: RACE-USA-VA-COUNTY_CLARKE-MEMBER_TOWN_COUNCIL-BERRYVILLE_WARD_4-2026_GENERAL
+    code: RACE-USA-VA-COUNTY_CLARKE-COUNCIL_MEMBER-BERRYVILLE_WARD_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_CLARKE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_CLARKE-MEMBER_TOWN_COUNCIL-BERRYVILLE_WARD_4
+      office: OFFICE-USA-VA-COUNTY_CLARKE-COUNCIL_MEMBER-BERRYVILLE_WARD_4
   - type: Person
     code: PERSON-TIBBENS_RY_2N
     attributes:
@@ -77,30 +89,29 @@ groups:
       first_name: Ryan
       last_name: Tibbens
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CLARKE-MEMBER_TOWN_COUNCIL-BERRYVILLE_WARD_4-2026_GENERAL-TIBBENS_RY_2N
+    code: CANDIDACY-USA-VA-COUNTY_CLARKE-COUNCIL_MEMBER-BERRYVILLE_WARD_4-2026_GENERAL-TIBBENS_RY_2N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CLARKE-MEMBER_TOWN_COUNCIL-BERRYVILLE_WARD_4-2026_GENERAL
+      race: RACE-USA-VA-COUNTY_CLARKE-COUNCIL_MEMBER-BERRYVILLE_WARD_4-2026_GENERAL
       person: PERSON-TIBBENS_RY_2N
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_CLARKE-VICE_MAYOR-TOWN_OF_BERRYVILLE
+    code: OFFICE-USA-VA-BERRYVILLE-VICE_MAYOR
     attributes:
-      seat_code: TOWN_OF_BERRYVILLE
       is_active: true
     references:
       position: POSITION-VICE_MAYOR
-      jurisdiction: COUNTY-USA-VA-CLARKE
+      jurisdiction: MUNICIPALITY-USA-VA-BERRYVILLE
   - type: Race
-    code: RACE-USA-VA-COUNTY_CLARKE-VICE_MAYOR-TOWN_OF_BERRYVILLE-2026_GENERAL
+    code: RACE-USA-VA-BERRYVILLE-VICE_MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_CLARKE-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_CLARKE-VICE_MAYOR-TOWN_OF_BERRYVILLE
+      election: ELECTION-USA-VA-BERRYVILLE-2026_GENERAL
+      office: OFFICE-USA-VA-BERRYVILLE-VICE_MAYOR
   - type: Person
     code: PERSON-GIBSON_ER_9P
     attributes:
@@ -110,10 +121,10 @@ groups:
       middle_name: L.
       last_name: Gibson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_CLARKE-VICE_MAYOR-TOWN_OF_BERRYVILLE-2026_GENERAL-GIBSON_ER_9P
+    code: CANDIDACY-USA-VA-BERRYVILLE-VICE_MAYOR-2026_GENERAL-GIBSON_ER_9P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_CLARKE-VICE_MAYOR-TOWN_OF_BERRYVILLE-2026_GENERAL
+      race: RACE-USA-VA-BERRYVILLE-VICE_MAYOR-2026_GENERAL
       person: PERSON-GIBSON_ER_9P

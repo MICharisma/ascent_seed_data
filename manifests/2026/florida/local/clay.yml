@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-ARMSTRONG_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARMSTRONG_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: ARMSTRONG_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-ARMSTRONG_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-ARMSTRONG_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARMSTRONG_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-ARMSTRONG_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARMSTRONG_CDD_SEAT_2
   - type: Person
     code: PERSON-BROWN_CM_4M
     attributes:
@@ -44,30 +44,30 @@ groups:
       first_name: Cameron
       last_name: Brown
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-ARMSTRONG_CDD-SEAT_2-2026_GENERAL-BROWN_CM_4M
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARMSTRONG_CDD_SEAT_2-2026_GENERAL-BROWN_CM_4M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-ARMSTRONG_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARMSTRONG_CDD_SEAT_2-2026_GENERAL
       person: PERSON-BROWN_CM_4M
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-EDWARDS_LR_9Y
     attributes:
@@ -77,7 +77,7 @@ groups:
       middle_name: A
       last_name: Edwards
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-EDWARDS_LR_9Y
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-EDWARDS_LR_9Y
     attributes:
       status: active
       participation: active
@@ -86,7 +86,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-EDWARDS_LR_9Y
   - type: Person
     code: PERSON-SMOAK_LL_3H
@@ -96,7 +96,7 @@ groups:
       first_name: Lolita
       last_name: Smoak
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-SMOAK_LL_3H
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-SMOAK_LL_3H
     attributes:
       status: active
       participation: active
@@ -105,25 +105,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-SMOAK_LL_3H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-CONDON_BT_5Q
     attributes:
@@ -133,7 +133,7 @@ groups:
       middle_name: Sistrunk
       last_name: Condon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-CONDON_BT_5Q
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-CONDON_BT_5Q
     attributes:
       status: active
       participation: active
@@ -142,25 +142,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-CONDON_BT_5Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
     attributes:
       seat_code: SEAT_1
       is_active: true
     references:
-      position: POSITION-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
   - type: Person
     code: PERSON-NGUYEN_TM_7K
     attributes:
@@ -169,30 +169,30 @@ groups:
       first_name: Timothy
       last_name: Nguyen
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_1-2026_GENERAL-NGUYEN_TM_7K
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL-NGUYEN_TM_7K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
       person: PERSON-NGUYEN_TM_7K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2
     attributes:
       seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2
   - type: Person
     code: PERSON-ADLER_MC_4S
     attributes:
@@ -201,30 +201,30 @@ groups:
       first_name: Michael
       last_name: Adler
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_2-2026_GENERAL-ADLER_MC_4S
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2-2026_GENERAL-ADLER_MC_4S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2-2026_GENERAL
       person: PERSON-ADLER_MC_4S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3
     attributes:
       seat_code: SEAT_3
       is_active: true
     references:
-      position: POSITION-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3
   - type: Person
     code: PERSON-MCINTYRE_GR_9P
     attributes:
@@ -234,30 +234,30 @@ groups:
       middle_name: C
       last_name: McIntyre
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_3-2026_GENERAL-MCINTYRE_GR_9P
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL-MCINTYRE_GR_9P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL
       person: PERSON-MCINTYRE_GR_9P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_4
     attributes:
       seat_code: SEAT_4
       is_active: true
     references:
-      position: POSITION-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_4
   - type: Person
     code: PERSON-COMBASS_DN_5V
     attributes:
@@ -266,30 +266,30 @@ groups:
       first_name: Duane
       last_name: Combass
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_4-2026_GENERAL-COMBASS_DN_5V
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_4-2026_GENERAL-COMBASS_DN_5V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_4-2026_GENERAL
       person: PERSON-COMBASS_DN_5V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
     attributes:
       seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
   - type: Person
     code: PERSON-TAYLOR_WS_6F
     attributes:
@@ -299,30 +299,30 @@ groups:
       middle_name: F.
       last_name: Taylor
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_5-2026_GENERAL-TAYLOR_WS_6F
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL-TAYLOR_WS_6F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-CLAY_SOIL_AND_WATER_CONSERVATION_DISTRICT-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
       person: PERSON-TAYLOR_WS_6F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-CROSS_CREEK_NORTH_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CROSS_CREEK_NORTH_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: CROSS_CREEK_NORTH_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-CROSS_CREEK_NORTH_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-CROSS_CREEK_NORTH_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CROSS_CREEK_NORTH_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-CROSS_CREEK_NORTH_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CROSS_CREEK_NORTH_CDD_SEAT_4
   - type: Person
     code: PERSON-GOSS_RN_9E
     attributes:
@@ -331,30 +331,30 @@ groups:
       first_name: Randy
       last_name: Goss
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-CROSS_CREEK_NORTH_CDD-SEAT_4-2026_GENERAL-GOSS_RN_9E
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CROSS_CREEK_NORTH_CDD_SEAT_4-2026_GENERAL-GOSS_RN_9E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-CROSS_CREEK_NORTH_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CROSS_CREEK_NORTH_CDD_SEAT_4-2026_GENERAL
       person: PERSON-GOSS_RN_9E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-CROSS_CREEK_NORTH_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CROSS_CREEK_NORTH_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: CROSS_CREEK_NORTH_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-CROSS_CREEK_NORTH_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-CROSS_CREEK_NORTH_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CROSS_CREEK_NORTH_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-CROSS_CREEK_NORTH_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CROSS_CREEK_NORTH_CDD_SEAT_5
   - type: Person
     code: PERSON-ABBOTT_MT_9D
     attributes:
@@ -364,30 +364,30 @@ groups:
       middle_name: J.
       last_name: Abbott
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-CROSS_CREEK_NORTH_CDD-SEAT_5-2026_GENERAL-ABBOTT_MT_9D
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CROSS_CREEK_NORTH_CDD_SEAT_5-2026_GENERAL-ABBOTT_MT_9D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-CROSS_CREEK_NORTH_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CROSS_CREEK_NORTH_CDD_SEAT_5-2026_GENERAL
       person: PERSON-ABBOTT_MT_9D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-DOUBLE_BRANCH_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DOUBLE_BRANCH_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: DOUBLE_BRANCH_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-DOUBLE_BRANCH_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-DOUBLE_BRANCH_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DOUBLE_BRANCH_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-DOUBLE_BRANCH_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DOUBLE_BRANCH_CDD_SEAT_2
   - type: Person
     code: PERSON-LANIER_AN_6K
     attributes:
@@ -396,30 +396,30 @@ groups:
       first_name: Andre
       last_name: Lanier
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-DOUBLE_BRANCH_CDD-SEAT_2-2026_GENERAL-LANIER_AN_6K
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DOUBLE_BRANCH_CDD_SEAT_2-2026_GENERAL-LANIER_AN_6K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-DOUBLE_BRANCH_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DOUBLE_BRANCH_CDD_SEAT_2-2026_GENERAL
       person: PERSON-LANIER_AN_6K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-DOUBLE_BRANCH_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DOUBLE_BRANCH_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: DOUBLE_BRANCH_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-DOUBLE_BRANCH_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-DOUBLE_BRANCH_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DOUBLE_BRANCH_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-DOUBLE_BRANCH_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DOUBLE_BRANCH_CDD_SEAT_4
   - type: Person
     code: PERSON-NELSEN_CN_2B
     attributes:
@@ -428,30 +428,30 @@ groups:
       first_name: Cindy
       last_name: Nelsen
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-DOUBLE_BRANCH_CDD-SEAT_4-2026_GENERAL-NELSEN_CN_2B
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DOUBLE_BRANCH_CDD_SEAT_4-2026_GENERAL-NELSEN_CN_2B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-DOUBLE_BRANCH_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DOUBLE_BRANCH_CDD_SEAT_4-2026_GENERAL
       person: PERSON-NELSEN_CN_2B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: FLEMING_ISLAND_PLANTATION_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-FLEMING_ISLAND_PLANTATION_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_1
   - type: Person
     code: PERSON-GLICKMAN_MC_8F
     attributes:
@@ -460,30 +460,30 @@ groups:
       first_name: Michael
       last_name: Glickman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_1-2026_GENERAL-GLICKMAN_MC_8F
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_1-2026_GENERAL-GLICKMAN_MC_8F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_1-2026_GENERAL
       person: PERSON-GLICKMAN_MC_8F
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: FLEMING_ISLAND_PLANTATION_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-FLEMING_ISLAND_PLANTATION_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_2
   - type: Person
     code: PERSON-ASHFORD_RD_8Y
     attributes:
@@ -492,30 +492,30 @@ groups:
       first_name: Rodney
       last_name: Ashford
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_2-2026_GENERAL-ASHFORD_RD_8Y
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_2-2026_GENERAL-ASHFORD_RD_8Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_2-2026_GENERAL
       person: PERSON-ASHFORD_RD_8Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: FLEMING_ISLAND_PLANTATION_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-FLEMING_ISLAND_PLANTATION_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_5
   - type: Person
     code: PERSON-METHENY_DN_6Q
     attributes:
@@ -524,12 +524,12 @@ groups:
       first_name: Dennis
       last_name: Metheny
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_5-2026_GENERAL-METHENY_DN_6Q
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_5-2026_GENERAL-METHENY_DN_6Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_5-2026_GENERAL
       person: PERSON-METHENY_DN_6Q
   - type: Person
     code: PERSON-SZAFRANSKI_MC_4A
@@ -539,30 +539,30 @@ groups:
       first_name: Michelle
       last_name: Szafranski
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_5-2026_GENERAL-SZAFRANSKI_MC_4A
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_5-2026_GENERAL-SZAFRANSKI_MC_4A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-FLEMING_ISLAND_PLANTATION_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_5-2026_GENERAL
       person: PERSON-SZAFRANSKI_MC_4A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: LAKE_ASBURY_MSBD_SEAT_2
       is_active: true
     references:
-      position: POSITION-LAKE_ASBURY_MSBD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_2
   - type: Person
     code: PERSON-PENCE_LW_4J
     attributes:
@@ -572,30 +572,30 @@ groups:
       middle_name: F.
       last_name: Pence Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_2-2026_GENERAL-PENCE_LW_4J
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_2-2026_GENERAL-PENCE_LW_4J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_2-2026_GENERAL
       person: PERSON-PENCE_LW_4J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: LAKE_ASBURY_MSBD_SEAT_3
       is_active: true
     references:
-      position: POSITION-LAKE_ASBURY_MSBD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_3
   - type: Person
     code: PERSON-MCMILLAN_MR_6E
     attributes:
@@ -604,30 +604,30 @@ groups:
       first_name: Mark
       last_name: McMillan
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_3-2026_GENERAL-MCMILLAN_MR_6E
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_3-2026_GENERAL-MCMILLAN_MR_6E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_3-2026_GENERAL
       person: PERSON-MCMILLAN_MR_6E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: LAKE_ASBURY_MSBD_SEAT_4
       is_active: true
     references:
-      position: POSITION-LAKE_ASBURY_MSBD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_4
   - type: Person
     code: PERSON-POIDEVANT_DN_6G
     attributes:
@@ -637,30 +637,30 @@ groups:
       middle_name: Owens
       last_name: Poidevant
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_4-2026_GENERAL-POIDEVANT_DN_6G
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_4-2026_GENERAL-POIDEVANT_DN_6G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_4-2026_GENERAL
       person: PERSON-POIDEVANT_DN_6G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: LAKE_ASBURY_MSBD_SEAT_5
       is_active: true
     references:
-      position: POSITION-LAKE_ASBURY_MSBD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_5
   - type: Person
     code: PERSON-EBLING_RN_8Y
     attributes:
@@ -670,30 +670,30 @@ groups:
       middle_name: L.
       last_name: Ebling
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_5-2026_GENERAL-EBLING_RN_8Y
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_5-2026_GENERAL-EBLING_RN_8Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_5-2026_GENERAL
       person: PERSON-EBLING_RN_8Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_6
+    code: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_6
     attributes:
-      seat_code: SEAT_6
+      seat_code: LAKE_ASBURY_MSBD_SEAT_6
       is_active: true
     references:
-      position: POSITION-LAKE_ASBURY_MSBD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_6-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_6-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_6
+      office: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_6
   - type: Person
     code: PERSON-WANTAGE_JN_8P
     attributes:
@@ -702,30 +702,30 @@ groups:
       first_name: Janet
       last_name: Wantage
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_6-2026_GENERAL-WANTAGE_JN_8P
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_6-2026_GENERAL-WANTAGE_JN_8P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_6-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_6-2026_GENERAL
       person: PERSON-WANTAGE_JN_8P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_8
+    code: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_8
     attributes:
-      seat_code: SEAT_8
+      seat_code: LAKE_ASBURY_MSBD_SEAT_8
       is_active: true
     references:
-      position: POSITION-LAKE_ASBURY_MSBD
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_8-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_8-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_8
+      office: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_8
   - type: Person
     code: PERSON-CLEMONS_MK_7V
     attributes:
@@ -734,30 +734,30 @@ groups:
       first_name: Mike
       last_name: Clemons
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_8-2026_GENERAL-CLEMONS_MK_7V
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_8-2026_GENERAL-CLEMONS_MK_7V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-LAKE_ASBURY_MSBD-SEAT_8-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_8-2026_GENERAL
       person: PERSON-CLEMONS_MK_7V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-MAGNOLIA_WEST_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: MAGNOLIA_WEST_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-MAGNOLIA_WEST_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-MAGNOLIA_WEST_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-MAGNOLIA_WEST_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_2
   - type: Person
     code: PERSON-RIEGLER_CY_9A
     attributes:
@@ -767,30 +767,30 @@ groups:
       middle_name: Renee
       last_name: Riegler
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-MAGNOLIA_WEST_CDD-SEAT_2-2026_GENERAL-RIEGLER_CY_9A
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_2-2026_GENERAL-RIEGLER_CY_9A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-MAGNOLIA_WEST_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_2-2026_GENERAL
       person: PERSON-RIEGLER_CY_9A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-MAGNOLIA_WEST_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: MAGNOLIA_WEST_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-MAGNOLIA_WEST_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-MAGNOLIA_WEST_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-MAGNOLIA_WEST_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_3
   - type: Person
     code: PERSON-LINDE_JD_3X
     attributes:
@@ -799,12 +799,12 @@ groups:
       first_name: Judith
       last_name: Linde
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-MAGNOLIA_WEST_CDD-SEAT_3-2026_GENERAL-LINDE_JD_3X
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_3-2026_GENERAL-LINDE_JD_3X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-MAGNOLIA_WEST_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_3-2026_GENERAL
       person: PERSON-LINDE_JD_3X
   - type: Person
     code: PERSON-ROVEGNO_GF_6V
@@ -814,30 +814,30 @@ groups:
       first_name: Geoffrey
       last_name: Rovegno
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-MAGNOLIA_WEST_CDD-SEAT_3-2026_GENERAL-ROVEGNO_GF_6V
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_3-2026_GENERAL-ROVEGNO_GF_6V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-MAGNOLIA_WEST_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_3-2026_GENERAL
       person: PERSON-ROVEGNO_GF_6V
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-MIDDLE_VILLAGE_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: MIDDLE_VILLAGE_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-MIDDLE_VILLAGE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-MIDDLE_VILLAGE_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-MIDDLE_VILLAGE_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_1
   - type: Person
     code: PERSON-MIFSUD_SH_7Z
     attributes:
@@ -847,30 +847,30 @@ groups:
       middle_name: R.
       last_name: Mifsud
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-MIDDLE_VILLAGE_CDD-SEAT_1-2026_GENERAL-MIFSUD_SH_7Z
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_1-2026_GENERAL-MIFSUD_SH_7Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-MIDDLE_VILLAGE_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_1-2026_GENERAL
       person: PERSON-MIFSUD_SH_7Z
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-MIDDLE_VILLAGE_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: MIDDLE_VILLAGE_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-MIDDLE_VILLAGE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-MIDDLE_VILLAGE_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-MIDDLE_VILLAGE_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_3
   - type: Person
     code: PERSON-MARX_ER_4A
     attributes:
@@ -880,30 +880,30 @@ groups:
       middle_name: K
       last_name: Marx
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-MIDDLE_VILLAGE_CDD-SEAT_3-2026_GENERAL-MARX_ER_4A
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_3-2026_GENERAL-MARX_ER_4A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-MIDDLE_VILLAGE_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_3-2026_GENERAL
       person: PERSON-MARX_ER_4A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-MIDDLE_VILLAGE_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: MIDDLE_VILLAGE_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-MIDDLE_VILLAGE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-MIDDLE_VILLAGE_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-MIDDLE_VILLAGE_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_5
   - type: Person
     code: PERSON-ARNAU_JL_4X
     attributes:
@@ -913,30 +913,30 @@ groups:
       middle_name: A.
       last_name: Arnau
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-MIDDLE_VILLAGE_CDD-SEAT_5-2026_GENERAL-ARNAU_JL_4X
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_5-2026_GENERAL-ARNAU_JL_4X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-MIDDLE_VILLAGE_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_5-2026_GENERAL
       person: PERSON-ARNAU_JL_4X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-PINE_RIDGE_PLANTATION_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINE_RIDGE_PLANTATION_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: PINE_RIDGE_PLANTATION_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-PINE_RIDGE_PLANTATION_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-PINE_RIDGE_PLANTATION_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINE_RIDGE_PLANTATION_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-PINE_RIDGE_PLANTATION_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINE_RIDGE_PLANTATION_CDD_SEAT_1
   - type: Person
     code: PERSON-CHAMBERLAIN_DN_8R
     attributes:
@@ -945,30 +945,30 @@ groups:
       first_name: Dennis
       last_name: Chamberlain
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-PINE_RIDGE_PLANTATION_CDD-SEAT_1-2026_GENERAL-CHAMBERLAIN_DN_8R
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINE_RIDGE_PLANTATION_CDD_SEAT_1-2026_GENERAL-CHAMBERLAIN_DN_8R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-PINE_RIDGE_PLANTATION_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINE_RIDGE_PLANTATION_CDD_SEAT_1-2026_GENERAL
       person: PERSON-CHAMBERLAIN_DN_8R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-PINE_RIDGE_PLANTATION_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINE_RIDGE_PLANTATION_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: PINE_RIDGE_PLANTATION_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-PINE_RIDGE_PLANTATION_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-PINE_RIDGE_PLANTATION_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINE_RIDGE_PLANTATION_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-PINE_RIDGE_PLANTATION_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINE_RIDGE_PLANTATION_CDD_SEAT_3
   - type: Person
     code: PERSON-LEWIS_JF_5J
     attributes:
@@ -977,30 +977,30 @@ groups:
       first_name: Jeffrey
       last_name: Lewis
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-PINE_RIDGE_PLANTATION_CDD-SEAT_3-2026_GENERAL-LEWIS_JF_5J
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINE_RIDGE_PLANTATION_CDD_SEAT_3-2026_GENERAL-LEWIS_JF_5J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-PINE_RIDGE_PLANTATION_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINE_RIDGE_PLANTATION_CDD_SEAT_3-2026_GENERAL
       person: PERSON-LEWIS_JF_5J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-RIDGEWOOD_TRAILS_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIDGEWOOD_TRAILS_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: RIDGEWOOD_TRAILS_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-RIDGEWOOD_TRAILS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-RIDGEWOOD_TRAILS_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIDGEWOOD_TRAILS_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-RIDGEWOOD_TRAILS_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIDGEWOOD_TRAILS_CDD_SEAT_2
   - type: Person
     code: PERSON-WETHERBEE_MC_3X
     attributes:
@@ -1009,30 +1009,30 @@ groups:
       first_name: Michael
       last_name: Wetherbee
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-RIDGEWOOD_TRAILS_CDD-SEAT_2-2026_GENERAL-WETHERBEE_MC_3X
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIDGEWOOD_TRAILS_CDD_SEAT_2-2026_GENERAL-WETHERBEE_MC_3X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-RIDGEWOOD_TRAILS_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIDGEWOOD_TRAILS_CDD_SEAT_2-2026_GENERAL
       person: PERSON-WETHERBEE_MC_3X
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-RIDGEWOOD_TRAILS_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIDGEWOOD_TRAILS_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: RIDGEWOOD_TRAILS_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-RIDGEWOOD_TRAILS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-RIDGEWOOD_TRAILS_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIDGEWOOD_TRAILS_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-RIDGEWOOD_TRAILS_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIDGEWOOD_TRAILS_CDD_SEAT_4
   - type: Person
     code: PERSON-MILLER_JC_4C
     attributes:
@@ -1042,30 +1042,30 @@ groups:
       middle_name: '"Jacqui" Proctor'
       last_name: Miller
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-RIDGEWOOD_TRAILS_CDD-SEAT_4-2026_GENERAL-MILLER_JC_4C
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIDGEWOOD_TRAILS_CDD_SEAT_4-2026_GENERAL-MILLER_JC_4C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-RIDGEWOOD_TRAILS_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIDGEWOOD_TRAILS_CDD_SEAT_4-2026_GENERAL
       person: PERSON-MILLER_JC_4C
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-ROLLING_HILLS_CDD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ROLLING_HILLS_CDD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: ROLLING_HILLS_CDD_SEAT_2
       is_active: true
     references:
-      position: POSITION-ROLLING_HILLS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-ROLLING_HILLS_CDD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ROLLING_HILLS_CDD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-ROLLING_HILLS_CDD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ROLLING_HILLS_CDD_SEAT_2
   - type: Person
     code: PERSON-CORMIER_HL_5P
     attributes:
@@ -1075,30 +1075,30 @@ groups:
       middle_name: J.
       last_name: Cormier
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-ROLLING_HILLS_CDD-SEAT_2-2026_GENERAL-CORMIER_HL_5P
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ROLLING_HILLS_CDD_SEAT_2-2026_GENERAL-CORMIER_HL_5P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-ROLLING_HILLS_CDD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ROLLING_HILLS_CDD_SEAT_2-2026_GENERAL
       person: PERSON-CORMIER_HL_5P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-SKIPPER_ER_3P
     attributes:
@@ -1107,30 +1107,30 @@ groups:
       first_name: Erin
       last_name: Skipper
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-SKIPPER_ER_3P
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-SKIPPER_ER_3P
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-SKIPPER_ER_3P
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-HANSON_MC_9D
     attributes:
@@ -1139,30 +1139,30 @@ groups:
       first_name: Michele
       last_name: Hanson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-HANSON_MC_9D
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-HANSON_MC_9D
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-HANSON_MC_9D
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-GILHOUSEN_AS_4Y
     attributes:
@@ -1172,30 +1172,30 @@ groups:
       middle_name: Hutchings
       last_name: Gilhousen
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-GILHOUSEN_AS_4Y
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-GILHOUSEN_AS_4Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-GILHOUSEN_AS_4Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: SOUTH_VILLAGE_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-SOUTH_VILLAGE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_1
   - type: Person
     code: PERSON-BENNETT_CR_3J
     attributes:
@@ -1205,30 +1205,30 @@ groups:
       middle_name: '"CB"'
       last_name: Bennett
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_1-2026_GENERAL-BENNETT_CR_3J
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_1-2026_GENERAL-BENNETT_CR_3J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_1-2026_GENERAL
       person: PERSON-BENNETT_CR_3J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: SOUTH_VILLAGE_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-SOUTH_VILLAGE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_3
   - type: Person
     code: PERSON-LEWIS_LS_4H
     attributes:
@@ -1238,12 +1238,12 @@ groups:
       middle_name: G.
       last_name: Lewis
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_3-2026_GENERAL-LEWIS_LS_4H
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_3-2026_GENERAL-LEWIS_LS_4H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_3-2026_GENERAL
       person: PERSON-LEWIS_LS_4H
   - type: Person
     code: PERSON-MORALES_TJ_8E
@@ -1253,30 +1253,30 @@ groups:
       first_name: TJ
       last_name: Morales
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_3-2026_GENERAL-MORALES_TJ_8E
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_3-2026_GENERAL-MORALES_TJ_8E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_3-2026_GENERAL
       person: PERSON-MORALES_TJ_8E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: SOUTH_VILLAGE_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-SOUTH_VILLAGE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_5
   - type: Person
     code: PERSON-KINCAID_JM_3H
     attributes:
@@ -1285,30 +1285,30 @@ groups:
       first_name: Jim
       last_name: Kincaid
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_5-2026_GENERAL-KINCAID_JM_3H
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_5-2026_GENERAL-KINCAID_JM_3H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-SOUTH_VILLAGE_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_5-2026_GENERAL
       person: PERSON-KINCAID_JM_3H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_3
   - type: Person
     code: PERSON-TABOR_JH_3R
     attributes:
@@ -1317,30 +1317,30 @@ groups:
       first_name: John
       last_name: Tabor
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD-SEAT_3-2026_GENERAL-TABOR_JH_3R
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_3-2026_GENERAL-TABOR_JH_3R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_3-2026_GENERAL
       person: PERSON-TABOR_JH_3R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_4
       is_active: true
     references:
-      position: POSITION-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_4
   - type: Person
     code: PERSON-HINGST_CH_2E
     attributes:
@@ -1349,30 +1349,30 @@ groups:
       first_name: Christie
       last_name: Hingst
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD-SEAT_4-2026_GENERAL-HINGST_CH_2E
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_4-2026_GENERAL-HINGST_CH_2E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_4-2026_GENERAL
       person: PERSON-HINGST_CH_2E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-TWO_CREEKS_CDD-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWO_CREEKS_CDD_SEAT_5
     attributes:
-      seat_code: SEAT_5
+      seat_code: TWO_CREEKS_CDD_SEAT_5
       is_active: true
     references:
-      position: POSITION-TWO_CREEKS_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-TWO_CREEKS_CDD-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWO_CREEKS_CDD_SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-TWO_CREEKS_CDD-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWO_CREEKS_CDD_SEAT_5
   - type: Person
     code: PERSON-MURPHY_JF_2B
     attributes:
@@ -1382,30 +1382,30 @@ groups:
       middle_name: E.
       last_name: Murphy
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-TWO_CREEKS_CDD-SEAT_5-2026_GENERAL-MURPHY_JF_2B
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWO_CREEKS_CDD_SEAT_5-2026_GENERAL-MURPHY_JF_2B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-TWO_CREEKS_CDD-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWO_CREEKS_CDD_SEAT_5-2026_GENERAL
       person: PERSON-MURPHY_JF_2B
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-WILFORD_PRESERVE_CDD-SEAT_1
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_1
     attributes:
-      seat_code: SEAT_1
+      seat_code: WILFORD_PRESERVE_CDD_SEAT_1
       is_active: true
     references:
-      position: POSITION-WILFORD_PRESERVE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-WILFORD_PRESERVE_CDD-SEAT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-WILFORD_PRESERVE_CDD-SEAT_1
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_1
   - type: Person
     code: PERSON-TERRELL_PT_9Y
     attributes:
@@ -1414,12 +1414,12 @@ groups:
       first_name: Patrick
       last_name: Terrell
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-WILFORD_PRESERVE_CDD-SEAT_1-2026_GENERAL-TERRELL_PT_9Y
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_1-2026_GENERAL-TERRELL_PT_9Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-WILFORD_PRESERVE_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_1-2026_GENERAL
       person: PERSON-TERRELL_PT_9Y
   - type: Person
     code: PERSON-TORRES_SH_6Y
@@ -1429,30 +1429,30 @@ groups:
       first_name: Sheila
       last_name: Torres
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-WILFORD_PRESERVE_CDD-SEAT_1-2026_GENERAL-TORRES_SH_6Y
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_1-2026_GENERAL-TORRES_SH_6Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-WILFORD_PRESERVE_CDD-SEAT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_1-2026_GENERAL
       person: PERSON-TORRES_SH_6Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_CLAY-WILFORD_PRESERVE_CDD-SEAT_3
+    code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_3
     attributes:
-      seat_code: SEAT_3
+      seat_code: WILFORD_PRESERVE_CDD_SEAT_3
       is_active: true
     references:
-      position: POSITION-WILFORD_PRESERVE_CDD
+      position: POSITION-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-CLAY
   - type: Race
-    code: RACE-USA-FL-COUNTY_CLAY-WILFORD_PRESERVE_CDD-SEAT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_CLAY-WILFORD_PRESERVE_CDD-SEAT_3
+      office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_3
   - type: Person
     code: PERSON-JOHNSON_CL_3U
     attributes:
@@ -1462,10 +1462,10 @@ groups:
       middle_name: '"Cliff"'
       last_name: Johnson
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_CLAY-WILFORD_PRESERVE_CDD-SEAT_3-2026_GENERAL-JOHNSON_CL_3U
+    code: CANDIDACY-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_3-2026_GENERAL-JOHNSON_CL_3U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_CLAY-WILFORD_PRESERVE_CDD-SEAT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_3-2026_GENERAL
       person: PERSON-JOHNSON_CL_3U

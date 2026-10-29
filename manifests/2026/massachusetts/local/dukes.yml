@@ -21,21 +21,20 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_DUKES-REGISTER_OF_PROBATE-DUKES_COUNTY
+    code: OFFICE-USA-MA-COUNTY_DUKES-REGISTER_OF_PROBATE
     attributes:
-      seat_code: DUKES_COUNTY
       is_active: true
     references:
       position: POSITION-REGISTER_OF_PROBATE
       jurisdiction: COUNTY-USA-MA-DUKES
   - type: Race
-    code: RACE-USA-MA-COUNTY_DUKES-REGISTER_OF_PROBATE-DUKES_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_DUKES-REGISTER_OF_PROBATE-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_DUKES-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_DUKES-REGISTER_OF_PROBATE-DUKES_COUNTY
+      office: OFFICE-USA-MA-COUNTY_DUKES-REGISTER_OF_PROBATE
   - type: Person
     code: PERSON-DEVRIES_DP_2A
     attributes:
@@ -44,7 +43,7 @@ groups:
       first_name: Daphne
       last_name: DeVries
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_DUKES-REGISTER_OF_PROBATE-DUKES_COUNTY-2026_GENERAL-DEVRIES_DP_2A
+    code: CANDIDACY-USA-MA-COUNTY_DUKES-REGISTER_OF_PROBATE-2026_GENERAL-DEVRIES_DP_2A
     attributes:
       status: active
       participation: active
@@ -53,25 +52,24 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_DUKES-REGISTER_OF_PROBATE-DUKES_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_DUKES-REGISTER_OF_PROBATE-2026_GENERAL
       person: PERSON-DEVRIES_DP_2A
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY
+    code: OFFICE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER
     attributes:
-      seat_code: DUKES_COUNTY
       is_active: true
     references:
       position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-MA-DUKES
   - type: Race
-    code: RACE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_DUKES-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY
+      office: OFFICE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER
   - type: Person
     code: PERSON-ISRAEL_TR_4D
     attributes:
@@ -81,7 +79,7 @@ groups:
       middle_name: R.
       last_name: Israel
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY-2026_GENERAL-ISRAEL_TR_4D
+    code: CANDIDACY-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-2026_GENERAL-ISRAEL_TR_4D
     attributes:
       status: active
       participation: active
@@ -90,7 +88,7 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-2026_GENERAL
       person: PERSON-ISRAEL_TR_4D
   - type: Person
     code: PERSON-MILCH_RN_4P
@@ -101,7 +99,7 @@ groups:
       middle_name: Scot
       last_name: Milch
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY-2026_GENERAL-MILCH_RN_4P
+    code: CANDIDACY-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-2026_GENERAL-MILCH_RN_4P
     attributes:
       status: active
       participation: active
@@ -109,7 +107,7 @@ groups:
       - label: Independent
         kind: designation
     references:
-      race: RACE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-2026_GENERAL
       person: PERSON-MILCH_RN_4P
   - type: Person
     code: PERSON-RUSKIN_DG_9W
@@ -119,7 +117,7 @@ groups:
       first_name: Douglas
       last_name: Ruskin
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY-2026_GENERAL-RUSKIN_DG_9W
+    code: CANDIDACY-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-2026_GENERAL-RUSKIN_DG_9W
     attributes:
       status: active
       participation: active
@@ -128,7 +126,7 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-2026_GENERAL
       person: PERSON-RUSKIN_DG_9W
   - type: Person
     code: PERSON-TODD_CH_5J
@@ -139,7 +137,7 @@ groups:
       middle_name: CS
       last_name: Todd
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY-2026_GENERAL-TODD_CH_5J
+    code: CANDIDACY-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-2026_GENERAL-TODD_CH_5J
     attributes:
       status: active
       participation: active
@@ -148,7 +146,7 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-2026_GENERAL
       person: PERSON-TODD_CH_5J
   - type: Person
     code: PERSON-WHARTON_RC_6W
@@ -159,7 +157,7 @@ groups:
       middle_name: G.
       last_name: Wharton
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY-2026_GENERAL-WHARTON_RC_6W
+    code: CANDIDACY-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-2026_GENERAL-WHARTON_RC_6W
     attributes:
       status: active
       participation: active
@@ -168,7 +166,7 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-2026_GENERAL
       person: PERSON-WHARTON_RC_6W
   - type: Person
     code: PERSON-BELLISSIMO_MC_9N
@@ -179,7 +177,7 @@ groups:
       middle_name: Charles
       last_name: Bellissimo
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY-2026_GENERAL-BELLISSIMO_MC_9N
+    code: CANDIDACY-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-2026_GENERAL-BELLISSIMO_MC_9N
     attributes:
       status: active
       participation: active
@@ -188,7 +186,7 @@ groups:
         kind: party
         party: PARTY-USA-MA-DEMOCRATIC
     references:
-      race: RACE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-2026_GENERAL
       person: PERSON-BELLISSIMO_MC_9N
   - type: Person
     code: PERSON-PUTNAM_KT_4K
@@ -199,7 +197,7 @@ groups:
       middle_name: E.
       last_name: Putnam
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY-2026_GENERAL-PUTNAM_KT_4K
+    code: CANDIDACY-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-2026_GENERAL-PUTNAM_KT_4K
     attributes:
       status: active
       participation: active
@@ -207,24 +205,24 @@ groups:
       - label: Unenrolled
         kind: designation
     references:
-      race: RACE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-DUKES_COUNTY-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_DUKES-COUNTY_COMMISSIONER-2026_GENERAL
       person: PERSON-PUTNAM_KT_4K
 - records:
   - type: Office
-    code: OFFICE-USA-MA-COUNTY_DUKES-MARTHAS_VINEYARD_COMMISSION
+    code: OFFICE-USA-MA-COUNTY_DUKES-REGIONAL_COMMISSION_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-MARTHAS_VINEYARD_COMMISSION
+      position: POSITION-REGIONAL_COMMISSION_MEMBER
       jurisdiction: COUNTY-USA-MA-DUKES
   - type: Race
-    code: RACE-USA-MA-COUNTY_DUKES-MARTHAS_VINEYARD_COMMISSION-2026_GENERAL
+    code: RACE-USA-MA-COUNTY_DUKES-REGIONAL_COMMISSION_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-02. Sources: https://www.sec.state.ma.us/divisions/elections/research-and-statistics/2026-state-election-candidates.htm.'
     references:
       election: ELECTION-USA-MA-COUNTY_DUKES-2026_GENERAL
-      office: OFFICE-USA-MA-COUNTY_DUKES-MARTHAS_VINEYARD_COMMISSION
+      office: OFFICE-USA-MA-COUNTY_DUKES-REGIONAL_COMMISSION_MEMBER
   - type: Person
     code: PERSON-ROBINSON_BN_5Q
     attributes:
@@ -234,12 +232,12 @@ groups:
       middle_name: F.
       last_name: Robinson
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_DUKES-MARTHAS_VINEYARD_COMMISSION-2026_GENERAL-ROBINSON_BN_5Q
+    code: CANDIDACY-USA-MA-COUNTY_DUKES-REGIONAL_COMMISSION_MEMBER-2026_GENERAL-ROBINSON_BN_5Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-COUNTY_DUKES-MARTHAS_VINEYARD_COMMISSION-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_DUKES-REGIONAL_COMMISSION_MEMBER-2026_GENERAL
       person: PERSON-ROBINSON_BN_5Q
   - type: Person
     code: PERSON-SEDERHOLM_ER_2G
@@ -250,12 +248,12 @@ groups:
       middle_name: Douglas
       last_name: Sederholm
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_DUKES-MARTHAS_VINEYARD_COMMISSION-2026_GENERAL-SEDERHOLM_ER_2G
+    code: CANDIDACY-USA-MA-COUNTY_DUKES-REGIONAL_COMMISSION_MEMBER-2026_GENERAL-SEDERHOLM_ER_2G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-COUNTY_DUKES-MARTHAS_VINEYARD_COMMISSION-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_DUKES-REGIONAL_COMMISSION_MEMBER-2026_GENERAL
       person: PERSON-SEDERHOLM_ER_2G
   - type: Person
     code: PERSON-SMITH_BR_9R
@@ -266,12 +264,12 @@ groups:
       middle_name: Conway
       last_name: Smith
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_DUKES-MARTHAS_VINEYARD_COMMISSION-2026_GENERAL-SMITH_BR_9R
+    code: CANDIDACY-USA-MA-COUNTY_DUKES-REGIONAL_COMMISSION_MEMBER-2026_GENERAL-SMITH_BR_9R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-COUNTY_DUKES-MARTHAS_VINEYARD_COMMISSION-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_DUKES-REGIONAL_COMMISSION_MEMBER-2026_GENERAL
       person: PERSON-SMITH_BR_9R
   - type: Person
     code: PERSON-KHEDOURI_FR_9E
@@ -281,12 +279,12 @@ groups:
       first_name: Frederick
       last_name: Khedouri
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_DUKES-MARTHAS_VINEYARD_COMMISSION-2026_GENERAL-KHEDOURI_FR_9E
+    code: CANDIDACY-USA-MA-COUNTY_DUKES-REGIONAL_COMMISSION_MEMBER-2026_GENERAL-KHEDOURI_FR_9E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-COUNTY_DUKES-MARTHAS_VINEYARD_COMMISSION-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_DUKES-REGIONAL_COMMISSION_MEMBER-2026_GENERAL
       person: PERSON-KHEDOURI_FR_9E
   - type: Person
     code: PERSON-PUTNAM_KT_7F
@@ -297,10 +295,10 @@ groups:
       middle_name: E.
       last_name: Putnam
   - type: Candidacy
-    code: CANDIDACY-USA-MA-COUNTY_DUKES-MARTHAS_VINEYARD_COMMISSION-2026_GENERAL-PUTNAM_KT_7F
+    code: CANDIDACY-USA-MA-COUNTY_DUKES-REGIONAL_COMMISSION_MEMBER-2026_GENERAL-PUTNAM_KT_7F
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-MA-COUNTY_DUKES-MARTHAS_VINEYARD_COMMISSION-2026_GENERAL
+      race: RACE-USA-MA-COUNTY_DUKES-REGIONAL_COMMISSION_MEMBER-2026_GENERAL
       person: PERSON-PUTNAM_KT_7F

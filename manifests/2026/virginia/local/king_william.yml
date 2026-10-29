@@ -7,35 +7,34 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_KING_WILLIAM-2026_GENERAL
+  code: ELECTION-USA-VA-WEST_POINT-2026_GENERAL
   attributes:
-    name: King William County General Election 2026
+    name: West Point General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-KING_WILLIAM
+    jurisdiction: MUNICIPALITY-USA-VA-WEST_POINT
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_KING_WILLIAM-MAYOR-TOWN_OF_WEST_POINT
+    code: OFFICE-USA-VA-WEST_POINT-MAYOR
     attributes:
-      seat_code: TOWN_OF_WEST_POINT
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-KING_WILLIAM
+      jurisdiction: MUNICIPALITY-USA-VA-WEST_POINT
   - type: Race
-    code: RACE-USA-VA-COUNTY_KING_WILLIAM-MAYOR-TOWN_OF_WEST_POINT-2026_GENERAL
+    code: RACE-USA-VA-WEST_POINT-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_KING_WILLIAM-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_KING_WILLIAM-MAYOR-TOWN_OF_WEST_POINT
+      election: ELECTION-USA-VA-WEST_POINT-2026_GENERAL
+      office: OFFICE-USA-VA-WEST_POINT-MAYOR
   - type: Person
     code: PERSON-SANDERS_C_4A
     attributes:
@@ -45,12 +44,12 @@ groups:
       middle_name: Joe
       last_name: Sanders, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_KING_WILLIAM-MAYOR-TOWN_OF_WEST_POINT-2026_GENERAL-SANDERS_C_4A
+    code: CANDIDACY-USA-VA-WEST_POINT-MAYOR-2026_GENERAL-SANDERS_C_4A
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_KING_WILLIAM-MAYOR-TOWN_OF_WEST_POINT-2026_GENERAL
+      race: RACE-USA-VA-WEST_POINT-MAYOR-2026_GENERAL
       person: PERSON-SANDERS_C_4A
   - type: Person
     code: PERSON-LAWSON_JT_6Q
@@ -61,30 +60,29 @@ groups:
       middle_name: '"Jack"'
       last_name: Lawson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_KING_WILLIAM-MAYOR-TOWN_OF_WEST_POINT-2026_GENERAL-LAWSON_JT_6Q
+    code: CANDIDACY-USA-VA-WEST_POINT-MAYOR-2026_GENERAL-LAWSON_JT_6Q
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_KING_WILLIAM-MAYOR-TOWN_OF_WEST_POINT-2026_GENERAL
+      race: RACE-USA-VA-WEST_POINT-MAYOR-2026_GENERAL
       person: PERSON-LAWSON_JT_6Q
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_KING_WILLIAM-MEMBER_SCHOOL_BOARD-TOWN_OF_WEST_POINT
+    code: OFFICE-USA-VA-WEST_POINT-SCHOOL_BOARD_MEMBER
     attributes:
-      seat_code: TOWN_OF_WEST_POINT
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD
-      jurisdiction: COUNTY-USA-VA-KING_WILLIAM
+      position: POSITION-SCHOOL_BOARD_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-WEST_POINT
   - type: Race
-    code: RACE-USA-VA-COUNTY_KING_WILLIAM-MEMBER_SCHOOL_BOARD-TOWN_OF_WEST_POINT-2026_GENERAL
+    code: RACE-USA-VA-WEST_POINT-SCHOOL_BOARD_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_KING_WILLIAM-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_KING_WILLIAM-MEMBER_SCHOOL_BOARD-TOWN_OF_WEST_POINT
+      election: ELECTION-USA-VA-WEST_POINT-2026_GENERAL
+      office: OFFICE-USA-VA-WEST_POINT-SCHOOL_BOARD_MEMBER
   - type: Person
     code: PERSON-EVANS_CH_4B
     attributes:
@@ -94,12 +92,12 @@ groups:
       middle_name: Turner
       last_name: Evans
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_KING_WILLIAM-MEMBER_SCHOOL_BOARD-TOWN_OF_WEST_POINT-2026_GENERAL-EVANS_CH_4B
+    code: CANDIDACY-USA-VA-WEST_POINT-SCHOOL_BOARD_MEMBER-2026_GENERAL-EVANS_CH_4B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_KING_WILLIAM-MEMBER_SCHOOL_BOARD-TOWN_OF_WEST_POINT-2026_GENERAL
+      race: RACE-USA-VA-WEST_POINT-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-EVANS_CH_4B
   - type: Person
     code: PERSON-JENKINS_EL_9S
@@ -110,12 +108,12 @@ groups:
       middle_name: G.
       last_name: Jenkins
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_KING_WILLIAM-MEMBER_SCHOOL_BOARD-TOWN_OF_WEST_POINT-2026_GENERAL-JENKINS_EL_9S
+    code: CANDIDACY-USA-VA-WEST_POINT-SCHOOL_BOARD_MEMBER-2026_GENERAL-JENKINS_EL_9S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_KING_WILLIAM-MEMBER_SCHOOL_BOARD-TOWN_OF_WEST_POINT-2026_GENERAL
+      race: RACE-USA-VA-WEST_POINT-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-JENKINS_EL_9S
   - type: Person
     code: PERSON-STURTZ_LS_3G
@@ -126,30 +124,29 @@ groups:
       middle_name: A.
       last_name: Sturtz
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_KING_WILLIAM-MEMBER_SCHOOL_BOARD-TOWN_OF_WEST_POINT-2026_GENERAL-STURTZ_LS_3G
+    code: CANDIDACY-USA-VA-WEST_POINT-SCHOOL_BOARD_MEMBER-2026_GENERAL-STURTZ_LS_3G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_KING_WILLIAM-MEMBER_SCHOOL_BOARD-TOWN_OF_WEST_POINT-2026_GENERAL
+      race: RACE-USA-VA-WEST_POINT-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-STURTZ_LS_3G
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_KING_WILLIAM-MEMBER_TOWN_COUNCIL-TOWN_OF_WEST_POINT
+    code: OFFICE-USA-VA-WEST_POINT-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_WEST_POINT
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-KING_WILLIAM
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-WEST_POINT
   - type: Race
-    code: RACE-USA-VA-COUNTY_KING_WILLIAM-MEMBER_TOWN_COUNCIL-TOWN_OF_WEST_POINT-2026_GENERAL
+    code: RACE-USA-VA-WEST_POINT-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_KING_WILLIAM-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_KING_WILLIAM-MEMBER_TOWN_COUNCIL-TOWN_OF_WEST_POINT
+      election: ELECTION-USA-VA-WEST_POINT-2026_GENERAL
+      office: OFFICE-USA-VA-WEST_POINT-COUNCIL_MEMBER
   - type: Person
     code: PERSON-PRUETT_JM_5T
     attributes:
@@ -159,12 +156,12 @@ groups:
       middle_name: M. "Jamie"
       last_name: Pruett
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_KING_WILLIAM-MEMBER_TOWN_COUNCIL-TOWN_OF_WEST_POINT-2026_GENERAL-PRUETT_JM_5T
+    code: CANDIDACY-USA-VA-WEST_POINT-COUNCIL_MEMBER-2026_GENERAL-PRUETT_JM_5T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_KING_WILLIAM-MEMBER_TOWN_COUNCIL-TOWN_OF_WEST_POINT-2026_GENERAL
+      race: RACE-USA-VA-WEST_POINT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PRUETT_JM_5T
   - type: Person
     code: PERSON-NEIN_JH_4Z
@@ -175,12 +172,12 @@ groups:
       middle_name: R.
       last_name: Nein, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_KING_WILLIAM-MEMBER_TOWN_COUNCIL-TOWN_OF_WEST_POINT-2026_GENERAL-NEIN_JH_4Z
+    code: CANDIDACY-USA-VA-WEST_POINT-COUNCIL_MEMBER-2026_GENERAL-NEIN_JH_4Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_KING_WILLIAM-MEMBER_TOWN_COUNCIL-TOWN_OF_WEST_POINT-2026_GENERAL
+      race: RACE-USA-VA-WEST_POINT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-NEIN_JH_4Z
   - type: Person
     code: PERSON-BLOOM_TY_6C
@@ -191,10 +188,10 @@ groups:
       middle_name: Nash
       last_name: Bloom
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_KING_WILLIAM-MEMBER_TOWN_COUNCIL-TOWN_OF_WEST_POINT-2026_GENERAL-BLOOM_TY_6C
+    code: CANDIDACY-USA-VA-WEST_POINT-COUNCIL_MEMBER-2026_GENERAL-BLOOM_TY_6C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_KING_WILLIAM-MEMBER_TOWN_COUNCIL-TOWN_OF_WEST_POINT-2026_GENERAL
+      race: RACE-USA-VA-WEST_POINT-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BLOOM_TY_6C

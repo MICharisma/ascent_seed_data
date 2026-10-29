@@ -1,0 +1,48 @@
+# Fictional images and placeholder owner codes for demonstrating shared placement.
+# This folder is not imported. Replace owners with exported full codes and cite the actual image source.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent maintainers
+  url: https://example.org/photographs/community
+  captured_on: "2026-10-28"
+records:
+  - type: Image
+    code: IMAGE-EXAMPLE-COMMUNITY_MEETING
+    attributes:
+      url: https://images.example.org/community-meeting.jpg
+      alt_text: Avery Example and Jane Sample at a community meeting
+      credit: Example Civic Archive
+      source_url: https://example.org/photographs/community
+  - type: Image
+    code: IMAGE-EXAMPLE-AVERY_PORTRAIT
+    attributes:
+      url: https://images.example.org/avery-portrait.jpg
+      alt_text: Portrait of Avery Example
+      credit: Example Civic Archive
+      source_url: https://example.org/photographs/avery
+  - type: ImagePlacement
+    code: IMAGE_PLACEMENT-EXAMPLE_AV_7K-COMMUNITY_MEETING
+    attributes: {position: 1}
+    references:
+      image: IMAGE-EXAMPLE-COMMUNITY_MEETING
+      subject: PERSON-EXAMPLE_AV_7K
+  - type: ImagePlacement
+    code: IMAGE_PLACEMENT-SAMPLE_JN_8P-COMMUNITY_MEETING
+    attributes: {position: 0}
+    references:
+      image: IMAGE-EXAMPLE-COMMUNITY_MEETING
+      subject: PERSON-SAMPLE_JN_8P
+  - type: ImagePlacement
+    code: IMAGE_PLACEMENT-EXAMPLE_AV_7K-2026_GENERAL-COMMUNITY_MEETING
+    attributes: {position: 0}
+    references:
+      image: IMAGE-EXAMPLE-COMMUNITY_MEETING
+      subject: CANDIDACY-USA-NY-GOVERNOR-2026_GENERAL-EXAMPLE_AV_7K
+  - type: ImagePlacement
+    code: IMAGE_PLACEMENT-EXAMPLE_AV_7K-AVERY_PORTRAIT
+    attributes: {position: 0}
+    references:
+      image: IMAGE-EXAMPLE-AVERY_PORTRAIT
+      subject: PERSON-EXAMPLE_AV_7K

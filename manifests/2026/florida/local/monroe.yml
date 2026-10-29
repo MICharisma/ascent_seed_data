@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MONROE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_MONROE-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-MONROE
   - type: Race
-    code: RACE-USA-FL-COUNTY_MONROE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MONROE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MONROE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_MONROE-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-LINCOLN_MC_9A
     attributes:
@@ -44,7 +44,7 @@ groups:
       first_name: Michelle
       last_name: Lincoln
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MONROE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-LINCOLN_MC_9A
+    code: CANDIDACY-USA-FL-COUNTY_MONROE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-LINCOLN_MC_9A
     attributes:
       status: active
       participation: active
@@ -53,25 +53,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_MONROE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MONROE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-LINCOLN_MC_9A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MONROE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_MONROE-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-MONROE
   - type: Race
-    code: RACE-USA-FL-COUNTY_MONROE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MONROE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MONROE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_MONROE-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-RICE_DV_2W
     attributes:
@@ -80,7 +80,7 @@ groups:
       first_name: David
       last_name: Rice
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MONROE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-RICE_DV_2W
+    code: CANDIDACY-USA-FL-COUNTY_MONROE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-RICE_DV_2W
     attributes:
       status: active
       participation: active
@@ -89,7 +89,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_MONROE-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MONROE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-RICE_DV_2W
 - records:
   - type: Office
@@ -125,21 +125,21 @@ groups:
       person: PERSON-MCCARTHY_KV_8Q
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MONROE-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_MONROE-FIRE_DISTRICT_COMMISSIONER-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_2
     attributes:
-      seat_code: SEAT_2
+      seat_code: KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_2
       is_active: true
     references:
-      position: POSITION-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD
+      position: POSITION-FIRE_DISTRICT_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-MONROE
   - type: Race
-    code: RACE-USA-FL-COUNTY_MONROE-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MONROE-FIRE_DISTRICT_COMMISSIONER-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MONROE-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_MONROE-FIRE_DISTRICT_COMMISSIONER-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_2
   - type: Person
     code: PERSON-CONKLIN_FR_2R
     attributes:
@@ -148,30 +148,30 @@ groups:
       first_name: Frank
       last_name: Conklin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MONROE-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD-SEAT_2-2026_GENERAL-CONKLIN_FR_2R
+    code: CANDIDACY-USA-FL-COUNTY_MONROE-FIRE_DISTRICT_COMMISSIONER-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_2-2026_GENERAL-CONKLIN_FR_2R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MONROE-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MONROE-FIRE_DISTRICT_COMMISSIONER-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_2-2026_GENERAL
       person: PERSON-CONKLIN_FR_2R
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MONROE-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD-SEAT_4
+    code: OFFICE-USA-FL-COUNTY_MONROE-FIRE_DISTRICT_COMMISSIONER-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_4
     attributes:
-      seat_code: SEAT_4
+      seat_code: KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_4
       is_active: true
     references:
-      position: POSITION-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD
+      position: POSITION-FIRE_DISTRICT_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-MONROE
   - type: Race
-    code: RACE-USA-FL-COUNTY_MONROE-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD-SEAT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MONROE-FIRE_DISTRICT_COMMISSIONER-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MONROE-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD-SEAT_4
+      office: OFFICE-USA-FL-COUNTY_MONROE-FIRE_DISTRICT_COMMISSIONER-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_4
   - type: Person
     code: PERSON-MIRABELLA_GR_2K
     attributes:
@@ -180,29 +180,30 @@ groups:
       first_name: George
       last_name: Mirabella
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MONROE-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD-SEAT_4-2026_GENERAL-MIRABELLA_GR_2K
+    code: CANDIDACY-USA-FL-COUNTY_MONROE-FIRE_DISTRICT_COMMISSIONER-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_4-2026_GENERAL-MIRABELLA_GR_2K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MONROE-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD-SEAT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MONROE-FIRE_DISTRICT_COMMISSIONER-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_4-2026_GENERAL
       person: PERSON-MIRABELLA_GR_2K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MONROE-KEY_LARGO_WASTEWATER_DISTRICT
+    code: OFFICE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT
     attributes:
+      seat_code: KEY_LARGO_WASTEWATER_DISTRICT
       is_active: true
     references:
-      position: POSITION-KEY_LARGO_WASTEWATER_DISTRICT
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-MONROE
   - type: Race
-    code: RACE-USA-FL-COUNTY_MONROE-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MONROE-KEY_LARGO_WASTEWATER_DISTRICT
+      office: OFFICE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT
   - type: Person
     code: PERSON-BROOKE_JH_7N
     attributes:
@@ -212,12 +213,12 @@ groups:
       middle_name: E
       last_name: Brooke
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MONROE-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL-BROOKE_JH_7N
+    code: CANDIDACY-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL-BROOKE_JH_7N
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MONROE-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
       person: PERSON-BROOKE_JH_7N
   - type: Person
     code: PERSON-HARDEE_MT_8G
@@ -227,12 +228,12 @@ groups:
       first_name: Matthew
       last_name: Hardee
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MONROE-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL-HARDEE_MT_8G
+    code: CANDIDACY-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL-HARDEE_MT_8G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MONROE-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
       person: PERSON-HARDEE_MT_8G
   - type: Person
     code: PERSON-MAJESKA_RB_7Z
@@ -242,12 +243,12 @@ groups:
       first_name: Robby
       last_name: Majeska
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MONROE-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL-MAJESKA_RB_7Z
+    code: CANDIDACY-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL-MAJESKA_RB_7Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MONROE-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
       person: PERSON-MAJESKA_RB_7Z
   - type: Person
     code: PERSON-MOON_AN_6G
@@ -257,12 +258,12 @@ groups:
       first_name: Anna
       last_name: Moon
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MONROE-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL-MOON_AN_6G
+    code: CANDIDACY-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL-MOON_AN_6G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MONROE-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
       person: PERSON-MOON_AN_6G
   - type: Person
     code: PERSON-PEIXOTO_JS_6G
@@ -273,29 +274,30 @@ groups:
       middle_name: F
       last_name: Peixoto
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MONROE-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL-PEIXOTO_JS_6G
+    code: CANDIDACY-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL-PEIXOTO_JS_6G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MONROE-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
       person: PERSON-PEIXOTO_JS_6G
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MONROE-KEY_WEST_UTILITY_BOARD_MEMBER_SEAT_B
+    code: OFFICE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_WEST_UTILITY_BOARD_SEAT_B
     attributes:
+      seat_code: KEY_WEST_UTILITY_BOARD_SEAT_B
       is_active: true
     references:
-      position: POSITION-KEY_WEST_UTILITY_BOARD_MEMBER_SEAT_B
+      position: POSITION-SPECIAL_DISTRICT_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-MONROE
   - type: Race
-    code: RACE-USA-FL-COUNTY_MONROE-KEY_WEST_UTILITY_BOARD_MEMBER_SEAT_B-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_WEST_UTILITY_BOARD_SEAT_B-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://www.voterfocus.com/CampaignFinance/candidate_pr.php?c=monroe&el=49.'
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MONROE-KEY_WEST_UTILITY_BOARD_MEMBER_SEAT_B
+      office: OFFICE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_WEST_UTILITY_BOARD_SEAT_B
   - type: Person
     code: PERSON-WELLS_ST_8Y
     attributes:
@@ -304,30 +306,30 @@ groups:
       first_name: Steven
       last_name: Wells Sr
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MONROE-KEY_WEST_UTILITY_BOARD_MEMBER_SEAT_B-2026_GENERAL-WELLS_ST_8Y
+    code: CANDIDACY-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_WEST_UTILITY_BOARD_SEAT_B-2026_GENERAL-WELLS_ST_8Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MONROE-KEY_WEST_UTILITY_BOARD_MEMBER_SEAT_B-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_WEST_UTILITY_BOARD_SEAT_B-2026_GENERAL
       person: PERSON-WELLS_ST_8Y
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_BOARD_DIST_2-SEAT_2
+    code: OFFICE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_COMMISSIONER-SEAT_2
     attributes:
       seat_code: SEAT_2
       is_active: true
     references:
-      position: POSITION-MOSQUITO_CONTROL_BOARD_DIST_2
+      position: POSITION-MOSQUITO_CONTROL_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-MONROE
   - type: Race
-    code: RACE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_BOARD_DIST_2-SEAT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_COMMISSIONER-SEAT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_BOARD_DIST_2-SEAT_2
+      office: OFFICE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_COMMISSIONER-SEAT_2
   - type: Person
     code: PERSON-GOODMAN_PH_3A
     attributes:
@@ -336,7 +338,7 @@ groups:
       first_name: Phil
       last_name: Goodman
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_BOARD_DIST_2-SEAT_2-2026_GENERAL-GOODMAN_PH_3A
+    code: CANDIDACY-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_COMMISSIONER-SEAT_2-2026_GENERAL-GOODMAN_PH_3A
     attributes:
       status: active
       participation: active
@@ -345,25 +347,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_BOARD_DIST_2-SEAT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_COMMISSIONER-SEAT_2-2026_GENERAL
       person: PERSON-GOODMAN_PH_3A
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_BOARD_DIST_5-SEAT_5
+    code: OFFICE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_COMMISSIONER-SEAT_5
     attributes:
       seat_code: SEAT_5
       is_active: true
     references:
-      position: POSITION-MOSQUITO_CONTROL_BOARD_DIST_5
+      position: POSITION-MOSQUITO_CONTROL_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-MONROE
   - type: Race
-    code: RACE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_BOARD_DIST_5-SEAT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_COMMISSIONER-SEAT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_BOARD_DIST_5-SEAT_5
+      office: OFFICE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_COMMISSIONER-SEAT_5
   - type: Person
     code: PERSON-BROWN_BT_5W
     attributes:
@@ -372,7 +374,7 @@ groups:
       first_name: Bette
       last_name: Brown
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_BOARD_DIST_5-SEAT_5-2026_GENERAL-BROWN_BT_5W
+    code: CANDIDACY-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_COMMISSIONER-SEAT_5-2026_GENERAL-BROWN_BT_5W
     attributes:
       status: active
       participation: active
@@ -381,25 +383,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_BOARD_DIST_5-SEAT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_COMMISSIONER-SEAT_5-2026_GENERAL
       person: PERSON-BROWN_BT_5W
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-MONROE
   - type: Race
-    code: RACE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-HORAN_DR_7J
     attributes:
@@ -408,30 +410,30 @@ groups:
       first_name: Darren
       last_name: Horan
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MONROE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-HORAN_DR_7J
+    code: CANDIDACY-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-HORAN_DR_7J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-HORAN_DR_7J
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-MONROE
   - type: Race
-    code: RACE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_4
   - type: Person
     code: PERSON-GONZALEZ_LS_3H
     attributes:
@@ -440,30 +442,30 @@ groups:
       first_name: Luis
       last_name: Gonzalez
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MONROE-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL-GONZALEZ_LS_3H
+    code: CANDIDACY-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL-GONZALEZ_LS_3H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
       person: PERSON-GONZALEZ_LS_3H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-MONROE
   - type: Race
-    code: RACE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-WOLTANSKI_SU_5B
     attributes:
@@ -472,10 +474,10 @@ groups:
       first_name: Sue
       last_name: Woltanski
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MONROE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-WOLTANSKI_SU_5B
+    code: CANDIDACY-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-WOLTANSKI_SU_5B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-WOLTANSKI_SU_5B

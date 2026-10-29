@@ -7,47 +7,58 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_LOUISA-2026_GENERAL
+  code: ELECTION-USA-VA-LOUISA-2026_GENERAL
   attributes:
-    name: Louisa County General Election 2026
+    name: Louisa General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-LOUISA
+    jurisdiction: MUNICIPALITY-USA-VA-LOUISA
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_LOUISA-2026_SPECIAL
+  code: ELECTION-USA-VA-MINERAL-2026_GENERAL
   attributes:
-    name: Louisa County Special Election 2026
+    name: Mineral General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: MUNICIPALITY-USA-VA-MINERAL
+    year: YEAR-2026
+- type: Election
+  code: ELECTION-USA-VA-LOUISA-2026_SPECIAL
+  attributes:
+    name: Louisa Special Election 2026
     kind: special
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-LOUISA
+    jurisdiction: MUNICIPALITY-USA-VA-LOUISA
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LOUISA-MAYOR-TOWN_OF_LOUISA
+    code: OFFICE-USA-VA-LOUISA-MAYOR
     attributes:
-      seat_code: TOWN_OF_LOUISA
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-LOUISA
+      jurisdiction: MUNICIPALITY-USA-VA-LOUISA
   - type: Race
-    code: RACE-USA-VA-COUNTY_LOUISA-MAYOR-TOWN_OF_LOUISA-2026_GENERAL
+    code: RACE-USA-VA-LOUISA-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LOUISA-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LOUISA-MAYOR-TOWN_OF_LOUISA
+      election: ELECTION-USA-VA-LOUISA-2026_GENERAL
+      office: OFFICE-USA-VA-LOUISA-MAYOR
   - type: Person
     code: PERSON-MICHAEL_AS_9Z
     attributes:
@@ -57,30 +68,29 @@ groups:
       middle_name: B.
       last_name: Michael
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUISA-MAYOR-TOWN_OF_LOUISA-2026_GENERAL-MICHAEL_AS_9Z
+    code: CANDIDACY-USA-VA-LOUISA-MAYOR-2026_GENERAL-MICHAEL_AS_9Z
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUISA-MAYOR-TOWN_OF_LOUISA-2026_GENERAL
+      race: RACE-USA-VA-LOUISA-MAYOR-2026_GENERAL
       person: PERSON-MICHAEL_AS_9Z
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LOUISA-MAYOR-TOWN_OF_MINERAL
+    code: OFFICE-USA-VA-MINERAL-MAYOR
     attributes:
-      seat_code: TOWN_OF_MINERAL
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-LOUISA
+      jurisdiction: MUNICIPALITY-USA-VA-MINERAL
   - type: Race
-    code: RACE-USA-VA-COUNTY_LOUISA-MAYOR-TOWN_OF_MINERAL-2026_GENERAL
+    code: RACE-USA-VA-MINERAL-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LOUISA-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LOUISA-MAYOR-TOWN_OF_MINERAL
+      election: ELECTION-USA-VA-MINERAL-2026_GENERAL
+      office: OFFICE-USA-VA-MINERAL-MAYOR
   - type: Person
     code: PERSON-SPEDDEN_RB_2J
     attributes:
@@ -90,30 +100,29 @@ groups:
       middle_name: B. "Bob"
       last_name: Spedden
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUISA-MAYOR-TOWN_OF_MINERAL-2026_GENERAL-SPEDDEN_RB_2J
+    code: CANDIDACY-USA-VA-MINERAL-MAYOR-2026_GENERAL-SPEDDEN_RB_2J
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUISA-MAYOR-TOWN_OF_MINERAL-2026_GENERAL
+      race: RACE-USA-VA-MINERAL-MAYOR-2026_GENERAL
       person: PERSON-SPEDDEN_RB_2J
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_LOUISA
+    code: OFFICE-USA-VA-LOUISA-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_LOUISA
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-LOUISA
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-LOUISA
   - type: Race
-    code: RACE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_LOUISA-2026_GENERAL
+    code: RACE-USA-VA-LOUISA-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LOUISA-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_LOUISA
+      election: ELECTION-USA-VA-LOUISA-2026_GENERAL
+      office: OFFICE-USA-VA-LOUISA-COUNCIL_MEMBER
   - type: Person
     code: PERSON-PURCELL_DV_8V
     attributes:
@@ -123,12 +132,12 @@ groups:
       middle_name: M.
       last_name: Purcell
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_LOUISA-2026_GENERAL-PURCELL_DV_8V
+    code: CANDIDACY-USA-VA-LOUISA-COUNCIL_MEMBER-2026_GENERAL-PURCELL_DV_8V
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_LOUISA-2026_GENERAL
+      race: RACE-USA-VA-LOUISA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PURCELL_DV_8V
   - type: Person
     code: PERSON-CRAIG_GR_8X
@@ -139,30 +148,29 @@ groups:
       middle_name: W.
       last_name: Craig
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_LOUISA-2026_GENERAL-CRAIG_GR_8X
+    code: CANDIDACY-USA-VA-LOUISA-COUNCIL_MEMBER-2026_GENERAL-CRAIG_GR_8X
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_LOUISA-2026_GENERAL
+      race: RACE-USA-VA-LOUISA-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-CRAIG_GR_8X
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL
+    code: OFFICE-USA-VA-MINERAL-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_MINERAL
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-LOUISA
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-MINERAL
   - type: Race
-    code: RACE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL
+    code: RACE-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LOUISA-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL
+      election: ELECTION-USA-VA-MINERAL-2026_GENERAL
+      office: OFFICE-USA-VA-MINERAL-COUNCIL_MEMBER
   - type: Person
     code: PERSON-TYE_AF_6U
     attributes:
@@ -172,12 +180,12 @@ groups:
       middle_name: K. Von
       last_name: Tye
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL-TYE_AF_6U
+    code: CANDIDACY-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL-TYE_AF_6U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL
+      race: RACE-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-TYE_AF_6U
   - type: Person
     code: PERSON-NIPPER_C_3H
@@ -188,12 +196,12 @@ groups:
       middle_name: Blair
       last_name: Nipper
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL-NIPPER_C_3H
+    code: CANDIDACY-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL-NIPPER_C_3H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL
+      race: RACE-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-NIPPER_C_3H
   - type: Person
     code: PERSON-LUNDGREN_STOWE_CR_3M
@@ -204,12 +212,12 @@ groups:
       middle_name: J.
       last_name: Lundgren-Stowe
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL-LUNDGREN_STOWE_CR_3M
+    code: CANDIDACY-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL-LUNDGREN_STOWE_CR_3M
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL
+      race: RACE-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LUNDGREN_STOWE_CR_3M
   - type: Person
     code: PERSON-WASHINGTON_CN_7G
@@ -220,12 +228,12 @@ groups:
       middle_name: Nicole G.
       last_name: Washington
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL-WASHINGTON_CN_7G
+    code: CANDIDACY-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL-WASHINGTON_CN_7G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL
+      race: RACE-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WASHINGTON_CN_7G
   - type: Person
     code: PERSON-DILLARD_CH_5H
@@ -236,12 +244,12 @@ groups:
       middle_name: D.
       last_name: Dillard
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL-DILLARD_CH_5H
+    code: CANDIDACY-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL-DILLARD_CH_5H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL
+      race: RACE-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-DILLARD_CH_5H
   - type: Person
     code: PERSON-LARSON_MG_8U
@@ -252,12 +260,12 @@ groups:
       middle_name: M.
       last_name: Larson
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL-LARSON_MG_8U
+    code: CANDIDACY-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL-LARSON_MG_8U
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL
+      race: RACE-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-LARSON_MG_8U
   - type: Person
     code: PERSON-COVERT_MC_4Y
@@ -268,12 +276,12 @@ groups:
       middle_name: V.
       last_name: Covert
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL-COVERT_MC_4Y
+    code: CANDIDACY-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL-COVERT_MC_4Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL
+      race: RACE-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-COVERT_MC_4Y
   - type: Person
     code: PERSON-MCGEHEE_RB_4R
@@ -284,30 +292,29 @@ groups:
       middle_name: T. "Becky"
       last_name: McGehee
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL-MCGEHEE_RB_4R
+    code: CANDIDACY-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL-MCGEHEE_RB_4R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL-TOWN_OF_MINERAL-2026_GENERAL
+      race: RACE-USA-VA-MINERAL-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MCGEHEE_RB_4R
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_LOUISA
+    code: OFFICE-USA-VA-LOUISA-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_LOUISA
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL_SPECIAL
-      jurisdiction: COUNTY-USA-VA-LOUISA
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-LOUISA
   - type: Race
-    code: RACE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_LOUISA-2026_SPECIAL
+    code: RACE-USA-VA-LOUISA-COUNCIL_MEMBER-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_LOUISA-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_LOUISA
+      election: ELECTION-USA-VA-LOUISA-2026_SPECIAL
+      office: OFFICE-USA-VA-LOUISA-COUNCIL_MEMBER
   - type: Person
     code: PERSON-CORKER_DR_8T
     attributes:
@@ -317,12 +324,12 @@ groups:
       middle_name: B.
       last_name: Corker
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_LOUISA-2026_SPECIAL-CORKER_DR_8T
+    code: CANDIDACY-USA-VA-LOUISA-COUNCIL_MEMBER-2026_SPECIAL-CORKER_DR_8T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_LOUISA-2026_SPECIAL
+      race: RACE-USA-VA-LOUISA-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-CORKER_DR_8T
   - type: Person
     code: PERSON-HARTE_VC_3K
@@ -333,10 +340,10 @@ groups:
       middle_name: Ann
       last_name: Harte
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_LOUISA-2026_SPECIAL-HARTE_VC_3K
+    code: CANDIDACY-USA-VA-LOUISA-COUNCIL_MEMBER-2026_SPECIAL-HARTE_VC_3K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_LOUISA-MEMBER_TOWN_COUNCIL_SPECIAL-TOWN_OF_LOUISA-2026_SPECIAL
+      race: RACE-USA-VA-LOUISA-COUNCIL_MEMBER-2026_SPECIAL
       person: PERSON-HARTE_VC_3K

@@ -1532,20 +1532,20 @@ groups:
       person: PERSON-JUSZCZYNSKI_JN_3R
 - records:
   - type: Office
-    code: OFFICE-USA-CT-BERLIN-BOARD_OF_EDUCATION_NON_PARTISAN
+    code: OFFICE-USA-CT-BERLIN-SCHOOL_BOARD_MEMBER
     attributes:
       is_active: true
     references:
-      position: POSITION-BOARD_OF_EDUCATION_NON_PARTISAN
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: MUNICIPALITY-USA-CT-BERLIN
   - type: Race
-    code: RACE-USA-CT-BERLIN-BOARD_OF_EDUCATION_NON_PARTISAN-2026_GENERAL
+    code: RACE-USA-CT-BERLIN-SCHOOL_BOARD_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Retrieved: 2026-10-04. Sources: https://ctemspublic.tgstg.net/ng-app/data/election/108/41832/Lookupdata.json.'
     references:
       election: ELECTION-USA-CT-BERLIN-2026_GENERAL
-      office: OFFICE-USA-CT-BERLIN-BOARD_OF_EDUCATION_NON_PARTISAN
+      office: OFFICE-USA-CT-BERLIN-SCHOOL_BOARD_MEMBER
   - type: Person
     code: PERSON-PELLOTH_MG_9T
     attributes:
@@ -1555,7 +1555,7 @@ groups:
       middle_name: A.
       last_name: Pelloth
   - type: Candidacy
-    code: CANDIDACY-USA-CT-BERLIN-BOARD_OF_EDUCATION_NON_PARTISAN-2026_GENERAL-PELLOTH_MG_9T
+    code: CANDIDACY-USA-CT-BERLIN-SCHOOL_BOARD_MEMBER-2026_GENERAL-PELLOTH_MG_9T
     attributes:
       status: active
       participation: active
@@ -1563,7 +1563,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-BERLIN-BOARD_OF_EDUCATION_NON_PARTISAN-2026_GENERAL
+      race: RACE-USA-CT-BERLIN-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-PELLOTH_MG_9T
   - type: Person
     code: PERSON-JURGEN_JN_8Z
@@ -1574,7 +1574,7 @@ groups:
       middle_name: Anne
       last_name: Jurgen
   - type: Candidacy
-    code: CANDIDACY-USA-CT-BERLIN-BOARD_OF_EDUCATION_NON_PARTISAN-2026_GENERAL-JURGEN_JN_8Z
+    code: CANDIDACY-USA-CT-BERLIN-SCHOOL_BOARD_MEMBER-2026_GENERAL-JURGEN_JN_8Z
     attributes:
       status: active
       participation: active
@@ -1582,7 +1582,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-BERLIN-BOARD_OF_EDUCATION_NON_PARTISAN-2026_GENERAL
+      race: RACE-USA-CT-BERLIN-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-JURGEN_JN_8Z
   - type: Person
     code: PERSON-DELUDE_BR_2A
@@ -1593,7 +1593,7 @@ groups:
       middle_name: Michael
       last_name: Delude
   - type: Candidacy
-    code: CANDIDACY-USA-CT-BERLIN-BOARD_OF_EDUCATION_NON_PARTISAN-2026_GENERAL-DELUDE_BR_2A
+    code: CANDIDACY-USA-CT-BERLIN-SCHOOL_BOARD_MEMBER-2026_GENERAL-DELUDE_BR_2A
     attributes:
       status: active
       participation: active
@@ -1601,7 +1601,7 @@ groups:
       - label: Non Partisan
         kind: designation
     references:
-      race: RACE-USA-CT-BERLIN-BOARD_OF_EDUCATION_NON_PARTISAN-2026_GENERAL
+      race: RACE-USA-CT-BERLIN-SCHOOL_BOARD_MEMBER-2026_GENERAL
       person: PERSON-DELUDE_BR_2A
 - records:
   - type: Office

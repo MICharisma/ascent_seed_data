@@ -21,21 +21,21 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-MADISON
   - type: Race
-    code: RACE-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MADISON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_1
   - type: Person
     code: PERSON-VICKERS_GR_7H
     attributes:
@@ -45,7 +45,7 @@ groups:
       middle_name: O.
       last_name: Vickers
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL-VICKERS_GR_7H
+    code: CANDIDACY-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL-VICKERS_GR_7H
     attributes:
       status: active
       participation: active
@@ -54,25 +54,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL
       person: PERSON-VICKERS_GR_7H
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+    code: OFFICE-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_2
     attributes:
       seat_code: DISTRICT_2
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-MADISON
   - type: Race
-    code: RACE-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MADISON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2
+      office: OFFICE-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_2
   - type: Person
     code: PERSON-SHADRICK_TY_6U
     attributes:
@@ -81,7 +81,7 @@ groups:
       first_name: Tyler
       last_name: Shadrick
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL-SHADRICK_TY_6U
+    code: CANDIDACY-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL-SHADRICK_TY_6U
     attributes:
       status: active
       participation: active
@@ -90,25 +90,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_2-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
       person: PERSON-SHADRICK_TY_6U
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+    code: OFFICE-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_4
     attributes:
       seat_code: DISTRICT_4
       is_active: true
     references:
-      position: POSITION-BOARD_OF_COUNTY_COMMISSIONERS
+      position: POSITION-COUNTY_COMMISSIONER
       jurisdiction: COUNTY-USA-FL-MADISON
   - type: Race
-    code: RACE-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MADISON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4
+      office: OFFICE-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_4
   - type: Person
     code: PERSON-MARTIN_AL_6T
     attributes:
@@ -117,7 +117,7 @@ groups:
       first_name: Alfred
       last_name: Martin
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-MARTIN_AL_6T
+    code: CANDIDACY-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-MARTIN_AL_6T
     attributes:
       status: active
       participation: active
@@ -126,7 +126,7 @@ groups:
         kind: party
         party: PARTY-USA-FL-DEMOCRATIC
     references:
-      race: RACE-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-MARTIN_AL_6T
   - type: Person
     code: PERSON-OQUINN_DW_2T
@@ -136,7 +136,7 @@ groups:
       first_name: DeWayne
       last_name: O'Quinn
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL-OQUINN_DW_2T
+    code: CANDIDACY-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL-OQUINN_DW_2T
     attributes:
       status: active
       participation: active
@@ -145,25 +145,25 @@ groups:
         kind: party
         party: PARTY-USA-FL-REPUBLICAN
     references:
-      race: RACE-USA-FL-COUNTY_MADISON-BOARD_OF_COUNTY_COMMISSIONERS-DISTRICT_4-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MADISON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
       person: PERSON-OQUINN_DW_2T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_1
+    code: OFFICE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_1
     attributes:
       seat_code: DISTRICT_1
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-MADISON
   - type: Race
-    code: RACE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MADISON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_1
+      office: OFFICE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_1
   - type: Person
     code: PERSON-KNIGHT_KT_9K
     attributes:
@@ -172,30 +172,30 @@ groups:
       first_name: Katie
       last_name: Knight
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL-KNIGHT_KT_9K
+    code: CANDIDACY-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL-KNIGHT_KT_9K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
       person: PERSON-KNIGHT_KT_9K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_3
+    code: OFFICE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_3
     attributes:
       seat_code: DISTRICT_3
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-MADISON
   - type: Race
-    code: RACE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MADISON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_3
+      office: OFFICE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_3
   - type: Person
     code: PERSON-HAGAN_VT_5T
     attributes:
@@ -205,30 +205,30 @@ groups:
       middle_name: L.
       last_name: Hagan
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL-HAGAN_VT_5T
+    code: CANDIDACY-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL-HAGAN_VT_5T
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
       person: PERSON-HAGAN_VT_5T
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_5
+    code: OFFICE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_5
     attributes:
       seat_code: DISTRICT_5
       is_active: true
     references:
-      position: POSITION-SCHOOL_BOARD
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-FL-MADISON
   - type: Race
-    code: RACE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MADISON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_5
+      office: OFFICE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_5
   - type: Person
     code: PERSON-MAURICE_MK_6W
     attributes:
@@ -237,12 +237,12 @@ groups:
       first_name: Mike
       last_name: Maurice
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-MAURICE_MK_6W
+    code: CANDIDACY-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-MAURICE_MK_6W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-MAURICE_MK_6W
   - type: Person
     code: PERSON-MAZZELLA_JN_3E
@@ -253,30 +253,30 @@ groups:
       middle_name: L
       last_name: Mazzella
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL-MAZZELLA_JN_3E
+    code: CANDIDACY-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL-MAZZELLA_JN_3E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD-DISTRICT_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MADISON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
       person: PERSON-MAZZELLA_JN_3E
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER-GROUP_1
+    code: OFFICE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1
     attributes:
       seat_code: GROUP_1
       is_active: true
     references:
-      position: POSITION-SOIL_AND_WATER
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-MADISON
   - type: Race
-    code: RACE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER-GROUP_1-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MADISON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER-GROUP_1
+      office: OFFICE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1
   - type: Person
     code: PERSON-BROWN_JM_7S
     attributes:
@@ -286,30 +286,30 @@ groups:
       middle_name: William
       last_name: Brown
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MADISON-SOIL_AND_WATER-GROUP_1-2026_GENERAL-BROWN_JM_7S
+    code: CANDIDACY-USA-FL-COUNTY_MADISON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1-2026_GENERAL-BROWN_JM_7S
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER-GROUP_1-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1-2026_GENERAL
       person: PERSON-BROWN_JM_7S
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER-GROUP_3
+    code: OFFICE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3
     attributes:
       seat_code: GROUP_3
       is_active: true
     references:
-      position: POSITION-SOIL_AND_WATER
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-MADISON
   - type: Race
-    code: RACE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER-GROUP_3-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MADISON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER-GROUP_3
+      office: OFFICE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3
   - type: Person
     code: PERSON-PHILLIPS_JH_4K
     attributes:
@@ -319,30 +319,30 @@ groups:
       middle_name: Henry
       last_name: Phillips Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MADISON-SOIL_AND_WATER-GROUP_3-2026_GENERAL-PHILLIPS_JH_4K
+    code: CANDIDACY-USA-FL-COUNTY_MADISON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3-2026_GENERAL-PHILLIPS_JH_4K
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER-GROUP_3-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3-2026_GENERAL
       person: PERSON-PHILLIPS_JH_4K
 - records:
   - type: Office
-    code: OFFICE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER-GROUP_5
+    code: OFFICE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5
     attributes:
       seat_code: GROUP_5
       is_active: true
     references:
-      position: POSITION-SOIL_AND_WATER
+      position: POSITION-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR
       jurisdiction: COUNTY-USA-FL-MADISON
   - type: Race
-    code: RACE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER-GROUP_5-2026_GENERAL
+    code: RACE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Unopposed. Retrieved: 2026-10-11. Sources: https://dos.elections.myflorida.com/candidates/downloadcanlist.asp.'
     references:
       election: ELECTION-USA-FL-COUNTY_MADISON-2026_GENERAL
-      office: OFFICE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER-GROUP_5
+      office: OFFICE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5
   - type: Person
     code: PERSON-ADAMS_DV_8L
     attributes:
@@ -352,10 +352,10 @@ groups:
       middle_name: Elton
       last_name: Adams
   - type: Candidacy
-    code: CANDIDACY-USA-FL-COUNTY_MADISON-SOIL_AND_WATER-GROUP_5-2026_GENERAL-ADAMS_DV_8L
+    code: CANDIDACY-USA-FL-COUNTY_MADISON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5-2026_GENERAL-ADAMS_DV_8L
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER-GROUP_5-2026_GENERAL
+      race: RACE-USA-FL-COUNTY_MADISON-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5-2026_GENERAL
       person: PERSON-ADAMS_DV_8L

@@ -21,22 +21,22 @@ records:
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_COUNTY-NEW_YORK
+    code: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-NEW_YORK
     attributes:
       seat_code: NEW_YORK
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_COUNTY
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-NEW_YORK
   - type: Race
-    code: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_COUNTY-NEW_YORK-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-NEW_YORK-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 3. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_NEW_YORK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_COUNTY-NEW_YORK
+      office: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-NEW_YORK
   - type: Person
     code: PERSON-MORALES_MINERVA_EM_6B
     attributes:
@@ -45,7 +45,7 @@ groups:
       first_name: Emily
       last_name: Morales-Minerva
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_COUNTY-NEW_YORK-2026_GENERAL-MORALES_MINERVA_EM_6B
+    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-NEW_YORK-2026_GENERAL-MORALES_MINERVA_EM_6B
     attributes:
       status: active
       participation: active
@@ -54,7 +54,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_COUNTY-NEW_YORK-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-NEW_YORK-2026_GENERAL
       person: PERSON-MORALES_MINERVA_EM_6B
   - type: Person
     code: PERSON-HANSHAFT_JS_4L
@@ -65,7 +65,7 @@ groups:
       middle_name: E.
       last_name: Hanshaft
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_COUNTY-NEW_YORK-2026_GENERAL-HANSHAFT_JS_4L
+    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-NEW_YORK-2026_GENERAL-HANSHAFT_JS_4L
     attributes:
       status: active
       participation: active
@@ -74,7 +74,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_COUNTY-NEW_YORK-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-NEW_YORK-2026_GENERAL
       person: PERSON-HANSHAFT_JS_4L
   - type: Person
     code: PERSON-FRANTS_VL_6J
@@ -84,7 +84,7 @@ groups:
       first_name: Vlad
       last_name: Frants
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_COUNTY-NEW_YORK-2026_GENERAL-FRANTS_VL_6J
+    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-NEW_YORK-2026_GENERAL-FRANTS_VL_6J
     attributes:
       status: active
       participation: active
@@ -93,26 +93,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_COUNTY-NEW_YORK-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-NEW_YORK-2026_GENERAL
       person: PERSON-FRANTS_VL_6J
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_NEW_YORK
+    code: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_NEW_YORK
     attributes:
       seat_code: 1ST_MUNICIPAL_COURT_DISTRICT_NEW_YORK
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-NEW_YORK
   - type: Race
-    code: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 1. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_NEW_YORK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_NEW_YORK
+      office: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_NEW_YORK
   - type: Person
     code: PERSON-FLORES_ER_9C
     attributes:
@@ -121,7 +121,7 @@ groups:
       first_name: Eric
       last_name: Flores
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-FLORES_ER_9C
+    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-FLORES_ER_9C
     attributes:
       status: active
       participation: active
@@ -130,26 +130,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-1ST_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
       person: PERSON-FLORES_ER_9C
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_NEW_YORK
+    code: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_NEW_YORK
     attributes:
       seat_code: 3RD_MUNICIPAL_COURT_DISTRICT_NEW_YORK
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-NEW_YORK
   - type: Race
-    code: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 1. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_NEW_YORK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_NEW_YORK
+      office: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_NEW_YORK
   - type: Person
     code: PERSON-BENATHEN_ST_2E
     attributes:
@@ -158,7 +158,7 @@ groups:
       first_name: Steven
       last_name: Benathen
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-BENATHEN_ST_2E
+    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-BENATHEN_ST_2E
     attributes:
       status: active
       participation: active
@@ -167,26 +167,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-3RD_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
       person: PERSON-BENATHEN_ST_2E
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
+    code: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
     attributes:
       seat_code: 4TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-NEW_YORK
   - type: Race
-    code: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 1. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_NEW_YORK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
+      office: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
   - type: Person
     code: PERSON-BONDY_FT_6F
     attributes:
@@ -195,7 +195,7 @@ groups:
       first_name: Faith
       last_name: Bondy
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-BONDY_FT_6F
+    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-BONDY_FT_6F
     attributes:
       status: active
       participation: active
@@ -204,26 +204,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-4TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
       person: PERSON-BONDY_FT_6F
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
+    code: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
     attributes:
       seat_code: 7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-NEW_YORK
   - type: Race
-    code: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 4. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_NEW_YORK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
+      office: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
   - type: Person
     code: PERSON-TINGLING_AJ_9H
     attributes:
@@ -232,7 +232,7 @@ groups:
       first_name: Aija
       last_name: Tingling
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-TINGLING_AJ_9H
+    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-TINGLING_AJ_9H
     attributes:
       status: active
       participation: active
@@ -240,7 +240,7 @@ groups:
       - label: Fair Courts
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
       person: PERSON-TINGLING_AJ_9H
   - type: Person
     code: PERSON-CORTES_TOWER_KR_8T
@@ -250,7 +250,7 @@ groups:
       first_name: Karen
       last_name: Cortes-Tower
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-CORTES_TOWER_KR_8T
+    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-CORTES_TOWER_KR_8T
     attributes:
       status: active
       participation: active
@@ -259,7 +259,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
       person: PERSON-CORTES_TOWER_KR_8T
   - type: Person
     code: PERSON-ESPINAL_KS_7Z
@@ -269,7 +269,7 @@ groups:
       first_name: Keshia
       last_name: Espinal
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-ESPINAL_KS_7Z
+    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-ESPINAL_KS_7Z
     attributes:
       status: active
       participation: active
@@ -278,7 +278,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
       person: PERSON-ESPINAL_KS_7Z
   - type: Person
     code: PERSON-LEVY_MT_2Q
@@ -288,7 +288,7 @@ groups:
       first_name: Matthew
       last_name: Levy
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-LEVY_MT_2Q
+    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-LEVY_MT_2Q
     attributes:
       status: active
       participation: active
@@ -297,26 +297,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
       person: PERSON-LEVY_MT_2Q
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
+    code: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
     attributes:
       seat_code: 9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
       is_active: true
     references:
-      position: POSITION-JUDGE_OF_THE_CIVIL_COURT_DISTRICT
+      position: POSITION-CIVIL_COURT_JUDGE
       jurisdiction: COUNTY-USA-NY-NEW_YORK
   - type: Race
-    code: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 2. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_NEW_YORK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
+      office: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
   - type: Person
     code: PERSON-KRIST_BR_6R
     attributes:
@@ -326,7 +326,7 @@ groups:
       middle_name: J.
       last_name: Krist
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-KRIST_BR_6R
+    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-KRIST_BR_6R
     attributes:
       status: active
       participation: active
@@ -335,7 +335,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
       person: PERSON-KRIST_BR_6R
   - type: Person
     code: PERSON-FRANKOLA_CRAWFORD_JN_9B
@@ -345,7 +345,7 @@ groups:
       first_name: Jennifer
       last_name: Frankola-Crawford
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-FRANKOLA_CRAWFORD_JN_9B
+    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL-FRANKOLA_CRAWFORD_JN_9B
     attributes:
       status: active
       participation: active
@@ -354,26 +354,26 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_NEW_YORK-JUDGE_OF_THE_CIVIL_COURT_DISTRICT-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
       person: PERSON-FRANKOLA_CRAWFORD_JN_9B
 - records:
   - type: Office
-    code: OFFICE-USA-NY-COUNTY_NEW_YORK-MEMBER_OF_THE_CITY_COUNCIL-3RD_COUNCIL_DISTRICT
+    code: OFFICE-USA-NY-COUNTY_NEW_YORK-COUNCIL_MEMBER-3RD_COUNCIL_DISTRICT
     attributes:
       seat_code: 3RD_COUNCIL_DISTRICT
       is_active: true
     references:
-      position: POSITION-MEMBER_OF_THE_CITY_COUNCIL
+      position: POSITION-COUNCIL_MEMBER
       jurisdiction: COUNTY-USA-NY-NEW_YORK
   - type: Race
-    code: RACE-USA-NY-COUNTY_NEW_YORK-MEMBER_OF_THE_CITY_COUNCIL-3RD_COUNCIL_DISTRICT-2026_GENERAL
+    code: RACE-USA-NY-COUNTY_NEW_YORK-COUNCIL_MEMBER-3RD_COUNCIL_DISTRICT-2026_GENERAL
     attributes:
       status: upcoming
       certification_status: tentative
       description: 'Vote for: 1. Source status: tentative - subject to change. Retrieved: 2026-10-01. Sources: https://www.vote.nyc/sites/default/files/pdf/candidates/2026/9_11_2026%2010_26_11%20AM_General%20Contest%20List%20Web%20Version.pdf.'
     references:
       election: ELECTION-USA-NY-COUNTY_NEW_YORK-2026_GENERAL
-      office: OFFICE-USA-NY-COUNTY_NEW_YORK-MEMBER_OF_THE_CITY_COUNCIL-3RD_COUNCIL_DISTRICT
+      office: OFFICE-USA-NY-COUNTY_NEW_YORK-COUNCIL_MEMBER-3RD_COUNCIL_DISTRICT
   - type: Person
     code: PERSON-WILSON_CR_6C
     attributes:
@@ -382,7 +382,7 @@ groups:
       first_name: Carl
       last_name: Wilson
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-MEMBER_OF_THE_CITY_COUNCIL-3RD_COUNCIL_DISTRICT-2026_GENERAL-WILSON_CR_6C
+    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-COUNCIL_MEMBER-3RD_COUNCIL_DISTRICT-2026_GENERAL-WILSON_CR_6C
     attributes:
       status: active
       participation: active
@@ -391,7 +391,7 @@ groups:
         kind: party
         party: PARTY-USA-NY-DEMOCRATIC
     references:
-      race: RACE-USA-NY-COUNTY_NEW_YORK-MEMBER_OF_THE_CITY_COUNCIL-3RD_COUNCIL_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_NEW_YORK-COUNCIL_MEMBER-3RD_COUNCIL_DISTRICT-2026_GENERAL
       person: PERSON-WILSON_CR_6C
   - type: Person
     code: PERSON-BHATTI_HR_4L
@@ -401,7 +401,7 @@ groups:
       first_name: Haris
       last_name: Bhatti
   - type: Candidacy
-    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-MEMBER_OF_THE_CITY_COUNCIL-3RD_COUNCIL_DISTRICT-2026_GENERAL-BHATTI_HR_4L
+    code: CANDIDACY-USA-NY-COUNTY_NEW_YORK-COUNCIL_MEMBER-3RD_COUNCIL_DISTRICT-2026_GENERAL-BHATTI_HR_4L
     attributes:
       status: active
       participation: active
@@ -409,7 +409,7 @@ groups:
       - label: Haris Bhatti
         kind: designation
     references:
-      race: RACE-USA-NY-COUNTY_NEW_YORK-MEMBER_OF_THE_CITY_COUNCIL-3RD_COUNCIL_DISTRICT-2026_GENERAL
+      race: RACE-USA-NY-COUNTY_NEW_YORK-COUNCIL_MEMBER-3RD_COUNCIL_DISTRICT-2026_GENERAL
       person: PERSON-BHATTI_HR_4L
 - records:
   - type: Office

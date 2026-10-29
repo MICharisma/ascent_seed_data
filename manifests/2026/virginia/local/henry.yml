@@ -19,35 +19,34 @@ records:
     jurisdiction: COUNTY-USA-VA-HENRY
     year: YEAR-2026
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_HENRY-2026_GENERAL
+  code: ELECTION-USA-VA-RIDGEWAY-2026_GENERAL
   attributes:
-    name: Henry County General Election 2026
+    name: Ridgeway General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-HENRY
+    jurisdiction: MUNICIPALITY-USA-VA-RIDGEWAY
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_HENRY-CLERK_OF_COURT-HENRY_COUNTY
+    code: OFFICE-USA-VA-COUNTY_HENRY-CLERK_OF_COURT
     attributes:
-      seat_code: HENRY_COUNTY
       is_active: true
     references:
       position: POSITION-CLERK_OF_COURT
       jurisdiction: COUNTY-USA-VA-HENRY
   - type: Race
-    code: RACE-USA-VA-COUNTY_HENRY-CLERK_OF_COURT-HENRY_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_HENRY-CLERK_OF_COURT-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_HENRY-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_HENRY-CLERK_OF_COURT-HENRY_COUNTY
+      office: OFFICE-USA-VA-COUNTY_HENRY-CLERK_OF_COURT
   - type: Person
     code: PERSON-SALGADO_KT_9C
     attributes:
@@ -57,30 +56,29 @@ groups:
       middle_name: Minter "Katie"
       last_name: Salgado
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HENRY-CLERK_OF_COURT-HENRY_COUNTY-2026_SPECIAL-SALGADO_KT_9C
+    code: CANDIDACY-USA-VA-COUNTY_HENRY-CLERK_OF_COURT-2026_SPECIAL-SALGADO_KT_9C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HENRY-CLERK_OF_COURT-HENRY_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_HENRY-CLERK_OF_COURT-2026_SPECIAL
       person: PERSON-SALGADO_KT_9C
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_HENRY-MAYOR-TOWN_OF_RIDGEWAY
+    code: OFFICE-USA-VA-RIDGEWAY-MAYOR
     attributes:
-      seat_code: TOWN_OF_RIDGEWAY
       is_active: true
     references:
       position: POSITION-MAYOR
-      jurisdiction: COUNTY-USA-VA-HENRY
+      jurisdiction: MUNICIPALITY-USA-VA-RIDGEWAY
   - type: Race
-    code: RACE-USA-VA-COUNTY_HENRY-MAYOR-TOWN_OF_RIDGEWAY-2026_GENERAL
+    code: RACE-USA-VA-RIDGEWAY-MAYOR-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_HENRY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_HENRY-MAYOR-TOWN_OF_RIDGEWAY
+      election: ELECTION-USA-VA-RIDGEWAY-2026_GENERAL
+      office: OFFICE-USA-VA-RIDGEWAY-MAYOR
   - type: Person
     code: PERSON-ODER_CR_2W
     attributes:
@@ -90,30 +88,30 @@ groups:
       middle_name: A. G.
       last_name: Oder, Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HENRY-MAYOR-TOWN_OF_RIDGEWAY-2026_GENERAL-ODER_CR_2W
+    code: CANDIDACY-USA-VA-RIDGEWAY-MAYOR-2026_GENERAL-ODER_CR_2W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HENRY-MAYOR-TOWN_OF_RIDGEWAY-2026_GENERAL
+      race: RACE-USA-VA-RIDGEWAY-MAYOR-2026_GENERAL
       person: PERSON-ODER_CR_2W
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_HENRY-MEMBER_SCHOOL_BOARD_AT_LARGE-HENRY_COUNTY
+    code: OFFICE-USA-VA-COUNTY_HENRY-SCHOOL_BOARD_MEMBER-AT_LARGE
     attributes:
-      seat_code: HENRY_COUNTY
+      seat_code: AT_LARGE
       is_active: true
     references:
-      position: POSITION-MEMBER_SCHOOL_BOARD_AT_LARGE
+      position: POSITION-SCHOOL_BOARD_MEMBER
       jurisdiction: COUNTY-USA-VA-HENRY
   - type: Race
-    code: RACE-USA-VA-COUNTY_HENRY-MEMBER_SCHOOL_BOARD_AT_LARGE-HENRY_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_HENRY-SCHOOL_BOARD_MEMBER-AT_LARGE-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_HENRY-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_HENRY-MEMBER_SCHOOL_BOARD_AT_LARGE-HENRY_COUNTY
+      office: OFFICE-USA-VA-COUNTY_HENRY-SCHOOL_BOARD_MEMBER-AT_LARGE
   - type: Person
     code: PERSON-MARTIN_JN_2Y
     attributes:
@@ -123,12 +121,12 @@ groups:
       middle_name: P.
       last_name: Martin
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HENRY-MEMBER_SCHOOL_BOARD_AT_LARGE-HENRY_COUNTY-2026_SPECIAL-MARTIN_JN_2Y
+    code: CANDIDACY-USA-VA-COUNTY_HENRY-SCHOOL_BOARD_MEMBER-AT_LARGE-2026_SPECIAL-MARTIN_JN_2Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HENRY-MEMBER_SCHOOL_BOARD_AT_LARGE-HENRY_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_HENRY-SCHOOL_BOARD_MEMBER-AT_LARGE-2026_SPECIAL
       person: PERSON-MARTIN_JN_2Y
   - type: Person
     code: PERSON-SCHENK_JS_9H
@@ -139,30 +137,29 @@ groups:
       middle_name: H. M.
       last_name: Schenk Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HENRY-MEMBER_SCHOOL_BOARD_AT_LARGE-HENRY_COUNTY-2026_SPECIAL-SCHENK_JS_9H
+    code: CANDIDACY-USA-VA-COUNTY_HENRY-SCHOOL_BOARD_MEMBER-AT_LARGE-2026_SPECIAL-SCHENK_JS_9H
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HENRY-MEMBER_SCHOOL_BOARD_AT_LARGE-HENRY_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_HENRY-SCHOOL_BOARD_MEMBER-AT_LARGE-2026_SPECIAL
       person: PERSON-SCHENK_JS_9H
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_HENRY-MEMBER_TOWN_COUNCIL-TOWN_OF_RIDGEWAY
+    code: OFFICE-USA-VA-RIDGEWAY-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_RIDGEWAY
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-HENRY
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-RIDGEWAY
   - type: Race
-    code: RACE-USA-VA-COUNTY_HENRY-MEMBER_TOWN_COUNCIL-TOWN_OF_RIDGEWAY-2026_GENERAL
+    code: RACE-USA-VA-RIDGEWAY-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_HENRY-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_HENRY-MEMBER_TOWN_COUNCIL-TOWN_OF_RIDGEWAY
+      election: ELECTION-USA-VA-RIDGEWAY-2026_GENERAL
+      office: OFFICE-USA-VA-RIDGEWAY-COUNCIL_MEMBER
   - type: Person
     code: PERSON-HAIRSTON_JM_6E
     attributes:
@@ -172,12 +169,12 @@ groups:
       middle_name: B.
       last_name: Hairston
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HENRY-MEMBER_TOWN_COUNCIL-TOWN_OF_RIDGEWAY-2026_GENERAL-HAIRSTON_JM_6E
+    code: CANDIDACY-USA-VA-RIDGEWAY-COUNCIL_MEMBER-2026_GENERAL-HAIRSTON_JM_6E
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HENRY-MEMBER_TOWN_COUNCIL-TOWN_OF_RIDGEWAY-2026_GENERAL
+      race: RACE-USA-VA-RIDGEWAY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-HAIRSTON_JM_6E
   - type: Person
     code: PERSON-MCCULLOCH_MV_3W
@@ -188,12 +185,12 @@ groups:
       middle_name: S.
       last_name: McCulloch
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HENRY-MEMBER_TOWN_COUNCIL-TOWN_OF_RIDGEWAY-2026_GENERAL-MCCULLOCH_MV_3W
+    code: CANDIDACY-USA-VA-RIDGEWAY-COUNCIL_MEMBER-2026_GENERAL-MCCULLOCH_MV_3W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HENRY-MEMBER_TOWN_COUNCIL-TOWN_OF_RIDGEWAY-2026_GENERAL
+      race: RACE-USA-VA-RIDGEWAY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-MCCULLOCH_MV_3W
   - type: Person
     code: PERSON-BASS_MC_8Y
@@ -204,12 +201,12 @@ groups:
       middle_name: R.
       last_name: Bass
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HENRY-MEMBER_TOWN_COUNCIL-TOWN_OF_RIDGEWAY-2026_GENERAL-BASS_MC_8Y
+    code: CANDIDACY-USA-VA-RIDGEWAY-COUNCIL_MEMBER-2026_GENERAL-BASS_MC_8Y
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HENRY-MEMBER_TOWN_COUNCIL-TOWN_OF_RIDGEWAY-2026_GENERAL
+      race: RACE-USA-VA-RIDGEWAY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-BASS_MC_8Y
   - type: Person
     code: PERSON-WESTBERG_WL_5R
@@ -220,30 +217,29 @@ groups:
       middle_name: W.
       last_name: Westberg Jr.
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HENRY-MEMBER_TOWN_COUNCIL-TOWN_OF_RIDGEWAY-2026_GENERAL-WESTBERG_WL_5R
+    code: CANDIDACY-USA-VA-RIDGEWAY-COUNCIL_MEMBER-2026_GENERAL-WESTBERG_WL_5R
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HENRY-MEMBER_TOWN_COUNCIL-TOWN_OF_RIDGEWAY-2026_GENERAL
+      race: RACE-USA-VA-RIDGEWAY-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-WESTBERG_WL_5R
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_HENRY-TREASURER-HENRY_COUNTY
+    code: OFFICE-USA-VA-COUNTY_HENRY-TREASURER
     attributes:
-      seat_code: HENRY_COUNTY
       is_active: true
     references:
       position: POSITION-TREASURER
       jurisdiction: COUNTY-USA-VA-HENRY
   - type: Race
-    code: RACE-USA-VA-COUNTY_HENRY-TREASURER-HENRY_COUNTY-2026_SPECIAL
+    code: RACE-USA-VA-COUNTY_HENRY-TREASURER-2026_SPECIAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
       election: ELECTION-USA-VA-COUNTY_HENRY-2026_SPECIAL
-      office: OFFICE-USA-VA-COUNTY_HENRY-TREASURER-HENRY_COUNTY
+      office: OFFICE-USA-VA-COUNTY_HENRY-TREASURER
   - type: Person
     code: PERSON-HAIRSTON_TF_8C
     attributes:
@@ -253,10 +249,10 @@ groups:
       middle_name: Seay
       last_name: Hairston
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_HENRY-TREASURER-HENRY_COUNTY-2026_SPECIAL-HAIRSTON_TF_8C
+    code: CANDIDACY-USA-VA-COUNTY_HENRY-TREASURER-2026_SPECIAL-HAIRSTON_TF_8C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_HENRY-TREASURER-HENRY_COUNTY-2026_SPECIAL
+      race: RACE-USA-VA-COUNTY_HENRY-TREASURER-2026_SPECIAL
       person: PERSON-HAIRSTON_TF_8C

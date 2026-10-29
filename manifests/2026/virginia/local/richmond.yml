@@ -7,35 +7,34 @@ scope:
   state: STATE-USA-VA
 records:
 - type: Election
-  code: ELECTION-USA-VA-COUNTY_RICHMOND-2026_GENERAL
+  code: ELECTION-USA-VA-WARSAW-2026_GENERAL
   attributes:
-    name: Richmond County General Election 2026
+    name: Warsaw General Election 2026
     kind: general
     election_date: '2026-11-03'
     status: upcoming
     is_mock: false
     is_historical: false
   references:
-    jurisdiction: COUNTY-USA-VA-RICHMOND
+    jurisdiction: MUNICIPALITY-USA-VA-WARSAW
     year: YEAR-2026
 groups:
 - records:
   - type: Office
-    code: OFFICE-USA-VA-COUNTY_RICHMOND-MEMBER_TOWN_COUNCIL-TOWN_OF_WARSAW
+    code: OFFICE-USA-VA-WARSAW-COUNCIL_MEMBER
     attributes:
-      seat_code: TOWN_OF_WARSAW
       is_active: true
     references:
-      position: POSITION-MEMBER_TOWN_COUNCIL
-      jurisdiction: COUNTY-USA-VA-RICHMOND
+      position: POSITION-COUNCIL_MEMBER
+      jurisdiction: MUNICIPALITY-USA-VA-WARSAW
   - type: Race
-    code: RACE-USA-VA-COUNTY_RICHMOND-MEMBER_TOWN_COUNCIL-TOWN_OF_WARSAW-2026_GENERAL
+    code: RACE-USA-VA-WARSAW-COUNCIL_MEMBER-2026_GENERAL
     attributes:
       status: upcoming
       description: 'Source status: Qualified. Retrieved: 2026-10-04. Sources: https://www.elections.virginia.gov/casting-a-ballot/candidate-list/november-3-2026-gen-elect-all-offices/.'
     references:
-      election: ELECTION-USA-VA-COUNTY_RICHMOND-2026_GENERAL
-      office: OFFICE-USA-VA-COUNTY_RICHMOND-MEMBER_TOWN_COUNCIL-TOWN_OF_WARSAW
+      election: ELECTION-USA-VA-WARSAW-2026_GENERAL
+      office: OFFICE-USA-VA-WARSAW-COUNCIL_MEMBER
   - type: Person
     code: PERSON-ENGLISH_JN_4B
     attributes:
@@ -45,12 +44,12 @@ groups:
       middle_name: B.
       last_name: English
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RICHMOND-MEMBER_TOWN_COUNCIL-TOWN_OF_WARSAW-2026_GENERAL-ENGLISH_JN_4B
+    code: CANDIDACY-USA-VA-WARSAW-COUNCIL_MEMBER-2026_GENERAL-ENGLISH_JN_4B
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RICHMOND-MEMBER_TOWN_COUNCIL-TOWN_OF_WARSAW-2026_GENERAL
+      race: RACE-USA-VA-WARSAW-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-ENGLISH_JN_4B
   - type: Person
     code: PERSON-STONE_MC_6W
@@ -61,12 +60,12 @@ groups:
       middle_name: P.
       last_name: Stone
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RICHMOND-MEMBER_TOWN_COUNCIL-TOWN_OF_WARSAW-2026_GENERAL-STONE_MC_6W
+    code: CANDIDACY-USA-VA-WARSAW-COUNCIL_MEMBER-2026_GENERAL-STONE_MC_6W
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RICHMOND-MEMBER_TOWN_COUNCIL-TOWN_OF_WARSAW-2026_GENERAL
+      race: RACE-USA-VA-WARSAW-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-STONE_MC_6W
   - type: Person
     code: PERSON-YACKEL_PL_7C
@@ -77,12 +76,12 @@ groups:
       middle_name: G.
       last_name: Yackel
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RICHMOND-MEMBER_TOWN_COUNCIL-TOWN_OF_WARSAW-2026_GENERAL-YACKEL_PL_7C
+    code: CANDIDACY-USA-VA-WARSAW-COUNCIL_MEMBER-2026_GENERAL-YACKEL_PL_7C
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RICHMOND-MEMBER_TOWN_COUNCIL-TOWN_OF_WARSAW-2026_GENERAL
+      race: RACE-USA-VA-WARSAW-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-YACKEL_PL_7C
   - type: Person
     code: PERSON-PHELPS_RN_7G
@@ -93,10 +92,10 @@ groups:
       middle_name: L.
       last_name: Phelps
   - type: Candidacy
-    code: CANDIDACY-USA-VA-COUNTY_RICHMOND-MEMBER_TOWN_COUNCIL-TOWN_OF_WARSAW-2026_GENERAL-PHELPS_RN_7G
+    code: CANDIDACY-USA-VA-WARSAW-COUNCIL_MEMBER-2026_GENERAL-PHELPS_RN_7G
     attributes:
       status: active
       participation: active
     references:
-      race: RACE-USA-VA-COUNTY_RICHMOND-MEMBER_TOWN_COUNCIL-TOWN_OF_WARSAW-2026_GENERAL
+      race: RACE-USA-VA-WARSAW-COUNCIL_MEMBER-2026_GENERAL
       person: PERSON-PHELPS_RN_7G
