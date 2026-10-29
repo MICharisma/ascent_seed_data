@@ -229,11 +229,16 @@ class CandidateAccountsTest(unittest.TestCase):
             bad_username = copy.deepcopy(bare)
             bad_username["records"][0] = {
                 "type": "Person", "code": "PERSON-JAMES_LT_6J",
-                "attributes": {"username": "james_lt_9z", "first_name": "Letitia", "last_name": "James"},
+                "attributes": {"username": "james_lt_9z", "username_status": "provisional", "first_name": "Letitia", "last_name": "James"},
             }
             bare_path.write_text(json.dumps(bad_username))
-            with self.assertRaisesRegex(ValueError, "username 'james_lt_9z' must match 'james_lt_6j'"):
+            with self.assertRaisesRegex(ValueError, "provisional username 'james_lt_9z' must match 'james_lt_6j'"):
                 contract.validate_file(bare_path, schema)
+
+            # A verified username is the person's own choice, so it may differ from the code.
+            bad_username["records"][0]["attributes"].update(username="tishjames", username_status="verified")
+            bare_path.write_text(json.dumps(bad_username))
+            contract.validate_file(bare_path, schema)
 
             valid = copy.deepcopy(bare)
             valid["records"][0] = {

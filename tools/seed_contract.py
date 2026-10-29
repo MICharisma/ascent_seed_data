@@ -93,10 +93,12 @@ def validate_person_record(row):
     code = row.get("code", "")
     if not PERSON_CODE_RE.match(code):
         raise ValueError(f"Person definition {code} requires a disambiguator; bare name codes are allowed only as references")
-    username = row.get("attributes", {}).get("username")
+    # A provisional username is the code itself; a verified one is the person's own choice.
+    attributes = row.get("attributes", {})
+    username = attributes.get("username")
     expected_username = code.removeprefix("PERSON-").lower()
-    if username is not None and username != expected_username:
-        raise ValueError(f"Person definition {code} username {username!r} must match {expected_username!r}")
+    if attributes.get("username_status") == "provisional" and username != expected_username:
+        raise ValueError(f"Person definition {code} provisional username {username!r} must match {expected_username!r}")
 
 
 def iter_person_records(container):
