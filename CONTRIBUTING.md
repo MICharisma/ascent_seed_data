@@ -38,6 +38,60 @@ records:
 - **Each piece of evidence is its own record**, so you can add evidence to an existing stance without redefining it.
 - **Allowed types, fields, and values** are listed in `schemas/asc.contract.json` and enforced by `schemas/v1/asc.schema.json`.
 
+## Find existing records
+
+Use the [entity catalog](catalog/README.md) to browse records by type and state. The CSV files include entity codes, names, state codes, FIPS, aliases, references, and source paths. Each catalog group links to its source manifests.
+
+After the Python setup in [WORKERS.md](WORKERS.md#set-up-validation), use the offline lookup:
+
+```sh
+.venv/bin/python tools/seed_contract.py lookup Albany --state NY
+.venv/bin/python tools/seed_contract.py lookup Mayor --type Position
+.venv/bin/python tools/seed_contract.py lookup Albany --type Office --format json
+```
+
+A nonzero exit means the lookup failed or no records matched. Queries match names, entity codes, aliases, and FIPS without regard to letter case. `--type` takes an entity type such as County, Position, Office, or Candidacy. `--state` accepts `NY` or `STATE-USA-NY`. Omit the query to list all records matching the filters.
+
+A Position describes a role, such as Mayor. An Office connects that role to a jurisdiction. A Race connects the office to an Election, and a Candidacy connects a Person to the race. Reuse each existing code when adding data to that record.
+
+State filters follow manifest scope and references. A person's state association does not establish residence. Catalog entries describe repository definitions, independent of whether a database has imported them.
+
+## County FIPS
+
+A record's top-level `code` is its Ascent entity code. A county's external geographic identifier is `attributes.fips`:
+
+```yaml
+type: County
+code: COUNTY-USA-AL-AUTAUGA
+attributes:
+  name: Autauga County
+  fips: "01001"
+references:
+  state: STATE-USA-AL
+```
+
+FIPS is optional and, when present, must be a quoted five-digit string. Keep leading zeros. Replace the former County `attributes.code` with `attributes.fips`; the old attribute is rejected. Country and State `attributes.code` retain their existing meanings.
+
+In the app, a county's FIPS must agree with its jurisdiction's Census GEOID when both are present. Boundary imports match counties by FIPS and fill missing FIPS from the county feature.
+
+## Refresh the catalog
+
+After changing a manifest, regenerate the catalog from this repository root:
+
+```sh
+.venv/bin/python tools/seed_contract.py export-catalog
+```
+
+A nonzero exit means generation failed. The command reports the unique record count and writes generated CSV files and their index under `catalog/`. Edit definitions in `manifests/`, then commit the resulting catalog changes with them. The exporter rejects contradictory attributes and alias collisions.
+
+Check the generated files without changing them:
+
+```sh
+.venv/bin/python tools/seed_contract.py export-catalog --check
+```
+
+A nonzero exit means the catalog is missing, stale, or has unexpected files. This check runs in CI.
+
 ## People
 
 A person's code is a version of their name and a disambiguator Ascent issues to everyone in advance: Letitia James is `PERSON-JAMES_LT_5Y` in the current manifests. Use the owner export in [WORKERS.md](WORKERS.md#find-the-owner-codes) to find current full codes.

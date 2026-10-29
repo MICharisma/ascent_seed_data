@@ -12,16 +12,13 @@ import yaml
 from jsonschema import Draft202012Validator, FormatChecker
 from referencing import Registry, Resource
 
+import reference_catalog
+
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMAS = ROOT / "schemas" / "v1"
 
 
-class StrictLoader(yaml.SafeLoader):
-    def compose_node(self, parent, index):
-        if self.check_event(yaml.AliasEvent):
-            raise ValueError("YAML aliases are unsupported; use scope/groups")
-        return super().compose_node(parent, index)
-
+class StrictLoader(getattr(yaml, "CSafeLoader", yaml.SafeLoader)):
     def construct_mapping(self, node, deep=False):
         result = {}
         for key_node, value_node in node.value:
@@ -71,6 +68,8 @@ def load_document(path):
     if Path(path).suffix.lower() == ".json":
         value = json.loads(text, object_pairs_hook=unique_object)
     else:
+        if any(isinstance(event, yaml.AliasEvent) for event in yaml.parse(text, Loader=StrictLoader)):
+            raise ValueError("YAML aliases are unsupported; use scope/groups")
         value = yaml.load(text, Loader=StrictLoader)
     return portable(value)
 
@@ -119,19 +118,20 @@ def catalog(root):
         for row in container.get("records", []):
             code = row["code"]
             entry = index.setdefault(code, {"code": code, "type": row["type"], "attributes": {},
-                                            "references": {}, "files": []})
+                                            "references": {}, "aliases": [], "files": []})
             if entry["type"] != row["type"]:
                 raise ValueError(f"{code} names multiple entity types")
             if row["type"] == "Channel":
-                for field, value in row.get("attributes", {}).items():
-                    if field in entry["attributes"] and entry["attributes"][field] != value:
-                        raise ValueError(f"{path}: contradictory {code} attribute {field} across seed definitions")
                 owner = (scope | row.get("scope", {}) | row.get("references", {})).get("owner")
                 existing_owner = entry["references"].get("owner")
                 if existing_owner and owner and reference_code(existing_owner) != reference_code(owner):
                     raise ValueError(f"{path}: contradictory {code} owner across seed definitions")
-            entry["attributes"].update(row.get("attributes", {}))
+            for field, value in row.get("attributes", {}).items():
+                if field in entry["attributes"] and entry["attributes"][field] != value:
+                    raise ValueError(f"{path}: contradictory {code} attribute {field} across seed definitions")
+                entry["attributes"][field] = value
             entry["references"].update(scope | row.get("scope", {}) | row.get("references", {}))
+            entry["aliases"] = sorted(set(entry["aliases"]) | set(row.get("aliases", [])))
             entry["files"].append(str(path.relative_to(root)))
         for group in container.get("groups", []):
             collect(group, path, scope)
@@ -209,7 +209,25 @@ def main(argv=None):
         check = commands.add_parser(command)
         check.add_argument("paths", nargs="+", type=Path)
     commands.add_parser("owners")
+    export = commands.add_parser("export-catalog")
+    export.add_argument("--check", action="store_true")
+    lookup = commands.add_parser("lookup")
+    lookup.add_argument("query", nargs="?", default="")
+    lookup.add_argument("--type", dest="entity_type")
+    lookup.add_argument("--state")
+    lookup.add_argument("--format", choices=("table", "json"), default="table")
     args = parser.parse_args(argv)
+    if args.command == "export-catalog":
+        count = reference_catalog.export(catalog(ROOT / "manifests"), ROOT / "catalog", check=args.check)
+        print(f"{'Checked' if args.check else 'Exported'} {count} catalog records.")
+        return 0
+    if args.command == "lookup":
+        rows = reference_catalog.lookup(ROOT / "catalog", args.query, args.entity_type, args.state)
+        if not rows:
+            print("No catalog records match.", file=sys.stderr)
+            return 1
+        print(reference_catalog.display(rows, args.format))
+        return 0
     if args.command == "owners":
         rows = list(owners(catalog(ROOT / "manifests")))
         if not rows:

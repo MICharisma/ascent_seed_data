@@ -15,6 +15,17 @@ python3 -m venv .venv
 
 These commands create a local environment and install the validator's dependencies. A nonzero exit means setup failed. Validation runs offline after installation, with no Rails checkout, private library, credentials, or database.
 
+## Find entity codes
+
+Browse the [entity catalog](catalog/README.md), or search it after the Python setup above:
+
+```sh
+.venv/bin/python tools/seed_contract.py lookup Albany --type County --state NY
+.venv/bin/python tools/seed_contract.py lookup Mayor --type Position --format json
+```
+
+A nonzero exit means the lookup failed or no records matched. Results include the current entity code and source manifests. Use `--format json` for aliases and references as structured fields. County FIPS appears separately from its entity code. State filters follow manifest relationships, not a person's residence.
+
 ## Find the owner codes
 
 Export the current repository's people and candidacies:
@@ -98,6 +109,8 @@ Check all manifests and examples before opening a pull request:
 ```
 
 A nonzero exit or a nonzero `failed` count means validation failed. Files in a `candidate_accounts` directory receive the stricter account checks. Other files receive the general Ascent schema checks. GitHub Actions runs this command and the validator tests on pull requests.
+
+After adding or changing manifests, also regenerate and check the [entity catalog](CONTRIBUTING.md#refresh-the-catalog). Commit generated catalog changes with the manifest changes.
 
 The parser rejects duplicate keys, YAML aliases and merge keys, custom tags, multiple YAML documents, ERB, and non-finite numbers. YAML and JSON use the same schema. The worker schema is [schemas/v1/candidate-accounts.schema.json](schemas/v1/candidate-accounts.schema.json), a stricter subset of the generated Ascent schema. Do not edit the generated general schema to bypass an error.
 

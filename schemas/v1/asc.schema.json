@@ -555,10 +555,11 @@
             "attributes": {
               "type": "object",
               "properties": {
-                "code": {
+                "fips": {
                   "anyOf": [
                     {
-                      "type": "string"
+                      "type": "string",
+                      "pattern": "^[0-9]{5}$"
                     },
                     {
                       "type": "null"
