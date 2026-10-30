@@ -1,0 +1,2181 @@
+# South Dakota 2026: Governor, Public Utilities Commissioner, state Senate and House offices and general races, plus party nomination offices and June 2 primary races where the primary was contested. Existing federal and statewide offices are referenced.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://vip.sdsos.gov/candidatelist.aspx?eid=774
+  captured_on: '2026-10-29'
+records:
+- type: Office
+  code: OFFICE-USA-SD-GOVERNOR
+  attributes:
+    is_active: true
+  references:
+    position: POSITION-GOVERNOR
+    jurisdiction: STATE-USA-SD
+- type: Race
+  code: RACE-USA-SD-GOVERNOR-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''Governor and Lieutenant Governor''). Governor and Lieutenant Governor are elected on a joint ticket.'
+  references:
+    election: ELECTION-USA-SD-2026_GENERAL
+    office: OFFICE-USA-SD-GOVERNOR
+- type: Office
+  code: OFFICE-USA-SD-PUBLIC_UTILITIES_COMMISSIONER
+  attributes:
+    is_active: true
+  references:
+    position: POSITION-PUBLIC_SERVICE_COMMISSIONER
+    jurisdiction: STATE-USA-SD
+- type: Race
+  code: RACE-USA-SD-PUBLIC_UTILITIES_COMMISSIONER-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''Public Utilities Commissioner'').'
+  references:
+    election: ELECTION-USA-SD-2026_GENERAL
+    office: OFFICE-USA-SD-PUBLIC_UTILITIES_COMMISSIONER
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_1
+  attributes:
+    is_active: true
+    seat_code: SD_1
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_1
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_1-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 01'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_1-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_1
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_2
+  attributes:
+    is_active: true
+    seat_code: SD_2
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_2
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_2-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 02'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_2-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_2
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_3
+  attributes:
+    is_active: true
+    seat_code: SD_3
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_3
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_3-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 03'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_3-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_3
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_4
+  attributes:
+    is_active: true
+    seat_code: SD_4
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_4
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_4-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 04'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_4-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_4
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_5
+  attributes:
+    is_active: true
+    seat_code: SD_5
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_5
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_5-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 05'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_5-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_5
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_6
+  attributes:
+    is_active: true
+    seat_code: SD_6
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_6
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_6-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 06'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_6-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_6
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_7
+  attributes:
+    is_active: true
+    seat_code: SD_7
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_7
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_7-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 07'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_7-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_7
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_8
+  attributes:
+    is_active: true
+    seat_code: SD_8
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_8
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_8-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 08'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_8-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_8
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_9
+  attributes:
+    is_active: true
+    seat_code: SD_9
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_9
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_9-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 09'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_9-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_9
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_10
+  attributes:
+    is_active: true
+    seat_code: SD_10
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_10
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_10-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 10'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_10-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_10
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_11
+  attributes:
+    is_active: true
+    seat_code: SD_11
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_11
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_11-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 11'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_11-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_11
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_12
+  attributes:
+    is_active: true
+    seat_code: SD_12
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_12
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_12-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 12'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_12-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_12
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_13
+  attributes:
+    is_active: true
+    seat_code: SD_13
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_13
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_13-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 13'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_13-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_13
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_14
+  attributes:
+    is_active: true
+    seat_code: SD_14
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_14
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_14-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 14'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_14-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_14
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_15
+  attributes:
+    is_active: true
+    seat_code: SD_15
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_15
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_15-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 15'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_15-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_15
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_16
+  attributes:
+    is_active: true
+    seat_code: SD_16
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_16
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_16-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 16'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_16-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_16
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_17
+  attributes:
+    is_active: true
+    seat_code: SD_17
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_17
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_17-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 17'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_17-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_17
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_18
+  attributes:
+    is_active: true
+    seat_code: SD_18
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_18
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_18-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 18'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_18-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_18
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_19
+  attributes:
+    is_active: true
+    seat_code: SD_19
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_19
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_19-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 19'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_19-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_19
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_20
+  attributes:
+    is_active: true
+    seat_code: SD_20
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_20
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_20-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 20'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_20-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_20
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_21
+  attributes:
+    is_active: true
+    seat_code: SD_21
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_21
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_21-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 21'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_21-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_21
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_22
+  attributes:
+    is_active: true
+    seat_code: SD_22
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_22
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_22-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 22'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_22-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_22
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_23
+  attributes:
+    is_active: true
+    seat_code: SD_23
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_23
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_23-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 23'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_23-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_23
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_24
+  attributes:
+    is_active: true
+    seat_code: SD_24
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_24
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_24-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 24'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_24-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_24
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_25
+  attributes:
+    is_active: true
+    seat_code: SD_25
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_25
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_25-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 25'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_25-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_25
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_26
+  attributes:
+    is_active: true
+    seat_code: SD_26
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_26
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_26-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 26'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_26-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_26
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_27
+  attributes:
+    is_active: true
+    seat_code: SD_27
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_27
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_27-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 27'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_27-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_27
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_28
+  attributes:
+    is_active: true
+    seat_code: SD_28
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_28
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_28-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 28'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_28-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_28
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_29
+  attributes:
+    is_active: true
+    seat_code: SD_29
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_29
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_29-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 29'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_29-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_29
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_30
+  attributes:
+    is_active: true
+    seat_code: SD_30
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_30
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_30-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 30'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_30-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_30
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_31
+  attributes:
+    is_active: true
+    seat_code: SD_31
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_31
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_31-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 31'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_31-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_31
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_32
+  attributes:
+    is_active: true
+    seat_code: SD_32
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_32
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_32-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 32'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_32-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_32
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_33
+  attributes:
+    is_active: true
+    seat_code: SD_33
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_33
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_33-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 33'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_33-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_33
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_34
+  attributes:
+    is_active: true
+    seat_code: SD_34
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_34
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_34-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 34'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_34-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_34
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_35
+  attributes:
+    is_active: true
+    seat_code: SD_35
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_35
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_35-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Senator District 35'').'
+  references:
+    election: ELECTION-USA-SD-SENATE-SD_35-2026_GENERAL
+    office: OFFICE-USA-SD-SENATE-SD_35
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_1
+  attributes:
+    is_active: true
+    seat_code: HD_1
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_1
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_1-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 01''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_1-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_1
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_2
+  attributes:
+    is_active: true
+    seat_code: HD_2
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_2
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_2-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 02''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_2-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_2
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_3
+  attributes:
+    is_active: true
+    seat_code: HD_3
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_3
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_3-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 03''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_3-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_3
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_4
+  attributes:
+    is_active: true
+    seat_code: HD_4
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_4
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_4-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 04''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_4-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_4
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_5
+  attributes:
+    is_active: true
+    seat_code: HD_5
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_5
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_5-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 05''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_5-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_5
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_6
+  attributes:
+    is_active: true
+    seat_code: HD_6
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_6
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_6-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 06''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_6-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_6
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_7
+  attributes:
+    is_active: true
+    seat_code: HD_7
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_7
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_7-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 07''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_7-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_7
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_8
+  attributes:
+    is_active: true
+    seat_code: HD_8
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_8
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_8-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 08''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_8-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_8
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_9
+  attributes:
+    is_active: true
+    seat_code: HD_9
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_9
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_9-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 09''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_9-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_9
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_10
+  attributes:
+    is_active: true
+    seat_code: HD_10
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_10
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_10-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 10''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_10-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_10
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_11
+  attributes:
+    is_active: true
+    seat_code: HD_11
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_11
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_11-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 11''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_11-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_11
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_12
+  attributes:
+    is_active: true
+    seat_code: HD_12
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_12
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_12-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 12''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_12-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_12
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_13
+  attributes:
+    is_active: true
+    seat_code: HD_13
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_13
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_13-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 13''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_13-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_13
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_14
+  attributes:
+    is_active: true
+    seat_code: HD_14
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_14
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_14-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 14''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_14-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_14
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_15
+  attributes:
+    is_active: true
+    seat_code: HD_15
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_15
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_15-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 15''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_15-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_15
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_16
+  attributes:
+    is_active: true
+    seat_code: HD_16
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_16
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_16-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 16''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_16-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_16
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_17
+  attributes:
+    is_active: true
+    seat_code: HD_17
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_17
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_17-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 17''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_17-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_17
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_18
+  attributes:
+    is_active: true
+    seat_code: HD_18
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_18
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_18-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 18''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_18-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_18
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_19
+  attributes:
+    is_active: true
+    seat_code: HD_19
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_19
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_19-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 19''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_19-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_19
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_20
+  attributes:
+    is_active: true
+    seat_code: HD_20
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_20
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_20-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 20''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_20-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_20
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_21
+  attributes:
+    is_active: true
+    seat_code: HD_21
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_21
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_21-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 21''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_21-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_21
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_22
+  attributes:
+    is_active: true
+    seat_code: HD_22
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_22
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_22-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 22''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_22-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_22
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_23
+  attributes:
+    is_active: true
+    seat_code: HD_23
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_23
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_23-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 23''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_23-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_23
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_24
+  attributes:
+    is_active: true
+    seat_code: HD_24
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_24
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_24-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 24''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_24-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_24
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_25
+  attributes:
+    is_active: true
+    seat_code: HD_25
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_25
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_25-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 25''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_25-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_25
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_26A
+  attributes:
+    is_active: true
+    seat_code: HD_26A
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_26A
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_26A-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 26A''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_26A-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_26A
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_26B
+  attributes:
+    is_active: true
+    seat_code: HD_26B
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_26B
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_26B-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 26B''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_26B-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_26B
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_27
+  attributes:
+    is_active: true
+    seat_code: HD_27
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_27
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_27-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 27''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_27-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_27
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_28A
+  attributes:
+    is_active: true
+    seat_code: HD_28A
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_28A
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_28A-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 28A''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_28A-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_28A
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_28B
+  attributes:
+    is_active: true
+    seat_code: HD_28B
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_28B
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_28B-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 28B''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_28B-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_28B
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_29
+  attributes:
+    is_active: true
+    seat_code: HD_29
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_29
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_29-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 29''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_29-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_29
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_30
+  attributes:
+    is_active: true
+    seat_code: HD_30
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_30
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_30-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 30''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_30-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_30
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_31
+  attributes:
+    is_active: true
+    seat_code: HD_31
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_31
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_31-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 31''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_31-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_31
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_32
+  attributes:
+    is_active: true
+    seat_code: HD_32
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_32
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_32-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 32''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_32-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_32
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_33
+  attributes:
+    is_active: true
+    seat_code: HD_33
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_33
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_33-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 33''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_33-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_33
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_34
+  attributes:
+    is_active: true
+    seat_code: HD_34
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_34
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_34-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 34''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_34-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_34
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_35
+  attributes:
+    is_active: true
+    seat_code: HD_35
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_35
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_35-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 2. Candidates per the South Dakota Secretary of State 2026 General Election candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=774; contest ''State Representative District 35''). House District 26 and 28 are split into single-member subdistricts A and B; all other House districts elect two members.'
+  references:
+    election: ELECTION-USA-SD-HOUSE-HD_35-2026_GENERAL
+    office: OFFICE-USA-SD-HOUSE-HD_35
+- type: Office
+  code: OFFICE-USA-SD-SENATOR-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-SD
+    nominee_for: OFFICE-USA-SD-SENATOR
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. Senate, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATOR-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-CONGRESS-CD_AL-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-CONGRESS-CD_AL
+    nominee_for: OFFICE-USA-SD-CONGRESS-CD_AL
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-CONGRESS-CD_AL-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House At-Large, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-CONGRESS-CD_AL-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-GOVERNOR-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-SD
+    nominee_for: OFFICE-USA-SD-GOVERNOR
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-GOVERNOR-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for Governor, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-GOVERNOR-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_2-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_2
+    nominee_for: OFFICE-USA-SD-SENATE-SD_2
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_2-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 2, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_2-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_3-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_3
+    nominee_for: OFFICE-USA-SD-SENATE-SD_3
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_3-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 3, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_3-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_4-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_4
+    nominee_for: OFFICE-USA-SD-SENATE-SD_4
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_4-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 4, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_4-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_5-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_5
+    nominee_for: OFFICE-USA-SD-SENATE-SD_5
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_5-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 5, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_5-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_8-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_8
+    nominee_for: OFFICE-USA-SD-SENATE-SD_8
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_8-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 8, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_8-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_9-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_9
+    nominee_for: OFFICE-USA-SD-SENATE-SD_9
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_9-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 9, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_9-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_10-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_10
+    nominee_for: OFFICE-USA-SD-SENATE-SD_10
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_10-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 10, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_10-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_11-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_11
+    nominee_for: OFFICE-USA-SD-SENATE-SD_11
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_11-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 11, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_11-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_13-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_13
+    nominee_for: OFFICE-USA-SD-SENATE-SD_13
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_13-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 13, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_13-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_14-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_14
+    nominee_for: OFFICE-USA-SD-SENATE-SD_14
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_14-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 14, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_14-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_17-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_17
+    nominee_for: OFFICE-USA-SD-SENATE-SD_17
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_17-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 17, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_17-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_18-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_18
+    nominee_for: OFFICE-USA-SD-SENATE-SD_18
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_18-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 18, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_18-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_19-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_19
+    nominee_for: OFFICE-USA-SD-SENATE-SD_19
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_19-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 19, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_19-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_21-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_21
+    nominee_for: OFFICE-USA-SD-SENATE-SD_21
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_21-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 21, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_21-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_24-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_24
+    nominee_for: OFFICE-USA-SD-SENATE-SD_24
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_24-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 24, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_24-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_26-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_26
+    nominee_for: OFFICE-USA-SD-SENATE-SD_26
+    nominating_organization: PARTY-USA-SD-DEMOCRATIC
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_26-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Senate District 26, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_26-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_26-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_26
+    nominee_for: OFFICE-USA-SD-SENATE-SD_26
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_26-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 26, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_26-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_28-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_28
+    nominee_for: OFFICE-USA-SD-SENATE-SD_28
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_28-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 28, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_28-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_29-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_29
+    nominee_for: OFFICE-USA-SD-SENATE-SD_29
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_29-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 29, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_29-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_30-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_30
+    nominee_for: OFFICE-USA-SD-SENATE-SD_30
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_30-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 30, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_30-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_31-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_31
+    nominee_for: OFFICE-USA-SD-SENATE-SD_31
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_31-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 31, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_31-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_32-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_32
+    nominee_for: OFFICE-USA-SD-SENATE-SD_32
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_32-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 32, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_32-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_33-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_33
+    nominee_for: OFFICE-USA-SD-SENATE-SD_33
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_33-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 33, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_33-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_34-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_34
+    nominee_for: OFFICE-USA-SD-SENATE-SD_34
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_34-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 34, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_34-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-SENATE-SD_35-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-SENATE-SD_35
+    nominee_for: OFFICE-USA-SD-SENATE-SD_35
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-SENATE-SD_35-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 35, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-SENATE-SD_35-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_1-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_1
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_1
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_1-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 1, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_1-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_2-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_2
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_2
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_2-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 2, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_2-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_3-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_3
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_3
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_3-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 3, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_3-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_4-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_4
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_4
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_4-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 4, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_4-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_6-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_6
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_6
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_6-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 6, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_6-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_7-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_7
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_7
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_7-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 7, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_7-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_8-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_8
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_8
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_8-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 8, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_8-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_9-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_9
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_9
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_9-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 9, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_9-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_10-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_10
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_10
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_10-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 10, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_10-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_11-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_11
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_11
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_11-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 11, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_11-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_13-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_13
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_13
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_13-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 13, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_13-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_14-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_14
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_14
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_14-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 14, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_14-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_16-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_16
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_16
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_16-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 16, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_16-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_17-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_17
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_17
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_17-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 17, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_17-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_18-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_18
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_18
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_18-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 18, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_18-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_19-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_19
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_19
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_19-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 19, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_19-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_21-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_21
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_21
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_21-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 21, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_21-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_23-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_23
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_23
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_23-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 23, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_23-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_24-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_24
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_24
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_24-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 24, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_24-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_25-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_25
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_25
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_25-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 25, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_25-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_26B-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_26B
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_26B
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_26B-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 26B, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_26B-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_28B-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_28B
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_28B
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_28B-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 28B, June 2, 2026 (vote for 1). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_28B-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_29-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_29
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_29
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_29-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 29, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_29-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_30-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_30
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_30
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_30-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 30, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_30-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_33-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_33
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_33
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_33-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 33, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_33-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_34-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_34
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_34
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_34-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 34, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_34-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-SD-HOUSE-HD_35-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-SD-HOUSE-HD_35
+    nominee_for: OFFICE-USA-SD-HOUSE-HD_35
+    nominating_organization: PARTY-USA-SD-REPUBLICAN
+- type: Race
+  code: RACE-USA-SD-HOUSE-HD_35-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 35, June 2, 2026 (vote for 2). Candidates per the South Dakota Secretary of State 2026 Primary candidate list (https://vip.sdsos.gov/candidatelist.aspx?eid=773); created only where active filers exceeded seats, since unopposed nominees are not printed on the SD primary ballot.
+  references:
+    election: ELECTION-USA-SD-2026_PRIMARY
+    office: OFFICE-USA-SD-HOUSE-HD_35-NOMINEE_REPUBLICAN
