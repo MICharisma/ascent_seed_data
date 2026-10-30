@@ -100,3 +100,7 @@ Both official withdrawn lists read "none". Eighteen filers on the 3/30 list are 
 
 - No candidate_accounts file: the source files carry no websites.
 - CI ("Validate seed contributions") is disabled on the repo (`disabled_manually`) and was not enabled. Checks were run locally: unittest, `validate manifests examples`, `accounts …/candidate_accounts`, `export-catalog` and `export-catalog --check` all pass.
+
+## Local import correction
+
+Write-in ballot lines retain their source party labels and `kind: write_in`. They omit the `party` reference because Ascent allows that association only on `kind: party` lines. Party nomination offices still identify the nominating organization.

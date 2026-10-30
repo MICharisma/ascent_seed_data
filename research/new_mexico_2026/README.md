@@ -37,3 +37,7 @@ Names are converted from the SoS all-caps text to title case. The surname comes 
 ## Codes
 
 All new people were minted with `tools/seed_contract.py mint`. 14 share a name code with people in other states and were minted `--new` because there's no in-state evidence. Names are listed in conflicts.md.
+
+## Local import correction
+
+Write-in ballot lines retain their source party labels and `kind: write_in`. They omit the `party` reference because Ascent allows that association only on `kind: party` lines. Party nomination offices still identify the nominating organization.
