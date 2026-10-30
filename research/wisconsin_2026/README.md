@@ -11,3 +11,7 @@ Federal House candidacies are reused from federal_candidates_2026.yml (21 matche
 Counts: 549 new candidacies (308 primary, 241 general) + 21 reused federal, 305 people, 361 offices/races, 116 districts, 3 parties.
 Websites: none added (none verified in this pass).
 No candidate contact information is committed; raw files stay outside the repo.
+
+## Local integration corrections
+
+Aligned 99 district kind labels with the existing geographic reference records. District identities and parent jurisdictions are unchanged.

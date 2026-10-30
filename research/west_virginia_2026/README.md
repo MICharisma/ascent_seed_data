@@ -28,3 +28,5 @@ The SoS listing shows self-reported campaign websites, but none were verified, s
 ## Local integration corrections
 
 Removed invalid party associations from 3 write-in ballot lines. Source labels and `kind: write_in` are preserved; only party-kind lines may carry a party association.
+
+Aligned 100 district kind labels with the existing geographic reference records. District identities and parent jurisdictions are unchanged.

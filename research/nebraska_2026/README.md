@@ -28,3 +28,5 @@ The SoS list gives phone and email, not websites; `candidate_accounts/` is untou
 ## Local integration corrections
 
 Corrected all 29 nonpartisan top-two nomination offices to `nominee_count: 2`. The general election still fills one seat per contest.
+
+Aligned 25 district kind labels with the existing geographic reference records. District identities and parent jurisdictions are unchanged.

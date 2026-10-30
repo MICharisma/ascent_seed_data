@@ -19,3 +19,7 @@
 - **Same surname, kept distinct:** Ira D Hansen (SD14 R) and Irina Hansen (Governor primary); Aaron D. Ford (Governor D) and Danielle Ford (Governor NPP).
 - **Name codes shared with other states:** 9 people (e.g. Brittney M. Miller, Steven Samuel Cohen, Charlene Young) got new codes (`--new`) with no link.
 - **Not in scope:** county, city, judicial, school board, Board of Regents and other nonpartisan offices (831 primary-list/general-list rows skipped).
+
+## Local integration corrections
+
+Aligned 42 district kind labels with the existing geographic reference records. District identities and parent jurisdictions are unchanged.
