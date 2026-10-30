@@ -44,3 +44,7 @@ Built by Ascent Clerk (overnight worker B) on 2026-10-29 in micharisma-seeds/v1 
 - `md_2026_review.csv`: one row per candidate entry with person code, mint facts/resolution, candidacy code, withdrawal class and source.
 - `district_crosswalk.csv`: legislative district codes to TIGER 2024 GEOIDs.
 - `conflicts.md`: automatic and manual flags.
+
+## Local import reconciliation
+
+House of Delegates districts use `kind: house of delegates district` to match the existing geographic reference records.
