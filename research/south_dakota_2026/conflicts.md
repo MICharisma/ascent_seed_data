@@ -14,3 +14,7 @@
 ## Not recorded
 - Websites: none published by the SoS.
 - County and local offices, precinct committee and convention delegates.
+
+## Person-code collision resolved during local integration
+
+Danny Brown uses `PERSON-BROWN_DN_7N` and provisional username `brown_dn_7n`. The original code `PERSON-BROWN_DN_7P` belongs to North Carolina's Donald Mitchell Brown. The South Dakota manifest and review CSV use the new code, with no alias to the North Carolina person.
