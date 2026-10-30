@@ -1,0 +1,551 @@
+# Arizona 2026: the five parties holding primaries (nominating organizations) and the 30 legislative districts (each elects 1 senator and 2 representatives) with their Nov 3, 2026 general elections.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://azsos.gov/elections/election-information/2026-election-info
+  captured_on: '2026-10-29'
+scope:
+  state: STATE-USA-AZ
+records:
+- type: Party
+  code: PARTY-USA-AZ-REPUBLICAN
+  attributes:
+    name: Republican
+  references:
+    state: STATE-USA-AZ
+- type: Party
+  code: PARTY-USA-AZ-DEMOCRATIC
+  attributes:
+    name: Democratic
+  references:
+    state: STATE-USA-AZ
+- type: Party
+  code: PARTY-USA-AZ-LIBERTARIAN
+  attributes:
+    name: Libertarian
+  references:
+    state: STATE-USA-AZ
+- type: Party
+  code: PARTY-USA-AZ-GREEN
+  attributes:
+    name: Green
+  references:
+    state: STATE-USA-AZ
+- type: Party
+  code: PARTY-USA-AZ-ARIZONA_INDEPENDENT
+  attributes:
+    name: Arizona Independent Party
+  references:
+    state: STATE-USA-AZ
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_1
+  attributes:
+    name: Arizona Legislative District 1
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_1-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_2
+  attributes:
+    name: Arizona Legislative District 2
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_2-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_3
+  attributes:
+    name: Arizona Legislative District 3
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_3-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_4
+  attributes:
+    name: Arizona Legislative District 4
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_4-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_5
+  attributes:
+    name: Arizona Legislative District 5
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_5-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_6
+  attributes:
+    name: Arizona Legislative District 6
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_6-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 6 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_6
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_7
+  attributes:
+    name: Arizona Legislative District 7
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_7-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 7 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_7
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_8
+  attributes:
+    name: Arizona Legislative District 8
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_8-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 8 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_8
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_9
+  attributes:
+    name: Arizona Legislative District 9
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_9-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 9 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_9
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_10
+  attributes:
+    name: Arizona Legislative District 10
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_10-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 10 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_10
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_11
+  attributes:
+    name: Arizona Legislative District 11
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_11-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 11 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_11
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_12
+  attributes:
+    name: Arizona Legislative District 12
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_12-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 12 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_12
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_13
+  attributes:
+    name: Arizona Legislative District 13
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_13-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 13 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_13
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_14
+  attributes:
+    name: Arizona Legislative District 14
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_14-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 14 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_14
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_15
+  attributes:
+    name: Arizona Legislative District 15
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_15-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 15 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_15
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_16
+  attributes:
+    name: Arizona Legislative District 16
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_16-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 16 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_16
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_17
+  attributes:
+    name: Arizona Legislative District 17
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_17-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 17 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_17
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_18
+  attributes:
+    name: Arizona Legislative District 18
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_18-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 18 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_18
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_19
+  attributes:
+    name: Arizona Legislative District 19
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_19-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 19 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_19
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_20
+  attributes:
+    name: Arizona Legislative District 20
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_20-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 20 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_20
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_21
+  attributes:
+    name: Arizona Legislative District 21
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_21-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 21 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_21
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_22
+  attributes:
+    name: Arizona Legislative District 22
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_22-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 22 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_22
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_23
+  attributes:
+    name: Arizona Legislative District 23
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_23-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 23 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_23
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_24
+  attributes:
+    name: Arizona Legislative District 24
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_24-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 24 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_24
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_25
+  attributes:
+    name: Arizona Legislative District 25
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_25-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 25 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_25
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_26
+  attributes:
+    name: Arizona Legislative District 26
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_26-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 26 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_26
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_27
+  attributes:
+    name: Arizona Legislative District 27
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_27-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 27 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_27
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_28
+  attributes:
+    name: Arizona Legislative District 28
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_28-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 28 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_28
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_29
+  attributes:
+    name: Arizona Legislative District 29
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_29-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 29 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_29
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-LEGISLATIVE-LD_30
+  attributes:
+    name: Arizona Legislative District 30
+    kind: state legislative district
+- type: Election
+  code: ELECTION-USA-AZ-LEGISLATIVE-LD_30-2026_GENERAL
+  attributes:
+    name: Arizona Legislative District 30 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-LEGISLATIVE-LD_30
+    year: YEAR-2026
