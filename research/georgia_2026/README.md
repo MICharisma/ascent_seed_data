@@ -1,10 +1,10 @@
-# Georgia 2026 candidates (primary and runoff)
+# Georgia 2026 candidates (primary, runoff and Nov 3 general nominees)
 
 ## Sources (official only)
 - May 19, 2026 General Primary, Georgia Secretary of State official results: https://results.sos.ga.gov/results/public/Georgia/elections/GeneralPrimary51926 (JSON: https://results.sos.ga.gov/results/public/api/elections/Georgia/GeneralPrimary51926/data)
 - June 16, 2026 General Primary Runoff, official results: https://results.sos.ga.gov/results/public/Georgia/elections/06162026GeneralPrimaryRunoff (JSON: .../api/elections/Georgia/06162026GeneralPrimaryRunoff/data)
 
-The candidate names come from the ballot options in those results. Vote counts are not used, and nothing is inferred from them: no winners, no nominees, no incumbency. The "(I)" marker on the results is removed and not recorded.
+Both result sets are the Secretary of State's official results (`isOfficialResults: true` in the API; published Jun 5, 2026 and Aug 20, 2026). Candidate names come from the ballot options. Vote counts are used only to set Democratic and Republican general nominees from these certified results, as authorized (see below); no media calls are used. Incumbency is not recorded, and the "(I)" marker on the results is removed.
 
 - **Qualifying lists** (saved from the Georgia Secretary of State's qualifying-candidate site, mvp.sos.ga.gov):
   - May 19, 2026 General Primary: 2,385 records; 697 are in scope.
@@ -19,14 +19,19 @@ The candidate names come from the ballot options in those results. Vote counts a
 - Each of the 26 party runoffs gets a `-2026_PRIMARY_RUNOFF` race on the same nomination office (the TX precedent), with candidacies for the two runoff candidates.
 
 ## Gaps and flags
-- **Still no general-election candidacies.** The Nov 3 qualifying list has 311 records, but it covers only candidates who qualify for the general itself: independents, political-body candidates, specials and local contests. Party nominees are not on it. The in-scope records are:
+- **General nominees (new):** each of the 441 Democratic and Republican nomination contests has a nominee per the official certified results, and gets a Nov 3 general candidacy on that party's line, reusing the primary person:
+  - 415 nominees won a majority (more than 50% of votes cast) in the May 19 primary, including unopposed candidates.
+  - 26 nominees won the June 16 runoff.
+  - No contest was left unresolved (no ties, no contest without a majority and without a runoff).
+  - For U.S. Senate and CD1–14, the 30 general candidacies already in `federal_candidates_2026.yml` were checked: all 30 match the certified winners, so no new federal candidacies were added. 411 state-level general candidacies were added.
+  - General race descriptions name the source and basis. The per-contest list (office, party, nominee, person code, votes) is in `ga_2026_nominees.csv`.
+  - Limitation: these sources do not show post-nomination withdrawals or replacement nominees.
+- **Nov 3 qualifying list (311 records):** it covers independents, political-body candidates, specials and local contests, not party nominees. No in-scope independent or Libertarian is QUALIFIED, so none are added. The in-scope records are:
   - **Disqualified (7, not added; classified `before-general-ballot (disqualified)`):**
     - Libertarians: Allen Buckley (U.S. Senate), Andrew Paul Underwood (CD14), Chase Russell Oliver (Governor), Colin McKinney (Insurance), Thomas Michael Blooming (PSC 5)
     - Independents: Stephen Matthew Acorn (HD137), Christina Potts (SD6)
   - **Not added:** Travis Terrell Lockhart (Independent, HD151) has the status "QUALIFIED - SIGNATURES REQUIRED", meaning his nominating petition is not shown as accepted. He is classified `unresolved`.
-  - The other 5 disqualified records on the list are local contests, which are out of scope.
-
-  No Democratic or Republican general candidacies are created, because that would mean inferring nominees from results.
+  - The other disqualified records on the list are local contests, which are out of scope.
 - **Not included:**
   - The special election for State Senate District 7 (all-party special, held with the primary and runoff)
   - Judicial contests, district attorneys and party questions
