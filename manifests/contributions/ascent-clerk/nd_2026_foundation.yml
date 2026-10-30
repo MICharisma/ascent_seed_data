@@ -1,0 +1,891 @@
+# North Dakota 2026: Republican and Democratic-NPL parties, the odd-numbered state legislative districts plus House unexpired-term seats in Districts 20, 26 and 42, with their general elections.
+# Source: North Dakota Secretary of State contest/candidate lists (vip.sos.nd.gov).
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://vip.sos.nd.gov/candidatelist.aspx?eid=348
+  captured_on: '2026-10-29'
+scope:
+  state: STATE-USA-ND
+records:
+- type: Party
+  code: PARTY-USA-ND-REPUBLICAN
+  attributes:
+    name: Republican
+  references:
+    state: STATE-USA-ND
+- type: Party
+  code: PARTY-USA-ND-DEMOCRATIC_NPL
+  attributes:
+    name: Democratic-NPL
+  references:
+    state: STATE-USA-ND
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_1
+  attributes:
+    name: North Dakota Senate District 1
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_1-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_3
+  attributes:
+    name: North Dakota Senate District 3
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_3-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_5
+  attributes:
+    name: North Dakota Senate District 5
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_5-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_7
+  attributes:
+    name: North Dakota Senate District 7
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_7-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 7 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_7
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_9
+  attributes:
+    name: North Dakota Senate District 9
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_9-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 9 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_9
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_11
+  attributes:
+    name: North Dakota Senate District 11
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_11-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 11 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_11
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_13
+  attributes:
+    name: North Dakota Senate District 13
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_13-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 13 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_13
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_15
+  attributes:
+    name: North Dakota Senate District 15
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_15-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 15 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_15
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_17
+  attributes:
+    name: North Dakota Senate District 17
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_17-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 17 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_17
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_19
+  attributes:
+    name: North Dakota Senate District 19
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_19-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 19 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_19
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_21
+  attributes:
+    name: North Dakota Senate District 21
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_21-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 21 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_21
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_23
+  attributes:
+    name: North Dakota Senate District 23
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_23-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 23 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_23
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_25
+  attributes:
+    name: North Dakota Senate District 25
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_25-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 25 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_25
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_27
+  attributes:
+    name: North Dakota Senate District 27
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_27-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 27 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_27
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_29
+  attributes:
+    name: North Dakota Senate District 29
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_29-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 29 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_29
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_31
+  attributes:
+    name: North Dakota Senate District 31
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_31-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 31 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_31
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_33
+  attributes:
+    name: North Dakota Senate District 33
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_33-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 33 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_33
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_35
+  attributes:
+    name: North Dakota Senate District 35
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_35-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 35 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_35
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_37
+  attributes:
+    name: North Dakota Senate District 37
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_37-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 37 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_37
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_39
+  attributes:
+    name: North Dakota Senate District 39
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_39-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 39 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_39
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_41
+  attributes:
+    name: North Dakota Senate District 41
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_41-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 41 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_41
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_43
+  attributes:
+    name: North Dakota Senate District 43
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_43-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 43 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_43
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_45
+  attributes:
+    name: North Dakota Senate District 45
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_45-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 45 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_45
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-SENATE-SD_47
+  attributes:
+    name: North Dakota Senate District 47
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-ND-SENATE-SD_47-2026_GENERAL
+  attributes:
+    name: North Dakota Senate District 47 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-SENATE-SD_47
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_1
+  attributes:
+    name: North Dakota House of Representatives District 1
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_1-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_3
+  attributes:
+    name: North Dakota House of Representatives District 3
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_3-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_5
+  attributes:
+    name: North Dakota House of Representatives District 5
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_5-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_7
+  attributes:
+    name: North Dakota House of Representatives District 7
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_7-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 7 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_7
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_9
+  attributes:
+    name: North Dakota House of Representatives District 9
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_9-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 9 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_9
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_11
+  attributes:
+    name: North Dakota House of Representatives District 11
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_11-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 11 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_11
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_13
+  attributes:
+    name: North Dakota House of Representatives District 13
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_13-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 13 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_13
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_15
+  attributes:
+    name: North Dakota House of Representatives District 15
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_15-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 15 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_15
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_17
+  attributes:
+    name: North Dakota House of Representatives District 17
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_17-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 17 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_17
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_19
+  attributes:
+    name: North Dakota House of Representatives District 19
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_19-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 19 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_19
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_20
+  attributes:
+    name: North Dakota House of Representatives District 20
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_20-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 20 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_20
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_21
+  attributes:
+    name: North Dakota House of Representatives District 21
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_21-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 21 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_21
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_23
+  attributes:
+    name: North Dakota House of Representatives District 23
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_23-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 23 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_23
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_25
+  attributes:
+    name: North Dakota House of Representatives District 25
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_25-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 25 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_25
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_26
+  attributes:
+    name: North Dakota House of Representatives District 26
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_26-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 26 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_26
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_27
+  attributes:
+    name: North Dakota House of Representatives District 27
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_27-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 27 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_27
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_29
+  attributes:
+    name: North Dakota House of Representatives District 29
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_29-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 29 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_29
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_31
+  attributes:
+    name: North Dakota House of Representatives District 31
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_31-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 31 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_31
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_33
+  attributes:
+    name: North Dakota House of Representatives District 33
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_33-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 33 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_33
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_35
+  attributes:
+    name: North Dakota House of Representatives District 35
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_35-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 35 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_35
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_37
+  attributes:
+    name: North Dakota House of Representatives District 37
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_37-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 37 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_37
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_39
+  attributes:
+    name: North Dakota House of Representatives District 39
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_39-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 39 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_39
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_41
+  attributes:
+    name: North Dakota House of Representatives District 41
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_41-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 41 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_41
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_42
+  attributes:
+    name: North Dakota House of Representatives District 42
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_42-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 42 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_42
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_43
+  attributes:
+    name: North Dakota House of Representatives District 43
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_43-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 43 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_43
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_45
+  attributes:
+    name: North Dakota House of Representatives District 45
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_45-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 45 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_45
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ND-HOUSE-HD_47
+  attributes:
+    name: North Dakota House of Representatives District 47
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-ND-HOUSE-HD_47-2026_GENERAL
+  attributes:
+    name: North Dakota House of Representatives District 47 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ND-HOUSE-HD_47
+    year: YEAR-2026
