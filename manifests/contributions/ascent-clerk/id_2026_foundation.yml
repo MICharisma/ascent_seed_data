@@ -1,0 +1,630 @@
+# Idaho 2026: parties and the 35 legislative districts (one district elects a state senator and representatives for Seat A and Seat B), each with its Nov 3, 2026 election.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://run.voteidaho.gov/search
+  captured_on: '2026-10-29'
+scope:
+  state: STATE-USA-ID
+records:
+- type: Party
+  code: PARTY-USA-ID-REPUBLICAN
+  attributes:
+    name: Republican
+  references:
+    state: STATE-USA-ID
+- type: Party
+  code: PARTY-USA-ID-DEMOCRATIC
+  attributes:
+    name: Democratic
+  references:
+    state: STATE-USA-ID
+- type: Party
+  code: PARTY-USA-ID-LIBERTARIAN
+  attributes:
+    name: Libertarian
+  references:
+    state: STATE-USA-ID
+- type: Party
+  code: PARTY-USA-ID-CONSTITUTION
+  attributes:
+    name: Constitution
+  references:
+    state: STATE-USA-ID
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_1
+  attributes:
+    name: Idaho Legislative District 1
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_1-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_2
+  attributes:
+    name: Idaho Legislative District 2
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_2-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_3
+  attributes:
+    name: Idaho Legislative District 3
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_3-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_4
+  attributes:
+    name: Idaho Legislative District 4
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_4-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_5
+  attributes:
+    name: Idaho Legislative District 5
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_5-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_6
+  attributes:
+    name: Idaho Legislative District 6
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_6-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 6 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_6
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_7
+  attributes:
+    name: Idaho Legislative District 7
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_7-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 7 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_7
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_8
+  attributes:
+    name: Idaho Legislative District 8
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_8-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 8 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_8
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_9
+  attributes:
+    name: Idaho Legislative District 9
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_9-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 9 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_9
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_10
+  attributes:
+    name: Idaho Legislative District 10
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_10-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 10 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_10
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_11
+  attributes:
+    name: Idaho Legislative District 11
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_11-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 11 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_11
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_12
+  attributes:
+    name: Idaho Legislative District 12
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_12-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 12 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_12
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_13
+  attributes:
+    name: Idaho Legislative District 13
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_13-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 13 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_13
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_14
+  attributes:
+    name: Idaho Legislative District 14
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_14-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 14 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_14
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_15
+  attributes:
+    name: Idaho Legislative District 15
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_15-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 15 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_15
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_16
+  attributes:
+    name: Idaho Legislative District 16
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_16-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 16 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_16
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_17
+  attributes:
+    name: Idaho Legislative District 17
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_17-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 17 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_17
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_18
+  attributes:
+    name: Idaho Legislative District 18
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_18-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 18 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_18
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_19
+  attributes:
+    name: Idaho Legislative District 19
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_19-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 19 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_19
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_20
+  attributes:
+    name: Idaho Legislative District 20
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_20-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 20 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_20
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_21
+  attributes:
+    name: Idaho Legislative District 21
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_21-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 21 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_21
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_22
+  attributes:
+    name: Idaho Legislative District 22
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_22-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 22 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_22
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_23
+  attributes:
+    name: Idaho Legislative District 23
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_23-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 23 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_23
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_24
+  attributes:
+    name: Idaho Legislative District 24
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_24-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 24 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_24
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_25
+  attributes:
+    name: Idaho Legislative District 25
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_25-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 25 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_25
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_26
+  attributes:
+    name: Idaho Legislative District 26
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_26-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 26 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_26
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_27
+  attributes:
+    name: Idaho Legislative District 27
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_27-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 27 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_27
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_28
+  attributes:
+    name: Idaho Legislative District 28
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_28-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 28 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_28
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_29
+  attributes:
+    name: Idaho Legislative District 29
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_29-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 29 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_29
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_30
+  attributes:
+    name: Idaho Legislative District 30
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_30-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 30 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_30
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_31
+  attributes:
+    name: Idaho Legislative District 31
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_31-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 31 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_31
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_32
+  attributes:
+    name: Idaho Legislative District 32
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_32-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 32 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_32
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_33
+  attributes:
+    name: Idaho Legislative District 33
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_33-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 33 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_33
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_34
+  attributes:
+    name: Idaho Legislative District 34
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_34-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 34 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_34
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-ID-LEGISLATIVE-LD_35
+  attributes:
+    name: Idaho Legislative District 35
+    kind: legislative district
+- type: Election
+  code: ELECTION-USA-ID-LEGISLATIVE-LD_35-2026_GENERAL
+  attributes:
+    name: Idaho Legislative District 35 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-ID-LEGISLATIVE-LD_35
+    year: YEAR-2026
