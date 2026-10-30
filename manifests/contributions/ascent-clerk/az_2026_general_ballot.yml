@@ -1,0 +1,619 @@
+# Arizona 2026 general ballot additions from the official SoS general listing (Election/69): Lt. Governor running mates, an independent, and Supreme Court / Court of Appeals retention races.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://apps.arizona.vote/electioninfo/Election/69 (Arizona Secretary of State, 2026 General Election candidate listing, saved Oct 2026)
+  captured_on: '2026-10-29'
+scope:
+  state: STATE-USA-AZ
+records:
+- type: District
+  code: DISTRICT-USA-AZ-APPEAL-DIV_1
+  attributes:
+    name: Arizona Court of Appeals Division I
+    kind: court of appeals division
+- type: Election
+  code: ELECTION-USA-AZ-APPEAL-DIV_1-2026_GENERAL
+  attributes:
+    name: Arizona Court of Appeals Division I General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-APPEAL-DIV_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-AZ-APPEAL-DIV_2
+  attributes:
+    name: Arizona Court of Appeals Division II
+    kind: court of appeals division
+- type: Election
+  code: ELECTION-USA-AZ-APPEAL-DIV_2-2026_GENERAL
+  attributes:
+    name: Arizona Court of Appeals Division II General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-AZ-APPEAL-DIV_2
+    year: YEAR-2026
+- type: Office
+  code: OFFICE-USA-AZ-SUPREME_COURT-JUSTICE-RETENTION_OF_JOHN_LOPEZ_IV
+  attributes:
+    seat_code: SUPREME_COURT_RETENTION_OF_JOHN_LOPEZ_IV
+    is_active: true
+    notes: Retention election (yes/no) for John Lopez IV, Justice of the Arizona Supreme Court.
+  references:
+    position: POSITION-JUSTICE
+    jurisdiction: STATE-USA-AZ
+- type: Race
+  code: RACE-USA-AZ-SUPREME_COURT-JUSTICE-RETENTION_OF_JOHN_LOPEZ_IV-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Retention: shall John Lopez IV be retained as Justice of the Arizona Supreme Court? Yes/No, Nov 3, 2026. Source: https://apps.arizona.vote/electioninfo/Election/69 (Arizona Secretary of State, 2026 General Election candidate listing, saved Oct 2026).'
+  references:
+    election: ELECTION-USA-AZ-2026_GENERAL
+    office: OFFICE-USA-AZ-SUPREME_COURT-JUSTICE-RETENTION_OF_JOHN_LOPEZ_IV
+- type: Office
+  code: OFFICE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_ANDREW_JACOBS
+  attributes:
+    seat_code: DIV_1_RETENTION_OF_ANDREW_JACOBS
+    is_active: true
+    notes: Retention election (yes/no) for Andrew Jacobs, Judge of the Court of Appeals Division I.
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-AZ-APPEAL-DIV_1
+- type: Race
+  code: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_ANDREW_JACOBS-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Retention: shall Andrew Jacobs be retained as Judge of the Court of Appeals Division I? Yes/No, Nov 3, 2026. Source: https://apps.arizona.vote/electioninfo/Election/69 (Arizona Secretary of State, 2026 General Election candidate listing, saved Oct 2026). The listing gives the division only; the county-based retention electorate within the division is not stated in the source.'
+  references:
+    election: ELECTION-USA-AZ-APPEAL-DIV_1-2026_GENERAL
+    office: OFFICE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_ANDREW_JACOBS
+- type: Office
+  code: OFFICE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_ANNI_HILL_FOSTER
+  attributes:
+    seat_code: DIV_1_RETENTION_OF_ANNI_HILL_FOSTER
+    is_active: true
+    notes: Retention election (yes/no) for Anni Hill Foster, Judge of the Court of Appeals Division I.
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-AZ-APPEAL-DIV_1
+- type: Race
+  code: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_ANNI_HILL_FOSTER-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Retention: shall Anni Hill Foster be retained as Judge of the Court of Appeals Division I? Yes/No, Nov 3, 2026. Source: https://apps.arizona.vote/electioninfo/Election/69 (Arizona Secretary of State, 2026 General Election candidate listing, saved Oct 2026). The listing gives the division only; the county-based retention electorate within the division is not stated in the source.'
+  references:
+    election: ELECTION-USA-AZ-APPEAL-DIV_1-2026_GENERAL
+    office: OFFICE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_ANNI_HILL_FOSTER
+- type: Office
+  code: OFFICE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_DANIEL_KILEY
+  attributes:
+    seat_code: DIV_1_RETENTION_OF_DANIEL_KILEY
+    is_active: true
+    notes: Retention election (yes/no) for Daniel Kiley, Judge of the Court of Appeals Division I.
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-AZ-APPEAL-DIV_1
+- type: Race
+  code: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_DANIEL_KILEY-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Retention: shall Daniel Kiley be retained as Judge of the Court of Appeals Division I? Yes/No, Nov 3, 2026. Source: https://apps.arizona.vote/electioninfo/Election/69 (Arizona Secretary of State, 2026 General Election candidate listing, saved Oct 2026). The listing gives the division only; the county-based retention electorate within the division is not stated in the source.'
+  references:
+    election: ELECTION-USA-AZ-APPEAL-DIV_1-2026_GENERAL
+    office: OFFICE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_DANIEL_KILEY
+- type: Office
+  code: OFFICE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_DAVID_WEINZWEIG
+  attributes:
+    seat_code: DIV_1_RETENTION_OF_DAVID_WEINZWEIG
+    is_active: true
+    notes: Retention election (yes/no) for David Weinzweig, Judge of the Court of Appeals Division I.
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-AZ-APPEAL-DIV_1
+- type: Race
+  code: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_DAVID_WEINZWEIG-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Retention: shall David Weinzweig be retained as Judge of the Court of Appeals Division I? Yes/No, Nov 3, 2026. Source: https://apps.arizona.vote/electioninfo/Election/69 (Arizona Secretary of State, 2026 General Election candidate listing, saved Oct 2026). The listing gives the division only; the county-based retention electorate within the division is not stated in the source.'
+  references:
+    election: ELECTION-USA-AZ-APPEAL-DIV_1-2026_GENERAL
+    office: OFFICE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_DAVID_WEINZWEIG
+- type: Office
+  code: OFFICE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_JAMES_MORSE_JR
+  attributes:
+    seat_code: DIV_1_RETENTION_OF_JAMES_MORSE_JR
+    is_active: true
+    notes: Retention election (yes/no) for James Morse Jr., Judge of the Court of Appeals Division I.
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-AZ-APPEAL-DIV_1
+- type: Race
+  code: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_JAMES_MORSE_JR-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Retention: shall James Morse Jr. be retained as Judge of the Court of Appeals Division I? Yes/No, Nov 3, 2026. Source: https://apps.arizona.vote/electioninfo/Election/69 (Arizona Secretary of State, 2026 General Election candidate listing, saved Oct 2026). The listing gives the division only; the county-based retention electorate within the division is not stated in the source.'
+  references:
+    election: ELECTION-USA-AZ-APPEAL-DIV_1-2026_GENERAL
+    office: OFFICE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_JAMES_MORSE_JR
+- type: Office
+  code: OFFICE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_JENNIFER_PERKINS
+  attributes:
+    seat_code: DIV_1_RETENTION_OF_JENNIFER_PERKINS
+    is_active: true
+    notes: Retention election (yes/no) for Jennifer Perkins, Judge of the Court of Appeals Division I.
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-AZ-APPEAL-DIV_1
+- type: Race
+  code: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_JENNIFER_PERKINS-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Retention: shall Jennifer Perkins be retained as Judge of the Court of Appeals Division I? Yes/No, Nov 3, 2026. Source: https://apps.arizona.vote/electioninfo/Election/69 (Arizona Secretary of State, 2026 General Election candidate listing, saved Oct 2026). The listing gives the division only; the county-based retention electorate within the division is not stated in the source.'
+  references:
+    election: ELECTION-USA-AZ-APPEAL-DIV_1-2026_GENERAL
+    office: OFFICE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_JENNIFER_PERKINS
+- type: Office
+  code: OFFICE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_MICHAEL_CATLETT
+  attributes:
+    seat_code: DIV_1_RETENTION_OF_MICHAEL_CATLETT
+    is_active: true
+    notes: Retention election (yes/no) for Michael Catlett, Judge of the Court of Appeals Division I.
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-AZ-APPEAL-DIV_1
+- type: Race
+  code: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_MICHAEL_CATLETT-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Retention: shall Michael Catlett be retained as Judge of the Court of Appeals Division I? Yes/No, Nov 3, 2026. Source: https://apps.arizona.vote/electioninfo/Election/69 (Arizona Secretary of State, 2026 General Election candidate listing, saved Oct 2026). The listing gives the division only; the county-based retention electorate within the division is not stated in the source.'
+  references:
+    election: ELECTION-USA-AZ-APPEAL-DIV_1-2026_GENERAL
+    office: OFFICE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_MICHAEL_CATLETT
+- type: Office
+  code: OFFICE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_RANDALL_HOWE
+  attributes:
+    seat_code: DIV_1_RETENTION_OF_RANDALL_HOWE
+    is_active: true
+    notes: Retention election (yes/no) for Randall Howe, Judge of the Court of Appeals Division I.
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-AZ-APPEAL-DIV_1
+- type: Race
+  code: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_RANDALL_HOWE-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Retention: shall Randall Howe be retained as Judge of the Court of Appeals Division I? Yes/No, Nov 3, 2026. Source: https://apps.arizona.vote/electioninfo/Election/69 (Arizona Secretary of State, 2026 General Election candidate listing, saved Oct 2026). The listing gives the division only; the county-based retention electorate within the division is not stated in the source.'
+  references:
+    election: ELECTION-USA-AZ-APPEAL-DIV_1-2026_GENERAL
+    office: OFFICE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_RANDALL_HOWE
+- type: Office
+  code: OFFICE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_JEFFREY_SKLAR
+  attributes:
+    seat_code: DIV_2_RETENTION_OF_JEFFREY_SKLAR
+    is_active: true
+    notes: Retention election (yes/no) for Jeffrey Sklar, Judge of the Court of Appeals Division II.
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-AZ-APPEAL-DIV_2
+- type: Race
+  code: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_JEFFREY_SKLAR-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Retention: shall Jeffrey Sklar be retained as Judge of the Court of Appeals Division II? Yes/No, Nov 3, 2026. Source: https://apps.arizona.vote/electioninfo/Election/69 (Arizona Secretary of State, 2026 General Election candidate listing, saved Oct 2026). The listing gives the division only; the county-based retention electorate within the division is not stated in the source.'
+  references:
+    election: ELECTION-USA-AZ-APPEAL-DIV_2-2026_GENERAL
+    office: OFFICE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_JEFFREY_SKLAR
+- type: Office
+  code: OFFICE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_MICHAEL_KELLY
+  attributes:
+    seat_code: DIV_2_RETENTION_OF_MICHAEL_KELLY
+    is_active: true
+    notes: Retention election (yes/no) for Michael Kelly, Judge of the Court of Appeals Division II.
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-AZ-APPEAL-DIV_2
+- type: Race
+  code: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_MICHAEL_KELLY-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Retention: shall Michael Kelly be retained as Judge of the Court of Appeals Division II? Yes/No, Nov 3, 2026. Source: https://apps.arizona.vote/electioninfo/Election/69 (Arizona Secretary of State, 2026 General Election candidate listing, saved Oct 2026). The listing gives the division only; the county-based retention electorate within the division is not stated in the source.'
+  references:
+    election: ELECTION-USA-AZ-APPEAL-DIV_2-2026_GENERAL
+    office: OFFICE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_MICHAEL_KELLY
+- type: Office
+  code: OFFICE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_SEAN_BREARCLIFFE
+  attributes:
+    seat_code: DIV_2_RETENTION_OF_SEAN_BREARCLIFFE
+    is_active: true
+    notes: Retention election (yes/no) for Sean Brearcliffe, Judge of the Court of Appeals Division II.
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-AZ-APPEAL-DIV_2
+- type: Race
+  code: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_SEAN_BREARCLIFFE-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Retention: shall Sean Brearcliffe be retained as Judge of the Court of Appeals Division II? Yes/No, Nov 3, 2026. Source: https://apps.arizona.vote/electioninfo/Election/69 (Arizona Secretary of State, 2026 General Election candidate listing, saved Oct 2026). The listing gives the division only; the county-based retention electorate within the division is not stated in the source.'
+  references:
+    election: ELECTION-USA-AZ-APPEAL-DIV_2-2026_GENERAL
+    office: OFFICE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_SEAN_BREARCLIFFE
+- type: Office
+  code: OFFICE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_CHRISTOPHER_O_NEIL
+  attributes:
+    seat_code: DIV_2_RETENTION_OF_CHRISTOPHER_O_NEIL
+    is_active: true
+    notes: Retention election (yes/no) for Christopher O'Neil, Judge of the Court of Appeals Division II.
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-AZ-APPEAL-DIV_2
+- type: Race
+  code: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_CHRISTOPHER_O_NEIL-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Retention: shall Christopher O''Neil be retained as Judge of the Court of Appeals Division II? Yes/No, Nov 3, 2026. Source: https://apps.arizona.vote/electioninfo/Election/69 (Arizona Secretary of State, 2026 General Election candidate listing, saved Oct 2026). The listing gives the division only; the county-based retention electorate within the division is not stated in the source.'
+  references:
+    election: ELECTION-USA-AZ-APPEAL-DIV_2-2026_GENERAL
+    office: OFFICE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_CHRISTOPHER_O_NEIL
+- type: Office
+  code: OFFICE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_KARL_EPPICH
+  attributes:
+    seat_code: DIV_2_RETENTION_OF_KARL_EPPICH
+    is_active: true
+    notes: Retention election (yes/no) for Karl Eppich, Judge of the Court of Appeals Division II.
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-AZ-APPEAL-DIV_2
+- type: Race
+  code: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_KARL_EPPICH-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Retention: shall Karl Eppich be retained as Judge of the Court of Appeals Division II? Yes/No, Nov 3, 2026. Source: https://apps.arizona.vote/electioninfo/Election/69 (Arizona Secretary of State, 2026 General Election candidate listing, saved Oct 2026). The listing gives the division only; the county-based retention electorate within the division is not stated in the source.'
+  references:
+    election: ELECTION-USA-AZ-APPEAL-DIV_2-2026_GENERAL
+    office: OFFICE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_KARL_EPPICH
+- type: Office
+  code: OFFICE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_LACEY_STOVER_GARD
+  attributes:
+    seat_code: DIV_2_RETENTION_OF_LACEY_STOVER_GARD
+    is_active: true
+    notes: Retention election (yes/no) for Lacey Stover Gard, Judge of the Court of Appeals Division II.
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-AZ-APPEAL-DIV_2
+- type: Race
+  code: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_LACEY_STOVER_GARD-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Retention: shall Lacey Stover Gard be retained as Judge of the Court of Appeals Division II? Yes/No, Nov 3, 2026. Source: https://apps.arizona.vote/electioninfo/Election/69 (Arizona Secretary of State, 2026 General Election candidate listing, saved Oct 2026). The listing gives the division only; the county-based retention electorate within the division is not stated in the source.'
+  references:
+    election: ELECTION-USA-AZ-APPEAL-DIV_2-2026_GENERAL
+    office: OFFICE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_LACEY_STOVER_GARD
+- type: Person
+  code: PERSON-KERR_SN_6B
+  attributes:
+    username: kerr_sn_6b
+    username_status: provisional
+    first_name: Sine
+    last_name: Kerr
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-LIEUTENANT_GOVERNOR-2026_GENERAL-KERR_SN_6B
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-AZ-REPUBLICAN
+  references:
+    race: RACE-USA-AZ-LIEUTENANT_GOVERNOR-2026_GENERAL
+    person: PERSON-KERR_SN_6B
+- type: Person
+  code: PERSON-GILES_JH_7H
+  attributes:
+    username: giles_jh_7h
+    username_status: provisional
+    first_name: John
+    last_name: Giles
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-LIEUTENANT_GOVERNOR-2026_GENERAL-GILES_JH_7H
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: PND
+      kind: unclassified
+  references:
+    race: RACE-USA-AZ-LIEUTENANT_GOVERNOR-2026_GENERAL
+    person: PERSON-GILES_JH_7H
+- type: Person
+  code: PERSON-CASTILLO_LS_3N
+  attributes:
+    username: castillo_ls_3n
+    username_status: provisional
+    first_name: Lisa
+    last_name: Castillo
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-LIEUTENANT_GOVERNOR-2026_GENERAL-CASTILLO_LS_3N
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Green
+      kind: party
+      party: PARTY-USA-AZ-GREEN
+  references:
+    race: RACE-USA-AZ-LIEUTENANT_GOVERNOR-2026_GENERAL
+    person: PERSON-CASTILLO_LS_3N
+- type: Person
+  code: PERSON-HARROLLE_MOHAN_AN_3G
+  attributes:
+    username: harrolle_mohan_an_3g
+    username_status: provisional
+    first_name: Angela
+    last_name: Harrolle Mohan
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-LIEUTENANT_GOVERNOR-2026_GENERAL-HARROLLE_MOHAN_AN_3G
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: PND
+      kind: unclassified
+  references:
+    race: RACE-USA-AZ-LIEUTENANT_GOVERNOR-2026_GENERAL
+    person: PERSON-HARROLLE_MOHAN_AN_3G
+- type: Person
+  code: PERSON-FIERRO_NC_9L
+  attributes:
+    username: fierro_nc_9l
+    username_status: provisional
+    first_name: Nick
+    last_name: Fierro
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-SENATE-LD_10-2026_GENERAL-FIERRO_NC_9L
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Independent
+      kind: petition
+  references:
+    race: RACE-USA-AZ-SENATE-LD_10-2026_GENERAL
+    person: PERSON-FIERRO_NC_9L
+- type: Person
+  code: PERSON-LOPEZ_JH_2N
+  attributes:
+    username: lopez_jh_2n
+    username_status: provisional
+    first_name: John
+    last_name: Lopez
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-SUPREME_COURT-JUSTICE-RETENTION_OF_JOHN_LOPEZ_IV-2026_GENERAL-LOPEZ_JH_2N
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-AZ-SUPREME_COURT-JUSTICE-RETENTION_OF_JOHN_LOPEZ_IV-2026_GENERAL
+    person: PERSON-LOPEZ_JH_2N
+- type: Person
+  code: PERSON-JACOBS_AN_8E
+  attributes:
+    username: jacobs_an_8e
+    username_status: provisional
+    first_name: Andrew
+    last_name: Jacobs
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_ANDREW_JACOBS-2026_GENERAL-JACOBS_AN_8E
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_ANDREW_JACOBS-2026_GENERAL
+    person: PERSON-JACOBS_AN_8E
+- type: Person
+  code: PERSON-FOSTER_AN_9M
+  attributes:
+    username: foster_an_9m
+    username_status: provisional
+    first_name: Anni
+    last_name: Foster
+    middle_name: Hill
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_ANNI_HILL_FOSTER-2026_GENERAL-FOSTER_AN_9M
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_ANNI_HILL_FOSTER-2026_GENERAL
+    person: PERSON-FOSTER_AN_9M
+- type: Person
+  code: PERSON-KILEY_DN_4H
+  attributes:
+    username: kiley_dn_4h
+    username_status: provisional
+    first_name: Daniel
+    last_name: Kiley
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_DANIEL_KILEY-2026_GENERAL-KILEY_DN_4H
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_DANIEL_KILEY-2026_GENERAL
+    person: PERSON-KILEY_DN_4H
+- type: Person
+  code: PERSON-WEINZWEIG_DV_8Z
+  attributes:
+    username: weinzweig_dv_8z
+    username_status: provisional
+    first_name: David
+    last_name: Weinzweig
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_DAVID_WEINZWEIG-2026_GENERAL-WEINZWEIG_DV_8Z
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_DAVID_WEINZWEIG-2026_GENERAL
+    person: PERSON-WEINZWEIG_DV_8Z
+- type: Person
+  code: PERSON-MORSE_JM_4T
+  attributes:
+    username: morse_jm_4t
+    username_status: provisional
+    first_name: James
+    last_name: Morse
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_JAMES_MORSE_JR-2026_GENERAL-MORSE_JM_4T
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_JAMES_MORSE_JR-2026_GENERAL
+    person: PERSON-MORSE_JM_4T
+- type: Person
+  code: PERSON-PERKINS_JN_3Z
+  attributes:
+    username: perkins_jn_3z
+    username_status: provisional
+    first_name: Jennifer
+    last_name: Perkins
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_JENNIFER_PERKINS-2026_GENERAL-PERKINS_JN_3Z
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_JENNIFER_PERKINS-2026_GENERAL
+    person: PERSON-PERKINS_JN_3Z
+- type: Person
+  code: PERSON-CATLETT_MC_2V
+  attributes:
+    username: catlett_mc_2v
+    username_status: provisional
+    first_name: Michael
+    last_name: Catlett
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_MICHAEL_CATLETT-2026_GENERAL-CATLETT_MC_2V
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_MICHAEL_CATLETT-2026_GENERAL
+    person: PERSON-CATLETT_MC_2V
+- type: Person
+  code: PERSON-HOWE_RN_8Q
+  attributes:
+    username: howe_rn_8q
+    username_status: provisional
+    first_name: Randall
+    last_name: Howe
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_RANDALL_HOWE-2026_GENERAL-HOWE_RN_8Q
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_RANDALL_HOWE-2026_GENERAL
+    person: PERSON-HOWE_RN_8Q
+- type: Person
+  code: PERSON-SKLAR_JF_9A
+  attributes:
+    username: sklar_jf_9a
+    username_status: provisional
+    first_name: Jeffrey
+    last_name: Sklar
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_JEFFREY_SKLAR-2026_GENERAL-SKLAR_JF_9A
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_JEFFREY_SKLAR-2026_GENERAL
+    person: PERSON-SKLAR_JF_9A
+- type: Person
+  code: PERSON-KELLY_MC_2R
+  attributes:
+    username: kelly_mc_2r
+    username_status: provisional
+    first_name: Michael
+    last_name: Kelly
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_MICHAEL_KELLY-2026_GENERAL-KELLY_MC_2R
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_MICHAEL_KELLY-2026_GENERAL
+    person: PERSON-KELLY_MC_2R
+- type: Person
+  code: PERSON-BREARCLIFFE_SN_6J
+  attributes:
+    username: brearcliffe_sn_6j
+    username_status: provisional
+    first_name: Sean
+    last_name: Brearcliffe
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_SEAN_BREARCLIFFE-2026_GENERAL-BREARCLIFFE_SN_6J
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_SEAN_BREARCLIFFE-2026_GENERAL
+    person: PERSON-BREARCLIFFE_SN_6J
+- type: Person
+  code: PERSON-O_NEIL_CH_9K
+  attributes:
+    username: o_neil_ch_9k
+    username_status: provisional
+    first_name: Christopher
+    last_name: O'Neil
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_CHRISTOPHER_O_NEIL-2026_GENERAL-O_NEIL_CH_9K
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_CHRISTOPHER_O_NEIL-2026_GENERAL
+    person: PERSON-O_NEIL_CH_9K
+- type: Person
+  code: PERSON-EPPICH_KR_4R
+  attributes:
+    username: eppich_kr_4r
+    username_status: provisional
+    first_name: Karl
+    last_name: Eppich
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_KARL_EPPICH-2026_GENERAL-EPPICH_KR_4R
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_KARL_EPPICH-2026_GENERAL
+    person: PERSON-EPPICH_KR_4R
+- type: Person
+  code: PERSON-GARD_LC_2N
+  attributes:
+    username: gard_lc_2n
+    username_status: provisional
+    first_name: Lacey
+    last_name: Gard
+    middle_name: Stover
+- type: Candidacy
+  code: CANDIDACY-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_LACEY_STOVER_GARD-2026_GENERAL-GARD_LC_2N
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_LACEY_STOVER_GARD-2026_GENERAL
+    person: PERSON-GARD_LC_2N
