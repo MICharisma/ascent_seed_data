@@ -19,7 +19,7 @@ Built by Ascent Clerk on 2026-10-29 from the Delaware Department of Elections fi
 - 135 new Person records with minted full codes and provisional usernames; 4 existing federal people reused.
 - 52 new districts (`scope: state: STATE-USA-DE` on the foundation document) with their general elections; TIGER 2024 GEOIDs in `district_crosswalk.csv`.
 - 3 Party records: Democratic, Republican, Independent Party of Delaware (printed "Ind Pty of DE").
-- 49 verified campaign websites in `candidate_accounts/de_2026_websites.yml` (owned by the general Candidacy).
+- 54 verified campaign websites in `candidate_accounts/de_2026_websites.yml` (owned by the general Candidacy). Re-check of 2026-10-30 restored five http-only sites (Alonna Berry, Bryan William Shupe, Valerie Jones Giltner, Maureen Madden, Ryan Stuckey): the box returns 500 on plain http, and they load and name the candidate over https.
 
 County offices on the same list (New Castle, Kent, Sussex: 37 general and 9 primary rows) are out of scope for this PR.
 
@@ -45,7 +45,7 @@ They have no candidacies; they are in the review CSV with `in_pr=N`.
 
 ## Websites omitted
 
-12 filed websites failed verification on 2026-10-29: Lydia York (403), Austin Cassidy (500), Shawn L. Dottery (thequietcoalition.com loads but does not name him), Kendra Johnson (526), Jeffrey N. Spiegelman (no TLS response), Alonna Berry, Mike Smith, Bryan William Shupe, Valerie Jones Giltner, Maureen Madden, Ryan Stuckey (500), Ed Osienski (403). Several 403/500s look like bot protection; a browser check may confirm them.
+7 filed websites failed verification (re-checked 2026-10-30): Lydia York (403), Austin Cassidy (500), Shawn L. Dottery (thequietcoalition.com loads but does not name him), Kendra Johnson (526), Jeffrey N. Spiegelman (no TLS response), Mike Smith (500), Ed Osienski (403).
 
 ## Checks (2026-10-29)
 
