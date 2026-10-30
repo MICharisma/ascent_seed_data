@@ -1,0 +1,23 @@
+# Louisiana 2026: parties used as nominating organizations, legislative districts on the 2026-11-03 ballot and their general elections. Source: Louisiana Secretary of State.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103
+  captured_on: '2026-10-29'
+scope:
+  state: STATE-USA-LA
+records:
+- type: Party
+  code: PARTY-USA-LA-DEMOCRATIC
+  attributes:
+    name: Democratic
+  references:
+    state: STATE-USA-LA
+- type: Party
+  code: PARTY-USA-LA-REPUBLICAN
+  attributes:
+    name: Republican
+  references:
+    state: STATE-USA-LA

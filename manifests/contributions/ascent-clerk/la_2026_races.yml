@@ -1,0 +1,131 @@
+# Louisiana 2026: general offices/races not already in the repo, plus a POSITION-NOMINEE office and 2026-05-16 primary race per party and contest on the official primary list. Existing offices, races and elections are referenced, not redefined.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103
+  captured_on: '2026-10-29'
+scope:
+  state: STATE-USA-LA
+records:
+- type: Office
+  code: OFFICE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1
+  attributes:
+    is_active: true
+  references:
+    position: POSITION-PUBLIC_SERVICE_COMMISSIONER
+    jurisdiction: STATE-USA-LA
+- type: Race
+  code: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the Louisiana Secretary of State 2026 general election candidate list (https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103; office ''Public Service Commission District 1''). Nov 3, 2026 general election between the closed-party-primary nominees and any independents (https://www.sos.la.gov/media/x2jfrc1e/louisiana-election-quick-facts.pdf).'
+  references:
+    election: ELECTION-USA-LA-2026_GENERAL
+    office: OFFICE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1
+- type: Office
+  code: OFFICE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5
+  attributes:
+    is_active: true
+  references:
+    position: POSITION-PUBLIC_SERVICE_COMMISSIONER
+    jurisdiction: STATE-USA-LA
+- type: Race
+  code: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Candidates per the Louisiana Secretary of State 2026 general election candidate list (https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103; office ''Public Service Commission District 5''). Nov 3, 2026 general election between the closed-party-primary nominees and any independents (https://www.sos.la.gov/media/x2jfrc1e/louisiana-election-quick-facts.pdf).'
+  references:
+    election: ELECTION-USA-LA-2026_GENERAL
+    office: OFFICE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5
+- type: Office
+  code: OFFICE-USA-LA-SENATOR-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-LA
+    nominee_for: OFFICE-USA-LA-SENATOR
+    nominating_organization: PARTY-USA-LA-DEMOCRATIC
+- type: Race
+  code: RACE-USA-LA-SENATOR-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Democratic primary for U.S. Senate, May 16, 2026 (closed party primary; second party primary June 27). Candidates per the Louisiana Secretary of State 2026 primary candidate list (https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20260516), which lists every candidate on that primary ballot. Louisiana closed party primary (Act 1 of 2024): May 16, 2026, majority required; if no majority, a second party primary on June 27, 2026 (folded into this race) between the top two. Unaffiliated voters may choose one party''s ballot. Candidate lists: https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20260516 and https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20260627.'
+  references:
+    election: ELECTION-USA-LA-2026_PRIMARY
+    office: OFFICE-USA-LA-SENATOR-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-LA-SENATOR-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-LA
+    nominee_for: OFFICE-USA-LA-SENATOR
+    nominating_organization: PARTY-USA-LA-REPUBLICAN
+- type: Race
+  code: RACE-USA-LA-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Republican primary for U.S. Senate, May 16, 2026 (closed party primary; second party primary June 27). Candidates per the Louisiana Secretary of State 2026 primary candidate list (https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20260516), which lists every candidate on that primary ballot. Louisiana closed party primary (Act 1 of 2024): May 16, 2026, majority required; if no majority, a second party primary on June 27, 2026 (folded into this race) between the top two. Unaffiliated voters may choose one party''s ballot. Candidate lists: https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20260516 and https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20260627.'
+  references:
+    election: ELECTION-USA-LA-2026_PRIMARY
+    office: OFFICE-USA-LA-SENATOR-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-LA
+    nominee_for: OFFICE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1
+    nominating_organization: PARTY-USA-LA-REPUBLICAN
+- type: Race
+  code: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Republican primary for Public Service Commission District 1, May 16, 2026 (closed party primary; second party primary June 27). Candidates per the Louisiana Secretary of State 2026 primary candidate list (https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20260516), which lists every candidate on that primary ballot. Louisiana closed party primary (Act 1 of 2024): May 16, 2026, majority required; if no majority, a second party primary on June 27, 2026 (folded into this race) between the top two. Unaffiliated voters may choose one party''s ballot. Candidate lists: https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20260516 and https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20260627.'
+  references:
+    election: ELECTION-USA-LA-2026_PRIMARY
+    office: OFFICE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-LA
+    nominee_for: OFFICE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5
+    nominating_organization: PARTY-USA-LA-DEMOCRATIC
+- type: Race
+  code: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Democratic primary for Public Service Commission District 5, May 16, 2026 (closed party primary; second party primary June 27). Candidates per the Louisiana Secretary of State 2026 primary candidate list (https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20260516), which lists every candidate on that primary ballot. Louisiana closed party primary (Act 1 of 2024): May 16, 2026, majority required; if no majority, a second party primary on June 27, 2026 (folded into this race) between the top two. Unaffiliated voters may choose one party''s ballot. Candidate lists: https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20260516 and https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20260627.'
+  references:
+    election: ELECTION-USA-LA-2026_PRIMARY
+    office: OFFICE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-LA
+    nominee_for: OFFICE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5
+    nominating_organization: PARTY-USA-LA-REPUBLICAN
+- type: Race
+  code: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Republican primary for Public Service Commission District 5, May 16, 2026 (closed party primary; second party primary June 27). Candidates per the Louisiana Secretary of State 2026 primary candidate list (https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20260516), which lists every candidate on that primary ballot. Louisiana closed party primary (Act 1 of 2024): May 16, 2026, majority required; if no majority, a second party primary on June 27, 2026 (folded into this race) between the top two. Unaffiliated voters may choose one party''s ballot. Candidate lists: https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20260516 and https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20260627.'
+  references:
+    election: ELECTION-USA-LA-2026_PRIMARY
+    office: OFFICE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-NOMINEE_REPUBLICAN
