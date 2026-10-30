@@ -1,0 +1,2179 @@
+# Vermont 2026: parties with candidates on the Nov 3, 2026 ballot, the 16 state Senate districts and 109 state House districts (many multi-member), with their general elections.
+# Source: Vermont Secretary of State qualified candidate lists.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://outside.vermont.gov/dept/sos/Elections_Division/election_info_resources/candidates/2026_general_election_qualified_candidates.xlsx
+  captured_on: '2026-10-29'
+scope:
+  state: STATE-USA-VT
+records:
+- type: Party
+  code: PARTY-USA-VT-DEMOCRATIC
+  attributes:
+    name: Democratic
+  references:
+    state: STATE-USA-VT
+- type: Party
+  code: PARTY-USA-VT-REPUBLICAN
+  attributes:
+    name: Republican
+  references:
+    state: STATE-USA-VT
+- type: Party
+  code: PARTY-USA-VT-PROGRESSIVE
+  attributes:
+    name: Progressive
+  references:
+    state: STATE-USA-VT
+- type: Party
+  code: PARTY-USA-VT-PEACE_AND_JUSTICE
+  attributes:
+    name: Peace and Justice
+  references:
+    state: STATE-USA-VT
+- type: Party
+  code: PARTY-USA-VT-FREEDOM_AND_UNITY
+  attributes:
+    name: Freedom and Unity
+  references:
+    state: STATE-USA-VT
+- type: Party
+  code: PARTY-USA-VT-WOMEN_S_LIBERATION_VEGI_ARYAN
+  attributes:
+    name: Women's Liberation Vegi-Aryan
+  references:
+    state: STATE-USA-VT
+- type: Party
+  code: PARTY-USA-VT-GREEN
+  attributes:
+    name: Green
+  references:
+    state: STATE-USA-VT
+- type: District
+  code: DISTRICT-USA-VT-SENATE-SD_ADD
+  attributes:
+    name: Vermont Senate District ADD
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-VT-SENATE-SD_ADD-2026_GENERAL
+  attributes:
+    name: Vermont Senate District ADD General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-SENATE-SD_ADD
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-SENATE-SD_BEN
+  attributes:
+    name: Vermont Senate District BEN
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-VT-SENATE-SD_BEN-2026_GENERAL
+  attributes:
+    name: Vermont Senate District BEN General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-SENATE-SD_BEN
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-SENATE-SD_CAL
+  attributes:
+    name: Vermont Senate District CAL
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-VT-SENATE-SD_CAL-2026_GENERAL
+  attributes:
+    name: Vermont Senate District CAL General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-SENATE-SD_CAL
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-SENATE-SD_CHI_CT
+  attributes:
+    name: Vermont Senate District CHI CT
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-VT-SENATE-SD_CHI_CT-2026_GENERAL
+  attributes:
+    name: Vermont Senate District CHI CT General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-SENATE-SD_CHI_CT
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-SENATE-SD_CHI_N
+  attributes:
+    name: Vermont Senate District CHI N
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-VT-SENATE-SD_CHI_N-2026_GENERAL
+  attributes:
+    name: Vermont Senate District CHI N General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-SENATE-SD_CHI_N
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-SENATE-SD_CHI_SE
+  attributes:
+    name: Vermont Senate District CHI SE
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-VT-SENATE-SD_CHI_SE-2026_GENERAL
+  attributes:
+    name: Vermont Senate District CHI SE General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-SENATE-SD_CHI_SE
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-SENATE-SD_ESX
+  attributes:
+    name: Vermont Senate District ESX
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-VT-SENATE-SD_ESX-2026_GENERAL
+  attributes:
+    name: Vermont Senate District ESX General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-SENATE-SD_ESX
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-SENATE-SD_FRA
+  attributes:
+    name: Vermont Senate District FRA
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-VT-SENATE-SD_FRA-2026_GENERAL
+  attributes:
+    name: Vermont Senate District FRA General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-SENATE-SD_FRA
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-SENATE-SD_GI
+  attributes:
+    name: Vermont Senate District GI
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-VT-SENATE-SD_GI-2026_GENERAL
+  attributes:
+    name: Vermont Senate District GI General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-SENATE-SD_GI
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-SENATE-SD_LAM
+  attributes:
+    name: Vermont Senate District LAM
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-VT-SENATE-SD_LAM-2026_GENERAL
+  attributes:
+    name: Vermont Senate District LAM General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-SENATE-SD_LAM
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-SENATE-SD_ORA
+  attributes:
+    name: Vermont Senate District ORA
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-VT-SENATE-SD_ORA-2026_GENERAL
+  attributes:
+    name: Vermont Senate District ORA General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-SENATE-SD_ORA
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-SENATE-SD_ORL
+  attributes:
+    name: Vermont Senate District ORL
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-VT-SENATE-SD_ORL-2026_GENERAL
+  attributes:
+    name: Vermont Senate District ORL General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-SENATE-SD_ORL
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-SENATE-SD_RUT
+  attributes:
+    name: Vermont Senate District RUT
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-VT-SENATE-SD_RUT-2026_GENERAL
+  attributes:
+    name: Vermont Senate District RUT General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-SENATE-SD_RUT
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-SENATE-SD_WAS
+  attributes:
+    name: Vermont Senate District WAS
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-VT-SENATE-SD_WAS-2026_GENERAL
+  attributes:
+    name: Vermont Senate District WAS General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-SENATE-SD_WAS
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-SENATE-SD_WDH
+  attributes:
+    name: Vermont Senate District WDH
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-VT-SENATE-SD_WDH-2026_GENERAL
+  attributes:
+    name: Vermont Senate District WDH General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-SENATE-SD_WDH
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-SENATE-SD_WDR
+  attributes:
+    name: Vermont Senate District WDR
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-VT-SENATE-SD_WDR-2026_GENERAL
+  attributes:
+    name: Vermont Senate District WDR General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-SENATE-SD_WDR
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ADD_1
+  attributes:
+    name: Vermont House District ADD 1
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ADD_1-2026_GENERAL
+  attributes:
+    name: Vermont House District ADD 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ADD_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ADD_2
+  attributes:
+    name: Vermont House District ADD 2
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ADD_2-2026_GENERAL
+  attributes:
+    name: Vermont House District ADD 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ADD_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ADD_3
+  attributes:
+    name: Vermont House District ADD 3
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ADD_3-2026_GENERAL
+  attributes:
+    name: Vermont House District ADD 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ADD_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ADD_4
+  attributes:
+    name: Vermont House District ADD 4
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ADD_4-2026_GENERAL
+  attributes:
+    name: Vermont House District ADD 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ADD_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ADD_5
+  attributes:
+    name: Vermont House District ADD 5
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ADD_5-2026_GENERAL
+  attributes:
+    name: Vermont House District ADD 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ADD_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ADD_RUT
+  attributes:
+    name: Vermont House District ADD RUT
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ADD_RUT-2026_GENERAL
+  attributes:
+    name: Vermont House District ADD RUT General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ADD_RUT
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_BEN_1
+  attributes:
+    name: Vermont House District BEN 1
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_BEN_1-2026_GENERAL
+  attributes:
+    name: Vermont House District BEN 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_BEN_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_BEN_2
+  attributes:
+    name: Vermont House District BEN 2
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_BEN_2-2026_GENERAL
+  attributes:
+    name: Vermont House District BEN 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_BEN_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_BEN_3
+  attributes:
+    name: Vermont House District BEN 3
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_BEN_3-2026_GENERAL
+  attributes:
+    name: Vermont House District BEN 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_BEN_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_BEN_4
+  attributes:
+    name: Vermont House District BEN 4
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_BEN_4-2026_GENERAL
+  attributes:
+    name: Vermont House District BEN 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_BEN_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_BEN_5
+  attributes:
+    name: Vermont House District BEN 5
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_BEN_5-2026_GENERAL
+  attributes:
+    name: Vermont House District BEN 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_BEN_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_BEN_RUT
+  attributes:
+    name: Vermont House District BEN RUT
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_BEN_RUT-2026_GENERAL
+  attributes:
+    name: Vermont House District BEN RUT General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_BEN_RUT
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CAL_1
+  attributes:
+    name: Vermont House District CAL 1
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CAL_1-2026_GENERAL
+  attributes:
+    name: Vermont House District CAL 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CAL_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CAL_2
+  attributes:
+    name: Vermont House District CAL 2
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CAL_2-2026_GENERAL
+  attributes:
+    name: Vermont House District CAL 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CAL_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CAL_3
+  attributes:
+    name: Vermont House District CAL 3
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CAL_3-2026_GENERAL
+  attributes:
+    name: Vermont House District CAL 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CAL_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CAL_ESX
+  attributes:
+    name: Vermont House District CAL ESX
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CAL_ESX-2026_GENERAL
+  attributes:
+    name: Vermont House District CAL ESX General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CAL_ESX
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CAL_WAS
+  attributes:
+    name: Vermont House District CAL WAS
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CAL_WAS-2026_GENERAL
+  attributes:
+    name: Vermont House District CAL WAS General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CAL_WAS
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_1
+  attributes:
+    name: Vermont House District CHI 1
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_1-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_2
+  attributes:
+    name: Vermont House District CHI 2
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_2-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_3
+  attributes:
+    name: Vermont House District CHI 3
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_3-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_4
+  attributes:
+    name: Vermont House District CHI 4
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_4-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_5
+  attributes:
+    name: Vermont House District CHI 5
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_5-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_6
+  attributes:
+    name: Vermont House District CHI 6
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_6-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 6 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_6
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_7
+  attributes:
+    name: Vermont House District CHI 7
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_7-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 7 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_7
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_8
+  attributes:
+    name: Vermont House District CHI 8
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_8-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 8 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_8
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_9
+  attributes:
+    name: Vermont House District CHI 9
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_9-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 9 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_9
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_10
+  attributes:
+    name: Vermont House District CHI 10
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_10-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 10 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_10
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_11
+  attributes:
+    name: Vermont House District CHI 11
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_11-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 11 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_11
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_12
+  attributes:
+    name: Vermont House District CHI 12
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_12-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 12 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_12
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_13
+  attributes:
+    name: Vermont House District CHI 13
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_13-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 13 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_13
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_14
+  attributes:
+    name: Vermont House District CHI 14
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_14-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 14 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_14
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_15
+  attributes:
+    name: Vermont House District CHI 15
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_15-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 15 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_15
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_16
+  attributes:
+    name: Vermont House District CHI 16
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_16-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 16 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_16
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_17
+  attributes:
+    name: Vermont House District CHI 17
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_17-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 17 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_17
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_18
+  attributes:
+    name: Vermont House District CHI 18
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_18-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 18 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_18
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_19
+  attributes:
+    name: Vermont House District CHI 19
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_19-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 19 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_19
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_20
+  attributes:
+    name: Vermont House District CHI 20
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_20-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 20 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_20
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_21
+  attributes:
+    name: Vermont House District CHI 21
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_21-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 21 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_21
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_22
+  attributes:
+    name: Vermont House District CHI 22
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_22-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 22 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_22
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_23
+  attributes:
+    name: Vermont House District CHI 23
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_23-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 23 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_23
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_24
+  attributes:
+    name: Vermont House District CHI 24
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_24-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 24 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_24
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_25
+  attributes:
+    name: Vermont House District CHI 25
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_25-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI 25 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_25
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_CHI_FRA
+  attributes:
+    name: Vermont House District CHI FRA
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_CHI_FRA-2026_GENERAL
+  attributes:
+    name: Vermont House District CHI FRA General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_CHI_FRA
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ESX_CAL
+  attributes:
+    name: Vermont House District ESX CAL
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ESX_CAL-2026_GENERAL
+  attributes:
+    name: Vermont House District ESX CAL General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ESX_CAL
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ESX_ORL
+  attributes:
+    name: Vermont House District ESX ORL
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ESX_ORL-2026_GENERAL
+  attributes:
+    name: Vermont House District ESX ORL General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ESX_ORL
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_FRA_1
+  attributes:
+    name: Vermont House District FRA 1
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_FRA_1-2026_GENERAL
+  attributes:
+    name: Vermont House District FRA 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_FRA_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_FRA_2
+  attributes:
+    name: Vermont House District FRA 2
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_FRA_2-2026_GENERAL
+  attributes:
+    name: Vermont House District FRA 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_FRA_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_FRA_3
+  attributes:
+    name: Vermont House District FRA 3
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_FRA_3-2026_GENERAL
+  attributes:
+    name: Vermont House District FRA 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_FRA_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_FRA_4
+  attributes:
+    name: Vermont House District FRA 4
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_FRA_4-2026_GENERAL
+  attributes:
+    name: Vermont House District FRA 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_FRA_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_FRA_5
+  attributes:
+    name: Vermont House District FRA 5
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_FRA_5-2026_GENERAL
+  attributes:
+    name: Vermont House District FRA 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_FRA_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_FRA_6
+  attributes:
+    name: Vermont House District FRA 6
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_FRA_6-2026_GENERAL
+  attributes:
+    name: Vermont House District FRA 6 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_FRA_6
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_FRA_7
+  attributes:
+    name: Vermont House District FRA 7
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_FRA_7-2026_GENERAL
+  attributes:
+    name: Vermont House District FRA 7 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_FRA_7
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_FRA_8
+  attributes:
+    name: Vermont House District FRA 8
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_FRA_8-2026_GENERAL
+  attributes:
+    name: Vermont House District FRA 8 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_FRA_8
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_GI_CHI
+  attributes:
+    name: Vermont House District GI CHI
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_GI_CHI-2026_GENERAL
+  attributes:
+    name: Vermont House District GI CHI General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_GI_CHI
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_LAM_1
+  attributes:
+    name: Vermont House District LAM 1
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_LAM_1-2026_GENERAL
+  attributes:
+    name: Vermont House District LAM 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_LAM_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_LAM_2
+  attributes:
+    name: Vermont House District LAM 2
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_LAM_2-2026_GENERAL
+  attributes:
+    name: Vermont House District LAM 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_LAM_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_LAM_3
+  attributes:
+    name: Vermont House District LAM 3
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_LAM_3-2026_GENERAL
+  attributes:
+    name: Vermont House District LAM 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_LAM_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_LAM_WAS
+  attributes:
+    name: Vermont House District LAM WAS
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_LAM_WAS-2026_GENERAL
+  attributes:
+    name: Vermont House District LAM WAS General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_LAM_WAS
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ORA_1
+  attributes:
+    name: Vermont House District ORA 1
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ORA_1-2026_GENERAL
+  attributes:
+    name: Vermont House District ORA 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ORA_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ORA_2
+  attributes:
+    name: Vermont House District ORA 2
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ORA_2-2026_GENERAL
+  attributes:
+    name: Vermont House District ORA 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ORA_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ORA_3
+  attributes:
+    name: Vermont House District ORA 3
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ORA_3-2026_GENERAL
+  attributes:
+    name: Vermont House District ORA 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ORA_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ORA_CAL
+  attributes:
+    name: Vermont House District ORA CAL
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ORA_CAL-2026_GENERAL
+  attributes:
+    name: Vermont House District ORA CAL General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ORA_CAL
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ORA_WAS_ADD
+  attributes:
+    name: Vermont House District ORA WAS ADD
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ORA_WAS_ADD-2026_GENERAL
+  attributes:
+    name: Vermont House District ORA WAS ADD General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ORA_WAS_ADD
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ORL_1
+  attributes:
+    name: Vermont House District ORL 1
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ORL_1-2026_GENERAL
+  attributes:
+    name: Vermont House District ORL 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ORL_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ORL_2
+  attributes:
+    name: Vermont House District ORL 2
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ORL_2-2026_GENERAL
+  attributes:
+    name: Vermont House District ORL 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ORL_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ORL_3
+  attributes:
+    name: Vermont House District ORL 3
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ORL_3-2026_GENERAL
+  attributes:
+    name: Vermont House District ORL 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ORL_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ORL_4
+  attributes:
+    name: Vermont House District ORL 4
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ORL_4-2026_GENERAL
+  attributes:
+    name: Vermont House District ORL 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ORL_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_ORL_LAM
+  attributes:
+    name: Vermont House District ORL LAM
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_ORL_LAM-2026_GENERAL
+  attributes:
+    name: Vermont House District ORL LAM General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_ORL_LAM
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_RUT_1
+  attributes:
+    name: Vermont House District RUT 1
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_RUT_1-2026_GENERAL
+  attributes:
+    name: Vermont House District RUT 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_RUT_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_RUT_2
+  attributes:
+    name: Vermont House District RUT 2
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_RUT_2-2026_GENERAL
+  attributes:
+    name: Vermont House District RUT 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_RUT_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_RUT_3
+  attributes:
+    name: Vermont House District RUT 3
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_RUT_3-2026_GENERAL
+  attributes:
+    name: Vermont House District RUT 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_RUT_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_RUT_4
+  attributes:
+    name: Vermont House District RUT 4
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_RUT_4-2026_GENERAL
+  attributes:
+    name: Vermont House District RUT 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_RUT_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_RUT_5
+  attributes:
+    name: Vermont House District RUT 5
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_RUT_5-2026_GENERAL
+  attributes:
+    name: Vermont House District RUT 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_RUT_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_RUT_6
+  attributes:
+    name: Vermont House District RUT 6
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_RUT_6-2026_GENERAL
+  attributes:
+    name: Vermont House District RUT 6 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_RUT_6
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_RUT_7
+  attributes:
+    name: Vermont House District RUT 7
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_RUT_7-2026_GENERAL
+  attributes:
+    name: Vermont House District RUT 7 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_RUT_7
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_RUT_8
+  attributes:
+    name: Vermont House District RUT 8
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_RUT_8-2026_GENERAL
+  attributes:
+    name: Vermont House District RUT 8 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_RUT_8
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_RUT_9
+  attributes:
+    name: Vermont House District RUT 9
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_RUT_9-2026_GENERAL
+  attributes:
+    name: Vermont House District RUT 9 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_RUT_9
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_RUT_10
+  attributes:
+    name: Vermont House District RUT 10
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_RUT_10-2026_GENERAL
+  attributes:
+    name: Vermont House District RUT 10 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_RUT_10
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_RUT_11
+  attributes:
+    name: Vermont House District RUT 11
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_RUT_11-2026_GENERAL
+  attributes:
+    name: Vermont House District RUT 11 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_RUT_11
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_RUT_BEN
+  attributes:
+    name: Vermont House District RUT BEN
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_RUT_BEN-2026_GENERAL
+  attributes:
+    name: Vermont House District RUT BEN General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_RUT_BEN
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_RUT_WDR
+  attributes:
+    name: Vermont House District RUT WDR
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_RUT_WDR-2026_GENERAL
+  attributes:
+    name: Vermont House District RUT WDR General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_RUT_WDR
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WAS_1
+  attributes:
+    name: Vermont House District WAS 1
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WAS_1-2026_GENERAL
+  attributes:
+    name: Vermont House District WAS 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WAS_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WAS_2
+  attributes:
+    name: Vermont House District WAS 2
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WAS_2-2026_GENERAL
+  attributes:
+    name: Vermont House District WAS 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WAS_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WAS_3
+  attributes:
+    name: Vermont House District WAS 3
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WAS_3-2026_GENERAL
+  attributes:
+    name: Vermont House District WAS 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WAS_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WAS_4
+  attributes:
+    name: Vermont House District WAS 4
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WAS_4-2026_GENERAL
+  attributes:
+    name: Vermont House District WAS 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WAS_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WAS_5
+  attributes:
+    name: Vermont House District WAS 5
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WAS_5-2026_GENERAL
+  attributes:
+    name: Vermont House District WAS 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WAS_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WAS_6
+  attributes:
+    name: Vermont House District WAS 6
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WAS_6-2026_GENERAL
+  attributes:
+    name: Vermont House District WAS 6 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WAS_6
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WAS_CHI
+  attributes:
+    name: Vermont House District WAS CHI
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WAS_CHI-2026_GENERAL
+  attributes:
+    name: Vermont House District WAS CHI General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WAS_CHI
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WAS_ORA
+  attributes:
+    name: Vermont House District WAS ORA
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WAS_ORA-2026_GENERAL
+  attributes:
+    name: Vermont House District WAS ORA General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WAS_ORA
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDH_1
+  attributes:
+    name: Vermont House District WDH 1
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDH_1-2026_GENERAL
+  attributes:
+    name: Vermont House District WDH 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDH_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDH_2
+  attributes:
+    name: Vermont House District WDH 2
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDH_2-2026_GENERAL
+  attributes:
+    name: Vermont House District WDH 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDH_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDH_3
+  attributes:
+    name: Vermont House District WDH 3
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDH_3-2026_GENERAL
+  attributes:
+    name: Vermont House District WDH 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDH_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDH_4
+  attributes:
+    name: Vermont House District WDH 4
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDH_4-2026_GENERAL
+  attributes:
+    name: Vermont House District WDH 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDH_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDH_5
+  attributes:
+    name: Vermont House District WDH 5
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDH_5-2026_GENERAL
+  attributes:
+    name: Vermont House District WDH 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDH_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDH_6
+  attributes:
+    name: Vermont House District WDH 6
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDH_6-2026_GENERAL
+  attributes:
+    name: Vermont House District WDH 6 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDH_6
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDH_7
+  attributes:
+    name: Vermont House District WDH 7
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDH_7-2026_GENERAL
+  attributes:
+    name: Vermont House District WDH 7 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDH_7
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDH_8
+  attributes:
+    name: Vermont House District WDH 8
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDH_8-2026_GENERAL
+  attributes:
+    name: Vermont House District WDH 8 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDH_8
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDH_9
+  attributes:
+    name: Vermont House District WDH 9
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDH_9-2026_GENERAL
+  attributes:
+    name: Vermont House District WDH 9 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDH_9
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDH_WDR_BEN
+  attributes:
+    name: Vermont House District WDH WDR BEN
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDH_WDR_BEN-2026_GENERAL
+  attributes:
+    name: Vermont House District WDH WDR BEN General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDH_WDR_BEN
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDR_1
+  attributes:
+    name: Vermont House District WDR 1
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDR_1-2026_GENERAL
+  attributes:
+    name: Vermont House District WDR 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDR_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDR_2
+  attributes:
+    name: Vermont House District WDR 2
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDR_2-2026_GENERAL
+  attributes:
+    name: Vermont House District WDR 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDR_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDR_3
+  attributes:
+    name: Vermont House District WDR 3
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDR_3-2026_GENERAL
+  attributes:
+    name: Vermont House District WDR 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDR_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDR_4
+  attributes:
+    name: Vermont House District WDR 4
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDR_4-2026_GENERAL
+  attributes:
+    name: Vermont House District WDR 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDR_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDR_5
+  attributes:
+    name: Vermont House District WDR 5
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDR_5-2026_GENERAL
+  attributes:
+    name: Vermont House District WDR 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDR_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDR_6
+  attributes:
+    name: Vermont House District WDR 6
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDR_6-2026_GENERAL
+  attributes:
+    name: Vermont House District WDR 6 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDR_6
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDR_ADD
+  attributes:
+    name: Vermont House District WDR ADD
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDR_ADD-2026_GENERAL
+  attributes:
+    name: Vermont House District WDR ADD General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDR_ADD
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDR_ORA_1
+  attributes:
+    name: Vermont House District WDR ORA 1
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDR_ORA_1-2026_GENERAL
+  attributes:
+    name: Vermont House District WDR ORA 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDR_ORA_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDR_ORA_2
+  attributes:
+    name: Vermont House District WDR ORA 2
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDR_ORA_2-2026_GENERAL
+  attributes:
+    name: Vermont House District WDR ORA 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDR_ORA_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-VT-HOUSE-HD_WDR_WDH
+  attributes:
+    name: Vermont House District WDR WDH
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-VT-HOUSE-HD_WDR_WDH-2026_GENERAL
+  attributes:
+    name: Vermont House District WDR WDH General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-VT-HOUSE-HD_WDR_WDH
+    year: YEAR-2026
