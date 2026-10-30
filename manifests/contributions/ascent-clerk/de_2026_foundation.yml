@@ -1,0 +1,914 @@
+# Delaware 2026: Democratic, Republican and Independent Party of Delaware (ballot parties on the general list), and the 10 state Senate and 41 state House districts on the Nov 3, 2026 ballot, with their general elections.
+# Source: Delaware Department of Elections filed-candidates lists.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://elections.delaware.gov/candidates/candidatelist/genl_fcddt_2026.html
+  captured_on: '2026-10-29'
+scope:
+  state: STATE-USA-DE
+records:
+- type: Party
+  code: PARTY-USA-DE-DEMOCRATIC
+  attributes:
+    name: Democratic
+  references:
+    state: STATE-USA-DE
+- type: Party
+  code: PARTY-USA-DE-REPUBLICAN
+  attributes:
+    name: Republican
+  references:
+    state: STATE-USA-DE
+- type: Party
+  code: PARTY-USA-DE-INDEPENDENT_PARTY_OF_DELAWARE
+  attributes:
+    name: Independent Party of Delaware
+  references:
+    state: STATE-USA-DE
+- type: District
+  code: DISTRICT-USA-DE-SENATE-SD_1
+  attributes:
+    name: Delaware Senate District 1
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-DE-SENATE-SD_1-2026_GENERAL
+  attributes:
+    name: Delaware Senate District 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-SENATE-SD_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-SENATE-SD_5
+  attributes:
+    name: Delaware Senate District 5
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-DE-SENATE-SD_5-2026_GENERAL
+  attributes:
+    name: Delaware Senate District 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-SENATE-SD_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-SENATE-SD_7
+  attributes:
+    name: Delaware Senate District 7
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-DE-SENATE-SD_7-2026_GENERAL
+  attributes:
+    name: Delaware Senate District 7 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-SENATE-SD_7
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-SENATE-SD_8
+  attributes:
+    name: Delaware Senate District 8
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-DE-SENATE-SD_8-2026_GENERAL
+  attributes:
+    name: Delaware Senate District 8 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-SENATE-SD_8
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-SENATE-SD_9
+  attributes:
+    name: Delaware Senate District 9
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-DE-SENATE-SD_9-2026_GENERAL
+  attributes:
+    name: Delaware Senate District 9 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-SENATE-SD_9
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-SENATE-SD_12
+  attributes:
+    name: Delaware Senate District 12
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-DE-SENATE-SD_12-2026_GENERAL
+  attributes:
+    name: Delaware Senate District 12 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-SENATE-SD_12
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-SENATE-SD_13
+  attributes:
+    name: Delaware Senate District 13
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-DE-SENATE-SD_13-2026_GENERAL
+  attributes:
+    name: Delaware Senate District 13 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-SENATE-SD_13
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-SENATE-SD_14
+  attributes:
+    name: Delaware Senate District 14
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-DE-SENATE-SD_14-2026_GENERAL
+  attributes:
+    name: Delaware Senate District 14 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-SENATE-SD_14
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-SENATE-SD_15
+  attributes:
+    name: Delaware Senate District 15
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-DE-SENATE-SD_15-2026_GENERAL
+  attributes:
+    name: Delaware Senate District 15 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-SENATE-SD_15
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-SENATE-SD_19
+  attributes:
+    name: Delaware Senate District 19
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-DE-SENATE-SD_19-2026_GENERAL
+  attributes:
+    name: Delaware Senate District 19 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-SENATE-SD_19
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-SENATE-SD_20
+  attributes:
+    name: Delaware Senate District 20
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-DE-SENATE-SD_20-2026_GENERAL
+  attributes:
+    name: Delaware Senate District 20 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-SENATE-SD_20
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_1
+  attributes:
+    name: Delaware House of Representatives District 1
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_1-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_2
+  attributes:
+    name: Delaware House of Representatives District 2
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_2-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_3
+  attributes:
+    name: Delaware House of Representatives District 3
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_3-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_4
+  attributes:
+    name: Delaware House of Representatives District 4
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_4-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_5
+  attributes:
+    name: Delaware House of Representatives District 5
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_5-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_6
+  attributes:
+    name: Delaware House of Representatives District 6
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_6-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 6 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_6
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_7
+  attributes:
+    name: Delaware House of Representatives District 7
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_7-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 7 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_7
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_8
+  attributes:
+    name: Delaware House of Representatives District 8
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_8-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 8 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_8
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_9
+  attributes:
+    name: Delaware House of Representatives District 9
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_9-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 9 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_9
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_10
+  attributes:
+    name: Delaware House of Representatives District 10
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_10-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 10 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_10
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_11
+  attributes:
+    name: Delaware House of Representatives District 11
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_11-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 11 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_11
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_12
+  attributes:
+    name: Delaware House of Representatives District 12
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_12-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 12 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_12
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_13
+  attributes:
+    name: Delaware House of Representatives District 13
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_13-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 13 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_13
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_14
+  attributes:
+    name: Delaware House of Representatives District 14
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_14-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 14 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_14
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_15
+  attributes:
+    name: Delaware House of Representatives District 15
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_15-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 15 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_15
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_16
+  attributes:
+    name: Delaware House of Representatives District 16
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_16-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 16 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_16
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_17
+  attributes:
+    name: Delaware House of Representatives District 17
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_17-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 17 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_17
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_18
+  attributes:
+    name: Delaware House of Representatives District 18
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_18-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 18 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_18
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_19
+  attributes:
+    name: Delaware House of Representatives District 19
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_19-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 19 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_19
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_20
+  attributes:
+    name: Delaware House of Representatives District 20
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_20-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 20 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_20
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_21
+  attributes:
+    name: Delaware House of Representatives District 21
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_21-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 21 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_21
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_22
+  attributes:
+    name: Delaware House of Representatives District 22
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_22-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 22 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_22
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_23
+  attributes:
+    name: Delaware House of Representatives District 23
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_23-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 23 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_23
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_24
+  attributes:
+    name: Delaware House of Representatives District 24
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_24-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 24 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_24
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_25
+  attributes:
+    name: Delaware House of Representatives District 25
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_25-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 25 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_25
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_26
+  attributes:
+    name: Delaware House of Representatives District 26
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_26-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 26 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_26
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_27
+  attributes:
+    name: Delaware House of Representatives District 27
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_27-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 27 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_27
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_28
+  attributes:
+    name: Delaware House of Representatives District 28
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_28-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 28 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_28
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_29
+  attributes:
+    name: Delaware House of Representatives District 29
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_29-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 29 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_29
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_30
+  attributes:
+    name: Delaware House of Representatives District 30
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_30-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 30 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_30
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_31
+  attributes:
+    name: Delaware House of Representatives District 31
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_31-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 31 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_31
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_32
+  attributes:
+    name: Delaware House of Representatives District 32
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_32-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 32 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_32
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_33
+  attributes:
+    name: Delaware House of Representatives District 33
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_33-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 33 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_33
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_34
+  attributes:
+    name: Delaware House of Representatives District 34
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_34-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 34 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_34
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_35
+  attributes:
+    name: Delaware House of Representatives District 35
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_35-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 35 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_35
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_36
+  attributes:
+    name: Delaware House of Representatives District 36
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_36-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 36 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_36
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_37
+  attributes:
+    name: Delaware House of Representatives District 37
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_37-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 37 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_37
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_38
+  attributes:
+    name: Delaware House of Representatives District 38
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_38-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 38 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_38
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_39
+  attributes:
+    name: Delaware House of Representatives District 39
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_39-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 39 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_39
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_40
+  attributes:
+    name: Delaware House of Representatives District 40
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_40-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 40 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_40
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-DE-HOUSE-HD_41
+  attributes:
+    name: Delaware House of Representatives District 41
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-DE-HOUSE-HD_41-2026_GENERAL
+  attributes:
+    name: Delaware House of Representatives District 41 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-DE-HOUSE-HD_41
+    year: YEAR-2026
