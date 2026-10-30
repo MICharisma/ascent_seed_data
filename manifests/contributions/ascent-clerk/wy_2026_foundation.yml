@@ -1,0 +1,1379 @@
+# Wyoming 2026: Republican, Democratic, Constitution and Libertarian parties, the state Senate districts (odd-numbered plus the SD 6 special) and all 62 state House districts on the Nov 3, 2026 ballot, with their general elections.
+# Source: Wyoming Secretary of State 2026 candidate files.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://sos.wyo.gov/Elections/Docs/2026/2026_WY_General_Election_Candidates.csv
+  captured_on: '2026-10-29'
+scope:
+  state: STATE-USA-WY
+records:
+- type: Party
+  code: PARTY-USA-WY-REPUBLICAN
+  attributes:
+    name: Republican
+  references:
+    state: STATE-USA-WY
+- type: Party
+  code: PARTY-USA-WY-DEMOCRATIC
+  attributes:
+    name: Democratic
+  references:
+    state: STATE-USA-WY
+- type: Party
+  code: PARTY-USA-WY-CONSTITUTION
+  attributes:
+    name: Constitution
+  references:
+    state: STATE-USA-WY
+- type: Party
+  code: PARTY-USA-WY-LIBERTARIAN
+  attributes:
+    name: Libertarian
+  references:
+    state: STATE-USA-WY
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_1
+  attributes:
+    name: Wyoming Senate District 1
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_1-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_3
+  attributes:
+    name: Wyoming Senate District 3
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_3-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_5
+  attributes:
+    name: Wyoming Senate District 5
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_5-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_6
+  attributes:
+    name: Wyoming Senate District 6
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_6-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 6 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_6
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_7
+  attributes:
+    name: Wyoming Senate District 7
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_7-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 7 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_7
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_9
+  attributes:
+    name: Wyoming Senate District 9
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_9-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 9 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_9
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_11
+  attributes:
+    name: Wyoming Senate District 11
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_11-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 11 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_11
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_13
+  attributes:
+    name: Wyoming Senate District 13
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_13-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 13 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_13
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_15
+  attributes:
+    name: Wyoming Senate District 15
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_15-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 15 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_15
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_17
+  attributes:
+    name: Wyoming Senate District 17
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_17-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 17 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_17
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_19
+  attributes:
+    name: Wyoming Senate District 19
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_19-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 19 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_19
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_21
+  attributes:
+    name: Wyoming Senate District 21
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_21-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 21 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_21
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_23
+  attributes:
+    name: Wyoming Senate District 23
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_23-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 23 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_23
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_25
+  attributes:
+    name: Wyoming Senate District 25
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_25-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 25 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_25
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_27
+  attributes:
+    name: Wyoming Senate District 27
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_27-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 27 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_27
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_29
+  attributes:
+    name: Wyoming Senate District 29
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_29-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 29 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_29
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-SENATE-SD_31
+  attributes:
+    name: Wyoming Senate District 31
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-WY-SENATE-SD_31-2026_GENERAL
+  attributes:
+    name: Wyoming Senate District 31 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-SENATE-SD_31
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_1
+  attributes:
+    name: Wyoming House of Representatives District 1
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_1-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 1 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_1
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_2
+  attributes:
+    name: Wyoming House of Representatives District 2
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_2-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_3
+  attributes:
+    name: Wyoming House of Representatives District 3
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_3-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_4
+  attributes:
+    name: Wyoming House of Representatives District 4
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_4-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_5
+  attributes:
+    name: Wyoming House of Representatives District 5
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_5-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_6
+  attributes:
+    name: Wyoming House of Representatives District 6
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_6-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 6 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_6
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_7
+  attributes:
+    name: Wyoming House of Representatives District 7
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_7-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 7 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_7
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_8
+  attributes:
+    name: Wyoming House of Representatives District 8
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_8-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 8 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_8
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_9
+  attributes:
+    name: Wyoming House of Representatives District 9
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_9-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 9 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_9
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_10
+  attributes:
+    name: Wyoming House of Representatives District 10
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_10-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 10 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_10
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_11
+  attributes:
+    name: Wyoming House of Representatives District 11
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_11-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 11 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_11
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_12
+  attributes:
+    name: Wyoming House of Representatives District 12
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_12-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 12 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_12
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_13
+  attributes:
+    name: Wyoming House of Representatives District 13
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_13-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 13 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_13
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_14
+  attributes:
+    name: Wyoming House of Representatives District 14
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_14-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 14 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_14
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_15
+  attributes:
+    name: Wyoming House of Representatives District 15
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_15-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 15 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_15
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_16
+  attributes:
+    name: Wyoming House of Representatives District 16
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_16-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 16 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_16
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_17
+  attributes:
+    name: Wyoming House of Representatives District 17
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_17-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 17 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_17
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_18
+  attributes:
+    name: Wyoming House of Representatives District 18
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_18-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 18 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_18
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_19
+  attributes:
+    name: Wyoming House of Representatives District 19
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_19-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 19 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_19
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_20
+  attributes:
+    name: Wyoming House of Representatives District 20
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_20-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 20 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_20
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_21
+  attributes:
+    name: Wyoming House of Representatives District 21
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_21-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 21 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_21
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_22
+  attributes:
+    name: Wyoming House of Representatives District 22
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_22-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 22 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_22
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_23
+  attributes:
+    name: Wyoming House of Representatives District 23
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_23-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 23 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_23
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_24
+  attributes:
+    name: Wyoming House of Representatives District 24
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_24-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 24 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_24
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_25
+  attributes:
+    name: Wyoming House of Representatives District 25
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_25-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 25 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_25
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_26
+  attributes:
+    name: Wyoming House of Representatives District 26
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_26-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 26 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_26
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_27
+  attributes:
+    name: Wyoming House of Representatives District 27
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_27-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 27 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_27
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_28
+  attributes:
+    name: Wyoming House of Representatives District 28
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_28-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 28 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_28
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_29
+  attributes:
+    name: Wyoming House of Representatives District 29
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_29-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 29 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_29
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_30
+  attributes:
+    name: Wyoming House of Representatives District 30
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_30-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 30 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_30
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_31
+  attributes:
+    name: Wyoming House of Representatives District 31
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_31-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 31 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_31
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_32
+  attributes:
+    name: Wyoming House of Representatives District 32
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_32-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 32 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_32
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_33
+  attributes:
+    name: Wyoming House of Representatives District 33
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_33-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 33 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_33
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_34
+  attributes:
+    name: Wyoming House of Representatives District 34
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_34-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 34 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_34
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_35
+  attributes:
+    name: Wyoming House of Representatives District 35
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_35-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 35 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_35
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_36
+  attributes:
+    name: Wyoming House of Representatives District 36
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_36-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 36 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_36
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_37
+  attributes:
+    name: Wyoming House of Representatives District 37
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_37-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 37 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_37
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_38
+  attributes:
+    name: Wyoming House of Representatives District 38
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_38-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 38 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_38
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_39
+  attributes:
+    name: Wyoming House of Representatives District 39
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_39-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 39 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_39
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_40
+  attributes:
+    name: Wyoming House of Representatives District 40
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_40-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 40 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_40
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_41
+  attributes:
+    name: Wyoming House of Representatives District 41
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_41-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 41 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_41
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_42
+  attributes:
+    name: Wyoming House of Representatives District 42
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_42-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 42 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_42
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_43
+  attributes:
+    name: Wyoming House of Representatives District 43
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_43-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 43 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_43
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_44
+  attributes:
+    name: Wyoming House of Representatives District 44
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_44-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 44 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_44
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_45
+  attributes:
+    name: Wyoming House of Representatives District 45
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_45-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 45 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_45
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_46
+  attributes:
+    name: Wyoming House of Representatives District 46
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_46-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 46 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_46
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_47
+  attributes:
+    name: Wyoming House of Representatives District 47
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_47-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 47 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_47
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_48
+  attributes:
+    name: Wyoming House of Representatives District 48
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_48-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 48 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_48
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_49
+  attributes:
+    name: Wyoming House of Representatives District 49
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_49-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 49 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_49
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_50
+  attributes:
+    name: Wyoming House of Representatives District 50
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_50-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 50 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_50
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_51
+  attributes:
+    name: Wyoming House of Representatives District 51
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_51-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 51 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_51
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_52
+  attributes:
+    name: Wyoming House of Representatives District 52
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_52-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 52 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_52
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_53
+  attributes:
+    name: Wyoming House of Representatives District 53
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_53-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 53 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_53
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_54
+  attributes:
+    name: Wyoming House of Representatives District 54
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_54-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 54 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_54
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_55
+  attributes:
+    name: Wyoming House of Representatives District 55
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_55-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 55 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_55
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_56
+  attributes:
+    name: Wyoming House of Representatives District 56
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_56-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 56 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_56
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_57
+  attributes:
+    name: Wyoming House of Representatives District 57
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_57-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 57 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_57
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_58
+  attributes:
+    name: Wyoming House of Representatives District 58
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_58-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 58 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_58
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_59
+  attributes:
+    name: Wyoming House of Representatives District 59
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_59-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 59 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_59
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_60
+  attributes:
+    name: Wyoming House of Representatives District 60
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_60-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 60 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_60
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_61
+  attributes:
+    name: Wyoming House of Representatives District 61
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_61-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 61 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_61
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-WY-HOUSE-HD_62
+  attributes:
+    name: Wyoming House of Representatives District 62
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-WY-HOUSE-HD_62-2026_GENERAL
+  attributes:
+    name: Wyoming House of Representatives District 62 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-WY-HOUSE-HD_62
+    year: YEAR-2026
