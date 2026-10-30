@@ -23,6 +23,14 @@ records:
     first_name: Bob
     last_name: Carney
 - type: Person
+  code: PERSON-HASSAN_AH_5T
+  attributes:
+    username: hassan_ah_5t
+    username_status: provisional
+    first_name: Ahmad
+    middle_name: R.
+    last_name: Hassan
+- type: Person
   code: PERSON-MUNRO_PT_5B
   attributes:
     username: munro_pt_5b
@@ -901,13 +909,12 @@ records:
     first_name: Justice
     last_name: Spriggs
 - type: Person
-  code: PERSON-SIMULA_AM_2D
+  code: PERSON-MARQUEZ_SIMULA_AM_2D
   attributes:
-    username: simula_am_2d
+    username: marquez_simula_am_2d
     username_status: provisional
     first_name: Amáda
-    middle_name: Márquez
-    last_name: Simula
+    last_name: Márquez Simula
 - type: Person
   code: PERSON-WITHROW_LS_2D
   attributes:
@@ -1849,13 +1856,12 @@ records:
     middle_name: R.
     last_name: DuFault
 - type: Person
-  code: PERSON-CORDOVA_SM_6C
+  code: PERSON-TRAUTMANN_CORDOVA_SM_6C
   attributes:
-    username: cordova_sm_6c
+    username: trautmann_cordova_sm_6c
     username_status: provisional
     first_name: Simon
-    middle_name: Trautmann
-    last_name: Cordova
+    last_name: Trautmann Cordova
 - type: Person
   code: PERSON-BIRGERSSON_JL_4A
   attributes:
@@ -1952,8 +1958,7 @@ records:
   attributes:
     username: champion_bb_7e
     username_status: provisional
-    first_name: Bobby
-    middle_name: Joe
+    first_name: Bobby Joe
     last_name: Champion
 - type: Person
   code: PERSON-WOLTERS_AB_3K
@@ -2183,13 +2188,12 @@ records:
     first_name: Spencer
     last_name: Igo
 - type: Person
-  code: PERSON-NINGEN_ER_5Z
+  code: PERSON-MCCABE_NINGEN_ER_5Z
   attributes:
-    username: ningen_er_5z
+    username: mccabe_ningen_er_5z
     username_status: provisional
     first_name: Erin
-    middle_name: McCabe
-    last_name: Ningen
+    last_name: McCabe Ningen
 - type: Person
   code: PERSON-WARWAS_CL_8D
   attributes:
@@ -3304,8 +3308,7 @@ records:
   attributes:
     username: clardy_mr_2g
     username_status: provisional
-    first_name: Mary
-    middle_name: Frances
+    first_name: Mary Frances
     last_name: Clardy
 - type: Person
   code: PERSON-HANSEN_RC_8C
@@ -3785,7 +3788,7 @@ records:
     race: RACE-USA-MN-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-CARNEY_BB_6M
 - type: Candidacy
-  code: CANDIDACY-USA-MN-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY-HASSAN_AH_3N
+  code: CANDIDACY-USA-MN-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY-HASSAN_AH_5T
   attributes:
     status: active
     participation: active
@@ -3795,7 +3798,7 @@ records:
       party: PARTY-USA-MN-REPUBLICAN
   references:
     race: RACE-USA-MN-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY
-    person: PERSON-HASSAN_AH_3N
+    person: PERSON-HASSAN_AH_5T
 - type: Candidacy
   code: CANDIDACY-USA-MN-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY-MUNRO_PT_5B
   attributes:
@@ -6769,7 +6772,7 @@ records:
     race: RACE-USA-MN-SENATE-SD_50-2026_GENERAL
     person: PERSON-HULT_KR_3A
 - type: Candidacy
-  code: CANDIDACY-USA-MN-SENATE-SD_51-2026_GENERAL-CORDOVA_SM_6C
+  code: CANDIDACY-USA-MN-SENATE-SD_51-2026_GENERAL-TRAUTMANN_CORDOVA_SM_6C
   attributes:
     status: active
     participation: active
@@ -6779,7 +6782,7 @@ records:
       party: PARTY-USA-MN-DEMOCRATIC_FARMER_LABOR
   references:
     race: RACE-USA-MN-SENATE-SD_51-2026_GENERAL
-    person: PERSON-CORDOVA_SM_6C
+    person: PERSON-TRAUTMANN_CORDOVA_SM_6C
 - type: Candidacy
   code: CANDIDACY-USA-MN-SENATE-SD_51-2026_GENERAL-BIRGERSSON_JL_4A
   attributes:
@@ -7621,7 +7624,7 @@ records:
     race: RACE-USA-MN-HOUSE-HD_7A-2026_GENERAL
     person: PERSON-IGO_SP_4P
 - type: Candidacy
-  code: CANDIDACY-USA-MN-HOUSE-HD_7A-2026_GENERAL-NINGEN_ER_5Z
+  code: CANDIDACY-USA-MN-HOUSE-HD_7A-2026_GENERAL-MCCABE_NINGEN_ER_5Z
   attributes:
     status: active
     participation: active
@@ -7631,7 +7634,7 @@ records:
       party: PARTY-USA-MN-DEMOCRATIC_FARMER_LABOR
   references:
     race: RACE-USA-MN-HOUSE-HD_7A-2026_GENERAL
-    person: PERSON-NINGEN_ER_5Z
+    person: PERSON-MCCABE_NINGEN_ER_5Z
 - type: Candidacy
   code: CANDIDACY-USA-MN-HOUSE-HD_7B-2026_GENERAL-WARWAS_CL_8D
   attributes:
@@ -9541,7 +9544,7 @@ records:
     race: RACE-USA-MN-HOUSE-HD_39B-NOMINEE_DEMOCRATIC_FARMER_LABOR-2026_PRIMARY
     person: PERSON-SPRIGGS_JS_8M
 - type: Candidacy
-  code: CANDIDACY-USA-MN-HOUSE-HD_39B-NOMINEE_DEMOCRATIC_FARMER_LABOR-2026_PRIMARY-SIMULA_AM_2D
+  code: CANDIDACY-USA-MN-HOUSE-HD_39B-NOMINEE_DEMOCRATIC_FARMER_LABOR-2026_PRIMARY-MARQUEZ_SIMULA_AM_2D
   attributes:
     status: active
     participation: active
@@ -9551,7 +9554,7 @@ records:
       party: PARTY-USA-MN-DEMOCRATIC_FARMER_LABOR
   references:
     race: RACE-USA-MN-HOUSE-HD_39B-NOMINEE_DEMOCRATIC_FARMER_LABOR-2026_PRIMARY
-    person: PERSON-SIMULA_AM_2D
+    person: PERSON-MARQUEZ_SIMULA_AM_2D
 - type: Candidacy
   code: CANDIDACY-USA-MN-HOUSE-HD_39B-NOMINEE_REPUBLICAN-2026_PRIMARY-JACOBS_KT_2P
   attributes:
@@ -9577,7 +9580,7 @@ records:
     race: RACE-USA-MN-HOUSE-HD_39B-2026_GENERAL
     person: PERSON-JACOBS_KT_2P
 - type: Candidacy
-  code: CANDIDACY-USA-MN-HOUSE-HD_39B-2026_GENERAL-SIMULA_AM_2D
+  code: CANDIDACY-USA-MN-HOUSE-HD_39B-2026_GENERAL-MARQUEZ_SIMULA_AM_2D
   attributes:
     status: active
     participation: active
@@ -9587,7 +9590,7 @@ records:
       party: PARTY-USA-MN-DEMOCRATIC_FARMER_LABOR
   references:
     race: RACE-USA-MN-HOUSE-HD_39B-2026_GENERAL
-    person: PERSON-SIMULA_AM_2D
+    person: PERSON-MARQUEZ_SIMULA_AM_2D
 - type: Candidacy
   code: CANDIDACY-USA-MN-HOUSE-HD_40A-NOMINEE_DEMOCRATIC_FARMER_LABOR-2026_PRIMARY-MOHAMED_MR_4V
   attributes:

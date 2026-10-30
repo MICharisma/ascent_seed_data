@@ -6,7 +6,7 @@ Minnesota's Aug 11, 2026 state primary and the Nov 3, 2026 general election, bui
 - Primary candidates: https://electionresultsfiles.sos.mn.gov/20260811/cand.txt (197 entries; Governor & Lt Governor tickets counted as two).
 - General candidates: https://electionresultsfiles.sos.mn.gov/20261103/cand.txt and CandTbl.txt (website column), PartyTbl.txt (party names). The 20261103 vote files hold pre-election test counts; only the candidate lists were used.
 - Index: https://electionresults.sos.mn.gov/Select/MediaFiles/Index?ersElectionId=200
-- Minn. Stat. 204D.03, 204D.07, 204B.12, 204B.13 (revisor.mn.gov); Legislative Reference Library retirements list (https://www.lrl.mn.gov/legdb/retirements); FEC cn26 for the Hassan match. Ballotpedia used only as a lead.
+- Minn. Stat. 204D.03, 204D.07, 204B.12, 204B.13 (revisor.mn.gov); Legislative Reference Library retirements list (https://www.lrl.mn.gov/legdb/retirements); FEC cn26 (Hassan context only). Ballotpedia used only as a lead.
 - The candidate filing site (candidates.sos.mn.gov) sits behind a captcha and was not read.
 
 ## Files
@@ -23,12 +23,20 @@ Minnesota's Aug 11, 2026 state primary and the Nov 3, 2026 general election, bui
 3. **Courts.** Supreme Court and Court of Appeals seats are nonpartisan. Under 204D.07 subd. 3 there's no primary unless more than twice as many candidates as seats filed, and none of the seats qualified. Ballot line: `Nonpartisan`, kind `designation`.
 4. **Governor / Lt Governor.** Candidates file and appear as joint tickets in both the primary and the general. The ticket is split into separate GOV and LG races and candidacies, and the ticket string is kept in the CSV notes.
 5. **Ballot lines.** Labels are the SoS PartyTbl names as printed. DFL and Republican use kind `party` with a party ref. Minor parties (Green, Libertarian, Independent, Forward Independence, United New Independence) use kind `petition`, because they reach the general by nominating petition (204D.07 subd. 2) and don't appear in the primary.
-6. **Names.** Quoted nicknames and parentheticals (e.g. "Ahmad R. (Raafat) Hassan", "Marion (O'Neill) Rarick") are dropped from the name fields but kept in the CSV ballot name. Two-word surnames come from the official Senate members API (Maye Quade, Johnson Stewart, Oumou Verbeten) or a particle (Van Dover, Van Binsbergen). Márquez Simula, Trang Le, Trautmann Cordova and McCabe Ningen have no official split, so they keep the last-token rule; please check. Suffixes are not stored (the contract has no field).
+6. **Names.** Quoted nicknames and parentheticals (e.g. "Ahmad R. (Raafat) Hassan", "Marion (O'Neill) Rarick") are dropped from the name fields but kept in the CSV ballot name. Multi-word names were decided from context:
+   - Compound surnames: Maye Quade, Johnson Stewart, Oumou Verbeten (official Senate members API `preferred_last_name`), Márquez Simula, Trautmann Cordova, McCabe Ningen (hyphen-free two-part surnames used as the surname in legislative and campaign usage), Van Dover, Van Binsbergen (particle).
+   - Double given names: Bobby Joe Champion (Senate API surname "Champion"), Mary Frances Clardy (House directory and email mary.frances.clardy@house.mn.gov).
+   - Julie Trang Le: given name Julie, middle name Trang, surname Le (full printed name "Julie Trang Le").
+   - Other three-token names (e.g. Ngone Saliou Niang, Lynette Lungay Dumalag) are first / middle / last.
+   - Suffixes are not stored because the contract has no field for them.
+   - **Ascent will eventually need more flexible name handling** (compound surnames, double given names, name order, suffixes, nicknames). The first/middle/last split here is a best fit.
 7. **Person codes.** Full codes come from `seed_contract.mint_person_code` with provisional usernames, using these facts: state MN | 2026-08-11 if the person ran in the primary, else 2026-11-03 | printed name | SoS office title.
 
 ## Collisions
-- **--same-as:** Ahmad R. (Raafat) Hassan (US Senate DFL primary) → PERSON-HASSAN_AH_3N (TX Senate Democratic primary). FEC S0MN00344 and S4TX00821 share principal committee C00944900 and a Katy, TX address, and the MN SoS candidate table lists the same address.
-- **--new (different given name, or different person in another state):** Kurt Michael Anderson (US Senate), Steven E Jacob (SD 20 vs KS CD1 Steven Jacob), Cherie Johnson (SD 26), Chris Ford (SD 32 vs PA HD 7 Christopher Anthony-Michael Ford), Angela Nelson (SD 35), Keith Allen (HD 19A vs TX CD34 Keith Allen; nothing links them), Martha Brown (HD 19A), Andy Smith (HD 25B), Jessica L. Johnson (HD 33B), Jess Lewis (HD 43B). No one was omitted.
+Standing rule: a candidate is never linked to a person in another state when both run in the same year. All 11 shared name codes were minted `--new`:
+- Ahmad R. (Raafat) Hassan (US Senate DFL primary) gets PERSON-HASSAN_AH_5T, his own MN person. It is not linked to TX PERSON-HASSAN_AH_3N even though FEC records suggest a shared committee, because it is a common name and the two ran in different states in the same year.
+- Kurt Michael Anderson (US Senate), Steven E Jacob (SD 20), Cherie Johnson (SD 26), Chris Ford (SD 32), Angela Nelson (SD 35), Keith Allen and Martha Brown (HD 19A), Andy Smith (HD 25B), Jessica L. Johnson (HD 33B), Jess Lewis (HD 43B).
+- No one was omitted.
 
 ## Withdrawals
 - No primary leader differs from the general nominee, so no after-primary withdrawal (204B.13 vacancy) was found.
@@ -83,6 +91,6 @@ Each URL comes from the CandTbl website column and was fetched on 2026-10-29. A 
 
 ## Rails import
 - New parties PARTY-USA-MN-DEMOCRATIC_FARMER_LABOR and PARTY-USA-MN-REPUBLICAN; label "Democratic-Farmer-Labor" as printed.
-- PERSON-HASSAN_AH_3N now has candidacies in TX and MN.
+- No cross-state person links. MN Hassan is PERSON-HASSAN_AH_5T.
 - Existing federal MN candidacies (PR #7) use kind `unclassified` and were not edited. Their labels match the SoS general file.
 - No incumbency, results or winners were recorded, and Tina Smith appears in neither file (open seat).
