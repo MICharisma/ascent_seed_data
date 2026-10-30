@@ -1,4 +1,4 @@
-# Tennessee 2026: Governor, state Senate and House offices and Nov 3 general races. No Aug 6 primary races: no verifiable official primary candidate list was available.
+# Tennessee 2026: Governor, state Senate and House offices and Nov 3 general races. Plus a party nomination office and Aug 6 primary race per party contest in the official Aug 6, 2026 primary results.
 format: micharisma-seeds/v1
 namespace: MIC
 catalog: ASC
@@ -1864,3 +1864,3675 @@ records:
   references:
     election: ELECTION-USA-TN-HOUSE-HD_99-2026_GENERAL
     office: OFFICE-USA-TN-HOUSE-HD_99
+- type: Office
+  code: OFFICE-USA-TN-SENATOR-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-TN
+    nominee_for: OFFICE-USA-TN-SENATOR
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. Senate, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATOR-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-SENATOR-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-TN
+    nominee_for: OFFICE-USA-TN-SENATOR
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-SENATOR-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. Senate, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATOR-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_1-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_1
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_1
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_1-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 1, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_1-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_1-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_1
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_1
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_1-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. House District 1, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_1-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_2-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_2
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_2
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_2-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 2, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_2-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_2-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_2
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_2
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_2-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. House District 2, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_2-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_3-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_3
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_3
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_3-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 3, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_3-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_3-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_3
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_3
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_3-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. House District 3, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_3-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_4-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_4
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_4
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_4-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 4, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_4-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_4-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_4
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_4
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_4-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. House District 4, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_4-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_5-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_5
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_5
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_5-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 5, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_5-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_5-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_5
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_5
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_5-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. House District 5, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_5-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_6-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_6
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_6
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_6-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 6, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_6-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_6-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_6
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_6
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_6-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. House District 6, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_6-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_7-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_7
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_7
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_7-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 7, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_7-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_7-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_7
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_7
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_7-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. House District 7, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_7-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_8-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_8
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_8
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_8-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 8, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_8-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_8-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_8
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_8
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_8-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. House District 8, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_8-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_9-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_9
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_9
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_9-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 9, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_9-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-CONGRESS-CD_9-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-CONGRESS-CD_9
+    nominee_for: OFFICE-USA-TN-CONGRESS-CD_9
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-CONGRESS-CD_9-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. House District 9, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-CONGRESS-CD_9-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-GOVERNOR-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-TN
+    nominee_for: OFFICE-USA-TN-GOVERNOR
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-GOVERNOR-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for Governor, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-GOVERNOR-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-GOVERNOR-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-TN
+    nominee_for: OFFICE-USA-TN-GOVERNOR
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-GOVERNOR-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for Governor, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-GOVERNOR-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_1-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_1
+    nominee_for: OFFICE-USA-TN-SENATE-SD_1
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_1-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 1, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_1-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_3-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_3
+    nominee_for: OFFICE-USA-TN-SENATE-SD_3
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_3-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 3, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_3-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_5-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_5
+    nominee_for: OFFICE-USA-TN-SENATE-SD_5
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_5-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 5, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_5-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_5-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_5
+    nominee_for: OFFICE-USA-TN-SENATE-SD_5
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_5-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Senate District 5, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_5-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_7-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_7
+    nominee_for: OFFICE-USA-TN-SENATE-SD_7
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_7-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 7, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_7-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_7-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_7
+    nominee_for: OFFICE-USA-TN-SENATE-SD_7
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_7-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Senate District 7, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_7-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_9-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_9
+    nominee_for: OFFICE-USA-TN-SENATE-SD_9
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_9-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 9, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_9-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_11-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_11
+    nominee_for: OFFICE-USA-TN-SENATE-SD_11
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_11-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 11, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_11-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_11-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_11
+    nominee_for: OFFICE-USA-TN-SENATE-SD_11
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_11-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Senate District 11, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_11-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_13-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_13
+    nominee_for: OFFICE-USA-TN-SENATE-SD_13
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_13-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 13, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_13-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_13-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_13
+    nominee_for: OFFICE-USA-TN-SENATE-SD_13
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_13-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Senate District 13, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_13-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_15-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_15
+    nominee_for: OFFICE-USA-TN-SENATE-SD_15
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_15-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 15, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_15-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_17-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_17
+    nominee_for: OFFICE-USA-TN-SENATE-SD_17
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_17-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 17, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_17-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_17-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_17
+    nominee_for: OFFICE-USA-TN-SENATE-SD_17
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_17-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Senate District 17, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_17-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_19-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_19
+    nominee_for: OFFICE-USA-TN-SENATE-SD_19
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_19-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Senate District 19, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_19-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_21-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_21
+    nominee_for: OFFICE-USA-TN-SENATE-SD_21
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_21-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Senate District 21, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_21-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_23-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_23
+    nominee_for: OFFICE-USA-TN-SENATE-SD_23
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_23-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 23, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_23-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_25-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_25
+    nominee_for: OFFICE-USA-TN-SENATE-SD_25
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_25-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 25, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_25-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_27-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_27
+    nominee_for: OFFICE-USA-TN-SENATE-SD_27
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_27-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 27, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_27-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_27-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_27
+    nominee_for: OFFICE-USA-TN-SENATE-SD_27
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_27-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Senate District 27, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_27-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_29-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_29
+    nominee_for: OFFICE-USA-TN-SENATE-SD_29
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_29-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Senate District 29, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_29-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_31-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_31
+    nominee_for: OFFICE-USA-TN-SENATE-SD_31
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_31-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 31, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_31-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_31-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_31
+    nominee_for: OFFICE-USA-TN-SENATE-SD_31
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_31-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Senate District 31, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_31-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-SENATE-SD_33-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-SENATE-SD_33
+    nominee_for: OFFICE-USA-TN-SENATE-SD_33
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-SENATE-SD_33-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Senate District 33, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-SENATE-SD_33-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_1-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_1
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_1
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_1-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 1, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_1-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_2-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_2
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_2
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_2-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 2, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_2-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_3-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_3
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_3
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_3-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 3, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_3-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_3-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_3
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_3
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_3-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 3, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_3-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_4-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_4
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_4
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_4-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 4, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_4-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_5-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_5
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_5
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_5-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 5, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_5-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_5-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_5
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_5
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_5-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 5, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_5-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_6-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_6
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_6
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_6-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 6, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_6-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_6-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_6
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_6
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_6-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 6, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_6-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_7-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_7
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_7
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_7-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 7, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_7-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_7-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_7
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_7
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_7-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 7, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_7-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_8-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_8
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_8
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_8-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 8, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_8-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_8-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_8
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_8
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_8-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 8, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_8-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_9-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_9
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_9
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_9-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 9, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_9-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_10-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_10
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_10
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_10-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 10, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_10-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_11-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_11
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_11
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_11-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 11, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_11-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_11-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_11
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_11
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_11-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 11, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_11-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_12-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_12
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_12
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_12-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 12, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_12-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_13-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_13
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_13
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_13-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 13, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_13-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_13-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_13
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_13
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_13-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 13, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_13-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_14-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_14
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_14
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_14-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 14, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_14-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_14-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_14
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_14
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_14-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 14, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_14-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_15-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_15
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_15
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_15-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 15, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_15-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_16-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_16
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_16
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_16-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 16, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_16-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_16-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_16
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_16
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_16-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 16, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_16-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_17-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_17
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_17
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_17-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 17, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_17-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_18-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_18
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_18
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_18-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 18, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_18-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_18-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_18
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_18
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_18-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 18, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_18-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_19-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_19
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_19
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_19-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 19, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_19-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_19-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_19
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_19
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_19-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 19, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_19-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_20-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_20
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_20
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_20-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 20, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_20-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_20-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_20
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_20
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_20-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 20, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_20-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_21-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_21
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_21
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_21-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 21, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_21-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_22-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_22
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_22
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_22-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 22, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_22-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_23-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_23
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_23
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_23-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 23, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_23-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_24-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_24
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_24
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_24-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 24, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_24-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_24-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_24
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_24
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_24-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 24, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_24-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_25-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_25
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_25
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_25-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 25, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_25-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_25-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_25
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_25
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_25-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 25, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_25-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_26-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_26
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_26
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_26-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 26, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_26-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_26-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_26
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_26
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_26-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 26, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_26-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_27-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_27
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_27
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_27-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 27, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_27-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_27-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_27
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_27
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_27-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 27, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_27-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_28-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_28
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_28
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_28-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 28, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_28-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_29-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_29
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_29
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_29-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 29, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_29-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_29-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_29
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_29
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_29-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 29, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_29-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_30-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_30
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_30
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_30-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 30, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_30-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_30-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_30
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_30
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_30-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 30, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_30-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_31-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_31
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_31
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_31-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 31, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_31-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_31-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_31
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_31
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_31-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 31, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_31-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_32-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_32
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_32
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_32-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 32, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_32-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_32-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_32
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_32
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_32-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 32, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_32-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_33-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_33
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_33
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_33-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 33, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_33-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_33-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_33
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_33
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_33-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 33, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_33-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_34-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_34
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_34
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_34-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 34, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_34-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_34-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_34
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_34
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_34-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 34, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_34-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_35-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_35
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_35
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_35-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 35, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_35-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_35-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_35
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_35
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_35-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 35, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_35-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_36-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_36
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_36
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_36-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 36, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_36-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_37-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_37
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_37
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_37-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 37, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_37-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_37-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_37
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_37
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_37-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 37, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_37-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_38-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_38
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_38
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_38-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 38, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_38-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_38-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_38
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_38
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_38-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 38, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_38-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_39-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_39
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_39
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_39-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 39, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_39-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_40-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_40
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_40
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_40-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 40, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_40-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_40-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_40
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_40
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_40-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 40, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_40-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_41-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_41
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_41
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_41-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 41, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_41-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_41-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_41
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_41
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_41-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 41, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_41-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_42-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_42
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_42
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_42-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 42, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_42-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_42-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_42
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_42
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_42-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 42, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_42-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_43-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_43
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_43
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_43-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 43, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_43-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_43-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_43
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_43
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_43-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 43, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_43-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_44-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_44
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_44
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_44-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 44, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_44-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_44-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_44
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_44
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_44-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 44, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_44-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_45-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_45
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_45
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_45-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 45, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_45-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_45-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_45
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_45
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_45-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 45, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_45-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_46-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_46
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_46
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_46-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 46, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_46-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_46-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_46
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_46
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_46-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 46, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_46-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_47-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_47
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_47
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_47-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 47, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_47-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_47-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_47
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_47
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_47-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 47, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_47-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_48-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_48
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_48
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_48-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 48, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_48-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_48-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_48
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_48
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_48-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 48, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_48-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_49-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_49
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_49
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_49-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 49, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_49-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_49-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_49
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_49
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_49-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 49, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_49-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_50-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_50
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_50
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_50-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 50, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_50-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_51-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_51
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_51
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_51-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 51, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_51-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_52-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_52
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_52
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_52-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 52, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_52-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_52-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_52
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_52
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_52-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 52, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_52-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_53-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_53
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_53
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_53-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 53, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_53-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_54-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_54
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_54
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_54-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 54, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_54-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_55-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_55
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_55
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_55-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 55, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_55-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_55-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_55
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_55
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_55-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 55, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_55-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_56-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_56
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_56
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_56-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 56, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_56-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_57-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_57
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_57
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_57-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 57, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_57-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_57-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_57
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_57
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_57-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 57, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_57-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_58-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_58
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_58
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_58-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 58, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_58-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_59-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_59
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_59
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_59-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 59, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_59-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_59-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_59
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_59
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_59-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 59, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_59-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_60-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_60
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_60
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_60-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 60, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_60-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_60-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_60
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_60
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_60-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 60, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_60-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_61-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_61
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_61
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_61-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 61, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_61-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_61-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_61
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_61
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_61-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 61, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_61-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_62-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_62
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_62
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_62-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 62, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_62-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_62-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_62
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_62
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_62-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 62, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_62-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_63-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_63
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_63
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_63-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 63, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_63-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_63-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_63
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_63
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_63-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 63, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_63-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_64-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_64
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_64
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_64-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 64, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_64-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_64-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_64
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_64
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_64-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 64, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_64-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_65-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_65
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_65
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_65-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 65, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_65-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_65-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_65
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_65
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_65-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 65, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_65-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_66-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_66
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_66
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_66-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 66, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_66-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_66-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_66
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_66
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_66-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 66, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_66-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_67-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_67
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_67
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_67-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 67, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_67-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_67-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_67
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_67
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_67-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 67, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_67-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_68-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_68
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_68
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_68-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 68, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_68-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_68-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_68
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_68
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_68-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 68, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_68-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_69-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_69
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_69
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_69-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 69, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_69-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_69-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_69
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_69
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_69-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 69, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_69-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_70-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_70
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_70
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_70-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 70, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_70-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_70-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_70
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_70
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_70-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 70, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_70-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_71-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_71
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_71
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_71-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 71, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_71-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_71-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_71
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_71
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_71-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 71, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_71-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_72-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_72
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_72
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_72-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 72, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_72-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_73-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_73
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_73
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_73-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 73, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_73-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_74-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_74
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_74
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_74-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 74, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_74-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_75-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_75
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_75
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_75-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 75, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_75-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_75-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_75
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_75
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_75-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 75, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_75-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_76-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_76
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_76
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_76-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 76, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_76-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_77-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_77
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_77
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_77-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 77, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_77-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_78-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_78
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_78
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_78-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 78, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_78-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_78-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_78
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_78
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_78-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 78, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_78-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_79-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_79
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_79
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_79-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 79, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_79-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_80-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_80
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_80
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_80-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 80, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_80-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_80-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_80
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_80
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_80-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 80, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_80-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_81-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_81
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_81
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_81-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 81, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_81-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_82-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_82
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_82
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_82-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 82, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_82-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_83-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_83
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_83
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_83-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 83, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_83-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_83-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_83
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_83
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_83-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 83, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_83-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_84-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_84
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_84
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_84-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 84, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_84-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_85-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_85
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_85
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_85-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 85, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_85-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_86-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_86
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_86
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_86-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 86, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_86-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_87-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_87
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_87
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_87-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 87, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_87-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_87-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_87
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_87
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_87-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 87, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_87-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_88-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_88
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_88
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_88-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 88, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_88-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_89-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_89
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_89
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_89-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 89, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_89-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_89-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_89
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_89
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_89-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 89, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_89-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_90-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_90
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_90
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_90-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 90, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_90-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_91-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_91
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_91
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_91-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 91, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_91-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_92-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_92
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_92
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_92-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 92, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_92-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_92-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_92
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_92
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_92-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 92, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_92-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_94-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_94
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_94
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_94-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 94, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_94-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_94-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_94
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_94
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_94-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 94, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_94-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_95-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_95
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_95
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_95-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 95, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_95-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_96-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_96
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_96
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_96-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 96, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_96-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_97-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_97
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_97
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_97-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 97, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_97-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_97-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_97
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_97
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_97-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 97, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_97-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_98-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_98
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_98
+    nominating_organization: PARTY-USA-TN-DEMOCRATIC
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_98-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State House District 98, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Democratic primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_98-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-TN-HOUSE-HD_99-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-TN-HOUSE-HD_99
+    nominee_for: OFFICE-USA-TN-HOUSE-HD_99
+    nominating_organization: PARTY-USA-TN-REPUBLICAN
+- type: Race
+  code: RACE-USA-TN-HOUSE-HD_99-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State House District 99, Aug 6, 2026. Candidates per the Tennessee Secretary of State official August 6, 2026 Republican primary results by county (https://sos.tn.gov/elections/results); Tennessee prints unopposed candidates on the primary ballot. Registered write-in candidates are not included.
+  references:
+    election: ELECTION-USA-TN-2026_PRIMARY
+    office: OFFICE-USA-TN-HOUSE-HD_99-NOMINEE_REPUBLICAN
