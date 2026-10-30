@@ -1,0 +1,1796 @@
+# Alaska 2026: Governor, state Senate and House offices and ranked-choice general races, plus top-four nomination offices (POSITION-NOMINEE, ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY, nominee_count 4) and Aug 18 primary races. Existing federal and Lieutenant Governor offices are referenced. Judicial retention is out of scope.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.elections.alaska.gov/candidates/?election=26genr
+  captured_on: '2026-10-29'
+records:
+- type: Office
+  code: OFFICE-USA-AK-GOVERNOR
+  attributes:
+    is_active: true
+  references:
+    position: POSITION-GOVERNOR
+    jurisdiction: STATE-USA-AK
+- type: Race
+  code: RACE-USA-AK-GOVERNOR-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''GOVERNOR / LIEUTENANT GOVERNOR''). Governor and Lieutenant Governor run as a joint ticket.'
+  references:
+    election: ELECTION-USA-AK-2026_GENERAL
+    office: OFFICE-USA-AK-GOVERNOR
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_A
+  attributes:
+    is_active: true
+    seat_code: SD_A
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_A
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_A-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''SENATE DISTRICT A'').'
+  references:
+    election: ELECTION-USA-AK-SENATE-SD_A-2026_GENERAL
+    office: OFFICE-USA-AK-SENATE-SD_A
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_C
+  attributes:
+    is_active: true
+    seat_code: SD_C
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_C
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_C-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''SENATE DISTRICT C'').'
+  references:
+    election: ELECTION-USA-AK-SENATE-SD_C-2026_GENERAL
+    office: OFFICE-USA-AK-SENATE-SD_C
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_E
+  attributes:
+    is_active: true
+    seat_code: SD_E
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_E
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_E-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''SENATE DISTRICT E'').'
+  references:
+    election: ELECTION-USA-AK-SENATE-SD_E-2026_GENERAL
+    office: OFFICE-USA-AK-SENATE-SD_E
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_G
+  attributes:
+    is_active: true
+    seat_code: SD_G
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_G
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_G-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''SENATE DISTRICT G'').'
+  references:
+    election: ELECTION-USA-AK-SENATE-SD_G-2026_GENERAL
+    office: OFFICE-USA-AK-SENATE-SD_G
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_I
+  attributes:
+    is_active: true
+    seat_code: SD_I
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_I
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_I-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''SENATE DISTRICT I'').'
+  references:
+    election: ELECTION-USA-AK-SENATE-SD_I-2026_GENERAL
+    office: OFFICE-USA-AK-SENATE-SD_I
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_K
+  attributes:
+    is_active: true
+    seat_code: SD_K
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_K
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_K-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''SENATE DISTRICT K'').'
+  references:
+    election: ELECTION-USA-AK-SENATE-SD_K-2026_GENERAL
+    office: OFFICE-USA-AK-SENATE-SD_K
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_M
+  attributes:
+    is_active: true
+    seat_code: SD_M
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_M
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_M-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''SENATE DISTRICT M'').'
+  references:
+    election: ELECTION-USA-AK-SENATE-SD_M-2026_GENERAL
+    office: OFFICE-USA-AK-SENATE-SD_M
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_O
+  attributes:
+    is_active: true
+    seat_code: SD_O
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_O
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_O-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''SENATE DISTRICT O'').'
+  references:
+    election: ELECTION-USA-AK-SENATE-SD_O-2026_GENERAL
+    office: OFFICE-USA-AK-SENATE-SD_O
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_Q
+  attributes:
+    is_active: true
+    seat_code: SD_Q
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_Q
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_Q-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''SENATE DISTRICT Q'').'
+  references:
+    election: ELECTION-USA-AK-SENATE-SD_Q-2026_GENERAL
+    office: OFFICE-USA-AK-SENATE-SD_Q
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_S
+  attributes:
+    is_active: true
+    seat_code: SD_S
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_S
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_S-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''SENATE DISTRICT S'').'
+  references:
+    election: ELECTION-USA-AK-SENATE-SD_S-2026_GENERAL
+    office: OFFICE-USA-AK-SENATE-SD_S
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_1
+  attributes:
+    is_active: true
+    seat_code: HD_1
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_1
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_1-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 01'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_1-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_1
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_2
+  attributes:
+    is_active: true
+    seat_code: HD_2
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_2
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_2-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 02'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_2-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_2
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_3
+  attributes:
+    is_active: true
+    seat_code: HD_3
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_3
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_3-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 03'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_3-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_3
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_4
+  attributes:
+    is_active: true
+    seat_code: HD_4
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_4
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_4-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 04'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_4-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_4
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_5
+  attributes:
+    is_active: true
+    seat_code: HD_5
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_5
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_5-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 05'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_5-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_5
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_6
+  attributes:
+    is_active: true
+    seat_code: HD_6
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_6
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_6-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 06'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_6-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_6
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_7
+  attributes:
+    is_active: true
+    seat_code: HD_7
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_7
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_7-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 07'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_7-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_7
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_8
+  attributes:
+    is_active: true
+    seat_code: HD_8
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_8
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_8-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 08'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_8-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_8
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_9
+  attributes:
+    is_active: true
+    seat_code: HD_9
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_9
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_9-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 09'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_9-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_9
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_10
+  attributes:
+    is_active: true
+    seat_code: HD_10
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_10
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_10-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 10'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_10-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_10
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_11
+  attributes:
+    is_active: true
+    seat_code: HD_11
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_11
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_11-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 11'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_11-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_11
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_12
+  attributes:
+    is_active: true
+    seat_code: HD_12
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_12
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_12-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 12'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_12-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_12
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_13
+  attributes:
+    is_active: true
+    seat_code: HD_13
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_13
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_13-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 13'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_13-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_13
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_14
+  attributes:
+    is_active: true
+    seat_code: HD_14
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_14
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_14-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 14'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_14-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_14
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_15
+  attributes:
+    is_active: true
+    seat_code: HD_15
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_15
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_15-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 15'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_15-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_15
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_16
+  attributes:
+    is_active: true
+    seat_code: HD_16
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_16
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_16-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 16'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_16-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_16
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_17
+  attributes:
+    is_active: true
+    seat_code: HD_17
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_17
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_17-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 17'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_17-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_17
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_18
+  attributes:
+    is_active: true
+    seat_code: HD_18
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_18
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_18-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 18'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_18-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_18
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_19
+  attributes:
+    is_active: true
+    seat_code: HD_19
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_19
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_19-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 19'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_19-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_19
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_20
+  attributes:
+    is_active: true
+    seat_code: HD_20
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_20
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_20-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 20'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_20-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_20
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_21
+  attributes:
+    is_active: true
+    seat_code: HD_21
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_21
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_21-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 21'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_21-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_21
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_22
+  attributes:
+    is_active: true
+    seat_code: HD_22
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_22
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_22-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 22'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_22-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_22
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_23
+  attributes:
+    is_active: true
+    seat_code: HD_23
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_23
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_23-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 23'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_23-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_23
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_24
+  attributes:
+    is_active: true
+    seat_code: HD_24
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_24
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_24-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 24'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_24-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_24
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_25
+  attributes:
+    is_active: true
+    seat_code: HD_25
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_25
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_25-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 25'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_25-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_25
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_26
+  attributes:
+    is_active: true
+    seat_code: HD_26
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_26
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_26-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 26'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_26-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_26
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_27
+  attributes:
+    is_active: true
+    seat_code: HD_27
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_27
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_27-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 27'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_27-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_27
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_28
+  attributes:
+    is_active: true
+    seat_code: HD_28
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_28
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_28-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 28'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_28-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_28
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_29
+  attributes:
+    is_active: true
+    seat_code: HD_29
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_29
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_29-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 29'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_29-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_29
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_30
+  attributes:
+    is_active: true
+    seat_code: HD_30
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_30
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_30-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 30'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_30-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_30
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_31
+  attributes:
+    is_active: true
+    seat_code: HD_31
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_31
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_31-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 31'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_31-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_31
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_32
+  attributes:
+    is_active: true
+    seat_code: HD_32
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_32
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_32-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 32'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_32-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_32
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_33
+  attributes:
+    is_active: true
+    seat_code: HD_33
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_33
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_33-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 33'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_33-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_33
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_34
+  attributes:
+    is_active: true
+    seat_code: HD_34
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_34
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_34-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 34'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_34-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_34
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_35
+  attributes:
+    is_active: true
+    seat_code: HD_35
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_35
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_35-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 35'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_35-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_35
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_36
+  attributes:
+    is_active: true
+    seat_code: HD_36
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_36
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_36-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 36'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_36-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_36
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_37
+  attributes:
+    is_active: true
+    seat_code: HD_37
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_37
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_37-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 37'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_37-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_37
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_38
+  attributes:
+    is_active: true
+    seat_code: HD_38
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_38
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_38-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 38'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_38-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_38
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_39
+  attributes:
+    is_active: true
+    seat_code: HD_39
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_39
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_39-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 39'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_39-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_39
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_40
+  attributes:
+    is_active: true
+    seat_code: HD_40
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_40
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_40-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Ranked-choice general election (Alaska Measure 2): the top four from the Aug 18 top-four primary appear on the ballot. Candidates per the Alaska Division of Elections 2026 General Election candidate list (https://www.elections.alaska.gov/candidates/?election=26genr; contest ''HOUSE DISTRICT 40'').'
+  references:
+    election: ELECTION-USA-AK-HOUSE-HD_40-2026_GENERAL
+    office: OFFICE-USA-AK-HOUSE-HD_40
+- type: Office
+  code: OFFICE-USA-AK-SENATOR-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-AK
+    nominee_for: OFFICE-USA-AK-SENATOR
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-SENATOR-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for U.S. Senate, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-SENATOR-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-CONGRESS-CD_AL-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-CONGRESS-CD_AL
+    nominee_for: OFFICE-USA-AK-CONGRESS-CD_AL
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-CONGRESS-CD_AL-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for U.S. House At-Large, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-CONGRESS-CD_AL-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-GOVERNOR-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-AK
+    nominee_for: OFFICE-USA-AK-GOVERNOR
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-GOVERNOR-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for Governor, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations. Governor/Lieutenant Governor tickets run jointly.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-GOVERNOR-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-LIEUTENANT_GOVERNOR-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-AK
+    nominee_for: OFFICE-USA-AK-LIEUTENANT_GOVERNOR
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-LIEUTENANT_GOVERNOR-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for Lieutenant Governor, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations. Governor/Lieutenant Governor tickets run jointly.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-LIEUTENANT_GOVERNOR-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_A-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_A
+    nominee_for: OFFICE-USA-AK-SENATE-SD_A
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_A-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State Senate District A, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-SENATE-SD_A-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_C-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_C
+    nominee_for: OFFICE-USA-AK-SENATE-SD_C
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_C-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State Senate District C, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-SENATE-SD_C-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_E-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_E
+    nominee_for: OFFICE-USA-AK-SENATE-SD_E
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_E-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State Senate District E, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-SENATE-SD_E-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_G-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_G
+    nominee_for: OFFICE-USA-AK-SENATE-SD_G
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_G-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State Senate District G, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-SENATE-SD_G-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_I-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_I
+    nominee_for: OFFICE-USA-AK-SENATE-SD_I
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_I-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State Senate District I, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-SENATE-SD_I-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_K-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_K
+    nominee_for: OFFICE-USA-AK-SENATE-SD_K
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_K-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State Senate District K, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-SENATE-SD_K-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_M-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_M
+    nominee_for: OFFICE-USA-AK-SENATE-SD_M
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_M-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State Senate District M, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-SENATE-SD_M-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_O-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_O
+    nominee_for: OFFICE-USA-AK-SENATE-SD_O
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_O-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State Senate District O, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-SENATE-SD_O-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_Q-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_Q
+    nominee_for: OFFICE-USA-AK-SENATE-SD_Q
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_Q-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State Senate District Q, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-SENATE-SD_Q-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-SENATE-SD_S-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-SENATE-SD_S
+    nominee_for: OFFICE-USA-AK-SENATE-SD_S
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-SENATE-SD_S-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State Senate District S, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-SENATE-SD_S-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_1-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_1
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_1
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_1-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 1, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_1-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_2-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_2
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_2
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_2-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 2, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_2-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_3-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_3
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_3
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_3-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 3, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_3-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_4-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_4
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_4
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_4-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 4, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_4-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_5-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_5
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_5
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_5-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 5, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_5-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_6-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_6
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_6
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_6-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 6, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_6-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_7-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_7
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_7
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_7-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 7, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_7-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_8-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_8
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_8
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_8-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 8, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_8-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_9-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_9
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_9
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_9-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 9, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_9-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_10-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_10
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_10
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_10-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 10, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_10-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_11-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_11
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_11
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_11-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 11, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_11-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_12-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_12
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_12
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_12-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 12, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_12-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_13-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_13
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_13
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_13-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 13, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_13-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_14-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_14
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_14
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_14-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 14, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_14-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_15-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_15
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_15
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_15-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 15, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_15-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_16-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_16
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_16
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_16-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 16, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_16-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_17-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_17
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_17
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_17-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 17, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_17-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_18-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_18
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_18
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_18-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 18, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_18-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_19-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_19
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_19
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_19-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 19, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_19-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_20-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_20
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_20
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_20-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 20, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_20-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_21-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_21
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_21
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_21-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 21, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_21-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_22-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_22
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_22
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_22-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 22, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_22-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_23-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_23
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_23
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_23-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 23, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_23-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_24-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_24
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_24
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_24-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 24, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_24-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_25-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_25
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_25
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_25-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 25, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_25-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_26-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_26
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_26
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_26-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 26, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_26-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_27-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_27
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_27
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_27-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 27, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_27-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_28-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_28
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_28
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_28-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 28, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_28-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_29-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_29
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_29
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_29-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 29, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_29-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_30-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_30
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_30
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_30-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 30, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_30-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_31-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_31
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_31
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_31-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 31, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_31-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_32-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_32
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_32
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_32-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 32, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_32-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_33-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_33
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_33
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_33-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 33, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_33-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_34-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_34
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_34
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_34-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 34, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_34-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_35-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_35
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_35
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_35-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 35, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_35-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_36-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_36
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_36
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_36-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 36, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_36-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_37-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_37
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_37
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_37-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 37, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_37-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_38-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_38
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_38
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_38-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 38, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_38-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_39-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_39
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_39
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_39-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 39, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_39-NOMINEE_TOP_FOUR
+- type: Office
+  code: OFFICE-USA-AK-HOUSE-HD_40-NOMINEE_TOP_FOUR
+  attributes:
+    nominee_count: 4
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-AK-HOUSE-HD_40
+    nominee_for: OFFICE-USA-AK-HOUSE-HD_40
+    nominating_organization: ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY
+- type: Race
+  code: RACE-USA-AK-HOUSE-HD_40-NOMINEE_TOP_FOUR-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Alaska top-four nonpartisan primary for State House District 40, Aug 18, 2026; the four highest vote-getters advance regardless of party. Candidates per the Alaska Division of Elections 2026 Primary Election candidate list (https://www.elections.alaska.gov/candidates/?election=26prim). Designations are voter registrations printed on the ballot, not party nominations.
+  references:
+    election: ELECTION-USA-AK-2026_PRIMARY
+    office: OFFICE-USA-AK-HOUSE-HD_40-NOMINEE_TOP_FOUR
