@@ -144,13 +144,17 @@ A primary is a race for a nomination: a place on the general-election ballot for
 | `jurisdiction` | yes | The nominated office's jurisdiction |
 | `nominee_for` | yes | The nominated office, such as `OFFICE-USA-GA-CONGRESS-CD_5` |
 | `nominating_organization` | yes | The party, or the placeholder Organization for a nonpartisan primary |
-| `nominee_count` | yes | How many the primary sends to the general: 1 for a party primary, 2 for a top-two primary, 4 for Alaska's top-four |
+| `nominee_count` | yes | How many candidates advance to the general: the number of seats for a party primary, 2 for a top-two primary, or 4 for Alaska's top-four |
 
 The race for it sits in the state's primary election from `elections_2026.yml`, even when the nomination is for a district: `RACE-USA-GA-CONGRESS-CD_5-NOMINEE_DEMOCRATIC-2026_PRIMARY` in `ELECTION-USA-GA-2026_PRIMARY`. A primary runoff is a race for the same nomination in the `..._2026_PRIMARY_RUNOFF` election. Primary candidates are ordinary Candidacy records in that race, with the people's codes as described above.
 
 Nonpartisan primaries nominate through placeholder Organizations in `manifests/contributions/ascent/nominations.yml`: `ORGANIZATION-USA-CA-TOP_TWO_PRIMARY`, `ORGANIZATION-USA-WA-TOP_TWO_PRIMARY`, and `ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY`. Their nomination codes end in `NOMINEE_TOP_TWO` or `NOMINEE_TOP_FOUR`.
 
 Record every candidate who ran, including those who lost: Ascent can put a whole primary field on one simulated general-election ballot, where approval voting may favor a candidate the primary eliminated.
+
+## Ballot lines
+
+Under a Candidacy's `attributes.ballot_lines`, set `party` only on lines with `kind: party`. For a write-in, preserve `kind: write_in` and the source label, and omit `party`. A primary's nomination office still names its `nominating_organization`.
 
 ## Candidates' social media accounts and posts
 
