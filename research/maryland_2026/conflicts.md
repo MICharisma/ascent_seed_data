@@ -1,0 +1,120 @@
+# Conflicts and flags
+
+## Party primaries with no nominee of that party on the general list
+- House of Delegates District 38C (Democratic): primary candidates Laurie Anne Brittingham
+
+## General nominees without a matching primary candidacy
+- House of Delegates District 2B (Republican): Brenda J. Thiam: party held a primary for this office but this nominee is not on the primary list (likely vacancy replacement; not confirmed)
+- House of Delegates District 37B (Democratic): Edmund J. Barrett: party held a primary for this office but this nominee is not on the primary list (likely vacancy replacement; not confirmed)
+
+## Same printed name in more than one contest (kept as separate people; no same-person evidence recorded)
+- BRENDA J THIAM: Lieutenant Governor, House of Delegates District 2B
+- ANGELA MCINTOSH: State Senate District 3, House of Delegates District 3
+- KEVIN M HARRIS: State Senate District 27, House of Delegates District 27A
+- MARK S CHANG: State Senate District 32, House of Delegates District 32
+- EDMUND J BARRETT: State Senate District 37, House of Delegates District 37B
+- AMAR MUKUNDA: State Senate District 39, House of Delegates District 39
+- KEVIN LEGACY: State Senate District 40, House of Delegates District 40
+- MICHELLE CHRISTMAN: House of Delegates District 35A, House of Delegates District 35B
+
+## Website omissions
+- Aruna Miller (www.wesmoore.com): same site as another candidate (shared ticket/slate site)
+- Rob Krop (www.dancoxforgovernor.com): HTTP 403
+- Owen Silverman Andrews (www.gogreen2026.com): same site as another candidate (shared ticket/slate site)
+- Cathy Permut (https://sites.google.com/view/wcp-md): same site as another candidate (shared ticket/slate site)
+- Robert L. Coffman (america2dot0.cacherefresh.io): loaded, candidate surname not found on page
+- Ben Kramer (www.benkramer.org): no response
+- Jim Rosapepe (www.rosapepeforsenate.com): no response
+- Brent Mulrooney (www.brentmulrooney.com): HTTP 403
+- Alan Rebar (https://sites.google.com/view/wcp-md): same site as another candidate (shared ticket/slate site)
+- Kevin Ford (www.friendsofkevinford.com): HTTP 500
+- Brandon Thompson (www.friendsof brandonthompson.org): no response
+- Kris Fair (www.krisfair.com): loaded, candidate surname not found on page
+- Ken Kerr (www.delegatekenkerr.com): HTTP 403
+- Steve Whisler (www.whisler4carroll.com): no response
+- Robin L. Grammer (www.robingrammer.com): no response
+- Terri Hill (www.friendsofterrihill.org): loaded, candidate surname not found on page
+- Frank Glover (www.frank-glover.com): no response
+- Gabriel Maximilian Moreno (www.morenoformaryland.com): no response
+- Anne R. Kaiser (www.annekaiser.com): HTTP 403
+- Bob White (https://sites.google.com/view/wcp-md): same site as another candidate (shared ticket/slate site)
+- Christa Tichy (www.christatichy.com): loaded, candidate surname not found on page
+- David Moon (www.davidmoon.us): HTTP 500
+- Joseline A. Peña-Melnyk (www.joselinepenamelnyk.com): HTTP 503
+- Marvin E. Holmes, Jr. (www.meholmes.com): no response
+- Kent Roberson (www.kentroberson.org): HTTP 301
+- Ike Puzon (www.friendsofikepuzon.com): HTTP 404
+- Dan L. Thomas (www.thomas4md.com): HTTP 403
+- Mark N. Fisher (www.friendsofmarkfisher.com): HTTP 500
+- Abena Affum-McAllister (www..meetAbena.com): no response
+- Edith J. Patterson (www.electedithj.patterson.com): no response
+- Winfield W. Clark, Jr. (http://www.winfieldclarkjr.com/): HTTP 500
+- Heidi Buchanan Schmidt (www.voteheidischmidt.com): loaded, candidate surname not found on page
+- Ryan Kelly Shaban (www.ryanshaban.com): HTTP 403
+- LaToya Marie Caldwell-Nkongolo (www.latoya4maryland.com): loaded, candidate surname not found on page
+- Gregory V. Anderson (http://GregForMaryland.org): HTTP 500
+- Teresa Reilly (TeresaReillyForDelegate.com): no response
+- Edmund J. Barrett (http://www.voteedbarrett.com): HTTP 500
+- Chris Adams (www.adamsformaryland.com): HTTP 404
+
+## Withdrawals (official status)
+- PRI Ralph Jaffe (Democratic, ('GOV', 0)): before-primary-ballot: Deceased - 02/26/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Kurt Wedekind (Republican, ('GOV', 0)): before-primary-ballot: Disqualified - 03/06/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI John M. Rea (Democratic, ('CD', 3)): before-primary-ballot: Withdrawn - 11/04/2025 per the SBE primary candidate list; not in the official primary results.
+- PRI Felix M. Seier (Democratic, ('CD', 3)): before-primary-ballot: Withdrawn - 02/12/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Elldwnia English (Democratic, ('CD', 4)): before-primary-ballot: Withdrawn - 03/18/2025 per the SBE primary candidate list; not in the official primary results.
+- PRI Jennifer Cross (Democratic, ('CD', 5)): before-primary-ballot: Withdrawn - 02/06/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Jordan Eversley (Republican, ('CD', 5)): before-primary-ballot: Withdrawn - 10/06/2025 per the SBE primary candidate list; not in the official primary results.
+- PRI Marc Lande (Democratic, ('CD', 8)): before-primary-ballot: Withdrawn - 12/12/2025 per the SBE primary candidate list; not in the official primary results.
+- PRI Angela McIntosh (Republican, ('SD', 3)): unknown: Withdrawn - 03/02/2026 (SBE primary candidate list), but the name appears in the official primary results, so it was still printed on the June 23 ballot.
+- PRI Michael A. Jackson (Democratic, ('SD', 27)): before-primary-ballot: Withdrawn - 11/10/2025 per the SBE primary candidate list; not in the official primary results.
+- PRI Pamela Beidle (Democratic, ('SD', 32)): before-primary-ballot: Withdrawn - 02/24/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Kevin Legacy (Democratic, ('SD', 40)): unknown: Withdrawn - 02/17/2026 (SBE primary candidate list), but the name appears in the official primary results, so it was still printed on the June 23 ballot.
+- PRI Ayo Kimathi (Democratic, ('SD', 41)): before-primary-ballot: Disqualified - 03/06/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Eric Heyssel (Democratic, ('SD', 42)): before-primary-ballot: Withdrawn - 02/27/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Aamina Hutchison (Democratic, ('HD', '2A')): before-primary-ballot: Disqualified - 03/06/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Thomas J. Stolz (Republican, ('HD', '2B')): before-primary-ballot: Withdrawn - 01/23/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Sandie Skordalos (Democratic, ('HD', '6')): before-primary-ballot: Withdrawn - 02/26/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Adrienne A. Jones (Democratic, ('HD', '10')): before-primary-ballot: Withdrawn - 02/27/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Alicia Altamirano (Democratic, ('HD', '12A')): before-primary-ballot: Withdrawn - 01/07/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI James Ebersole (Democratic, ('HD', '12A')): before-primary-ballot: Withdrawn - 02/24/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI John Handley (Democratic, ('HD', '12A')): before-primary-ballot: Withdrawn - 02/23/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Geonta L. Simmons (Democratic, ('HD', '12B')): before-primary-ballot: Withdrawn - 05/09/2025 per the SBE primary candidate list; not in the official primary results.
+- PRI Timothy McGarrahan (Democratic, ('HD', '12B')): before-primary-ballot: Withdrawn - 05/28/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Timothy McGarrahan (Republican, ('HD', '12B')): before-primary-ballot: Withdrawn - 06/11/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI John Dove, Jr. (Democratic, ('HD', '12B')): before-primary-ballot: Disqualified - 04/13/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Delbert Jackson (Democratic, ('HD', '13')): before-primary-ballot: Disqualified - 03/06/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Adrian Boafo (Democratic, ('HD', '23')): before-primary-ballot: Withdrawn - 01/30/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Anthony Nelson (Democratic, ('HD', '23')): before-primary-ballot: Withdrawn - 10/20/2025 per the SBE primary candidate list; not in the official primary results.
+- PRI Starsha Sewell (Democratic, ('HD', '23')): before-primary-ballot: Withdrawn - 02/09/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Daniel Rutherford Wilson (Democratic, ('HD', '23')): before-primary-ballot: Withdrawn - 03/02/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Alonzo E. Turner-Bey (Democratic, ('HD', '26')): before-primary-ballot: Withdrawn - 11/19/2025 per the SBE primary candidate list; not in the official primary results.
+- PRI Kevin M. Harris (Democratic, ('HD', '27A')): unknown: Withdrawn - 12/01/2025 (SBE primary candidate list), but the name appears in the official primary results, so it was still printed on the June 23 ballot.
+- PRI Michael Bennett (Democratic, ('HD', '27B')): before-primary-ballot: Withdrawn - 01/20/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Patrick D. Troxler (Democratic, ('HD', '28')): before-primary-ballot: Withdrawn - 02/23/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Anbrea McCoy (Democratic, ('HD', '28')): before-primary-ballot: Withdrawn - 03/27/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Lance D. Bowen (Republican, ('HD', '31')): before-primary-ballot: Withdrawn - 12/19/2025 per the SBE primary candidate list; not in the official primary results.
+- PRI Mark S. Chang (Democratic, ('HD', '32')): unknown: Withdrawn - 02/24/2026 (SBE primary candidate list), but the name appears in the official primary results, so it was still printed on the June 23 ballot.
+- PRI Luis da Conceicao (Democratic, ('HD', '33B')): before-primary-ballot: Withdrawn - 10/03/2025 per the SBE primary candidate list; not in the official primary results.
+- PRI Terrence Rogers (Democratic, ('HD', '34B')): before-primary-ballot: Withdrawn - 02/18/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Susan K. McComas (Republican, ('HD', '34B')): before-primary-ballot: Withdrawn - 03/03/2026 per the SBE primary candidate list; not in the official primary results.
+- PRI Michelle Christman (Republican, ('HD', '35B')): unknown: Withdrawn - 12/23/2025 (SBE primary candidate list), but the name appears in the official primary results, so it was still printed on the June 23 ballot.
+- PRI Charles James Otto (Republican, ('HD', '38A')): before-primary-ballot: Deceased - 10/23/2025 per the SBE primary candidate list; not in the official primary results.
+- PRI Amar Mukunda (Democratic, ('HD', '39')): unknown: Withdrawn - 11/07/2025 (SBE primary candidate list), but the name appears in the official primary results, so it was still printed on the June 23 ballot.
+- GEN Jonathan Burruss (Unaffiliated, ('CD', 5)): before-primary-ballot: Withdrawn - 02/19/2026 per the SBE general candidate list (filing: Write-In - 02/03/2026).
+- GEN Jonathan Burruss (Unaffiliated, ('CD', 5)): after-primary: Failed to Submit Required Number of Signatures - 08/11/2026 per the SBE general candidate list (filing: Petition - 02/19/2026).
+- GEN Brian S. Jordan (Unaffiliated, ('CD', 5)): after-primary: Failed to Submit Required Number of Signatures - 08/11/2026 per the SBE general candidate list (filing: Petition - 05/27/2025).
+- GEN Hajra Kirmani (Unaffiliated, ('CD', 6)): before-primary-ballot: Withdrawn - 10/17/2025 per the SBE general candidate list (filing: Federal - 03/13/2025).
+- GEN Chris Hyser (Unaffiliated, ('CD', 6)): before-primary-ballot: Withdrawn - 10/20/2025 per the SBE general candidate list (filing: Write-In - 08/04/2025).
+- GEN Sean Flaherty (Republican, ('HD', '2B')): after-primary: Declined - 07/31/2026 per the SBE general candidate list (filing: Regular - 02/20/2026).
+- GEN Ashley Nieves (Republican, ('HD', '3')): after-primary: Declined - 08/03/2026 per the SBE general candidate list (filing: Regular - 02/20/2026).
+- GEN Brett Shepherd (Unaffiliated, ('HD', '6')): after-primary: Failed to Submit Required Number of Signatures - 08/13/2026 per the SBE general candidate list (filing: Petition - 12/01/2025).
+- GEN Timothy McGarrahan (Democratic, ('HD', '12B')): after-primary: Withdrawn - 09/21/2026 per the SBE general candidate list (filing: Write-In - 08/19/2026).
+- GEN Timothy McGarrahan (Democratic, ('HD', '12B')): before-primary-ballot: Withdrawn - 05/28/2026 per the SBE general candidate list (filing: Write-In - 05/20/2026).
+- GEN Timothy McGarrahan (Republican, ('HD', '12B')): before-primary-ballot: Withdrawn - 06/11/2026 per the SBE general candidate list (filing: Write-In - 06/10/2026).
+- GEN Lisa Russell (Unaffiliated, ('HD', '23')): after-primary: Failed to Submit Required Number of Signatures - 08/19/2026 per the SBE general candidate list (filing: Petition - 07/02/2026).
+- GEN Anbrea McCoy (Democratic, ('HD', '28')): before-primary-ballot: Withdrawn - 03/27/2026 per the SBE general candidate list (filing: Write-In - 03/24/2026).
+- GEN Anbrea McCoy (Unaffiliated, ('HD', '28')): after-primary: Failed to Submit Required Number of Signatures - 08/11/2026 per the SBE general candidate list (filing: Petition - 03/27/2026).
+- GEN Marco Antonio Garcia (Democratic, ('HD', '37B')): after-primary: Declined - 08/03/2026 per the SBE general candidate list (filing: Regular - 02/18/2026).
+- GEN Laurie Anne Brittingham (Democratic, ('HD', '38C')): after-primary: Declined - 08/05/2026 per the SBE general candidate list (filing: Designated by Central Committee - 03/06/2026).
+- GEN Nichole McDonald (Unaffiliated, ('HD', '45')): after-primary: Failed to Submit Required Number of Signatures - 08/11/2026 per the SBE general candidate list (filing: Petition - 03/31/2026).
