@@ -1,0 +1,303 @@
+# Mississippi 2026: State House special elections (HD 70, HD 77), Court of Appeals seats, and party nomination offices and March 10 primary races for U.S. Senate and House. Existing federal offices/races are referenced, not redefined.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf
+  captured_on: '2026-10-29'
+scope:
+  state: STATE-USA-MS
+records:
+- type: Office
+  code: OFFICE-USA-MS-HOUSE-HD_70
+  attributes:
+    is_active: true
+    seat_code: HD_70
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-MS-HOUSE-HD_70
+- type: Race
+  code: RACE-USA-MS-HOUSE-HD_70-2026_SPECIAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. SPECIAL ELECTION for State House of Representatives District 70, Nov 3, 2026, to fill a vacancy for the rest of the term ending January 2028. Candidates per the Secretary of State''s sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf) and candidate qualifying list (https://sos.ms.gov/content/CandidateQualifying/default.aspx). Mississippi special elections to fill legislative vacancies are nonpartisan (Miss. Code 23-15-833): candidates qualify by petition without party primaries and the ballot prints each as ''Independent''. If no candidate wins a majority, a runoff follows (Miss. Code 23-15-833). Mississippi''s regular legislative elections are in odd years (2023, 2027); no regular House or Senate seats are on the 2026 ballot.'
+  references:
+    election: ELECTION-USA-MS-HOUSE-HD_70-2026_GENERAL
+    office: OFFICE-USA-MS-HOUSE-HD_70
+- type: Office
+  code: OFFICE-USA-MS-HOUSE-HD_77
+  attributes:
+    is_active: true
+    seat_code: HD_77
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-MS-HOUSE-HD_77
+- type: Race
+  code: RACE-USA-MS-HOUSE-HD_77-2026_SPECIAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. SPECIAL ELECTION for State House of Representatives District 77, Nov 3, 2026, to fill a vacancy for the rest of the term ending January 2028. Candidates per the Secretary of State''s sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf) and candidate qualifying list (https://sos.ms.gov/content/CandidateQualifying/default.aspx). Mississippi special elections to fill legislative vacancies are nonpartisan (Miss. Code 23-15-833): candidates qualify by petition without party primaries and the ballot prints each as ''Independent''. If no candidate wins a majority, a runoff follows (Miss. Code 23-15-833). Mississippi''s regular legislative elections are in odd years (2023, 2027); no regular House or Senate seats are on the 2026 ballot.'
+  references:
+    election: ELECTION-USA-MS-HOUSE-HD_77-2026_GENERAL
+    office: OFFICE-USA-MS-HOUSE-HD_77
+- type: Office
+  code: OFFICE-USA-MS-COURT_OF_APPEALS-D_1-POSITION_1
+  attributes:
+    is_active: true
+    seat_code: D_1_POSITION_1
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-MS-COURT_OF_APPEALS-D_1
+- type: Race
+  code: RACE-USA-MS-COURT_OF_APPEALS-D_1-POSITION_1-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. NONPARTISAN JUDICIAL ELECTION for Court of Appeals Judge, District 1 Position 1, Nov 3, 2026, per the Secretary of State''s sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf). Judicial candidates run without party labels and without primaries; a runoff follows if no candidate wins a majority.'
+  references:
+    election: ELECTION-USA-MS-COURT_OF_APPEALS-D_1-2026_GENERAL
+    office: OFFICE-USA-MS-COURT_OF_APPEALS-D_1-POSITION_1
+- type: Office
+  code: OFFICE-USA-MS-COURT_OF_APPEALS-D_1-POSITION_2
+  attributes:
+    is_active: true
+    seat_code: D_1_POSITION_2
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-MS-COURT_OF_APPEALS-D_1
+- type: Race
+  code: RACE-USA-MS-COURT_OF_APPEALS-D_1-POSITION_2-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. NONPARTISAN JUDICIAL ELECTION for Court of Appeals Judge, District 1 Position 2, Nov 3, 2026, per the Secretary of State''s sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf). Judicial candidates run without party labels and without primaries; a runoff follows if no candidate wins a majority.'
+  references:
+    election: ELECTION-USA-MS-COURT_OF_APPEALS-D_1-2026_GENERAL
+    office: OFFICE-USA-MS-COURT_OF_APPEALS-D_1-POSITION_2
+- type: Office
+  code: OFFICE-USA-MS-COURT_OF_APPEALS-D_2-POSITION_1
+  attributes:
+    is_active: true
+    seat_code: D_2_POSITION_1
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-MS-COURT_OF_APPEALS-D_2
+- type: Race
+  code: RACE-USA-MS-COURT_OF_APPEALS-D_2-POSITION_1-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. NONPARTISAN JUDICIAL ELECTION for Court of Appeals Judge, District 2 Position 1, Nov 3, 2026, per the Secretary of State''s sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf). Judicial candidates run without party labels and without primaries; a runoff follows if no candidate wins a majority.'
+  references:
+    election: ELECTION-USA-MS-COURT_OF_APPEALS-D_2-2026_GENERAL
+    office: OFFICE-USA-MS-COURT_OF_APPEALS-D_2-POSITION_1
+- type: Office
+  code: OFFICE-USA-MS-COURT_OF_APPEALS-D_4-POSITION_2
+  attributes:
+    is_active: true
+    seat_code: D_4_POSITION_2
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-MS-COURT_OF_APPEALS-D_4
+- type: Race
+  code: RACE-USA-MS-COURT_OF_APPEALS-D_4-POSITION_2-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. NONPARTISAN JUDICIAL ELECTION for Court of Appeals Judge, District 4 Position 2, Nov 3, 2026, per the Secretary of State''s sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf). Judicial candidates run without party labels and without primaries; a runoff follows if no candidate wins a majority.'
+  references:
+    election: ELECTION-USA-MS-COURT_OF_APPEALS-D_4-2026_GENERAL
+    office: OFFICE-USA-MS-COURT_OF_APPEALS-D_4-POSITION_2
+- type: Office
+  code: OFFICE-USA-MS-COURT_OF_APPEALS-D_5-POSITION_1
+  attributes:
+    is_active: true
+    seat_code: D_5_POSITION_1
+  references:
+    position: POSITION-APPELLATE_JUDGE
+    jurisdiction: DISTRICT-USA-MS-COURT_OF_APPEALS-D_5
+- type: Race
+  code: RACE-USA-MS-COURT_OF_APPEALS-D_5-POSITION_1-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. NONPARTISAN JUDICIAL ELECTION for Court of Appeals Judge, District 5 Position 1, Nov 3, 2026, per the Secretary of State''s sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf). Judicial candidates run without party labels and without primaries; a runoff follows if no candidate wins a majority.'
+  references:
+    election: ELECTION-USA-MS-COURT_OF_APPEALS-D_5-2026_GENERAL
+    office: OFFICE-USA-MS-COURT_OF_APPEALS-D_5-POSITION_1
+- type: Office
+  code: OFFICE-USA-MS-SENATOR-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-MS
+    nominee_for: OFFICE-USA-MS-SENATOR
+    nominating_organization: PARTY-USA-MS-DEMOCRATIC
+- type: Race
+  code: RACE-USA-MS-SENATOR-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. Senate, March 10, 2026. Candidates and vote totals per the Secretary of State's Official Recapitulation, Federal Primary Election (https://www.sos.ms.gov/content/documents/elections/2026/Recap%20report%20Democratic%20Primary%202026.pdf; contest 'United States-Senate'). The nominee is the candidate on the Secretary of State's Nov 3, 2026 sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf). No 2026 primary runoff is listed on the SoS results page.
+  references:
+    election: ELECTION-USA-MS-2026_PRIMARY
+    office: OFFICE-USA-MS-SENATOR-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-MS-SENATOR-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-MS
+    nominee_for: OFFICE-USA-MS-SENATOR
+    nominating_organization: PARTY-USA-MS-REPUBLICAN
+- type: Race
+  code: RACE-USA-MS-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. Senate, March 10, 2026. Candidates and vote totals per the Secretary of State's Official Recapitulation, Federal Primary Election (https://www.sos.ms.gov/content/documents/elections/2026/republican%20primary%202026.pdf; contest 'United States-Senate'). The nominee is the candidate on the Secretary of State's Nov 3, 2026 sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf). No 2026 primary runoff is listed on the SoS results page.
+  references:
+    election: ELECTION-USA-MS-2026_PRIMARY
+    office: OFFICE-USA-MS-SENATOR-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-MS-CONGRESS-CD_1-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-MS-CONGRESS-CD_1
+    nominee_for: OFFICE-USA-MS-CONGRESS-CD_1
+    nominating_organization: PARTY-USA-MS-DEMOCRATIC
+- type: Race
+  code: RACE-USA-MS-CONGRESS-CD_1-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. House District 1, March 10, 2026. Candidates and vote totals per the Secretary of State's Official Recapitulation, Federal Primary Election (https://www.sos.ms.gov/content/documents/elections/2026/Recap%20report%20Democratic%20Primary%202026.pdf; contest 'US House Of Rep 01-1st Congressional District'). The nominee is the candidate on the Secretary of State's Nov 3, 2026 sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf). No 2026 primary runoff is listed on the SoS results page.
+  references:
+    election: ELECTION-USA-MS-2026_PRIMARY
+    office: OFFICE-USA-MS-CONGRESS-CD_1-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-MS-CONGRESS-CD_1-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-MS-CONGRESS-CD_1
+    nominee_for: OFFICE-USA-MS-CONGRESS-CD_1
+    nominating_organization: PARTY-USA-MS-REPUBLICAN
+- type: Race
+  code: RACE-USA-MS-CONGRESS-CD_1-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 1, March 10, 2026. Candidates and vote totals per the Secretary of State's Official Recapitulation, Federal Primary Election (https://www.sos.ms.gov/content/documents/elections/2026/republican%20primary%202026.pdf; contest 'US House Of Rep 01-1st Congressional District'). The nominee is the candidate on the Secretary of State's Nov 3, 2026 sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf). No 2026 primary runoff is listed on the SoS results page.
+  references:
+    election: ELECTION-USA-MS-2026_PRIMARY
+    office: OFFICE-USA-MS-CONGRESS-CD_1-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-MS-CONGRESS-CD_2-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-MS-CONGRESS-CD_2
+    nominee_for: OFFICE-USA-MS-CONGRESS-CD_2
+    nominating_organization: PARTY-USA-MS-DEMOCRATIC
+- type: Race
+  code: RACE-USA-MS-CONGRESS-CD_2-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. House District 2, March 10, 2026. Candidates and vote totals per the Secretary of State's Official Recapitulation, Federal Primary Election (https://www.sos.ms.gov/content/documents/elections/2026/Recap%20report%20Democratic%20Primary%202026.pdf; contest 'US House Of Rep 02-2nd Congressional District'). The nominee is the candidate on the Secretary of State's Nov 3, 2026 sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf). No 2026 primary runoff is listed on the SoS results page.
+  references:
+    election: ELECTION-USA-MS-2026_PRIMARY
+    office: OFFICE-USA-MS-CONGRESS-CD_2-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-MS-CONGRESS-CD_2-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-MS-CONGRESS-CD_2
+    nominee_for: OFFICE-USA-MS-CONGRESS-CD_2
+    nominating_organization: PARTY-USA-MS-REPUBLICAN
+- type: Race
+  code: RACE-USA-MS-CONGRESS-CD_2-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 2, March 10, 2026. Candidates and vote totals per the Secretary of State's Official Recapitulation, Federal Primary Election (https://www.sos.ms.gov/content/documents/elections/2026/republican%20primary%202026.pdf; contest 'US House Of Rep 02-2nd Congressional District'). The nominee is the candidate on the Secretary of State's Nov 3, 2026 sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf). No 2026 primary runoff is listed on the SoS results page.
+  references:
+    election: ELECTION-USA-MS-2026_PRIMARY
+    office: OFFICE-USA-MS-CONGRESS-CD_2-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-MS-CONGRESS-CD_3-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-MS-CONGRESS-CD_3
+    nominee_for: OFFICE-USA-MS-CONGRESS-CD_3
+    nominating_organization: PARTY-USA-MS-DEMOCRATIC
+- type: Race
+  code: RACE-USA-MS-CONGRESS-CD_3-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. House District 3, March 10, 2026. Candidates and vote totals per the Secretary of State's Official Recapitulation, Federal Primary Election (https://www.sos.ms.gov/content/documents/elections/2026/Recap%20report%20Democratic%20Primary%202026.pdf; contest 'US House Of Rep 03-3rd Congressional District'). The nominee is the candidate on the Secretary of State's Nov 3, 2026 sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf). No 2026 primary runoff is listed on the SoS results page.
+  references:
+    election: ELECTION-USA-MS-2026_PRIMARY
+    office: OFFICE-USA-MS-CONGRESS-CD_3-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-MS-CONGRESS-CD_3-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-MS-CONGRESS-CD_3
+    nominee_for: OFFICE-USA-MS-CONGRESS-CD_3
+    nominating_organization: PARTY-USA-MS-REPUBLICAN
+- type: Race
+  code: RACE-USA-MS-CONGRESS-CD_3-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 3, March 10, 2026. Candidates and vote totals per the Secretary of State's Official Recapitulation, Federal Primary Election (https://www.sos.ms.gov/content/documents/elections/2026/republican%20primary%202026.pdf; contest 'US House Of Rep 03-3rd Congressional District'). The nominee is the candidate on the Secretary of State's Nov 3, 2026 sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf). No 2026 primary runoff is listed on the SoS results page.
+  references:
+    election: ELECTION-USA-MS-2026_PRIMARY
+    office: OFFICE-USA-MS-CONGRESS-CD_3-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-MS-CONGRESS-CD_4-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-MS-CONGRESS-CD_4
+    nominee_for: OFFICE-USA-MS-CONGRESS-CD_4
+    nominating_organization: PARTY-USA-MS-DEMOCRATIC
+- type: Race
+  code: RACE-USA-MS-CONGRESS-CD_4-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. House District 4, March 10, 2026. Candidates and vote totals per the Secretary of State's Official Recapitulation, Federal Primary Election (https://www.sos.ms.gov/content/documents/elections/2026/Recap%20report%20Democratic%20Primary%202026.pdf; contest 'US House Of Rep 04-4th Congressional District'). The nominee is the candidate on the Secretary of State's Nov 3, 2026 sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf). No 2026 primary runoff is listed on the SoS results page.
+  references:
+    election: ELECTION-USA-MS-2026_PRIMARY
+    office: OFFICE-USA-MS-CONGRESS-CD_4-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-MS-CONGRESS-CD_4-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-MS-CONGRESS-CD_4
+    nominee_for: OFFICE-USA-MS-CONGRESS-CD_4
+    nominating_organization: PARTY-USA-MS-REPUBLICAN
+- type: Race
+  code: RACE-USA-MS-CONGRESS-CD_4-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 4, March 10, 2026. Candidates and vote totals per the Secretary of State's Official Recapitulation, Federal Primary Election (https://www.sos.ms.gov/content/documents/elections/2026/republican%20primary%202026.pdf; contest 'US House Of Rep 04-4th Congressional District'). The nominee is the candidate on the Secretary of State's Nov 3, 2026 sample official ballot (https://www.sos.ms.gov/content/documents/Elections/2026/Sample%20Ballot%209-9-26.pdf). No 2026 primary runoff is listed on the SoS results page.
+  references:
+    election: ELECTION-USA-MS-2026_PRIMARY
+    office: OFFICE-USA-MS-CONGRESS-CD_4-NOMINEE_REPUBLICAN
