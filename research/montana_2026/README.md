@@ -18,3 +18,7 @@ Modeling:
 - TIGER crosswalk: SLDU/SLDL = 30 + zero-padded district number.
 
 Counts: 574 Candidacies, 328 Persons, 376 Offices / 376 Races (249 primary), 127 Districts / 127 Elections, 3 Parties and 103 verified website Channels. 6 cross-state name-code collisions were minted --new.
+
+## Local integration corrections
+
+Re-minted Terry Nelson as `PERSON-NELSON_TR_3U` with provisional username `nelson_tr_3u`. `PERSON-NELSON_TR_3T` remains with Colorado Travis Star Nelson; no alias links these different people.

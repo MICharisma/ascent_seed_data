@@ -9,7 +9,7 @@ Built 2026-10-29 from official Nebraska Secretary of State files only:
 
 ## Model
 
-- **Nonpartisan top-two (CA model, PR #11):** the Legislature and State Board of Education primaries are nonpartisan; all voters vote the same contest and the top two advance (Neb. Rev. Stat. 32-811). Each contest gets a `-NOMINEE_TOP_TWO` POSITION-NOMINEE office (nominee_count 1 by default, the contest's Vote For number) nominated by the new `ORGANIZATION-USA-NE-TOP_TWO_PRIMARY` (kind nonpartisan_primary, like ORGANIZATION-USA-CA-TOP_TWO_PRIMARY), and a `-2026_PRIMARY` race. Ballot lines are `Nonpartisan` (designation).
+- **Nonpartisan top-two (CA model, PR #11):** the Legislature and State Board of Education primaries are nonpartisan; all voters vote the same contest and the top two advance (Neb. Rev. Stat. 32-811). Each contest gets a `-NOMINEE_TOP_TWO` POSITION-NOMINEE office (`nominee_count: 2`, the two candidates advancing to the general) nominated by the new `ORGANIZATION-USA-NE-TOP_TWO_PRIMARY` (kind nonpartisan_primary, like ORGANIZATION-USA-CA-TOP_TWO_PRIMARY), and a `-2026_PRIMARY` race. Ballot lines are `Nonpartisan` (designation).
 - **Partisan offices** (U.S. Senate, U.S. House, Governor, SoS, Treasurer, AG, Auditor, PSC 2): one party nomination office and primary race per party in the canvass (Republican, Democratic, Libertarian, Legal Marijuana NOW).
 - **Nominee flag** = the canvass checkmark (official "advanced"); votes = canvass "Total" row.
 - **Governor / Lt. Governor:** Governor is nominated alone; the nominee names the LG afterward. The general ballot prints a joint ticket; split into paired Governor (new office, POSITION-GOVERNOR) and existing LG general candidacies.
@@ -24,3 +24,7 @@ University of Nebraska Board of Regents (no Position exists for a university reg
 ## Websites
 
 The SoS list gives phone and email, not websites; `candidate_accounts/` is untouched.
+
+## Local integration corrections
+
+Corrected all 29 nonpartisan top-two nomination offices to `nominee_count: 2`. The general election still fills one seat per contest.

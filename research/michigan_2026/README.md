@@ -48,3 +48,7 @@ The Michigan Department of State, Bureau of Elections publishes an Official Cand
 - Winners, incumbency and party were not inferred.
 
 CI is disabled for this repo, so it was not run. All local checks pass: validate, unittest, accounts, export-catalog --check.
+
+## Local integration corrections
+
+Re-minted Larry Johnson as `PERSON-JOHNSON_LR_2N` with provisional username `johnson_lr_2n`. `PERSON-JOHNSON_LR_2M` remains with Kansas Laura Johnson; no alias links these different people.

@@ -34,3 +34,7 @@ Judicial contests, county, city and school contests, and ballot issues.
 ## Websites
 
 None verified, so `candidate_accounts/` is untouched.
+
+## Local integration corrections
+
+Added `ORGANIZATION-USA-AR-NONPARTISAN_PRIMARY` as a placeholder Organization with `kind: nonpartisan_primary` and linked all 1 nonpartisan nomination offices to it. This models the nomination process without assigning a political party or changing the source ballot labels.

@@ -64,3 +64,7 @@
 
 ## Checks
 validate, unittest, accounts, export-catalog and `--check` all pass locally. CI stays disabled. Not merged.
+
+## Local integration corrections
+
+Removed invalid party associations from 28 write-in ballot lines. Source labels and `kind: write_in` are preserved; only party-kind lines may carry a party association.

@@ -47,3 +47,11 @@ The county files for Governor and U.S. Senator, plus the ballots-cast and names-
 ## Websites
 
 None verified, so `candidate_accounts/` is untouched.
+
+## Local integration corrections
+
+Re-minted Seth Miller as `PERSON-MILLER_ST_2G` with provisional username `miller_st_2g`. `PERSON-MILLER_ST_2F` remains with Idaho Steve Miller; no alias links these different people.
+
+Corrected 202 multi-seat party nomination offices to use the district's sourced seat count as `nominee_count`. General race descriptions retain the same seat counts.
+
+Removed invalid party associations from 30 write-in ballot lines. Source labels and `kind: write_in` are preserved; only party-kind lines may carry a party association.

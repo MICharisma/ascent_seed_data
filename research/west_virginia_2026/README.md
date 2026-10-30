@@ -24,3 +24,7 @@ Judicial contests (nonpartisan; May 12 Supreme Court/ICA/circuit/family court an
 ## Websites
 
 The SoS listing shows self-reported campaign websites, but none were verified, so `candidate_accounts/` is untouched.
+
+## Local integration corrections
+
+Removed invalid party associations from 3 write-in ballot lines. Source labels and `kind: write_in` are preserved; only party-kind lines may carry a party association.

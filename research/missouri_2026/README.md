@@ -19,3 +19,7 @@
 - **Name codes shared with other states:** 27 people share a name code with an existing person. Each got a new code (`--new`), with no link.
 - **Not in scope:** Circuit Judge partisan primaries and the judicial retention list.
 - **Name handling:** nicknames in parentheses and suffixes (Jr, Sr, III) are dropped from the name parts but kept in the ballot name.
+
+## Local integration corrections
+
+Re-minted Cheryle Perkins as `PERSON-PERKINS_CH_7X` with provisional username `perkins_ch_7x`. `PERSON-PERKINS_CH_7W` remains with Maine Chad Richard Perkins; no alias links these different people.
