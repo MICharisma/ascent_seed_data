@@ -1,7 +1,9 @@
 # Rhode Island 2026 conflicts and flags
 
-## General election data incomplete
-The SoS report marks no party nominee as On Election Ballot. Only 14 independents are seeded for November 3. The Democratic and Republican nominees need a later pull of the same report, after ON E.B is updated.
+## General election source
+Party nominees come from the BOE certified primary results (top vote total), not from the SoS report, whose On Election Ballot column has not been updated for primary candidates. Gaps:
+- Post-primary party substitutions are not captured. For example, State Senate 8 has no Republican primary candidate, because Adam Carreiro shows as Withdrew on the SoS report. A non-official aggregator lists him on the November ballot, which may mean a party substitution. He is not seeded until an official source confirms it.
+- A re-pull of the SoS candidate report once ON E.B is updated, or the official November sample ballots, should be used to confirm the list.
 
 ## Withdrawals (all before-primary-ballot: DECLARATION = Withdrew and ON P.B = No; no withdrawal date in the report)
 - Albert Joseph Vitali Jr., State Senate 8, Democrat (QBP No)

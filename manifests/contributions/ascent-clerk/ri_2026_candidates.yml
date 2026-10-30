@@ -1,4 +1,4 @@
-# Rhode Island 2026: people and candidacies per the Secretary of State candidate report (On Primary Ballot / On Election Ballot columns only). General candidacies cover only certified independents; party nominees pending. No incumbency, winner or vote total recorded. No candidate contact information is recorded.
+# Rhode Island 2026: people and candidacies per the Secretary of State candidate report (On Primary Ballot / On Election Ballot columns only). Party nominees from the BOE certified primary results; independents from On Election Ballot. No incumbency, winner or vote total recorded. No candidate contact information is recorded.
 format: micharisma-seeds/v1
 namespace: MIC
 catalog: ASC
@@ -1625,6 +1625,30 @@ records:
     race: RACE-USA-RI-GOVERNOR-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-PELINO_EL_2H
 - type: Candidacy
+  code: CANDIDACY-USA-RI-GOVERNOR-2026_GENERAL-FOULKES_HL_9P
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-GOVERNOR-2026_GENERAL
+    person: PERSON-FOULKES_HL_9P
+- type: Candidacy
+  code: CANDIDACY-USA-RI-GOVERNOR-2026_GENERAL-GUCKIAN_AR_3Y
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-GOVERNOR-2026_GENERAL
+    person: PERSON-GUCKIAN_AR_3Y
+- type: Candidacy
   code: CANDIDACY-USA-RI-GOVERNOR-2026_GENERAL-BLOCK_KN_5J
   attributes:
     status: active
@@ -1730,6 +1754,30 @@ records:
     race: RACE-USA-RI-LIEUTENANT_GOVERNOR-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-LOUGHLIN_JH_2B
 - type: Candidacy
+  code: CANDIDACY-USA-RI-LIEUTENANT_GOVERNOR-2026_GENERAL-MATOS_SB_8Y
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-LIEUTENANT_GOVERNOR-2026_GENERAL
+    person: PERSON-MATOS_SB_8Y
+- type: Candidacy
+  code: CANDIDACY-USA-RI-LIEUTENANT_GOVERNOR-2026_GENERAL-LOUGHLIN_JH_2B
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-LIEUTENANT_GOVERNOR-2026_GENERAL
+    person: PERSON-LOUGHLIN_JH_2B
+- type: Candidacy
   code: CANDIDACY-USA-RI-SECRETARY_OF_STATE-NOMINEE_DEMOCRATIC-2026_PRIMARY-AMORE_GR_9G
   attributes:
     status: active
@@ -1740,6 +1788,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SECRETARY_OF_STATE-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-AMORE_GR_9G
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SECRETARY_OF_STATE-2026_GENERAL-AMORE_GR_9G
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SECRETARY_OF_STATE-2026_GENERAL
     person: PERSON-AMORE_GR_9G
 - type: Candidacy
   code: CANDIDACY-USA-RI-ATTORNEY_GENERAL-NOMINEE_DEMOCRATIC-2026_PRIMARY-KNIGHT_JS_3B
@@ -1802,6 +1862,30 @@ records:
     race: RACE-USA-RI-ATTORNEY_GENERAL-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-GORDON_AL_2E
 - type: Candidacy
+  code: CANDIDACY-USA-RI-ATTORNEY_GENERAL-2026_GENERAL-AHERN_KM_8B
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-ATTORNEY_GENERAL-2026_GENERAL
+    person: PERSON-AHERN_KM_8B
+- type: Candidacy
+  code: CANDIDACY-USA-RI-ATTORNEY_GENERAL-2026_GENERAL-GORDON_AL_2E
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-ATTORNEY_GENERAL-2026_GENERAL
+    person: PERSON-GORDON_AL_2E
+- type: Candidacy
   code: CANDIDACY-USA-RI-GENERAL_TREASURER-NOMINEE_DEMOCRATIC-2026_PRIMARY-DIOSSA_JM_7T
   attributes:
     status: active
@@ -1826,6 +1910,30 @@ records:
     race: RACE-USA-RI-GENERAL_TREASURER-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-CREDLE_MC_6U
 - type: Candidacy
+  code: CANDIDACY-USA-RI-GENERAL_TREASURER-2026_GENERAL-DIOSSA_JM_7T
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-GENERAL_TREASURER-2026_GENERAL
+    person: PERSON-DIOSSA_JM_7T
+- type: Candidacy
+  code: CANDIDACY-USA-RI-GENERAL_TREASURER-2026_GENERAL-CREDLE_MC_6U
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-GENERAL_TREASURER-2026_GENERAL
+    person: PERSON-CREDLE_MC_6U
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_1-NOMINEE_DEMOCRATIC-2026_PRIMARY-BISSAILLON_JC_9T
   attributes:
     status: active
@@ -1836,6 +1944,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SENATE-SD_1-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-BISSAILLON_JC_9T
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_1-2026_GENERAL-BISSAILLON_JC_9T
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_1-2026_GENERAL
     person: PERSON-BISSAILLON_JC_9T
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_2-NOMINEE_DEMOCRATIC-2026_PRIMARY-QUEZADA_AN_8Z
@@ -1850,6 +1970,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_2-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-QUEZADA_AN_8Z
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_2-2026_GENERAL-QUEZADA_AN_8Z
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_2-2026_GENERAL
+    person: PERSON-QUEZADA_AN_8Z
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_3-NOMINEE_DEMOCRATIC-2026_PRIMARY-ZURIER_SM_2N
   attributes:
     status: active
@@ -1862,6 +1994,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_3-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-ZURIER_SM_2N
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_3-2026_GENERAL-ZURIER_SM_2N
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_3-2026_GENERAL
+    person: PERSON-ZURIER_SM_2N
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_4-NOMINEE_DEMOCRATIC-2026_PRIMARY-FAMIGLIETTI_ST_7U
   attributes:
     status: active
@@ -1872,6 +2016,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SENATE-SD_4-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-FAMIGLIETTI_ST_7U
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_4-2026_GENERAL-FAMIGLIETTI_ST_7U
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_4-2026_GENERAL
     person: PERSON-FAMIGLIETTI_ST_7U
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_5-NOMINEE_DEMOCRATIC-2026_PRIMARY-BELL_SM_4G
@@ -1922,6 +2078,30 @@ records:
     race: RACE-USA-RI-SENATE-SD_5-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-CONNELL_WL_4A
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_5-2026_GENERAL-BELL_SM_4G
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_5-2026_GENERAL
+    person: PERSON-BELL_SM_4G
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_5-2026_GENERAL-CONNELL_WL_4A
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-SENATE-SD_5-2026_GENERAL
+    person: PERSON-CONNELL_WL_4A
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_6-NOMINEE_DEMOCRATIC-2026_PRIMARY-MACK_TR_4R
   attributes:
     status: active
@@ -1934,6 +2114,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_6-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-MACK_TR_4R
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_6-2026_GENERAL-MACK_TR_4R
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_6-2026_GENERAL
+    person: PERSON-MACK_TR_4R
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_7-NOMINEE_DEMOCRATIC-2026_PRIMARY-CICCONE_FR_2M
   attributes:
     status: active
@@ -1944,6 +2136,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SENATE-SD_7-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-CICCONE_FR_2M
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_7-2026_GENERAL-CICCONE_FR_2M
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_7-2026_GENERAL
     person: PERSON-CICCONE_FR_2M
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_8-NOMINEE_DEMOCRATIC-2026_PRIMARY-URSO_LR_6C
@@ -1970,6 +2174,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_8-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-FELIX_GN_3V
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_8-2026_GENERAL-URSO_LR_6C
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_8-2026_GENERAL
+    person: PERSON-URSO_LR_6C
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_9-NOMINEE_DEMOCRATIC-2026_PRIMARY-BURKE_JH_6E
   attributes:
     status: active
@@ -1980,6 +2196,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SENATE-SD_9-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-BURKE_JH_6E
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_9-2026_GENERAL-BURKE_JH_6E
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_9-2026_GENERAL
     person: PERSON-BURKE_JH_6E
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_10-NOMINEE_DEMOCRATIC-2026_PRIMARY-FELAG_WL_5K
@@ -1994,6 +2222,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_10-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-FELAG_WL_5K
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_10-2026_GENERAL-FELAG_WL_5K
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_10-2026_GENERAL
+    person: PERSON-FELAG_WL_5K
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_11-NOMINEE_DEMOCRATIC-2026_PRIMARY-UJIFUSA_LN_2B
   attributes:
     status: active
@@ -2006,6 +2246,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_11-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-UJIFUSA_LN_2B
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_11-2026_GENERAL-UJIFUSA_LN_2B
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_11-2026_GENERAL
+    person: PERSON-UJIFUSA_LN_2B
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_12-NOMINEE_DEMOCRATIC-2026_PRIMARY-DIPALMA_LS_9C
   attributes:
     status: active
@@ -2016,6 +2268,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SENATE-SD_12-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-DIPALMA_LS_9C
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_12-2026_GENERAL-DIPALMA_LS_9C
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_12-2026_GENERAL
     person: PERSON-DIPALMA_LS_9C
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_13-NOMINEE_DEMOCRATIC-2026_PRIMARY-EUER_DW_8Q
@@ -2042,6 +2306,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_13-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-LIMA_AN_7N
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_13-2026_GENERAL-EUER_DW_8Q
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_13-2026_GENERAL
+    person: PERSON-EUER_DW_8Q
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_14-NOMINEE_DEMOCRATIC-2026_PRIMARY-LAWSON_VL_8C
   attributes:
     status: active
@@ -2052,6 +2328,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SENATE-SD_14-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-LAWSON_VL_8C
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_14-2026_GENERAL-LAWSON_VL_8C
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_14-2026_GENERAL
     person: PERSON-LAWSON_VL_8C
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_14-2026_GENERAL-COOGAN_BR_6Q
@@ -2089,6 +2377,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_15-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-LOPEZ_VN_3A
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_15-2026_GENERAL-KALLMAN_MG_7H
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_15-2026_GENERAL
+    person: PERSON-KALLMAN_MG_7H
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_16-NOMINEE_DEMOCRATIC-2026_PRIMARY-ACOSTA_JN_9B
   attributes:
     status: active
@@ -2099,6 +2399,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SENATE-SD_16-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-ACOSTA_JN_9B
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_16-2026_GENERAL-ACOSTA_JN_9B
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_16-2026_GENERAL
     person: PERSON-ACOSTA_JN_9B
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_17-NOMINEE_DEMOCRATIC-2026_PRIMARY-BURDETTE_NL_4D
@@ -2123,6 +2435,30 @@ records:
       party: PARTY-USA-RI-REPUBLICAN
   references:
     race: RACE-USA-RI-SENATE-SD_17-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-PAOLINO_TH_4H
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_17-2026_GENERAL-BURDETTE_NL_4D
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_17-2026_GENERAL
+    person: PERSON-BURDETTE_NL_4D
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_17-2026_GENERAL-PAOLINO_TH_4H
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-SENATE-SD_17-2026_GENERAL
     person: PERSON-PAOLINO_TH_4H
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_17-2026_GENERAL-BARR_JH_8V
@@ -2159,6 +2495,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_18-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-BRITTO_RB_5T
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_18-2026_GENERAL-BRITTO_RB_5T
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_18-2026_GENERAL
+    person: PERSON-BRITTO_RB_5T
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_19-NOMINEE_DEMOCRATIC-2026_PRIMARY-PEARSON_RY_2T
   attributes:
     status: active
@@ -2183,6 +2531,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_19-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-METIVIER_JM_4W
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_19-2026_GENERAL-PEARSON_RY_2T
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_19-2026_GENERAL
+    person: PERSON-PEARSON_RY_2T
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_20-NOMINEE_DEMOCRATIC-2026_PRIMARY-THOMPSON_BR_9P
   attributes:
     status: active
@@ -2193,6 +2553,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SENATE-SD_20-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-THOMPSON_BR_9P
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_20-2026_GENERAL-THOMPSON_BR_9P
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_20-2026_GENERAL
     person: PERSON-THOMPSON_BR_9P
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_21-NOMINEE_REPUBLICAN-2026_PRIMARY-ROGERS_GR_7L
@@ -2207,6 +2579,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_21-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-ROGERS_GR_7L
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_21-2026_GENERAL-ROGERS_GR_7L
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-SENATE-SD_21-2026_GENERAL
+    person: PERSON-ROGERS_GR_7L
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_22-NOMINEE_DEMOCRATIC-2026_PRIMARY-TIKOIAN_DV_2E
   attributes:
     status: active
@@ -2217,6 +2601,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SENATE-SD_22-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-TIKOIAN_DV_2E
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_22-2026_GENERAL-TIKOIAN_DV_2E
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_22-2026_GENERAL
     person: PERSON-TIKOIAN_DV_2E
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_23-NOMINEE_REPUBLICAN-2026_PRIMARY-CRUZ_JS_9D
@@ -2231,6 +2627,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_23-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-CRUZ_JS_9D
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_23-2026_GENERAL-CRUZ_JS_9D
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-SENATE-SD_23-2026_GENERAL
+    person: PERSON-CRUZ_JS_9D
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_24-NOMINEE_DEMOCRATIC-2026_PRIMARY-MURRAY_ML_2J
   attributes:
     status: active
@@ -2241,6 +2649,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SENATE-SD_24-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-MURRAY_ML_2J
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_24-2026_GENERAL-MURRAY_ML_2J
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_24-2026_GENERAL
     person: PERSON-MURRAY_ML_2J
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_25-NOMINEE_DEMOCRATIC-2026_PRIMARY-DIMITRI_AN_8U
@@ -2255,6 +2675,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_25-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-DIMITRI_AN_8U
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_25-2026_GENERAL-DIMITRI_AN_8U
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_25-2026_GENERAL
+    person: PERSON-DIMITRI_AN_8U
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_26-NOMINEE_DEMOCRATIC-2026_PRIMARY-PATALANO_TD_5B
   attributes:
     status: active
@@ -2265,6 +2697,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SENATE-SD_26-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-PATALANO_TD_5B
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_26-2026_GENERAL-PATALANO_TD_5B
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_26-2026_GENERAL
     person: PERSON-PATALANO_TD_5B
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_27-NOMINEE_DEMOCRATIC-2026_PRIMARY-GALLO_HN_2D
@@ -2279,6 +2723,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_27-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-GALLO_HN_2D
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_27-2026_GENERAL-GALLO_HN_2D
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_27-2026_GENERAL
+    person: PERSON-GALLO_HN_2D
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_28-NOMINEE_DEMOCRATIC-2026_PRIMARY-VARGAS_LM_9D
   attributes:
     status: active
@@ -2289,6 +2745,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SENATE-SD_28-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-VARGAS_LM_9D
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_28-2026_GENERAL-VARGAS_LM_9D
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_28-2026_GENERAL
     person: PERSON-VARGAS_LM_9D
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_29-NOMINEE_DEMOCRATIC-2026_PRIMARY-APPOLLONIO_PT_2V
@@ -2303,6 +2771,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_29-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-APPOLLONIO_PT_2V
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_29-2026_GENERAL-APPOLLONIO_PT_2V
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_29-2026_GENERAL
+    person: PERSON-APPOLLONIO_PT_2V
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_30-NOMINEE_DEMOCRATIC-2026_PRIMARY-MCKENNEY_MR_4S
   attributes:
     status: active
@@ -2313,6 +2793,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SENATE-SD_30-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-MCKENNEY_MR_4S
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_30-2026_GENERAL-MCKENNEY_MR_4S
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_30-2026_GENERAL
     person: PERSON-MCKENNEY_MR_4S
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_31-NOMINEE_DEMOCRATIC-2026_PRIMARY-LAMOUNTAIN_MT_5N
@@ -2327,6 +2819,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_31-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-LAMOUNTAIN_MT_5N
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_31-2026_GENERAL-LAMOUNTAIN_MT_5N
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_31-2026_GENERAL
+    person: PERSON-LAMOUNTAIN_MT_5N
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_32-NOMINEE_DEMOCRATIC-2026_PRIMARY-LAURIA_PM_2E
   attributes:
     status: active
@@ -2337,6 +2841,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SENATE-SD_32-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-LAURIA_PM_2E
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_32-2026_GENERAL-LAURIA_PM_2E
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_32-2026_GENERAL
     person: PERSON-LAURIA_PM_2E
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_33-NOMINEE_DEMOCRATIC-2026_PRIMARY-RAPTAKIS_LN_5Y
@@ -2363,6 +2879,30 @@ records:
     race: RACE-USA-RI-SENATE-SD_33-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-PIERSON_JM_3Z
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_33-2026_GENERAL-RAPTAKIS_LN_5Y
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_33-2026_GENERAL
+    person: PERSON-RAPTAKIS_LN_5Y
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_33-2026_GENERAL-PIERSON_JM_3Z
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-SENATE-SD_33-2026_GENERAL
+    person: PERSON-PIERSON_JM_3Z
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_34-NOMINEE_DEMOCRATIC-2026_PRIMARY-WILCOX_SM_9C
   attributes:
     status: active
@@ -2387,6 +2927,30 @@ records:
     race: RACE-USA-RI-SENATE-SD_34-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-MORGAN_EL_9R
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_34-2026_GENERAL-WILCOX_SM_9C
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_34-2026_GENERAL
+    person: PERSON-WILCOX_SM_9C
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_34-2026_GENERAL-MORGAN_EL_9R
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-SENATE-SD_34-2026_GENERAL
+    person: PERSON-MORGAN_EL_9R
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_35-NOMINEE_DEMOCRATIC-2026_PRIMARY-VALVERDE_BR_5T
   attributes:
     status: active
@@ -2397,6 +2961,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SENATE-SD_35-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-VALVERDE_BR_5T
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_35-2026_GENERAL-VALVERDE_BR_5T
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_35-2026_GENERAL
     person: PERSON-VALVERDE_BR_5T
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_36-NOMINEE_DEMOCRATIC-2026_PRIMARY-DIMARIO_AL_4U
@@ -2423,6 +2999,18 @@ records:
     race: RACE-USA-RI-SENATE-SD_36-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-MESROBIAN_MR_3R
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_36-2026_GENERAL-DIMARIO_AL_4U
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_36-2026_GENERAL
+    person: PERSON-DIMARIO_AL_4U
+- type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_37-NOMINEE_DEMOCRATIC-2026_PRIMARY-SOSNOWSKI_VR_5E
   attributes:
     status: active
@@ -2433,6 +3021,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-SENATE-SD_37-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-SOSNOWSKI_VR_5E
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_37-2026_GENERAL-SOSNOWSKI_VR_5E
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_37-2026_GENERAL
     person: PERSON-SOSNOWSKI_VR_5E
 - type: Candidacy
   code: CANDIDACY-USA-RI-SENATE-SD_38-NOMINEE_DEMOCRATIC-2026_PRIMARY-GU_VC_6A
@@ -2459,6 +3059,30 @@ records:
     race: RACE-USA-RI-SENATE-SD_38-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-PLACE_WS_6M
 - type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_38-2026_GENERAL-GU_VC_6A
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-SENATE-SD_38-2026_GENERAL
+    person: PERSON-GU_VC_6A
+- type: Candidacy
+  code: CANDIDACY-USA-RI-SENATE-SD_38-2026_GENERAL-PLACE_WS_6M
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-SENATE-SD_38-2026_GENERAL
+    person: PERSON-PLACE_WS_6M
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_1-NOMINEE_DEMOCRATIC-2026_PRIMARY-AJELLO_ED_6J
   attributes:
     status: active
@@ -2483,6 +3107,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_1-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-GARMAN_MC_6M
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_1-2026_GENERAL-AJELLO_ED_6J
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_1-2026_GENERAL
+    person: PERSON-AJELLO_ED_6J
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_2-NOMINEE_DEMOCRATIC-2026_PRIMARY-BLAZEJEWSKI_CH_3C
   attributes:
     status: active
@@ -2493,6 +3129,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_2-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-BLAZEJEWSKI_CH_3C
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_2-2026_GENERAL-BLAZEJEWSKI_CH_3C
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_2-2026_GENERAL
     person: PERSON-BLAZEJEWSKI_CH_3C
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_3-NOMINEE_DEMOCRATIC-2026_PRIMARY-BIAH_NT_5V
@@ -2507,6 +3155,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_3-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-BIAH_NT_5V
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_3-2026_GENERAL-BIAH_NT_5V
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_3-2026_GENERAL
+    person: PERSON-BIAH_NT_5V
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_4-NOMINEE_DEMOCRATIC-2026_PRIMARY-KISLAK_RB_3S
   attributes:
     status: active
@@ -2519,6 +3179,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_4-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-KISLAK_RB_3S
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_4-2026_GENERAL-KISLAK_RB_3S
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_4-2026_GENERAL
+    person: PERSON-KISLAK_RB_3S
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_5-NOMINEE_DEMOCRATIC-2026_PRIMARY-DESIMONE_AN_4L
   attributes:
     status: active
@@ -2529,6 +3201,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_5-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-DESIMONE_AN_4L
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_5-2026_GENERAL-DESIMONE_AN_4L
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_5-2026_GENERAL
     person: PERSON-DESIMONE_AN_4L
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_5-2026_GENERAL-KUBICEK_BR_7N
@@ -2552,6 +3236,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_6-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-HULL_RY_5F
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_6-2026_GENERAL-HULL_RY_5F
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_6-2026_GENERAL
     person: PERSON-HULL_RY_5F
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_7-NOMINEE_DEMOCRATIC-2026_PRIMARY-SANTIAGO_AM_4Y
@@ -2590,6 +3286,30 @@ records:
     race: RACE-USA-RI-HOUSE-HD_7-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-IRELAND_CH_2H
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_7-2026_GENERAL-SANTIAGO_AM_4Y
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_7-2026_GENERAL
+    person: PERSON-SANTIAGO_AM_4Y
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_7-2026_GENERAL-IRELAND_CH_2H
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_7-2026_GENERAL
+    person: PERSON-IRELAND_CH_2H
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_8-NOMINEE_DEMOCRATIC-2026_PRIMARY-LOMBARDI_JH_8Y
   attributes:
     status: active
@@ -2600,6 +3320,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_8-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-LOMBARDI_JH_8Y
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_8-2026_GENERAL-LOMBARDI_JH_8Y
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_8-2026_GENERAL
     person: PERSON-LOMBARDI_JH_8Y
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_9-NOMINEE_DEMOCRATIC-2026_PRIMARY-JAVIER_SN_7J
@@ -2626,6 +3358,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_9-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-SANCHEZ_EN_7J
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_9-2026_GENERAL-SANCHEZ_EN_7J
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_9-2026_GENERAL
+    person: PERSON-SANCHEZ_EN_7J
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_10-NOMINEE_DEMOCRATIC-2026_PRIMARY-SLATER_SC_3R
   attributes:
     status: active
@@ -2638,6 +3382,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_10-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-SLATER_SC_3R
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_10-2026_GENERAL-SLATER_SC_3R
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_10-2026_GENERAL
+    person: PERSON-SLATER_SC_3R
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_11-NOMINEE_DEMOCRATIC-2026_PRIMARY-DIAZ_GR_2Z
   attributes:
     status: active
@@ -2648,6 +3404,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_11-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-DIAZ_GR_2Z
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_11-2026_GENERAL-DIAZ_GR_2Z
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_11-2026_GENERAL
     person: PERSON-DIAZ_GR_2Z
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_12-NOMINEE_DEMOCRATIC-2026_PRIMARY-CEDENO_CR_8R
@@ -2674,6 +3442,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_12-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-HIDALGO_AR_6R
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_12-2026_GENERAL-HIDALGO_AR_6R
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_12-2026_GENERAL
+    person: PERSON-HIDALGO_AR_6R
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_13-NOMINEE_DEMOCRATIC-2026_PRIMARY-PEREZ_RM_9C
   attributes:
     status: active
@@ -2696,6 +3476,30 @@ records:
       party: PARTY-USA-RI-REPUBLICAN
   references:
     race: RACE-USA-RI-HOUSE-HD_13-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-REELS_DR_9K
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_13-2026_GENERAL-PEREZ_RM_9C
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_13-2026_GENERAL
+    person: PERSON-PEREZ_RM_9C
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_13-2026_GENERAL-REELS_DR_9K
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_13-2026_GENERAL
     person: PERSON-REELS_DR_9K
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_14-NOMINEE_DEMOCRATIC-2026_PRIMARY-LIMA_CH_3W
@@ -2722,6 +3526,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_14-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-BARET_NM_9C
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_14-2026_GENERAL-LIMA_CH_3W
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_14-2026_GENERAL
+    person: PERSON-LIMA_CH_3W
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_15-NOMINEE_DEMOCRATIC-2026_PRIMARY-CRUDELE_CL_9H
   attributes:
     status: active
@@ -2744,6 +3560,30 @@ records:
       party: PARTY-USA-RI-REPUBLICAN
   references:
     race: RACE-USA-RI-HOUSE-HD_15-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-PAPLAUSKAS_CH_4G
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_15-2026_GENERAL-CRUDELE_CL_9H
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_15-2026_GENERAL
+    person: PERSON-CRUDELE_CL_9H
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_15-2026_GENERAL-PAPLAUSKAS_CH_4G
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_15-2026_GENERAL
     person: PERSON-PAPLAUSKAS_CH_4G
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_15-2026_GENERAL-FUNG_AL_3S
@@ -2769,6 +3609,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_16-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-POTTER_BR_8V
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_16-2026_GENERAL-POTTER_BR_8V
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_16-2026_GENERAL
+    person: PERSON-POTTER_BR_8V
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_17-NOMINEE_DEMOCRATIC-2026_PRIMARY-BAGINSKI_JC_3W
   attributes:
     status: active
@@ -2779,6 +3631,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_17-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-BAGINSKI_JC_3W
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_17-2026_GENERAL-BAGINSKI_JC_3W
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_17-2026_GENERAL
     person: PERSON-BAGINSKI_JC_3W
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_18-NOMINEE_DEMOCRATIC-2026_PRIMARY-HANDY_AR_8P
@@ -2805,6 +3669,30 @@ records:
     race: RACE-USA-RI-HOUSE-HD_18-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-GOMES_JS_5R
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_18-2026_GENERAL-HANDY_AR_8P
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_18-2026_GENERAL
+    person: PERSON-HANDY_AR_8P
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_18-2026_GENERAL-GOMES_JS_5R
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_18-2026_GENERAL
+    person: PERSON-GOMES_JS_5R
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_19-NOMINEE_DEMOCRATIC-2026_PRIMARY-MCNAMARA_JS_2V
   attributes:
     status: active
@@ -2815,6 +3703,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_19-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-MCNAMARA_JS_2V
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_19-2026_GENERAL-MCNAMARA_JS_2V
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_19-2026_GENERAL
     person: PERSON-MCNAMARA_JS_2V
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_19-2026_GENERAL-MALONEY_PT_2P
@@ -2840,6 +3740,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_20-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-BENNETT_DV_2B
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_20-2026_GENERAL-BENNETT_DV_2B
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_20-2026_GENERAL
+    person: PERSON-BENNETT_DV_2B
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_21-NOMINEE_REPUBLICAN-2026_PRIMARY-HOPKINS_MR_9T
   attributes:
     status: active
@@ -2850,6 +3762,18 @@ records:
       party: PARTY-USA-RI-REPUBLICAN
   references:
     race: RACE-USA-RI-HOUSE-HD_21-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-HOPKINS_MR_9T
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_21-2026_GENERAL-HOPKINS_MR_9T
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_21-2026_GENERAL
     person: PERSON-HOPKINS_MR_9T
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_22-NOMINEE_DEMOCRATIC-2026_PRIMARY-SEGUI_JN_8F
@@ -2888,6 +3812,30 @@ records:
     race: RACE-USA-RI-HOUSE-HD_22-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-QUIGLEY_BR_7F
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_22-2026_GENERAL-PEREIRA_ZK_7M
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_22-2026_GENERAL
+    person: PERSON-PEREIRA_ZK_7M
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_22-2026_GENERAL-QUIGLEY_BR_7F
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_22-2026_GENERAL
+    person: PERSON-QUIGLEY_BR_7F
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_23-NOMINEE_DEMOCRATIC-2026_PRIMARY-MUTO_WL_2E
   attributes:
     status: active
@@ -2924,6 +3872,30 @@ records:
     race: RACE-USA-RI-HOUSE-HD_23-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-TRAVERSIE_DN_3S
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_23-2026_GENERAL-MUTO_WL_2E
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_23-2026_GENERAL
+    person: PERSON-MUTO_WL_2E
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_23-2026_GENERAL-TRAVERSIE_DN_3S
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_23-2026_GENERAL
+    person: PERSON-TRAVERSIE_DN_3S
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_24-NOMINEE_DEMOCRATIC-2026_PRIMARY-SHANLEY_EV_6V
   attributes:
     status: active
@@ -2934,6 +3906,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_24-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-SHANLEY_EV_6V
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_24-2026_GENERAL-SHANLEY_EV_6V
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_24-2026_GENERAL
     person: PERSON-SHANLEY_EV_6V
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_25-NOMINEE_DEMOCRATIC-2026_PRIMARY-NORET_TH_9Y
@@ -2948,6 +3932,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_25-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-NORET_TH_9Y
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_25-2026_GENERAL-NORET_TH_9Y
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_25-2026_GENERAL
+    person: PERSON-NORET_TH_9Y
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_26-NOMINEE_DEMOCRATIC-2026_PRIMARY-READ_ER_6Y
   attributes:
     status: active
@@ -2958,6 +3954,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_26-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-READ_ER_6Y
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_26-2026_GENERAL-READ_ER_6Y
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_26-2026_GENERAL
     person: PERSON-READ_ER_6Y
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_27-NOMINEE_DEMOCRATIC-2026_PRIMARY-COBURN_AN_9U
@@ -2984,6 +3992,30 @@ records:
     race: RACE-USA-RI-HOUSE-HD_27-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-ALMAGNO_LW_8Z
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_27-2026_GENERAL-COBURN_AN_9U
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_27-2026_GENERAL
+    person: PERSON-COBURN_AN_9U
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_27-2026_GENERAL-ALMAGNO_LW_8Z
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_27-2026_GENERAL
+    person: PERSON-ALMAGNO_LW_8Z
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_28-NOMINEE_REPUBLICAN-2026_PRIMARY-NARDONE_GR_4T
   attributes:
     status: active
@@ -2994,6 +4026,18 @@ records:
       party: PARTY-USA-RI-REPUBLICAN
   references:
     race: RACE-USA-RI-HOUSE-HD_28-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-NARDONE_GR_4T
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_28-2026_GENERAL-NARDONE_GR_4T
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_28-2026_GENERAL
     person: PERSON-NARDONE_GR_4T
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_29-NOMINEE_REPUBLICAN-2026_PRIMARY-ROBERTS_SH_3P
@@ -3008,6 +4052,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_29-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-ROBERTS_SH_3P
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_29-2026_GENERAL-ROBERTS_SH_3P
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_29-2026_GENERAL
+    person: PERSON-ROBERTS_SH_3P
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_30-NOMINEE_DEMOCRATIC-2026_PRIMARY-CALDWELL_JS_6H
   attributes:
     status: active
@@ -3018,6 +4074,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_30-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-CALDWELL_JS_6H
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_30-2026_GENERAL-CALDWELL_JS_6H
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_30-2026_GENERAL
     person: PERSON-CALDWELL_JS_6H
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_31-NOMINEE_DEMOCRATIC-2026_PRIMARY-SHEEHAN_JM_4T
@@ -3056,6 +4124,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_31-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-MCCOY_MT_6U
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_31-2026_GENERAL-SHEEHAN_JM_4T
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_31-2026_GENERAL
+    person: PERSON-SHEEHAN_JM_4T
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_32-NOMINEE_DEMOCRATIC-2026_PRIMARY-CRAVEN_RB_9X
   attributes:
     status: active
@@ -3079,6 +4159,18 @@ records:
   references:
     race: RACE-USA-RI-HOUSE-HD_32-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-HOYLE_KV_7L
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_32-2026_GENERAL-CRAVEN_RB_9X
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_32-2026_GENERAL
+    person: PERSON-CRAVEN_RB_9X
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_33-NOMINEE_DEMOCRATIC-2026_PRIMARY-MCENTEE_CR_6Y
   attributes:
@@ -3104,6 +4196,30 @@ records:
     race: RACE-USA-RI-HOUSE-HD_33-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-DAY_JS_9M
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_33-2026_GENERAL-MCENTEE_CR_6Y
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_33-2026_GENERAL
+    person: PERSON-MCENTEE_CR_6Y
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_33-2026_GENERAL-DAY_JS_9M
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_33-2026_GENERAL
+    person: PERSON-DAY_JS_9M
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_34-NOMINEE_DEMOCRATIC-2026_PRIMARY-TANZI_TR_8L
   attributes:
     status: active
@@ -3114,6 +4230,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_34-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-TANZI_TR_8L
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_34-2026_GENERAL-TANZI_TR_8L
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_34-2026_GENERAL
     person: PERSON-TANZI_TR_8L
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_35-NOMINEE_DEMOCRATIC-2026_PRIMARY-FOGARTY_KT_4R
@@ -3140,6 +4268,30 @@ records:
     race: RACE-USA-RI-HOUSE-HD_35-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-NERBONNE_JN_9A
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_35-2026_GENERAL-FOGARTY_KT_4R
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_35-2026_GENERAL
+    person: PERSON-FOGARTY_KT_4R
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_35-2026_GENERAL-NERBONNE_JN_9A
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_35-2026_GENERAL
+    person: PERSON-NERBONNE_JN_9A
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_36-NOMINEE_DEMOCRATIC-2026_PRIMARY-SPEARS_TN_5V
   attributes:
     status: active
@@ -3164,6 +4316,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_36-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-BOISCLAIR_LH_7Q
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_36-2026_GENERAL-SPEARS_TN_5V
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_36-2026_GENERAL
+    person: PERSON-SPEARS_TN_5V
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_37-NOMINEE_DEMOCRATIC-2026_PRIMARY-AZZINARO_SM_8Y
   attributes:
     status: active
@@ -3186,6 +4350,30 @@ records:
       party: PARTY-USA-RI-REPUBLICAN
   references:
     race: RACE-USA-RI-HOUSE-HD_37-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-STANTON_CH_4R
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_37-2026_GENERAL-AZZINARO_SM_8Y
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_37-2026_GENERAL
+    person: PERSON-AZZINARO_SM_8Y
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_37-2026_GENERAL-STANTON_CH_4R
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_37-2026_GENERAL
     person: PERSON-STANTON_CH_4R
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_38-NOMINEE_DEMOCRATIC-2026_PRIMARY-KENNEDY_BR_3A
@@ -3212,6 +4400,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_38-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-MOFFITT_ST_4A
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_38-2026_GENERAL-KENNEDY_BR_3A
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_38-2026_GENERAL
+    person: PERSON-KENNEDY_BR_3A
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_39-NOMINEE_DEMOCRATIC-2026_PRIMARY-COTTER_MG_8F
   attributes:
     status: active
@@ -3236,6 +4436,30 @@ records:
     race: RACE-USA-RI-HOUSE-HD_39-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-ROY_JS_3S
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_39-2026_GENERAL-COTTER_MG_8F
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_39-2026_GENERAL
+    person: PERSON-COTTER_MG_8F
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_39-2026_GENERAL-ROY_JS_3S
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_39-2026_GENERAL
+    person: PERSON-ROY_JS_3S
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_40-NOMINEE_REPUBLICAN-2026_PRIMARY-CHIPPENDALE_MC_9T
   attributes:
     status: active
@@ -3246,6 +4470,18 @@ records:
       party: PARTY-USA-RI-REPUBLICAN
   references:
     race: RACE-USA-RI-HOUSE-HD_40-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-CHIPPENDALE_MC_9T
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_40-2026_GENERAL-CHIPPENDALE_MC_9T
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_40-2026_GENERAL
     person: PERSON-CHIPPENDALE_MC_9T
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_41-NOMINEE_DEMOCRATIC-2026_PRIMARY-SMITH_SH_6T
@@ -3272,6 +4508,30 @@ records:
     race: RACE-USA-RI-HOUSE-HD_41-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-RILEY_MC_7M
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_41-2026_GENERAL-SMITH_SH_6T
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_41-2026_GENERAL
+    person: PERSON-SMITH_SH_6T
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_41-2026_GENERAL-RILEY_MC_7M
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_41-2026_GENERAL
+    person: PERSON-RILEY_MC_7M
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_42-NOMINEE_DEMOCRATIC-2026_PRIMARY-STRAVATO_ED_9H
   attributes:
     status: active
@@ -3296,6 +4556,30 @@ records:
     race: RACE-USA-RI-HOUSE-HD_42-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-FASCIA_RC_4C
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_42-2026_GENERAL-STRAVATO_ED_9H
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_42-2026_GENERAL
+    person: PERSON-STRAVATO_ED_9H
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_42-2026_GENERAL-FASCIA_RC_4C
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_42-2026_GENERAL
+    person: PERSON-FASCIA_RC_4C
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_43-NOMINEE_DEMOCRATIC-2026_PRIMARY-FELLELA_DB_4G
   attributes:
     status: active
@@ -3306,6 +4590,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_43-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-FELLELA_DB_4G
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_43-2026_GENERAL-FELLELA_DB_4G
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_43-2026_GENERAL
     person: PERSON-FELLELA_DB_4G
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_44-NOMINEE_DEMOCRATIC-2026_PRIMARY-COSTANTINO_GR_4P
@@ -3332,6 +4628,30 @@ records:
     race: RACE-USA-RI-HOUSE-HD_44-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-HOSEY_JS_9Z
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_44-2026_GENERAL-COSTANTINO_GR_4P
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_44-2026_GENERAL
+    person: PERSON-COSTANTINO_GR_4P
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_44-2026_GENERAL-HOSEY_JS_9Z
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_44-2026_GENERAL
+    person: PERSON-HOSEY_JS_9Z
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_45-NOMINEE_DEMOCRATIC-2026_PRIMARY-ACKERMAN_MI_4T
   attributes:
     status: active
@@ -3342,6 +4662,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_45-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-ACKERMAN_MI_4T
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_45-2026_GENERAL-ACKERMAN_MI_4T
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_45-2026_GENERAL
     person: PERSON-ACKERMAN_MI_4T
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_46-NOMINEE_DEMOCRATIC-2026_PRIMARY-SMITH_MR_8L
@@ -3356,6 +4688,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_46-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-SMITH_MR_8L
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_46-2026_GENERAL-SMITH_MR_8L
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_46-2026_GENERAL
+    person: PERSON-SMITH_MR_8L
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_47-NOMINEE_REPUBLICAN-2026_PRIMARY-PLACE_DV_7Y
   attributes:
     status: active
@@ -3366,6 +4710,18 @@ records:
       party: PARTY-USA-RI-REPUBLICAN
   references:
     race: RACE-USA-RI-HOUSE-HD_47-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-PLACE_DV_7Y
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_47-2026_GENERAL-PLACE_DV_7Y
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_47-2026_GENERAL
     person: PERSON-PLACE_DV_7Y
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_48-NOMINEE_REPUBLICAN-2026_PRIMARY-NEWBERRY_BR_3P
@@ -3380,6 +4736,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_48-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-NEWBERRY_BR_3P
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_48-2026_GENERAL-NEWBERRY_BR_3P
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_48-2026_GENERAL
+    person: PERSON-NEWBERRY_BR_3P
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_49-NOMINEE_DEMOCRATIC-2026_PRIMARY-VEGA_VR_5E
   attributes:
     status: active
@@ -3390,6 +4758,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_49-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-VEGA_VR_5E
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_49-2026_GENERAL-VEGA_VR_5E
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_49-2026_GENERAL
     person: PERSON-VEGA_VR_5E
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_49-2026_GENERAL-BRIEN_JN_7G
@@ -3415,6 +4795,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_50-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-CASEY_ST_7X
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_50-2026_GENERAL-CASEY_ST_7X
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_50-2026_GENERAL
+    person: PERSON-CASEY_ST_7X
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_51-NOMINEE_DEMOCRATIC-2026_PRIMARY-PHILLIPS_RB_9M
   attributes:
     status: active
@@ -3427,6 +4819,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_51-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-PHILLIPS_RB_9M
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_51-2026_GENERAL-PHILLIPS_RB_9M
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_51-2026_GENERAL
+    person: PERSON-PHILLIPS_RB_9M
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_52-NOMINEE_DEMOCRATIC-2026_PRIMARY-MARSZALKOWSKI_AL_9J
   attributes:
     status: active
@@ -3437,6 +4841,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_52-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-MARSZALKOWSKI_AL_9J
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_52-2026_GENERAL-MARSZALKOWSKI_AL_9J
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_52-2026_GENERAL
     person: PERSON-MARSZALKOWSKI_AL_9J
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_53-NOMINEE_DEMOCRATIC-2026_PRIMARY-ALBA_SZ_8J
@@ -3463,6 +4879,30 @@ records:
     race: RACE-USA-RI-HOUSE-HD_53-NOMINEE_REPUBLICAN-2026_PRIMARY
     person: PERSON-SANTUCCI_PL_9S
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_53-2026_GENERAL-ALBA_SZ_8J
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_53-2026_GENERAL
+    person: PERSON-ALBA_SZ_8J
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_53-2026_GENERAL-SANTUCCI_PL_9S
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-RI-REPUBLICAN
+  references:
+    race: RACE-USA-RI-HOUSE-HD_53-2026_GENERAL
+    person: PERSON-SANTUCCI_PL_9S
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_54-NOMINEE_DEMOCRATIC-2026_PRIMARY-OBRIEN_WL_2R
   attributes:
     status: active
@@ -3473,6 +4913,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_54-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-OBRIEN_WL_2R
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_54-2026_GENERAL-OBRIEN_WL_2R
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_54-2026_GENERAL
     person: PERSON-OBRIEN_WL_2R
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_55-NOMINEE_DEMOCRATIC-2026_PRIMARY-CORVESE_AR_8K
@@ -3487,6 +4939,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_55-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-CORVESE_AR_8K
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_55-2026_GENERAL-CORVESE_AR_8K
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_55-2026_GENERAL
+    person: PERSON-CORVESE_AR_8K
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_56-NOMINEE_DEMOCRATIC-2026_PRIMARY-GIRALDO_JS_8P
   attributes:
     status: active
@@ -3497,6 +4961,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_56-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-GIRALDO_JS_8P
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_56-2026_GENERAL-GIRALDO_JS_8P
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_56-2026_GENERAL
     person: PERSON-GIRALDO_JS_8P
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_57-NOMINEE_DEMOCRATIC-2026_PRIMARY-VOAS_BR_7D
@@ -3523,6 +4999,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_57-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-MCLAUGHLIN_JM_9V
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_57-2026_GENERAL-VOAS_BR_7D
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_57-2026_GENERAL
+    person: PERSON-VOAS_BR_7D
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_58-NOMINEE_DEMOCRATIC-2026_PRIMARY-CRUZ_CH_8F
   attributes:
     status: active
@@ -3535,6 +5023,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_58-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-CRUZ_CH_8F
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_58-2026_GENERAL-CRUZ_CH_8F
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_58-2026_GENERAL
+    person: PERSON-CRUZ_CH_8F
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_59-NOMINEE_DEMOCRATIC-2026_PRIMARY-STEWART_JN_6A
   attributes:
     status: active
@@ -3545,6 +5045,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_59-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-STEWART_JN_6A
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_59-2026_GENERAL-STEWART_JN_6A
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_59-2026_GENERAL
     person: PERSON-STEWART_JN_6A
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_59-2026_GENERAL-BARROS_JN_9C
@@ -3568,6 +5080,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_60-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-ALZATE_KR_4X
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_60-2026_GENERAL-ALZATE_KR_4X
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_60-2026_GENERAL
     person: PERSON-ALZATE_KR_4X
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_61-NOMINEE_DEMOCRATIC-2026_PRIMARY-THEROUX_MR_4V
@@ -3594,6 +5118,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_61-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-FELIX_LN_8L
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_61-2026_GENERAL-FELIX_LN_8L
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_61-2026_GENERAL
+    person: PERSON-FELIX_LN_8L
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_62-NOMINEE_DEMOCRATIC-2026_PRIMARY-MESSIER_MR_2M
   attributes:
     status: active
@@ -3604,6 +5140,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_62-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-MESSIER_MR_2M
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_62-2026_GENERAL-MESSIER_MR_2M
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_62-2026_GENERAL
     person: PERSON-MESSIER_MR_2M
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_63-NOMINEE_DEMOCRATIC-2026_PRIMARY-KAZARIAN_KT_4Q
@@ -3618,6 +5166,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_63-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-KAZARIAN_KT_4Q
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_63-2026_GENERAL-KAZARIAN_KT_4Q
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_63-2026_GENERAL
+    person: PERSON-KAZARIAN_KT_4Q
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_64-NOMINEE_DEMOCRATIC-2026_PRIMARY-FURTADO_JN_5G
   attributes:
     status: active
@@ -3628,6 +5188,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_64-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-FURTADO_JN_5G
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_64-2026_GENERAL-FURTADO_JN_5G
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_64-2026_GENERAL
     person: PERSON-FURTADO_JN_5G
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_65-NOMINEE_DEMOCRATIC-2026_PRIMARY-DAWSON_MT_5R
@@ -3666,6 +5238,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_65-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-GERMAIN_CM_2N
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_65-2026_GENERAL-DAWSON_MT_5R
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_65-2026_GENERAL
+    person: PERSON-DAWSON_MT_5R
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_66-NOMINEE_DEMOCRATIC-2026_PRIMARY-BOYLAN_JN_6G
   attributes:
     status: active
@@ -3676,6 +5260,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_66-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-BOYLAN_JN_6G
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_66-2026_GENERAL-BOYLAN_JN_6G
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_66-2026_GENERAL
     person: PERSON-BOYLAN_JN_6G
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_67-NOMINEE_DEMOCRATIC-2026_PRIMARY-JELLINEK_NC_2J
@@ -3702,6 +5298,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_67-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-JARVAIS_RN_5D
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_67-2026_GENERAL-JELLINEK_NC_2J
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_67-2026_GENERAL
+    person: PERSON-JELLINEK_NC_2J
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_67-2026_GENERAL-DEPASQUALE_JS_2D
   attributes:
     status: active
@@ -3725,6 +5333,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_68-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-SPEAKMAN_JN_8R
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_68-2026_GENERAL-SPEAKMAN_JN_8R
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_68-2026_GENERAL
+    person: PERSON-SPEAKMAN_JN_8R
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_69-NOMINEE_DEMOCRATIC-2026_PRIMARY-DONOVAN_SS_3G
   attributes:
     status: active
@@ -3735,6 +5355,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_69-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-DONOVAN_SS_3G
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_69-2026_GENERAL-DONOVAN_SS_3G
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_69-2026_GENERAL
     person: PERSON-DONOVAN_SS_3G
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_70-NOMINEE_DEMOCRATIC-2026_PRIMARY-EDWARDS_JH_9V
@@ -3749,6 +5381,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_70-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-EDWARDS_JH_9V
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_70-2026_GENERAL-EDWARDS_JH_9V
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_70-2026_GENERAL
+    person: PERSON-EDWARDS_JH_9V
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_71-NOMINEE_DEMOCRATIC-2026_PRIMARY-MCGAW_MC_9F
   attributes:
     status: active
@@ -3759,6 +5403,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_71-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-MCGAW_MC_9F
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_71-2026_GENERAL-MCGAW_MC_9F
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_71-2026_GENERAL
     person: PERSON-MCGAW_MC_9F
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_72-NOMINEE_DEMOCRATIC-2026_PRIMARY-CORTVRIEND_TR_3R
@@ -3773,6 +5429,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_72-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-CORTVRIEND_TR_3R
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_72-2026_GENERAL-CORTVRIEND_TR_3R
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_72-2026_GENERAL
+    person: PERSON-CORTVRIEND_TR_3R
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_73-NOMINEE_DEMOCRATIC-2026_PRIMARY-ABNEY_MR_7W
   attributes:
     status: active
@@ -3783,6 +5451,18 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_73-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-ABNEY_MR_7W
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_73-2026_GENERAL-ABNEY_MR_7W
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_73-2026_GENERAL
     person: PERSON-ABNEY_MR_7W
 - type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_74-NOMINEE_DEMOCRATIC-2026_PRIMARY-FINKELMAN_AL_9R
@@ -3797,6 +5477,18 @@ records:
     race: RACE-USA-RI-HOUSE-HD_74-NOMINEE_DEMOCRATIC-2026_PRIMARY
     person: PERSON-FINKELMAN_AL_9R
 - type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_74-2026_GENERAL-FINKELMAN_AL_9R
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_74-2026_GENERAL
+    person: PERSON-FINKELMAN_AL_9R
+- type: Candidacy
   code: CANDIDACY-USA-RI-HOUSE-HD_75-NOMINEE_DEMOCRATIC-2026_PRIMARY-CARSON_LR_2L
   attributes:
     status: active
@@ -3807,4 +5499,16 @@ records:
       party: PARTY-USA-RI-DEMOCRATIC
   references:
     race: RACE-USA-RI-HOUSE-HD_75-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-CARSON_LR_2L
+- type: Candidacy
+  code: CANDIDACY-USA-RI-HOUSE-HD_75-2026_GENERAL-CARSON_LR_2L
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democrat
+      kind: party
+      party: PARTY-USA-RI-DEMOCRATIC
+  references:
+    race: RACE-USA-RI-HOUSE-HD_75-2026_GENERAL
     person: PERSON-CARSON_LR_2L
