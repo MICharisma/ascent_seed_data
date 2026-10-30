@@ -1,0 +1,1660 @@
+# New Hampshire 2026: Governor, Executive Council and State Senate offices and general races, plus a party-nomination office (POSITION-NOMINEE) and Sep 8 primary race for each party primary in the official results. Existing federal offices/races are referenced. State House not included (no source).
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.sos.nh.gov/elections/elections/election-results
+  captured_on: '2026-10-29'
+scope:
+  state: STATE-USA-NH
+records:
+- type: Office
+  code: OFFICE-USA-NH-GOVERNOR
+  attributes:
+    is_active: true
+  references:
+    position: POSITION-GOVERNOR
+    jurisdiction: STATE-USA-NH
+- type: Race
+  code: RACE-USA-NH-GOVERNOR-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Governor, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-2026_GENERAL
+    office: OFFICE-USA-NH-GOVERNOR
+- type: Office
+  code: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_1
+  attributes:
+    is_active: true
+    seat_code: EC_1
+  references:
+    position: POSITION-GOVERNORS_COUNCILLOR
+    jurisdiction: DISTRICT-USA-NH-EXECUTIVE_COUNCIL-EC_1
+- type: Race
+  code: RACE-USA-NH-EXECUTIVE_COUNCIL-EC_1-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Executive Council District 1, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-EXECUTIVE_COUNCIL-EC_1-2026_GENERAL
+    office: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_1
+- type: Office
+  code: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_2
+  attributes:
+    is_active: true
+    seat_code: EC_2
+  references:
+    position: POSITION-GOVERNORS_COUNCILLOR
+    jurisdiction: DISTRICT-USA-NH-EXECUTIVE_COUNCIL-EC_2
+- type: Race
+  code: RACE-USA-NH-EXECUTIVE_COUNCIL-EC_2-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Executive Council District 2, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-EXECUTIVE_COUNCIL-EC_2-2026_GENERAL
+    office: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_2
+- type: Office
+  code: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_3
+  attributes:
+    is_active: true
+    seat_code: EC_3
+  references:
+    position: POSITION-GOVERNORS_COUNCILLOR
+    jurisdiction: DISTRICT-USA-NH-EXECUTIVE_COUNCIL-EC_3
+- type: Race
+  code: RACE-USA-NH-EXECUTIVE_COUNCIL-EC_3-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Executive Council District 3, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-EXECUTIVE_COUNCIL-EC_3-2026_GENERAL
+    office: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_3
+- type: Office
+  code: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_4
+  attributes:
+    is_active: true
+    seat_code: EC_4
+  references:
+    position: POSITION-GOVERNORS_COUNCILLOR
+    jurisdiction: DISTRICT-USA-NH-EXECUTIVE_COUNCIL-EC_4
+- type: Race
+  code: RACE-USA-NH-EXECUTIVE_COUNCIL-EC_4-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Executive Council District 4, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-EXECUTIVE_COUNCIL-EC_4-2026_GENERAL
+    office: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_4
+- type: Office
+  code: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_5
+  attributes:
+    is_active: true
+    seat_code: EC_5
+  references:
+    position: POSITION-GOVERNORS_COUNCILLOR
+    jurisdiction: DISTRICT-USA-NH-EXECUTIVE_COUNCIL-EC_5
+- type: Race
+  code: RACE-USA-NH-EXECUTIVE_COUNCIL-EC_5-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Executive Council District 5, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-EXECUTIVE_COUNCIL-EC_5-2026_GENERAL
+    office: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_5
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_1
+  attributes:
+    is_active: true
+    seat_code: SD_1
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_1
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_1-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 1, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_1-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_1
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_2
+  attributes:
+    is_active: true
+    seat_code: SD_2
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_2
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_2-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 2, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_2-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_2
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_3
+  attributes:
+    is_active: true
+    seat_code: SD_3
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_3
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_3-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 3, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_3-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_3
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_4
+  attributes:
+    is_active: true
+    seat_code: SD_4
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_4
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_4-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 4, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_4-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_4
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_5
+  attributes:
+    is_active: true
+    seat_code: SD_5
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_5
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_5-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 5, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_5-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_5
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_6
+  attributes:
+    is_active: true
+    seat_code: SD_6
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_6
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_6-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 6, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_6-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_6
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_7
+  attributes:
+    is_active: true
+    seat_code: SD_7
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_7
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_7-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 7, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_7-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_7
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_8
+  attributes:
+    is_active: true
+    seat_code: SD_8
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_8
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_8-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 8, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_8-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_8
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_9
+  attributes:
+    is_active: true
+    seat_code: SD_9
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_9
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_9-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 9, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_9-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_9
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_10
+  attributes:
+    is_active: true
+    seat_code: SD_10
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_10
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_10-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 10, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_10-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_10
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_11
+  attributes:
+    is_active: true
+    seat_code: SD_11
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_11
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_11-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 11, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_11-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_11
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_12
+  attributes:
+    is_active: true
+    seat_code: SD_12
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_12
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_12-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 12, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_12-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_12
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_13
+  attributes:
+    is_active: true
+    seat_code: SD_13
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_13
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_13-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 13, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_13-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_13
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_14
+  attributes:
+    is_active: true
+    seat_code: SD_14
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_14
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_14-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 14, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_14-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_14
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_15
+  attributes:
+    is_active: true
+    seat_code: SD_15
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_15
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_15-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 15, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_15-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_15
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_16
+  attributes:
+    is_active: true
+    seat_code: SD_16
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_16
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_16-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 16, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_16-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_16
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_17
+  attributes:
+    is_active: true
+    seat_code: SD_17
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_17
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_17-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 17, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_17-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_17
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_18
+  attributes:
+    is_active: true
+    seat_code: SD_18
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_18
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_18-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 18, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_18-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_18
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_19
+  attributes:
+    is_active: true
+    seat_code: SD_19
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_19
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_19-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 19, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_19-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_19
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_20
+  attributes:
+    is_active: true
+    seat_code: SD_20
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_20
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_20-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 20, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_20-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_20
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_21
+  attributes:
+    is_active: true
+    seat_code: SD_21
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_21
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_21-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 21, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_21-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_21
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_22
+  attributes:
+    is_active: true
+    seat_code: SD_22
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_22
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_22-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 22, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_22-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_22
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_23
+  attributes:
+    is_active: true
+    seat_code: SD_23
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_23
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_23-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 23, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_23-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_23
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_24
+  attributes:
+    is_active: true
+    seat_code: SD_24
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_24
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_24-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senator District 24, Nov 3, 2026. Candidates: each party''s nominee per the Secretary of State official Sep 8, 2026 state primary results (the plurality leader among that party''s candidates). The SoS general-election candidate list was not available (www.sos.nh.gov candidate pages returned 403), so other general-ballot candidates (independents, minor parties) are not included.'
+  references:
+    election: ELECTION-USA-NH-SENATE-SD_24-2026_GENERAL
+    office: OFFICE-USA-NH-SENATE-SD_24
+- type: Office
+  code: OFFICE-USA-NH-GOVERNOR-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NH
+    nominee_for: OFFICE-USA-NH-GOVERNOR
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-GOVERNOR-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for Governor, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-GOVERNOR-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-GOVERNOR-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NH
+    nominee_for: OFFICE-USA-NH-GOVERNOR
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-GOVERNOR-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for Governor, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-GOVERNOR-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATOR-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NH
+    nominee_for: OFFICE-USA-NH-SENATOR
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for United States Senator, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATOR-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATOR-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NH
+    nominee_for: OFFICE-USA-NH-SENATOR
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATOR-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for United States Senator, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATOR-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-CONGRESS-CD_1-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-CONGRESS-CD_1
+    nominee_for: OFFICE-USA-NH-CONGRESS-CD_1
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-CONGRESS-CD_1-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for U.S. House District 1, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-CONGRESS-CD_1-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-CONGRESS-CD_1-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-CONGRESS-CD_1
+    nominee_for: OFFICE-USA-NH-CONGRESS-CD_1
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-CONGRESS-CD_1-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for U.S. House District 1, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-CONGRESS-CD_1-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-CONGRESS-CD_2-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-CONGRESS-CD_2
+    nominee_for: OFFICE-USA-NH-CONGRESS-CD_2
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-CONGRESS-CD_2-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for U.S. House District 2, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-CONGRESS-CD_2-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-CONGRESS-CD_2-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-CONGRESS-CD_2
+    nominee_for: OFFICE-USA-NH-CONGRESS-CD_2
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-CONGRESS-CD_2-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for U.S. House District 2, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-CONGRESS-CD_2-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_1-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-EXECUTIVE_COUNCIL-EC_1
+    nominee_for: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_1
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-EXECUTIVE_COUNCIL-EC_1-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for Executive Council District 1, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_1-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_1-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-EXECUTIVE_COUNCIL-EC_1
+    nominee_for: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_1
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-EXECUTIVE_COUNCIL-EC_1-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for Executive Council District 1, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_1-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_2-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-EXECUTIVE_COUNCIL-EC_2
+    nominee_for: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_2
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-EXECUTIVE_COUNCIL-EC_2-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for Executive Council District 2, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_2-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_2-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-EXECUTIVE_COUNCIL-EC_2
+    nominee_for: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_2
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-EXECUTIVE_COUNCIL-EC_2-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for Executive Council District 2, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_2-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_3-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-EXECUTIVE_COUNCIL-EC_3
+    nominee_for: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_3
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-EXECUTIVE_COUNCIL-EC_3-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for Executive Council District 3, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_3-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_3-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-EXECUTIVE_COUNCIL-EC_3
+    nominee_for: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_3
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-EXECUTIVE_COUNCIL-EC_3-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for Executive Council District 3, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_3-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_4-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-EXECUTIVE_COUNCIL-EC_4
+    nominee_for: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_4
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-EXECUTIVE_COUNCIL-EC_4-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for Executive Council District 4, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_4-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_4-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-EXECUTIVE_COUNCIL-EC_4
+    nominee_for: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_4
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-EXECUTIVE_COUNCIL-EC_4-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for Executive Council District 4, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_4-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_5-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-EXECUTIVE_COUNCIL-EC_5
+    nominee_for: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_5
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-EXECUTIVE_COUNCIL-EC_5-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for Executive Council District 5, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_5-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_5-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-EXECUTIVE_COUNCIL-EC_5
+    nominee_for: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_5
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-EXECUTIVE_COUNCIL-EC_5-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for Executive Council District 5, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-EXECUTIVE_COUNCIL-EC_5-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_1-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_1
+    nominee_for: OFFICE-USA-NH-SENATE-SD_1
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_1-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 1, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_1-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_1-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_1
+    nominee_for: OFFICE-USA-NH-SENATE-SD_1
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_1-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 1, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_1-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_2-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_2
+    nominee_for: OFFICE-USA-NH-SENATE-SD_2
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_2-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 2, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_2-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_2-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_2
+    nominee_for: OFFICE-USA-NH-SENATE-SD_2
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_2-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 2, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_2-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_3-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_3
+    nominee_for: OFFICE-USA-NH-SENATE-SD_3
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_3-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 3, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_3-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_3-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_3
+    nominee_for: OFFICE-USA-NH-SENATE-SD_3
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_3-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 3, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_3-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_4-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_4
+    nominee_for: OFFICE-USA-NH-SENATE-SD_4
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_4-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 4, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_4-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_4-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_4
+    nominee_for: OFFICE-USA-NH-SENATE-SD_4
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_4-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 4, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_4-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_5-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_5
+    nominee_for: OFFICE-USA-NH-SENATE-SD_5
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_5-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 5, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_5-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_5-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_5
+    nominee_for: OFFICE-USA-NH-SENATE-SD_5
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_5-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 5, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_5-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_6-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_6
+    nominee_for: OFFICE-USA-NH-SENATE-SD_6
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_6-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 6, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_6-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_6-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_6
+    nominee_for: OFFICE-USA-NH-SENATE-SD_6
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_6-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 6, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_6-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_7-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_7
+    nominee_for: OFFICE-USA-NH-SENATE-SD_7
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_7-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 7, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_7-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_7-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_7
+    nominee_for: OFFICE-USA-NH-SENATE-SD_7
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_7-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 7, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_7-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_8-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_8
+    nominee_for: OFFICE-USA-NH-SENATE-SD_8
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_8-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 8, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_8-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_8-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_8
+    nominee_for: OFFICE-USA-NH-SENATE-SD_8
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_8-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 8, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_8-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_9-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_9
+    nominee_for: OFFICE-USA-NH-SENATE-SD_9
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_9-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 9, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_9-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_9-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_9
+    nominee_for: OFFICE-USA-NH-SENATE-SD_9
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_9-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 9, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_9-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_10-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_10
+    nominee_for: OFFICE-USA-NH-SENATE-SD_10
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_10-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 10, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_10-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_11-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_11
+    nominee_for: OFFICE-USA-NH-SENATE-SD_11
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_11-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 11, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_11-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_11-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_11
+    nominee_for: OFFICE-USA-NH-SENATE-SD_11
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_11-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 11, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_11-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_12-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_12
+    nominee_for: OFFICE-USA-NH-SENATE-SD_12
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_12-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 12, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_12-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_12-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_12
+    nominee_for: OFFICE-USA-NH-SENATE-SD_12
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_12-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 12, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_12-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_13-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_13
+    nominee_for: OFFICE-USA-NH-SENATE-SD_13
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_13-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 13, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_13-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_13-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_13
+    nominee_for: OFFICE-USA-NH-SENATE-SD_13
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_13-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 13, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_13-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_14-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_14
+    nominee_for: OFFICE-USA-NH-SENATE-SD_14
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_14-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 14, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_14-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_14-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_14
+    nominee_for: OFFICE-USA-NH-SENATE-SD_14
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_14-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 14, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_14-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_15-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_15
+    nominee_for: OFFICE-USA-NH-SENATE-SD_15
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_15-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 15, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_15-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_15-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_15
+    nominee_for: OFFICE-USA-NH-SENATE-SD_15
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_15-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 15, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_15-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_16-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_16
+    nominee_for: OFFICE-USA-NH-SENATE-SD_16
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_16-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 16, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_16-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_16-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_16
+    nominee_for: OFFICE-USA-NH-SENATE-SD_16
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_16-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 16, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_16-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_17-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_17
+    nominee_for: OFFICE-USA-NH-SENATE-SD_17
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_17-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 17, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_17-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_17-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_17
+    nominee_for: OFFICE-USA-NH-SENATE-SD_17
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_17-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 17, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_17-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_18-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_18
+    nominee_for: OFFICE-USA-NH-SENATE-SD_18
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_18-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 18, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_18-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_18-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_18
+    nominee_for: OFFICE-USA-NH-SENATE-SD_18
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_18-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 18, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_18-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_19-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_19
+    nominee_for: OFFICE-USA-NH-SENATE-SD_19
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_19-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 19, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_19-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_19-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_19
+    nominee_for: OFFICE-USA-NH-SENATE-SD_19
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_19-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 19, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_19-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_20-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_20
+    nominee_for: OFFICE-USA-NH-SENATE-SD_20
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_20-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 20, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_20-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_20-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_20
+    nominee_for: OFFICE-USA-NH-SENATE-SD_20
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_20-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 20, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_20-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_21-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_21
+    nominee_for: OFFICE-USA-NH-SENATE-SD_21
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_21-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 21, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_21-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_21-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_21
+    nominee_for: OFFICE-USA-NH-SENATE-SD_21
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_21-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 21, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_21-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_22-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_22
+    nominee_for: OFFICE-USA-NH-SENATE-SD_22
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_22-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 22, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_22-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_22-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_22
+    nominee_for: OFFICE-USA-NH-SENATE-SD_22
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_22-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 22, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_22-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_23-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_23
+    nominee_for: OFFICE-USA-NH-SENATE-SD_23
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_23-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 23, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_23-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_23-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_23
+    nominee_for: OFFICE-USA-NH-SENATE-SD_23
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_23-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 23, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_23-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_24-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_24
+    nominee_for: OFFICE-USA-NH-SENATE-SD_24
+    nominating_organization: PARTY-USA-NH-REPUBLICAN
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_24-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Senator District 24, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_24-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NH-SENATE-SD_24-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NH-SENATE-SD_24
+    nominee_for: OFFICE-USA-NH-SENATE-SD_24
+    nominating_organization: PARTY-USA-NH-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NH-SENATE-SD_24-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Senator District 24, Sep 8, 2026 state primary. Candidates and vote totals per the Secretary of State official primary results (https://www.sos.nh.gov/elections/elections/election-results); nominee = the plurality leader among this party's candidates in those results.
+  references:
+    election: ELECTION-USA-NH-2026_PRIMARY
+    office: OFFICE-USA-NH-SENATE-SD_24-NOMINEE_DEMOCRATIC
