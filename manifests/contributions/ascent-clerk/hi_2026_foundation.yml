@@ -1,0 +1,816 @@
+# Hawaii 2026: parties and the State Senate and House districts with a 2026 contest, each with its Nov 3, 2026 election where a general contest remains.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://olvr.hawaii.gov/Controls/CandidateFiling.aspx?elid=94
+  captured_on: '2026-10-29'
+scope:
+  state: STATE-USA-HI
+records:
+- type: Party
+  code: PARTY-USA-HI-DEMOCRATIC
+  attributes:
+    name: Democratic
+  references:
+    state: STATE-USA-HI
+- type: Party
+  code: PARTY-USA-HI-REPUBLICAN
+  attributes:
+    name: Republican
+  references:
+    state: STATE-USA-HI
+- type: Party
+  code: PARTY-USA-HI-LIBERTARIAN
+  attributes:
+    name: Libertarian
+  references:
+    state: STATE-USA-HI
+- type: Party
+  code: PARTY-USA-HI-GREEN
+  attributes:
+    name: Green
+  references:
+    state: STATE-USA-HI
+- type: District
+  code: DISTRICT-USA-HI-SENATE-SD_2
+  attributes:
+    name: Hawaii Senate District 2
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-HI-SENATE-SD_2-2026_GENERAL
+  attributes:
+    name: Hawaii Senate District 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-SENATE-SD_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-SENATE-SD_5
+  attributes:
+    name: Hawaii Senate District 5
+    kind: state senate district
+- type: District
+  code: DISTRICT-USA-HI-SENATE-SD_8
+  attributes:
+    name: Hawaii Senate District 8
+    kind: state senate district
+- type: District
+  code: DISTRICT-USA-HI-SENATE-SD_9
+  attributes:
+    name: Hawaii Senate District 9
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-HI-SENATE-SD_9-2026_GENERAL
+  attributes:
+    name: Hawaii Senate District 9 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-SENATE-SD_9
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-SENATE-SD_10
+  attributes:
+    name: Hawaii Senate District 10
+    kind: state senate district
+- type: District
+  code: DISTRICT-USA-HI-SENATE-SD_11
+  attributes:
+    name: Hawaii Senate District 11
+    kind: state senate district
+- type: District
+  code: DISTRICT-USA-HI-SENATE-SD_13
+  attributes:
+    name: Hawaii Senate District 13
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-HI-SENATE-SD_13-2026_GENERAL
+  attributes:
+    name: Hawaii Senate District 13 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-SENATE-SD_13
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-SENATE-SD_14
+  attributes:
+    name: Hawaii Senate District 14
+    kind: state senate district
+- type: District
+  code: DISTRICT-USA-HI-SENATE-SD_15
+  attributes:
+    name: Hawaii Senate District 15
+    kind: state senate district
+- type: District
+  code: DISTRICT-USA-HI-SENATE-SD_17
+  attributes:
+    name: Hawaii Senate District 17
+    kind: state senate district
+- type: District
+  code: DISTRICT-USA-HI-SENATE-SD_18
+  attributes:
+    name: Hawaii Senate District 18
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-HI-SENATE-SD_18-2026_GENERAL
+  attributes:
+    name: Hawaii Senate District 18 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-SENATE-SD_18
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-SENATE-SD_19
+  attributes:
+    name: Hawaii Senate District 19
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-HI-SENATE-SD_19-2026_GENERAL
+  attributes:
+    name: Hawaii Senate District 19 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-SENATE-SD_19
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-SENATE-SD_20
+  attributes:
+    name: Hawaii Senate District 20
+    kind: state senate district
+- type: Election
+  code: ELECTION-USA-HI-SENATE-SD_20-2026_GENERAL
+  attributes:
+    name: Hawaii Senate District 20 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-SENATE-SD_20
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-SENATE-SD_21
+  attributes:
+    name: Hawaii Senate District 21
+    kind: state senate district
+- type: District
+  code: DISTRICT-USA-HI-SENATE-SD_25
+  attributes:
+    name: Hawaii Senate District 25
+    kind: state senate district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_1
+  attributes:
+    name: Hawaii House District 1
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_2
+  attributes:
+    name: Hawaii House District 2
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_2-2026_GENERAL
+  attributes:
+    name: Hawaii House District 2 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_2
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_3
+  attributes:
+    name: Hawaii House District 3
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_3-2026_GENERAL
+  attributes:
+    name: Hawaii House District 3 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_3
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_4
+  attributes:
+    name: Hawaii House District 4
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_4-2026_GENERAL
+  attributes:
+    name: Hawaii House District 4 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_4
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_5
+  attributes:
+    name: Hawaii House District 5
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_5-2026_GENERAL
+  attributes:
+    name: Hawaii House District 5 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_5
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_6
+  attributes:
+    name: Hawaii House District 6
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_7
+  attributes:
+    name: Hawaii House District 7
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_8
+  attributes:
+    name: Hawaii House District 8
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_8-2026_GENERAL
+  attributes:
+    name: Hawaii House District 8 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_8
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_9
+  attributes:
+    name: Hawaii House District 9
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_10
+  attributes:
+    name: Hawaii House District 10
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_10-2026_GENERAL
+  attributes:
+    name: Hawaii House District 10 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_10
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_11
+  attributes:
+    name: Hawaii House District 11
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_11-2026_GENERAL
+  attributes:
+    name: Hawaii House District 11 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_11
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_12
+  attributes:
+    name: Hawaii House District 12
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_12-2026_GENERAL
+  attributes:
+    name: Hawaii House District 12 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_12
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_13
+  attributes:
+    name: Hawaii House District 13
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_13-2026_GENERAL
+  attributes:
+    name: Hawaii House District 13 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_13
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_14
+  attributes:
+    name: Hawaii House District 14
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_14-2026_GENERAL
+  attributes:
+    name: Hawaii House District 14 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_14
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_15
+  attributes:
+    name: Hawaii House District 15
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_16
+  attributes:
+    name: Hawaii House District 16
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_16-2026_GENERAL
+  attributes:
+    name: Hawaii House District 16 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_16
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_17
+  attributes:
+    name: Hawaii House District 17
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_17-2026_GENERAL
+  attributes:
+    name: Hawaii House District 17 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_17
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_18
+  attributes:
+    name: Hawaii House District 18
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_18-2026_GENERAL
+  attributes:
+    name: Hawaii House District 18 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_18
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_19
+  attributes:
+    name: Hawaii House District 19
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_20
+  attributes:
+    name: Hawaii House District 20
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_20-2026_GENERAL
+  attributes:
+    name: Hawaii House District 20 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_20
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_21
+  attributes:
+    name: Hawaii House District 21
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_22
+  attributes:
+    name: Hawaii House District 22
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_23
+  attributes:
+    name: Hawaii House District 23
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_23-2026_GENERAL
+  attributes:
+    name: Hawaii House District 23 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_23
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_24
+  attributes:
+    name: Hawaii House District 24
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_25
+  attributes:
+    name: Hawaii House District 25
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_26
+  attributes:
+    name: Hawaii House District 26
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_26-2026_GENERAL
+  attributes:
+    name: Hawaii House District 26 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_26
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_27
+  attributes:
+    name: Hawaii House District 27
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_28
+  attributes:
+    name: Hawaii House District 28
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_29
+  attributes:
+    name: Hawaii House District 29
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_29-2026_GENERAL
+  attributes:
+    name: Hawaii House District 29 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_29
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_30
+  attributes:
+    name: Hawaii House District 30
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_30-2026_GENERAL
+  attributes:
+    name: Hawaii House District 30 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_30
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_31
+  attributes:
+    name: Hawaii House District 31
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_31-2026_GENERAL
+  attributes:
+    name: Hawaii House District 31 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_31
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_32
+  attributes:
+    name: Hawaii House District 32
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_32-2026_GENERAL
+  attributes:
+    name: Hawaii House District 32 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_32
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_33
+  attributes:
+    name: Hawaii House District 33
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_34
+  attributes:
+    name: Hawaii House District 34
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_34-2026_GENERAL
+  attributes:
+    name: Hawaii House District 34 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_34
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_35
+  attributes:
+    name: Hawaii House District 35
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_36
+  attributes:
+    name: Hawaii House District 36
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_37
+  attributes:
+    name: Hawaii House District 37
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_38
+  attributes:
+    name: Hawaii House District 38
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_39
+  attributes:
+    name: Hawaii House District 39
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_39-2026_GENERAL
+  attributes:
+    name: Hawaii House District 39 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_39
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_40
+  attributes:
+    name: Hawaii House District 40
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_40-2026_GENERAL
+  attributes:
+    name: Hawaii House District 40 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_40
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_41
+  attributes:
+    name: Hawaii House District 41
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_42
+  attributes:
+    name: Hawaii House District 42
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_42-2026_GENERAL
+  attributes:
+    name: Hawaii House District 42 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_42
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_43
+  attributes:
+    name: Hawaii House District 43
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_43-2026_GENERAL
+  attributes:
+    name: Hawaii House District 43 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_43
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_44
+  attributes:
+    name: Hawaii House District 44
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_44-2026_GENERAL
+  attributes:
+    name: Hawaii House District 44 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_44
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_45
+  attributes:
+    name: Hawaii House District 45
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_45-2026_GENERAL
+  attributes:
+    name: Hawaii House District 45 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_45
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_46
+  attributes:
+    name: Hawaii House District 46
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_46-2026_GENERAL
+  attributes:
+    name: Hawaii House District 46 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_46
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_47
+  attributes:
+    name: Hawaii House District 47
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_47-2026_GENERAL
+  attributes:
+    name: Hawaii House District 47 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_47
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_48
+  attributes:
+    name: Hawaii House District 48
+    kind: state house district
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_49
+  attributes:
+    name: Hawaii House District 49
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_49-2026_GENERAL
+  attributes:
+    name: Hawaii House District 49 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_49
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_50
+  attributes:
+    name: Hawaii House District 50
+    kind: state house district
+- type: Election
+  code: ELECTION-USA-HI-HOUSE-HD_50-2026_GENERAL
+  attributes:
+    name: Hawaii House District 50 General Election 2026
+    kind: general
+    election_date: '2026-11-03'
+    status: upcoming
+    is_mock: false
+    is_historical: false
+  references:
+    jurisdiction: DISTRICT-USA-HI-HOUSE-HD_50
+    year: YEAR-2026
+- type: District
+  code: DISTRICT-USA-HI-HOUSE-HD_51
+  attributes:
+    name: Hawaii House District 51
+    kind: state house district
+- type: Organization
+  code: ORGANIZATION-USA-HI-NONPARTISAN_PRIMARY
+  attributes:
+    name: Hawaii Nonpartisan Primary
+    kind: nonpartisan_primary
+  references:
+    state: STATE-USA-HI

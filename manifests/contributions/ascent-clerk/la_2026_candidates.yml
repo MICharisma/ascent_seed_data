@@ -1,0 +1,377 @@
+# Louisiana 2026: people and candidacies per the Louisiana Secretary of State official candidate lists. Party labels as printed. No winner, incumbency or vote total is recorded. General candidates already in the repo (federal/statewide files) are reused unchanged.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://voterportal.sos.la.gov/CandidateInquiry?electionDate=20261103
+  captured_on: '2026-10-29'
+scope:
+  state: STATE-USA-LA
+records:
+- type: Person
+  code: PERSON-COOPER_WL_3C
+  attributes:
+    username: cooper_wl_3c
+    username_status: provisional
+    first_name: Wallace
+    last_name: Cooper
+- type: Person
+  code: PERSON-HILFERTY_ST_9B
+  attributes:
+    username: hilferty_st_9b
+    username_status: provisional
+    first_name: Stephanie
+    last_name: Hilferty
+- type: Person
+  code: PERSON-MASON_BG_8R
+  attributes:
+    username: mason_bg_8r
+    username_status: provisional
+    first_name: Big John
+    last_name: Mason
+- type: Person
+  code: PERSON-WRIGHT_MR_7D
+  attributes:
+    username: wright_mr_7d
+    username_status: provisional
+    first_name: Mark
+    last_name: Wright
+- type: Person
+  code: PERSON-YOUNG_JH_8C
+  attributes:
+    username: young_jh_8c
+    username_status: provisional
+    first_name: John
+    last_name: Young
+- type: Person
+  code: PERSON-GREEN_JM_6X
+  attributes:
+    username: green_jm_6x
+    username_status: provisional
+    first_name: James
+    middle_name: Edward
+    last_name: Green
+- type: Person
+  code: PERSON-LAWSON_AS_8Z
+  attributes:
+    username: lawson_as_8z
+    username_status: provisional
+    first_name: Austin
+    last_name: Lawson
+- type: Person
+  code: PERSON-ATKINS_JH_9M
+  attributes:
+    username: atkins_jh_9m
+    username_status: provisional
+    first_name: John
+    middle_name: E.
+    last_name: Atkins
+- type: Person
+  code: PERSON-JOYNER_AD_3B
+  attributes:
+    username: joyner_ad_3b
+    username_status: provisional
+    first_name: Aiden
+    middle_name: C.
+    last_name: Joyner
+- type: Person
+  code: PERSON-ALBARES_NC_8X
+  attributes:
+    username: albares_nc_8x
+    username_status: provisional
+    first_name: Nicholas
+    last_name: Albares
+- type: Person
+  code: PERSON-CROCKETT_GR_8S
+  attributes:
+    username: crockett_gr_8s
+    username_status: provisional
+    first_name: Gary
+    last_name: Crockett
+- type: Person
+  code: PERSON-CASSIDY_BL_8T
+  attributes:
+    username: cassidy_bl_8t
+    username_status: provisional
+    first_name: Bill
+    last_name: Cassidy
+- type: Person
+  code: PERSON-FLEMING_JH_5K
+  attributes:
+    username: fleming_jh_5k
+    username_status: provisional
+    first_name: John
+    last_name: Fleming
+- type: Person
+  code: PERSON-SPENCER_MR_2S
+  attributes:
+    username: spencer_mr_2s
+    username_status: provisional
+    first_name: Mark
+    last_name: Spencer
+- type: Person
+  code: PERSON-JUSTIN_CH_6Z
+  attributes:
+    username: justin_ch_6z
+    username_status: provisional
+    first_name: Christopher
+    last_name: Justin
+- type: Person
+  code: PERSON-NORRIS_CN_5V
+  attributes:
+    username: norris_cn_5v
+    username_status: provisional
+    first_name: Connie
+    last_name: Norris
+- type: Candidacy
+  code: CANDIDACY-USA-LA-SENATOR-NOMINEE_DEMOCRATIC-2026_PRIMARY-ALBARES_NC_8X
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democratic
+      kind: party
+      party: PARTY-USA-LA-DEMOCRATIC
+  references:
+    race: RACE-USA-LA-SENATOR-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-ALBARES_NC_8X
+- type: Candidacy
+  code: CANDIDACY-USA-LA-SENATOR-NOMINEE_DEMOCRATIC-2026_PRIMARY-CROCKETT_GR_8S
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democratic
+      kind: party
+      party: PARTY-USA-LA-DEMOCRATIC
+  references:
+    race: RACE-USA-LA-SENATOR-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-CROCKETT_GR_8S
+- type: Candidacy
+  code: CANDIDACY-USA-LA-SENATOR-NOMINEE_DEMOCRATIC-2026_PRIMARY-DAVIS_DV_9D
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democratic
+      kind: party
+      party: PARTY-USA-LA-DEMOCRATIC
+  references:
+    race: RACE-USA-LA-SENATOR-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-DAVIS_DV_9D
+- type: Candidacy
+  code: CANDIDACY-USA-LA-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY-CASSIDY_BL_8T
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-LA-REPUBLICAN
+  references:
+    race: RACE-USA-LA-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-CASSIDY_BL_8T
+- type: Candidacy
+  code: CANDIDACY-USA-LA-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY-FLEMING_JH_5K
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-LA-REPUBLICAN
+  references:
+    race: RACE-USA-LA-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-FLEMING_JH_5K
+- type: Candidacy
+  code: CANDIDACY-USA-LA-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY-LETLOW_JL_9E
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-LA-REPUBLICAN
+  references:
+    race: RACE-USA-LA-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-LETLOW_JL_9E
+- type: Candidacy
+  code: CANDIDACY-USA-LA-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY-SPENCER_MR_2S
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-LA-REPUBLICAN
+  references:
+    race: RACE-USA-LA-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-SPENCER_MR_2S
+- type: Candidacy
+  code: CANDIDACY-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-NOMINEE_REPUBLICAN-2026_PRIMARY-COOPER_WL_3C
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-LA-REPUBLICAN
+  references:
+    race: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-COOPER_WL_3C
+- type: Candidacy
+  code: CANDIDACY-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-NOMINEE_REPUBLICAN-2026_PRIMARY-HILFERTY_ST_9B
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-LA-REPUBLICAN
+  references:
+    race: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-HILFERTY_ST_9B
+- type: Candidacy
+  code: CANDIDACY-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-NOMINEE_REPUBLICAN-2026_PRIMARY-MASON_BG_8R
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-LA-REPUBLICAN
+  references:
+    race: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-MASON_BG_8R
+- type: Candidacy
+  code: CANDIDACY-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-NOMINEE_REPUBLICAN-2026_PRIMARY-WRIGHT_MR_7D
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-LA-REPUBLICAN
+  references:
+    race: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-WRIGHT_MR_7D
+- type: Candidacy
+  code: CANDIDACY-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-NOMINEE_REPUBLICAN-2026_PRIMARY-YOUNG_JH_8C
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-LA-REPUBLICAN
+  references:
+    race: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-YOUNG_JH_8C
+- type: Candidacy
+  code: CANDIDACY-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-2026_GENERAL-HILFERTY_ST_9B
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-LA-REPUBLICAN
+  references:
+    race: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-2026_GENERAL
+    person: PERSON-HILFERTY_ST_9B
+- type: Candidacy
+  code: CANDIDACY-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-2026_GENERAL-JUSTIN_CH_6Z
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: No Party
+      kind: designation
+  references:
+    race: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-2026_GENERAL
+    person: PERSON-JUSTIN_CH_6Z
+- type: Candidacy
+  code: CANDIDACY-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-2026_GENERAL-NORRIS_CN_5V
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democratic
+      kind: party
+      party: PARTY-USA-LA-DEMOCRATIC
+  references:
+    race: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_1-2026_GENERAL
+    person: PERSON-NORRIS_CN_5V
+- type: Candidacy
+  code: CANDIDACY-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-NOMINEE_DEMOCRATIC-2026_PRIMARY-GREEN_JM_6X
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democratic
+      kind: party
+      party: PARTY-USA-LA-DEMOCRATIC
+  references:
+    race: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-GREEN_JM_6X
+- type: Candidacy
+  code: CANDIDACY-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-NOMINEE_DEMOCRATIC-2026_PRIMARY-LAWSON_AS_8Z
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democratic
+      kind: party
+      party: PARTY-USA-LA-DEMOCRATIC
+  references:
+    race: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-NOMINEE_DEMOCRATIC-2026_PRIMARY
+    person: PERSON-LAWSON_AS_8Z
+- type: Candidacy
+  code: CANDIDACY-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-NOMINEE_REPUBLICAN-2026_PRIMARY-ATKINS_JH_9M
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-LA-REPUBLICAN
+  references:
+    race: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-ATKINS_JH_9M
+- type: Candidacy
+  code: CANDIDACY-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-NOMINEE_REPUBLICAN-2026_PRIMARY-JOYNER_AD_3B
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-LA-REPUBLICAN
+  references:
+    race: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-NOMINEE_REPUBLICAN-2026_PRIMARY
+    person: PERSON-JOYNER_AD_3B
+- type: Candidacy
+  code: CANDIDACY-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-2026_GENERAL-GREEN_JM_6X
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Democratic
+      kind: party
+      party: PARTY-USA-LA-DEMOCRATIC
+  references:
+    race: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-2026_GENERAL
+    person: PERSON-GREEN_JM_6X
+- type: Candidacy
+  code: CANDIDACY-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-2026_GENERAL-ATKINS_JH_9M
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-LA-REPUBLICAN
+  references:
+    race: RACE-USA-LA-PUBLIC_SERVICE_COMMISSION-PSC_5-2026_GENERAL
+    person: PERSON-ATKINS_JH_9M

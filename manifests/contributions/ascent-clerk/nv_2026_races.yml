@@ -1,0 +1,1702 @@
+# Nevada 2026: Governor and state Senate/Assembly offices and general races, plus a party nomination office and Jun 9 primary race for each contest on the official certified primary list (existing statewide and US House offices reused).
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://www.nvsos.gov/sos/elections/election-information/2026-election-information
+  captured_on: '2026-10-29'
+scope:
+  state: STATE-USA-NV
+records:
+- type: Office
+  code: OFFICE-USA-NV-GOVERNOR
+  attributes:
+    is_active: true
+  references:
+    position: POSITION-GOVERNOR
+    jurisdiction: STATE-USA-NV
+- type: Race
+  code: RACE-USA-NV-GOVERNOR-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Governor, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-2026_GENERAL
+    office: OFFICE-USA-NV-GOVERNOR
+- type: Office
+  code: OFFICE-USA-NV-SENATE-SD_2
+  attributes:
+    is_active: true
+    seat_code: SD_2
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NV-SENATE-SD_2
+- type: Race
+  code: RACE-USA-NV-SENATE-SD_2-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senate District 2, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-SENATE-SD_2-2026_GENERAL
+    office: OFFICE-USA-NV-SENATE-SD_2
+- type: Office
+  code: OFFICE-USA-NV-SENATE-SD_8
+  attributes:
+    is_active: true
+    seat_code: SD_8
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NV-SENATE-SD_8
+- type: Race
+  code: RACE-USA-NV-SENATE-SD_8-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senate District 8, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-SENATE-SD_8-2026_GENERAL
+    office: OFFICE-USA-NV-SENATE-SD_8
+- type: Office
+  code: OFFICE-USA-NV-SENATE-SD_9
+  attributes:
+    is_active: true
+    seat_code: SD_9
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NV-SENATE-SD_9
+- type: Race
+  code: RACE-USA-NV-SENATE-SD_9-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senate District 9, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-SENATE-SD_9-2026_GENERAL
+    office: OFFICE-USA-NV-SENATE-SD_9
+- type: Office
+  code: OFFICE-USA-NV-SENATE-SD_10
+  attributes:
+    is_active: true
+    seat_code: SD_10
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NV-SENATE-SD_10
+- type: Race
+  code: RACE-USA-NV-SENATE-SD_10-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senate District 10, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-SENATE-SD_10-2026_GENERAL
+    office: OFFICE-USA-NV-SENATE-SD_10
+- type: Office
+  code: OFFICE-USA-NV-SENATE-SD_12
+  attributes:
+    is_active: true
+    seat_code: SD_12
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NV-SENATE-SD_12
+- type: Race
+  code: RACE-USA-NV-SENATE-SD_12-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senate District 12, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-SENATE-SD_12-2026_GENERAL
+    office: OFFICE-USA-NV-SENATE-SD_12
+- type: Office
+  code: OFFICE-USA-NV-SENATE-SD_13
+  attributes:
+    is_active: true
+    seat_code: SD_13
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NV-SENATE-SD_13
+- type: Race
+  code: RACE-USA-NV-SENATE-SD_13-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senate District 13, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-SENATE-SD_13-2026_GENERAL
+    office: OFFICE-USA-NV-SENATE-SD_13
+- type: Office
+  code: OFFICE-USA-NV-SENATE-SD_14
+  attributes:
+    is_active: true
+    seat_code: SD_14
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NV-SENATE-SD_14
+- type: Race
+  code: RACE-USA-NV-SENATE-SD_14-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senate District 14, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-SENATE-SD_14-2026_GENERAL
+    office: OFFICE-USA-NV-SENATE-SD_14
+- type: Office
+  code: OFFICE-USA-NV-SENATE-SD_16
+  attributes:
+    is_active: true
+    seat_code: SD_16
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NV-SENATE-SD_16
+- type: Race
+  code: RACE-USA-NV-SENATE-SD_16-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senate District 16, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-SENATE-SD_16-2026_GENERAL
+    office: OFFICE-USA-NV-SENATE-SD_16
+- type: Office
+  code: OFFICE-USA-NV-SENATE-SD_17
+  attributes:
+    is_active: true
+    seat_code: SD_17
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NV-SENATE-SD_17
+- type: Race
+  code: RACE-USA-NV-SENATE-SD_17-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senate District 17, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-SENATE-SD_17-2026_GENERAL
+    office: OFFICE-USA-NV-SENATE-SD_17
+- type: Office
+  code: OFFICE-USA-NV-SENATE-SD_20
+  attributes:
+    is_active: true
+    seat_code: SD_20
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NV-SENATE-SD_20
+- type: Race
+  code: RACE-USA-NV-SENATE-SD_20-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senate District 20, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-SENATE-SD_20-2026_GENERAL
+    office: OFFICE-USA-NV-SENATE-SD_20
+- type: Office
+  code: OFFICE-USA-NV-SENATE-SD_21
+  attributes:
+    is_active: true
+    seat_code: SD_21
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NV-SENATE-SD_21
+- type: Race
+  code: RACE-USA-NV-SENATE-SD_21-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Senate District 21, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-SENATE-SD_21-2026_GENERAL
+    office: OFFICE-USA-NV-SENATE-SD_21
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_1
+  attributes:
+    is_active: true
+    seat_code: AD_1
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_1
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_1-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 1, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_1-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_1
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_2
+  attributes:
+    is_active: true
+    seat_code: AD_2
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_2
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_2-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 2, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_2-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_2
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_3
+  attributes:
+    is_active: true
+    seat_code: AD_3
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_3
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_3-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 3, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_3-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_3
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_4
+  attributes:
+    is_active: true
+    seat_code: AD_4
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_4
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_4-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 4, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_4-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_4
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_5
+  attributes:
+    is_active: true
+    seat_code: AD_5
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_5
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_5-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 5, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_5-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_5
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_6
+  attributes:
+    is_active: true
+    seat_code: AD_6
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_6
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_6-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 6, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_6-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_6
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_7
+  attributes:
+    is_active: true
+    seat_code: AD_7
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_7
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_7-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 7, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_7-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_7
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_8
+  attributes:
+    is_active: true
+    seat_code: AD_8
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_8
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_8-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 8, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_8-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_8
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_9
+  attributes:
+    is_active: true
+    seat_code: AD_9
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_9
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_9-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 9, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_9-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_9
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_10
+  attributes:
+    is_active: true
+    seat_code: AD_10
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_10
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_10-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 10, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_10-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_10
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_11
+  attributes:
+    is_active: true
+    seat_code: AD_11
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_11
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_11-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 11, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_11-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_11
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_12
+  attributes:
+    is_active: true
+    seat_code: AD_12
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_12
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_12-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 12, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_12-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_12
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_13
+  attributes:
+    is_active: true
+    seat_code: AD_13
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_13
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_13-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 13, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_13-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_13
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_14
+  attributes:
+    is_active: true
+    seat_code: AD_14
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_14
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_14-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 14, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_14-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_14
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_15
+  attributes:
+    is_active: true
+    seat_code: AD_15
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_15
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_15-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 15, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_15-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_15
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_16
+  attributes:
+    is_active: true
+    seat_code: AD_16
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_16
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_16-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 16, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_16-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_16
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_17
+  attributes:
+    is_active: true
+    seat_code: AD_17
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_17
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_17-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 17, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_17-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_17
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_18
+  attributes:
+    is_active: true
+    seat_code: AD_18
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_18
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_18-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 18, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_18-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_18
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_19
+  attributes:
+    is_active: true
+    seat_code: AD_19
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_19
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_19-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 19, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_19-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_19
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_20
+  attributes:
+    is_active: true
+    seat_code: AD_20
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_20
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_20-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 20, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_20-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_20
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_21
+  attributes:
+    is_active: true
+    seat_code: AD_21
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_21
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_21-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 21, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_21-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_21
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_22
+  attributes:
+    is_active: true
+    seat_code: AD_22
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_22
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_22-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 22, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_22-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_22
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_23
+  attributes:
+    is_active: true
+    seat_code: AD_23
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_23
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_23-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 23, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_23-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_23
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_24
+  attributes:
+    is_active: true
+    seat_code: AD_24
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_24
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_24-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 24, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_24-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_24
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_25
+  attributes:
+    is_active: true
+    seat_code: AD_25
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_25
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_25-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 25, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_25-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_25
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_26
+  attributes:
+    is_active: true
+    seat_code: AD_26
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_26
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_26-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 26, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_26-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_26
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_27
+  attributes:
+    is_active: true
+    seat_code: AD_27
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_27
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_27-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 27, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_27-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_27
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_28
+  attributes:
+    is_active: true
+    seat_code: AD_28
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_28
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_28-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 28, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_28-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_28
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_29
+  attributes:
+    is_active: true
+    seat_code: AD_29
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_29
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_29-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 29, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_29-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_29
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_30
+  attributes:
+    is_active: true
+    seat_code: AD_30
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_30
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_30-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 30, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_30-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_30
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_31
+  attributes:
+    is_active: true
+    seat_code: AD_31
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_31
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_31-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 31, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_31-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_31
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_32
+  attributes:
+    is_active: true
+    seat_code: AD_32
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_32
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_32-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 32, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_32-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_32
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_33
+  attributes:
+    is_active: true
+    seat_code: AD_33
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_33
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_33-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 33, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_33-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_33
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_34
+  attributes:
+    is_active: true
+    seat_code: AD_34
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_34
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_34-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 34, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_34-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_34
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_35
+  attributes:
+    is_active: true
+    seat_code: AD_35
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_35
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_35-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 35, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_35-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_35
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_36
+  attributes:
+    is_active: true
+    seat_code: AD_36
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_36
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_36-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 36, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_36-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_36
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_37
+  attributes:
+    is_active: true
+    seat_code: AD_37
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_37
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_37-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 37, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_37-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_37
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_38
+  attributes:
+    is_active: true
+    seat_code: AD_38
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_38
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_38-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 38, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_38-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_38
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_39
+  attributes:
+    is_active: true
+    seat_code: AD_39
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_39
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_39-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 39, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_39-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_39
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_40
+  attributes:
+    is_active: true
+    seat_code: AD_40
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_40
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_40-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 40, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_40-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_40
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_41
+  attributes:
+    is_active: true
+    seat_code: AD_41
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_41
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_41-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 41, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_41-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_41
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_42
+  attributes:
+    is_active: true
+    seat_code: AD_42
+  references:
+    position: POSITION-STATE_REPRESENTATIVE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_42
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_42-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Assembly District 42, Nov 3, 2026. Candidates per the Nevada Secretary of State 2026 General Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information).'
+  references:
+    election: ELECTION-USA-NV-ASSEMBLY-AD_42-2026_GENERAL
+    office: OFFICE-USA-NV-ASSEMBLY-AD_42
+- type: Office
+  code: OFFICE-USA-NV-CONGRESS-CD_1-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-CONGRESS-CD_1
+    nominee_for: OFFICE-USA-NV-CONGRESS-CD_1
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-CONGRESS-CD_1-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. House District 1, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-CONGRESS-CD_1-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-CONGRESS-CD_1-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-CONGRESS-CD_1
+    nominee_for: OFFICE-USA-NV-CONGRESS-CD_1
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-CONGRESS-CD_1-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 1, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-CONGRESS-CD_1-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-CONGRESS-CD_2-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-CONGRESS-CD_2
+    nominee_for: OFFICE-USA-NV-CONGRESS-CD_2
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-CONGRESS-CD_2-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. House District 2, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-CONGRESS-CD_2-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-CONGRESS-CD_2-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-CONGRESS-CD_2
+    nominee_for: OFFICE-USA-NV-CONGRESS-CD_2
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-CONGRESS-CD_2-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 2, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-CONGRESS-CD_2-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-CONGRESS-CD_3-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-CONGRESS-CD_3
+    nominee_for: OFFICE-USA-NV-CONGRESS-CD_3
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-CONGRESS-CD_3-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for U.S. House District 3, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-CONGRESS-CD_3-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-CONGRESS-CD_3-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-CONGRESS-CD_3
+    nominee_for: OFFICE-USA-NV-CONGRESS-CD_3
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-CONGRESS-CD_3-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 3, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-CONGRESS-CD_3-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-CONGRESS-CD_4-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-CONGRESS-CD_4
+    nominee_for: OFFICE-USA-NV-CONGRESS-CD_4
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-CONGRESS-CD_4-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for U.S. House District 4, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-CONGRESS-CD_4-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-GOVERNOR-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NV
+    nominee_for: OFFICE-USA-NV-GOVERNOR
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-GOVERNOR-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for Governor, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-GOVERNOR-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-GOVERNOR-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NV
+    nominee_for: OFFICE-USA-NV-GOVERNOR
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-GOVERNOR-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for Governor, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-GOVERNOR-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-LIEUTENANT_GOVERNOR-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NV
+    nominee_for: OFFICE-USA-NV-LIEUTENANT_GOVERNOR
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-LIEUTENANT_GOVERNOR-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for Lieutenant Governor, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-LIEUTENANT_GOVERNOR-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-SECRETARY_OF_STATE-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NV
+    nominee_for: OFFICE-USA-NV-SECRETARY_OF_STATE
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-SECRETARY_OF_STATE-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for Secretary of State, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-SECRETARY_OF_STATE-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-TREASURER-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NV
+    nominee_for: OFFICE-USA-NV-TREASURER
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-TREASURER-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Treasurer, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-TREASURER-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-TREASURER-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NV
+    nominee_for: OFFICE-USA-NV-TREASURER
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-TREASURER-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Treasurer, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-TREASURER-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-CONTROLLER-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NV
+    nominee_for: OFFICE-USA-NV-CONTROLLER
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-CONTROLLER-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Controller, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-CONTROLLER-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ATTORNEY_GENERAL-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NV
+    nominee_for: OFFICE-USA-NV-ATTORNEY_GENERAL
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ATTORNEY_GENERAL-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for Attorney General, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ATTORNEY_GENERAL-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ATTORNEY_GENERAL-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NV
+    nominee_for: OFFICE-USA-NV-ATTORNEY_GENERAL
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-ATTORNEY_GENERAL-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for Attorney General, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ATTORNEY_GENERAL-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-SENATE-SD_2-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-SENATE-SD_2
+    nominee_for: OFFICE-USA-NV-SENATE-SD_2
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-SENATE-SD_2-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Senate District 2, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-SENATE-SD_2-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-SENATE-SD_8-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-SENATE-SD_8
+    nominee_for: OFFICE-USA-NV-SENATE-SD_8
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-SENATE-SD_8-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 8, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-SENATE-SD_8-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-SENATE-SD_16-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-SENATE-SD_16
+    nominee_for: OFFICE-USA-NV-SENATE-SD_16
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-SENATE-SD_16-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Senate District 16, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-SENATE-SD_16-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-SENATE-SD_21-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-SENATE-SD_21
+    nominee_for: OFFICE-USA-NV-SENATE-SD_21
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-SENATE-SD_21-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Senate District 21, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-SENATE-SD_21-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_1-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_1
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_1
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_1-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Assembly District 1, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_1-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_2-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_2
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_2
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_2-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Assembly District 2, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_2-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_3-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_3
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_3
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_3-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Assembly District 3, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_3-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_5-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_5
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_5
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_5-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Assembly District 5, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_5-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_6-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_6
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_6
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_6-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Assembly District 6, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_6-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_8-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_8
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_8
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_8-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Assembly District 8, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_8-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_8-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_8
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_8
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_8-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Assembly District 8, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_8-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_9-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_9
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_9
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_9-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Assembly District 9, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_9-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_9-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_9
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_9
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_9-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Assembly District 9, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_9-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_10-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_10
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_10
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_10-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Assembly District 10, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_10-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_15-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_15
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_15
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_15-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Assembly District 15, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_15-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_16-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_16
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_16
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_16-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Assembly District 16, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_16-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_17-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_17
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_17
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_17-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Assembly District 17, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_17-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_18-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_18
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_18
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_18-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Assembly District 18, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_18-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_19-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_19
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_19
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_19-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Assembly District 19, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_19-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_20-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_20
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_20
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_20-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Assembly District 20, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_20-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_22-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_22
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_22
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_22-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Assembly District 22, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_22-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_25-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_25
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_25
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_25-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Assembly District 25, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_25-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_29-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_29
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_29
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_29-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Assembly District 29, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_29-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_34-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_34
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_34
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_34-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Assembly District 34, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_34-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_39-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_39
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_39
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_39-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Assembly District 39, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_39-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_40-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_40
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_40
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_40-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Assembly District 40, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_40-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_41-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_41
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_41
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_41-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Assembly District 41, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_41-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_41-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_41
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_41
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_41-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Assembly District 41, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_41-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_42-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_42
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_42
+    nominating_organization: PARTY-USA-NV-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_42-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic primary for State Assembly District 42, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_42-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NV-ASSEMBLY-AD_42-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NV-ASSEMBLY-AD_42
+    nominee_for: OFFICE-USA-NV-ASSEMBLY-AD_42
+    nominating_organization: PARTY-USA-NV-REPUBLICAN
+- type: Race
+  code: RACE-USA-NV-ASSEMBLY-AD_42-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican primary for State Assembly District 42, Jun 9, 2026. Candidates per the Nevada Secretary of State 2026 Primary Election Statewide Certified List of Candidates (https://www.nvsos.gov/sos/elections/election-information/2026-election-information); party contests with a single candidate are not on the Nevada primary ballot and get no primary race.
+  references:
+    election: ELECTION-USA-NV-2026_PRIMARY
+    office: OFFICE-USA-NV-ASSEMBLY-AD_42-NOMINEE_REPUBLICAN

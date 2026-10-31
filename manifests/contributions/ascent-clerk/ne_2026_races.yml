@@ -1,0 +1,1460 @@
+# Nebraska 2026: Governor, Legislature, PSC District 2 and State Board of Education offices and general races, plus a nomination office (POSITION-NOMINEE) and May 12 primary race for each party nomination and each nonpartisan top-two contest in the official primary canvass. Existing federal and statewide offices/races are referenced.
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent Clerk
+  url: https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf
+  captured_on: '2026-10-29'
+scope:
+  state: STATE-USA-NE
+records:
+- type: Office
+  code: OFFICE-USA-NE-GOVERNOR
+  attributes:
+    is_active: true
+  references:
+    position: POSITION-GOVERNOR
+    jurisdiction: STATE-USA-NE
+- type: Race
+  code: RACE-USA-NE-GOVERNOR-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1 ticket. Governor and Lt. Governor, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). In Nebraska the Governor is nominated alone in the primary and the nominee then names a Lieutenant Governor running mate (Neb. Rev. Stat. 32-617); the general ballot prints one joint ticket (''Governor and Lt. Governor''). The repo cannot model a ticket, so the general candidacies are separate Governor and Lieutenant Governor races paired by party.'
+  references:
+    election: ELECTION-USA-NE-2026_GENERAL
+    office: OFFICE-USA-NE-GOVERNOR
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_2
+  attributes:
+    is_active: true
+    seat_code: LD_2
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_2
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_2-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 2, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_2-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_2
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_4
+  attributes:
+    is_active: true
+    seat_code: LD_4
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_4
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_4-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 4, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_4-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_4
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_6
+  attributes:
+    is_active: true
+    seat_code: LD_6
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_6
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_6-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 6, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_6-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_6
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_8
+  attributes:
+    is_active: true
+    seat_code: LD_8
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_8
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_8-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 8, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_8-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_8
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_10
+  attributes:
+    is_active: true
+    seat_code: LD_10
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_10
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_10-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 10, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_10-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_10
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_12
+  attributes:
+    is_active: true
+    seat_code: LD_12
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_12
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_12-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 12, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_12-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_12
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_14
+  attributes:
+    is_active: true
+    seat_code: LD_14
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_14
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_14-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 14, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_14-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_14
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_16
+  attributes:
+    is_active: true
+    seat_code: LD_16
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_16
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_16-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 16, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_16-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_16
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_18
+  attributes:
+    is_active: true
+    seat_code: LD_18
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_18
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_18-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 18, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_18-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_18
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_20
+  attributes:
+    is_active: true
+    seat_code: LD_20
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_20
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_20-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 20, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_20-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_20
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_22
+  attributes:
+    is_active: true
+    seat_code: LD_22
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_22
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_22-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 22, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_22-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_22
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_24
+  attributes:
+    is_active: true
+    seat_code: LD_24
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_24
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_24-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 24, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_24-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_24
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_26
+  attributes:
+    is_active: true
+    seat_code: LD_26
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_26
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_26-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 26, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_26-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_26
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_28
+  attributes:
+    is_active: true
+    seat_code: LD_28
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_28
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_28-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 28, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_28-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_28
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_30
+  attributes:
+    is_active: true
+    seat_code: LD_30
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_30
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_30-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 30, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_30-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_30
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_32
+  attributes:
+    is_active: true
+    seat_code: LD_32
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_32
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_32-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 32, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_32-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_32
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_34
+  attributes:
+    is_active: true
+    seat_code: LD_34
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_34
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_34-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 34, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_34-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_34
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_36
+  attributes:
+    is_active: true
+    seat_code: LD_36
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_36
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_36-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 36, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_36-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_36
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_38
+  attributes:
+    is_active: true
+    seat_code: LD_38
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_38
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_38-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 38, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_38-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_38
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_40
+  attributes:
+    is_active: true
+    seat_code: LD_40
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_40
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_40-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 40, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_40-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_40
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_41
+  attributes:
+    is_active: true
+    seat_code: LD_41
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_41
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_41-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 41, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot. Two-year term (the remainder of an unexpired term), per the SoS list.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_41-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_41
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_42
+  attributes:
+    is_active: true
+    seat_code: LD_42
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_42
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_42-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 42, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_42-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_42
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_44
+  attributes:
+    is_active: true
+    seat_code: LD_44
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_44
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_44-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 44, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_44-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_44
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_46
+  attributes:
+    is_active: true
+    seat_code: LD_46
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_46
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_46-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 46, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_46-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_46
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_48
+  attributes:
+    is_active: true
+    seat_code: LD_48
+  references:
+    position: POSITION-STATE_SENATOR
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_48
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_48-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Legislative District 48, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nebraska has a unicameral, officially nonpartisan Legislature; members ("state senators") are mapped to POSITION-STATE_SENATOR. Candidates carry no party label on the ballot.'
+  references:
+    election: ELECTION-USA-NE-LEGISLATURE-LD_48-2026_GENERAL
+    office: OFFICE-USA-NE-LEGISLATURE-LD_48
+- type: Office
+  code: OFFICE-USA-NE-PSC-PSC_2
+  attributes:
+    is_active: true
+    seat_code: PSC_2
+  references:
+    position: POSITION-PUBLIC_SERVICE_COMMISSIONER
+    jurisdiction: DISTRICT-USA-NE-PSC-PSC_2
+- type: Race
+  code: RACE-USA-NE-PSC-PSC_2-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. Public Service Commission District 2, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Partisan office.'
+  references:
+    election: ELECTION-USA-NE-PSC-PSC_2-2026_GENERAL
+    office: OFFICE-USA-NE-PSC-PSC_2
+- type: Office
+  code: OFFICE-USA-NE-SBOE-BD_5
+  attributes:
+    is_active: true
+    seat_code: BD_5
+  references:
+    position: POSITION-SCHOOL_BOARD_MEMBER
+    jurisdiction: DISTRICT-USA-NE-SBOE-BD_5
+- type: Race
+  code: RACE-USA-NE-SBOE-BD_5-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Board of Education District 5, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nonpartisan; mapped to POSITION-SCHOOL_BOARD_MEMBER as the TX SBOE was.'
+  references:
+    election: ELECTION-USA-NE-SBOE-BD_5-2026_GENERAL
+    office: OFFICE-USA-NE-SBOE-BD_5
+- type: Office
+  code: OFFICE-USA-NE-SBOE-BD_6
+  attributes:
+    is_active: true
+    seat_code: BD_6
+  references:
+    position: POSITION-SCHOOL_BOARD_MEMBER
+    jurisdiction: DISTRICT-USA-NE-SBOE-BD_6
+- type: Race
+  code: RACE-USA-NE-SBOE-BD_6-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Board of Education District 6, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nonpartisan; mapped to POSITION-SCHOOL_BOARD_MEMBER as the TX SBOE was.'
+  references:
+    election: ELECTION-USA-NE-SBOE-BD_6-2026_GENERAL
+    office: OFFICE-USA-NE-SBOE-BD_6
+- type: Office
+  code: OFFICE-USA-NE-SBOE-BD_7
+  attributes:
+    is_active: true
+    seat_code: BD_7
+  references:
+    position: POSITION-SCHOOL_BOARD_MEMBER
+    jurisdiction: DISTRICT-USA-NE-SBOE-BD_7
+- type: Race
+  code: RACE-USA-NE-SBOE-BD_7-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Board of Education District 7, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nonpartisan; mapped to POSITION-SCHOOL_BOARD_MEMBER as the TX SBOE was.'
+  references:
+    election: ELECTION-USA-NE-SBOE-BD_7-2026_GENERAL
+    office: OFFICE-USA-NE-SBOE-BD_7
+- type: Office
+  code: OFFICE-USA-NE-SBOE-BD_8
+  attributes:
+    is_active: true
+    seat_code: BD_8
+  references:
+    position: POSITION-SCHOOL_BOARD_MEMBER
+    jurisdiction: DISTRICT-USA-NE-SBOE-BD_8
+- type: Race
+  code: RACE-USA-NE-SBOE-BD_8-2026_GENERAL
+  attributes:
+    status: upcoming
+    description: 'Vote for: 1. State Board of Education District 8, Nov 3, 2026. Candidates per the Nebraska Secretary of State Final Statewide General Candidate List, 9/11/2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/Final_Statewide_General_Candidate_Filing_List_9.11.26.pdf). Nonpartisan; mapped to POSITION-SCHOOL_BOARD_MEMBER as the TX SBOE was.'
+  references:
+    election: ELECTION-USA-NE-SBOE-BD_8-2026_GENERAL
+    office: OFFICE-USA-NE-SBOE-BD_8
+- type: Office
+  code: OFFICE-USA-NE-SENATOR-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NE
+    nominee_for: OFFICE-USA-NE-SENATOR
+    nominating_organization: PARTY-USA-NE-REPUBLICAN
+- type: Race
+  code: RACE-USA-NE-SENATOR-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for U.S. Senate, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-SENATOR-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NE-SENATOR-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NE
+    nominee_for: OFFICE-USA-NE-SENATOR
+    nominating_organization: PARTY-USA-NE-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NE-SENATOR-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for U.S. Senate, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-SENATOR-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NE-SENATOR-NOMINEE_LEGAL_MARIJUANA_NOW
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NE
+    nominee_for: OFFICE-USA-NE-SENATOR
+    nominating_organization: PARTY-USA-NE-LEGAL_MARIJUANA_NOW
+- type: Race
+  code: RACE-USA-NE-SENATOR-NOMINEE_LEGAL_MARIJUANA_NOW-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Legal Marijuana NOW Party nomination for U.S. Senate, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-SENATOR-NOMINEE_LEGAL_MARIJUANA_NOW
+- type: Office
+  code: OFFICE-USA-NE-SECRETARY_OF_STATE-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NE
+    nominee_for: OFFICE-USA-NE-SECRETARY_OF_STATE
+    nominating_organization: PARTY-USA-NE-REPUBLICAN
+- type: Race
+  code: RACE-USA-NE-SECRETARY_OF_STATE-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for Secretary of State, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-SECRETARY_OF_STATE-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NE-SECRETARY_OF_STATE-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NE
+    nominee_for: OFFICE-USA-NE-SECRETARY_OF_STATE
+    nominating_organization: PARTY-USA-NE-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NE-SECRETARY_OF_STATE-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for Secretary of State, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-SECRETARY_OF_STATE-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NE-ATTORNEY_GENERAL-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NE
+    nominee_for: OFFICE-USA-NE-ATTORNEY_GENERAL
+    nominating_organization: PARTY-USA-NE-REPUBLICAN
+- type: Race
+  code: RACE-USA-NE-ATTORNEY_GENERAL-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for Attorney General, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-ATTORNEY_GENERAL-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NE-ATTORNEY_GENERAL-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NE
+    nominee_for: OFFICE-USA-NE-ATTORNEY_GENERAL
+    nominating_organization: PARTY-USA-NE-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NE-ATTORNEY_GENERAL-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for Attorney General, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-ATTORNEY_GENERAL-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NE-AUDITOR_OF_PUBLIC_ACCOUNTS-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NE
+    nominee_for: OFFICE-USA-NE-AUDITOR_OF_PUBLIC_ACCOUNTS
+    nominating_organization: PARTY-USA-NE-REPUBLICAN
+- type: Race
+  code: RACE-USA-NE-AUDITOR_OF_PUBLIC_ACCOUNTS-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for Auditor of Public Accounts, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-AUDITOR_OF_PUBLIC_ACCOUNTS-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NE-TREASURER-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NE
+    nominee_for: OFFICE-USA-NE-TREASURER
+    nominating_organization: PARTY-USA-NE-REPUBLICAN
+- type: Race
+  code: RACE-USA-NE-TREASURER-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for State Treasurer, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-TREASURER-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NE-TREASURER-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NE
+    nominee_for: OFFICE-USA-NE-TREASURER
+    nominating_organization: PARTY-USA-NE-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NE-TREASURER-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for State Treasurer, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-TREASURER-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NE-GOVERNOR-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NE
+    nominee_for: OFFICE-USA-NE-GOVERNOR
+    nominating_organization: PARTY-USA-NE-REPUBLICAN
+- type: Race
+  code: RACE-USA-NE-GOVERNOR-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for Governor, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-GOVERNOR-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NE-GOVERNOR-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NE
+    nominee_for: OFFICE-USA-NE-GOVERNOR
+    nominating_organization: PARTY-USA-NE-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NE-GOVERNOR-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for Governor, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-GOVERNOR-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NE-GOVERNOR-NOMINEE_LEGAL_MARIJUANA_NOW
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: STATE-USA-NE
+    nominee_for: OFFICE-USA-NE-GOVERNOR
+    nominating_organization: PARTY-USA-NE-LEGAL_MARIJUANA_NOW
+- type: Race
+  code: RACE-USA-NE-GOVERNOR-NOMINEE_LEGAL_MARIJUANA_NOW-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Legal Marijuana NOW Party nomination for Governor, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-GOVERNOR-NOMINEE_LEGAL_MARIJUANA_NOW
+- type: Office
+  code: OFFICE-USA-NE-CONGRESS-CD_1-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-CONGRESS-CD_1
+    nominee_for: OFFICE-USA-NE-CONGRESS-CD_1
+    nominating_organization: PARTY-USA-NE-REPUBLICAN
+- type: Race
+  code: RACE-USA-NE-CONGRESS-CD_1-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for U.S. House District 1, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-CONGRESS-CD_1-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NE-CONGRESS-CD_1-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-CONGRESS-CD_1
+    nominee_for: OFFICE-USA-NE-CONGRESS-CD_1
+    nominating_organization: PARTY-USA-NE-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NE-CONGRESS-CD_1-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for U.S. House District 1, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-CONGRESS-CD_1-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NE-CONGRESS-CD_1-NOMINEE_LIBERTARIAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-CONGRESS-CD_1
+    nominee_for: OFFICE-USA-NE-CONGRESS-CD_1
+    nominating_organization: PARTY-USA-NE-LIBERTARIAN
+- type: Race
+  code: RACE-USA-NE-CONGRESS-CD_1-NOMINEE_LIBERTARIAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Libertarian Party nomination for U.S. House District 1, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-CONGRESS-CD_1-NOMINEE_LIBERTARIAN
+- type: Office
+  code: OFFICE-USA-NE-CONGRESS-CD_2-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-CONGRESS-CD_2
+    nominee_for: OFFICE-USA-NE-CONGRESS-CD_2
+    nominating_organization: PARTY-USA-NE-REPUBLICAN
+- type: Race
+  code: RACE-USA-NE-CONGRESS-CD_2-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for U.S. House District 2, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-CONGRESS-CD_2-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NE-CONGRESS-CD_2-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-CONGRESS-CD_2
+    nominee_for: OFFICE-USA-NE-CONGRESS-CD_2
+    nominating_organization: PARTY-USA-NE-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NE-CONGRESS-CD_2-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for U.S. House District 2, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-CONGRESS-CD_2-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NE-CONGRESS-CD_2-NOMINEE_LIBERTARIAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-CONGRESS-CD_2
+    nominee_for: OFFICE-USA-NE-CONGRESS-CD_2
+    nominating_organization: PARTY-USA-NE-LIBERTARIAN
+- type: Race
+  code: RACE-USA-NE-CONGRESS-CD_2-NOMINEE_LIBERTARIAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Libertarian Party nomination for U.S. House District 2, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-CONGRESS-CD_2-NOMINEE_LIBERTARIAN
+- type: Office
+  code: OFFICE-USA-NE-CONGRESS-CD_3-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-CONGRESS-CD_3
+    nominee_for: OFFICE-USA-NE-CONGRESS-CD_3
+    nominating_organization: PARTY-USA-NE-REPUBLICAN
+- type: Race
+  code: RACE-USA-NE-CONGRESS-CD_3-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for U.S. House District 3, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-CONGRESS-CD_3-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NE-CONGRESS-CD_3-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-CONGRESS-CD_3
+    nominee_for: OFFICE-USA-NE-CONGRESS-CD_3
+    nominating_organization: PARTY-USA-NE-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NE-CONGRESS-CD_3-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for U.S. House District 3, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-CONGRESS-CD_3-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NE-CONGRESS-CD_3-NOMINEE_LEGAL_MARIJUANA_NOW
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-CONGRESS-CD_3
+    nominee_for: OFFICE-USA-NE-CONGRESS-CD_3
+    nominating_organization: PARTY-USA-NE-LEGAL_MARIJUANA_NOW
+- type: Race
+  code: RACE-USA-NE-CONGRESS-CD_3-NOMINEE_LEGAL_MARIJUANA_NOW-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Legal Marijuana NOW Party nomination for U.S. House District 3, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-CONGRESS-CD_3-NOMINEE_LEGAL_MARIJUANA_NOW
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_2-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_2
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_2
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_2-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 2, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_2-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_4-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_4
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_4
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_4-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 4, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_4-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_6-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_6
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_6
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_6-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 6, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_6-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_8-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_8
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_8
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_8-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 8, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_8-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_10-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_10
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_10
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_10-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 10, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_10-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_12-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_12
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_12
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_12-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 12, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_12-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_14-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_14
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_14
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_14-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 14, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_14-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_16-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_16
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_16
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_16-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 16, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_16-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_18-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_18
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_18
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_18-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 18, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_18-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_20-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_20
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_20
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_20-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 20, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_20-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_22-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_22
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_22
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_22-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 22, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_22-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_24-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_24
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_24
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_24-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 24, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_24-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_26-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_26
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_26
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_26-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 26, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_26-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_28-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_28
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_28
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_28-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 28, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_28-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_30-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_30
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_30
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_30-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 30, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_30-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_32-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_32
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_32
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_32-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 32, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_32-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_34-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_34
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_34
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_34-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 34, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_34-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_36-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_36
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_36
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_36-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 36, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_36-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_38-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_38
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_38
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_38-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 38, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_38-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_40-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_40
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_40
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_40-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 40, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_40-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_41-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_41
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_41
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_41-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 41, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_41-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_42-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_42
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_42
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_42-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 42, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_42-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_44-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_44
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_44
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_44-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 44, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_44-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_46-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_46
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_46
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_46-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 46, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_46-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-LEGISLATURE-LD_48-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-LEGISLATURE-LD_48
+    nominee_for: OFFICE-USA-NE-LEGISLATURE-LD_48
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-LEGISLATURE-LD_48-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for Legislative District 48, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-LEGISLATURE-LD_48-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-PSC-PSC_2-NOMINEE_REPUBLICAN
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-PSC-PSC_2
+    nominee_for: OFFICE-USA-NE-PSC-PSC_2
+    nominating_organization: PARTY-USA-NE-REPUBLICAN
+- type: Race
+  code: RACE-USA-NE-PSC-PSC_2-NOMINEE_REPUBLICAN-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Republican Party nomination for Public Service Commission District 2, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-PSC-PSC_2-NOMINEE_REPUBLICAN
+- type: Office
+  code: OFFICE-USA-NE-PSC-PSC_2-NOMINEE_DEMOCRATIC
+  attributes:
+    nominee_count: 1
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-PSC-PSC_2
+    nominee_for: OFFICE-USA-NE-PSC-PSC_2
+    nominating_organization: PARTY-USA-NE-DEMOCRATIC
+- type: Race
+  code: RACE-USA-NE-PSC-PSC_2-NOMINEE_DEMOCRATIC-2026_PRIMARY
+  attributes:
+    status: completed
+    description: Democratic Party nomination for Public Service Commission District 2, May 12, 2026 primary. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-PSC-PSC_2-NOMINEE_DEMOCRATIC
+- type: Office
+  code: OFFICE-USA-NE-SBOE-BD_5-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-SBOE-BD_5
+    nominee_for: OFFICE-USA-NE-SBOE-BD_5
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-SBOE-BD_5-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for State Board of Education District 5, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-SBOE-BD_5-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-SBOE-BD_6-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-SBOE-BD_6
+    nominee_for: OFFICE-USA-NE-SBOE-BD_6
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-SBOE-BD_6-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for State Board of Education District 6, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-SBOE-BD_6-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-SBOE-BD_7-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-SBOE-BD_7
+    nominee_for: OFFICE-USA-NE-SBOE-BD_7
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-SBOE-BD_7-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for State Board of Education District 7, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-SBOE-BD_7-NOMINEE_TOP_TWO
+- type: Office
+  code: OFFICE-USA-NE-SBOE-BD_8-NOMINEE_TOP_TWO
+  attributes:
+    nominee_count: 2
+    is_active: true
+  references:
+    position: POSITION-NOMINEE
+    jurisdiction: DISTRICT-USA-NE-SBOE-BD_8
+    nominee_for: OFFICE-USA-NE-SBOE-BD_8
+    nominating_organization: ORGANIZATION-USA-NE-TOP_TWO_PRIMARY
+- type: Race
+  code: RACE-USA-NE-SBOE-BD_8-NOMINEE_TOP_TWO-2026_PRIMARY
+  attributes:
+    status: completed
+    description: 'Nonpartisan primary for State Board of Education District 8, May 12, 2026: all voters vote the same contest and the top two vote-getters advance (Neb. Rev. Stat. 32-811); same model as the California top-two primaries. Candidates, votes and advancement checkmarks per the Board of State Canvassers Official Report, Primary Election May 12, 2026 (https://sos.nebraska.gov/sites/default/files/doc/elections/2026/2026_Primary_Canvass_Book.pdf).'
+  references:
+    election: ELECTION-USA-NE-2026_PRIMARY
+    office: OFFICE-USA-NE-SBOE-BD_8-NOMINEE_TOP_TWO
