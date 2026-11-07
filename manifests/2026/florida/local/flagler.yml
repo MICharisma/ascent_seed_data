@@ -48,8 +48,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-PONTIERI_TH_2B
+  - type: Citizen
+    code: CITIZEN-PONTIERI_TH_2B
     attributes:
       username: pontieri_th_2b
       username_status: provisional
@@ -66,9 +66,9 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-PONTIERI_TH_2B
-  - type: Person
-    code: PERSON-ROYER_RY_3F
+      citizen: CITIZEN-PONTIERI_TH_2B
+  - type: Citizen
+    code: CITIZEN-ROYER_RY_3F
     attributes:
       username: royer_ry_3f
       username_status: provisional
@@ -85,7 +85,7 @@ groups:
         party: PARTY-USA-FL-INDEPENDENT
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-ROYER_RY_3F
+      citizen: CITIZEN-ROYER_RY_3F
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_4
@@ -103,8 +103,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-CALDERWOOD_DN_5L
+  - type: Citizen
+    code: CITIZEN-CALDERWOOD_DN_5L
     attributes:
       username: calderwood_dn_5l
       username_status: provisional
@@ -121,9 +121,9 @@ groups:
         kind: write_in
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-CALDERWOOD_DN_5L
-  - type: Person
-    code: PERSON-PENNINGTON_LN_3G
+      citizen: CITIZEN-CALDERWOOD_DN_5L
+  - type: Citizen
+    code: CITIZEN-PENNINGTON_LN_3G
     attributes:
       username: pennington_ln_3g
       username_status: provisional
@@ -140,7 +140,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-PENNINGTON_LN_3G
+      citizen: CITIZEN-PENNINGTON_LN_3G
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_1
@@ -158,8 +158,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_1
-  - type: Person
-    code: PERSON-GARNER_GR_2U
+  - type: Citizen
+    code: CITIZEN-GARNER_GR_2U
     attributes:
       username: garner_gr_2u
       username_status: provisional
@@ -173,7 +173,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-GARNER_GR_2U
+      citizen: CITIZEN-GARNER_GR_2U
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_2
@@ -191,8 +191,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_2
-  - type: Person
-    code: PERSON-JAMES_JN_8U
+  - type: Citizen
+    code: CITIZEN-JAMES_JN_8U
     attributes:
       username: james_jn_8u
       username_status: provisional
@@ -205,9 +205,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-JAMES_JN_8U
-  - type: Person
-    code: PERSON-MASTEN_GR_2P
+      citizen: CITIZEN-JAMES_JN_8U
+  - type: Citizen
+    code: CITIZEN-MASTEN_GR_2P
     attributes:
       username: masten_gr_2p
       username_status: provisional
@@ -220,7 +220,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DEER_RUN_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-MASTEN_GR_2P
+      citizen: CITIZEN-MASTEN_GR_2P
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DUNES_CDD_SEAT_1
@@ -238,8 +238,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DUNES_CDD_SEAT_1
-  - type: Person
-    code: PERSON-PORTER_KV_3D
+  - type: Citizen
+    code: CITIZEN-PORTER_KV_3D
     attributes:
       username: porter_kv_3d
       username_status: provisional
@@ -252,7 +252,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DUNES_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-PORTER_KV_3D
+      citizen: CITIZEN-PORTER_KV_3D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DUNES_CDD_SEAT_5
@@ -270,8 +270,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DUNES_CDD_SEAT_5
-  - type: Person
-    code: PERSON-DEGOVANNI_GR_5E
+  - type: Citizen
+    code: CITIZEN-DEGOVANNI_GR_5E
     attributes:
       username: degovanni_gr_5e
       username_status: provisional
@@ -284,7 +284,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DUNES_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-DEGOVANNI_GR_5E
+      citizen: CITIZEN-DEGOVANNI_GR_5E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_1
@@ -302,8 +302,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_1
-  - type: Person
-    code: PERSON-MAYOR_RC_6G
+  - type: Citizen
+    code: CITIZEN-MAYOR_RC_6G
     attributes:
       username: mayor_rc_6g
       username_status: provisional
@@ -317,7 +317,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-MAYOR_RC_6G
+      citizen: CITIZEN-MAYOR_RC_6G
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_3
@@ -335,8 +335,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_3
-  - type: Person
-    code: PERSON-JANUKAITIS_JO_9V
+  - type: Citizen
+    code: CITIZEN-JANUKAITIS_JO_9V
     attributes:
       username: janukaitis_jo_9v
       username_status: provisional
@@ -349,9 +349,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-JANUKAITIS_JO_9V
-  - type: Person
-    code: PERSON-KROV_RY_2V
+      citizen: CITIZEN-JANUKAITIS_JO_9V
+  - type: Citizen
+    code: CITIZEN-KROV_RY_2V
     attributes:
       username: krov_ry_2v
       username_status: provisional
@@ -364,9 +364,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-KROV_RY_2V
-  - type: Person
-    code: PERSON-UNGER_BR_3G
+      citizen: CITIZEN-KROV_RY_2V
+  - type: Citizen
+    code: CITIZEN-UNGER_BR_3G
     attributes:
       username: unger_br_3g
       username_status: provisional
@@ -380,7 +380,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-UNGER_BR_3G
+      citizen: CITIZEN-UNGER_BR_3G
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_5
@@ -398,8 +398,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_5
-  - type: Person
-    code: PERSON-MYERS_KT_7T
+  - type: Citizen
+    code: CITIZEN-MYERS_KT_7T
     attributes:
       username: myers_kt_7t
       username_status: provisional
@@ -413,7 +413,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAVEN_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-MYERS_KT_7T
+      citizen: CITIZEN-MYERS_KT_7T
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HUNTERS_RIDGE_NO_1_CDD_SEAT_1
@@ -431,8 +431,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HUNTERS_RIDGE_NO_1_CDD_SEAT_1
-  - type: Person
-    code: PERSON-THIGPEN_PT_3R
+  - type: Citizen
+    code: CITIZEN-THIGPEN_PT_3R
     attributes:
       username: thigpen_pt_3r
       username_status: provisional
@@ -445,7 +445,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HUNTERS_RIDGE_NO_1_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-THIGPEN_PT_3R
+      citizen: CITIZEN-THIGPEN_PT_3R
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HUNTERS_RIDGE_NO_1_CDD_SEAT_5
@@ -463,8 +463,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HUNTERS_RIDGE_NO_1_CDD_SEAT_5
-  - type: Person
-    code: PERSON-FORD_JH_6L
+  - type: Citizen
+    code: CITIZEN-FORD_JH_6L
     attributes:
       username: ford_jh_6l
       username_status: provisional
@@ -477,7 +477,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HUNTERS_RIDGE_NO_1_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-FORD_JH_6L
+      citizen: CITIZEN-FORD_JH_6L
 - records:
   - type: Office
     code: OFFICE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_2
@@ -495,8 +495,8 @@ groups:
     references:
       election: ELECTION-USA-FL-PALM_COAST-2026_GENERAL
       office: OFFICE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_2
-  - type: Person
-    code: PERSON-DUARTE_JN_2Z
+  - type: Citizen
+    code: CITIZEN-DUARTE_JN_2Z
     attributes:
       username: duarte_jn_2z
       username_status: provisional
@@ -509,9 +509,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-DUARTE_JN_2Z
-  - type: Person
-    code: PERSON-AMARAL_AN_4U
+      citizen: CITIZEN-DUARTE_JN_2Z
+  - type: Citizen
+    code: CITIZEN-AMARAL_AN_4U
     attributes:
       username: amaral_an_4u
       username_status: provisional
@@ -525,7 +525,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-AMARAL_AN_4U
+      citizen: CITIZEN-AMARAL_AN_4U
 - records:
   - type: Office
     code: OFFICE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_4
@@ -543,8 +543,8 @@ groups:
     references:
       election: ELECTION-USA-FL-PALM_COAST-2026_GENERAL
       office: OFFICE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_4
-  - type: Person
-    code: PERSON-GALERY_DY_3B
+  - type: Citizen
+    code: CITIZEN-GALERY_DY_3B
     attributes:
       username: galery_dy_3b
       username_status: provisional
@@ -558,9 +558,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-GALERY_DY_3B
-  - type: Person
-    code: PERSON-SHELLEY_DR_7J
+      citizen: CITIZEN-GALERY_DY_3B
+  - type: Citizen
+    code: CITIZEN-SHELLEY_DR_7J
     attributes:
       username: shelley_dr_7j
       username_status: provisional
@@ -573,7 +573,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-PALM_COAST-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-SHELLEY_DR_7J
+      citizen: CITIZEN-SHELLEY_DR_7J
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_1
@@ -591,8 +591,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_1
-  - type: Person
-    code: PERSON-MOON_CT_2Y
+  - type: Citizen
+    code: CITIZEN-MOON_CT_2Y
     attributes:
       username: moon_ct_2y
       username_status: provisional
@@ -605,7 +605,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
-      person: PERSON-MOON_CT_2Y
+      citizen: CITIZEN-MOON_CT_2Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_2
@@ -623,8 +623,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_2
-  - type: Person
-    code: PERSON-WOOD_RB_8S
+  - type: Citizen
+    code: CITIZEN-WOOD_RB_8S
     attributes:
       username: wood_rb_8s
       username_status: provisional
@@ -637,7 +637,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-WOOD_RB_8S
+      citizen: CITIZEN-WOOD_RB_8S
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_4
@@ -655,8 +655,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FLAGLER-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_4
-  - type: Person
-    code: PERSON-CHONG_CH_2F
+  - type: Citizen
+    code: CITIZEN-CHONG_CH_2F
     attributes:
       username: chong_ch_2f
       username_status: provisional
@@ -669,9 +669,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-CHONG_CH_2F
-  - type: Person
-    code: PERSON-TUCKER_TR_8E
+      citizen: CITIZEN-CHONG_CH_2F
+  - type: Citizen
+    code: CITIZEN-TUCKER_TR_8E
     attributes:
       username: tucker_tr_8e
       username_status: provisional
@@ -684,4 +684,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FLAGLER-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-TUCKER_TR_8E
+      citizen: CITIZEN-TUCKER_TR_8E

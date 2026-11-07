@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_LEVY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-CANNON_LN_4U
+  - type: Citizen
+    code: CITIZEN-CANNON_LN_4U
     attributes:
       username: cannon_ln_4u
       username_status: provisional
@@ -54,9 +54,9 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-CANNON_LN_4U
-  - type: Person
-    code: PERSON-CASEY_EM_5T
+      citizen: CITIZEN-CANNON_LN_4U
+  - type: Citizen
+    code: CITIZEN-CASEY_EM_5T
     attributes:
       username: casey_em_5t
       username_status: provisional
@@ -74,9 +74,9 @@ groups:
         party: PARTY-USA-FL-ECOLOGY
     references:
       race: RACE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-CASEY_EM_5T
-  - type: Person
-    code: PERSON-LEMERY_MT_2C
+      citizen: CITIZEN-CASEY_EM_5T
+  - type: Citizen
+    code: CITIZEN-LEMERY_MT_2C
     attributes:
       username: lemery_mt_2c
       username_status: provisional
@@ -93,7 +93,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-LEMERY_MT_2C
+      citizen: CITIZEN-LEMERY_MT_2C
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_4
@@ -111,8 +111,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_LEVY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-HODGE_TM_7F
+  - type: Citizen
+    code: CITIZEN-HODGE_TM_7F
     attributes:
       username: hodge_tm_7f
       username_status: provisional
@@ -129,7 +129,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_LEVY-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-HODGE_TM_7F
+      citizen: CITIZEN-HODGE_TM_7F
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_LEVY-COUNTY_JUDGE-GROUP_1
@@ -147,8 +147,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_LEVY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_LEVY-COUNTY_JUDGE-GROUP_1
-  - type: Person
-    code: PERSON-BUSTAMANTE_LS_5J
+  - type: Citizen
+    code: CITIZEN-BUSTAMANTE_LS_5J
     attributes:
       username: bustamante_ls_5j
       username_status: provisional
@@ -161,7 +161,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_LEVY-COUNTY_JUDGE-GROUP_1-2026_GENERAL
-      person: PERSON-BUSTAMANTE_LS_5J
+      citizen: CITIZEN-BUSTAMANTE_LS_5J
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_1
@@ -179,8 +179,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_LEVY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_1
-  - type: Person
-    code: PERSON-ASBELL_CM_6R
+  - type: Citizen
+    code: CITIZEN-ASBELL_CM_6R
     attributes:
       username: asbell_cm_6r
       username_status: provisional
@@ -193,7 +193,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
-      person: PERSON-ASBELL_CM_6R
+      citizen: CITIZEN-ASBELL_CM_6R
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_3
@@ -211,8 +211,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_LEVY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_3
-  - type: Person
-    code: PERSON-HANDLIN_JM_2D
+  - type: Citizen
+    code: CITIZEN-HANDLIN_JM_2D
     attributes:
       username: handlin_jm_2d
       username_status: provisional
@@ -225,7 +225,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
-      person: PERSON-HANDLIN_JM_2D
+      citizen: CITIZEN-HANDLIN_JM_2D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_5
@@ -243,8 +243,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_LEVY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_5
-  - type: Person
-    code: PERSON-WHITEHURST_DV_6R
+  - type: Citizen
+    code: CITIZEN-WHITEHURST_DV_6R
     attributes:
       username: whitehurst_dv_6r
       username_status: provisional
@@ -257,4 +257,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_LEVY-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
-      person: PERSON-WHITEHURST_DV_6R
+      citizen: CITIZEN-WHITEHURST_DV_6R

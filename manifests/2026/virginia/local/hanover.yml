@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_HANOVER-2026_SPECIAL
       office: OFFICE-USA-VA-COUNTY_HANOVER-SHERIFF
-  - type: Person
-    code: PERSON-SIX_GR_6P
+  - type: Citizen
+    code: CITIZEN-SIX_GR_6P
     attributes:
       username: six_gr_6p
       username_status: provisional
@@ -50,9 +50,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_HANOVER-SHERIFF-2026_SPECIAL
-      person: PERSON-SIX_GR_6P
-  - type: Person
-    code: PERSON-DANDRIDGE_RC_5J
+      citizen: CITIZEN-SIX_GR_6P
+  - type: Citizen
+    code: CITIZEN-DANDRIDGE_RC_5J
     attributes:
       username: dandridge_rc_5j
       username_status: provisional
@@ -66,4 +66,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_HANOVER-SHERIFF-2026_SPECIAL
-      person: PERSON-DANDRIDGE_RC_5J
+      citizen: CITIZEN-DANDRIDGE_RC_5J

@@ -48,8 +48,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HENDRY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HENDRY-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-HOWARD_EM_3P
+  - type: Citizen
+    code: CITIZEN-HOWARD_EM_3P
     attributes:
       username: howard_em_3p
       username_status: provisional
@@ -67,7 +67,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_HENDRY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-HOWARD_EM_3P
+      citizen: CITIZEN-HOWARD_EM_3P
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HENDRY-COUNTY_COMMISSIONER-DISTRICT_4
@@ -85,8 +85,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HENDRY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HENDRY-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-IGLESIAS_RM_8Y
+  - type: Citizen
+    code: CITIZEN-IGLESIAS_RM_8Y
     attributes:
       username: iglesias_rm_8y
       username_status: provisional
@@ -103,7 +103,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_HENDRY-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-IGLESIAS_RM_8Y
+      citizen: CITIZEN-IGLESIAS_RM_8Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-CLEWISTON-COMMISSIONER
@@ -120,8 +120,8 @@ groups:
     references:
       election: ELECTION-USA-FL-CLEWISTON-2026_GENERAL
       office: OFFICE-USA-FL-CLEWISTON-COMMISSIONER
-  - type: Person
-    code: PERSON-EDMONDS_BR_4W
+  - type: Citizen
+    code: CITIZEN-EDMONDS_BR_4W
     attributes:
       username: edmonds_br_4w
       username_status: provisional
@@ -134,9 +134,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-CLEWISTON-COMMISSIONER-2026_GENERAL
-      person: PERSON-EDMONDS_BR_4W
-  - type: Person
-    code: PERSON-EVANS_JN_7R
+      citizen: CITIZEN-EDMONDS_BR_4W
+  - type: Citizen
+    code: CITIZEN-EVANS_JN_7R
     attributes:
       username: evans_jn_7r
       username_status: provisional
@@ -150,9 +150,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-CLEWISTON-COMMISSIONER-2026_GENERAL
-      person: PERSON-EVANS_JN_7R
-  - type: Person
-    code: PERSON-GARDNER_M_4P
+      citizen: CITIZEN-EVANS_JN_7R
+  - type: Citizen
+    code: CITIZEN-GARDNER_M_4P
     attributes:
       username: gardner_m_4p
       username_status: provisional
@@ -166,9 +166,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-CLEWISTON-COMMISSIONER-2026_GENERAL
-      person: PERSON-GARDNER_M_4P
-  - type: Person
-    code: PERSON-HUGHES_DR_7D
+      citizen: CITIZEN-GARDNER_M_4P
+  - type: Citizen
+    code: CITIZEN-HUGHES_DR_7D
     attributes:
       username: hughes_dr_7d
       username_status: provisional
@@ -181,9 +181,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-CLEWISTON-COMMISSIONER-2026_GENERAL
-      person: PERSON-HUGHES_DR_7D
-  - type: Person
-    code: PERSON-HYSLOPE_HL_4K
+      citizen: CITIZEN-HUGHES_DR_7D
+  - type: Citizen
+    code: CITIZEN-HYSLOPE_HL_4K
     attributes:
       username: hyslope_hl_4k
       username_status: provisional
@@ -196,7 +196,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-CLEWISTON-COMMISSIONER-2026_GENERAL
-      person: PERSON-HYSLOPE_HL_4K
+      citizen: CITIZEN-HYSLOPE_HL_4K
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HENDRY-COUNTY_JUDGE-GROUP_1
@@ -214,8 +214,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HENDRY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HENDRY-COUNTY_JUDGE-GROUP_1
-  - type: Person
-    code: PERSON-OSTROV_RB_5A
+  - type: Citizen
+    code: CITIZEN-OSTROV_RB_5A
     attributes:
       username: ostrov_rb_5a
       username_status: provisional
@@ -228,7 +228,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HENDRY-COUNTY_JUDGE-GROUP_1-2026_GENERAL
-      person: PERSON-OSTROV_RB_5A
+      citizen: CITIZEN-OSTROV_RB_5A
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HENDRY-HOSPITAL_BOARD_MEMBER-SEAT_4
@@ -246,8 +246,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HENDRY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HENDRY-HOSPITAL_BOARD_MEMBER-SEAT_4
-  - type: Person
-    code: PERSON-WOOD_EL_3J
+  - type: Citizen
+    code: CITIZEN-WOOD_EL_3J
     attributes:
       username: wood_el_3j
       username_status: provisional
@@ -260,7 +260,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HENDRY-HOSPITAL_BOARD_MEMBER-SEAT_4-2026_GENERAL
-      person: PERSON-WOOD_EL_3J
+      citizen: CITIZEN-WOOD_EL_3J
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_3
@@ -278,8 +278,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HENDRY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_3
-  - type: Person
-    code: PERSON-NELSON_AM_7M
+  - type: Citizen
+    code: CITIZEN-NELSON_AM_7M
     attributes:
       username: nelson_am_7m
       username_status: provisional
@@ -293,7 +293,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
-      person: PERSON-NELSON_AM_7M
+      citizen: CITIZEN-NELSON_AM_7M
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_4
@@ -311,8 +311,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HENDRY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_4
-  - type: Person
-    code: PERSON-BUSIN_ST_9P
+  - type: Citizen
+    code: CITIZEN-BUSIN_ST_9P
     attributes:
       username: busin_st_9p
       username_status: provisional
@@ -325,7 +325,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-BUSIN_ST_9P
+      citizen: CITIZEN-BUSIN_ST_9P
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_5
@@ -343,8 +343,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HENDRY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_5
-  - type: Person
-    code: PERSON-BASQUIN_JN_4G
+  - type: Citizen
+    code: CITIZEN-BASQUIN_JN_4G
     attributes:
       username: basquin_jn_4g
       username_status: provisional
@@ -357,4 +357,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HENDRY-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
-      person: PERSON-BASQUIN_JN_4G
+      citizen: CITIZEN-BASQUIN_JN_4G

@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_CHARLES_CITY-2026_SPECIAL
       office: OFFICE-USA-VA-COUNTY_CHARLES_CITY-COUNTY_SUPERVISOR-AT_LARGE
-  - type: Person
-    code: PERSON-STEWART_JC_3J
+  - type: Citizen
+    code: CITIZEN-STEWART_JC_3J
     attributes:
       username: stewart_jc_3j
       username_status: provisional
@@ -51,9 +51,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_CHARLES_CITY-COUNTY_SUPERVISOR-AT_LARGE-2026_SPECIAL
-      person: PERSON-STEWART_JC_3J
-  - type: Person
-    code: PERSON-TYLER_RB_9B
+      citizen: CITIZEN-STEWART_JC_3J
+  - type: Citizen
+    code: CITIZEN-TYLER_RB_9B
     attributes:
       username: tyler_rb_9b
       username_status: provisional
@@ -67,4 +67,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_CHARLES_CITY-COUNTY_SUPERVISOR-AT_LARGE-2026_SPECIAL
-      person: PERSON-TYLER_RB_9B
+      citizen: CITIZEN-TYLER_RB_9B

@@ -1,8 +1,8 @@
 # Add existing candidates' accounts and images
 
-Use this guide to submit verified websites, social accounts, and sourced images for people already in Ascent. Both JSON and YAML use `micharisma-seeds/v1`. Accounts use Channel records; shared images use Image and ImagePlacement records.
+Use this guide to submit verified websites, social accounts, and sourced images for citizens already in Ascent. Both JSON and YAML use `micharisma-seeds/v1`. Accounts use Channel records; shared images use Image and ImagePlacement records.
 
-To define a new place or election graph, use the [minimum working examples](examples/README.md) and the [general contract](CONTRIBUTING.md). Those examples create their own people and candidacies. The account and image workflows below attach records to candidates that already exist.
+To define a new place or election graph, use the [minimum working examples](examples/README.md) and the [general contract](CONTRIBUTING.md). Those examples create their own citizens and candidacies. The account and image workflows below attach records to candidates that already exist.
 
 ## Set up validation
 
@@ -24,19 +24,19 @@ Browse the [entity catalog](catalog/README.md), or search it after the Python se
 .venv/bin/python tools/seed_contract.py lookup Mayor --type Position --format json
 ```
 
-A nonzero exit means the lookup failed or no records matched. Results include the current entity code and source manifests. Use `--format json` for aliases and references as structured fields. County FIPS appears separately from its entity code. State filters follow manifest relationships, not a person's residence.
+A nonzero exit means the lookup failed or no records matched. Results include the current entity code and source manifests. Use `--format json` for aliases and references as structured fields. County FIPS appears separately from its entity code. State filters follow manifest relationships, not a citizen's residence.
 
 ## Find the owner codes
 
-Export the current repository's people and candidacies:
+Export the current repository's citizens and candidacies:
 
 ```sh
 .venv/bin/python tools/seed_contract.py owners > /tmp/ascent-candidate-owners.json
 ```
 
-A nonzero exit means export failed. The output is a nonempty JSON array with `code`, `type`, `name`, `person`, `race`, and source `files`. Use `race` to distinguish a person's campaigns. For example, the current New York statewide manifest defines `PERSON-JAMES_LT_5Y` and `CANDIDACY-USA-NY-ATTORNEY_GENERAL-2026_GENERAL-JAMES_LT_5Y`. Read the current export rather than copying codes from prose.
+A nonzero exit means export failed. The output is a nonempty JSON array with `code`, `type`, `name`, `citizen`, `race`, and source `files`. Use `race` to distinguish a citizen's campaigns. For example, the current New York statewide manifest defines `CITIZEN-JAMES_LT_5Y` and `CANDIDACY-USA-NY-ATTORNEY_GENERAL-2026_GENERAL-JAMES_LT_5Y`. Read the current export rather than copying codes from prose.
 
-Use the full local code, including the person's disambiguator. Do not use database IDs, page URLs, name-only shortcuts, or the `MIC-ASC-` URI prefix. Do not create another Person or Candidacy to attach an account or image. If the owner is missing or ambiguous, report that gap to the maintainer. New Person definitions use the [minting workflow](CONTRIBUTING.md#people), which issues the full code before submission.
+Use the full local code, including the citizen's disambiguator. Do not use database IDs, page URLs, name-only shortcuts, or the `MIC-ASC-` URI prefix. Do not create another Citizen or Candidacy to attach an account or image. If the owner is missing or ambiguous, report that gap to the maintainer. New Citizen definitions use the [minting workflow](CONTRIBUTING.md#citizens), which issues the full code before submission.
 
 ## Verify each account
 
@@ -44,12 +44,12 @@ Read the candidate's official website, campaign website, or another first-party 
 
 Choose the owner according to the account's scope:
 
-- Use a `PERSON-...` code for the person's continuing public account, including an account they use across campaigns.
+- Use a `CITIZEN-...` code for the citizen's continuing public account, including an account they use across campaigns.
 - Use a `CANDIDACY-...` code when the account belongs to that specific campaign. Verify the office and election year.
 
-Keep one account under one owner. Do not duplicate the same personal account for every campaign. The candidacy page already includes its person's official accounts alongside the campaign's accounts.
+Keep one account under one owner. Do not duplicate the same personal account for every campaign. The candidacy page already includes its citizen's official accounts alongside the campaign's accounts.
 
-Submit only verified official accounts through this worker contract. Omit accounts you cannot verify and report the reason separately. Do not guess handles, invent websites, treat supporter accounts as official, or infer positions or endorsements from an account's existence. Source accuracy and the Person-versus-Candidacy choice require human review; validation cannot establish either.
+Submit only verified official accounts through this worker contract. Omit accounts you cannot verify and report the reason separately. Do not guess handles, invent websites, treat supporter accounts as official, or infer positions or endorsements from an account's existence. Source accuracy and the Citizen-versus-Candidacy choice require human review; validation cannot establish either.
 
 ## Write the account contribution
 
@@ -61,21 +61,21 @@ Each record requires:
 
 - `type: Channel` and an uppercase `CHANNEL-...` code. Follow the platform and handle code recipes in [CONTRIBUTING.md](CONTRIBUTING.md#channel-one-account).
 - `attributes.platform`, `attributes.handle`, `attributes.url`, and `attributes.official: true`. The supported platforms come from the general Ascent schema. Use `other` for a platform outside that list.
-- `references.owner` containing an existing full Person or Candidacy code.
+- `references.owner` containing an existing full Citizen or Candidacy code.
 - A per-record `source` with `contributor`, `url`, `captured_on` in `YYYY-MM-DD` form, and `verification_note`.
 
 Preserve the handle's spelling and case, without its leading `@`. A website's handle is its host and any path. Use an HTTP or HTTPS profile URL, rather than a single post. The account URL and evidence URL can differ.
 
 Search existing Channel records before choosing a code. The pair `platform` and `handle` identifies an account, and the validator compares that pair exactly, as the importer does. Reuse an existing account's code. An unchanged record can be imported repeatedly. If an existing owner, handle, URL, or official status disagrees, request maintainer review instead of inventing another code or moving the account. Alias changes require the general contribution workflow.
 
-The worker subset permits only flat Channel records with explicit owners and per-record sources. Use [the general contract](CONTRIBUTING.md) for posts, videos, party accounts, new people, aliases, and stance evidence. Use its [shared image contract](CONTRIBUTING.md#shared-profile-images) for images and their placements. An account by itself does not create a Communication or a stance.
+The worker subset permits only flat Channel records with explicit owners and per-record sources. Use [the general contract](CONTRIBUTING.md) for posts, videos, party accounts, new citizens, aliases, and stance evidence. Use its [shared image contract](CONTRIBUTING.md#shared-profile-images) for images and their placements. An account by itself does not create a Communication or a stance.
 
 ## Write the image contribution
 
 1. Copy [the YAML image example](examples/profile_images.yml) or [its JSON equivalent](examples/profile_images.json). Replace all placeholder owner codes with full codes from the export. Replace the example images and source metadata with verified values.
 2. Search existing Image records by their original `attributes.url`. Reuse an existing Image code for the same URL. For a new image, add one Image with the original image URL, a description in `alt_text`, its credit, and the source page in `source_url`.
-3. Add an ImagePlacement for each Person or Candidacy that uses the image. Set `references.image` and `references.subject` to their codes. Use a Person for images belonging to that person's profile and a Candidacy for campaign-specific images. Reuse the same Image across subjects when appropriate.
-4. Set each placement's `position` to a nonnegative integer. Use distinct values to specify the display order. Candidacy images appear before personal images, with duplicate images removed. Do not set the former Person attributes `portrait_url`, `portrait_credit`, or `portrait_source_url`.
+3. Add an ImagePlacement for each Citizen or Candidacy that uses the image. Set `references.image` and `references.subject` to their codes. Use a Citizen for images belonging to that citizen's profile and a Candidacy for campaign-specific images. Reuse the same Image across subjects when appropriate.
+4. Set each placement's `position` to a nonnegative integer. Use distinct values to specify the display order. Candidacy images appear before personal images, with duplicate images removed. Do not set the former Citizen attributes `portrait_url`, `portrait_credit`, or `portrait_source_url`.
 5. Put the manifest in `manifests/contributions/<your-worker>/profile_images/`. Keep it separate from `candidate_accounts/`, which accepts only the stricter Channel subset. Record `source.contributor`, `source.url`, and `source.captured_on` for the image evidence.
 
 Submit the original image URL and source-page URL separately. Do not submit a resized thumbnail URL as the original. Keep image binaries and local file paths out of this repository.
@@ -108,7 +108,7 @@ Check all manifests and examples before opening a pull request:
 .venv/bin/python tools/seed_contract.py validate manifests examples
 ```
 
-A nonzero exit or a nonzero `failed` count means validation failed. Files in a `candidate_accounts` directory receive the stricter account checks. Other files receive the general Ascent schema checks. The validator also rejects bare Person definition codes, mismatched provisional usernames, duplicate Person definitions, and missing or mismatched state scope on U.S. state district definitions. Scope can be inherited from a document or group. GitHub Actions runs this command and the validator tests on pull requests.
+A nonzero exit or a nonzero `failed` count means validation failed. Files in a `candidate_accounts` directory receive the stricter account checks. Other files receive the general Ascent schema checks. The validator also rejects bare Citizen definition codes, mismatched provisional usernames, duplicate Citizen definitions, and missing or mismatched state scope on U.S. state district definitions. Scope can be inherited from a document or group. GitHub Actions runs this command and the validator tests on pull requests.
 
 After adding or changing manifests, also regenerate and check the [entity catalog](CONTRIBUTING.md#refresh-the-catalog). Commit generated catalog changes with the manifest changes.
 

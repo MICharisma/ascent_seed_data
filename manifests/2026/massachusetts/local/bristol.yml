@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_BRISTOL-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE
-  - type: Person
-    code: PERSON-HOYE_TH_9T
+  - type: Citizen
+    code: CITIZEN-HOYE_TH_9T
     attributes:
       username: hoye_th_9t
       username_status: provisional
@@ -54,9 +54,9 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE-2026_GENERAL
-      person: PERSON-HOYE_TH_9T
-  - type: Person
-    code: PERSON-LAYDEN_ML_7U
+      citizen: CITIZEN-HOYE_TH_9T
+  - type: Citizen
+    code: CITIZEN-LAYDEN_ML_7U
     attributes:
       username: layden_ml_7u
       username_status: provisional
@@ -73,7 +73,7 @@ groups:
         kind: designation
     references:
       race: RACE-USA-MA-COUNTY_BRISTOL-REGISTER_OF_PROBATE-2026_GENERAL
-      person: PERSON-LAYDEN_ML_7U
+      citizen: CITIZEN-LAYDEN_ML_7U
 - records:
   - type: Office
     code: OFFICE-USA-MA-COUNTY_BRISTOL-TREASURER
@@ -90,8 +90,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_BRISTOL-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_BRISTOL-TREASURER
-  - type: Person
-    code: PERSON-SAUNDERS_CH_2E
+  - type: Citizen
+    code: CITIZEN-SAUNDERS_CH_2E
     attributes:
       username: saunders_ch_2e
       username_status: provisional
@@ -109,7 +109,7 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-COUNTY_BRISTOL-TREASURER-2026_GENERAL
-      person: PERSON-SAUNDERS_CH_2E
+      citizen: CITIZEN-SAUNDERS_CH_2E
 - records:
   - type: Office
     code: OFFICE-USA-MA-COUNTY_BRISTOL-COUNTY_COMMISSIONER
@@ -126,8 +126,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_BRISTOL-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_BRISTOL-COUNTY_COMMISSIONER
-  - type: Person
-    code: PERSON-SAUNDERS_JH_7Q
+  - type: Citizen
+    code: CITIZEN-SAUNDERS_JH_7Q
     attributes:
       username: saunders_jh_7q
       username_status: provisional
@@ -145,4 +145,4 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-COUNTY_BRISTOL-COUNTY_COMMISSIONER-2026_GENERAL
-      person: PERSON-SAUNDERS_JH_7Q
+      citizen: CITIZEN-SAUNDERS_JH_7Q

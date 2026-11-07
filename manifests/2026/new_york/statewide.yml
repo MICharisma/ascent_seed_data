@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-NY-2026_GENERAL
       office: OFFICE-USA-NY-ATTORNEY_GENERAL
-  - type: Person
-    code: PERSON-JAMES_LT_5Y
+  - type: Citizen
+    code: CITIZEN-JAMES_LT_5Y
     attributes:
       username: james_lt_5y
       username_status: provisional
@@ -58,9 +58,9 @@ groups:
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
       race: RACE-USA-NY-ATTORNEY_GENERAL-2026_GENERAL
-      person: PERSON-JAMES_LT_5Y
-  - type: Person
-    code: PERSON-KOMATIREDDY_SR_9Y
+      citizen: CITIZEN-JAMES_LT_5Y
+  - type: Citizen
+    code: CITIZEN-KOMATIREDDY_SR_9Y
     attributes:
       username: komatireddy_sr_9y
       username_status: provisional
@@ -80,7 +80,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-ATTORNEY_GENERAL-2026_GENERAL
-      person: PERSON-KOMATIREDDY_SR_9Y
+      citizen: CITIZEN-KOMATIREDDY_SR_9Y
 - records:
   - type: Office
     code: OFFICE-USA-NY-COMPTROLLER
@@ -98,8 +98,8 @@ groups:
     references:
       election: ELECTION-USA-NY-2026_GENERAL
       office: OFFICE-USA-NY-COMPTROLLER
-  - type: Person
-    code: PERSON-HERNANDEZ_JS_3A
+  - type: Citizen
+    code: CITIZEN-HERNANDEZ_JS_3A
     attributes:
       username: hernandez_js_3a
       username_status: provisional
@@ -119,9 +119,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COMPTROLLER-2026_GENERAL
-      person: PERSON-HERNANDEZ_JS_3A
-  - type: Person
-    code: PERSON-DINAPOLI_TH_5C
+      citizen: CITIZEN-HERNANDEZ_JS_3A
+  - type: Citizen
+    code: CITIZEN-DINAPOLI_TH_5C
     attributes:
       username: dinapoli_th_5c
       username_status: provisional
@@ -142,7 +142,7 @@ groups:
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
       race: RACE-USA-NY-COMPTROLLER-2026_GENERAL
-      person: PERSON-DINAPOLI_TH_5C
+      citizen: CITIZEN-DINAPOLI_TH_5C
 - records:
   - type: Office
     code: OFFICE-USA-NY-GOVERNOR
@@ -160,8 +160,8 @@ groups:
     references:
       election: ELECTION-USA-NY-2026_GENERAL
       office: OFFICE-USA-NY-GOVERNOR
-  - type: Person
-    code: PERSON-BLAKEMAN_BR_9C
+  - type: Citizen
+    code: CITIZEN-BLAKEMAN_BR_9C
     attributes:
       username: blakeman_br_9c
       username_status: provisional
@@ -184,9 +184,9 @@ groups:
         kind: designation
     references:
       race: RACE-USA-NY-GOVERNOR-2026_GENERAL
-      person: PERSON-BLAKEMAN_BR_9C
-  - type: Person
-    code: PERSON-HOCHUL_KT_7P
+      citizen: CITIZEN-BLAKEMAN_BR_9C
+  - type: Citizen
+    code: CITIZEN-HOCHUL_KT_7P
     attributes:
       username: hochul_kt_7p
       username_status: provisional
@@ -207,9 +207,9 @@ groups:
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
       race: RACE-USA-NY-GOVERNOR-2026_GENERAL
-      person: PERSON-HOCHUL_KT_7P
-  - type: Person
-    code: PERSON-MAILHOT_PL_9X
+      citizen: CITIZEN-HOCHUL_KT_7P
+  - type: Citizen
+    code: CITIZEN-MAILHOT_PL_9X
     attributes:
       username: mailhot_pl_9x
       username_status: provisional
@@ -222,9 +222,9 @@ groups:
       participation: off_ballot
     references:
       race: RACE-USA-NY-GOVERNOR-2026_GENERAL
-      person: PERSON-MAILHOT_PL_9X
-  - type: Person
-    code: PERSON-MAKELEY_JN_8Y
+      citizen: CITIZEN-MAILHOT_PL_9X
+  - type: Citizen
+    code: CITIZEN-MAKELEY_JN_8Y
     attributes:
       username: makeley_jn_8y
       username_status: provisional
@@ -237,7 +237,7 @@ groups:
       participation: off_ballot
     references:
       race: RACE-USA-NY-GOVERNOR-2026_GENERAL
-      person: PERSON-MAKELEY_JN_8Y
+      citizen: CITIZEN-MAKELEY_JN_8Y
 - records:
   - type: Office
     code: OFFICE-USA-NY-LIEUTENANT_GOVERNOR
@@ -255,8 +255,8 @@ groups:
     references:
       election: ELECTION-USA-NY-2026_GENERAL
       office: OFFICE-USA-NY-LIEUTENANT_GOVERNOR
-  - type: Person
-    code: PERSON-ADAMS_AD_5K
+  - type: Citizen
+    code: CITIZEN-ADAMS_AD_5K
     attributes:
       username: adams_ad_5k
       username_status: provisional
@@ -277,9 +277,9 @@ groups:
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
       race: RACE-USA-NY-LIEUTENANT_GOVERNOR-2026_GENERAL
-      person: PERSON-ADAMS_AD_5K
-  - type: Person
-    code: PERSON-HOOD_TD_3V
+      citizen: CITIZEN-ADAMS_AD_5K
+  - type: Citizen
+    code: CITIZEN-HOOD_TD_3V
     attributes:
       username: hood_td_3v
       username_status: provisional
@@ -301,9 +301,9 @@ groups:
         kind: designation
     references:
       race: RACE-USA-NY-LIEUTENANT_GOVERNOR-2026_GENERAL
-      person: PERSON-HOOD_TD_3V
-  - type: Person
-    code: PERSON-BONES_SH_7E
+      citizen: CITIZEN-HOOD_TD_3V
+  - type: Citizen
+    code: CITIZEN-BONES_SH_7E
     attributes:
       username: bones_sh_7e
       username_status: provisional
@@ -317,9 +317,9 @@ groups:
       participation: off_ballot
     references:
       race: RACE-USA-NY-LIEUTENANT_GOVERNOR-2026_GENERAL
-      person: PERSON-BONES_SH_7E
-  - type: Person
-    code: PERSON-GOLDFEIN_JS_8H
+      citizen: CITIZEN-BONES_SH_7E
+  - type: Citizen
+    code: CITIZEN-GOLDFEIN_JS_8H
     attributes:
       username: goldfein_js_8h
       username_status: provisional
@@ -333,4 +333,4 @@ groups:
       participation: off_ballot
     references:
       race: RACE-USA-NY-LIEUTENANT_GOVERNOR-2026_GENERAL
-      person: PERSON-GOLDFEIN_JS_8H
+      citizen: CITIZEN-GOLDFEIN_JS_8H

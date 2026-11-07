@@ -48,8 +48,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_COMMISSIONER-DISTRICT_1
-  - type: Person
-    code: PERSON-COHEN_HR_3G
+  - type: Citizen
+    code: CITIZEN-COHEN_HR_3G
     attributes:
       username: cohen_hr_3g
       username_status: provisional
@@ -66,9 +66,9 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL
-      person: PERSON-COHEN_HR_3G
-  - type: Person
-    code: PERSON-TOLEDO_JC_7C
+      citizen: CITIZEN-COHEN_HR_3G
+  - type: Citizen
+    code: CITIZEN-TOLEDO_JC_7C
     attributes:
       username: toledo_jc_7c
       username_status: provisional
@@ -85,7 +85,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_COMMISSIONER-DISTRICT_1-2026_GENERAL
-      person: PERSON-TOLEDO_JC_7C
+      citizen: CITIZEN-TOLEDO_JC_7C
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_COMMISSIONER-DISTRICT_3
@@ -103,8 +103,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_COMMISSIONER-DISTRICT_3
-  - type: Person
-    code: PERSON-GARCIA_LZ_4F
+  - type: Citizen
+    code: CITIZEN-GARCIA_LZ_4F
     attributes:
       username: garcia_lz_4f
       username_status: provisional
@@ -122,9 +122,9 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_COMMISSIONER-DISTRICT_3-2026_GENERAL
-      person: PERSON-GARCIA_LZ_4F
-  - type: Person
-    code: PERSON-MYERS_GW_2X
+      citizen: CITIZEN-GARCIA_LZ_4F
+  - type: Citizen
+    code: CITIZEN-MYERS_GW_2X
     attributes:
       username: myers_gw_2x
       username_status: provisional
@@ -141,7 +141,7 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_COMMISSIONER-DISTRICT_3-2026_GENERAL
-      person: PERSON-MYERS_GW_2X
+      citizen: CITIZEN-MYERS_GW_2X
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_COMMISSIONER-DISTRICT_5
@@ -159,8 +159,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_COMMISSIONER-DISTRICT_5
-  - type: Person
-    code: PERSON-HAHN_ST_6L
+  - type: Citizen
+    code: CITIZEN-HAHN_ST_6L
     attributes:
       username: hahn_st_6l
       username_status: provisional
@@ -177,9 +177,9 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_COMMISSIONER-DISTRICT_5-2026_GENERAL
-      person: PERSON-HAHN_ST_6L
-  - type: Person
-    code: PERSON-MANIMALA_NL_8H
+      citizen: CITIZEN-HAHN_ST_6L
+  - type: Citizen
+    code: CITIZEN-MANIMALA_NL_8H
     attributes:
       username: manimala_nl_8h
       username_status: provisional
@@ -196,7 +196,7 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_COMMISSIONER-DISTRICT_5-2026_GENERAL
-      person: PERSON-MANIMALA_NL_8H
+      citizen: CITIZEN-MANIMALA_NL_8H
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_COMMISSIONER-DISTRICT_7
@@ -214,8 +214,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_COMMISSIONER-DISTRICT_7
-  - type: Person
-    code: PERSON-RODRIGUEZ_AL_2F
+  - type: Citizen
+    code: CITIZEN-RODRIGUEZ_AL_2F
     attributes:
       username: rodriguez_al_2f
       username_status: provisional
@@ -232,9 +232,9 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_COMMISSIONER-DISTRICT_7-2026_GENERAL
-      person: PERSON-RODRIGUEZ_AL_2F
-  - type: Person
-    code: PERSON-WOSTAL_JS_3S
+      citizen: CITIZEN-RODRIGUEZ_AL_2F
+  - type: Citizen
+    code: CITIZEN-WOSTAL_JS_3S
     attributes:
       username: wostal_js_3s
       username_status: provisional
@@ -251,7 +251,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_COMMISSIONER-DISTRICT_7-2026_GENERAL
-      person: PERSON-WOSTAL_JS_3S
+      citizen: CITIZEN-WOSTAL_JS_3S
 - records:
   - type: Office
     code: OFFICE-USA-FL-TEMPLE_TERRACE-COUNCIL_MEMBER
@@ -268,8 +268,8 @@ groups:
     references:
       election: ELECTION-USA-FL-TEMPLE_TERRACE-2026_GENERAL
       office: OFFICE-USA-FL-TEMPLE_TERRACE-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-FERNANDEZ_AL_5X
+  - type: Citizen
+    code: CITIZEN-FERNANDEZ_AL_5X
     attributes:
       username: fernandez_al_5x
       username_status: provisional
@@ -283,9 +283,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-TEMPLE_TERRACE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-FERNANDEZ_AL_5X
-  - type: Person
-    code: PERSON-GESSMAN_RY_9B
+      citizen: CITIZEN-FERNANDEZ_AL_5X
+  - type: Citizen
+    code: CITIZEN-GESSMAN_RY_9B
     attributes:
       username: gessman_ry_9b
       username_status: provisional
@@ -298,9 +298,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-TEMPLE_TERRACE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-GESSMAN_RY_9B
-  - type: Person
-    code: PERSON-MICHALSKI_KR_3U
+      citizen: CITIZEN-GESSMAN_RY_9B
+  - type: Citizen
+    code: CITIZEN-MICHALSKI_KR_3U
     attributes:
       username: michalski_kr_3u
       username_status: provisional
@@ -313,9 +313,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-TEMPLE_TERRACE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-MICHALSKI_KR_3U
-  - type: Person
-    code: PERSON-PAPANTONIOU_EG_3C
+      citizen: CITIZEN-MICHALSKI_KR_3U
+  - type: Citizen
+    code: CITIZEN-PAPANTONIOU_EG_3C
     attributes:
       username: papantoniou_eg_3c
       username_status: provisional
@@ -328,9 +328,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-TEMPLE_TERRACE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-PAPANTONIOU_EG_3C
-  - type: Person
-    code: PERSON-TREAT_AM_3C
+      citizen: CITIZEN-PAPANTONIOU_EG_3C
+  - type: Citizen
+    code: CITIZEN-TREAT_AM_3C
     attributes:
       username: treat_am_3c
       username_status: provisional
@@ -343,7 +343,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-TEMPLE_TERRACE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-TREAT_AM_3C
+      citizen: CITIZEN-TREAT_AM_3C
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_7
@@ -361,8 +361,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_7
-  - type: Person
-    code: PERSON-SCOTT_MN_2Y
+  - type: Citizen
+    code: CITIZEN-SCOTT_MN_2Y
     attributes:
       username: scott_mn_2y
       username_status: provisional
@@ -375,7 +375,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_7-2026_GENERAL
-      person: PERSON-SCOTT_MN_2Y
+      citizen: CITIZEN-SCOTT_MN_2Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_9
@@ -393,8 +393,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_9
-  - type: Person
-    code: PERSON-GRINER_JR_8T
+  - type: Citizen
+    code: CITIZEN-GRINER_JR_8T
     attributes:
       username: griner_jr_8t
       username_status: provisional
@@ -408,7 +408,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_9-2026_GENERAL
-      person: PERSON-GRINER_JR_8T
+      citizen: CITIZEN-GRINER_JR_8T
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_13
@@ -426,8 +426,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_13
-  - type: Person
-    code: PERSON-JOHNSON_JN_2R
+  - type: Citizen
+    code: CITIZEN-JOHNSON_JN_2R
     attributes:
       username: johnson_jn_2r
       username_status: provisional
@@ -441,7 +441,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_13-2026_GENERAL
-      person: PERSON-JOHNSON_JN_2R
+      citizen: CITIZEN-JOHNSON_JN_2R
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_16
@@ -459,8 +459,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_16
-  - type: Person
-    code: PERSON-TAYLOR_MR_6U
+  - type: Citizen
+    code: CITIZEN-TAYLOR_MR_6U
     attributes:
       username: taylor_mr_6u
       username_status: provisional
@@ -474,7 +474,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_16-2026_GENERAL
-      person: PERSON-TAYLOR_MR_6U
+      citizen: CITIZEN-TAYLOR_MR_6U
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_17
@@ -492,8 +492,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_17
-  - type: Person
-    code: PERSON-COY_TR_3G
+  - type: Citizen
+    code: CITIZEN-COY_TR_3G
     attributes:
       username: coy_tr_3g
       username_status: provisional
@@ -506,7 +506,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_17-2026_GENERAL
-      person: PERSON-COY_TR_3G
+      citizen: CITIZEN-COY_TR_3G
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_18
@@ -524,8 +524,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_18
-  - type: Person
-    code: PERSON-FELIX_MT_3L
+  - type: Citizen
+    code: CITIZEN-FELIX_MT_3L
     attributes:
       username: felix_mt_3l
       username_status: provisional
@@ -539,7 +539,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_18-2026_GENERAL
-      person: PERSON-FELIX_MT_3L
+      citizen: CITIZEN-FELIX_MT_3L
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_20
@@ -557,8 +557,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_20
-  - type: Person
-    code: PERSON-BROWN_CH_6E
+  - type: Citizen
+    code: CITIZEN-BROWN_CH_6E
     attributes:
       username: brown_ch_6e
       username_status: provisional
@@ -572,7 +572,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_20-2026_GENERAL
-      person: PERSON-BROWN_CH_6E
+      citizen: CITIZEN-BROWN_CH_6E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_24
@@ -590,8 +590,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_24
-  - type: Person
-    code: PERSON-OBRIEN_CL_7Y
+  - type: Citizen
+    code: CITIZEN-OBRIEN_CL_7Y
     attributes:
       username: obrien_cl_7y
       username_status: provisional
@@ -604,7 +604,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_24-2026_GENERAL
-      person: PERSON-OBRIEN_CL_7Y
+      citizen: CITIZEN-OBRIEN_CL_7Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_25
@@ -622,8 +622,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_25
-  - type: Person
-    code: PERSON-HENDERSON_BR_3C
+  - type: Citizen
+    code: CITIZEN-HENDERSON_BR_3C
     attributes:
       username: henderson_br_3c
       username_status: provisional
@@ -636,7 +636,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COUNTY_JUDGE-GROUP_25-2026_GENERAL
-      person: PERSON-HENDERSON_BR_3C
+      citizen: CITIZEN-HENDERSON_BR_3C
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-SCHOOL_BOARD_MEMBER-DISTRICT_2
@@ -654,8 +654,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-SCHOOL_BOARD_MEMBER-DISTRICT_2
-  - type: Person
-    code: PERSON-LYSSY_BR_6U
+  - type: Citizen
+    code: CITIZEN-LYSSY_BR_6U
     attributes:
       username: lyssy_br_6u
       username_status: provisional
@@ -668,9 +668,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-LYSSY_BR_6U
-  - type: Person
-    code: PERSON-SIMIC_DN_7B
+      citizen: CITIZEN-LYSSY_BR_6U
+  - type: Citizen
+    code: CITIZEN-SIMIC_DN_7B
     attributes:
       username: simic_dn_7b
       username_status: provisional
@@ -683,7 +683,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-SIMIC_DN_7B
+      citizen: CITIZEN-SIMIC_DN_7B
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-SCHOOL_BOARD_MEMBER-DISTRICT_4
@@ -701,8 +701,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-SCHOOL_BOARD_MEMBER-DISTRICT_4
-  - type: Person
-    code: PERSON-RENDON_PT_6X
+  - type: Citizen
+    code: CITIZEN-RENDON_PT_6X
     attributes:
       username: rendon_pt_6x
       username_status: provisional
@@ -716,7 +716,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-RENDON_PT_6X
+      citizen: CITIZEN-RENDON_PT_6X
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-SCHOOL_BOARD_MEMBER-DISTRICT_6
@@ -734,8 +734,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-SCHOOL_BOARD_MEMBER-DISTRICT_6
-  - type: Person
-    code: PERSON-GAY_KN_4M
+  - type: Citizen
+    code: CITIZEN-GAY_KN_4M
     attributes:
       username: gay_kn_4m
       username_status: provisional
@@ -749,9 +749,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SCHOOL_BOARD_MEMBER-DISTRICT_6-2026_GENERAL
-      person: PERSON-GAY_KN_4M
-  - type: Person
-    code: PERSON-PEREZ_KR_8A
+      citizen: CITIZEN-GAY_KN_4M
+  - type: Citizen
+    code: CITIZEN-PEREZ_KR_8A
     attributes:
       username: perez_kr_8a
       username_status: provisional
@@ -764,7 +764,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SCHOOL_BOARD_MEMBER-DISTRICT_6-2026_GENERAL
-      person: PERSON-PEREZ_KR_8A
+      citizen: CITIZEN-PEREZ_KR_8A
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
@@ -782,8 +782,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
-  - type: Person
-    code: PERSON-PARKE_TR_6E
+  - type: Citizen
+    code: CITIZEN-PARKE_TR_6E
     attributes:
       username: parke_tr_6e
       username_status: provisional
@@ -796,7 +796,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
-      person: PERSON-PARKE_TR_6E
+      citizen: CITIZEN-PARKE_TR_6E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
@@ -814,8 +814,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
-  - type: Person
-    code: PERSON-SHIVERS_MT_2V
+  - type: Citizen
+    code: CITIZEN-SHIVERS_MT_2V
     attributes:
       username: shivers_mt_2v
       username_status: provisional
@@ -828,7 +828,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
-      person: PERSON-SHIVERS_MT_2V
+      citizen: CITIZEN-SHIVERS_MT_2V
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARBOR_GREENE_CDD_SEAT_1
@@ -846,8 +846,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARBOR_GREENE_CDD_SEAT_1
-  - type: Person
-    code: PERSON-CANDELLA_MK_2G
+  - type: Citizen
+    code: CITIZEN-CANDELLA_MK_2G
     attributes:
       username: candella_mk_2g
       username_status: provisional
@@ -860,7 +860,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARBOR_GREENE_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-CANDELLA_MK_2G
+      citizen: CITIZEN-CANDELLA_MK_2G
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARBOR_GREENE_CDD_SEAT_2
@@ -878,8 +878,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARBOR_GREENE_CDD_SEAT_2
-  - type: Person
-    code: PERSON-DYKEMAN_MT_7N
+  - type: Citizen
+    code: CITIZEN-DYKEMAN_MT_7N
     attributes:
       username: dykeman_mt_7n
       username_status: provisional
@@ -892,7 +892,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARBOR_GREENE_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-DYKEMAN_MT_7N
+      citizen: CITIZEN-DYKEMAN_MT_7N
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVELAR_CREEK_CDD_SEAT_3
@@ -910,8 +910,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVELAR_CREEK_CDD_SEAT_3
-  - type: Person
-    code: PERSON-FRANCO_FR_7K
+  - type: Citizen
+    code: CITIZEN-FRANCO_FR_7K
     attributes:
       username: franco_fr_7k
       username_status: provisional
@@ -925,9 +925,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVELAR_CREEK_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-FRANCO_FR_7K
-  - type: Person
-    code: PERSON-JOHNSON_SB_4T
+      citizen: CITIZEN-FRANCO_FR_7K
+  - type: Citizen
+    code: CITIZEN-JOHNSON_SB_4T
     attributes:
       username: johnson_sb_4t
       username_status: provisional
@@ -940,7 +940,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVELAR_CREEK_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-JOHNSON_SB_4T
+      citizen: CITIZEN-JOHNSON_SB_4T
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVELAR_CREEK_CDD_SEAT_4
@@ -958,8 +958,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVELAR_CREEK_CDD_SEAT_4
-  - type: Person
-    code: PERSON-CAMPBELL_JL_6T
+  - type: Citizen
+    code: CITIZEN-CAMPBELL_JL_6T
     attributes:
       username: campbell_jl_6t
       username_status: provisional
@@ -972,9 +972,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVELAR_CREEK_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-CAMPBELL_JL_6T
-  - type: Person
-    code: PERSON-GUILLOT_ED_9M
+      citizen: CITIZEN-CAMPBELL_JL_6T
+  - type: Citizen
+    code: CITIZEN-GUILLOT_ED_9M
     attributes:
       username: guillot_ed_9m
       username_status: provisional
@@ -987,7 +987,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-AVELAR_CREEK_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-GUILLOT_ED_9M
+      citizen: CITIZEN-GUILLOT_ED_9M
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAHIA_LAKES_CDD_SEAT_5
@@ -1005,8 +1005,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAHIA_LAKES_CDD_SEAT_5
-  - type: Person
-    code: PERSON-KRAYEWSKI_ED_4D
+  - type: Citizen
+    code: CITIZEN-KRAYEWSKI_ED_4D
     attributes:
       username: krayewski_ed_4d
       username_status: provisional
@@ -1020,7 +1020,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BAHIA_LAKES_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-KRAYEWSKI_ED_4D
+      citizen: CITIZEN-KRAYEWSKI_ED_4D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BALLENTRAE_HILLSBOROUGH_CDD_SEAT_1
@@ -1038,8 +1038,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BALLENTRAE_HILLSBOROUGH_CDD_SEAT_1
-  - type: Person
-    code: PERSON-MIXON_LK_7E
+  - type: Citizen
+    code: CITIZEN-MIXON_LK_7E
     attributes:
       username: mixon_lk_7e
       username_status: provisional
@@ -1053,7 +1053,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BALLENTRAE_HILLSBOROUGH_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-MIXON_LK_7E
+      citizen: CITIZEN-MIXON_LK_7E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BALLENTRAE_HILLSBOROUGH_CDD_SEAT_5
@@ -1071,8 +1071,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BALLENTRAE_HILLSBOROUGH_CDD_SEAT_5
-  - type: Person
-    code: PERSON-HAUSSLING_RC_2H
+  - type: Citizen
+    code: CITIZEN-HAUSSLING_RC_2H
     attributes:
       username: haussling_rc_2h
       username_status: provisional
@@ -1085,7 +1085,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BALLENTRAE_HILLSBOROUGH_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-HAUSSLING_RC_2H
+      citizen: CITIZEN-HAUSSLING_RC_2H
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BELMOND_RESERVE_CDD_SEAT_4
@@ -1103,8 +1103,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BELMOND_RESERVE_CDD_SEAT_4
-  - type: Person
-    code: PERSON-MCPHERSON_WL_2E
+  - type: Citizen
+    code: CITIZEN-MCPHERSON_WL_2E
     attributes:
       username: mcpherson_wl_2e
       username_status: provisional
@@ -1117,7 +1117,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BELMOND_RESERVE_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-MCPHERSON_WL_2E
+      citizen: CITIZEN-MCPHERSON_WL_2E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BELMONT_CDD_SEAT_3
@@ -1135,8 +1135,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BELMONT_CDD_SEAT_3
-  - type: Person
-    code: PERSON-CAREY_SH_9M
+  - type: Citizen
+    code: CITIZEN-CAREY_SH_9M
     attributes:
       username: carey_sh_9m
       username_status: provisional
@@ -1150,7 +1150,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BELMONT_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-CAREY_SH_9M
+      citizen: CITIZEN-CAREY_SH_9M
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BELMONT_CDD_SEAT_4
@@ -1168,8 +1168,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BELMONT_CDD_SEAT_4
-  - type: Person
-    code: PERSON-HOLLIDAY_JN_2Y
+  - type: Citizen
+    code: CITIZEN-HOLLIDAY_JN_2Y
     attributes:
       username: holliday_jn_2y
       username_status: provisional
@@ -1182,7 +1182,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BELMONT_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-HOLLIDAY_JN_2Y
+      citizen: CITIZEN-HOLLIDAY_JN_2Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BULLFROG_CREEK_CDD_SEAT_5
@@ -1200,8 +1200,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BULLFROG_CREEK_CDD_SEAT_5
-  - type: Person
-    code: PERSON-BURGOS_JS_2F
+  - type: Citizen
+    code: CITIZEN-BURGOS_JS_2F
     attributes:
       username: burgos_js_2f
       username_status: provisional
@@ -1215,7 +1215,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-BULLFROG_CREEK_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-BURGOS_JS_2F
+      citizen: CITIZEN-BURGOS_JS_2F
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CHEVAL_WEST_CDD_SEAT_1
@@ -1233,8 +1233,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CHEVAL_WEST_CDD_SEAT_1
-  - type: Person
-    code: PERSON-CURRAN_CH_5C
+  - type: Citizen
+    code: CITIZEN-CURRAN_CH_5C
     attributes:
       username: curran_ch_5c
       username_status: provisional
@@ -1247,7 +1247,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CHEVAL_WEST_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-CURRAN_CH_5C
+      citizen: CITIZEN-CURRAN_CH_5C
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CHEVAL_WEST_CDD_SEAT_2
@@ -1265,8 +1265,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CHEVAL_WEST_CDD_SEAT_2
-  - type: Person
-    code: PERSON-HOSTLER_SC_2K
+  - type: Citizen
+    code: CITIZEN-HOSTLER_SC_2K
     attributes:
       username: hostler_sc_2k
       username_status: provisional
@@ -1280,7 +1280,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CHEVAL_WEST_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-HOSTLER_SC_2K
+      citizen: CITIZEN-HOSTLER_SC_2K
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CORDOBA_RANCH_CDD_SEAT_1
@@ -1298,8 +1298,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CORDOBA_RANCH_CDD_SEAT_1
-  - type: Person
-    code: PERSON-OWEN_ER_6P
+  - type: Citizen
+    code: CITIZEN-OWEN_ER_6P
     attributes:
       username: owen_er_6p
       username_status: provisional
@@ -1312,7 +1312,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CORDOBA_RANCH_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-OWEN_ER_6P
+      citizen: CITIZEN-OWEN_ER_6P
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CORDOBA_RANCH_CDD_SEAT_2
@@ -1330,8 +1330,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CORDOBA_RANCH_CDD_SEAT_2
-  - type: Person
-    code: PERSON-MARLOW_JN_3M
+  - type: Citizen
+    code: CITIZEN-MARLOW_JN_3M
     attributes:
       username: marlow_jn_3m
       username_status: provisional
@@ -1345,7 +1345,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CORDOBA_RANCH_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-MARLOW_JN_3M
+      citizen: CITIZEN-MARLOW_JN_3M
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CORY_LAKES_CDD_SEAT_4
@@ -1363,8 +1363,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CORY_LAKES_CDD_SEAT_4
-  - type: Person
-    code: PERSON-BELYEA_AN_7C
+  - type: Citizen
+    code: CITIZEN-BELYEA_AN_7C
     attributes:
       username: belyea_an_7c
       username_status: provisional
@@ -1378,7 +1378,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CORY_LAKES_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-BELYEA_AN_7C
+      citizen: CITIZEN-BELYEA_AN_7C
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CORY_LAKES_CDD_SEAT_5
@@ -1396,8 +1396,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CORY_LAKES_CDD_SEAT_5
-  - type: Person
-    code: PERSON-GUPTA_PL_5F
+  - type: Citizen
+    code: CITIZEN-GUPTA_PL_5F
     attributes:
       username: gupta_pl_5f
       username_status: provisional
@@ -1410,9 +1410,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CORY_LAKES_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-GUPTA_PL_5F
-  - type: Person
-    code: PERSON-MCINTYRE_CY_8L
+      citizen: CITIZEN-GUPTA_PL_5F
+  - type: Citizen
+    code: CITIZEN-MCINTYRE_CY_8L
     attributes:
       username: mcintyre_cy_8l
       username_status: provisional
@@ -1425,7 +1425,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CORY_LAKES_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-MCINTYRE_CY_8L
+      citizen: CITIZEN-MCINTYRE_CY_8L
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COVINGTON_PARK_CDD_SEAT_1
@@ -1443,8 +1443,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COVINGTON_PARK_CDD_SEAT_1
-  - type: Person
-    code: PERSON-MCKINNEY_LS_6W
+  - type: Citizen
+    code: CITIZEN-MCKINNEY_LS_6W
     attributes:
       username: mckinney_ls_6w
       username_status: provisional
@@ -1457,7 +1457,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COVINGTON_PARK_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-MCKINNEY_LS_6W
+      citizen: CITIZEN-MCKINNEY_LS_6W
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COVINGTON_PARK_CDD_SEAT_2
@@ -1475,8 +1475,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COVINGTON_PARK_CDD_SEAT_2
-  - type: Person
-    code: PERSON-BROWN_ST_5M
+  - type: Citizen
+    code: CITIZEN-BROWN_ST_5M
     attributes:
       username: brown_st_5m
       username_status: provisional
@@ -1490,9 +1490,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COVINGTON_PARK_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-BROWN_ST_5M
-  - type: Person
-    code: PERSON-REIDT_RC_2F
+      citizen: CITIZEN-BROWN_ST_5M
+  - type: Citizen
+    code: CITIZEN-REIDT_RC_2F
     attributes:
       username: reidt_rc_2f
       username_status: provisional
@@ -1506,7 +1506,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COVINGTON_PARK_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-REIDT_RC_2F
+      citizen: CITIZEN-REIDT_RC_2F
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COVINGTON_PARK_CDD_SEAT_3
@@ -1524,8 +1524,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COVINGTON_PARK_CDD_SEAT_3
-  - type: Person
-    code: PERSON-LABRANCHE_JS_3B
+  - type: Citizen
+    code: CITIZEN-LABRANCHE_JS_3B
     attributes:
       username: labranche_js_3b
       username_status: provisional
@@ -1538,7 +1538,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-COVINGTON_PARK_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-LABRANCHE_JS_3B
+      citizen: CITIZEN-LABRANCHE_JS_3B
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CREEK_PRESERVE_CDD_SEAT_1
@@ -1556,8 +1556,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CREEK_PRESERVE_CDD_SEAT_1
-  - type: Person
-    code: PERSON-HAMPTON_MR_2A
+  - type: Citizen
+    code: CITIZEN-HAMPTON_MR_2A
     attributes:
       username: hampton_mr_2a
       username_status: provisional
@@ -1571,7 +1571,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CREEK_PRESERVE_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-HAMPTON_MR_2A
+      citizen: CITIZEN-HAMPTON_MR_2A
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CREEK_PRESERVE_CDD_SEAT_2
@@ -1589,8 +1589,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CREEK_PRESERVE_CDD_SEAT_2
-  - type: Person
-    code: PERSON-CHERRY_JC_8L
+  - type: Citizen
+    code: CITIZEN-CHERRY_JC_8L
     attributes:
       username: cherry_jc_8l
       username_status: provisional
@@ -1603,7 +1603,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CREEK_PRESERVE_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-CHERRY_JC_8L
+      citizen: CITIZEN-CHERRY_JC_8L
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_CREEK_CDD_SEAT_4
@@ -1621,8 +1621,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_CREEK_CDD_SEAT_4
-  - type: Person
-    code: PERSON-FAUCI_NN_8J
+  - type: Citizen
+    code: CITIZEN-FAUCI_NN_8J
     attributes:
       username: fauci_nn_8j
       username_status: provisional
@@ -1635,7 +1635,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_CREEK_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-FAUCI_NN_8J
+      citizen: CITIZEN-FAUCI_NN_8J
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_CREEK_CDD_SEAT_5
@@ -1653,8 +1653,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_CREEK_CDD_SEAT_5
-  - type: Person
-    code: PERSON-MARTIN_JL_3J
+  - type: Citizen
+    code: CITIZEN-MARTIN_JL_3J
     attributes:
       username: martin_jl_3j
       username_status: provisional
@@ -1667,7 +1667,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_CREEK_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-MARTIN_JL_3J
+      citizen: CITIZEN-MARTIN_JL_3J
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_MILLS_CDD_SEAT_2
@@ -1685,8 +1685,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_MILLS_CDD_SEAT_2
-  - type: Person
-    code: PERSON-ZANIKOS_JH_3D
+  - type: Citizen
+    code: CITIZEN-ZANIKOS_JH_3D
     attributes:
       username: zanikos_jh_3d
       username_status: provisional
@@ -1700,7 +1700,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_MILLS_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-ZANIKOS_JH_3D
+      citizen: CITIZEN-ZANIKOS_JH_3D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_MILLS_CDD_SEAT_4
@@ -1718,8 +1718,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_MILLS_CDD_SEAT_4
-  - type: Person
-    code: PERSON-SEABROOK_AN_4H
+  - type: Citizen
+    code: CITIZEN-SEABROOK_AN_4H
     attributes:
       username: seabrook_an_4h
       username_status: provisional
@@ -1732,7 +1732,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CYPRESS_MILLS_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-SEABROOK_AN_4H
+      citizen: CITIZEN-SEABROOK_AN_4H
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DG_FARMS_CDD_SEAT_1
@@ -1750,8 +1750,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DG_FARMS_CDD_SEAT_1
-  - type: Person
-    code: PERSON-REICHARD_DN_3R
+  - type: Citizen
+    code: CITIZEN-REICHARD_DN_3R
     attributes:
       username: reichard_dn_3r
       username_status: provisional
@@ -1764,7 +1764,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DG_FARMS_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-REICHARD_DN_3R
+      citizen: CITIZEN-REICHARD_DN_3R
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DG_FARMS_CDD_SEAT_3
@@ -1782,8 +1782,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DG_FARMS_CDD_SEAT_3
-  - type: Person
-    code: PERSON-MENDOZA_RB_3S
+  - type: Citizen
+    code: CITIZEN-MENDOZA_RB_3S
     attributes:
       username: mendoza_rb_3s
       username_status: provisional
@@ -1797,7 +1797,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DG_FARMS_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-MENDOZA_RB_3S
+      citizen: CITIZEN-MENDOZA_RB_3S
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DIAMOND_HILL_CDD_SEAT_1
@@ -1815,8 +1815,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DIAMOND_HILL_CDD_SEAT_1
-  - type: Person
-    code: PERSON-MUTHINENI_SR_7D
+  - type: Citizen
+    code: CITIZEN-MUTHINENI_SR_7D
     attributes:
       username: muthineni_sr_7d
       username_status: provisional
@@ -1829,7 +1829,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DIAMOND_HILL_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-MUTHINENI_SR_7D
+      citizen: CITIZEN-MUTHINENI_SR_7D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DIAMOND_HILL_CDD_SEAT_2
@@ -1847,8 +1847,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DIAMOND_HILL_CDD_SEAT_2
-  - type: Person
-    code: PERSON-DUNN_LN_3S
+  - type: Citizen
+    code: CITIZEN-DUNN_LN_3S
     attributes:
       username: dunn_ln_3s
       username_status: provisional
@@ -1862,9 +1862,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DIAMOND_HILL_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-DUNN_LN_3S
-  - type: Person
-    code: PERSON-POLLARD_JH_5L
+      citizen: CITIZEN-DUNN_LN_3S
+  - type: Citizen
+    code: CITIZEN-POLLARD_JH_5L
     attributes:
       username: pollard_jh_5l
       username_status: provisional
@@ -1878,7 +1878,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DIAMOND_HILL_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-POLLARD_JH_5L
+      citizen: CITIZEN-POLLARD_JH_5L
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DIAMOND_HILL_CDD_SEAT_3
@@ -1896,8 +1896,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DIAMOND_HILL_CDD_SEAT_3
-  - type: Person
-    code: PERSON-MCDONOUGH_JH_3Q
+  - type: Citizen
+    code: CITIZEN-MCDONOUGH_JH_3Q
     attributes:
       username: mcdonough_jh_3q
       username_status: provisional
@@ -1911,7 +1911,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DIAMOND_HILL_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-MCDONOUGH_JH_3Q
+      citizen: CITIZEN-MCDONOUGH_JH_3Q
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTON_PARK_CDD_SEAT_4
@@ -1929,8 +1929,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTON_PARK_CDD_SEAT_4
-  - type: Person
-    code: PERSON-MENENDEZ_BR_4J
+  - type: Citizen
+    code: CITIZEN-MENENDEZ_BR_4J
     attributes:
       username: menendez_br_4j
       username_status: provisional
@@ -1943,7 +1943,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTON_PARK_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-MENENDEZ_BR_4J
+      citizen: CITIZEN-MENENDEZ_BR_4J
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTON_PARK_CDD_SEAT_5
@@ -1961,8 +1961,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTON_PARK_CDD_SEAT_5
-  - type: Person
-    code: PERSON-MURPHY_LS_7A
+  - type: Citizen
+    code: CITIZEN-MURPHY_LS_7A
     attributes:
       username: murphy_ls_7a
       username_status: provisional
@@ -1975,7 +1975,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTON_PARK_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-MURPHY_LS_7A
+      citizen: CITIZEN-MURPHY_LS_7A
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ENCORE_CDD_SEAT_1
@@ -1993,8 +1993,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ENCORE_CDD_SEAT_1
-  - type: Person
-    code: PERSON-RUIZ_IR_9M
+  - type: Citizen
+    code: CITIZEN-RUIZ_IR_9M
     attributes:
       username: ruiz_ir_9m
       username_status: provisional
@@ -2007,7 +2007,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ENCORE_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-RUIZ_IR_9M
+      citizen: CITIZEN-RUIZ_IR_9M
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ENCORE_CDD_SEAT_5
@@ -2025,8 +2025,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ENCORE_CDD_SEAT_5
-  - type: Person
-    code: PERSON-RANDOLPH_MC_9D
+  - type: Citizen
+    code: CITIZEN-RANDOLPH_MC_9D
     attributes:
       username: randolph_mc_9d
       username_status: provisional
@@ -2039,7 +2039,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ENCORE_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-RANDOLPH_MC_9D
+      citizen: CITIZEN-RANDOLPH_MC_9D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FISHHAWK_CDD_IV_SEAT_4
@@ -2057,8 +2057,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FISHHAWK_CDD_IV_SEAT_4
-  - type: Person
-    code: PERSON-BRYGIDYR_AD_9A
+  - type: Citizen
+    code: CITIZEN-BRYGIDYR_AD_9A
     attributes:
       username: brygidyr_ad_9a
       username_status: provisional
@@ -2071,7 +2071,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FISHHAWK_CDD_IV_SEAT_4-2026_GENERAL
-      person: PERSON-BRYGIDYR_AD_9A
+      citizen: CITIZEN-BRYGIDYR_AD_9A
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FISHHAWK_RANCH_CDD_SEAT_2
@@ -2089,8 +2089,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FISHHAWK_RANCH_CDD_SEAT_2
-  - type: Person
-    code: PERSON-TURNER_DW_7H
+  - type: Citizen
+    code: CITIZEN-TURNER_DW_7H
     attributes:
       username: turner_dw_7h
       username_status: provisional
@@ -2103,7 +2103,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FISHHAWK_RANCH_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-TURNER_DW_7H
+      citizen: CITIZEN-TURNER_DW_7H
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FISHHAWK_RANCH_CDD_SEAT_4
@@ -2121,8 +2121,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FISHHAWK_RANCH_CDD_SEAT_4
-  - type: Person
-    code: PERSON-CRAWFORD_IN_8C
+  - type: Citizen
+    code: CITIZEN-CRAWFORD_IN_8C
     attributes:
       username: crawford_in_8c
       username_status: provisional
@@ -2135,9 +2135,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FISHHAWK_RANCH_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-CRAWFORD_IN_8C
-  - type: Person
-    code: PERSON-MOORE_DN_7F
+      citizen: CITIZEN-CRAWFORD_IN_8C
+  - type: Citizen
+    code: CITIZEN-MOORE_DN_7F
     attributes:
       username: moore_dn_7f
       username_status: provisional
@@ -2150,7 +2150,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FISHHAWK_RANCH_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-MOORE_DN_7F
+      citizen: CITIZEN-MOORE_DN_7F
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FOREST_BROOKE_CDD_SEAT_2
@@ -2168,8 +2168,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FOREST_BROOKE_CDD_SEAT_2
-  - type: Person
-    code: PERSON-CEMPROLA_ST_9U
+  - type: Citizen
+    code: CITIZEN-CEMPROLA_ST_9U
     attributes:
       username: cemprola_st_9u
       username_status: provisional
@@ -2182,7 +2182,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FOREST_BROOKE_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-CEMPROLA_ST_9U
+      citizen: CITIZEN-CEMPROLA_ST_9U
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FOREST_BROOKE_CDD_SEAT_4
@@ -2200,8 +2200,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FOREST_BROOKE_CDD_SEAT_4
-  - type: Person
-    code: PERSON-KRAUSE_CS_7T
+  - type: Citizen
+    code: CITIZEN-KRAUSE_CS_7T
     attributes:
       username: krause_cs_7t
       username_status: provisional
@@ -2214,7 +2214,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FOREST_BROOKE_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-KRAUSE_CS_7T
+      citizen: CITIZEN-KRAUSE_CS_7T
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAMPTON_CDD_SEAT_1
@@ -2232,8 +2232,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAMPTON_CDD_SEAT_1
-  - type: Person
-    code: PERSON-TUTICH_MR_6W
+  - type: Citizen
+    code: CITIZEN-TUTICH_MR_6W
     attributes:
       username: tutich_mr_6w
       username_status: provisional
@@ -2246,7 +2246,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAMPTON_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-TUTICH_MR_6W
+      citizen: CITIZEN-TUTICH_MR_6W
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAMPTON_CDD_SEAT_2
@@ -2264,8 +2264,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAMPTON_CDD_SEAT_2
-  - type: Person
-    code: PERSON-STREMMING_AL_5N
+  - type: Citizen
+    code: CITIZEN-STREMMING_AL_5N
     attributes:
       username: stremming_al_5n
       username_status: provisional
@@ -2279,7 +2279,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAMPTON_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-STREMMING_AL_5N
+      citizen: CITIZEN-STREMMING_AL_5N
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAMPTON_CDD_SEAT_3
@@ -2297,8 +2297,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAMPTON_CDD_SEAT_3
-  - type: Person
-    code: PERSON-TAPP_AN_3E
+  - type: Citizen
+    code: CITIZEN-TAPP_AN_3E
     attributes:
       username: tapp_an_3e
       username_status: provisional
@@ -2312,7 +2312,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-GRAND_HAMPTON_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-TAPP_AN_3E
+      citizen: CITIZEN-TAPP_AN_3E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HARBOR_BAY_CDD_SEAT_1
@@ -2330,8 +2330,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HARBOR_BAY_CDD_SEAT_1
-  - type: Person
-    code: PERSON-MCANALLY_PT_2Y
+  - type: Citizen
+    code: CITIZEN-MCANALLY_PT_2Y
     attributes:
       username: mcanally_pt_2y
       username_status: provisional
@@ -2344,7 +2344,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HARBOR_BAY_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-MCANALLY_PT_2Y
+      citizen: CITIZEN-MCANALLY_PT_2Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HARBOR_BAY_CDD_SEAT_2
@@ -2362,8 +2362,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HARBOR_BAY_CDD_SEAT_2
-  - type: Person
-    code: PERSON-LEVENTRY_DN_2V
+  - type: Citizen
+    code: CITIZEN-LEVENTRY_DN_2V
     attributes:
       username: leventry_dn_2v
       username_status: provisional
@@ -2377,9 +2377,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HARBOR_BAY_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-LEVENTRY_DN_2V
-  - type: Person
-    code: PERSON-VOLLBRECHT_JH_3U
+      citizen: CITIZEN-LEVENTRY_DN_2V
+  - type: Citizen
+    code: CITIZEN-VOLLBRECHT_JH_3U
     attributes:
       username: vollbrecht_jh_3u
       username_status: provisional
@@ -2392,7 +2392,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HARBOR_BAY_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-VOLLBRECHT_JH_3U
+      citizen: CITIZEN-VOLLBRECHT_JH_3U
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HARBOR_BAY_CDD_SEAT_3
@@ -2410,8 +2410,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HARBOR_BAY_CDD_SEAT_3
-  - type: Person
-    code: PERSON-WALTERS_DN_2F
+  - type: Citizen
+    code: CITIZEN-WALTERS_DN_2F
     attributes:
       username: walters_dn_2f
       username_status: provisional
@@ -2425,7 +2425,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HARBOR_BAY_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-WALTERS_DN_2F
+      citizen: CITIZEN-WALTERS_DN_2F
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HARBOUR_ISLES_CDD_SEAT_1
@@ -2443,8 +2443,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HARBOUR_ISLES_CDD_SEAT_1
-  - type: Person
-    code: PERSON-FANTAUZZI_EL_4R
+  - type: Citizen
+    code: CITIZEN-FANTAUZZI_EL_4R
     attributes:
       username: fantauzzi_el_4r
       username_status: provisional
@@ -2458,7 +2458,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HARBOUR_ISLES_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-FANTAUZZI_EL_4R
+      citizen: CITIZEN-FANTAUZZI_EL_4R
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HARBOUR_ISLES_CDD_SEAT_2
@@ -2476,8 +2476,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HARBOUR_ISLES_CDD_SEAT_2
-  - type: Person
-    code: PERSON-BOWDEN_BR_4W
+  - type: Citizen
+    code: CITIZEN-BOWDEN_BR_4W
     attributes:
       username: bowden_br_4w
       username_status: provisional
@@ -2490,7 +2490,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HARBOUR_ISLES_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-BOWDEN_BR_4W
+      citizen: CITIZEN-BOWDEN_BR_4W
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HAWKS_POINT_CDD_SEAT_2
@@ -2508,8 +2508,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HAWKS_POINT_CDD_SEAT_2
-  - type: Person
-    code: PERSON-WILLIAMS_CR_2X
+  - type: Citizen
+    code: CITIZEN-WILLIAMS_CR_2X
     attributes:
       username: williams_cr_2x
       username_status: provisional
@@ -2523,7 +2523,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HAWKS_POINT_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-WILLIAMS_CR_2X
+      citizen: CITIZEN-WILLIAMS_CR_2X
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HAWKSTONE_CDD_SEAT_2
@@ -2541,8 +2541,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HAWKSTONE_CDD_SEAT_2
-  - type: Person
-    code: PERSON-BEGLIAROV_SR_8V
+  - type: Citizen
+    code: CITIZEN-BEGLIAROV_SR_8V
     attributes:
       username: begliarov_sr_8v
       username_status: provisional
@@ -2555,7 +2555,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HAWKSTONE_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-BEGLIAROV_SR_8V
+      citizen: CITIZEN-BEGLIAROV_SR_8V
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HAWKSTONE_CDD_SEAT_3
@@ -2573,8 +2573,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HAWKSTONE_CDD_SEAT_3
-  - type: Person
-    code: PERSON-CACCIATORE_VN_5P
+  - type: Citizen
+    code: CITIZEN-CACCIATORE_VN_5P
     attributes:
       username: cacciatore_vn_5p
       username_status: provisional
@@ -2587,7 +2587,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HAWKSTONE_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-CACCIATORE_VN_5P
+      citizen: CITIZEN-CACCIATORE_VN_5P
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_HARBOR_CDD_SEAT_4
@@ -2605,8 +2605,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_HARBOR_CDD_SEAT_4
-  - type: Person
-    code: PERSON-ROSSI_RS_6J
+  - type: Citizen
+    code: CITIZEN-ROSSI_RS_6J
     attributes:
       username: rossi_rs_6j
       username_status: provisional
@@ -2619,7 +2619,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_HARBOR_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-ROSSI_RS_6J
+      citizen: CITIZEN-ROSSI_RS_6J
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_HARBOR_CDD_SEAT_5
@@ -2637,8 +2637,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_HARBOR_CDD_SEAT_5
-  - type: Person
-    code: PERSON-KELBAUGH_JM_2E
+  - type: Citizen
+    code: CITIZEN-KELBAUGH_JM_2E
     attributes:
       username: kelbaugh_jm_2e
       username_status: provisional
@@ -2651,7 +2651,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_HARBOR_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-KELBAUGH_JM_2E
+      citizen: CITIZEN-KELBAUGH_JM_2E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLES_CDD_SEAT_4
@@ -2669,8 +2669,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLES_CDD_SEAT_4
-  - type: Person
-    code: PERSON-BARRAVECCHIO_DN_6T
+  - type: Citizen
+    code: CITIZEN-BARRAVECCHIO_DN_6T
     attributes:
       username: barravecchio_dn_6t
       username_status: provisional
@@ -2683,7 +2683,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLES_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-BARRAVECCHIO_DN_6T
+      citizen: CITIZEN-BARRAVECCHIO_DN_6T
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLES_CDD_SEAT_5
@@ -2701,8 +2701,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLES_CDD_SEAT_5
-  - type: Person
-    code: PERSON-SORENSEN_RN_2Z
+  - type: Citizen
+    code: CITIZEN-SORENSEN_RN_2Z
     attributes:
       username: sorensen_rn_2z
       username_status: provisional
@@ -2715,7 +2715,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HERITAGE_ISLES_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-SORENSEN_RN_2Z
+      citizen: CITIZEN-SORENSEN_RN_2Z
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIDDEN_CREEK_CDD_SEAT_1
@@ -2733,8 +2733,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIDDEN_CREEK_CDD_SEAT_1
-  - type: Person
-    code: PERSON-CASSELS_KR_6U
+  - type: Citizen
+    code: CITIZEN-CASSELS_KR_6U
     attributes:
       username: cassels_kr_6u
       username_status: provisional
@@ -2747,7 +2747,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIDDEN_CREEK_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-CASSELS_KR_6U
+      citizen: CITIZEN-CASSELS_KR_6U
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIDDEN_CREEK_CDD_SEAT_2
@@ -2765,8 +2765,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIDDEN_CREEK_CDD_SEAT_2
-  - type: Person
-    code: PERSON-ANENE_ZO_5Y
+  - type: Citizen
+    code: CITIZEN-ANENE_ZO_5Y
     attributes:
       username: anene_zo_5y
       username_status: provisional
@@ -2779,9 +2779,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIDDEN_CREEK_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-ANENE_ZO_5Y
-  - type: Person
-    code: PERSON-KARGOL_BR_6E
+      citizen: CITIZEN-ANENE_ZO_5Y
+  - type: Citizen
+    code: CITIZEN-KARGOL_BR_6E
     attributes:
       username: kargol_br_6e
       username_status: provisional
@@ -2795,7 +2795,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIDDEN_CREEK_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-KARGOL_BR_6E
+      citizen: CITIZEN-KARGOL_BR_6E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIDDEN_CREEK_CDD_SEAT_5
@@ -2813,8 +2813,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIDDEN_CREEK_CDD_SEAT_5
-  - type: Person
-    code: PERSON-GIBSON_HR_7T
+  - type: Citizen
+    code: CITIZEN-GIBSON_HR_7T
     attributes:
       username: gibson_hr_7t
       username_status: provisional
@@ -2828,9 +2828,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIDDEN_CREEK_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-GIBSON_HR_7T
-  - type: Person
-    code: PERSON-MARRONE_TH_9D
+      citizen: CITIZEN-GIBSON_HR_7T
+  - type: Citizen
+    code: CITIZEN-MARRONE_TH_9D
     attributes:
       username: marrone_th_9d
       username_status: provisional
@@ -2844,9 +2844,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIDDEN_CREEK_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-MARRONE_TH_9D
-  - type: Person
-    code: PERSON-SANTERAMO_EL_9U
+      citizen: CITIZEN-MARRONE_TH_9D
+  - type: Citizen
+    code: CITIZEN-SANTERAMO_EL_9U
     attributes:
       username: santeramo_el_9u
       username_status: provisional
@@ -2860,7 +2860,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIDDEN_CREEK_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-SANTERAMO_EL_9U
+      citizen: CITIZEN-SANTERAMO_EL_9U
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIGHLANDS_CDD_SEAT_2
@@ -2878,8 +2878,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIGHLANDS_CDD_SEAT_2
-  - type: Person
-    code: PERSON-CHU_PH_9C
+  - type: Citizen
+    code: CITIZEN-CHU_PH_9C
     attributes:
       username: chu_ph_9c
       username_status: provisional
@@ -2893,7 +2893,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIGHLANDS_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-CHU_PH_9C
+      citizen: CITIZEN-CHU_PH_9C
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIGHLANDS_CDD_SEAT_5
@@ -2911,8 +2911,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIGHLANDS_CDD_SEAT_5
-  - type: Person
-    code: PERSON-BAXTER_KN_2E
+  - type: Citizen
+    code: CITIZEN-BAXTER_KN_2E
     attributes:
       username: baxter_kn_2e
       username_status: provisional
@@ -2925,7 +2925,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-HIGHLANDS_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-BAXTER_KN_2E
+      citizen: CITIZEN-BAXTER_KN_2E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-K_BAR_RANCH_CDD_SEAT_1
@@ -2943,8 +2943,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-K_BAR_RANCH_CDD_SEAT_1
-  - type: Person
-    code: PERSON-JOHNSON_RB_9T
+  - type: Citizen
+    code: CITIZEN-JOHNSON_RB_9T
     attributes:
       username: johnson_rb_9t
       username_status: provisional
@@ -2957,7 +2957,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-K_BAR_RANCH_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-JOHNSON_RB_9T
+      citizen: CITIZEN-JOHNSON_RB_9T
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-K_BAR_RANCH_CDD_SEAT_4
@@ -2975,8 +2975,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-K_BAR_RANCH_CDD_SEAT_4
-  - type: Person
-    code: PERSON-BOWERSOX_JH_7R
+  - type: Citizen
+    code: CITIZEN-BOWERSOX_JH_7R
     attributes:
       username: bowersox_jh_7r
       username_status: provisional
@@ -2989,7 +2989,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-K_BAR_RANCH_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-BOWERSOX_JH_7R
+      citizen: CITIZEN-BOWERSOX_JH_7R
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-K_BAR_RANCH_CDD_SEAT_5
@@ -3007,8 +3007,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-K_BAR_RANCH_CDD_SEAT_5
-  - type: Person
-    code: PERSON-BACH_RN_7U
+  - type: Citizen
+    code: CITIZEN-BACH_RN_7U
     attributes:
       username: bach_rn_7u
       username_status: provisional
@@ -3022,7 +3022,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-K_BAR_RANCH_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-BACH_RN_7U
+      citizen: CITIZEN-BACH_RN_7U
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-K_BAR_RANCH_II_CDD_SEAT_4
@@ -3040,8 +3040,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-K_BAR_RANCH_II_CDD_SEAT_4
-  - type: Person
-    code: PERSON-BATABYAL_KM_6X
+  - type: Citizen
+    code: CITIZEN-BATABYAL_KM_6X
     attributes:
       username: batabyal_km_6x
       username_status: provisional
@@ -3054,9 +3054,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-K_BAR_RANCH_II_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-BATABYAL_KM_6X
-  - type: Person
-    code: PERSON-EMERY_MC_3D
+      citizen: CITIZEN-BATABYAL_KM_6X
+  - type: Citizen
+    code: CITIZEN-EMERY_MC_3D
     attributes:
       username: emery_mc_3d
       username_status: provisional
@@ -3069,7 +3069,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-K_BAR_RANCH_II_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-EMERY_MC_3D
+      citizen: CITIZEN-EMERY_MC_3D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-K_BAR_RANCH_II_CDD_SEAT_5
@@ -3087,8 +3087,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-K_BAR_RANCH_II_CDD_SEAT_5
-  - type: Person
-    code: PERSON-MARTINEZ_AL_7T
+  - type: Citizen
+    code: CITIZEN-MARTINEZ_AL_7T
     attributes:
       username: martinez_al_7t
       username_status: provisional
@@ -3101,7 +3101,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-K_BAR_RANCH_II_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-MARTINEZ_AL_7T
+      citizen: CITIZEN-MARTINEZ_AL_7T
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LA_COLLINA_CDD_SEAT_1
@@ -3119,8 +3119,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LA_COLLINA_CDD_SEAT_1
-  - type: Person
-    code: PERSON-GOON_DN_7K
+  - type: Citizen
+    code: CITIZEN-GOON_DN_7K
     attributes:
       username: goon_dn_7k
       username_status: provisional
@@ -3133,7 +3133,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LA_COLLINA_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-GOON_DN_7K
+      citizen: CITIZEN-GOON_DN_7K
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LA_COLLINA_CDD_SEAT_5
@@ -3151,8 +3151,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LA_COLLINA_CDD_SEAT_5
-  - type: Person
-    code: PERSON-FORD_DG_8Q
+  - type: Citizen
+    code: CITIZEN-FORD_DG_8Q
     attributes:
       username: ford_dg_8q
       username_status: provisional
@@ -3166,7 +3166,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LA_COLLINA_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-FORD_DG_8Q
+      citizen: CITIZEN-FORD_DG_8Q
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_ST_CHARLES_CDD_SEAT_1
@@ -3184,8 +3184,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_ST_CHARLES_CDD_SEAT_1
-  - type: Person
-    code: PERSON-GIANAKOS_GN_7Z
+  - type: Citizen
+    code: CITIZEN-GIANAKOS_GN_7Z
     attributes:
       username: gianakos_gn_7z
       username_status: provisional
@@ -3198,9 +3198,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_ST_CHARLES_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-GIANAKOS_GN_7Z
-  - type: Person
-    code: PERSON-HINSON_ST_3V
+      citizen: CITIZEN-GIANAKOS_GN_7Z
+  - type: Citizen
+    code: CITIZEN-HINSON_ST_3V
     attributes:
       username: hinson_st_3v
       username_status: provisional
@@ -3213,9 +3213,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_ST_CHARLES_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-HINSON_ST_3V
-  - type: Person
-    code: PERSON-LONEY_AN_8G
+      citizen: CITIZEN-HINSON_ST_3V
+  - type: Citizen
+    code: CITIZEN-LONEY_AN_8G
     attributes:
       username: loney_an_8g
       username_status: provisional
@@ -3228,7 +3228,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_ST_CHARLES_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-LONEY_AN_8G
+      citizen: CITIZEN-LONEY_AN_8G
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_ST_CHARLES_CDD_SEAT_2
@@ -3246,8 +3246,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_ST_CHARLES_CDD_SEAT_2
-  - type: Person
-    code: PERSON-BROWN_YV_4J
+  - type: Citizen
+    code: CITIZEN-BROWN_YV_4J
     attributes:
       username: brown_yv_4j
       username_status: provisional
@@ -3260,9 +3260,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_ST_CHARLES_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-BROWN_YV_4J
-  - type: Person
-    code: PERSON-KIRBY_BR_2X
+      citizen: CITIZEN-BROWN_YV_4J
+  - type: Citizen
+    code: CITIZEN-KIRBY_BR_2X
     attributes:
       username: kirby_br_2x
       username_status: provisional
@@ -3276,9 +3276,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_ST_CHARLES_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-KIRBY_BR_2X
-  - type: Person
-    code: PERSON-RHODUS_TN_8M
+      citizen: CITIZEN-KIRBY_BR_2X
+  - type: Citizen
+    code: CITIZEN-RHODUS_TN_8M
     attributes:
       username: rhodus_tn_8m
       username_status: provisional
@@ -3292,7 +3292,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LAKE_ST_CHARLES_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-RHODUS_TN_8M
+      citizen: CITIZEN-RHODUS_TN_8M
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LIVE_OAK_I_CDD_SEAT_4
@@ -3310,8 +3310,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LIVE_OAK_I_CDD_SEAT_4
-  - type: Person
-    code: PERSON-CEPARANO_MC_6S
+  - type: Citizen
+    code: CITIZEN-CEPARANO_MC_6S
     attributes:
       username: ceparano_mc_6s
       username_status: provisional
@@ -3324,7 +3324,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LIVE_OAK_I_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-CEPARANO_MC_6S
+      citizen: CITIZEN-CEPARANO_MC_6S
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LIVE_OAK_I_CDD_SEAT_5
@@ -3342,8 +3342,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LIVE_OAK_I_CDD_SEAT_5
-  - type: Person
-    code: PERSON-WOODS_GR_5H
+  - type: Citizen
+    code: CITIZEN-WOODS_GR_5H
     attributes:
       username: woods_gr_5h
       username_status: provisional
@@ -3356,7 +3356,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LIVE_OAK_I_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-WOODS_GR_5H
+      citizen: CITIZEN-WOODS_GR_5H
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LYNWOOD_CDD_SEAT_1
@@ -3374,8 +3374,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LYNWOOD_CDD_SEAT_1
-  - type: Person
-    code: PERSON-GOMEZ_JN_2X
+  - type: Citizen
+    code: CITIZEN-GOMEZ_JN_2X
     attributes:
       username: gomez_jn_2x
       username_status: provisional
@@ -3388,7 +3388,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LYNWOOD_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-GOMEZ_JN_2X
+      citizen: CITIZEN-GOMEZ_JN_2X
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LYNWOOD_CDD_SEAT_2
@@ -3406,8 +3406,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LYNWOOD_CDD_SEAT_2
-  - type: Person
-    code: PERSON-GABRIEL_BT_6P
+  - type: Citizen
+    code: CITIZEN-GABRIEL_BT_6P
     attributes:
       username: gabriel_bt_6p
       username_status: provisional
@@ -3420,7 +3420,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-LYNWOOD_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-GABRIEL_BT_6P
+      citizen: CITIZEN-GABRIEL_BT_6P
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_PARK_CDD_SEAT_5
@@ -3438,8 +3438,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_PARK_CDD_SEAT_5
-  - type: Person
-    code: PERSON-ALMAND_SH_7G
+  - type: Citizen
+    code: CITIZEN-ALMAND_SH_7G
     attributes:
       username: almand_sh_7g
       username_status: provisional
@@ -3452,7 +3452,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_PARK_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-ALMAND_SH_7G
+      citizen: CITIZEN-ALMAND_SH_7G
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIRABELLA_CDD_SEAT_3
@@ -3470,8 +3470,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIRABELLA_CDD_SEAT_3
-  - type: Person
-    code: PERSON-REESE_GL_4D
+  - type: Citizen
+    code: CITIZEN-REESE_GL_4D
     attributes:
       username: reese_gl_4d
       username_status: provisional
@@ -3484,7 +3484,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIRABELLA_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-REESE_GL_4D
+      citizen: CITIZEN-REESE_GL_4D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIRABELLA_CDD_SEAT_4
@@ -3502,8 +3502,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIRABELLA_CDD_SEAT_4
-  - type: Person
-    code: PERSON-DZIEN_DV_5K
+  - type: Citizen
+    code: CITIZEN-DZIEN_DV_5K
     attributes:
       username: dzien_dv_5k
       username_status: provisional
@@ -3516,7 +3516,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIRABELLA_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-DZIEN_DV_5K
+      citizen: CITIZEN-DZIEN_DV_5K
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-NEW_PORT_TAMPA_BAY_CDD_SEAT_4
@@ -3534,8 +3534,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-NEW_PORT_TAMPA_BAY_CDD_SEAT_4
-  - type: Person
-    code: PERSON-COX_TM_5L
+  - type: Citizen
+    code: CITIZEN-COX_TM_5L
     attributes:
       username: cox_tm_5l
       username_status: provisional
@@ -3549,7 +3549,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-NEW_PORT_TAMPA_BAY_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-COX_TM_5L
+      citizen: CITIZEN-COX_TM_5L
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-NEW_PORT_TAMPA_BAY_CDD_SEAT_5
@@ -3567,8 +3567,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-NEW_PORT_TAMPA_BAY_CDD_SEAT_5
-  - type: Person
-    code: PERSON-PLAMANN_JY_6Q
+  - type: Citizen
+    code: CITIZEN-PLAMANN_JY_6Q
     attributes:
       username: plamann_jy_6q
       username_status: provisional
@@ -3581,7 +3581,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-NEW_PORT_TAMPA_BAY_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-PLAMANN_JY_6Q
+      citizen: CITIZEN-PLAMANN_JY_6Q
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-NORTH_PARK_ISLE_CDD_SEAT_1
@@ -3599,8 +3599,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-NORTH_PARK_ISLE_CDD_SEAT_1
-  - type: Person
-    code: PERSON-CHURCH_AL_3P
+  - type: Citizen
+    code: CITIZEN-CHURCH_AL_3P
     attributes:
       username: church_al_3p
       username_status: provisional
@@ -3613,7 +3613,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-NORTH_PARK_ISLE_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-CHURCH_AL_3P
+      citizen: CITIZEN-CHURCH_AL_3P
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-OAKS_AT_SHADY_CREEK_CDD_SEAT_3
@@ -3631,8 +3631,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-OAKS_AT_SHADY_CREEK_CDD_SEAT_3
-  - type: Person
-    code: PERSON-BROWN_AM_7R
+  - type: Citizen
+    code: CITIZEN-BROWN_AM_7R
     attributes:
       username: brown_am_7r
       username_status: provisional
@@ -3645,7 +3645,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-OAKS_AT_SHADY_CREEK_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-BROWN_AM_7R
+      citizen: CITIZEN-BROWN_AM_7R
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-OAKS_AT_SHADY_CREEK_CDD_SEAT_4
@@ -3663,8 +3663,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-OAKS_AT_SHADY_CREEK_CDD_SEAT_4
-  - type: Person
-    code: PERSON-BENTLEY_JH_3L
+  - type: Citizen
+    code: CITIZEN-BENTLEY_JH_3L
     attributes:
       username: bentley_jh_3l
       username_status: provisional
@@ -3677,7 +3677,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-OAKS_AT_SHADY_CREEK_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-BENTLEY_JH_3L
+      citizen: CITIZEN-BENTLEY_JH_3L
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-OAKS_AT_SHADY_CREEK_CDD_SEAT_5
@@ -3695,8 +3695,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-OAKS_AT_SHADY_CREEK_CDD_SEAT_5
-  - type: Person
-    code: PERSON-ROTHSTEIN_VV_2E
+  - type: Citizen
+    code: CITIZEN-ROTHSTEIN_VV_2E
     attributes:
       username: rothstein_vv_2e
       username_status: provisional
@@ -3709,7 +3709,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-OAKS_AT_SHADY_CREEK_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-ROTHSTEIN_VV_2E
+      citizen: CITIZEN-ROTHSTEIN_VV_2E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PANTHER_TRACE_CDD_SEAT_5
@@ -3727,8 +3727,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PANTHER_TRACE_CDD_SEAT_5
-  - type: Person
-    code: PERSON-MAGERL_RC_9M
+  - type: Citizen
+    code: CITIZEN-MAGERL_RC_9M
     attributes:
       username: magerl_rc_9m
       username_status: provisional
@@ -3742,7 +3742,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PANTHER_TRACE_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-MAGERL_RC_9M
+      citizen: CITIZEN-MAGERL_RC_9M
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PANTHER_TRACE_II_CDD_SEAT_1
@@ -3760,8 +3760,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PANTHER_TRACE_II_CDD_SEAT_1
-  - type: Person
-    code: PERSON-MINER_R_5X
+  - type: Citizen
+    code: CITIZEN-MINER_R_5X
     attributes:
       username: miner_r_5x
       username_status: provisional
@@ -3775,7 +3775,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PANTHER_TRACE_II_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-MINER_R_5X
+      citizen: CITIZEN-MINER_R_5X
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PANTHER_TRACE_II_CDD_SEAT_3
@@ -3793,8 +3793,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PANTHER_TRACE_II_CDD_SEAT_3
-  - type: Person
-    code: PERSON-SPIESS_JF_3Q
+  - type: Citizen
+    code: CITIZEN-SPIESS_JF_3Q
     attributes:
       username: spiess_jf_3q
       username_status: provisional
@@ -3808,7 +3808,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PANTHER_TRACE_II_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-SPIESS_JF_3Q
+      citizen: CITIZEN-SPIESS_JF_3Q
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PANTHER_TRAILS_CDD_SEAT_1
@@ -3826,8 +3826,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PANTHER_TRAILS_CDD_SEAT_1
-  - type: Person
-    code: PERSON-MURRAY_JN_7U
+  - type: Citizen
+    code: CITIZEN-MURRAY_JN_7U
     attributes:
       username: murray_jn_7u
       username_status: provisional
@@ -3840,7 +3840,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PANTHER_TRAILS_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-MURRAY_JN_7U
+      citizen: CITIZEN-MURRAY_JN_7U
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARK_CREEK_CDD_SEAT_1
@@ -3858,8 +3858,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARK_CREEK_CDD_SEAT_1
-  - type: Person
-    code: PERSON-LONG_JS_2S
+  - type: Citizen
+    code: CITIZEN-LONG_JS_2S
     attributes:
       username: long_js_2s
       username_status: provisional
@@ -3872,7 +3872,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARK_CREEK_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-LONG_JS_2S
+      citizen: CITIZEN-LONG_JS_2S
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARK_PLACE_CDD_SEAT_4
@@ -3890,8 +3890,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARK_PLACE_CDD_SEAT_4
-  - type: Person
-    code: PERSON-BERRA_WL_2T
+  - type: Citizen
+    code: CITIZEN-BERRA_WL_2T
     attributes:
       username: berra_wl_2t
       username_status: provisional
@@ -3904,7 +3904,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARK_PLACE_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-BERRA_WL_2T
+      citizen: CITIZEN-BERRA_WL_2T
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARK_PLACE_CDD_SEAT_5
@@ -3922,8 +3922,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARK_PLACE_CDD_SEAT_5
-  - type: Person
-    code: PERSON-BULLARD_ER_8N
+  - type: Citizen
+    code: CITIZEN-BULLARD_ER_8N
     attributes:
       username: bullard_er_8n
       username_status: provisional
@@ -3937,7 +3937,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARK_PLACE_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-BULLARD_ER_8N
+      citizen: CITIZEN-BULLARD_ER_8N
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARKWAY_CENTER_CDD_SEAT_5
@@ -3955,8 +3955,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARKWAY_CENTER_CDD_SEAT_5
-  - type: Person
-    code: PERSON-MILLER_KK_8J
+  - type: Citizen
+    code: CITIZEN-MILLER_KK_8J
     attributes:
       username: miller_kk_8j
       username_status: provisional
@@ -3969,7 +3969,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PARKWAY_CENTER_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-MILLER_KK_8J
+      citizen: CITIZEN-MILLER_KK_8J
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RESERVE_AT_PRADERA_CDD_SEAT_1
@@ -3987,8 +3987,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RESERVE_AT_PRADERA_CDD_SEAT_1
-  - type: Person
-    code: PERSON-FELIX_LN_2R
+  - type: Citizen
+    code: CITIZEN-FELIX_LN_2R
     attributes:
       username: felix_ln_2r
       username_status: provisional
@@ -4001,7 +4001,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RESERVE_AT_PRADERA_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-FELIX_LN_2R
+      citizen: CITIZEN-FELIX_LN_2R
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RESERVE_AT_PRADERA_CDD_SEAT_2
@@ -4019,8 +4019,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RESERVE_AT_PRADERA_CDD_SEAT_2
-  - type: Person
-    code: PERSON-BELCHER_KN_7S
+  - type: Citizen
+    code: CITIZEN-BELCHER_KN_7S
     attributes:
       username: belcher_kn_7s
       username_status: provisional
@@ -4033,7 +4033,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RESERVE_AT_PRADERA_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-BELCHER_KN_7S
+      citizen: CITIZEN-BELCHER_KN_7S
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RESERVE_AT_PRADERA_CDD_SEAT_3
@@ -4051,8 +4051,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RESERVE_AT_PRADERA_CDD_SEAT_3
-  - type: Person
-    code: PERSON-NEWBOLD_JS_9Z
+  - type: Citizen
+    code: CITIZEN-NEWBOLD_JS_9Z
     attributes:
       username: newbold_js_9z
       username_status: provisional
@@ -4065,7 +4065,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RESERVE_AT_PRADERA_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-NEWBOLD_JS_9Z
+      citizen: CITIZEN-NEWBOLD_JS_9Z
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RHODINE_ROAD_NORTH_CDD_SEAT_3
@@ -4083,8 +4083,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RHODINE_ROAD_NORTH_CDD_SEAT_3
-  - type: Person
-    code: PERSON-BLOCHER_KR_7F
+  - type: Citizen
+    code: CITIZEN-BLOCHER_KR_7F
     attributes:
       username: blocher_kr_7f
       username_status: provisional
@@ -4097,7 +4097,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RHODINE_ROAD_NORTH_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-BLOCHER_KR_7F
+      citizen: CITIZEN-BLOCHER_KR_7F
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RHODINE_ROAD_NORTH_CDD_SEAT_5
@@ -4115,8 +4115,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RHODINE_ROAD_NORTH_CDD_SEAT_5
-  - type: Person
-    code: PERSON-TOUSSAINT_LR_3H
+  - type: Citizen
+    code: CITIZEN-TOUSSAINT_LR_3H
     attributes:
       username: toussaint_lr_3h
       username_status: provisional
@@ -4129,7 +4129,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RHODINE_ROAD_NORTH_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-TOUSSAINT_LR_3H
+      citizen: CITIZEN-TOUSSAINT_LR_3H
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_BEND_CDD_SEAT_1
@@ -4147,8 +4147,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_BEND_CDD_SEAT_1
-  - type: Person
-    code: PERSON-BREAZEALE_EG_8P
+  - type: Citizen
+    code: CITIZEN-BREAZEALE_EG_8P
     attributes:
       username: breazeale_eg_8p
       username_status: provisional
@@ -4161,7 +4161,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_BEND_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-BREAZEALE_EG_8P
+      citizen: CITIZEN-BREAZEALE_EG_8P
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_BEND_CDD_SEAT_2
@@ -4179,8 +4179,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_BEND_CDD_SEAT_2
-  - type: Person
-    code: PERSON-FLECK_MR_8R
+  - type: Citizen
+    code: CITIZEN-FLECK_MR_8R
     attributes:
       username: fleck_mr_8r
       username_status: provisional
@@ -4193,7 +4193,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_BEND_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-FLECK_MR_8R
+      citizen: CITIZEN-FLECK_MR_8R
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_BEND_CDD_SEAT_3
@@ -4211,8 +4211,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_BEND_CDD_SEAT_3
-  - type: Person
-    code: PERSON-BELKA_LN_9N
+  - type: Citizen
+    code: CITIZEN-BELKA_LN_9N
     attributes:
       username: belka_ln_9n
       username_status: provisional
@@ -4226,9 +4226,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_BEND_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-BELKA_LN_9N
-  - type: Person
-    code: PERSON-BROWN_SH_5Q
+      citizen: CITIZEN-BELKA_LN_9N
+  - type: Citizen
+    code: CITIZEN-BROWN_SH_5Q
     attributes:
       username: brown_sh_5q
       username_status: provisional
@@ -4242,7 +4242,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVER_BEND_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-BROWN_SH_5Q
+      citizen: CITIZEN-BROWN_SH_5Q
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERCREST_CDD_SEAT_1
@@ -4260,8 +4260,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERCREST_CDD_SEAT_1
-  - type: Person
-    code: PERSON-FUHRMEISTER_RB_3U
+  - type: Citizen
+    code: CITIZEN-FUHRMEISTER_RB_3U
     attributes:
       username: fuhrmeister_rb_3u
       username_status: provisional
@@ -4275,9 +4275,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERCREST_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-FUHRMEISTER_RB_3U
-  - type: Person
-    code: PERSON-MCGEE_JS_6U
+      citizen: CITIZEN-FUHRMEISTER_RB_3U
+  - type: Citizen
+    code: CITIZEN-MCGEE_JS_6U
     attributes:
       username: mcgee_js_6u
       username_status: provisional
@@ -4291,7 +4291,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERCREST_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-MCGEE_JS_6U
+      citizen: CITIZEN-MCGEE_JS_6U
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERCREST_CDD_SEAT_2
@@ -4309,8 +4309,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERCREST_CDD_SEAT_2
-  - type: Person
-    code: PERSON-VELLA_DN_7L
+  - type: Citizen
+    code: CITIZEN-VELLA_DN_7L
     attributes:
       username: vella_dn_7l
       username_status: provisional
@@ -4324,7 +4324,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERCREST_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-VELLA_DN_7L
+      citizen: CITIZEN-VELLA_DN_7L
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERCREST_CDD_SEAT_3
@@ -4342,8 +4342,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERCREST_CDD_SEAT_3
-  - type: Person
-    code: PERSON-RYAN_MC_2D
+  - type: Citizen
+    code: CITIZEN-RYAN_MC_2D
     attributes:
       username: ryan_mc_2d
       username_status: provisional
@@ -4356,7 +4356,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIVERCREST_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-RYAN_MC_2D
+      citizen: CITIZEN-RYAN_MC_2D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SHELL_POINT_CDD_SEAT_1
@@ -4374,8 +4374,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SHELL_POINT_CDD_SEAT_1
-  - type: Person
-    code: PERSON-HAMMOND_CH_2Z
+  - type: Citizen
+    code: CITIZEN-HAMMOND_CH_2Z
     attributes:
       username: hammond_ch_2z
       username_status: provisional
@@ -4388,7 +4388,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SHELL_POINT_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-HAMMOND_CH_2Z
+      citizen: CITIZEN-HAMMOND_CH_2Z
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SHELL_POINT_CDD_SEAT_2
@@ -4406,8 +4406,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SHELL_POINT_CDD_SEAT_2
-  - type: Person
-    code: PERSON-DONLEY_JY_2T
+  - type: Citizen
+    code: CITIZEN-DONLEY_JY_2T
     attributes:
       username: donley_jy_2t
       username_status: provisional
@@ -4421,9 +4421,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SHELL_POINT_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-DONLEY_JY_2T
-  - type: Person
-    code: PERSON-SCHWARTZBAUER_BR_6N
+      citizen: CITIZEN-DONLEY_JY_2T
+  - type: Citizen
+    code: CITIZEN-SCHWARTZBAUER_BR_6N
     attributes:
       username: schwartzbauer_br_6n
       username_status: provisional
@@ -4436,7 +4436,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SHELL_POINT_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-SCHWARTZBAUER_BR_6N
+      citizen: CITIZEN-SCHWARTZBAUER_BR_6N
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_BAY_CDD_SEAT_2
@@ -4454,8 +4454,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_BAY_CDD_SEAT_2
-  - type: Person
-    code: PERSON-BROWN_IN_5M
+  - type: Citizen
+    code: CITIZEN-BROWN_IN_5M
     attributes:
       username: brown_in_5m
       username_status: provisional
@@ -4468,7 +4468,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_BAY_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-BROWN_IN_5M
+      citizen: CITIZEN-BROWN_IN_5M
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_BAY_CDD_SEAT_4
@@ -4486,8 +4486,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_BAY_CDD_SEAT_4
-  - type: Person
-    code: PERSON-FANCY_ST_5G
+  - type: Citizen
+    code: CITIZEN-FANCY_ST_5G
     attributes:
       username: fancy_st_5g
       username_status: provisional
@@ -4500,7 +4500,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_BAY_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-FANCY_ST_5G
+      citizen: CITIZEN-FANCY_ST_5G
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_CDD_SEAT_1
@@ -4518,8 +4518,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_CDD_SEAT_1
-  - type: Person
-    code: PERSON-BARR_PT_4Q
+  - type: Citizen
+    code: CITIZEN-BARR_PT_4Q
     attributes:
       username: barr_pt_4q
       username_status: provisional
@@ -4532,7 +4532,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-BARR_PT_4Q
+      citizen: CITIZEN-BARR_PT_4Q
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_CDD_SEAT_2
@@ -4550,8 +4550,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_CDD_SEAT_2
-  - type: Person
-    code: PERSON-AMATO_JS_4C
+  - type: Citizen
+    code: CITIZEN-AMATO_JS_4C
     attributes:
       username: amato_js_4c
       username_status: provisional
@@ -4564,7 +4564,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-AMATO_JS_4C
+      citizen: CITIZEN-AMATO_JS_4C
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_EAST_CDD_SEAT_1
@@ -4582,8 +4582,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_EAST_CDD_SEAT_1
-  - type: Person
-    code: PERSON-GAGLIARDI_FR_7N
+  - type: Citizen
+    code: CITIZEN-GAGLIARDI_FR_7N
     attributes:
       username: gagliardi_fr_7n
       username_status: provisional
@@ -4596,7 +4596,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_EAST_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-GAGLIARDI_FR_7N
+      citizen: CITIZEN-GAGLIARDI_FR_7N
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_EAST_CDD_SEAT_3
@@ -4614,8 +4614,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_EAST_CDD_SEAT_3
-  - type: Person
-    code: PERSON-DIXON_MN_3M
+  - type: Citizen
+    code: CITIZEN-DIXON_MN_3M
     attributes:
       username: dixon_mn_3m
       username_status: provisional
@@ -4628,7 +4628,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_EAST_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-DIXON_MN_3M
+      citizen: CITIZEN-DIXON_MN_3M
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_EAST_CDD_SEAT_4
@@ -4646,8 +4646,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_EAST_CDD_SEAT_4
-  - type: Person
-    code: PERSON-GAGLIARDI_KR_6Z
+  - type: Citizen
+    code: CITIZEN-GAGLIARDI_KR_6Z
     attributes:
       username: gagliardi_kr_6z
       username_status: provisional
@@ -4661,7 +4661,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_EAST_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-GAGLIARDI_KR_6Z
+      citizen: CITIZEN-GAGLIARDI_KR_6Z
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_III_CDD_SEAT_3
@@ -4679,8 +4679,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_III_CDD_SEAT_3
-  - type: Person
-    code: PERSON-CORDER_SC_2D
+  - type: Citizen
+    code: CITIZEN-CORDER_SC_2D
     attributes:
       username: corder_sc_2d
       username_status: provisional
@@ -4693,9 +4693,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_III_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-CORDER_SC_2D
-  - type: Person
-    code: PERSON-HEFLIN_DS_5G
+      citizen: CITIZEN-CORDER_SC_2D
+  - type: Citizen
+    code: CITIZEN-HEFLIN_DS_5G
     attributes:
       username: heflin_ds_5g
       username_status: provisional
@@ -4708,7 +4708,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_III_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-HEFLIN_DS_5G
+      citizen: CITIZEN-HEFLIN_DS_5G
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_III_CDD_SEAT_4
@@ -4726,8 +4726,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_III_CDD_SEAT_4
-  - type: Person
-    code: PERSON-PELTZ_SS_6Y
+  - type: Citizen
+    code: CITIZEN-PELTZ_SS_6Y
     attributes:
       username: peltz_ss_6y
       username_status: provisional
@@ -4740,7 +4740,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_III_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-PELTZ_SS_6Y
+      citizen: CITIZEN-PELTZ_SS_6Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_III_CDD_SEAT_5
@@ -4758,8 +4758,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_III_CDD_SEAT_5
-  - type: Person
-    code: PERSON-DEW_DR_3P
+  - type: Citizen
+    code: CITIZEN-DEW_DR_3P
     attributes:
       username: dew_dr_3p
       username_status: provisional
@@ -4773,9 +4773,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_III_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-DEW_DR_3P
-  - type: Person
-    code: PERSON-OCASIO_JS_4H
+      citizen: CITIZEN-DEW_DR_3P
+  - type: Citizen
+    code: CITIZEN-OCASIO_JS_4H
     attributes:
       username: ocasio_js_4h
       username_status: provisional
@@ -4788,7 +4788,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_FORK_III_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-OCASIO_JS_4H
+      citizen: CITIZEN-OCASIO_JS_4H
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHSHORE_BAY_CDD_SEAT_1
@@ -4806,8 +4806,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHSHORE_BAY_CDD_SEAT_1
-  - type: Person
-    code: PERSON-RIZOS_SS_7B
+  - type: Citizen
+    code: CITIZEN-RIZOS_SS_7B
     attributes:
       username: rizos_ss_7b
       username_status: provisional
@@ -4821,7 +4821,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHSHORE_BAY_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-RIZOS_SS_7B
+      citizen: CITIZEN-RIZOS_SS_7B
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHSHORE_BAY_CDD_SEAT_2
@@ -4839,8 +4839,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHSHORE_BAY_CDD_SEAT_2
-  - type: Person
-    code: PERSON-ANDERSON_DN_2Q
+  - type: Citizen
+    code: CITIZEN-ANDERSON_DN_2Q
     attributes:
       username: anderson_dn_2q
       username_status: provisional
@@ -4854,9 +4854,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHSHORE_BAY_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-ANDERSON_DN_2Q
-  - type: Person
-    code: PERSON-ROBINSON_KT_2D
+      citizen: CITIZEN-ANDERSON_DN_2Q
+  - type: Citizen
+    code: CITIZEN-ROBINSON_KT_2D
     attributes:
       username: robinson_kt_2d
       username_status: provisional
@@ -4869,7 +4869,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTHSHORE_BAY_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-ROBINSON_KT_2D
+      citizen: CITIZEN-ROBINSON_KT_2D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_LAKE_CDD_SEAT_1
@@ -4887,8 +4887,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_LAKE_CDD_SEAT_1
-  - type: Person
-    code: PERSON-DONEGAN_DN_8F
+  - type: Citizen
+    code: CITIZEN-DONEGAN_DN_8F
     attributes:
       username: donegan_dn_8f
       username_status: provisional
@@ -4902,9 +4902,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_LAKE_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-DONEGAN_DN_8F
-  - type: Person
-    code: PERSON-HOEFLE_KN_9V
+      citizen: CITIZEN-DONEGAN_DN_8F
+  - type: Citizen
+    code: CITIZEN-HOEFLE_KN_9V
     attributes:
       username: hoefle_kn_9v
       username_status: provisional
@@ -4918,7 +4918,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_LAKE_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-HOEFLE_KN_9V
+      citizen: CITIZEN-HOEFLE_KN_9V
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_LAKE_CDD_SEAT_2
@@ -4936,8 +4936,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_LAKE_CDD_SEAT_2
-  - type: Person
-    code: PERSON-MOURADIAN_HV_6H
+  - type: Citizen
+    code: CITIZEN-MOURADIAN_HV_6H
     attributes:
       username: mouradian_hv_6h
       username_status: provisional
@@ -4950,7 +4950,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_LAKE_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-MOURADIAN_HV_6H
+      citizen: CITIZEN-MOURADIAN_HV_6H
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_LAKE_CDD_SEAT_5
@@ -4968,8 +4968,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_LAKE_CDD_SEAT_5
-  - type: Person
-    code: PERSON-KEIPPER_WR_3V
+  - type: Citizen
+    code: CITIZEN-KEIPPER_WR_3V
     attributes:
       username: keipper_wr_3v
       username_status: provisional
@@ -4983,7 +4983,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SPRING_LAKE_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-KEIPPER_WR_3V
+      citizen: CITIZEN-KEIPPER_WR_3V
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONELAKE_RANCH_CDD_SEAT_3
@@ -5001,8 +5001,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONELAKE_RANCH_CDD_SEAT_3
-  - type: Person
-    code: PERSON-KURPPE_GR_4M
+  - type: Citizen
+    code: CITIZEN-KURPPE_GR_4M
     attributes:
       username: kurppe_gr_4m
       username_status: provisional
@@ -5015,7 +5015,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONELAKE_RANCH_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-KURPPE_GR_4M
+      citizen: CITIZEN-KURPPE_GR_4M
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONELAKE_RANCH_CDD_SEAT_5
@@ -5033,8 +5033,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONELAKE_RANCH_CDD_SEAT_5
-  - type: Person
-    code: PERSON-SNELLINGS_BR_4B
+  - type: Citizen
+    code: CITIZEN-SNELLINGS_BR_4B
     attributes:
       username: snellings_br_4b
       username_status: provisional
@@ -5047,7 +5047,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONELAKE_RANCH_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-SNELLINGS_BR_4B
+      citizen: CITIZEN-SNELLINGS_BR_4B
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONEBRIER_CDD_SEAT_4
@@ -5065,8 +5065,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONEBRIER_CDD_SEAT_4
-  - type: Person
-    code: PERSON-FADA_KR_2V
+  - type: Citizen
+    code: CITIZEN-FADA_KR_2V
     attributes:
       username: fada_kr_2v
       username_status: provisional
@@ -5079,7 +5079,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONEBRIER_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-FADA_KR_2V
+      citizen: CITIZEN-FADA_KR_2V
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONEBRIER_CDD_SEAT_5
@@ -5097,8 +5097,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONEBRIER_CDD_SEAT_5
-  - type: Person
-    code: PERSON-JOSHI_HR_4Y
+  - type: Citizen
+    code: CITIZEN-JOSHI_HR_4Y
     attributes:
       username: joshi_hr_4y
       username_status: provisional
@@ -5112,7 +5112,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-STONEBRIER_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-JOSHI_HR_4Y
+      citizen: CITIZEN-JOSHI_HR_4Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TAMPA_PALMS_CDD_SEAT_2
@@ -5130,8 +5130,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TAMPA_PALMS_CDD_SEAT_2
-  - type: Person
-    code: PERSON-DIAZ_RC_3K
+  - type: Citizen
+    code: CITIZEN-DIAZ_RC_3K
     attributes:
       username: diaz_rc_3k
       username_status: provisional
@@ -5144,7 +5144,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TAMPA_PALMS_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-DIAZ_RC_3K
+      citizen: CITIZEN-DIAZ_RC_3K
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TAMPA_PALMS_OST_CDD_SEAT_1
@@ -5162,8 +5162,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TAMPA_PALMS_OST_CDD_SEAT_1
-  - type: Person
-    code: PERSON-PFISTER_FR_8V
+  - type: Citizen
+    code: CITIZEN-PFISTER_FR_8V
     attributes:
       username: pfister_fr_8v
       username_status: provisional
@@ -5176,7 +5176,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TAMPA_PALMS_OST_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-PFISTER_FR_8V
+      citizen: CITIZEN-PFISTER_FR_8V
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TAMPA_PALMS_OST_CDD_SEAT_2
@@ -5194,8 +5194,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TAMPA_PALMS_OST_CDD_SEAT_2
-  - type: Person
-    code: PERSON-BLACK_LH_8A
+  - type: Citizen
+    code: CITIZEN-BLACK_LH_8A
     attributes:
       username: black_lh_8a
       username_status: provisional
@@ -5208,7 +5208,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TAMPA_PALMS_OST_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-BLACK_LH_8A
+      citizen: CITIZEN-BLACK_LH_8A
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TAMPA_PALMS_OST_CDD_SEAT_3
@@ -5226,8 +5226,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TAMPA_PALMS_OST_CDD_SEAT_3
-  - type: Person
-    code: PERSON-KRAUSE_JY_4H
+  - type: Citizen
+    code: CITIZEN-KRAUSE_JY_4H
     attributes:
       username: krause_jy_4h
       username_status: provisional
@@ -5240,7 +5240,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TAMPA_PALMS_OST_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-KRAUSE_JY_4H
+      citizen: CITIZEN-KRAUSE_JY_4H
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_HAMMOCKS_CDD_SEAT_4
@@ -5258,8 +5258,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_HAMMOCKS_CDD_SEAT_4
-  - type: Person
-    code: PERSON-HENKE_MK_6Y
+  - type: Citizen
+    code: CITIZEN-HENKE_MK_6Y
     attributes:
       username: henke_mk_6y
       username_status: provisional
@@ -5272,7 +5272,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_HAMMOCKS_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-HENKE_MK_6Y
+      citizen: CITIZEN-HENKE_MK_6Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TIMBER_CREEK_CDD_SEAT_2
@@ -5290,8 +5290,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TIMBER_CREEK_CDD_SEAT_2
-  - type: Person
-    code: PERSON-NEIDLINGER_CL_4Q
+  - type: Citizen
+    code: CITIZEN-NEIDLINGER_CL_4Q
     attributes:
       username: neidlinger_cl_4q
       username_status: provisional
@@ -5305,7 +5305,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TIMBER_CREEK_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-NEIDLINGER_CL_4Q
+      citizen: CITIZEN-NEIDLINGER_CL_4Q
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TOUCHSTONE_CDD_SEAT_2
@@ -5323,8 +5323,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TOUCHSTONE_CDD_SEAT_2
-  - type: Person
-    code: PERSON-ANGAIL_AN_2N
+  - type: Citizen
+    code: CITIZEN-ANGAIL_AN_2N
     attributes:
       username: angail_an_2n
       username_status: provisional
@@ -5338,7 +5338,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TOUCHSTONE_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-ANGAIL_AN_2N
+      citizen: CITIZEN-ANGAIL_AN_2N
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRIPLE_CREEK_CDD_SEAT_1
@@ -5356,8 +5356,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRIPLE_CREEK_CDD_SEAT_1
-  - type: Person
-    code: PERSON-CARLTON_MR_9J
+  - type: Citizen
+    code: CITIZEN-CARLTON_MR_9J
     attributes:
       username: carlton_mr_9j
       username_status: provisional
@@ -5370,9 +5370,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRIPLE_CREEK_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-CARLTON_MR_9J
-  - type: Person
-    code: PERSON-MORENO_MR_7B
+      citizen: CITIZEN-CARLTON_MR_9J
+  - type: Citizen
+    code: CITIZEN-MORENO_MR_7B
     attributes:
       username: moreno_mr_7b
       username_status: provisional
@@ -5386,7 +5386,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRIPLE_CREEK_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-MORENO_MR_7B
+      citizen: CITIZEN-MORENO_MR_7B
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRIPLE_CREEK_CDD_SEAT_2
@@ -5404,8 +5404,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRIPLE_CREEK_CDD_SEAT_2
-  - type: Person
-    code: PERSON-GALLOWAY_DV_7N
+  - type: Citizen
+    code: CITIZEN-GALLOWAY_DV_7N
     attributes:
       username: galloway_dv_7n
       username_status: provisional
@@ -5418,9 +5418,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRIPLE_CREEK_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-GALLOWAY_DV_7N
-  - type: Person
-    code: PERSON-LEWIS_SH_5X
+      citizen: CITIZEN-GALLOWAY_DV_7N
+  - type: Citizen
+    code: CITIZEN-LEWIS_SH_5X
     attributes:
       username: lewis_sh_5x
       username_status: provisional
@@ -5433,9 +5433,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRIPLE_CREEK_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-LEWIS_SH_5X
-  - type: Person
-    code: PERSON-STEEL_JD_2P
+      citizen: CITIZEN-LEWIS_SH_5X
+  - type: Citizen
+    code: CITIZEN-STEEL_JD_2P
     attributes:
       username: steel_jd_2p
       username_status: provisional
@@ -5448,7 +5448,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TRIPLE_CREEK_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-STEEL_JD_2P
+      citizen: CITIZEN-STEEL_JD_2P
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VENTANA_CDD_SEAT_3
@@ -5466,8 +5466,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VENTANA_CDD_SEAT_3
-  - type: Person
-    code: PERSON-REYES_JN_5K
+  - type: Citizen
+    code: CITIZEN-REYES_JN_5K
     attributes:
       username: reyes_jn_5k
       username_status: provisional
@@ -5481,7 +5481,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VENTANA_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-REYES_JN_5K
+      citizen: CITIZEN-REYES_JN_5K
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VENTANA_CDD_SEAT_4
@@ -5499,8 +5499,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VENTANA_CDD_SEAT_4
-  - type: Person
-    code: PERSON-ROCKOVICH_MR_4V
+  - type: Citizen
+    code: CITIZEN-ROCKOVICH_MR_4V
     attributes:
       username: rockovich_mr_4v
       username_status: provisional
@@ -5513,7 +5513,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VENTANA_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-ROCKOVICH_MR_4V
+      citizen: CITIZEN-ROCKOVICH_MR_4V
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_BLOOMINGDALE_CDD_SEAT_1
@@ -5531,8 +5531,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_BLOOMINGDALE_CDD_SEAT_1
-  - type: Person
-    code: PERSON-FOX_DR_8C
+  - type: Citizen
+    code: CITIZEN-FOX_DR_8C
     attributes:
       username: fox_dr_8c
       username_status: provisional
@@ -5545,7 +5545,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_BLOOMINGDALE_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-FOX_DR_8C
+      citizen: CITIZEN-FOX_DR_8C
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_BLOOMINGDALE_CDD_SEAT_2
@@ -5563,8 +5563,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_BLOOMINGDALE_CDD_SEAT_2
-  - type: Person
-    code: PERSON-DARDEN_JC_2M
+  - type: Citizen
+    code: CITIZEN-DARDEN_JC_2M
     attributes:
       username: darden_jc_2m
       username_status: provisional
@@ -5577,7 +5577,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-VILLAGES_OF_BLOOMINGDALE_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-DARDEN_JC_2M
+      citizen: CITIZEN-DARDEN_JC_2M
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERCHASE_CDD_SEAT_4
@@ -5595,8 +5595,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERCHASE_CDD_SEAT_4
-  - type: Person
-    code: PERSON-ACHESON_MC_7L
+  - type: Citizen
+    code: CITIZEN-ACHESON_MC_7L
     attributes:
       username: acheson_mc_7l
       username_status: provisional
@@ -5609,7 +5609,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERCHASE_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-ACHESON_MC_7L
+      citizen: CITIZEN-ACHESON_MC_7L
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERCHASE_CDD_SEAT_5
@@ -5627,8 +5627,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERCHASE_CDD_SEAT_5
-  - type: Person
-    code: PERSON-WATSON_IN_3D
+  - type: Citizen
+    code: CITIZEN-WATSON_IN_3D
     attributes:
       username: watson_in_3d
       username_status: provisional
@@ -5641,7 +5641,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERCHASE_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-WATSON_IN_3D
+      citizen: CITIZEN-WATSON_IN_3D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERLEAF_CDD_SEAT_2
@@ -5659,8 +5659,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERLEAF_CDD_SEAT_2
-  - type: Person
-    code: PERSON-AULD_AL_4R
+  - type: Citizen
+    code: CITIZEN-AULD_AL_4R
     attributes:
       username: auld_al_4r
       username_status: provisional
@@ -5673,9 +5673,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERLEAF_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-AULD_AL_4R
-  - type: Person
-    code: PERSON-JOHNSON_PL_4F
+      citizen: CITIZEN-AULD_AL_4R
+  - type: Citizen
+    code: CITIZEN-JOHNSON_PL_4F
     attributes:
       username: johnson_pl_4f
       username_status: provisional
@@ -5688,7 +5688,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERLEAF_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-JOHNSON_PL_4F
+      citizen: CITIZEN-JOHNSON_PL_4F
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERLEAF_CDD_SEAT_3
@@ -5706,8 +5706,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERLEAF_CDD_SEAT_3
-  - type: Person
-    code: PERSON-HAWKINS_NC_5Q
+  - type: Citizen
+    code: CITIZEN-HAWKINS_NC_5Q
     attributes:
       username: hawkins_nc_5q
       username_status: provisional
@@ -5721,9 +5721,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERLEAF_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-HAWKINS_NC_5Q
-  - type: Person
-    code: PERSON-LENARD_MT_4S
+      citizen: CITIZEN-HAWKINS_NC_5Q
+  - type: Citizen
+    code: CITIZEN-LENARD_MT_4S
     attributes:
       username: lenard_mt_4s
       username_status: provisional
@@ -5736,7 +5736,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERLEAF_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-LENARD_MT_4S
+      citizen: CITIZEN-LENARD_MT_4S
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERLEAF_CDD_SEAT_5
@@ -5754,8 +5754,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERLEAF_CDD_SEAT_5
-  - type: Person
-    code: PERSON-CICIORA_JM_3Y
+  - type: Citizen
+    code: CITIZEN-CICIORA_JM_3Y
     attributes:
       username: ciciora_jm_3y
       username_status: provisional
@@ -5769,7 +5769,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERLEAF_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-CICIORA_JM_3Y
+      citizen: CITIZEN-CICIORA_JM_3Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERSET_CENTRAL_CDD_SEAT_1
@@ -5787,8 +5787,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERSET_CENTRAL_CDD_SEAT_1
-  - type: Person
-    code: PERSON-BENTLEY_BR_8P
+  - type: Citizen
+    code: CITIZEN-BENTLEY_BR_8P
     attributes:
       username: bentley_br_8p
       username_status: provisional
@@ -5801,7 +5801,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERSET_CENTRAL_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-BENTLEY_BR_8P
+      citizen: CITIZEN-BENTLEY_BR_8P
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERSET_NORTH_CDD_SEAT_1
@@ -5819,8 +5819,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERSET_NORTH_CDD_SEAT_1
-  - type: Person
-    code: PERSON-KELLNER_BB_9J
+  - type: Citizen
+    code: CITIZEN-KELLNER_BB_9J
     attributes:
       username: kellner_bb_9j
       username_status: provisional
@@ -5833,7 +5833,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERSET_NORTH_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-KELLNER_BB_9J
+      citizen: CITIZEN-KELLNER_BB_9J
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERSET_NORTH_CDD_SEAT_2
@@ -5851,8 +5851,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERSET_NORTH_CDD_SEAT_2
-  - type: Person
-    code: PERSON-CIANCI_DECKARD_PT_4N
+  - type: Citizen
+    code: CITIZEN-CIANCI_DECKARD_PT_4N
     attributes:
       username: cianci_deckard_pt_4n
       username_status: provisional
@@ -5866,7 +5866,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WATERSET_NORTH_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-CIANCI_DECKARD_PT_4N
+      citizen: CITIZEN-CIANCI_DECKARD_PT_4N
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WESTCHASE_CDD_SEAT_1
@@ -5884,8 +5884,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WESTCHASE_CDD_SEAT_1
-  - type: Person
-    code: PERSON-HIGH_CH_3D
+  - type: Citizen
+    code: CITIZEN-HIGH_CH_3D
     attributes:
       username: high_ch_3d
       username_status: provisional
@@ -5898,7 +5898,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WESTCHASE_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-HIGH_CH_3D
+      citizen: CITIZEN-HIGH_CH_3D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WESTCHASE_CDD_SEAT_2
@@ -5916,8 +5916,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WESTCHASE_CDD_SEAT_2
-  - type: Person
-    code: PERSON-BARRETT_CH_7V
+  - type: Citizen
+    code: CITIZEN-BARRETT_CH_7V
     attributes:
       username: barrett_ch_7v
       username_status: provisional
@@ -5930,7 +5930,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WESTCHASE_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-BARRETT_CH_7V
+      citizen: CITIZEN-BARRETT_CH_7V
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WYNNMERE_EAST_CDD_SEAT_1
@@ -5948,8 +5948,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WYNNMERE_EAST_CDD_SEAT_1
-  - type: Person
-    code: PERSON-CAZALAS_FL_3C
+  - type: Citizen
+    code: CITIZEN-CAZALAS_FL_3C
     attributes:
       username: cazalas_fl_3c
       username_status: provisional
@@ -5962,7 +5962,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WYNNMERE_EAST_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-CAZALAS_FL_3C
+      citizen: CITIZEN-CAZALAS_FL_3C
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WYNNMERE_WEST_CDD_SEAT_1
@@ -5980,8 +5980,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WYNNMERE_WEST_CDD_SEAT_1
-  - type: Person
-    code: PERSON-CASTELLI_SL_9K
+  - type: Citizen
+    code: CITIZEN-CASTELLI_SL_9K
     attributes:
       username: castelli_sl_9k
       username_status: provisional
@@ -5994,7 +5994,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WYNNMERE_WEST_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-CASTELLI_SL_9K
+      citizen: CITIZEN-CASTELLI_SL_9K
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-SPECIAL_DISTRICT_BOARD_MEMBER-BRANDON_HILLS_SPECIAL_DEPENDENT_DISTRICT
@@ -6012,8 +6012,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-SPECIAL_DISTRICT_BOARD_MEMBER-BRANDON_HILLS_SPECIAL_DEPENDENT_DISTRICT
-  - type: Person
-    code: PERSON-CARROLL_MR_2D
+  - type: Citizen
+    code: CITIZEN-CARROLL_MR_2D
     attributes:
       username: carroll_mr_2d
       username_status: provisional
@@ -6027,9 +6027,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SPECIAL_DISTRICT_BOARD_MEMBER-BRANDON_HILLS_SPECIAL_DEPENDENT_DISTRICT-2026_GENERAL
-      person: PERSON-CARROLL_MR_2D
-  - type: Person
-    code: PERSON-COPE_ZC_2S
+      citizen: CITIZEN-CARROLL_MR_2D
+  - type: Citizen
+    code: CITIZEN-COPE_ZC_2S
     attributes:
       username: cope_zc_2s
       username_status: provisional
@@ -6042,9 +6042,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SPECIAL_DISTRICT_BOARD_MEMBER-BRANDON_HILLS_SPECIAL_DEPENDENT_DISTRICT-2026_GENERAL
-      person: PERSON-COPE_ZC_2S
-  - type: Person
-    code: PERSON-SAMPSON_BR_5C
+      citizen: CITIZEN-COPE_ZC_2S
+  - type: Citizen
+    code: CITIZEN-SAMPSON_BR_5C
     attributes:
       username: sampson_br_5c
       username_status: provisional
@@ -6057,7 +6057,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SPECIAL_DISTRICT_BOARD_MEMBER-BRANDON_HILLS_SPECIAL_DEPENDENT_DISTRICT-2026_GENERAL
-      person: PERSON-SAMPSON_BR_5C
+      citizen: CITIZEN-SAMPSON_BR_5C
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-SPECIAL_DISTRICT_BOARD_MEMBER-CARROLLWOOD_RECREATION_DISTRICT
@@ -6075,8 +6075,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HILLSBOROUGH-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HILLSBOROUGH-SPECIAL_DISTRICT_BOARD_MEMBER-CARROLLWOOD_RECREATION_DISTRICT
-  - type: Person
-    code: PERSON-BROWN_AN_4J
+  - type: Citizen
+    code: CITIZEN-BROWN_AN_4J
     attributes:
       username: brown_an_4j
       username_status: provisional
@@ -6090,9 +6090,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SPECIAL_DISTRICT_BOARD_MEMBER-CARROLLWOOD_RECREATION_DISTRICT-2026_GENERAL
-      person: PERSON-BROWN_AN_4J
-  - type: Person
-    code: PERSON-BROWN_JR_9G
+      citizen: CITIZEN-BROWN_AN_4J
+  - type: Citizen
+    code: CITIZEN-BROWN_JR_9G
     attributes:
       username: brown_jr_9g
       username_status: provisional
@@ -6105,9 +6105,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SPECIAL_DISTRICT_BOARD_MEMBER-CARROLLWOOD_RECREATION_DISTRICT-2026_GENERAL
-      person: PERSON-BROWN_JR_9G
-  - type: Person
-    code: PERSON-GEORGIADES_MR_9F
+      citizen: CITIZEN-BROWN_JR_9G
+  - type: Citizen
+    code: CITIZEN-GEORGIADES_MR_9F
     attributes:
       username: georgiades_mr_9f
       username_status: provisional
@@ -6120,9 +6120,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SPECIAL_DISTRICT_BOARD_MEMBER-CARROLLWOOD_RECREATION_DISTRICT-2026_GENERAL
-      person: PERSON-GEORGIADES_MR_9F
-  - type: Person
-    code: PERSON-GRIFFIE_JC_8F
+      citizen: CITIZEN-GEORGIADES_MR_9F
+  - type: Citizen
+    code: CITIZEN-GRIFFIE_JC_8F
     attributes:
       username: griffie_jc_8f
       username_status: provisional
@@ -6136,9 +6136,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SPECIAL_DISTRICT_BOARD_MEMBER-CARROLLWOOD_RECREATION_DISTRICT-2026_GENERAL
-      person: PERSON-GRIFFIE_JC_8F
-  - type: Person
-    code: PERSON-LAVISKY_MT_8E
+      citizen: CITIZEN-GRIFFIE_JC_8F
+  - type: Citizen
+    code: CITIZEN-LAVISKY_MT_8E
     attributes:
       username: lavisky_mt_8e
       username_status: provisional
@@ -6152,9 +6152,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SPECIAL_DISTRICT_BOARD_MEMBER-CARROLLWOOD_RECREATION_DISTRICT-2026_GENERAL
-      person: PERSON-LAVISKY_MT_8E
-  - type: Person
-    code: PERSON-SEELEY_DN_2F
+      citizen: CITIZEN-LAVISKY_MT_8E
+  - type: Citizen
+    code: CITIZEN-SEELEY_DN_2F
     attributes:
       username: seeley_dn_2f
       username_status: provisional
@@ -6167,9 +6167,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SPECIAL_DISTRICT_BOARD_MEMBER-CARROLLWOOD_RECREATION_DISTRICT-2026_GENERAL
-      person: PERSON-SEELEY_DN_2F
-  - type: Person
-    code: PERSON-SHIDLER_KV_9Q
+      citizen: CITIZEN-SEELEY_DN_2F
+  - type: Citizen
+    code: CITIZEN-SHIDLER_KV_9Q
     attributes:
       username: shidler_kv_9q
       username_status: provisional
@@ -6183,9 +6183,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SPECIAL_DISTRICT_BOARD_MEMBER-CARROLLWOOD_RECREATION_DISTRICT-2026_GENERAL
-      person: PERSON-SHIDLER_KV_9Q
-  - type: Person
-    code: PERSON-SNELLGROVE_MR_5T
+      citizen: CITIZEN-SHIDLER_KV_9Q
+  - type: Citizen
+    code: CITIZEN-SNELLGROVE_MR_5T
     attributes:
       username: snellgrove_mr_5t
       username_status: provisional
@@ -6198,9 +6198,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SPECIAL_DISTRICT_BOARD_MEMBER-CARROLLWOOD_RECREATION_DISTRICT-2026_GENERAL
-      person: PERSON-SNELLGROVE_MR_5T
-  - type: Person
-    code: PERSON-TAYLOR_KR_5D
+      citizen: CITIZEN-SNELLGROVE_MR_5T
+  - type: Citizen
+    code: CITIZEN-TAYLOR_KR_5D
     attributes:
       username: taylor_kr_5d
       username_status: provisional
@@ -6213,4 +6213,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HILLSBOROUGH-SPECIAL_DISTRICT_BOARD_MEMBER-CARROLLWOOD_RECREATION_DISTRICT-2026_GENERAL
-      person: PERSON-TAYLOR_KR_5D
+      citizen: CITIZEN-TAYLOR_KR_5D

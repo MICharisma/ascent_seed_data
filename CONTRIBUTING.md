@@ -2,7 +2,7 @@
 
 Ascent's reference data includes places, offices, elections, races, candidates, the issue library, campaign communications, and image metadata. It lives here as JSON or YAML `micharisma-seeds/v1` manifests. Contributions arrive as pull requests that add manifests. Start with [WORKERS.md](WORKERS.md) for the account and image workflow.
 
-For a new election graph, start with the paired [minimum YAML/JSON examples](examples/README.md#minimum-election-graph). They cover the place hierarchy, branch, office, election, race, person, candidacy, and account dependencies. The example guide also documents the existing Year prerequisite and all three branch values.
+For a new election graph, start with the paired [minimum YAML/JSON examples](examples/README.md#minimum-election-graph). They cover the place hierarchy, branch, office, election, race, citizen, candidacy, and account dependencies. The example guide also documents the existing Year prerequisite and all three branch values.
 
 ## Where to put a contribution
 
@@ -32,7 +32,7 @@ records:
       communication: COMMUNICATION-...
 ```
 
-- **Refer to existing records by their codes.** Candidacies, races, people, and approaches already have codes in this repository; never use database IDs.
+- **Refer to existing records by their codes.** Candidacies, races, citizens, and approaches already have codes in this repository; never use database IDs.
 - **Codes** are uppercase letters, digits, dashes, and underscores. The recipes are in `doc/entity_code_plan.md` in the Ascent repository, for example `STANCE-{candidacy path}-{approach path}`; social media codes are below.
 - **A code is the record's identity.** Its entity URI is the code qualified by namespace and catalog, `MIC-ASC-{code}`. Two records with different codes are two records, however alike their names; if you need a second code for an existing record, list it under that record's `aliases`.
 - **Each piece of evidence is its own record**, so you can add evidence to an existing stance without redefining it.
@@ -52,9 +52,9 @@ After the Python setup in [WORKERS.md](WORKERS.md#set-up-validation), use the of
 
 A nonzero exit means the lookup failed or no records matched. Queries match names, entity codes, aliases, and FIPS without regard to letter case. `--type` takes an entity type such as County, Position, Office, or Candidacy. `--state` accepts `NY` or `STATE-USA-NY`. Omit the query to list all records matching the filters.
 
-A Position describes a role, such as Mayor. An Office connects that role to a jurisdiction. A Race connects the office to an Election, and a Candidacy connects a Person to the race. Reuse each existing code when adding data to that record.
+A Position describes a role, such as Mayor. An Office connects that role to a jurisdiction. A Race connects the office to an Election, and a Candidacy connects a Citizen to the race. Reuse each existing code when adding data to that record.
 
-State filters follow manifest scope and references. A person's state association does not establish residence. Catalog entries describe repository definitions, independent of whether a database has imported them.
+State filters follow manifest scope and references. A citizen's state association does not establish residence. Catalog entries describe repository definitions, independent of whether a database has imported them.
 
 ## District parent jurisdictions
 
@@ -110,22 +110,22 @@ Check the generated files without changing them:
 
 A nonzero exit means the catalog is missing, stale, or has unexpected files. This check runs in CI.
 
-## People
+## Citizens
 
-A person's code is a version of their name and a disambiguator issued to everyone in advance: Letitia James is `PERSON-JAMES_LT_5Y` in the current manifests. Use the owner export in [WORKERS.md](WORKERS.md#find-the-owner-codes) to find current full codes.
+A citizen's code is a version of their name and a disambiguator issued to everyone in advance: Letitia James is `CITIZEN-JAMES_LT_5Y` in the current manifests. Use the owner export in [WORKERS.md](WORKERS.md#find-the-owner-codes) to find current full codes.
 
-- **The name code** is the surname, then the given name's first letter and its next consonant: Letitia → `LT`, Clyde → `CL`, Ann → `AN`. A person printed with only a surname has the surname alone.
+- **The name code** is the surname, then the given name's first letter and its next consonant: Letitia → `LT`, Clyde → `CL`, Ann → `AN`. A citizen printed with only a surname has the surname alone.
 - **The disambiguator** is a digit and a letter, such as `6J`, skipping the look-alikes `0`, `1`, `I`, and `O`.
-- **Every `Person` definition requires a full code.** Mint a new person's code from their first-appearance facts (`state`, `election_date`, `printed_name`, and `printed_office`) before adding the record:
+- **Every `Citizen` definition requires a full code.** Mint a new citizen's code from their first-appearance facts (`state`, `election_date`, `printed_name`, and `printed_office`) before adding the record:
 
 ```sh
 .venv/bin/python tools/seed_contract.py mint --state CA --date 2026-06-02 --name "Akinyemi Agbede" --office "Governor"
 ```
 
-  The hash of those four facts picks the starting disambiguator and steps to the next unused code across the repository. If existing people already share the name code, `mint` lists them with their races and requires an explicit `--new` or `--same-as PERSON-...` choice. Once minted, store the full code in the manifest (`code: PERSON-...`, `username: ...`, `username_status: provisional`) and never recompute it. If two simultaneous pull requests mint the same code, `validate` and `export-catalog` reject the duplicate `Person` definition and the second contributor re-runs `mint`.
-- Reuse an existing person's full code across all candidacies. Do not mint a replacement code when updating their name, accounts, or source evidence.
-- **Bare name codes are allowed only as references.** Both `tools/seed_contract.py validate` and the app importer reject a bare name code on a `Person` definition. Other records may reference `PERSON-JAMES_LT` when only one person has that name code; if two people share it, the importer stops and lists both full codes.
-- A code names no state or office, because a person may later run somewhere else. Social media handles go in the person's Channel records, not their code.
+  The hash of those four facts picks the starting disambiguator and steps to the next unused code across the repository. If existing citizens already share the name code, `mint` lists them with their races and requires an explicit `--new` or `--same-as CITIZEN-...` choice. Once minted, store the full code in the manifest (`code: CITIZEN-...`, `username: ...`, `username_status: provisional`) and never recompute it. If two simultaneous pull requests mint the same code, `validate` and `export-catalog` reject the duplicate `Citizen` definition and the second contributor re-runs `mint`.
+- Reuse an existing citizen's full code across all candidacies. Do not mint a replacement code when updating their name, accounts, or source evidence.
+- **Bare name codes are allowed only as references.** Both `tools/seed_contract.py validate` and the app importer reject a bare name code on a `Citizen` definition. Other records may reference `CITIZEN-JAMES_LT` when only one citizen has that name code; if two citizens share it, the importer stops and lists both full codes.
+- A code names no state or office, because a citizen may later run somewhere else. Social media handles go in the citizen's Channel records, not their code.
 
 ## Organizations
 
@@ -146,7 +146,7 @@ A primary is a race for a nomination: a place on the general-election ballot for
 | `nominating_organization` | yes | The party, or the placeholder Organization for a nonpartisan primary |
 | `nominee_count` | yes | How many candidates advance to the general: the number of seats for a party primary, 2 for a top-two primary, or 4 for Alaska's top-four |
 
-The race for it sits in the state's primary election from `elections_2026.yml`, even when the nomination is for a district: `RACE-USA-GA-CONGRESS-CD_5-NOMINEE_DEMOCRATIC-2026_PRIMARY` in `ELECTION-USA-GA-2026_PRIMARY`. A primary runoff is a race for the same nomination in the `..._2026_PRIMARY_RUNOFF` election. Primary candidates are ordinary Candidacy records in that race, with the people's codes as described above.
+The race for it sits in the state's primary election from `elections_2026.yml`, even when the nomination is for a district: `RACE-USA-GA-CONGRESS-CD_5-NOMINEE_DEMOCRATIC-2026_PRIMARY` in `ELECTION-USA-GA-2026_PRIMARY`. A primary runoff is a race for the same nomination in the `..._2026_PRIMARY_RUNOFF` election. Primary candidates are ordinary Candidacy records in that race, with the citizens' codes as described above.
 
 Nonpartisan primaries nominate through placeholder Organizations in `manifests/contributions/ascent/nominations.yml`: `ORGANIZATION-USA-CA-TOP_TWO_PRIMARY`, `ORGANIZATION-USA-WA-TOP_TWO_PRIMARY`, and `ORGANIZATION-USA-AK-TOP_FOUR_PRIMARY`. Their nomination codes end in `NOMINEE_TOP_TWO` or `NOMINEE_TOP_FOUR`.
 
@@ -170,8 +170,8 @@ Two types record what candidates, campaigns, and parties publish online: a **Cha
 | `platform` | yes | `website`, `youtube`, `instagram`, `tiktok`, `x`, `bluesky`, `facebook`, `threads`, or `other` |
 | `handle` | yes | The handle as the platform shows it, without `@`; for a website, its host and any path |
 | `url` | no | The account's profile or home page |
-| `official` | no | `true` when the person, campaign, or party runs the account; `false`, the default, for supporters' and unofficial accounts |
-| `owner` | no | A reference to a `PERSON-…`, a `CANDIDACY-…` for one campaign's account, or a `PARTY-…` |
+| `official` | no | `true` when the citizen, campaign, or party runs the account; `false`, the default, for supporters' and unofficial accounts |
+| `owner` | no | A reference to a `CITIZEN-…`, a `CANDIDACY-…` for one campaign's account, or a `PARTY-…` |
 
 A platform and handle name exactly one account. The importer refuses a second code for an account it already has; use the existing code or list yours under its `aliases`.
 
@@ -197,11 +197,11 @@ A quote from a communication belongs in a `StanceEvidence` record that links it 
 
 ## Shared profile images
 
-An `Image` is a reusable image with `alt_text`, `credit`, and `source_url`. Seed manifests identify its original external image with `url`. An `ImagePlacement` links that image to a Person or Candidacy. One person can have many images, and one image can appear on several people and campaigns. The equivalent [YAML example](examples/profile_images.yml) and [JSON example](examples/profile_images.json) show both relationships. Their subject codes are placeholders; replace them with exported full codes before import.
+An `Image` is a reusable image with `alt_text`, `credit`, and `source_url`. Seed manifests identify its original external image with `url`. An `ImagePlacement` links that image to a Citizen or Candidacy. One citizen can have many images, and one image can appear on several citizens and campaigns. The equivalent [YAML example](examples/profile_images.yml) and [JSON example](examples/profile_images.json) show both relationships. Their subject codes are placeholders; replace them with exported full codes before import.
 
 The app stores uploaded image files in Active Storage. Manifest `url` values identify original external images; importing a manifest does not download those files or create blobs. Admins can attach a file to the shared Image. Attached files use named avatar, thumbnail, portrait, and large variants. Blob IDs, signed upload IDs, files, and variant records are not manifest attributes. OpenAI portrait generation remains disabled pending legal review and cannot be triggered through a seed manifest.
 
-Create an `IMAGE-...` code for the image and an `IMAGE_PLACEMENT-...` code for each use. Image URLs are unique. Reuse the existing Image code for the same URL. Each placement requires `references.image` and `references.subject`, using full local entity codes. The subject must be a Person or Candidacy. A subject can use a given image only once.
+Create an `IMAGE-...` code for the image and an `IMAGE_PLACEMENT-...` code for each use. Image URLs are unique. Reuse the existing Image code for the same URL. Each placement requires `references.image` and `references.subject`, using full local entity codes. The subject must be a Citizen or Candidacy. A subject can use a given image only once.
 
 | Record | Field | Meaning |
 |---|---|---|
@@ -210,7 +210,7 @@ Create an `IMAGE-...` code for the image and an `IMAGE_PLACEMENT-...` code for e
 | Image | `attributes.credit` | Image attribution |
 | Image | `attributes.source_url` | The source page where the image and attribution were found |
 | ImagePlacement | `references.image` | The shared `IMAGE-...` code |
-| ImagePlacement | `references.subject` | An exported Person or Candidacy code |
+| ImagePlacement | `references.subject` | An exported Citizen or Candidacy code |
 | ImagePlacement | `attributes.position` | Nonnegative display order, default 0 |
 
 The app creates these variants from attached originals; contributors do not seed variant dimensions or files:
@@ -222,11 +222,11 @@ The app creates these variants from attached originals; contributors do not seed
 | portrait | 800×1000 | Crop |
 | large | within 1600×1600 | Preserve proportions |
 
-`ImagePlacement.attributes.position` is a nonnegative integer, defaulting to 0. Lower values appear first; equal values use placement database ID order. Set distinct positions when the order matters. Candidacy profiles show their campaign images before the person's images and remove duplicates. The person page shows that person's images. The first image appears in the header, and additional images appear under Photos.
+`ImagePlacement.attributes.position` is a nonnegative integer, defaulting to 0. Lower values appear first; equal values use placement database ID order. Set distinct positions when the order matters. Candidacy profiles show their campaign images before the citizen's images and remove duplicates. The citizen page shows that citizen's images. The first image appears in the header, and additional images appear under Photos.
 
 Include image-source evidence in `source`, and retain the source page in `Image.attributes.source_url`. Store image links rather than uploading image files to this data repository. The image's description and attribution are shared across its placements. Removing a placement leaves the shared Image intact. Seed replay preserves existing values and reports disagreements, including order changes, for maintainer review.
 
-Person attributes `portrait_url`, `portrait_credit`, and `portrait_source_url` are no longer accepted. Replace them with Image attributes `url`, `credit`, and `source_url`, plus a placement referencing that Person. Put image contributions outside the `candidate_accounts/` worker subset, such as `manifests/contributions/<your-worker>/profile_images/`.
+Citizen attributes `portrait_url`, `portrait_credit`, and `portrait_source_url` are no longer accepted. Replace them with Image attributes `url`, `credit`, and `source_url`, plus a placement referencing that Citizen. Put image contributions outside the `candidate_accounts/` worker subset, such as `manifests/contributions/<your-worker>/profile_images/`.
 
 OpenAI portrait generation is disabled pending legal review. Seed contributions must leave activation flags and disabled controls unchanged and must not introduce automatic portrait-generation calls. Image-source contribution and Active Storage attachment do not activate generation.
 
@@ -234,11 +234,11 @@ OpenAI portrait generation is disabled pending legal review. Seed contributions 
 
 - Stances, communications, evidence, and images need a source in the `source` block. Include the contributor, source-page URL, and capture date. The worker account subset requires a per-record source and ownership-verification note.
 - Link to communications; never upload video or full transcripts. Quotes are at most 300 characters. Record a deleted or edited post with `availability: removed` or `edited` and an `archived_url`.
-- Never attach invented positions or quotes to a real person.
+- Never attach invented positions or quotes to a real citizen.
 
 ## Checking your files
 
-Run the offline validator described in [WORKERS.md](WORKERS.md#validate-before-submission). It checks the published JSON Schema, full Person definition codes, provisional usernames, duplicate Person definitions, and effective district state scope. These additional checks also run in CI. A standalone JSON Schema validator checks structure and field values but does not replace this command.
+Run the offline validator described in [WORKERS.md](WORKERS.md#validate-before-submission). It checks the published JSON Schema, full Citizen definition codes, provisional usernames, duplicate Citizen definitions, and effective district state scope. These additional checks also run in CI. A standalone JSON Schema validator checks structure and field values but does not replace this command.
 
 Maintainers also run Ascent's `bin/rails seed_library:validate` for catalog definitions and contradictions. Importing into a disposable database checks resolved dependencies and model validations, including whether an election contains its offices. Before merging a new election graph, report the import results and repeat the import to check that it creates no duplicates. Identify existing-value conflicts separately from validation failures.
 

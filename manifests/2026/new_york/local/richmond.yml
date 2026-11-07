@@ -37,8 +37,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_RICHMOND-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-RICHMOND
-  - type: Person
-    code: PERSON-YOST_GL_7Q
+  - type: Citizen
+    code: CITIZEN-YOST_GL_7Q
     attributes:
       username: yost_gl_7q
       username_status: provisional
@@ -56,9 +56,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-RICHMOND-2026_GENERAL
-      person: PERSON-YOST_GL_7Q
-  - type: Person
-    code: PERSON-GOLDEN_TS_2D
+      citizen: CITIZEN-YOST_GL_7Q
+  - type: Citizen
+    code: CITIZEN-GOLDEN_TS_2D
     attributes:
       username: golden_ts_2d
       username_status: provisional
@@ -75,7 +75,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-RICHMOND-2026_GENERAL
-      person: PERSON-GOLDEN_TS_2D
+      citizen: CITIZEN-GOLDEN_TS_2D
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND
@@ -94,8 +94,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_RICHMOND-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND
-  - type: Person
-    code: PERSON-LOW_CR_4F
+  - type: Citizen
+    code: CITIZEN-LOW_CR_4F
     attributes:
       username: low_cr_4f
       username_status: provisional
@@ -116,9 +116,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND-2026_GENERAL
-      person: PERSON-LOW_CR_4F
-  - type: Person
-    code: PERSON-VITUCCI_JH_5K
+      citizen: CITIZEN-LOW_CR_4F
+  - type: Citizen
+    code: CITIZEN-VITUCCI_JH_5K
     attributes:
       username: vitucci_jh_5k
       username_status: provisional
@@ -136,4 +136,4 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_RICHMOND-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_RICHMOND-2026_GENERAL
-      person: PERSON-VITUCCI_JH_5K
+      citizen: CITIZEN-VITUCCI_JH_5K

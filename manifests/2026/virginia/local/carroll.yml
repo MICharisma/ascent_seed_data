@@ -47,8 +47,8 @@ groups:
     references:
       election: ELECTION-USA-VA-HILLSVILLE-2026_GENERAL
       office: OFFICE-USA-VA-HILLSVILLE-MAYOR
-  - type: Person
-    code: PERSON-KAUFMAN_AN_5Y
+  - type: Citizen
+    code: CITIZEN-KAUFMAN_AN_5Y
     attributes:
       username: kaufman_an_5y
       username_status: provisional
@@ -61,9 +61,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HILLSVILLE-MAYOR-2026_GENERAL
-      person: PERSON-KAUFMAN_AN_5Y
-  - type: Person
-    code: PERSON-CROWDER_GR_2H
+      citizen: CITIZEN-KAUFMAN_AN_5Y
+  - type: Citizen
+    code: CITIZEN-CROWDER_GR_2H
     attributes:
       username: crowder_gr_2h
       username_status: provisional
@@ -77,9 +77,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HILLSVILLE-MAYOR-2026_GENERAL
-      person: PERSON-CROWDER_GR_2H
-  - type: Person
-    code: PERSON-HORTON_KT_5L
+      citizen: CITIZEN-CROWDER_GR_2H
+  - type: Citizen
+    code: CITIZEN-HORTON_KT_5L
     attributes:
       username: horton_kt_5l
       username_status: provisional
@@ -93,7 +93,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HILLSVILLE-MAYOR-2026_GENERAL
-      person: PERSON-HORTON_KT_5L
+      citizen: CITIZEN-HORTON_KT_5L
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_CARROLL-COUNCIL_MEMBER-LAUREL_FORK_WARD_D
@@ -111,8 +111,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_CARROLL-2026_GENERAL
       office: OFFICE-USA-VA-COUNTY_CARROLL-COUNCIL_MEMBER-LAUREL_FORK_WARD_D
-  - type: Person
-    code: PERSON-YONCE_GR_8E
+  - type: Citizen
+    code: CITIZEN-YONCE_GR_8E
     attributes:
       username: yonce_gr_8e
       username_status: provisional
@@ -126,7 +126,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_CARROLL-COUNCIL_MEMBER-LAUREL_FORK_WARD_D-2026_GENERAL
-      person: PERSON-YONCE_GR_8E
+      citizen: CITIZEN-YONCE_GR_8E
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_CARROLL-COUNCIL_MEMBER-SULPHUR_SPRINGS_WARD_B
@@ -144,8 +144,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_CARROLL-2026_GENERAL
       office: OFFICE-USA-VA-COUNTY_CARROLL-COUNCIL_MEMBER-SULPHUR_SPRINGS_WARD_B
-  - type: Person
-    code: PERSON-JESSUP_BR_2H
+  - type: Citizen
+    code: CITIZEN-JESSUP_BR_2H
     attributes:
       username: jessup_br_2h
       username_status: provisional
@@ -159,4 +159,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_CARROLL-COUNCIL_MEMBER-SULPHUR_SPRINGS_WARD_B-2026_GENERAL
-      person: PERSON-JESSUP_BR_2H
+      citizen: CITIZEN-JESSUP_BR_2H

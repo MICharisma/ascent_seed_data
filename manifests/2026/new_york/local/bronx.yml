@@ -37,8 +37,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_BRONX-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_BRONX-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_BRONX
-  - type: Person
-    code: PERSON-MORALES_JD_9Q
+  - type: Citizen
+    code: CITIZEN-MORALES_JD_9Q
     attributes:
       username: morales_jd_9q
       username_status: provisional
@@ -56,7 +56,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_BRONX-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_BRONX-2026_GENERAL
-      person: PERSON-MORALES_JD_9Q
+      citizen: CITIZEN-MORALES_JD_9Q
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_BRONX-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_BRONX
@@ -75,8 +75,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_BRONX-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_BRONX-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_BRONX
-  - type: Person
-    code: PERSON-COLLINS_SEDEY_SR_5Q
+  - type: Citizen
+    code: CITIZEN-COLLINS_SEDEY_SR_5Q
     attributes:
       username: collins_sedey_sr_5q
       username_status: provisional
@@ -94,7 +94,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_BRONX-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_BRONX-2026_GENERAL
-      person: PERSON-COLLINS_SEDEY_SR_5Q
+      citizen: CITIZEN-COLLINS_SEDEY_SR_5Q
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_BRONX-SURROGATE-BRONX
@@ -113,8 +113,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_BRONX-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_BRONX-SURROGATE-BRONX
-  - type: Person
-    code: PERSON-GONZALEZ_NL_5D
+  - type: Citizen
+    code: CITIZEN-GONZALEZ_NL_5D
     attributes:
       username: gonzalez_nl_5d
       username_status: provisional
@@ -132,4 +132,4 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_BRONX-SURROGATE-BRONX-2026_GENERAL
-      person: PERSON-GONZALEZ_NL_5D
+      citizen: CITIZEN-GONZALEZ_NL_5D

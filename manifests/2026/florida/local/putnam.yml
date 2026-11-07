@@ -60,8 +60,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PUTNAM-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-WILKINSON_LT_2W
+  - type: Citizen
+    code: CITIZEN-WILKINSON_LT_2W
     attributes:
       username: wilkinson_lt_2w
       username_status: provisional
@@ -79,7 +79,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-WILKINSON_LT_2W
+      citizen: CITIZEN-WILKINSON_LT_2W
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_4
@@ -97,8 +97,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PUTNAM-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-BURCKHARD_RN_3L
+  - type: Citizen
+    code: CITIZEN-BURCKHARD_RN_3L
     attributes:
       username: burckhard_rn_3l
       username_status: provisional
@@ -114,9 +114,9 @@ groups:
         kind: designation
     references:
       race: RACE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-BURCKHARD_RN_3L
-  - type: Person
-    code: PERSON-FLORENCE_JS_4M
+      citizen: CITIZEN-BURCKHARD_RN_3L
+  - type: Citizen
+    code: CITIZEN-FLORENCE_JS_4M
     attributes:
       username: florence_js_4m
       username_status: provisional
@@ -133,9 +133,9 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-FLORENCE_JS_4M
-  - type: Person
-    code: PERSON-HARVEY_LR_2E
+      citizen: CITIZEN-FLORENCE_JS_4M
+  - type: Citizen
+    code: CITIZEN-HARVEY_LR_2E
     attributes:
       username: harvey_lr_2e
       username_status: provisional
@@ -152,7 +152,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_PUTNAM-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-HARVEY_LR_2E
+      citizen: CITIZEN-HARVEY_LR_2E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_2
@@ -170,8 +170,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PUTNAM-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_2
-  - type: Person
-    code: PERSON-NORWOOD_JM_9D
+  - type: Citizen
+    code: CITIZEN-NORWOOD_JM_9D
     attributes:
       username: norwood_jm_9d
       username_status: provisional
@@ -184,9 +184,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_2-2026_GENERAL
-      person: PERSON-NORWOOD_JM_9D
-  - type: Person
-    code: PERSON-BATTS_JM_7H
+      citizen: CITIZEN-NORWOOD_JM_9D
+  - type: Citizen
+    code: CITIZEN-BATTS_JM_7H
     attributes:
       username: batts_jm_7h
       username_status: provisional
@@ -200,7 +200,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_2-2026_GENERAL
-      person: PERSON-BATTS_JM_7H
+      citizen: CITIZEN-BATTS_JM_7H
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_4
@@ -218,8 +218,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PUTNAM-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_4
-  - type: Person
-    code: PERSON-CAMPBELL_JS_6D
+  - type: Citizen
+    code: CITIZEN-CAMPBELL_JS_6D
     attributes:
       username: campbell_js_6d
       username_status: provisional
@@ -232,9 +232,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_4-2026_GENERAL
-      person: PERSON-CAMPBELL_JS_6D
-  - type: Person
-    code: PERSON-PIERCE_BR_2V
+      citizen: CITIZEN-CAMPBELL_JS_6D
+  - type: Citizen
+    code: CITIZEN-PIERCE_BR_2V
     attributes:
       username: pierce_br_2v
       username_status: provisional
@@ -247,7 +247,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PUTNAM-COMMISSIONER-GROUP_4-2026_GENERAL
-      person: PERSON-PIERCE_BR_2V
+      citizen: CITIZEN-PIERCE_BR_2V
 - records:
   - type: Office
     code: OFFICE-USA-FL-CRESCENT_CITY-COMMISSIONER-GROUP_1
@@ -265,8 +265,8 @@ groups:
     references:
       election: ELECTION-USA-FL-CRESCENT_CITY-2026_GENERAL
       office: OFFICE-USA-FL-CRESCENT_CITY-COMMISSIONER-GROUP_1
-  - type: Person
-    code: PERSON-DEVITTO_LS_5P
+  - type: Citizen
+    code: CITIZEN-DEVITTO_LS_5P
     attributes:
       username: devitto_ls_5p
       username_status: provisional
@@ -280,7 +280,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-CRESCENT_CITY-COMMISSIONER-GROUP_1-2026_GENERAL
-      person: PERSON-DEVITTO_LS_5P
+      citizen: CITIZEN-DEVITTO_LS_5P
 - records:
   - type: Office
     code: OFFICE-USA-FL-CRESCENT_CITY-COMMISSIONER-GROUP_2
@@ -298,8 +298,8 @@ groups:
     references:
       election: ELECTION-USA-FL-CRESCENT_CITY-2026_GENERAL
       office: OFFICE-USA-FL-CRESCENT_CITY-COMMISSIONER-GROUP_2
-  - type: Person
-    code: PERSON-LAURIE_WL_5J
+  - type: Citizen
+    code: CITIZEN-LAURIE_WL_5J
     attributes:
       username: laurie_wl_5j
       username_status: provisional
@@ -313,7 +313,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-CRESCENT_CITY-COMMISSIONER-GROUP_2-2026_GENERAL
-      person: PERSON-LAURIE_WL_5J
+      citizen: CITIZEN-LAURIE_WL_5J
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_1
@@ -331,8 +331,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PUTNAM-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_1
-  - type: Person
-    code: PERSON-PICKENS_HL_6Q
+  - type: Citizen
+    code: CITIZEN-PICKENS_HL_6Q
     attributes:
       username: pickens_hl_6q
       username_status: provisional
@@ -346,7 +346,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
-      person: PERSON-PICKENS_HL_6Q
+      citizen: CITIZEN-PICKENS_HL_6Q
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_4
@@ -364,8 +364,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PUTNAM-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_4
-  - type: Person
-    code: PERSON-WAGNER_LN_3Z
+  - type: Citizen
+    code: CITIZEN-WAGNER_LN_3Z
     attributes:
       username: wagner_ln_3z
       username_status: provisional
@@ -379,7 +379,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-WAGNER_LN_3Z
+      citizen: CITIZEN-WAGNER_LN_3Z
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_5
@@ -397,8 +397,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PUTNAM-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_5
-  - type: Person
-    code: PERSON-LEARY_PH_7W
+  - type: Citizen
+    code: CITIZEN-LEARY_PH_7W
     attributes:
       username: leary_ph_7w
       username_status: provisional
@@ -411,7 +411,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PUTNAM-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
-      person: PERSON-LEARY_PH_7W
+      citizen: CITIZEN-LEARY_PH_7W
 - records:
   - type: Office
     code: OFFICE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_1
@@ -429,8 +429,8 @@ groups:
     references:
       election: ELECTION-USA-FL-POMONA_PARK-2026_GENERAL
       office: OFFICE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_1
-  - type: Person
-    code: PERSON-SWANSON_MR_3J
+  - type: Citizen
+    code: CITIZEN-SWANSON_MR_3J
     attributes:
       username: swanson_mr_3j
       username_status: provisional
@@ -443,7 +443,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_1-2026_GENERAL
-      person: PERSON-SWANSON_MR_3J
+      citizen: CITIZEN-SWANSON_MR_3J
 - records:
   - type: Office
     code: OFFICE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_2
@@ -461,8 +461,8 @@ groups:
     references:
       election: ELECTION-USA-FL-POMONA_PARK-2026_GENERAL
       office: OFFICE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_2
-  - type: Person
-    code: PERSON-CARROLL_DR_5U
+  - type: Citizen
+    code: CITIZEN-CARROLL_DR_5U
     attributes:
       username: carroll_dr_5u
       username_status: provisional
@@ -476,7 +476,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_2-2026_GENERAL
-      person: PERSON-CARROLL_DR_5U
+      citizen: CITIZEN-CARROLL_DR_5U
 - records:
   - type: Office
     code: OFFICE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_3
@@ -494,8 +494,8 @@ groups:
     references:
       election: ELECTION-USA-FL-POMONA_PARK-2026_GENERAL
       office: OFFICE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_3
-  - type: Person
-    code: PERSON-EVANS_CR_4A
+  - type: Citizen
+    code: CITIZEN-EVANS_CR_4A
     attributes:
       username: evans_cr_4a
       username_status: provisional
@@ -508,7 +508,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-POMONA_PARK-COUNCIL_MEMBER-SEAT_3-2026_GENERAL
-      person: PERSON-EVANS_CR_4A
+      citizen: CITIZEN-EVANS_CR_4A
 - records:
   - type: Office
     code: OFFICE-USA-FL-POMONA_PARK-MAYOR
@@ -525,8 +525,8 @@ groups:
     references:
       election: ELECTION-USA-FL-POMONA_PARK-2026_GENERAL
       office: OFFICE-USA-FL-POMONA_PARK-MAYOR
-  - type: Person
-    code: PERSON-ANDERSON_NL_8X
+  - type: Citizen
+    code: CITIZEN-ANDERSON_NL_8X
     attributes:
       username: anderson_nl_8x
       username_status: provisional
@@ -539,9 +539,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-POMONA_PARK-MAYOR-2026_GENERAL
-      person: PERSON-ANDERSON_NL_8X
-  - type: Person
-    code: PERSON-CUEVAS_AN_7F
+      citizen: CITIZEN-ANDERSON_NL_8X
+  - type: Citizen
+    code: CITIZEN-CUEVAS_AN_7F
     attributes:
       username: cuevas_an_7f
       username_status: provisional
@@ -554,4 +554,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-POMONA_PARK-MAYOR-2026_GENERAL
-      person: PERSON-CUEVAS_AN_7F
+      citizen: CITIZEN-CUEVAS_AN_7F

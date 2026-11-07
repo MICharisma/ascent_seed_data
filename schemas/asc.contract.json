@@ -108,7 +108,7 @@
         }
       },
       "references": [
-        "person",
+        "citizen",
         "race"
       ]
     },
@@ -134,6 +134,25 @@
             "other"
           ]
         },
+        "review_status": {
+          "type": "string",
+          "enum": [
+            "pending",
+            "approved",
+            "rejected"
+          ]
+        },
+        "reviewed_at": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
         "url": {
           "anyOf": [
             {
@@ -146,8 +165,99 @@
         }
       },
       "references": [
-        "owner"
+        "owner",
+        "reviewed_by"
       ]
+    },
+    "Citizen": {
+      "attributes": {
+        "bio": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "birth_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "email": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "first_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "last_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "middle_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "username": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "username_status": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "provisional",
+                "verified"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": []
     },
     "Communication": {
       "attributes": {
@@ -626,96 +736,6 @@
       "references": [
         "state"
       ]
-    },
-    "Person": {
-      "attributes": {
-        "bio": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "birth_date": {
-          "anyOf": [
-            {
-              "type": "string",
-              "format": "date"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "email": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "first_name": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "last_name": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "middle_name": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "username": {
-          "anyOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "null"
-            }
-          ]
-        },
-        "username_status": {
-          "anyOf": [
-            {
-              "type": "string",
-              "enum": [
-                "provisional",
-                "verified"
-              ]
-            },
-            {
-              "type": "null"
-            }
-          ]
-        }
-      },
-      "references": []
     },
     "Position": {
       "attributes": {

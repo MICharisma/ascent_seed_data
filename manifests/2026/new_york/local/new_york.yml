@@ -37,8 +37,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_NEW_YORK-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-NEW_YORK
-  - type: Person
-    code: PERSON-MORALES_MINERVA_EM_6B
+  - type: Citizen
+    code: CITIZEN-MORALES_MINERVA_EM_6B
     attributes:
       username: morales_minerva_em_6b
       username_status: provisional
@@ -55,9 +55,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-NEW_YORK-2026_GENERAL
-      person: PERSON-MORALES_MINERVA_EM_6B
-  - type: Person
-    code: PERSON-HANSHAFT_JS_4L
+      citizen: CITIZEN-MORALES_MINERVA_EM_6B
+  - type: Citizen
+    code: CITIZEN-HANSHAFT_JS_4L
     attributes:
       username: hanshaft_js_4l
       username_status: provisional
@@ -75,9 +75,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-NEW_YORK-2026_GENERAL
-      person: PERSON-HANSHAFT_JS_4L
-  - type: Person
-    code: PERSON-FRANTS_VL_6J
+      citizen: CITIZEN-HANSHAFT_JS_4L
+  - type: Citizen
+    code: CITIZEN-FRANTS_VL_6J
     attributes:
       username: frants_vl_6j
       username_status: provisional
@@ -94,7 +94,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-NEW_YORK-2026_GENERAL
-      person: PERSON-FRANTS_VL_6J
+      citizen: CITIZEN-FRANTS_VL_6J
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_NEW_YORK
@@ -113,8 +113,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_NEW_YORK-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_NEW_YORK
-  - type: Person
-    code: PERSON-FLORES_ER_9C
+  - type: Citizen
+    code: CITIZEN-FLORES_ER_9C
     attributes:
       username: flores_er_9c
       username_status: provisional
@@ -131,7 +131,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-1ST_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
-      person: PERSON-FLORES_ER_9C
+      citizen: CITIZEN-FLORES_ER_9C
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_NEW_YORK
@@ -150,8 +150,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_NEW_YORK-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_NEW_YORK
-  - type: Person
-    code: PERSON-BENATHEN_ST_2E
+  - type: Citizen
+    code: CITIZEN-BENATHEN_ST_2E
     attributes:
       username: benathen_st_2e
       username_status: provisional
@@ -168,7 +168,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
-      person: PERSON-BENATHEN_ST_2E
+      citizen: CITIZEN-BENATHEN_ST_2E
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
@@ -187,8 +187,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_NEW_YORK-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
-  - type: Person
-    code: PERSON-BONDY_FT_6F
+  - type: Citizen
+    code: CITIZEN-BONDY_FT_6F
     attributes:
       username: bondy_ft_6f
       username_status: provisional
@@ -205,7 +205,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
-      person: PERSON-BONDY_FT_6F
+      citizen: CITIZEN-BONDY_FT_6F
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
@@ -224,8 +224,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_NEW_YORK-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
-  - type: Person
-    code: PERSON-TINGLING_AJ_9H
+  - type: Citizen
+    code: CITIZEN-TINGLING_AJ_9H
     attributes:
       username: tingling_aj_9h
       username_status: provisional
@@ -241,9 +241,9 @@ groups:
         kind: designation
     references:
       race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
-      person: PERSON-TINGLING_AJ_9H
-  - type: Person
-    code: PERSON-CORTES_TOWER_KR_8T
+      citizen: CITIZEN-TINGLING_AJ_9H
+  - type: Citizen
+    code: CITIZEN-CORTES_TOWER_KR_8T
     attributes:
       username: cortes_tower_kr_8t
       username_status: provisional
@@ -260,9 +260,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
-      person: PERSON-CORTES_TOWER_KR_8T
-  - type: Person
-    code: PERSON-ESPINAL_KS_7Z
+      citizen: CITIZEN-CORTES_TOWER_KR_8T
+  - type: Citizen
+    code: CITIZEN-ESPINAL_KS_7Z
     attributes:
       username: espinal_ks_7z
       username_status: provisional
@@ -279,9 +279,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
-      person: PERSON-ESPINAL_KS_7Z
-  - type: Person
-    code: PERSON-LEVY_MT_2Q
+      citizen: CITIZEN-ESPINAL_KS_7Z
+  - type: Citizen
+    code: CITIZEN-LEVY_MT_2Q
     attributes:
       username: levy_mt_2q
       username_status: provisional
@@ -298,7 +298,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
-      person: PERSON-LEVY_MT_2Q
+      citizen: CITIZEN-LEVY_MT_2Q
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
@@ -317,8 +317,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_NEW_YORK-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK
-  - type: Person
-    code: PERSON-KRIST_BR_6R
+  - type: Citizen
+    code: CITIZEN-KRIST_BR_6R
     attributes:
       username: krist_br_6r
       username_status: provisional
@@ -336,9 +336,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
-      person: PERSON-KRIST_BR_6R
-  - type: Person
-    code: PERSON-FRANKOLA_CRAWFORD_JN_9B
+      citizen: CITIZEN-KRIST_BR_6R
+  - type: Citizen
+    code: CITIZEN-FRANKOLA_CRAWFORD_JN_9B
     attributes:
       username: frankola_crawford_jn_9b
       username_status: provisional
@@ -355,7 +355,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_NEW_YORK-CIVIL_COURT_JUDGE-9TH_MUNICIPAL_COURT_DISTRICT_NEW_YORK-2026_GENERAL
-      person: PERSON-FRANKOLA_CRAWFORD_JN_9B
+      citizen: CITIZEN-FRANKOLA_CRAWFORD_JN_9B
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_NEW_YORK-COUNCIL_MEMBER-3RD_COUNCIL_DISTRICT
@@ -374,8 +374,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_NEW_YORK-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_NEW_YORK-COUNCIL_MEMBER-3RD_COUNCIL_DISTRICT
-  - type: Person
-    code: PERSON-WILSON_CR_6C
+  - type: Citizen
+    code: CITIZEN-WILSON_CR_6C
     attributes:
       username: wilson_cr_6c
       username_status: provisional
@@ -392,9 +392,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_NEW_YORK-COUNCIL_MEMBER-3RD_COUNCIL_DISTRICT-2026_GENERAL
-      person: PERSON-WILSON_CR_6C
-  - type: Person
-    code: PERSON-BHATTI_HR_4L
+      citizen: CITIZEN-WILSON_CR_6C
+  - type: Citizen
+    code: CITIZEN-BHATTI_HR_4L
     attributes:
       username: bhatti_hr_4l
       username_status: provisional
@@ -410,7 +410,7 @@ groups:
         kind: designation
     references:
       race: RACE-USA-NY-COUNTY_NEW_YORK-COUNCIL_MEMBER-3RD_COUNCIL_DISTRICT-2026_GENERAL
-      person: PERSON-BHATTI_HR_4L
+      citizen: CITIZEN-BHATTI_HR_4L
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_NEW_YORK-SURROGATE-NEW_YORK
@@ -429,8 +429,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_NEW_YORK-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_NEW_YORK-SURROGATE-NEW_YORK
-  - type: Person
-    code: PERSON-MELLA_RT_8K
+  - type: Citizen
+    code: CITIZEN-MELLA_RT_8K
     attributes:
       username: mella_rt_8k
       username_status: provisional
@@ -447,4 +447,4 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_NEW_YORK-SURROGATE-NEW_YORK-2026_GENERAL
-      person: PERSON-MELLA_RT_8K
+      citizen: CITIZEN-MELLA_RT_8K

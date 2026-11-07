@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_PLYMOUTH-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_PLYMOUTH-REGISTER_OF_PROBATE
-  - type: Person
-    code: PERSON-MCDONOUGH_MT_7S
+  - type: Citizen
+    code: CITIZEN-MCDONOUGH_MT_7S
     attributes:
       username: mcdonough_mt_7s
       username_status: provisional
@@ -54,7 +54,7 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-COUNTY_PLYMOUTH-REGISTER_OF_PROBATE-2026_GENERAL
-      person: PERSON-MCDONOUGH_MT_7S
+      citizen: CITIZEN-MCDONOUGH_MT_7S
 - records:
   - type: Office
     code: OFFICE-USA-MA-COUNTY_PLYMOUTH-TREASURER
@@ -71,8 +71,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_PLYMOUTH-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_PLYMOUTH-TREASURER
-  - type: Person
-    code: PERSON-OBRIEN_TH_3W
+  - type: Citizen
+    code: CITIZEN-OBRIEN_TH_3W
     attributes:
       username: obrien_th_3w
       username_status: provisional
@@ -90,7 +90,7 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-COUNTY_PLYMOUTH-TREASURER-2026_GENERAL
-      person: PERSON-OBRIEN_TH_3W
+      citizen: CITIZEN-OBRIEN_TH_3W
 - records:
   - type: Office
     code: OFFICE-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER
@@ -107,8 +107,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_PLYMOUTH-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER
-  - type: Person
-    code: PERSON-NYMAN_RH_5Z
+  - type: Citizen
+    code: CITIZEN-NYMAN_RH_5Z
     attributes:
       username: nyman_rh_5z
       username_status: provisional
@@ -126,9 +126,9 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER-2026_GENERAL
-      person: PERSON-NYMAN_RH_5Z
-  - type: Person
-    code: PERSON-OBRIEN_AN_6D
+      citizen: CITIZEN-NYMAN_RH_5Z
+  - type: Citizen
+    code: CITIZEN-OBRIEN_AN_6D
     attributes:
       username: obrien_an_6d
       username_status: provisional
@@ -146,4 +146,4 @@ groups:
         party: PARTY-USA-MA-REPUBLICAN
     references:
       race: RACE-USA-MA-COUNTY_PLYMOUTH-COUNTY_COMMISSIONER-2026_GENERAL
-      person: PERSON-OBRIEN_AN_6D
+      citizen: CITIZEN-OBRIEN_AN_6D

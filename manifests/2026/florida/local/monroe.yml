@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_MONROE-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-LINCOLN_MC_9A
+  - type: Citizen
+    code: CITIZEN-LINCOLN_MC_9A
     attributes:
       username: lincoln_mc_9a
       username_status: provisional
@@ -54,7 +54,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_MONROE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-LINCOLN_MC_9A
+      citizen: CITIZEN-LINCOLN_MC_9A
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_MONROE-COUNTY_COMMISSIONER-DISTRICT_4
@@ -72,8 +72,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_MONROE-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-RICE_DV_2W
+  - type: Citizen
+    code: CITIZEN-RICE_DV_2W
     attributes:
       username: rice_dv_2w
       username_status: provisional
@@ -90,7 +90,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_MONROE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-RICE_DV_2W
+      citizen: CITIZEN-RICE_DV_2W
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_MONROE-COUNTY_JUDGE-GROUP_2
@@ -108,8 +108,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_MONROE-COUNTY_JUDGE-GROUP_2
-  - type: Person
-    code: PERSON-MCCARTHY_KV_8Q
+  - type: Citizen
+    code: CITIZEN-MCCARTHY_KV_8Q
     attributes:
       username: mccarthy_kv_8q
       username_status: provisional
@@ -122,7 +122,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_MONROE-COUNTY_JUDGE-GROUP_2-2026_GENERAL
-      person: PERSON-MCCARTHY_KV_8Q
+      citizen: CITIZEN-MCCARTHY_KV_8Q
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_MONROE-FIRE_DISTRICT_COMMISSIONER-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_2
@@ -140,8 +140,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_MONROE-FIRE_DISTRICT_COMMISSIONER-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_2
-  - type: Person
-    code: PERSON-CONKLIN_FR_2R
+  - type: Citizen
+    code: CITIZEN-CONKLIN_FR_2R
     attributes:
       username: conklin_fr_2r
       username_status: provisional
@@ -154,7 +154,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_MONROE-FIRE_DISTRICT_COMMISSIONER-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_2-2026_GENERAL
-      person: PERSON-CONKLIN_FR_2R
+      citizen: CITIZEN-CONKLIN_FR_2R
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_MONROE-FIRE_DISTRICT_COMMISSIONER-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_4
@@ -172,8 +172,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_MONROE-FIRE_DISTRICT_COMMISSIONER-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_4
-  - type: Person
-    code: PERSON-MIRABELLA_GR_2K
+  - type: Citizen
+    code: CITIZEN-MIRABELLA_GR_2K
     attributes:
       username: mirabella_gr_2k
       username_status: provisional
@@ -186,7 +186,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_MONROE-FIRE_DISTRICT_COMMISSIONER-KEY_LARGO_FIRE_EMERGENCY_MEDICAL_BOARD_SEAT_4-2026_GENERAL
-      person: PERSON-MIRABELLA_GR_2K
+      citizen: CITIZEN-MIRABELLA_GR_2K
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT
@@ -204,8 +204,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT
-  - type: Person
-    code: PERSON-BROOKE_JH_7N
+  - type: Citizen
+    code: CITIZEN-BROOKE_JH_7N
     attributes:
       username: brooke_jh_7n
       username_status: provisional
@@ -219,9 +219,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
-      person: PERSON-BROOKE_JH_7N
-  - type: Person
-    code: PERSON-HARDEE_MT_8G
+      citizen: CITIZEN-BROOKE_JH_7N
+  - type: Citizen
+    code: CITIZEN-HARDEE_MT_8G
     attributes:
       username: hardee_mt_8g
       username_status: provisional
@@ -234,9 +234,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
-      person: PERSON-HARDEE_MT_8G
-  - type: Person
-    code: PERSON-MAJESKA_RB_7Z
+      citizen: CITIZEN-HARDEE_MT_8G
+  - type: Citizen
+    code: CITIZEN-MAJESKA_RB_7Z
     attributes:
       username: majeska_rb_7z
       username_status: provisional
@@ -249,9 +249,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
-      person: PERSON-MAJESKA_RB_7Z
-  - type: Person
-    code: PERSON-MOON_AN_6G
+      citizen: CITIZEN-MAJESKA_RB_7Z
+  - type: Citizen
+    code: CITIZEN-MOON_AN_6G
     attributes:
       username: moon_an_6g
       username_status: provisional
@@ -264,9 +264,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
-      person: PERSON-MOON_AN_6G
-  - type: Person
-    code: PERSON-PEIXOTO_JS_6G
+      citizen: CITIZEN-MOON_AN_6G
+  - type: Citizen
+    code: CITIZEN-PEIXOTO_JS_6G
     attributes:
       username: peixoto_js_6g
       username_status: provisional
@@ -280,7 +280,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_LARGO_WASTEWATER_DISTRICT-2026_GENERAL
-      person: PERSON-PEIXOTO_JS_6G
+      citizen: CITIZEN-PEIXOTO_JS_6G
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_WEST_UTILITY_BOARD_SEAT_B
@@ -298,8 +298,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_WEST_UTILITY_BOARD_SEAT_B
-  - type: Person
-    code: PERSON-WELLS_ST_8Y
+  - type: Citizen
+    code: CITIZEN-WELLS_ST_8Y
     attributes:
       username: wells_st_8y
       username_status: provisional
@@ -312,7 +312,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_MONROE-SPECIAL_DISTRICT_BOARD_MEMBER-KEY_WEST_UTILITY_BOARD_SEAT_B-2026_GENERAL
-      person: PERSON-WELLS_ST_8Y
+      citizen: CITIZEN-WELLS_ST_8Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_COMMISSIONER-SEAT_2
@@ -330,8 +330,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_COMMISSIONER-SEAT_2
-  - type: Person
-    code: PERSON-GOODMAN_PH_3A
+  - type: Citizen
+    code: CITIZEN-GOODMAN_PH_3A
     attributes:
       username: goodman_ph_3a
       username_status: provisional
@@ -348,7 +348,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_COMMISSIONER-SEAT_2-2026_GENERAL
-      person: PERSON-GOODMAN_PH_3A
+      citizen: CITIZEN-GOODMAN_PH_3A
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_COMMISSIONER-SEAT_5
@@ -366,8 +366,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_COMMISSIONER-SEAT_5
-  - type: Person
-    code: PERSON-BROWN_BT_5W
+  - type: Citizen
+    code: CITIZEN-BROWN_BT_5W
     attributes:
       username: brown_bt_5w
       username_status: provisional
@@ -384,7 +384,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_MONROE-MOSQUITO_CONTROL_COMMISSIONER-SEAT_5-2026_GENERAL
-      person: PERSON-BROWN_BT_5W
+      citizen: CITIZEN-BROWN_BT_5W
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_1
@@ -402,8 +402,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_1
-  - type: Person
-    code: PERSON-HORAN_DR_7J
+  - type: Citizen
+    code: CITIZEN-HORAN_DR_7J
     attributes:
       username: horan_dr_7j
       username_status: provisional
@@ -416,7 +416,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
-      person: PERSON-HORAN_DR_7J
+      citizen: CITIZEN-HORAN_DR_7J
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_4
@@ -434,8 +434,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_4
-  - type: Person
-    code: PERSON-GONZALEZ_LS_3H
+  - type: Citizen
+    code: CITIZEN-GONZALEZ_LS_3H
     attributes:
       username: gonzalez_ls_3h
       username_status: provisional
@@ -448,7 +448,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-GONZALEZ_LS_3H
+      citizen: CITIZEN-GONZALEZ_LS_3H
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_5
@@ -466,8 +466,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_MONROE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_5
-  - type: Person
-    code: PERSON-WOLTANSKI_SU_5B
+  - type: Citizen
+    code: CITIZEN-WOLTANSKI_SU_5B
     attributes:
       username: woltanski_su_5b
       username_status: provisional
@@ -480,4 +480,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_MONROE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
-      person: PERSON-WOLTANSKI_SU_5B
+      citizen: CITIZEN-WOLTANSKI_SU_5B

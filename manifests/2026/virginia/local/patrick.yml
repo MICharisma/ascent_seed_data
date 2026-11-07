@@ -48,8 +48,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_PATRICK-2026_SPECIAL
       office: OFFICE-USA-VA-COUNTY_PATRICK-COUNTY_SUPERVISOR-SMITH_RIVER_DISTRICT
-  - type: Person
-    code: PERSON-HARRIS_CR_9M
+  - type: Citizen
+    code: CITIZEN-HARRIS_CR_9M
     attributes:
       username: harris_cr_9m
       username_status: provisional
@@ -63,9 +63,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_PATRICK-COUNTY_SUPERVISOR-SMITH_RIVER_DISTRICT-2026_SPECIAL
-      person: PERSON-HARRIS_CR_9M
-  - type: Person
-    code: PERSON-COX_RC_5H
+      citizen: CITIZEN-HARRIS_CR_9M
+  - type: Citizen
+    code: CITIZEN-COX_RC_5H
     attributes:
       username: cox_rc_5h
       username_status: provisional
@@ -79,7 +79,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_PATRICK-COUNTY_SUPERVISOR-SMITH_RIVER_DISTRICT-2026_SPECIAL
-      person: PERSON-COX_RC_5H
+      citizen: CITIZEN-COX_RC_5H
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_PATRICK-SCHOOL_BOARD_MEMBER-PETERS_CREEK_DISTRICT
@@ -97,8 +97,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_PATRICK-2026_SPECIAL
       office: OFFICE-USA-VA-COUNTY_PATRICK-SCHOOL_BOARD_MEMBER-PETERS_CREEK_DISTRICT
-  - type: Person
-    code: PERSON-WOODS_JR_4E
+  - type: Citizen
+    code: CITIZEN-WOODS_JR_4E
     attributes:
       username: woods_jr_4e
       username_status: provisional
@@ -112,7 +112,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_PATRICK-SCHOOL_BOARD_MEMBER-PETERS_CREEK_DISTRICT-2026_SPECIAL
-      person: PERSON-WOODS_JR_4E
+      citizen: CITIZEN-WOODS_JR_4E
 - records:
   - type: Office
     code: OFFICE-USA-VA-STUART-COUNCIL_MEMBER
@@ -129,8 +129,8 @@ groups:
     references:
       election: ELECTION-USA-VA-STUART-2026_GENERAL
       office: OFFICE-USA-VA-STUART-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-HOUCHINS_JF_7W
+  - type: Citizen
+    code: CITIZEN-HOUCHINS_JF_7W
     attributes:
       username: houchins_jf_7w
       username_status: provisional
@@ -144,9 +144,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STUART-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-HOUCHINS_JF_7W
-  - type: Person
-    code: PERSON-ADCOCK_RB_3X
+      citizen: CITIZEN-HOUCHINS_JF_7W
+  - type: Citizen
+    code: CITIZEN-ADCOCK_RB_3X
     attributes:
       username: adcock_rb_3x
       username_status: provisional
@@ -160,9 +160,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STUART-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-ADCOCK_RB_3X
-  - type: Person
-    code: PERSON-PITTIS_RB_2T
+      citizen: CITIZEN-ADCOCK_RB_3X
+  - type: Citizen
+    code: CITIZEN-PITTIS_RB_2T
     attributes:
       username: pittis_rb_2t
       username_status: provisional
@@ -176,4 +176,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STUART-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-PITTIS_RB_2T
+      citizen: CITIZEN-PITTIS_RB_2T

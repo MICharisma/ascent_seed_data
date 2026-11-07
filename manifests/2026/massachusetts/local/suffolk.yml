@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_SUFFOLK-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_SUFFOLK-REGISTER_OF_PROBATE
-  - type: Person
-    code: PERSON-EVERETT_ST_5S
+  - type: Citizen
+    code: CITIZEN-EVERETT_ST_5S
     attributes:
       username: everett_st_5s
       username_status: provisional
@@ -54,4 +54,4 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-COUNTY_SUFFOLK-REGISTER_OF_PROBATE-2026_GENERAL
-      person: PERSON-EVERETT_ST_5S
+      citizen: CITIZEN-EVERETT_ST_5S

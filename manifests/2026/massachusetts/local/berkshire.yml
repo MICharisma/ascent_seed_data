@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_BERKSHIRE-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_BERKSHIRE-REGISTER_OF_PROBATE
-  - type: Person
-    code: PERSON-FERRIS_KN_2V
+  - type: Citizen
+    code: CITIZEN-FERRIS_KN_2V
     attributes:
       username: ferris_kn_2v
       username_status: provisional
@@ -54,4 +54,4 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-COUNTY_BERKSHIRE-REGISTER_OF_PROBATE-2026_GENERAL
-      person: PERSON-FERRIS_KN_2V
+      citizen: CITIZEN-FERRIS_KN_2V

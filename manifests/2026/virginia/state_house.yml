@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-VA-HOUSE-HD_20-2026_SPECIAL
       office: OFFICE-USA-VA-HOUSE-HD_20
-  - type: Person
-    code: PERSON-LUNA_SN_3F
+  - type: Citizen
+    code: CITIZEN-LUNA_SN_3F
     attributes:
       username: luna_sn_3f
       username_status: provisional
@@ -55,9 +55,9 @@ groups:
         party: PARTY-USA-VA-DEMOCRATIC
     references:
       race: RACE-USA-VA-HOUSE-HD_20-2026_SPECIAL
-      person: PERSON-LUNA_SN_3F
-  - type: Person
-    code: PERSON-FRITZEN_NT_6R
+      citizen: CITIZEN-LUNA_SN_3F
+  - type: Citizen
+    code: CITIZEN-FRITZEN_NT_6R
     attributes:
       username: fritzen_nt_6r
       username_status: provisional
@@ -75,4 +75,4 @@ groups:
         party: PARTY-USA-VA-REPUBLICAN
     references:
       race: RACE-USA-VA-HOUSE-HD_20-2026_SPECIAL
-      person: PERSON-FRITZEN_NT_6R
+      citizen: CITIZEN-FRITZEN_NT_6R

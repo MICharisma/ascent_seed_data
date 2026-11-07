@@ -95,8 +95,8 @@ groups:
     references:
       election: ELECTION-USA-VA-EDINBURG-2026_GENERAL
       office: OFFICE-USA-VA-EDINBURG-MAYOR
-  - type: Person
-    code: PERSON-HARSHMAN_DN_2G
+  - type: Citizen
+    code: CITIZEN-HARSHMAN_DN_2G
     attributes:
       username: harshman_dn_2g
       username_status: provisional
@@ -110,7 +110,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-EDINBURG-MAYOR-2026_GENERAL
-      person: PERSON-HARSHMAN_DN_2G
+      citizen: CITIZEN-HARSHMAN_DN_2G
 - records:
   - type: Office
     code: OFFICE-USA-VA-TOWN_OF_MT_JACKSON-MAYOR
@@ -127,8 +127,8 @@ groups:
     references:
       election: ELECTION-USA-VA-TOWN_OF_MT_JACKSON-2026_GENERAL
       office: OFFICE-USA-VA-TOWN_OF_MT_JACKSON-MAYOR
-  - type: Person
-    code: PERSON-PIFER_DN_4X
+  - type: Citizen
+    code: CITIZEN-PIFER_DN_4X
     attributes:
       username: pifer_dn_4x
       username_status: provisional
@@ -142,7 +142,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-TOWN_OF_MT_JACKSON-MAYOR-2026_GENERAL
-      person: PERSON-PIFER_DN_4X
+      citizen: CITIZEN-PIFER_DN_4X
 - records:
   - type: Office
     code: OFFICE-USA-VA-WOODSTOCK-MAYOR
@@ -159,8 +159,8 @@ groups:
     references:
       election: ELECTION-USA-VA-WOODSTOCK-2026_GENERAL
       office: OFFICE-USA-VA-WOODSTOCK-MAYOR
-  - type: Person
-    code: PERSON-MCCLEARY_JR_4K
+  - type: Citizen
+    code: CITIZEN-MCCLEARY_JR_4K
     attributes:
       username: mccleary_jr_4k
       username_status: provisional
@@ -174,7 +174,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WOODSTOCK-MAYOR-2026_GENERAL
-      person: PERSON-MCCLEARY_JR_4K
+      citizen: CITIZEN-MCCLEARY_JR_4K
 - records:
   - type: Office
     code: OFFICE-USA-VA-EDINBURG-COUNCIL_MEMBER
@@ -191,8 +191,8 @@ groups:
     references:
       election: ELECTION-USA-VA-EDINBURG-2026_GENERAL
       office: OFFICE-USA-VA-EDINBURG-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-DELLINGER_BR_8L
+  - type: Citizen
+    code: CITIZEN-DELLINGER_BR_8L
     attributes:
       username: dellinger_br_8l
       username_status: provisional
@@ -206,9 +206,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-EDINBURG-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-DELLINGER_BR_8L
-  - type: Person
-    code: PERSON-WYMER_HOLLAR_FY_7F
+      citizen: CITIZEN-DELLINGER_BR_8L
+  - type: Citizen
+    code: CITIZEN-WYMER_HOLLAR_FY_7F
     attributes:
       username: wymer_hollar_fy_7f
       username_status: provisional
@@ -222,9 +222,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-EDINBURG-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-WYMER_HOLLAR_FY_7F
-  - type: Person
-    code: PERSON-WOOD_ST_7D
+      citizen: CITIZEN-WYMER_HOLLAR_FY_7F
+  - type: Citizen
+    code: CITIZEN-WOOD_ST_7D
     attributes:
       username: wood_st_7d
       username_status: provisional
@@ -238,7 +238,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-EDINBURG-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-WOOD_ST_7D
+      citizen: CITIZEN-WOOD_ST_7D
 - records:
   - type: Office
     code: OFFICE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER
@@ -255,8 +255,8 @@ groups:
     references:
       election: ELECTION-USA-VA-TOWN_OF_MT_JACKSON-2026_GENERAL
       office: OFFICE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-ROSS_DV_7E
+  - type: Citizen
+    code: CITIZEN-ROSS_DV_7E
     attributes:
       username: ross_dv_7e
       username_status: provisional
@@ -270,9 +270,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-ROSS_DV_7E
-  - type: Person
-    code: PERSON-KENNEDY_KY_7W
+      citizen: CITIZEN-ROSS_DV_7E
+  - type: Citizen
+    code: CITIZEN-KENNEDY_KY_7W
     attributes:
       username: kennedy_ky_7w
       username_status: provisional
@@ -286,9 +286,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-KENNEDY_KY_7W
-  - type: Person
-    code: PERSON-WHETZEL_M_4T
+      citizen: CITIZEN-KENNEDY_KY_7W
+  - type: Citizen
+    code: CITIZEN-WHETZEL_M_4T
     attributes:
       username: whetzel_m_4t
       username_status: provisional
@@ -302,9 +302,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-WHETZEL_M_4T
-  - type: Person
-    code: PERSON-CAIN_MC_8V
+      citizen: CITIZEN-WHETZEL_M_4T
+  - type: Citizen
+    code: CITIZEN-CAIN_MC_8V
     attributes:
       username: cain_mc_8v
       username_status: provisional
@@ -318,9 +318,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-CAIN_MC_8V
-  - type: Person
-    code: PERSON-FRYE_RB_9M
+      citizen: CITIZEN-CAIN_MC_8V
+  - type: Citizen
+    code: CITIZEN-FRYE_RB_9M
     attributes:
       username: frye_rb_9m
       username_status: provisional
@@ -334,9 +334,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-FRYE_RB_9M
-  - type: Person
-    code: PERSON-HOLTZMAN_W_8U
+      citizen: CITIZEN-FRYE_RB_9M
+  - type: Citizen
+    code: CITIZEN-HOLTZMAN_W_8U
     attributes:
       username: holtzman_w_8u
       username_status: provisional
@@ -350,7 +350,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-TOWN_OF_MT_JACKSON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-HOLTZMAN_W_8U
+      citizen: CITIZEN-HOLTZMAN_W_8U
 - records:
   - type: Office
     code: OFFICE-USA-VA-NEW_MARKET-COUNCIL_MEMBER
@@ -367,8 +367,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NEW_MARKET-2026_GENERAL
       office: OFFICE-USA-VA-NEW_MARKET-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-MENHARDT_BR_5Y
+  - type: Citizen
+    code: CITIZEN-MENHARDT_BR_5Y
     attributes:
       username: menhardt_br_5y
       username_status: provisional
@@ -382,9 +382,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEW_MARKET-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-MENHARDT_BR_5Y
-  - type: Person
-    code: PERSON-WINE_HR_9L
+      citizen: CITIZEN-MENHARDT_BR_5Y
+  - type: Citizen
+    code: CITIZEN-WINE_HR_9L
     attributes:
       username: wine_hr_9l
       username_status: provisional
@@ -398,9 +398,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEW_MARKET-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-WINE_HR_9L
-  - type: Person
-    code: PERSON-WELCH_TH_3G
+      citizen: CITIZEN-WINE_HR_9L
+  - type: Citizen
+    code: CITIZEN-WELCH_TH_3G
     attributes:
       username: welch_th_3g
       username_status: provisional
@@ -414,7 +414,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEW_MARKET-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-WELCH_TH_3G
+      citizen: CITIZEN-WELCH_TH_3G
 - records:
   - type: Office
     code: OFFICE-USA-VA-EDINBURG-COUNCIL_MEMBER
@@ -431,8 +431,8 @@ groups:
     references:
       election: ELECTION-USA-VA-EDINBURG-2026_SPECIAL
       office: OFFICE-USA-VA-EDINBURG-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-KRUG_LS_7E
+  - type: Citizen
+    code: CITIZEN-KRUG_LS_7E
     attributes:
       username: krug_ls_7e
       username_status: provisional
@@ -446,7 +446,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-EDINBURG-COUNCIL_MEMBER-2026_SPECIAL
-      person: PERSON-KRUG_LS_7E
+      citizen: CITIZEN-KRUG_LS_7E
 - records:
   - type: Office
     code: OFFICE-USA-VA-STRASBURG-COUNCIL_MEMBER
@@ -463,8 +463,8 @@ groups:
     references:
       election: ELECTION-USA-VA-STRASBURG-2026_GENERAL
       office: OFFICE-USA-VA-STRASBURG-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-CARTER_A_7V
+  - type: Citizen
+    code: CITIZEN-CARTER_A_7V
     attributes:
       username: carter_a_7v
       username_status: provisional
@@ -478,9 +478,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-CARTER_A_7V
-  - type: Person
-    code: PERSON-LOWDER_AN_6Y
+      citizen: CITIZEN-CARTER_A_7V
+  - type: Citizen
+    code: CITIZEN-LOWDER_AN_6Y
     attributes:
       username: lowder_an_6y
       username_status: provisional
@@ -494,9 +494,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-LOWDER_AN_6Y
-  - type: Person
-    code: PERSON-WELTON_EL_7U
+      citizen: CITIZEN-LOWDER_AN_6Y
+  - type: Citizen
+    code: CITIZEN-WELTON_EL_7U
     attributes:
       username: welton_el_7u
       username_status: provisional
@@ -510,9 +510,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-WELTON_EL_7U
-  - type: Person
-    code: PERSON-PYWTORAK_GB_7P
+      citizen: CITIZEN-WELTON_EL_7U
+  - type: Citizen
+    code: CITIZEN-PYWTORAK_GB_7P
     attributes:
       username: pywtorak_gb_7p
       username_status: provisional
@@ -526,9 +526,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-PYWTORAK_GB_7P
-  - type: Person
-    code: PERSON-STOVER_H_2L
+      citizen: CITIZEN-PYWTORAK_GB_7P
+  - type: Citizen
+    code: CITIZEN-STOVER_H_2L
     attributes:
       username: stover_h_2l
       username_status: provisional
@@ -542,9 +542,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-STOVER_H_2L
-  - type: Person
-    code: PERSON-TANNER_KY_8D
+      citizen: CITIZEN-STOVER_H_2L
+  - type: Citizen
+    code: CITIZEN-TANNER_KY_8D
     attributes:
       username: tanner_ky_8d
       username_status: provisional
@@ -558,9 +558,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-TANNER_KY_8D
-  - type: Person
-    code: PERSON-NEWMAN_ST_6F
+      citizen: CITIZEN-TANNER_KY_8D
+  - type: Citizen
+    code: CITIZEN-NEWMAN_ST_6F
     attributes:
       username: newman_st_6f
       username_status: provisional
@@ -574,7 +574,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STRASBURG-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-NEWMAN_ST_6F
+      citizen: CITIZEN-NEWMAN_ST_6F
 - records:
   - type: Office
     code: OFFICE-USA-VA-WOODSTOCK-COUNCIL_MEMBER
@@ -591,8 +591,8 @@ groups:
     references:
       election: ELECTION-USA-VA-WOODSTOCK-2026_GENERAL
       office: OFFICE-USA-VA-WOODSTOCK-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-CROSS_A_3B
+  - type: Citizen
+    code: CITIZEN-CROSS_A_3B
     attributes:
       username: cross_a_3b
       username_status: provisional
@@ -606,9 +606,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WOODSTOCK-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-CROSS_A_3B
-  - type: Person
-    code: PERSON-HAUN_FR_6S
+      citizen: CITIZEN-CROSS_A_3B
+  - type: Citizen
+    code: CITIZEN-HAUN_FR_6S
     attributes:
       username: haun_fr_6s
       username_status: provisional
@@ -622,9 +622,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WOODSTOCK-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-HAUN_FR_6S
-  - type: Person
-    code: PERSON-HEISHMAN_ST_6S
+      citizen: CITIZEN-HAUN_FR_6S
+  - type: Citizen
+    code: CITIZEN-HEISHMAN_ST_6S
     attributes:
       username: heishman_st_6s
       username_status: provisional
@@ -638,4 +638,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WOODSTOCK-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-HEISHMAN_ST_6S
+      citizen: CITIZEN-HEISHMAN_ST_6S

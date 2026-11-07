@@ -26,7 +26,7 @@ class ReferenceCatalogTest(unittest.TestCase):
             {"type": "County", "code": "COUNTY-EXAMPLE-LEADING_ZERO", "attributes": {"name": "Example County", "fips": "01001"}},
             {"type": "Municipality", "code": "MUNICIPALITY-USA-NY-ALBANY", "attributes": {"name": "Albany"},
              "references": {"county": "COUNTY-ALBANY"}},
-            {"type": "Person", "code": "PERSON-VEGA_MS_2A", "attributes": {"first_name": "Marisol", "last_name": "Vega"}},
+            {"type": "Citizen", "code": "CITIZEN-VEGA_MS_2A", "attributes": {"first_name": "Marisol", "last_name": "Vega"}},
         ]}, {"records": [
             {"type": "Office", "code": "OFFICE-ALBANY-MAYOR", "references": {
                 "position": "POSITION-MAYOR", "jurisdiction": {"code": "MUNICIPALITY-USA-NY-ALBANY"}}},
@@ -35,7 +35,7 @@ class ReferenceCatalogTest(unittest.TestCase):
             {"type": "Race", "code": "RACE-ALBANY-MAYOR-2026", "references": {
                 "office": "OFFICE-ALBANY-MAYOR", "election": "ELECTION-ALBANY-2026"}},
             {"type": "Candidacy", "code": "CANDIDACY-VEGA-2026", "references": {
-                "person": "PERSON-VEGA_MS_2A", "race": "RACE-ALBANY-MAYOR-2026"}},
+                "citizen": "CITIZEN-VEGA_MS_2A", "race": "RACE-ALBANY-MAYOR-2026"}},
         ]}]}
         (manifests / "example.json").write_text(json.dumps(document))
         self.index = seed_contract.catalog(manifests)

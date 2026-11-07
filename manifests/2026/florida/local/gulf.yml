@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_GULF-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_GULF-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-HUSBAND_JC_7C
+  - type: Citizen
+    code: CITIZEN-HUSBAND_JC_7C
     attributes:
       username: husband_jc_7c
       username_status: provisional
@@ -54,7 +54,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_GULF-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-HUSBAND_JC_7C
+      citizen: CITIZEN-HUSBAND_JC_7C
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_GULF-COUNTY_COMMISSIONER-DISTRICT_4
@@ -72,8 +72,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_GULF-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_GULF-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-QUINN_SN_6L
+  - type: Citizen
+    code: CITIZEN-QUINN_SN_6L
     attributes:
       username: quinn_sn_6l
       username_status: provisional
@@ -91,7 +91,7 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_GULF-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-QUINN_SN_6L
+      citizen: CITIZEN-QUINN_SN_6L
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_GULF-CLERK_OF_COURT
@@ -108,8 +108,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_GULF-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_GULF-CLERK_OF_COURT
-  - type: Person
-    code: PERSON-TERRY_JM_3W
+  - type: Citizen
+    code: CITIZEN-TERRY_JM_3W
     attributes:
       username: terry_jm_3w
       username_status: provisional
@@ -127,7 +127,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_GULF-CLERK_OF_COURT-2026_GENERAL
-      person: PERSON-TERRY_JM_3W
+      citizen: CITIZEN-TERRY_JM_3W
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_1
@@ -145,8 +145,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_GULF-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_1
-  - type: Person
-    code: PERSON-BAILEY_CH_5T
+  - type: Citizen
+    code: CITIZEN-BAILEY_CH_5T
     attributes:
       username: bailey_ch_5t
       username_status: provisional
@@ -159,9 +159,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
-      person: PERSON-BAILEY_CH_5T
-  - type: Person
-    code: PERSON-PEAK_DN_9Z
+      citizen: CITIZEN-BAILEY_CH_5T
+  - type: Citizen
+    code: CITIZEN-PEAK_DN_9Z
     attributes:
       username: peak_dn_9z
       username_status: provisional
@@ -174,7 +174,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
-      person: PERSON-PEAK_DN_9Z
+      citizen: CITIZEN-PEAK_DN_9Z
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_2
@@ -192,8 +192,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_GULF-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_2
-  - type: Person
-    code: PERSON-WOOTEN_BR_8X
+  - type: Citizen
+    code: CITIZEN-WOOTEN_BR_8X
     attributes:
       username: wooten_br_8x
       username_status: provisional
@@ -206,7 +206,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-WOOTEN_BR_8X
+      citizen: CITIZEN-WOOTEN_BR_8X
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_3
@@ -224,8 +224,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_GULF-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_3
-  - type: Person
-    code: PERSON-PRIDGEON_LS_8N
+  - type: Citizen
+    code: CITIZEN-PRIDGEON_LS_8N
     attributes:
       username: pridgeon_ls_8n
       username_status: provisional
@@ -239,7 +239,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
-      person: PERSON-PRIDGEON_LS_8N
+      citizen: CITIZEN-PRIDGEON_LS_8N
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_5
@@ -257,8 +257,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_GULF-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_5
-  - type: Person
-    code: PERSON-KNOX_RB_7B
+  - type: Citizen
+    code: CITIZEN-KNOX_RB_7B
     attributes:
       username: knox_rb_7b
       username_status: provisional
@@ -272,4 +272,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_GULF-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
-      person: PERSON-KNOX_RB_7B
+      citizen: CITIZEN-KNOX_RB_7B

@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-VA-GRUNDY-2026_GENERAL
       office: OFFICE-USA-VA-GRUNDY-MAYOR
-  - type: Person
-    code: PERSON-MITCHELL_CH_6C
+  - type: Citizen
+    code: CITIZEN-MITCHELL_CH_6C
     attributes:
       username: mitchell_ch_6c
       username_status: provisional
@@ -50,7 +50,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-GRUNDY-MAYOR-2026_GENERAL
-      person: PERSON-MITCHELL_CH_6C
+      citizen: CITIZEN-MITCHELL_CH_6C
 - records:
   - type: Office
     code: OFFICE-USA-VA-GRUNDY-COUNCIL_MEMBER
@@ -67,8 +67,8 @@ groups:
     references:
       election: ELECTION-USA-VA-GRUNDY-2026_GENERAL
       office: OFFICE-USA-VA-GRUNDY-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-MCGEORGE_M_7A
+  - type: Citizen
+    code: CITIZEN-MCGEORGE_M_7A
     attributes:
       username: mcgeorge_m_7a
       username_status: provisional
@@ -82,9 +82,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-GRUNDY-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-MCGEORGE_M_7A
-  - type: Person
-    code: PERSON-STREET_PT_4E
+      citizen: CITIZEN-MCGEORGE_M_7A
+  - type: Citizen
+    code: CITIZEN-STREET_PT_4E
     attributes:
       username: street_pt_4e
       username_status: provisional
@@ -98,9 +98,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-GRUNDY-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-STREET_PT_4E
-  - type: Person
-    code: PERSON-SHORTRIDGE_ELKINS_RB_5T
+      citizen: CITIZEN-STREET_PT_4E
+  - type: Citizen
+    code: CITIZEN-SHORTRIDGE_ELKINS_RB_5T
     attributes:
       username: shortridge_elkins_rb_5t
       username_status: provisional
@@ -114,4 +114,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-GRUNDY-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-SHORTRIDGE_ELKINS_RB_5T
+      citizen: CITIZEN-SHORTRIDGE_ELKINS_RB_5T

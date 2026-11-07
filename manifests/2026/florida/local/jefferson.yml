@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_JEFFERSON-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-HALL_GN_5X
+  - type: Citizen
+    code: CITIZEN-HALL_GN_5X
     attributes:
       username: hall_gn_5x
       username_status: provisional
@@ -54,7 +54,7 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-HALL_GN_5X
+      citizen: CITIZEN-HALL_GN_5X
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_4
@@ -72,8 +72,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_JEFFERSON-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-HOSFORD_AS_4Q
+  - type: Citizen
+    code: CITIZEN-HOSFORD_AS_4Q
     attributes:
       username: hosford_as_4q
       username_status: provisional
@@ -90,9 +90,9 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-HOSFORD_AS_4Q
-  - type: Person
-    code: PERSON-HUNTER_LS_9U
+      citizen: CITIZEN-HOSFORD_AS_4Q
+  - type: Citizen
+    code: CITIZEN-HUNTER_LS_9U
     attributes:
       username: hunter_ls_9u
       username_status: provisional
@@ -110,7 +110,7 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_JEFFERSON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-HUNTER_LS_9U
+      citizen: CITIZEN-HUNTER_LS_9U
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_JEFFERSON-COUNCIL_MEMBER-GROUP_1
@@ -128,8 +128,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_JEFFERSON-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_JEFFERSON-COUNCIL_MEMBER-GROUP_1
-  - type: Person
-    code: PERSON-EVANS_GR_7L
+  - type: Citizen
+    code: CITIZEN-EVANS_GR_7L
     attributes:
       username: evans_gr_7l
       username_status: provisional
@@ -142,7 +142,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_JEFFERSON-COUNCIL_MEMBER-GROUP_1-2026_GENERAL
-      person: PERSON-EVANS_GR_7L
+      citizen: CITIZEN-EVANS_GR_7L
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_JEFFERSON-COUNCIL_MEMBER-GROUP_2
@@ -160,8 +160,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_JEFFERSON-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_JEFFERSON-COUNCIL_MEMBER-GROUP_2
-  - type: Person
-    code: PERSON-COX_GL_5K
+  - type: Citizen
+    code: CITIZEN-COX_GL_5K
     attributes:
       username: cox_gl_5k
       username_status: provisional
@@ -174,7 +174,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_JEFFERSON-COUNCIL_MEMBER-GROUP_2-2026_GENERAL
-      person: PERSON-COX_GL_5K
+      citizen: CITIZEN-COX_GL_5K
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_2
@@ -192,8 +192,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_JEFFERSON-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_2
-  - type: Person
-    code: PERSON-BRADLEY_JM_6C
+  - type: Citizen
+    code: CITIZEN-BRADLEY_JM_6C
     attributes:
       username: bradley_jm_6c
       username_status: provisional
@@ -206,9 +206,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-BRADLEY_JM_6C
-  - type: Person
-    code: PERSON-BURDICK_DN_5Q
+      citizen: CITIZEN-BRADLEY_JM_6C
+  - type: Citizen
+    code: CITIZEN-BURDICK_DN_5Q
     attributes:
       username: burdick_dn_5q
       username_status: provisional
@@ -221,7 +221,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-BURDICK_DN_5Q
+      citizen: CITIZEN-BURDICK_DN_5Q
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_3
@@ -239,8 +239,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_JEFFERSON-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_3
-  - type: Person
-    code: PERSON-WIRICK_BR_9Y
+  - type: Citizen
+    code: CITIZEN-WIRICK_BR_9Y
     attributes:
       username: wirick_br_9y
       username_status: provisional
@@ -254,7 +254,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
-      person: PERSON-WIRICK_BR_9Y
+      citizen: CITIZEN-WIRICK_BR_9Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_5
@@ -272,8 +272,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_JEFFERSON-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_5
-  - type: Person
-    code: PERSON-FLYNT_MG_9B
+  - type: Citizen
+    code: CITIZEN-FLYNT_MG_9B
     attributes:
       username: flynt_mg_9b
       username_status: provisional
@@ -287,4 +287,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_JEFFERSON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
-      person: PERSON-FLYNT_MG_9B
+      citizen: CITIZEN-FLYNT_MG_9B

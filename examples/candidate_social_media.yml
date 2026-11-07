@@ -1,5 +1,5 @@
 # A fictional candidate's accounts and one post, showing the social media contract in CONTRIBUTING.md.
-# The channels name their owner by name code alone (PERSON-EXAMPLE_AV), as a submission may.
+# The channels name their owner by name code alone (CITIZEN-EXAMPLE_AV), as a submission may.
 # This folder is outside manifests/, so nothing here is imported. example.com names no real person.
 format: micharisma-seeds/v1
 namespace: MIC
@@ -9,8 +9,8 @@ source:
   url: https://example.com/avery-example
   captured_on: "2026-10-22"
 records:
-  - type: Person
-    code: PERSON-EXAMPLE_AV_7K
+  - type: Citizen
+    code: CITIZEN-EXAMPLE_AV_7K
     attributes: {first_name: Avery, last_name: Example, username: example_av_7k, username_status: provisional}
   - type: Channel
     code: CHANNEL-BSKY-AVERY_EXAMPLE_COM
@@ -19,7 +19,7 @@ records:
       handle: avery.example.com
       url: https://bsky.app/profile/avery.example.com
       official: true
-    references: {owner: PERSON-EXAMPLE_AV}
+    references: {owner: CITIZEN-EXAMPLE_AV}
   - type: Channel
     code: CHANNEL-WEB-AVERY_EXAMPLE_COM
     attributes:
@@ -27,7 +27,7 @@ records:
       handle: avery.example.com
       url: https://avery.example.com
       official: true
-    references: {owner: PERSON-EXAMPLE_AV}
+    references: {owner: CITIZEN-EXAMPLE_AV}
   - type: Communication
     code: COMMUNICATION-BSKY-AVERY_EXAMPLE_COM-2026_10_02-TRANSIT_FUNDING
     attributes:

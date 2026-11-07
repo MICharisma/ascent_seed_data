@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_HIGHLAND-2026_GENERAL
       office: OFFICE-USA-VA-COUNTY_HIGHLAND-MAYOR-MONTEREY
-  - type: Person
-    code: PERSON-GARBER_WR_8U
+  - type: Citizen
+    code: CITIZEN-GARBER_WR_8U
     attributes:
       username: garber_wr_8u
       username_status: provisional
@@ -51,7 +51,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_HIGHLAND-MAYOR-MONTEREY-2026_GENERAL
-      person: PERSON-GARBER_WR_8U
+      citizen: CITIZEN-GARBER_WR_8U
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_HIGHLAND-COUNCIL_MEMBER-MONTEREY
@@ -69,8 +69,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_HIGHLAND-2026_GENERAL
       office: OFFICE-USA-VA-COUNTY_HIGHLAND-COUNCIL_MEMBER-MONTEREY
-  - type: Person
-    code: PERSON-BOTKIN_DN_2V
+  - type: Citizen
+    code: CITIZEN-BOTKIN_DN_2V
     attributes:
       username: botkin_dn_2v
       username_status: provisional
@@ -84,9 +84,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_HIGHLAND-COUNCIL_MEMBER-MONTEREY-2026_GENERAL
-      person: PERSON-BOTKIN_DN_2V
-  - type: Person
-    code: PERSON-WEISS_RB_2G
+      citizen: CITIZEN-BOTKIN_DN_2V
+  - type: Citizen
+    code: CITIZEN-WEISS_RB_2G
     attributes:
       username: weiss_rb_2g
       username_status: provisional
@@ -100,4 +100,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_HIGHLAND-COUNCIL_MEMBER-MONTEREY-2026_GENERAL
-      person: PERSON-WEISS_RB_2G
+      citizen: CITIZEN-WEISS_RB_2G

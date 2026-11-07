@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_MIDDLESEX-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_MIDDLESEX-REGISTER_OF_PROBATE
-  - type: Person
-    code: PERSON-DECRISTOFARO_TR_8D
+  - type: Citizen
+    code: CITIZEN-DECRISTOFARO_TR_8D
     attributes:
       username: decristofaro_tr_8d
       username_status: provisional
@@ -54,9 +54,9 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-COUNTY_MIDDLESEX-REGISTER_OF_PROBATE-2026_GENERAL
-      person: PERSON-DECRISTOFARO_TR_8D
-  - type: Person
-    code: PERSON-MARTORELLA_TR_9R
+      citizen: CITIZEN-DECRISTOFARO_TR_8D
+  - type: Citizen
+    code: CITIZEN-MARTORELLA_TR_9R
     attributes:
       username: martorella_tr_9r
       username_status: provisional
@@ -72,4 +72,4 @@ groups:
         kind: designation
     references:
       race: RACE-USA-MA-COUNTY_MIDDLESEX-REGISTER_OF_PROBATE-2026_GENERAL
-      person: PERSON-MARTORELLA_TR_9R
+      citizen: CITIZEN-MARTORELLA_TR_9R

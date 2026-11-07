@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_WORCESTER-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_WORCESTER-REGISTER_OF_PROBATE
-  - type: Person
-    code: PERSON-FATTMAN_ST_7A
+  - type: Citizen
+    code: CITIZEN-FATTMAN_ST_7A
     attributes:
       username: fattman_st_7a
       username_status: provisional
@@ -54,4 +54,4 @@ groups:
         party: PARTY-USA-MA-REPUBLICAN
     references:
       race: RACE-USA-MA-COUNTY_WORCESTER-REGISTER_OF_PROBATE-2026_GENERAL
-      person: PERSON-FATTMAN_ST_7A
+      citizen: CITIZEN-FATTMAN_ST_7A

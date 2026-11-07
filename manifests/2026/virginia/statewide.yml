@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-VA-2026_GENERAL
       office: OFFICE-USA-VA-SENATOR
-  - type: Person
-    code: PERSON-WARNER_MR_8P
+  - type: Citizen
+    code: CITIZEN-WARNER_MR_8P
     attributes:
       username: warner_mr_8p
       username_status: provisional
@@ -54,9 +54,9 @@ groups:
         party: PARTY-USA-VA-DEMOCRATIC
     references:
       race: RACE-USA-VA-SENATOR-2026_GENERAL
-      person: PERSON-WARNER_MR_8P
-  - type: Person
-    code: PERSON-MIZUSAWA_BR_6F
+      citizen: CITIZEN-WARNER_MR_8P
+  - type: Citizen
+    code: CITIZEN-MIZUSAWA_BR_6F
     attributes:
       username: mizusawa_br_6f
       username_status: provisional
@@ -73,4 +73,4 @@ groups:
         party: PARTY-USA-VA-REPUBLICAN
     references:
       race: RACE-USA-VA-SENATOR-2026_GENERAL
-      person: PERSON-MIZUSAWA_BR_6F
+      citizen: CITIZEN-MIZUSAWA_BR_6F

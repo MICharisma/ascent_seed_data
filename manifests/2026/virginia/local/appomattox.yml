@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-VA-APPOMATTOX-2026_GENERAL
       office: OFFICE-USA-VA-APPOMATTOX-MAYOR
-  - type: Person
-    code: PERSON-CONNER_RC_2W
+  - type: Citizen
+    code: CITIZEN-CONNER_RC_2W
     attributes:
       username: conner_rc_2w
       username_status: provisional
@@ -50,7 +50,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-APPOMATTOX-MAYOR-2026_GENERAL
-      person: PERSON-CONNER_RC_2W
+      citizen: CITIZEN-CONNER_RC_2W
 - records:
   - type: Office
     code: OFFICE-USA-VA-APPOMATTOX-COUNCIL_MEMBER
@@ -67,8 +67,8 @@ groups:
     references:
       election: ELECTION-USA-VA-APPOMATTOX-2026_GENERAL
       office: OFFICE-USA-VA-APPOMATTOX-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-ULMER_DN_6U
+  - type: Citizen
+    code: CITIZEN-ULMER_DN_6U
     attributes:
       username: ulmer_dn_6u
       username_status: provisional
@@ -82,9 +82,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-APPOMATTOX-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-ULMER_DN_6U
-  - type: Person
-    code: PERSON-SPIGGLE_MR_2Q
+      citizen: CITIZEN-ULMER_DN_6U
+  - type: Citizen
+    code: CITIZEN-SPIGGLE_MR_2Q
     attributes:
       username: spiggle_mr_2q
       username_status: provisional
@@ -98,9 +98,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-APPOMATTOX-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-SPIGGLE_MR_2Q
-  - type: Person
-    code: PERSON-GARRETT_TM_8X
+      citizen: CITIZEN-SPIGGLE_MR_2Q
+  - type: Citizen
+    code: CITIZEN-GARRETT_TM_8X
     attributes:
       username: garrett_tm_8x
       username_status: provisional
@@ -114,4 +114,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-APPOMATTOX-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-GARRETT_TM_8X
+      citizen: CITIZEN-GARRETT_TM_8X

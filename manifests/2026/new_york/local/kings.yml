@@ -37,8 +37,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_KINGS-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-KINGS
-  - type: Person
-    code: PERSON-FELIX_CL_2Q
+  - type: Citizen
+    code: CITIZEN-FELIX_CL_2Q
     attributes:
       username: felix_cl_2q
       username_status: provisional
@@ -55,9 +55,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-KINGS-2026_GENERAL
-      person: PERSON-FELIX_CL_2Q
-  - type: Person
-    code: PERSON-ORTIZ_CH_7K
+      citizen: CITIZEN-FELIX_CL_2Q
+  - type: Citizen
+    code: CITIZEN-ORTIZ_CH_7K
     attributes:
       username: ortiz_ch_7k
       username_status: provisional
@@ -75,9 +75,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-KINGS-2026_GENERAL
-      person: PERSON-ORTIZ_CH_7K
-  - type: Person
-    code: PERSON-NOEL_DN_4U
+      citizen: CITIZEN-ORTIZ_CH_7K
+  - type: Citizen
+    code: CITIZEN-NOEL_DN_4U
     attributes:
       username: noel_dn_4u
       username_status: provisional
@@ -95,9 +95,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-KINGS-2026_GENERAL
-      person: PERSON-NOEL_DN_4U
-  - type: Person
-    code: PERSON-CASCIO_LN_9R
+      citizen: CITIZEN-NOEL_DN_4U
+  - type: Citizen
+    code: CITIZEN-CASCIO_LN_9R
     attributes:
       username: cascio_ln_9r
       username_status: provisional
@@ -115,7 +115,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-KINGS-2026_GENERAL
-      person: PERSON-CASCIO_LN_9R
+      citizen: CITIZEN-CASCIO_LN_9R
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_KINGS
@@ -134,8 +134,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_KINGS-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_KINGS
-  - type: Person
-    code: PERSON-BROWN_AKOWE_LR_6S
+  - type: Citizen
+    code: CITIZEN-BROWN_AKOWE_LR_6S
     attributes:
       username: brown_akowe_lr_6s
       username_status: provisional
@@ -153,7 +153,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-2ND_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
-      person: PERSON-BROWN_AKOWE_LR_6S
+      citizen: CITIZEN-BROWN_AKOWE_LR_6S
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_KINGS
@@ -172,8 +172,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_KINGS-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_KINGS
-  - type: Person
-    code: PERSON-ORTIZ_TM_4K
+  - type: Citizen
+    code: CITIZEN-ORTIZ_TM_4K
     attributes:
       username: ortiz_tm_4k
       username_status: provisional
@@ -190,7 +190,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-3RD_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
-      person: PERSON-ORTIZ_TM_4K
+      citizen: CITIZEN-ORTIZ_TM_4K
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_KINGS
@@ -209,8 +209,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_KINGS-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_KINGS
-  - type: Person
-    code: PERSON-FRANKLIN_AR_4B
+  - type: Citizen
+    code: CITIZEN-FRANKLIN_AR_4B
     attributes:
       username: franklin_ar_4b
       username_status: provisional
@@ -230,9 +230,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
-      person: PERSON-FRANKLIN_AR_4B
-  - type: Person
-    code: PERSON-VAUGHN_AN_9G
+      citizen: CITIZEN-FRANKLIN_AR_4B
+  - type: Citizen
+    code: CITIZEN-VAUGHN_AN_9G
     attributes:
       username: vaughn_an_9g
       username_status: provisional
@@ -250,9 +250,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
-      person: PERSON-VAUGHN_AN_9G
-  - type: Person
-    code: PERSON-CARR_XV_4X
+      citizen: CITIZEN-VAUGHN_AN_9G
+  - type: Citizen
+    code: CITIZEN-CARR_XV_4X
     attributes:
       username: carr_xv_4x
       username_status: provisional
@@ -269,7 +269,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-4TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
-      person: PERSON-CARR_XV_4X
+      citizen: CITIZEN-CARR_XV_4X
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-6TH_MUNICIPAL_COURT_DISTRICT_KINGS
@@ -288,8 +288,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_KINGS-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-6TH_MUNICIPAL_COURT_DISTRICT_KINGS
-  - type: Person
-    code: PERSON-PURVIS_JN_9J
+  - type: Citizen
+    code: CITIZEN-PURVIS_JN_9J
     attributes:
       username: purvis_jn_9j
       username_status: provisional
@@ -310,9 +310,9 @@ groups:
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
       race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-6TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
-      person: PERSON-PURVIS_JN_9J
-  - type: Person
-    code: PERSON-DESOUZA_FORTE_MC_9Q
+      citizen: CITIZEN-PURVIS_JN_9J
+  - type: Citizen
+    code: CITIZEN-DESOUZA_FORTE_MC_9Q
     attributes:
       username: desouza_forte_mc_9q
       username_status: provisional
@@ -329,7 +329,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-6TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
-      person: PERSON-DESOUZA_FORTE_MC_9Q
+      citizen: CITIZEN-DESOUZA_FORTE_MC_9Q
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_KINGS
@@ -348,8 +348,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_KINGS-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_KINGS
-  - type: Person
-    code: PERSON-HAMBLIN_BR_4A
+  - type: Citizen
+    code: CITIZEN-HAMBLIN_BR_4A
     attributes:
       username: hamblin_br_4a
       username_status: provisional
@@ -366,7 +366,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-7TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
-      person: PERSON-HAMBLIN_BR_4A
+      citizen: CITIZEN-HAMBLIN_BR_4A
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-8TH_MUNICIPAL_COURT_DISTRICT_KINGS
@@ -385,8 +385,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_KINGS-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-8TH_MUNICIPAL_COURT_DISTRICT_KINGS
-  - type: Person
-    code: PERSON-HARRIS_ET_9E
+  - type: Citizen
+    code: CITIZEN-HARRIS_ET_9E
     attributes:
       username: harris_et_9e
       username_status: provisional
@@ -407,9 +407,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-8TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
-      person: PERSON-HARRIS_ET_9E
-  - type: Person
-    code: PERSON-LIEBMAN_SS_3X
+      citizen: CITIZEN-HARRIS_ET_9E
+  - type: Citizen
+    code: CITIZEN-LIEBMAN_SS_3X
     attributes:
       username: liebman_ss_3x
       username_status: provisional
@@ -427,4 +427,4 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_KINGS-CIVIL_COURT_JUDGE-8TH_MUNICIPAL_COURT_DISTRICT_KINGS-2026_GENERAL
-      person: PERSON-LIEBMAN_SS_3X
+      citizen: CITIZEN-LIEBMAN_SS_3X

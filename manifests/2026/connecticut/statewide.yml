@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-CT-2026_GENERAL
       office: OFFICE-USA-CT-ATTORNEY_GENERAL
-  - type: Person
-    code: PERSON-TONG_WL_6R
+  - type: Citizen
+    code: CITIZEN-TONG_WL_6R
     attributes:
       username: tong_wl_6r
       username_status: provisional
@@ -56,9 +56,9 @@ groups:
         party: PARTY-USA-CT-WORKING_FAMILIES
     references:
       race: RACE-USA-CT-ATTORNEY_GENERAL-2026_GENERAL
-      person: PERSON-TONG_WL_6R
-  - type: Person
-    code: PERSON-BOLTON_JH_7F
+      citizen: CITIZEN-TONG_WL_6R
+  - type: Citizen
+    code: CITIZEN-BOLTON_JH_7F
     attributes:
       username: bolton_jh_7f
       username_status: provisional
@@ -75,7 +75,7 @@ groups:
         party: PARTY-USA-CT-REPUBLICAN
     references:
       race: RACE-USA-CT-ATTORNEY_GENERAL-2026_GENERAL
-      person: PERSON-BOLTON_JH_7F
+      citizen: CITIZEN-BOLTON_JH_7F
 - records:
   - type: Office
     code: OFFICE-USA-CT-COMPTROLLER
@@ -92,8 +92,8 @@ groups:
     references:
       election: ELECTION-USA-CT-2026_GENERAL
       office: OFFICE-USA-CT-COMPTROLLER
-  - type: Person
-    code: PERSON-SCANLON_SN_8L
+  - type: Citizen
+    code: CITIZEN-SCANLON_SN_8L
     attributes:
       username: scanlon_sn_8l
       username_status: provisional
@@ -116,9 +116,9 @@ groups:
         party: PARTY-USA-CT-INDEPENDENT
     references:
       race: RACE-USA-CT-COMPTROLLER-2026_GENERAL
-      person: PERSON-SCANLON_SN_8L
-  - type: Person
-    code: PERSON-TOOKER_JN_3J
+      citizen: CITIZEN-SCANLON_SN_8L
+  - type: Citizen
+    code: CITIZEN-TOOKER_JN_3J
     attributes:
       username: tooker_jn_3j
       username_status: provisional
@@ -136,7 +136,7 @@ groups:
         party: PARTY-USA-CT-REPUBLICAN
     references:
       race: RACE-USA-CT-COMPTROLLER-2026_GENERAL
-      person: PERSON-TOOKER_JN_3J
+      citizen: CITIZEN-TOOKER_JN_3J
 - records:
   - type: Office
     code: OFFICE-USA-CT-GOVERNOR
@@ -153,8 +153,8 @@ groups:
     references:
       election: ELECTION-USA-CT-2026_GENERAL
       office: OFFICE-USA-CT-GOVERNOR
-  - type: Person
-    code: PERSON-LAMONT_ND_2J
+  - type: Citizen
+    code: CITIZEN-LAMONT_ND_2J
     attributes:
       username: lamont_nd_2j
       username_status: provisional
@@ -174,9 +174,9 @@ groups:
         party: PARTY-USA-CT-WORKING_FAMILIES
     references:
       race: RACE-USA-CT-GOVERNOR-2026_GENERAL
-      person: PERSON-LAMONT_ND_2J
-  - type: Person
-    code: PERSON-FAZIO_RY_2N
+      citizen: CITIZEN-LAMONT_ND_2J
+  - type: Citizen
+    code: CITIZEN-FAZIO_RY_2N
     attributes:
       username: fazio_ry_2n
       username_status: provisional
@@ -196,7 +196,7 @@ groups:
         party: PARTY-USA-CT-INDEPENDENT
     references:
       race: RACE-USA-CT-GOVERNOR-2026_GENERAL
-      person: PERSON-FAZIO_RY_2N
+      citizen: CITIZEN-FAZIO_RY_2N
 - records:
   - type: Office
     code: OFFICE-USA-CT-LIEUTENANT_GOVERNOR
@@ -213,8 +213,8 @@ groups:
     references:
       election: ELECTION-USA-CT-2026_GENERAL
       office: OFFICE-USA-CT-LIEUTENANT_GOVERNOR
-  - type: Person
-    code: PERSON-BYSIEWICZ_SS_2Y
+  - type: Citizen
+    code: CITIZEN-BYSIEWICZ_SS_2Y
     attributes:
       username: bysiewicz_ss_2y
       username_status: provisional
@@ -234,9 +234,9 @@ groups:
         party: PARTY-USA-CT-WORKING_FAMILIES
     references:
       race: RACE-USA-CT-LIEUTENANT_GOVERNOR-2026_GENERAL
-      person: PERSON-BYSIEWICZ_SS_2Y
-  - type: Person
-    code: PERSON-COREY_MT_8M
+      citizen: CITIZEN-BYSIEWICZ_SS_2Y
+  - type: Citizen
+    code: CITIZEN-COREY_MT_8M
     attributes:
       username: corey_mt_8m
       username_status: provisional
@@ -256,7 +256,7 @@ groups:
         party: PARTY-USA-CT-INDEPENDENT
     references:
       race: RACE-USA-CT-LIEUTENANT_GOVERNOR-2026_GENERAL
-      person: PERSON-COREY_MT_8M
+      citizen: CITIZEN-COREY_MT_8M
 - records:
   - type: Office
     code: OFFICE-USA-CT-SECRETARY_OF_STATE
@@ -273,8 +273,8 @@ groups:
     references:
       election: ELECTION-USA-CT-2026_GENERAL
       office: OFFICE-USA-CT-SECRETARY_OF_STATE
-  - type: Person
-    code: PERSON-THOMAS_ST_3C
+  - type: Citizen
+    code: CITIZEN-THOMAS_ST_3C
     attributes:
       username: thomas_st_3c
       username_status: provisional
@@ -297,9 +297,9 @@ groups:
         party: PARTY-USA-CT-INDEPENDENT
     references:
       race: RACE-USA-CT-SECRETARY_OF_STATE-2026_GENERAL
-      person: PERSON-THOMAS_ST_3C
-  - type: Person
-    code: PERSON-LUMAJ_PT_9R
+      citizen: CITIZEN-THOMAS_ST_3C
+  - type: Citizen
+    code: CITIZEN-LUMAJ_PT_9R
     attributes:
       username: lumaj_pt_9r
       username_status: provisional
@@ -316,7 +316,7 @@ groups:
         party: PARTY-USA-CT-REPUBLICAN
     references:
       race: RACE-USA-CT-SECRETARY_OF_STATE-2026_GENERAL
-      person: PERSON-LUMAJ_PT_9R
+      citizen: CITIZEN-LUMAJ_PT_9R
 - records:
   - type: Office
     code: OFFICE-USA-CT-TREASURER
@@ -333,8 +333,8 @@ groups:
     references:
       election: ELECTION-USA-CT-2026_GENERAL
       office: OFFICE-USA-CT-TREASURER
-  - type: Person
-    code: PERSON-RUSSELL_ER_9W
+  - type: Citizen
+    code: CITIZEN-RUSSELL_ER_9W
     attributes:
       username: russell_er_9w
       username_status: provisional
@@ -354,9 +354,9 @@ groups:
         party: PARTY-USA-CT-WORKING_FAMILIES
     references:
       race: RACE-USA-CT-TREASURER-2026_GENERAL
-      person: PERSON-RUSSELL_ER_9W
-  - type: Person
-    code: PERSON-WILMS_FR_8Z
+      citizen: CITIZEN-RUSSELL_ER_9W
+  - type: Citizen
+    code: CITIZEN-WILMS_FR_8Z
     attributes:
       username: wilms_fr_8z
       username_status: provisional
@@ -376,4 +376,4 @@ groups:
         party: PARTY-USA-CT-INDEPENDENT
     references:
       race: RACE-USA-CT-TREASURER-2026_GENERAL
-      person: PERSON-WILMS_FR_8Z
+      citizen: CITIZEN-WILMS_FR_8Z

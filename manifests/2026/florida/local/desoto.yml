@@ -47,8 +47,8 @@ groups:
     references:
       election: ELECTION-USA-FL-ARCADIA-2026_GENERAL
       office: OFFICE-USA-FL-ARCADIA-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-BROWN_AS_6D
+  - type: Citizen
+    code: CITIZEN-BROWN_AS_6D
     attributes:
       username: brown_as_6d
       username_status: provisional
@@ -62,9 +62,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-ARCADIA-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-BROWN_AS_6D
-  - type: Person
-    code: PERSON-REAVES_JR_7L
+      citizen: CITIZEN-BROWN_AS_6D
+  - type: Citizen
+    code: CITIZEN-REAVES_JR_7L
     attributes:
       username: reaves_jr_7l
       username_status: provisional
@@ -78,9 +78,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-ARCADIA-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-REAVES_JR_7L
-  - type: Person
-    code: PERSON-REESOR_AD_2C
+      citizen: CITIZEN-REAVES_JR_7L
+  - type: Citizen
+    code: CITIZEN-REESOR_AD_2C
     attributes:
       username: reesor_ad_2c
       username_status: provisional
@@ -93,9 +93,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-ARCADIA-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-REESOR_AD_2C
-  - type: Person
-    code: PERSON-STRICKLAND_JD_7T
+      citizen: CITIZEN-REESOR_AD_2C
+  - type: Citizen
+    code: CITIZEN-STRICKLAND_JD_7T
     attributes:
       username: strickland_jd_7t
       username_status: provisional
@@ -109,9 +109,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-ARCADIA-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-STRICKLAND_JD_7T
-  - type: Person
-    code: PERSON-WASHINGTON_DE_5F
+      citizen: CITIZEN-STRICKLAND_JD_7T
+  - type: Citizen
+    code: CITIZEN-WASHINGTON_DE_5F
     attributes:
       username: washington_de_5f
       username_status: provisional
@@ -124,7 +124,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-ARCADIA-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-WASHINGTON_DE_5F
+      citizen: CITIZEN-WASHINGTON_DE_5F
 - records:
   - type: Office
     code: OFFICE-USA-FL-ARCADIA-CITY_MARSHAL
@@ -141,8 +141,8 @@ groups:
     references:
       election: ELECTION-USA-FL-ARCADIA-2026_GENERAL
       office: OFFICE-USA-FL-ARCADIA-CITY_MARSHAL
-  - type: Person
-    code: PERSON-JONES_QN_8N
+  - type: Citizen
+    code: CITIZEN-JONES_QN_8N
     attributes:
       username: jones_qn_8n
       username_status: provisional
@@ -155,7 +155,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-ARCADIA-CITY_MARSHAL-2026_GENERAL
-      person: PERSON-JONES_QN_8N
+      citizen: CITIZEN-JONES_QN_8N
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_2
@@ -173,8 +173,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_DESOTO-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-DIXON_LR_9B
+  - type: Citizen
+    code: CITIZEN-DIXON_LR_9B
     attributes:
       username: dixon_lr_9b
       username_status: provisional
@@ -191,9 +191,9 @@ groups:
         party: PARTY-USA-FL-INDEPENDENT
     references:
       race: RACE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-DIXON_LR_9B
-  - type: Person
-    code: PERSON-JOHNSON_BD_5J
+      citizen: CITIZEN-DIXON_LR_9B
+  - type: Citizen
+    code: CITIZEN-JOHNSON_BD_5J
     attributes:
       username: johnson_bd_5j
       username_status: provisional
@@ -210,9 +210,9 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-JOHNSON_BD_5J
-  - type: Person
-    code: PERSON-MARTIN_MC_7X
+      citizen: CITIZEN-JOHNSON_BD_5J
+  - type: Citizen
+    code: CITIZEN-MARTIN_MC_7X
     attributes:
       username: martin_mc_7x
       username_status: provisional
@@ -229,7 +229,7 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-MARTIN_MC_7X
+      citizen: CITIZEN-MARTIN_MC_7X
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_4
@@ -247,8 +247,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_DESOTO-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-LANGFORD_EL_9W
+  - type: Citizen
+    code: CITIZEN-LANGFORD_EL_9W
     attributes:
       username: langford_el_9w
       username_status: provisional
@@ -266,7 +266,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_DESOTO-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-LANGFORD_EL_9W
+      citizen: CITIZEN-LANGFORD_EL_9W
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_1
@@ -284,8 +284,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_DESOTO-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_1
-  - type: Person
-    code: PERSON-SCHUENEMAN_JM_6R
+  - type: Citizen
+    code: CITIZEN-SCHUENEMAN_JM_6R
     attributes:
       username: schueneman_jm_6r
       username_status: provisional
@@ -298,7 +298,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
-      person: PERSON-SCHUENEMAN_JM_6R
+      citizen: CITIZEN-SCHUENEMAN_JM_6R
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_4
@@ -316,8 +316,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_DESOTO-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_4
-  - type: Person
-    code: PERSON-MOTT_AS_2B
+  - type: Citizen
+    code: CITIZEN-MOTT_AS_2B
     attributes:
       username: mott_as_2b
       username_status: provisional
@@ -330,7 +330,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-MOTT_AS_2B
+      citizen: CITIZEN-MOTT_AS_2B
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_5
@@ -348,8 +348,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_DESOTO-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_5
-  - type: Person
-    code: PERSON-MERCER_KL_7B
+  - type: Citizen
+    code: CITIZEN-MERCER_KL_7B
     attributes:
       username: mercer_kl_7b
       username_status: provisional
@@ -362,4 +362,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_DESOTO-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
-      person: PERSON-MERCER_KL_7B
+      citizen: CITIZEN-MERCER_KL_7B

@@ -108,8 +108,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-HUGHES_TM_5G
+  - type: Citizen
+    code: CITIZEN-HUGHES_TM_5G
     attributes:
       username: hughes_tm_5g
       username_status: provisional
@@ -126,9 +126,9 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-HUGHES_TM_5G
-  - type: Person
-    code: PERSON-SCOTT_BR_6E
+      citizen: CITIZEN-HUGHES_TM_5G
+  - type: Citizen
+    code: CITIZEN-SCOTT_BR_6E
     attributes:
       username: scott_br_6e
       username_status: provisional
@@ -145,7 +145,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-SCOTT_BR_6E
+      citizen: CITIZEN-SCOTT_BR_6E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_4
@@ -163,8 +163,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-EGGERS_DV_7H
+  - type: Citizen
+    code: CITIZEN-EGGERS_DV_7H
     attributes:
       username: eggers_dv_7h
       username_status: provisional
@@ -181,7 +181,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-EGGERS_DV_7H
+      citizen: CITIZEN-EGGERS_DV_7H
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_6
@@ -199,8 +199,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_6
-  - type: Person
-    code: PERSON-GLENN_DV_3M
+  - type: Citizen
+    code: CITIZEN-GLENN_DV_3M
     attributes:
       username: glenn_dv_3m
       username_status: provisional
@@ -217,9 +217,9 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_6-2026_GENERAL
-      person: PERSON-GLENN_DV_3M
-  - type: Person
-    code: PERSON-PETERS_KT_9W
+      citizen: CITIZEN-GLENN_DV_3M
+  - type: Citizen
+    code: CITIZEN-PETERS_KT_9W
     attributes:
       username: peters_kt_9w
       username_status: provisional
@@ -236,7 +236,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_COMMISSIONER-DISTRICT_6-2026_GENERAL
-      person: PERSON-PETERS_KT_9W
+      citizen: CITIZEN-PETERS_KT_9W
 - records:
   - type: Office
     code: OFFICE-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER
@@ -253,8 +253,8 @@ groups:
     references:
       election: ELECTION-USA-FL-BELLEAIR_BEACH-2026_GENERAL
       office: OFFICE-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-GOFF_KN_6N
+  - type: Citizen
+    code: CITIZEN-GOFF_KN_6N
     attributes:
       username: goff_kn_6n
       username_status: provisional
@@ -268,9 +268,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-GOFF_KN_6N
-  - type: Person
-    code: PERSON-HOPPER_AN_8L
+      citizen: CITIZEN-GOFF_KN_6N
+  - type: Citizen
+    code: CITIZEN-HOPPER_AN_8L
     attributes:
       username: hopper_an_8l
       username_status: provisional
@@ -283,9 +283,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-HOPPER_AN_8L
-  - type: Person
-    code: PERSON-ROBERTS_LL_9M
+      citizen: CITIZEN-HOPPER_AN_8L
+  - type: Citizen
+    code: CITIZEN-ROBERTS_LL_9M
     attributes:
       username: roberts_ll_9m
       username_status: provisional
@@ -299,9 +299,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-ROBERTS_LL_9M
-  - type: Person
-    code: PERSON-SHIRLEY_JD_9P
+      citizen: CITIZEN-ROBERTS_LL_9M
+  - type: Citizen
+    code: CITIZEN-SHIRLEY_JD_9P
     attributes:
       username: shirley_jd_9p
       username_status: provisional
@@ -314,7 +314,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-BELLEAIR_BEACH-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-SHIRLEY_JD_9P
+      citizen: CITIZEN-SHIRLEY_JD_9P
 - records:
   - type: Office
     code: OFFICE-USA-FL-CLEARWATER-COUNCIL_MEMBER-SEAT_5
@@ -332,8 +332,8 @@ groups:
     references:
       election: ELECTION-USA-FL-CLEARWATER-2026_GENERAL
       office: OFFICE-USA-FL-CLEARWATER-COUNCIL_MEMBER-SEAT_5
-  - type: Person
-    code: PERSON-BUNKER_MR_5U
+  - type: Citizen
+    code: CITIZEN-BUNKER_MR_5U
     attributes:
       username: bunker_mr_5u
       username_status: provisional
@@ -346,9 +346,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-CLEARWATER-COUNCIL_MEMBER-SEAT_5-2026_GENERAL
-      person: PERSON-BUNKER_MR_5U
-  - type: Person
-    code: PERSON-WILSON_SM_9B
+      citizen: CITIZEN-BUNKER_MR_5U
+  - type: Citizen
+    code: CITIZEN-WILSON_SM_9B
     attributes:
       username: wilson_sm_9b
       username_status: provisional
@@ -361,7 +361,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-CLEARWATER-COUNCIL_MEMBER-SEAT_5-2026_GENERAL
-      person: PERSON-WILSON_SM_9B
+      citizen: CITIZEN-WILSON_SM_9B
 - records:
   - type: Office
     code: OFFICE-USA-FL-DUNEDIN-COMMISSIONER-SEAT_4
@@ -379,8 +379,8 @@ groups:
     references:
       election: ELECTION-USA-FL-DUNEDIN-2026_GENERAL
       office: OFFICE-USA-FL-DUNEDIN-COMMISSIONER-SEAT_4
-  - type: Person
-    code: PERSON-BENNETT_NN_4X
+  - type: Citizen
+    code: CITIZEN-BENNETT_NN_4X
     attributes:
       username: bennett_nn_4x
       username_status: provisional
@@ -393,9 +393,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-DUNEDIN-COMMISSIONER-SEAT_4-2026_GENERAL
-      person: PERSON-BENNETT_NN_4X
-  - type: Person
-    code: PERSON-OSSIAN_MR_6W
+      citizen: CITIZEN-BENNETT_NN_4X
+  - type: Citizen
+    code: CITIZEN-OSSIAN_MR_6W
     attributes:
       username: ossian_mr_6w
       username_status: provisional
@@ -409,7 +409,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-DUNEDIN-COMMISSIONER-SEAT_4-2026_GENERAL
-      person: PERSON-OSSIAN_MR_6W
+      citizen: CITIZEN-OSSIAN_MR_6W
 - records:
   - type: Office
     code: OFFICE-USA-FL-LARGO-COMMISSIONER-SEAT_2
@@ -427,8 +427,8 @@ groups:
     references:
       election: ELECTION-USA-FL-LARGO-2026_GENERAL
       office: OFFICE-USA-FL-LARGO-COMMISSIONER-SEAT_2
-  - type: Person
-    code: PERSON-FAUSTINI_MT_4W
+  - type: Citizen
+    code: CITIZEN-FAUSTINI_MT_4W
     attributes:
       username: faustini_mt_4w
       username_status: provisional
@@ -441,9 +441,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-LARGO-COMMISSIONER-SEAT_2-2026_GENERAL
-      person: PERSON-FAUSTINI_MT_4W
-  - type: Person
-    code: PERSON-HOLMES_CR_8L
+      citizen: CITIZEN-FAUSTINI_MT_4W
+  - type: Citizen
+    code: CITIZEN-HOLMES_CR_8L
     attributes:
       username: holmes_cr_8l
       username_status: provisional
@@ -457,7 +457,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-LARGO-COMMISSIONER-SEAT_2-2026_GENERAL
-      person: PERSON-HOLMES_CR_8L
+      citizen: CITIZEN-HOLMES_CR_8L
 - records:
   - type: Office
     code: OFFICE-USA-FL-SEMINOLE-COUNCIL_MEMBER
@@ -474,8 +474,8 @@ groups:
     references:
       election: ELECTION-USA-FL-SEMINOLE-2026_GENERAL
       office: OFFICE-USA-FL-SEMINOLE-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-BELIVEAU_RY_4T
+  - type: Citizen
+    code: CITIZEN-BELIVEAU_RY_4T
     attributes:
       username: beliveau_ry_4t
       username_status: provisional
@@ -488,9 +488,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-SEMINOLE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-BELIVEAU_RY_4T
-  - type: Person
-    code: PERSON-LURIE_MK_3Q
+      citizen: CITIZEN-BELIVEAU_RY_4T
+  - type: Citizen
+    code: CITIZEN-LURIE_MK_3Q
     attributes:
       username: lurie_mk_3q
       username_status: provisional
@@ -503,9 +503,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-SEMINOLE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-LURIE_MK_3Q
-  - type: Person
-    code: PERSON-TUBBS_KD_6U
+      citizen: CITIZEN-LURIE_MK_3Q
+  - type: Citizen
+    code: CITIZEN-TUBBS_KD_6U
     attributes:
       username: tubbs_kd_6u
       username_status: provisional
@@ -519,7 +519,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-SEMINOLE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-TUBBS_KD_6U
+      citizen: CITIZEN-TUBBS_KD_6U
 - records:
   - type: Office
     code: OFFICE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_2
@@ -537,8 +537,8 @@ groups:
     references:
       election: ELECTION-USA-FL-ST_PETERSBURG-2026_GENERAL
       office: OFFICE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_2
-  - type: Person
-    code: PERSON-BERMUDEZ_CR_6E
+  - type: Citizen
+    code: CITIZEN-BERMUDEZ_CR_6E
     attributes:
       username: bermudez_cr_6e
       username_status: provisional
@@ -551,9 +551,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-BERMUDEZ_CR_6E
-  - type: Person
-    code: PERSON-HAMENT_GB_7L
+      citizen: CITIZEN-BERMUDEZ_CR_6E
+  - type: Citizen
+    code: CITIZEN-HAMENT_GB_7L
     attributes:
       username: hament_gb_7l
       username_status: provisional
@@ -566,7 +566,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-HAMENT_GB_7L
+      citizen: CITIZEN-HAMENT_GB_7L
 - records:
   - type: Office
     code: OFFICE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_6
@@ -584,8 +584,8 @@ groups:
     references:
       election: ELECTION-USA-FL-ST_PETERSBURG-2026_GENERAL
       office: OFFICE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_6
-  - type: Person
-    code: PERSON-GROVE_LN_5S
+  - type: Citizen
+    code: CITIZEN-GROVE_LN_5S
     attributes:
       username: grove_ln_5s
       username_status: provisional
@@ -598,9 +598,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_6-2026_GENERAL
-      person: PERSON-GROVE_LN_5S
-  - type: Person
-    code: PERSON-MALLORY_TR_3V
+      citizen: CITIZEN-GROVE_LN_5S
+  - type: Citizen
+    code: CITIZEN-MALLORY_TR_3V
     attributes:
       username: mallory_tr_3v
       username_status: provisional
@@ -613,7 +613,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-ST_PETERSBURG-COUNCIL_MEMBER-DISTRICT_6-2026_GENERAL
-      person: PERSON-MALLORY_TR_3V
+      citizen: CITIZEN-MALLORY_TR_3V
 - records:
   - type: Office
     code: OFFICE-USA-FL-ST_PETERSBURG-MAYOR
@@ -630,8 +630,8 @@ groups:
     references:
       election: ELECTION-USA-FL-ST_PETERSBURG-2026_GENERAL
       office: OFFICE-USA-FL-ST_PETERSBURG-MAYOR
-  - type: Person
-    code: PERSON-CRIST_CH_8R
+  - type: Citizen
+    code: CITIZEN-CRIST_CH_8R
     attributes:
       username: crist_ch_8r
       username_status: provisional
@@ -644,9 +644,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-ST_PETERSBURG-MAYOR-2026_GENERAL
-      person: PERSON-CRIST_CH_8R
-  - type: Person
-    code: PERSON-WELCH_KN_2E
+      citizen: CITIZEN-CRIST_CH_8R
+  - type: Citizen
+    code: CITIZEN-WELCH_KN_2E
     attributes:
       username: welch_kn_2e
       username_status: provisional
@@ -660,7 +660,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-ST_PETERSBURG-MAYOR-2026_GENERAL
-      person: PERSON-WELCH_KN_2E
+      citizen: CITIZEN-WELCH_KN_2E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_3
@@ -678,8 +678,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_3
-  - type: Person
-    code: PERSON-MCKINNEY_JC_8Z
+  - type: Citizen
+    code: CITIZEN-MCKINNEY_JC_8Z
     attributes:
       username: mckinney_jc_8z
       username_status: provisional
@@ -693,7 +693,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-MCKINNEY_JC_8Z
+      citizen: CITIZEN-MCKINNEY_JC_8Z
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_4
@@ -711,8 +711,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_4
-  - type: Person
-    code: PERSON-WILSON_JF_4N
+  - type: Citizen
+    code: CITIZEN-WILSON_JF_4N
     attributes:
       username: wilson_jf_4n
       username_status: provisional
@@ -726,7 +726,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-WILSON_JF_4N
+      citizen: CITIZEN-WILSON_JF_4N
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_5
@@ -744,8 +744,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_5
-  - type: Person
-    code: PERSON-ANASTASIO_AN_3T
+  - type: Citizen
+    code: CITIZEN-ANASTASIO_AN_3T
     attributes:
       username: anastasio_an_3t
       username_status: provisional
@@ -759,7 +759,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CLEARWATER_CAY_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-ANASTASIO_AN_3T
+      citizen: CITIZEN-ANASTASIO_AN_3T
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_JUDGE-GROUP_3
@@ -777,8 +777,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_JUDGE-GROUP_3
-  - type: Person
-    code: PERSON-JAGGER_ED_7C
+  - type: Citizen
+    code: CITIZEN-JAGGER_ED_7C
     attributes:
       username: jagger_ed_7c
       username_status: provisional
@@ -792,7 +792,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_JUDGE-GROUP_3-2026_GENERAL
-      person: PERSON-JAGGER_ED_7C
+      citizen: CITIZEN-JAGGER_ED_7C
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_JUDGE-GROUP_10
@@ -810,8 +810,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_JUDGE-GROUP_10
-  - type: Person
-    code: PERSON-FIORENTINO_NC_6T
+  - type: Citizen
+    code: CITIZEN-FIORENTINO_NC_6T
     attributes:
       username: fiorentino_nc_6t
       username_status: provisional
@@ -824,7 +824,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_JUDGE-GROUP_10-2026_GENERAL
-      person: PERSON-FIORENTINO_NC_6T
+      citizen: CITIZEN-FIORENTINO_NC_6T
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_JUDGE-GROUP_14
@@ -842,8 +842,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_JUDGE-GROUP_14
-  - type: Person
-    code: PERSON-DITTMER_RB_6E
+  - type: Citizen
+    code: CITIZEN-DITTMER_RB_6E
     attributes:
       username: dittmer_rb_6e
       username_status: provisional
@@ -857,7 +857,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_JUDGE-GROUP_14-2026_GENERAL
-      person: PERSON-DITTMER_RB_6E
+      citizen: CITIZEN-DITTMER_RB_6E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_JUDGE-GROUP_15
@@ -875,8 +875,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-COUNTY_JUDGE-GROUP_15
-  - type: Person
-    code: PERSON-CARASSAS_JH_2B
+  - type: Citizen
+    code: CITIZEN-CARASSAS_JH_2B
     attributes:
       username: carassas_jh_2b
       username_status: provisional
@@ -889,7 +889,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-COUNTY_JUDGE-GROUP_15-2026_GENERAL
-      person: PERSON-CARASSAS_JH_2B
+      citizen: CITIZEN-CARASSAS_JH_2B
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_2
@@ -907,8 +907,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_2
-  - type: Person
-    code: PERSON-DOWNES_JM_5U
+  - type: Citizen
+    code: CITIZEN-DOWNES_JM_5U
     attributes:
       username: downes_jm_5u
       username_status: provisional
@@ -921,9 +921,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_2-2026_GENERAL
-      person: PERSON-DOWNES_JM_5U
-  - type: Person
-    code: PERSON-FORNWALT_BB_2P
+      citizen: CITIZEN-DOWNES_JM_5U
+  - type: Citizen
+    code: CITIZEN-FORNWALT_BB_2P
     attributes:
       username: fornwalt_bb_2p
       username_status: provisional
@@ -936,7 +936,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_2-2026_GENERAL
-      person: PERSON-FORNWALT_BB_2P
+      citizen: CITIZEN-FORNWALT_BB_2P
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_4
@@ -954,8 +954,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_4
-  - type: Person
-    code: PERSON-PEASLEY_MC_2L
+  - type: Citizen
+    code: CITIZEN-PEASLEY_MC_2L
     attributes:
       username: peasley_mc_2l
       username_status: provisional
@@ -969,7 +969,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-EAST_LAKE_TARPON_SPEC_FIRE_CONT_DIST_SEAT_4-2026_GENERAL
-      person: PERSON-PEASLEY_MC_2L
+      citizen: CITIZEN-PEASLEY_MC_2L
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_1
@@ -987,8 +987,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_1
-  - type: Person
-    code: PERSON-SARACKI_DN_4V
+  - type: Citizen
+    code: CITIZEN-SARACKI_DN_4V
     attributes:
       username: saracki_dn_4v
       username_status: provisional
@@ -1001,7 +1001,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-SARACKI_DN_4V
+      citizen: CITIZEN-SARACKI_DN_4V
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_2
@@ -1019,8 +1019,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_2
-  - type: Person
-    code: PERSON-MAIN_JS_6S
+  - type: Citizen
+    code: CITIZEN-MAIN_JS_6S
     attributes:
       username: main_js_6s
       username_status: provisional
@@ -1033,9 +1033,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-MAIN_JS_6S
-  - type: Person
-    code: PERSON-YAGNIK_JR_6D
+      citizen: CITIZEN-MAIN_JS_6S
+  - type: Citizen
+    code: CITIZEN-YAGNIK_JR_6D
     attributes:
       username: yagnik_jr_6d
       username_status: provisional
@@ -1049,7 +1049,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-YAGNIK_JR_6D
+      citizen: CITIZEN-YAGNIK_JR_6D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_3
@@ -1067,8 +1067,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_3
-  - type: Person
-    code: PERSON-MARSH_CH_9W
+  - type: Citizen
+    code: CITIZEN-MARSH_CH_9W
     attributes:
       username: marsh_ch_9w
       username_status: provisional
@@ -1081,7 +1081,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-EASTLAKE_OAKS_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-MARSH_CH_9W
+      citizen: CITIZEN-MARSH_CH_9W
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_2
@@ -1099,8 +1099,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_2
-  - type: Person
-    code: PERSON-LITTON_KT_3L
+  - type: Citizen
+    code: CITIZEN-LITTON_KT_3L
     attributes:
       username: litton_kt_3l
       username_status: provisional
@@ -1114,7 +1114,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_2-2026_GENERAL
-      person: PERSON-LITTON_KT_3L
+      citizen: CITIZEN-LITTON_KT_3L
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_4
@@ -1132,8 +1132,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_4
-  - type: Person
-    code: PERSON-HARRIMAN_RB_5L
+  - type: Citizen
+    code: CITIZEN-HARRIMAN_RB_5L
     attributes:
       username: harriman_rb_5l
       username_status: provisional
@@ -1146,7 +1146,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-LEALMAN_SPEC_FIRE_CONT_DIST_SEAT_4-2026_GENERAL
-      person: PERSON-HARRIMAN_RB_5L
+      citizen: CITIZEN-HARRIMAN_RB_5L
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_2
@@ -1164,8 +1164,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_2
-  - type: Person
-    code: PERSON-NICHOLS_BN_2Q
+  - type: Citizen
+    code: CITIZEN-NICHOLS_BN_2Q
     attributes:
       username: nichols_bn_2q
       username_status: provisional
@@ -1178,9 +1178,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_2-2026_GENERAL
-      person: PERSON-NICHOLS_BN_2Q
-  - type: Person
-    code: PERSON-PELUSO_JL_6T
+      citizen: CITIZEN-NICHOLS_BN_2Q
+  - type: Citizen
+    code: CITIZEN-PELUSO_JL_6T
     attributes:
       username: peluso_jl_6t
       username_status: provisional
@@ -1193,7 +1193,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_2-2026_GENERAL
-      person: PERSON-PELUSO_JL_6T
+      citizen: CITIZEN-PELUSO_JL_6T
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_4
@@ -1211,8 +1211,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_4
-  - type: Person
-    code: PERSON-WILLIAMS_ST_4C
+  - type: Citizen
+    code: CITIZEN-WILLIAMS_ST_4C
     attributes:
       username: williams_st_4c
       username_status: provisional
@@ -1225,7 +1225,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PALM_HARBOR_SPEC_FIRE_CONT_RES_DIST_SEAT_4-2026_GENERAL
-      person: PERSON-WILLIAMS_ST_4C
+      citizen: CITIZEN-WILLIAMS_ST_4C
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_1
@@ -1243,8 +1243,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_1
-  - type: Person
-    code: PERSON-BOLLING_MR_4A
+  - type: Citizen
+    code: CITIZEN-BOLLING_MR_4A
     attributes:
       username: bolling_mr_4a
       username_status: provisional
@@ -1258,7 +1258,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_1-2026_GENERAL
-      person: PERSON-BOLLING_MR_4A
+      citizen: CITIZEN-BOLLING_MR_4A
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_2
@@ -1276,8 +1276,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_2
-  - type: Person
-    code: PERSON-MCKENNA_EL_8H
+  - type: Citizen
+    code: CITIZEN-MCKENNA_EL_8H
     attributes:
       username: mckenna_el_8h
       username_status: provisional
@@ -1291,9 +1291,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_2-2026_GENERAL
-      person: PERSON-MCKENNA_EL_8H
-  - type: Person
-    code: PERSON-MYNSBERGE_DN_2N
+      citizen: CITIZEN-MCKENNA_EL_8H
+  - type: Citizen
+    code: CITIZEN-MYNSBERGE_DN_2N
     attributes:
       username: mynsberge_dn_2n
       username_status: provisional
@@ -1306,7 +1306,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-FIRE_DISTRICT_COMMISSIONER-PINELLAS_SUNCOAST_FIRE_RES_DIST_SEAT_2-2026_GENERAL
-      person: PERSON-MYNSBERGE_DN_2N
+      citizen: CITIZEN-MYNSBERGE_DN_2N
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_2
@@ -1324,8 +1324,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_2
-  - type: Person
-    code: PERSON-CANE_LS_4Z
+  - type: Citizen
+    code: CITIZEN-CANE_LS_4Z
     attributes:
       username: cane_ls_4z
       username_status: provisional
@@ -1338,7 +1338,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-CANE_LS_4Z
+      citizen: CITIZEN-CANE_LS_4Z
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_3
@@ -1356,8 +1356,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_3
-  - type: Person
-    code: PERSON-CAMPOGNI_CR_3Y
+  - type: Citizen
+    code: CITIZEN-CAMPOGNI_CR_3Y
     attributes:
       username: campogni_cr_3y
       username_status: provisional
@@ -1370,9 +1370,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
-      person: PERSON-CAMPOGNI_CR_3Y
-  - type: Person
-    code: PERSON-PETERS_DW_7G
+      citizen: CITIZEN-CAMPOGNI_CR_3Y
+  - type: Citizen
+    code: CITIZEN-PETERS_DW_7G
     attributes:
       username: peters_dw_7g
       username_status: provisional
@@ -1385,7 +1385,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
-      person: PERSON-PETERS_DW_7G
+      citizen: CITIZEN-PETERS_DW_7G
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_6
@@ -1403,8 +1403,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_6
-  - type: Person
-    code: PERSON-BOSTOCK_NN_6K
+  - type: Citizen
+    code: CITIZEN-BOSTOCK_NN_6K
     attributes:
       username: bostock_nn_6k
       username_status: provisional
@@ -1418,7 +1418,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_6-2026_GENERAL
-      person: PERSON-BOSTOCK_NN_6K
+      citizen: CITIZEN-BOSTOCK_NN_6K
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_7
@@ -1436,8 +1436,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_PINELLAS-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_7
-  - type: Person
-    code: PERSON-EDMOND_CP_9A
+  - type: Citizen
+    code: CITIZEN-EDMOND_CP_9A
     attributes:
       username: edmond_cp_9a
       username_status: provisional
@@ -1450,4 +1450,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_PINELLAS-SCHOOL_BOARD_MEMBER-DISTRICT_7-2026_GENERAL
-      person: PERSON-EDMOND_CP_9A
+      citizen: CITIZEN-EDMOND_CP_9A

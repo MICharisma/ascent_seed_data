@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_COLUMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-FORD_RC_4B
+  - type: Citizen
+    code: CITIZEN-FORD_RC_4B
     attributes:
       username: ford_rc_4b
       username_status: provisional
@@ -50,9 +50,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-FORD_RC_4B
-  - type: Person
-    code: PERSON-PITTMAN_CL_9K
+      citizen: CITIZEN-FORD_RC_4B
+  - type: Citizen
+    code: CITIZEN-PITTMAN_CL_9K
     attributes:
       username: pittman_cl_9k
       username_status: provisional
@@ -65,7 +65,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-PITTMAN_CL_9K
+      citizen: CITIZEN-PITTMAN_CL_9K
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_4
@@ -83,8 +83,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_COLUMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-DICKS_CH_6C
+  - type: Citizen
+    code: CITIZEN-DICKS_CH_6C
     attributes:
       username: dicks_ch_6c
       username_status: provisional
@@ -97,9 +97,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-DICKS_CH_6C
-  - type: Person
-    code: PERSON-PHILLIPS_EV_5M
+      citizen: CITIZEN-DICKS_CH_6C
+  - type: Citizen
+    code: CITIZEN-PHILLIPS_EV_5M
     attributes:
       username: phillips_ev_5m
       username_status: provisional
@@ -112,7 +112,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-PHILLIPS_EV_5M
+      citizen: CITIZEN-PHILLIPS_EV_5M
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_JUDGE-GROUP_1
@@ -130,8 +130,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_COLUMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_JUDGE-GROUP_1
-  - type: Person
-    code: PERSON-CARTER_SR_3S
+  - type: Citizen
+    code: CITIZEN-CARTER_SR_3S
     attributes:
       username: carter_sr_3s
       username_status: provisional
@@ -145,7 +145,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_JUDGE-GROUP_1-2026_GENERAL
-      person: PERSON-CARTER_SR_3S
+      citizen: CITIZEN-CARTER_SR_3S
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_JUDGE-GROUP_2
@@ -163,8 +163,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_COLUMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_JUDGE-GROUP_2
-  - type: Person
-    code: PERSON-HILL_GR_4L
+  - type: Citizen
+    code: CITIZEN-HILL_GR_4L
     attributes:
       username: hill_gr_4l
       username_status: provisional
@@ -177,7 +177,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_JUDGE-GROUP_2-2026_GENERAL
-      person: PERSON-HILL_GR_4L
+      citizen: CITIZEN-HILL_GR_4L
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_OFFICER
@@ -194,8 +194,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_COLUMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_COLUMBIA-COUNTY_OFFICER
-  - type: Person
-    code: PERSON-FOREMAN_JL_8T
+  - type: Citizen
+    code: CITIZEN-FOREMAN_JL_8T
     attributes:
       username: foreman_jl_8t
       username_status: provisional
@@ -209,7 +209,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_COLUMBIA-COUNTY_OFFICER-2026_GENERAL
-      person: PERSON-FOREMAN_JL_8T
+      citizen: CITIZEN-FOREMAN_JL_8T
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_1
@@ -227,8 +227,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_COLUMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_1
-  - type: Person
-    code: PERSON-SMITH_NR_6Z
+  - type: Citizen
+    code: CITIZEN-SMITH_NR_6Z
     attributes:
       username: smith_nr_6z
       username_status: provisional
@@ -241,7 +241,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
-      person: PERSON-SMITH_NR_6Z
+      citizen: CITIZEN-SMITH_NR_6Z
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_3
@@ -259,8 +259,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_COLUMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_3
-  - type: Person
-    code: PERSON-HILL_CH_9B
+  - type: Citizen
+    code: CITIZEN-HILL_CH_9B
     attributes:
       username: hill_ch_9b
       username_status: provisional
@@ -274,7 +274,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
-      person: PERSON-HILL_CH_9B
+      citizen: CITIZEN-HILL_CH_9B
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_5
@@ -292,8 +292,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_COLUMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_5
-  - type: Person
-    code: PERSON-PEELER_HN_2E
+  - type: Citizen
+    code: CITIZEN-PEELER_HN_2E
     attributes:
       username: peeler_hn_2e
       username_status: provisional
@@ -306,4 +306,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_COLUMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
-      person: PERSON-PEELER_HN_2E
+      citizen: CITIZEN-PEELER_HN_2E

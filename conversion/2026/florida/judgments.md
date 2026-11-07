@@ -16,13 +16,13 @@ Rules come from `rules.yml`. Party lines link to Party records and count as the 
 - party: American Solidarity Party of Florida, Constitution Party of Florida, Ecology Party of Florida, Florida Democratic Party, Florida Forward Party, Independent Party of Florida, Libertarian Party of Florida, Republican Party of Florida
 - write_in: Write-In
 
-## People included off the ballot
+## Citizens included off the ballot
 
 None.
 
 ## Name spellings
 
-21 other spellings are recorded in `name_spellings.yml`. Each Person keeps the official ballot spelling.
+21 other spellings are recorded in `name_spellings.yml`. Each Citizen keeps the official ballot spelling.
 
 ## Conflicts not applied
 
@@ -172,4 +172,4 @@ The manifests do not store `incumbent`, `fec_candidate_id`, `county`, `jurisdict
 
 ## Missing evidence
 
-No person is printed with a surname only.
+No citizen is printed with a surname only.

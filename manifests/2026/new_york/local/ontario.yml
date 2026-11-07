@@ -192,8 +192,8 @@ groups:
     references:
       election: ELECTION-USA-NY-HOPEWELL-2026_GENERAL
       office: OFFICE-USA-NY-HOPEWELL-TOWN_CLERK
-  - type: Person
-    code: PERSON-HOOD_DN_4N
+  - type: Citizen
+    code: CITIZEN-HOOD_DN_4N
     attributes:
       username: hood_dn_4n
       username_status: provisional
@@ -210,7 +210,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-HOPEWELL-TOWN_CLERK-2026_GENERAL
-      person: PERSON-HOOD_DN_4N
+      citizen: CITIZEN-HOOD_DN_4N
 - records:
   - type: Office
     code: OFFICE-USA-NY-RICHMOND-TOWN_CLERK_AND_TAX_COLLECTOR
@@ -228,8 +228,8 @@ groups:
     references:
       election: ELECTION-USA-NY-RICHMOND-2026_GENERAL
       office: OFFICE-USA-NY-RICHMOND-TOWN_CLERK_AND_TAX_COLLECTOR
-  - type: Person
-    code: PERSON-LORTSCHER_TR_9L
+  - type: Citizen
+    code: CITIZEN-LORTSCHER_TR_9L
     attributes:
       username: lortscher_tr_9l
       username_status: provisional
@@ -249,7 +249,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-RICHMOND-TOWN_CLERK_AND_TAX_COLLECTOR-2026_GENERAL
-      person: PERSON-LORTSCHER_TR_9L
+      citizen: CITIZEN-LORTSCHER_TR_9L
 - records:
   - type: Office
     code: OFFICE-USA-NY-VICTOR_TOWN-TOWN_CLERK_AND_TAX_COLLECTOR
@@ -267,8 +267,8 @@ groups:
     references:
       election: ELECTION-USA-NY-VICTOR_TOWN-2026_GENERAL
       office: OFFICE-USA-NY-VICTOR_TOWN-TOWN_CLERK_AND_TAX_COLLECTOR
-  - type: Person
-    code: PERSON-SANDIC_KM_9E
+  - type: Citizen
+    code: CITIZEN-SANDIC_KM_9E
     attributes:
       username: sandic_km_9e
       username_status: provisional
@@ -286,9 +286,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-VICTOR_TOWN-TOWN_CLERK_AND_TAX_COLLECTOR-UNEXPIRED_TERM-2026_GENERAL
-      person: PERSON-SANDIC_KM_9E
-  - type: Person
-    code: PERSON-MITCHELL_SR_7Q
+      citizen: CITIZEN-SANDIC_KM_9E
+  - type: Citizen
+    code: CITIZEN-MITCHELL_SR_7Q
     attributes:
       username: mitchell_sr_7q
       username_status: provisional
@@ -305,7 +305,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-VICTOR_TOWN-TOWN_CLERK_AND_TAX_COLLECTOR-UNEXPIRED_TERM-2026_GENERAL
-      person: PERSON-MITCHELL_SR_7Q
+      citizen: CITIZEN-MITCHELL_SR_7Q
 - records:
   - type: Office
     code: OFFICE-USA-NY-CITY_OF_CANANDAIGUA_WARD_1-COUNCIL_MEMBER
@@ -323,8 +323,8 @@ groups:
     references:
       election: ELECTION-USA-NY-CITY_OF_CANANDAIGUA_WARD_1-2026_GENERAL
       office: OFFICE-USA-NY-CITY_OF_CANANDAIGUA_WARD_1-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-FOX_TL_9Y
+  - type: Citizen
+    code: CITIZEN-FOX_TL_9Y
     attributes:
       username: fox_tl_9y
       username_status: provisional
@@ -343,7 +343,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-CITY_OF_CANANDAIGUA_WARD_1-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
-      person: PERSON-FOX_TL_9Y
+      citizen: CITIZEN-FOX_TL_9Y
 - records:
   - type: Office
     code: OFFICE-USA-NY-GORHAM-COUNCIL_MEMBER
@@ -361,8 +361,8 @@ groups:
     references:
       election: ELECTION-USA-NY-GORHAM-2026_GENERAL
       office: OFFICE-USA-NY-GORHAM-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-BAY_CH_8N
+  - type: Citizen
+    code: CITIZEN-BAY_CH_8N
     attributes:
       username: bay_ch_8n
       username_status: provisional
@@ -380,7 +380,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-GORHAM-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
-      person: PERSON-BAY_CH_8N
+      citizen: CITIZEN-BAY_CH_8N
 - records:
   - type: Office
     code: OFFICE-USA-NY-WEST_BLOOMFIELD-COUNCIL_MEMBER
@@ -398,8 +398,8 @@ groups:
     references:
       election: ELECTION-USA-NY-WEST_BLOOMFIELD-2026_GENERAL
       office: OFFICE-USA-NY-WEST_BLOOMFIELD-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-MULHERIN_CR_5Z
+  - type: Citizen
+    code: CITIZEN-MULHERIN_CR_5Z
     attributes:
       username: mulherin_cr_5z
       username_status: provisional
@@ -418,9 +418,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-WEST_BLOOMFIELD-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
-      person: PERSON-MULHERIN_CR_5Z
-  - type: Person
-    code: PERSON-EBELING_MT_2C
+      citizen: CITIZEN-MULHERIN_CR_5Z
+  - type: Citizen
+    code: CITIZEN-EBELING_MT_2C
     attributes:
       username: ebeling_mt_2c
       username_status: provisional
@@ -439,7 +439,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-WEST_BLOOMFIELD-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
-      person: PERSON-EBELING_MT_2C
+      citizen: CITIZEN-EBELING_MT_2C
 - records:
   - type: Office
     code: OFFICE-USA-NY-CANADICE-COUNCIL_MEMBER
@@ -457,8 +457,8 @@ groups:
     references:
       election: ELECTION-USA-NY-CANADICE-2026_GENERAL
       office: OFFICE-USA-NY-CANADICE-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-GRONWALL_TR_2W
+  - type: Citizen
+    code: CITIZEN-GRONWALL_TR_2W
     attributes:
       username: gronwall_tr_2w
       username_status: provisional
@@ -476,7 +476,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-CANADICE-COUNCIL_MEMBER-UNEXPIRED_TERM-2026_GENERAL
-      person: PERSON-GRONWALL_TR_2W
+      citizen: CITIZEN-GRONWALL_TR_2W
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_ONTARIO-CORONER
@@ -494,8 +494,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_ONTARIO-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_ONTARIO-CORONER
-  - type: Person
-    code: PERSON-AVEDISIAN_SC_8D
+  - type: Citizen
+    code: CITIZEN-AVEDISIAN_SC_8D
     attributes:
       username: avedisian_sc_8d
       username_status: provisional
@@ -516,9 +516,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_ONTARIO-CORONER-2026_GENERAL
-      person: PERSON-AVEDISIAN_SC_8D
-  - type: Person
-    code: PERSON-HASKINS_TR_9L
+      citizen: CITIZEN-AVEDISIAN_SC_8D
+  - type: Citizen
+    code: CITIZEN-HASKINS_TR_9L
     attributes:
       username: haskins_tr_9l
       username_status: provisional
@@ -538,7 +538,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_ONTARIO-CORONER-2026_GENERAL
-      person: PERSON-HASKINS_TR_9L
+      citizen: CITIZEN-HASKINS_TR_9L
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_ONTARIO-TREASURER
@@ -556,8 +556,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_ONTARIO-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_ONTARIO-TREASURER
-  - type: Person
-    code: PERSON-TRICKLER_JF_3Z
+  - type: Citizen
+    code: CITIZEN-TRICKLER_JF_3Z
     attributes:
       username: trickler_jf_3z
       username_status: provisional
@@ -577,9 +577,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_ONTARIO-TREASURER-2026_GENERAL
-      person: PERSON-TRICKLER_JF_3Z
-  - type: Person
-    code: PERSON-OLIVERA_JL_3A
+      citizen: CITIZEN-TRICKLER_JF_3Z
+  - type: Citizen
+    code: CITIZEN-OLIVERA_JL_3A
     attributes:
       username: olivera_jl_3a
       username_status: provisional
@@ -597,7 +597,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_ONTARIO-TREASURER-2026_GENERAL
-      person: PERSON-OLIVERA_JL_3A
+      citizen: CITIZEN-OLIVERA_JL_3A
 - records:
   - type: Office
     code: OFFICE-USA-NY-FARMINGTON-TOWN_JUSTICE
@@ -615,8 +615,8 @@ groups:
     references:
       election: ELECTION-USA-NY-FARMINGTON-2026_GENERAL
       office: OFFICE-USA-NY-FARMINGTON-TOWN_JUSTICE
-  - type: Person
-    code: PERSON-MANIACI_AN_3C
+  - type: Citizen
+    code: CITIZEN-MANIACI_AN_3C
     attributes:
       username: maniaci_an_3c
       username_status: provisional
@@ -639,7 +639,7 @@ groups:
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
       race: RACE-USA-NY-FARMINGTON-TOWN_JUSTICE-2026_GENERAL
-      person: PERSON-MANIACI_AN_3C
+      citizen: CITIZEN-MANIACI_AN_3C
 - records:
   - type: Office
     code: OFFICE-USA-NY-GORHAM-TOWN_JUSTICE
@@ -657,8 +657,8 @@ groups:
     references:
       election: ELECTION-USA-NY-GORHAM-2026_GENERAL
       office: OFFICE-USA-NY-GORHAM-TOWN_JUSTICE
-  - type: Person
-    code: PERSON-OLSEN_WL_6B
+  - type: Citizen
+    code: CITIZEN-OLSEN_WL_6B
     attributes:
       username: olsen_wl_6b
       username_status: provisional
@@ -676,7 +676,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-GORHAM-TOWN_JUSTICE-2026_GENERAL
-      person: PERSON-OLSEN_WL_6B
+      citizen: CITIZEN-OLSEN_WL_6B
 - records:
   - type: Office
     code: OFFICE-USA-NY-HOPEWELL-TOWN_JUSTICE
@@ -694,8 +694,8 @@ groups:
     references:
       election: ELECTION-USA-NY-HOPEWELL-2026_GENERAL
       office: OFFICE-USA-NY-HOPEWELL-TOWN_JUSTICE
-  - type: Person
-    code: PERSON-SMITHLING_DR_9Z
+  - type: Citizen
+    code: CITIZEN-SMITHLING_DR_9Z
     attributes:
       username: smithling_dr_9z
       username_status: provisional
@@ -712,7 +712,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-HOPEWELL-TOWN_JUSTICE-2026_GENERAL
-      person: PERSON-SMITHLING_DR_9Z
+      citizen: CITIZEN-SMITHLING_DR_9Z
 - records:
   - type: Office
     code: OFFICE-USA-NY-MANCHESTER_TOWN-TOWN_JUSTICE
@@ -730,8 +730,8 @@ groups:
     references:
       election: ELECTION-USA-NY-MANCHESTER_TOWN-2026_GENERAL
       office: OFFICE-USA-NY-MANCHESTER_TOWN-TOWN_JUSTICE
-  - type: Person
-    code: PERSON-ROSEKRANS_BR_4D
+  - type: Citizen
+    code: CITIZEN-ROSEKRANS_BR_4D
     attributes:
       username: rosekrans_br_4d
       username_status: provisional
@@ -748,9 +748,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-MANCHESTER_TOWN-TOWN_JUSTICE-2026_GENERAL
-      person: PERSON-ROSEKRANS_BR_4D
-  - type: Person
-    code: PERSON-SCHAERTL_ER_3A
+      citizen: CITIZEN-ROSEKRANS_BR_4D
+  - type: Citizen
+    code: CITIZEN-SCHAERTL_ER_3A
     attributes:
       username: schaertl_er_3a
       username_status: provisional
@@ -767,7 +767,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-MANCHESTER_TOWN-TOWN_JUSTICE-2026_GENERAL
-      person: PERSON-SCHAERTL_ER_3A
+      citizen: CITIZEN-SCHAERTL_ER_3A
 - records:
   - type: Office
     code: OFFICE-USA-NY-SENECA-TOWN_JUSTICE
@@ -785,8 +785,8 @@ groups:
     references:
       election: ELECTION-USA-NY-SENECA-2026_GENERAL
       office: OFFICE-USA-NY-SENECA-TOWN_JUSTICE
-  - type: Person
-    code: PERSON-HOOD_PL_8W
+  - type: Citizen
+    code: CITIZEN-HOOD_PL_8W
     attributes:
       username: hood_pl_8w
       username_status: provisional
@@ -804,7 +804,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-SENECA-TOWN_JUSTICE-2026_GENERAL
-      person: PERSON-HOOD_PL_8W
+      citizen: CITIZEN-HOOD_PL_8W
 - records:
   - type: Office
     code: OFFICE-USA-NY-VICTOR_TOWN-TOWN_JUSTICE
@@ -822,8 +822,8 @@ groups:
     references:
       election: ELECTION-USA-NY-VICTOR_TOWN-2026_GENERAL
       office: OFFICE-USA-NY-VICTOR_TOWN-TOWN_JUSTICE
-  - type: Person
-    code: PERSON-HOLTER_RD_2S
+  - type: Citizen
+    code: CITIZEN-HOLTER_RD_2S
     attributes:
       username: holter_rd_2s
       username_status: provisional
@@ -843,7 +843,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-VICTOR_TOWN-TOWN_JUSTICE-2026_GENERAL
-      person: PERSON-HOLTER_RD_2S
+      citizen: CITIZEN-HOLTER_RD_2S
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_ONTARIO-SHERIFF
@@ -861,8 +861,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_ONTARIO-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_ONTARIO-SHERIFF
-  - type: Person
-    code: PERSON-CIRENCIONE_DV_9D
+  - type: Citizen
+    code: CITIZEN-CIRENCIONE_DV_9D
     attributes:
       username: cirencione_dv_9d
       username_status: provisional
@@ -882,7 +882,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_ONTARIO-SHERIFF-2026_GENERAL
-      person: PERSON-CIRENCIONE_DV_9D
+      citizen: CITIZEN-CIRENCIONE_DV_9D
 - records:
   - type: Office
     code: OFFICE-USA-NY-BRISTOL-HIGHWAY_SUPERINTENDENT
@@ -900,8 +900,8 @@ groups:
     references:
       election: ELECTION-USA-NY-BRISTOL-2026_GENERAL
       office: OFFICE-USA-NY-BRISTOL-HIGHWAY_SUPERINTENDENT
-  - type: Person
-    code: PERSON-WILSON_RN_3P
+  - type: Citizen
+    code: CITIZEN-WILSON_RN_3P
     attributes:
       username: wilson_rn_3p
       username_status: provisional
@@ -922,7 +922,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-BRISTOL-HIGHWAY_SUPERINTENDENT-2026_GENERAL
-      person: PERSON-WILSON_RN_3P
+      citizen: CITIZEN-WILSON_RN_3P
 - records:
   - type: Office
     code: OFFICE-USA-NY-HOPEWELL-HIGHWAY_SUPERINTENDENT
@@ -940,8 +940,8 @@ groups:
     references:
       election: ELECTION-USA-NY-HOPEWELL-2026_GENERAL
       office: OFFICE-USA-NY-HOPEWELL-HIGHWAY_SUPERINTENDENT
-  - type: Person
-    code: PERSON-CURRAN_MT_6K
+  - type: Citizen
+    code: CITIZEN-CURRAN_MT_6K
     attributes:
       username: curran_mt_6k
       username_status: provisional
@@ -958,7 +958,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-HOPEWELL-HIGHWAY_SUPERINTENDENT-2026_GENERAL
-      person: PERSON-CURRAN_MT_6K
+      citizen: CITIZEN-CURRAN_MT_6K
 - records:
   - type: Office
     code: OFFICE-USA-NY-RICHMOND-HIGHWAY_SUPERINTENDENT
@@ -976,8 +976,8 @@ groups:
     references:
       election: ELECTION-USA-NY-RICHMOND-2026_GENERAL
       office: OFFICE-USA-NY-RICHMOND-HIGHWAY_SUPERINTENDENT
-  - type: Person
-    code: PERSON-ASHE_PT_2N
+  - type: Citizen
+    code: CITIZEN-ASHE_PT_2N
     attributes:
       username: ashe_pt_2n
       username_status: provisional
@@ -994,7 +994,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-RICHMOND-HIGHWAY_SUPERINTENDENT-2026_GENERAL
-      person: PERSON-ASHE_PT_2N
+      citizen: CITIZEN-ASHE_PT_2N
 - records:
   - type: Office
     code: OFFICE-USA-NY-BRISTOL-TOWN_SUPERVISOR
@@ -1012,8 +1012,8 @@ groups:
     references:
       election: ELECTION-USA-NY-BRISTOL-2026_GENERAL
       office: OFFICE-USA-NY-BRISTOL-TOWN_SUPERVISOR
-  - type: Person
-    code: PERSON-ABPLANALP_LR_4S
+  - type: Citizen
+    code: CITIZEN-ABPLANALP_LR_4S
     attributes:
       username: abplanalp_lr_4s
       username_status: provisional
@@ -1033,9 +1033,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-BRISTOL-TOWN_SUPERVISOR-2026_GENERAL
-      person: PERSON-ABPLANALP_LR_4S
-  - type: Person
-    code: PERSON-MCCLAIN_MC_5Z
+      citizen: CITIZEN-ABPLANALP_LR_4S
+  - type: Citizen
+    code: CITIZEN-MCCLAIN_MC_5Z
     attributes:
       username: mcclain_mc_5z
       username_status: provisional
@@ -1054,7 +1054,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-BRISTOL-TOWN_SUPERVISOR-2026_GENERAL
-      person: PERSON-MCCLAIN_MC_5Z
+      citizen: CITIZEN-MCCLAIN_MC_5Z
 - records:
   - type: Office
     code: OFFICE-USA-NY-GORHAM-TOWN_SUPERVISOR
@@ -1072,8 +1072,8 @@ groups:
     references:
       election: ELECTION-USA-NY-GORHAM-2026_GENERAL
       office: OFFICE-USA-NY-GORHAM-TOWN_SUPERVISOR
-  - type: Person
-    code: PERSON-STELL_DL_7S
+  - type: Citizen
+    code: CITIZEN-STELL_DL_7S
     attributes:
       username: stell_dl_7s
       username_status: provisional
@@ -1091,7 +1091,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-GORHAM-TOWN_SUPERVISOR-2026_GENERAL
-      person: PERSON-STELL_DL_7S
+      citizen: CITIZEN-STELL_DL_7S
 - records:
   - type: Office
     code: OFFICE-USA-NY-HOPEWELL-TOWN_SUPERVISOR
@@ -1109,8 +1109,8 @@ groups:
     references:
       election: ELECTION-USA-NY-HOPEWELL-2026_GENERAL
       office: OFFICE-USA-NY-HOPEWELL-TOWN_SUPERVISOR
-  - type: Person
-    code: PERSON-NAMESTNIK_WL_9K
+  - type: Citizen
+    code: CITIZEN-NAMESTNIK_WL_9K
     attributes:
       username: namestnik_wl_9k
       username_status: provisional
@@ -1131,7 +1131,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-HOPEWELL-TOWN_SUPERVISOR-2026_GENERAL
-      person: PERSON-NAMESTNIK_WL_9K
+      citizen: CITIZEN-NAMESTNIK_WL_9K
 - records:
   - type: Office
     code: OFFICE-USA-NY-MANCHESTER_TOWN-TOWN_SUPERVISOR
@@ -1149,8 +1149,8 @@ groups:
     references:
       election: ELECTION-USA-NY-MANCHESTER_TOWN-2026_GENERAL
       office: OFFICE-USA-NY-MANCHESTER_TOWN-TOWN_SUPERVISOR
-  - type: Person
-    code: PERSON-COLBURN_TT_4U
+  - type: Citizen
+    code: CITIZEN-COLBURN_TT_4U
     attributes:
       username: colburn_tt_4u
       username_status: provisional
@@ -1167,7 +1167,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-MANCHESTER_TOWN-TOWN_SUPERVISOR-2026_GENERAL
-      person: PERSON-COLBURN_TT_4U
+      citizen: CITIZEN-COLBURN_TT_4U
 - records:
   - type: Office
     code: OFFICE-USA-NY-NAPLES_TOWN-TOWN_SUPERVISOR
@@ -1185,8 +1185,8 @@ groups:
     references:
       election: ELECTION-USA-NY-NAPLES_TOWN-2026_GENERAL
       office: OFFICE-USA-NY-NAPLES_TOWN-TOWN_SUPERVISOR
-  - type: Person
-    code: PERSON-COWLEY_JH_7W
+  - type: Citizen
+    code: CITIZEN-COWLEY_JH_7W
     attributes:
       username: cowley_jh_7w
       username_status: provisional
@@ -1204,9 +1204,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-NAPLES_TOWN-TOWN_SUPERVISOR-2026_GENERAL
-      person: PERSON-COWLEY_JH_7W
-  - type: Person
-    code: PERSON-STOPKA_WL_3M
+      citizen: CITIZEN-COWLEY_JH_7W
+  - type: Citizen
+    code: CITIZEN-STOPKA_WL_3M
     attributes:
       username: stopka_wl_3m
       username_status: provisional
@@ -1225,7 +1225,7 @@ groups:
         kind: designation
     references:
       race: RACE-USA-NY-NAPLES_TOWN-TOWN_SUPERVISOR-2026_GENERAL
-      person: PERSON-STOPKA_WL_3M
+      citizen: CITIZEN-STOPKA_WL_3M
 - records:
   - type: Office
     code: OFFICE-USA-NY-RICHMOND-TOWN_SUPERVISOR
@@ -1243,8 +1243,8 @@ groups:
     references:
       election: ELECTION-USA-NY-RICHMOND-2026_GENERAL
       office: OFFICE-USA-NY-RICHMOND-TOWN_SUPERVISOR
-  - type: Person
-    code: PERSON-BAKER_MC_4H
+  - type: Citizen
+    code: CITIZEN-BAKER_MC_4H
     attributes:
       username: baker_mc_4h
       username_status: provisional
@@ -1266,7 +1266,7 @@ groups:
         kind: designation
     references:
       race: RACE-USA-NY-RICHMOND-TOWN_SUPERVISOR-2026_GENERAL
-      person: PERSON-BAKER_MC_4H
+      citizen: CITIZEN-BAKER_MC_4H
 - records:
   - type: Office
     code: OFFICE-USA-NY-SOUTH_BRISTOL-TOWN_SUPERVISOR
@@ -1284,8 +1284,8 @@ groups:
     references:
       election: ELECTION-USA-NY-SOUTH_BRISTOL-2026_GENERAL
       office: OFFICE-USA-NY-SOUTH_BRISTOL-TOWN_SUPERVISOR
-  - type: Person
-    code: PERSON-MOORE_LS_7L
+  - type: Citizen
+    code: CITIZEN-MOORE_LS_7L
     attributes:
       username: moore_ls_7l
       username_status: provisional
@@ -1304,9 +1304,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-SOUTH_BRISTOL-TOWN_SUPERVISOR-2026_GENERAL
-      person: PERSON-MOORE_LS_7L
-  - type: Person
-    code: PERSON-FULLER_MG_4U
+      citizen: CITIZEN-MOORE_LS_7L
+  - type: Citizen
+    code: CITIZEN-FULLER_MG_4U
     attributes:
       username: fuller_mg_4u
       username_status: provisional
@@ -1326,4 +1326,4 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-SOUTH_BRISTOL-TOWN_SUPERVISOR-2026_GENERAL
-      person: PERSON-FULLER_MG_4U
+      citizen: CITIZEN-FULLER_MG_4U

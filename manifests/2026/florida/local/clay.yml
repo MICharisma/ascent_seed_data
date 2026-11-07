@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARMSTRONG_CDD_SEAT_2
-  - type: Person
-    code: PERSON-BROWN_CM_4M
+  - type: Citizen
+    code: CITIZEN-BROWN_CM_4M
     attributes:
       username: brown_cm_4m
       username_status: provisional
@@ -50,7 +50,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ARMSTRONG_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-BROWN_CM_4M
+      citizen: CITIZEN-BROWN_CM_4M
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_2
@@ -68,8 +68,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-EDWARDS_LR_9Y
+  - type: Citizen
+    code: CITIZEN-EDWARDS_LR_9Y
     attributes:
       username: edwards_lr_9y
       username_status: provisional
@@ -87,9 +87,9 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-EDWARDS_LR_9Y
-  - type: Person
-    code: PERSON-SMOAK_LL_3H
+      citizen: CITIZEN-EDWARDS_LR_9Y
+  - type: Citizen
+    code: CITIZEN-SMOAK_LL_3H
     attributes:
       username: smoak_ll_3h
       username_status: provisional
@@ -106,7 +106,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-SMOAK_LL_3H
+      citizen: CITIZEN-SMOAK_LL_3H
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_4
@@ -124,8 +124,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-CONDON_BT_5Q
+  - type: Citizen
+    code: CITIZEN-CONDON_BT_5Q
     attributes:
       username: condon_bt_5q
       username_status: provisional
@@ -143,7 +143,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-CONDON_BT_5Q
+      citizen: CITIZEN-CONDON_BT_5Q
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
@@ -161,8 +161,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1
-  - type: Person
-    code: PERSON-NGUYEN_TM_7K
+  - type: Citizen
+    code: CITIZEN-NGUYEN_TM_7K
     attributes:
       username: nguyen_tm_7k
       username_status: provisional
@@ -175,7 +175,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_1-2026_GENERAL
-      person: PERSON-NGUYEN_TM_7K
+      citizen: CITIZEN-NGUYEN_TM_7K
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2
@@ -193,8 +193,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2
-  - type: Person
-    code: PERSON-ADLER_MC_4S
+  - type: Citizen
+    code: CITIZEN-ADLER_MC_4S
     attributes:
       username: adler_mc_4s
       username_status: provisional
@@ -207,7 +207,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_2-2026_GENERAL
-      person: PERSON-ADLER_MC_4S
+      citizen: CITIZEN-ADLER_MC_4S
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3
@@ -225,8 +225,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3
-  - type: Person
-    code: PERSON-MCINTYRE_GR_9P
+  - type: Citizen
+    code: CITIZEN-MCINTYRE_GR_9P
     attributes:
       username: mcintyre_gr_9p
       username_status: provisional
@@ -240,7 +240,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_3-2026_GENERAL
-      person: PERSON-MCINTYRE_GR_9P
+      citizen: CITIZEN-MCINTYRE_GR_9P
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_4
@@ -258,8 +258,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_4
-  - type: Person
-    code: PERSON-COMBASS_DN_5V
+  - type: Citizen
+    code: CITIZEN-COMBASS_DN_5V
     attributes:
       username: combass_dn_5v
       username_status: provisional
@@ -272,7 +272,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_4-2026_GENERAL
-      person: PERSON-COMBASS_DN_5V
+      citizen: CITIZEN-COMBASS_DN_5V
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
@@ -290,8 +290,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5
-  - type: Person
-    code: PERSON-TAYLOR_WS_6F
+  - type: Citizen
+    code: CITIZEN-TAYLOR_WS_6F
     attributes:
       username: taylor_ws_6f
       username_status: provisional
@@ -305,7 +305,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-SEAT_5-2026_GENERAL
-      person: PERSON-TAYLOR_WS_6F
+      citizen: CITIZEN-TAYLOR_WS_6F
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CROSS_CREEK_NORTH_CDD_SEAT_4
@@ -323,8 +323,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CROSS_CREEK_NORTH_CDD_SEAT_4
-  - type: Person
-    code: PERSON-GOSS_RN_9E
+  - type: Citizen
+    code: CITIZEN-GOSS_RN_9E
     attributes:
       username: goss_rn_9e
       username_status: provisional
@@ -337,7 +337,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CROSS_CREEK_NORTH_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-GOSS_RN_9E
+      citizen: CITIZEN-GOSS_RN_9E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CROSS_CREEK_NORTH_CDD_SEAT_5
@@ -355,8 +355,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CROSS_CREEK_NORTH_CDD_SEAT_5
-  - type: Person
-    code: PERSON-ABBOTT_MT_9D
+  - type: Citizen
+    code: CITIZEN-ABBOTT_MT_9D
     attributes:
       username: abbott_mt_9d
       username_status: provisional
@@ -370,7 +370,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-CROSS_CREEK_NORTH_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-ABBOTT_MT_9D
+      citizen: CITIZEN-ABBOTT_MT_9D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DOUBLE_BRANCH_CDD_SEAT_2
@@ -388,8 +388,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DOUBLE_BRANCH_CDD_SEAT_2
-  - type: Person
-    code: PERSON-LANIER_AN_6K
+  - type: Citizen
+    code: CITIZEN-LANIER_AN_6K
     attributes:
       username: lanier_an_6k
       username_status: provisional
@@ -402,7 +402,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DOUBLE_BRANCH_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-LANIER_AN_6K
+      citizen: CITIZEN-LANIER_AN_6K
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DOUBLE_BRANCH_CDD_SEAT_4
@@ -420,8 +420,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DOUBLE_BRANCH_CDD_SEAT_4
-  - type: Person
-    code: PERSON-NELSEN_CN_2B
+  - type: Citizen
+    code: CITIZEN-NELSEN_CN_2B
     attributes:
       username: nelsen_cn_2b
       username_status: provisional
@@ -434,7 +434,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-DOUBLE_BRANCH_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-NELSEN_CN_2B
+      citizen: CITIZEN-NELSEN_CN_2B
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_1
@@ -452,8 +452,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_1
-  - type: Person
-    code: PERSON-GLICKMAN_MC_8F
+  - type: Citizen
+    code: CITIZEN-GLICKMAN_MC_8F
     attributes:
       username: glickman_mc_8f
       username_status: provisional
@@ -466,7 +466,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-GLICKMAN_MC_8F
+      citizen: CITIZEN-GLICKMAN_MC_8F
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_2
@@ -484,8 +484,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_2
-  - type: Person
-    code: PERSON-ASHFORD_RD_8Y
+  - type: Citizen
+    code: CITIZEN-ASHFORD_RD_8Y
     attributes:
       username: ashford_rd_8y
       username_status: provisional
@@ -498,7 +498,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-ASHFORD_RD_8Y
+      citizen: CITIZEN-ASHFORD_RD_8Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_5
@@ -516,8 +516,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_5
-  - type: Person
-    code: PERSON-METHENY_DN_6Q
+  - type: Citizen
+    code: CITIZEN-METHENY_DN_6Q
     attributes:
       username: metheny_dn_6q
       username_status: provisional
@@ -530,9 +530,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-METHENY_DN_6Q
-  - type: Person
-    code: PERSON-SZAFRANSKI_MC_4A
+      citizen: CITIZEN-METHENY_DN_6Q
+  - type: Citizen
+    code: CITIZEN-SZAFRANSKI_MC_4A
     attributes:
       username: szafranski_mc_4a
       username_status: provisional
@@ -545,7 +545,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-FLEMING_ISLAND_PLANTATION_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-SZAFRANSKI_MC_4A
+      citizen: CITIZEN-SZAFRANSKI_MC_4A
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_2
@@ -563,8 +563,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_2
-  - type: Person
-    code: PERSON-PENCE_LW_4J
+  - type: Citizen
+    code: CITIZEN-PENCE_LW_4J
     attributes:
       username: pence_lw_4j
       username_status: provisional
@@ -578,7 +578,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_2-2026_GENERAL
-      person: PERSON-PENCE_LW_4J
+      citizen: CITIZEN-PENCE_LW_4J
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_3
@@ -596,8 +596,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_3
-  - type: Person
-    code: PERSON-MCMILLAN_MR_6E
+  - type: Citizen
+    code: CITIZEN-MCMILLAN_MR_6E
     attributes:
       username: mcmillan_mr_6e
       username_status: provisional
@@ -610,7 +610,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_3-2026_GENERAL
-      person: PERSON-MCMILLAN_MR_6E
+      citizen: CITIZEN-MCMILLAN_MR_6E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_4
@@ -628,8 +628,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_4
-  - type: Person
-    code: PERSON-POIDEVANT_DN_6G
+  - type: Citizen
+    code: CITIZEN-POIDEVANT_DN_6G
     attributes:
       username: poidevant_dn_6g
       username_status: provisional
@@ -643,7 +643,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_4-2026_GENERAL
-      person: PERSON-POIDEVANT_DN_6G
+      citizen: CITIZEN-POIDEVANT_DN_6G
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_5
@@ -661,8 +661,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_5
-  - type: Person
-    code: PERSON-EBLING_RN_8Y
+  - type: Citizen
+    code: CITIZEN-EBLING_RN_8Y
     attributes:
       username: ebling_rn_8y
       username_status: provisional
@@ -676,7 +676,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_5-2026_GENERAL
-      person: PERSON-EBLING_RN_8Y
+      citizen: CITIZEN-EBLING_RN_8Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_6
@@ -694,8 +694,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_6
-  - type: Person
-    code: PERSON-WANTAGE_JN_8P
+  - type: Citizen
+    code: CITIZEN-WANTAGE_JN_8P
     attributes:
       username: wantage_jn_8p
       username_status: provisional
@@ -708,7 +708,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_6-2026_GENERAL
-      person: PERSON-WANTAGE_JN_8P
+      citizen: CITIZEN-WANTAGE_JN_8P
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_8
@@ -726,8 +726,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_8
-  - type: Person
-    code: PERSON-CLEMONS_MK_7V
+  - type: Citizen
+    code: CITIZEN-CLEMONS_MK_7V
     attributes:
       username: clemons_mk_7v
       username_status: provisional
@@ -740,7 +740,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-SPECIAL_DISTRICT_BOARD_MEMBER-LAKE_ASBURY_MSBD_SEAT_8-2026_GENERAL
-      person: PERSON-CLEMONS_MK_7V
+      citizen: CITIZEN-CLEMONS_MK_7V
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_2
@@ -758,8 +758,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_2
-  - type: Person
-    code: PERSON-RIEGLER_CY_9A
+  - type: Citizen
+    code: CITIZEN-RIEGLER_CY_9A
     attributes:
       username: riegler_cy_9a
       username_status: provisional
@@ -773,7 +773,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-RIEGLER_CY_9A
+      citizen: CITIZEN-RIEGLER_CY_9A
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_3
@@ -791,8 +791,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_3
-  - type: Person
-    code: PERSON-LINDE_JD_3X
+  - type: Citizen
+    code: CITIZEN-LINDE_JD_3X
     attributes:
       username: linde_jd_3x
       username_status: provisional
@@ -805,9 +805,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-LINDE_JD_3X
-  - type: Person
-    code: PERSON-ROVEGNO_GF_6V
+      citizen: CITIZEN-LINDE_JD_3X
+  - type: Citizen
+    code: CITIZEN-ROVEGNO_GF_6V
     attributes:
       username: rovegno_gf_6v
       username_status: provisional
@@ -820,7 +820,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MAGNOLIA_WEST_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-ROVEGNO_GF_6V
+      citizen: CITIZEN-ROVEGNO_GF_6V
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_1
@@ -838,8 +838,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_1
-  - type: Person
-    code: PERSON-MIFSUD_SH_7Z
+  - type: Citizen
+    code: CITIZEN-MIFSUD_SH_7Z
     attributes:
       username: mifsud_sh_7z
       username_status: provisional
@@ -853,7 +853,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-MIFSUD_SH_7Z
+      citizen: CITIZEN-MIFSUD_SH_7Z
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_3
@@ -871,8 +871,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_3
-  - type: Person
-    code: PERSON-MARX_ER_4A
+  - type: Citizen
+    code: CITIZEN-MARX_ER_4A
     attributes:
       username: marx_er_4a
       username_status: provisional
@@ -886,7 +886,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-MARX_ER_4A
+      citizen: CITIZEN-MARX_ER_4A
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_5
@@ -904,8 +904,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_5
-  - type: Person
-    code: PERSON-ARNAU_JL_4X
+  - type: Citizen
+    code: CITIZEN-ARNAU_JL_4X
     attributes:
       username: arnau_jl_4x
       username_status: provisional
@@ -919,7 +919,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-MIDDLE_VILLAGE_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-ARNAU_JL_4X
+      citizen: CITIZEN-ARNAU_JL_4X
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINE_RIDGE_PLANTATION_CDD_SEAT_1
@@ -937,8 +937,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINE_RIDGE_PLANTATION_CDD_SEAT_1
-  - type: Person
-    code: PERSON-CHAMBERLAIN_DN_8R
+  - type: Citizen
+    code: CITIZEN-CHAMBERLAIN_DN_8R
     attributes:
       username: chamberlain_dn_8r
       username_status: provisional
@@ -951,7 +951,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINE_RIDGE_PLANTATION_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-CHAMBERLAIN_DN_8R
+      citizen: CITIZEN-CHAMBERLAIN_DN_8R
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINE_RIDGE_PLANTATION_CDD_SEAT_3
@@ -969,8 +969,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINE_RIDGE_PLANTATION_CDD_SEAT_3
-  - type: Person
-    code: PERSON-LEWIS_JF_5J
+  - type: Citizen
+    code: CITIZEN-LEWIS_JF_5J
     attributes:
       username: lewis_jf_5j
       username_status: provisional
@@ -983,7 +983,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-PINE_RIDGE_PLANTATION_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-LEWIS_JF_5J
+      citizen: CITIZEN-LEWIS_JF_5J
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIDGEWOOD_TRAILS_CDD_SEAT_2
@@ -1001,8 +1001,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIDGEWOOD_TRAILS_CDD_SEAT_2
-  - type: Person
-    code: PERSON-WETHERBEE_MC_3X
+  - type: Citizen
+    code: CITIZEN-WETHERBEE_MC_3X
     attributes:
       username: wetherbee_mc_3x
       username_status: provisional
@@ -1015,7 +1015,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIDGEWOOD_TRAILS_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-WETHERBEE_MC_3X
+      citizen: CITIZEN-WETHERBEE_MC_3X
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIDGEWOOD_TRAILS_CDD_SEAT_4
@@ -1033,8 +1033,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIDGEWOOD_TRAILS_CDD_SEAT_4
-  - type: Person
-    code: PERSON-MILLER_JC_4C
+  - type: Citizen
+    code: CITIZEN-MILLER_JC_4C
     attributes:
       username: miller_jc_4c
       username_status: provisional
@@ -1048,7 +1048,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-RIDGEWOOD_TRAILS_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-MILLER_JC_4C
+      citizen: CITIZEN-MILLER_JC_4C
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ROLLING_HILLS_CDD_SEAT_2
@@ -1066,8 +1066,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ROLLING_HILLS_CDD_SEAT_2
-  - type: Person
-    code: PERSON-CORMIER_HL_5P
+  - type: Citizen
+    code: CITIZEN-CORMIER_HL_5P
     attributes:
       username: cormier_hl_5p
       username_status: provisional
@@ -1081,7 +1081,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-ROLLING_HILLS_CDD_SEAT_2-2026_GENERAL
-      person: PERSON-CORMIER_HL_5P
+      citizen: CITIZEN-CORMIER_HL_5P
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_1
@@ -1099,8 +1099,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_1
-  - type: Person
-    code: PERSON-SKIPPER_ER_3P
+  - type: Citizen
+    code: CITIZEN-SKIPPER_ER_3P
     attributes:
       username: skipper_er_3p
       username_status: provisional
@@ -1113,7 +1113,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
-      person: PERSON-SKIPPER_ER_3P
+      citizen: CITIZEN-SKIPPER_ER_3P
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_4
@@ -1131,8 +1131,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_4
-  - type: Person
-    code: PERSON-HANSON_MC_9D
+  - type: Citizen
+    code: CITIZEN-HANSON_MC_9D
     attributes:
       username: hanson_mc_9d
       username_status: provisional
@@ -1145,7 +1145,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-HANSON_MC_9D
+      citizen: CITIZEN-HANSON_MC_9D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_5
@@ -1163,8 +1163,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_5
-  - type: Person
-    code: PERSON-GILHOUSEN_AS_4Y
+  - type: Citizen
+    code: CITIZEN-GILHOUSEN_AS_4Y
     attributes:
       username: gilhousen_as_4y
       username_status: provisional
@@ -1178,7 +1178,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
-      person: PERSON-GILHOUSEN_AS_4Y
+      citizen: CITIZEN-GILHOUSEN_AS_4Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_1
@@ -1196,8 +1196,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_1
-  - type: Person
-    code: PERSON-BENNETT_CR_3J
+  - type: Citizen
+    code: CITIZEN-BENNETT_CR_3J
     attributes:
       username: bennett_cr_3j
       username_status: provisional
@@ -1211,7 +1211,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-BENNETT_CR_3J
+      citizen: CITIZEN-BENNETT_CR_3J
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_3
@@ -1229,8 +1229,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_3
-  - type: Person
-    code: PERSON-LEWIS_LS_4H
+  - type: Citizen
+    code: CITIZEN-LEWIS_LS_4H
     attributes:
       username: lewis_ls_4h
       username_status: provisional
@@ -1244,9 +1244,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-LEWIS_LS_4H
-  - type: Person
-    code: PERSON-MORALES_TJ_8E
+      citizen: CITIZEN-LEWIS_LS_4H
+  - type: Citizen
+    code: CITIZEN-MORALES_TJ_8E
     attributes:
       username: morales_tj_8e
       username_status: provisional
@@ -1259,7 +1259,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-MORALES_TJ_8E
+      citizen: CITIZEN-MORALES_TJ_8E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_5
@@ -1277,8 +1277,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_5
-  - type: Person
-    code: PERSON-KINCAID_JM_3H
+  - type: Citizen
+    code: CITIZEN-KINCAID_JM_3H
     attributes:
       username: kincaid_jm_3h
       username_status: provisional
@@ -1291,7 +1291,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-SOUTH_VILLAGE_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-KINCAID_JM_3H
+      citizen: CITIZEN-KINCAID_JM_3H
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_3
@@ -1309,8 +1309,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_3
-  - type: Person
-    code: PERSON-TABOR_JH_3R
+  - type: Citizen
+    code: CITIZEN-TABOR_JH_3R
     attributes:
       username: tabor_jh_3r
       username_status: provisional
@@ -1323,7 +1323,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-TABOR_JH_3R
+      citizen: CITIZEN-TABOR_JH_3R
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_4
@@ -1341,8 +1341,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_4
-  - type: Person
-    code: PERSON-HINGST_CH_2E
+  - type: Citizen
+    code: CITIZEN-HINGST_CH_2E
     attributes:
       username: hingst_ch_2e
       username_status: provisional
@@ -1355,7 +1355,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-THE_CROSSINGS_AT_FLEMING_ISLAND_CDD_SEAT_4-2026_GENERAL
-      person: PERSON-HINGST_CH_2E
+      citizen: CITIZEN-HINGST_CH_2E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWO_CREEKS_CDD_SEAT_5
@@ -1373,8 +1373,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWO_CREEKS_CDD_SEAT_5
-  - type: Person
-    code: PERSON-MURPHY_JF_2B
+  - type: Citizen
+    code: CITIZEN-MURPHY_JF_2B
     attributes:
       username: murphy_jf_2b
       username_status: provisional
@@ -1388,7 +1388,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-TWO_CREEKS_CDD_SEAT_5-2026_GENERAL
-      person: PERSON-MURPHY_JF_2B
+      citizen: CITIZEN-MURPHY_JF_2B
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_1
@@ -1406,8 +1406,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_1
-  - type: Person
-    code: PERSON-TERRELL_PT_9Y
+  - type: Citizen
+    code: CITIZEN-TERRELL_PT_9Y
     attributes:
       username: terrell_pt_9y
       username_status: provisional
@@ -1420,9 +1420,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-TERRELL_PT_9Y
-  - type: Person
-    code: PERSON-TORRES_SH_6Y
+      citizen: CITIZEN-TERRELL_PT_9Y
+  - type: Citizen
+    code: CITIZEN-TORRES_SH_6Y
     attributes:
       username: torres_sh_6y
       username_status: provisional
@@ -1435,7 +1435,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_1-2026_GENERAL
-      person: PERSON-TORRES_SH_6Y
+      citizen: CITIZEN-TORRES_SH_6Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_3
@@ -1453,8 +1453,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_CLAY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_3
-  - type: Person
-    code: PERSON-JOHNSON_CL_3U
+  - type: Citizen
+    code: CITIZEN-JOHNSON_CL_3U
     attributes:
       username: johnson_cl_3u
       username_status: provisional
@@ -1468,4 +1468,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_CLAY-COMMUNITY_DEVELOPMENT_DISTRICT_SUPERVISOR-WILFORD_PRESERVE_CDD_SEAT_3-2026_GENERAL
-      person: PERSON-JOHNSON_CL_3U
+      citizen: CITIZEN-JOHNSON_CL_3U

@@ -216,8 +216,8 @@ groups:
     references:
       election: ELECTION-USA-CT-SHELTON-2026_GENERAL
       office: OFFICE-USA-CT-SHELTON-JUDGE_OF_PROBATE-42
-  - type: Person
-    code: PERSON-ANTHONY_FR_6Q
+  - type: Citizen
+    code: CITIZEN-ANTHONY_FR_6Q
     attributes:
       username: anthony_fr_6q
       username_status: provisional
@@ -235,7 +235,7 @@ groups:
         party: PARTY-USA-CT-REPUBLICAN
     references:
       race: RACE-USA-CT-SHELTON-JUDGE_OF_PROBATE-42-2026_GENERAL
-      person: PERSON-ANTHONY_FR_6Q
+      citizen: CITIZEN-ANTHONY_FR_6Q
 - records:
   - type: Office
     code: OFFICE-USA-CT-SHELTON-REGISTRAR_OF_VOTERS
@@ -252,8 +252,8 @@ groups:
     references:
       election: ELECTION-USA-CT-SHELTON-2026_GENERAL
       office: OFFICE-USA-CT-SHELTON-REGISTRAR_OF_VOTERS
-  - type: Person
-    code: PERSON-SABOVIK_JN_6P
+  - type: Citizen
+    code: CITIZEN-SABOVIK_JN_6P
     attributes:
       username: sabovik_jn_6p
       username_status: provisional
@@ -270,9 +270,9 @@ groups:
         party: PARTY-USA-CT-DEMOCRATIC
     references:
       race: RACE-USA-CT-SHELTON-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-SABOVIK_JN_6P
-  - type: Person
-    code: PERSON-PAVONE_PT_9Z
+      citizen: CITIZEN-SABOVIK_JN_6P
+  - type: Citizen
+    code: CITIZEN-PAVONE_PT_9Z
     attributes:
       username: pavone_pt_9z
       username_status: provisional
@@ -290,7 +290,7 @@ groups:
         party: PARTY-USA-CT-REPUBLICAN
     references:
       race: RACE-USA-CT-SHELTON-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-PAVONE_PT_9Z
+      citizen: CITIZEN-PAVONE_PT_9Z
 - records:
   - type: Office
     code: OFFICE-USA-CT-BRISTOL-REGISTRAR_OF_VOTERS
@@ -307,8 +307,8 @@ groups:
     references:
       election: ELECTION-USA-CT-BRISTOL-2026_GENERAL
       office: OFFICE-USA-CT-BRISTOL-REGISTRAR_OF_VOTERS
-  - type: Person
-    code: PERSON-MCCAULEY_KV_5X
+  - type: Citizen
+    code: CITIZEN-MCCAULEY_KV_5X
     attributes:
       username: mccauley_kv_5x
       username_status: provisional
@@ -325,9 +325,9 @@ groups:
         party: PARTY-USA-CT-DEMOCRATIC
     references:
       race: RACE-USA-CT-BRISTOL-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-MCCAULEY_KV_5X
-  - type: Person
-    code: PERSON-LUSITANI_JL_9A
+      citizen: CITIZEN-MCCAULEY_KV_5X
+  - type: Citizen
+    code: CITIZEN-LUSITANI_JL_9A
     attributes:
       username: lusitani_jl_9a
       username_status: provisional
@@ -344,7 +344,7 @@ groups:
         party: PARTY-USA-CT-REPUBLICAN
     references:
       race: RACE-USA-CT-BRISTOL-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-LUSITANI_JL_9A
+      citizen: CITIZEN-LUSITANI_JL_9A
 - records:
   - type: Office
     code: OFFICE-USA-CT-PLYMOUTH-REGISTRAR_OF_VOTERS
@@ -361,8 +361,8 @@ groups:
     references:
       election: ELECTION-USA-CT-PLYMOUTH-2026_GENERAL
       office: OFFICE-USA-CT-PLYMOUTH-REGISTRAR_OF_VOTERS
-  - type: Person
-    code: PERSON-FLAMMIA_JL_6W
+  - type: Citizen
+    code: CITIZEN-FLAMMIA_JL_6W
     attributes:
       username: flammia_jl_6w
       username_status: provisional
@@ -380,9 +380,9 @@ groups:
         party: PARTY-USA-CT-DEMOCRATIC
     references:
       race: RACE-USA-CT-PLYMOUTH-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-FLAMMIA_JL_6W
-  - type: Person
-    code: PERSON-HAWES_AD_5V
+      citizen: CITIZEN-FLAMMIA_JL_6W
+  - type: Citizen
+    code: CITIZEN-HAWES_AD_5V
     attributes:
       username: hawes_ad_5v
       username_status: provisional
@@ -399,7 +399,7 @@ groups:
         party: PARTY-USA-CT-REPUBLICAN
     references:
       race: RACE-USA-CT-PLYMOUTH-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-HAWES_AD_5V
+      citizen: CITIZEN-HAWES_AD_5V
 - records:
   - type: Office
     code: OFFICE-USA-CT-THOMASTON-REGISTRAR_OF_VOTERS
@@ -416,8 +416,8 @@ groups:
     references:
       election: ELECTION-USA-CT-THOMASTON-2026_GENERAL
       office: OFFICE-USA-CT-THOMASTON-REGISTRAR_OF_VOTERS
-  - type: Person
-    code: PERSON-THIBEAU_YV_2N
+  - type: Citizen
+    code: CITIZEN-THIBEAU_YV_2N
     attributes:
       username: thibeau_yv_2n
       username_status: provisional
@@ -434,9 +434,9 @@ groups:
         party: PARTY-USA-CT-DEMOCRATIC
     references:
       race: RACE-USA-CT-THOMASTON-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-THIBEAU_YV_2N
-  - type: Person
-    code: PERSON-KALAT_LY_2X
+      citizen: CITIZEN-THIBEAU_YV_2N
+  - type: Citizen
+    code: CITIZEN-KALAT_LY_2X
     attributes:
       username: kalat_ly_2x
       username_status: provisional
@@ -453,7 +453,7 @@ groups:
         kind: petition
     references:
       race: RACE-USA-CT-THOMASTON-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-KALAT_LY_2X
+      citizen: CITIZEN-KALAT_LY_2X
 - records:
   - type: Office
     code: OFFICE-USA-CT-WATERTOWN-REGISTRAR_OF_VOTERS
@@ -470,8 +470,8 @@ groups:
     references:
       election: ELECTION-USA-CT-WATERTOWN-2026_GENERAL
       office: OFFICE-USA-CT-WATERTOWN-REGISTRAR_OF_VOTERS
-  - type: Person
-    code: PERSON-LAFFERTY_MC_9V
+  - type: Citizen
+    code: CITIZEN-LAFFERTY_MC_9V
     attributes:
       username: lafferty_mc_9v
       username_status: provisional
@@ -488,9 +488,9 @@ groups:
         party: PARTY-USA-CT-DEMOCRATIC
     references:
       race: RACE-USA-CT-WATERTOWN-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-LAFFERTY_MC_9V
-  - type: Person
-    code: PERSON-BERTHEL_MT_5G
+      citizen: CITIZEN-LAFFERTY_MC_9V
+  - type: Citizen
+    code: CITIZEN-BERTHEL_MT_5G
     attributes:
       username: berthel_mt_5g
       username_status: provisional
@@ -507,7 +507,7 @@ groups:
         party: PARTY-USA-CT-REPUBLICAN
     references:
       race: RACE-USA-CT-WATERTOWN-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-BERTHEL_MT_5G
+      citizen: CITIZEN-BERTHEL_MT_5G
 - records:
   - type: Office
     code: OFFICE-USA-CT-JUDGE_OF_PROBATE-BRISTOL_PLYMOUTH-19
@@ -525,8 +525,8 @@ groups:
     references:
       election: ELECTION-USA-CT-JUDGE_OF_PROBATE-BRISTOL_PLYMOUTH-2026_GENERAL
       office: OFFICE-USA-CT-JUDGE_OF_PROBATE-BRISTOL_PLYMOUTH-19
-  - type: Person
-    code: PERSON-HAMZY_WL_6P
+  - type: Citizen
+    code: CITIZEN-HAMZY_WL_6P
     attributes:
       username: hamzy_wl_6p
       username_status: provisional
@@ -543,7 +543,7 @@ groups:
         party: PARTY-USA-CT-REPUBLICAN
     references:
       race: RACE-USA-CT-JUDGE_OF_PROBATE-BRISTOL_PLYMOUTH-19-2026_GENERAL
-      person: PERSON-HAMZY_WL_6P
+      citizen: CITIZEN-HAMZY_WL_6P
 - records:
   - type: Office
     code: OFFICE-USA-CT-JUDGE_OF_PROBATE-WATERBURY_WOLCOTT-20
@@ -561,8 +561,8 @@ groups:
     references:
       election: ELECTION-USA-CT-JUDGE_OF_PROBATE-WATERBURY_WOLCOTT-2026_GENERAL
       office: OFFICE-USA-CT-JUDGE_OF_PROBATE-WATERBURY_WOLCOTT-20
-  - type: Person
-    code: PERSON-VACCARELLI_MT_9B
+  - type: Citizen
+    code: CITIZEN-VACCARELLI_MT_9B
     attributes:
       username: vaccarelli_mt_9b
       username_status: provisional
@@ -580,7 +580,7 @@ groups:
         party: PARTY-USA-CT-DEMOCRATIC
     references:
       race: RACE-USA-CT-JUDGE_OF_PROBATE-WATERBURY_WOLCOTT-20-2026_GENERAL
-      person: PERSON-VACCARELLI_MT_9B
+      citizen: CITIZEN-VACCARELLI_MT_9B
 - records:
   - type: Office
     code: OFFICE-USA-CT-JUDGE_OF_PROBATE-BEACON_FALLS_MIDDLEBURY_NAUGATUCK_PROSPECT-21
@@ -598,8 +598,8 @@ groups:
     references:
       election: ELECTION-USA-CT-JUDGE_OF_PROBATE-BEACON_FALLS_MIDDLEBURY_NAUGATUCK_PROSPECT-2026_GENERAL
       office: OFFICE-USA-CT-JUDGE_OF_PROBATE-BEACON_FALLS_MIDDLEBURY_NAUGATUCK_PROSPECT-21
-  - type: Person
-    code: PERSON-REBIMBAS_RS_9Q
+  - type: Citizen
+    code: CITIZEN-REBIMBAS_RS_9Q
     attributes:
       username: rebimbas_rs_9q
       username_status: provisional
@@ -617,7 +617,7 @@ groups:
         party: PARTY-USA-CT-REPUBLICAN
     references:
       race: RACE-USA-CT-JUDGE_OF_PROBATE-BEACON_FALLS_MIDDLEBURY_NAUGATUCK_PROSPECT-21-2026_GENERAL
-      person: PERSON-REBIMBAS_RS_9Q
+      citizen: CITIZEN-REBIMBAS_RS_9Q
 - records:
   - type: Office
     code: OFFICE-USA-CT-ANSONIA-REGISTRAR_OF_VOTERS
@@ -634,8 +634,8 @@ groups:
     references:
       election: ELECTION-USA-CT-ANSONIA-2026_GENERAL
       office: OFFICE-USA-CT-ANSONIA-REGISTRAR_OF_VOTERS
-  - type: Person
-    code: PERSON-FEDDERN_JH_6B
+  - type: Citizen
+    code: CITIZEN-FEDDERN_JH_6B
     attributes:
       username: feddern_jh_6b
       username_status: provisional
@@ -652,7 +652,7 @@ groups:
         party: PARTY-USA-CT-DEMOCRATIC
     references:
       race: RACE-USA-CT-ANSONIA-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-FEDDERN_JH_6B
+      citizen: CITIZEN-FEDDERN_JH_6B
 - records:
   - type: Office
     code: OFFICE-USA-CT-CHESHIRE-REGISTRAR_OF_VOTERS
@@ -669,8 +669,8 @@ groups:
     references:
       election: ELECTION-USA-CT-CHESHIRE-2026_GENERAL
       office: OFFICE-USA-CT-CHESHIRE-REGISTRAR_OF_VOTERS
-  - type: Person
-    code: PERSON-HALL_MT_8A
+  - type: Citizen
+    code: CITIZEN-HALL_MT_8A
     attributes:
       username: hall_mt_8a
       username_status: provisional
@@ -687,9 +687,9 @@ groups:
         party: PARTY-USA-CT-DEMOCRATIC
     references:
       race: RACE-USA-CT-CHESHIRE-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-HALL_MT_8A
-  - type: Person
-    code: PERSON-NICHOLS_SY_7G
+      citizen: CITIZEN-HALL_MT_8A
+  - type: Citizen
+    code: CITIZEN-NICHOLS_SY_7G
     attributes:
       username: nichols_sy_7g
       username_status: provisional
@@ -706,7 +706,7 @@ groups:
         kind: petition
     references:
       race: RACE-USA-CT-CHESHIRE-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-NICHOLS_SY_7G
+      citizen: CITIZEN-NICHOLS_SY_7G
 - records:
   - type: Office
     code: OFFICE-USA-CT-MIDDLEBURY-REGISTRAR_OF_VOTERS
@@ -723,8 +723,8 @@ groups:
     references:
       election: ELECTION-USA-CT-MIDDLEBURY-2026_GENERAL
       office: OFFICE-USA-CT-MIDDLEBURY-REGISTRAR_OF_VOTERS
-  - type: Person
-    code: PERSON-SANTOS_JR_5G
+  - type: Citizen
+    code: CITIZEN-SANTOS_JR_5G
     attributes:
       username: santos_jr_5g
       username_status: provisional
@@ -741,9 +741,9 @@ groups:
         party: PARTY-USA-CT-DEMOCRATIC
     references:
       race: RACE-USA-CT-MIDDLEBURY-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-SANTOS_JR_5G
-  - type: Person
-    code: PERSON-ROBISON_NN_8N
+      citizen: CITIZEN-SANTOS_JR_5G
+  - type: Citizen
+    code: CITIZEN-ROBISON_NN_8N
     attributes:
       username: robison_nn_8n
       username_status: provisional
@@ -760,7 +760,7 @@ groups:
         party: PARTY-USA-CT-REPUBLICAN
     references:
       race: RACE-USA-CT-MIDDLEBURY-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-ROBISON_NN_8N
+      citizen: CITIZEN-ROBISON_NN_8N
 - records:
   - type: Office
     code: OFFICE-USA-CT-NAUGATUCK-REGISTRAR_OF_VOTERS
@@ -777,8 +777,8 @@ groups:
     references:
       election: ELECTION-USA-CT-NAUGATUCK-2026_GENERAL
       office: OFFICE-USA-CT-NAUGATUCK-REGISTRAR_OF_VOTERS
-  - type: Person
-    code: PERSON-SHEEDY_LS_8X
+  - type: Citizen
+    code: CITIZEN-SHEEDY_LS_8X
     attributes:
       username: sheedy_ls_8x
       username_status: provisional
@@ -795,9 +795,9 @@ groups:
         party: PARTY-USA-CT-DEMOCRATIC
     references:
       race: RACE-USA-CT-NAUGATUCK-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-SHEEDY_LS_8X
-  - type: Person
-    code: PERSON-KATRA_MT_8R
+      citizen: CITIZEN-SHEEDY_LS_8X
+  - type: Citizen
+    code: CITIZEN-KATRA_MT_8R
     attributes:
       username: katra_mt_8r
       username_status: provisional
@@ -815,7 +815,7 @@ groups:
         party: PARTY-USA-CT-REPUBLICAN
     references:
       race: RACE-USA-CT-NAUGATUCK-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-KATRA_MT_8R
+      citizen: CITIZEN-KATRA_MT_8R
 - records:
   - type: Office
     code: OFFICE-USA-CT-OXFORD-REGISTRAR_OF_VOTERS
@@ -832,8 +832,8 @@ groups:
     references:
       election: ELECTION-USA-CT-OXFORD-2026_GENERAL
       office: OFFICE-USA-CT-OXFORD-REGISTRAR_OF_VOTERS
-  - type: Person
-    code: PERSON-FOX_EL_5L
+  - type: Citizen
+    code: CITIZEN-FOX_EL_5L
     attributes:
       username: fox_el_5l
       username_status: provisional
@@ -851,9 +851,9 @@ groups:
         party: PARTY-USA-CT-DEMOCRATIC
     references:
       race: RACE-USA-CT-OXFORD-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-FOX_EL_5L
-  - type: Person
-    code: PERSON-CROWE_LN_5A
+      citizen: CITIZEN-FOX_EL_5L
+  - type: Citizen
+    code: CITIZEN-CROWE_LN_5A
     attributes:
       username: crowe_ln_5a
       username_status: provisional
@@ -870,7 +870,7 @@ groups:
         party: PARTY-USA-CT-REPUBLICAN
     references:
       race: RACE-USA-CT-OXFORD-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-CROWE_LN_5A
+      citizen: CITIZEN-CROWE_LN_5A
 - records:
   - type: Office
     code: OFFICE-USA-CT-PROSPECT-REGISTRAR_OF_VOTERS
@@ -887,8 +887,8 @@ groups:
     references:
       election: ELECTION-USA-CT-PROSPECT-2026_GENERAL
       office: OFFICE-USA-CT-PROSPECT-REGISTRAR_OF_VOTERS
-  - type: Person
-    code: PERSON-BLINSTRUBAS_KT_8Q
+  - type: Citizen
+    code: CITIZEN-BLINSTRUBAS_KT_8Q
     attributes:
       username: blinstrubas_kt_8q
       username_status: provisional
@@ -906,9 +906,9 @@ groups:
         party: PARTY-USA-CT-DEMOCRATIC
     references:
       race: RACE-USA-CT-PROSPECT-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-BLINSTRUBAS_KT_8Q
-  - type: Person
-    code: PERSON-BYRNE_MR_8Z
+      citizen: CITIZEN-BLINSTRUBAS_KT_8Q
+  - type: Citizen
+    code: CITIZEN-BYRNE_MR_8Z
     attributes:
       username: byrne_mr_8z
       username_status: provisional
@@ -925,7 +925,7 @@ groups:
         party: PARTY-USA-CT-REPUBLICAN
     references:
       race: RACE-USA-CT-PROSPECT-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-BYRNE_MR_8Z
+      citizen: CITIZEN-BYRNE_MR_8Z
 - records:
   - type: Office
     code: OFFICE-USA-CT-SEYMOUR-REGISTRAR_OF_VOTERS
@@ -942,8 +942,8 @@ groups:
     references:
       election: ELECTION-USA-CT-SEYMOUR-2026_GENERAL
       office: OFFICE-USA-CT-SEYMOUR-REGISTRAR_OF_VOTERS
-  - type: Person
-    code: PERSON-STELMA_JH_8F
+  - type: Citizen
+    code: CITIZEN-STELMA_JH_8F
     attributes:
       username: stelma_jh_8f
       username_status: provisional
@@ -960,9 +960,9 @@ groups:
         party: PARTY-USA-CT-DEMOCRATIC
     references:
       race: RACE-USA-CT-SEYMOUR-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-STELMA_JH_8F
-  - type: Person
-    code: PERSON-WOOD_EL_3A
+      citizen: CITIZEN-STELMA_JH_8F
+  - type: Citizen
+    code: CITIZEN-WOOD_EL_3A
     attributes:
       username: wood_el_3a
       username_status: provisional
@@ -980,7 +980,7 @@ groups:
         party: PARTY-USA-CT-REPUBLICAN
     references:
       race: RACE-USA-CT-SEYMOUR-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-WOOD_EL_3A
+      citizen: CITIZEN-WOOD_EL_3A
 - records:
   - type: Office
     code: OFFICE-USA-CT-WOLCOTT-REGISTRAR_OF_VOTERS
@@ -997,8 +997,8 @@ groups:
     references:
       election: ELECTION-USA-CT-WOLCOTT-2026_GENERAL
       office: OFFICE-USA-CT-WOLCOTT-REGISTRAR_OF_VOTERS
-  - type: Person
-    code: PERSON-GUGLIOTTI_TN_2Z
+  - type: Citizen
+    code: CITIZEN-GUGLIOTTI_TN_2Z
     attributes:
       username: gugliotti_tn_2z
       username_status: provisional
@@ -1015,9 +1015,9 @@ groups:
         party: PARTY-USA-CT-DEMOCRATIC
     references:
       race: RACE-USA-CT-WOLCOTT-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-GUGLIOTTI_TN_2Z
-  - type: Person
-    code: PERSON-NAJARIAN_PT_3C
+      citizen: CITIZEN-GUGLIOTTI_TN_2Z
+  - type: Citizen
+    code: CITIZEN-NAJARIAN_PT_3C
     attributes:
       username: najarian_pt_3c
       username_status: provisional
@@ -1034,9 +1034,9 @@ groups:
         party: PARTY-USA-CT-REPUBLICAN
     references:
       race: RACE-USA-CT-WOLCOTT-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-NAJARIAN_PT_3C
-  - type: Person
-    code: PERSON-CONROY_SH_9S
+      citizen: CITIZEN-NAJARIAN_PT_3C
+  - type: Citizen
+    code: CITIZEN-CONROY_SH_9S
     attributes:
       username: conroy_sh_9s
       username_status: provisional
@@ -1053,4 +1053,4 @@ groups:
         party: PARTY-USA-CT-GREEN
     references:
       race: RACE-USA-CT-WOLCOTT-REGISTRAR_OF_VOTERS-2026_GENERAL
-      person: PERSON-CONROY_SH_9S
+      citizen: CITIZEN-CONROY_SH_9S

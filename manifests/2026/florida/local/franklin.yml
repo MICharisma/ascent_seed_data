@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FRANKLIN-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FRANKLIN-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-SANDERS_CH_3E
+  - type: Citizen
+    code: CITIZEN-SANDERS_CH_3E
     attributes:
       username: sanders_ch_3e
       username_status: provisional
@@ -55,7 +55,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_FRANKLIN-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-SANDERS_CH_3E
+      citizen: CITIZEN-SANDERS_CH_3E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_FRANKLIN-COUNTY_COMMISSIONER-DISTRICT_4
@@ -73,8 +73,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FRANKLIN-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FRANKLIN-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-AMISON_OT_9Z
+  - type: Citizen
+    code: CITIZEN-AMISON_OT_9Z
     attributes:
       username: amison_ot_9z
       username_status: provisional
@@ -92,7 +92,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_FRANKLIN-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-AMISON_OT_9Z
+      citizen: CITIZEN-AMISON_OT_9Z
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-DISTRICT_2
@@ -110,8 +110,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FRANKLIN-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-DISTRICT_2
-  - type: Person
-    code: PERSON-PEDRICK_VN_4B
+  - type: Citizen
+    code: CITIZEN-PEDRICK_VN_4B
     attributes:
       username: pedrick_vn_4b
       username_status: provisional
@@ -125,7 +125,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-PEDRICK_VN_4B
+      citizen: CITIZEN-PEDRICK_VN_4B
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-DISTRICT_4
@@ -143,8 +143,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_FRANKLIN-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-DISTRICT_4
-  - type: Person
-    code: PERSON-WARD_KR_8D
+  - type: Citizen
+    code: CITIZEN-WARD_KR_8D
     attributes:
       username: ward_kr_8d
       username_status: provisional
@@ -158,4 +158,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_FRANKLIN-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-WARD_KR_8D
+      citizen: CITIZEN-WARD_KR_8D

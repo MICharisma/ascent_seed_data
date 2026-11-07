@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_FRANKLIN-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_FRANKLIN-REGISTER_OF_PROBATE
-  - type: Person
-    code: PERSON-GRAVES_DN_9M
+  - type: Citizen
+    code: CITIZEN-GRAVES_DN_9M
     attributes:
       username: graves_dn_9m
       username_status: provisional
@@ -54,7 +54,7 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-COUNTY_FRANKLIN-REGISTER_OF_PROBATE-2026_GENERAL
-      person: PERSON-GRAVES_DN_9M
+      citizen: CITIZEN-GRAVES_DN_9M
 - records:
   - type: Office
     code: OFFICE-USA-MA-COUNTY_FRANKLIN-SHERIFF
@@ -71,8 +71,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_FRANKLIN-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_FRANKLIN-SHERIFF
-  - type: Person
-    code: PERSON-STREETER_LR_5C
+  - type: Citizen
+    code: CITIZEN-STREETER_LR_5C
     attributes:
       username: streeter_lr_5c
       username_status: provisional
@@ -90,9 +90,9 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-COUNTY_FRANKLIN-SHERIFF-UNEXPIRED_TERM-2026_GENERAL
-      person: PERSON-STREETER_LR_5C
-  - type: Person
-    code: PERSON-GAGNON_GR_6P
+      citizen: CITIZEN-STREETER_LR_5C
+  - type: Citizen
+    code: CITIZEN-GAGNON_GR_6P
     attributes:
       username: gagnon_gr_6p
       username_status: provisional
@@ -109,9 +109,9 @@ groups:
         kind: designation
     references:
       race: RACE-USA-MA-COUNTY_FRANKLIN-SHERIFF-UNEXPIRED_TERM-2026_GENERAL
-      person: PERSON-GAGNON_GR_6P
-  - type: Person
-    code: PERSON-HALL_JN_7H
+      citizen: CITIZEN-GAGNON_GR_6P
+  - type: Citizen
+    code: CITIZEN-HALL_JN_7H
     attributes:
       username: hall_jn_7h
       username_status: provisional
@@ -128,7 +128,7 @@ groups:
         kind: designation
     references:
       race: RACE-USA-MA-COUNTY_FRANKLIN-SHERIFF-UNEXPIRED_TERM-2026_GENERAL
-      person: PERSON-HALL_JN_7H
+      citizen: CITIZEN-HALL_JN_7H
 - records:
   - type: Office
     code: OFFICE-USA-MA-COUNTY_FRANKLIN-COUNCIL_OF_GOVERNMENTS_EXECUTIVE_COMMITTEE_MEMBER
@@ -145,8 +145,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_FRANKLIN-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_FRANKLIN-COUNCIL_OF_GOVERNMENTS_EXECUTIVE_COMMITTEE_MEMBER
-  - type: Person
-    code: PERSON-PEIRCE_JN_5J
+  - type: Citizen
+    code: CITIZEN-PEIRCE_JN_5J
     attributes:
       username: peirce_jn_5j
       username_status: provisional
@@ -160,4 +160,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-MA-COUNTY_FRANKLIN-COUNCIL_OF_GOVERNMENTS_EXECUTIVE_COMMITTEE_MEMBER-2026_GENERAL
-      person: PERSON-PEIRCE_JN_5J
+      citizen: CITIZEN-PEIRCE_JN_5J

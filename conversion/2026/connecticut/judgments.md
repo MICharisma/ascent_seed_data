@@ -13,14 +13,14 @@ Rules come from `rules.yml`. Party lines link to Party records and count as the 
 - party: Democratic Party, Green Party, Independent Party, Republican Party, Working Families Party
 - petition: Petitioning Candidate
 
-## People included off the ballot
+## Citizens included off the ballot
 
 - Damon Lawrence Cerreta (Representative in Congress 4): Green Papers candidate with no CTEMS ballot line. Included with participation `off_ballot` and no ballot line.
 - Ryan Cournoyer (State Representative 51): Killingly sample ballot page 3. Included with participation `off_ballot` and no ballot line.
 
 ## Name spellings
 
-2 other spellings are recorded in `name_spellings.yml`. Each Person keeps the official ballot spelling.
+2 other spellings are recorded in `name_spellings.yml`. Each Citizen keeps the official ballot spelling.
 
 ## Conflicts not applied
 
@@ -41,4 +41,4 @@ The manifests do not store `incumbent`, `fec_candidate_id`, `county`, `jurisdict
 
 ## Missing evidence
 
-No person is printed with a surname only.
+No citizen is printed with a surname only.

@@ -71,8 +71,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_SPECIAL
       office: OFFICE-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT
-  - type: Person
-    code: PERSON-JONES_BL_9G
+  - type: Citizen
+    code: CITIZEN-JONES_BL_9G
     attributes:
       username: jones_bl_9g
       username_status: provisional
@@ -86,9 +86,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-2026_SPECIAL
-      person: PERSON-JONES_BL_9G
-  - type: Person
-    code: PERSON-LAGES_FR_5H
+      citizen: CITIZEN-JONES_BL_9G
+  - type: Citizen
+    code: CITIZEN-LAGES_FR_5H
     attributes:
       username: lages_fr_5h
       username_status: provisional
@@ -102,9 +102,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-2026_SPECIAL
-      person: PERSON-LAGES_FR_5H
-  - type: Person
-    code: PERSON-SPENCE_KT_9X
+      citizen: CITIZEN-LAGES_FR_5H
+  - type: Citizen
+    code: CITIZEN-SPENCE_KT_9X
     attributes:
       username: spence_kt_9x
       username_status: provisional
@@ -118,7 +118,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-CLERK_OF_COURT-2026_SPECIAL
-      person: PERSON-SPENCE_KT_9X
+      citizen: CITIZEN-SPENCE_KT_9X
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_NOTTOWAY-MAYOR-BLACKSTONE
@@ -136,8 +136,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
       office: OFFICE-USA-VA-COUNTY_NOTTOWAY-MAYOR-BLACKSTONE
-  - type: Person
-    code: PERSON-BEAN_JS_4T
+  - type: Citizen
+    code: CITIZEN-BEAN_JS_4T
     attributes:
       username: bean_js_4t
       username_status: provisional
@@ -151,9 +151,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-MAYOR-BLACKSTONE-2026_GENERAL
-      person: PERSON-BEAN_JS_4T
-  - type: Person
-    code: PERSON-DICKENS_LF_3F
+      citizen: CITIZEN-BEAN_JS_4T
+  - type: Citizen
+    code: CITIZEN-DICKENS_LF_3F
     attributes:
       username: dickens_lf_3f
       username_status: provisional
@@ -166,7 +166,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-MAYOR-BLACKSTONE-2026_GENERAL
-      person: PERSON-DICKENS_LF_3F
+      citizen: CITIZEN-DICKENS_LF_3F
 - records:
   - type: Office
     code: OFFICE-USA-VA-BURKEVILLE-MAYOR
@@ -183,8 +183,8 @@ groups:
     references:
       election: ELECTION-USA-VA-BURKEVILLE-2026_GENERAL
       office: OFFICE-USA-VA-BURKEVILLE-MAYOR
-  - type: Person
-    code: PERSON-SMITH_GR_6L
+  - type: Citizen
+    code: CITIZEN-SMITH_GR_6L
     attributes:
       username: smith_gr_6l
       username_status: provisional
@@ -198,7 +198,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BURKEVILLE-MAYOR-2026_GENERAL
-      person: PERSON-SMITH_GR_6L
+      citizen: CITIZEN-SMITH_GR_6L
 - records:
   - type: Office
     code: OFFICE-USA-VA-CREWE-MAYOR
@@ -215,8 +215,8 @@ groups:
     references:
       election: ELECTION-USA-VA-CREWE-2026_GENERAL
       office: OFFICE-USA-VA-CREWE-MAYOR
-  - type: Person
-    code: PERSON-ENGMANN_EL_6M
+  - type: Citizen
+    code: CITIZEN-ENGMANN_EL_6M
     attributes:
       username: engmann_el_6m
       username_status: provisional
@@ -229,7 +229,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CREWE-MAYOR-2026_GENERAL
-      person: PERSON-ENGMANN_EL_6M
+      citizen: CITIZEN-ENGMANN_EL_6M
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNTY_SUPERVISOR-DISTRICT_3
@@ -247,8 +247,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_SPECIAL
       office: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNTY_SUPERVISOR-DISTRICT_3
-  - type: Person
-    code: PERSON-GREEN_AUGUST_JC_2Z
+  - type: Citizen
+    code: CITIZEN-GREEN_AUGUST_JC_2Z
     attributes:
       username: green_august_jc_2z
       username_status: provisional
@@ -262,7 +262,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNTY_SUPERVISOR-DISTRICT_3-2026_SPECIAL
-      person: PERSON-GREEN_AUGUST_JC_2Z
+      citizen: CITIZEN-GREEN_AUGUST_JC_2Z
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_A
@@ -280,8 +280,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
       office: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_A
-  - type: Person
-    code: PERSON-MILLER_NT_2H
+  - type: Citizen
+    code: CITIZEN-MILLER_NT_2H
     attributes:
       username: miller_nt_2h
       username_status: provisional
@@ -295,7 +295,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_A-2026_GENERAL
-      person: PERSON-MILLER_NT_2H
+      citizen: CITIZEN-MILLER_NT_2H
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_B
@@ -313,8 +313,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
       office: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_B
-  - type: Person
-    code: PERSON-EAHEART_BN_6Z
+  - type: Citizen
+    code: CITIZEN-EAHEART_BN_6Z
     attributes:
       username: eaheart_bn_6z
       username_status: provisional
@@ -328,9 +328,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_B-2026_GENERAL
-      person: PERSON-EAHEART_BN_6Z
-  - type: Person
-    code: PERSON-GORMUS_WS_4Z
+      citizen: CITIZEN-EAHEART_BN_6Z
+  - type: Citizen
+    code: CITIZEN-GORMUS_WS_4Z
     attributes:
       username: gormus_ws_4z
       username_status: provisional
@@ -343,7 +343,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_B-2026_GENERAL
-      person: PERSON-GORMUS_WS_4Z
+      citizen: CITIZEN-GORMUS_WS_4Z
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_C
@@ -361,8 +361,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
       office: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_C
-  - type: Person
-    code: PERSON-QUEEN_G_8D
+  - type: Citizen
+    code: CITIZEN-QUEEN_G_8D
     attributes:
       username: queen_g_8d
       username_status: provisional
@@ -376,9 +376,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_C-2026_GENERAL
-      person: PERSON-QUEEN_G_8D
-  - type: Person
-    code: PERSON-ALLMAN_JC_2S
+      citizen: CITIZEN-QUEEN_G_8D
+  - type: Citizen
+    code: CITIZEN-ALLMAN_JC_2S
     attributes:
       username: allman_jc_2s
       username_status: provisional
@@ -392,7 +392,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_C-2026_GENERAL
-      person: PERSON-ALLMAN_JC_2S
+      citizen: CITIZEN-ALLMAN_JC_2S
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_D
@@ -410,8 +410,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
       office: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_D
-  - type: Person
-    code: PERSON-WILLIAMS_CR_7S
+  - type: Citizen
+    code: CITIZEN-WILLIAMS_CR_7S
     attributes:
       username: williams_cr_7s
       username_status: provisional
@@ -425,7 +425,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_D-2026_GENERAL
-      person: PERSON-WILLIAMS_CR_7S
+      citizen: CITIZEN-WILLIAMS_CR_7S
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_E
@@ -443,8 +443,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
       office: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_E
-  - type: Person
-    code: PERSON-WYNN_LL_5H
+  - type: Citizen
+    code: CITIZEN-WYNN_LL_5H
     attributes:
       username: wynn_ll_5h
       username_status: provisional
@@ -458,7 +458,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-BLACKSTONE_WARD_E-2026_GENERAL
-      person: PERSON-WYNN_LL_5H
+      citizen: CITIZEN-WYNN_LL_5H
 - records:
   - type: Office
     code: OFFICE-USA-VA-BURKEVILLE-COUNCIL_MEMBER
@@ -475,8 +475,8 @@ groups:
     references:
       election: ELECTION-USA-VA-BURKEVILLE-2026_GENERAL
       office: OFFICE-USA-VA-BURKEVILLE-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-CUMMINGS_BR_2E
+  - type: Citizen
+    code: CITIZEN-CUMMINGS_BR_2E
     attributes:
       username: cummings_br_2e
       username_status: provisional
@@ -490,9 +490,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BURKEVILLE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-CUMMINGS_BR_2E
-  - type: Person
-    code: PERSON-HORN_JM_3N
+      citizen: CITIZEN-CUMMINGS_BR_2E
+  - type: Citizen
+    code: CITIZEN-HORN_JM_3N
     attributes:
       username: horn_jm_3n
       username_status: provisional
@@ -506,9 +506,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BURKEVILLE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-HORN_JM_3N
-  - type: Person
-    code: PERSON-JONES_KV_5T
+      citizen: CITIZEN-HORN_JM_3N
+  - type: Citizen
+    code: CITIZEN-JONES_KV_5T
     attributes:
       username: jones_kv_5t
       username_status: provisional
@@ -522,9 +522,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BURKEVILLE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-JONES_KV_5T
-  - type: Person
-    code: PERSON-DANIELS_TH_3C
+      citizen: CITIZEN-JONES_KV_5T
+  - type: Citizen
+    code: CITIZEN-DANIELS_TH_3C
     attributes:
       username: daniels_th_3c
       username_status: provisional
@@ -538,7 +538,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BURKEVILLE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-DANIELS_TH_3C
+      citizen: CITIZEN-DANIELS_TH_3C
 - records:
   - type: Office
     code: OFFICE-USA-VA-CREWE-COUNCIL_MEMBER
@@ -555,8 +555,8 @@ groups:
     references:
       election: ELECTION-USA-VA-CREWE-2026_GENERAL
       office: OFFICE-USA-VA-CREWE-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-STINSON_AN_4B
+  - type: Citizen
+    code: CITIZEN-STINSON_AN_4B
     attributes:
       username: stinson_an_4b
       username_status: provisional
@@ -570,9 +570,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-STINSON_AN_4B
-  - type: Person
-    code: PERSON-MUNIR_AN_6P
+      citizen: CITIZEN-STINSON_AN_4B
+  - type: Citizen
+    code: CITIZEN-MUNIR_AN_6P
     attributes:
       username: munir_an_6p
       username_status: provisional
@@ -586,9 +586,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-MUNIR_AN_6P
-  - type: Person
-    code: PERSON-FARMER_MR_8R
+      citizen: CITIZEN-MUNIR_AN_6P
+  - type: Citizen
+    code: CITIZEN-FARMER_MR_8R
     attributes:
       username: farmer_mr_8r
       username_status: provisional
@@ -602,9 +602,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-FARMER_MR_8R
-  - type: Person
-    code: PERSON-ESTES_ML_7N
+      citizen: CITIZEN-FARMER_MR_8R
+  - type: Citizen
+    code: CITIZEN-ESTES_ML_7N
     attributes:
       username: estes_ml_7n
       username_status: provisional
@@ -618,9 +618,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-ESTES_ML_7N
-  - type: Person
-    code: PERSON-VICK_RL_3K
+      citizen: CITIZEN-ESTES_ML_7N
+  - type: Citizen
+    code: CITIZEN-VICK_RL_3K
     attributes:
       username: vick_rl_3k
       username_status: provisional
@@ -634,9 +634,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-VICK_RL_3K
-  - type: Person
-    code: PERSON-VICK_RL_9Z
+      citizen: CITIZEN-VICK_RL_3K
+  - type: Citizen
+    code: CITIZEN-VICK_RL_9Z
     attributes:
       username: vick_rl_9z
       username_status: provisional
@@ -650,9 +650,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-VICK_RL_9Z
-  - type: Person
-    code: PERSON-SAPP_RB_7R
+      citizen: CITIZEN-VICK_RL_9Z
+  - type: Citizen
+    code: CITIZEN-SAPP_RB_7R
     attributes:
       username: sapp_rb_7r
       username_status: provisional
@@ -666,9 +666,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-SAPP_RB_7R
-  - type: Person
-    code: PERSON-DAVIS_T_8K
+      citizen: CITIZEN-SAPP_RB_7R
+  - type: Citizen
+    code: CITIZEN-DAVIS_T_8K
     attributes:
       username: davis_t_8k
       username_status: provisional
@@ -682,9 +682,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-DAVIS_T_8K
-  - type: Person
-    code: PERSON-WILLIAMS_WL_3U
+      citizen: CITIZEN-DAVIS_T_8K
+  - type: Citizen
+    code: CITIZEN-WILLIAMS_WL_3U
     attributes:
       username: williams_wl_3u
       username_status: provisional
@@ -698,7 +698,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CREWE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-WILLIAMS_WL_3U
+      citizen: CITIZEN-WILLIAMS_WL_3U
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE
@@ -716,8 +716,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_GENERAL
       office: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE
-  - type: Person
-    code: PERSON-PAGE_CH_2J
+  - type: Citizen
+    code: CITIZEN-PAGE_CH_2J
     attributes:
       username: page_ch_2j
       username_status: provisional
@@ -731,9 +731,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
-      person: PERSON-PAGE_CH_2J
-  - type: Person
-    code: PERSON-WILSON_DR_5N
+      citizen: CITIZEN-PAGE_CH_2J
+  - type: Citizen
+    code: CITIZEN-WILSON_DR_5N
     attributes:
       username: wilson_dr_5n
       username_status: provisional
@@ -747,9 +747,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
-      person: PERSON-WILSON_DR_5N
-  - type: Person
-    code: PERSON-NASH_ER_8A
+      citizen: CITIZEN-WILSON_DR_5N
+  - type: Citizen
+    code: CITIZEN-NASH_ER_8A
     attributes:
       username: nash_er_8a
       username_status: provisional
@@ -763,9 +763,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
-      person: PERSON-NASH_ER_8A
-  - type: Person
-    code: PERSON-FRISBY_RN_5W
+      citizen: CITIZEN-NASH_ER_8A
+  - type: Citizen
+    code: CITIZEN-FRISBY_RN_5W
     attributes:
       username: frisby_rn_5w
       username_status: provisional
@@ -779,7 +779,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
-      person: PERSON-FRISBY_RN_5W
+      citizen: CITIZEN-FRISBY_RN_5W
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-CREWE
@@ -797,8 +797,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_NOTTOWAY-2026_SPECIAL
       office: OFFICE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-CREWE
-  - type: Person
-    code: PERSON-PAYNE_BR_3Y
+  - type: Citizen
+    code: CITIZEN-PAYNE_BR_3Y
     attributes:
       username: payne_br_3y
       username_status: provisional
@@ -812,4 +812,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_NOTTOWAY-COUNCIL_MEMBER-CREWE-2026_SPECIAL
-      person: PERSON-PAYNE_BR_3Y
+      citizen: CITIZEN-PAYNE_BR_3Y

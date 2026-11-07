@@ -15,14 +15,14 @@ Rules come from `rules.yml`. Party lines link to Party records and count as the 
 - not printed: Democratic, Independent, Republican
 - party: Democratic, Green, Libertarian, Republican
 
-## People included off the ballot
+## Citizens included off the ballot
 
 - Steven Anthony Goforth (Member, House of Representatives 10): Green Papers candidate not on the ELECT candidate list. Included with participation `off_ballot` and no ballot line.
 - Omar Morsy (Member, House of Representatives 10): Green Papers candidate not on the ELECT candidate list. Included with participation `off_ballot` and no ballot line.
 
 ## Name spellings
 
-0 other spellings are recorded in `name_spellings.yml`. Each Person keeps the official ballot spelling.
+0 other spellings are recorded in `name_spellings.yml`. Each Citizen keeps the official ballot spelling.
 
 ## Conflicts not applied
 
@@ -38,4 +38,4 @@ The manifests do not store `incumbent`, `fec_candidate_id`, `county`, `jurisdict
 
 ## Missing evidence
 
-No person is printed with a surname only.
+No citizen is printed with a surname only.

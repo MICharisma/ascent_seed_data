@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-VA-VINTON-2026_GENERAL
       office: OFFICE-USA-VA-VINTON-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-STOVALL_MC_5G
+  - type: Citizen
+    code: CITIZEN-STOVALL_MC_5G
     attributes:
       username: stovall_mc_5g
       username_status: provisional
@@ -50,9 +50,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VINTON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-STOVALL_MC_5G
-  - type: Person
-    code: PERSON-MCCARTY_SB_6F
+      citizen: CITIZEN-STOVALL_MC_5G
+  - type: Citizen
+    code: CITIZEN-MCCARTY_SB_6F
     attributes:
       username: mccarty_sb_6f
       username_status: provisional
@@ -66,4 +66,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VINTON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-MCCARTY_SB_6F
+      citizen: CITIZEN-MCCARTY_SB_6F

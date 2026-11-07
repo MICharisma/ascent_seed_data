@@ -59,8 +59,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_DICKENSON-2026_SPECIAL
       office: OFFICE-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY
-  - type: Person
-    code: PERSON-EVANS_JS_4G
+  - type: Citizen
+    code: CITIZEN-EVANS_JS_4G
     attributes:
       username: evans_js_4g
       username_status: provisional
@@ -74,9 +74,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY-2026_SPECIAL
-      person: PERSON-EVANS_JS_4G
-  - type: Person
-    code: PERSON-MULLINS_ST_3S
+      citizen: CITIZEN-EVANS_JS_4G
+  - type: Citizen
+    code: CITIZEN-MULLINS_ST_3S
     attributes:
       username: mullins_st_3s
       username_status: provisional
@@ -90,7 +90,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_DICKENSON-COMMONWEALTHS_ATTORNEY-2026_SPECIAL
-      person: PERSON-MULLINS_ST_3S
+      citizen: CITIZEN-MULLINS_ST_3S
 - records:
   - type: Office
     code: OFFICE-USA-VA-CLINTWOOD-MAYOR
@@ -107,8 +107,8 @@ groups:
     references:
       election: ELECTION-USA-VA-CLINTWOOD-2026_GENERAL
       office: OFFICE-USA-VA-CLINTWOOD-MAYOR
-  - type: Person
-    code: PERSON-WYNN_CH_5K
+  - type: Citizen
+    code: CITIZEN-WYNN_CH_5K
     attributes:
       username: wynn_ch_5k
       username_status: provisional
@@ -122,9 +122,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CLINTWOOD-MAYOR-2026_GENERAL
-      person: PERSON-WYNN_CH_5K
-  - type: Person
-    code: PERSON-LAMBERT_DN_3S
+      citizen: CITIZEN-WYNN_CH_5K
+  - type: Citizen
+    code: CITIZEN-LAMBERT_DN_3S
     attributes:
       username: lambert_dn_3s
       username_status: provisional
@@ -138,7 +138,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CLINTWOOD-MAYOR-2026_GENERAL
-      person: PERSON-LAMBERT_DN_3S
+      citizen: CITIZEN-LAMBERT_DN_3S
 - records:
   - type: Office
     code: OFFICE-USA-VA-CLINTWOOD-COUNCIL_MEMBER
@@ -155,8 +155,8 @@ groups:
     references:
       election: ELECTION-USA-VA-CLINTWOOD-2026_GENERAL
       office: OFFICE-USA-VA-CLINTWOOD-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-EDWARDS_CR_3R
+  - type: Citizen
+    code: CITIZEN-EDWARDS_CR_3R
     attributes:
       username: edwards_cr_3r
       username_status: provisional
@@ -170,9 +170,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CLINTWOOD-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-EDWARDS_CR_3R
-  - type: Person
-    code: PERSON-ROSE_JM_5V
+      citizen: CITIZEN-EDWARDS_CR_3R
+  - type: Citizen
+    code: CITIZEN-ROSE_JM_5V
     attributes:
       username: rose_jm_5v
       username_status: provisional
@@ -186,9 +186,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CLINTWOOD-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-ROSE_JM_5V
-  - type: Person
-    code: PERSON-CHILDRESS_JM_9R
+      citizen: CITIZEN-ROSE_JM_5V
+  - type: Citizen
+    code: CITIZEN-CHILDRESS_JM_9R
     attributes:
       username: childress_jm_9r
       username_status: provisional
@@ -202,7 +202,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CLINTWOOD-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-CHILDRESS_JM_9R
+      citizen: CITIZEN-CHILDRESS_JM_9R
 - records:
   - type: Office
     code: OFFICE-USA-VA-HAYSI-COUNCIL_MEMBER
@@ -219,8 +219,8 @@ groups:
     references:
       election: ELECTION-USA-VA-HAYSI-2026_GENERAL
       office: OFFICE-USA-VA-HAYSI-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-THACKER_LL_2Q
+  - type: Citizen
+    code: CITIZEN-THACKER_LL_2Q
     attributes:
       username: thacker_ll_2q
       username_status: provisional
@@ -234,9 +234,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HAYSI-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-THACKER_LL_2Q
-  - type: Person
-    code: PERSON-HARRIS_MC_4R
+      citizen: CITIZEN-THACKER_LL_2Q
+  - type: Citizen
+    code: CITIZEN-HARRIS_MC_4R
     attributes:
       username: harris_mc_4r
       username_status: provisional
@@ -250,9 +250,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HAYSI-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-HARRIS_MC_4R
-  - type: Person
-    code: PERSON-TILLER_SS_9G
+      citizen: CITIZEN-HARRIS_MC_4R
+  - type: Citizen
+    code: CITIZEN-TILLER_SS_9G
     attributes:
       username: tiller_ss_9g
       username_status: provisional
@@ -266,9 +266,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HAYSI-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-TILLER_SS_9G
-  - type: Person
-    code: PERSON-WALLACE_TR_4P
+      citizen: CITIZEN-TILLER_SS_9G
+  - type: Citizen
+    code: CITIZEN-WALLACE_TR_4P
     attributes:
       username: wallace_tr_4p
       username_status: provisional
@@ -282,7 +282,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HAYSI-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-WALLACE_TR_4P
+      citizen: CITIZEN-WALLACE_TR_4P
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_DICKENSON-COUNCIL_MEMBER
@@ -299,8 +299,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_DICKENSON-2026_SPECIAL
       office: OFFICE-USA-VA-COUNTY_DICKENSON-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-BRANHAM_CR_7P
+  - type: Citizen
+    code: CITIZEN-BRANHAM_CR_7P
     attributes:
       username: branham_cr_7p
       username_status: provisional
@@ -314,9 +314,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_DICKENSON-COUNCIL_MEMBER-2026_SPECIAL
-      person: PERSON-BRANHAM_CR_7P
-  - type: Person
-    code: PERSON-MOORE_T_8F
+      citizen: CITIZEN-BRANHAM_CR_7P
+  - type: Citizen
+    code: CITIZEN-MOORE_T_8F
     attributes:
       username: moore_t_8f
       username_status: provisional
@@ -330,4 +330,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_DICKENSON-COUNCIL_MEMBER-2026_SPECIAL
-      person: PERSON-MOORE_T_8F
+      citizen: CITIZEN-MOORE_T_8F

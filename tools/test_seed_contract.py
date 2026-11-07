@@ -16,12 +16,12 @@ class CandidateAccountsTest(unittest.TestCase):
     def setUp(self):
         self.document = contract.load_document(contract.ROOT / "examples/candidate_accounts.json")
         self.schema = contract.validator("candidate-accounts.schema.json")
-        person, campaign = [row["references"]["owner"] for row in self.document["records"]]
+        citizen, campaign = [row["references"]["owner"] for row in self.document["records"]]
         self.index = {
-            person: {"code": person, "type": "Person", "attributes": {"first_name": "Avery", "last_name": "Example"},
-                     "references": {}, "files": ["people.yml"]},
+            citizen: {"code": citizen, "type": "Citizen", "attributes": {"first_name": "Avery", "last_name": "Example"},
+                     "references": {}, "files": ["citizens.yml"]},
             campaign: {"code": campaign, "type": "Candidacy", "attributes": {},
-                       "references": {"person": person, "race": "RACE-USA-NY-GOVERNOR-2026_GENERAL"}, "files": ["races.yml"]},
+                       "references": {"citizen": citizen, "race": "RACE-USA-NY-GOVERNOR-2026_GENERAL"}, "files": ["races.yml"]},
         }
 
     def test_templates_are_equivalent_and_match_both_schemas(self):
@@ -58,7 +58,7 @@ class CandidateAccountsTest(unittest.TestCase):
         self.assertTrue(list(schema.iter_errors(document)))
 
     def test_worker_schema_rejects_incomplete_or_unsupported_records(self):
-        for mutation in ("empty", "id", "owner_id", "owner_type", "new_person", "unknown_platform", "missing_source",
+        for mutation in ("empty", "id", "owner_id", "owner_type", "new_citizen", "unknown_platform", "missing_source",
                          "missing_owner", "source_date", "source_url", "blank_note", "profile_url", "unofficial",
                          "at_handle", "groups", "alias", "short_owner", "lowercase_code"):
             document = copy.deepcopy(self.document)
@@ -67,8 +67,8 @@ class CandidateAccountsTest(unittest.TestCase):
                 document["records"] = []
             elif mutation in ("id", "owner_id", "owner_type"):
                 row["attributes"][mutation] = 7347
-            elif mutation == "new_person":
-                row["type"] = "Person"
+            elif mutation == "new_citizen":
+                row["type"] = "Citizen"
             elif mutation == "unknown_platform":
                 row["attributes"]["platform"] = "mastodon"
             elif mutation == "missing_source":
@@ -99,10 +99,10 @@ class CandidateAccountsTest(unittest.TestCase):
                 self.assertTrue(list(self.schema.iter_errors(document)))
 
     def test_accounts_require_existing_full_owner_codes(self):
-        for owner in ("PERSON-EXAMPLE_AV", "PERSON-NOT_IN_CATALOG_7K", "PARTY-USA-NY-EXAMPLE"):
+        for owner in ("CITIZEN-EXAMPLE_AV", "CITIZEN-NOT_IN_CATALOG_7K", "PARTY-USA-NY-EXAMPLE"):
             document = copy.deepcopy(self.document)
             document["records"][0]["references"]["owner"] = owner
-            with self.subTest(owner=owner), self.assertRaisesRegex(ValueError, "existing full Person or Candidacy"):
+            with self.subTest(owner=owner), self.assertRaisesRegex(ValueError, "existing full Citizen or Candidacy"):
                 contract.check_accounts([("example", document)], self.index)
 
     def test_collisions_and_conflicts_fail_and_identical_replay_passes(self):
@@ -129,12 +129,12 @@ class CandidateAccountsTest(unittest.TestCase):
     def test_catalog_finds_nested_owners_and_exports_their_race(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            person, campaign = self.index.values()
+            citizen, campaign = self.index.values()
             document = {"format": "micharisma-seeds/v1", "namespace": "MIC", "catalog": "ASC",
                         "scope": {"race": campaign["references"]["race"]},
                         "groups": [{"groups": [{"records": [
                             {key: row[key] for key in ("type", "code", "attributes", "references")}
-                            for row in (person, campaign)
+                            for row in (citizen, campaign)
                         ]}]}]}
             (root / "nested.json").write_text(json.dumps(document))
             index = contract.catalog(root)
@@ -142,7 +142,7 @@ class CandidateAccountsTest(unittest.TestCase):
             self.assertEqual(len(exported), 2)
             candidacy = next(row for row in exported if row["type"] == "Candidacy")
             self.assertEqual(candidacy["name"], "Avery Example")
-            self.assertEqual(candidacy["person"], person["code"])
+            self.assertEqual(candidacy["citizen"], citizen["code"])
             self.assertEqual(candidacy["race"], campaign["references"]["race"])
             contract.check_accounts([("example", self.document)], index)
 
@@ -211,13 +211,13 @@ class CandidateAccountsTest(unittest.TestCase):
             path.write_text(json.dumps(document))
             self.assertEqual(contract.main(["validate", str(folder)]), 1)
 
-    def test_person_definitions_require_full_disambiguated_codes_and_reject_duplicates(self):
+    def test_citizen_definitions_require_full_disambiguated_codes_and_reject_duplicates(self):
         schema = contract.validator("asc.schema.json")
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             bare = {
                 "format": "micharisma-seeds/v1", "namespace": "MIC", "catalog": "ASC",
-                "records": [{"type": "Person", "code": "PERSON-JAMES_LT", "attributes": {"first_name": "Letitia", "last_name": "James"}}],
+                "records": [{"type": "Citizen", "code": "CITIZEN-JAMES_LT", "attributes": {"first_name": "Letitia", "last_name": "James"}}],
             }
             bare_path = root / "bare.json"
             bare_path.write_text(json.dumps(bare))
@@ -228,21 +228,21 @@ class CandidateAccountsTest(unittest.TestCase):
 
             bad_username = copy.deepcopy(bare)
             bad_username["records"][0] = {
-                "type": "Person", "code": "PERSON-JAMES_LT_6J",
+                "type": "Citizen", "code": "CITIZEN-JAMES_LT_6J",
                 "attributes": {"username": "james_lt_9z", "username_status": "provisional", "first_name": "Letitia", "last_name": "James"},
             }
             bare_path.write_text(json.dumps(bad_username))
             with self.assertRaisesRegex(ValueError, "provisional username 'james_lt_9z' must match 'james_lt_6j'"):
                 contract.validate_file(bare_path, schema)
 
-            # A verified username is the person's own choice, so it may differ from the code.
+            # A verified username is the citizen's own choice, so it may differ from the code.
             bad_username["records"][0]["attributes"].update(username="tishjames", username_status="verified")
             bare_path.write_text(json.dumps(bad_username))
             contract.validate_file(bare_path, schema)
 
             valid = copy.deepcopy(bare)
             valid["records"][0] = {
-                "type": "Person", "code": "PERSON-JAMES_LT_6J",
+                "type": "Citizen", "code": "CITIZEN-JAMES_LT_6J",
                 "attributes": {"username": "james_lt_6j", "first_name": "Letitia", "last_name": "James"},
             }
             first_path = root / "first.json"
@@ -250,16 +250,16 @@ class CandidateAccountsTest(unittest.TestCase):
             bare_path.unlink()
             first_path.write_text(json.dumps(valid))
             second_path.write_text(json.dumps(valid))
-            with self.assertRaisesRegex(ValueError, "duplicate Person definition PERSON-JAMES_LT_6J"):
+            with self.assertRaisesRegex(ValueError, "duplicate Citizen definition CITIZEN-JAMES_LT_6J"):
                 contract.catalog(root)
             with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
                 self.assertEqual(contract.main(["validate", str(first_path), str(second_path)]), 1)
 
-    def test_full_person_definition_can_be_referenced_by_its_bare_name_code(self):
+    def test_full_citizen_definition_can_be_referenced_by_its_bare_name_code(self):
         document = {"format": "micharisma-seeds/v1", "namespace": "MIC", "catalog": "ASC", "records": [
-            {"type": "Person", "code": "PERSON-JAMES_LT_6J", "attributes": {"first_name": "Letitia", "last_name": "James"}},
+            {"type": "Citizen", "code": "CITIZEN-JAMES_LT_6J", "attributes": {"first_name": "Letitia", "last_name": "James"}},
             {"type": "Candidacy", "code": "CANDIDACY-USA-NY-ATTORNEY_GENERAL-2026_GENERAL-JAMES_LT_6J",
-             "references": {"person": "PERSON-JAMES_LT", "race": "RACE-USA-NY-ATTORNEY_GENERAL-2026_GENERAL"}},
+             "references": {"citizen": "CITIZEN-JAMES_LT", "race": "RACE-USA-NY-ATTORNEY_GENERAL-2026_GENERAL"}},
         ]}
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "candidacy.json"
@@ -270,42 +270,42 @@ class CandidateAccountsTest(unittest.TestCase):
         self.assertEqual(contract.name_code("Kathy Hochul"), "hochul_kt")
         self.assertEqual(contract.name_code("Joe Canino"), "canino_jo")
         self.assertEqual(contract.name_code("James Athans Jr."), "athans_jm")
-        result = contract.mint_person_code("NY", "2026-11-03", "Kathy Hochul", "Governor", index={}, taken=set())
-        self.assertEqual(result["code"], "PERSON-HOCHUL_KT_9A")
+        result = contract.mint_citizen_code("NY", "2026-11-03", "Kathy Hochul", "Governor", index={}, taken=set())
+        self.assertEqual(result["code"], "CITIZEN-HOCHUL_KT_9A")
         self.assertEqual(result["username"], "hochul_kt_9a")
 
-        next_slot = contract.mint_person_code("NY", "2026-11-03", "Kathy Hochul", "Governor", index={}, taken={"hochul_kt_9a"})
-        self.assertEqual(next_slot["code"], "PERSON-HOCHUL_KT_9B")
+        next_slot = contract.mint_citizen_code("NY", "2026-11-03", "Kathy Hochul", "Governor", index={}, taken={"hochul_kt_9a"})
+        self.assertEqual(next_slot["code"], "CITIZEN-HOCHUL_KT_9B")
 
     def test_mint_requires_explicit_choice_when_name_code_already_exists(self):
         index = {
-            "PERSON-LEVY_MT_2Q": {
-                "code": "PERSON-LEVY_MT_2Q", "type": "Person",
+            "CITIZEN-LEVY_MT_2Q": {
+                "code": "CITIZEN-LEVY_MT_2Q", "type": "Citizen",
                 "attributes": {"first_name": "Matt", "last_name": "Levy"},
                 "references": {}, "files": ["2026/florida/local.yml"],
             },
             "CANDIDACY-FL-LEVY": {
                 "code": "CANDIDACY-FL-LEVY", "type": "Candidacy", "attributes": {},
-                "references": {"person": "PERSON-LEVY_MT_2Q", "race": "RACE-USA-FL-PORT-2026_GENERAL"},
+                "references": {"citizen": "CITIZEN-LEVY_MT_2Q", "race": "RACE-USA-FL-PORT-2026_GENERAL"},
                 "files": ["2026/florida/local.yml"],
             },
         }
-        with self.assertRaisesRegex(ValueError, r"PERSON-LEVY_MT_2Q: Matt Levy \(RACE-USA-FL-PORT-2026_GENERAL\)"):
-            contract.mint_person_code("CA", "2026-06-02", "Matthew Chase Levy", "Governor", index=index, taken={"levy_mt_2q"})
+        with self.assertRaisesRegex(ValueError, r"CITIZEN-LEVY_MT_2Q: Matt Levy \(RACE-USA-FL-PORT-2026_GENERAL\)"):
+            contract.mint_citizen_code("CA", "2026-06-02", "Matthew Chase Levy", "Governor", index=index, taken={"levy_mt_2q"})
 
-        same = contract.mint_person_code(
+        same = contract.mint_citizen_code(
             "CA", "2026-06-02", "Matthew Chase Levy", "Governor",
-            same_as="PERSON-LEVY_MT_2Q", index=index, taken={"levy_mt_2q"}
+            same_as="CITIZEN-LEVY_MT_2Q", index=index, taken={"levy_mt_2q"}
         )
-        self.assertEqual(same["code"], "PERSON-LEVY_MT_2Q")
+        self.assertEqual(same["code"], "CITIZEN-LEVY_MT_2Q")
         self.assertEqual(same["resolution"], "existing")
 
-        minted = contract.mint_person_code(
+        minted = contract.mint_citizen_code(
             "CA", "2026-06-02", "Matthew Chase Levy", "Governor",
             is_new=True, index=index, taken={"levy_mt_2q"}
         )
-        self.assertRegex(minted["code"], r"^PERSON-LEVY_MT_[2-9][A-HJ-NP-Z]$")
-        self.assertNotEqual(minted["code"], "PERSON-LEVY_MT_2Q")
+        self.assertRegex(minted["code"], r"^CITIZEN-LEVY_MT_[2-9][A-HJ-NP-Z]$")
+        self.assertNotEqual(minted["code"], "CITIZEN-LEVY_MT_2Q")
         self.assertEqual(minted["resolution"], "new")
 
         stdout = io.StringIO()

@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-VA-MCKENNEY-2026_GENERAL
       office: OFFICE-USA-VA-MCKENNEY-MAYOR
-  - type: Person
-    code: PERSON-ABBEY_MG_7L
+  - type: Citizen
+    code: CITIZEN-ABBEY_MG_7L
     attributes:
       username: abbey_mg_7l
       username_status: provisional
@@ -50,7 +50,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MCKENNEY-MAYOR-2026_GENERAL
-      person: PERSON-ABBEY_MG_7L
+      citizen: CITIZEN-ABBEY_MG_7L
 - records:
   - type: Office
     code: OFFICE-USA-VA-MCKENNEY-COUNCIL_MEMBER
@@ -67,8 +67,8 @@ groups:
     references:
       election: ELECTION-USA-VA-MCKENNEY-2026_GENERAL
       office: OFFICE-USA-VA-MCKENNEY-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-MODRALL_AN_9V
+  - type: Citizen
+    code: CITIZEN-MODRALL_AN_9V
     attributes:
       username: modrall_an_9v
       username_status: provisional
@@ -82,9 +82,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MCKENNEY-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-MODRALL_AN_9V
-  - type: Person
-    code: PERSON-ANDERSON_M_6P
+      citizen: CITIZEN-MODRALL_AN_9V
+  - type: Citizen
+    code: CITIZEN-ANDERSON_M_6P
     attributes:
       username: anderson_m_6p
       username_status: provisional
@@ -98,9 +98,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MCKENNEY-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-ANDERSON_M_6P
-  - type: Person
-    code: PERSON-WOODLAND_SR_8U
+      citizen: CITIZEN-ANDERSON_M_6P
+  - type: Citizen
+    code: CITIZEN-WOODLAND_SR_8U
     attributes:
       username: woodland_sr_8u
       username_status: provisional
@@ -114,4 +114,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MCKENNEY-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-WOODLAND_SR_8U
+      citizen: CITIZEN-WOODLAND_SR_8U

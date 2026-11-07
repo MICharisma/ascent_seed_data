@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-KING_ER_2H
+  - type: Citizen
+    code: CITIZEN-KING_ER_2H
     attributes:
       username: king_er_2h
       username_status: provisional
@@ -53,9 +53,9 @@ groups:
         kind: write_in
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-KING_ER_2H
-  - type: Person
-    code: PERSON-KOHLER_MK_3U
+      citizen: CITIZEN-KING_ER_2H
+  - type: Citizen
+    code: CITIZEN-KOHLER_MK_3U
     attributes:
       username: kohler_mk_3u
       username_status: provisional
@@ -72,9 +72,9 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-KOHLER_MK_3U
-  - type: Person
-    code: PERSON-ROBINSON_MT_5B
+      citizen: CITIZEN-KOHLER_MK_3U
+  - type: Citizen
+    code: CITIZEN-ROBINSON_MT_5B
     attributes:
       username: robinson_mt_5b
       username_status: provisional
@@ -92,7 +92,7 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-ROBINSON_MT_5B
+      citizen: CITIZEN-ROBINSON_MT_5B
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_4
@@ -110,8 +110,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-HOFBERGER_AS_8F
+  - type: Citizen
+    code: CITIZEN-HOFBERGER_AS_8F
     attributes:
       username: hofberger_as_8f
       username_status: provisional
@@ -128,9 +128,9 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-HOFBERGER_AS_8F
-  - type: Person
-    code: PERSON-VINSON_JO_8B
+      citizen: CITIZEN-HOFBERGER_AS_8F
+  - type: Citizen
+    code: CITIZEN-VINSON_JO_8B
     attributes:
       username: vinson_jo_8b
       username_status: provisional
@@ -146,7 +146,7 @@ groups:
         kind: designation
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-VINSON_JO_8B
+      citizen: CITIZEN-VINSON_JO_8B
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_2
@@ -164,8 +164,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_2
-  - type: Person
-    code: PERSON-BARE_CH_4P
+  - type: Citizen
+    code: CITIZEN-BARE_CH_4P
     attributes:
       username: bare_ch_4p
       username_status: provisional
@@ -178,9 +178,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-BARE_CH_4P
-  - type: Person
-    code: PERSON-MYERS_SH_4G
+      citizen: CITIZEN-BARE_CH_4P
+  - type: Citizen
+    code: CITIZEN-MYERS_SH_4G
     attributes:
       username: myers_sh_4g
       username_status: provisional
@@ -193,7 +193,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-MYERS_SH_4G
+      citizen: CITIZEN-MYERS_SH_4G
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_4
@@ -211,8 +211,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_4
-  - type: Person
-    code: PERSON-COLE_BR_9N
+  - type: Citizen
+    code: CITIZEN-COLE_BR_9N
     attributes:
       username: cole_br_9n
       username_status: provisional
@@ -225,9 +225,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-COLE_BR_9N
-  - type: Person
-    code: PERSON-WHITE_BY_4N
+      citizen: CITIZEN-COLE_BR_9N
+  - type: Citizen
+    code: CITIZEN-WHITE_BY_4N
     attributes:
       username: white_by_4n
       username_status: provisional
@@ -241,7 +241,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-WHITE_BY_4N
+      citizen: CITIZEN-WHITE_BY_4N
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNTY_JUDGE-GROUP_2
@@ -259,8 +259,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_ESCAMBIA-COUNTY_JUDGE-GROUP_2
-  - type: Person
-    code: PERSON-YOUNG_CH_4R
+  - type: Citizen
+    code: CITIZEN-YOUNG_CH_4R
     attributes:
       username: young_ch_4r
       username_status: provisional
@@ -274,7 +274,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-COUNTY_JUDGE-GROUP_2-2026_GENERAL
-      person: PERSON-YOUNG_CH_4R
+      citizen: CITIZEN-YOUNG_CH_4R
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_2
@@ -292,8 +292,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_2
-  - type: Person
-    code: PERSON-BENSON_LS_7Z
+  - type: Citizen
+    code: CITIZEN-BENSON_LS_7Z
     attributes:
       username: benson_ls_7z
       username_status: provisional
@@ -310,9 +310,9 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_2-2026_GENERAL
-      person: PERSON-BENSON_LS_7Z
-  - type: Person
-    code: PERSON-HORNING_GL_8X
+      citizen: CITIZEN-BENSON_LS_7Z
+  - type: Citizen
+    code: CITIZEN-HORNING_GL_8X
     attributes:
       username: horning_gl_8x
       username_status: provisional
@@ -330,7 +330,7 @@ groups:
         party: PARTY-USA-FL-INDEPENDENT
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_2-2026_GENERAL
-      person: PERSON-HORNING_GL_8X
+      citizen: CITIZEN-HORNING_GL_8X
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_4
@@ -348,8 +348,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_4
-  - type: Person
-    code: PERSON-CAVENDER_JC_8T
+  - type: Citizen
+    code: CITIZEN-CAVENDER_JC_8T
     attributes:
       username: cavender_jc_8t
       username_status: provisional
@@ -366,9 +366,9 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_4-2026_GENERAL
-      person: PERSON-CAVENDER_JC_8T
-  - type: Person
-    code: PERSON-LITTON_GR_8Q
+      citizen: CITIZEN-CAVENDER_JC_8T
+  - type: Citizen
+    code: CITIZEN-LITTON_GR_8Q
     attributes:
       username: litton_gr_8q
       username_status: provisional
@@ -385,9 +385,9 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_4-2026_GENERAL
-      person: PERSON-LITTON_GR_8Q
-  - type: Person
-    code: PERSON-SCHOFIELD_RL_7D
+      citizen: CITIZEN-LITTON_GR_8Q
+  - type: Citizen
+    code: CITIZEN-SCHOFIELD_RL_7D
     attributes:
       username: schofield_rl_7d
       username_status: provisional
@@ -404,7 +404,7 @@ groups:
         kind: designation
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-ECUA_SEAT_4-2026_GENERAL
-      person: PERSON-SCHOFIELD_RL_7D
+      citizen: CITIZEN-SCHOFIELD_RL_7D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1
@@ -422,8 +422,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1
-  - type: Person
-    code: PERSON-TAYLOR_CR_4M
+  - type: Citizen
+    code: CITIZEN-TAYLOR_CR_4M
     attributes:
       username: taylor_cr_4m
       username_status: provisional
@@ -436,7 +436,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1-2026_GENERAL
-      person: PERSON-TAYLOR_CR_4M
+      citizen: CITIZEN-TAYLOR_CR_4M
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3
@@ -454,8 +454,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3
-  - type: Person
-    code: PERSON-DEWEESE_NR_3W
+  - type: Citizen
+    code: CITIZEN-DEWEESE_NR_3W
     attributes:
       username: deweese_nr_3w
       username_status: provisional
@@ -469,7 +469,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3-2026_GENERAL
-      person: PERSON-DEWEESE_NR_3W
+      citizen: CITIZEN-DEWEESE_NR_3W
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5
@@ -487,8 +487,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5
-  - type: Person
-    code: PERSON-PHILLIPS_MS_3P
+  - type: Citizen
+    code: CITIZEN-PHILLIPS_MS_3P
     attributes:
       username: phillips_ms_3p
       username_status: provisional
@@ -502,7 +502,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5-2026_GENERAL
-      person: PERSON-PHILLIPS_MS_3P
+      citizen: CITIZEN-PHILLIPS_MS_3P
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-SANTA_ROSA_ISLAND_AUTHORITY
@@ -520,8 +520,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-SANTA_ROSA_ISLAND_AUTHORITY
-  - type: Person
-    code: PERSON-LUPPERT_ST_9D
+  - type: Citizen
+    code: CITIZEN-LUPPERT_ST_9D
     attributes:
       username: luppert_st_9d
       username_status: provisional
@@ -534,7 +534,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-SPECIAL_DISTRICT_BOARD_MEMBER-SANTA_ROSA_ISLAND_AUTHORITY-2026_GENERAL
-      person: PERSON-LUPPERT_ST_9D
+      citizen: CITIZEN-LUPPERT_ST_9D
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_1
@@ -552,8 +552,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_1
-  - type: Person
-    code: PERSON-ADAMS_KV_9Y
+  - type: Citizen
+    code: CITIZEN-ADAMS_KV_9Y
     attributes:
       username: adams_kv_9y
       username_status: provisional
@@ -566,7 +566,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
-      person: PERSON-ADAMS_KV_9Y
+      citizen: CITIZEN-ADAMS_KV_9Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_2
@@ -584,8 +584,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_2
-  - type: Person
-    code: PERSON-FETSKO_PL_8Y
+  - type: Citizen
+    code: CITIZEN-FETSKO_PL_8Y
     attributes:
       username: fetsko_pl_8y
       username_status: provisional
@@ -599,7 +599,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-FETSKO_PL_8Y
+      citizen: CITIZEN-FETSKO_PL_8Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_3
@@ -617,8 +617,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_ESCAMBIA-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_3
-  - type: Person
-    code: PERSON-WILLIAMS_DV_6F
+  - type: Citizen
+    code: CITIZEN-WILLIAMS_DV_6F
     attributes:
       username: williams_dv_6f
       username_status: provisional
@@ -631,4 +631,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_ESCAMBIA-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
-      person: PERSON-WILLIAMS_DV_6F
+      citizen: CITIZEN-WILLIAMS_DV_6F

@@ -12,7 +12,7 @@ Rules come from `rules.yml`. Party lines link to Party records and count as the 
 - designation: 4 Our Immigrants, A Better Brewster, Affordable & Safe, Arts & Culture, BALANCED ROCK, BBP, BUILDING BRIDGES PARTY, Block Mamdani, C, CG, CIF, CIP, CITIZENS NOT DEVELOPERS, COMMUNITY FIRST, COMMUNITY PARTY, CON, CON/NORTH SALEM LOCAL, CSC, Chosen Spot, Citizen, Citizens for South Bristol, Coalition, Common Ground, Common Sense, Community First, Community Now, Conservative / Libertarian, Conservative / Working Together, D, DEM, Democrat, Democratic / Labor, Democratic / The Putnam Party, FAMILY FIRST PARTY, FGT AntiSemitism, FVB, Fair Courts, For All of Us, Good Governance, Good Neighbors, Haris Bhatti, Horicon, Johnsburg, KISCO UNITED, Karen Ortiz, Libertarian, MANOR TOGETHER, Mercedes Simmons Cares, Mohawk Valley 1st, NEIGHBORHOOD PARTY, NHN, No Kings, Nonpartisan, Our Future, PLEASANTVILLE CIVIC PARTY, People First, People Over Politics, Philipstown Focus, QBY Work Together, Queens United, R, REP, REP/BUILDING BRIDGES PARTY, Reform, SOMERS STRONG, Save NYC, Service Party, Socialism PSL, Southeast United, Speak The Truth, Stop Mamdani, Sunrise, TRANSPARENT ACCOUNTABLE GOVERNMENT (T.A.G.) PARTY, Taxpayer Rights, Taxpayer's, Taxpayers First, The Answer, The Putnam Party, UJ, VA, VOICE OF CROTON, VOTE AFFORDABLE, VP, Vote Affordable, Voter Options, W, WFP, WOR, WTP, We The People, Working Families / For the People, Working Together, Zero Town Tax
 - party: Conservative, Democratic, Republican, Working Families
 
-## People included off the ballot
+## Citizens included off the ballot
 
 - Sahir Ahsan (Representative in Congress 8): Green Papers lists this person; not on NYSBOE certified ballot for this office (GP marks as Write-in). Included with participation `off_ballot` and no ballot line.
 - Paul Mailhot (Governor): Green Papers lists this person; not on NYSBOE certified ballot for this office (GP marks as Write-in). Included with participation `off_ballot` and no ballot line.
@@ -22,7 +22,7 @@ Rules come from `rules.yml`. Party lines link to Party records and count as the 
 
 ## Name spellings
 
-14 other spellings are recorded in `name_spellings.yml`. Each Person keeps the official ballot spelling.
+14 other spellings are recorded in `name_spellings.yml`. Each Citizen keeps the official ballot spelling.
 
 ## Conflicts not applied
 
@@ -47,4 +47,4 @@ The manifests do not store `incumbent`, `fec_candidate_id`, `county`, `jurisdict
 
 ## Missing evidence
 
-No person is printed with a surname only.
+No citizen is printed with a surname only.

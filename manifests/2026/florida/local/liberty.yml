@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_LIBERTY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_LIBERTY-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-BAILEY_AN_9X
+  - type: Citizen
+    code: CITIZEN-BAILEY_AN_9X
     attributes:
       username: bailey_an_9x
       username_status: provisional
@@ -54,9 +54,9 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_LIBERTY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-BAILEY_AN_9X
-  - type: Person
-    code: PERSON-FLOWERS_JR_2H
+      citizen: CITIZEN-BAILEY_AN_9X
+  - type: Citizen
+    code: CITIZEN-FLOWERS_JR_2H
     attributes:
       username: flowers_jr_2h
       username_status: provisional
@@ -73,7 +73,7 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_LIBERTY-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-FLOWERS_JR_2H
+      citizen: CITIZEN-FLOWERS_JR_2H
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_LIBERTY-COUNTY_COMMISSIONER-DISTRICT_4
@@ -91,8 +91,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_LIBERTY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_LIBERTY-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-BROWN_DY_4E
+  - type: Citizen
+    code: CITIZEN-BROWN_DY_4E
     attributes:
       username: brown_dy_4e
       username_status: provisional
@@ -109,7 +109,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_LIBERTY-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-BROWN_DY_4E
+      citizen: CITIZEN-BROWN_DY_4E
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_LIBERTY-COUNTY_JUDGE-GROUP_1
@@ -127,8 +127,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_LIBERTY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_LIBERTY-COUNTY_JUDGE-GROUP_1
-  - type: Person
-    code: PERSON-BUFANO_CH_2C
+  - type: Citizen
+    code: CITIZEN-BUFANO_CH_2C
     attributes:
       username: bufano_ch_2c
       username_status: provisional
@@ -142,9 +142,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_LIBERTY-COUNTY_JUDGE-GROUP_1-2026_GENERAL
-      person: PERSON-BUFANO_CH_2C
-  - type: Person
-    code: PERSON-PARISH_LR_7U
+      citizen: CITIZEN-BUFANO_CH_2C
+  - type: Citizen
+    code: CITIZEN-PARISH_LR_7U
     attributes:
       username: parish_lr_7u
       username_status: provisional
@@ -158,7 +158,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_LIBERTY-COUNTY_JUDGE-GROUP_1-2026_GENERAL
-      person: PERSON-PARISH_LR_7U
+      citizen: CITIZEN-PARISH_LR_7U
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_LIBERTY-SCHOOL_BOARD_MEMBER-DISTRICT_3
@@ -176,8 +176,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_LIBERTY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_LIBERTY-SCHOOL_BOARD_MEMBER-DISTRICT_3
-  - type: Person
-    code: PERSON-SMITH_ER_4S
+  - type: Citizen
+    code: CITIZEN-SMITH_ER_4S
     attributes:
       username: smith_er_4s
       username_status: provisional
@@ -191,7 +191,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_LIBERTY-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
-      person: PERSON-SMITH_ER_4S
+      citizen: CITIZEN-SMITH_ER_4S
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_LIBERTY-SCHOOL_BOARD_MEMBER-DISTRICT_4
@@ -209,8 +209,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_LIBERTY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_LIBERTY-SCHOOL_BOARD_MEMBER-DISTRICT_4
-  - type: Person
-    code: PERSON-KINCAID_ML_5T
+  - type: Citizen
+    code: CITIZEN-KINCAID_ML_5T
     attributes:
       username: kincaid_ml_5t
       username_status: provisional
@@ -223,7 +223,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_LIBERTY-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-KINCAID_ML_5T
+      citizen: CITIZEN-KINCAID_ML_5T
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_LIBERTY-SCHOOL_BOARD_MEMBER-DISTRICT_5
@@ -241,8 +241,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_LIBERTY-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_LIBERTY-SCHOOL_BOARD_MEMBER-DISTRICT_5
-  - type: Person
-    code: PERSON-MORRIS_CH_7B
+  - type: Citizen
+    code: CITIZEN-MORRIS_CH_7B
     attributes:
       username: morris_ch_7b
       username_status: provisional
@@ -256,4 +256,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_LIBERTY-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
-      person: PERSON-MORRIS_CH_7B
+      citizen: CITIZEN-MORRIS_CH_7B

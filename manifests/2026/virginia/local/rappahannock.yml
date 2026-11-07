@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-VA-WASHINGTON-2026_GENERAL
       office: OFFICE-USA-VA-WASHINGTON-MAYOR
-  - type: Person
-    code: PERSON-WHITED_JS_4G
+  - type: Citizen
+    code: CITIZEN-WHITED_JS_4G
     attributes:
       username: whited_js_4g
       username_status: provisional
@@ -50,7 +50,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WASHINGTON-MAYOR-2026_GENERAL
-      person: PERSON-WHITED_JS_4G
+      citizen: CITIZEN-WHITED_JS_4G
 - records:
   - type: Office
     code: OFFICE-USA-VA-WASHINGTON-COUNCIL_MEMBER
@@ -67,8 +67,8 @@ groups:
     references:
       election: ELECTION-USA-VA-WASHINGTON-2026_GENERAL
       office: OFFICE-USA-VA-WASHINGTON-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-SCHNEIDER_BR_6V
+  - type: Citizen
+    code: CITIZEN-SCHNEIDER_BR_6V
     attributes:
       username: schneider_br_6v
       username_status: provisional
@@ -82,9 +82,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WASHINGTON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-SCHNEIDER_BR_6V
-  - type: Person
-    code: PERSON-BEARD_J_9U
+      citizen: CITIZEN-SCHNEIDER_BR_6V
+  - type: Citizen
+    code: CITIZEN-BEARD_J_9U
     attributes:
       username: beard_j_9u
       username_status: provisional
@@ -98,9 +98,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WASHINGTON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-BEARD_J_9U
-  - type: Person
-    code: PERSON-SULLIVAN_JH_9R
+      citizen: CITIZEN-BEARD_J_9U
+  - type: Citizen
+    code: CITIZEN-SULLIVAN_JH_9R
     attributes:
       username: sullivan_jh_9r
       username_status: provisional
@@ -114,9 +114,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WASHINGTON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-SULLIVAN_JH_9R
-  - type: Person
-    code: PERSON-OCONNELL_PT_5X
+      citizen: CITIZEN-SULLIVAN_JH_9R
+  - type: Citizen
+    code: CITIZEN-OCONNELL_PT_5X
     attributes:
       username: oconnell_pt_5x
       username_status: provisional
@@ -130,9 +130,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WASHINGTON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-OCONNELL_PT_5X
-  - type: Person
-    code: PERSON-BRUCE_TH_5F
+      citizen: CITIZEN-OCONNELL_PT_5X
+  - type: Citizen
+    code: CITIZEN-BRUCE_TH_5F
     attributes:
       username: bruce_th_5f
       username_status: provisional
@@ -146,7 +146,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WASHINGTON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-BRUCE_TH_5F
+      citizen: CITIZEN-BRUCE_TH_5F
 - records:
   - type: Office
     code: OFFICE-USA-VA-WASHINGTON-TREASURER
@@ -163,8 +163,8 @@ groups:
     references:
       election: ELECTION-USA-VA-WASHINGTON-2026_GENERAL
       office: OFFICE-USA-VA-WASHINGTON-TREASURER
-  - type: Person
-    code: PERSON-HARRIS_DB_2R
+  - type: Citizen
+    code: CITIZEN-HARRIS_DB_2R
     attributes:
       username: harris_db_2r
       username_status: provisional
@@ -178,4 +178,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WASHINGTON-TREASURER-2026_GENERAL
-      person: PERSON-HARRIS_DB_2R
+      citizen: CITIZEN-HARRIS_DB_2R

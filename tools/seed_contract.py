@@ -19,7 +19,7 @@ import reference_catalog
 
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMAS = ROOT / "schemas" / "v1"
-PERSON_CODE_RE = re.compile(r"^PERSON-[A-Z0-9]+(?:_[A-Z0-9]+)*_[2-9][A-HJ-NP-Z]$")
+CITIZEN_CODE_RE = re.compile(r"^CITIZEN-[A-Z0-9]+(?:_[A-Z0-9]+)*_[2-9][A-HJ-NP-Z]$")
 DISAMBIGUATORS = [f"{digit}{letter}" for digit in "23456789" for letter in "abcdefghjklmnpqrstuvwxyz"]
 SUFFIX_RE = re.compile(r"^(?:jr|sr|ii|iii|iv|v|esq|esquire)\.?$", re.I)
 TRANSLIT = str.maketrans({"ł": "l", "Ł": "L", "ø": "o", "Ø": "O", "ß": "ss", "æ": "ae", "Æ": "AE", "œ": "oe", "Œ": "OE", "đ": "d", "Đ": "D"})
@@ -89,16 +89,16 @@ def validator(name):
     return Draft202012Validator(schema, registry=registry, format_checker=FormatChecker())
 
 
-def validate_person_record(row):
+def validate_citizen_record(row):
     code = row.get("code", "")
-    if not PERSON_CODE_RE.match(code):
-        raise ValueError(f"Person definition {code} requires a disambiguator; bare name codes are allowed only as references")
-    # A provisional username is the code itself; a verified one is the person's own choice.
+    if not CITIZEN_CODE_RE.match(code):
+        raise ValueError(f"Citizen definition {code} requires a disambiguator; bare name codes are allowed only as references")
+    # A provisional username is the code itself; a verified one is the citizen's own choice.
     attributes = row.get("attributes", {})
     username = attributes.get("username")
-    expected_username = code.removeprefix("PERSON-").lower()
+    expected_username = code.removeprefix("CITIZEN-").lower()
     if attributes.get("username_status") == "provisional" and username != expected_username:
-        raise ValueError(f"Person definition {code} provisional username {username!r} must match {expected_username!r}")
+        raise ValueError(f"Citizen definition {code} provisional username {username!r} must match {expected_username!r}")
 
 
 def iter_records(container, inherited_scope=None):
@@ -121,11 +121,11 @@ def validate_district_scope(row, scope):
 def validate_records(document):
     seen = set()
     for row, scope in iter_records(document):
-        if row["type"] == "Person":
-            validate_person_record(row)
+        if row["type"] == "Citizen":
+            validate_citizen_record(row)
             code = row["code"]
             if code in seen:
-                raise ValueError(f"duplicate Person definition {code}")
+                raise ValueError(f"duplicate Citizen definition {code}")
             seen.add(code)
         validate_district_scope(row, scope)
 
@@ -167,14 +167,14 @@ def catalog(root):
         for row in container.get("records", []):
             code = row["code"]
             validate_district_scope(row, scope | row.get("scope", {}))
-            if row["type"] == "Person":
-                validate_person_record(row)
+            if row["type"] == "Citizen":
+                validate_citizen_record(row)
             entry = index.setdefault(code, {"code": code, "type": row["type"], "attributes": {},
                                             "references": {}, "aliases": [], "files": []})
             if entry["type"] != row["type"]:
                 raise ValueError(f"{code} names multiple entity types")
-            if row["type"] == "Person" and entry["files"]:
-                raise ValueError(f"{path}: duplicate Person definition {code} (already defined in {entry['files'][0]})")
+            if row["type"] == "Citizen" and entry["files"]:
+                raise ValueError(f"{path}: duplicate Citizen definition {code} (already defined in {entry['files'][0]})")
             if row["type"] == "Channel":
                 owner = (scope | row.get("scope", {}) | row.get("references", {})).get("owner")
                 existing_owner = entry["references"].get("owner")
@@ -212,7 +212,7 @@ def reference_code(value):
     return value.get("code") if isinstance(value, dict) else value
 
 
-def person_full_name(attributes):
+def citizen_full_name(attributes):
     return " ".join(attributes[key] for key in ("first_name", "middle_name", "last_name") if attributes.get(key))
 
 
@@ -263,120 +263,120 @@ def first_appearance_facts(state, election_date, printed_name, printed_office):
 
 
 def mint_username(base, state, election_date, printed_name, printed_office, taken=()):
-    normalized_base = str(base or "").strip().removeprefix("PERSON-").lower()
-    if not re.match(r"^[a-z0-9]+(?:_[a-z0-9]+)*$", normalized_base) or PERSON_CODE_RE.match(f"PERSON-{normalized_base.upper()}"):
+    normalized_base = str(base or "").strip().removeprefix("CITIZEN-").lower()
+    if not re.match(r"^[a-z0-9]+(?:_[a-z0-9]+)*$", normalized_base) or CITIZEN_CODE_RE.match(f"CITIZEN-{normalized_base.upper()}"):
         raise ValueError(f"invalid name code {base!r}")
     facts = first_appearance_facts(state, election_date, printed_name, printed_office)
-    taken_set = {str(item).strip().removeprefix("PERSON-").lower() for item in taken}
+    taken_set = {str(item).strip().removeprefix("CITIZEN-").lower() for item in taken}
     start = int(hashlib.sha256(facts.encode("utf-8")).hexdigest(), 16) % len(DISAMBIGUATORS)
     for offset in range(len(DISAMBIGUATORS)):
         candidate = f"{normalized_base}_{DISAMBIGUATORS[(start + offset) % len(DISAMBIGUATORS)]}"
         if candidate not in taken_set:
             return candidate
-    raise ValueError(f"All {len(DISAMBIGUATORS)} disambiguators are taken for PERSON-{normalized_base.upper()}")
+    raise ValueError(f"All {len(DISAMBIGUATORS)} disambiguators are taken for CITIZEN-{normalized_base.upper()}")
 
 
 def taken_usernames(root=ROOT, index=None):
     index = catalog(root / "manifests") if index is None else index
     taken = set()
     for code, row in index.items():
-        if row["type"] == "Person":
-            taken.add(code.removeprefix("PERSON-").lower())
+        if row["type"] == "Citizen":
+            taken.add(code.removeprefix("CITIZEN-").lower())
             for alias in row.get("aliases", []):
-                if alias.startswith("PERSON-"):
-                    taken.add(alias.removeprefix("PERSON-").lower())
+                if alias.startswith("CITIZEN-"):
+                    taken.add(alias.removeprefix("CITIZEN-").lower())
     conversion = root / "conversion"
     if conversion.is_dir():
         for path in sorted(conversion.glob("*/*/usernames.yml")):
             mapping = load_document(path) or {}
-            taken.update(str(value).strip().removeprefix("PERSON-").lower() for value in mapping.values())
+            taken.update(str(value).strip().removeprefix("CITIZEN-").lower() for value in mapping.values())
     return taken
 
 
-def existing_people_for_name_code(index, base):
-    prefix = f"PERSON-{str(base).strip().removeprefix('PERSON-').upper()}"
-    races_by_person = {}
+def existing_citizens_for_name_code(index, base):
+    prefix = f"CITIZEN-{str(base).strip().removeprefix('CITIZEN-').upper()}"
+    races_by_citizen = {}
     for row in index.values():
         if row["type"] == "Candidacy":
-            person_code = reference_code(row["references"].get("person"))
+            citizen_code = reference_code(row["references"].get("citizen"))
             race_code = reference_code(row["references"].get("race"))
-            if person_code and race_code:
-                races_by_person.setdefault(person_code, set()).add(race_code)
+            if citizen_code and race_code:
+                races_by_citizen.setdefault(citizen_code, set()).add(race_code)
     matches = []
     for code, row in sorted(index.items()):
-        if row["type"] == "Person" and code.rsplit("_", 1)[0] == prefix and PERSON_CODE_RE.match(code):
+        if row["type"] == "Citizen" and code.rsplit("_", 1)[0] == prefix and CITIZEN_CODE_RE.match(code):
             matches.append({
                 "code": code,
-                "username": code.removeprefix("PERSON-").lower(),
-                "name": person_full_name(row.get("attributes", {})),
-                "races": sorted(races_by_person.get(code, ())),
+                "username": code.removeprefix("CITIZEN-").lower(),
+                "name": citizen_full_name(row.get("attributes", {})),
+                "races": sorted(races_by_citizen.get(code, ())),
                 "files": sorted(set(row.get("files", ()))),
             })
     return matches
 
 
-def format_existing_people(base_code, existing):
-    lines = [f"Existing people sharing {base_code}:"]
+def format_existing_citizens(base_code, existing):
+    lines = [f"Existing citizens sharing {base_code}:"]
     for item in existing:
         races = ", ".join(item["races"]) if item["races"] else "no candidacy recorded"
         lines.append(f"  - {item['code']}: {item['name']} ({races})")
     return "\n".join(lines)
 
 
-def mint_person_code(state, election_date, printed_name, printed_office, base=None,
+def mint_citizen_code(state, election_date, printed_name, printed_office, base=None,
                      is_new=False, same_as=None, index=None, taken=None, interactive=False):
     if is_new and same_as:
         raise ValueError("Pass either --new or --same-as, not both")
     index = catalog(ROOT / "manifests") if index is None else index
-    resolved_base = (base.strip().removeprefix("PERSON-").lower() if base else name_code(printed_name))
-    base_code = f"PERSON-{resolved_base.upper()}"
+    resolved_base = (base.strip().removeprefix("CITIZEN-").lower() if base else name_code(printed_name))
+    base_code = f"CITIZEN-{resolved_base.upper()}"
     facts = first_appearance_facts(state, election_date, printed_name, printed_office)
-    existing = existing_people_for_name_code(index, resolved_base)
+    existing = existing_citizens_for_name_code(index, resolved_base)
     if same_as:
         target = same_as.strip().upper()
-        if not target.startswith("PERSON-"):
-            target = f"PERSON-{target}"
+        if not target.startswith("CITIZEN-"):
+            target = f"CITIZEN-{target}"
         matched = next((item for item in existing if item["code"] == target), None)
         if not matched:
-            raise ValueError(f"{target} is not an existing Person sharing {base_code}")
+            raise ValueError(f"{target} is not an existing Citizen sharing {base_code}")
         return {"code": matched["code"], "username": matched["username"], "name_code": base_code,
                 "facts": facts, "resolution": "existing", "existing": existing}
     if existing and not is_new:
-        summary = format_existing_people(base_code, existing)
+        summary = format_existing_citizens(base_code, existing)
         if interactive:
             print(summary, file=sys.stderr)
-            print("Enter 'new' or an existing PERSON-... code: ", end="", file=sys.stderr, flush=True)
+            print("Enter 'new' or an existing CITIZEN-... code: ", end="", file=sys.stderr, flush=True)
             answer = sys.stdin.readline().strip()
             normalized = re.sub(r"^same\s+as\s+", "", answer, flags=re.I).strip()
             if normalized.lower() == "new":
                 is_new = True
             else:
                 target = normalized.upper()
-                if target and not target.startswith("PERSON-"):
-                    target = f"PERSON-{target}"
+                if target and not target.startswith("CITIZEN-"):
+                    target = f"CITIZEN-{target}"
                 matched = next((item for item in existing if item["code"] == target), None)
                 if matched:
                     return {"code": matched["code"], "username": matched["username"], "name_code": base_code,
                             "facts": facts, "resolution": "existing", "existing": existing}
-                raise ValueError(f"{summary}\nSpecify --new or --same-as PERSON-...")
+                raise ValueError(f"{summary}\nSpecify --new or --same-as CITIZEN-...")
         else:
-            raise ValueError(f"{summary}\nSpecify --new or --same-as PERSON-...")
+            raise ValueError(f"{summary}\nSpecify --new or --same-as CITIZEN-...")
     all_taken = taken_usernames(ROOT, index=index) if taken is None else set(taken)
     all_taken.update(item["username"] for item in existing)
     username = mint_username(resolved_base, state, election_date, printed_name, printed_office, taken=all_taken)
-    return {"code": f"PERSON-{username.upper()}", "username": username, "name_code": base_code,
+    return {"code": f"CITIZEN-{username.upper()}", "username": username, "name_code": base_code,
             "facts": facts, "resolution": "new", "existing": existing}
 
 
 def owners(index):
     for code, row in sorted(index.items()):
-        if row["type"] not in {"Person", "Candidacy"}:
+        if row["type"] not in {"Citizen", "Candidacy"}:
             continue
-        person_code = code if row["type"] == "Person" else reference_code(row["references"].get("person"))
-        person = index.get(person_code, {}).get("attributes", {})
+        citizen_code = code if row["type"] == "Citizen" else reference_code(row["references"].get("citizen"))
+        citizen = index.get(citizen_code, {}).get("attributes", {})
         yield {"code": code, "type": row["type"],
-               "name": " ".join(person[key] for key in ("first_name", "middle_name", "last_name") if person.get(key)),
-               "person": person_code, "race": reference_code(row["references"].get("race")),
+               "name": " ".join(citizen[key] for key in ("first_name", "middle_name", "last_name") if citizen.get(key)),
+               "citizen": citizen_code, "race": reference_code(row["references"].get("race")),
                "files": sorted(set(row["files"]))}
 
 
@@ -389,8 +389,8 @@ def check_accounts(documents, index):
         for row in document["records"]:
             code = row["code"]
             owner = row["references"]["owner"]
-            if owner not in index or index[owner]["type"] not in {"Person", "Candidacy"}:
-                raise ValueError(f"{path}: {owner} is not an existing full Person or Candidacy code")
+            if owner not in index or index[owner]["type"] not in {"Citizen", "Candidacy"}:
+                raise ValueError(f"{path}: {owner} is not an existing full Citizen or Candidacy code")
             if code in seen:
                 raise ValueError(f"{path}: duplicate submitted channel code {code}")
             seen.add(code)
@@ -412,7 +412,7 @@ def check_accounts(documents, index):
             accounts[key] = code
 
 
-def check_duplicate_people(documents):
+def check_duplicate_citizens(documents):
     seen = {}
     examples_root = (ROOT / "examples").resolve()
     for path, document in documents:
@@ -420,11 +420,11 @@ def check_duplicate_people(documents):
         if resolved.is_relative_to(examples_root):
             continue
         for row, _scope in iter_records(document):
-            if row["type"] != "Person":
+            if row["type"] != "Citizen":
                 continue
             code = row["code"]
             if code in seen and seen[code].with_suffix("") != resolved.with_suffix(""):
-                raise ValueError(f"{path}: duplicate Person definition {code} (already defined in {seen[code]})")
+                raise ValueError(f"{path}: duplicate Citizen definition {code} (already defined in {seen[code]})")
             seen[code] = resolved
 
 
@@ -471,7 +471,7 @@ def main(argv=None):
         print(json.dumps(rows, indent=2, ensure_ascii=False))
         return 0
     if args.command == "mint":
-        result = mint_person_code(
+        result = mint_citizen_code(
             args.state, args.election_date, args.printed_name, args.printed_office,
             base=args.base, is_new=args.is_new, same_as=args.same_as, interactive=sys.stdin.isatty()
         )
@@ -501,7 +501,7 @@ def main(argv=None):
             failed += 1
     if not failed:
         try:
-            check_duplicate_people(documents)
+            check_duplicate_citizens(documents)
             manifests_root = (ROOT / "manifests").resolve()
             in_manifests = any(path.resolve().is_relative_to(manifests_root) for path, _ in documents)
             if account_documents or in_manifests:

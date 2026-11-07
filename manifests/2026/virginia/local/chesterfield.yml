@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_CHESTERFIELD-2026_SPECIAL
       office: OFFICE-USA-VA-COUNTY_CHESTERFIELD-COUNTY_SUPERVISOR-DALE_DISTRICT
-  - type: Person
-    code: PERSON-HYLTON_LQ_4Y
+  - type: Citizen
+    code: CITIZEN-HYLTON_LQ_4Y
     attributes:
       username: hylton_lq_4y
       username_status: provisional
@@ -51,7 +51,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_CHESTERFIELD-COUNTY_SUPERVISOR-DALE_DISTRICT-2026_SPECIAL
-      person: PERSON-HYLTON_LQ_4Y
+      citizen: CITIZEN-HYLTON_LQ_4Y
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_CHESTERFIELD-SCHOOL_BOARD_MEMBER-CLOVER_HILL_DISTRICT
@@ -69,8 +69,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_CHESTERFIELD-2026_SPECIAL
       office: OFFICE-USA-VA-COUNTY_CHESTERFIELD-SCHOOL_BOARD_MEMBER-CLOVER_HILL_DISTRICT
-  - type: Person
-    code: PERSON-BRADY_CH_3K
+  - type: Citizen
+    code: CITIZEN-BRADY_CH_3K
     attributes:
       username: brady_ch_3k
       username_status: provisional
@@ -84,9 +84,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_CHESTERFIELD-SCHOOL_BOARD_MEMBER-CLOVER_HILL_DISTRICT-2026_SPECIAL
-      person: PERSON-BRADY_CH_3K
-  - type: Person
-    code: PERSON-SCHULTZ_EL_3B
+      citizen: CITIZEN-BRADY_CH_3K
+  - type: Citizen
+    code: CITIZEN-SCHULTZ_EL_3B
     attributes:
       username: schultz_el_3b
       username_status: provisional
@@ -100,4 +100,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_CHESTERFIELD-SCHOOL_BOARD_MEMBER-CLOVER_HILL_DISTRICT-2026_SPECIAL
-      person: PERSON-SCHULTZ_EL_3B
+      citizen: CITIZEN-SCHULTZ_EL_3B

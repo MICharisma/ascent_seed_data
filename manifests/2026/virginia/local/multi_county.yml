@@ -600,8 +600,8 @@ groups:
     references:
       election: ELECTION-USA-VA-BRISTOL-2026_GENERAL
       office: OFFICE-USA-VA-BRISTOL-COUNCIL_MEMBER-BRISTOL_CITY
-  - type: Person
-    code: PERSON-WALKER_EL_5M
+  - type: Citizen
+    code: CITIZEN-WALKER_EL_5M
     attributes:
       username: walker_el_5m
       username_status: provisional
@@ -615,9 +615,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BRISTOL-COUNCIL_MEMBER-BRISTOL_CITY-2026_GENERAL
-      person: PERSON-WALKER_EL_5M
-  - type: Person
-    code: PERSON-NOPHLIN_JC_8D
+      citizen: CITIZEN-WALKER_EL_5M
+  - type: Citizen
+    code: CITIZEN-NOPHLIN_JC_8D
     attributes:
       username: nophlin_jc_8d
       username_status: provisional
@@ -631,9 +631,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BRISTOL-COUNCIL_MEMBER-BRISTOL_CITY-2026_GENERAL
-      person: PERSON-NOPHLIN_JC_8D
-  - type: Person
-    code: PERSON-BROWN_ML_6L
+      citizen: CITIZEN-NOPHLIN_JC_8D
+  - type: Citizen
+    code: CITIZEN-BROWN_ML_6L
     attributes:
       username: brown_ml_6l
       username_status: provisional
@@ -647,9 +647,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BRISTOL-COUNCIL_MEMBER-BRISTOL_CITY-2026_GENERAL
-      person: PERSON-BROWN_ML_6L
-  - type: Person
-    code: PERSON-OSBORNE_F_6R
+      citizen: CITIZEN-BROWN_ML_6L
+  - type: Citizen
+    code: CITIZEN-OSBORNE_F_6R
     attributes:
       username: osborne_f_6r
       username_status: provisional
@@ -663,9 +663,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BRISTOL-COUNCIL_MEMBER-BRISTOL_CITY-2026_GENERAL
-      person: PERSON-OSBORNE_F_6R
-  - type: Person
-    code: PERSON-HOLMES_JK_2K
+      citizen: CITIZEN-OSBORNE_F_6R
+  - type: Citizen
+    code: CITIZEN-HOLMES_JK_2K
     attributes:
       username: holmes_jk_2k
       username_status: provisional
@@ -679,9 +679,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BRISTOL-COUNCIL_MEMBER-BRISTOL_CITY-2026_GENERAL
-      person: PERSON-HOLMES_JK_2K
-  - type: Person
-    code: PERSON-POLLARD_MC_4M
+      citizen: CITIZEN-HOLMES_JK_2K
+  - type: Citizen
+    code: CITIZEN-POLLARD_MC_4M
     attributes:
       username: pollard_mc_4m
       username_status: provisional
@@ -695,7 +695,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BRISTOL-COUNCIL_MEMBER-BRISTOL_CITY-2026_GENERAL
-      person: PERSON-POLLARD_MC_4M
+      citizen: CITIZEN-POLLARD_MC_4M
 - records:
   - type: Office
     code: OFFICE-USA-VA-BRISTOL-SCHOOL_BOARD_MEMBER-BRISTOL_CITY
@@ -713,8 +713,8 @@ groups:
     references:
       election: ELECTION-USA-VA-BRISTOL-2026_GENERAL
       office: OFFICE-USA-VA-BRISTOL-SCHOOL_BOARD_MEMBER-BRISTOL_CITY
-  - type: Person
-    code: PERSON-KIMBERLIN_BR_9B
+  - type: Citizen
+    code: CITIZEN-KIMBERLIN_BR_9B
     attributes:
       username: kimberlin_br_9b
       username_status: provisional
@@ -728,9 +728,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BRISTOL-SCHOOL_BOARD_MEMBER-BRISTOL_CITY-2026_GENERAL
-      person: PERSON-KIMBERLIN_BR_9B
-  - type: Person
-    code: PERSON-BLACKWELL_RH_9N
+      citizen: CITIZEN-KIMBERLIN_BR_9B
+  - type: Citizen
+    code: CITIZEN-BLACKWELL_RH_9N
     attributes:
       username: blackwell_rh_9n
       username_status: provisional
@@ -744,9 +744,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BRISTOL-SCHOOL_BOARD_MEMBER-BRISTOL_CITY-2026_GENERAL
-      person: PERSON-BLACKWELL_RH_9N
-  - type: Person
-    code: PERSON-WATTS_RC_5T
+      citizen: CITIZEN-BLACKWELL_RH_9N
+  - type: Citizen
+    code: CITIZEN-WATTS_RC_5T
     attributes:
       username: watts_rc_5t
       username_status: provisional
@@ -760,9 +760,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BRISTOL-SCHOOL_BOARD_MEMBER-BRISTOL_CITY-2026_GENERAL
-      person: PERSON-WATTS_RC_5T
-  - type: Person
-    code: PERSON-LOVE_SH_8P
+      citizen: CITIZEN-WATTS_RC_5T
+  - type: Citizen
+    code: CITIZEN-LOVE_SH_8P
     attributes:
       username: love_sh_8p
       username_status: provisional
@@ -776,9 +776,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BRISTOL-SCHOOL_BOARD_MEMBER-BRISTOL_CITY-2026_GENERAL
-      person: PERSON-LOVE_SH_8P
-  - type: Person
-    code: PERSON-GUFFEY_VN_4L
+      citizen: CITIZEN-LOVE_SH_8P
+  - type: Citizen
+    code: CITIZEN-GUFFEY_VN_4L
     attributes:
       username: guffey_vn_4l
       username_status: provisional
@@ -792,7 +792,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BRISTOL-SCHOOL_BOARD_MEMBER-BRISTOL_CITY-2026_GENERAL
-      person: PERSON-GUFFEY_VN_4L
+      citizen: CITIZEN-GUFFEY_VN_4L
 - records:
   - type: Office
     code: OFFICE-USA-VA-BUENA_VISTA-COUNCIL_MEMBER-BUENA_VISTA_CITY
@@ -810,8 +810,8 @@ groups:
     references:
       election: ELECTION-USA-VA-BUENA_VISTA-2026_SPECIAL
       office: OFFICE-USA-VA-BUENA_VISTA-COUNCIL_MEMBER-BUENA_VISTA_CITY
-  - type: Person
-    code: PERSON-KERR_WL_4E
+  - type: Citizen
+    code: CITIZEN-KERR_WL_4E
     attributes:
       username: kerr_wl_4e
       username_status: provisional
@@ -825,7 +825,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BUENA_VISTA-COUNCIL_MEMBER-BUENA_VISTA_CITY-2026_SPECIAL
-      person: PERSON-KERR_WL_4E
+      citizen: CITIZEN-KERR_WL_4E
 - records:
   - type: Office
     code: OFFICE-USA-VA-BUENA_VISTA-SCHOOL_BOARD_MEMBER-BUENA_VISTA_CITY
@@ -843,8 +843,8 @@ groups:
     references:
       election: ELECTION-USA-VA-BUENA_VISTA-2026_SPECIAL
       office: OFFICE-USA-VA-BUENA_VISTA-SCHOOL_BOARD_MEMBER-BUENA_VISTA_CITY
-  - type: Person
-    code: PERSON-CARTOLARO_MC_6Q
+  - type: Citizen
+    code: CITIZEN-CARTOLARO_MC_6Q
     attributes:
       username: cartolaro_mc_6q
       username_status: provisional
@@ -858,7 +858,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BUENA_VISTA-SCHOOL_BOARD_MEMBER-BUENA_VISTA_CITY-2026_SPECIAL
-      person: PERSON-CARTOLARO_MC_6Q
+      citizen: CITIZEN-CARTOLARO_MC_6Q
 - records:
   - type: Office
     code: OFFICE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY
@@ -876,8 +876,8 @@ groups:
     references:
       election: ELECTION-USA-VA-CHESAPEAKE-2026_GENERAL
       office: OFFICE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY
-  - type: Person
-    code: PERSON-NEWINS_AM_3J
+  - type: Citizen
+    code: CITIZEN-NEWINS_AM_3J
     attributes:
       username: newins_am_3j
       username_status: provisional
@@ -891,9 +891,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-NEWINS_AM_3J
-  - type: Person
-    code: PERSON-DEEL_BR_8R
+      citizen: CITIZEN-NEWINS_AM_3J
+  - type: Citizen
+    code: CITIZEN-DEEL_BR_8R
     attributes:
       username: deel_br_8r
       username_status: provisional
@@ -907,9 +907,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-DEEL_BR_8R
-  - type: Person
-    code: PERSON-SPRUILL_CL_2S
+      citizen: CITIZEN-DEEL_BR_8R
+  - type: Citizen
+    code: CITIZEN-SPRUILL_CL_2S
     attributes:
       username: spruill_cl_2s
       username_status: provisional
@@ -923,9 +923,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-SPRUILL_CL_2S
-  - type: Person
-    code: PERSON-ROSINSKI_DN_4K
+      citizen: CITIZEN-SPRUILL_CL_2S
+  - type: Citizen
+    code: CITIZEN-ROSINSKI_DN_4K
     attributes:
       username: rosinski_dn_4k
       username_status: provisional
@@ -939,9 +939,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-ROSINSKI_DN_4K
-  - type: Person
-    code: PERSON-WHITAKER_DN_9M
+      citizen: CITIZEN-ROSINSKI_DN_4K
+  - type: Citizen
+    code: CITIZEN-WHITAKER_DN_9M
     attributes:
       username: whitaker_dn_9m
       username_status: provisional
@@ -955,9 +955,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-WHITAKER_DN_9M
-  - type: Person
-    code: PERSON-JEFFERIES_ER_5M
+      citizen: CITIZEN-WHITAKER_DN_9M
+  - type: Citizen
+    code: CITIZEN-JEFFERIES_ER_5M
     attributes:
       username: jefferies_er_5m
       username_status: provisional
@@ -971,9 +971,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-JEFFERIES_ER_5M
-  - type: Person
-    code: PERSON-WRAY_ER_8D
+      citizen: CITIZEN-JEFFERIES_ER_5M
+  - type: Citizen
+    code: CITIZEN-WRAY_ER_8D
     attributes:
       username: wray_er_8d
       username_status: provisional
@@ -987,9 +987,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-WRAY_ER_8D
-  - type: Person
-    code: PERSON-GILMORE_GY_8K
+      citizen: CITIZEN-WRAY_ER_8D
+  - type: Citizen
+    code: CITIZEN-GILMORE_GY_8K
     attributes:
       username: gilmore_gy_8k
       username_status: provisional
@@ -1003,9 +1003,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-GILMORE_GY_8K
-  - type: Person
-    code: PERSON-YACUS_GR_8D
+      citizen: CITIZEN-GILMORE_GY_8K
+  - type: Citizen
+    code: CITIZEN-YACUS_GR_8D
     attributes:
       username: yacus_gr_8d
       username_status: provisional
@@ -1019,9 +1019,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-YACUS_GR_8D
-  - type: Person
-    code: PERSON-LOUIS_JN_3K
+      citizen: CITIZEN-YACUS_GR_8D
+  - type: Citizen
+    code: CITIZEN-LOUIS_JN_3K
     attributes:
       username: louis_jn_3k
       username_status: provisional
@@ -1035,9 +1035,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-LOUIS_JN_3K
-  - type: Person
-    code: PERSON-NAPERALA_JN_6M
+      citizen: CITIZEN-LOUIS_JN_3K
+  - type: Citizen
+    code: CITIZEN-NAPERALA_JN_6M
     attributes:
       username: naperala_jn_6m
       username_status: provisional
@@ -1051,9 +1051,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-NAPERALA_JN_6M
-  - type: Person
-    code: PERSON-BUFFALOW_NC_8N
+      citizen: CITIZEN-NAPERALA_JN_6M
+  - type: Citizen
+    code: CITIZEN-BUFFALOW_NC_8N
     attributes:
       username: buffalow_nc_8n
       username_status: provisional
@@ -1066,9 +1066,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-BUFFALOW_NC_8N
-  - type: Person
-    code: PERSON-DURAN_OZ_7R
+      citizen: CITIZEN-BUFFALOW_NC_8N
+  - type: Citizen
+    code: CITIZEN-DURAN_OZ_7R
     attributes:
       username: duran_oz_7r
       username_status: provisional
@@ -1082,9 +1082,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-DURAN_OZ_7R
-  - type: Person
-    code: PERSON-BROWN_YEARLING_SN_4F
+      citizen: CITIZEN-DURAN_OZ_7R
+  - type: Citizen
+    code: CITIZEN-BROWN_YEARLING_SN_4F
     attributes:
       username: brown_yearling_sn_4f
       username_status: provisional
@@ -1097,9 +1097,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-BROWN_YEARLING_SN_4F
-  - type: Person
-    code: PERSON-MAYFIELD_TD_5F
+      citizen: CITIZEN-BROWN_YEARLING_SN_4F
+  - type: Citizen
+    code: CITIZEN-MAYFIELD_TD_5F
     attributes:
       username: mayfield_td_5f
       username_status: provisional
@@ -1113,7 +1113,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-COUNCIL_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-MAYFIELD_TD_5F
+      citizen: CITIZEN-MAYFIELD_TD_5F
 - records:
   - type: Office
     code: OFFICE-USA-VA-CHESAPEAKE-SCHOOL_BOARD_MEMBER-CHESAPEAKE_CITY
@@ -1131,8 +1131,8 @@ groups:
     references:
       election: ELECTION-USA-VA-CHESAPEAKE-2026_GENERAL
       office: OFFICE-USA-VA-CHESAPEAKE-SCHOOL_BOARD_MEMBER-CHESAPEAKE_CITY
-  - type: Person
-    code: PERSON-MCLAIN_AL_4X
+  - type: Citizen
+    code: CITIZEN-MCLAIN_AL_4X
     attributes:
       username: mclain_al_4x
       username_status: provisional
@@ -1146,9 +1146,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-SCHOOL_BOARD_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-MCLAIN_AL_4X
-  - type: Person
-    code: PERSON-QUILLIN_AM_3R
+      citizen: CITIZEN-MCLAIN_AL_4X
+  - type: Citizen
+    code: CITIZEN-QUILLIN_AM_3R
     attributes:
       username: quillin_am_3r
       username_status: provisional
@@ -1162,9 +1162,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-SCHOOL_BOARD_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-QUILLIN_AM_3R
-  - type: Person
-    code: PERSON-BOLDEN_AN_5T
+      citizen: CITIZEN-QUILLIN_AM_3R
+  - type: Citizen
+    code: CITIZEN-BOLDEN_AN_5T
     attributes:
       username: bolden_an_5t
       username_status: provisional
@@ -1178,9 +1178,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-SCHOOL_BOARD_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-BOLDEN_AN_5T
-  - type: Person
-    code: PERSON-FAUNTLEROY_AN_9V
+      citizen: CITIZEN-BOLDEN_AN_5T
+  - type: Citizen
+    code: CITIZEN-FAUNTLEROY_AN_9V
     attributes:
       username: fauntleroy_an_9v
       username_status: provisional
@@ -1194,9 +1194,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-SCHOOL_BOARD_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-FAUNTLEROY_AN_9V
-  - type: Person
-    code: PERSON-FIELDS_BR_4T
+      citizen: CITIZEN-FAUNTLEROY_AN_9V
+  - type: Citizen
+    code: CITIZEN-FIELDS_BR_4T
     attributes:
       username: fields_br_4t
       username_status: provisional
@@ -1210,9 +1210,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-SCHOOL_BOARD_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-FIELDS_BR_4T
-  - type: Person
-    code: PERSON-BOSSUOT_BR_2V
+      citizen: CITIZEN-FIELDS_BR_4T
+  - type: Citizen
+    code: CITIZEN-BOSSUOT_BR_2V
     attributes:
       username: bossuot_br_2v
       username_status: provisional
@@ -1226,9 +1226,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-SCHOOL_BOARD_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-BOSSUOT_BR_2V
-  - type: Person
-    code: PERSON-PHILLIPS_JN_6B
+      citizen: CITIZEN-BOSSUOT_BR_2V
+  - type: Citizen
+    code: CITIZEN-PHILLIPS_JN_6B
     attributes:
       username: phillips_jn_6b
       username_status: provisional
@@ -1242,9 +1242,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-SCHOOL_BOARD_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-PHILLIPS_JN_6B
-  - type: Person
-    code: PERSON-HARRELL_JR_4Z
+      citizen: CITIZEN-PHILLIPS_JN_6B
+  - type: Citizen
+    code: CITIZEN-HARRELL_JR_4Z
     attributes:
       username: harrell_jr_4z
       username_status: provisional
@@ -1258,9 +1258,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-SCHOOL_BOARD_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-HARRELL_JR_4Z
-  - type: Person
-    code: PERSON-MCCORMICK_JH_3M
+      citizen: CITIZEN-HARRELL_JR_4Z
+  - type: Citizen
+    code: CITIZEN-MCCORMICK_JH_3M
     attributes:
       username: mccormick_jh_3m
       username_status: provisional
@@ -1274,9 +1274,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-SCHOOL_BOARD_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-MCCORMICK_JH_3M
-  - type: Person
-    code: PERSON-SCOTT_KM_5X
+      citizen: CITIZEN-MCCORMICK_JH_3M
+  - type: Citizen
+    code: CITIZEN-SCOTT_KM_5X
     attributes:
       username: scott_km_5x
       username_status: provisional
@@ -1290,9 +1290,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-SCHOOL_BOARD_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-SCOTT_KM_5X
-  - type: Person
-    code: PERSON-CASSIDY_MK_5V
+      citizen: CITIZEN-SCOTT_KM_5X
+  - type: Citizen
+    code: CITIZEN-CASSIDY_MK_5V
     attributes:
       username: cassidy_mk_5v
       username_status: provisional
@@ -1306,9 +1306,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-SCHOOL_BOARD_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-CASSIDY_MK_5V
-  - type: Person
-    code: PERSON-NOLEN_MN_7V
+      citizen: CITIZEN-CASSIDY_MK_5V
+  - type: Citizen
+    code: CITIZEN-NOLEN_MN_7V
     attributes:
       username: nolen_mn_7v
       username_status: provisional
@@ -1322,9 +1322,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-SCHOOL_BOARD_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-NOLEN_MN_7V
-  - type: Person
-    code: PERSON-DURAN_OL_7E
+      citizen: CITIZEN-NOLEN_MN_7V
+  - type: Citizen
+    code: CITIZEN-DURAN_OL_7E
     attributes:
       username: duran_ol_7e
       username_status: provisional
@@ -1338,7 +1338,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-CHESAPEAKE-SCHOOL_BOARD_MEMBER-CHESAPEAKE_CITY-2026_GENERAL
-      person: PERSON-DURAN_OL_7E
+      citizen: CITIZEN-DURAN_OL_7E
 - records:
   - type: Office
     code: OFFICE-USA-VA-COLONIAL_HEIGHTS-COUNCIL_MEMBER-COLONIAL_HEIGHTS_CITY
@@ -1356,8 +1356,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COLONIAL_HEIGHTS-2026_GENERAL
       office: OFFICE-USA-VA-COLONIAL_HEIGHTS-COUNCIL_MEMBER-COLONIAL_HEIGHTS_CITY
-  - type: Person
-    code: PERSON-LUCK_BT_4R
+  - type: Citizen
+    code: CITIZEN-LUCK_BT_4R
     attributes:
       username: luck_bt_4r
       username_status: provisional
@@ -1371,9 +1371,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COLONIAL_HEIGHTS-COUNCIL_MEMBER-COLONIAL_HEIGHTS_CITY-2026_GENERAL
-      person: PERSON-LUCK_BT_4R
-  - type: Person
-    code: PERSON-FRAZIER_JN_8R
+      citizen: CITIZEN-LUCK_BT_4R
+  - type: Citizen
+    code: CITIZEN-FRAZIER_JN_8R
     attributes:
       username: frazier_jn_8r
       username_status: provisional
@@ -1387,9 +1387,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COLONIAL_HEIGHTS-COUNCIL_MEMBER-COLONIAL_HEIGHTS_CITY-2026_GENERAL
-      person: PERSON-FRAZIER_JN_8R
-  - type: Person
-    code: PERSON-PIOTROWSKI_JH_9G
+      citizen: CITIZEN-FRAZIER_JN_8R
+  - type: Citizen
+    code: CITIZEN-PIOTROWSKI_JH_9G
     attributes:
       username: piotrowski_jh_9g
       username_status: provisional
@@ -1403,9 +1403,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COLONIAL_HEIGHTS-COUNCIL_MEMBER-COLONIAL_HEIGHTS_CITY-2026_GENERAL
-      person: PERSON-PIOTROWSKI_JH_9G
-  - type: Person
-    code: PERSON-WOOD_JH_5Y
+      citizen: CITIZEN-PIOTROWSKI_JH_9G
+  - type: Citizen
+    code: CITIZEN-WOOD_JH_5Y
     attributes:
       username: wood_jh_5y
       username_status: provisional
@@ -1419,9 +1419,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COLONIAL_HEIGHTS-COUNCIL_MEMBER-COLONIAL_HEIGHTS_CITY-2026_GENERAL
-      person: PERSON-WOOD_JH_5Y
-  - type: Person
-    code: PERSON-THOMAS_RN_4V
+      citizen: CITIZEN-WOOD_JH_5Y
+  - type: Citizen
+    code: CITIZEN-THOMAS_RN_4V
     attributes:
       username: thomas_rn_4v
       username_status: provisional
@@ -1435,7 +1435,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COLONIAL_HEIGHTS-COUNCIL_MEMBER-COLONIAL_HEIGHTS_CITY-2026_GENERAL
-      person: PERSON-THOMAS_RN_4V
+      citizen: CITIZEN-THOMAS_RN_4V
 - records:
   - type: Office
     code: OFFICE-USA-VA-COLONIAL_HEIGHTS-SCHOOL_BOARD_MEMBER-COLONIAL_HEIGHTS_CITY
@@ -1453,8 +1453,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COLONIAL_HEIGHTS-2026_GENERAL
       office: OFFICE-USA-VA-COLONIAL_HEIGHTS-SCHOOL_BOARD_MEMBER-COLONIAL_HEIGHTS_CITY
-  - type: Person
-    code: PERSON-LALONDE_LN_2Y
+  - type: Citizen
+    code: CITIZEN-LALONDE_LN_2Y
     attributes:
       username: lalonde_ln_2y
       username_status: provisional
@@ -1468,9 +1468,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COLONIAL_HEIGHTS-SCHOOL_BOARD_MEMBER-COLONIAL_HEIGHTS_CITY-2026_GENERAL
-      person: PERSON-LALONDE_LN_2Y
-  - type: Person
-    code: PERSON-KOCHUBA_LS_2K
+      citizen: CITIZEN-LALONDE_LN_2Y
+  - type: Citizen
+    code: CITIZEN-KOCHUBA_LS_2K
     attributes:
       username: kochuba_ls_2k
       username_status: provisional
@@ -1484,9 +1484,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COLONIAL_HEIGHTS-SCHOOL_BOARD_MEMBER-COLONIAL_HEIGHTS_CITY-2026_GENERAL
-      person: PERSON-KOCHUBA_LS_2K
-  - type: Person
-    code: PERSON-NEECE_ST_4G
+      citizen: CITIZEN-KOCHUBA_LS_2K
+  - type: Citizen
+    code: CITIZEN-NEECE_ST_4G
     attributes:
       username: neece_st_4g
       username_status: provisional
@@ -1500,7 +1500,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COLONIAL_HEIGHTS-SCHOOL_BOARD_MEMBER-COLONIAL_HEIGHTS_CITY-2026_GENERAL
-      person: PERSON-NEECE_ST_4G
+      citizen: CITIZEN-NEECE_ST_4G
 - records:
   - type: Office
     code: OFFICE-USA-VA-COLONIAL_HEIGHTS-SCHOOL_BOARD_MEMBER
@@ -1517,8 +1517,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COLONIAL_HEIGHTS-2026_SPECIAL
       office: OFFICE-USA-VA-COLONIAL_HEIGHTS-SCHOOL_BOARD_MEMBER
-  - type: Person
-    code: PERSON-KAPINSKIS_KT_2K
+  - type: Citizen
+    code: CITIZEN-KAPINSKIS_KT_2K
     attributes:
       username: kapinskis_kt_2k
       username_status: provisional
@@ -1532,7 +1532,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COLONIAL_HEIGHTS-SCHOOL_BOARD_MEMBER-2026_SPECIAL
-      person: PERSON-KAPINSKIS_KT_2K
+      citizen: CITIZEN-KAPINSKIS_KT_2K
 - records:
   - type: Office
     code: OFFICE-USA-VA-COVINGTON-COUNCIL_MEMBER-DISTRICT_1
@@ -1550,8 +1550,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COVINGTON-2026_GENERAL
       office: OFFICE-USA-VA-COVINGTON-COUNCIL_MEMBER-DISTRICT_1
-  - type: Person
-    code: PERSON-GOFF_DV_4D
+  - type: Citizen
+    code: CITIZEN-GOFF_DV_4D
     attributes:
       username: goff_dv_4d
       username_status: provisional
@@ -1565,7 +1565,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COVINGTON-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
-      person: PERSON-GOFF_DV_4D
+      citizen: CITIZEN-GOFF_DV_4D
 - records:
   - type: Office
     code: OFFICE-USA-VA-COVINGTON-COUNCIL_MEMBER-DISTRICT_2
@@ -1583,8 +1583,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COVINGTON-2026_GENERAL
       office: OFFICE-USA-VA-COVINGTON-COUNCIL_MEMBER-DISTRICT_2
-  - type: Person
-    code: PERSON-GREEN_MC_6X
+  - type: Citizen
+    code: CITIZEN-GREEN_MC_6X
     attributes:
       username: green_mc_6x
       username_status: provisional
@@ -1598,9 +1598,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COVINGTON-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-GREEN_MC_6X
-  - type: Person
-    code: PERSON-HELTON_ML_7T
+      citizen: CITIZEN-GREEN_MC_6X
+  - type: Citizen
+    code: CITIZEN-HELTON_ML_7T
     attributes:
       username: helton_ml_7t
       username_status: provisional
@@ -1614,7 +1614,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COVINGTON-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-HELTON_ML_7T
+      citizen: CITIZEN-HELTON_ML_7T
 - records:
   - type: Office
     code: OFFICE-USA-VA-COVINGTON-SCHOOL_BOARD_MEMBER
@@ -1631,8 +1631,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COVINGTON-2026_GENERAL
       office: OFFICE-USA-VA-COVINGTON-SCHOOL_BOARD_MEMBER
-  - type: Person
-    code: PERSON-ARRITT_JN_5B
+  - type: Citizen
+    code: CITIZEN-ARRITT_JN_5B
     attributes:
       username: arritt_jn_5b
       username_status: provisional
@@ -1646,7 +1646,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COVINGTON-SCHOOL_BOARD_MEMBER-2026_GENERAL
-      person: PERSON-ARRITT_JN_5B
+      citizen: CITIZEN-ARRITT_JN_5B
 - records:
   - type: Office
     code: OFFICE-USA-VA-DANVILLE-COUNCIL_MEMBER-DANVILLE_CITY
@@ -1664,8 +1664,8 @@ groups:
     references:
       election: ELECTION-USA-VA-DANVILLE-2026_GENERAL
       office: OFFICE-USA-VA-DANVILLE-COUNCIL_MEMBER-DANVILLE_CITY
-  - type: Person
-    code: PERSON-HOOD_A_6S
+  - type: Citizen
+    code: CITIZEN-HOOD_A_6S
     attributes:
       username: hood_a_6s
       username_status: provisional
@@ -1679,9 +1679,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-DANVILLE-COUNCIL_MEMBER-DANVILLE_CITY-2026_GENERAL
-      person: PERSON-HOOD_A_6S
-  - type: Person
-    code: PERSON-JONES_AL_8U
+      citizen: CITIZEN-HOOD_A_6S
+  - type: Citizen
+    code: CITIZEN-JONES_AL_8U
     attributes:
       username: jones_al_8u
       username_status: provisional
@@ -1695,9 +1695,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-DANVILLE-COUNCIL_MEMBER-DANVILLE_CITY-2026_GENERAL
-      person: PERSON-JONES_AL_8U
-  - type: Person
-    code: PERSON-WHITTLE_DS_9N
+      citizen: CITIZEN-JONES_AL_8U
+  - type: Citizen
+    code: CITIZEN-WHITTLE_DS_9N
     attributes:
       username: whittle_ds_9n
       username_status: provisional
@@ -1711,9 +1711,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-DANVILLE-COUNCIL_MEMBER-DANVILLE_CITY-2026_GENERAL
-      person: PERSON-WHITTLE_DS_9N
-  - type: Person
-    code: PERSON-MILLER_GR_7E
+      citizen: CITIZEN-WHITTLE_DS_9N
+  - type: Citizen
+    code: CITIZEN-MILLER_GR_7E
     attributes:
       username: miller_gr_7e
       username_status: provisional
@@ -1727,9 +1727,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-DANVILLE-COUNCIL_MEMBER-DANVILLE_CITY-2026_GENERAL
-      person: PERSON-MILLER_GR_7E
-  - type: Person
-    code: PERSON-BUCKNER_JM_9P
+      citizen: CITIZEN-MILLER_GR_7E
+  - type: Citizen
+    code: CITIZEN-BUCKNER_JM_9P
     attributes:
       username: buckner_jm_9p
       username_status: provisional
@@ -1743,9 +1743,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-DANVILLE-COUNCIL_MEMBER-DANVILLE_CITY-2026_GENERAL
-      person: PERSON-BUCKNER_JM_9P
-  - type: Person
-    code: PERSON-JONES_LN_8T
+      citizen: CITIZEN-BUCKNER_JM_9P
+  - type: Citizen
+    code: CITIZEN-JONES_LN_8T
     attributes:
       username: jones_ln_8t
       username_status: provisional
@@ -1759,9 +1759,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-DANVILLE-COUNCIL_MEMBER-DANVILLE_CITY-2026_GENERAL
-      person: PERSON-JONES_LN_8T
-  - type: Person
-    code: PERSON-FRAZIER_SH_4K
+      citizen: CITIZEN-JONES_LN_8T
+  - type: Citizen
+    code: CITIZEN-FRAZIER_SH_4K
     attributes:
       username: frazier_sh_4k
       username_status: provisional
@@ -1775,9 +1775,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-DANVILLE-COUNCIL_MEMBER-DANVILLE_CITY-2026_GENERAL
-      person: PERSON-FRAZIER_SH_4K
-  - type: Person
-    code: PERSON-IRVING_SH_5C
+      citizen: CITIZEN-FRAZIER_SH_4K
+  - type: Citizen
+    code: CITIZEN-IRVING_SH_5C
     attributes:
       username: irving_sh_5c
       username_status: provisional
@@ -1791,9 +1791,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-DANVILLE-COUNCIL_MEMBER-DANVILLE_CITY-2026_GENERAL
-      person: PERSON-IRVING_SH_5C
-  - type: Person
-    code: PERSON-HOWERTON_TN_2D
+      citizen: CITIZEN-IRVING_SH_5C
+  - type: Citizen
+    code: CITIZEN-HOWERTON_TN_2D
     attributes:
       username: howerton_tn_2d
       username_status: provisional
@@ -1807,7 +1807,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-DANVILLE-COUNCIL_MEMBER-DANVILLE_CITY-2026_GENERAL
-      person: PERSON-HOWERTON_TN_2D
+      citizen: CITIZEN-HOWERTON_TN_2D
 - records:
   - type: Office
     code: OFFICE-USA-VA-DANVILLE-COUNCIL_MEMBER-DANVILLE_CITY
@@ -1825,8 +1825,8 @@ groups:
     references:
       election: ELECTION-USA-VA-DANVILLE-2026_SPECIAL
       office: OFFICE-USA-VA-DANVILLE-COUNCIL_MEMBER-DANVILLE_CITY
-  - type: Person
-    code: PERSON-MARSHALL_D_6W
+  - type: Citizen
+    code: CITIZEN-MARSHALL_D_6W
     attributes:
       username: marshall_d_6w
       username_status: provisional
@@ -1840,9 +1840,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-DANVILLE-COUNCIL_MEMBER-DANVILLE_CITY-2026_SPECIAL
-      person: PERSON-MARSHALL_D_6W
-  - type: Person
-    code: PERSON-LIPSCOMB_JS_5H
+      citizen: CITIZEN-MARSHALL_D_6W
+  - type: Citizen
+    code: CITIZEN-LIPSCOMB_JS_5H
     attributes:
       username: lipscomb_js_5h
       username_status: provisional
@@ -1856,7 +1856,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-DANVILLE-COUNCIL_MEMBER-DANVILLE_CITY-2026_SPECIAL
-      person: PERSON-LIPSCOMB_JS_5H
+      citizen: CITIZEN-LIPSCOMB_JS_5H
 - records:
   - type: Office
     code: OFFICE-USA-VA-DANVILLE-SCHOOL_BOARD_MEMBER-DANVILLE_CITY
@@ -1874,8 +1874,8 @@ groups:
     references:
       election: ELECTION-USA-VA-DANVILLE-2026_GENERAL
       office: OFFICE-USA-VA-DANVILLE-SCHOOL_BOARD_MEMBER-DANVILLE_CITY
-  - type: Person
-    code: PERSON-JONES_DV_8P
+  - type: Citizen
+    code: CITIZEN-JONES_DV_8P
     attributes:
       username: jones_dv_8p
       username_status: provisional
@@ -1889,9 +1889,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-DANVILLE-SCHOOL_BOARD_MEMBER-DANVILLE_CITY-2026_GENERAL
-      person: PERSON-JONES_DV_8P
-  - type: Person
-    code: PERSON-AVERETT_KS_6P
+      citizen: CITIZEN-JONES_DV_8P
+  - type: Citizen
+    code: CITIZEN-AVERETT_KS_6P
     attributes:
       username: averett_ks_6p
       username_status: provisional
@@ -1905,9 +1905,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-DANVILLE-SCHOOL_BOARD_MEMBER-DANVILLE_CITY-2026_GENERAL
-      person: PERSON-AVERETT_KS_6P
-  - type: Person
-    code: PERSON-MCLAUGHLIN_TR_3A
+      citizen: CITIZEN-AVERETT_KS_6P
+  - type: Citizen
+    code: CITIZEN-MCLAUGHLIN_TR_3A
     attributes:
       username: mclaughlin_tr_3a
       username_status: provisional
@@ -1921,9 +1921,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-DANVILLE-SCHOOL_BOARD_MEMBER-DANVILLE_CITY-2026_GENERAL
-      person: PERSON-MCLAUGHLIN_TR_3A
-  - type: Person
-    code: PERSON-GRAVES_TY_7F
+      citizen: CITIZEN-MCLAUGHLIN_TR_3A
+  - type: Citizen
+    code: CITIZEN-GRAVES_TY_7F
     attributes:
       username: graves_ty_7f
       username_status: provisional
@@ -1937,7 +1937,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-DANVILLE-SCHOOL_BOARD_MEMBER-DANVILLE_CITY-2026_GENERAL
-      person: PERSON-GRAVES_TY_7F
+      citizen: CITIZEN-GRAVES_TY_7F
 - records:
   - type: Office
     code: OFFICE-USA-VA-EMPORIA-COUNCIL_MEMBER-DISTRICT_1
@@ -1955,8 +1955,8 @@ groups:
     references:
       election: ELECTION-USA-VA-EMPORIA-2026_GENERAL
       office: OFFICE-USA-VA-EMPORIA-COUNCIL_MEMBER-DISTRICT_1
-  - type: Person
-    code: PERSON-THREAT_CL_9J
+  - type: Citizen
+    code: CITIZEN-THREAT_CL_9J
     attributes:
       username: threat_cl_9j
       username_status: provisional
@@ -1969,7 +1969,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-EMPORIA-COUNCIL_MEMBER-DISTRICT_1-2026_GENERAL
-      person: PERSON-THREAT_CL_9J
+      citizen: CITIZEN-THREAT_CL_9J
 - records:
   - type: Office
     code: OFFICE-USA-VA-EMPORIA-COUNCIL_MEMBER-DISTRICT_4
@@ -1987,8 +1987,8 @@ groups:
     references:
       election: ELECTION-USA-VA-EMPORIA-2026_GENERAL
       office: OFFICE-USA-VA-EMPORIA-COUNCIL_MEMBER-DISTRICT_4
-  - type: Person
-    code: PERSON-LILLY_MR_7J
+  - type: Citizen
+    code: CITIZEN-LILLY_MR_7J
     attributes:
       username: lilly_mr_7j
       username_status: provisional
@@ -2002,7 +2002,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-EMPORIA-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-LILLY_MR_7J
+      citizen: CITIZEN-LILLY_MR_7J
 - records:
   - type: Office
     code: OFFICE-USA-VA-EMPORIA-COUNCIL_MEMBER-DISTRICT_5
@@ -2020,8 +2020,8 @@ groups:
     references:
       election: ELECTION-USA-VA-EMPORIA-2026_GENERAL
       office: OFFICE-USA-VA-EMPORIA-COUNCIL_MEMBER-DISTRICT_5
-  - type: Person
-    code: PERSON-WHITE_DR_7C
+  - type: Citizen
+    code: CITIZEN-WHITE_DR_7C
     attributes:
       username: white_dr_7c
       username_status: provisional
@@ -2035,7 +2035,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-EMPORIA-COUNCIL_MEMBER-DISTRICT_5-2026_GENERAL
-      person: PERSON-WHITE_DR_7C
+      citizen: CITIZEN-WHITE_DR_7C
 - records:
   - type: Office
     code: OFFICE-USA-VA-EMPORIA-COUNCIL_MEMBER-DISTRICT_7
@@ -2053,8 +2053,8 @@ groups:
     references:
       election: ELECTION-USA-VA-EMPORIA-2026_GENERAL
       office: OFFICE-USA-VA-EMPORIA-COUNCIL_MEMBER-DISTRICT_7
-  - type: Person
-    code: PERSON-MATTHEWS_AL_4A
+  - type: Citizen
+    code: CITIZEN-MATTHEWS_AL_4A
     attributes:
       username: matthews_al_4a
       username_status: provisional
@@ -2068,9 +2068,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-EMPORIA-COUNCIL_MEMBER-DISTRICT_7-2026_GENERAL
-      person: PERSON-MATTHEWS_AL_4A
-  - type: Person
-    code: PERSON-SPELLER_KN_9J
+      citizen: CITIZEN-MATTHEWS_AL_4A
+  - type: Citizen
+    code: CITIZEN-SPELLER_KN_9J
     attributes:
       username: speller_kn_9j
       username_status: provisional
@@ -2084,7 +2084,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-EMPORIA-COUNCIL_MEMBER-DISTRICT_7-2026_GENERAL
-      person: PERSON-SPELLER_KN_9J
+      citizen: CITIZEN-SPELLER_KN_9J
 - records:
   - type: Office
     code: OFFICE-USA-VA-FAIRFAX-MAYOR-FAIRFAX_CITY
@@ -2102,8 +2102,8 @@ groups:
     references:
       election: ELECTION-USA-VA-FAIRFAX-2026_GENERAL
       office: OFFICE-USA-VA-FAIRFAX-MAYOR-FAIRFAX_CITY
-  - type: Person
-    code: PERSON-LOCKHART_KR_8M
+  - type: Citizen
+    code: CITIZEN-LOCKHART_KR_8M
     attributes:
       username: lockhart_kr_8m
       username_status: provisional
@@ -2117,9 +2117,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-MAYOR-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-LOCKHART_KR_8M
-  - type: Person
-    code: PERSON-PETERSON_TH_3V
+      citizen: CITIZEN-LOCKHART_KR_8M
+  - type: Citizen
+    code: CITIZEN-PETERSON_TH_3V
     attributes:
       username: peterson_th_3v
       username_status: provisional
@@ -2133,7 +2133,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-MAYOR-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-PETERSON_TH_3V
+      citizen: CITIZEN-PETERSON_TH_3V
 - records:
   - type: Office
     code: OFFICE-USA-VA-FAIRFAX-COUNCIL_MEMBER-FAIRFAX_CITY
@@ -2151,8 +2151,8 @@ groups:
     references:
       election: ELECTION-USA-VA-FAIRFAX-2026_GENERAL
       office: OFFICE-USA-VA-FAIRFAX-COUNCIL_MEMBER-FAIRFAX_CITY
-  - type: Person
-    code: PERSON-AMOS_AN_3B
+  - type: Citizen
+    code: CITIZEN-AMOS_AN_3B
     attributes:
       username: amos_an_3b
       username_status: provisional
@@ -2166,9 +2166,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-COUNCIL_MEMBER-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-AMOS_AN_3B
-  - type: Person
-    code: PERSON-LOUGH_JS_2W
+      citizen: CITIZEN-AMOS_AN_3B
+  - type: Citizen
+    code: CITIZEN-LOUGH_JS_2W
     attributes:
       username: lough_js_2w
       username_status: provisional
@@ -2182,9 +2182,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-COUNCIL_MEMBER-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-LOUGH_JS_2W
-  - type: Person
-    code: PERSON-OBRIEN_KL_9T
+      citizen: CITIZEN-LOUGH_JS_2W
+  - type: Citizen
+    code: CITIZEN-OBRIEN_KL_9T
     attributes:
       username: obrien_kl_9t
       username_status: provisional
@@ -2198,9 +2198,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-COUNCIL_MEMBER-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-OBRIEN_KL_9T
-  - type: Person
-    code: PERSON-PADMORE_MR_4G
+      citizen: CITIZEN-OBRIEN_KL_9T
+  - type: Citizen
+    code: CITIZEN-PADMORE_MR_4G
     attributes:
       username: padmore_mr_4g
       username_status: provisional
@@ -2214,9 +2214,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-COUNCIL_MEMBER-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-PADMORE_MR_4G
-  - type: Person
-    code: PERSON-MCQUILLEN_RC_3H
+      citizen: CITIZEN-PADMORE_MR_4G
+  - type: Citizen
+    code: CITIZEN-MCQUILLEN_RC_3H
     attributes:
       username: mcquillen_rc_3h
       username_status: provisional
@@ -2230,9 +2230,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-COUNCIL_MEMBER-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-MCQUILLEN_RC_3H
-  - type: Person
-    code: PERSON-JONES_RS_6B
+      citizen: CITIZEN-MCQUILLEN_RC_3H
+  - type: Citizen
+    code: CITIZEN-JONES_RS_6B
     attributes:
       username: jones_rs_6b
       username_status: provisional
@@ -2246,9 +2246,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-COUNCIL_MEMBER-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-JONES_RS_6B
-  - type: Person
-    code: PERSON-BROWN_SN_8L
+      citizen: CITIZEN-JONES_RS_6B
+  - type: Citizen
+    code: CITIZEN-BROWN_SN_8L
     attributes:
       username: brown_sn_8l
       username_status: provisional
@@ -2262,9 +2262,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-COUNCIL_MEMBER-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-BROWN_SN_8L
-  - type: Person
-    code: PERSON-HALL_ST_3K
+      citizen: CITIZEN-BROWN_SN_8L
+  - type: Citizen
+    code: CITIZEN-HALL_ST_3K
     attributes:
       username: hall_st_3k
       username_status: provisional
@@ -2278,9 +2278,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-COUNCIL_MEMBER-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-HALL_ST_3K
-  - type: Person
-    code: PERSON-KIM_ST_6F
+      citizen: CITIZEN-HALL_ST_3K
+  - type: Citizen
+    code: CITIZEN-KIM_ST_6F
     attributes:
       username: kim_st_6f
       username_status: provisional
@@ -2294,9 +2294,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-COUNCIL_MEMBER-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-KIM_ST_6F
-  - type: Person
-    code: PERSON-CHANG_ST_6Q
+      citizen: CITIZEN-KIM_ST_6F
+  - type: Citizen
+    code: CITIZEN-CHANG_ST_6Q
     attributes:
       username: chang_st_6q
       username_status: provisional
@@ -2310,9 +2310,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-COUNCIL_MEMBER-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-CHANG_ST_6Q
-  - type: Person
-    code: PERSON-KUILER_SS_2X
+      citizen: CITIZEN-CHANG_ST_6Q
+  - type: Citizen
+    code: CITIZEN-KUILER_SS_2X
     attributes:
       username: kuiler_ss_2x
       username_status: provisional
@@ -2326,7 +2326,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-COUNCIL_MEMBER-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-KUILER_SS_2X
+      citizen: CITIZEN-KUILER_SS_2X
 - records:
   - type: Office
     code: OFFICE-USA-VA-FAIRFAX-SCHOOL_BOARD_MEMBER-FAIRFAX_CITY
@@ -2344,8 +2344,8 @@ groups:
     references:
       election: ELECTION-USA-VA-FAIRFAX-2026_GENERAL
       office: OFFICE-USA-VA-FAIRFAX-SCHOOL_BOARD_MEMBER-FAIRFAX_CITY
-  - type: Person
-    code: PERSON-HICKMAN_AM_9F
+  - type: Citizen
+    code: CITIZEN-HICKMAN_AM_9F
     attributes:
       username: hickman_am_9f
       username_status: provisional
@@ -2359,9 +2359,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-SCHOOL_BOARD_MEMBER-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-HICKMAN_AM_9F
-  - type: Person
-    code: PERSON-PITCHES_CR_2S
+      citizen: CITIZEN-HICKMAN_AM_9F
+  - type: Citizen
+    code: CITIZEN-PITCHES_CR_2S
     attributes:
       username: pitches_cr_2s
       username_status: provisional
@@ -2375,9 +2375,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-SCHOOL_BOARD_MEMBER-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-PITCHES_CR_2S
-  - type: Person
-    code: PERSON-CECERE_KR_4X
+      citizen: CITIZEN-PITCHES_CR_2S
+  - type: Citizen
+    code: CITIZEN-CECERE_KR_4X
     attributes:
       username: cecere_kr_4x
       username_status: provisional
@@ -2391,9 +2391,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-SCHOOL_BOARD_MEMBER-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-CECERE_KR_4X
-  - type: Person
-    code: PERSON-BARTELME_LR_6L
+      citizen: CITIZEN-CECERE_KR_4X
+  - type: Citizen
+    code: CITIZEN-BARTELME_LR_6L
     attributes:
       username: bartelme_lr_6l
       username_status: provisional
@@ -2407,9 +2407,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-SCHOOL_BOARD_MEMBER-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-BARTELME_LR_6L
-  - type: Person
-    code: PERSON-KELSEY_SR_3H
+      citizen: CITIZEN-BARTELME_LR_6L
+  - type: Citizen
+    code: CITIZEN-KELSEY_SR_3H
     attributes:
       username: kelsey_sr_3h
       username_status: provisional
@@ -2423,7 +2423,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FAIRFAX-SCHOOL_BOARD_MEMBER-FAIRFAX_CITY-2026_GENERAL
-      person: PERSON-KELSEY_SR_3H
+      citizen: CITIZEN-KELSEY_SR_3H
 - records:
   - type: Office
     code: OFFICE-USA-VA-FRANKLIN-MAYOR-FRANKLIN_CITY
@@ -2441,8 +2441,8 @@ groups:
     references:
       election: ELECTION-USA-VA-FRANKLIN-2026_GENERAL
       office: OFFICE-USA-VA-FRANKLIN-MAYOR-FRANKLIN_CITY
-  - type: Person
-    code: PERSON-JOHNSON_LN_4K
+  - type: Citizen
+    code: CITIZEN-JOHNSON_LN_4K
     attributes:
       username: johnson_ln_4k
       username_status: provisional
@@ -2456,9 +2456,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FRANKLIN-MAYOR-FRANKLIN_CITY-2026_GENERAL
-      person: PERSON-JOHNSON_LN_4K
-  - type: Person
-    code: PERSON-KAPLAN_PL_3W
+      citizen: CITIZEN-JOHNSON_LN_4K
+  - type: Citizen
+    code: CITIZEN-KAPLAN_PL_3W
     attributes:
       username: kaplan_pl_3w
       username_status: provisional
@@ -2472,7 +2472,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FRANKLIN-MAYOR-FRANKLIN_CITY-2026_GENERAL
-      person: PERSON-KAPLAN_PL_3W
+      citizen: CITIZEN-KAPLAN_PL_3W
 - records:
   - type: Office
     code: OFFICE-USA-VA-FRANKLIN-COUNCIL_MEMBER-DISTRICT_3
@@ -2490,8 +2490,8 @@ groups:
     references:
       election: ELECTION-USA-VA-FRANKLIN-2026_GENERAL
       office: OFFICE-USA-VA-FRANKLIN-COUNCIL_MEMBER-DISTRICT_3
-  - type: Person
-    code: PERSON-ASHBURN_CH_6V
+  - type: Citizen
+    code: CITIZEN-ASHBURN_CH_6V
     attributes:
       username: ashburn_ch_6v
       username_status: provisional
@@ -2505,9 +2505,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FRANKLIN-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL
-      person: PERSON-ASHBURN_CH_6V
-  - type: Person
-    code: PERSON-MCLEMORE_GR_7M
+      citizen: CITIZEN-ASHBURN_CH_6V
+  - type: Citizen
+    code: CITIZEN-MCLEMORE_GR_7M
     attributes:
       username: mclemore_gr_7m
       username_status: provisional
@@ -2520,9 +2520,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FRANKLIN-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL
-      person: PERSON-MCLEMORE_GR_7M
-  - type: Person
-    code: PERSON-MCLEMORE_GR_8A
+      citizen: CITIZEN-MCLEMORE_GR_7M
+  - type: Citizen
+    code: CITIZEN-MCLEMORE_GR_8A
     attributes:
       username: mclemore_gr_8a
       username_status: provisional
@@ -2535,7 +2535,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FRANKLIN-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL
-      person: PERSON-MCLEMORE_GR_8A
+      citizen: CITIZEN-MCLEMORE_GR_8A
 - records:
   - type: Office
     code: OFFICE-USA-VA-FRANKLIN-COUNCIL_MEMBER-DISTRICT_5
@@ -2553,8 +2553,8 @@ groups:
     references:
       election: ELECTION-USA-VA-FRANKLIN-2026_GENERAL
       office: OFFICE-USA-VA-FRANKLIN-COUNCIL_MEMBER-DISTRICT_5
-  - type: Person
-    code: PERSON-SYKES_RC_4L
+  - type: Citizen
+    code: CITIZEN-SYKES_RC_4L
     attributes:
       username: sykes_rc_4l
       username_status: provisional
@@ -2568,9 +2568,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FRANKLIN-COUNCIL_MEMBER-DISTRICT_5-2026_GENERAL
-      person: PERSON-SYKES_RC_4L
-  - type: Person
-    code: PERSON-COPELAND_WY_7P
+      citizen: CITIZEN-SYKES_RC_4L
+  - type: Citizen
+    code: CITIZEN-COPELAND_WY_7P
     attributes:
       username: copeland_wy_7p
       username_status: provisional
@@ -2584,7 +2584,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FRANKLIN-COUNCIL_MEMBER-DISTRICT_5-2026_GENERAL
-      person: PERSON-COPELAND_WY_7P
+      citizen: CITIZEN-COPELAND_WY_7P
 - records:
   - type: Office
     code: OFFICE-USA-VA-FREDERICKSBURG-SCHOOL_BOARD_MEMBER-AT_LARGE
@@ -2602,8 +2602,8 @@ groups:
     references:
       election: ELECTION-USA-VA-FREDERICKSBURG-2026_SPECIAL
       office: OFFICE-USA-VA-FREDERICKSBURG-SCHOOL_BOARD_MEMBER-AT_LARGE
-  - type: Person
-    code: PERSON-CARTER_JS_5E
+  - type: Citizen
+    code: CITIZEN-CARTER_JS_5E
     attributes:
       username: carter_js_5e
       username_status: provisional
@@ -2617,7 +2617,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FREDERICKSBURG-SCHOOL_BOARD_MEMBER-AT_LARGE-2026_SPECIAL
-      person: PERSON-CARTER_JS_5E
+      citizen: CITIZEN-CARTER_JS_5E
 - records:
   - type: Office
     code: OFFICE-USA-VA-HAMPTON-COUNCIL_MEMBER
@@ -2634,8 +2634,8 @@ groups:
     references:
       election: ELECTION-USA-VA-HAMPTON-2026_GENERAL
       office: OFFICE-USA-VA-HAMPTON-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-WEAVER_AR_6T
+  - type: Citizen
+    code: CITIZEN-WEAVER_AR_6T
     attributes:
       username: weaver_ar_6t
       username_status: provisional
@@ -2649,9 +2649,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HAMPTON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-WEAVER_AR_6T
-  - type: Person
-    code: PERSON-BOWMAN_CH_9L
+      citizen: CITIZEN-WEAVER_AR_6T
+  - type: Citizen
+    code: CITIZEN-BOWMAN_CH_9L
     attributes:
       username: bowman_ch_9l
       username_status: provisional
@@ -2665,9 +2665,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HAMPTON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-BOWMAN_CH_9L
-  - type: Person
-    code: PERSON-GRIFFITH_JS_8H
+      citizen: CITIZEN-BOWMAN_CH_9L
+  - type: Citizen
+    code: CITIZEN-GRIFFITH_JS_8H
     attributes:
       username: griffith_js_8h
       username_status: provisional
@@ -2681,9 +2681,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HAMPTON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-GRIFFITH_JS_8H
-  - type: Person
-    code: PERSON-MUGLER_MR_6P
+      citizen: CITIZEN-GRIFFITH_JS_8H
+  - type: Citizen
+    code: CITIZEN-MUGLER_MR_6P
     attributes:
       username: mugler_mr_6p
       username_status: provisional
@@ -2697,9 +2697,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HAMPTON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-MUGLER_MR_6P
-  - type: Person
-    code: PERSON-FEREBEE_MC_9S
+      citizen: CITIZEN-MUGLER_MR_6P
+  - type: Citizen
+    code: CITIZEN-FEREBEE_MC_9S
     attributes:
       username: ferebee_mc_9s
       username_status: provisional
@@ -2713,9 +2713,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HAMPTON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-FEREBEE_MC_9S
-  - type: Person
-    code: PERSON-BROWN_ST_9Y
+      citizen: CITIZEN-FEREBEE_MC_9S
+  - type: Citizen
+    code: CITIZEN-BROWN_ST_9Y
     attributes:
       username: brown_st_9y
       username_status: provisional
@@ -2729,7 +2729,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HAMPTON-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-BROWN_ST_9Y
+      citizen: CITIZEN-BROWN_ST_9Y
 - records:
   - type: Office
     code: OFFICE-USA-VA-HAMPTON-SCHOOL_BOARD_MEMBER
@@ -2746,8 +2746,8 @@ groups:
     references:
       election: ELECTION-USA-VA-HAMPTON-2026_GENERAL
       office: OFFICE-USA-VA-HAMPTON-SCHOOL_BOARD_MEMBER
-  - type: Person
-    code: PERSON-SAMUELS_JS_4W
+  - type: Citizen
+    code: CITIZEN-SAMUELS_JS_4W
     attributes:
       username: samuels_js_4w
       username_status: provisional
@@ -2761,9 +2761,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HAMPTON-SCHOOL_BOARD_MEMBER-2026_GENERAL
-      person: PERSON-SAMUELS_JS_4W
-  - type: Person
-    code: PERSON-KILGORE_JS_3B
+      citizen: CITIZEN-SAMUELS_JS_4W
+  - type: Citizen
+    code: CITIZEN-KILGORE_JS_3B
     attributes:
       username: kilgore_js_3b
       username_status: provisional
@@ -2777,9 +2777,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HAMPTON-SCHOOL_BOARD_MEMBER-2026_GENERAL
-      person: PERSON-KILGORE_JS_3B
-  - type: Person
-    code: PERSON-KIDD_NT_5L
+      citizen: CITIZEN-KILGORE_JS_3B
+  - type: Citizen
+    code: CITIZEN-KIDD_NT_5L
     attributes:
       username: kidd_nt_5l
       username_status: provisional
@@ -2793,9 +2793,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HAMPTON-SCHOOL_BOARD_MEMBER-2026_GENERAL
-      person: PERSON-KIDD_NT_5L
-  - type: Person
-    code: PERSON-MASON_RC_3Z
+      citizen: CITIZEN-KIDD_NT_5L
+  - type: Citizen
+    code: CITIZEN-MASON_RC_3Z
     attributes:
       username: mason_rc_3z
       username_status: provisional
@@ -2809,7 +2809,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HAMPTON-SCHOOL_BOARD_MEMBER-2026_GENERAL
-      person: PERSON-MASON_RC_3Z
+      citizen: CITIZEN-MASON_RC_3Z
 - records:
   - type: Office
     code: OFFICE-USA-VA-HARRISONBURG-COUNCIL_MEMBER-HARRISONBURG_CITY
@@ -2827,8 +2827,8 @@ groups:
     references:
       election: ELECTION-USA-VA-HARRISONBURG-2026_GENERAL
       office: OFFICE-USA-VA-HARRISONBURG-COUNCIL_MEMBER-HARRISONBURG_CITY
-  - type: Person
-    code: PERSON-FLEMING_DN_7J
+  - type: Citizen
+    code: CITIZEN-FLEMING_DN_7J
     attributes:
       username: fleming_dn_7j
       username_status: provisional
@@ -2842,9 +2842,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HARRISONBURG-COUNCIL_MEMBER-HARRISONBURG_CITY-2026_GENERAL
-      person: PERSON-FLEMING_DN_7J
-  - type: Person
-    code: PERSON-ROBINSON_MN_5G
+      citizen: CITIZEN-FLEMING_DN_7J
+  - type: Citizen
+    code: CITIZEN-ROBINSON_MN_5G
     attributes:
       username: robinson_mn_5g
       username_status: provisional
@@ -2858,9 +2858,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HARRISONBURG-COUNCIL_MEMBER-HARRISONBURG_CITY-2026_GENERAL
-      person: PERSON-ROBINSON_MN_5G
-  - type: Person
-    code: PERSON-ROMERO_SL_6Q
+      citizen: CITIZEN-ROBINSON_MN_5G
+  - type: Citizen
+    code: CITIZEN-ROMERO_SL_6Q
     attributes:
       username: romero_sl_6q
       username_status: provisional
@@ -2874,7 +2874,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HARRISONBURG-COUNCIL_MEMBER-HARRISONBURG_CITY-2026_GENERAL
-      person: PERSON-ROMERO_SL_6Q
+      citizen: CITIZEN-ROMERO_SL_6Q
 - records:
   - type: Office
     code: OFFICE-USA-VA-HARRISONBURG-SCHOOL_BOARD_MEMBER-HARRISONBURG_CITY
@@ -2892,8 +2892,8 @@ groups:
     references:
       election: ELECTION-USA-VA-HARRISONBURG-2026_GENERAL
       office: OFFICE-USA-VA-HARRISONBURG-SCHOOL_BOARD_MEMBER-HARRISONBURG_CITY
-  - type: Person
-    code: PERSON-FITZGERALD_DB_6V
+  - type: Citizen
+    code: CITIZEN-FITZGERALD_DB_6V
     attributes:
       username: fitzgerald_db_6v
       username_status: provisional
@@ -2907,9 +2907,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HARRISONBURG-SCHOOL_BOARD_MEMBER-HARRISONBURG_CITY-2026_GENERAL
-      person: PERSON-FITZGERALD_DB_6V
-  - type: Person
-    code: PERSON-PHILLIPS_EM_7Z
+      citizen: CITIZEN-FITZGERALD_DB_6V
+  - type: Citizen
+    code: CITIZEN-PHILLIPS_EM_7Z
     attributes:
       username: phillips_em_7z
       username_status: provisional
@@ -2922,9 +2922,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HARRISONBURG-SCHOOL_BOARD_MEMBER-HARRISONBURG_CITY-2026_GENERAL
-      person: PERSON-PHILLIPS_EM_7Z
-  - type: Person
-    code: PERSON-SMALLWOOD_RC_4E
+      citizen: CITIZEN-PHILLIPS_EM_7Z
+  - type: Citizen
+    code: CITIZEN-SMALLWOOD_RC_4E
     attributes:
       username: smallwood_rc_4e
       username_status: provisional
@@ -2938,7 +2938,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HARRISONBURG-SCHOOL_BOARD_MEMBER-HARRISONBURG_CITY-2026_GENERAL
-      person: PERSON-SMALLWOOD_RC_4E
+      citizen: CITIZEN-SMALLWOOD_RC_4E
 - records:
   - type: Office
     code: OFFICE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_1
@@ -2956,8 +2956,8 @@ groups:
     references:
       election: ELECTION-USA-VA-HOPEWELL-2026_GENERAL
       office: OFFICE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_1
-  - type: Person
-    code: PERSON-RANDOLP_DB_8A
+  - type: Citizen
+    code: CITIZEN-RANDOLP_DB_8A
     attributes:
       username: randolp_db_8a
       username_status: provisional
@@ -2971,9 +2971,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_1-2026_GENERAL
-      person: PERSON-RANDOLP_DB_8A
-  - type: Person
-    code: PERSON-JOYNER_RT_2C
+      citizen: CITIZEN-RANDOLP_DB_8A
+  - type: Citizen
+    code: CITIZEN-JOYNER_RT_2C
     attributes:
       username: joyner_rt_2c
       username_status: provisional
@@ -2987,7 +2987,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_1-2026_GENERAL
-      person: PERSON-JOYNER_RT_2C
+      citizen: CITIZEN-JOYNER_RT_2C
 - records:
   - type: Office
     code: OFFICE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_2
@@ -3005,8 +3005,8 @@ groups:
     references:
       election: ELECTION-USA-VA-HOPEWELL-2026_GENERAL
       office: OFFICE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_2
-  - type: Person
-    code: PERSON-HARRIS_MC_3X
+  - type: Citizen
+    code: CITIZEN-HARRIS_MC_3X
     attributes:
       username: harris_mc_3x
       username_status: provisional
@@ -3020,9 +3020,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_2-2026_GENERAL
-      person: PERSON-HARRIS_MC_3X
-  - type: Person
-    code: PERSON-TAYLOR_VN_2U
+      citizen: CITIZEN-HARRIS_MC_3X
+  - type: Citizen
+    code: CITIZEN-TAYLOR_VN_2U
     attributes:
       username: taylor_vn_2u
       username_status: provisional
@@ -3036,7 +3036,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_2-2026_GENERAL
-      person: PERSON-TAYLOR_VN_2U
+      citizen: CITIZEN-TAYLOR_VN_2U
 - records:
   - type: Office
     code: OFFICE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_3
@@ -3054,8 +3054,8 @@ groups:
     references:
       election: ELECTION-USA-VA-HOPEWELL-2026_GENERAL
       office: OFFICE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_3
-  - type: Person
-    code: PERSON-SYLVESTER_AN_9M
+  - type: Citizen
+    code: CITIZEN-SYLVESTER_AN_9M
     attributes:
       username: sylvester_an_9m
       username_status: provisional
@@ -3069,9 +3069,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_3-2026_GENERAL
-      person: PERSON-SYLVESTER_AN_9M
-  - type: Person
-    code: PERSON-TORRES_JF_4L
+      citizen: CITIZEN-SYLVESTER_AN_9M
+  - type: Citizen
+    code: CITIZEN-TORRES_JF_4L
     attributes:
       username: torres_jf_4l
       username_status: provisional
@@ -3085,7 +3085,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_3-2026_GENERAL
-      person: PERSON-TORRES_JF_4L
+      citizen: CITIZEN-TORRES_JF_4L
 - records:
   - type: Office
     code: OFFICE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_6
@@ -3103,8 +3103,8 @@ groups:
     references:
       election: ELECTION-USA-VA-HOPEWELL-2026_SPECIAL
       office: OFFICE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_6
-  - type: Person
-    code: PERSON-MELLON_MT_6V
+  - type: Citizen
+    code: CITIZEN-MELLON_MT_6V
     attributes:
       username: mellon_mt_6v
       username_status: provisional
@@ -3118,9 +3118,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_6-2026_SPECIAL
-      person: PERSON-MELLON_MT_6V
-  - type: Person
-    code: PERSON-MARKS_TV_4V
+      citizen: CITIZEN-MELLON_MT_6V
+  - type: Citizen
+    code: CITIZEN-MARKS_TV_4V
     attributes:
       username: marks_tv_4v
       username_status: provisional
@@ -3134,7 +3134,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_6-2026_SPECIAL
-      person: PERSON-MARKS_TV_4V
+      citizen: CITIZEN-MARKS_TV_4V
 - records:
   - type: Office
     code: OFFICE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_7
@@ -3152,8 +3152,8 @@ groups:
     references:
       election: ELECTION-USA-VA-HOPEWELL-2026_GENERAL
       office: OFFICE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_7
-  - type: Person
-    code: PERSON-PRATT_CL_9F
+  - type: Citizen
+    code: CITIZEN-PRATT_CL_9F
     attributes:
       username: pratt_cl_9f
       username_status: provisional
@@ -3167,9 +3167,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_7-2026_GENERAL
-      person: PERSON-PRATT_CL_9F
-  - type: Person
-    code: PERSON-RAPOLE_LV_8H
+      citizen: CITIZEN-PRATT_CL_9F
+  - type: Citizen
+    code: CITIZEN-RAPOLE_LV_8H
     attributes:
       username: rapole_lv_8h
       username_status: provisional
@@ -3183,7 +3183,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-HOPEWELL-COUNCIL_MEMBER-WARD_7-2026_GENERAL
-      person: PERSON-RAPOLE_LV_8H
+      citizen: CITIZEN-RAPOLE_LV_8H
 - records:
   - type: Office
     code: OFFICE-USA-VA-LEXINGTON-MAYOR-LEXINGTON_CITY
@@ -3201,8 +3201,8 @@ groups:
     references:
       election: ELECTION-USA-VA-LEXINGTON-2026_SPECIAL
       office: OFFICE-USA-VA-LEXINGTON-MAYOR-LEXINGTON_CITY
-  - type: Person
-    code: PERSON-SIGLER_DV_9P
+  - type: Citizen
+    code: CITIZEN-SIGLER_DV_9P
     attributes:
       username: sigler_dv_9p
       username_status: provisional
@@ -3216,9 +3216,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-LEXINGTON-MAYOR-LEXINGTON_CITY-2026_SPECIAL
-      person: PERSON-SIGLER_DV_9P
-  - type: Person
-    code: PERSON-BETTS_NC_7B
+      citizen: CITIZEN-SIGLER_DV_9P
+  - type: Citizen
+    code: CITIZEN-BETTS_NC_7B
     attributes:
       username: betts_nc_7b
       username_status: provisional
@@ -3232,7 +3232,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-LEXINGTON-MAYOR-LEXINGTON_CITY-2026_SPECIAL
-      person: PERSON-BETTS_NC_7B
+      citizen: CITIZEN-BETTS_NC_7B
 - records:
   - type: Office
     code: OFFICE-USA-VA-LEXINGTON-COUNCIL_MEMBER-LEXINGTON_CITY
@@ -3250,8 +3250,8 @@ groups:
     references:
       election: ELECTION-USA-VA-LEXINGTON-2026_GENERAL
       office: OFFICE-USA-VA-LEXINGTON-COUNCIL_MEMBER-LEXINGTON_CITY
-  - type: Person
-    code: PERSON-ANSTED_AM_3B
+  - type: Citizen
+    code: CITIZEN-ANSTED_AM_3B
     attributes:
       username: ansted_am_3b
       username_status: provisional
@@ -3264,9 +3264,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-LEXINGTON-COUNCIL_MEMBER-LEXINGTON_CITY-2026_GENERAL
-      person: PERSON-ANSTED_AM_3B
-  - type: Person
-    code: PERSON-SIGLER_DV_8R
+      citizen: CITIZEN-ANSTED_AM_3B
+  - type: Citizen
+    code: CITIZEN-SIGLER_DV_8R
     attributes:
       username: sigler_dv_8r
       username_status: provisional
@@ -3280,9 +3280,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-LEXINGTON-COUNCIL_MEMBER-LEXINGTON_CITY-2026_GENERAL
-      person: PERSON-SIGLER_DV_8R
-  - type: Person
-    code: PERSON-FERGUSON_MG_8G
+      citizen: CITIZEN-SIGLER_DV_8R
+  - type: Citizen
+    code: CITIZEN-FERGUSON_MG_8G
     attributes:
       username: ferguson_mg_8g
       username_status: provisional
@@ -3296,7 +3296,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-LEXINGTON-COUNCIL_MEMBER-LEXINGTON_CITY-2026_GENERAL
-      person: PERSON-FERGUSON_MG_8G
+      citizen: CITIZEN-FERGUSON_MG_8G
 - records:
   - type: Office
     code: OFFICE-USA-VA-LEXINGTON-SCHOOL_BOARD_MEMBER
@@ -3313,8 +3313,8 @@ groups:
     references:
       election: ELECTION-USA-VA-LEXINGTON-2026_GENERAL
       office: OFFICE-USA-VA-LEXINGTON-SCHOOL_BOARD_MEMBER
-  - type: Person
-    code: PERSON-DAVIS_JS_4G
+  - type: Citizen
+    code: CITIZEN-DAVIS_JS_4G
     attributes:
       username: davis_js_4g
       username_status: provisional
@@ -3328,9 +3328,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-LEXINGTON-SCHOOL_BOARD_MEMBER-2026_GENERAL
-      person: PERSON-DAVIS_JS_4G
-  - type: Person
-    code: PERSON-DOUGLAS_LT_7J
+      citizen: CITIZEN-DAVIS_JS_4G
+  - type: Citizen
+    code: CITIZEN-DOUGLAS_LT_7J
     attributes:
       username: douglas_lt_7j
       username_status: provisional
@@ -3344,7 +3344,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-LEXINGTON-SCHOOL_BOARD_MEMBER-2026_GENERAL
-      person: PERSON-DOUGLAS_LT_7J
+      citizen: CITIZEN-DOUGLAS_LT_7J
 - records:
   - type: Office
     code: OFFICE-USA-VA-LYNCHBURG-COUNCIL_MEMBER-AT_LARGE
@@ -3362,8 +3362,8 @@ groups:
     references:
       election: ELECTION-USA-VA-LYNCHBURG-2026_GENERAL
       office: OFFICE-USA-VA-LYNCHBURG-COUNCIL_MEMBER-AT_LARGE
-  - type: Person
-    code: PERSON-DELZINGARO_CH_7F
+  - type: Citizen
+    code: CITIZEN-DELZINGARO_CH_7F
     attributes:
       username: delzingaro_ch_7f
       username_status: provisional
@@ -3377,9 +3377,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-LYNCHBURG-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
-      person: PERSON-DELZINGARO_CH_7F
-  - type: Person
-    code: PERSON-MARSHALL_NT_6S
+      citizen: CITIZEN-DELZINGARO_CH_7F
+  - type: Citizen
+    code: CITIZEN-MARSHALL_NT_6S
     attributes:
       username: marshall_nt_6s
       username_status: provisional
@@ -3393,9 +3393,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-LYNCHBURG-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
-      person: PERSON-MARSHALL_NT_6S
-  - type: Person
-    code: PERSON-HENDERSON_R_7E
+      citizen: CITIZEN-MARSHALL_NT_6S
+  - type: Citizen
+    code: CITIZEN-HENDERSON_R_7E
     attributes:
       username: henderson_r_7e
       username_status: provisional
@@ -3409,9 +3409,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-LYNCHBURG-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
-      person: PERSON-HENDERSON_R_7E
-  - type: Person
-    code: PERSON-BOSWELL_CH_2Q
+      citizen: CITIZEN-HENDERSON_R_7E
+  - type: Citizen
+    code: CITIZEN-BOSWELL_CH_2Q
     attributes:
       username: boswell_ch_2q
       username_status: provisional
@@ -3425,9 +3425,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-LYNCHBURG-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
-      person: PERSON-BOSWELL_CH_2Q
-  - type: Person
-    code: PERSON-RYBINNI_EL_4T
+      citizen: CITIZEN-BOSWELL_CH_2Q
+  - type: Citizen
+    code: CITIZEN-RYBINNI_EL_4T
     attributes:
       username: rybinni_el_4t
       username_status: provisional
@@ -3441,9 +3441,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-LYNCHBURG-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
-      person: PERSON-RYBINNI_EL_4T
-  - type: Person
-    code: PERSON-TAYLOR_LR_9F
+      citizen: CITIZEN-RYBINNI_EL_4T
+  - type: Citizen
+    code: CITIZEN-TAYLOR_LR_9F
     attributes:
       username: taylor_lr_9f
       username_status: provisional
@@ -3457,9 +3457,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-LYNCHBURG-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
-      person: PERSON-TAYLOR_LR_9F
-  - type: Person
-    code: PERSON-MISJUNS_MR_7Q
+      citizen: CITIZEN-TAYLOR_LR_9F
+  - type: Citizen
+    code: CITIZEN-MISJUNS_MR_7Q
     attributes:
       username: misjuns_mr_7q
       username_status: provisional
@@ -3473,9 +3473,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-LYNCHBURG-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
-      person: PERSON-MISJUNS_MR_7Q
-  - type: Person
-    code: PERSON-REED_ST_7E
+      citizen: CITIZEN-MISJUNS_MR_7Q
+  - type: Citizen
+    code: CITIZEN-REED_ST_7E
     attributes:
       username: reed_st_7e
       username_status: provisional
@@ -3489,9 +3489,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-LYNCHBURG-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
-      person: PERSON-REED_ST_7E
-  - type: Person
-    code: PERSON-BRATTON_VR_3P
+      citizen: CITIZEN-REED_ST_7E
+  - type: Citizen
+    code: CITIZEN-BRATTON_VR_3P
     attributes:
       username: bratton_vr_3p
       username_status: provisional
@@ -3505,7 +3505,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-LYNCHBURG-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
-      person: PERSON-BRATTON_VR_3P
+      citizen: CITIZEN-BRATTON_VR_3P
 - records:
   - type: Office
     code: OFFICE-USA-VA-MANASSAS-COUNCIL_MEMBER-MANASSAS_CITY
@@ -3523,8 +3523,8 @@ groups:
     references:
       election: ELECTION-USA-VA-MANASSAS-2026_GENERAL
       office: OFFICE-USA-VA-MANASSAS-COUNCIL_MEMBER-MANASSAS_CITY
-  - type: Person
-    code: PERSON-LANE_DN_2E
+  - type: Citizen
+    code: CITIZEN-LANE_DN_2E
     attributes:
       username: lane_dn_2e
       username_status: provisional
@@ -3537,9 +3537,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MANASSAS-COUNCIL_MEMBER-MANASSAS_CITY-2026_GENERAL
-      person: PERSON-LANE_DN_2E
-  - type: Person
-    code: PERSON-ZURITA_HL_3X
+      citizen: CITIZEN-LANE_DN_2E
+  - type: Citizen
+    code: CITIZEN-ZURITA_HL_3X
     attributes:
       username: zurita_hl_3x
       username_status: provisional
@@ -3553,9 +3553,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MANASSAS-COUNCIL_MEMBER-MANASSAS_CITY-2026_GENERAL
-      person: PERSON-ZURITA_HL_3X
-  - type: Person
-    code: PERSON-SPALL_JL_5Y
+      citizen: CITIZEN-ZURITA_HL_3X
+  - type: Citizen
+    code: CITIZEN-SPALL_JL_5Y
     attributes:
       username: spall_jl_5y
       username_status: provisional
@@ -3569,9 +3569,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MANASSAS-COUNCIL_MEMBER-MANASSAS_CITY-2026_GENERAL
-      person: PERSON-SPALL_JL_5Y
-  - type: Person
-    code: PERSON-ELLIS_TH_3U
+      citizen: CITIZEN-SPALL_JL_5Y
+  - type: Citizen
+    code: CITIZEN-ELLIS_TH_3U
     attributes:
       username: ellis_th_3u
       username_status: provisional
@@ -3585,9 +3585,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MANASSAS-COUNCIL_MEMBER-MANASSAS_CITY-2026_GENERAL
-      person: PERSON-ELLIS_TH_3U
-  - type: Person
-    code: PERSON-TURNER_CL_2D
+      citizen: CITIZEN-ELLIS_TH_3U
+  - type: Citizen
+    code: CITIZEN-TURNER_CL_2D
     attributes:
       username: turner_cl_2d
       username_status: provisional
@@ -3601,9 +3601,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MANASSAS-COUNCIL_MEMBER-MANASSAS_CITY-2026_GENERAL
-      person: PERSON-TURNER_CL_2D
-  - type: Person
-    code: PERSON-BROWN_EG_3C
+      citizen: CITIZEN-TURNER_CL_2D
+  - type: Citizen
+    code: CITIZEN-BROWN_EG_3C
     attributes:
       username: brown_eg_3c
       username_status: provisional
@@ -3617,9 +3617,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MANASSAS-COUNCIL_MEMBER-MANASSAS_CITY-2026_GENERAL
-      person: PERSON-BROWN_EG_3C
-  - type: Person
-    code: PERSON-GREENE_LY_8X
+      citizen: CITIZEN-BROWN_EG_3C
+  - type: Citizen
+    code: CITIZEN-GREENE_LY_8X
     attributes:
       username: greene_ly_8x
       username_status: provisional
@@ -3633,7 +3633,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MANASSAS-COUNCIL_MEMBER-MANASSAS_CITY-2026_GENERAL
-      person: PERSON-GREENE_LY_8X
+      citizen: CITIZEN-GREENE_LY_8X
 - records:
   - type: Office
     code: OFFICE-USA-VA-MANASSAS-SCHOOL_BOARD_MEMBER-MANASSAS_CITY
@@ -3651,8 +3651,8 @@ groups:
     references:
       election: ELECTION-USA-VA-MANASSAS-2026_GENERAL
       office: OFFICE-USA-VA-MANASSAS-SCHOOL_BOARD_MEMBER-MANASSAS_CITY
-  - type: Person
-    code: PERSON-HAILEY_JV_4D
+  - type: Citizen
+    code: CITIZEN-HAILEY_JV_4D
     attributes:
       username: hailey_jv_4d
       username_status: provisional
@@ -3666,9 +3666,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MANASSAS-SCHOOL_BOARD_MEMBER-MANASSAS_CITY-2026_GENERAL
-      person: PERSON-HAILEY_JV_4D
-  - type: Person
-    code: PERSON-STEVENS_LS_3M
+      citizen: CITIZEN-HAILEY_JV_4D
+  - type: Citizen
+    code: CITIZEN-STEVENS_LS_3M
     attributes:
       username: stevens_ls_3m
       username_status: provisional
@@ -3682,9 +3682,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MANASSAS-SCHOOL_BOARD_MEMBER-MANASSAS_CITY-2026_GENERAL
-      person: PERSON-STEVENS_LS_3M
-  - type: Person
-    code: PERSON-STILL_MR_3X
+      citizen: CITIZEN-STEVENS_LS_3M
+  - type: Citizen
+    code: CITIZEN-STILL_MR_3X
     attributes:
       username: still_mr_3x
       username_status: provisional
@@ -3698,9 +3698,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MANASSAS-SCHOOL_BOARD_MEMBER-MANASSAS_CITY-2026_GENERAL
-      person: PERSON-STILL_MR_3X
-  - type: Person
-    code: PERSON-DOVE_MR_4H
+      citizen: CITIZEN-STILL_MR_3X
+  - type: Citizen
+    code: CITIZEN-DOVE_MR_4H
     attributes:
       username: dove_mr_4h
       username_status: provisional
@@ -3714,9 +3714,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MANASSAS-SCHOOL_BOARD_MEMBER-MANASSAS_CITY-2026_GENERAL
-      person: PERSON-DOVE_MR_4H
-  - type: Person
-    code: PERSON-LINDAO_RL_8H
+      citizen: CITIZEN-DOVE_MR_4H
+  - type: Citizen
+    code: CITIZEN-LINDAO_RL_8H
     attributes:
       username: lindao_rl_8h
       username_status: provisional
@@ -3730,9 +3730,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MANASSAS-SCHOOL_BOARD_MEMBER-MANASSAS_CITY-2026_GENERAL
-      person: PERSON-LINDAO_RL_8H
-  - type: Person
-    code: PERSON-BRESCIA_SR_6E
+      citizen: CITIZEN-LINDAO_RL_8H
+  - type: Citizen
+    code: CITIZEN-BRESCIA_SR_6E
     attributes:
       username: brescia_sr_6e
       username_status: provisional
@@ -3746,7 +3746,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MANASSAS-SCHOOL_BOARD_MEMBER-MANASSAS_CITY-2026_GENERAL
-      person: PERSON-BRESCIA_SR_6E
+      citizen: CITIZEN-BRESCIA_SR_6E
 - records:
   - type: Office
     code: OFFICE-USA-VA-MANASSAS_PARK-COUNCIL_MEMBER-MANASSAS_PARK_CITY
@@ -3764,8 +3764,8 @@ groups:
     references:
       election: ELECTION-USA-VA-MANASSAS_PARK-2026_GENERAL
       office: OFFICE-USA-VA-MANASSAS_PARK-COUNCIL_MEMBER-MANASSAS_PARK_CITY
-  - type: Person
-    code: PERSON-MOREAU_KV_5K
+  - type: Citizen
+    code: CITIZEN-MOREAU_KV_5K
     attributes:
       username: moreau_kv_5k
       username_status: provisional
@@ -3779,9 +3779,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MANASSAS_PARK-COUNCIL_MEMBER-MANASSAS_PARK_CITY-2026_GENERAL
-      person: PERSON-MOREAU_KV_5K
-  - type: Person
-    code: PERSON-MIERNIK_MY_2F
+      citizen: CITIZEN-MOREAU_KV_5K
+  - type: Citizen
+    code: CITIZEN-MIERNIK_MY_2F
     attributes:
       username: miernik_my_2f
       username_status: provisional
@@ -3795,9 +3795,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MANASSAS_PARK-COUNCIL_MEMBER-MANASSAS_PARK_CITY-2026_GENERAL
-      person: PERSON-MIERNIK_MY_2F
-  - type: Person
-    code: PERSON-MALDONADO_RB_7Y
+      citizen: CITIZEN-MIERNIK_MY_2F
+  - type: Citizen
+    code: CITIZEN-MALDONADO_RB_7Y
     attributes:
       username: maldonado_rb_7y
       username_status: provisional
@@ -3810,7 +3810,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MANASSAS_PARK-COUNCIL_MEMBER-MANASSAS_PARK_CITY-2026_GENERAL
-      person: PERSON-MALDONADO_RB_7Y
+      citizen: CITIZEN-MALDONADO_RB_7Y
 - records:
   - type: Office
     code: OFFICE-USA-VA-MARTINSVILLE-COUNCIL_MEMBER-MARTINSVILLE_CITY
@@ -3828,8 +3828,8 @@ groups:
     references:
       election: ELECTION-USA-VA-MARTINSVILLE-2026_GENERAL
       office: OFFICE-USA-VA-MARTINSVILLE-COUNCIL_MEMBER-MARTINSVILLE_CITY
-  - type: Person
-    code: PERSON-HALL_CH_4K
+  - type: Citizen
+    code: CITIZEN-HALL_CH_4K
     attributes:
       username: hall_ch_4k
       username_status: provisional
@@ -3843,9 +3843,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MARTINSVILLE-COUNCIL_MEMBER-MARTINSVILLE_CITY-2026_GENERAL
-      person: PERSON-HALL_CH_4K
-  - type: Person
-    code: PERSON-NIEDERSTADT_CH_7E
+      citizen: CITIZEN-HALL_CH_4K
+  - type: Citizen
+    code: CITIZEN-NIEDERSTADT_CH_7E
     attributes:
       username: niederstadt_ch_7e
       username_status: provisional
@@ -3859,9 +3859,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MARTINSVILLE-COUNCIL_MEMBER-MARTINSVILLE_CITY-2026_GENERAL
-      person: PERSON-NIEDERSTADT_CH_7E
-  - type: Person
-    code: PERSON-JONES_L_4H
+      citizen: CITIZEN-NIEDERSTADT_CH_7E
+  - type: Citizen
+    code: CITIZEN-JONES_L_4H
     attributes:
       username: jones_l_4h
       username_status: provisional
@@ -3875,9 +3875,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MARTINSVILLE-COUNCIL_MEMBER-MARTINSVILLE_CITY-2026_GENERAL
-      person: PERSON-JONES_L_4H
-  - type: Person
-    code: PERSON-GREENE_MC_6H
+      citizen: CITIZEN-JONES_L_4H
+  - type: Citizen
+    code: CITIZEN-GREENE_MC_6H
     attributes:
       username: greene_mc_6h
       username_status: provisional
@@ -3891,9 +3891,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MARTINSVILLE-COUNCIL_MEMBER-MARTINSVILLE_CITY-2026_GENERAL
-      person: PERSON-GREENE_MC_6H
-  - type: Person
-    code: PERSON-JENKINS_VR_2F
+      citizen: CITIZEN-GREENE_MC_6H
+  - type: Citizen
+    code: CITIZEN-JENKINS_VR_2F
     attributes:
       username: jenkins_vr_2f
       username_status: provisional
@@ -3907,7 +3907,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MARTINSVILLE-COUNCIL_MEMBER-MARTINSVILLE_CITY-2026_GENERAL
-      person: PERSON-JENKINS_VR_2F
+      citizen: CITIZEN-JENKINS_VR_2F
 - records:
   - type: Office
     code: OFFICE-USA-VA-BELLE_HAVEN-MAYOR
@@ -3924,8 +3924,8 @@ groups:
     references:
       election: ELECTION-USA-VA-BELLE_HAVEN-2026_GENERAL
       office: OFFICE-USA-VA-BELLE_HAVEN-MAYOR
-  - type: Person
-    code: PERSON-MCCALEB_DV_5A
+  - type: Citizen
+    code: CITIZEN-MCCALEB_DV_5A
     attributes:
       username: mccaleb_dv_5a
       username_status: provisional
@@ -3939,9 +3939,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BELLE_HAVEN-MAYOR-2026_GENERAL
-      person: PERSON-MCCALEB_DV_5A
-  - type: Person
-    code: PERSON-WILLCOX_LW_7J
+      citizen: CITIZEN-MCCALEB_DV_5A
+  - type: Citizen
+    code: CITIZEN-WILLCOX_LW_7J
     attributes:
       username: willcox_lw_7j
       username_status: provisional
@@ -3955,7 +3955,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BELLE_HAVEN-MAYOR-2026_GENERAL
-      person: PERSON-WILLCOX_LW_7J
+      citizen: CITIZEN-WILLCOX_LW_7J
 - records:
   - type: Office
     code: OFFICE-USA-VA-BELLE_HAVEN-COUNCIL_MEMBER
@@ -3972,8 +3972,8 @@ groups:
     references:
       election: ELECTION-USA-VA-BELLE_HAVEN-2026_GENERAL
       office: OFFICE-USA-VA-BELLE_HAVEN-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-ASHBY_CC_4X
+  - type: Citizen
+    code: CITIZEN-ASHBY_CC_4X
     attributes:
       username: ashby_cc_4x
       username_status: provisional
@@ -3987,9 +3987,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BELLE_HAVEN-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-ASHBY_CC_4X
-  - type: Person
-    code: PERSON-WEHNER_DG_5M
+      citizen: CITIZEN-ASHBY_CC_4X
+  - type: Citizen
+    code: CITIZEN-WEHNER_DG_5M
     attributes:
       username: wehner_dg_5m
       username_status: provisional
@@ -4003,9 +4003,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BELLE_HAVEN-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-WEHNER_DG_5M
-  - type: Person
-    code: PERSON-LONG_ED_5T
+      citizen: CITIZEN-WEHNER_DG_5M
+  - type: Citizen
+    code: CITIZEN-LONG_ED_5T
     attributes:
       username: long_ed_5t
       username_status: provisional
@@ -4019,9 +4019,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BELLE_HAVEN-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-LONG_ED_5T
-  - type: Person
-    code: PERSON-BAXTER_LR_9D
+      citizen: CITIZEN-LONG_ED_5T
+  - type: Citizen
+    code: CITIZEN-BAXTER_LR_9D
     attributes:
       username: baxter_lr_9d
       username_status: provisional
@@ -4035,9 +4035,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BELLE_HAVEN-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-BAXTER_LR_9D
-  - type: Person
-    code: PERSON-BROWN_TR_3B
+      citizen: CITIZEN-BAXTER_LR_9D
+  - type: Citizen
+    code: CITIZEN-BROWN_TR_3B
     attributes:
       username: brown_tr_3b
       username_status: provisional
@@ -4051,7 +4051,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-BELLE_HAVEN-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-BROWN_TR_3B
+      citizen: CITIZEN-BROWN_TR_3B
 - records:
   - type: Office
     code: OFFICE-USA-VA-SCOTTSVILLE-COUNCIL_MEMBER
@@ -4068,8 +4068,8 @@ groups:
     references:
       election: ELECTION-USA-VA-SCOTTSVILLE-2026_GENERAL
       office: OFFICE-USA-VA-SCOTTSVILLE-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-PAYNE_ED_6Y
+  - type: Citizen
+    code: CITIZEN-PAYNE_ED_6Y
     attributes:
       username: payne_ed_6y
       username_status: provisional
@@ -4083,9 +4083,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SCOTTSVILLE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-PAYNE_ED_6Y
-  - type: Person
-    code: PERSON-HYNES_MR_4R
+      citizen: CITIZEN-PAYNE_ED_6Y
+  - type: Citizen
+    code: CITIZEN-HYNES_MR_4R
     attributes:
       username: hynes_mr_4r
       username_status: provisional
@@ -4099,9 +4099,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SCOTTSVILLE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-HYNES_MR_4R
-  - type: Person
-    code: PERSON-ANGEVINE_ML_8M
+      citizen: CITIZEN-HYNES_MR_4R
+  - type: Citizen
+    code: CITIZEN-ANGEVINE_ML_8M
     attributes:
       username: angevine_ml_8m
       username_status: provisional
@@ -4115,9 +4115,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SCOTTSVILLE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-ANGEVINE_ML_8M
-  - type: Person
-    code: PERSON-GRITSKO_R_6U
+      citizen: CITIZEN-ANGEVINE_ML_8M
+  - type: Citizen
+    code: CITIZEN-GRITSKO_R_6U
     attributes:
       username: gritsko_r_6u
       username_status: provisional
@@ -4131,7 +4131,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SCOTTSVILLE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-GRITSKO_R_6U
+      citizen: CITIZEN-GRITSKO_R_6U
 - records:
   - type: Office
     code: OFFICE-USA-VA-PAMPLIN_CITY-MAYOR
@@ -4148,8 +4148,8 @@ groups:
     references:
       election: ELECTION-USA-VA-PAMPLIN_CITY-2026_GENERAL
       office: OFFICE-USA-VA-PAMPLIN_CITY-MAYOR
-  - type: Person
-    code: PERSON-BLACKWELL_SR_2V
+  - type: Citizen
+    code: CITIZEN-BLACKWELL_SR_2V
     attributes:
       username: blackwell_sr_2v
       username_status: provisional
@@ -4163,7 +4163,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PAMPLIN_CITY-MAYOR-2026_GENERAL
-      person: PERSON-BLACKWELL_SR_2V
+      citizen: CITIZEN-BLACKWELL_SR_2V
 - records:
   - type: Office
     code: OFFICE-USA-VA-PAMPLIN_CITY-COUNCIL_MEMBER
@@ -4180,8 +4180,8 @@ groups:
     references:
       election: ELECTION-USA-VA-PAMPLIN_CITY-2026_GENERAL
       office: OFFICE-USA-VA-PAMPLIN_CITY-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-MARKS_JH_6T
+  - type: Citizen
+    code: CITIZEN-MARKS_JH_6T
     attributes:
       username: marks_jh_6t
       username_status: provisional
@@ -4195,9 +4195,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PAMPLIN_CITY-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-MARKS_JH_6T
-  - type: Person
-    code: PERSON-SWANSON_KN_4T
+      citizen: CITIZEN-MARKS_JH_6T
+  - type: Citizen
+    code: CITIZEN-SWANSON_KN_4T
     attributes:
       username: swanson_kn_4t
       username_status: provisional
@@ -4211,9 +4211,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PAMPLIN_CITY-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-SWANSON_KN_4T
-  - type: Person
-    code: PERSON-REED_SH_9A
+      citizen: CITIZEN-SWANSON_KN_4T
+  - type: Citizen
+    code: CITIZEN-REED_SH_9A
     attributes:
       username: reed_sh_9a
       username_status: provisional
@@ -4227,7 +4227,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PAMPLIN_CITY-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-REED_SH_9A
+      citizen: CITIZEN-REED_SH_9A
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNCIL_MEMBER-APPOMATTOX_COUNTY_PRINCE_EDWARD_COUNTY
@@ -4244,8 +4244,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNCIL_MEMBER-APPOMATTOX_COUNTY_PRINCE_EDWARD_COUNTY-2026_SPECIAL
       office: OFFICE-USA-VA-COUNCIL_MEMBER-APPOMATTOX_COUNTY_PRINCE_EDWARD_COUNTY
-  - type: Person
-    code: PERSON-ARNOLD_JS_8J
+  - type: Citizen
+    code: CITIZEN-ARNOLD_JS_8J
     attributes:
       username: arnold_js_8j
       username_status: provisional
@@ -4259,7 +4259,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNCIL_MEMBER-APPOMATTOX_COUNTY_PRINCE_EDWARD_COUNTY-2026_SPECIAL
-      person: PERSON-ARNOLD_JS_8J
+      citizen: CITIZEN-ARNOLD_JS_8J
 - records:
   - type: Office
     code: OFFICE-USA-VA-GROTTOES-COUNCIL_MEMBER
@@ -4276,8 +4276,8 @@ groups:
     references:
       election: ELECTION-USA-VA-GROTTOES-2026_GENERAL
       office: OFFICE-USA-VA-GROTTOES-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-DODSON_CH_8Y
+  - type: Citizen
+    code: CITIZEN-DODSON_CH_8Y
     attributes:
       username: dodson_ch_8y
       username_status: provisional
@@ -4291,9 +4291,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-GROTTOES-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-DODSON_CH_8Y
-  - type: Person
-    code: PERSON-RAYNES_DV_7W
+      citizen: CITIZEN-DODSON_CH_8Y
+  - type: Citizen
+    code: CITIZEN-RAYNES_DV_7W
     attributes:
       username: raynes_dv_7w
       username_status: provisional
@@ -4307,9 +4307,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-GROTTOES-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-RAYNES_DV_7W
-  - type: Person
-    code: PERSON-SULLIVAN_GL_4Y
+      citizen: CITIZEN-RAYNES_DV_7W
+  - type: Citizen
+    code: CITIZEN-SULLIVAN_GL_4Y
     attributes:
       username: sullivan_gl_4y
       username_status: provisional
@@ -4323,9 +4323,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-GROTTOES-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-SULLIVAN_GL_4Y
-  - type: Person
-    code: PERSON-DITMER_JF_7S
+      citizen: CITIZEN-SULLIVAN_GL_4Y
+  - type: Citizen
+    code: CITIZEN-DITMER_JF_7S
     attributes:
       username: ditmer_jf_7s
       username_status: provisional
@@ -4339,9 +4339,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-GROTTOES-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-DITMER_JF_7S
-  - type: Person
-    code: PERSON-DODSON_KR_3X
+      citizen: CITIZEN-DITMER_JF_7S
+  - type: Citizen
+    code: CITIZEN-DODSON_KR_3X
     attributes:
       username: dodson_kr_3x
       username_status: provisional
@@ -4355,7 +4355,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-GROTTOES-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-DODSON_KR_3X
+      citizen: CITIZEN-DODSON_KR_3X
 - records:
   - type: Office
     code: OFFICE-USA-VA-MAYOR-CUMBERLAND_COUNTY_PRINCE_EDWARD_COUNTY-FARMVILLE
@@ -4373,8 +4373,8 @@ groups:
     references:
       election: ELECTION-USA-VA-MAYOR-CUMBERLAND_COUNTY_PRINCE_EDWARD_COUNTY-2026_GENERAL
       office: OFFICE-USA-VA-MAYOR-CUMBERLAND_COUNTY_PRINCE_EDWARD_COUNTY-FARMVILLE
-  - type: Person
-    code: PERSON-VINCENT_BR_9D
+  - type: Citizen
+    code: CITIZEN-VINCENT_BR_9D
     attributes:
       username: vincent_br_9d
       username_status: provisional
@@ -4388,9 +4388,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MAYOR-CUMBERLAND_COUNTY_PRINCE_EDWARD_COUNTY-FARMVILLE-2026_GENERAL
-      person: PERSON-VINCENT_BR_9D
-  - type: Person
-    code: PERSON-FOX_W_3F
+      citizen: CITIZEN-VINCENT_BR_9D
+  - type: Citizen
+    code: CITIZEN-FOX_W_3F
     attributes:
       username: fox_w_3f
       username_status: provisional
@@ -4404,7 +4404,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-MAYOR-CUMBERLAND_COUNTY_PRINCE_EDWARD_COUNTY-FARMVILLE-2026_GENERAL
-      person: PERSON-FOX_W_3F
+      citizen: CITIZEN-FOX_W_3F
 - records:
   - type: Office
     code: OFFICE-USA-VA-FARMVILLE-COUNCIL_MEMBER-AT_LARGE
@@ -4422,8 +4422,8 @@ groups:
     references:
       election: ELECTION-USA-VA-FARMVILLE-2026_GENERAL
       office: OFFICE-USA-VA-FARMVILLE-COUNCIL_MEMBER-AT_LARGE
-  - type: Person
-    code: PERSON-MILLER_JH_4E
+  - type: Citizen
+    code: CITIZEN-MILLER_JH_4E
     attributes:
       username: miller_jh_4e
       username_status: provisional
@@ -4437,7 +4437,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-FARMVILLE-COUNCIL_MEMBER-AT_LARGE-2026_GENERAL
-      person: PERSON-MILLER_JH_4E
+      citizen: CITIZEN-MILLER_JH_4E
 - records:
   - type: Office
     code: OFFICE-USA-VA-JARRATT-MAYOR
@@ -4454,8 +4454,8 @@ groups:
     references:
       election: ELECTION-USA-VA-JARRATT-2026_GENERAL
       office: OFFICE-USA-VA-JARRATT-MAYOR
-  - type: Person
-    code: PERSON-RAWLINGS_BR_2C
+  - type: Citizen
+    code: CITIZEN-RAWLINGS_BR_2C
     attributes:
       username: rawlings_br_2c
       username_status: provisional
@@ -4469,7 +4469,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-JARRATT-MAYOR-2026_GENERAL
-      person: PERSON-RAWLINGS_BR_2C
+      citizen: CITIZEN-RAWLINGS_BR_2C
 - records:
   - type: Office
     code: OFFICE-USA-VA-JARRATT-COUNCIL_MEMBER
@@ -4486,8 +4486,8 @@ groups:
     references:
       election: ELECTION-USA-VA-JARRATT-2026_GENERAL
       office: OFFICE-USA-VA-JARRATT-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-BROWN_AN_6S
+  - type: Citizen
+    code: CITIZEN-BROWN_AN_6S
     attributes:
       username: brown_an_6s
       username_status: provisional
@@ -4501,9 +4501,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-JARRATT-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-BROWN_AN_6S
-  - type: Person
-    code: PERSON-KINSLEY_DN_8Z
+      citizen: CITIZEN-BROWN_AN_6S
+  - type: Citizen
+    code: CITIZEN-KINSLEY_DN_8Z
     attributes:
       username: kinsley_dn_8z
       username_status: provisional
@@ -4517,9 +4517,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-JARRATT-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-KINSLEY_DN_8Z
-  - type: Person
-    code: PERSON-SCHMACK_ER_2Z
+      citizen: CITIZEN-KINSLEY_DN_8Z
+  - type: Citizen
+    code: CITIZEN-SCHMACK_ER_2Z
     attributes:
       username: schmack_er_2z
       username_status: provisional
@@ -4533,9 +4533,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-JARRATT-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-SCHMACK_ER_2Z
-  - type: Person
-    code: PERSON-BYERS_GR_5W
+      citizen: CITIZEN-SCHMACK_ER_2Z
+  - type: Citizen
+    code: CITIZEN-BYERS_GR_5W
     attributes:
       username: byers_gr_5w
       username_status: provisional
@@ -4549,9 +4549,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-JARRATT-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-BYERS_GR_5W
-  - type: Person
-    code: PERSON-SMITH_Y_9B
+      citizen: CITIZEN-BYERS_GR_5W
+  - type: Citizen
+    code: CITIZEN-SMITH_Y_9B
     attributes:
       username: smith_y_9b
       username_status: provisional
@@ -4565,7 +4565,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-JARRATT-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-SMITH_Y_9B
+      citizen: CITIZEN-SMITH_Y_9B
 - records:
   - type: Office
     code: OFFICE-USA-VA-KILMARNOCK-MAYOR
@@ -4582,8 +4582,8 @@ groups:
     references:
       election: ELECTION-USA-VA-KILMARNOCK-2026_GENERAL
       office: OFFICE-USA-VA-KILMARNOCK-MAYOR
-  - type: Person
-    code: PERSON-DONAHUE_SH_7T
+  - type: Citizen
+    code: CITIZEN-DONAHUE_SH_7T
     attributes:
       username: donahue_sh_7t
       username_status: provisional
@@ -4597,7 +4597,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-KILMARNOCK-MAYOR-2026_GENERAL
-      person: PERSON-DONAHUE_SH_7T
+      citizen: CITIZEN-DONAHUE_SH_7T
 - records:
   - type: Office
     code: OFFICE-USA-VA-KILMARNOCK-COUNCIL_MEMBER
@@ -4614,8 +4614,8 @@ groups:
     references:
       election: ELECTION-USA-VA-KILMARNOCK-2026_GENERAL
       office: OFFICE-USA-VA-KILMARNOCK-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-SCOTT_CY_3V
+  - type: Citizen
+    code: CITIZEN-SCOTT_CY_3V
     attributes:
       username: scott_cy_3v
       username_status: provisional
@@ -4629,9 +4629,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-KILMARNOCK-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-SCOTT_CY_3V
-  - type: Person
-    code: PERSON-SMITH_M_5N
+      citizen: CITIZEN-SCOTT_CY_3V
+  - type: Citizen
+    code: CITIZEN-SMITH_M_5N
     attributes:
       username: smith_m_5n
       username_status: provisional
@@ -4645,9 +4645,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-KILMARNOCK-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-SMITH_M_5N
-  - type: Person
-    code: PERSON-CUNNINGHAM_MT_7S
+      citizen: CITIZEN-SMITH_M_5N
+  - type: Citizen
+    code: CITIZEN-CUNNINGHAM_MT_7S
     attributes:
       username: cunningham_mt_7s
       username_status: provisional
@@ -4661,9 +4661,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-KILMARNOCK-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-CUNNINGHAM_MT_7S
-  - type: Person
-    code: PERSON-JONES_PL_8K
+      citizen: CITIZEN-CUNNINGHAM_MT_7S
+  - type: Citizen
+    code: CITIZEN-JONES_PL_8K
     attributes:
       username: jones_pl_8k
       username_status: provisional
@@ -4677,9 +4677,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-KILMARNOCK-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-JONES_PL_8K
-  - type: Person
-    code: PERSON-BOWLES_SN_5A
+      citizen: CITIZEN-JONES_PL_8K
+  - type: Citizen
+    code: CITIZEN-BOWLES_SN_5A
     attributes:
       username: bowles_sn_5a
       username_status: provisional
@@ -4693,7 +4693,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-KILMARNOCK-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-BOWLES_SN_5A
+      citizen: CITIZEN-BOWLES_SN_5A
 - records:
   - type: Office
     code: OFFICE-USA-VA-SALTVILLE-MAYOR
@@ -4710,8 +4710,8 @@ groups:
     references:
       election: ELECTION-USA-VA-SALTVILLE-2026_GENERAL
       office: OFFICE-USA-VA-SALTVILLE-MAYOR
-  - type: Person
-    code: PERSON-CALL_R_5Z
+  - type: Citizen
+    code: CITIZEN-CALL_R_5Z
     attributes:
       username: call_r_5z
       username_status: provisional
@@ -4725,9 +4725,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SALTVILLE-MAYOR-2026_GENERAL
-      person: PERSON-CALL_R_5Z
-  - type: Person
-    code: PERSON-ABRAMSON_SZ_6W
+      citizen: CITIZEN-CALL_R_5Z
+  - type: Citizen
+    code: CITIZEN-ABRAMSON_SZ_6W
     attributes:
       username: abramson_sz_6w
       username_status: provisional
@@ -4741,7 +4741,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SALTVILLE-MAYOR-2026_GENERAL
-      person: PERSON-ABRAMSON_SZ_6W
+      citizen: CITIZEN-ABRAMSON_SZ_6W
 - records:
   - type: Office
     code: OFFICE-USA-VA-SALTVILLE-COUNCIL_MEMBER
@@ -4758,8 +4758,8 @@ groups:
     references:
       election: ELECTION-USA-VA-SALTVILLE-2026_GENERAL
       office: OFFICE-USA-VA-SALTVILLE-COUNCIL_MEMBER
-  - type: Person
-    code: PERSON-SAULS_CR_6E
+  - type: Citizen
+    code: CITIZEN-SAULS_CR_6E
     attributes:
       username: sauls_cr_6e
       username_status: provisional
@@ -4773,9 +4773,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SALTVILLE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-SAULS_CR_6E
-  - type: Person
-    code: PERSON-COMER_RY_3Z
+      citizen: CITIZEN-SAULS_CR_6E
+  - type: Citizen
+    code: CITIZEN-COMER_RY_3Z
     attributes:
       username: comer_ry_3z
       username_status: provisional
@@ -4789,9 +4789,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SALTVILLE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-COMER_RY_3Z
-  - type: Person
-    code: PERSON-HENNEGAR_ST_8F
+      citizen: CITIZEN-COMER_RY_3Z
+  - type: Citizen
+    code: CITIZEN-HENNEGAR_ST_8F
     attributes:
       username: hennegar_st_8f
       username_status: provisional
@@ -4805,9 +4805,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SALTVILLE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-HENNEGAR_ST_8F
-  - type: Person
-    code: PERSON-PRATER_TR_9N
+      citizen: CITIZEN-HENNEGAR_ST_8F
+  - type: Citizen
+    code: CITIZEN-PRATER_TR_9N
     attributes:
       username: prater_tr_9n
       username_status: provisional
@@ -4821,7 +4821,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SALTVILLE-COUNCIL_MEMBER-2026_GENERAL
-      person: PERSON-PRATER_TR_9N
+      citizen: CITIZEN-PRATER_TR_9N
 - records:
   - type: Office
     code: OFFICE-USA-VA-NEWPORT_NEWS-MAYOR-NEWPORT_NEWS_CITY
@@ -4839,8 +4839,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NEWPORT_NEWS-2026_GENERAL
       office: OFFICE-USA-VA-NEWPORT_NEWS-MAYOR-NEWPORT_NEWS_CITY
-  - type: Person
-    code: PERSON-HAMILTON_PH_9C
+  - type: Citizen
+    code: CITIZEN-HAMILTON_PH_9C
     attributes:
       username: hamilton_ph_9c
       username_status: provisional
@@ -4854,9 +4854,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEWPORT_NEWS-MAYOR-NEWPORT_NEWS_CITY-2026_GENERAL
-      person: PERSON-HAMILTON_PH_9C
-  - type: Person
-    code: PERSON-JONES_PH_7K
+      citizen: CITIZEN-HAMILTON_PH_9C
+  - type: Citizen
+    code: CITIZEN-JONES_PH_7K
     attributes:
       username: jones_ph_7k
       username_status: provisional
@@ -4870,9 +4870,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEWPORT_NEWS-MAYOR-NEWPORT_NEWS_CITY-2026_GENERAL
-      person: PERSON-JONES_PH_7K
-  - type: Person
-    code: PERSON-SCOTT_SH_4G
+      citizen: CITIZEN-JONES_PH_7K
+  - type: Citizen
+    code: CITIZEN-SCOTT_SH_4G
     attributes:
       username: scott_sh_4g
       username_status: provisional
@@ -4886,7 +4886,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEWPORT_NEWS-MAYOR-NEWPORT_NEWS_CITY-2026_GENERAL
-      person: PERSON-SCOTT_SH_4G
+      citizen: CITIZEN-SCOTT_SH_4G
 - records:
   - type: Office
     code: OFFICE-USA-VA-NEWPORT_NEWS-COUNCIL_MEMBER-CENTRAL_DISTRICT_SEAT_B
@@ -4904,8 +4904,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NEWPORT_NEWS-2026_GENERAL
       office: OFFICE-USA-VA-NEWPORT_NEWS-COUNCIL_MEMBER-CENTRAL_DISTRICT_SEAT_B
-  - type: Person
-    code: PERSON-DIGGS_AN_5K
+  - type: Citizen
+    code: CITIZEN-DIGGS_AN_5K
     attributes:
       username: diggs_an_5k
       username_status: provisional
@@ -4919,9 +4919,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEWPORT_NEWS-COUNCIL_MEMBER-CENTRAL_DISTRICT_SEAT_B-2026_GENERAL
-      person: PERSON-DIGGS_AN_5K
-  - type: Person
-    code: PERSON-LONG_CL_5X
+      citizen: CITIZEN-DIGGS_AN_5K
+  - type: Citizen
+    code: CITIZEN-LONG_CL_5X
     attributes:
       username: long_cl_5x
       username_status: provisional
@@ -4935,9 +4935,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEWPORT_NEWS-COUNCIL_MEMBER-CENTRAL_DISTRICT_SEAT_B-2026_GENERAL
-      person: PERSON-LONG_CL_5X
-  - type: Person
-    code: PERSON-GALE_MC_9Q
+      citizen: CITIZEN-LONG_CL_5X
+  - type: Citizen
+    code: CITIZEN-GALE_MC_9Q
     attributes:
       username: gale_mc_9q
       username_status: provisional
@@ -4951,7 +4951,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEWPORT_NEWS-COUNCIL_MEMBER-CENTRAL_DISTRICT_SEAT_B-2026_GENERAL
-      person: PERSON-GALE_MC_9Q
+      citizen: CITIZEN-GALE_MC_9Q
 - records:
   - type: Office
     code: OFFICE-USA-VA-NEWPORT_NEWS-COUNCIL_MEMBER-NORTH_DISTRICT_SEAT_B
@@ -4969,8 +4969,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NEWPORT_NEWS-2026_GENERAL
       office: OFFICE-USA-VA-NEWPORT_NEWS-COUNCIL_MEMBER-NORTH_DISTRICT_SEAT_B
-  - type: Person
-    code: PERSON-BETHANY_CR_3V
+  - type: Citizen
+    code: CITIZEN-BETHANY_CR_3V
     attributes:
       username: bethany_cr_3v
       username_status: provisional
@@ -4984,7 +4984,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEWPORT_NEWS-COUNCIL_MEMBER-NORTH_DISTRICT_SEAT_B-2026_GENERAL
-      person: PERSON-BETHANY_CR_3V
+      citizen: CITIZEN-BETHANY_CR_3V
 - records:
   - type: Office
     code: OFFICE-USA-VA-NEWPORT_NEWS-COUNCIL_MEMBER-SOUTH_DISTRICT_SEAT_B
@@ -5002,8 +5002,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NEWPORT_NEWS-2026_GENERAL
       office: OFFICE-USA-VA-NEWPORT_NEWS-COUNCIL_MEMBER-SOUTH_DISTRICT_SEAT_B
-  - type: Person
-    code: PERSON-ATKINS_CL_2B
+  - type: Citizen
+    code: CITIZEN-ATKINS_CL_2B
     attributes:
       username: atkins_cl_2b
       username_status: provisional
@@ -5017,9 +5017,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEWPORT_NEWS-COUNCIL_MEMBER-SOUTH_DISTRICT_SEAT_B-2026_GENERAL
-      person: PERSON-ATKINS_CL_2B
-  - type: Person
-    code: PERSON-HAMILTON_DV_4X
+      citizen: CITIZEN-ATKINS_CL_2B
+  - type: Citizen
+    code: CITIZEN-HAMILTON_DV_4X
     attributes:
       username: hamilton_dv_4x
       username_status: provisional
@@ -5033,9 +5033,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEWPORT_NEWS-COUNCIL_MEMBER-SOUTH_DISTRICT_SEAT_B-2026_GENERAL
-      person: PERSON-HAMILTON_DV_4X
-  - type: Person
-    code: PERSON-ELEY_JH_4Y
+      citizen: CITIZEN-HAMILTON_DV_4X
+  - type: Citizen
+    code: CITIZEN-ELEY_JH_4Y
     attributes:
       username: eley_jh_4y
       username_status: provisional
@@ -5049,7 +5049,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEWPORT_NEWS-COUNCIL_MEMBER-SOUTH_DISTRICT_SEAT_B-2026_GENERAL
-      person: PERSON-ELEY_JH_4Y
+      citizen: CITIZEN-ELEY_JH_4Y
 - records:
   - type: Office
     code: OFFICE-USA-VA-NEWPORT_NEWS-SCHOOL_BOARD_MEMBER-CENTRAL_DISTRICT
@@ -5067,8 +5067,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NEWPORT_NEWS-2026_GENERAL
       office: OFFICE-USA-VA-NEWPORT_NEWS-SCHOOL_BOARD_MEMBER-CENTRAL_DISTRICT
-  - type: Person
-    code: PERSON-RIVERA_AD_8R
+  - type: Citizen
+    code: CITIZEN-RIVERA_AD_8R
     attributes:
       username: rivera_ad_8r
       username_status: provisional
@@ -5082,9 +5082,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEWPORT_NEWS-SCHOOL_BOARD_MEMBER-CENTRAL_DISTRICT-2026_GENERAL
-      person: PERSON-RIVERA_AD_8R
-  - type: Person
-    code: PERSON-SURLES_LAW_LS_4M
+      citizen: CITIZEN-RIVERA_AD_8R
+  - type: Citizen
+    code: CITIZEN-SURLES_LAW_LS_4M
     attributes:
       username: surles_law_ls_4m
       username_status: provisional
@@ -5098,7 +5098,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEWPORT_NEWS-SCHOOL_BOARD_MEMBER-CENTRAL_DISTRICT-2026_GENERAL
-      person: PERSON-SURLES_LAW_LS_4M
+      citizen: CITIZEN-SURLES_LAW_LS_4M
 - records:
   - type: Office
     code: OFFICE-USA-VA-NEWPORT_NEWS-SCHOOL_BOARD_MEMBER-NORTH_DISTRICT
@@ -5116,8 +5116,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NEWPORT_NEWS-2026_GENERAL
       office: OFFICE-USA-VA-NEWPORT_NEWS-SCHOOL_BOARD_MEMBER-NORTH_DISTRICT
-  - type: Person
-    code: PERSON-BROWN_DG_2C
+  - type: Citizen
+    code: CITIZEN-BROWN_DG_2C
     attributes:
       username: brown_dg_2c
       username_status: provisional
@@ -5131,7 +5131,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEWPORT_NEWS-SCHOOL_BOARD_MEMBER-NORTH_DISTRICT-2026_GENERAL
-      person: PERSON-BROWN_DG_2C
+      citizen: CITIZEN-BROWN_DG_2C
 - records:
   - type: Office
     code: OFFICE-USA-VA-NEWPORT_NEWS-SCHOOL_BOARD_MEMBER-SOUTH_DISTRICT
@@ -5149,8 +5149,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NEWPORT_NEWS-2026_GENERAL
       office: OFFICE-USA-VA-NEWPORT_NEWS-SCHOOL_BOARD_MEMBER-SOUTH_DISTRICT
-  - type: Person
-    code: PERSON-BEST_TR_3D
+  - type: Citizen
+    code: CITIZEN-BEST_TR_3D
     attributes:
       username: best_tr_3d
       username_status: provisional
@@ -5164,7 +5164,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEWPORT_NEWS-SCHOOL_BOARD_MEMBER-SOUTH_DISTRICT-2026_GENERAL
-      person: PERSON-BEST_TR_3D
+      citizen: CITIZEN-BEST_TR_3D
 - records:
   - type: Office
     code: OFFICE-USA-VA-NEWPORT_NEWS-SCHOOL_BOARD_MEMBER-AT_LARGE
@@ -5182,8 +5182,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NEWPORT_NEWS-2026_GENERAL
       office: OFFICE-USA-VA-NEWPORT_NEWS-SCHOOL_BOARD_MEMBER-AT_LARGE
-  - type: Person
-    code: PERSON-JACOBSON_FR_8Q
+  - type: Citizen
+    code: CITIZEN-JACOBSON_FR_8Q
     attributes:
       username: jacobson_fr_8q
       username_status: provisional
@@ -5197,9 +5197,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEWPORT_NEWS-SCHOOL_BOARD_MEMBER-AT_LARGE-2026_GENERAL
-      person: PERSON-JACOBSON_FR_8Q
-  - type: Person
-    code: PERSON-HUNTER_GR_8Y
+      citizen: CITIZEN-JACOBSON_FR_8Q
+  - type: Citizen
+    code: CITIZEN-HUNTER_GR_8Y
     attributes:
       username: hunter_gr_8y
       username_status: provisional
@@ -5213,7 +5213,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NEWPORT_NEWS-SCHOOL_BOARD_MEMBER-AT_LARGE-2026_GENERAL
-      person: PERSON-HUNTER_GR_8Y
+      citizen: CITIZEN-HUNTER_GR_8Y
 - records:
   - type: Office
     code: OFFICE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_1
@@ -5231,8 +5231,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NORFOLK-2026_GENERAL
       office: OFFICE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_1
-  - type: Person
-    code: PERSON-GUIRLINGER_SC_5Y
+  - type: Citizen
+    code: CITIZEN-GUIRLINGER_SC_5Y
     attributes:
       username: guirlinger_sc_5y
       username_status: provisional
@@ -5246,7 +5246,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_1-2026_GENERAL
-      person: PERSON-GUIRLINGER_SC_5Y
+      citizen: CITIZEN-GUIRLINGER_SC_5Y
 - records:
   - type: Office
     code: OFFICE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_2
@@ -5264,8 +5264,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NORFOLK-2026_GENERAL
       office: OFFICE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_2
-  - type: Person
-    code: PERSON-DOYLE_CR_8F
+  - type: Citizen
+    code: CITIZEN-DOYLE_CR_8F
     attributes:
       username: doyle_cr_8f
       username_status: provisional
@@ -5279,7 +5279,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_2-2026_GENERAL
-      person: PERSON-DOYLE_CR_8F
+      citizen: CITIZEN-DOYLE_CR_8F
 - records:
   - type: Office
     code: OFFICE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_3
@@ -5297,8 +5297,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NORFOLK-2026_GENERAL
       office: OFFICE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_3
-  - type: Person
-    code: PERSON-JOHNSON_MM_9X
+  - type: Citizen
+    code: CITIZEN-JOHNSON_MM_9X
     attributes:
       username: johnson_mm_9x
       username_status: provisional
@@ -5312,9 +5312,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_3-2026_GENERAL
-      person: PERSON-JOHNSON_MM_9X
-  - type: Person
-    code: PERSON-NEWTON_SK_2Y
+      citizen: CITIZEN-JOHNSON_MM_9X
+  - type: Citizen
+    code: CITIZEN-NEWTON_SK_2Y
     attributes:
       username: newton_sk_2y
       username_status: provisional
@@ -5327,7 +5327,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_3-2026_GENERAL
-      person: PERSON-NEWTON_SK_2Y
+      citizen: CITIZEN-NEWTON_SK_2Y
 - records:
   - type: Office
     code: OFFICE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_4
@@ -5345,8 +5345,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NORFOLK-2026_GENERAL
       office: OFFICE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_4
-  - type: Person
-    code: PERSON-GARRIS_JC_2Y
+  - type: Citizen
+    code: CITIZEN-GARRIS_JC_2Y
     attributes:
       username: garris_jc_2y
       username_status: provisional
@@ -5360,9 +5360,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_4-2026_GENERAL
-      person: PERSON-GARRIS_JC_2Y
-  - type: Person
-    code: PERSON-GARCIA_JZ_7Z
+      citizen: CITIZEN-GARRIS_JC_2Y
+  - type: Citizen
+    code: CITIZEN-GARCIA_JZ_7Z
     attributes:
       username: garcia_jz_7z
       username_status: provisional
@@ -5376,9 +5376,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_4-2026_GENERAL
-      person: PERSON-GARCIA_JZ_7Z
-  - type: Person
-    code: PERSON-PAIGE_JH_8L
+      citizen: CITIZEN-GARCIA_JZ_7Z
+  - type: Citizen
+    code: CITIZEN-PAIGE_JH_8L
     attributes:
       username: paige_jh_8l
       username_status: provisional
@@ -5392,7 +5392,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_4-2026_GENERAL
-      person: PERSON-PAIGE_JH_8L
+      citizen: CITIZEN-PAIGE_JH_8L
 - records:
   - type: Office
     code: OFFICE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_5
@@ -5410,8 +5410,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NORFOLK-2026_GENERAL
       office: OFFICE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_5
-  - type: Person
-    code: PERSON-SMIGIEL_TM_9A
+  - type: Citizen
+    code: CITIZEN-SMIGIEL_TM_9A
     attributes:
       username: smigiel_tm_9a
       username_status: provisional
@@ -5425,7 +5425,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-COUNCIL_MEMBER-WARD_5-2026_GENERAL
-      person: PERSON-SMIGIEL_TM_9A
+      citizen: CITIZEN-SMIGIEL_TM_9A
 - records:
   - type: Office
     code: OFFICE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_1
@@ -5443,8 +5443,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NORFOLK-2026_GENERAL
       office: OFFICE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_1
-  - type: Person
-    code: PERSON-MARTIN_AD_9D
+  - type: Citizen
+    code: CITIZEN-MARTIN_AD_9D
     attributes:
       username: martin_ad_9d
       username_status: provisional
@@ -5458,9 +5458,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_1-2026_GENERAL
-      person: PERSON-MARTIN_AD_9D
-  - type: Person
-    code: PERSON-HOWELL_JS_6T
+      citizen: CITIZEN-MARTIN_AD_9D
+  - type: Citizen
+    code: CITIZEN-HOWELL_JS_6T
     attributes:
       username: howell_js_6t
       username_status: provisional
@@ -5474,7 +5474,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_1-2026_GENERAL
-      person: PERSON-HOWELL_JS_6T
+      citizen: CITIZEN-HOWELL_JS_6T
 - records:
   - type: Office
     code: OFFICE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_2
@@ -5492,8 +5492,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NORFOLK-2026_GENERAL
       office: OFFICE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_2
-  - type: Person
-    code: PERSON-SPENCER_MC_4G
+  - type: Citizen
+    code: CITIZEN-SPENCER_MC_4G
     attributes:
       username: spencer_mc_4g
       username_status: provisional
@@ -5507,9 +5507,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_2-2026_GENERAL
-      person: PERSON-SPENCER_MC_4G
-  - type: Person
-    code: PERSON-WILKERSON_SH_9E
+      citizen: CITIZEN-SPENCER_MC_4G
+  - type: Citizen
+    code: CITIZEN-WILKERSON_SH_9E
     attributes:
       username: wilkerson_sh_9e
       username_status: provisional
@@ -5523,9 +5523,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_2-2026_GENERAL
-      person: PERSON-WILKERSON_SH_9E
-  - type: Person
-    code: PERSON-GATLING_VL_7C
+      citizen: CITIZEN-WILKERSON_SH_9E
+  - type: Citizen
+    code: CITIZEN-GATLING_VL_7C
     attributes:
       username: gatling_vl_7c
       username_status: provisional
@@ -5539,7 +5539,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_2-2026_GENERAL
-      person: PERSON-GATLING_VL_7C
+      citizen: CITIZEN-GATLING_VL_7C
 - records:
   - type: Office
     code: OFFICE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_3
@@ -5557,8 +5557,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NORFOLK-2026_GENERAL
       office: OFFICE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_3
-  - type: Person
-    code: PERSON-SLAUGHTER_JD_8N
+  - type: Citizen
+    code: CITIZEN-SLAUGHTER_JD_8N
     attributes:
       username: slaughter_jd_8n
       username_status: provisional
@@ -5572,7 +5572,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_3-2026_GENERAL
-      person: PERSON-SLAUGHTER_JD_8N
+      citizen: CITIZEN-SLAUGHTER_JD_8N
 - records:
   - type: Office
     code: OFFICE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_4
@@ -5590,8 +5590,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NORFOLK-2026_GENERAL
       office: OFFICE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_4
-  - type: Person
-    code: PERSON-DRIVER_CN_2J
+  - type: Citizen
+    code: CITIZEN-DRIVER_CN_2J
     attributes:
       username: driver_cn_2j
       username_status: provisional
@@ -5605,9 +5605,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_4-2026_GENERAL
-      person: PERSON-DRIVER_CN_2J
-  - type: Person
-    code: PERSON-MOORE_BUFFALOE_TF_5W
+      citizen: CITIZEN-DRIVER_CN_2J
+  - type: Citizen
+    code: CITIZEN-MOORE_BUFFALOE_TF_5W
     attributes:
       username: moore_buffaloe_tf_5w
       username_status: provisional
@@ -5621,7 +5621,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_4-2026_GENERAL
-      person: PERSON-MOORE_BUFFALOE_TF_5W
+      citizen: CITIZEN-MOORE_BUFFALOE_TF_5W
 - records:
   - type: Office
     code: OFFICE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_5
@@ -5639,8 +5639,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NORFOLK-2026_GENERAL
       office: OFFICE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_5
-  - type: Person
-    code: PERSON-BASKERVILLE_JV_8Y
+  - type: Citizen
+    code: CITIZEN-BASKERVILLE_JV_8Y
     attributes:
       username: baskerville_jv_8y
       username_status: provisional
@@ -5654,9 +5654,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_5-2026_GENERAL
-      person: PERSON-BASKERVILLE_JV_8Y
-  - type: Person
-    code: PERSON-PAULSON_KN_9J
+      citizen: CITIZEN-BASKERVILLE_JV_8Y
+  - type: Citizen
+    code: CITIZEN-PAULSON_KN_9J
     attributes:
       username: paulson_kn_9j
       username_status: provisional
@@ -5670,7 +5670,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORFOLK-SCHOOL_BOARD_MEMBER-WARD_5-2026_GENERAL
-      person: PERSON-PAULSON_KN_9J
+      citizen: CITIZEN-PAULSON_KN_9J
 - records:
   - type: Office
     code: OFFICE-USA-VA-NORTON-COUNCIL_MEMBER-NORTON_CITY
@@ -5688,8 +5688,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NORTON-2026_GENERAL
       office: OFFICE-USA-VA-NORTON-COUNCIL_MEMBER-NORTON_CITY
-  - type: Person
-    code: PERSON-DORTON_GR_3X
+  - type: Citizen
+    code: CITIZEN-DORTON_GR_3X
     attributes:
       username: dorton_gr_3x
       username_status: provisional
@@ -5703,9 +5703,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORTON-COUNCIL_MEMBER-NORTON_CITY-2026_GENERAL
-      person: PERSON-DORTON_GR_3X
-  - type: Person
-    code: PERSON-FAWBUSH_JS_7S
+      citizen: CITIZEN-DORTON_GR_3X
+  - type: Citizen
+    code: CITIZEN-FAWBUSH_JS_7S
     attributes:
       username: fawbush_js_7s
       username_status: provisional
@@ -5719,9 +5719,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORTON-COUNCIL_MEMBER-NORTON_CITY-2026_GENERAL
-      person: PERSON-FAWBUSH_JS_7S
-  - type: Person
-    code: PERSON-HONAKER_NN_8Z
+      citizen: CITIZEN-FAWBUSH_JS_7S
+  - type: Citizen
+    code: CITIZEN-HONAKER_NN_8Z
     attributes:
       username: honaker_nn_8z
       username_status: provisional
@@ -5735,9 +5735,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORTON-COUNCIL_MEMBER-NORTON_CITY-2026_GENERAL
-      person: PERSON-HONAKER_NN_8Z
-  - type: Person
-    code: PERSON-SALYERS_ST_4J
+      citizen: CITIZEN-HONAKER_NN_8Z
+  - type: Citizen
+    code: CITIZEN-SALYERS_ST_4J
     attributes:
       username: salyers_st_4j
       username_status: provisional
@@ -5751,7 +5751,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORTON-COUNCIL_MEMBER-NORTON_CITY-2026_GENERAL
-      person: PERSON-SALYERS_ST_4J
+      citizen: CITIZEN-SALYERS_ST_4J
 - records:
   - type: Office
     code: OFFICE-USA-VA-NORTON-SCHOOL_BOARD_MEMBER-NORTON_CITY
@@ -5769,8 +5769,8 @@ groups:
     references:
       election: ELECTION-USA-VA-NORTON-2026_GENERAL
       office: OFFICE-USA-VA-NORTON-SCHOOL_BOARD_MEMBER-NORTON_CITY
-  - type: Person
-    code: PERSON-RUTHERFORD_AB_3Z
+  - type: Citizen
+    code: CITIZEN-RUTHERFORD_AB_3Z
     attributes:
       username: rutherford_ab_3z
       username_status: provisional
@@ -5784,9 +5784,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORTON-SCHOOL_BOARD_MEMBER-NORTON_CITY-2026_GENERAL
-      person: PERSON-RUTHERFORD_AB_3Z
-  - type: Person
-    code: PERSON-SCOTT_GR_8S
+      citizen: CITIZEN-RUTHERFORD_AB_3Z
+  - type: Citizen
+    code: CITIZEN-SCOTT_GR_8S
     attributes:
       username: scott_gr_8s
       username_status: provisional
@@ -5800,9 +5800,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORTON-SCHOOL_BOARD_MEMBER-NORTON_CITY-2026_GENERAL
-      person: PERSON-SCOTT_GR_8S
-  - type: Person
-    code: PERSON-BROSKEY_JN_4D
+      citizen: CITIZEN-SCOTT_GR_8S
+  - type: Citizen
+    code: CITIZEN-BROSKEY_JN_4D
     attributes:
       username: broskey_jn_4d
       username_status: provisional
@@ -5816,9 +5816,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORTON-SCHOOL_BOARD_MEMBER-NORTON_CITY-2026_GENERAL
-      person: PERSON-BROSKEY_JN_4D
-  - type: Person
-    code: PERSON-BOTT_WL_9T
+      citizen: CITIZEN-BROSKEY_JN_4D
+  - type: Citizen
+    code: CITIZEN-BOTT_WL_9T
     attributes:
       username: bott_wl_9t
       username_status: provisional
@@ -5832,7 +5832,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-NORTON-SCHOOL_BOARD_MEMBER-NORTON_CITY-2026_GENERAL
-      person: PERSON-BOTT_WL_9T
+      citizen: CITIZEN-BOTT_WL_9T
 - records:
   - type: Office
     code: OFFICE-USA-VA-PETERSBURG-COUNCIL_MEMBER-FIFTH_WARD
@@ -5850,8 +5850,8 @@ groups:
     references:
       election: ELECTION-USA-VA-PETERSBURG-2026_GENERAL
       office: OFFICE-USA-VA-PETERSBURG-COUNCIL_MEMBER-FIFTH_WARD
-  - type: Person
-    code: PERSON-MORRISSEY_JO_3M
+  - type: Citizen
+    code: CITIZEN-MORRISSEY_JO_3M
     attributes:
       username: morrissey_jo_3m
       username_status: provisional
@@ -5865,9 +5865,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PETERSBURG-COUNCIL_MEMBER-FIFTH_WARD-2026_GENERAL
-      person: PERSON-MORRISSEY_JO_3M
-  - type: Person
-    code: PERSON-MYERS_W_9Y
+      citizen: CITIZEN-MORRISSEY_JO_3M
+  - type: Citizen
+    code: CITIZEN-MYERS_W_9Y
     attributes:
       username: myers_w_9y
       username_status: provisional
@@ -5881,7 +5881,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PETERSBURG-COUNCIL_MEMBER-FIFTH_WARD-2026_GENERAL
-      person: PERSON-MYERS_W_9Y
+      citizen: CITIZEN-MYERS_W_9Y
 - records:
   - type: Office
     code: OFFICE-USA-VA-PETERSBURG-COUNCIL_MEMBER-FIRST_WARD
@@ -5899,8 +5899,8 @@ groups:
     references:
       election: ELECTION-USA-VA-PETERSBURG-2026_GENERAL
       office: OFFICE-USA-VA-PETERSBURG-COUNCIL_MEMBER-FIRST_WARD
-  - type: Person
-    code: PERSON-JONES_MR_5G
+  - type: Citizen
+    code: CITIZEN-JONES_MR_5G
     attributes:
       username: jones_mr_5g
       username_status: provisional
@@ -5914,7 +5914,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PETERSBURG-COUNCIL_MEMBER-FIRST_WARD-2026_GENERAL
-      person: PERSON-JONES_MR_5G
+      citizen: CITIZEN-JONES_MR_5G
 - records:
   - type: Office
     code: OFFICE-USA-VA-PETERSBURG-COUNCIL_MEMBER-SEVENTH_WARD
@@ -5932,8 +5932,8 @@ groups:
     references:
       election: ELECTION-USA-VA-PETERSBURG-2026_GENERAL
       office: OFFICE-USA-VA-PETERSBURG-COUNCIL_MEMBER-SEVENTH_WARD
-  - type: Person
-    code: PERSON-WESTBROOK_AR_9K
+  - type: Citizen
+    code: CITIZEN-WESTBROOK_AR_9K
     attributes:
       username: westbrook_ar_9k
       username_status: provisional
@@ -5947,9 +5947,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PETERSBURG-COUNCIL_MEMBER-SEVENTH_WARD-2026_GENERAL
-      person: PERSON-WESTBROOK_AR_9K
-  - type: Person
-    code: PERSON-BEVERLY_BB_5E
+      citizen: CITIZEN-WESTBROOK_AR_9K
+  - type: Citizen
+    code: CITIZEN-BEVERLY_BB_5E
     attributes:
       username: beverly_bb_5e
       username_status: provisional
@@ -5962,9 +5962,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PETERSBURG-COUNCIL_MEMBER-SEVENTH_WARD-2026_GENERAL
-      person: PERSON-BEVERLY_BB_5E
-  - type: Person
-    code: PERSON-COULTON_HR_9T
+      citizen: CITIZEN-BEVERLY_BB_5E
+  - type: Citizen
+    code: CITIZEN-COULTON_HR_9T
     attributes:
       username: coulton_hr_9t
       username_status: provisional
@@ -5978,7 +5978,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PETERSBURG-COUNCIL_MEMBER-SEVENTH_WARD-2026_GENERAL
-      person: PERSON-COULTON_HR_9T
+      citizen: CITIZEN-COULTON_HR_9T
 - records:
   - type: Office
     code: OFFICE-USA-VA-PETERSBURG-COUNCIL_MEMBER-THIRD_WARD
@@ -5996,8 +5996,8 @@ groups:
     references:
       election: ELECTION-USA-VA-PETERSBURG-2026_GENERAL
       office: OFFICE-USA-VA-PETERSBURG-COUNCIL_MEMBER-THIRD_WARD
-  - type: Person
-    code: PERSON-MOORE_STORRS_MC_3S
+  - type: Citizen
+    code: CITIZEN-MOORE_STORRS_MC_3S
     attributes:
       username: moore_storrs_mc_3s
       username_status: provisional
@@ -6011,9 +6011,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PETERSBURG-COUNCIL_MEMBER-THIRD_WARD-2026_GENERAL
-      person: PERSON-MOORE_STORRS_MC_3S
-  - type: Person
-    code: PERSON-PARHAM_SM_4E
+      citizen: CITIZEN-MOORE_STORRS_MC_3S
+  - type: Citizen
+    code: CITIZEN-PARHAM_SM_4E
     attributes:
       username: parham_sm_4e
       username_status: provisional
@@ -6027,7 +6027,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PETERSBURG-COUNCIL_MEMBER-THIRD_WARD-2026_GENERAL
-      person: PERSON-PARHAM_SM_4E
+      citizen: CITIZEN-PARHAM_SM_4E
 - records:
   - type: Office
     code: OFFICE-USA-VA-PETERSBURG-SCHOOL_BOARD_MEMBER-FIFTH_WARD
@@ -6045,8 +6045,8 @@ groups:
     references:
       election: ELECTION-USA-VA-PETERSBURG-2026_GENERAL
       office: OFFICE-USA-VA-PETERSBURG-SCHOOL_BOARD_MEMBER-FIFTH_WARD
-  - type: Person
-    code: PERSON-TINSLEY_LK_7Y
+  - type: Citizen
+    code: CITIZEN-TINSLEY_LK_7Y
     attributes:
       username: tinsley_lk_7y
       username_status: provisional
@@ -6060,9 +6060,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PETERSBURG-SCHOOL_BOARD_MEMBER-FIFTH_WARD-2026_GENERAL
-      person: PERSON-TINSLEY_LK_7Y
-  - type: Person
-    code: PERSON-LONG_LS_6P
+      citizen: CITIZEN-TINSLEY_LK_7Y
+  - type: Citizen
+    code: CITIZEN-LONG_LS_6P
     attributes:
       username: long_ls_6p
       username_status: provisional
@@ -6076,7 +6076,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PETERSBURG-SCHOOL_BOARD_MEMBER-FIFTH_WARD-2026_GENERAL
-      person: PERSON-LONG_LS_6P
+      citizen: CITIZEN-LONG_LS_6P
 - records:
   - type: Office
     code: OFFICE-USA-VA-PETERSBURG-SCHOOL_BOARD_MEMBER-FIRST_WARD
@@ -6094,8 +6094,8 @@ groups:
     references:
       election: ELECTION-USA-VA-PETERSBURG-2026_GENERAL
       office: OFFICE-USA-VA-PETERSBURG-SCHOOL_BOARD_MEMBER-FIRST_WARD
-  - type: Person
-    code: PERSON-PIERCE_ST_5Z
+  - type: Citizen
+    code: CITIZEN-PIERCE_ST_5Z
     attributes:
       username: pierce_st_5z
       username_status: provisional
@@ -6109,7 +6109,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PETERSBURG-SCHOOL_BOARD_MEMBER-FIRST_WARD-2026_GENERAL
-      person: PERSON-PIERCE_ST_5Z
+      citizen: CITIZEN-PIERCE_ST_5Z
 - records:
   - type: Office
     code: OFFICE-USA-VA-PETERSBURG-SCHOOL_BOARD_MEMBER-SEVENTH_WARD
@@ -6127,8 +6127,8 @@ groups:
     references:
       election: ELECTION-USA-VA-PETERSBURG-2026_GENERAL
       office: OFFICE-USA-VA-PETERSBURG-SCHOOL_BOARD_MEMBER-SEVENTH_WARD
-  - type: Person
-    code: PERSON-DANCE_AD_5C
+  - type: Citizen
+    code: CITIZEN-DANCE_AD_5C
     attributes:
       username: dance_ad_5c
       username_status: provisional
@@ -6142,9 +6142,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PETERSBURG-SCHOOL_BOARD_MEMBER-SEVENTH_WARD-2026_GENERAL
-      person: PERSON-DANCE_AD_5C
-  - type: Person
-    code: PERSON-BROWN_CR_5C
+      citizen: CITIZEN-DANCE_AD_5C
+  - type: Citizen
+    code: CITIZEN-BROWN_CR_5C
     attributes:
       username: brown_cr_5c
       username_status: provisional
@@ -6157,7 +6157,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PETERSBURG-SCHOOL_BOARD_MEMBER-SEVENTH_WARD-2026_GENERAL
-      person: PERSON-BROWN_CR_5C
+      citizen: CITIZEN-BROWN_CR_5C
 - records:
   - type: Office
     code: OFFICE-USA-VA-PETERSBURG-SCHOOL_BOARD_MEMBER-THIRD_WARD
@@ -6175,8 +6175,8 @@ groups:
     references:
       election: ELECTION-USA-VA-PETERSBURG-2026_GENERAL
       office: OFFICE-USA-VA-PETERSBURG-SCHOOL_BOARD_MEMBER-THIRD_WARD
-  - type: Person
-    code: PERSON-CURTIS_FR_8N
+  - type: Citizen
+    code: CITIZEN-CURTIS_FR_8N
     attributes:
       username: curtis_fr_8n
       username_status: provisional
@@ -6190,9 +6190,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PETERSBURG-SCHOOL_BOARD_MEMBER-THIRD_WARD-2026_GENERAL
-      person: PERSON-CURTIS_FR_8N
-  - type: Person
-    code: PERSON-PRITCHETT_KN_2W
+      citizen: CITIZEN-CURTIS_FR_8N
+  - type: Citizen
+    code: CITIZEN-PRITCHETT_KN_2W
     attributes:
       username: pritchett_kn_2w
       username_status: provisional
@@ -6206,7 +6206,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PETERSBURG-SCHOOL_BOARD_MEMBER-THIRD_WARD-2026_GENERAL
-      person: PERSON-PRITCHETT_KN_2W
+      citizen: CITIZEN-PRITCHETT_KN_2W
 - records:
   - type: Office
     code: OFFICE-USA-VA-POQUOSON-COUNCIL_MEMBER-CENTRAL
@@ -6224,8 +6224,8 @@ groups:
     references:
       election: ELECTION-USA-VA-POQUOSON-2026_GENERAL
       office: OFFICE-USA-VA-POQUOSON-COUNCIL_MEMBER-CENTRAL
-  - type: Person
-    code: PERSON-GEISSINGER_ST_7V
+  - type: Citizen
+    code: CITIZEN-GEISSINGER_ST_7V
     attributes:
       username: geissinger_st_7v
       username_status: provisional
@@ -6239,7 +6239,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-POQUOSON-COUNCIL_MEMBER-CENTRAL-2026_GENERAL
-      person: PERSON-GEISSINGER_ST_7V
+      citizen: CITIZEN-GEISSINGER_ST_7V
 - records:
   - type: Office
     code: OFFICE-USA-VA-POQUOSON-COUNCIL_MEMBER-WESTERN
@@ -6257,8 +6257,8 @@ groups:
     references:
       election: ELECTION-USA-VA-POQUOSON-2026_GENERAL
       office: OFFICE-USA-VA-POQUOSON-COUNCIL_MEMBER-WESTERN
-  - type: Person
-    code: PERSON-BUNTING_DB_3Y
+  - type: Citizen
+    code: CITIZEN-BUNTING_DB_3Y
     attributes:
       username: bunting_db_3y
       username_status: provisional
@@ -6272,7 +6272,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-POQUOSON-COUNCIL_MEMBER-WESTERN-2026_GENERAL
-      person: PERSON-BUNTING_DB_3Y
+      citizen: CITIZEN-BUNTING_DB_3Y
 - records:
   - type: Office
     code: OFFICE-USA-VA-PORTSMOUTH-COUNCIL_MEMBER-PORTSMOUTH_CITY
@@ -6290,8 +6290,8 @@ groups:
     references:
       election: ELECTION-USA-VA-PORTSMOUTH-2026_GENERAL
       office: OFFICE-USA-VA-PORTSMOUTH-COUNCIL_MEMBER-PORTSMOUTH_CITY
-  - type: Person
-    code: PERSON-LUCAS_BURKE_LS_2A
+  - type: Citizen
+    code: CITIZEN-LUCAS_BURKE_LS_2A
     attributes:
       username: lucas_burke_ls_2a
       username_status: provisional
@@ -6305,9 +6305,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PORTSMOUTH-COUNCIL_MEMBER-PORTSMOUTH_CITY-2026_GENERAL
-      person: PERSON-LUCAS_BURKE_LS_2A
-  - type: Person
-    code: PERSON-HUGEL_MR_7H
+      citizen: CITIZEN-LUCAS_BURKE_LS_2A
+  - type: Citizen
+    code: CITIZEN-HUGEL_MR_7H
     attributes:
       username: hugel_mr_7h
       username_status: provisional
@@ -6321,9 +6321,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PORTSMOUTH-COUNCIL_MEMBER-PORTSMOUTH_CITY-2026_GENERAL
-      person: PERSON-HUGEL_MR_7H
-  - type: Person
-    code: PERSON-WHITAKER_MR_4Z
+      citizen: CITIZEN-HUGEL_MR_7H
+  - type: Citizen
+    code: CITIZEN-WHITAKER_MR_4Z
     attributes:
       username: whitaker_mr_4z
       username_status: provisional
@@ -6337,9 +6337,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PORTSMOUTH-COUNCIL_MEMBER-PORTSMOUTH_CITY-2026_GENERAL
-      person: PERSON-WHITAKER_MR_4Z
-  - type: Person
-    code: PERSON-TILLAGE_VR_3F
+      citizen: CITIZEN-WHITAKER_MR_4Z
+  - type: Citizen
+    code: CITIZEN-TILLAGE_VR_3F
     attributes:
       username: tillage_vr_3f
       username_status: provisional
@@ -6353,9 +6353,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PORTSMOUTH-COUNCIL_MEMBER-PORTSMOUTH_CITY-2026_GENERAL
-      person: PERSON-TILLAGE_VR_3F
-  - type: Person
-    code: PERSON-MOODY_WL_5Q
+      citizen: CITIZEN-TILLAGE_VR_3F
+  - type: Citizen
+    code: CITIZEN-MOODY_WL_5Q
     attributes:
       username: moody_wl_5q
       username_status: provisional
@@ -6369,7 +6369,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PORTSMOUTH-COUNCIL_MEMBER-PORTSMOUTH_CITY-2026_GENERAL
-      person: PERSON-MOODY_WL_5Q
+      citizen: CITIZEN-MOODY_WL_5Q
 - records:
   - type: Office
     code: OFFICE-USA-VA-PORTSMOUTH-SCHOOL_BOARD_MEMBER-PORTSMOUTH_CITY
@@ -6387,8 +6387,8 @@ groups:
     references:
       election: ELECTION-USA-VA-PORTSMOUTH-2026_GENERAL
       office: OFFICE-USA-VA-PORTSMOUTH-SCHOOL_BOARD_MEMBER-PORTSMOUTH_CITY
-  - type: Person
-    code: PERSON-PATILLO_CR_9W
+  - type: Citizen
+    code: CITIZEN-PATILLO_CR_9W
     attributes:
       username: patillo_cr_9w
       username_status: provisional
@@ -6402,9 +6402,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PORTSMOUTH-SCHOOL_BOARD_MEMBER-PORTSMOUTH_CITY-2026_GENERAL
-      person: PERSON-PATILLO_CR_9W
-  - type: Person
-    code: PERSON-GLOVER_DN_3Y
+      citizen: CITIZEN-PATILLO_CR_9W
+  - type: Citizen
+    code: CITIZEN-GLOVER_DN_3Y
     attributes:
       username: glover_dn_3y
       username_status: provisional
@@ -6418,9 +6418,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PORTSMOUTH-SCHOOL_BOARD_MEMBER-PORTSMOUTH_CITY-2026_GENERAL
-      person: PERSON-GLOVER_DN_3Y
-  - type: Person
-    code: PERSON-WHITAKER_IN_4V
+      citizen: CITIZEN-GLOVER_DN_3Y
+  - type: Citizen
+    code: CITIZEN-WHITAKER_IN_4V
     attributes:
       username: whitaker_in_4v
       username_status: provisional
@@ -6434,9 +6434,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PORTSMOUTH-SCHOOL_BOARD_MEMBER-PORTSMOUTH_CITY-2026_GENERAL
-      person: PERSON-WHITAKER_IN_4V
-  - type: Person
-    code: PERSON-RANDALL_JENKINS_JS_5C
+      citizen: CITIZEN-WHITAKER_IN_4V
+  - type: Citizen
+    code: CITIZEN-RANDALL_JENKINS_JS_5C
     attributes:
       username: randall_jenkins_js_5c
       username_status: provisional
@@ -6450,9 +6450,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PORTSMOUTH-SCHOOL_BOARD_MEMBER-PORTSMOUTH_CITY-2026_GENERAL
-      person: PERSON-RANDALL_JENKINS_JS_5C
-  - type: Person
-    code: PERSON-PADILLA_LS_7F
+      citizen: CITIZEN-RANDALL_JENKINS_JS_5C
+  - type: Citizen
+    code: CITIZEN-PADILLA_LS_7F
     attributes:
       username: padilla_ls_7f
       username_status: provisional
@@ -6466,9 +6466,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PORTSMOUTH-SCHOOL_BOARD_MEMBER-PORTSMOUTH_CITY-2026_GENERAL
-      person: PERSON-PADILLA_LS_7F
-  - type: Person
-    code: PERSON-COTTON_ML_7M
+      citizen: CITIZEN-PADILLA_LS_7F
+  - type: Citizen
+    code: CITIZEN-COTTON_ML_7M
     attributes:
       username: cotton_ml_7m
       username_status: provisional
@@ -6481,9 +6481,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PORTSMOUTH-SCHOOL_BOARD_MEMBER-PORTSMOUTH_CITY-2026_GENERAL
-      person: PERSON-COTTON_ML_7M
-  - type: Person
-    code: PERSON-FUTRELL_QN_9Z
+      citizen: CITIZEN-COTTON_ML_7M
+  - type: Citizen
+    code: CITIZEN-FUTRELL_QN_9Z
     attributes:
       username: futrell_qn_9z
       username_status: provisional
@@ -6497,9 +6497,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PORTSMOUTH-SCHOOL_BOARD_MEMBER-PORTSMOUTH_CITY-2026_GENERAL
-      person: PERSON-FUTRELL_QN_9Z
-  - type: Person
-    code: PERSON-SHEWMAKE_TM_6G
+      citizen: CITIZEN-FUTRELL_QN_9Z
+  - type: Citizen
+    code: CITIZEN-SHEWMAKE_TM_6G
     attributes:
       username: shewmake_tm_6g
       username_status: provisional
@@ -6513,7 +6513,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-PORTSMOUTH-SCHOOL_BOARD_MEMBER-PORTSMOUTH_CITY-2026_GENERAL
-      person: PERSON-SHEWMAKE_TM_6G
+      citizen: CITIZEN-SHEWMAKE_TM_6G
 - records:
   - type: Office
     code: OFFICE-USA-VA-RADFORD-MAYOR-RADFORD_CITY
@@ -6531,8 +6531,8 @@ groups:
     references:
       election: ELECTION-USA-VA-RADFORD-2026_GENERAL
       office: OFFICE-USA-VA-RADFORD-MAYOR-RADFORD_CITY
-  - type: Person
-    code: PERSON-GILLESPIE_ST_7T
+  - type: Citizen
+    code: CITIZEN-GILLESPIE_ST_7T
     attributes:
       username: gillespie_st_7t
       username_status: provisional
@@ -6546,7 +6546,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-RADFORD-MAYOR-RADFORD_CITY-2026_GENERAL
-      person: PERSON-GILLESPIE_ST_7T
+      citizen: CITIZEN-GILLESPIE_ST_7T
 - records:
   - type: Office
     code: OFFICE-USA-VA-RADFORD-COUNCIL_MEMBER-RADFORD_CITY
@@ -6564,8 +6564,8 @@ groups:
     references:
       election: ELECTION-USA-VA-RADFORD-2026_GENERAL
       office: OFFICE-USA-VA-RADFORD-COUNCIL_MEMBER-RADFORD_CITY
-  - type: Person
-    code: PERSON-KOVARIK_BL_9T
+  - type: Citizen
+    code: CITIZEN-KOVARIK_BL_9T
     attributes:
       username: kovarik_bl_9t
       username_status: provisional
@@ -6579,9 +6579,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-RADFORD-COUNCIL_MEMBER-RADFORD_CITY-2026_GENERAL
-      person: PERSON-KOVARIK_BL_9T
-  - type: Person
-    code: PERSON-MEEKS_C_7Z
+      citizen: CITIZEN-KOVARIK_BL_9T
+  - type: Citizen
+    code: CITIZEN-MEEKS_C_7Z
     attributes:
       username: meeks_c_7z
       username_status: provisional
@@ -6595,9 +6595,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-RADFORD-COUNCIL_MEMBER-RADFORD_CITY-2026_GENERAL
-      person: PERSON-MEEKS_C_7Z
-  - type: Person
-    code: PERSON-MCCLANAHAN_CH_6H
+      citizen: CITIZEN-MEEKS_C_7Z
+  - type: Citizen
+    code: CITIZEN-MCCLANAHAN_CH_6H
     attributes:
       username: mcclanahan_ch_6h
       username_status: provisional
@@ -6611,9 +6611,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-RADFORD-COUNCIL_MEMBER-RADFORD_CITY-2026_GENERAL
-      person: PERSON-MCCLANAHAN_CH_6H
-  - type: Person
-    code: PERSON-STEWART_JN_6P
+      citizen: CITIZEN-MCCLANAHAN_CH_6H
+  - type: Citizen
+    code: CITIZEN-STEWART_JN_6P
     attributes:
       username: stewart_jn_6p
       username_status: provisional
@@ -6627,9 +6627,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-RADFORD-COUNCIL_MEMBER-RADFORD_CITY-2026_GENERAL
-      person: PERSON-STEWART_JN_6P
-  - type: Person
-    code: PERSON-KANIPE_P_7B
+      citizen: CITIZEN-STEWART_JN_6P
+  - type: Citizen
+    code: CITIZEN-KANIPE_P_7B
     attributes:
       username: kanipe_p_7b
       username_status: provisional
@@ -6643,7 +6643,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-RADFORD-COUNCIL_MEMBER-RADFORD_CITY-2026_GENERAL
-      person: PERSON-KANIPE_P_7B
+      citizen: CITIZEN-KANIPE_P_7B
 - records:
   - type: Office
     code: OFFICE-USA-VA-RADFORD-SCHOOL_BOARD_MEMBER-RADFORD_CITY
@@ -6661,8 +6661,8 @@ groups:
     references:
       election: ELECTION-USA-VA-RADFORD-2026_GENERAL
       office: OFFICE-USA-VA-RADFORD-SCHOOL_BOARD_MEMBER-RADFORD_CITY
-  - type: Person
-    code: PERSON-DICKENSON_ED_4K
+  - type: Citizen
+    code: CITIZEN-DICKENSON_ED_4K
     attributes:
       username: dickenson_ed_4k
       username_status: provisional
@@ -6676,9 +6676,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-RADFORD-SCHOOL_BOARD_MEMBER-RADFORD_CITY-2026_GENERAL
-      person: PERSON-DICKENSON_ED_4K
-  - type: Person
-    code: PERSON-KREYE_FL_4Z
+      citizen: CITIZEN-DICKENSON_ED_4K
+  - type: Citizen
+    code: CITIZEN-KREYE_FL_4Z
     attributes:
       username: kreye_fl_4z
       username_status: provisional
@@ -6692,9 +6692,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-RADFORD-SCHOOL_BOARD_MEMBER-RADFORD_CITY-2026_GENERAL
-      person: PERSON-KREYE_FL_4Z
-  - type: Person
-    code: PERSON-BOYD_GL_4C
+      citizen: CITIZEN-KREYE_FL_4Z
+  - type: Citizen
+    code: CITIZEN-BOYD_GL_4C
     attributes:
       username: boyd_gl_4c
       username_status: provisional
@@ -6708,9 +6708,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-RADFORD-SCHOOL_BOARD_MEMBER-RADFORD_CITY-2026_GENERAL
-      person: PERSON-BOYD_GL_4C
-  - type: Person
-    code: PERSON-SWING_R_3L
+      citizen: CITIZEN-BOYD_GL_4C
+  - type: Citizen
+    code: CITIZEN-SWING_R_3L
     attributes:
       username: swing_r_3l
       username_status: provisional
@@ -6724,7 +6724,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-RADFORD-SCHOOL_BOARD_MEMBER-RADFORD_CITY-2026_GENERAL
-      person: PERSON-SWING_R_3L
+      citizen: CITIZEN-SWING_R_3L
 - records:
   - type: Office
     code: OFFICE-USA-VA-RICHMOND-SCHOOL_BOARD_MEMBER-DISTRICT_6
@@ -6742,8 +6742,8 @@ groups:
     references:
       election: ELECTION-USA-VA-RICHMOND-2026_SPECIAL
       office: OFFICE-USA-VA-RICHMOND-SCHOOL_BOARD_MEMBER-DISTRICT_6
-  - type: Person
-    code: PERSON-HOLTON_AN_8Y
+  - type: Citizen
+    code: CITIZEN-HOLTON_AN_8Y
     attributes:
       username: holton_an_8y
       username_status: provisional
@@ -6757,9 +6757,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-RICHMOND-SCHOOL_BOARD_MEMBER-DISTRICT_6-2026_SPECIAL
-      person: PERSON-HOLTON_AN_8Y
-  - type: Person
-    code: PERSON-MCDONNOUGH_JC_3S
+      citizen: CITIZEN-HOLTON_AN_8Y
+  - type: Citizen
+    code: CITIZEN-MCDONNOUGH_JC_3S
     attributes:
       username: mcdonnough_jc_3s
       username_status: provisional
@@ -6773,7 +6773,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-RICHMOND-SCHOOL_BOARD_MEMBER-DISTRICT_6-2026_SPECIAL
-      person: PERSON-MCDONNOUGH_JC_3S
+      citizen: CITIZEN-MCDONNOUGH_JC_3S
 - records:
   - type: Office
     code: OFFICE-USA-VA-ROANOKE-COUNCIL_MEMBER-ROANOKE_CITY
@@ -6791,8 +6791,8 @@ groups:
     references:
       election: ELECTION-USA-VA-ROANOKE-2026_GENERAL
       office: OFFICE-USA-VA-ROANOKE-COUNCIL_MEMBER-ROANOKE_CITY
-  - type: Person
-    code: PERSON-MOORE_RK_3L
+  - type: Citizen
+    code: CITIZEN-MOORE_RK_3L
     attributes:
       username: moore_rk_3l
       username_status: provisional
@@ -6806,9 +6806,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-ROANOKE-COUNCIL_MEMBER-ROANOKE_CITY-2026_GENERAL
-      person: PERSON-MOORE_RK_3L
-  - type: Person
-    code: PERSON-CLAWSON_S_7H
+      citizen: CITIZEN-MOORE_RK_3L
+  - type: Citizen
+    code: CITIZEN-CLAWSON_S_7H
     attributes:
       username: clawson_s_7h
       username_status: provisional
@@ -6822,9 +6822,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-ROANOKE-COUNCIL_MEMBER-ROANOKE_CITY-2026_GENERAL
-      person: PERSON-CLAWSON_S_7H
-  - type: Person
-    code: PERSON-SANCHEZ_JONES_VV_5P
+      citizen: CITIZEN-CLAWSON_S_7H
+  - type: Citizen
+    code: CITIZEN-SANCHEZ_JONES_VV_5P
     attributes:
       username: sanchez_jones_vv_5p
       username_status: provisional
@@ -6838,9 +6838,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-ROANOKE-COUNCIL_MEMBER-ROANOKE_CITY-2026_GENERAL
-      person: PERSON-SANCHEZ_JONES_VV_5P
-  - type: Person
-    code: PERSON-MARKO_AM_7V
+      citizen: CITIZEN-SANCHEZ_JONES_VV_5P
+  - type: Citizen
+    code: CITIZEN-MARKO_AM_7V
     attributes:
       username: marko_am_7v
       username_status: provisional
@@ -6854,9 +6854,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-ROANOKE-COUNCIL_MEMBER-ROANOKE_CITY-2026_GENERAL
-      person: PERSON-MARKO_AM_7V
-  - type: Person
-    code: PERSON-BOWERS_DV_9Y
+      citizen: CITIZEN-MARKO_AM_7V
+  - type: Citizen
+    code: CITIZEN-BOWERS_DV_9Y
     attributes:
       username: bowers_dv_9y
       username_status: provisional
@@ -6870,9 +6870,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-ROANOKE-COUNCIL_MEMBER-ROANOKE_CITY-2026_GENERAL
-      person: PERSON-BOWERS_DV_9Y
-  - type: Person
-    code: PERSON-COHEN_KT_7G
+      citizen: CITIZEN-BOWERS_DV_9Y
+  - type: Citizen
+    code: CITIZEN-COHEN_KT_7G
     attributes:
       username: cohen_kt_7g
       username_status: provisional
@@ -6886,9 +6886,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-ROANOKE-COUNCIL_MEMBER-ROANOKE_CITY-2026_GENERAL
-      person: PERSON-COHEN_KT_7G
-  - type: Person
-    code: PERSON-MOON_ST_8N
+      citizen: CITIZEN-COHEN_KT_7G
+  - type: Citizen
+    code: CITIZEN-MOON_ST_8N
     attributes:
       username: moon_st_8n
       username_status: provisional
@@ -6902,7 +6902,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-ROANOKE-COUNCIL_MEMBER-ROANOKE_CITY-2026_GENERAL
-      person: PERSON-MOON_ST_8N
+      citizen: CITIZEN-MOON_ST_8N
 - records:
   - type: Office
     code: OFFICE-USA-VA-SALEM-COUNCIL_MEMBER-SALEM_CITY
@@ -6920,8 +6920,8 @@ groups:
     references:
       election: ELECTION-USA-VA-SALEM-2026_GENERAL
       office: OFFICE-USA-VA-SALEM-COUNCIL_MEMBER-SALEM_CITY
-  - type: Person
-    code: PERSON-HOLLIDAY_H_8K
+  - type: Citizen
+    code: CITIZEN-HOLLIDAY_H_8K
     attributes:
       username: holliday_h_8k
       username_status: provisional
@@ -6935,9 +6935,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SALEM-COUNCIL_MEMBER-SALEM_CITY-2026_GENERAL
-      person: PERSON-HOLLIDAY_H_8K
-  - type: Person
-    code: PERSON-TAYLOR_JN_5Q
+      citizen: CITIZEN-HOLLIDAY_H_8K
+  - type: Citizen
+    code: CITIZEN-TAYLOR_JN_5Q
     attributes:
       username: taylor_jn_5q
       username_status: provisional
@@ -6951,9 +6951,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SALEM-COUNCIL_MEMBER-SALEM_CITY-2026_GENERAL
-      person: PERSON-TAYLOR_JN_5Q
-  - type: Person
-    code: PERSON-HARPOLD_AJ_2L
+      citizen: CITIZEN-TAYLOR_JN_5Q
+  - type: Citizen
+    code: CITIZEN-HARPOLD_AJ_2L
     attributes:
       username: harpold_aj_2l
       username_status: provisional
@@ -6966,9 +6966,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SALEM-COUNCIL_MEMBER-SALEM_CITY-2026_GENERAL
-      person: PERSON-HARPOLD_AJ_2L
-  - type: Person
-    code: PERSON-HOEFLICH_NICKELS_JF_7J
+      citizen: CITIZEN-HARPOLD_AJ_2L
+  - type: Citizen
+    code: CITIZEN-HOEFLICH_NICKELS_JF_7J
     attributes:
       username: hoeflich_nickels_jf_7j
       username_status: provisional
@@ -6982,9 +6982,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SALEM-COUNCIL_MEMBER-SALEM_CITY-2026_GENERAL
-      person: PERSON-HOEFLICH_NICKELS_JF_7J
-  - type: Person
-    code: PERSON-HENRICKSON_MR_8K
+      citizen: CITIZEN-HOEFLICH_NICKELS_JF_7J
+  - type: Citizen
+    code: CITIZEN-HENRICKSON_MR_8K
     attributes:
       username: henrickson_mr_8k
       username_status: provisional
@@ -6998,7 +6998,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SALEM-COUNCIL_MEMBER-SALEM_CITY-2026_GENERAL
-      person: PERSON-HENRICKSON_MR_8K
+      citizen: CITIZEN-HENRICKSON_MR_8K
 - records:
   - type: Office
     code: OFFICE-USA-VA-STAUNTON-COUNCIL_MEMBER-STAUNTON_CITY
@@ -7016,8 +7016,8 @@ groups:
     references:
       election: ELECTION-USA-VA-STAUNTON-2026_GENERAL
       office: OFFICE-USA-VA-STAUNTON-COUNCIL_MEMBER-STAUNTON_CITY
-  - type: Person
-    code: PERSON-WOODS_AL_9E
+  - type: Citizen
+    code: CITIZEN-WOODS_AL_9E
     attributes:
       username: woods_al_9e
       username_status: provisional
@@ -7031,9 +7031,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STAUNTON-COUNCIL_MEMBER-STAUNTON_CITY-2026_GENERAL
-      person: PERSON-WOODS_AL_9E
-  - type: Person
-    code: PERSON-ARROWOOD_BR_7M
+      citizen: CITIZEN-WOODS_AL_9E
+  - type: Citizen
+    code: CITIZEN-ARROWOOD_BR_7M
     attributes:
       username: arrowood_br_7m
       username_status: provisional
@@ -7047,9 +7047,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STAUNTON-COUNCIL_MEMBER-STAUNTON_CITY-2026_GENERAL
-      person: PERSON-ARROWOOD_BR_7M
-  - type: Person
-    code: PERSON-VAUGHN_WL_7Q
+      citizen: CITIZEN-ARROWOOD_BR_7M
+  - type: Citizen
+    code: CITIZEN-VAUGHN_WL_7Q
     attributes:
       username: vaughn_wl_7q
       username_status: provisional
@@ -7063,7 +7063,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STAUNTON-COUNCIL_MEMBER-STAUNTON_CITY-2026_GENERAL
-      person: PERSON-VAUGHN_WL_7Q
+      citizen: CITIZEN-VAUGHN_WL_7Q
 - records:
   - type: Office
     code: OFFICE-USA-VA-STAUNTON-SCHOOL_BOARD_MEMBER-STAUNTON_CITY
@@ -7081,8 +7081,8 @@ groups:
     references:
       election: ELECTION-USA-VA-STAUNTON-2026_GENERAL
       office: OFFICE-USA-VA-STAUNTON-SCHOOL_BOARD_MEMBER-STAUNTON_CITY
-  - type: Person
-    code: PERSON-WHITE_BR_2W
+  - type: Citizen
+    code: CITIZEN-WHITE_BR_2W
     attributes:
       username: white_br_2w
       username_status: provisional
@@ -7096,9 +7096,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STAUNTON-SCHOOL_BOARD_MEMBER-STAUNTON_CITY-2026_GENERAL
-      person: PERSON-WHITE_BR_2W
-  - type: Person
-    code: PERSON-CARPENTER_CC_4M
+      citizen: CITIZEN-WHITE_BR_2W
+  - type: Citizen
+    code: CITIZEN-CARPENTER_CC_4M
     attributes:
       username: carpenter_cc_4m
       username_status: provisional
@@ -7112,9 +7112,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STAUNTON-SCHOOL_BOARD_MEMBER-STAUNTON_CITY-2026_GENERAL
-      person: PERSON-CARPENTER_CC_4M
-  - type: Person
-    code: PERSON-BROWN_BUNDY_FN_4T
+      citizen: CITIZEN-CARPENTER_CC_4M
+  - type: Citizen
+    code: CITIZEN-BROWN_BUNDY_FN_4T
     attributes:
       username: brown_bundy_fn_4t
       username_status: provisional
@@ -7128,9 +7128,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STAUNTON-SCHOOL_BOARD_MEMBER-STAUNTON_CITY-2026_GENERAL
-      person: PERSON-BROWN_BUNDY_FN_4T
-  - type: Person
-    code: PERSON-ZIPSER_JR_7G
+      citizen: CITIZEN-BROWN_BUNDY_FN_4T
+  - type: Citizen
+    code: CITIZEN-ZIPSER_JR_7G
     attributes:
       username: zipser_jr_7g
       username_status: provisional
@@ -7144,9 +7144,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STAUNTON-SCHOOL_BOARD_MEMBER-STAUNTON_CITY-2026_GENERAL
-      person: PERSON-ZIPSER_JR_7G
-  - type: Person
-    code: PERSON-SIEGEL_KR_9E
+      citizen: CITIZEN-ZIPSER_JR_7G
+  - type: Citizen
+    code: CITIZEN-SIEGEL_KR_9E
     attributes:
       username: siegel_kr_9e
       username_status: provisional
@@ -7160,7 +7160,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-STAUNTON-SCHOOL_BOARD_MEMBER-STAUNTON_CITY-2026_GENERAL
-      person: PERSON-SIEGEL_KR_9E
+      citizen: CITIZEN-SIEGEL_KR_9E
 - records:
   - type: Office
     code: OFFICE-USA-VA-SUFFOLK-COUNCIL_MEMBER-CHUCKATUCK_BOROUGH
@@ -7178,8 +7178,8 @@ groups:
     references:
       election: ELECTION-USA-VA-SUFFOLK-2026_GENERAL
       office: OFFICE-USA-VA-SUFFOLK-COUNCIL_MEMBER-CHUCKATUCK_BOROUGH
-  - type: Person
-    code: PERSON-HILL_MR_8Z
+  - type: Citizen
+    code: CITIZEN-HILL_MR_8Z
     attributes:
       username: hill_mr_8z
       username_status: provisional
@@ -7193,9 +7193,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SUFFOLK-COUNCIL_MEMBER-CHUCKATUCK_BOROUGH-2026_GENERAL
-      person: PERSON-HILL_MR_8Z
-  - type: Person
-    code: PERSON-BARLOW_SH_4M
+      citizen: CITIZEN-HILL_MR_8Z
+  - type: Citizen
+    code: CITIZEN-BARLOW_SH_4M
     attributes:
       username: barlow_sh_4m
       username_status: provisional
@@ -7209,7 +7209,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SUFFOLK-COUNCIL_MEMBER-CHUCKATUCK_BOROUGH-2026_GENERAL
-      person: PERSON-BARLOW_SH_4M
+      citizen: CITIZEN-BARLOW_SH_4M
 - records:
   - type: Office
     code: OFFICE-USA-VA-SUFFOLK-COUNCIL_MEMBER-CYPRESS_BOROUGH
@@ -7227,8 +7227,8 @@ groups:
     references:
       election: ELECTION-USA-VA-SUFFOLK-2026_GENERAL
       office: OFFICE-USA-VA-SUFFOLK-COUNCIL_MEMBER-CYPRESS_BOROUGH
-  - type: Person
-    code: PERSON-BENNETT_LR_8G
+  - type: Citizen
+    code: CITIZEN-BENNETT_LR_8G
     attributes:
       username: bennett_lr_8g
       username_status: provisional
@@ -7241,9 +7241,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SUFFOLK-COUNCIL_MEMBER-CYPRESS_BOROUGH-2026_GENERAL
-      person: PERSON-BENNETT_LR_8G
-  - type: Person
-    code: PERSON-SMITH_WL_3F
+      citizen: CITIZEN-BENNETT_LR_8G
+  - type: Citizen
+    code: CITIZEN-SMITH_WL_3F
     attributes:
       username: smith_wl_3f
       username_status: provisional
@@ -7257,7 +7257,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SUFFOLK-COUNCIL_MEMBER-CYPRESS_BOROUGH-2026_GENERAL
-      person: PERSON-SMITH_WL_3F
+      citizen: CITIZEN-SMITH_WL_3F
 - records:
   - type: Office
     code: OFFICE-USA-VA-SUFFOLK-COUNCIL_MEMBER-HOLY_NECK_BOROUGH
@@ -7275,8 +7275,8 @@ groups:
     references:
       election: ELECTION-USA-VA-SUFFOLK-2026_GENERAL
       office: OFFICE-USA-VA-SUFFOLK-COUNCIL_MEMBER-HOLY_NECK_BOROUGH
-  - type: Person
-    code: PERSON-JOHNSON_TM_2P
+  - type: Citizen
+    code: CITIZEN-JOHNSON_TM_2P
     attributes:
       username: johnson_tm_2p
       username_status: provisional
@@ -7290,7 +7290,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SUFFOLK-COUNCIL_MEMBER-HOLY_NECK_BOROUGH-2026_GENERAL
-      person: PERSON-JOHNSON_TM_2P
+      citizen: CITIZEN-JOHNSON_TM_2P
 - records:
   - type: Office
     code: OFFICE-USA-VA-SUFFOLK-COUNCIL_MEMBER-SUFFOLK_BOROUGH
@@ -7308,8 +7308,8 @@ groups:
     references:
       election: ELECTION-USA-VA-SUFFOLK-2026_GENERAL
       office: OFFICE-USA-VA-SUFFOLK-COUNCIL_MEMBER-SUFFOLK_BOROUGH
-  - type: Person
-    code: PERSON-JAMES_DW_8D
+  - type: Citizen
+    code: CITIZEN-JAMES_DW_8D
     attributes:
       username: james_dw_8d
       username_status: provisional
@@ -7323,9 +7323,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SUFFOLK-COUNCIL_MEMBER-SUFFOLK_BOROUGH-2026_GENERAL
-      person: PERSON-JAMES_DW_8D
-  - type: Person
-    code: PERSON-RECTOR_JH_6L
+      citizen: CITIZEN-JAMES_DW_8D
+  - type: Citizen
+    code: CITIZEN-RECTOR_JH_6L
     attributes:
       username: rector_jh_6l
       username_status: provisional
@@ -7339,9 +7339,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SUFFOLK-COUNCIL_MEMBER-SUFFOLK_BOROUGH-2026_GENERAL
-      person: PERSON-RECTOR_JH_6L
-  - type: Person
-    code: PERSON-RIDDICK_TY_9Z
+      citizen: CITIZEN-RECTOR_JH_6L
+  - type: Citizen
+    code: CITIZEN-RIDDICK_TY_9Z
     attributes:
       username: riddick_ty_9z
       username_status: provisional
@@ -7355,7 +7355,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SUFFOLK-COUNCIL_MEMBER-SUFFOLK_BOROUGH-2026_GENERAL
-      person: PERSON-RIDDICK_TY_9Z
+      citizen: CITIZEN-RIDDICK_TY_9Z
 - records:
   - type: Office
     code: OFFICE-USA-VA-SUFFOLK-SCHOOL_BOARD_MEMBER-CHUCKATUCK_BOROUGH
@@ -7373,8 +7373,8 @@ groups:
     references:
       election: ELECTION-USA-VA-SUFFOLK-2026_GENERAL
       office: OFFICE-USA-VA-SUFFOLK-SCHOOL_BOARD_MEMBER-CHUCKATUCK_BOROUGH
-  - type: Person
-    code: PERSON-LOCKWOOD_KR_2Q
+  - type: Citizen
+    code: CITIZEN-LOCKWOOD_KR_2Q
     attributes:
       username: lockwood_kr_2q
       username_status: provisional
@@ -7388,9 +7388,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SUFFOLK-SCHOOL_BOARD_MEMBER-CHUCKATUCK_BOROUGH-2026_GENERAL
-      person: PERSON-LOCKWOOD_KR_2Q
-  - type: Person
-    code: PERSON-SLINGLUFF_KM_3W
+      citizen: CITIZEN-LOCKWOOD_KR_2Q
+  - type: Citizen
+    code: CITIZEN-SLINGLUFF_KM_3W
     attributes:
       username: slingluff_km_3w
       username_status: provisional
@@ -7404,7 +7404,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SUFFOLK-SCHOOL_BOARD_MEMBER-CHUCKATUCK_BOROUGH-2026_GENERAL
-      person: PERSON-SLINGLUFF_KM_3W
+      citizen: CITIZEN-SLINGLUFF_KM_3W
 - records:
   - type: Office
     code: OFFICE-USA-VA-SUFFOLK-SCHOOL_BOARD_MEMBER-CYPRESS_BOROUGH
@@ -7422,8 +7422,8 @@ groups:
     references:
       election: ELECTION-USA-VA-SUFFOLK-2026_GENERAL
       office: OFFICE-USA-VA-SUFFOLK-SCHOOL_BOARD_MEMBER-CYPRESS_BOROUGH
-  - type: Person
-    code: PERSON-JENKINS_KR_7Z
+  - type: Citizen
+    code: CITIZEN-JENKINS_KR_7Z
     attributes:
       username: jenkins_kr_7z
       username_status: provisional
@@ -7437,7 +7437,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SUFFOLK-SCHOOL_BOARD_MEMBER-CYPRESS_BOROUGH-2026_GENERAL
-      person: PERSON-JENKINS_KR_7Z
+      citizen: CITIZEN-JENKINS_KR_7Z
 - records:
   - type: Office
     code: OFFICE-USA-VA-SUFFOLK-SCHOOL_BOARD_MEMBER-HOLY_NECK_BOROUGH
@@ -7455,8 +7455,8 @@ groups:
     references:
       election: ELECTION-USA-VA-SUFFOLK-2026_GENERAL
       office: OFFICE-USA-VA-SUFFOLK-SCHOOL_BOARD_MEMBER-HOLY_NECK_BOROUGH
-  - type: Person
-    code: PERSON-BRITTINGHAM_DW_5Q
+  - type: Citizen
+    code: CITIZEN-BRITTINGHAM_DW_5Q
     attributes:
       username: brittingham_dw_5q
       username_status: provisional
@@ -7469,9 +7469,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SUFFOLK-SCHOOL_BOARD_MEMBER-HOLY_NECK_BOROUGH-2026_GENERAL
-      person: PERSON-BRITTINGHAM_DW_5Q
-  - type: Person
-    code: PERSON-VANHOSEN_WN_5W
+      citizen: CITIZEN-BRITTINGHAM_DW_5Q
+  - type: Citizen
+    code: CITIZEN-VANHOSEN_WN_5W
     attributes:
       username: vanhosen_wn_5w
       username_status: provisional
@@ -7485,7 +7485,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SUFFOLK-SCHOOL_BOARD_MEMBER-HOLY_NECK_BOROUGH-2026_GENERAL
-      person: PERSON-VANHOSEN_WN_5W
+      citizen: CITIZEN-VANHOSEN_WN_5W
 - records:
   - type: Office
     code: OFFICE-USA-VA-SUFFOLK-SCHOOL_BOARD_MEMBER-SUFFOLK_BOROUGH
@@ -7503,8 +7503,8 @@ groups:
     references:
       election: ELECTION-USA-VA-SUFFOLK-2026_GENERAL
       office: OFFICE-USA-VA-SUFFOLK-SCHOOL_BOARD_MEMBER-SUFFOLK_BOROUGH
-  - type: Person
-    code: PERSON-FERRIN_JF_2Q
+  - type: Citizen
+    code: CITIZEN-FERRIN_JF_2Q
     attributes:
       username: ferrin_jf_2q
       username_status: provisional
@@ -7518,9 +7518,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SUFFOLK-SCHOOL_BOARD_MEMBER-SUFFOLK_BOROUGH-2026_GENERAL
-      person: PERSON-FERRIN_JF_2Q
-  - type: Person
-    code: PERSON-CHEEKS_ST_7Q
+      citizen: CITIZEN-FERRIN_JF_2Q
+  - type: Citizen
+    code: CITIZEN-CHEEKS_ST_7Q
     attributes:
       username: cheeks_st_7q
       username_status: provisional
@@ -7533,7 +7533,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-SUFFOLK-SCHOOL_BOARD_MEMBER-SUFFOLK_BOROUGH-2026_GENERAL
-      person: PERSON-CHEEKS_ST_7Q
+      citizen: CITIZEN-CHEEKS_ST_7Q
 - records:
   - type: Office
     code: OFFICE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_10
@@ -7551,8 +7551,8 @@ groups:
     references:
       election: ELECTION-USA-VA-VIRGINIA_BEACH-2026_GENERAL
       office: OFFICE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_10
-  - type: Person
-    code: PERSON-ROUSE_JN_7Y
+  - type: Citizen
+    code: CITIZEN-ROUSE_JN_7Y
     attributes:
       username: rouse_jn_7y
       username_status: provisional
@@ -7566,7 +7566,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_10-2026_GENERAL
-      person: PERSON-ROUSE_JN_7Y
+      citizen: CITIZEN-ROUSE_JN_7Y
 - records:
   - type: Office
     code: OFFICE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_2
@@ -7584,8 +7584,8 @@ groups:
     references:
       election: ELECTION-USA-VA-VIRGINIA_BEACH-2026_GENERAL
       office: OFFICE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_2
-  - type: Person
-    code: PERSON-HENLEY_BR_5D
+  - type: Citizen
+    code: CITIZEN-HENLEY_BR_5D
     attributes:
       username: henley_br_5d
       username_status: provisional
@@ -7599,9 +7599,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-HENLEY_BR_5D
-  - type: Person
-    code: PERSON-BRUZZESI_JF_8T
+      citizen: CITIZEN-HENLEY_BR_5D
+  - type: Citizen
+    code: CITIZEN-BRUZZESI_JF_8T
     attributes:
       username: bruzzesi_jf_8t
       username_status: provisional
@@ -7615,9 +7615,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-BRUZZESI_JF_8T
-  - type: Person
-    code: PERSON-FEKETE_K_7C
+      citizen: CITIZEN-BRUZZESI_JF_8T
+  - type: Citizen
+    code: CITIZEN-FEKETE_K_7C
     attributes:
       username: fekete_k_7c
       username_status: provisional
@@ -7631,7 +7631,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-FEKETE_K_7C
+      citizen: CITIZEN-FEKETE_K_7C
 - records:
   - type: Office
     code: OFFICE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_4
@@ -7649,8 +7649,8 @@ groups:
     references:
       election: ELECTION-USA-VA-VIRGINIA_BEACH-2026_GENERAL
       office: OFFICE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_4
-  - type: Person
-    code: PERSON-ROSS_HAMMOND_AM_3W
+  - type: Citizen
+    code: CITIZEN-ROSS_HAMMOND_AM_3W
     attributes:
       username: ross_hammond_am_3w
       username_status: provisional
@@ -7664,9 +7664,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-ROSS_HAMMOND_AM_3W
-  - type: Person
-    code: PERSON-BYRNES_JN_4Z
+      citizen: CITIZEN-ROSS_HAMMOND_AM_3W
+  - type: Citizen
+    code: CITIZEN-BYRNES_JN_4Z
     attributes:
       username: byrnes_jn_4z
       username_status: provisional
@@ -7680,7 +7680,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-BYRNES_JN_4Z
+      citizen: CITIZEN-BYRNES_JN_4Z
 - records:
   - type: Office
     code: OFFICE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_6
@@ -7698,8 +7698,8 @@ groups:
     references:
       election: ELECTION-USA-VA-VIRGINIA_BEACH-2026_GENERAL
       office: OFFICE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_6
-  - type: Person
-    code: PERSON-KOWALEWITCH_RC_4Z
+  - type: Citizen
+    code: CITIZEN-KOWALEWITCH_RC_4Z
     attributes:
       username: kowalewitch_rc_4z
       username_status: provisional
@@ -7713,9 +7713,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_6-2026_GENERAL
-      person: PERSON-KOWALEWITCH_RC_4Z
-  - type: Person
-    code: PERSON-REMICK_RB_4X
+      citizen: CITIZEN-KOWALEWITCH_RC_4Z
+  - type: Citizen
+    code: CITIZEN-REMICK_RB_4X
     attributes:
       username: remick_rb_4x
       username_status: provisional
@@ -7729,7 +7729,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_6-2026_GENERAL
-      person: PERSON-REMICK_RB_4X
+      citizen: CITIZEN-REMICK_RB_4X
 - records:
   - type: Office
     code: OFFICE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_8
@@ -7747,8 +7747,8 @@ groups:
     references:
       election: ELECTION-USA-VA-VIRGINIA_BEACH-2026_GENERAL
       office: OFFICE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_8
-  - type: Person
-    code: PERSON-TAYLOR_CH_4B
+  - type: Citizen
+    code: CITIZEN-TAYLOR_CH_4B
     attributes:
       username: taylor_ch_4b
       username_status: provisional
@@ -7761,9 +7761,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_8-2026_GENERAL
-      person: PERSON-TAYLOR_CH_4B
-  - type: Person
-    code: PERSON-CUMMINGS_ST_9W
+      citizen: CITIZEN-TAYLOR_CH_4B
+  - type: Citizen
+    code: CITIZEN-CUMMINGS_ST_9W
     attributes:
       username: cummings_st_9w
       username_status: provisional
@@ -7776,7 +7776,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_8-2026_GENERAL
-      person: PERSON-CUMMINGS_ST_9W
+      citizen: CITIZEN-CUMMINGS_ST_9W
 - records:
   - type: Office
     code: OFFICE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_9
@@ -7794,8 +7794,8 @@ groups:
     references:
       election: ELECTION-USA-VA-VIRGINIA_BEACH-2026_GENERAL
       office: OFFICE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_9
-  - type: Person
-    code: PERSON-SCHULMAN_JS_7J
+  - type: Citizen
+    code: CITIZEN-SCHULMAN_JS_7J
     attributes:
       username: schulman_js_7j
       username_status: provisional
@@ -7809,9 +7809,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_9-2026_GENERAL
-      person: PERSON-SCHULMAN_JS_7J
-  - type: Person
-    code: PERSON-MOSS_JH_4H
+      citizen: CITIZEN-SCHULMAN_JS_7J
+  - type: Citizen
+    code: CITIZEN-MOSS_JH_4H
     attributes:
       username: moss_jh_4h
       username_status: provisional
@@ -7825,7 +7825,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-COUNCIL_MEMBER-DISTRICT_9-2026_GENERAL
-      person: PERSON-MOSS_JH_4H
+      citizen: CITIZEN-MOSS_JH_4H
 - records:
   - type: Office
     code: OFFICE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_10
@@ -7843,8 +7843,8 @@ groups:
     references:
       election: ELECTION-USA-VA-VIRGINIA_BEACH-2026_GENERAL
       office: OFFICE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_10
-  - type: Person
-    code: PERSON-SPENCER_BT_3B
+  - type: Citizen
+    code: CITIZEN-SPENCER_BT_3B
     attributes:
       username: spencer_bt_3b
       username_status: provisional
@@ -7858,9 +7858,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_10-2026_GENERAL
-      person: PERSON-SPENCER_BT_3B
-  - type: Person
-    code: PERSON-BROWN_KT_7Z
+      citizen: CITIZEN-SPENCER_BT_3B
+  - type: Citizen
+    code: CITIZEN-BROWN_KT_7Z
     attributes:
       username: brown_kt_7z
       username_status: provisional
@@ -7874,7 +7874,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_10-2026_GENERAL
-      person: PERSON-BROWN_KT_7Z
+      citizen: CITIZEN-BROWN_KT_7Z
 - records:
   - type: Office
     code: OFFICE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_2
@@ -7892,8 +7892,8 @@ groups:
     references:
       election: ELECTION-USA-VA-VIRGINIA_BEACH-2026_GENERAL
       office: OFFICE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_2
-  - type: Person
-    code: PERSON-LEWIS_JM_2B
+  - type: Citizen
+    code: CITIZEN-LEWIS_JM_2B
     attributes:
       username: lewis_jm_2b
       username_status: provisional
@@ -7907,9 +7907,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-LEWIS_JM_2B
-  - type: Person
-    code: PERSON-TAYLOR_ZC_7J
+      citizen: CITIZEN-LEWIS_JM_2B
+  - type: Citizen
+    code: CITIZEN-TAYLOR_ZC_7J
     attributes:
       username: taylor_zc_7j
       username_status: provisional
@@ -7923,7 +7923,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-TAYLOR_ZC_7J
+      citizen: CITIZEN-TAYLOR_ZC_7J
 - records:
   - type: Office
     code: OFFICE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_4
@@ -7941,8 +7941,8 @@ groups:
     references:
       election: ELECTION-USA-VA-VIRGINIA_BEACH-2026_GENERAL
       office: OFFICE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_4
-  - type: Person
-    code: PERSON-GREEN_AL_4P
+  - type: Citizen
+    code: CITIZEN-GREEN_AL_4P
     attributes:
       username: green_al_4p
       username_status: provisional
@@ -7956,9 +7956,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-GREEN_AL_4P
-  - type: Person
-    code: PERSON-HERUM_ML_2L
+      citizen: CITIZEN-GREEN_AL_4P
+  - type: Citizen
+    code: CITIZEN-HERUM_ML_2L
     attributes:
       username: herum_ml_2l
       username_status: provisional
@@ -7972,7 +7972,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-HERUM_ML_2L
+      citizen: CITIZEN-HERUM_ML_2L
 - records:
   - type: Office
     code: OFFICE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_6
@@ -7990,8 +7990,8 @@ groups:
     references:
       election: ELECTION-USA-VA-VIRGINIA_BEACH-2026_GENERAL
       office: OFFICE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_6
-  - type: Person
-    code: PERSON-KAHAN_AN_4R
+  - type: Citizen
+    code: CITIZEN-KAHAN_AN_4R
     attributes:
       username: kahan_an_4r
       username_status: provisional
@@ -8005,9 +8005,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_6-2026_GENERAL
-      person: PERSON-KAHAN_AN_4R
-  - type: Person
-    code: PERSON-KAHNG_BR_6X
+      citizen: CITIZEN-KAHAN_AN_4R
+  - type: Citizen
+    code: CITIZEN-KAHNG_BR_6X
     attributes:
       username: kahng_br_6x
       username_status: provisional
@@ -8021,9 +8021,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_6-2026_GENERAL
-      person: PERSON-KAHNG_BR_6X
-  - type: Person
-    code: PERSON-EDWARDS_KN_4K
+      citizen: CITIZEN-KAHNG_BR_6X
+  - type: Citizen
+    code: CITIZEN-EDWARDS_KN_4K
     attributes:
       username: edwards_kn_4k
       username_status: provisional
@@ -8037,7 +8037,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_6-2026_GENERAL
-      person: PERSON-EDWARDS_KN_4K
+      citizen: CITIZEN-EDWARDS_KN_4K
 - records:
   - type: Office
     code: OFFICE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_8
@@ -8055,8 +8055,8 @@ groups:
     references:
       election: ELECTION-USA-VA-VIRGINIA_BEACH-2026_GENERAL
       office: OFFICE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_8
-  - type: Person
-    code: PERSON-BAAN_AN_6C
+  - type: Citizen
+    code: CITIZEN-BAAN_AN_6C
     attributes:
       username: baan_an_6c
       username_status: provisional
@@ -8070,9 +8070,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_8-2026_GENERAL
-      person: PERSON-BAAN_AN_6C
-  - type: Person
-    code: PERSON-BRAY_NT_8X
+      citizen: CITIZEN-BAAN_AN_6C
+  - type: Citizen
+    code: CITIZEN-BRAY_NT_8X
     attributes:
       username: bray_nt_8x
       username_status: provisional
@@ -8086,7 +8086,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_8-2026_GENERAL
-      person: PERSON-BRAY_NT_8X
+      citizen: CITIZEN-BRAY_NT_8X
 - records:
   - type: Office
     code: OFFICE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_9
@@ -8104,8 +8104,8 @@ groups:
     references:
       election: ELECTION-USA-VA-VIRGINIA_BEACH-2026_GENERAL
       office: OFFICE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_9
-  - type: Person
-    code: PERSON-WEEMS_CR_7S
+  - type: Citizen
+    code: CITIZEN-WEEMS_CR_7S
     attributes:
       username: weems_cr_7s
       username_status: provisional
@@ -8119,9 +8119,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_9-2026_GENERAL
-      person: PERSON-WEEMS_CR_7S
-  - type: Person
-    code: PERSON-BERMAN_SZ_9V
+      citizen: CITIZEN-WEEMS_CR_7S
+  - type: Citizen
+    code: CITIZEN-BERMAN_SZ_9V
     attributes:
       username: berman_sz_9v
       username_status: provisional
@@ -8135,7 +8135,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-VIRGINIA_BEACH-SCHOOL_BOARD_MEMBER-DISTRICT_9-2026_GENERAL
-      person: PERSON-BERMAN_SZ_9V
+      citizen: CITIZEN-BERMAN_SZ_9V
 - records:
   - type: Office
     code: OFFICE-USA-VA-WAYNESBORO-COUNCIL_MEMBER-WARD_C
@@ -8153,8 +8153,8 @@ groups:
     references:
       election: ELECTION-USA-VA-WAYNESBORO-2026_GENERAL
       office: OFFICE-USA-VA-WAYNESBORO-COUNCIL_MEMBER-WARD_C
-  - type: Person
-    code: PERSON-LEE_KN_3T
+  - type: Citizen
+    code: CITIZEN-LEE_KN_3T
     attributes:
       username: lee_kn_3t
       username_status: provisional
@@ -8168,7 +8168,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WAYNESBORO-COUNCIL_MEMBER-WARD_C-2026_GENERAL
-      person: PERSON-LEE_KN_3T
+      citizen: CITIZEN-LEE_KN_3T
 - records:
   - type: Office
     code: OFFICE-USA-VA-WAYNESBORO-COUNCIL_MEMBER-WARD_D
@@ -8186,8 +8186,8 @@ groups:
     references:
       election: ELECTION-USA-VA-WAYNESBORO-2026_GENERAL
       office: OFFICE-USA-VA-WAYNESBORO-COUNCIL_MEMBER-WARD_D
-  - type: Person
-    code: PERSON-WOOD_JM_8A
+  - type: Citizen
+    code: CITIZEN-WOOD_JM_8A
     attributes:
       username: wood_jm_8a
       username_status: provisional
@@ -8201,9 +8201,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WAYNESBORO-COUNCIL_MEMBER-WARD_D-2026_GENERAL
-      person: PERSON-WOOD_JM_8A
-  - type: Person
-    code: PERSON-HOSTETTER_SM_3S
+      citizen: CITIZEN-WOOD_JM_8A
+  - type: Citizen
+    code: CITIZEN-HOSTETTER_SM_3S
     attributes:
       username: hostetter_sm_3s
       username_status: provisional
@@ -8217,7 +8217,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WAYNESBORO-COUNCIL_MEMBER-WARD_D-2026_GENERAL
-      person: PERSON-HOSTETTER_SM_3S
+      citizen: CITIZEN-HOSTETTER_SM_3S
 - records:
   - type: Office
     code: OFFICE-USA-VA-WAYNESBORO-SCHOOL_BOARD_MEMBER-WARD_C
@@ -8235,8 +8235,8 @@ groups:
     references:
       election: ELECTION-USA-VA-WAYNESBORO-2026_GENERAL
       office: OFFICE-USA-VA-WAYNESBORO-SCHOOL_BOARD_MEMBER-WARD_C
-  - type: Person
-    code: PERSON-FREEMAN_DB_7E
+  - type: Citizen
+    code: CITIZEN-FREEMAN_DB_7E
     attributes:
       username: freeman_db_7e
       username_status: provisional
@@ -8250,9 +8250,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WAYNESBORO-SCHOOL_BOARD_MEMBER-WARD_C-2026_GENERAL
-      person: PERSON-FREEMAN_DB_7E
-  - type: Person
-    code: PERSON-WASHINGTON_KL_5U
+      citizen: CITIZEN-FREEMAN_DB_7E
+  - type: Citizen
+    code: CITIZEN-WASHINGTON_KL_5U
     attributes:
       username: washington_kl_5u
       username_status: provisional
@@ -8266,7 +8266,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WAYNESBORO-SCHOOL_BOARD_MEMBER-WARD_C-2026_GENERAL
-      person: PERSON-WASHINGTON_KL_5U
+      citizen: CITIZEN-WASHINGTON_KL_5U
 - records:
   - type: Office
     code: OFFICE-USA-VA-WAYNESBORO-SCHOOL_BOARD_MEMBER-WARD_D
@@ -8284,8 +8284,8 @@ groups:
     references:
       election: ELECTION-USA-VA-WAYNESBORO-2026_GENERAL
       office: OFFICE-USA-VA-WAYNESBORO-SCHOOL_BOARD_MEMBER-WARD_D
-  - type: Person
-    code: PERSON-SEIPEL_AD_7T
+  - type: Citizen
+    code: CITIZEN-SEIPEL_AD_7T
     attributes:
       username: seipel_ad_7t
       username_status: provisional
@@ -8299,9 +8299,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WAYNESBORO-SCHOOL_BOARD_MEMBER-WARD_D-2026_GENERAL
-      person: PERSON-SEIPEL_AD_7T
-  - type: Person
-    code: PERSON-MYERS_CT_5T
+      citizen: CITIZEN-SEIPEL_AD_7T
+  - type: Citizen
+    code: CITIZEN-MYERS_CT_5T
     attributes:
       username: myers_ct_5t
       username_status: provisional
@@ -8315,7 +8315,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WAYNESBORO-SCHOOL_BOARD_MEMBER-WARD_D-2026_GENERAL
-      person: PERSON-MYERS_CT_5T
+      citizen: CITIZEN-MYERS_CT_5T
 - records:
   - type: Office
     code: OFFICE-USA-VA-WILLIAMSBURG-COUNCIL_MEMBER-WILLIAMSBURG_CITY
@@ -8333,8 +8333,8 @@ groups:
     references:
       election: ELECTION-USA-VA-WILLIAMSBURG-2026_GENERAL
       office: OFFICE-USA-VA-WILLIAMSBURG-COUNCIL_MEMBER-WILLIAMSBURG_CITY
-  - type: Person
-    code: PERSON-MURPHY_CR_3Q
+  - type: Citizen
+    code: CITIZEN-MURPHY_CR_3Q
     attributes:
       username: murphy_cr_3q
       username_status: provisional
@@ -8348,9 +8348,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WILLIAMSBURG-COUNCIL_MEMBER-WILLIAMSBURG_CITY-2026_GENERAL
-      person: PERSON-MURPHY_CR_3Q
-  - type: Person
-    code: PERSON-KORPELA_EN_4A
+      citizen: CITIZEN-MURPHY_CR_3Q
+  - type: Citizen
+    code: CITIZEN-KORPELA_EN_4A
     attributes:
       username: korpela_en_4a
       username_status: provisional
@@ -8364,9 +8364,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WILLIAMSBURG-COUNCIL_MEMBER-WILLIAMSBURG_CITY-2026_GENERAL
-      person: PERSON-KORPELA_EN_4A
-  - type: Person
-    code: PERSON-KERN_SCHEERER_ST_3C
+      citizen: CITIZEN-KORPELA_EN_4A
+  - type: Citizen
+    code: CITIZEN-KERN_SCHEERER_ST_3C
     attributes:
       username: kern_scheerer_st_3c
       username_status: provisional
@@ -8380,7 +8380,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WILLIAMSBURG-COUNCIL_MEMBER-WILLIAMSBURG_CITY-2026_GENERAL
-      person: PERSON-KERN_SCHEERER_ST_3C
+      citizen: CITIZEN-KERN_SCHEERER_ST_3C
 - records:
   - type: Office
     code: OFFICE-USA-VA-WINCHESTER-COUNCIL_MEMBER-FIRST_WARD
@@ -8398,8 +8398,8 @@ groups:
     references:
       election: ELECTION-USA-VA-WINCHESTER-2026_GENERAL
       office: OFFICE-USA-VA-WINCHESTER-COUNCIL_MEMBER-FIRST_WARD
-  - type: Person
-    code: PERSON-DAVIS_ML_7M
+  - type: Citizen
+    code: CITIZEN-DAVIS_ML_7M
     attributes:
       username: davis_ml_7m
       username_status: provisional
@@ -8413,9 +8413,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WINCHESTER-COUNCIL_MEMBER-FIRST_WARD-2026_GENERAL
-      person: PERSON-DAVIS_ML_7M
-  - type: Person
-    code: PERSON-CAMPBELL_NN_7N
+      citizen: CITIZEN-DAVIS_ML_7M
+  - type: Citizen
+    code: CITIZEN-CAMPBELL_NN_7N
     attributes:
       username: campbell_nn_7n
       username_status: provisional
@@ -8429,7 +8429,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WINCHESTER-COUNCIL_MEMBER-FIRST_WARD-2026_GENERAL
-      person: PERSON-CAMPBELL_NN_7N
+      citizen: CITIZEN-CAMPBELL_NN_7N
 - records:
   - type: Office
     code: OFFICE-USA-VA-WINCHESTER-COUNCIL_MEMBER-FOURTH_WARD
@@ -8447,8 +8447,8 @@ groups:
     references:
       election: ELECTION-USA-VA-WINCHESTER-2026_GENERAL
       office: OFFICE-USA-VA-WINCHESTER-COUNCIL_MEMBER-FOURTH_WARD
-  - type: Person
-    code: PERSON-PREZZY_NT_5J
+  - type: Citizen
+    code: CITIZEN-PREZZY_NT_5J
     attributes:
       username: prezzy_nt_5j
       username_status: provisional
@@ -8462,9 +8462,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WINCHESTER-COUNCIL_MEMBER-FOURTH_WARD-2026_GENERAL
-      person: PERSON-PREZZY_NT_5J
-  - type: Person
-    code: PERSON-STROUBAKIS_KL_6U
+      citizen: CITIZEN-PREZZY_NT_5J
+  - type: Citizen
+    code: CITIZEN-STROUBAKIS_KL_6U
     attributes:
       username: stroubakis_kl_6u
       username_status: provisional
@@ -8478,7 +8478,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WINCHESTER-COUNCIL_MEMBER-FOURTH_WARD-2026_GENERAL
-      person: PERSON-STROUBAKIS_KL_6U
+      citizen: CITIZEN-STROUBAKIS_KL_6U
 - records:
   - type: Office
     code: OFFICE-USA-VA-WINCHESTER-COUNCIL_MEMBER-SECOND_WARD
@@ -8496,8 +8496,8 @@ groups:
     references:
       election: ELECTION-USA-VA-WINCHESTER-2026_GENERAL
       office: OFFICE-USA-VA-WINCHESTER-COUNCIL_MEMBER-SECOND_WARD
-  - type: Person
-    code: PERSON-WINDLE_EM_7E
+  - type: Citizen
+    code: CITIZEN-WINDLE_EM_7E
     attributes:
       username: windle_em_7e
       username_status: provisional
@@ -8511,9 +8511,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WINCHESTER-COUNCIL_MEMBER-SECOND_WARD-2026_GENERAL
-      person: PERSON-WINDLE_EM_7E
-  - type: Person
-    code: PERSON-MCDONALD_JN_2W
+      citizen: CITIZEN-WINDLE_EM_7E
+  - type: Citizen
+    code: CITIZEN-MCDONALD_JN_2W
     attributes:
       username: mcdonald_jn_2w
       username_status: provisional
@@ -8527,7 +8527,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WINCHESTER-COUNCIL_MEMBER-SECOND_WARD-2026_GENERAL
-      person: PERSON-MCDONALD_JN_2W
+      citizen: CITIZEN-MCDONALD_JN_2W
 - records:
   - type: Office
     code: OFFICE-USA-VA-WINCHESTER-COUNCIL_MEMBER-THIRD_WARD
@@ -8545,8 +8545,8 @@ groups:
     references:
       election: ELECTION-USA-VA-WINCHESTER-2026_GENERAL
       office: OFFICE-USA-VA-WINCHESTER-COUNCIL_MEMBER-THIRD_WARD
-  - type: Person
-    code: PERSON-HERBSTRITT_KM_3G
+  - type: Citizen
+    code: CITIZEN-HERBSTRITT_KM_3G
     attributes:
       username: herbstritt_km_3g
       username_status: provisional
@@ -8560,9 +8560,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WINCHESTER-COUNCIL_MEMBER-THIRD_WARD-2026_GENERAL
-      person: PERSON-HERBSTRITT_KM_3G
-  - type: Person
-    code: PERSON-CROUSE_BR_2C
+      citizen: CITIZEN-HERBSTRITT_KM_3G
+  - type: Citizen
+    code: CITIZEN-CROUSE_BR_2C
     attributes:
       username: crouse_br_2c
       username_status: provisional
@@ -8576,7 +8576,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WINCHESTER-COUNCIL_MEMBER-THIRD_WARD-2026_GENERAL
-      person: PERSON-CROUSE_BR_2C
+      citizen: CITIZEN-CROUSE_BR_2C
 - records:
   - type: Office
     code: OFFICE-USA-VA-WINCHESTER-SCHOOL_BOARD_MEMBER
@@ -8593,8 +8593,8 @@ groups:
     references:
       election: ELECTION-USA-VA-WINCHESTER-2026_GENERAL
       office: OFFICE-USA-VA-WINCHESTER-SCHOOL_BOARD_MEMBER
-  - type: Person
-    code: PERSON-ZOLLER_KY_7W
+  - type: Citizen
+    code: CITIZEN-ZOLLER_KY_7W
     attributes:
       username: zoller_ky_7w
       username_status: provisional
@@ -8608,9 +8608,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WINCHESTER-SCHOOL_BOARD_MEMBER-2026_GENERAL
-      person: PERSON-ZOLLER_KY_7W
-  - type: Person
-    code: PERSON-HARRIS_ML_7K
+      citizen: CITIZEN-ZOLLER_KY_7W
+  - type: Citizen
+    code: CITIZEN-HARRIS_ML_7K
     attributes:
       username: harris_ml_7k
       username_status: provisional
@@ -8624,7 +8624,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WINCHESTER-SCHOOL_BOARD_MEMBER-2026_GENERAL
-      person: PERSON-HARRIS_ML_7K
+      citizen: CITIZEN-HARRIS_ML_7K
 - records:
   - type: Office
     code: OFFICE-USA-VA-WINCHESTER-SCHOOL_BOARD_MEMBER-FOURTH_WARD
@@ -8642,8 +8642,8 @@ groups:
     references:
       election: ELECTION-USA-VA-WINCHESTER-2026_GENERAL
       office: OFFICE-USA-VA-WINCHESTER-SCHOOL_BOARD_MEMBER-FOURTH_WARD
-  - type: Person
-    code: PERSON-COMER_DN_8H
+  - type: Citizen
+    code: CITIZEN-COMER_DN_8H
     attributes:
       username: comer_dn_8h
       username_status: provisional
@@ -8657,9 +8657,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WINCHESTER-SCHOOL_BOARD_MEMBER-FOURTH_WARD-2026_GENERAL
-      person: PERSON-COMER_DN_8H
-  - type: Person
-    code: PERSON-WISE_MX_5U
+      citizen: CITIZEN-COMER_DN_8H
+  - type: Citizen
+    code: CITIZEN-WISE_MX_5U
     attributes:
       username: wise_mx_5u
       username_status: provisional
@@ -8672,4 +8672,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-WINCHESTER-SCHOOL_BOARD_MEMBER-FOURTH_WARD-2026_GENERAL
-      person: PERSON-WISE_MX_5U
+      citizen: CITIZEN-WISE_MX_5U

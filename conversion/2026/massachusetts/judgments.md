@@ -12,7 +12,7 @@ Rules come from `rules.yml`. Party lines link to Party records and count as the 
 - designation: Gulf War Veteran, Independent, Independent/Unenrolled, Justice for All, Libertarian, Socialism and Liberation, Transparency Inclusion Environment, Unenrolled, Workers Party
 - party: Demo, Democratic, Republican
 
-## People included off the ballot
+## Citizens included off the ballot
 
 - Anthony Patrick Celata (Representative in Congress 1): Green Papers candidate not on the SoS state election candidate list (Green Papers balloted party = Write-in). Included with participation `off_ballot` and no ballot line.
 - Derek Fleming (Representative in Congress 5): Green Papers candidate not on the SoS state election candidate list (Green Papers balloted party = Write-in). Included with participation `off_ballot` and no ballot line.
@@ -20,7 +20,7 @@ Rules come from `rules.yml`. Party lines link to Party records and count as the 
 
 ## Name spellings
 
-28 other spellings are recorded in `name_spellings.yml`. Each Person keeps the official ballot spelling.
+28 other spellings are recorded in `name_spellings.yml`. Each Citizen keeps the official ballot spelling.
 
 ## Conflicts not applied
 

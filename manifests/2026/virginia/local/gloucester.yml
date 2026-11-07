@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_GLOUCESTER-2026_SPECIAL
       office: OFFICE-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT
-  - type: Person
-    code: PERSON-CARTER_CH_9D
+  - type: Citizen
+    code: CITIZEN-CARTER_CH_9D
     attributes:
       username: carter_ch_9d
       username_status: provisional
@@ -50,9 +50,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT-2026_SPECIAL
-      person: PERSON-CARTER_CH_9D
-  - type: Person
-    code: PERSON-BECK_MC_5G
+      citizen: CITIZEN-CARTER_CH_9D
+  - type: Citizen
+    code: CITIZEN-BECK_MC_5G
     attributes:
       username: beck_mc_5g
       username_status: provisional
@@ -66,4 +66,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_GLOUCESTER-CLERK_OF_COURT-2026_SPECIAL
-      person: PERSON-BECK_MC_5G
+      citizen: CITIZEN-BECK_MC_5G

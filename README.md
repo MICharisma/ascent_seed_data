@@ -5,7 +5,7 @@ This repository holds sourced reference data as JSON and YAML `micharisma-seeds/
 Start with these contributor instructions:
 
 - [Entity catalog](catalog/README.md) to find existing codes by entity type and state, with source-file links.
-- [Minimum working examples](examples/README.md) for countries, states, districts, branches, offices, elections, races, people, candidacies, and accounts in YAML and JSON.
+- [Minimum working examples](examples/README.md) for countries, states, districts, branches, offices, elections, races, citizens, candidacies, and accounts in YAML and JSON.
 - [WORKERS.md](WORKERS.md) for the account and image contribution workflow, owner-code export, and validation commands.
 - [CONTRIBUTING.md](CONTRIBUTING.md) for record fields, entity-code rules, source requirements, and import behavior.
 - [Published schemas](schemas/README.md) for the machine-readable contract and maintainer regeneration.

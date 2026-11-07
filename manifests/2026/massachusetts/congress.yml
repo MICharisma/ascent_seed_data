@@ -132,8 +132,8 @@ groups:
     references:
       election: ELECTION-USA-MA-CONGRESS-CD_1-2026_GENERAL
       office: OFFICE-USA-MA-CONGRESS-CD_1
-  - type: Person
-    code: PERSON-NEAL_RC_5Z
+  - type: Citizen
+    code: CITIZEN-NEAL_RC_5Z
     attributes:
       username: neal_rc_5z
       username_status: provisional
@@ -147,9 +147,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-MA-CONGRESS-CD_1-2026_GENERAL
-      person: PERSON-NEAL_RC_5Z
-  - type: Person
-    code: PERSON-MILLERON_ND_8A
+      citizen: CITIZEN-NEAL_RC_5Z
+  - type: Citizen
+    code: CITIZEN-MILLERON_ND_8A
     attributes:
       username: milleron_nd_8a
       username_status: provisional
@@ -166,9 +166,9 @@ groups:
         kind: designation
     references:
       race: RACE-USA-MA-CONGRESS-CD_1-2026_GENERAL
-      person: PERSON-MILLERON_ND_8A
-  - type: Person
-    code: PERSON-CELATA_AN_6C
+      citizen: CITIZEN-MILLERON_ND_8A
+  - type: Citizen
+    code: CITIZEN-CELATA_AN_6C
     attributes:
       username: celata_an_6c
       username_status: provisional
@@ -182,7 +182,7 @@ groups:
       participation: off_ballot
     references:
       race: RACE-USA-MA-CONGRESS-CD_1-2026_GENERAL
-      person: PERSON-CELATA_AN_6C
+      citizen: CITIZEN-CELATA_AN_6C
 - records:
   - type: Office
     code: OFFICE-USA-MA-CONGRESS-CD_2
@@ -200,8 +200,8 @@ groups:
     references:
       election: ELECTION-USA-MA-CONGRESS-CD_2-2026_GENERAL
       office: OFFICE-USA-MA-CONGRESS-CD_2
-  - type: Person
-    code: PERSON-MCGOVERN_JM_3D
+  - type: Citizen
+    code: CITIZEN-MCGOVERN_JM_3D
     attributes:
       username: mcgovern_jm_3d
       username_status: provisional
@@ -219,7 +219,7 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-CONGRESS-CD_2-2026_GENERAL
-      person: PERSON-MCGOVERN_JM_3D
+      citizen: CITIZEN-MCGOVERN_JM_3D
 - records:
   - type: Office
     code: OFFICE-USA-MA-CONGRESS-CD_3
@@ -237,8 +237,8 @@ groups:
     references:
       election: ELECTION-USA-MA-CONGRESS-CD_3-2026_GENERAL
       office: OFFICE-USA-MA-CONGRESS-CD_3
-  - type: Person
-    code: PERSON-TRAHAN_LR_7D
+  - type: Citizen
+    code: CITIZEN-TRAHAN_LR_7D
     attributes:
       username: trahan_lr_7d
       username_status: provisional
@@ -256,9 +256,9 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-CONGRESS-CD_3-2026_GENERAL
-      person: PERSON-TRAHAN_LR_7D
-  - type: Person
-    code: PERSON-GROSSI_GR_4S
+      citizen: CITIZEN-TRAHAN_LR_7D
+  - type: Citizen
+    code: CITIZEN-GROSSI_GR_4S
     attributes:
       username: grossi_gr_4s
       username_status: provisional
@@ -276,9 +276,9 @@ groups:
         party: PARTY-USA-MA-REPUBLICAN
     references:
       race: RACE-USA-MA-CONGRESS-CD_3-2026_GENERAL
-      person: PERSON-GROSSI_GR_4S
-  - type: Person
-    code: PERSON-CONLON_DN_3U
+      citizen: CITIZEN-GROSSI_GR_4S
+  - type: Citizen
+    code: CITIZEN-CONLON_DN_3U
     attributes:
       username: conlon_dn_3u
       username_status: provisional
@@ -295,7 +295,7 @@ groups:
         kind: designation
     references:
       race: RACE-USA-MA-CONGRESS-CD_3-2026_GENERAL
-      person: PERSON-CONLON_DN_3U
+      citizen: CITIZEN-CONLON_DN_3U
 - records:
   - type: Office
     code: OFFICE-USA-MA-CONGRESS-CD_4
@@ -313,8 +313,8 @@ groups:
     references:
       election: ELECTION-USA-MA-CONGRESS-CD_4-2026_GENERAL
       office: OFFICE-USA-MA-CONGRESS-CD_4
-  - type: Person
-    code: PERSON-AUCHINCLOSS_JK_5A
+  - type: Citizen
+    code: CITIZEN-AUCHINCLOSS_JK_5A
     attributes:
       username: auchincloss_jk_5a
       username_status: provisional
@@ -331,9 +331,9 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-CONGRESS-CD_4-2026_GENERAL
-      person: PERSON-AUCHINCLOSS_JK_5A
-  - type: Person
-    code: PERSON-STALCUP_TH_5A
+      citizen: CITIZEN-AUCHINCLOSS_JK_5A
+  - type: Citizen
+    code: CITIZEN-STALCUP_TH_5A
     attributes:
       username: stalcup_th_5a
       username_status: provisional
@@ -350,7 +350,7 @@ groups:
         party: PARTY-USA-MA-REPUBLICAN
     references:
       race: RACE-USA-MA-CONGRESS-CD_4-2026_GENERAL
-      person: PERSON-STALCUP_TH_5A
+      citizen: CITIZEN-STALCUP_TH_5A
 - records:
   - type: Office
     code: OFFICE-USA-MA-CONGRESS-CD_5
@@ -368,8 +368,8 @@ groups:
     references:
       election: ELECTION-USA-MA-CONGRESS-CD_5-2026_GENERAL
       office: OFFICE-USA-MA-CONGRESS-CD_5
-  - type: Person
-    code: PERSON-CLARK_KT_3G
+  - type: Citizen
+    code: CITIZEN-CLARK_KT_3G
     attributes:
       username: clark_kt_3g
       username_status: provisional
@@ -387,9 +387,9 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-CONGRESS-CD_5-2026_GENERAL
-      person: PERSON-CLARK_KT_3G
-  - type: Person
-    code: PERSON-FLEMING_DR_6N
+      citizen: CITIZEN-CLARK_KT_3G
+  - type: Citizen
+    code: CITIZEN-FLEMING_DR_6N
     attributes:
       username: fleming_dr_6n
       username_status: provisional
@@ -402,7 +402,7 @@ groups:
       participation: off_ballot
     references:
       race: RACE-USA-MA-CONGRESS-CD_5-2026_GENERAL
-      person: PERSON-FLEMING_DR_6N
+      citizen: CITIZEN-FLEMING_DR_6N
 - records:
   - type: Office
     code: OFFICE-USA-MA-CONGRESS-CD_6
@@ -420,8 +420,8 @@ groups:
     references:
       election: ELECTION-USA-MA-CONGRESS-CD_6-2026_GENERAL
       office: OFFICE-USA-MA-CONGRESS-CD_6
-  - type: Person
-    code: PERSON-JONES_MC_3K
+  - type: Citizen
+    code: CITIZEN-JONES_MC_3K
     attributes:
       username: jones_mc_3k
       username_status: provisional
@@ -439,9 +439,9 @@ groups:
         party: PARTY-USA-MA-REPUBLICAN
     references:
       race: RACE-USA-MA-CONGRESS-CD_6-2026_GENERAL
-      person: PERSON-JONES_MC_3K
-  - type: Person
-    code: PERSON-KOH_DN_5F
+      citizen: CITIZEN-JONES_MC_3K
+  - type: Citizen
+    code: CITIZEN-KOH_DN_5F
     attributes:
       username: koh_dn_5f
       username_status: provisional
@@ -458,7 +458,7 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-CONGRESS-CD_6-2026_GENERAL
-      person: PERSON-KOH_DN_5F
+      citizen: CITIZEN-KOH_DN_5F
 - records:
   - type: Office
     code: OFFICE-USA-MA-CONGRESS-CD_7
@@ -476,8 +476,8 @@ groups:
     references:
       election: ELECTION-USA-MA-CONGRESS-CD_7-2026_GENERAL
       office: OFFICE-USA-MA-CONGRESS-CD_7
-  - type: Person
-    code: PERSON-PRESSLEY_AY_8M
+  - type: Citizen
+    code: CITIZEN-PRESSLEY_AY_8M
     attributes:
       username: pressley_ay_8m
       username_status: provisional
@@ -495,9 +495,9 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-CONGRESS-CD_7-2026_GENERAL
-      person: PERSON-PRESSLEY_AY_8M
-  - type: Person
-    code: PERSON-LINARDON_KL_7L
+      citizen: CITIZEN-PRESSLEY_AY_8M
+  - type: Citizen
+    code: CITIZEN-LINARDON_KL_7L
     attributes:
       username: linardon_kl_7l
       username_status: provisional
@@ -510,7 +510,7 @@ groups:
       participation: off_ballot
     references:
       race: RACE-USA-MA-CONGRESS-CD_7-2026_GENERAL
-      person: PERSON-LINARDON_KL_7L
+      citizen: CITIZEN-LINARDON_KL_7L
 - records:
   - type: Office
     code: OFFICE-USA-MA-CONGRESS-CD_8
@@ -528,8 +528,8 @@ groups:
     references:
       election: ELECTION-USA-MA-CONGRESS-CD_8-2026_GENERAL
       office: OFFICE-USA-MA-CONGRESS-CD_8
-  - type: Person
-    code: PERSON-LYNCH_ST_3K
+  - type: Citizen
+    code: CITIZEN-LYNCH_ST_3K
     attributes:
       username: lynch_st_3k
       username_status: provisional
@@ -547,9 +547,9 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-CONGRESS-CD_8-2026_GENERAL
-      person: PERSON-LYNCH_ST_3K
-  - type: Person
-    code: PERSON-BURKE_RB_3H
+      citizen: CITIZEN-LYNCH_ST_3K
+  - type: Citizen
+    code: CITIZEN-BURKE_RB_3H
     attributes:
       username: burke_rb_3h
       username_status: provisional
@@ -567,9 +567,9 @@ groups:
         party: PARTY-USA-MA-REPUBLICAN
     references:
       race: RACE-USA-MA-CONGRESS-CD_8-2026_GENERAL
-      person: PERSON-BURKE_RB_3H
-  - type: Person
-    code: PERSON-WALTERS_RS_6G
+      citizen: CITIZEN-BURKE_RB_3H
+  - type: Citizen
+    code: CITIZEN-WALTERS_RS_6G
     attributes:
       username: walters_rs_6g
       username_status: provisional
@@ -586,7 +586,7 @@ groups:
         kind: designation
     references:
       race: RACE-USA-MA-CONGRESS-CD_8-2026_GENERAL
-      person: PERSON-WALTERS_RS_6G
+      citizen: CITIZEN-WALTERS_RS_6G
 - records:
   - type: Office
     code: OFFICE-USA-MA-CONGRESS-CD_9
@@ -604,8 +604,8 @@ groups:
     references:
       election: ELECTION-USA-MA-CONGRESS-CD_9-2026_GENERAL
       office: OFFICE-USA-MA-CONGRESS-CD_9
-  - type: Person
-    code: PERSON-KEATING_BL_8X
+  - type: Citizen
+    code: CITIZEN-KEATING_BL_8X
     attributes:
       username: keating_bl_8x
       username_status: provisional
@@ -622,9 +622,9 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-CONGRESS-CD_9-2026_GENERAL
-      person: PERSON-KEATING_BL_8X
-  - type: Person
-    code: PERSON-MACALLISTER_R_2F
+      citizen: CITIZEN-KEATING_BL_8X
+  - type: Citizen
+    code: CITIZEN-MACALLISTER_R_2F
     attributes:
       username: macallister_r_2f
       username_status: provisional
@@ -642,4 +642,4 @@ groups:
         party: PARTY-USA-MA-REPUBLICAN
     references:
       race: RACE-USA-MA-CONGRESS-CD_9-2026_GENERAL
-      person: PERSON-MACALLISTER_R_2F
+      citizen: CITIZEN-MACALLISTER_R_2F

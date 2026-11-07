@@ -58,8 +58,8 @@ records:
   references:
     election: ELECTION-USA-NY-2026_CIVIC_EXAMPLE
     office: OFFICE-USA-NY-ASSEMBLY-AD_1
-- type: Person
-  code: PERSON-VEGA_MR_7K
+- type: Citizen
+  code: CITIZEN-VEGA_MR_7K
   attributes:
     first_name: Marisol
     last_name: Vega
@@ -70,7 +70,7 @@ records:
     participation: active
   references:
     race: RACE-USA-NY-ASSEMBLY-AD_1-2026_CIVIC_EXAMPLE
-    person: PERSON-VEGA_MR_7K
+    citizen: CITIZEN-VEGA_MR_7K
 - type: Channel
   code: CHANNEL-WEB-MARISOLVEGA_EXAMPLE_ORG
   attributes:
@@ -79,4 +79,4 @@ records:
     url: https://marisolvega.example.org
     official: true
   references:
-    owner: PERSON-VEGA_MR_7K
+    owner: CITIZEN-VEGA_MR_7K

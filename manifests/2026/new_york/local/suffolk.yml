@@ -95,8 +95,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_SUFFOLK-COUNTY_CLERK
-  - type: Person
-    code: PERSON-PULEO_VN_2L
+  - type: Citizen
+    code: CITIZEN-PULEO_VN_2L
     attributes:
       username: puleo_vn_2l
       username_status: provisional
@@ -117,7 +117,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_CLERK-2026_GENERAL
-      person: PERSON-PULEO_VN_2L
+      citizen: CITIZEN-PULEO_VN_2L
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_SUFFOLK-COMPTROLLER
@@ -134,8 +134,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_SUFFOLK-COMPTROLLER
-  - type: Person
-    code: PERSON-LOSQUADRO_DN_3C
+  - type: Citizen
+    code: CITIZEN-LOSQUADRO_DN_3C
     attributes:
       username: losquadro_dn_3c
       username_status: provisional
@@ -156,9 +156,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_SUFFOLK-COMPTROLLER-2026_GENERAL
-      person: PERSON-LOSQUADRO_DN_3C
-  - type: Person
-    code: PERSON-ESTREICH_JN_6K
+      citizen: CITIZEN-LOSQUADRO_DN_3C
+  - type: Citizen
+    code: CITIZEN-ESTREICH_JN_6K
     attributes:
       username: estreich_jn_6k
       username_status: provisional
@@ -175,7 +175,7 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-COUNTY_SUFFOLK-COMPTROLLER-2026_GENERAL
-      person: PERSON-ESTREICH_JN_6K
+      citizen: CITIZEN-ESTREICH_JN_6K
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE
@@ -192,8 +192,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE
-  - type: Person
-    code: PERSON-ACQUAFREDDA_AN_4P
+  - type: Citizen
+    code: CITIZEN-ACQUAFREDDA_AN_4P
     attributes:
       username: acquafredda_an_4p
       username_status: provisional
@@ -213,9 +213,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE-2026_GENERAL
-      person: PERSON-ACQUAFREDDA_AN_4P
-  - type: Person
-    code: PERSON-SENFT_AN_3K
+      citizen: CITIZEN-ACQUAFREDDA_AN_4P
+  - type: Citizen
+    code: CITIZEN-SENFT_AN_3K
     attributes:
       username: senft_an_3k
       username_status: provisional
@@ -236,9 +236,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE-2026_GENERAL
-      person: PERSON-SENFT_AN_3K
-  - type: Person
-    code: PERSON-DRISCOLL_DN_7K
+      citizen: CITIZEN-SENFT_AN_3K
+  - type: Citizen
+    code: CITIZEN-DRISCOLL_DN_7K
     attributes:
       username: driscoll_dn_7k
       username_status: provisional
@@ -259,9 +259,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE-2026_GENERAL
-      person: PERSON-DRISCOLL_DN_7K
-  - type: Person
-    code: PERSON-CHALIFOUX_JM_8M
+      citizen: CITIZEN-DRISCOLL_DN_7K
+  - type: Citizen
+    code: CITIZEN-CHALIFOUX_JM_8M
     attributes:
       username: chalifoux_jm_8m
       username_status: provisional
@@ -282,7 +282,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_SUFFOLK-COUNTY_JUDGE-2026_GENERAL
-      person: PERSON-CHALIFOUX_JM_8M
+      citizen: CITIZEN-CHALIFOUX_JM_8M
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_SUFFOLK-DISTRICT_COURT_JUDGE-3RD_DISTRICT_TOWN_OF_HUNTINGTON
@@ -300,8 +300,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_SUFFOLK-DISTRICT_COURT_JUDGE-3RD_DISTRICT_TOWN_OF_HUNTINGTON
-  - type: Person
-    code: PERSON-KIERNAN_MT_2Y
+  - type: Citizen
+    code: CITIZEN-KIERNAN_MT_2Y
     attributes:
       username: kiernan_mt_2y
       username_status: provisional
@@ -325,7 +325,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_SUFFOLK-DISTRICT_COURT_JUDGE-3RD_DISTRICT_TOWN_OF_HUNTINGTON-2026_GENERAL
-      person: PERSON-KIERNAN_MT_2Y
+      citizen: CITIZEN-KIERNAN_MT_2Y
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_SUFFOLK-DISTRICT_COURT_JUDGE-5TH_DISTRICT_TOWN_OF_ISLIP
@@ -343,8 +343,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_SUFFOLK-DISTRICT_COURT_JUDGE-5TH_DISTRICT_TOWN_OF_ISLIP
-  - type: Person
-    code: PERSON-JACOBS_AL_2Y
+  - type: Citizen
+    code: CITIZEN-JACOBS_AL_2Y
     attributes:
       username: jacobs_al_2y
       username_status: provisional
@@ -365,9 +365,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_SUFFOLK-DISTRICT_COURT_JUDGE-5TH_DISTRICT_TOWN_OF_ISLIP-2026_GENERAL
-      person: PERSON-JACOBS_AL_2Y
-  - type: Person
-    code: PERSON-COHALAN_PR_3S
+      citizen: CITIZEN-JACOBS_AL_2Y
+  - type: Citizen
+    code: CITIZEN-COHALAN_PR_3S
     attributes:
       username: cohalan_pr_3s
       username_status: provisional
@@ -391,9 +391,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_SUFFOLK-DISTRICT_COURT_JUDGE-5TH_DISTRICT_TOWN_OF_ISLIP-2026_GENERAL
-      person: PERSON-COHALAN_PR_3S
-  - type: Person
-    code: PERSON-LUCIANO_TH_4R
+      citizen: CITIZEN-COHALAN_PR_3S
+  - type: Citizen
+    code: CITIZEN-LUCIANO_TH_4R
     attributes:
       username: luciano_th_4r
       username_status: provisional
@@ -414,7 +414,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_SUFFOLK-DISTRICT_COURT_JUDGE-5TH_DISTRICT_TOWN_OF_ISLIP-2026_GENERAL
-      person: PERSON-LUCIANO_TH_4R
+      citizen: CITIZEN-LUCIANO_TH_4R
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_SUFFOLK-DISTRICT_COURT_JUDGE-6TH_DISTRICT_TOWN_OF_BROOKHAVEN
@@ -432,8 +432,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_SUFFOLK-DISTRICT_COURT_JUDGE-6TH_DISTRICT_TOWN_OF_BROOKHAVEN
-  - type: Person
-    code: PERSON-BLIZZARD_MCGRATH_PN_8V
+  - type: Citizen
+    code: CITIZEN-BLIZZARD_MCGRATH_PN_8V
     attributes:
       username: blizzard_mcgrath_pn_8v
       username_status: provisional
@@ -454,7 +454,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_SUFFOLK-DISTRICT_COURT_JUDGE-6TH_DISTRICT_TOWN_OF_BROOKHAVEN-2026_GENERAL
-      person: PERSON-BLIZZARD_MCGRATH_PN_8V
+      citizen: CITIZEN-BLIZZARD_MCGRATH_PN_8V
 - records:
   - type: Office
     code: OFFICE-USA-NY-COUNTY_SUFFOLK-FAMILY_COURT_JUDGE
@@ -471,8 +471,8 @@ groups:
     references:
       election: ELECTION-USA-NY-COUNTY_SUFFOLK-2026_GENERAL
       office: OFFICE-USA-NY-COUNTY_SUFFOLK-FAMILY_COURT_JUDGE
-  - type: Person
-    code: PERSON-TANENBAUM_EV_6H
+  - type: Citizen
+    code: CITIZEN-TANENBAUM_EV_6H
     attributes:
       username: tanenbaum_ev_6h
       username_status: provisional
@@ -493,9 +493,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_SUFFOLK-FAMILY_COURT_JUDGE-2026_GENERAL
-      person: PERSON-TANENBAUM_EV_6H
-  - type: Person
-    code: PERSON-TANTONE_FR_7T
+      citizen: CITIZEN-TANENBAUM_EV_6H
+  - type: Citizen
+    code: CITIZEN-TANTONE_FR_7T
     attributes:
       username: tantone_fr_7t
       username_status: provisional
@@ -516,9 +516,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_SUFFOLK-FAMILY_COURT_JUDGE-2026_GENERAL
-      person: PERSON-TANTONE_FR_7T
-  - type: Person
-    code: PERSON-GARBARINO_WL_6T
+      citizen: CITIZEN-TANTONE_FR_7T
+  - type: Citizen
+    code: CITIZEN-GARBARINO_WL_6T
     attributes:
       username: garbarino_wl_6t
       username_status: provisional
@@ -539,7 +539,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-COUNTY_SUFFOLK-FAMILY_COURT_JUDGE-2026_GENERAL
-      person: PERSON-GARBARINO_WL_6T
+      citizen: CITIZEN-GARBARINO_WL_6T
 - records:
   - type: Office
     code: OFFICE-USA-NY-SMITHTOWN-RECEIVER_OF_TAXES
@@ -556,8 +556,8 @@ groups:
     references:
       election: ELECTION-USA-NY-SMITHTOWN-2026_GENERAL
       office: OFFICE-USA-NY-SMITHTOWN-RECEIVER_OF_TAXES
-  - type: Person
-    code: PERSON-BAKER_STINES_BR_9C
+  - type: Citizen
+    code: CITIZEN-BAKER_STINES_BR_9C
     attributes:
       username: baker_stines_br_9c
       username_status: provisional
@@ -574,9 +574,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-SMITHTOWN-RECEIVER_OF_TAXES-2026_GENERAL
-      person: PERSON-BAKER_STINES_BR_9C
-  - type: Person
-    code: PERSON-CARROS_KM_6N
+      citizen: CITIZEN-BAKER_STINES_BR_9C
+  - type: Citizen
+    code: CITIZEN-CARROS_KM_6N
     attributes:
       username: carros_km_6n
       username_status: provisional
@@ -597,7 +597,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-SMITHTOWN-RECEIVER_OF_TAXES-2026_GENERAL
-      person: PERSON-CARROS_KM_6N
+      citizen: CITIZEN-CARROS_KM_6N
 - records:
   - type: Office
     code: OFFICE-USA-NY-EAST_HAMPTON_TOWN-HIGHWAY_SUPERINTENDENT
@@ -614,8 +614,8 @@ groups:
     references:
       election: ELECTION-USA-NY-EAST_HAMPTON_TOWN-2026_GENERAL
       office: OFFICE-USA-NY-EAST_HAMPTON_TOWN-HIGHWAY_SUPERINTENDENT
-  - type: Person
-    code: PERSON-LYNCH_ST_5K
+  - type: Citizen
+    code: CITIZEN-LYNCH_ST_5K
     attributes:
       username: lynch_st_5k
       username_status: provisional
@@ -636,7 +636,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-EAST_HAMPTON_TOWN-HIGHWAY_SUPERINTENDENT-2026_GENERAL
-      person: PERSON-LYNCH_ST_5K
+      citizen: CITIZEN-LYNCH_ST_5K
 - records:
   - type: Office
     code: OFFICE-USA-NY-SHELTER_ISLAND-HIGHWAY_SUPERINTENDENT
@@ -653,8 +653,8 @@ groups:
     references:
       election: ELECTION-USA-NY-SHELTER_ISLAND-2026_GENERAL
       office: OFFICE-USA-NY-SHELTER_ISLAND-HIGHWAY_SUPERINTENDENT
-  - type: Person
-    code: PERSON-LEWIS_KN_8R
+  - type: Citizen
+    code: CITIZEN-LEWIS_KN_8R
     attributes:
       username: lewis_kn_8r
       username_status: provisional
@@ -675,7 +675,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-SHELTER_ISLAND-HIGHWAY_SUPERINTENDENT-2026_GENERAL
-      person: PERSON-LEWIS_KN_8R
+      citizen: CITIZEN-LEWIS_KN_8R
 - records:
   - type: Office
     code: OFFICE-USA-NY-EAST_HAMPTON_TOWN-TOWN_SUPERVISOR
@@ -692,8 +692,8 @@ groups:
     references:
       election: ELECTION-USA-NY-EAST_HAMPTON_TOWN-2026_GENERAL
       office: OFFICE-USA-NY-EAST_HAMPTON_TOWN-TOWN_SUPERVISOR
-  - type: Person
-    code: PERSON-BURKE_GONZALEZ_KT_4F
+  - type: Citizen
+    code: CITIZEN-BURKE_GONZALEZ_KT_4F
     attributes:
       username: burke_gonzalez_kt_4f
       username_status: provisional
@@ -713,7 +713,7 @@ groups:
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
       race: RACE-USA-NY-EAST_HAMPTON_TOWN-TOWN_SUPERVISOR-2026_GENERAL
-      person: PERSON-BURKE_GONZALEZ_KT_4F
+      citizen: CITIZEN-BURKE_GONZALEZ_KT_4F
 - records:
   - type: Office
     code: OFFICE-USA-NY-RIVERHEAD-TOWN_SUPERVISOR
@@ -730,8 +730,8 @@ groups:
     references:
       election: ELECTION-USA-NY-RIVERHEAD-2026_GENERAL
       office: OFFICE-USA-NY-RIVERHEAD-TOWN_SUPERVISOR
-  - type: Person
-    code: PERSON-HALPIN_JR_9E
+  - type: Citizen
+    code: CITIZEN-HALPIN_JR_9E
     attributes:
       username: halpin_jr_9e
       username_status: provisional
@@ -750,9 +750,9 @@ groups:
         kind: designation
     references:
       race: RACE-USA-NY-RIVERHEAD-TOWN_SUPERVISOR-2026_GENERAL
-      person: PERSON-HALPIN_JR_9E
-  - type: Person
-    code: PERSON-ROTHWELL_KN_2D
+      citizen: CITIZEN-HALPIN_JR_9E
+  - type: Citizen
+    code: CITIZEN-ROTHWELL_KN_2D
     attributes:
       username: rothwell_kn_2d
       username_status: provisional
@@ -773,7 +773,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-RIVERHEAD-TOWN_SUPERVISOR-2026_GENERAL
-      person: PERSON-ROTHWELL_KN_2D
+      citizen: CITIZEN-ROTHWELL_KN_2D
 - records:
   - type: Office
     code: OFFICE-USA-NY-SHELTER_ISLAND-TOWN_SUPERVISOR
@@ -790,8 +790,8 @@ groups:
     references:
       election: ELECTION-USA-NY-SHELTER_ISLAND-2026_GENERAL
       office: OFFICE-USA-NY-SHELTER_ISLAND-TOWN_SUPERVISOR
-  - type: Person
-    code: PERSON-BRACH_WILLIAMS_AM_4F
+  - type: Citizen
+    code: CITIZEN-BRACH_WILLIAMS_AM_4F
     attributes:
       username: brach_williams_am_4f
       username_status: provisional
@@ -812,7 +812,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-SHELTER_ISLAND-TOWN_SUPERVISOR-2026_GENERAL
-      person: PERSON-BRACH_WILLIAMS_AM_4F
+      citizen: CITIZEN-BRACH_WILLIAMS_AM_4F
 - records:
   - type: Office
     code: OFFICE-USA-NY-SOUTHAMPTON_TOWN-TOWN_SUPERVISOR
@@ -829,8 +829,8 @@ groups:
     references:
       election: ELECTION-USA-NY-SOUTHAMPTON_TOWN-2026_GENERAL
       office: OFFICE-USA-NY-SOUTHAMPTON_TOWN-TOWN_SUPERVISOR
-  - type: Person
-    code: PERSON-MOORE_MR_5Z
+  - type: Citizen
+    code: CITIZEN-MOORE_MR_5Z
     attributes:
       username: moore_mr_5z
       username_status: provisional
@@ -851,9 +851,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_SUPERVISOR-2026_GENERAL
-      person: PERSON-MOORE_MR_5Z
-  - type: Person
-    code: PERSON-CAROZZA_RC_6F
+      citizen: CITIZEN-MOORE_MR_5Z
+  - type: Citizen
+    code: CITIZEN-CAROZZA_RC_6F
     attributes:
       username: carozza_rc_6f
       username_status: provisional
@@ -871,7 +871,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_SUPERVISOR-2026_GENERAL
-      person: PERSON-CAROZZA_RC_6F
+      citizen: CITIZEN-CAROZZA_RC_6F
 - records:
   - type: Office
     code: OFFICE-USA-NY-SHELTER_ISLAND-TOWN_JUSTICE
@@ -888,8 +888,8 @@ groups:
     references:
       election: ELECTION-USA-NY-SHELTER_ISLAND-2026_GENERAL
       office: OFFICE-USA-NY-SHELTER_ISLAND-TOWN_JUSTICE
-  - type: Person
-    code: PERSON-WESTERVELT_MR_9Q
+  - type: Citizen
+    code: CITIZEN-WESTERVELT_MR_9Q
     attributes:
       username: westervelt_mr_9q
       username_status: provisional
@@ -912,7 +912,7 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-SHELTER_ISLAND-TOWN_JUSTICE-2026_GENERAL
-      person: PERSON-WESTERVELT_MR_9Q
+      citizen: CITIZEN-WESTERVELT_MR_9Q
 - records:
   - type: Office
     code: OFFICE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE
@@ -929,8 +929,8 @@ groups:
     references:
       election: ELECTION-USA-NY-SOUTHAMPTON_TOWN-2026_GENERAL
       office: OFFICE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE
-  - type: Person
-    code: PERSON-PELL_OFARRELL_HN_4W
+  - type: Citizen
+    code: CITIZEN-PELL_OFARRELL_HN_4W
     attributes:
       username: pell_ofarrell_hn_4w
       username_status: provisional
@@ -950,9 +950,9 @@ groups:
         party: PARTY-USA-NY-DEMOCRATIC
     references:
       race: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL
-      person: PERSON-PELL_OFARRELL_HN_4W
-  - type: Person
-    code: PERSON-MACK_JM_9L
+      citizen: CITIZEN-PELL_OFARRELL_HN_4W
+  - type: Citizen
+    code: CITIZEN-MACK_JM_9L
     attributes:
       username: mack_jm_9l
       username_status: provisional
@@ -976,9 +976,9 @@ groups:
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
       race: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL
-      person: PERSON-MACK_JM_9L
-  - type: Person
-    code: PERSON-CARSON_JH_9Z
+      citizen: CITIZEN-MACK_JM_9L
+  - type: Citizen
+    code: CITIZEN-CARSON_JH_9Z
     attributes:
       username: carson_jh_9z
       username_status: provisional
@@ -999,9 +999,9 @@ groups:
         party: PARTY-USA-NY-REPUBLICAN
     references:
       race: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL
-      person: PERSON-CARSON_JH_9Z
-  - type: Person
-    code: PERSON-MCLOUGHLIN_JS_5J
+      citizen: CITIZEN-CARSON_JH_9Z
+  - type: Citizen
+    code: CITIZEN-MCLOUGHLIN_JS_5J
     attributes:
       username: mcloughlin_js_5j
       username_status: provisional
@@ -1022,9 +1022,9 @@ groups:
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
       race: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL
-      person: PERSON-MCLOUGHLIN_JS_5J
-  - type: Person
-    code: PERSON-PARSONS_MT_7T
+      citizen: CITIZEN-MCLOUGHLIN_JS_5J
+  - type: Citizen
+    code: CITIZEN-PARSONS_MT_7T
     attributes:
       username: parsons_mt_7t
       username_status: provisional
@@ -1045,9 +1045,9 @@ groups:
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
       race: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL
-      person: PERSON-PARSONS_MT_7T
-  - type: Person
-    code: PERSON-TOPPING_SR_6X
+      citizen: CITIZEN-PARSONS_MT_7T
+  - type: Citizen
+    code: CITIZEN-TOPPING_SR_6X
     attributes:
       username: topping_sr_6x
       username_status: provisional
@@ -1068,4 +1068,4 @@ groups:
         party: PARTY-USA-NY-WORKING_FAMILIES
     references:
       race: RACE-USA-NY-SOUTHAMPTON_TOWN-TOWN_TRUSTEE-2026_GENERAL
-      person: PERSON-TOPPING_SR_6X
+      citizen: CITIZEN-TOPPING_SR_6X

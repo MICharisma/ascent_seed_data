@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_SUWANNEE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-BLUE_ST_6W
+  - type: Citizen
+    code: CITIZEN-BLUE_ST_6W
     attributes:
       username: blue_st_6w
       username_status: provisional
@@ -54,9 +54,9 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-BLUE_ST_6W
-  - type: Person
-    code: PERSON-DELOACH_WL_8V
+      citizen: CITIZEN-BLUE_ST_6W
+  - type: Citizen
+    code: CITIZEN-DELOACH_WL_8V
     attributes:
       username: deloach_wl_8v
       username_status: provisional
@@ -74,7 +74,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-DELOACH_WL_8V
+      citizen: CITIZEN-DELOACH_WL_8V
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_4
@@ -92,8 +92,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_SUWANNEE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-MOBLEY_LE_4Y
+  - type: Citizen
+    code: CITIZEN-MOBLEY_LE_4Y
     attributes:
       username: mobley_le_4y
       username_status: provisional
@@ -110,7 +110,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_SUWANNEE-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-MOBLEY_LE_4Y
+      citizen: CITIZEN-MOBLEY_LE_4Y
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_3
@@ -128,8 +128,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_SUWANNEE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_3
-  - type: Person
-    code: PERSON-HINES_ML_3G
+  - type: Citizen
+    code: CITIZEN-HINES_ML_3G
     attributes:
       username: hines_ml_3g
       username_status: provisional
@@ -142,7 +142,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_3-2026_GENERAL
-      person: PERSON-HINES_ML_3G
+      citizen: CITIZEN-HINES_ML_3G
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_4
@@ -160,8 +160,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_SUWANNEE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_4
-  - type: Person
-    code: PERSON-DASILVA_ED_6F
+  - type: Citizen
+    code: CITIZEN-DASILVA_ED_6F
     attributes:
       username: dasilva_ed_6f
       username_status: provisional
@@ -174,7 +174,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-DASILVA_ED_6F
+      citizen: CITIZEN-DASILVA_ED_6F
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_5
@@ -192,8 +192,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_SUWANNEE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_5
-  - type: Person
-    code: PERSON-BASS_AR_6C
+  - type: Citizen
+    code: CITIZEN-BASS_AR_6C
     attributes:
       username: bass_ar_6c
       username_status: provisional
@@ -206,7 +206,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_SUWANNEE-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
-      person: PERSON-BASS_AR_6C
+      citizen: CITIZEN-BASS_AR_6C
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1
@@ -224,8 +224,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_SUWANNEE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1
-  - type: Person
-    code: PERSON-JACKSON_AN_7Z
+  - type: Citizen
+    code: CITIZEN-JACKSON_AN_7Z
     attributes:
       username: jackson_an_7z
       username_status: provisional
@@ -238,7 +238,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_1-2026_GENERAL
-      person: PERSON-JACKSON_AN_7Z
+      citizen: CITIZEN-JACKSON_AN_7Z
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3
@@ -256,8 +256,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_SUWANNEE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3
-  - type: Person
-    code: PERSON-WAINWRIGHT_WS_3B
+  - type: Citizen
+    code: CITIZEN-WAINWRIGHT_WS_3B
     attributes:
       username: wainwright_ws_3b
       username_status: provisional
@@ -270,7 +270,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_3-2026_GENERAL
-      person: PERSON-WAINWRIGHT_WS_3B
+      citizen: CITIZEN-WAINWRIGHT_WS_3B
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5
@@ -288,8 +288,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_SUWANNEE-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5
-  - type: Person
-    code: PERSON-WILLIAMS_JM_8S
+  - type: Citizen
+    code: CITIZEN-WILLIAMS_JM_8S
     attributes:
       username: williams_jm_8s
       username_status: provisional
@@ -302,4 +302,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_SUWANNEE-SOIL_AND_WATER_CONSERVATION_DISTRICT_SUPERVISOR-GROUP_5-2026_GENERAL
-      person: PERSON-WILLIAMS_JM_8S
+      citizen: CITIZEN-WILLIAMS_JM_8S

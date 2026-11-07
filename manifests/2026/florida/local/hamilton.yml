@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HAMILTON-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-ALTMAN_JS_9B
+  - type: Citizen
+    code: CITIZEN-ALTMAN_JS_9B
     attributes:
       username: altman_js_9b
       username_status: provisional
@@ -54,7 +54,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-ALTMAN_JS_9B
+      citizen: CITIZEN-ALTMAN_JS_9B
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_4
@@ -72,8 +72,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HAMILTON-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-ERIXTON_TR_4P
+  - type: Citizen
+    code: CITIZEN-ERIXTON_TR_4P
     attributes:
       username: erixton_tr_4p
       username_status: provisional
@@ -90,9 +90,9 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-ERIXTON_TR_4P
-  - type: Person
-    code: PERSON-PINELLO_AN_3X
+      citizen: CITIZEN-ERIXTON_TR_4P
+  - type: Citizen
+    code: CITIZEN-PINELLO_AN_3X
     attributes:
       username: pinello_an_3x
       username_status: provisional
@@ -109,7 +109,7 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_HAMILTON-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-PINELLO_AN_3X
+      citizen: CITIZEN-PINELLO_AN_3X
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_1
@@ -127,8 +127,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HAMILTON-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_1
-  - type: Person
-    code: PERSON-MCCALL_CH_2K
+  - type: Citizen
+    code: CITIZEN-MCCALL_CH_2K
     attributes:
       username: mccall_ch_2k
       username_status: provisional
@@ -142,7 +142,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
-      person: PERSON-MCCALL_CH_2K
+      citizen: CITIZEN-MCCALL_CH_2K
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_4
@@ -160,8 +160,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HAMILTON-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_4
-  - type: Person
-    code: PERSON-BURCH_KZ_5Y
+  - type: Citizen
+    code: CITIZEN-BURCH_KZ_5Y
     attributes:
       username: burch_kz_5y
       username_status: provisional
@@ -175,9 +175,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-BURCH_KZ_5Y
-  - type: Person
-    code: PERSON-OGBURN_LR_4T
+      citizen: CITIZEN-BURCH_KZ_5Y
+  - type: Citizen
+    code: CITIZEN-OGBURN_LR_4T
     attributes:
       username: ogburn_lr_4t
       username_status: provisional
@@ -190,7 +190,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_4-2026_GENERAL
-      person: PERSON-OGBURN_LR_4T
+      citizen: CITIZEN-OGBURN_LR_4T
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_5
@@ -208,8 +208,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_HAMILTON-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_5
-  - type: Person
-    code: PERSON-KENNEDY_MN_9K
+  - type: Citizen
+    code: CITIZEN-KENNEDY_MN_9K
     attributes:
       username: kennedy_mn_9k
       username_status: provisional
@@ -223,4 +223,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_HAMILTON-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
-      person: PERSON-KENNEDY_MN_9K
+      citizen: CITIZEN-KENNEDY_MN_9K

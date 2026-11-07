@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_NORFOLK-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_NORFOLK-REGISTER_OF_PROBATE
-  - type: Person
-    code: PERSON-BRIERLEY_CL_4T
+  - type: Citizen
+    code: CITIZEN-BRIERLEY_CL_4T
     attributes:
       username: brierley_cl_4t
       username_status: provisional
@@ -54,7 +54,7 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-COUNTY_NORFOLK-REGISTER_OF_PROBATE-2026_GENERAL
-      person: PERSON-BRIERLEY_CL_4T
+      citizen: CITIZEN-BRIERLEY_CL_4T
 - records:
   - type: Office
     code: OFFICE-USA-MA-COUNTY_NORFOLK-TREASURER
@@ -71,8 +71,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_NORFOLK-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_NORFOLK-TREASURER
-  - type: Person
-    code: PERSON-BELLOTTI_MC_8H
+  - type: Citizen
+    code: CITIZEN-BELLOTTI_MC_8H
     attributes:
       username: bellotti_mc_8h
       username_status: provisional
@@ -90,7 +90,7 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-COUNTY_NORFOLK-TREASURER-2026_GENERAL
-      person: PERSON-BELLOTTI_MC_8H
+      citizen: CITIZEN-BELLOTTI_MC_8H
 - records:
   - type: Office
     code: OFFICE-USA-MA-COUNTY_NORFOLK-COUNTY_COMMISSIONER
@@ -107,8 +107,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_NORFOLK-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_NORFOLK-COUNTY_COMMISSIONER
-  - type: Person
-    code: PERSON-COLLINS_PT_5E
+  - type: Citizen
+    code: CITIZEN-COLLINS_PT_5E
     attributes:
       username: collins_pt_5e
       username_status: provisional
@@ -126,4 +126,4 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-COUNTY_NORFOLK-COUNTY_COMMISSIONER-2026_GENERAL
-      person: PERSON-COLLINS_PT_5E
+      citizen: CITIZEN-COLLINS_PT_5E

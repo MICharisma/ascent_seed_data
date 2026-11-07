@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_MONTGOMERY-2026_SPECIAL
       office: OFFICE-USA-VA-COUNTY_MONTGOMERY-COMMONWEALTHS_ATTORNEY
-  - type: Person
-    code: PERSON-JENSEN_PT_7Q
+  - type: Citizen
+    code: CITIZEN-JENSEN_PT_7Q
     attributes:
       username: jensen_pt_7q
       username_status: provisional
@@ -50,7 +50,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_MONTGOMERY-COMMONWEALTHS_ATTORNEY-2026_SPECIAL
-      person: PERSON-JENSEN_PT_7Q
+      citizen: CITIZEN-JENSEN_PT_7Q
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_MONTGOMERY-COUNCIL_MEMBER-BLACKSBURG
@@ -68,8 +68,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_MONTGOMERY-2026_SPECIAL
       office: OFFICE-USA-VA-COUNTY_MONTGOMERY-COUNCIL_MEMBER-BLACKSBURG
-  - type: Person
-    code: PERSON-GOODHART_JL_4Y
+  - type: Citizen
+    code: CITIZEN-GOODHART_JL_4Y
     attributes:
       username: goodhart_jl_4y
       username_status: provisional
@@ -83,9 +83,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_MONTGOMERY-COUNCIL_MEMBER-BLACKSBURG-2026_SPECIAL
-      person: PERSON-GOODHART_JL_4Y
-  - type: Person
-    code: PERSON-HARWOOD_LS_5V
+      citizen: CITIZEN-GOODHART_JL_4Y
+  - type: Citizen
+    code: CITIZEN-HARWOOD_LS_5V
     attributes:
       username: harwood_ls_5v
       username_status: provisional
@@ -99,7 +99,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_MONTGOMERY-COUNCIL_MEMBER-BLACKSBURG-2026_SPECIAL
-      person: PERSON-HARWOOD_LS_5V
+      citizen: CITIZEN-HARWOOD_LS_5V
 - records:
   - type: Office
     code: OFFICE-USA-VA-COUNTY_MONTGOMERY-SHERIFF
@@ -116,8 +116,8 @@ groups:
     references:
       election: ELECTION-USA-VA-COUNTY_MONTGOMERY-2026_SPECIAL
       office: OFFICE-USA-VA-COUNTY_MONTGOMERY-SHERIFF
-  - type: Person
-    code: PERSON-BROWN_TM_6L
+  - type: Citizen
+    code: CITIZEN-BROWN_TM_6L
     attributes:
       username: brown_tm_6l
       username_status: provisional
@@ -131,9 +131,9 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_MONTGOMERY-SHERIFF-2026_SPECIAL
-      person: PERSON-BROWN_TM_6L
-  - type: Person
-    code: PERSON-PAGE_RB_6F
+      citizen: CITIZEN-BROWN_TM_6L
+  - type: Citizen
+    code: CITIZEN-PAGE_RB_6F
     attributes:
       username: page_rb_6f
       username_status: provisional
@@ -147,4 +147,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-VA-COUNTY_MONTGOMERY-SHERIFF-2026_SPECIAL
-      person: PERSON-PAGE_RB_6F
+      citizen: CITIZEN-PAGE_RB_6F

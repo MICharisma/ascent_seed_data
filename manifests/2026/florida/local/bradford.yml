@@ -36,8 +36,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_BRADFORD-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_2
-  - type: Person
-    code: PERSON-BENNETT_JS_2N
+  - type: Citizen
+    code: CITIZEN-BENNETT_JS_2N
     attributes:
       username: bennett_js_2n
       username_status: provisional
@@ -54,9 +54,9 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-BENNETT_JS_2N
-  - type: Person
-    code: PERSON-TALLEDA_JN_5X
+      citizen: CITIZEN-BENNETT_JS_2N
+  - type: Citizen
+    code: CITIZEN-TALLEDA_JN_5X
     attributes:
       username: talleda_jn_5x
       username_status: provisional
@@ -73,7 +73,7 @@ groups:
         party: PARTY-USA-FL-DEMOCRATIC
     references:
       race: RACE-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_2-2026_GENERAL
-      person: PERSON-TALLEDA_JN_5X
+      citizen: CITIZEN-TALLEDA_JN_5X
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_4
@@ -91,8 +91,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_BRADFORD-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_4
-  - type: Person
-    code: PERSON-GERMANO_TM_9H
+  - type: Citizen
+    code: CITIZEN-GERMANO_TM_9H
     attributes:
       username: germano_tm_9h
       username_status: provisional
@@ -109,7 +109,7 @@ groups:
         party: PARTY-USA-FL-REPUBLICAN
     references:
       race: RACE-USA-FL-COUNTY_BRADFORD-COUNTY_COMMISSIONER-DISTRICT_4-2026_GENERAL
-      person: PERSON-GERMANO_TM_9H
+      citizen: CITIZEN-GERMANO_TM_9H
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_1
@@ -127,8 +127,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_BRADFORD-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_1
-  - type: Person
-    code: PERSON-CUMMINGS_SH_4X
+  - type: Citizen
+    code: CITIZEN-CUMMINGS_SH_4X
     attributes:
       username: cummings_sh_4x
       username_status: provisional
@@ -142,7 +142,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_1-2026_GENERAL
-      person: PERSON-CUMMINGS_SH_4X
+      citizen: CITIZEN-CUMMINGS_SH_4X
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_2
@@ -160,8 +160,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_BRADFORD-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_2
-  - type: Person
-    code: PERSON-NICULA_GY_7F
+  - type: Citizen
+    code: CITIZEN-NICULA_GY_7F
     attributes:
       username: nicula_gy_7f
       username_status: provisional
@@ -175,7 +175,7 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_2-2026_GENERAL
-      person: PERSON-NICULA_GY_7F
+      citizen: CITIZEN-NICULA_GY_7F
 - records:
   - type: Office
     code: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_5
@@ -193,8 +193,8 @@ groups:
     references:
       election: ELECTION-USA-FL-COUNTY_BRADFORD-2026_GENERAL
       office: OFFICE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_5
-  - type: Person
-    code: PERSON-COLEMAN_LC_8A
+  - type: Citizen
+    code: CITIZEN-COLEMAN_LC_8A
     attributes:
       username: coleman_lc_8a
       username_status: provisional
@@ -207,4 +207,4 @@ groups:
       participation: active
     references:
       race: RACE-USA-FL-COUNTY_BRADFORD-SCHOOL_BOARD_MEMBER-DISTRICT_5-2026_GENERAL
-      person: PERSON-COLEMAN_LC_8A
+      citizen: CITIZEN-COLEMAN_LC_8A

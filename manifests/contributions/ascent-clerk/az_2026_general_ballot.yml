@@ -298,8 +298,8 @@ records:
   references:
     election: ELECTION-USA-AZ-APPEAL-DIV_2-2026_GENERAL
     office: OFFICE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_LACEY_STOVER_GARD
-- type: Person
-  code: PERSON-KERR_SN_6B
+- type: Citizen
+  code: CITIZEN-KERR_SN_6B
   attributes:
     username: kerr_sn_6b
     username_status: provisional
@@ -316,9 +316,9 @@ records:
       party: PARTY-USA-AZ-REPUBLICAN
   references:
     race: RACE-USA-AZ-LIEUTENANT_GOVERNOR-2026_GENERAL
-    person: PERSON-KERR_SN_6B
-- type: Person
-  code: PERSON-GILES_JH_7H
+    citizen: CITIZEN-KERR_SN_6B
+- type: Citizen
+  code: CITIZEN-GILES_JH_7H
   attributes:
     username: giles_jh_7h
     username_status: provisional
@@ -334,9 +334,9 @@ records:
       kind: unclassified
   references:
     race: RACE-USA-AZ-LIEUTENANT_GOVERNOR-2026_GENERAL
-    person: PERSON-GILES_JH_7H
-- type: Person
-  code: PERSON-CASTILLO_LS_3N
+    citizen: CITIZEN-GILES_JH_7H
+- type: Citizen
+  code: CITIZEN-CASTILLO_LS_3N
   attributes:
     username: castillo_ls_3n
     username_status: provisional
@@ -353,9 +353,9 @@ records:
       party: PARTY-USA-AZ-GREEN
   references:
     race: RACE-USA-AZ-LIEUTENANT_GOVERNOR-2026_GENERAL
-    person: PERSON-CASTILLO_LS_3N
-- type: Person
-  code: PERSON-HARROLLE_MOHAN_AN_3G
+    citizen: CITIZEN-CASTILLO_LS_3N
+- type: Citizen
+  code: CITIZEN-HARROLLE_MOHAN_AN_3G
   attributes:
     username: harrolle_mohan_an_3g
     username_status: provisional
@@ -371,9 +371,9 @@ records:
       kind: unclassified
   references:
     race: RACE-USA-AZ-LIEUTENANT_GOVERNOR-2026_GENERAL
-    person: PERSON-HARROLLE_MOHAN_AN_3G
-- type: Person
-  code: PERSON-FIERRO_NC_9L
+    citizen: CITIZEN-HARROLLE_MOHAN_AN_3G
+- type: Citizen
+  code: CITIZEN-FIERRO_NC_9L
   attributes:
     username: fierro_nc_9l
     username_status: provisional
@@ -389,9 +389,9 @@ records:
       kind: petition
   references:
     race: RACE-USA-AZ-SENATE-LD_10-2026_GENERAL
-    person: PERSON-FIERRO_NC_9L
-- type: Person
-  code: PERSON-LOPEZ_JH_2N
+    citizen: CITIZEN-FIERRO_NC_9L
+- type: Citizen
+  code: CITIZEN-LOPEZ_JH_2N
   attributes:
     username: lopez_jh_2n
     username_status: provisional
@@ -404,9 +404,9 @@ records:
     participation: active
   references:
     race: RACE-USA-AZ-SUPREME_COURT-JUSTICE-RETENTION_OF_JOHN_LOPEZ_IV-2026_GENERAL
-    person: PERSON-LOPEZ_JH_2N
-- type: Person
-  code: PERSON-JACOBS_AN_8E
+    citizen: CITIZEN-LOPEZ_JH_2N
+- type: Citizen
+  code: CITIZEN-JACOBS_AN_8E
   attributes:
     username: jacobs_an_8e
     username_status: provisional
@@ -419,9 +419,9 @@ records:
     participation: active
   references:
     race: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_ANDREW_JACOBS-2026_GENERAL
-    person: PERSON-JACOBS_AN_8E
-- type: Person
-  code: PERSON-FOSTER_AN_9M
+    citizen: CITIZEN-JACOBS_AN_8E
+- type: Citizen
+  code: CITIZEN-FOSTER_AN_9M
   attributes:
     username: foster_an_9m
     username_status: provisional
@@ -435,9 +435,9 @@ records:
     participation: active
   references:
     race: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_ANNI_HILL_FOSTER-2026_GENERAL
-    person: PERSON-FOSTER_AN_9M
-- type: Person
-  code: PERSON-KILEY_DN_4H
+    citizen: CITIZEN-FOSTER_AN_9M
+- type: Citizen
+  code: CITIZEN-KILEY_DN_4H
   attributes:
     username: kiley_dn_4h
     username_status: provisional
@@ -450,9 +450,9 @@ records:
     participation: active
   references:
     race: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_DANIEL_KILEY-2026_GENERAL
-    person: PERSON-KILEY_DN_4H
-- type: Person
-  code: PERSON-WEINZWEIG_DV_8Z
+    citizen: CITIZEN-KILEY_DN_4H
+- type: Citizen
+  code: CITIZEN-WEINZWEIG_DV_8Z
   attributes:
     username: weinzweig_dv_8z
     username_status: provisional
@@ -465,9 +465,9 @@ records:
     participation: active
   references:
     race: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_DAVID_WEINZWEIG-2026_GENERAL
-    person: PERSON-WEINZWEIG_DV_8Z
-- type: Person
-  code: PERSON-MORSE_JM_4T
+    citizen: CITIZEN-WEINZWEIG_DV_8Z
+- type: Citizen
+  code: CITIZEN-MORSE_JM_4T
   attributes:
     username: morse_jm_4t
     username_status: provisional
@@ -480,9 +480,9 @@ records:
     participation: active
   references:
     race: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_JAMES_MORSE_JR-2026_GENERAL
-    person: PERSON-MORSE_JM_4T
-- type: Person
-  code: PERSON-PERKINS_JN_3Z
+    citizen: CITIZEN-MORSE_JM_4T
+- type: Citizen
+  code: CITIZEN-PERKINS_JN_3Z
   attributes:
     username: perkins_jn_3z
     username_status: provisional
@@ -495,9 +495,9 @@ records:
     participation: active
   references:
     race: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_JENNIFER_PERKINS-2026_GENERAL
-    person: PERSON-PERKINS_JN_3Z
-- type: Person
-  code: PERSON-CATLETT_MC_2V
+    citizen: CITIZEN-PERKINS_JN_3Z
+- type: Citizen
+  code: CITIZEN-CATLETT_MC_2V
   attributes:
     username: catlett_mc_2v
     username_status: provisional
@@ -510,9 +510,9 @@ records:
     participation: active
   references:
     race: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_MICHAEL_CATLETT-2026_GENERAL
-    person: PERSON-CATLETT_MC_2V
-- type: Person
-  code: PERSON-HOWE_RN_8Q
+    citizen: CITIZEN-CATLETT_MC_2V
+- type: Citizen
+  code: CITIZEN-HOWE_RN_8Q
   attributes:
     username: howe_rn_8q
     username_status: provisional
@@ -525,9 +525,9 @@ records:
     participation: active
   references:
     race: RACE-USA-AZ-APPEAL-DIV_1-APPELLATE_JUDGE-RETENTION_OF_RANDALL_HOWE-2026_GENERAL
-    person: PERSON-HOWE_RN_8Q
-- type: Person
-  code: PERSON-SKLAR_JF_9A
+    citizen: CITIZEN-HOWE_RN_8Q
+- type: Citizen
+  code: CITIZEN-SKLAR_JF_9A
   attributes:
     username: sklar_jf_9a
     username_status: provisional
@@ -540,9 +540,9 @@ records:
     participation: active
   references:
     race: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_JEFFREY_SKLAR-2026_GENERAL
-    person: PERSON-SKLAR_JF_9A
-- type: Person
-  code: PERSON-KELLY_MC_2R
+    citizen: CITIZEN-SKLAR_JF_9A
+- type: Citizen
+  code: CITIZEN-KELLY_MC_2R
   attributes:
     username: kelly_mc_2r
     username_status: provisional
@@ -555,9 +555,9 @@ records:
     participation: active
   references:
     race: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_MICHAEL_KELLY-2026_GENERAL
-    person: PERSON-KELLY_MC_2R
-- type: Person
-  code: PERSON-BREARCLIFFE_SN_6J
+    citizen: CITIZEN-KELLY_MC_2R
+- type: Citizen
+  code: CITIZEN-BREARCLIFFE_SN_6J
   attributes:
     username: brearcliffe_sn_6j
     username_status: provisional
@@ -570,9 +570,9 @@ records:
     participation: active
   references:
     race: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_SEAN_BREARCLIFFE-2026_GENERAL
-    person: PERSON-BREARCLIFFE_SN_6J
-- type: Person
-  code: PERSON-O_NEIL_CH_9K
+    citizen: CITIZEN-BREARCLIFFE_SN_6J
+- type: Citizen
+  code: CITIZEN-O_NEIL_CH_9K
   attributes:
     username: o_neil_ch_9k
     username_status: provisional
@@ -585,9 +585,9 @@ records:
     participation: active
   references:
     race: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_CHRISTOPHER_O_NEIL-2026_GENERAL
-    person: PERSON-O_NEIL_CH_9K
-- type: Person
-  code: PERSON-EPPICH_KR_4R
+    citizen: CITIZEN-O_NEIL_CH_9K
+- type: Citizen
+  code: CITIZEN-EPPICH_KR_4R
   attributes:
     username: eppich_kr_4r
     username_status: provisional
@@ -600,9 +600,9 @@ records:
     participation: active
   references:
     race: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_KARL_EPPICH-2026_GENERAL
-    person: PERSON-EPPICH_KR_4R
-- type: Person
-  code: PERSON-GARD_LC_2N
+    citizen: CITIZEN-EPPICH_KR_4R
+- type: Citizen
+  code: CITIZEN-GARD_LC_2N
   attributes:
     username: gard_lc_2n
     username_status: provisional
@@ -616,4 +616,4 @@ records:
     participation: active
   references:
     race: RACE-USA-AZ-APPEAL-DIV_2-APPELLATE_JUDGE-RETENTION_OF_LACEY_STOVER_GARD-2026_GENERAL
-    person: PERSON-GARD_LC_2N
+    citizen: CITIZEN-GARD_LC_2N

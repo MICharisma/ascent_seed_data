@@ -23,14 +23,14 @@ def entries(index):
             return code
         row = resolve(code)
         attributes = row.get("attributes", {})
-        if row.get("type") == "Person":
+        if row.get("type") == "Citizen":
             return " ".join(attributes[key] for key in ("first_name", "middle_name", "last_name") if attributes.get(key)) or code
         for key in ("name", "title", "alt_text", "handle"):
             if attributes.get(key):
                 return str(attributes[key])
         refs = references(row)
         keys = {"Office": ("position", "jurisdiction"), "Race": ("office", "election"),
-                "Candidacy": ("person", "race"), "ImagePlacement": ("image", "subject")}.get(row.get("type"), ())
+                "Candidacy": ("citizen", "race"), "ImagePlacement": ("image", "subject")}.get(row.get("type"), ())
         parts = [name(refs[key], visited | {code}) for key in keys if refs.get(key)]
         return " · ".join(parts) or code
 
@@ -70,7 +70,7 @@ def export(index, directory, check=False):
                "Use the [Python setup](../WORKERS.md#set-up-validation) before running these commands.", "",
                "These records are defined in the repository. This catalog does not report database imports.", "",
                "Search with `.venv/bin/python tools/seed_contract.py lookup Albany --type County --state NY`.",
-               "State filters follow manifest scope and references. For people, they do not establish residence.", "",
+               "State filters follow manifest scope and references. For citizens, they do not establish residence.", "",
                "Each CSV includes entity codes, names, state codes, FIPS, aliases, references, and source paths.",
                "Use `--format json` with `lookup` to export matching records as JSON.", "",
                "| Type | State entity code | Records | Browse | Sources |",

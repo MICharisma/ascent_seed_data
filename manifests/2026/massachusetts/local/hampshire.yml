@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_HAMPSHIRE-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_HAMPSHIRE-REGISTER_OF_PROBATE
-  - type: Person
-    code: PERSON-AMES_MR_9H
+  - type: Citizen
+    code: CITIZEN-AMES_MR_9H
     attributes:
       username: ames_mr_9h
       username_status: provisional
@@ -54,4 +54,4 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-COUNTY_HAMPSHIRE-REGISTER_OF_PROBATE-2026_GENERAL
-      person: PERSON-AMES_MR_9H
+      citizen: CITIZEN-AMES_MR_9H

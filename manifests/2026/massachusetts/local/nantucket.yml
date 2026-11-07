@@ -35,8 +35,8 @@ groups:
     references:
       election: ELECTION-USA-MA-COUNTY_NANTUCKET-2026_GENERAL
       office: OFFICE-USA-MA-COUNTY_NANTUCKET-REGISTER_OF_PROBATE
-  - type: Person
-    code: PERSON-MAXWELL_SR_4D
+  - type: Citizen
+    code: CITIZEN-MAXWELL_SR_4D
     attributes:
       username: maxwell_sr_4d
       username_status: provisional
@@ -54,4 +54,4 @@ groups:
         party: PARTY-USA-MA-DEMOCRATIC
     references:
       race: RACE-USA-MA-COUNTY_NANTUCKET-REGISTER_OF_PROBATE-2026_GENERAL
-      person: PERSON-MAXWELL_SR_4D
+      citizen: CITIZEN-MAXWELL_SR_4D
