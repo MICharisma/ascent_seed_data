@@ -1,0 +1,37 @@
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ASC
+source:
+  contributor: Ascent maintainer
+  url: https://begin.ascent.ing
+  captured_on: '2026-11-13'
+  verification_note: Same-race duplicate candidacies after confirmed Citizen identity consolidation; maintainer approved cleanup.
+records:
+- type: Candidacy
+  code: CANDIDACY-USA-VA-FRANKLIN-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL-MCLEMORE_GR_7M
+  aliases:
+  - CANDIDACY-USA-VA-FRANKLIN-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL-MCLEMORE_GR_8A
+  attributes:
+    status: active
+    participation: active
+  references:
+    race: RACE-USA-VA-FRANKLIN-COUNCIL_MEMBER-DISTRICT_3-2026_GENERAL
+    citizen: CITIZEN-MCLEMORE_GR_7M
+- type: Candidacy
+  code: CANDIDACY-USA-SD-SENATE-SD_10-NOMINEE_REPUBLICAN-2026_PRIMARY-DUPIC_MC_5V
+  aliases:
+  - CANDIDACY-USA-SD-SENATE-SD_10-NOMINEE_REPUBLICAN-2026_PRIMARY-DUPIC_MC_7F
+  attributes:
+    status: active
+    participation: active
+    ballot_lines:
+    - label: Republican
+      kind: party
+      party: PARTY-USA-SD-REPUBLICAN
+  references:
+    race: RACE-USA-SD-SENATE-SD_10-NOMINEE_REPUBLICAN-2026_PRIMARY
+    citizen: CITIZEN-DUPIC_MC_5V
+  source:
+    contributor: Ascent Clerk
+    url: https://vip.sdsos.gov/candidatelist.aspx?eid=774
+    captured_on: '2026-10-29'
