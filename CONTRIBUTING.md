@@ -13,6 +13,8 @@ For a new election graph, start with the paired [minimum YAML/JSON examples](exa
 
 ## Writing a manifest
 
+Maintainers consolidate confirmed Citizen identities in `manifests/contributions/ascent-identity/citizens.yml`. Keep one definition there and retain earlier issued codes as aliases. The Ascent ballot converter omits those Citizens from regenerated ballot manifests while leaving candidacy references and sourced ballot rows intact. Reuse the canonical code when adding contributions. See Ascent's `doc/citizen-consolidation.md` for the database consolidation and replay checks.
+
 Every file starts with the envelope and lists records by type and code:
 
 ```yaml
